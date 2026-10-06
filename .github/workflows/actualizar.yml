@@ -1,0 +1,75 @@
+name: Actualizar panel
+
+on:
+  schedule:
+    - cron: "17 * * * *"     # cada hora
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ["data/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: panel
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests beautifulsoup4
+
+      - name: Encuestas
+        continue-on-error: true
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/encuestas.py
+
+      - name: Fiabilidad de encuestadoras (una vez al día)
+        continue-on-error: true
+        run: |
+          if [ ! -f data/fiabilidad.json ] || [ "$(date -u +%H)" = "04" ]; then python scripts/fiabilidad.py; else echo "Se mantiene la del día"; fi
+
+      - name: Noticias y verificaciones
+        continue-on-error: true
+        run: python scripts/noticias.py
+
+      - name: Atención en Wikipedia (una vez al día)
+        continue-on-error: true
+        run: |
+          if [ ! -f data/atencion.json ] || [ "$(date -u +%H)" = "05" ]; then python scripts/atencion.py; else echo "Se mantiene la del día"; fi
+
+      - name: Bot de Telegram (porra)
+        continue-on-error: true
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/telegram_bot.py
+
+      - name: Guardar datos en el repo
+        run: |
+          git config user.name "panel-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "datos $(date -u +%Y-%m-%dT%H:%M)" && git pull --rebase && git push)
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: despliegue
+        uses: actions/deploy-pages@v4

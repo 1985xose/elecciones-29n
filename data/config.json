@@ -1,0 +1,23 @@
+{
+  "eleccion": {"nombre": "Elecciones generales", "fecha": "2026-11-29", "cierre_urnas": "2026-11-29T19:00:00Z", "mayoria": 176},
+  "telegram_bot": "",
+  "orden_hemiciclo": ["Podemos","Sumar","ERC","Bildu","PSOE","BNG","PNV","Junts","CCa","UPN","PP","Vox","SALF","AC"],
+  "partidos": {
+    "PP":      {"nombre": "PP",              "color": "#1D84CE", "consulta": "\"Partido Popular\" OR Feijóo",        "lider": "Alberto_Núñez_Feijóo"},
+    "PSOE":    {"nombre": "PSOE",            "color": "#E30613", "consulta": "PSOE OR \"Pedro Sánchez\"",            "lider": "Pedro_Sánchez"},
+    "Vox":     {"nombre": "Vox",             "color": "#5FB22A", "consulta": "Vox OR Abascal",                       "lider": "Santiago_Abascal"},
+    "Sumar":   {"nombre": "Sumar",           "color": "#E5326E", "consulta": "Sumar",                                "lider": "Yolanda_Díaz"},
+    "Podemos": {"nombre": "Podemos",         "color": "#6C3483", "consulta": "Podemos",                              "lider": "Irene_Montero"},
+    "SALF":    {"nombre": "SALF",            "color": "#7A5C3E", "consulta": "\"Se Acabó La Fiesta\" OR Alvise",     "lider": "Alvise_Pérez"},
+    "ERC":     {"nombre": "ERC",             "color": "#F2A900", "consulta": "ERC OR Rufián",                        "lider": "Gabriel_Rufián"},
+    "Junts":   {"nombre": "Junts",           "color": "#20B5A6", "consulta": "Junts OR Puigdemont",                  "lider": "Carles_Puigdemont"},
+    "Bildu":   {"nombre": "EH Bildu",        "color": "#9DBB1E", "consulta": "\"EH Bildu\"",                         "lider": ""},
+    "PNV":     {"nombre": "PNV",             "color": "#2E7D4F", "consulta": "PNV",                                  "lider": ""},
+    "BNG":     {"nombre": "BNG",             "color": "#79B4DE", "consulta": "BNG",                                  "lider": ""},
+    "CCa":     {"nombre": "CC",              "color": "#E9C21B", "consulta": "\"Coalición Canaria\"",                "lider": ""},
+    "UPN":     {"nombre": "UPN",             "color": "#2C4F9E", "consulta": "UPN",                                  "lider": ""},
+    "AC":      {"nombre": "Aliança Catalana","color": "#1F3A5F", "consulta": "\"Aliança Catalana\" OR Orriols",       "lider": "Sílvia_Orriols"}
+  },
+  "titulares_generales": "elecciones generales 29 de noviembre",
+  "verificadores": "(site:newtral.es OR site:maldita.es)"
+}

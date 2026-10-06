@@ -1,0 +1,52 @@
+"""Ranking de acierto de las encuestadoras: última encuesta de cada una antes de 23J-2023 y 10N-2019."""
+from datetime import date
+from comun import escribir, ahora_iso, clave_empresa
+from wikitabla import html_pagina, parsear_tablas
+
+ELECCIONES = [
+    {"nombre": "23J 2023", "pagina": "Opinion polling for the 2023 Spanish general election", "fecha": date(2023, 7, 23)},
+    {"nombre": "10N 2019", "pagina": "Opinion polling for the November 2019 Spanish general election", "fecha": date(2019, 11, 10)},
+]
+
+
+def main():
+    salida, acumulado = [], {}
+    for el in ELECCIONES:
+        _, _, html = html_pagina(el["pagina"])
+        filas, _ = parsear_tablas(html)
+        real = next((f for f in filas if f.get("es_resultado") and f["fin"] == el["fecha"].isoformat()), None)
+        if not real:
+            print(f"{el['nombre']}: no encuentro la fila del resultado real, se omite")
+            continue
+        principales = [k for k, _ in sorted(real["pct"].items(), key=lambda kv: -kv[1])[:4]]
+        limite = date.fromordinal(el["fecha"].toordinal() - 6).isoformat()  # antes de la veda de 5 días
+        ultima = {}
+        for f in filas:
+            if f.get("es_resultado") or f["fin"] > limite:
+                continue
+            clave, base = clave_empresa(f["empresa"])
+            if not clave or (clave in ultima and ultima[clave]["fin"] >= f["fin"]):
+                continue
+            if all(p in f["pct"] for p in principales):
+                ultima[clave] = {**f, "clave": clave, "base": base}
+        firmas = []
+        for clave, f in ultima.items():
+            errores = {p: round(f["pct"][p] - real["pct"][p], 1) for p in principales}
+            mae = round(sum(abs(v) for v in errores.values()) / len(errores), 2)
+            firmas.append({"clave": clave, "empresa": f["base"], "fin": f["fin"], "error_medio": mae, "errores": errores})
+            acumulado.setdefault(clave, {"empresa": f["base"], "errores": []})["errores"].append(mae)
+        firmas.sort(key=lambda x: x["error_medio"])
+        salida.append({"nombre": el["nombre"], "resultado": {p: real["pct"][p] for p in principales}, "firmas": firmas})
+        print(f"{el['nombre']}: real {[(p, real['pct'][p]) for p in principales]}  empresas evaluadas {len(firmas)}")
+        for x in firmas[:5]:
+            print(f"   {x['empresa']:<25} {x['fin']}  error medio {x['error_medio']}")
+    ranking = [{"clave": k, "empresa": v["empresa"], "error_medio": round(sum(v["errores"]) / len(v["errores"]), 2),
+                "elecciones": len(v["errores"])} for k, v in acumulado.items()]
+    ranking.sort(key=lambda x: (x["error_medio"], -x["elecciones"]))
+    if not ranking:
+        raise SystemExit("Sin datos de fiabilidad, no se escribe nada")
+    escribir("fiabilidad.json", {"actualizado": ahora_iso(), "elecciones": salida, "ranking": ranking})
+
+
+if __name__ == "__main__":
+    main()
