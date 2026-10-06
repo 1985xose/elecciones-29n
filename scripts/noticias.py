@@ -26,6 +26,12 @@ def huella(titulo):
     return re.sub(r"[^a-z0-9]", "", plano(titulo))[:60]
 
 
+def parecidos(a, b):
+    """Dos titulares cuentan la misma noticia si comparten casi todas las palabras largas, aunque cambie alguna."""
+    pa, pb = ({w for w in re.findall(r"[a-z0-9]{4,}", plano(t))} for t in (a, b))
+    return bool(pa and pb) and len(pa & pb) / min(len(pa), len(pb)) >= 0.75
+
+
 def imagen_de(it):
     """La foto de un titular, la busque donde la ponga cada periódico. Solo https. De varias, la de unos 500 px de ancho."""
     cands = []
@@ -89,6 +95,16 @@ def patron(terminos):
     """Expresión que encuentra cualquiera de los términos como palabra (o principio de palabra) en un texto plano."""
     ts = sorted({plano(t) for t in terminos if plano(t)}, key=len, reverse=True)
     return re.compile(r"(?<![a-z0-9])(" + "|".join(re.escape(t) for t in ts) + r")") if ts else None
+
+
+def sin_acentos(t):
+    return "".join(c for c in unicodedata.normalize("NFD", html.unescape(t or "")) if unicodedata.category(c) != "Mn")
+
+
+def patron_nombres(terminos):
+    """Nombres propios y siglas como palabra entera y respetando mayúsculas: "Sumar" sí, "sumar mayoría" no."""
+    ts = sorted({sin_acentos(t) for t in terminos if t}, key=len, reverse=True)
+    return re.compile(r"(?<![A-Za-z0-9])(" + "|".join(re.escape(t) for t in ts) + r")(?![A-Za-z0-9])") if ts else None
 
 
 def terminos_consulta(consulta):
@@ -156,7 +172,7 @@ def buscar(q, n):
 def main():
     cfg = leer("config.json")
     previo = leer("noticias.json", {}) or {}
-    res = {"actualizado": ahora_iso(), "generales": [], "partidos": {}, "verificaciones": {}, "polemicas": []}
+    res = {"actualizado": ahora_iso(), "generales": [], "partidos": {}, "verificaciones": {}, "verificaciones_generales": [], "polemicas": []}
     try:
         res["generales"] = buscar(f"{cfg['titulares_generales']} when:1d", 10)
     except Exception as e:
@@ -170,6 +186,17 @@ def main():
         ya = {huella(x["titulo"]) for x in del_dia}
         relleno = [x for x in res["generales"] if huella(x["titulo"]) not in ya]
         res["generales"] = ([limpio(x) for x in del_dia] + relleno)[:10]
+    # Google News busca en todo el texto de la noticia, así que devuelve cosas que solo rozan al partido (o que hablan de
+    # otra cosa con las mismas siglas, como el ERC europeo de investigación). Un titular solo se le apunta a un partido
+    # si lo nombra en el propio titular, y solo es polémica si además el titular lleva una palabra de polémica.
+    nombres = {k: (patron_nombres(p.get("nombres") or terminos_consulta(p["consulta"])), patron_nombres(p.get("no") or [])) for k, p in cfg["partidos"].items()}
+    polemico = patron(cfg.get("polemicas_titular") or terminos_consulta(cfg["polemicas"]))
+
+    def nombra(k, titulo):
+        t = sin_acentos(titulo)
+        return bool(nombres[k][0] and nombres[k][0].search(t)) and not (nombres[k][1] and nombres[k][1].search(t))
+
+    descartes, verif = {"partido": 0, "polémica": 0, "verificación": 0}, {}
     por_huella = {huella(x["titulo"]): x for x in leidos if x["imagen"]}
     hace3 = (datetime.now(timezone.utc) - timedelta(days=3)).isoformat()
 
@@ -182,36 +209,57 @@ def main():
         return lista
     for k, p in cfg["partidos"].items():
         try:
-            res["partidos"][k] = buscar(f"({p['consulta']}) elecciones when:3d", 6)
+            hallados = buscar(f"({p['consulta']}) elecciones when:3d", 15)
+            res["partidos"][k] = [n for n in hallados if nombra(k, n["titulo"])][:6]
+            descartes["partido"] += len(hallados) - len([n for n in hallados if nombra(k, n["titulo"])])
         except Exception as e:
             print(k, e); res["partidos"][k] = previo.get("partidos", {}).get(k, [])
         # Hasta 3 titulares de los periódicos que nombran al partido en el titular, con foto, y el resto de Google News
-        pat = patron(terminos_consulta(p["consulta"]))
         propios, vistos = [], set()
-        for x in sorted((x for x in leidos if x["imagen"] and x["fecha"] and x["fecha"] >= hace3 and pat and pat.search(plano(x["titulo"]))), key=lambda x: x["fecha"], reverse=True):
+        for x in sorted((x for x in leidos if x["imagen"] and x["fecha"] and x["fecha"] >= hace3 and nombra(k, x["titulo"])), key=lambda x: x["fecha"], reverse=True):
             if huella(x["titulo"]) not in vistos and len(propios) < 3:
                 vistos.add(huella(x["titulo"])); propios.append(limpio(x))
         resto = [n for n in con_foto(res["partidos"][k]) if huella(n["titulo"]) not in vistos]
         res["partidos"][k] = sorted(propios + resto, key=lambda x: x.get("fecha") or "", reverse=True)[:6]
         try:
-            res["verificaciones"][k] = buscar(f"({p['consulta']}) {cfg['verificadores']} when:21d", 4)
+            hallados = buscar(f"({p['consulta']}) {cfg['verificadores']} when:21d", 8)
+            for n in hallados:
+                verif[huella(n["titulo"])] = n
+            res["verificaciones"][k] = [n for n in hallados if nombra(k, n["titulo"])][:4]
+            descartes["verificación"] += len(hallados) - len([n for n in hallados if nombra(k, n["titulo"])])
         except Exception as e:
             print(k, "verif", e); res["verificaciones"][k] = previo.get("verificaciones", {}).get(k, [])
         if k in ("PP", "PSOE", "Vox", "Sumar", "Podemos", "SALF", "ERC", "Junts", "Bildu", "PNV"):
             try:
-                for n in buscar(f"({p['consulta']}) ({cfg['polemicas']}) when:7d", 4):
+                hallados = buscar(f"({p['consulta']}) ({cfg['polemicas']}) when:7d", 12)
+                buenos = [n for n in hallados if nombra(k, n["titulo"]) and polemico.search(plano(n["titulo"]))]
+                descartes["polémica"] += len(hallados) - len(buenos)
+                for n in buenos[:4]:
                     res["polemicas"].append({**n, "partido": k})
             except Exception as e:
                 print(k, "polémicas", e)
     # La misma polémica sale al buscar por varios partidos. Se queda una sola vez.
-    vistas, unicas = set(), []
-    for n in res["polemicas"]:
-        if huella(n["titulo"]) not in vistas:
-            vistas.add(huella(n["titulo"])); unicas.append(n)
+    unicas = []
+    for n in sorted(res["polemicas"], key=lambda x: x["fecha"] or "", reverse=True):
+        if not any(parecidos(n["titulo"], u["titulo"]) for u in unicas):
+            unicas.append(n)
     res["polemicas"] = con_foto(unicas)
     res["polemicas"].sort(key=lambda x: x["fecha"] or "", reverse=True)
     if not res["polemicas"]:
         res["polemicas"] = previo.get("polemicas", [])
+    # Verificaciones de Newtral y Maldita sobre la campaña en general: van en un bloque propio, no colgadas de un partido
+    try:
+        for n in buscar(f"elecciones {cfg['verificadores']} when:14d", 12):
+            verif[huella(n["titulo"])] = n
+    except Exception as e:
+        print("verificaciones generales:", e)
+    for n in verif.values():
+        n["titulo"] = re.sub(r"\s*[·|-]\s*La Buloteca\s*$", "", n["titulo"]).strip()
+    politica = patron(cfg.get("portada_fuertes", []) + cfg.get("portada_claves", []))
+    generales = sorted((n for n in verif.values() if len(n["titulo"]) >= 30 and ((politica and politica.search(plano(n["titulo"]))) or any(nombra(k, n["titulo"]) for k in cfg["partidos"]))),
+                       key=lambda x: x["fecha"] or "", reverse=True)[:8]
+    res["verificaciones_generales"] = generales or previo.get("verificaciones_generales", [])
+    print(f"Descartados por no nombrar al partido en el titular: {descartes['partido']} titulares y {descartes['verificación']} verificaciones. Polémicas descartadas: {descartes['polémica']}")
     total = sum(len(v) for v in res["partidos"].values())
     fotos = sum(1 for x in res["generales"] if x.get("imagen")), sum(1 for v in res["partidos"].values() for x in v if x.get("imagen")), sum(1 for x in res["polemicas"] if x.get("imagen"))
     print(f"Con foto: {fotos[0]} titulares del día, {fotos[1]} por partido, {fotos[2]} polémicas")

@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=28">
+<link rel="stylesheet" href="assets/style.css?v=29">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
@@ -28,6 +28,7 @@
   <a href="#simulador" data-tab="simulador"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2zm-3 17h6v1.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 20.5z"/></svg>¿Y si…?</a>
   <a href="#noticias" data-tab="noticias"><svg viewBox="0 0 24 24"><path d="M4 4h13a2 2 0 0 1 2 2v12h1a1 1 0 0 1-1 1H6a3 3 0 0 1-3-3V5a1 1 0 0 1 1-1zm2 3v2h9V7zm0 4v2h9v-2zm0 4v2h6v-2zM21 9v9a1 1 0 0 1-2 0V9z"/></svg>Noticias</a>
   <a href="#el29n" data-tab="el29n"><svg viewBox="0 0 24 24"><path d="M7 2v2H5a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2zM5 10h14v9H5z"/></svg>29N</a>
+  <a href="#metodologia" data-tab="metodologia"><svg viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.2 8.2h2.4V17h-2.4zm0-3.6h2.4V9h-2.4z"/></svg><span class="largo">Metodología</span><span class="corto">Método</span></a>
 </nav>
 
 <main>
@@ -49,6 +50,7 @@
       <details class="como"><summary>¿De qué encuestas sale esto?</summary>
         <div id="media-hoy" class="media-hoy"></div>
         <p id="como-ganando" class="fuente"></p>
+        <p class="fuente"><a href="#metodologia">Cómo se hace la media, paso a paso</a></p>
       </details>
     </article>
 
@@ -209,8 +211,11 @@
     <h2>Titulares del día</h2>
     <div id="titulares-todos" class="titulares"></div>
     <h2>Polémicas</h2>
-    <p class="explica">Lo que los medios publican como polémica, caso o investigación sobre cada partido. Se recoge, no se valora.</p>
+    <p class="explica">Lo que los medios publican como polémica, caso o investigación sobre cada partido. Solo entran titulares que nombran al partido. Se recoge, no se valora.</p>
     <div id="polemicas-todas" class="polemicas"></div>
+    <h2>Bulos y verificaciones</h2>
+    <p class="explica">Lo que han comprobado Newtral y Maldita estos días sobre la campaña.</p>
+    <div id="verificaciones-todas" class="titulares"></div>
     <h2>Partido a partido</h2>
     <div id="fichas-partidos" class="fichas"></div>
   </section>
@@ -254,21 +259,99 @@
     </article>
   </section>
 
-  <p class="pie">Datos de las encuestas publicadas en Wikipedia, noticias de Google News, verificaciones de Newtral y Maldita. Las probabilidades son una estimación propia, no una predicción. <span id="actualizado"></span> <a href="#" id="ver-metodo">Cómo funciona esta app</a></p>
-  <details id="metodo" class="como" hidden><summary>Cómo funciona esta app</summary>
-      <p>Cada hora se descargan las encuestas y las noticias. Se calcula la media de encuestas y, con ella, cómo quedaría cada provincia según el voto de 2023, con Sumar, Podemos y SALF repartidos según dónde fue fuerte cada uno en las europeas de 2024, y la ley D'Hondt. Después se repite ese cálculo 10.000 veces metiendo el error real que tuvieron las encuestas en 2016, 2019 y 2023 y el que tienen las comunidades y provincias al moverse por su cuenta, y se cuenta cuántas veces pasa cada cosa. El código está en <a href="https://github.com/1985xose/elecciones-29n" target="_blank" rel="noopener">GitHub</a>.</p>
-      <h3>Notas a las encuestadoras</h3>
+  <section id="metodologia" class="pantalla" hidden>
+    <article class="pregunta texto">
+      <h2>Cómo se hace esta app</h2>
+      <p class="respuesta">Aquí está todo, sin letra pequeña. De dónde sale cada dato, qué cuentas se hacen con él y dónde puedes comprobarlo tú mismo.</p>
+      <p id="met-resumen"></p>
+      <p>Tres ideas antes de entrar en detalle. Los datos no son nuestros, son encuestas ya publicadas y resultados oficiales. Las cuentas son siempre las mismas para todos los partidos y están a la vista. Y esto es una estimación, no una predicción, porque las encuestas se equivocan y aquí se dice cuánto.</p>
+    </article>
+
+    <article class="pregunta texto">
+      <h2>1. De dónde salen los datos</h2>
+      <p><b>Las encuestas.</b> De la página de Wikipedia en inglés que recopila todas las encuestas publicadas sobre estas elecciones, <a id="met-wiki" href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election" target="_blank" rel="noopener">Opinion polling for the 2026 Spanish general election</a>. La mantienen voluntarios, se actualiza casi a diario y cada encuesta enlaza al medio que la publicó, así que cualquier número se puede comprobar en su origen. La app la lee cada hora y coge solo la tabla de estimación de voto.</p>
+      <p><b>Lo que se queda fuera al leerla.</b> Las filas que dan asientos pero no porcentajes, las estimaciones que hacen terceros con los datos del CIS y las encuestas con números imposibles (que no sumen entre 70 y 100). Si un día la tabla sale rara, con muchas menos encuestas o sin PP, PSOE o Vox, no se guarda nada y se sigue con los datos anteriores.</p>
+      <p><b>Los resultados de 2023 y 2019, provincia a provincia.</b> Son los oficiales del <a href="https://infoelectoral.interior.gob.es/" target="_blank" rel="noopener">Ministerio del Interior</a>, tomados de las tablas de Wikipedia. Sirven de punto de partida para repartir el voto por provincias.</p>
+      <p><b>Los asientos que reparte cada provincia.</b> Los del Real Decreto 806/2026, el que convoca estas elecciones.</p>
+      <p><b>Las europeas de 2024.</b> Resultados oficiales por provincia, del Ministerio del Interior vía Wikipedia. Solo se usan para saber en qué provincias es más fuerte cada uno de los partidos que en 2023 no se presentaron por separado (Sumar, Podemos y Se Acabó La Fiesta).</p>
+      <p><b>Las encuestas de otras elecciones.</b> Para saber cuánto fallan las encuestas se usan las de 2016, abril de 2019, noviembre de 2019 y 2023, de las páginas equivalentes de Wikipedia (<a href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_2016_Spanish_general_election" target="_blank" rel="noopener">2016</a>, <a href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_April_2019_Spanish_general_election" target="_blank" rel="noopener">abril de 2019</a>, <a href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_November_2019_Spanish_general_election" target="_blank" rel="noopener">noviembre de 2019</a> y <a href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_2023_Spanish_general_election" target="_blank" rel="noopener">2023</a>).</p>
+      <p><b>Las noticias.</b> Los titulares del día salen de los canales RSS de <span id="met-medios">varios periódicos</span>, uno de cada periódico antes de repetir ninguno. Los titulares por partido y las polémicas salen de buscar en <a href="https://news.google.com/" target="_blank" rel="noopener">Google News</a>. Las verificaciones son de <a href="https://www.newtral.es/" target="_blank" rel="noopener">Newtral</a> y <a href="https://maldita.es/" target="_blank" rel="noopener">Maldita</a>. De cada noticia solo se enseña el titular, la foto y el enlace al medio.</p>
+    </article>
+
+    <article class="pregunta texto">
+      <h2>2. Cómo se hace la media de encuestas</h2>
+      <p>No es sumar y dividir. Estas son las reglas, por orden.</p>
+      <p><b>Una por empresa.</b> De cada empresa cuenta solo su última encuesta. Así, la que publica cada semana no manda más que la que publica cada mes.</p>
+      <p><b>Solo las recientes.</b> <span id="met-ventana">Cuentan las de los últimos 60 días.</span> La fecha de una encuesta es el último día en que preguntó, no el día en que salió en el periódico, que suele ser unos días después.</p>
+      <p><b>Unas pesan más que otras.</b> Pesa más la más reciente (<span id="met-mitad">una de hace 10 días pesa la mitad que una de hoy</span>), la que preguntó a más gente (una de 4.000 entrevistas pesa el doble que una de 1.000) y la de la empresa que más acertó en elecciones anteriores (la que más acertó pesa, como mucho, algo más del doble que la que menos).</p>
+      <p><b>Ninguna manda sola.</b> Una encuesta no puede pesar más de la cuarta parte del total, por muy reciente y grande que sea.</p>
+      <p><b>Se corrigen las manías.</b> Cada empresa tiene las suyas, unas dan siempre algo más a un partido y otras algo menos. Se mide cuánto se ha separado cada empresa de la media de las demás en el último año largo, y eso se le resta a su encuesta antes de promediar. La corrección está hecha para que no mueva el conjunto, solo quita lo raro de cada una.</p>
+      <p><b>El CIS, aparte.</b> El CIS no entra en la media porque desde 2019 se separa mucho del resto, sobre todo con el PSOE. Se puede activar en la pestaña Encuestas para ver qué cambia.</p>
+      <p><b>Las de los partidos, fuera.</b> Las encuestas que hace o encarga un partido se enseñan, pero no cuentan.</p>
+      <p><b>Las empresas nuevas.</b> Una empresa que nunca ha pasado por unas elecciones cuenta como una empresa normal, ni mejor ni peor. Está medido, las debutantes de 2019 y 2023 fallaron lo mismo que las veteranas.</p>
+      <h3>Las encuestas que cuentan hoy y cuánto pesa cada una</h3>
+      <div id="met-media-hoy" class="media-hoy"></div>
+    </article>
+
+    <article class="pregunta texto">
+      <h2>3. De los votos a los asientos</h2>
+      <p>Las encuestas dan votos en toda España, pero los asientos se reparten provincia a provincia. El paso se hace así.</p>
+      <p><b>Se parte de 2023.</b> Se coge lo que sacó cada partido en cada provincia en las últimas generales.</p>
+      <p><b>Se mueve en proporción.</b> Si un partido tiene hoy en las encuestas un 10 % más de voto que en 2023, se le sube un 10 % en todas las provincias. Si tiene menos, se le baja igual.</p>
+      <p><b>Los partidos que en 2023 no iban solos.</b> Sumar y Podemos fueron juntos, y Se Acabó La Fiesta no existía. Para repartirlos por provincias se mira dónde fue más fuerte cada uno en las europeas de 2024.</p>
+      <p><b>Se reparten los asientos.</b> En cada provincia se aplica la ley electoral tal cual. Solo entran los partidos con al menos el 3 % del voto de esa provincia y los asientos se reparten con la fórmula D'Hondt. El reparto de cada provincia, división a división, se puede ver tocándola en la pestaña Provincias.</p>
+      <p>Eso da el número de asientos «con las encuestas de hoy» que sale en el hemiciclo, en el mapa y en ¿Y si…?. Es siempre el mismo cálculo.</p>
+    </article>
+
+    <article class="pregunta texto">
+      <h2>4. Por qué decimos «probable» y no un resultado fijo</h2>
+      <p>Porque las encuestas fallan, y se sabe cuánto. <span id="met-error"></span></p>
+      <p><b>Las elecciones se repiten 10.000 veces en el ordenador.</b> En cada repetición se le mete a cada partido un error al azar del tamaño del que tuvieron las encuestas de verdad en 2016, 2019 y 2023 a esta misma distancia de la votación. <span id="met-tiempo"></span></p>
+      <p><b>Los errores no van sueltos.</b> Cuando las encuestas se quedan cortas con un partido de la derecha suelen quedarse cortas con toda la derecha, y lo mismo con la izquierda. Las repeticiones lo tienen en cuenta.</p>
+      <p><b>Cada sitio va un poco por libre.</b> Una comunidad o una provincia puede moverse distinto que el conjunto de España. Cuánto, se ha medido comparando 2019 con 2023.</p>
+      <p><b>Se cuenta cuántas veces pasa cada cosa</b> y se dice con una palabra, siempre con la misma tabla.</p>
+      <div class="tabla-palabras"><span><b>Muy probable</b> pasa en más del 80 % de las repeticiones</span><span><b>Probable</b> entre el 60 y el 80 %</span><span><b>En el aire</b> entre el 40 y el 60 %</span><span><b>Difícil</b> entre el 20 y el 40 %</span><span><b>Muy difícil</b> en menos del 20 %</span></div>
+      <p><b>«Lo normal es que acabe entre…»</b> es la franja donde cae el resultado el 80 % de las veces. El resto de las veces queda algo por encima o algo por debajo.</p>
+    </article>
+
+    <article class="pregunta texto">
+      <h2>5. ¿Y esto acierta?</h2>
+      <div id="met-backtest"></div>
+      <p><b>Lo que esta app no sabe.</b> No sabe qué va a pasar en la campaña. No conoce las listas definitivas hasta que se publiquen, ni las coaliciones de última hora. No usa encuestas de una sola provincia o comunidad. Y si todas las encuestas se equivocan a la vez en la misma dirección, como pasó en 2023, la media se equivoca con ellas. Por eso se enseña siempre la franja y no solo un número.</p>
+    </article>
+
+    <article class="pregunta texto">
+      <h2>6. La nota de cada empresa de encuestas</h2>
+      <p>La nota mide una sola cosa, cuánto se acercó la última encuesta de esa empresa antes de cada elección al resultado real, en los cuatro partidos principales. Se promedian las elecciones de 2016, las dos de 2019 y 2023 en las que publicó.</p>
+      <div class="tabla-palabras"><span><b>A</b> falló de media 1,2 puntos o menos por partido</span><span><b>B</b> hasta 1,8 puntos</span><span><b>C</b> hasta 2,5 puntos</span><span><b>D</b> más de 2,5 puntos</span><span><b>–</b> no publicó en esas elecciones</span></div>
+      <p>Debajo de cada empresa salen sus manías, lo que suele dar de más o de menos a cada partido respecto a las demás.</p>
       <div id="fiabilidad" class="fiabilidad"></div>
-      <h3>De quién se habla</h3>
-      <div class="grafico"><canvas id="grafico-atencion" aria-label="Visitas diarias en Wikipedia"></canvas></div>
-      <div id="porra-instrucciones" hidden></div><div id="porra" hidden></div>
-    </details>
+    </article>
+
+    <article class="pregunta texto">
+      <h2>7. El Senado y las noticias</h2>
+      <p><b>El Senado.</b> Se usa el mismo reparto de voto por provincias. En cada provincia se dan 3 senadores al partido más votado y 1 al segundo, que es lo que pasa casi siempre, con el reparto propio de las islas, Ceuta y Melilla. Es una simplificación, porque al Senado se vota a personas y no a listas.</p>
+      <p><b>Las noticias por partido.</b> Un titular solo se le apunta a un partido si lo nombra en el propio titular. Para que entre en Polémicas, además, el titular tiene que llevar una palabra como juez, Fiscalía, imputado, querella o polémica. Es un filtro automático y puede colarse alguna noticia que no toca. No se valora ni se opina, solo se recoge lo publicado.</p>
+    </article>
+
+    <article class="pregunta texto">
+      <h2>8. Quién lo hace y cómo comprobarlo</h2>
+      <p>Es un proyecto personal, hecho por afición. No lleva publicidad y no depende de ningún partido, medio ni empresa de encuestas.</p>
+      <p><b>El código es público.</b> Todas las cuentas que se explican aquí están en <a href="https://github.com/1985xose/elecciones-29n" target="_blank" rel="noopener">github.com/1985xose/elecciones-29n</a>. Cualquiera puede leerlo, copiarlo y rehacer los cálculos.</p>
+      <p><b>Los datos también.</b> Son los mismos ficheros que usa la app. <a href="data/encuestas.json" target="_blank" rel="noopener">Todas las encuestas</a>, <a href="data/probabilidades.json" target="_blank" rel="noopener">las probabilidades y el resultado de las repeticiones</a>, <a href="data/analisis.json" target="_blank" rel="noopener">las manías y notas de cada empresa</a>, <a href="data/fiabilidad.json" target="_blank" rel="noopener">el acierto de cada empresa en elecciones anteriores</a>, <a href="data/base2023.json" target="_blank" rel="noopener">los resultados de 2023 por provincia</a> y <a href="data/noticias.json" target="_blank" rel="noopener">las noticias</a>.</p>
+      <p><b>Se actualiza sola.</b> Un programa descarga las encuestas y las noticias cada hora y rehace todas las cuentas. Arriba a la derecha pone siempre la hora de la última actualización.</p>
+      <p>Si ves un dato que no cuadra con su fuente, es un fallo y se corrige.</p>
+    </article>
+  </section>
+
+  <p class="pie">Encuestas publicadas, recopiladas en Wikipedia. Noticias de los RSS de los periódicos y de Google News. Verificaciones de Newtral y Maldita. Las probabilidades son una estimación propia, no una predicción. <span id="actualizado"></span> <a href="#metodologia">Cómo se hace todo esto, paso a paso</a></p>
+  <div id="porra-instrucciones" hidden></div><div id="porra" hidden></div>
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-<script src="assets/modelo.js?v=28"></script>
-<script src="assets/media.js?v=28"></script>
-<script src="assets/app.js?v=28"></script>
+<script src="assets/modelo.js?v=29"></script>
+<script src="assets/media.js?v=29"></script>
+<script src="assets/app.js?v=29"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;

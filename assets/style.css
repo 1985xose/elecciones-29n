@@ -29,15 +29,17 @@ h2 { font-stretch: 78%; font-weight: 750; font-size: 1.45rem; line-height: 1.1; 
 @media (max-width: 400px) { .lema { display: none; } }
 .cuenta strong { color: var(--tinta); }
 .pestanas { position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; display: flex; justify-content: space-around; background: var(--superficie); border-top: 1px solid var(--linea); padding: 6px 2px calc(6px + env(safe-area-inset-bottom, 0px)); }
-.pestanas a { flex: 1 1 0; min-width: 0; text-align: center; text-decoration: none; color: var(--gris); font-size: .64rem; font-weight: 650; font-stretch: 85%; letter-spacing: -.01em; white-space: nowrap; padding: 6px 0 4px; border-radius: 10px; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.pestanas a { flex: 1 1 0; min-width: 0; text-align: center; text-decoration: none; color: var(--gris); font-size: .56rem; font-weight: 650; font-stretch: 80%; letter-spacing: -.01em; white-space: nowrap; padding: 6px 0 4px; border-radius: 10px; display: flex; flex-direction: column; align-items: center; gap: 2px; }
 .pestanas a svg { width: 22px; height: 22px; fill: currentColor; }
 .pestanas a.activa { color: var(--tinta); background: var(--papel); }
-@media (max-width: 380px) { .pestanas a { font-size: .58rem; } .pestanas a svg { width: 20px; height: 20px; } }
+@media (max-width: 380px) { .pestanas a { font-size: .54rem; } .pestanas a svg { width: 20px; height: 20px; } }
+.pestanas .largo { display: none; }
+@media (min-width: 430px) and (max-width: 759px) { .pestanas a { font-size: .62rem; } }
 .pestanas a.activa svg { fill: var(--bronce); }
 @media (min-width: 760px) {
   body { padding-bottom: 40px; }
   .pestanas { position: sticky; top: 0; bottom: auto; border-top: 0; border-bottom: 1px solid var(--linea); justify-content: center; gap: 2px; padding: 8px 4px; }
-  .pestanas a { flex: none; font-size: .9rem; font-stretch: 100%; letter-spacing: 0; padding: 8px 10px; flex-direction: row; gap: 6px; }
+  .pestanas a { flex: none; font-size: .86rem; font-stretch: 100%; letter-spacing: 0; padding: 8px 7px; flex-direction: row; gap: 5px; }
   .pestanas a svg { width: 20px; height: 20px; }
 }
 main { max-width: 760px; margin: 0 auto; padding: 4px 16px 24px; }
@@ -397,3 +399,11 @@ details[open] summary::after { content: "–"; }
 .hemi-ficha .boton { margin-top: 4px; background: var(--superficie); font: inherit; font-size: .88rem; font-weight: 600; color: var(--tinta); }
 #simulador .hemi-ficha .boton { background: var(--papel); }
 .hemi-ficha .cerrar { position: absolute; top: 4px; right: 6px; width: 32px; height: 32px; border: 0; background: none; font-size: 1.4rem; line-height: 1; color: var(--gris); cursor: pointer; }
+
+@media (min-width: 900px) { .pestanas a { font-size: .9rem; padding: 8px 10px; gap: 6px; } .pestanas .largo { display: inline; } .pestanas .corto { display: none; } }
+/* Metodología */
+.pregunta.texto h3 { font-size: 1rem; margin: 16px 0 8px; }
+.pregunta.texto a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.tabla-palabras { display: grid; gap: 4px; margin: 10px 0 4px; }
+.tabla-palabras span { background: var(--papel); border-radius: 8px; padding: 7px 12px; font-size: .92rem; }
+.tabla-palabras b { display: inline-block; min-width: 7.2em; }

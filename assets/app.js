@@ -67,10 +67,11 @@ const nombreEsc = (e) => (D.config.escenarios.find((x) => x.id === e.id) || {}).
 
 /* ---------- Pestañas ---------- */
 function activarPestana(id) {
-  const ids = ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias", "el29n"];
+  const ids = ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias", "el29n", "metodologia"];
   if (!ids.includes(id)) id = "hoy";
   for (const i of ids) document.getElementById(i).hidden = i !== id;
   document.querySelectorAll(".pestanas a").forEach((a) => a.classList.toggle("activa", a.dataset.tab === id));
+  $("#foco-tira").hidden = id === "el29n" || id === "metodologia"; // ahí no hay nada propio de un partido
   window.scrollTo({ top: 0 });
   if (id === "encuestas" && !graficoTendencia && D.listo) pintarTendencia();
   if (id === "encuestas" && D.listo) pintarGraficoFoco();
@@ -287,6 +288,7 @@ function pintarHoy(m, m7, proy) {
   $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 4).map((n) => noticia(n)), ...(D.noticias?.polemicas || []).slice(0, 2).map((n) => noticia(n)));
   $("#titulares-todos").replaceChildren(...(D.noticias?.generales || []).slice(0, 12).map((n, i) => noticia(n, { grande: i === 0 })));
   $("#polemicas-todas").replaceChildren(...((D.noticias?.polemicas || []).length ? D.noticias.polemicas.slice(0, 12).map((n) => noticia(n)) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
+  $("#verificaciones-todas").replaceChildren(...((D.noticias?.verificaciones_generales || []).length ? D.noticias.verificaciones_generales.slice(0, 8).map((n) => noticia(n)) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
 
   // 6. Fechas
   const ag = D.agenda || [], sig = ag.find((x) => fechaD(x.fin || x.fecha) >= hoy());
@@ -863,6 +865,29 @@ function pintarTodo(opciones) {
   pintarPorra(proy);
   pintarPartidos(m, proy);
   pintarFoco({ m, m7, proy });
+  pintarMetodo(m);
+}
+
+/* ---------- Metodología: las cifras del texto salen de los datos del día, no están escritas a mano ---------- */
+function pintarMetodo(m) {
+  const E = D.encuestas?.encuestas || [], P = D.prob;
+  if (E.length) {
+    const empresas = new Set(E.filter((e) => !Media.esDePartido(e)).map((e) => e.clave)).size, ult = E.reduce((a, e) => (e.fin > a ? e.fin : a), "");
+    $("#met-resumen").textContent = `Ahora mismo hay cargadas ${fmt0.format(E.length)} encuestas de ${empresas} empresas, todas las publicadas desde las elecciones de julio de 2023. La más reciente terminó de preguntar el ${fFecha.format(fechaD(ult))}. La media de hoy sale de ${m.usadas.length} de ellas.`;
+    if (D.encuestas.fuente) $("#met-wiki").href = D.encuestas.fuente;
+  }
+  if (D.config.medios?.length) $("#met-medios").textContent = lista(D.config.medios.map((x) => x.nombre));
+  $("#met-ventana").textContent = m.fase === "precampaña" ? `Ahora cuentan las de los últimos ${m.ventana} días. En campaña serán 28 y la última semana 20, para que los cambios se noten antes.` : `Ahora, en ${m.fase}, cuentan las de los últimos ${m.ventana} días.`;
+  $("#met-mitad").textContent = `ahora una de hace unos ${Math.round(m.mitad)} días pesa la mitad que una de hoy`;
+  const cal = P?.calibracion;
+  if (cal) {
+    const tres = ["PP", "PSOE", "Vox"].filter((k) => cal[k]?.rms);
+    $("#met-error").textContent = tres.length ? `A seis días de votar, la media de encuestas de 2016, 2019 y 2023 se desvió del resultado, de media, unos ${lista(tres.map((k) => `${fmt1.format(cal[k].rms)} puntos con ${elP(k)}`))}.` : "";
+    const ft = Object.values(cal)[0]?.factor_tiempo;
+    $("#met-tiempo").textContent = ft && P.dias_para_votar > 6 ? `Hoy faltan ${P.dias_para_votar} días, y a esa distancia las encuestas fallan ${fmt1.format(ft)} veces más que en la última semana. Por eso las franjas son ahora anchas y se irán estrechando.` : "";
+  }
+  $("#met-media-hoy").innerHTML = $("#media-hoy").innerHTML;
+  $("#met-backtest").innerHTML = $("#backtest").innerHTML || "<p>La prueba con las elecciones de 2023 se calcula en la próxima actualización.</p>";
 }
 
 /* Arriba a la derecha, en todas las pestañas: los días que faltan y la hora de la última actualización de datos.
@@ -915,7 +940,6 @@ async function refrescar() {
   try { mapa.sel = localStorage.getItem("mi-provincia") || null; } catch {}
   $("#incluir-cis").addEventListener("change", pintarTodo);
   $("#compartir").addEventListener("click", compartir);
-  $("#ver-metodo").addEventListener("click", (ev) => { ev.preventDefault(); $("#metodo").hidden = false; $("#metodo").open = true; $("#metodo").scrollIntoView({ behavior: "smooth" }); if (!graficoAtencion) pintarAtencion(); });
   pintarTodo();
   D.listo = true;
   pintarCabecera();

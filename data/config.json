@@ -28,90 +28,106 @@
       "nombre": "PP",
       "color": "#1D84CE",
       "consulta": "\"Partido Popular\" OR Feijóo",
+   "nombres": ["PP", "Partido Popular", "Feijóo", "Génova"],
       "lider": "Alberto_Núñez_Feijóo"
     },
     "PSOE": {
       "nombre": "PSOE",
       "color": "#E30613",
       "consulta": "PSOE OR \"Pedro Sánchez\"",
+   "nombres": ["PSOE", "Pedro Sánchez", "Sánchez", "Ferraz"],
       "lider": "Pedro_Sánchez"
     },
     "Vox": {
       "nombre": "Vox",
       "color": "#5FB22A",
       "consulta": "Vox OR Abascal",
+   "nombres": ["Vox", "Abascal"],
       "lider": "Santiago_Abascal"
     },
     "Sumar": {
       "nombre": "Sumar",
       "color": "#E5326E",
       "consulta": "\"Yolanda Díaz\" OR \"de Sumar\" OR \"Movimiento Sumar\" OR \"Sumar y Podemos\" OR \"Podemos y Sumar\" OR \"coalición Sumar\" OR \"Antonio Maíllo\" OR \"Más Madrid\"",
+   "nombres": ["Sumar", "Yolanda Díaz", "Maíllo", "Más Madrid"],
       "lider": "Yolanda_Díaz"
     },
     "Podemos": {
       "nombre": "Podemos",
       "color": "#6C3483",
       "consulta": "\"Ione Belarra\" OR \"Irene Montero\" OR \"de Podemos\" OR \"Podemos y Sumar\" OR \"Sumar y Podemos\" OR \"partido morado\"",
+   "nombres": ["Podemos", "Belarra", "Irene Montero"],
       "lider": "Irene_Montero"
     },
     "SALF": {
       "nombre": "SALF",
       "color": "#7A5C3E",
       "consulta": "\"Se Acabó La Fiesta\" OR Alvise",
+   "nombres": ["Se Acabó La Fiesta", "Alvise", "SALF"],
       "lider": "Alvise_Pérez"
     },
     "ERC": {
       "nombre": "ERC",
       "color": "#F2A900",
       "consulta": "ERC OR Rufián",
+   "nombres": ["ERC", "Esquerra", "Rufián", "Junqueras"],
+   "no": ["Starting Grant", "Consolidator Grant", "Advanced Grant", "Synergy Grant", "Proof of Concept", "European Research Council", "Consejo Europeo de Investigación"],
       "lider": "Gabriel_Rufián"
     },
     "Junts": {
       "nombre": "Junts",
       "color": "#20B5A6",
       "consulta": "Junts OR Puigdemont",
+   "nombres": ["Junts", "Puigdemont"],
       "lider": "Carles_Puigdemont"
     },
     "Bildu": {
       "nombre": "EH Bildu",
       "color": "#9DBB1E",
       "consulta": "\"EH Bildu\"",
+   "nombres": ["Bildu", "Otegi", "Otxandiano"],
       "lider": ""
     },
     "PNV": {
       "nombre": "PNV",
       "color": "#2E7D4F",
       "consulta": "PNV",
+   "nombres": ["PNV", "Aitor Esteban", "Pradales"],
       "lider": ""
     },
     "BNG": {
       "nombre": "BNG",
       "color": "#79B4DE",
       "consulta": "BNG",
+   "nombres": ["BNG", "Pontón"],
       "lider": ""
     },
     "CCa": {
       "nombre": "CC",
       "color": "#E9C21B",
       "consulta": "\"Coalición Canaria\"",
+   "nombres": ["Coalición Canaria", "CC", "Clavijo"],
       "lider": ""
     },
     "UPN": {
       "nombre": "UPN",
       "color": "#2C4F9E",
       "consulta": "UPN",
+   "nombres": ["UPN", "Ibarrola"],
       "lider": ""
     },
     "AC": {
       "nombre": "Aliança Catalana",
       "color": "#1F3A5F",
       "consulta": "\"Aliança Catalana\" OR Orriols",
+   "nombres": ["Aliança Catalana", "Aliança", "Orriols"],
       "lider": "Sílvia_Orriols"
     },
     "AA": {
       "nombre": "Adelante Andalucía",
       "color": "#1A9E6C",
       "consulta": "\"Adelante Andalucía\"",
+   "nombres": ["Adelante Andalucía"],
       "lider": ""
     }
   },
@@ -128,6 +144,7 @@
     {"nombre": "El Español", "rss": "https://www.elespanol.com/rss/espana/"},
     {"nombre": "OKdiario", "rss": "https://okdiario.com/feed"}
   ],
+  "polemicas_titular": ["polémica", "escándalo", "imputa", "investig", "Fiscalía", "fiscal general", "Anticorrupción", "juez", "juzgado", "Guardia Civil", "UCO", "corrupción", "dimisión", "dimite", "querella", "denuncia", "cloaca", "trama", "fraude", "malversación", "cohecho", "Supremo", "Audiencia Nacional", "condenad", "sentencia", "detenid", "detención", "sanción", "expediente", "caso"],
   "portada_fuertes": ["elecciones", "electoral", "29N", "29-N", "campaña", "encuesta", "sondeo", "candidat", "listas", "urnas", "adelanto", "debate"],
   "portada_claves": ["Congreso", "Senado", "Gobierno", "Moncloa", "investidura", "escaño", "voto", "votar", "diputad", "ministr", "Sánchez", "Feijóo", "Abascal", "Yolanda Díaz", "CIS"],
   "verificadores": "(site:newtral.es OR site:maldita.es)",
