@@ -205,5 +205,6 @@
   "principales": {
     "derecha": "pp_vox",
     "izquierda": "izq_socios"
-  }
+  },
+  "polemicas": "polémica OR escándalo OR imputado OR investigación OR \"caso\""
 }

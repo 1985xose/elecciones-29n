@@ -1,12 +1,10 @@
 :root {
-  --papel: #EEF1F4; --superficie: #FFFFFF; --tinta: #17202E; --gris: #5C6575; --linea: #D7DCE3;
+  --papel: #F5F6F8; --superficie: #FFFFFF; --tinta: #17202E; --gris: #5C6575; --linea: #D7DCE3;
   --bronce: #A97E2F; --bien: #2F7D5B; --mal: #B23A3A;
   --fuente: "Archivo", "Helvetica Neue", Arial, sans-serif;
-  box-sizing: border-box; color-scheme: light dark;
+  box-sizing: border-box; color-scheme: light;
   padding-top: env(safe-area-inset-top, 0px);
 }
-@media (prefers-color-scheme: dark) {
-  :root { --papel: #10151C; --superficie: #19212B; --tinta: #E8ECF1; --gris: #98A2B3; --linea: #2B3543; --bronce: #D3A54E; --bien: #5FBF8F; --mal: #E57373; }
 }
 *, *::before, *::after { box-sizing: inherit; }
 html { scroll-behavior: smooth; }
@@ -189,3 +187,16 @@ details[open] summary::after { content: "–"; }
 .sesgos { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
 .sesgos span { font-size: .72rem; padding: 1px 6px; border-radius: 5px; background: var(--papel); }
 .instalar { background: var(--superficie); border-radius: 12px; padding: 10px 14px; margin-top: 10px; display: none; }
+
+/* Mapa real */
+.mapa svg path, .mapa svg circle.prov { stroke: #fff; stroke-width: 1.5; cursor: pointer; }
+.mapa svg .sel path, .mapa svg .sel circle.prov { stroke: var(--tinta); stroke-width: 3; }
+.mapa svg text { pointer-events: none; font-family: inherit; }
+.recuadro { fill: none; stroke: var(--linea); stroke-width: 2; }
+.dhondt { width: 100%; border-collapse: collapse; font-size: .8rem; margin-top: 8px; }
+.dhondt th, .dhondt td { padding: 3px 5px; text-align: right; border-top: 1px solid var(--linea); white-space: nowrap; }
+.dhondt th:first-child, .dhondt td:first-child { text-align: left; font-weight: 650; }
+.dhondt td.gana { color: #fff; font-weight: 700; border-radius: 4px; }
+.polemicas { display: grid; gap: 6px; }
+.polemica { display: block; background: var(--superficie); border-radius: 12px; padding: 10px 14px 10px 12px; text-decoration: none; border-left: 5px solid var(--c); }
+.polemica .m { display: block; color: var(--gris); font-size: .78rem; margin-top: 2px; }

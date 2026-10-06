@@ -143,6 +143,10 @@ function pintarHoy(m, m7, proy) {
   if (sig) items.push(`Próxima fecha, ${fFechaLarga.format(fechaD(sig.fecha))}, ${sig.titulo}.`);
   $("#resumen").replaceChildren(...(items.length ? items.map((t) => el("li", {}, t)) : [el("li", { class: "vacio" }, "Aún no hay datos. La primera actualización tarda unos minutos.")]));
   $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 6).map((n) => el("a", { class: "titular-n", href: n.enlace, target: "_blank", rel: "noopener" }, n.titulo, el("span", { class: "m" }, `${n.fuente} ${hace(n.fecha)}`))));
+  const pol = (n) => el("a", { class: "polemica", href: n.enlace, target: "_blank", rel: "noopener", style: { "--c": color(n.partido) } }, n.titulo, el("span", { class: "m" }, `${nombre(n.partido)}, ${n.fuente} ${hace(n.fecha)}`));
+  const pols = D.noticias?.polemicas || [];
+  $("#polemicas").replaceChildren(...(pols.length ? pols.slice(0, 6).map(pol) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
+  $("#polemicas-todas").replaceChildren(...pols.map(pol));
 }
 let graficoHistorial;
 function pintarHistorial() {
@@ -221,39 +225,67 @@ const ABREV = { "A Coruña": "COR", "Lugo": "LUG", "Asturias": "AST", "Cantabria
 ABREV["Córdoba"] = "CBA";
 const mapa = { vista: "ganador", sel: null, proy: null };
 
+function colorProvincia(p) {
+  const pp = D.prob?.provincias?.find((x) => x.nombre === p.nombre);
+  const gan = ordenar(p.escanos)[0];
+  if (mapa.vista === "filo") {
+    const a = pp ? pp.en_el_aire : (p.aspirante ? Math.max(0, 1 - p.aspirante.falta / 4) : 0);
+    return { fill: "var(--mal)", op: Math.max(.12, Math.min(1, a * 1.3)), txt: a > .35 ? "#fff" : "var(--tinta)", etiqueta: pp ? Math.round(pp.en_el_aire * 100) + "%" : "–" };
+  }
+  const empate = gan && ordenar(p.escanos).length > 1 && p.escanos[gan] === p.escanos[ordenar(p.escanos)[1]];
+  return { fill: gan ? color(gan) : "var(--linea)", op: empate ? .6 : 1, txt: "#fff", etiqueta: String(p.n) };
+}
 function pintarMapa(proy) {
   mapa.proy = proy;
-  const T = 44, G = 4;
-  let svg = `<svg viewBox="0 0 ${11 * (T + G)} ${9 * (T + G)}" role="img" aria-label="Mapa de provincias">`;
-  for (const p of proy.provincias) {
-    const [x, y] = TESELAS[p.nombre] || [0, 0];
-    const gan = ordenar(p.escanos)[0];
-    let fill = gan ? color(gan) : "var(--linea)", op = 1, txt = "#fff";
-    const pp = D.prob?.provincias?.find((x) => x.nombre === p.nombre);
-    if (mapa.vista === "filo") {
-      const a = pp ? pp.en_el_aire : (p.aspirante ? Math.max(0, 1 - p.aspirante.falta / 4) : 0);
-      op = Math.max(.12, Math.min(1, a * 1.3));
-      fill = "var(--mal)"; txt = a > .35 ? "#fff" : "var(--tinta)";
-    } else if (gan && ordenar(p.escanos).length > 1 && p.escanos[gan] === p.escanos[ordenar(p.escanos)[1]]) op = .6; // empate a escaños
-    svg += `<g class="tesela${mapa.sel === p.nombre ? " sel" : ""}" data-p="${p.nombre}"><rect x="${x * (T + G)}" y="${y * (T + G)}" width="${T}" height="${T}" fill="${fill}" fill-opacity="${op}"/>`;
-    svg += `<text x="${x * (T + G) + T / 2}" y="${y * (T + G) + 18}" text-anchor="middle" font-size="11" font-weight="700" fill="${txt}">${ABREV[p.nombre]}</text>`;
-    svg += `<text x="${x * (T + G) + T / 2}" y="${y * (T + G) + 34}" text-anchor="middle" font-size="12" fill="${txt}">${mapa.vista === "filo" ? (pp ? Math.round(pp.en_el_aire * 100) + "%" : "–") : p.n}</text></g>`;
+  const G = D.mapa;
+  let svg;
+  if (G) {
+    svg = `<svg viewBox="${G.viewBox}" role="img" aria-label="Mapa de España por provincias">`;
+    const r = G.recuadro_canarias; svg += `<rect class="recuadro" x="${r.x}" y="${r.y}" width="${r.w}" height="${r.h}" rx="8"/>`;
+    for (const p of proy.provincias) {
+      const g = G.provincias[p.nombre]; if (!g) continue;
+      const c = colorProvincia(p);
+      svg += `<g class="prov${mapa.sel === p.nombre ? " sel" : ""}" data-p="${p.nombre}">`;
+      svg += g.circulo ? `<circle class="prov" cx="${g.cx}" cy="${g.cy}" r="14" fill="${c.fill}" fill-opacity="${c.op}"/>` : `<path d="${g.d}" fill="${c.fill}" fill-opacity="${c.op}"/>`;
+      if (!g.circulo || true) svg += `<text x="${g.cx}" y="${g.cy + 7}" text-anchor="middle" font-size="${g.circulo ? 14 : 22}" font-weight="700" fill="${c.txt}">${c.etiqueta}</text>`;
+      svg += "</g>";
+    }
+    svg += "</svg>";
+  } else {
+    const T = 44, Gp = 4;
+    svg = `<svg viewBox="0 0 ${11 * (T + Gp)} ${9 * (T + Gp)}" role="img" aria-label="Mapa de provincias">`;
+    for (const p of proy.provincias) {
+      const [x, y] = TESELAS[p.nombre] || [0, 0], c = colorProvincia(p);
+      svg += `<g class="prov tesela${mapa.sel === p.nombre ? " sel" : ""}" data-p="${p.nombre}"><rect x="${x * (T + Gp)}" y="${y * (T + Gp)}" width="${T}" height="${T}" fill="${c.fill}" fill-opacity="${c.op}"/><text x="${x * (T + Gp) + T / 2}" y="${y * (T + Gp) + 18}" text-anchor="middle" font-size="11" font-weight="700" fill="${c.txt}">${ABREV[p.nombre]}</text><text x="${x * (T + Gp) + T / 2}" y="${y * (T + Gp) + 34}" text-anchor="middle" font-size="12" fill="${c.txt}">${c.etiqueta}</text></g>`;
+    }
+    svg += "</svg>";
   }
-  svg += "</svg>";
   $("#mapa-svg").innerHTML = svg;
-  $("#mapa-svg").querySelectorAll(".tesela").forEach((g) => g.addEventListener("click", () => { mapa.sel = g.dataset.p; try { localStorage.setItem("mi-provincia", mapa.sel); } catch {} pintarMapa(mapa.proy); }));
+  $("#mapa-svg").querySelectorAll("g.prov").forEach((g) => g.addEventListener("click", () => { mapa.sel = g.dataset.p; try { localStorage.setItem("mi-provincia", mapa.sel); } catch {} pintarMapa(mapa.proy); }));
   $("#mapa-pista").textContent = mapa.vista === "ganador" ? "Color del partido con más escaños en cada provincia y escaños que reparte. Más claro, empate entre los dos primeros. Toca una para ver el detalle." : "Probabilidad de que el último escaño de cada provincia cambie de partido en las simulaciones. Cuanto más rojo, más en el aire.";
   const p = proy.provincias.find((x) => x.nombre === mapa.sel);
   $("#ficha-provincia").replaceChildren(...(p ? [el("div", { class: "ficha" }, el("h3", {}, `${p.nombre}, ${p.n} escaños`),
     el("div", { class: "chips" }, ...ordenar(p.escanos).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${p.escanos[k]}`))),
     p.aspirante ? el("p", {}, `El último escaño se lo lleva ${nombre(p.ultimo.p)}. ${nombre(p.aspirante.p)} se lo quitaría con ${fmt1.format(Math.max(p.aspirante.falta, 0))} puntos más.`) : null,
     (() => { const pp = D.prob?.provincias?.find((x) => x.nombre === p.nombre); return pp ? el("p", {}, `En las simulaciones el último escaño es ${ordenar(pp.ultimo).slice(0, 3).map((k) => `de ${nombre(k)} el ${pct(pp.ultimo[k])}`).join(", ")}.`) : null; })(),
-    el("p", { class: "fuente" }, "Voto estimado: " + ordenar(p.cuotas).filter((k) => p.cuotas[k] >= 1).map((k) => `${nombre(k)} ${fmt1.format(p.cuotas[k])}%`).join(", ")))] : []));
+    tablaDhondt(p),
+    el("p", { class: "fuente" }, "Así funciona D'Hondt: el voto de cada partido se divide entre 1, 2, 3… y los escaños van a los cocientes más altos. Marcados los que se llevan escaño. Solo entran los partidos con al menos el 3 % del voto."))] : []));
   const aj = D.prob ? [...D.prob.provincias].sort((a, b) => b.en_el_aire - a.en_el_aire).slice(0, 5).map((pp) => ({ x: proy.provincias.find((q) => q.nombre === pp.nombre), pp }))
     : [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => a.aspirante.falta - b.aspirante.falta).slice(0, 5).map((x) => ({ x }));
   $("#ajustadas").replaceChildren(...aj.map(({ x, pp }) => el("button", { class: "ajustada", type: "button", onclick: () => { mapa.sel = x.nombre; pintarMapa(mapa.proy); $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); } },
     el("b", {}, x.nombre), el("span", { class: "pts" }, pp ? `${pct(pp.en_el_aire)} en el aire` : `${fmt1.format(Math.max(x.aspirante.falta, 0))} pts`),
     el("span", { class: "m" }, x.aspirante ? `${nombre(x.ultimo.p)} tiene el último escaño, lo persigue ${nombre(x.aspirante.p)}` : ""))));
+}
+function tablaDhondt(p) {
+  const partidos = ordenar(p.cuotas).filter((k) => p.cuotas[k] >= Modelo.UMBRAL);
+  const maxDiv = Math.min(p.n, Math.max(1, ...partidos.map((k) => (p.escanos[k] || 0) + 1)));
+  const todos = [];
+  for (const k of partidos) for (let d = 1; d <= maxDiv; d++) todos.push({ k, d, q: p.cuotas[k] / d });
+  todos.sort((a, b) => b.q - a.q);
+  const gana = new Set(todos.slice(0, p.n).map((c) => `${c.k}/${c.d}`));
+  return el("table", { class: "dhondt" }, el("thead", {}, el("tr", {}, el("th", {}, "Partido"), el("th", {}, "voto"), ...Array.from({ length: maxDiv }, (_, i) => el("th", {}, `÷${i + 1}`)))),
+    el("tbody", {}, ...partidos.map((k) => el("tr", {}, el("td", {}, nombre(k)), el("td", {}, fmt1.format(p.cuotas[k])),
+      ...Array.from({ length: maxDiv }, (_, i) => { const g = gana.has(`${k}/${i + 1}`); return el("td", { class: g ? "gana" : null, style: g ? { background: color(k) } : null }, fmt1.format(p.cuotas[k] / (i + 1))); })))));
 }
 document.querySelectorAll(".conmutador button").forEach((b) => b.addEventListener("click", () => {
   mapa.vista = b.dataset.vista;
@@ -404,7 +436,7 @@ function pintarTodo() {
   pintarPartidos(m, proy);
 }
 (async function iniciar() {
-  const nombres = ["config", "base2023", "encuestas", "fiabilidad", "noticias", "atencion", "porra", "agenda", "programas", "resultados", "probabilidades", "analisis", "probabilidades_historial"];
+  const nombres = ["config", "base2023", "encuestas", "fiabilidad", "noticias", "atencion", "porra", "agenda", "programas", "resultados", "probabilidades", "analisis", "probabilidades_historial", "mapa"];
   const datos = await Promise.all(nombres.map(cargar));
   nombres.forEach((n, i) => { D[n === "base2023" ? "base" : n === "probabilidades" ? "prob" : n === "probabilidades_historial" ? "historial" : n] = datos[i]; });
   $("#compartir").addEventListener("click", compartir);

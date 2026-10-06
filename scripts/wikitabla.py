@@ -9,7 +9,7 @@ MESES = {m: i + 1 for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun
 CANON = {"pp": "PP", "psoe": "PSOE", "vox": "Vox", "sumar": "Sumar", "erc": "ERC", "junts": "Junts",
          "ehbildu": "Bildu", "bildu": "Bildu", "pnv": "PNV", "eajpnv": "PNV", "bng": "BNG", "cca": "CCa",
          "upn": "UPN", "podemos": "Podemos", "salf": "SALF", "aliancacat": "AC", "alianca": "AC",
-         "up": "UP", "unidaspodemos": "UP", "adelanteandalucia": "AA", "adelanteandalucia2021": "AA", "cs": "Cs", "maspais": "MP"}
+         "up": "UP", "unidaspodemos": "UP", "ercsobiranistes": "ERC", "ercsob": "ERC", "jxcat": "Junts", "jxcatjunts": "Junts", "ccnca": "CCa", "ccapncnc": "CCa", "adelanteandalucia": "AA", "adelanteandalucia2021": "AA", "cs": "Cs", "maspais": "MP"}
 
 
 def html_pagina(titulo):
@@ -109,6 +109,20 @@ def fecha_fin(txt, anio_defecto):
 def numeros(txt):
     t = txt.replace(",", "")
     return re.findall(r"\d+(?:\.\d+)?(?:/\d+)?", t)
+
+
+def pct_y_escanos(txt):
+    """'33.1 137' -> (33.1, 137). '? 7' -> (None, 7). '138' -> (None, 138). '140/145' -> (None, 142.5). '33.1' -> (33.1, None).
+    En Wikipedia el porcentaje siempre lleva decimal y los escaños nunca, así es como se distinguen."""
+    tokens = re.findall(r"\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?", txt.replace(",", ""))
+    pct, esc = None, None
+    for t in tokens:
+        if "." in t and "/" not in t and pct is None and float(t) <= 100:
+            pct = float(t)
+        elif "." not in t and esc is None:
+            partes = [float(x) for x in t.split("/")]
+            esc = round(sum(partes) / len(partes), 1)
+    return pct, esc
 
 
 def celda_texto(c):
@@ -215,13 +229,11 @@ def parsear_tablas(html, anio_defecto=None):
             for i, p in partidos.items():
                 if i >= len(f):
                     continue
-                n = numeros(celda_texto(f[i]))
-                if not n:
-                    continue
-                reg["pct"][p] = float(n[0].split("/")[0])
-                if len(n) > 1:
-                    partes = [float(x) for x in n[1].split("/")]
-                    reg["escanos"][p] = round(sum(partes) / len(partes), 1)
+                pct, esc = pct_y_escanos(celda_texto(f[i]))
+                if pct is not None:
+                    reg["pct"][p] = pct
+                if esc is not None:
+                    reg["escanos"][p] = esc
             if reg["pct"]:
                 reg["es_resultado"] = "election" in empresa.lower()
                 resultado.append(reg)

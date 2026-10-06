@@ -33,7 +33,7 @@ def buscar(q, n):
 def main():
     cfg = leer("config.json")
     previo = leer("noticias.json", {}) or {}
-    res = {"actualizado": ahora_iso(), "generales": [], "partidos": {}, "verificaciones": {}}
+    res = {"actualizado": ahora_iso(), "generales": [], "partidos": {}, "verificaciones": {}, "polemicas": []}
     try:
         res["generales"] = buscar(f"{cfg['titulares_generales']} when:1d", 10)
     except Exception as e:
@@ -47,8 +47,17 @@ def main():
             res["verificaciones"][k] = buscar(f"({p['consulta']}) {cfg['verificadores']} when:21d", 4)
         except Exception as e:
             print(k, "verif", e); res["verificaciones"][k] = previo.get("verificaciones", {}).get(k, [])
+        if k in ("PP", "PSOE", "Vox", "Sumar", "Podemos", "SALF", "ERC", "Junts", "Bildu", "PNV"):
+            try:
+                for n in buscar(f"({p['consulta']}) ({cfg['polemicas']}) when:7d", 4):
+                    res["polemicas"].append({**n, "partido": k})
+            except Exception as e:
+                print(k, "polémicas", e)
+    res["polemicas"].sort(key=lambda x: x["fecha"] or "", reverse=True)
+    if not res["polemicas"]:
+        res["polemicas"] = previo.get("polemicas", [])
     total = sum(len(v) for v in res["partidos"].values())
-    print(f"Titulares generales {len(res['generales'])}, por partido {total}, verificaciones {sum(len(v) for v in res['verificaciones'].values())}")
+    print(f"Titulares generales {len(res['generales'])}, por partido {total}, verificaciones {sum(len(v) for v in res['verificaciones'].values())}, polémicas {len(res['polemicas'])}")
     escribir("noticias.json", res)
 
 
