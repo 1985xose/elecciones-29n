@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06T09:05:33+00:00",
+ "actualizado": "2026-10-06T09:25:19+00:00",
  "elecciones": [
   {
    "nombre": "23J 2023",
@@ -584,30 +584,6 @@
       "Vox": -7.2,
       "UP": 1.7
      }
-    },
-    {
-     "clave": "infortecnica",
-     "empresa": "Infortécnica",
-     "fin": "2019-11-02",
-     "error_medio": 48.3,
-     "errores": {
-      "PSOE": 102.0,
-      "PP": 59.2,
-      "Vox": 17.9,
-      "UP": 14.1
-     }
-    },
-    {
-     "clave": "psoe",
-     "empresa": "PSOE",
-     "fin": "2019-10-29",
-     "error_medio": 55.3,
-     "errores": {
-      "PSOE": 102.0,
-      "PP": 67.2,
-      "Vox": 34.9,
-      "UP": 17.1
-     }
     }
    ]
   }
@@ -797,18 +773,6 @@
    "clave": "atlasintel",
    "empresa": "AtlasIntel",
    "error_medio": 3.25,
-   "elecciones": 1
-  },
-  {
-   "clave": "infortecnica",
-   "empresa": "Infortécnica",
-   "error_medio": 48.3,
-   "elecciones": 1
-  },
-  {
-   "clave": "psoe",
-   "empresa": "PSOE",
-   "error_medio": 55.3,
    "elecciones": 1
   }
  ]

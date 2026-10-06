@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06T09:05:34.032Z",
+ "actualizado": "2026-10-06T09:25:19.756Z",
  "principales": [
   "PP",
   "PSOE",
@@ -18,9 +18,9 @@
     "Vox": 1.29,
     "Sumar": -0.74,
     "Podemos": 0.54,
-    "ERC": -0.58
+    "ERC": -0.21
    },
-   "sd": 0.92
+   "sd": 0.88
   },
   "sociometrica": {
    "empresa": "SocioMétrica",
@@ -31,9 +31,9 @@
     "Vox": -0.53,
     "Sumar": -0.03,
     "Podemos": -0.39,
-    "ERC": 0.13
+    "ERC": -0.02
    },
-   "sd": 1.01
+   "sd": 0.72
   },
   "data10": {
    "empresa": "Data10",
@@ -44,9 +44,9 @@
     "Vox": 0.56,
     "Sumar": -0.42,
     "Podemos": -0.17,
-    "ERC": -0.61
+    "ERC": -0.21
    },
-   "sd": 0.76
+   "sd": 0.71
   },
   "ateneodeldato": {
    "empresa": "Ateneo del Dato",
@@ -69,9 +69,9 @@
     "Vox": -0.87,
     "Sumar": 1.33,
     "Podemos": 0,
-    "ERC": -0.44
+    "ERC": 0.04
    },
-   "sd": 0.75
+   "sd": 0.71
   },
   "40db": {
    "empresa": "40dB",
@@ -117,10 +117,9 @@
     "PSOE": -1.58,
     "Vox": 0.89,
     "Sumar": 0.37,
-    "Podemos": -0.34,
-    "ERC": 6.91
+    "Podemos": -0.34
    },
-   "sd": 0.81
+   "sd": 0.62
   },
   "hamalgamametrica": {
    "empresa": "Hamalgama Métrica",
@@ -131,7 +130,7 @@
     "Vox": 0.63,
     "Sumar": -0.5,
     "Podemos": 0.39,
-    "ERC": -0.32
+    "ERC": -0.26
    },
    "sd": 0.5
   },
@@ -144,9 +143,9 @@
     "Vox": -0.96,
     "Sumar": 0.53,
     "Podemos": -0.29,
-    "ERC": 0.24
+    "ERC": 0.51
    },
-   "sd": 1.2
+   "sd": 1.17
   },
   "ncreport": {
    "empresa": "NC Report",
@@ -157,9 +156,9 @@
     "Vox": -0.35,
     "Sumar": -0.69,
     "Podemos": 0.41,
-    "ERC": -0.49
+    "ERC": -0.15
    },
-   "sd": 0.88
+   "sd": 0.86
   },
   "gad3": {
    "empresa": "GAD3",
@@ -170,9 +169,9 @@
     "Vox": 0.55,
     "Sumar": 0.25,
     "Podemos": -0.32,
-    "ERC": -0.75
+    "ERC": 0.12
    },
-   "sd": 0.89
+   "sd": 0.68
   },
   "moreincommon": {
    "empresa": "More in Common",
@@ -195,7 +194,7 @@
     "Vox": 0.06,
     "Sumar": 0.17,
     "Podemos": 0.25,
-    "ERC": -0.42
+    "ERC": -0.16
    },
    "sd": 0.5
   },
@@ -208,7 +207,7 @@
     "Vox": 0.33,
     "Sumar": 1.43,
     "Podemos": 0.25,
-    "ERC": 0.02
+    "ERC": 0.08
    },
    "sd": 0.52
   }
@@ -240,13 +239,13 @@
     "Vox": 1.29,
     "Sumar": -0.74,
     "Podemos": 0.54,
-    "ERC": -0.58
+    "ERC": -0.21
    }
   },
   {
    "clave": "sigmados",
    "empresa": "Sigma Dos",
-   "encuestas": 38,
+   "encuestas": 36,
    "letra": "B",
    "texto": "error medio de 1.4 puntos en 2019 y 2023",
    "sesgo": {
@@ -255,7 +254,7 @@
     "Vox": -0.87,
     "Sumar": 1.33,
     "Podemos": 0,
-    "ERC": -0.44
+    "ERC": 0.04
    }
   },
   {
@@ -270,7 +269,7 @@
     "Vox": -0.53,
     "Sumar": -0.03,
     "Podemos": -0.39,
-    "ERC": 0.13
+    "ERC": -0.02
    }
   },
   {
@@ -284,8 +283,7 @@
     "PSOE": -1.58,
     "Vox": 0.89,
     "Sumar": 0.37,
-    "Podemos": -0.34,
-    "ERC": 6.91
+    "Podemos": -0.34
    }
   },
   {
@@ -300,7 +298,7 @@
     "Vox": 0.06,
     "Sumar": 0.17,
     "Podemos": 0.25,
-    "ERC": -0.42
+    "ERC": -0.16
    }
   },
   {
@@ -315,7 +313,7 @@
     "Vox": 0.63,
     "Sumar": -0.5,
     "Podemos": 0.39,
-    "ERC": -0.32
+    "ERC": -0.26
    }
   },
   {
@@ -360,7 +358,7 @@
     "Vox": 0.55,
     "Sumar": 0.25,
     "Podemos": -0.32,
-    "ERC": -0.75
+    "ERC": 0.12
    }
   },
   {
@@ -375,7 +373,7 @@
     "Vox": 0.33,
     "Sumar": 1.43,
     "Podemos": 0.25,
-    "ERC": 0.02
+    "ERC": 0.08
    }
   },
   {
@@ -414,7 +412,7 @@
     "Vox": -0.35,
     "Sumar": -0.69,
     "Podemos": 0.41,
-    "ERC": -0.49
+    "ERC": -0.15
    }
   },
   {
@@ -443,7 +441,7 @@
     "Vox": 0.56,
     "Sumar": -0.42,
     "Podemos": -0.17,
-    "ERC": -0.61
+    "ERC": -0.21
    }
   },
   {
@@ -458,7 +456,7 @@
     "Vox": -0.96,
     "Sumar": 0.53,
     "Podemos": -0.29,
-    "ERC": 0.24
+    "ERC": 0.51
    }
   },
   {
@@ -573,8 +571,8 @@
     {
      "partido": "ERC",
      "dado": 2,
-     "esperado": 2.7,
-     "diferencia": -0.7
+     "esperado": 2,
+     "diferencia": 0
     }
    ]
   },
@@ -583,8 +581,8 @@
    "empresa": "SocioMétrica",
    "encargo": "El Español",
    "fin": "2026-10-03",
-   "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: PSOE sube 1.7 puntos respecto a lo esperado de esta empresa.",
+   "veredicto": "movimiento",
+   "texto": "Movimiento real: PSOE sale 1.7 puntos por encima de lo que cabía esperar de esta empresa.",
    "nota": "B",
    "detalle": [
     {
@@ -620,8 +618,8 @@
     {
      "partido": "ERC",
      "dado": 2.2,
-     "esperado": 3.1,
-     "diferencia": -0.9
+     "esperado": 2.1,
+     "diferencia": 0.1
     }
    ]
   },
@@ -667,8 +665,8 @@
     {
      "partido": "ERC",
      "dado": 1.9,
-     "esperado": 2.8,
-     "diferencia": -0.9
+     "esperado": 2,
+     "diferencia": -0.1
     }
    ]
   },
@@ -677,8 +675,8 @@
    "empresa": "Winston",
    "encargo": "Artículo14",
    "fin": "2026-10-01",
-   "veredicto": "movimiento",
-   "texto": "Movimiento real: ERC sale 5.8 puntos por encima de lo que cabía esperar de esta empresa.",
+   "veredicto": "ruido",
+   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
    "nota": "–",
    "detalle": [
     {
@@ -710,12 +708,6 @@
      "dado": 3.9,
      "esperado": 3.3,
      "diferencia": 0.6
-    },
-    {
-     "partido": "ERC",
-     "dado": 8,
-     "esperado": 2.2,
-     "diferencia": 5.8
     }
    ]
   },
@@ -802,8 +794,8 @@
     {
      "partido": "ERC",
      "dado": 2.5,
-     "esperado": 3.3,
-     "diferencia": -0.8
+     "esperado": 2.1,
+     "diferencia": 0.4
     }
    ]
   },
@@ -853,8 +845,8 @@
    "empresa": "SocioMétrica",
    "encargo": "El Español",
    "fin": "2026-09-26",
-   "veredicto": "ruido",
-   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
+   "veredicto": "leve",
+   "texto": "Algo fuera de lo habitual: PSOE sube 1.1 puntos respecto a lo esperado de esta empresa.",
    "nota": "B",
    "detalle": [
     {
@@ -890,8 +882,8 @@
     {
      "partido": "ERC",
      "dado": 2,
-     "esperado": 2.2,
-     "diferencia": -0.2
+     "esperado": 2.1,
+     "diferencia": -0.1
     }
    ]
   },
@@ -937,8 +929,8 @@
     {
      "partido": "ERC",
      "dado": 2,
-     "esperado": 1.6,
-     "diferencia": 0.4
+     "esperado": 1.9,
+     "diferencia": 0.1
     }
    ]
   },
@@ -1072,8 +1064,8 @@
     {
      "partido": "ERC",
      "dado": 1.9,
-     "esperado": 1.6,
-     "diferencia": 0.3
+     "esperado": 2,
+     "diferencia": -0.1
     }
    ]
   }
