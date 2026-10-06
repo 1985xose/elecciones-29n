@@ -74,6 +74,16 @@
     return { total, provincias };
   }
 
-  const api = { proyectar, proyectarProvincia, dhondt, grupos, mediaDesdeBase: (b) => ({ ...b.nacional }), UMBRAL };
+  /* Senado: 4 por provincia (3 al partido más votado y 1 al segundo), islas y ciudades autónomas con su reparto propio. 208 electos.
+     Devuelve los senadores de una provincia, {partido: n}, a partir de sus cuotas de voto. */
+  const SENADO_ESPECIAL = { Baleares: [4, 1], "Las Palmas": [4, 1], "Santa Cruz de Tenerife": [5, 1], Ceuta: [2, 0], Melilla: [2, 0] };
+  function senadoProvincia(cuotas, nombre) {
+    const o = Object.keys(cuotas).sort((x, y) => cuotas[y] - cuotas[x]), [s1, s2] = SENADO_ESPECIAL[nombre] || [3, 1], r = {};
+    if (o[0]) r[o[0]] = s1;
+    if (o[1] && s2) r[o[1]] = s2;
+    return r;
+  }
+
+  const api = { proyectar, proyectarProvincia, dhondt, grupos, senadoProvincia, mediaDesdeBase: (b) => ({ ...b.nacional }), UMBRAL };
   if (typeof module !== "undefined" && module.exports) module.exports = api; else root.Modelo = api;
 })(typeof window !== "undefined" ? window : globalThis);

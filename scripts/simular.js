@@ -108,16 +108,10 @@ function simular(media, base, sig, n, semilla, opciones = {}) {
   return resultados;
 }
 
-/* Senado: 4 por provincia (3 al primero, 1 al segundo), islas y ciudades autónomas con su reparto propio. 208 electos */
-const SENADO_ESPECIAL = { Baleares: [4, 1], "Las Palmas": [4, 1], "Santa Cruz de Tenerife": [5, 1], Ceuta: [2, 0], Melilla: [2, 0] };
+/* Senado: el reparto por provincia vive en modelo.js (senadoProvincia) para que el navegador use el mismo. 208 electos */
 function senadoDe(provincias, base) {
   const total = {};
-  provincias.forEach((p, i) => {
-    const o = Object.keys(p.cuotas).sort((a, b) => p.cuotas[b] - p.cuotas[a]);
-    const [s1, s2] = SENADO_ESPECIAL[base.provincias[i].nombre] || [3, 1];
-    if (o[0]) total[o[0]] = (total[o[0]] || 0) + s1;
-    if (o[1] && s2) total[o[1]] = (total[o[1]] || 0) + s2;
-  });
+  provincias.forEach((p, i) => { for (const [k, n] of Object.entries(M.senadoProvincia(p.cuotas, base.provincias[i].nombre))) total[k] = (total[k] || 0) + n; });
   return total;
 }
 

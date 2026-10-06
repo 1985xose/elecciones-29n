@@ -31,7 +31,7 @@ const CON_ARTICULO = new Set(["PP", "PSOE", "PNV", "BNG"]);
 const elP = (k) => CON_ARTICULO.has(k) ? `el ${nombre(k)}` : nombre(k), deP = (k) => CON_ARTICULO.has(k) ? `del ${nombre(k)}` : `de ${nombre(k)}`;
 /* Frase que acompaña al arco del hemiciclo */
 function fraseArco(cont, o) {
-  cont.replaceChildren(...(o ? [el("i", { style: { background: o.color } }), `${o.titulo}, ${o.central} asientos. ${o.central >= 176 ? (o.plural ? "Pasan la raya." : "Pasa la raya.") : (o.plural ? `Se quedan a ${176 - o.central} de la raya.` : `Se queda a ${176 - o.central} de la raya.`)}`] : []));
+  cont.replaceChildren(...(o ? [el("i", { style: { background: o.color } }), `${o.arco || o.titulo}, ${o.central} ${o.unidad || "asientos"}. ${o.central >= (o.mayoria || 176) ? (o.plural ? "Pasan la raya." : "Pasa la raya.") : (o.plural ? `Se quedan a ${(o.mayoria || 176) - o.central} de la raya.` : `Se queda a ${(o.mayoria || 176) - o.central} de la raya.`)}`] : []));
 }
 const cap = (t) => t.charAt(0).toUpperCase() + t.slice(1);
 const VOTOS_VALIDOS = 24688087; // votos válidos del 23J
@@ -61,7 +61,7 @@ const nombreEsc = (e) => (D.config.escenarios.find((x) => x.id === e.id) || {}).
 
 /* ---------- Pestañas ---------- */
 function activarPestana(id) {
-  const ids = ["hoy", "mapa", "encuestas", "simulador", "noticias"];
+  const ids = ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias", "el29n"];
   if (!ids.includes(id)) id = "hoy";
   for (const i of ids) document.getElementById(i).hidden = i !== id;
   document.querySelectorAll(".pestanas a").forEach((a) => a.classList.toggle("activa", a.dataset.tab === id));
@@ -90,10 +90,10 @@ function aguja(p, col) {
 }
 /* Barra con los asientos de hoy (punto), dónde acaban 8 de cada 10 veces (franja) y la raya de la mayoría */
 function barraAsientos(o) {
-  const min = Math.min(o.p10, o.central, 176) - 25, max = Math.max(o.p90, o.central, 176) + 25, pos = (v) => `${(v - min) / (max - min) * 100}%`, cerca = (a, b) => Math.abs(a - b) / (max - min) < 0.1;
+  const M = o.mayoria || 176, hol = M > 150 ? 25 : 15, min = Math.max(0, Math.min(o.p10, o.central, M) - hol), max = Math.max(o.p90, o.central, M) + hol, pos = (v) => `${(v - min) / (max - min) * 100}%`, cerca = (a, b) => Math.abs(a - b) / (max - min) < 0.1;
   return el("div", { class: "barra-asientos" }, el("div", { class: "pista" }),
     el("div", { class: "franja", style: { left: pos(o.p10), width: `${(o.p90 - o.p10) / (max - min) * 100}%`, background: o.color } }),
-    el("div", { class: "raya", style: { left: pos(176) } }), el("span", { class: "eti-raya", style: { left: pos(176) } }, "176, mayoría"),
+    el("div", { class: "raya", style: { left: pos(M) } }), el("span", { class: "eti-raya", style: { left: pos(M) } }, `${M}, mayoría`),
     el("div", { class: "hoy", style: { left: pos(o.central), background: o.color } }),
     cerca(o.p10, o.central) ? null : el("span", { class: "n izq", style: { left: pos(o.p10) } }, o.p10),
     el("span", { class: "n c", style: { left: pos(o.central) } }, o.central),
@@ -106,14 +106,15 @@ function medidores(cont, det, ops, sel, alElegir) {
     el("span", { class: "tit" }, o.titulo), el("span", { class: "svg", html: aguja(o.p, o.color) }), el("b", {}, cap(palabra(o.p))))));
   const o = ops.find((x) => x.id === sel);
   if (!o) { det.replaceChildren(el("p", { class: "pie-bloque" }, "Toca un medidor para ver el detalle.")); return; }
+  const M = o.mayoria || 176;
   det.replaceChildren(el("div", { class: "caja" }, ...(o.central != null ? [barraAsientos(o),
-    el("p", {}, `${o.con || "Con las encuestas de hoy"} ${o.verbo} ${o.central} asientos, ${o.central > 176 ? `${o.central - 176} más de los que hacen falta` : o.central === 176 ? "justo los que hacen falta" : `${176 - o.central} menos de los que hacen falta`}. Como las encuestas fallan, lo normal es que ${o.plural ? "acaben" : "acabe"} entre ${o.p10} y ${o.p90}. Probabilidad de llegar a la mayoría, ${r100(o.p)} %.`)]
-    : [el("p", {}, `Pasa cuando ninguno de los dos bloques llega a 176 asientos. Habría que negociar con otros partidos o repetir las elecciones. Probabilidad, ${r100(o.p)} %.`)])));
+    el("p", {}, `${o.con || "Con las encuestas de hoy"} ${o.verbo} ${o.central} ${o.unidad || "asientos"}, ${o.central > M ? `${o.central - M} más de los que hacen falta` : o.central === M ? "justo los que hacen falta" : `${M - o.central} menos de los que hacen falta`}. Como las encuestas fallan, lo normal es que ${o.plural ? "acaben" : "acabe"} entre ${o.p10} y ${o.p90}. Probabilidad de llegar a la mayoría, ${r100(o.p)} %.`)]
+    : [el("p", {}, `${o.texto || "Pasa cuando ninguno de los dos bloques llega a 176 asientos. Habría que negociar con otros partidos o repetir las elecciones."} Probabilidad, ${r100(o.p)} %.`)])));
 }
 
 /* ---------- Hemiciclo ---------- */
 /* resaltar: {partidos, color} dibuja un arco por fuera sobre los asientos de ese bloque. Si el arco pasa la raya, hay mayoría. */
-function hemiciclo(cont, escanos, filas = 12, resaltar = null) {
+function hemiciclo(cont, escanos, filas = 12, resaltar = null, etiqueta = "176") {
   const orden = D.config.orden_hemiciclo;
   const claves = Object.keys(escanos).filter((k) => escanos[k] > 0).sort((a, b) => (orden.indexOf(a) + 1 || 99) - (orden.indexOf(b) + 1 || 99));
   const total = claves.reduce((s, k) => s + escanos[k], 0);
@@ -138,7 +139,7 @@ function hemiciclo(cont, escanos, filas = 12, resaltar = null) {
   }
   asientos.forEach((s, i) => { svg += `<circle cx="${(s.x * E).toFixed(1)}" cy="${(-s.y * E).toFixed(1)}" r="${(rp * E).toFixed(1)}" fill="${colores[i] || "var(--linea)"}"/>`; });
   svg += `<line x1="0" y1="-114" x2="0" y2="${-r0 * E + 8}" stroke="var(--tinta)" stroke-width="1.6" stroke-dasharray="3 3"/>`;
-  svg += `<text x="0" y="${-r0 * E + 24}" text-anchor="middle" font-size="15" font-weight="800" fill="var(--tinta)">176</text><text x="0" y="${-r0 * E + 37}" text-anchor="middle" font-size="9.5" font-weight="600" fill="var(--gris)">mayoría</text></svg>`;
+  svg += `<text x="0" y="${-r0 * E + 24}" text-anchor="middle" font-size="15" font-weight="800" fill="var(--tinta)">${etiqueta}</text><text x="0" y="${-r0 * E + 37}" text-anchor="middle" font-size="9.5" font-weight="600" fill="var(--gris)">mayoría</text></svg>`;
   cont.innerHTML = svg;
 }
 const leyenda = (cont, escanos, extra) => cont.replaceChildren(...ordenar(escanos).filter((k) => escanos[k] > 0).map((k) => el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} ${escanos[k]}`, extra ? extra(k) : null)));
@@ -230,15 +231,6 @@ function pintarHoy(m, m7, proy) {
     $("#r-gobernar").textContent = o.length ? `Si se votara hoy, ${nombre(ordenar(esc)[0])} sacaría ${esc[ordenar(esc)[0]]} asientos. Las probabilidades se calculan en la próxima actualización.` : "";
   }
 
-  // Senado
-  if (P?.senado) {
-    const sen = Object.entries(P.senado).filter(([, v]) => v.p50 > 0).sort((a, b) => b[1].p50 - a[1].p50);
-    if (sen.length) { const [k1, v1] = sen[0];
-      $("#r-senado").replaceChildren(el("b", {}, v1.p_mayoria >= 0.5 ? `Mayoría absoluta ${deP(k1)} en el Senado, ${palabra(v1.p_mayoria)}.` : `Nadie tiene asegurada la mayoría del Senado.`), ` ${nombre(k1)} sacaría entre ${v1.p10} y ${v1.p90} de los 208 senadores que se eligen${sen[1] ? `, ${nombre(sen[1][0])} entre ${sen[1][1].p10} y ${sen[1][1].p90}` : ""}.`);
-      $("#g-senado").replaceChildren(...sen.slice(0, 5).map(([k, v]) => el("div", { class: "bg" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)), el("div", { class: "num" }, v.p50, el("small", {}, ` senadores`)), el("div", { class: "pista" }, el("i", { style: { width: `${v.p50 / 208 * 100}%`, background: color(k) } })))));
-    }
-  } else { $("#r-senado").textContent = "Se calcula en la próxima actualización."; }
-
   // 3. ¿Ha cambiado algo?
   const cambios = Object.keys(m.media).filter((k) => m7.media[k] != null && m.media[k] >= 2).map((k) => ({ k, d: m.media[k] - m7.media[k] })).sort((a, b) => Math.abs(b.d) - Math.abs(a.d));
   const fuertes = cambios.filter((x) => Math.abs(x.d) >= 0.3);
@@ -250,36 +242,6 @@ function pintarHoy(m, m7, proy) {
     el("span", { class: `d ${Math.abs(x.d) < 0.1 ? "" : x.d > 0 ? "sube" : "baja"}` }, Math.abs(x.d) < 0.1 ? "igual" : signo(x.d)), el("span", { class: "m" }, `${fmt1.format(m7.media[x.k])} hace una semana, ${fmt1.format(m.media[x.k])} hoy`))));
   pintarHistorial();
 
-  // 4. ¿La ley electoral favorece a alguien?
-  const esc2 = D.resultados?.escanos || proy.total;
-  const conVoto = ordenar(m.media).filter((k) => m.media[k] > 0), sumaV = conVoto.reduce((s, k) => s + m.media[k], 0);
-  const cuo = conVoto.map((k) => ({ k, q: m.media[k] / sumaV * 350 }));
-  const prop = {}; let asignados = 0;
-  for (const x of cuo) { prop[x.k] = Math.floor(x.q); asignados += prop[x.k]; }
-  for (const x of cuo.sort((a, b) => (b.q - Math.floor(b.q)) - (a.q - Math.floor(a.q))).slice(0, 350 - asignados)) prop[x.k]++;
-  const comp = [...new Set([...Object.keys(esc2), ...Object.keys(prop)])].filter((k) => (esc2[k] || 0) > 0 || (prop[k] || 0) >= 2).map((k) => ({ k, real: esc2[k] || 0, prop: prop[k] || 0, d: (esc2[k] || 0) - (prop[k] || 0) })).sort((a, b) => b.real - a.real);
-  if (comp.length > 2) {
-    const ganan = comp.filter((x) => x.d >= 3).sort((a, b) => b.d - a.d), pierden = comp.filter((x) => x.d <= -3).sort((a, b) => a.d - b.d);
-    $("#r-coste").replaceChildren(el("b", {}, ganan.length ? "Sí." : "Poco."), ganan.length ? ` A ${lista(ganan.map((x) => nombre(x.k)))} le${ganan.length > 1 ? "s" : ""} da ${lista(ganan.map((x) => `${x.d}`))} asientos más de los que le${ganan.length > 1 ? "s" : ""} tocarían por sus votos.` : "", pierden.length ? ` A ${lista(pierden.map((x) => nombre(x.k)))} le${pierden.length > 1 ? "s" : ""} quita ${lista(pierden.map((x) => `${-x.d}`))}.` : "");
-    const maxB = Math.max(...comp.map((x) => Math.max(x.real, x.prop)));
-    $("#g-proporcional").replaceChildren(...comp.map((x) => el("div", { class: "par" },
-      el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(x.k) } }), nombre(x.k)),
-      el("span", { class: `dif ${x.d > 0 ? "sube" : x.d < 0 ? "baja" : ""}` }, x.d ? `${x.d > 0 ? "+" : "−"}${Math.abs(x.d)}` : "igual"),
-      el("div", { class: "filas" },
-        el("div", { class: "fila" }, el("span", {}, "tendrá"), el("i", { style: { width: `${x.real / maxB * 100}%`, background: color(x.k) } }), el("b", {}, x.real)),
-        el("div", { class: "fila tendria" }, el("span", {}, "le tocarían"), el("i", { style: { width: `${x.prop / maxB * 100}%`, background: color(x.k) } }), el("b", {}, x.prop))))));
-    const utiles = (k) => { let con = 0, sin = 0, provCon = 0, provSin = 0;
-      for (const pr of proy.provincias) { const v = (pr.cuotas[k] || 0) * pr.n; if (!v) continue; if (pr.escanos[k]) { con += v; provCon++; } else { sin += v; provSin++; } }
-      return { util: con / (con + sin || 1), provCon, provSin }; };
-    const expl = comp.filter((x) => Math.abs(x.d) >= 3).map((x) => ({ ...x, ...utiles(x.k) }));
-    $("#g-perdidos").replaceChildren(...expl.map((x) => el("div", { class: "perdido" }, el("b", {}, el("i", { class: "punto", style: { background: color(x.k) } }), nombre(x.k)),
-      el("span", { class: "v", style: x.d > 0 ? { color: "var(--bien)" } : null }, x.d > 0 ? `${x.d} asientos de regalo` : `${-x.d} asientos menos`),
-      el("span", { class: "m" }, x.provCon ? `Saca asiento en ${x.provCon} provincias y se queda a cero en ${x.provSin}. El ${r100(1 - x.util)} % de sus votos no sirve para elegir a nadie.` : `No saca asiento en ninguna provincia. Todos sus votos se tiran.`))));
-  }
-
-  // 5. Mi provincia
-  pintarMiProvincia(proy);
-
   // 5. Titulares
   const tit = (n) => el("a", { class: "titular-n", href: n.enlace, target: "_blank", rel: "noopener" }, n.partido ? el("span", { class: "tag", style: { background: color(n.partido) } }, nombre(n.partido)) : null, n.titulo, el("span", { class: "m" }, `${n.fuente} ${hace(n.fecha)}`));
   $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 4).map(tit), ...(D.noticias?.polemicas || []).slice(0, 2).map(tit));
@@ -288,7 +250,7 @@ function pintarHoy(m, m7, proy) {
 
   // 6. Fechas
   const ag = D.agenda || [], sig = ag.find((x) => fechaD(x.fin || x.fecha) >= hoy());
-  $("#r-fechas").textContent = `Se vota el domingo 29 de noviembre${dias > 0 ? `, dentro de ${dias} días` : ""}. ${sig ? `Lo siguiente en el calendario, ${sig.titulo.toLowerCase()}, ${sig.fin ? `del ${fFecha.format(fechaD(sig.fecha))} al ${fFecha.format(fechaD(sig.fin))}` : `el ${fFechaLarga.format(fechaD(sig.fecha))}`}.` : ""}`;
+  $("#r-fechas").textContent = `Se vota el domingo 29 de noviembre${dias > 0 ? `, dentro de ${dias} días` : ""}. ${sig ? `Lo siguiente en el calendario, ${sig.titulo.charAt(0).toLowerCase() + sig.titulo.slice(1)}, ${sig.fin ? `del ${fFecha.format(fechaD(sig.fecha))} al ${fFecha.format(fechaD(sig.fin))}` : `el ${fFechaLarga.format(fechaD(sig.fecha))}`}.` : ""}`;
   $("#agenda").replaceChildren(...ag.map((x) => { const fin = fechaD(x.fin || x.fecha);
     return el("li", { class: fin < hoy() ? "pasado" : x === sig ? "siguiente" : null }, el("span", { class: "dia" }, x.fin ? `${fFecha.format(fechaD(x.fecha))} al ${fFecha.format(fin)}` : fFecha.format(fechaD(x.fecha))), el("span", {}, x.titulo, x.detalle ? el("span", { class: "det" }, x.detalle) : null)); }));
 }
@@ -312,12 +274,9 @@ function pintarMiProvincia(proy) {
   const sel = $("#mi-provincia");
   if (!sel.options.length) {
     sel.append(el("option", { value: "" }, "Elige una"), ...proy.provincias.map((p) => p.nombre).sort((a, b) => a.localeCompare(b, "es")).map((n) => el("option", { value: n }, n)));
-    try { sel.value = localStorage.getItem("mi-provincia") || ""; } catch {}
-    sel.addEventListener("change", () => { try { localStorage.setItem("mi-provincia", sel.value); } catch {} mapa.sel = sel.value; pintarMiProvincia(proyActual); if (mapa.proy) pintarMapa(mapa.proy); });
+    sel.addEventListener("change", () => { try { localStorage.setItem("mi-provincia", sel.value); } catch {} mapa.sel = sel.value || null; if (mapa.proy) pintarMapa(mapa.proy); if (sel.value) $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); });
   }
-  const p = proy.provincias.find((x) => x.nombre === sel.value);
-  $("#r-provincia").textContent = p ? fraseProvincia(p) : "Elige tu provincia y te contamos cómo quedaría.";
-  $("#g-provincia").replaceChildren(...(p ? ordenar(p.escanos).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${p.escanos[k]}`)) : []));
+  sel.value = mapa.sel || "";
 }
 function pintarHistorial() {
   const h = D.historial, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
@@ -419,6 +378,33 @@ function pintarTendencia() {
   graficoTendencia = new Chart($("#grafico-tendencia"), { type: "line", data: { labels: puntos.map((t) => enc.tramo === "tres" ? fFecha.format(t) : etiquetaFecha(t)),
     datasets: o.map((k) => ({ label: nombre(k), data: series[k], borderColor: color(k), backgroundColor: color(k), borderWidth: 3, pointRadius: 0, tension: .3, spanGaps: true })) }, options: opciones(" %") });
 }
+/* ---------- ¿La ley electoral favorece a alguien? (en ¿Y si…?, con los votos de la situación elegida) ---------- */
+function pintarLey(media, esc2, provincias) {
+  const conVoto = ordenar(media).filter((k) => media[k] > 0), sumaV = conVoto.reduce((s, k) => s + media[k], 0);
+  const cuo = conVoto.map((k) => ({ k, q: media[k] / sumaV * 350 }));
+  const prop = {}; let asignados = 0;
+  for (const x of cuo) { prop[x.k] = Math.floor(x.q); asignados += prop[x.k]; }
+  for (const x of cuo.sort((a, b) => (b.q - Math.floor(b.q)) - (a.q - Math.floor(a.q))).slice(0, 350 - asignados)) prop[x.k]++;
+  const comp = [...new Set([...Object.keys(esc2), ...Object.keys(prop)])].filter((k) => (esc2[k] || 0) > 0 || (prop[k] || 0) >= 2).map((k) => ({ k, real: esc2[k] || 0, prop: prop[k] || 0, d: (esc2[k] || 0) - (prop[k] || 0) })).sort((a, b) => b.real - a.real);
+  if (comp.length > 2) {
+    const ganan = comp.filter((x) => x.d >= 3).sort((a, b) => b.d - a.d), pierden = comp.filter((x) => x.d <= -3).sort((a, b) => a.d - b.d);
+    $("#r-coste").replaceChildren(el("b", {}, ganan.length ? "Sí." : "Poco."), ganan.length ? ` A ${lista(ganan.map((x) => nombre(x.k)))} le${ganan.length > 1 ? "s" : ""} da ${lista(ganan.map((x) => `${x.d}`))} asientos más de los que le${ganan.length > 1 ? "s" : ""} tocarían por sus votos.` : "", pierden.length ? ` A ${lista(pierden.map((x) => nombre(x.k)))} le${pierden.length > 1 ? "s" : ""} quita ${lista(pierden.map((x) => `${-x.d}`))}.` : "");
+    const maxB = Math.max(...comp.map((x) => Math.max(x.real, x.prop)));
+    $("#g-proporcional").replaceChildren(...comp.map((x) => el("div", { class: "par" },
+      el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(x.k) } }), nombre(x.k)),
+      el("span", { class: `dif ${x.d > 0 ? "sube" : x.d < 0 ? "baja" : ""}` }, x.d ? `${x.d > 0 ? "+" : "−"}${Math.abs(x.d)}` : "igual"),
+      el("div", { class: "filas" },
+        el("div", { class: "fila" }, el("span", {}, "tendrá"), el("i", { style: { width: `${x.real / maxB * 100}%`, background: color(x.k) } }), el("b", {}, x.real)),
+        el("div", { class: "fila tendria" }, el("span", {}, "le tocarían"), el("i", { style: { width: `${x.prop / maxB * 100}%`, background: color(x.k) } }), el("b", {}, x.prop))))));
+    const utiles = (k) => { let con = 0, sin = 0, provCon = 0, provSin = 0;
+      for (const pr of provincias) { const v = (pr.cuotas[k] || 0) * pr.n; if (!v) continue; if (pr.escanos[k]) { con += v; provCon++; } else { sin += v; provSin++; } }
+      return { util: con / (con + sin || 1), provCon, provSin }; };
+    const expl = comp.filter((x) => Math.abs(x.d) >= 3).map((x) => ({ ...x, ...utiles(x.k) }));
+    $("#g-perdidos").replaceChildren(...expl.map((x) => el("div", { class: "perdido" }, el("b", {}, el("i", { class: "punto", style: { background: color(x.k) } }), nombre(x.k)),
+      el("span", { class: "v", style: x.d > 0 ? { color: "var(--bien)" } : null }, x.d > 0 ? `${x.d} asientos de regalo` : `${-x.d} asientos menos`),
+      el("span", { class: "m" }, x.provCon ? `Saca asiento en ${x.provCon} provincias y se queda a cero en ${x.provSin}. El ${r100(1 - x.util)} % de sus votos no sirve para elegir a nadie.` : `No saca asiento en ninguna provincia. Todos sus votos se tiran.`))));
+  }
+}
 /* ---------- Mapa de teselas ---------- */
 const TESELAS = { "A Coruña": [0, 0], "Lugo": [1, 0], "Asturias": [2, 0], "Cantabria": [3, 0], "Bizkaia": [4, 0], "Gipuzkoa": [5, 0],
   "Pontevedra": [0, 1], "Ourense": [1, 1], "León": [2, 1], "Palencia": [3, 1], "Burgos": [4, 1], "Álava": [5, 1], "Navarra": [6, 1], "Huesca": [8, 1], "Lleida": [9, 1], "Girona": [10, 1],
@@ -452,7 +438,7 @@ function dibujarMapa(proy, opciones = {}) {
   // opciones: {vista, sel, resaltar: Set de provincias con borde, colorear: (p)=>{fill,op,...}}
   const G = D.mapa, vista = opciones.vista || mapa.vista, sel = opciones.sel ?? mapa.sel, resaltar = opciones.resaltar || new Set();
   const guardada = mapa.vista; mapa.vista = vista;
-  const cols = proy.provincias.map((p) => [p, colorProvincia(p)]);
+  const cols = proy.provincias.map((p) => [p, opciones.colorear ? opciones.colorear(p) : colorProvincia(p)]);
   mapa.vista = guardada;
   let svg;
   if (G) {
@@ -480,6 +466,7 @@ function dibujarMapa(proy, opciones = {}) {
 }
 function pintarMapa(proy) {
   mapa.proy = proy;
+  pintarMiProvincia(proy);
   const svg = dibujarMapa(proy);
   $("#mapa-svg").innerHTML = svg;
   $("#mapa-svg").querySelectorAll("g.prov").forEach((g) => g.addEventListener("click", () => { mapa.sel = g.dataset.p; try { localStorage.setItem("mi-provincia", mapa.sel); } catch {} pintarMapa(mapa.proy); }));
@@ -574,6 +561,7 @@ function recalcularSim() {
   const proy = Modelo.proyectar(sim.valores, D.base);
   sim.ultimaProy = proy;
   pintarHemiSim();
+  pintarLey(sim.valores, proy.total, proy.provincias);
   leyenda($("#sim-leyenda"), proy.total, (k) => { const d = proy.total[k] - (sim.proyBase.total[k] || 0); return d ? el("small", { class: d > 0 ? "sube" : "baja" }, ` ${d > 0 ? "+" : "−"}${Math.abs(d)}`) : null; });
   for (const k of [...sim.seleccion]) if (!proy.total[k]) sim.seleccion.delete(k);
   const suma = [...sim.seleccion].reduce((s, k) => s + (proy.total[k] || 0), 0);
@@ -665,6 +653,44 @@ function pintarAtencion() {
   graficoAtencion = new Chart($("#grafico-atencion"), { type: "line", data: { labels: dias.map((d) => fFecha.format(fechaD(d))), datasets: ks.map((k) => ({ label: a[k].articulo, data: a[k].serie.map((x) => x.visitas), borderColor: color(k), backgroundColor: color(k), borderWidth: 2, pointRadius: 0, tension: .25 })) }, options: opciones(" visitas en Wikipedia") });
 }
 
+/* ---------- Senado ---------- */
+const senado = { sel: null, prov: null };
+function pintarSenado(proy) {
+  // Los senadores de hoy salen del mismo reparto por provincias que el mapa. Las simulaciones ponen la probabilidad y el margen.
+  const M = 105, tot = {}, porProv = {};
+  for (const p of proy.provincias) { const r = Modelo.senadoProvincia(p.cuotas, p.nombre); porProv[p.nombre] = r; for (const [k, n] of Object.entries(r)) tot[k] = (tot[k] || 0) + n; }
+  const S = D.prob?.senado, o = ordenar(tot), k1 = o[0], k2 = o[1];
+  if (!k1) return;
+  const X = tot[k1], p1 = S?.[k1]?.p_mayoria, t = p1 == null ? -1 : tramo(p1);
+  $("#r-senado").replaceChildren(el("b", {}, t >= 3 ? `${cap(palabra(p1))}, mayoría absoluta ${deP(k1)}.` : t === 2 ? "En el aire." : t >= 0 ? "Nadie tiene asegurada la mayoría del Senado." : `${cap(elP(k1))}, el que más senadores sacaría.`),
+    ` Con las encuestas de hoy ${elP(k1)} sacaría ${X} de los 208 senadores que se eligen, ${X > M ? `${X - M} más de los ${M} que hacen falta` : X === M ? `justo los ${M} que hacen falta` : `${M - X} menos de los ${M} que hacen falta`}.`, k2 ? ` ${cap(elP(k2))} sacaría ${tot[k2]}.` : "");
+  const op = (k) => ({ id: k, titulo: `Mayoría ${deP(k)}`, arco: nombre(k), p: S[k]?.p_mayoria || 0, color: color(k), partidos: [k], central: tot[k], p10: Math.min(S[k]?.p10 ?? tot[k], tot[k]), p90: Math.max(S[k]?.p90 ?? tot[k], tot[k]), verbo: "sacaría", plural: false, mayoria: M, unidad: "senadores" });
+  const ops = S ? [op(k1), { id: "nadie", titulo: "Nadie con mayoría", p: Math.max(0, 1 - Object.values(S).reduce((a, v) => a + (v.p_mayoria || 0), 0)), color: "#8A93A3", texto: `Pasa cuando ningún partido llega solo a ${M} senadores. Tendrían que ponerse de acuerdo varios para sacar adelante las votaciones.` }, ...(k2 ? [op(k2)] : [])] : [];
+  const pinta = () => {
+    const sel = ops.find((x) => x.id === senado.sel && x.partidos) || (senado.sel === "nadie" ? null : (ops[0] || { partidos: [k1], color: color(k1), arco: nombre(k1), central: X, mayoria: M, unidad: "senadores" }));
+    hemiciclo($("#sen-hemiciclo"), tot, 8, sel ? { partidos: sel.partidos, color: sel.color } : null, String(M));
+    fraseArco($("#sen-hemi-arco"), sel);
+    if (ops.length) medidores($("#sen-medidores"), $("#sen-medidor-detalle"), ops, senado.sel, (id) => { senado.sel = id; pinta(); });
+    else { $("#sen-medidores").replaceChildren(); $("#sen-medidor-detalle").replaceChildren(); }
+  };
+  pinta();
+  leyenda($("#sen-leyenda"), tot);
+  const max = Math.max(...o.map((k) => tot[k]));
+  $("#g-senado").replaceChildren(...o.map((k) => el("div", { class: "bg" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+    el("div", { class: "num" }, tot[k], el("small", {}, S?.[k] ? ` senadores, lo normal entre ${Math.min(S[k].p10, tot[k])} y ${Math.max(S[k].p90, tot[k])}` : " senadores")), el("div", { class: "pista" }, el("i", { style: { width: `${tot[k] / max * 100}%`, background: color(k) } })))));
+  // Mapa: el color es el del partido más votado de la provincia, que es quien se lleva casi todos sus senadores
+  if (senado.prov == null) senado.prov = mapa.sel;
+  const pintaMapa = () => {
+    $("#sen-mapa").innerHTML = dibujarMapa(proy, { vista: "ganador", sel: senado.prov || "", colorear: (p) => { const r = porProv[p.nombre], g = ordenar(r)[0]; return { fill: g ? color(g) : "var(--linea)", op: 1, txt: "#fff", etiqueta: String(Object.values(r).reduce((a, b) => a + b, 0)) }; } });
+    $("#sen-mapa").querySelectorAll("g.prov").forEach((g) => g.addEventListener("click", () => { senado.prov = g.dataset.p; pintaMapa(); }));
+    const r = porProv[senado.prov], q = r ? ordenar(r) : [];
+    $("#sen-ficha").replaceChildren(...(r ? [el("div", { class: "ficha" }, el("h3", {}, `${senado.prov}, ${Object.values(r).reduce((a, b) => a + b, 0)} senadores`),
+      el("div", { class: "chips" }, ...q.map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${r[k]}`))),
+      el("p", {}, `${cap(elP(q[0]))} sería el partido más votado y se llevaría ${r[q[0]]}${q[1] ? `. ${cap(elP(q[1]))} sería el segundo y se llevaría ${r[q[1]]}` : ""}.`))] : []));
+  };
+  pintaMapa();
+}
+
 /* ---------- Arranque ---------- */
 let proyActual;
 function pintarTodo() {
@@ -676,6 +702,7 @@ function pintarTodo() {
   pintarHoy(m, m7, proy);
   pintarEncuestas(m, m7, proy);
   pintarMapa(proy);
+  pintarSenado(proy);
   pintarSimulador(m, proy);
   pintarFiabilidad();
   pintarPorra(proy);
