@@ -210,10 +210,10 @@ function margen(media, base, sig, e, semilla) {
 /* ---------- Análisis de encuestas: sesgo de casa, notas, noticia o ruido ---------- */
 function analizar(encuestas, ranking, mediaHoy) {
   const principales = Object.keys(mediaHoy).sort((a, b) => mediaHoy[b] - mediaHoy[a]).filter((k) => mediaHoy[k] >= 2).slice(0, 6);
-  const hoy = new Date(), recientes = encuestas.filter((e) => (hoy - fechaD(e.fin)) / DIA <= 420);
+  const hoy = new Date(), recientes = encuestas.filter((e) => (hoy - fechaD(e.fin)) / DIA <= 420 && !Me.esDePartido(e));
   const desv = {}; // clave -> [{fin, dev:{p:x}}]
   for (const e of recientes) {
-    const m = Me.calcMedia(encuestas, fechaD(e.fin), { ventana: 30, excluirClave: e.clave, incluirCIS: false }).media;
+    const m = Me.calcMedia(encuestas, fechaD(e.fin), { ...Me.PRECAMPANA, excluirClave: e.clave, incluirCIS: false }).media;
     const dev = {};
     for (const p of principales) if (e.pct[p] != null && m[p] != null) dev[p] = e.pct[p] - m[p];
     if (Object.keys(dev).length >= 3) (desv[e.clave] ||= { empresa: e.empresa_base, filas: [] }).filas.push({ id: e.id, fin: e.fin, dev });
@@ -241,13 +241,13 @@ function analizar(encuestas, ranking, mediaHoy) {
   }
   const nota = (clave) => {
     const r = ranking && ranking.find((x) => x.clave === clave);
-    if (!r) return { letra: "–", texto: "sin historial en 2019 ni 2023" };
+    if (!r) return { letra: "–", texto: "sin historial en elecciones anteriores" };
     const l = r.error_medio <= 1.2 ? "A" : r.error_medio <= 1.8 ? "B" : r.error_medio <= 2.5 ? "C" : "D";
-    return { letra: l, texto: `error medio de ${r.error_medio.toFixed(1)} puntos en ${r.elecciones === 2 ? "2019 y 2023" : "una elección"}` };
+    return { letra: l, texto: `error medio de ${r.error_medio.toFixed(1).replace(".", ",")} puntos en ${r.elecciones > 1 ? `${r.elecciones} elecciones` : "una elección"}` };
   };
   const ultimas = [];
   for (const e of encuestas.slice(0, 12)) {
-    const m = Me.calcMedia(encuestas, fechaD(e.fin), { ventana: 30, excluirClave: e.clave, incluirCIS: false }).media;
+    const m = Me.calcMedia(encuestas, fechaD(e.fin), { ...Me.PRECAMPANA, excluirClave: e.clave, incluirCIS: false }).media;
     const s = sesgos[e.clave];
     const detalle = [];
     let maxZ = 0, culpable = null;
@@ -284,7 +284,7 @@ function main() {
   const hoy = new Date();
   const dias = Math.round((fechaD(config.eleccion.fecha) - hoy) / DIA);
   const va = Me.ventanaAdaptativa(hoy, fechaD(config.eleccion.fecha));
-  console.log(`Ventana de la media: ${va.ventana} días, semivida ${va.semivida} días (${va.fase}, faltan ${va.dias} días)`);
+  console.log(`Ventana de la media: última encuesta de cada empresa de los últimos ${va.ventana} días, el peso se queda en la mitad cada ${va.mitad} días (${va.fase}, faltan ${va.dias} días)`);
   const mediaBruta = Me.calcMedia(encuestas, hoy, { ...va, ranking: fiab && fiab.ranking }).media;
   if (!Object.keys(mediaBruta).length) { console.log("Sin encuestas, no se simula"); return; }
   // Primero el análisis (sesgo de casa de cada empresa), después la media ya corregida con esos sesgos
@@ -307,7 +307,7 @@ function main() {
   console.log(`  Bloqueo: ${(res.bloqueo * 100).toFixed(0)} %`);
   const salida = { actualizado: hoy.toISOString(), simulaciones: N, dias_para_votar: dias, media,
     ventana: { ...va, encuestas: usadas.map((e) => ({ id: e.id, empresa: e.empresa_base, encargo: e.encargo, fin: e.fin, muestra: e.muestra, peso: +e.peso_pct.toFixed(3) })) }, sigmas: cal.sigmas, calibracion: cal.detalle, errores_historicos: cal.errores.map((e, i) => ({ eleccion: historicos[i].nombre, errores: e.errores })),
-    ...res, metodo: "Media ponderada de encuestas + error correlacionado por bloques (rho 0,55) calibrado con 2019 y 2023 + ruido provincial 5 %, D'Hondt por provincia con los escaños del RD 806/2026." };
+    ...res, metodo: "Media ponderada de encuestas (última de cada empresa, hasta 60 días en precampaña) + error correlacionado por bloques (rho 0,55) calibrado con 2016, 2019 y 2023 + ruido territorial medido 2019-2023, D'Hondt por provincia con los escaños del RD 806/2026." };
 
   // Backtest 2023: base 2019 y encuestas de entonces, con el error calibrado SOLO con 2019
   const h23 = historicos.find((h) => h.nombre === "23J 2023"), h19 = historicos.find((h) => h.nombre === "10N 2019"), base19 = leer("base2019.json");

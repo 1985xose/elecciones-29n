@@ -286,10 +286,14 @@ details[open] summary::after { content: "–"; }
 .prop .n { font-weight: 800; min-width: 2.2em; text-align: right; }
 .prop .vs { color: var(--gris); font-size: .8rem; }
 .prop .d { font-weight: 700; min-width: 2.6em; text-align: right; }
-.filtro-empresas { display: flex; gap: 6px; overflow-x: auto; padding: 2px 0 10px; scrollbar-width: none; }
-.filtro-empresas::-webkit-scrollbar { display: none; }
-.filtro-empresas button { flex: none; border: 2px solid var(--linea); background: var(--superficie); border-radius: 999px; padding: 6px 14px; font: inherit; font-size: .88rem; font-weight: 600; cursor: pointer; color: var(--gris); }
+.filtro-empresas { display: flex; flex-wrap: wrap; gap: 6px; padding: 2px 0 10px; }
+.filtro-empresas button { flex: none; border: 2px solid var(--linea); background: var(--superficie); border-radius: 999px; padding: 5px 12px; font: inherit; font-size: .84rem; font-weight: 600; cursor: pointer; color: var(--gris); }
+.filtro-empresas button.mas { border-style: dotted; color: var(--tinta); }
 .filtro-empresas button[aria-pressed="true"] { border-color: var(--tinta); color: var(--tinta); background: var(--papel); }
+.filtro-empresas button small { font-weight: 500; opacity: .7; margin-left: 2px; }
+.filtro-empresas button.en-media::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #2e9e5b; margin-right: 6px; vertical-align: 1px; }
+.filtro-empresas button.inactiva { border-style: dashed; opacity: .6; }
+.leyenda-empresas { margin: -4px 0 10px; }
 .tarjeta.abrible { cursor: pointer; }
 .tarjeta .detalle { margin-top: 10px; border-top: 1px solid var(--linea); padding-top: 8px; font-size: .88rem; }
 .tarjeta .detalle table { width: 100%; border-collapse: collapse; margin-top: 6px; }

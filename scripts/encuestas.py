@@ -9,7 +9,30 @@ PAGINA = "Opinion polling for the next Spanish general election"
 # La misma casa demoscópica con otro nombre según la época, para que conserve su nota de acierto
 EQUIVALENCIAS = {"emanalytics": "electopanel", "emanalyticselectomania": "electopanel", "electomania": "electopanel",
                  "sociometricaelespanol": "sociometrica", "40dbprisa": "40db", "sigmadoselmundo": "sigmados",
-                 "ncreportlarazon": "ncreport", "gad3abc": "gad3", "simplelogicaelindependiente": "simplelogica"}
+                 "ncreportlarazon": "ncreport", "gad3abc": "gad3", "simplelogicaelindependiente": "simplelogica",
+                 "demoscopiayservicios": "demoscopiaservicios"}
+
+
+def tabla_empresas(encuestas, hoy=None):
+    """Una línea por empresa con cuántas encuestas tiene, la fecha de la última (fin del trabajo de campo) y los días que
+    lleva sin publicar. Sirve para ver en el log de un vistazo si falta alguna empresa o si una habitual se ha quedado atrás."""
+    hoy = hoy or date.today()
+    por = {}
+    for e in encuestas:
+        por.setdefault(e["clave"], []).append(e)
+    filas = []
+    for clave, lista in por.items():
+        fechas = sorted(date.fromisoformat(e["fin"]) for e in lista)
+        saltos = sorted((b - a).days for a, b in zip(fechas, fechas[1:]))
+        habitual = saltos[len(saltos) // 2] if saltos else None
+        sin = (hoy - fechas[-1]).days
+        ultimo_anio = sum(1 for f in fechas if (hoy - f).days <= 365)
+        aviso = "  <- lleva más del doble de lo habitual sin publicar" if habitual and len(fechas) >= 4 and ultimo_anio and sin > max(45, 2 * habitual) else ""
+        filas.append((sin, f"   {lista[0]['empresa_base'][:24]:<25}{len(fechas):>4}{ultimo_anio:>6}   {fechas[-1].isoformat()}{sin:>6}{(str(habitual) if habitual else '-'):>10}{aviso}"))
+    print(f"Empresas en la tabla: {len(por)}")
+    print(f"   {'empresa':<25}{'total':>4}{'año':>6}   {'última':<10}{'días':>6}{'habitual':>10}")
+    for _, linea in sorted(filas):
+        print(linea)
 
 
 def main():
@@ -17,6 +40,8 @@ def main():
     filas, partidos = parsear_tablas(html, anio_defecto=date.today().year)
     previo = leer("encuestas.json", {}) or {}
     primera = {e["id"]: e.get("primera_vez") for e in previo.get("encuestas", [])}
+    # Si a una empresa se le cambia la clave (equivalencias), su encuesta sigue siendo la misma y no es "nueva"
+    primera_firma = {(e["empresa"], e["fin"], e.get("muestra")): e.get("primera_vez") for e in previo.get("encuestas", [])}
     encuestas, nuevas = [], []
     for f in filas:
         if f.get("es_resultado"):
@@ -31,6 +56,8 @@ def main():
         f.pop("es_resultado", None)
         if f["id"] in primera:
             f["primera_vez"] = primera[f["id"]]
+        elif (f["empresa"], f["fin"], f.get("muestra")) in primera_firma:
+            f["primera_vez"] = primera_firma[(f["empresa"], f["fin"], f.get("muestra"))]
         else:
             f["primera_vez"] = ahora_iso()
             if previo:  # en la primera ejecución no se considera nada "nuevo"
@@ -49,6 +76,7 @@ def main():
     if unicas:
         e = unicas[0]
         print(f"Más reciente: {e['empresa']} | {e['inicio']} a {e['fin']} | n={e['muestra']} | {e['pct']} | escaños {e['escanos']}")
+        tabla_empresas(unicas)
 
     # ---- Validación dura. Si algo no cuadra, se para y se conservan los datos anteriores ----
     problemas = []

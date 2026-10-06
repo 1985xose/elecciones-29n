@@ -63,10 +63,10 @@ function activarPestana(id) {
 window.addEventListener("hashchange", () => activarPestana(location.hash.slice(1)));
 
 /* ---------- Media ---------- */
-/* Sin ventana explícita, la de ese día según lo que faltara para votar. La gráfica de tendencia pasa una fija. */
-function calcMedia(fecha = hoy(), ventana = null) {
-  const va = ventana ? { ventana, semivida: 14 } : Media.ventanaAdaptativa(fecha, fechaD(D.config.eleccion.fecha));
-  return { ...Media.calcMedia(D.encuestas?.encuestas || [], fecha, { ...va, incluirCIS: $("#incluir-cis")?.checked, ranking: D.fiabilidad?.ranking, sesgos: D.analisis?.sesgos }), fase: va.fase };
+/* La media de un día, con la regla que tocaba ese día según lo que faltara para votar. La gráfica usa la misma. */
+function calcMedia(fecha = hoy()) {
+  const va = Media.ventanaAdaptativa(fecha, fechaD(D.config.eleccion.fecha));
+  return { ...Media.calcMedia(D.encuestas?.encuestas || [], fecha, { ...va, incluirCIS: $("#incluir-cis")?.checked, ranking: D.fiabilidad?.ranking, sesgos: D.analisis?.sesgos }), fase: va.fase, mitad: va.mitad };
 }
 
 /* Patrón de colores de una coalición según el peso de cada partido en escaños (p. ej. 2 PP por cada Vox) */
@@ -154,12 +154,12 @@ function pintarHoy(m, m7, proy) {
         el("div", { class: "pista" }, el("i", { style: { width: `${m.media[k] / max * 100}%`, background: color(k) } }))); }));
     $("#g-resto").replaceChildren(...o.slice(3).filter((k) => m.media[k] >= 0.5).map((k) => el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} ${fmt1.format(m.media[k])}`)));
     // Transparencia: qué encuestas forman la media de hoy y cuánto pesa cada una
-    const faseTxt = m.fase === "precampaña" ? "Ahora usamos las encuestas de los últimos 30 días. Desde que empiece la campaña, el 13 de noviembre, usaremos las de 14 días, y la última semana las de 10, para que los cambios se noten antes."
-      : m.fase === "campaña" ? "En campaña usamos solo las encuestas de los últimos 14 días, para que los cambios se noten antes." : "En la última semana usamos solo las encuestas de los últimos 10 días. Desde el 24 de noviembre la ley prohíbe publicar encuestas nuevas en España.";
-    $("#media-hoy").replaceChildren(el("p", { class: "pie-bloque" }, `La media de hoy sale de ${m.usadas.length} encuestas, la última de cada empresa. ${faseTxt}`),
+    const faseTxt = m.fase === "precampaña" ? "Cuanto más antigua es una encuesta, menos pesa. Una de hace 10 días pesa la mitad que una de hoy y una de hace un mes, ocho veces menos. Desde que empiece la campaña, el 13 de noviembre, las antiguas perderán peso el doble de rápido, para que los cambios se noten antes."
+      : m.fase === "campaña" ? "En campaña las encuestas antiguas pierden peso rápido, una de hace 5 días pesa la mitad que una de hoy, para que los cambios se noten antes." : "En la última semana una encuesta de hace 3 o 4 días ya pesa la mitad que una de hoy. Desde el 24 de noviembre la ley prohíbe publicar encuestas nuevas en España.";
+    $("#media-hoy").replaceChildren(el("p", { class: "pie-bloque" }, `La media de hoy sale de ${m.usadas.length} encuestas, la última de cada empresa en los últimos ${m.ventana} días. La fecha es la del día en que terminaron de preguntar, que suele ser unos días antes de publicarse. ${faseTxt}`),
       ...m.usadas.map((e) => el("div", { class: "peso" }, el("span", {}, e.empresa_base, el("small", {}, ` ${fFecha.format(fechaD(e.fin))}${e.muestra ? `, ${fmt0.format(e.muestra)} entrevistas` : ""}`)),
         el("div", { class: "pista" }, el("i", { style: { width: `${Math.round(e.peso_pct * 100)}%` } })), el("b", {}, `${Math.round(e.peso_pct * 100)} %`))));
-    $("#como-ganando").textContent = "El porcentaje es lo que pesa cada encuesta en la media. Pesa más la más reciente, la que preguntó a más gente y la de la empresa que más acertó en 2016, 2019 y 2023. A cada encuesta se le resta antes lo que esa empresa suele dar de más o de menos a cada partido.";
+    $("#como-ganando").textContent = "El porcentaje es lo que pesa cada encuesta en la media. Pesa más la más reciente, la que preguntó a más gente y la de la empresa que más acertó en 2016, 2019 y 2023. Una empresa nueva, que aún no ha pasado por unas elecciones, cuenta como una empresa normal. Las encuestas que encarga un partido no entran. A cada encuesta se le resta antes lo que esa empresa suele dar de más o de menos a cada partido.";
   } else $("#r-ganando").textContent = "Todavía no hay encuestas cargadas. La primera actualización tarda unos minutos.";
 
   // 2. ¿Quién va a gobernar?
@@ -316,28 +316,40 @@ function pintarEncuestas(m, m7, proy) {
       el("div", { class: "pct" }, `${fmt1.format(m.media[k])}`, el("small", { class: Math.abs(d) >= 0.1 ? (d > 0 ? "sube" : "baja") : "" }, Math.abs(d) >= 0.1 ? signo(d) : "")),
       el("div", { class: "barra" }, el("i", { style: { width: `${m.media[k] / max * 100}%`, background: color(k) } })),
       el("div", { class: "esc" }, `de cada 100 votos, ${D.prob?.partidos?.[k] ? `entre ${D.prob.partidos[k].p10} y ${D.prob.partidos[k].p90} asientos` : `${proy.total[k] || 0} asientos`}`)); }));
-  // Botones por empresa
+  // Botones por empresa: todas las de la legislatura. Primero las que han publicado en el último año, de más a menos
+  // encuestas, y al final las que llevan más de un año calladas. Las de partido no son empresas y no tienen botón.
   const todas = D.encuestas?.encuestas || [], hace365 = new Date(+hoy() - 365 * DIA);
   const cuenta = {};
-  for (const e of todas) if (fechaD(e.fin) >= hace365) { cuenta[e.clave] ||= { empresa: e.empresa_base, n: 0 }; cuenta[e.clave].n++; }
-  const empresas = Object.entries(cuenta).filter(([, v]) => v.n >= 3).sort((a, b) => b[1].n - a[1].n);
+  for (const e of todas) { if (Media.esDePartido(e)) continue; const c = (cuenta[e.clave] ||= { empresa: e.empresa_base, n: 0, ultima: e.fin }); c.n++; if (e.fin > c.ultima) c.ultima = e.fin; }
+  const enMedia = new Set(m.usadas.map((e) => e.clave));
+  for (const c of Object.values(cuenta)) c.activa = fechaD(c.ultima) >= hace365;
+  const empresas = Object.entries(cuenta).sort((a, b) => b[1].activa - a[1].activa || b[1].n - a[1].n || (a[1].ultima < b[1].ultima ? 1 : -1));
   if (enc.filtro && !cuenta[enc.filtro]) enc.filtro = null;
+  // De entrada se ven las 8 que más publican, el resto se despliega. Si la elegida está más abajo, se despliega sola.
+  const CORTE = 8;
+  const oculta = () => enc.filtro && empresas.findIndex(([k]) => k === enc.filtro) >= CORTE;
+  if (oculta()) enc.todas = true;
   $("#filtro-empresas").replaceChildren(el("button", { type: "button", "aria-pressed": enc.filtro ? "false" : "true", onclick: () => { enc.filtro = null; pintarEncuestas(m, m7, proy); } }, "Media de todas"),
-    ...empresas.map(([clave, v]) => el("button", { type: "button", "aria-pressed": enc.filtro === clave ? "true" : "false", onclick: () => { enc.filtro = clave; pintarEncuestas(m, m7, proy); } }, v.empresa)));
-  $("#explica-tendencia").textContent = enc.filtro ? `Las encuestas de ${cuenta[enc.filtro].empresa}, una a una, desde las últimas elecciones. Cada punto es una encuesta.` : "Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.";
+    ...(enc.todas ? empresas : empresas.slice(0, CORTE)).map(([clave, v]) => el("button", { type: "button", class: `${enMedia.has(clave) ? "en-media" : ""}${v.activa ? "" : " inactiva"}`, "data-clave": clave, "aria-pressed": enc.filtro === clave ? "true" : "false",
+      title: `${v.n} ${v.n === 1 ? "encuesta" : "encuestas"} desde 2023, la última del ${fFecha.format(fechaD(v.ultima))}`, onclick: () => { enc.filtro = clave; pintarEncuestas(m, m7, proy); } }, v.empresa, el("small", {}, ` ${v.n}`))),
+    empresas.length > CORTE ? el("button", { type: "button", class: "mas", "aria-expanded": enc.todas ? "true" : "false", onclick: () => { enc.todas = !enc.todas; if (!enc.todas && oculta()) enc.filtro = null; pintarEncuestas(m, m7, proy); } }, enc.todas ? "Ver menos" : `Ver las ${empresas.length}`) : null);
+  $("#leyenda-empresas").textContent = `${empresas.length} empresas han publicado encuestas desde 2023. El número es cuántas lleva cada una. Con punto verde, las ${enMedia.size} que cuentan hoy en la media. En gris, las que llevan más de un año sin publicar.`;
+  const cf = enc.filtro ? cuenta[enc.filtro] : null;
+  $("#explica-tendencia").textContent = cf ? `Las encuestas de ${cf.empresa}, una a una, desde las últimas elecciones. Cada punto es una encuesta. ${enMedia.has(enc.filtro) ? "Su última encuesta cuenta hoy en la media." : enc.filtro === "cis" ? "El CIS no cuenta en la media salvo que lo actives más abajo." : cf.activa ? `Hoy no cuenta en la media porque su última encuesta, del ${fFecha.format(fechaD(cf.ultima))}, tiene más de ${m.ventana} días.` : "Lleva más de un año sin publicar."}` : "Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.";
   // Tarjetas
   const usadas = new Set(m.usadas.map((e) => e.id));
   const lista = (enc.filtro ? todas.filter((e) => e.clave === enc.filtro) : todas).slice(0, enc.filtro ? 30 : 12);
   $("#tarjetas-encuestas").replaceChildren(...lista.map((e) => {
     const an = D.analisis?.ultimas?.find((x) => x.id === e.id), nota = D.analisis?.notas?.find((x) => x.clave === e.clave), oe = ordenar(e.pct);
     const dif = e.pct[oe[0]] - e.pct[oe[1]];
-    const fiable = nota ? (nota.letra === "A" || nota.letra === "B" ? "Es una empresa que ha acertado bastante en el pasado" : nota.letra === "C" || nota.letra === "D" ? "Es una empresa que ha fallado más de la cuenta en el pasado" : "No sabemos cuánto acierta, no hizo encuestas antes de las últimas elecciones") : "";
+    const dePartido = Media.esDePartido(e);
+    const fiable = dePartido ? "La ha encargado un partido, así que no entra en la media" : nota ? (nota.letra === "A" || nota.letra === "B" ? "Es una empresa que ha acertado bastante en el pasado" : nota.letra === "C" || nota.letra === "D" ? "Es una empresa que ha fallado más de la cuenta en el pasado" : "No sabemos cuánto acierta, no hizo encuestas antes de las últimas elecciones") : "";
     const ver = an ? (an.veredicto === "ruido" ? "y dice más o menos lo mismo que las demás." : an.veredicto === "leve" ? "y se sale un poco de lo habitual en ella." : "y trae un cambio de verdad respecto a lo que suele dar.") : ".";
     const abierta = enc.abiertas.has(e.id);
     const sesgo = D.analisis?.sesgos?.[e.clave]?.sesgo;
     const tarjeta = el("div", { class: "tarjeta abrible", id: `enc-${e.id}`, style: usadas.has(e.id) || enc.filtro ? null : { opacity: .75 }, onclick: (ev) => { if (ev.target.closest("a")) return; abierta ? enc.abiertas.delete(e.id) : enc.abiertas.add(e.id); pintarEncuestas(m, m7, proy); } },
       el("div", { class: "cab" }, el("b", {}, e.empresa_base, e.encargo ? ` para ${e.encargo}` : "", nota && nota.letra !== "–" ? el("span", { class: "nota", title: nota.texto }, nota.letra) : null,
-        an ? el("span", { class: `veredicto ${an.veredicto}` }, an.veredicto === "ruido" ? "nada nuevo" : an.veredicto === "leve" ? "algo se mueve" : "novedad") : null),
+        dePartido ? el("span", { class: "veredicto leve" }, "de un partido") : an ? el("span", { class: `veredicto ${an.veredicto}` }, an.veredicto === "ruido" ? "nada nuevo" : an.veredicto === "leve" ? "algo se mueve" : "novedad") : null),
         el("span", {}, fFecha.format(fechaD(e.fin)))),
       el("p", { class: "ver" }, `Dice que gana ${nombre(oe[0])} por ${fmt1.format(dif)} puntos. ${fiable}${fiable ? " " : ""}${ver}${e.muestra ? ` Preguntó a ${fmt0.format(e.muestra)} personas, margen de error de ±${fmt1.format(an?.margen ?? 98 / Math.sqrt(e.muestra))} puntos.` : ""}`),
       el("div", { class: "chips" }, ...oe.slice(0, abierta ? 99 : 6).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${fmt1.format(e.pct[k])}`))),
@@ -349,7 +361,7 @@ function pintarEncuestas(m, m7, proy) {
         el("p", { class: "mas" }, "\"Suele dar\" es lo que esta empresa se separa de la media del momento en sus encuestas de esta legislatura. Toca para cerrar.")) : el("p", { class: "mas" }, "Toca para ver todos los datos"));
     return tarjeta;
   }));
-  if (D.encuestas) $("#fuente-encuestas").replaceChildren(enc.filtro ? "" : "Las atenuadas no entran en la media de hoy por ser antiguas o por haber otra más reciente de la misma empresa. ", "Fuente ", el("a", { href: D.encuestas.fuente, target: "_blank", rel: "noopener" }, "Wikipedia"), `, actualizado ${hace(D.encuestas.actualizado)}.`);
+  if (D.encuestas) $("#fuente-encuestas").replaceChildren(enc.filtro ? "" : `Las atenuadas no entran en la media de hoy por tener más de ${m.ventana} días, por haber otra más reciente de la misma empresa o por ser de un partido. La fecha de cada encuesta es la del último día en que preguntó. `, "Fuente ", el("a", { href: D.encuestas.fuente, target: "_blank", rel: "noopener" }, "Wikipedia"), `, actualizado ${hace(D.encuestas.actualizado)}.`);
   graficoTendencia?.destroy(); graficoTendencia = null;
   if (!$("#encuestas").hidden) pintarTendencia();
 }
@@ -367,7 +379,7 @@ function pintarTendencia() {
   for (let t = desde; t <= hoy(); t = new Date(+t + paso * DIA)) puntos.push(t);
   if (puntos[puntos.length - 1] < hoy()) puntos.push(hoy());
   const series = {};
-  for (const t of puntos) { const mm = calcMedia(t, 28).media; for (const k of o) (series[k] ||= []).push(mm[k] != null ? +mm[k].toFixed(2) : null); }
+  for (const t of puntos) { const mm = calcMedia(t).media; for (const k of o) (series[k] ||= []).push(mm[k] != null ? +mm[k].toFixed(2) : null); }
   graficoTendencia = new Chart($("#grafico-tendencia"), { type: "line", data: { labels: puntos.map((t) => enc.tramo === "tres" ? fFecha.format(t) : etiquetaFecha(t)),
     datasets: o.map((k) => ({ label: nombre(k), data: series[k], borderColor: color(k), backgroundColor: color(k), borderWidth: 3, pointRadius: 0, tension: .3, spanGaps: true })) }, options: opciones(" de cada 100 votos") });
 }
