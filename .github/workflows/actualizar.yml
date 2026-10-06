@@ -24,7 +24,11 @@ jobs:
       name: github-pages
       url: ${{ steps.despliegue.outputs.page_url }}
     steps:
+      # Siempre desde lo último de main. Si esta ejecución ha estado esperando a que acabara otra, así parte ya con los
+      # datos que subió la anterior en vez de con los del momento en que se lanzó.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -61,11 +65,6 @@ jobs:
         continue-on-error: true
         run: python scripts/noticias.py
 
-      - name: Atención en Wikipedia (una vez al día)
-        continue-on-error: true
-        run: |
-          if [ ! -f data/atencion.json ] || [ "$(date -u +%H)" = "05" ]; then python scripts/atencion.py; else echo "Se mantiene la del día"; fi
-
       - name: Bot de Telegram (porra)
         continue-on-error: true
         env:
@@ -78,7 +77,17 @@ jobs:
           git config user.name "panel-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || (git commit -m "datos $(date -u +%Y-%m-%dT%H:%M)" && git pull --rebase && git push)
+          if git diff --cached --quiet; then echo "Sin datos nuevos"; exit 0; fi
+          git commit -q -m "datos $(date -u +%Y-%m-%dT%H:%M)"
+          if ! git pull --rebase; then
+            # Otra ejecución ha subido datos mientras esta trabajaba. Los ficheros de data/ se generan enteros en cada
+            # ejecución, así que no se mezclan. Se quedan los de esta, que son los más nuevos, y se sigue.
+            echo "Conflicto en los datos, se conservan enteros los de esta ejecución"
+            git checkout REBASE_HEAD -- data/
+            git add data/
+            GIT_EDITOR=true git rebase --continue
+          fi
+          git push
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

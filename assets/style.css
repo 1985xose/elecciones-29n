@@ -113,10 +113,6 @@ main { max-width: 760px; margin: 0 auto; padding: 4px 16px 24px; }
 .medidor { position: relative; height: 12px; background: var(--superficie); border-radius: 6px; margin-top: 6px; overflow: hidden; }
 .medidor .lleno { position: absolute; inset: 0 auto 0 0; background: var(--tinta); }
 .medidor .meta { position: absolute; top: -2px; bottom: -2px; width: 3px; background: var(--bronce); left: calc(176 / 350 * 100%); }
-.sim-controles { background: var(--superficie); border-radius: 16px; padding: 10px 14px; margin-top: 14px; display: grid; gap: 8px; }
-.deslizador { display: grid; grid-template-columns: 7em 1fr 3.4em; align-items: center; gap: 10px; font-size: .9rem; }
-.deslizador input { width: 100%; }
-.deslizador output { text-align: right; font-weight: 600; }
 .boton { font-size: .9rem; border: 1px solid var(--linea); background: var(--papel); border-radius: 8px; padding: 8px 14px; cursor: pointer; justify-self: start; }
 
 /* Más */
@@ -184,10 +180,6 @@ details[open] summary::after { content: "–"; }
 .tarjeta .cab .nota { color: var(--tinta); }
 .nota { display: inline-block; min-width: 1.5em; text-align: center; font-size: .75rem; font-weight: 800; border-radius: 5px; padding: 1px 4px; background: var(--papel); color: var(--tinta); margin-left: 6px; vertical-align: middle; }
 .tarjeta .ver { color: var(--gris); font-size: .86rem; margin-top: 6px; }
-.swing { background: var(--superficie); border-radius: 16px; padding: 12px 14px; margin-bottom: 10px; display: grid; gap: 6px; }
-.swing label { font-weight: 650; font-size: .95rem; }
-.swing input { width: 100%; accent-color: var(--bronce); }
-.swing output { color: var(--gris); font-size: .9rem; }
 .sim-prob { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
 .sim-prob div { background: var(--superficie); border-radius: 12px; padding: 10px; text-align: center; }
 .sim-prob b { display: block; font-size: 1.4rem; font-weight: 800; }

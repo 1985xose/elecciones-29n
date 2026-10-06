@@ -187,7 +187,7 @@ function fichaHemi(cont, k, texto, alCerrar) {
 const leyenda = (cont, escanos, extra, alTocar, marcado) => cont.replaceChildren(...ordenar(escanos).filter((k) => escanos[k] > 0).map((k) => el(alTocar ? "button" : "span", alTocar ? { type: "button", "aria-pressed": marcado === k ? "true" : "false", onclick: () => alTocar(k) } : {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} ${escanos[k]}`, extra ? extra(k) : null)));
 
 /* ---------- Hoy, las preguntas ---------- */
-let graficoHistorial, graficoTendencia, graficoAtencion;
+let graficoHistorial, graficoTendencia;
 const gob = { sel: null, hemi: null };
 function pintarHoy(m, m7, proy) {
   const dias = Math.round((fechaD(D.config.eleccion.fecha) - hoy()) / DIA);
@@ -681,13 +681,6 @@ function pintarPartidos(m, proy) {
   $("#fichas-partidos").replaceChildren(...o.map((k) => el("article", { class: "ficha-p", style: { "--c": color(k) } }, el("h3", {}, `${nombre(k)}, ${fmt1.format(m.media[k])} % de los votos`),
     li(D.noticias?.partidos?.[k]?.slice(0, 3)), D.noticias?.verificaciones?.[k]?.length ? [el("h4", {}, "Verificado por Newtral y Maldita"), li(D.noticias.verificaciones[k].slice(0, 2))] : null)));
 }
-function pintarAtencion() {
-  const a = D.atencion?.lideres;
-  if (!a || !Object.keys(a).length) return;
-  const ks = Object.keys(a), dias = a[ks[0]].serie.map((x) => x.dia);
-  graficoAtencion?.destroy();
-  graficoAtencion = new Chart($("#grafico-atencion"), { type: "line", data: { labels: dias.map((d) => fFecha.format(fechaD(d))), datasets: ks.map((k) => ({ label: a[k].articulo, data: a[k].serie.map((x) => x.visitas), borderColor: color(k), backgroundColor: color(k), borderWidth: 2, pointRadius: 0, tension: .25 })) }, options: opciones(" visitas en Wikipedia") });
-}
 
 /* ---------- Senado ---------- */
 const senado = { sel: null, prov: null, hemi: null };
@@ -866,7 +859,12 @@ function pintarMetodo(m) {
     $("#met-resumen").textContent = `Ahora mismo hay cargadas ${fmt0.format(E.length)} encuestas de ${empresas} empresas, todas las publicadas desde las elecciones de julio de 2023. La más reciente terminó de preguntar el ${fFecha.format(fechaD(ult))}. La media de hoy sale de ${m.usadas.length} de ellas.`;
     if (D.encuestas.fuente) $("#met-wiki").href = D.encuestas.fuente;
   }
-  if (D.config.medios?.length) $("#met-medios").textContent = lista(D.config.medios.map((x) => x.nombre));
+  // Los periódicos que de verdad han respondido en la última actualización, por grupos
+  const medios = D.noticias?.medios?.length ? D.noticias.medios : [], G = D.config.grupos_medios || {};
+  if (medios.length) {
+    const porGrupo = Object.keys(G).map((g) => [G[g], medios.filter((x) => x.grupo === g).map((x) => x.nombre)]).filter(([, v]) => v.length);
+    $("#met-medios").textContent = `${medios.length} periódicos y medios, repartidos en ${porGrupo.length} grupos según su línea editorial más habitual. ${porGrupo.map(([n, v]) => `${cap(n)}, ${lista(v)}`).join(". ")}`;
+  }
   $("#met-ventana").textContent = m.fase === "precampaña" ? `Ahora cuentan las de los últimos ${m.ventana} días. En campaña serán 28 y la última semana 20, para que los cambios se noten antes.` : `Ahora, en ${m.fase}, cuentan las de los últimos ${m.ventana} días.`;
   $("#met-mitad").textContent = `ahora una de hace unos ${Math.round(m.mitad)} días pesa la mitad que una de hoy`;
   const cal = P?.calibracion;
@@ -896,7 +894,7 @@ function pintarCabecera() {
   $("#aviso-datos").hidden = !(horas > 3);
 }
 
-const NOMBRES = ["config", "base2023", "encuestas", "fiabilidad", "noticias", "atencion", "porra", "agenda", "resultados", "probabilidades", "analisis", "probabilidades_historial", "mapa", "europeas2024"];
+const NOMBRES = ["config", "base2023", "encuestas", "fiabilidad", "noticias", "porra", "agenda", "resultados", "probabilidades", "analisis", "probabilidades_historial", "mapa", "europeas2024"];
 async function cargarDatos() {
   const datos = await Promise.all(NOMBRES.map(cargar));
   // Si falla la red en un refresco se conserva lo que ya había

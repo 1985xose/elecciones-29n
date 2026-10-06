@@ -61,8 +61,22 @@ def imagen_de(it):
 
 
 def leer_medio(medio):
-    """Titulares de un periódico: [{titulo, enlace, fuente, fecha, imagen, texto}]. Vale para RSS y para Atom."""
-    r = S.get(medio["rss"], timeout=12)
+    """Titulares de un periódico. Prueba sus direcciones por orden y se queda con la primera que dé titulares."""
+    urls, fallo = ([medio["rss"]] if isinstance(medio["rss"], str) else list(medio["rss"])), None
+    for url in urls:
+        try:
+            items = leer_rss(medio, url)
+            if len(items) >= 3:
+                return items, url
+            fallo = fallo or ValueError(f"solo {len(items)} titulares")
+        except Exception as e:
+            fallo = fallo or e
+    raise fallo
+
+
+def leer_rss(medio, url):
+    """Titulares de un RSS o Atom: [{titulo, enlace, fuente, grupo, fecha, imagen, texto}]."""
+    r = S.get(url, timeout=12)
     r.raise_for_status()
     raiz = ET.fromstring(r.content)
     items = list(raiz.iter("item")) or list(raiz.iter("{http://www.w3.org/2005/Atom}entry"))
@@ -86,7 +100,7 @@ def leer_medio(medio):
                 fecha = fecha.replace(tzinfo=timezone.utc)
         except Exception:
             fecha = None
-        out.append({"titulo": titulo, "enlace": enlace, "fuente": medio["nombre"], "fecha": fecha.isoformat() if fecha else None, "imagen": imagen_de(it),
+        out.append({"titulo": titulo, "enlace": enlace, "fuente": medio["nombre"], "grupo": medio.get("grupo", "centro"), "fecha": fecha.isoformat() if fecha else None, "imagen": imagen_de(it),
                     "texto": plano(titulo + " " + (it.findtext("description") or it.findtext("atom:summary", namespaces=NS) or ""))[:600]})
     return out
 
@@ -111,39 +125,56 @@ def terminos_consulta(consulta):
     return [t.strip().strip('"') for t in consulta.split(" OR ") if t.strip()]
 
 
+def reparto_plural(candidatos, n, grupos, tope=2):
+    """Elige n titulares de una lista ya ordenada por preferencia, pero por turnos: uno de cada grupo de periódicos
+    (progresistas, conservadores, generalistas) y sin repetir periódico hasta que hayan salido todos. Así no mandan ni
+    los que más publican ni los de una sola línea editorial."""
+    elegidos, vistos, por_medio = [], [], {}
+    for limite in range(1, tope + 1):
+        avance = True
+        while avance and len(elegidos) < n:
+            avance = False
+            for g in grupos:
+                if len(elegidos) >= n:
+                    break
+                for x in candidatos:
+                    if x["grupo"] != g or por_medio.get(x["fuente"], 0) >= limite or any(parecidos(x["titulo"], v) for v in vistos):
+                        continue
+                    vistos.append(x["titulo"]); por_medio[x["fuente"]] = por_medio.get(x["fuente"], 0) + 1; elegidos.append(x); avance = True
+                    break
+    return elegidos
+
+
 def portada(cfg):
     """Lee todos los periódicos y devuelve (titulares del día, todos los titulares leídos). Imprime qué tal ha ido cada uno."""
-    todos = []
+    todos, activos = [], []
     print("Periódicos con RSS propio:")
     for medio in cfg.get("medios", []):
         try:
-            items = leer_medio(medio)
+            items, url = leer_medio(medio)
             todos += items
-            print(f"   {medio['nombre']:<16} {len(items):>3} titulares, {sum(1 for x in items if x['imagen']):>3} con foto")
+            if any(x["imagen"] for x in items):
+                activos.append({"nombre": medio["nombre"], "grupo": medio.get("grupo", "centro")})
+            print(f"   {medio['nombre']:<16} {medio.get('grupo', ''):<10} {len(items):>3} titulares, {sum(1 for x in items if x['imagen']):>3} con foto   {url}")
         except Exception as e:
-            print(f"   {medio['nombre']:<16} FALLA: {type(e).__name__} {str(e)[:90]}")
+            print(f"   {medio['nombre']:<16} {medio.get('grupo', ''):<10} FALLA: {type(e).__name__} {str(e)[:70]}")
     fuertes, claves = patron(cfg.get("portada_fuertes", [])), patron(cfg.get("portada_claves", []) + [t for p in cfg["partidos"].values() for t in terminos_consulta(p["consulta"])])
     limite = (datetime.now(timezone.utc) - timedelta(hours=24)).isoformat()
     recientes = sorted((x for x in todos if x["fecha"] and x["fecha"] >= limite and x["imagen"]), key=lambda x: x["fecha"], reverse=True)
-    elegidos, vistos, por_medio = [], set(), {}
-    # Un titular de cada periódico antes de repetir ninguno, para que no manden los que más publican. En cada vuelta,
-    # primero lo que habla de las elecciones y después el resto de la política. Dos por periódico como mucho.
-    for tope in (1, 2):
-        for pat in (fuertes, claves):
-            for x in recientes:
-                if len(elegidos) >= 10:
-                    break
-                h = huella(x["titulo"])
-                if not pat or h in vistos or por_medio.get(x["fuente"], 0) >= tope or not pat.search(x["texto"]):
-                    continue
-                vistos.add(h); por_medio[x["fuente"]] = por_medio.get(x["fuente"], 0) + 1; elegidos.append(x)
+    # Preferencia: primero lo que habla de las elecciones y después el resto de la política, lo más reciente delante.
+    ordenados = [x for x in recientes if fuertes and fuertes.search(x["texto"])]
+    ordenados += [x for x in recientes if x not in ordenados and claves and claves.search(x["texto"])]
+    grupos = list(cfg.get("grupos_medios") or {}) or sorted({x["grupo"] for x in todos})
+    grupos = sorted(grupos, key=lambda g: g != "centro")  # el turno empieza por los generalistas
+    elegidos = reparto_plural(ordenados, 10, grupos)
     elegidos.sort(key=lambda x: x["fecha"], reverse=True)
-    print(f"   Titulares del día con foto: {len(elegidos)} de {len(por_medio)} periódicos")
-    return elegidos, todos
+    cuenta = {g: sum(1 for x in elegidos if x["grupo"] == g) for g in grupos}
+    print(f"   Titulares del día con foto: {len(elegidos)} de {len({x['fuente'] for x in elegidos})} periódicos. Por grupo: {cuenta}")
+    return elegidos, todos, grupos, activos
 
 
 def limpio(x):
-    return {k: v for k, v in x.items() if k != "texto" and v is not None}
+    return {k: v for k, v in x.items() if k not in ("texto", "grupo") and v is not None}
 
 
 def buscar(q, n):
@@ -179,9 +210,11 @@ def main():
         print("generales:", e); res["generales"] = previo.get("generales", [])
     # Titulares del día: primero los de los periódicos, con foto, y hasta llegar a 10 los de Google News, sin foto.
     try:
-        del_dia, leidos = portada(cfg)
+        del_dia, leidos, grupos, activos = portada(cfg)
     except Exception as e:
-        print("periódicos:", e); del_dia, leidos = [], []
+        print("periódicos:", e); del_dia, leidos, grupos, activos = [], [], [], []
+    # Los periódicos que han respondido con foto en esta pasada, para que la metodología diga los que de verdad se usan
+    res["medios"] = activos or previo.get("medios", [])
     if del_dia:
         ya = {huella(x["titulo"]) for x in del_dia}
         relleno = [x for x in res["generales"] if huella(x["titulo"]) not in ya]
@@ -215,10 +248,9 @@ def main():
         except Exception as e:
             print(k, e); res["partidos"][k] = previo.get("partidos", {}).get(k, [])
         # Hasta 3 titulares de los periódicos que nombran al partido en el titular, con foto, y el resto de Google News
-        propios, vistos = [], set()
-        for x in sorted((x for x in leidos if x["imagen"] and x["fecha"] and x["fecha"] >= hace3 and nombra(k, x["titulo"])), key=lambda x: x["fecha"], reverse=True):
-            if huella(x["titulo"]) not in vistos and len(propios) < 3:
-                vistos.add(huella(x["titulo"])); propios.append(limpio(x))
+        suyos = sorted((x for x in leidos if x["imagen"] and x["fecha"] and x["fecha"] >= hace3 and nombra(k, x["titulo"])), key=lambda x: x["fecha"], reverse=True)
+        elegidos = reparto_plural(suyos, 3, grupos, tope=1)  # también por turnos entre grupos de periódicos
+        propios, vistos = [limpio(x) for x in elegidos], {huella(x["titulo"]) for x in elegidos}
         resto = [n for n in con_foto(res["partidos"][k]) if huella(n["titulo"]) not in vistos]
         res["partidos"][k] = sorted(propios + resto, key=lambda x: x.get("fecha") or "", reverse=True)[:6]
         try:
