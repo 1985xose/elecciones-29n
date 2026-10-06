@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06T17:31:10+00:00",
+ "actualizado": "2026-10-06T17:32:39+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
  "revision": 1378857983,
  "partidos": [
@@ -59,10 +59,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-10-03-8171",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-10-03-8171",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -359,10 +359,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-09-25-1104",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-09-25-1104",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Celeste-Tel/Onda Cero",
@@ -473,10 +473,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-09-18-1399",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-09-18-1399",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "InvyMark/laSexta",
@@ -567,10 +567,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-09-10-1190",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-09-10-1190",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Hamalgama Métrica/Vozpópuli",
@@ -765,10 +765,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-09-03-1284",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-09-03-1284",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -851,10 +851,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-08-28-1197",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-08-28-1197",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Data10/Okdiario",
@@ -1007,10 +1007,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-08-21-1211",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-08-21-1211",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -1051,10 +1051,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-08-12-1428",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-08-12-1428",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -1095,10 +1095,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-08-07-1227",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-08-07-1227",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -1223,10 +1223,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-08-01-910",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-08-01-910",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -1267,10 +1267,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-07-24-1099",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-07-24-1099",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "DYM/Henneo",
@@ -1459,10 +1459,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-07-17-1401",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-07-17-1401",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -1503,10 +1503,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-07-10-1304",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-07-10-1304",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "ODEC/Mediaflows–UV",
@@ -1735,10 +1735,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-07-03-2237",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-07-03-2237",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "NC Report/La Razón",
@@ -1926,10 +1926,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-06-26-1844",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-06-26-1844",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -1970,10 +1970,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-06-19-1472",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-06-19-1472",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Target Point/El Debate",
@@ -2050,10 +2050,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-06-12-1297",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-06-12-1297",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -2138,10 +2138,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-06-05-1691",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-06-05-1691",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -2296,10 +2296,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-05-29-1160",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-05-29-1160",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Target Point/El Debate",
@@ -2488,10 +2488,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-05-22-1291",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-05-22-1291",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -2560,10 +2560,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-05-15-1026",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-05-15-1026",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -2604,10 +2604,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-05-08-1377",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-05-08-1377",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -2648,10 +2648,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-05-01-1542",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-05-01-1542",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -2804,10 +2804,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-04-24-1844",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-04-24-1844",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "KeyData/Público",
@@ -2930,10 +2930,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-04-17-1301",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-04-17-1301",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -3002,10 +3002,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-04-10-1597",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-04-10-1597",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "NC Report/La Razón",
@@ -3130,10 +3130,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-04-03-1107",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-04-03-1107",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -3216,10 +3216,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-03-27-1228",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-03-27-1228",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Target Point/El Debate",
@@ -3410,10 +3410,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-03-20-1086",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-03-20-1086",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -3454,10 +3454,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-03-13-2541",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-03-13-2541",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -3526,10 +3526,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-03-06-1741",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-03-06-1741",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -3570,10 +3570,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-03-04-1428",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-03-04-1428",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -3656,10 +3656,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-02-27-2307",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-02-27-2307",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -3747,10 +3747,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-02-20-1841",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-02-20-1841",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Target Point/El Debate",
@@ -3894,10 +3894,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-02-12-1635",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-02-12-1635",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Data10/Okdiario",
@@ -4008,10 +4008,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-02-06-2012",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-02-06-2012",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -4115,10 +4115,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-01-30-1289",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-01-30-1289",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "DYM/Henneo",
@@ -4187,10 +4187,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-01-23-1594",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-01-23-1594",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "KeyData/Público",
@@ -4292,10 +4292,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-01-16-1001",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-01-16-1001",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Target Point/El Debate",
@@ -4466,10 +4466,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-01-10-1083",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-01-10-1083",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "NC Report/La Razón",
@@ -4571,10 +4571,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2026-01-03-1316",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2026-01-03-1316",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -4657,10 +4657,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-12-26-2301",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-12-26-2301",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "InvyMark/laSexta",
@@ -4724,10 +4724,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-12-19-1782",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-12-19-1782",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -4766,10 +4766,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-12-12-1522",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-12-12-1522",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -4906,10 +4906,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-12-05-1204",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-12-05-1204",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -5013,10 +5013,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-11-28-1379",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-11-28-1379",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "InvyMark/laSexta",
@@ -5073,10 +5073,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-11-21-1922",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-11-21-1922",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Target Point/El Debate",
@@ -5213,10 +5213,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-11-14-1002",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-11-14-1002",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -5325,10 +5325,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-11-07-1923",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-11-07-1923",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Cluster17/Agenda Pública",
@@ -5520,10 +5520,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-10-31-2823",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-10-31-2823",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -5583,10 +5583,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-10-24-2104",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-10-24-2104",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -5625,10 +5625,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-10-17-1568",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-10-17-1568",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "KeyData/Público",
@@ -5749,10 +5749,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-10-10-2971",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-10-10-2971",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "GESOP/Prensa Ibérica",
@@ -5891,10 +5891,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-10-03-1055",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-10-03-1055",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -6040,10 +6040,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-09-26-2028",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-09-26-2028",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "InvyMark/laSexta",
@@ -6103,10 +6103,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-09-19-1723",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-09-19-1723",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "DYM/Henneo",
@@ -6215,10 +6215,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-09-12-1207",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-09-12-1207",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Target Point/El Debate",
@@ -6477,10 +6477,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-09-05-1330",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-09-05-1330",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -6582,10 +6582,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-08-29-1003",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-08-29-1003",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -6666,10 +6666,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-08-22-1840",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-08-22-1840",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -6708,10 +6708,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-08-17-1275",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-08-17-1275",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -6750,10 +6750,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-08-09-1007",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-08-09-1007",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -6792,10 +6792,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-08-01-1579",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-08-01-1579",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -6876,10 +6876,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-07-25-2022",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-07-25-2022",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -7004,10 +7004,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-07-18-1502",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-07-18-1502",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "KeyData/Público",
@@ -7156,10 +7156,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-07-11-1327",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-07-11-1327",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Target Point/El Debate",
@@ -7275,10 +7275,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-07-04-1111",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-07-04-1111",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -7380,10 +7380,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-06-27-1418",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-06-27-1418",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "NC Report/La Razón",
@@ -7555,10 +7555,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-06-20-3219",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-06-20-3219",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "DYM/Henneo",
@@ -7625,10 +7625,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-06-13-1852",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-06-13-1852",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "InvyMark/laSexta",
@@ -7748,10 +7748,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-06-06-1233",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-06-06-1233",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -7790,10 +7790,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-05-30-1804",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-05-30-1804",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "GAD3/ABC",
@@ -8003,10 +8003,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-05-23-1002",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-05-23-1002",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "KeyData/Público",
@@ -8197,10 +8197,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-05-16-1178",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-05-16-1178",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -8239,10 +8239,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-05-09-1204",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-05-09-1204",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -8351,10 +8351,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-05-02-1159",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-05-02-1159",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -8484,10 +8484,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-04-25-1206",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-04-25-1206",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -8526,10 +8526,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-04-18-1142",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-04-18-1142",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "NC Report/La Razón",
@@ -8690,10 +8690,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-04-10-2401",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-04-10-2401",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -8760,10 +8760,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-04-04-1817",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-04-04-1817",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -8853,10 +8853,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-03-28-2202",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-03-28-2202",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -8895,10 +8895,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-03-22-1501",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-03-22-1501",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -9117,10 +9117,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-03-14-1732",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-03-14-1732",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "NC Report/La Razón",
@@ -9199,10 +9199,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-03-07-1139",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-03-07-1139",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -9385,10 +9385,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-02-28-1201",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-02-28-1201",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -9476,10 +9476,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-02-21-1973",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-02-21-1973",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "KeyData/Público",
@@ -9642,10 +9642,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-02-13-2039",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-02-13-2039",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "NC Report/La Razón",
@@ -9724,10 +9724,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-02-07-1179",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-02-07-1179",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "KeyData/Público",
@@ -9876,10 +9876,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-01-31-1084",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-01-31-1084",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -10009,10 +10009,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-01-24-1133",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-01-24-1133",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "GAD3/ABC",
@@ -10119,10 +10119,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-01-17-1133",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-01-17-1133",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Celeste-Tel/Onda Cero",
@@ -10203,10 +10203,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-01-10-4001",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-01-10-4001",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -10315,10 +10315,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2025-01-03-1068",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2025-01-03-1068",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -10467,10 +10467,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-12-27-1037",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-12-27-1037",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -10612,10 +10612,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-12-21-2447",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-12-21-2447",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -10654,10 +10654,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-12-13-4081",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-12-13-4081",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Hamalgama Métrica/Vozpópuli",
@@ -10806,10 +10806,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-12-06-2102",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-12-06-2102",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "GESOP/Prensa Ibérica",
@@ -10962,10 +10962,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-11-29-1447",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-11-29-1447",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -11025,10 +11025,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-11-26-804",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-11-26-804",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -11219,10 +11219,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-11-22-1352",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-11-22-1352",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -11261,10 +11261,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-11-15-1206",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-11-15-1206",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Celeste-Tel/Onda Cero",
@@ -11443,10 +11443,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-11-08-2104",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-11-08-2104",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -11555,10 +11555,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-10-25-1091",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-10-25-1091",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "KeyData/Público",
@@ -11777,10 +11777,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-10-18-1804",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-10-18-1804",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Hamalgama Métrica/Vozpópuli",
@@ -11861,10 +11861,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-10-11-1058",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-10-11-1058",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -11973,10 +11973,10 @@
     "SALF": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-10-04-1035",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-10-04-1035",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -12078,10 +12078,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-09-27-2080",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-09-27-2080",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "GESOP/Prensa Ibérica",
@@ -12211,10 +12211,10 @@
     "SALF": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-09-20-1404",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-09-20-1404",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Target Point/El Debate",
@@ -12281,10 +12281,10 @@
     "SALF": 3.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-09-13-1327",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-09-13-1327",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Simple Lógica/elDiario.es",
@@ -12456,10 +12456,10 @@
     "SALF": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-09-06-1104",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-09-06-1104",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -12540,10 +12540,10 @@
     "SALF": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-08-30-1973",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-08-30-1973",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -12687,10 +12687,10 @@
     "SALF": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-08-23-2074",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-08-23-2074",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -12729,10 +12729,10 @@
     "SALF": 3.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-08-16-1881",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-08-16-1881",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Simple Lógica/elDiario.es",
@@ -12792,10 +12792,10 @@
     "SALF": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-08-09-1273",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-08-09-1273",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -12876,10 +12876,10 @@
     "SALF": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-07-31-1304",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-07-31-1304",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -12918,10 +12918,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-07-26-2122",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-07-26-2122",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Target Point/El Debate",
@@ -13070,10 +13070,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-07-19-1301",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-07-19-1301",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -13154,10 +13154,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-07-12-1431",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-07-12-1431",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Simple Lógica/elDiario.es",
@@ -13217,10 +13217,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-07-05-2104",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-07-05-2104",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -13329,10 +13329,10 @@
     "SALF": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-06-28-2401",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-06-28-2401",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -13502,10 +13502,10 @@
     "SALF": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-06-21-1741",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-06-21-1741",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "NC Report/La Razón",
@@ -13584,10 +13584,10 @@
     "Podemos": 4.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-06-14-1913",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-06-14-1913",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "InvyMark/laSexta",
@@ -13721,10 +13721,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-05-31-3109",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-05-31-3109",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -13821,10 +13821,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-05-24-1804",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-05-24-1804",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -13939,10 +13939,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-05-17-1312",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-05-17-1312",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -14086,10 +14086,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-05-04-1705",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-05-04-1705",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -14152,10 +14152,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-04-26-2304",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-04-26-2304",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -14192,10 +14192,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-04-23-2230",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-04-23-2230",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "KeyData/Público",
@@ -14310,10 +14310,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-04-12-1483",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-04-12-1483",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Simple Lógica/elDiario.es",
@@ -14370,10 +14370,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-04-05-1483",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-04-05-1483",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -14437,10 +14437,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-03-29-1301",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-03-29-1301",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -14594,10 +14594,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-03-22-1724",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-03-22-1724",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "GAD3/Mediaset",
@@ -14736,10 +14736,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-03-15-1517",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-03-15-1517",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -14814,10 +14814,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-03-08-1327",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-03-08-1327",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Simple Lógica/elDiario.es",
@@ -14984,10 +14984,10 @@
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-03-01-1327",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-03-01-1327",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "GAD3/ABC",
@@ -15142,10 +15142,10 @@
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-02-23-1778",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-02-23-1778",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Hamalgama Métrica/Vozpópuli",
@@ -15250,10 +15250,10 @@
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-02-16-1526",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-02-16-1526",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -15328,10 +15328,10 @@
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-02-09-1708",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-02-09-1708",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Simple Lógica/elDiario.es",
@@ -15415,10 +15415,10 @@
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-02-02-1614",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-02-02-1614",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -15514,10 +15514,10 @@
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-01-26-2413",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-01-26-2413",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "InvyMark/laSexta",
@@ -15573,10 +15573,10 @@
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-01-19-1651",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-01-19-1651",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "KeyData/Público",
@@ -15646,10 +15646,10 @@
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-01-12-1249",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-01-12-1249",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Simple Lógica/elDiario.es",
@@ -15752,10 +15752,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2024-01-05-1132",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2024-01-05-1132",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "KeyData/Público",
@@ -15866,10 +15866,10 @@
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-12-29-1007",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-12-29-1007",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Celeste-Tel/Onda Cero",
@@ -15984,10 +15984,10 @@
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-12-22-1093",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-12-22-1093",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "NC Report/La Razón",
@@ -16107,10 +16107,10 @@
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-12-15-1180",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-12-15-1180",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Simple Lógica/elDiario.es",
@@ -16166,10 +16166,10 @@
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-12-08-1250",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-12-08-1250",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -16230,10 +16230,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-12-02-1233",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-12-02-1233",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -16303,35 +16303,6 @@
    "encargo": "Prisa",
    "id": "40db-2023-11-27-2000",
    "primera_vez": "2026-10-06T08:11:17+00:00"
-  },
-  {
-   "empresa": "Sigma Dos/Antena 3",
-   "inicio": "2023-11-17",
-   "fin": "2023-11-27",
-   "muestra": 1654,
-   "participacion": null,
-   "pct": {
-    "PP": 37.3,
-    "Vox": 11.4,
-    "Sumar": 11.3,
-    "ERC": 2.1,
-    "Junts": 1.4
-   },
-   "escanos": {
-    "PP": 151.0,
-    "PSOE": 116.0,
-    "Vox": 25.0,
-    "Sumar": 29.0,
-    "ERC": 8.5,
-    "Junts": 6.0,
-    "Bildu": 6.0,
-    "PNV": 5.0
-   },
-   "empresa_base": "Sigma Dos",
-   "clave": "sigmados",
-   "encargo": "Antena 3",
-   "id": "sigmados-2023-11-27-1654",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
   },
   {
    "empresa": "KeyData/Público",
@@ -16468,10 +16439,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-11-23-1524",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-11-23-1524",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Hamalgama Métrica/Vozpópuli",
@@ -16592,10 +16563,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-11-17-1419",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-11-17-1419",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "InvyMark/laSexta",
@@ -16706,10 +16677,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-11-10-2549",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-11-10-2549",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -16899,10 +16870,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-11-03-1156",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-11-03-1156",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -17006,10 +16977,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-10-27-1462",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-10-27-1462",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Hamalgama Métrica/Vozpópuli",
@@ -17125,10 +17096,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-10-20-1410",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-10-20-1410",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -17163,10 +17134,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-10-13-1145",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-10-13-1145",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Simple Lógica/elDiario.es",
@@ -17220,10 +17191,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-10-07-1226",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-10-07-1226",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -17375,10 +17346,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-09-29-1132",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-09-29-1132",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -17489,10 +17460,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-09-22-1002",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-09-22-1002",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Hamalgama Métrica/Vozpópuli",
@@ -17589,10 +17560,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-09-15-1421",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-09-15-1421",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "CIS",
@@ -17653,10 +17624,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-09-09-1215",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-09-09-1215",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Simple Lógica/elDiario.es",
@@ -17742,10 +17713,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-09-01-1317",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-09-01-1317",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -17811,10 +17782,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-08-25-1928",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-08-25-1928",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
@@ -17887,10 +17858,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-08-18-1566",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-08-18-1566",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -17925,10 +17896,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-08-11-1305",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-08-11-1305",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "Simple Lógica/elDiario.es",
@@ -17982,10 +17953,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-08-04-0",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-08-04-0",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -18020,10 +17991,10 @@
     "UPN": 1.0
    },
    "empresa_base": "EM-Analytics",
-   "clave": "emanalytics",
+   "clave": "electopanel",
    "encargo": "Electomanía",
-   "id": "emanalytics-2023-07-25-1517",
-   "primera_vez": "2026-10-06T08:22:08+00:00"
+   "id": "electopanel-2023-07-25-1517",
+   "primera_vez": "2026-10-06T17:32:39+00:00"
   }
  ]
 }
