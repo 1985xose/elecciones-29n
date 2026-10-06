@@ -2,16 +2,16 @@
  {
   "fecha": "2026-10-06",
   "escenarios": {
-   "pp": 0.0002,
-   "pp_vox": 0.906,
-   "izq_socios": 0.0352,
-   "izq_sin_junts": 0.0207,
+   "pp": 0.0003,
+   "pp_vox": 0.9401,
+   "izq_socios": 0.0197,
+   "izq_sin_junts": 0.0113,
    "gran_coalicion": 1
   },
-  "bloqueo": 0.0588,
+  "bloqueo": 0.0402,
   "p50": {
-   "PP": 130,
-   "PSOE": 108,
+   "PP": 134,
+   "PSOE": 104,
    "Vox": 65,
    "Bildu": 7,
    "PNV": 5,
