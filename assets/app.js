@@ -243,8 +243,8 @@ function pintarHoy(m, m7, proy) {
   // 5. Titulares
   const tit = (n) => el("a", { class: "titular-n", href: n.enlace, target: "_blank", rel: "noopener" }, n.partido ? el("span", { class: "tag", style: { background: color(n.partido) } }, nombre(n.partido)) : null, n.titulo, el("span", { class: "m" }, `${n.fuente} ${hace(n.fecha)}`));
   $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 4).map(tit), ...(D.noticias?.polemicas || []).slice(0, 2).map(tit));
-  $("#titulares-todos").replaceChildren(...(D.noticias?.generales || []).map(tit));
-  $("#polemicas-todas").replaceChildren(...((D.noticias?.polemicas || []).length ? D.noticias.polemicas.map(tit) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
+  $("#titulares-todos").replaceChildren(...(D.noticias?.generales || []).slice(0, 12).map(tit));
+  $("#polemicas-todas").replaceChildren(...((D.noticias?.polemicas || []).length ? D.noticias.polemicas.slice(0, 12).map(tit) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
 
   // 6. Fechas
   const ag = D.agenda || [], sig = ag.find((x) => fechaD(x.fin || x.fecha) >= hoy());

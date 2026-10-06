@@ -1,10 +1,9 @@
 name: Actualizar panel
 
 on:
-  # El cron de GitHub se salta ejecuciones cuando va cargado, así que estas horas son solo la red de seguridad.
-  # La cadena real la mantiene el último paso, que vuelve a lanzar este workflow pasados 55 minutos.
+  # La actualización cada hora la lanza cron-job.org con un token. El cron de GitHub queda de respaldo.
   schedule:
-    - cron: "17 5,8,11,14,17,20 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -14,7 +13,6 @@ permissions:
   contents: write
   pages: write
   id-token: write
-  actions: write
 
 jobs:
   actualizar:
@@ -94,17 +92,3 @@ jobs:
         run: |
           echo "La lectura de encuestas falló la validación. La web sigue publicada con los datos anteriores. Revisa el paso Encuestas."
           exit 1
-
-  # El cron de GitHub se salta ejecuciones cuando la cola va cargada. Este job espera 55 minutos
-  # y vuelve a lanzar el workflow, así la cadena se mantiene sola. El cron queda de red de seguridad.
-  encadenar:
-    needs: actualizar
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Esperar y relanzar
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          sleep 3300
-          gh workflow run actualizar.yml --repo "$GITHUB_REPOSITORY" --ref main || echo "No se ha podido encadenar, el cron lo retomará"
