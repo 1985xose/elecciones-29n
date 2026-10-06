@@ -124,7 +124,8 @@
       "partidos": [
         "PP"
       ],
-      "gobierno": true
+      "gobierno": true,
+      "corto": "el PP solo"
     },
     {
       "id": "pp_vox",
@@ -133,7 +134,8 @@
         "PP",
         "Vox"
       ],
-      "gobierno": true
+      "gobierno": true,
+      "corto": "PP y Vox"
     },
     {
       "id": "izq_socios",
@@ -149,7 +151,8 @@
         "BNG",
         "CCa"
       ],
-      "gobierno": true
+      "gobierno": true,
+      "corto": "la izquierda y sus socios"
     },
     {
       "id": "izq_sin_junts",
@@ -164,7 +167,8 @@
         "BNG",
         "CCa"
       ],
-      "gobierno": false
+      "gobierno": false,
+      "corto": "la izquierda sin Junts"
     },
     {
       "id": "gran_coalicion",
@@ -173,7 +177,8 @@
         "PP",
         "PSOE"
       ],
-      "gobierno": false
+      "gobierno": false,
+      "corto": "PP y PSOE"
     }
   ],
   "escenarios_2023": [
