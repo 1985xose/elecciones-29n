@@ -23,7 +23,8 @@
     // Partidos sin base 2023
     for (const k of Object.keys(media)) {
       if (k in out || HIST.includes(k) || k === "Sumar" || k === "Podemos") continue;
-      if (k === "AC") { if (prov.ccaa === "Cataluña") out.AC = media.AC * base.factor_cataluna; continue; }
+      const ambito = base.ambitos && base.ambitos[k];
+      if (ambito) { if (prov.ccaa === ambito) out[k] = media[k] * base.factores_ccaa[ambito]; continue; }
       out[k] = media[k]; // reparto uniforme
     }
     return out;

@@ -26,7 +26,6 @@
   "CCa": 1,
   "UPN": 1
  },
- "factor_cataluna": 6.9681,
  "provincias": [
   {
    "nombre": "A Coruña",
@@ -941,5 +940,13 @@
     "Sumar": 1
    }
   }
- ]
+ ],
+ "ambitos": {
+  "AC": "Cataluña",
+  "AA": "Andalucía"
+ },
+ "factores_ccaa": {
+  "Cataluña": 6.9681,
+  "Andalucía": 5.6327
+ }
 }

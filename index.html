@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>29N, el panel</title>
-<meta name="description" content="Encuestas, escaños, provincias en el filo y noticias de las elecciones generales del 29 de noviembre de 2026.">
+<title>29N</title>
+<meta name="description" content="Quién va ganando las elecciones del 29 de noviembre de 2026, en una pantalla.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗳️</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,105 +12,93 @@
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header class="portada">
-  <div class="portada-texto">
-    <p class="fecha-grande">29 de noviembre</p>
-    <p class="cuenta" id="cuenta"></p>
-    <p class="titular-proy" id="titular-proy">Cargando datos…</p>
-    <p class="nota-proy" id="nota-proy"></p>
-  </div>
-  <figure class="portada-hemiciclo">
-    <div id="hemiciclo"></div>
-    <figcaption id="leyenda" class="leyenda"></figcaption>
-  </figure>
+<header class="cabecera">
+  <span class="marca">29N</span>
+  <span id="cuenta" class="cuenta"></span>
 </header>
 
-<nav class="indice" aria-label="Secciones">
-  <a href="#hoy">Hoy</a><a href="#encuestas">Encuestas</a><a href="#simulador">Simulador y pactos</a><a href="#provincias">Provincias</a><a href="#encuestadoras">Quién acierta</a><a href="#partidos">Partidos</a><a href="#atencion">De quién se habla</a><a href="#porra">Porra</a><a href="#calendario">Calendario</a>
+<nav class="pestanas" aria-label="Secciones">
+  <a href="#hoy" data-tab="hoy">Hoy</a>
+  <a href="#encuestas" data-tab="encuestas">Encuestas</a>
+  <a href="#mapa" data-tab="mapa">Mapa</a>
+  <a href="#simulador" data-tab="simulador">Simulador</a>
+  <a href="#mas" data-tab="mas">Más</a>
 </nav>
 
 <main>
-  <section id="hoy" class="bloque">
-    <h2>Hoy en 30 segundos</h2>
+  <section id="hoy" class="pantalla">
+    <div class="hero">
+      <p id="titular" class="titular">Cargando…</p>
+      <div id="hemiciclo"></div>
+      <div id="leyenda" class="leyenda"></div>
+    </div>
+    <div id="podio" class="podio"></div>
+    <h2>Lo que hay que saber hoy</h2>
     <ul id="resumen" class="resumen"></ul>
+    <h2>Titulares</h2>
     <div id="titulares" class="titulares"></div>
   </section>
 
-  <section id="encuestas" class="bloque">
-    <h2>Media de encuestas</h2>
-    <p class="explica">Media ponderada de la última encuesta de cada empresa en los últimos 30 días. Pesa más la reciente, la de muestra grande y la de la empresa que más acertó en 2019 y 2023.</p>
+  <section id="encuestas" class="pantalla" hidden>
+    <h2>Cómo van</h2>
+    <p class="explica">Media de la última encuesta de cada empresa en los últimos 30 días. Pesan más las recientes, las de muestra grande y las que más acertaron en 2019 y 2023.</p>
+    <div id="lista-partidos" class="lista-partidos"></div>
     <label class="interruptor"><input type="checkbox" id="incluir-cis"> Incluir el CIS en la media</label>
-    <div id="barras-media" class="barras"></div>
-    <div class="grafico-alto"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas desde el 23J"></canvas></div>
-    <h3>Últimas encuestas publicadas</h3>
-    <div class="tabla-scroll"><table id="tabla-encuestas" class="tabla"></table></div>
+    <h2>Desde las últimas elecciones</h2>
+    <div class="grafico"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div>
+    <h2>Últimas encuestas</h2>
+    <div id="tarjetas-encuestas" class="tarjetas"></div>
     <p class="fuente" id="fuente-encuestas"></p>
   </section>
 
-  <section id="simulador" class="bloque">
-    <h2>Simulador y pactos</h2>
-    <p class="explica">Mueve el voto de cada partido y mira cómo cambian los escaños provincia a provincia. Después marca partidos para ver si suman 176.</p>
-    <div class="sim-rejilla">
-      <div id="sim-controles" class="sim-controles"></div>
-      <div class="sim-resultado">
-        <div id="sim-hemiciclo"></div>
-        <div id="sim-tabla"></div>
-        <div id="pactos" class="pactos"></div>
-        <p id="sim-cambios" class="explica"></p>
-      </div>
+  <section id="mapa" class="pantalla" hidden>
+    <h2>Provincia a provincia</h2>
+    <div class="conmutador" role="group" aria-label="Qué mostrar en el mapa">
+      <button type="button" data-vista="ganador" aria-pressed="true">Quién gana</button>
+      <button type="button" data-vista="filo" aria-pressed="false">En el filo</button>
     </div>
+    <div id="mapa-svg" class="mapa"></div>
+    <p id="mapa-pista" class="explica">Toca una provincia para ver su reparto.</p>
+    <div id="ficha-provincia"></div>
+    <h2>Las cinco más ajustadas</h2>
+    <div id="ajustadas" class="ajustadas"></div>
   </section>
 
-  <section id="provincias" class="bloque">
-    <h2>El último escaño de cada provincia</h2>
-    <p class="explica">Las elecciones se deciden en 52 circunscripciones. Aquí ves quién se lleva el último escaño de cada una y cuántos puntos le faltan al siguiente para quitárselo. Cuanto menos falta, más en el filo está.</p>
-    <div class="filtros">
-      <label>Mi provincia <select id="mi-provincia"></select></label>
-      <label>Comunidad <select id="filtro-ccaa"></select></label>
-    </div>
-    <div id="mi-provincia-ficha"></div>
-    <div class="tabla-scroll"><table id="tabla-provincias" class="tabla"></table></div>
+  <section id="simulador" class="pantalla" hidden>
+    <h2>¿Y si…?</h2>
+    <p class="explica">Mueve el voto de cada partido y mira cómo cambian los escaños. Marca partidos para ver si suman 176.</p>
+    <div id="sim-hemiciclo"></div>
+    <div id="sim-leyenda" class="leyenda"></div>
+    <div id="pactos" class="pactos"></div>
+    <div id="sim-controles" class="sim-controles"></div>
+    <p id="sim-cambios" class="explica"></p>
   </section>
 
-  <section id="encuestadoras" class="bloque">
-    <h2>Quién acierta</h2>
-    <p class="explica">Última encuesta de cada empresa antes de la veda electoral, comparada con el resultado real. Error medio en puntos sobre los cuatro partidos más votados.</p>
-    <div class="tabla-scroll"><table id="tabla-fiabilidad" class="tabla"></table></div>
-  </section>
-
-  <section id="partidos" class="bloque">
-    <h2>Partido a partido</h2>
-    <div id="fichas-partidos" class="fichas"></div>
-  </section>
-
-  <section id="atencion" class="bloque">
-    <h2>De quién se habla</h2>
-    <p class="explica">Visitas diarias a la página de Wikipedia en español de cada líder. Sube con cada debate, entrevista o polémica.</p>
-    <div class="grafico-alto"><canvas id="grafico-atencion" aria-label="Visitas diarias en Wikipedia por líder"></canvas></div>
-  </section>
-
-  <section id="programas" class="bloque" hidden>
-    <h2>Qué propone cada uno</h2>
-    <div class="tabla-scroll"><table id="tabla-programas" class="tabla"></table></div>
-  </section>
-
-  <section id="porra" class="bloque">
-    <h2>La porra</h2>
-    <div id="porra-instrucciones" class="explica"></div>
-    <div class="tabla-scroll"><table id="tabla-porra" class="tabla"></table></div>
-  </section>
-
-  <section id="calendario" class="bloque">
-    <h2>Calendario</h2>
-    <ol id="agenda" class="agenda"></ol>
+  <section id="mas" class="pantalla" hidden>
+    <details open><summary>Quién acierta</summary>
+      <p class="explica">Error medio de cada empresa en su última encuesta antes del 23J de 2023 y del 10N de 2019.</p>
+      <div id="fiabilidad" class="fiabilidad"></div>
+    </details>
+    <details><summary>La porra</summary>
+      <div id="porra-instrucciones" class="explica"></div>
+      <div id="porra" class="fiabilidad"></div>
+    </details>
+    <details><summary>Calendario</summary>
+      <ol id="agenda" class="agenda"></ol>
+    </details>
+    <details><summary>Noticias por partido</summary>
+      <div id="fichas-partidos" class="fichas"></div>
+    </details>
+    <details><summary>De quién se habla</summary>
+      <p class="explica">Visitas diarias a la Wikipedia de cada líder.</p>
+      <div class="grafico"><canvas id="grafico-atencion" aria-label="Visitas diarias en Wikipedia"></canvas></div>
+    </details>
+    <details id="programas" hidden><summary>Qué propone cada uno</summary>
+      <div class="tabla-scroll"><table id="tabla-programas" class="tabla"></table></div>
+    </details>
+    <p class="pie">Proyección propia a partir de la media de encuestas, swing por provincia sobre el 23J y reparto D'Hondt con los escaños del RD 806/2026. Es una aproximación, no una predicción. Encuestas de Wikipedia, noticias de Google News, verificaciones de Newtral y Maldita, atención de Wikimedia. <span id="actualizado"></span></p>
   </section>
 </main>
-
-<footer class="pie">
-  <p>Proyección propia. Swing proporcional por provincia sobre los resultados del 23J y reparto D'Hondt con el umbral del 3% y los escaños del Real Decreto 806/2026. Podemos y Sumar se reparten el espacio que Sumar tuvo en 2023, los partidos nuevos se reparten igual en todas las provincias y Aliança Catalana solo en Cataluña. Es una aproximación, no una predicción.</p>
-  <p>Encuestas de Wikipedia, noticias de Google News, verificaciones de Newtral y Maldita, atención de Wikimedia.</p>
-  <p id="actualizado"></p>
-</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script src="assets/modelo.js"></script>

@@ -9,7 +9,7 @@ MESES = {m: i + 1 for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun
 CANON = {"pp": "PP", "psoe": "PSOE", "vox": "Vox", "sumar": "Sumar", "erc": "ERC", "junts": "Junts",
          "ehbildu": "Bildu", "bildu": "Bildu", "pnv": "PNV", "eajpnv": "PNV", "bng": "BNG", "cca": "CCa",
          "upn": "UPN", "podemos": "Podemos", "salf": "SALF", "aliancacat": "AC", "alianca": "AC",
-         "up": "UP", "unidaspodemos": "UP", "cs": "Cs", "maspais": "MP"}
+         "up": "UP", "unidaspodemos": "UP", "adelanteandalucia": "AA", "adelanteandalucia2021": "AA", "cs": "Cs", "maspais": "MP"}
 
 
 def html_pagina(titulo):
@@ -127,12 +127,19 @@ def tablas_estimacion(sopa, seccion="Voting_intention_estimates"):
         t = next((t for t in sopa.find_all("table", class_="wikitable") if es_encuestas(t)), None)
         return ([(t, None)] if t else []), "primera tabla (sin sección encontrada)"
     salida, anio = [], None
+    def titulo(h):
+        for x in h.find_all(class_="mw-editsection"):
+            x.decompose()
+        return h.get_text(" ", strip=True)
     for el in ancla.find_all_next(["h2", "h3", "h4", "table"]):
-        if el.name == "h2":
-            break
-        if el.name in ("h3", "h4"):
-            m = re.fullmatch(r"\s*(\d{4})\s*", el.get_text())
-            anio = int(m.group(1)) if m else anio
+        if el.name in ("h2", "h3", "h4"):
+            if el is ancla or ancla in el.parents:
+                continue
+            m = re.fullmatch(r"(\d{4})", titulo(el))
+            if m:
+                anio = int(m.group(1))
+            elif salida or el.name == "h2":
+                break  # siguiente apartado (intención directa, escenarios...)
         elif "wikitable" in (el.get("class") or []) and es_encuestas(el) and el.find_parent("table") is None:
             salida.append((el, anio))
     return salida, f"sección, {len(salida)} tablas, años {[a for _, a in salida]}"
