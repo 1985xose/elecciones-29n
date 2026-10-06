@@ -42,7 +42,19 @@ jobs:
       - name: Fiabilidad de encuestadoras (una vez al día)
         continue-on-error: true
         run: |
-          if [ ! -f data/fiabilidad.json ] || [ "$(date -u +%H)" = "04" ]; then python scripts/fiabilidad.py; else echo "Se mantiene la del día"; fi
+          if [ ! -f data/fiabilidad.json ] || [ ! -f data/historico_2023.json ] || [ "$(date -u +%H)" = "04" ]; then python scripts/fiabilidad.py; else echo "Se mantiene la del día"; fi
+
+      - name: Modelo de probabilidades y análisis de encuestas
+        continue-on-error: true
+        run: node scripts/simular.js
+
+      - name: Resumen de la mañana por Telegram (7:00 UTC)
+        continue-on-error: true
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "$(date -u +%H)" = "07" ]; then python scripts/resumen_diario.py; else echo "No es la hora"; fi
 
       - name: Noticias y verificaciones
         continue-on-error: true

@@ -1,0 +1,1077 @@
+{
+ "fuente": "Resultados 10N 2019 por circunscripción (Wikipedia / Ministerio del Interior). 'escanos' es el reparto de 2023, para el backtest",
+ "nacional": {
+  "PSOE": 28.0,
+  "PP": 20.81,
+  "Vox": 15.08,
+  "UP": 12.86,
+  "Cs": 6.8,
+  "ERC": 3.63,
+  "MP": 2.4,
+  "Junts": 2.19,
+  "PNV": 1.56,
+  "Bildu": 1.14,
+  "CUP": 1.02,
+  "CCa": 0.51,
+  "BNG": 0.5,
+  "NA+": 0.41,
+  "PRC": 0.28,
+  "TE": 0.08
+ },
+ "escanos_reales": {
+  "PSOE": 120,
+  "PP": 89,
+  "Vox": 52,
+  "UP": 35,
+  "Cs": 10,
+  "ERC": 13,
+  "MP": 3,
+  "Junts": 8,
+  "PNV": 6,
+  "Bildu": 5,
+  "CUP": 2,
+  "CCa": 2,
+  "BNG": 1,
+  "NA+": 2,
+  "PRC": 1,
+  "TE": 1
+ },
+ "herencia": {
+  "Sumar": [
+   "UP",
+   "MP"
+  ],
+  "UPN": [
+   "NA+"
+  ],
+  "EV": [
+   "TE"
+  ]
+ },
+ "estatales": [
+  "PP",
+  "PSOE",
+  "Vox",
+  "Sumar",
+  "Podemos",
+  "SALF",
+  "Cs"
+ ],
+ "ambitos": {
+  "AC": "Cataluña",
+  "AA": "Andalucía"
+ },
+ "factores_ccaa": {
+  "Cataluña": 6.2582,
+  "Andalucía": 5.6788
+ },
+ "provincias": [
+  {
+   "nombre": "A Coruña",
+   "ccaa": "Galicia",
+   "escanos": 8,
+   "esc2019": 8,
+   "base": {
+    "PSOE": 30.0,
+    "PP": 30.5,
+    "Vox": 8.2,
+    "UP": 12.6,
+    "Cs": 4.6,
+    "MP": 2.1,
+    "BNG": 9.5
+   },
+   "esc_reales_2019": {
+    "PSOE": 3,
+    "PP": 3,
+    "UP": 1,
+    "BNG": 1
+   }
+  },
+  {
+   "nombre": "Álava",
+   "ccaa": "País Vasco",
+   "escanos": 4,
+   "esc2019": 4,
+   "base": {
+    "PSOE": 21.9,
+    "PP": 14.9,
+    "Vox": 3.8,
+    "UP": 16.5,
+    "Cs": 1.5,
+    "PNV": 23.6,
+    "Bildu": 16.1
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "UP": 1,
+    "PNV": 1,
+    "Bildu": 1
+   }
+  },
+  {
+   "nombre": "Albacete",
+   "ccaa": "Castilla-La Mancha",
+   "escanos": 4,
+   "esc2019": 4,
+   "base": {
+    "PSOE": 32.6,
+    "PP": 27.5,
+    "Vox": 20.7,
+    "UP": 9.7,
+    "Cs": 7.4
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 1,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Alicante",
+   "ccaa": "C. Valenciana",
+   "escanos": 12,
+   "esc2019": 12,
+   "base": {
+    "PSOE": 28.2,
+    "PP": 24.3,
+    "Vox": 19.7,
+    "UP": 12.7,
+    "Cs": 8.1,
+    "MP": 4.2
+   },
+   "esc_reales_2019": {
+    "PSOE": 4,
+    "PP": 3,
+    "Vox": 3,
+    "UP": 1,
+    "Cs": 1
+   }
+  },
+  {
+   "nombre": "Almería",
+   "ccaa": "Andalucía",
+   "escanos": 6,
+   "esc2019": 6,
+   "base": {
+    "PSOE": 29.5,
+    "PP": 25.8,
+    "Vox": 26.7,
+    "UP": 8.1,
+    "Cs": 7.6
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 2,
+    "Vox": 2
+   }
+  },
+  {
+   "nombre": "Asturias",
+   "ccaa": "Asturias",
+   "escanos": 7,
+   "esc2019": 7,
+   "base": {
+    "PSOE": 33.3,
+    "PP": 23.2,
+    "Vox": 15.9,
+    "UP": 16.0,
+    "Cs": 6.7,
+    "MP": 2.3
+   },
+   "esc_reales_2019": {
+    "PSOE": 3,
+    "PP": 2,
+    "Vox": 1,
+    "UP": 1
+   }
+  },
+  {
+   "nombre": "Ávila",
+   "ccaa": "Castilla y León",
+   "escanos": 3,
+   "esc2019": 3,
+   "base": {
+    "PSOE": 26.2,
+    "PP": 34.8,
+    "Vox": 18.5,
+    "UP": 6.5,
+    "Cs": 6.5
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "PP": 1,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Badajoz",
+   "ccaa": "Extremadura",
+   "escanos": 5,
+   "esc2019": 6,
+   "base": {
+    "PSOE": 38.4,
+    "PP": 25.1,
+    "Vox": 17.3,
+    "UP": 9.2,
+    "Cs": 8.0
+   },
+   "esc_reales_2019": {
+    "PSOE": 3,
+    "PP": 2,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Baleares",
+   "ccaa": "Baleares",
+   "escanos": 8,
+   "esc2019": 8,
+   "base": {
+    "PSOE": 25.4,
+    "PP": 22.8,
+    "Vox": 17.1,
+    "UP": 18.1,
+    "Cs": 7.4,
+    "MP": 2.3
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 2,
+    "Vox": 2,
+    "UP": 2
+   }
+  },
+  {
+   "nombre": "Barcelona",
+   "ccaa": "Cataluña",
+   "escanos": 32,
+   "esc2019": 32,
+   "base": {
+    "PSOE": 21.8,
+    "PP": 7.7,
+    "Vox": 6.3,
+    "UP": 15.5,
+    "Cs": 5.9,
+    "ERC": 21.1,
+    "MP": 1.4,
+    "Junts": 11.7,
+    "CUP": 6.1
+   },
+   "esc_reales_2019": {
+    "PSOE": 8,
+    "PP": 2,
+    "Vox": 2,
+    "UP": 5,
+    "Cs": 2,
+    "ERC": 7,
+    "Junts": 4,
+    "CUP": 2
+   }
+  },
+  {
+   "nombre": "Bizkaia",
+   "ccaa": "País Vasco",
+   "escanos": 8,
+   "esc2019": 8,
+   "base": {
+    "PSOE": 19.1,
+    "PP": 8.8,
+    "Vox": 2.4,
+    "UP": 15.4,
+    "Cs": 1.1,
+    "MP": 1.4,
+    "PNV": 35.2,
+    "Bildu": 15.0
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 1,
+    "UP": 1,
+    "PNV": 3,
+    "Bildu": 1
+   }
+  },
+  {
+   "nombre": "Burgos",
+   "ccaa": "Castilla y León",
+   "escanos": 4,
+   "esc2019": 4,
+   "base": {
+    "PSOE": 32.3,
+    "PP": 30.8,
+    "Vox": 14.9,
+    "UP": 11.1,
+    "Cs": 8.1
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 2
+   }
+  },
+  {
+   "nombre": "Cáceres",
+   "ccaa": "Extremadura",
+   "escanos": 4,
+   "esc2019": 4,
+   "base": {
+    "PSOE": 38.1,
+    "PP": 27.6,
+    "Vox": 16.0,
+    "UP": 9.0,
+    "Cs": 7.0
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 1,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Cádiz",
+   "ccaa": "Andalucía",
+   "escanos": 9,
+   "esc2019": 9,
+   "base": {
+    "PSOE": 30.6,
+    "PP": 18.0,
+    "Vox": 21.3,
+    "UP": 15.2,
+    "Cs": 9.0,
+    "MP": 1.8
+   },
+   "esc_reales_2019": {
+    "PSOE": 3,
+    "PP": 2,
+    "Vox": 2,
+    "UP": 1,
+    "Cs": 1
+   }
+  },
+  {
+   "nombre": "Cantabria",
+   "ccaa": "Cantabria",
+   "escanos": 5,
+   "esc2019": 5,
+   "base": {
+    "PSOE": 23.2,
+    "PP": 25.9,
+    "Vox": 14.9,
+    "UP": 8.7,
+    "Cs": 4.8,
+    "PRC": 21.0
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "PP": 2,
+    "Vox": 1,
+    "PRC": 1
+   }
+  },
+  {
+   "nombre": "Castellón",
+   "ccaa": "C. Valenciana",
+   "escanos": 5,
+   "esc2019": 5,
+   "base": {
+    "PSOE": 28.6,
+    "PP": 23.8,
+    "Vox": 18.6,
+    "UP": 13.3,
+    "Cs": 6.9,
+    "MP": 6.2
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 1,
+    "Vox": 1,
+    "UP": 1
+   }
+  },
+  {
+   "nombre": "Ceuta",
+   "ccaa": "Ceuta",
+   "escanos": 1,
+   "esc2019": 1,
+   "base": {
+    "PSOE": 31.3,
+    "PP": 22.3,
+    "Vox": 35.2,
+    "UP": 3.9,
+    "Cs": 3.4
+   },
+   "esc_reales_2019": {
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Ciudad Real",
+   "ccaa": "Castilla-La Mancha",
+   "escanos": 5,
+   "esc2019": 5,
+   "base": {
+    "PSOE": 34.3,
+    "PP": 27.9,
+    "Vox": 20.9,
+    "UP": 8.3,
+    "Cs": 6.8
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 2,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Córdoba",
+   "ccaa": "Andalucía",
+   "escanos": 6,
+   "esc2019": 6,
+   "base": {
+    "PSOE": 33.0,
+    "PP": 22.5,
+    "Vox": 18.6,
+    "UP": 14.6,
+    "Cs": 8.2
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 2,
+    "Vox": 1,
+    "UP": 1
+   }
+  },
+  {
+   "nombre": "Cuenca",
+   "ccaa": "Castilla-La Mancha",
+   "escanos": 3,
+   "esc2019": 3,
+   "base": {
+    "PSOE": 37.3,
+    "PP": 30.9,
+    "Vox": 18.4,
+    "UP": 6.9,
+    "Cs": 4.7
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 1
+   }
+  },
+  {
+   "nombre": "Gipuzkoa",
+   "ccaa": "País Vasco",
+   "escanos": 6,
+   "esc2019": 6,
+   "base": {
+    "PSOE": 18.1,
+    "PP": 6.2,
+    "Vox": 1.9,
+    "UP": 15.0,
+    "Cs": 1.0,
+    "PNV": 30.5,
+    "Bildu": 25.8
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "UP": 1,
+    "PNV": 2,
+    "Bildu": 2
+   }
+  },
+  {
+   "nombre": "Girona",
+   "ccaa": "Cataluña",
+   "escanos": 6,
+   "esc2019": 6,
+   "base": {
+    "PSOE": 14.8,
+    "PP": 4.9,
+    "Vox": 5.2,
+    "UP": 9.5,
+    "Cs": 3.9,
+    "ERC": 25.8,
+    "Junts": 24.8,
+    "CUP": 8.9
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "UP": 1,
+    "ERC": 2,
+    "Junts": 2
+   }
+  },
+  {
+   "nombre": "Granada",
+   "ccaa": "Andalucía",
+   "escanos": 7,
+   "esc2019": 7,
+   "base": {
+    "PSOE": 33.2,
+    "PP": 21.8,
+    "Vox": 20.7,
+    "UP": 12.3,
+    "Cs": 7.8,
+    "MP": 1.8
+   },
+   "esc_reales_2019": {
+    "PSOE": 3,
+    "PP": 2,
+    "Vox": 1,
+    "UP": 1
+   }
+  },
+  {
+   "nombre": "Guadalajara",
+   "ccaa": "Castilla-La Mancha",
+   "escanos": 3,
+   "esc2019": 3,
+   "base": {
+    "PSOE": 31.2,
+    "PP": 23.0,
+    "Vox": 24.0,
+    "UP": 11.3,
+    "Cs": 7.7
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "PP": 1,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Huelva",
+   "ccaa": "Andalucía",
+   "escanos": 5,
+   "esc2019": 5,
+   "base": {
+    "PSOE": 36.6,
+    "PP": 19.7,
+    "Vox": 20.9,
+    "UP": 12.1,
+    "Cs": 7.3
+   },
+   "esc_reales_2019": {
+    "PSOE": 3,
+    "PP": 1,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Huesca",
+   "ccaa": "Aragón",
+   "escanos": 3,
+   "esc2019": 3,
+   "base": {
+    "PSOE": 33.5,
+    "PP": 26.2,
+    "Vox": 15.2,
+    "UP": 12.4,
+    "Cs": 8.1
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 1
+   }
+  },
+  {
+   "nombre": "Jaén",
+   "ccaa": "Andalucía",
+   "escanos": 5,
+   "esc2019": 5,
+   "base": {
+    "PSOE": 38.8,
+    "PP": 22.5,
+    "Vox": 19.7,
+    "UP": 9.8,
+    "Cs": 6.8
+   },
+   "esc_reales_2019": {
+    "PSOE": 3,
+    "PP": 1,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "La Rioja",
+   "ccaa": "La Rioja",
+   "escanos": 4,
+   "esc2019": 4,
+   "base": {
+    "PSOE": 34.9,
+    "PP": 34.2,
+    "Vox": 11.5,
+    "UP": 9.9,
+    "Cs": 7.1
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 2
+   }
+  },
+  {
+   "nombre": "Las Palmas",
+   "ccaa": "Canarias",
+   "escanos": 8,
+   "esc2019": 8,
+   "base": {
+    "PSOE": 29.2,
+    "PP": 21.4,
+    "Vox": 13.3,
+    "UP": 15.4,
+    "Cs": 5.8,
+    "MP": 1.7,
+    "CCa": 9.9
+   },
+   "esc_reales_2019": {
+    "PSOE": 3,
+    "PP": 2,
+    "Vox": 1,
+    "UP": 1,
+    "CCa": 1
+   }
+  },
+  {
+   "nombre": "León",
+   "ccaa": "Castilla y León",
+   "escanos": 4,
+   "esc2019": 4,
+   "base": {
+    "PSOE": 33.5,
+    "PP": 28.4,
+    "Vox": 15.6,
+    "UP": 10.5,
+    "Cs": 6.4
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 1,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Lleida",
+   "ccaa": "Cataluña",
+   "escanos": 4,
+   "esc2019": 4,
+   "base": {
+    "PSOE": 14.5,
+    "PP": 7.1,
+    "Vox": 4.5,
+    "UP": 7.9,
+    "Cs": 3.4,
+    "ERC": 31.5,
+    "Junts": 22.6,
+    "CUP": 6.8
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "ERC": 2,
+    "Junts": 1
+   }
+  },
+  {
+   "nombre": "Lugo",
+   "ccaa": "Galicia",
+   "escanos": 4,
+   "esc2019": 4,
+   "base": {
+    "PSOE": 31.9,
+    "PP": 38.0,
+    "Vox": 8.1,
+    "UP": 9.2,
+    "Cs": 3.2,
+    "BNG": 7.2
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 2
+   }
+  },
+  {
+   "nombre": "Madrid",
+   "ccaa": "Madrid",
+   "escanos": 37,
+   "esc2019": 37,
+   "base": {
+    "PSOE": 26.9,
+    "PP": 24.9,
+    "Vox": 18.3,
+    "UP": 13.0,
+    "Cs": 9.1,
+    "MP": 5.7
+   },
+   "esc_reales_2019": {
+    "PSOE": 10,
+    "PP": 10,
+    "Vox": 7,
+    "UP": 5,
+    "Cs": 3,
+    "MP": 2
+   }
+  },
+  {
+   "nombre": "Málaga",
+   "ccaa": "Andalucía",
+   "escanos": 11,
+   "esc2019": 11,
+   "base": {
+    "PSOE": 30.0,
+    "PP": 21.6,
+    "Vox": 21.4,
+    "UP": 12.9,
+    "Cs": 8.9,
+    "MP": 1.9
+   },
+   "esc_reales_2019": {
+    "PSOE": 4,
+    "PP": 3,
+    "Vox": 2,
+    "UP": 1,
+    "Cs": 1
+   }
+  },
+  {
+   "nombre": "Melilla",
+   "ccaa": "Melilla",
+   "escanos": 1,
+   "esc2019": 1,
+   "base": {
+    "PSOE": 16.4,
+    "PP": 29.5,
+    "Vox": 18.4,
+    "UP": 2.6,
+    "Cs": 3.0
+   },
+   "esc_reales_2019": {
+    "PP": 1
+   }
+  },
+  {
+   "nombre": "Murcia",
+   "ccaa": "Murcia",
+   "escanos": 10,
+   "esc2019": 10,
+   "base": {
+    "PSOE": 24.8,
+    "PP": 26.5,
+    "Vox": 28.0,
+    "UP": 8.9,
+    "Cs": 7.4,
+    "MP": 1.9
+   },
+   "esc_reales_2019": {
+    "PSOE": 3,
+    "PP": 3,
+    "Vox": 3,
+    "UP": 1
+   }
+  },
+  {
+   "nombre": "Navarra",
+   "ccaa": "Navarra",
+   "escanos": 5,
+   "esc2019": 5,
+   "base": {
+    "PSOE": 25.0,
+    "Vox": 5.8,
+    "UP": 16.6,
+    "Bildu": 16.9,
+    "NA+": 29.6
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "UP": 1,
+    "Bildu": 1,
+    "NA+": 2
+   }
+  },
+  {
+   "nombre": "Ourense",
+   "ccaa": "Galicia",
+   "escanos": 4,
+   "esc2019": 4,
+   "base": {
+    "PSOE": 33.2,
+    "PP": 39.4,
+    "Vox": 7.7,
+    "UP": 7.9,
+    "Cs": 3.7,
+    "BNG": 6.0
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 2
+   }
+  },
+  {
+   "nombre": "Palencia",
+   "ccaa": "Castilla y León",
+   "escanos": 3,
+   "esc2019": 3,
+   "base": {
+    "PSOE": 33.2,
+    "PP": 35.7,
+    "Vox": 14.4,
+    "UP": 8.1,
+    "Cs": 6.2
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "PP": 2
+   }
+  },
+  {
+   "nombre": "Pontevedra",
+   "ccaa": "Galicia",
+   "escanos": 7,
+   "esc2019": 7,
+   "base": {
+    "PSOE": 31.8,
+    "PP": 29.1,
+    "Vox": 7.3,
+    "UP": 15.5,
+    "Cs": 4.6,
+    "MP": 2.0,
+    "BNG": 7.5
+   },
+   "esc_reales_2019": {
+    "PSOE": 3,
+    "PP": 3,
+    "UP": 1
+   }
+  },
+  {
+   "nombre": "Salamanca",
+   "ccaa": "Castilla y León",
+   "escanos": 4,
+   "esc2019": 4,
+   "base": {
+    "PSOE": 29.5,
+    "PP": 34.7,
+    "Vox": 17.9,
+    "UP": 7.0,
+    "Cs": 8.7
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "PP": 2,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Santa Cruz de Tenerife",
+   "ccaa": "Canarias",
+   "escanos": 7,
+   "esc2019": 7,
+   "base": {
+    "PSOE": 28.6,
+    "PP": 20.2,
+    "Vox": 11.5,
+    "UP": 13.9,
+    "Cs": 5.0,
+    "MP": 1.4,
+    "CCa": 16.5
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 2,
+    "Vox": 1,
+    "UP": 1,
+    "CCa": 1
+   }
+  },
+  {
+   "nombre": "Segovia",
+   "ccaa": "Castilla y León",
+   "escanos": 3,
+   "esc2019": 3,
+   "base": {
+    "PSOE": 29.7,
+    "PP": 33.0,
+    "Vox": 17.1,
+    "UP": 9.3,
+    "Cs": 8.1
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "PP": 1,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Sevilla",
+   "ccaa": "Andalucía",
+   "escanos": 12,
+   "esc2019": 12,
+   "base": {
+    "PSOE": 36.1,
+    "PP": 17.9,
+    "Vox": 17.9,
+    "UP": 14.6,
+    "Cs": 7.9,
+    "MP": 2.1
+   },
+   "esc_reales_2019": {
+    "PSOE": 5,
+    "PP": 2,
+    "Vox": 2,
+    "UP": 2,
+    "Cs": 1
+   }
+  },
+  {
+   "nombre": "Soria",
+   "ccaa": "Castilla y León",
+   "escanos": 2,
+   "esc2019": 2,
+   "base": {
+    "PSOE": 34.6,
+    "PP": 32.9,
+    "Vox": 13.5,
+    "UP": 7.6,
+    "Cs": 5.8
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "PP": 1
+   }
+  },
+  {
+   "nombre": "Tarragona",
+   "ccaa": "Cataluña",
+   "escanos": 6,
+   "esc2019": 6,
+   "base": {
+    "PSOE": 19.1,
+    "PP": 7.8,
+    "Vox": 8.1,
+    "UP": 12.1,
+    "Cs": 5.9,
+    "ERC": 25.6,
+    "Junts": 13.4,
+    "CUP": 5.7
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "UP": 1,
+    "ERC": 2,
+    "Junts": 1
+   }
+  },
+  {
+   "nombre": "Teruel",
+   "ccaa": "Aragón",
+   "escanos": 3,
+   "esc2019": 3,
+   "base": {
+    "PSOE": 25.5,
+    "PP": 23.6,
+    "Vox": 12.6,
+    "UP": 5.4,
+    "Cs": 5.0,
+    "TE": 26.7
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "PP": 1,
+    "TE": 1
+   }
+  },
+  {
+   "nombre": "Toledo",
+   "ccaa": "Castilla-La Mancha",
+   "escanos": 6,
+   "esc2019": 6,
+   "base": {
+    "PSOE": 32.0,
+    "PP": 26.0,
+    "Vox": 23.7,
+    "UP": 9.6,
+    "Cs": 6.8
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 2,
+    "Vox": 2
+   }
+  },
+  {
+   "nombre": "Valencia",
+   "ccaa": "C. Valenciana",
+   "escanos": 16,
+   "esc2019": 15,
+   "base": {
+    "PSOE": 27.0,
+    "PP": 22.1,
+    "Vox": 17.7,
+    "UP": 13.8,
+    "Cs": 7.7,
+    "MP": 8.8
+   },
+   "esc_reales_2019": {
+    "PSOE": 4,
+    "PP": 4,
+    "Vox": 3,
+    "UP": 2,
+    "Cs": 1,
+    "MP": 1
+   }
+  },
+  {
+   "nombre": "Valladolid",
+   "ccaa": "Castilla y León",
+   "escanos": 5,
+   "esc2019": 5,
+   "base": {
+    "PSOE": 30.3,
+    "PP": 29.5,
+    "Vox": 18.1,
+    "UP": 11.0,
+    "Cs": 8.7
+   },
+   "esc_reales_2019": {
+    "PSOE": 2,
+    "PP": 2,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Zamora",
+   "ccaa": "Castilla y León",
+   "escanos": 3,
+   "esc2019": 3,
+   "base": {
+    "PSOE": 32.8,
+    "PP": 33.6,
+    "Vox": 17.1,
+    "UP": 7.0,
+    "Cs": 6.8
+   },
+   "esc_reales_2019": {
+    "PSOE": 1,
+    "PP": 1,
+    "Vox": 1
+   }
+  },
+  {
+   "nombre": "Zaragoza",
+   "ccaa": "Aragón",
+   "escanos": 7,
+   "esc2019": 7,
+   "base": {
+    "PSOE": 30.8,
+    "PP": 23.4,
+    "Vox": 18.0,
+    "UP": 11.3,
+    "Cs": 9.2,
+    "MP": 4.5
+   },
+   "esc_reales_2019": {
+    "PSOE": 3,
+    "PP": 2,
+    "Vox": 1,
+    "UP": 1
+   }
+  }
+ ]
+}

@@ -116,5 +116,94 @@
     }
   },
   "titulares_generales": "elecciones generales 29 de noviembre",
-  "verificadores": "(site:newtral.es OR site:maldita.es)"
+  "verificadores": "(site:newtral.es OR site:maldita.es)",
+  "escenarios": [
+    {
+      "id": "pp",
+      "nombre": "PP en solitario",
+      "partidos": [
+        "PP"
+      ],
+      "gobierno": true
+    },
+    {
+      "id": "pp_vox",
+      "nombre": "PP y Vox",
+      "partidos": [
+        "PP",
+        "Vox"
+      ],
+      "gobierno": true
+    },
+    {
+      "id": "izq_socios",
+      "nombre": "PSOE, Sumar, Podemos y socios de 2023",
+      "partidos": [
+        "PSOE",
+        "Sumar",
+        "Podemos",
+        "ERC",
+        "Junts",
+        "Bildu",
+        "PNV",
+        "BNG",
+        "CCa"
+      ],
+      "gobierno": true
+    },
+    {
+      "id": "izq_sin_junts",
+      "nombre": "Lo mismo sin Junts",
+      "partidos": [
+        "PSOE",
+        "Sumar",
+        "Podemos",
+        "ERC",
+        "Bildu",
+        "PNV",
+        "BNG",
+        "CCa"
+      ],
+      "gobierno": false
+    },
+    {
+      "id": "gran_coalicion",
+      "nombre": "PP y PSOE",
+      "partidos": [
+        "PP",
+        "PSOE"
+      ],
+      "gobierno": false
+    }
+  ],
+  "escenarios_2023": [
+    {
+      "id": "pp_vox",
+      "nombre": "PP y Vox",
+      "partidos": [
+        "PP",
+        "Vox"
+      ],
+      "gobierno": true
+    },
+    {
+      "id": "izq_socios",
+      "nombre": "PSOE, Sumar y socios",
+      "partidos": [
+        "PSOE",
+        "Sumar",
+        "ERC",
+        "Junts",
+        "Bildu",
+        "PNV",
+        "BNG",
+        "CCa"
+      ],
+      "gobierno": true
+    }
+  ],
+  "principales": {
+    "derecha": "pp_vox",
+    "izquierda": "izq_socios"
+  }
 }

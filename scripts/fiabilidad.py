@@ -4,8 +4,8 @@ from comun import escribir, ahora_iso, clave_empresa
 from wikitabla import html_pagina, parsear_tablas
 
 ELECCIONES = [
-    {"nombre": "23J 2023", "pagina": "Opinion polling for the 2023 Spanish general election", "fecha": date(2023, 7, 23)},
-    {"nombre": "10N 2019", "pagina": "Opinion polling for the November 2019 Spanish general election", "fecha": date(2019, 11, 10)},
+    {"nombre": "23J 2023", "pagina": "Opinion polling for the 2023 Spanish general election", "fecha": date(2023, 7, 23), "archivo": "historico_2023.json"},
+    {"nombre": "10N 2019", "pagina": "Opinion polling for the November 2019 Spanish general election", "fecha": date(2019, 11, 10), "archivo": "historico_2019.json"},
 ]
 
 
@@ -36,6 +36,19 @@ def main():
             firmas.append({"clave": clave, "empresa": f["base"], "fin": f["fin"], "error_medio": mae, "errores": errores})
             acumulado.setdefault(clave, {"empresa": f["base"], "errores": []})["errores"].append(mae)
         firmas.sort(key=lambda x: x["error_medio"])
+        # Histórico completo de encuestas de aquella legislatura, para calibrar el modelo y el backtest
+        hist = []
+        for f in filas:
+            if f.get("es_resultado") or not f["pct"]:
+                continue
+            clave, base = clave_empresa(f["empresa"])
+            if not clave or f["empresa"].startswith("CIS (") or f["fin"] > el["fecha"].isoformat():
+                continue
+            hist.append({"id": f"{clave}-{f['fin']}-{f.get('muestra') or 0}", "empresa": f["empresa"], "empresa_base": base, "clave": clave,
+                         "inicio": f["inicio"], "fin": f["fin"], "muestra": f["muestra"], "pct": f["pct"]})
+        hist.sort(key=lambda e: e["fin"], reverse=True)
+        escribir(el["archivo"], {"nombre": el["nombre"], "fecha": el["fecha"].isoformat(), "resultado": real["pct"], "escanos": real.get("escanos", {}), "encuestas": hist})
+        print(f"   histórico guardado en {el['archivo']}, {len(hist)} encuestas")
         salida.append({"nombre": el["nombre"], "resultado": {p: real["pct"][p] for p in principales}, "firmas": firmas})
         print(f"{el['nombre']}: real {[(p, real['pct'][p]) for p in principales]}  empresas evaluadas {len(firmas)}")
         for x in firmas[:5]:

@@ -46,34 +46,9 @@ function activarPestana(id) {
 }
 window.addEventListener("hashchange", () => activarPestana(location.hash.slice(1)));
 
-/* ---------- Media de encuestas ---------- */
-function factorAcierto(clave) {
-  const r = D.fiabilidad?.ranking?.find((x) => x.clave === clave);
-  return r ? Math.min(1.4, Math.max(0.6, 1.6 / (0.6 + r.error_medio))) : 1;
-}
+/* ---------- Media de encuestas (módulo compartido con el simulador) ---------- */
 function calcMedia(fecha = hoy(), ventana = 30) {
-  const todas = D.encuestas?.encuestas || [];
-  const incluirCIS = $("#incluir-cis")?.checked;
-  const elegir = (v) => {
-    const ult = {};
-    for (const e of todas) {
-      const edad = (fecha - fechaD(e.fin)) / DIA;
-      if (edad < 0 || edad > v || (!incluirCIS && e.clave === "cis")) continue;
-      if (!ult[e.clave] || ult[e.clave].fin < e.fin) ult[e.clave] = e;
-    }
-    return Object.values(ult);
-  };
-  let usadas = elegir(ventana);
-  if (usadas.length < 4) usadas = elegir(ventana * 2);
-  const suma = {}, pesos = {};
-  for (const e of usadas) {
-    const edad = (fecha - fechaD(e.fin)) / DIA;
-    const peso = Math.exp(-edad / 14) * Math.sqrt(Math.min(e.muestra || 1000, 5000) / 1000) * factorAcierto(e.clave);
-    for (const [p, v] of Object.entries(e.pct)) { suma[p] = (suma[p] || 0) + v * peso; pesos[p] = (pesos[p] || 0) + peso; }
-  }
-  const media = {};
-  for (const p of Object.keys(suma)) media[p] = suma[p] / pesos[p];
-  return { media, usadas };
+  return Media.calcMedia(D.encuestas?.encuestas || [], fecha, { ventana, incluirCIS: $("#incluir-cis")?.checked, ranking: D.fiabilidad?.ranking });
 }
 const ordenar = (o) => Object.keys(o).sort((a, b) => o[b] - o[a]);
 
@@ -103,44 +78,83 @@ function hemiciclo(cont, escanos, filas = 12) {
 const leyenda = (cont, escanos, extra) => cont.replaceChildren(...ordenar(escanos).filter((k) => escanos[k] > 0).map((k) => el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} ${escanos[k]}`, extra ? extra(k) : null)));
 
 /* ---------- Hoy ---------- */
+const pct = (p) => `${Math.round(p * 100)} %`;
+function escenario(id) { return D.prob?.escenarios?.[id]; }
 function pintarHoy(m, m7, proy) {
   const dias = Math.round((fechaD(D.config.eleccion.fecha) - hoy()) / DIA);
   $("#cuenta").innerHTML = dias > 1 ? `faltan <strong>${dias} días</strong>` : dias === 1 ? "<strong>mañana</strong> se vota" : dias === 0 ? "<strong>hoy</strong> se vota" : "elecciones celebradas";
+  const P = D.prob, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
   const esc = D.resultados?.escanos || proy.total;
-  hemiciclo($("#hemiciclo"), esc);
+  hemiciclo($("#hemiciclo"), esc, 10);
   leyenda($("#leyenda"), esc);
-  const o = ordenar(esc).filter((k) => esc[k] > 0);
-  if (D.resultados?.escanos) $("#titular").textContent = `Resultados con el ${fmt1.format(D.resultados.escrutado || 0)}% escrutado`;
-  else if (!o.length) $("#titular").textContent = "Aún no hay encuestas cargadas.";
-  else {
-    const dif = esc[o[0]] - esc[o[1]];
-    $("#titular").textContent = `Si se votara hoy, ${nombre(o[0])} ganaría con ${esc[o[0]]} escaños, ${dif} más que ${nombre(o[1])}. Nadie llega a 176.`;
-    if (esc[o[0]] >= 176) $("#titular").textContent = `Si se votara hoy, ${nombre(o[0])} tendría mayoría absoluta con ${esc[o[0]]} escaños.`;
+  if (D.resultados?.escanos) { $("#titular").textContent = `Resultados con el ${fmt1.format(D.resultados.escrutado || 0)}% escrutado`; }
+  else if (P && der && izq) {
+    const fav = der.p >= izq.p ? der : izq, otro = fav === der ? izq : der;
+    $("#titular").textContent = fav.p >= 0.5 ? `Hoy ${fav.nombre} tiene${fav.partidos.length > 1 ? "n" : ""} un ${pct(fav.p)} de probabilidades de llegar a 176.`
+      : `Hoy nadie tiene la mayoría asegurada. ${fav.nombre}, ${pct(fav.p)}. ${otro.nombre}, ${pct(otro.p)}. Bloqueo, ${pct(P.bloqueo)}.`;
+    const segs = [[der, color("PP")], [{ nombre: "Bloqueo, nadie suma", p: P.bloqueo }, "#8A93A3"], [izq, color("PSOE")]];
+    $("#prob-barra").replaceChildren(...segs.map(([e, c]) => el("div", { style: { flex: `${Math.max(e.p, 0.02)} 1 0`, background: c }, title: e.nombre }, e.p >= 0.12 ? pct(e.p) : "")));
+    $("#prob-leyenda").replaceChildren(...segs.map(([e, c]) => el("div", {}, el("i", { style: { background: c } }), el("span", {}, e.nombre), el("b", {}, pct(e.p)))));
+    const primero = Object.entries(P.partidos).sort((a, b) => b[1].p_primero - a[1].p_primero)[0];
+    $("#prob-nota").textContent = `${P.simulaciones.toLocaleString("es-ES")} elecciones simuladas con la media de encuestas y el error que tuvieron en 2019 y 2023. ${nombre(primero[0])} es primera fuerza en el ${pct(primero[1].p_primero)} de ellas.`;
+    $("#compartir").hidden = false;
+  } else {
+    $("#titular").textContent = Object.keys(esc).length ? `Si se votara hoy, ${nombre(ordenar(esc)[0])} ganaría con ${esc[ordenar(esc)[0]]} escaños. Las probabilidades se calculan en la próxima actualización.` : "Aún no hay encuestas cargadas.";
   }
+  // Abanicos
+  if (P) {
+    const o = Object.keys(P.partidos).sort((a, b) => P.partidos[b].p50 - P.partidos[a].p50).filter((k) => P.partidos[k].p90 > 0).slice(0, 7);
+    const MAX = 240;
+    $("#abanicos").replaceChildren(...o.map((k) => { const x = P.partidos[k];
+      return el("div", { class: "abanico" }, el("span", { class: "nom" }, nombre(k)), el("div", { class: "pista" },
+        el("div", { class: "m176" }), el("div", { class: "rango", style: { left: `${x.p10 / MAX * 100}%`, width: `${(x.p90 - x.p10) / MAX * 100}%`, background: color(k) } }),
+        el("div", { class: "mediana", style: { left: `calc(${x.p50 / MAX * 100}% - 2px)`, background: color(k) } }),
+        el("span", { class: "num", style: { left: `calc(${x.p90 / MAX * 100}% + 8px)` } }, `${x.p10} a ${x.p90}`))); }),
+      el("div", { class: "eje" }, ...[0, 50, 100, 150, 176, 200].map((v) => el("span", { style: { left: `${v / MAX * 100}%`, color: v === 176 ? "var(--bronce)" : null, fontWeight: v === 176 ? 700 : null } }, v))));
+  }
+  // Claves
+  const claves = [];
+  if (P && der && izq) {
+    for (const e of [der, izq]) if (e.margen != null) claves.push(el("div", { class: "clave" }, el("b", {}, e.margen > 0 ? `A ${e.nombre} le${e.partidos.length > 1 ? "s" : ""} faltan ${fmt1.format(e.margen)} puntos` : `A ${e.nombre} le${e.partidos.length > 1 ? "s" : ""} sobran ${fmt1.format(-e.margen)} puntos`), el("span", { class: "m" }, "de voto para que la mayoría absoluta sea más probable que improbable.")));
+    const fav = der.p >= izq.p ? der : izq;
+    if (fav.bisagra?.length) claves.push(el("div", { class: "clave" }, el("b", {}, `La provincia bisagra es ${fav.bisagra[0].nombre}`), el("span", { class: "m" }, `Es donde cae el escaño 176 de ${fav.nombre} en el ${pct(fav.bisagra[0].p)} de las simulaciones en las que llegan. Le siguen ${fav.bisagra.slice(1, 4).map((b) => b.nombre).join(", ")}.`)));
+    const aire = [...P.provincias].sort((a, b) => b.en_el_aire - a.en_el_aire).slice(0, 4);
+    claves.push(el("div", { class: "clave" }, el("b", {}, `Provincias con el último escaño más en el aire: ${aire.map((p) => p.nombre).join(", ")}`), el("span", { class: "m" }, `En ${aire[0].nombre} el último escaño cambia de partido en el ${pct(aire[0].en_el_aire)} de las simulaciones.`)));
+  }
+  $("#claves").replaceChildren(...claves);
+  pintarHistorial();
+  // Podio
   const top = ordenar(m.media).slice(0, 3);
   $("#podio").replaceChildren(...top.map((k) => {
     const d = m7.media[k] != null ? m.media[k] - m7.media[k] : 0;
     return el("div", { class: "tile", style: { "--c": color(k) } }, el("div", { class: "n" }, nombre(k)), el("div", { class: "g" }, `${fmt1.format(m.media[k])}%`),
-      el("div", { class: "s" }, `${proy.total[k] || 0} ${proy.total[k] === 1 ? "escaño" : "escaños"}`), Math.abs(d) >= 0.1 ? el("div", { class: `d ${d > 0 ? "sube" : "baja"}` }, `${signo(d)} esta semana`) : el("div", { class: "d s" }, "sin cambios"));
+      el("div", { class: "s" }, P ? `${P.partidos[k]?.p50 ?? proy.total[k] ?? 0} escaños` : `${proy.total[k] || 0} escaños`), Math.abs(d) >= 0.1 ? el("div", { class: `d ${d > 0 ? "sube" : "baja"}` }, `${signo(d)} esta semana`) : el("div", { class: "d s" }, "sin cambios"));
   }));
+  // Resumen
   const items = [];
-  const nuevas = (D.encuestas?.encuestas || []).filter((e) => e.primera_vez && Date.now() - new Date(e.primera_vez) < 2 * DIA);
-  if (nuevas.length) {
-    const top3 = (e) => ordenar(e.pct).slice(0, 3).map((k) => `${nombre(k)} ${fmt1.format(e.pct[k])}`).join(", ");
-    items.push(`${nuevas.length === 1 ? "Encuesta nueva" : nuevas.length + " encuestas nuevas"}. ${nuevas.slice(0, 2).map((e) => `${e.empresa_base}: ${top3(e)}`).join(". ")}.`);
-  } else if (D.encuestas?.encuestas?.length) {
-    const u = D.encuestas.encuestas[0];
-    items.push(`La encuesta más reciente es de ${u.empresa_base}, con trabajo de campo hasta el ${fFecha.format(fechaD(u.fin))}.`);
-  }
+  const u = D.analisis?.ultimas?.[0];
+  if (u) items.push(`Última encuesta, ${u.empresa}${u.encargo ? ` para ${u.encargo}` : ""}, ${fFecha.format(fechaD(u.fin))}. ${u.texto}`);
   const cambios = Object.keys(m.media).filter((k) => m7.media[k] != null).map((k) => ({ k, d: m.media[k] - m7.media[k] })).filter((x) => Math.abs(x.d) >= 0.3).sort((a, b) => Math.abs(b.d) - Math.abs(a.d)).slice(0, 3);
-  if (cambios.length) items.push("Esta semana " + cambios.map((x) => `${nombre(x.k)} ${x.d > 0 ? "sube" : "baja"} ${fmt1.format(Math.abs(x.d))}`).join(", ") + " puntos.");
+  if (cambios.length) items.push("Esta semana " + cambios.map((x) => `${nombre(x.k)} ${x.d > 0 ? "sube" : "baja"} ${fmt1.format(Math.abs(x.d))}`).join(", ") + " puntos en la media.");
   else if (Object.keys(m7.media).length) items.push("La media apenas se mueve esta semana, ningún partido cambia más de 0,3 puntos.");
-  const filo = proy.provincias.filter((p) => p.aspirante && p.aspirante.falta < 0.5);
-  if (filo.length) items.push(`${filo.length} provincias tienen el último escaño en el aire, a menos de medio punto: ${filo.slice(0, 5).map((p) => p.nombre).join(", ")}.`);
+  const h = D.historial;
+  if (h?.length > 1 && der) { const d0 = h[h.length - 1].escenarios[der.id], d7 = (h.find((x) => (fechaD(h[h.length - 1].fecha) - fechaD(x.fecha)) / DIA <= 7) || h[0]).escenarios[der.id]; const d = (d0 - d7) * 100; if (Math.abs(d) >= 2) items.push(`La probabilidad de ${der.nombre} ${d > 0 ? "sube" : "baja"} ${Math.abs(Math.round(d))} puntos esta semana.`); }
   const sig = (D.agenda || []).find((x) => fechaD(x.fin || x.fecha) >= hoy());
-  if (sig) items.push(`Próxima fecha, ${fFechaLarga.format(fechaD(sig.fecha))}: ${sig.titulo}.`);
+  if (sig) items.push(`Próxima fecha, ${fFechaLarga.format(fechaD(sig.fecha))}, ${sig.titulo}.`);
   $("#resumen").replaceChildren(...(items.length ? items.map((t) => el("li", {}, t)) : [el("li", { class: "vacio" }, "Aún no hay datos. La primera actualización tarda unos minutos.")]));
   $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 6).map((n) => el("a", { class: "titular-n", href: n.enlace, target: "_blank", rel: "noopener" }, n.titulo, el("span", { class: "m" }, `${n.fuente} ${hace(n.fecha)}`))));
+}
+let graficoHistorial;
+function pintarHistorial() {
+  const h = D.historial, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
+  if (!h?.length || !der || !izq) { $("#grafico-historial").parentElement.style.display = "none"; return; }
+  graficoHistorial?.destroy();
+  graficoHistorial = new Chart($("#grafico-historial"), { type: "line",
+    data: { labels: h.map((x) => fFecha.format(fechaD(x.fecha))), datasets: [
+      { label: der.nombre, data: h.map((x) => Math.round(x.escenarios[der.id] * 100)), borderColor: color("PP"), backgroundColor: color("PP"), borderWidth: 2.5, pointRadius: h.length < 20 ? 3 : 0, tension: .3 },
+      { label: izq.nombre, data: h.map((x) => Math.round(x.escenarios[izq.id] * 100)), borderColor: color("PSOE"), backgroundColor: color("PSOE"), borderWidth: 2.5, pointRadius: h.length < 20 ? 3 : 0, tension: .3 },
+      { label: "Bloqueo", data: h.map((x) => Math.round(x.bloqueo * 100)), borderColor: "#8A93A3", backgroundColor: "#8A93A3", borderWidth: 2, pointRadius: h.length < 20 ? 3 : 0, tension: .3 }] },
+    options: { ...opciones(" %"), scales: { ...opciones(" %").scales, y: { ...opciones(" %").scales.y, min: 0, max: 100 } } } });
 }
 
 /* ---------- Encuestas ---------- */
@@ -157,11 +171,16 @@ function pintarEncuestas(m, m7, proy) {
       el("div", { class: "esc" }, `${proy.total[k] || 0} ${proy.total[k] === 1 ? "escaño" : "escaños"}`));
   }));
   const usadas = new Set(m.usadas.map((e) => e.id));
-  $("#tarjetas-encuestas").replaceChildren(...(D.encuestas?.encuestas || []).slice(0, 15).map((e) => {
+  $("#tarjetas-encuestas").replaceChildren(...(D.encuestas?.encuestas || []).slice(0, 12).map((e) => {
     const nueva = e.primera_vez && Date.now() - new Date(e.primera_vez) < 2 * DIA;
-    return el("div", { class: "tarjeta", style: usadas.has(e.id) ? null : { opacity: .7 } },
-      el("div", { class: "cab" }, el("b", {}, e.empresa_base, e.encargo ? ` para ${e.encargo}` : "", nueva ? el("span", { class: "etiqueta-nueva" }, "nueva") : null), el("span", {}, `${fFecha.format(fechaD(e.fin))}${e.muestra ? `, n=${fmt0.format(e.muestra)}` : ""}`)),
-      el("div", { class: "chips" }, ...ordenar(e.pct).slice(0, 6).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${fmt1.format(e.pct[k])}`))));
+    const an = D.analisis?.ultimas?.find((x) => x.id === e.id);
+    const nota = D.analisis?.notas?.find((x) => x.clave === e.clave);
+    return el("div", { class: "tarjeta", style: usadas.has(e.id) ? null : { opacity: .75 } },
+      el("div", { class: "cab" }, el("b", {}, e.empresa_base, nota && nota.letra !== "–" ? el("span", { class: "nota", title: nota.texto }, nota.letra) : null, e.encargo ? ` para ${e.encargo}` : "", nueva ? el("span", { class: "etiqueta-nueva" }, "nueva") : null,
+        an ? el("span", { class: `veredicto ${an.veredicto}` }, an.veredicto === "ruido" ? "ruido" : an.veredicto === "leve" ? "algo se mueve" : "noticia") : null),
+        el("span", {}, `${fFecha.format(fechaD(e.fin))}${e.muestra ? `, n=${fmt0.format(e.muestra)}` : ""}`)),
+      el("div", { class: "chips" }, ...ordenar(e.pct).slice(0, 6).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${fmt1.format(e.pct[k])}`))),
+      an ? el("div", { class: "ver" }, an.texto) : null);
   }));
   if (D.encuestas) $("#fuente-encuestas").replaceChildren("Atenuadas las que no entran en la media de hoy. Fuente ", el("a", { href: D.encuestas.fuente, target: "_blank", rel: "noopener" }, "Wikipedia"), `, actualizado ${hace(D.encuestas.actualizado)}.`);
   graficoTendencia?.destroy(); graficoTendencia = null;
@@ -210,28 +229,31 @@ function pintarMapa(proy) {
     const [x, y] = TESELAS[p.nombre] || [0, 0];
     const gan = ordenar(p.escanos)[0];
     let fill = gan ? color(gan) : "var(--linea)", op = 1, txt = "#fff";
+    const pp = D.prob?.provincias?.find((x) => x.nombre === p.nombre);
     if (mapa.vista === "filo") {
-      const f = p.aspirante ? p.aspirante.falta : 9;
-      op = f < 0.5 ? 1 : f < 1 ? .75 : f < 2 ? .5 : f < 4 ? .3 : .15;
-      fill = "var(--mal)"; txt = f < 1 ? "#fff" : "var(--tinta)";
+      const a = pp ? pp.en_el_aire : (p.aspirante ? Math.max(0, 1 - p.aspirante.falta / 4) : 0);
+      op = Math.max(.12, Math.min(1, a * 1.3));
+      fill = "var(--mal)"; txt = a > .35 ? "#fff" : "var(--tinta)";
     } else if (gan && ordenar(p.escanos).length > 1 && p.escanos[gan] === p.escanos[ordenar(p.escanos)[1]]) op = .6; // empate a escaños
     svg += `<g class="tesela${mapa.sel === p.nombre ? " sel" : ""}" data-p="${p.nombre}"><rect x="${x * (T + G)}" y="${y * (T + G)}" width="${T}" height="${T}" fill="${fill}" fill-opacity="${op}"/>`;
     svg += `<text x="${x * (T + G) + T / 2}" y="${y * (T + G) + 18}" text-anchor="middle" font-size="11" font-weight="700" fill="${txt}">${ABREV[p.nombre]}</text>`;
-    svg += `<text x="${x * (T + G) + T / 2}" y="${y * (T + G) + 34}" text-anchor="middle" font-size="12" fill="${txt}">${mapa.vista === "filo" && p.aspirante ? fmt1.format(Math.max(p.aspirante.falta, 0)) : p.n}</text></g>`;
+    svg += `<text x="${x * (T + G) + T / 2}" y="${y * (T + G) + 34}" text-anchor="middle" font-size="12" fill="${txt}">${mapa.vista === "filo" ? (pp ? Math.round(pp.en_el_aire * 100) + "%" : "–") : p.n}</text></g>`;
   }
   svg += "</svg>";
   $("#mapa-svg").innerHTML = svg;
   $("#mapa-svg").querySelectorAll(".tesela").forEach((g) => g.addEventListener("click", () => { mapa.sel = g.dataset.p; try { localStorage.setItem("mi-provincia", mapa.sel); } catch {} pintarMapa(mapa.proy); }));
-  $("#mapa-pista").textContent = mapa.vista === "ganador" ? "Color del partido con más escaños en cada provincia y escaños que reparte. Más claro, empate entre los dos primeros. Toca una para ver el detalle." : "Puntos que le faltan al siguiente partido para quitar el último escaño. Cuanto más rojo, más en el aire.";
+  $("#mapa-pista").textContent = mapa.vista === "ganador" ? "Color del partido con más escaños en cada provincia y escaños que reparte. Más claro, empate entre los dos primeros. Toca una para ver el detalle." : "Probabilidad de que el último escaño de cada provincia cambie de partido en las simulaciones. Cuanto más rojo, más en el aire.";
   const p = proy.provincias.find((x) => x.nombre === mapa.sel);
   $("#ficha-provincia").replaceChildren(...(p ? [el("div", { class: "ficha" }, el("h3", {}, `${p.nombre}, ${p.n} escaños`),
     el("div", { class: "chips" }, ...ordenar(p.escanos).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${p.escanos[k]}`))),
     p.aspirante ? el("p", {}, `El último escaño se lo lleva ${nombre(p.ultimo.p)}. ${nombre(p.aspirante.p)} se lo quitaría con ${fmt1.format(Math.max(p.aspirante.falta, 0))} puntos más.`) : null,
+    (() => { const pp = D.prob?.provincias?.find((x) => x.nombre === p.nombre); return pp ? el("p", {}, `En las simulaciones el último escaño es ${ordenar(pp.ultimo).slice(0, 3).map((k) => `de ${nombre(k)} el ${pct(pp.ultimo[k])}`).join(", ")}.`) : null; })(),
     el("p", { class: "fuente" }, "Voto estimado: " + ordenar(p.cuotas).filter((k) => p.cuotas[k] >= 1).map((k) => `${nombre(k)} ${fmt1.format(p.cuotas[k])}%`).join(", ")))] : []));
-  const aj = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => a.aspirante.falta - b.aspirante.falta).slice(0, 5);
-  $("#ajustadas").replaceChildren(...aj.map((x) => el("button", { class: "ajustada", type: "button", onclick: () => { mapa.sel = x.nombre; pintarMapa(mapa.proy); $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); } },
-    el("b", {}, x.nombre), el("span", { class: "pts" }, `${fmt1.format(Math.max(x.aspirante.falta, 0))} pts`),
-    el("span", { class: "m" }, `${nombre(x.ultimo.p)} tiene el último escaño, lo persigue ${nombre(x.aspirante.p)}`))));
+  const aj = D.prob ? [...D.prob.provincias].sort((a, b) => b.en_el_aire - a.en_el_aire).slice(0, 5).map((pp) => ({ x: proy.provincias.find((q) => q.nombre === pp.nombre), pp }))
+    : [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => a.aspirante.falta - b.aspirante.falta).slice(0, 5).map((x) => ({ x }));
+  $("#ajustadas").replaceChildren(...aj.map(({ x, pp }) => el("button", { class: "ajustada", type: "button", onclick: () => { mapa.sel = x.nombre; pintarMapa(mapa.proy); $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); } },
+    el("b", {}, x.nombre), el("span", { class: "pts" }, pp ? `${pct(pp.en_el_aire)} en el aire` : `${fmt1.format(Math.max(x.aspirante.falta, 0))} pts`),
+    el("span", { class: "m" }, x.aspirante ? `${nombre(x.ultimo.p)} tiene el último escaño, lo persigue ${nombre(x.aspirante.p)}` : ""))));
 }
 document.querySelectorAll(".conmutador button").forEach((b) => b.addEventListener("click", () => {
   mapa.vista = b.dataset.vista;
@@ -240,18 +262,34 @@ document.querySelectorAll(".conmutador button").forEach((b) => b.addEventListene
 }));
 
 /* ---------- Simulador ---------- */
-const sim = { valores: {}, seleccion: new Set() };
+const sim = { valores: {}, seleccion: new Set(), swing: 0 };
+const DERECHA = ["PP", "Vox", "SALF", "UPN"], IZQUIERDA = ["PSOE", "Sumar", "Podemos", "AA"];
 function pintarSimulador(m, proyBase) {
-  sim.valores = { ...m.media }; sim.proyBase = proyBase;
-  const o = ordenar(m.media).filter((k) => m.media[k] >= 0.3);
+  sim.base = { ...m.media }; sim.valores = { ...m.media }; sim.proyBase = proyBase; sim.swing = 0;
+  $("#swing").value = 0; $("#swing-out").textContent = "Como la media de encuestas";
+  pintarControles();
+  recalcularSim();
+}
+function pintarControles() {
+  const o = ordenar(sim.base).filter((k) => sim.base[k] >= 0.3);
   $("#sim-controles").replaceChildren(...o.map((k) => {
     const out = el("output", {}, fmt1.format(sim.valores[k]));
     return el("label", { class: "deslizador" }, el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), " ", nombre(k)),
       el("input", { type: "range", min: 0, max: 45, step: 0.1, value: sim.valores[k].toFixed(1), "aria-label": `Voto de ${nombre(k)}`, style: { accentColor: color(k) },
-        oninput: (ev) => { sim.valores[k] = +ev.target.value; out.textContent = fmt1.format(sim.valores[k]); programarSim(); } }), out);
-  }), el("button", { class: "boton", type: "button", onclick: () => pintarSimulador(m, proyBase) }, "Volver a la media de encuestas"));
-  recalcularSim();
+        oninput: (ev) => { sim.valores[k] = +ev.target.value; out.textContent = fmt1.format(sim.valores[k]); programarSim(); }, onchange: () => probabilidadSim() }), out);
+  }), el("button", { class: "boton", type: "button", onclick: () => pintarSimulador({ media: sim.base }, sim.proyBase) }, "Volver a la media de encuestas"));
 }
+$("#swing").addEventListener("input", (ev) => {
+  const s = +ev.target.value; sim.swing = s;
+  const der = DERECHA.filter((k) => sim.base[k] > 0), izq = IZQUIERDA.filter((k) => sim.base[k] > 0);
+  const sd = der.reduce((a, k) => a + sim.base[k], 0), si = izq.reduce((a, k) => a + sim.base[k], 0);
+  sim.valores = { ...sim.base };
+  for (const k of der) sim.valores[k] = Math.max(0, sim.base[k] + s * sim.base[k] / sd);
+  for (const k of izq) sim.valores[k] = Math.max(0, sim.base[k] - s * sim.base[k] / si);
+  $("#swing-out").textContent = s === 0 ? "Como la media de encuestas" : `${fmt1.format(Math.abs(s))} puntos ${s > 0 ? "de la izquierda a la derecha" : "de la derecha a la izquierda"}`;
+  pintarControles(); programarSim();
+});
+$("#swing").addEventListener("change", () => probabilidadSim());
 let simPendiente = false;
 function programarSim() { if (!simPendiente) { simPendiente = true; requestAnimationFrame(() => { simPendiente = false; recalcularSim(); }); } }
 function recalcularSim() {
@@ -271,16 +309,45 @@ function recalcularSim() {
     if (dif.length) cambian.push(`${p.nombre} (${dif.join(", ")})`);
   });
   $("#sim-cambios").textContent = cambian.length ? `Cambian ${cambian.length} provincias: ${cambian.join("; ")}.` : "Con estos datos el reparto es el mismo que con la media de encuestas.";
+  if (!sim.probPintada) probabilidadSim();
+}
+/* Monte Carlo ligero en el navegador (600 simulaciones) para que el swingómetro dé probabilidades */
+function probabilidadSim() {
+  const P = D.prob; if (!P?.sigmas) { $("#sim-prob").replaceChildren(); return; }
+  sim.probPintada = true;
+  const der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda), N = 600;
+  const BL = { d: ["PP", "Vox", "SALF", "UPN"], i: ["PSOE", "Sumar", "Podemos", "AA"] };
+  const bloque = (k) => BL.d.includes(k) ? "d" : BL.i.includes(k) ? "i" : "t";
+  const rn = () => { let u = 0, v = 0; while (u === 0) u = Math.random(); v = Math.random(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v); };
+  let cd = 0, ci = 0, cb = 0;
+  const claves = Object.keys(sim.valores).filter((k) => sim.valores[k] > 0);
+  for (let i = 0; i < N; i++) {
+    const z = { d: rn(), i: rn(), t: rn() }, zt = rn(), m = {};
+    for (const k of claves) { const b = bloque(k); m[k] = Math.max(0, sim.valores[k] + (P.sigmas[k] || 0.06 * sim.valores[k]) * (0.55 * z[b] + 0.835 * rn() + 0.35 * (b === "d" ? 1 : b === "i" ? -1 : 0) * zt)); }
+    const t = Modelo.proyectar(m, D.base).total;
+    const sd = der.partidos.reduce((a, k) => a + (t[k] || 0), 0) >= 176, si = izq.partidos.reduce((a, k) => a + (t[k] || 0), 0) >= 176;
+    if (sd) cd++; if (si) ci++; if (!sd && !si) cb++;
+  }
+  $("#sim-prob").replaceChildren(
+    el("div", {}, el("b", { style: { color: color("PP") } }, pct(cd / N)), el("span", {}, der.nombre)),
+    el("div", {}, el("b", {}, pct(cb / N)), el("span", {}, "Bloqueo")),
+    el("div", {}, el("b", { style: { color: color("PSOE") } }, pct(ci / N)), el("span", {}, izq.nombre)));
 }
 
 /* ---------- Más ---------- */
 function pintarFiabilidad() {
-  const f = D.fiabilidad;
-  if (!f) { $("#fiabilidad").replaceChildren(el("p", { class: "vacio" }, "Se calcula en la primera actualización.")); return; }
-  const ult = {}; for (const e of D.encuestas?.encuestas || []) if (!ult[e.clave]) ult[e.clave] = e;
-  $("#fiabilidad").replaceChildren(...f.ranking.map((r, i) => el("div", { class: "fila-f" }, el("span", { class: "pos" }, i + 1),
-    el("span", {}, r.empresa, el("span", { class: "m" }, r.elecciones === 2 ? "evaluada en 2019 y 2023" : "evaluada en una elección", ult[r.clave] ? `, última encuesta ${fFecha.format(fechaD(ult[r.clave].fin))}` : "")),
-    el("span", { class: "v" }, `${fmt1.format(r.error_medio)} pts`))));
+  const an = D.analisis;
+  if (!an?.notas?.length) { $("#fiabilidad").replaceChildren(el("p", { class: "vacio" }, "Se calcula en la primera actualización.")); }
+  else $("#fiabilidad").replaceChildren(...an.notas.map((r) => el("div", { class: "fila-f" }, el("span", { class: "nota" }, r.letra),
+    el("span", {}, `${r.empresa}, ${r.encuestas} encuestas`, el("span", { class: "m" }, r.texto),
+      r.sesgo ? el("div", { class: "sesgos" }, ...Object.entries(r.sesgo).filter(([, v]) => Math.abs(v) >= 0.3).sort((a, b) => Math.abs(b[1]) - Math.abs(a[1])).slice(0, 4).map(([k, v]) => el("span", {}, `${nombre(k)} ${signo(v)}`))) : null))));
+  const bt = D.prob?.backtest;
+  if (!bt) { $("#backtest").replaceChildren(el("p", { class: "vacio" }, "Se calcula en la primera actualización.")); return; }
+  const real = bt.resultado_escanos, pv = (real.PP || 0) + (real.Vox || 0), iz = ["PSOE", "Sumar", "ERC", "Junts", "Bildu", "PNV", "BNG", "CCa"].reduce((a, k) => a + (real[k] || 0), 0);
+  $("#backtest").replaceChildren(...bt.fechas.map((f) => el("div", { class: "fila-bt" },
+    el("span", {}, `${fFecha.format(fechaD(f.fecha))} 2023, a ${f.dias} días`, el("span", { class: "m" }, `PP ${f.partidos.PP?.p10}-${f.partidos.PP?.p90}, PSOE ${f.partidos.PSOE?.p10}-${f.partidos.PSOE?.p90}, Vox ${f.partidos.Vox?.p10}-${f.partidos.Vox?.p90}`)),
+    el("span", {}, `PP y Vox ${pct(f.escenarios.pp_vox.p)}`), el("span", {}, `Izquierda y socios ${pct(f.escenarios.izq_socios.p)}`))),
+    el("div", { class: "fila-bt" }, el("span", { class: "real" }, "Lo que pasó el 23J", el("span", { class: "m" }, `PP ${real.PP}, PSOE ${real.PSOE}, Vox ${real.Vox}, Sumar ${real.Sumar}`)), el("span", { class: "real" }, `PP y Vox ${pv}`), el("span", { class: "real" }, `Izquierda y socios ${iz}`)));
 }
 function pintarPorra(proy) {
   const bot = D.config.telegram_bot;
@@ -337,9 +404,10 @@ function pintarTodo() {
   pintarPartidos(m, proy);
 }
 (async function iniciar() {
-  const nombres = ["config", "base2023", "encuestas", "fiabilidad", "noticias", "atencion", "porra", "agenda", "programas", "resultados"];
+  const nombres = ["config", "base2023", "encuestas", "fiabilidad", "noticias", "atencion", "porra", "agenda", "programas", "resultados", "probabilidades", "analisis", "probabilidades_historial"];
   const datos = await Promise.all(nombres.map(cargar));
-  nombres.forEach((n, i) => { D[n === "base2023" ? "base" : n] = datos[i]; });
+  nombres.forEach((n, i) => { D[n === "base2023" ? "base" : n === "probabilidades" ? "prob" : n === "probabilidades_historial" ? "historial" : n] = datos[i]; });
+  $("#compartir").addEventListener("click", compartir);
   if (!D.config || !D.base) { $("#titular").textContent = "No se han podido cargar los datos base."; return; }
   try { mapa.sel = localStorage.getItem("mi-provincia") || null; } catch {}
   $("#incluir-cis").addEventListener("change", pintarTodo);
@@ -351,3 +419,32 @@ function pintarTodo() {
   if (act) $("#actualizado").textContent = `Datos actualizados ${hace(act)}.`;
   activarPestana(location.hash.slice(1));
 })();
+
+/* ---------- Tarjeta para compartir ---------- */
+async function compartir() {
+  const P = D.prob, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
+  if (!P || !der || !izq) return;
+  const c = document.createElement("canvas"); c.width = 1080; c.height = 1350;
+  const g = c.getContext("2d");
+  g.fillStyle = "#17202E"; g.fillRect(0, 0, 1080, 1350);
+  g.fillStyle = "#fff"; g.font = "800 120px Archivo, Arial, sans-serif"; g.fillText("29N", 70, 170);
+  g.font = "500 40px Archivo, Arial, sans-serif"; g.fillStyle = "#B8C0CC"; g.fillText(`Probabilidades a ${new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "long" }).format(new Date())}`, 70, 240);
+  g.fillStyle = "#fff"; g.font = "650 46px Archivo, Arial, sans-serif";
+  const lineas = (t, x, y, w) => { const ws = t.split(" "); let l = "", yy = y; for (const w0 of ws) { const p = l ? l + " " + w0 : w0; if (g.measureText(p).width > w) { g.fillText(l, x, yy); l = w0; yy += 56; } else l = p; } g.fillText(l, x, yy); return yy; };
+  let y = lineas($("#titular").textContent, 70, 330, 940) + 70;
+  const segs = [[der.p, color("PP"), der.nombre], [P.bloqueo, "#8A93A3", "Bloqueo"], [izq.p, color("PSOE"), izq.nombre]];
+  let x = 70; for (const [p, col] of segs) { const w = Math.max(p, .02) * 940; g.fillStyle = col; g.fillRect(x, y, w, 90); if (p >= .12) { g.fillStyle = "#fff"; g.font = "800 44px Archivo, Arial, sans-serif"; g.fillText(pct(p), x + 24, y + 60); } x += w; }
+  y += 130; g.font = "500 34px Archivo, Arial, sans-serif";
+  for (const [p, col, n] of segs) { g.fillStyle = col; g.fillRect(70, y - 26, 28, 28); g.fillStyle = "#fff"; g.fillText(`${n}, ${pct(p)}`, 120, y); y += 50; }
+  y += 40; g.fillStyle = "#B8C0CC"; g.font = "600 32px Archivo, Arial, sans-serif"; g.fillText("Escaños probables (del 10 % al 90 %)", 70, y); y += 30;
+  const o = Object.keys(P.partidos).sort((a, b) => P.partidos[b].p50 - P.partidos[a].p50).slice(0, 6);
+  for (const k of o) { const v = P.partidos[k]; y += 62; g.fillStyle = "#fff"; g.font = "650 32px Archivo, Arial, sans-serif"; g.fillText(nombre(k), 70, y);
+    const x0 = 300, esc = 700 / 240; g.fillStyle = "#2B3543"; g.fillRect(x0, y - 24, 700, 22); g.fillStyle = color(k); g.globalAlpha = .55; g.fillRect(x0 + v.p10 * esc, y - 24, (v.p90 - v.p10) * esc, 22); g.globalAlpha = 1; g.fillRect(x0 + v.p50 * esc - 3, y - 28, 6, 30);
+    g.fillStyle = "#D3A54E"; g.fillRect(x0 + 176 * esc - 1, y - 30, 2, 34); g.fillStyle = "#B8C0CC"; g.font = "500 26px Archivo, Arial, sans-serif"; g.fillText(`${v.p10}-${v.p90}`, x0 + 715, y); }
+  g.fillStyle = "#D3A54E"; g.font = "600 28px Archivo, Arial, sans-serif"; g.fillText("176 = mayoría absoluta", 300 + 176 * 700 / 240 - 120, y + 50);
+  g.fillStyle = "#B8C0CC"; g.font = "500 28px Archivo, Arial, sans-serif"; g.fillText(location.href.replace(/[#?].*$/, ""), 70, 1290);
+  const blob = await new Promise((r) => c.toBlob(r, "image/png"));
+  const file = new File([blob], "29n.png", { type: "image/png" });
+  if (navigator.canShare && navigator.canShare({ files: [file] })) { try { await navigator.share({ files: [file], title: "29N" }); return; } catch {} }
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "29n.png"; a.click();
+}

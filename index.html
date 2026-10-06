@@ -10,6 +10,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#17202E">
+<link rel="apple-touch-icon" href="assets/icono-192.png">
 </head>
 <body>
 <header class="cabecera">
@@ -29,9 +32,18 @@
   <section id="hoy" class="pantalla">
     <div class="hero">
       <p id="titular" class="titular">Cargando…</p>
-      <div id="hemiciclo"></div>
-      <div id="leyenda" class="leyenda"></div>
+      <div id="prob-barra" class="prob-barra"></div>
+      <div id="prob-leyenda" class="prob-leyenda"></div>
+      <p id="prob-nota" class="fuente"></p>
+      <button type="button" id="compartir" class="boton compartir" hidden>Compartir esta foto</button>
     </div>
+    <h2>Dónde puede acabar cada partido</h2>
+    <div id="abanicos" class="abanicos"></div>
+    <div id="hemiciclo" class="hemi-pequeno"></div>
+    <div id="leyenda" class="leyenda"></div>
+    <h2>Lo que decide la elección</h2>
+    <div id="claves" class="claves"></div>
+    <div class="grafico grafico-bajo"><canvas id="grafico-historial" aria-label="Evolución de la probabilidad"></canvas></div>
     <div id="podio" class="podio"></div>
     <h2>Lo que hay que saber hoy</h2>
     <ul id="resumen" class="resumen"></ul>
@@ -46,7 +58,8 @@
     <label class="interruptor"><input type="checkbox" id="incluir-cis"> Incluir el CIS en la media</label>
     <h2>Desde las últimas elecciones</h2>
     <div class="grafico"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div>
-    <h2>Últimas encuestas</h2>
+    <h2>Últimas encuestas, ¿noticia o ruido?</h2>
+    <p class="explica">Cada encuesta se compara con lo que esa misma empresa suele dar respecto a la media. Si se sale de lo normal, es noticia. Si no, es ruido.</p>
     <div id="tarjetas-encuestas" class="tarjetas"></div>
     <p class="fuente" id="fuente-encuestas"></p>
   </section>
@@ -55,7 +68,7 @@
     <h2>Provincia a provincia</h2>
     <div class="conmutador" role="group" aria-label="Qué mostrar en el mapa">
       <button type="button" data-vista="ganador" aria-pressed="true">Quién gana</button>
-      <button type="button" data-vista="filo" aria-pressed="false">En el filo</button>
+      <button type="button" data-vista="filo" aria-pressed="false">En el aire</button>
     </div>
     <div id="mapa-svg" class="mapa"></div>
     <p id="mapa-pista" class="explica">Toca una provincia para ver su reparto.</p>
@@ -66,7 +79,13 @@
 
   <section id="simulador" class="pantalla" hidden>
     <h2>¿Y si…?</h2>
-    <p class="explica">Mueve el voto de cada partido y mira cómo cambian los escaños. Marca partidos para ver si suman 176.</p>
+    <p class="explica">Mueve el voto y mira cómo cambian los escaños y la probabilidad de cada escenario. Marca partidos para ver si suman 176.</p>
+    <div class="swing">
+      <label for="swing">Swingómetro, de la izquierda a la derecha</label>
+      <input type="range" id="swing" min="-8" max="8" step="0.5" value="0">
+      <output id="swing-out">Como la media de encuestas</output>
+    </div>
+    <div id="sim-prob" class="sim-prob"></div>
     <div id="sim-hemiciclo"></div>
     <div id="sim-leyenda" class="leyenda"></div>
     <div id="pactos" class="pactos"></div>
@@ -75,8 +94,12 @@
   </section>
 
   <section id="mas" class="pantalla" hidden>
-    <details open><summary>Quién acierta</summary>
-      <p class="explica">Error medio de cada empresa en su última encuesta antes del 23J de 2023 y del 10N de 2019.</p>
+    <details open><summary>El modelo, puesto a prueba con 2023</summary>
+      <p class="explica">Qué habría dicho este mismo modelo en 2023, con las encuestas de entonces y los resultados de 2019 como base, y lo que pasó el 23J.</p>
+      <div id="backtest" class="fiabilidad"></div>
+    </details>
+    <details><summary>Notas a las encuestadoras</summary>
+      <p class="explica">Nota por su acierto en 2019 y 2023, y sesgo de casa, cuánto se separa cada empresa de la media del momento.</p>
       <div id="fiabilidad" class="fiabilidad"></div>
     </details>
     <details><summary>La porra</summary>
@@ -102,6 +125,8 @@
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script src="assets/modelo.js"></script>
+<script src="assets/media.js"></script>
 <script src="assets/app.js"></script>
+<script>if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");</script>
 </body>
 </html>

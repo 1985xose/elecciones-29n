@@ -142,3 +142,50 @@ details[open] summary::after { content: "–"; }
 .tabla th, .tabla td { text-align: left; padding: 8px; border-top: 1px solid var(--linea); vertical-align: top; }
 .pie { color: var(--gris); font-size: .8rem; margin: 18px 4px 0; }
 .aviso { background: color-mix(in srgb, var(--bronce) 18%, var(--superficie)); border-radius: 12px; padding: 10px 14px; margin: 0 0 12px; }
+
+/* Probabilidades */
+.prob-barra { display: flex; height: 54px; border-radius: 12px; overflow: hidden; margin-top: 12px; }
+.prob-barra div { display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 1.25rem; min-width: 0; }
+.prob-barra div small { font-size: .7rem; font-weight: 600; margin-left: 4px; opacity: .9; }
+.prob-leyenda { display: grid; gap: 4px; margin-top: 10px; font-size: .92rem; }
+.prob-leyenda div { display: grid; grid-template-columns: 14px 1fr auto; gap: 8px; align-items: center; }
+.prob-leyenda i { width: 14px; height: 14px; border-radius: 4px; }
+.prob-leyenda b { font-weight: 800; }
+.compartir { margin-top: 12px; }
+.abanicos { background: var(--superficie); border-radius: 16px; padding: 12px 14px 6px; }
+.abanico { display: grid; grid-template-columns: 5.5em 1fr; align-items: center; gap: 10px; padding: 7px 0; }
+.abanico .nom { font-weight: 650; font-size: .92rem; }
+.abanico .pista { position: relative; height: 22px; }
+.abanico .rango { position: absolute; top: 5px; height: 12px; border-radius: 6px; opacity: .45; }
+.abanico .mediana { position: absolute; top: 2px; width: 4px; height: 18px; border-radius: 2px; }
+.abanico .num { position: absolute; top: 0; font-size: .78rem; color: var(--gris); }
+.abanico .m176 { position: absolute; top: -2px; bottom: -2px; width: 2px; background: var(--bronce); left: calc(176 / 240 * 100%); }
+.abanicos .eje { position: relative; height: 16px; margin-left: calc(5.5em + 10px); font-size: .72rem; color: var(--gris); }
+.abanicos .eje span { position: absolute; transform: translateX(-50%); }
+.hemi-pequeno { max-width: 420px; margin: 14px auto 0; }
+.hemi-pequeno svg { width: 100%; height: auto; display: block; }
+.claves { display: grid; gap: 8px; margin-bottom: 12px; }
+.clave { background: var(--superficie); border-radius: 12px; padding: 12px 14px; }
+.clave b { display: block; font-size: 1.05rem; }
+.clave .m { color: var(--gris); font-size: .88rem; }
+.grafico-bajo { height: 200px; margin-bottom: 12px; }
+.veredicto { font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; margin-left: 6px; vertical-align: middle; color: #fff; }
+.veredicto.ruido { background: var(--gris); } .veredicto.leve { background: var(--bronce); } .veredicto.movimiento { background: var(--mal); }
+.nota { display: inline-block; min-width: 1.5em; text-align: center; font-size: .75rem; font-weight: 800; border-radius: 5px; padding: 1px 4px; background: var(--papel); color: var(--tinta); margin-left: 6px; vertical-align: middle; }
+.tarjeta .ver { color: var(--gris); font-size: .86rem; margin-top: 6px; }
+.swing { background: var(--superficie); border-radius: 16px; padding: 12px 14px; margin-bottom: 10px; display: grid; gap: 6px; }
+.swing label { font-weight: 650; font-size: .95rem; }
+.swing input { width: 100%; accent-color: var(--bronce); }
+.swing output { color: var(--gris); font-size: .9rem; }
+.sim-prob { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+.sim-prob div { background: var(--superficie); border-radius: 12px; padding: 10px; text-align: center; }
+.sim-prob b { display: block; font-size: 1.4rem; font-weight: 800; }
+.sim-prob span { font-size: .78rem; color: var(--gris); }
+.fila-bt { display: block; padding: 9px 0; border-top: 1px solid var(--linea); font-size: .92rem; }
+.fila-bt > span:first-child { display: block; font-weight: 650; }
+.fila-bt > span:not(:first-child) { display: inline-block; margin: 4px 14px 0 0; padding: 2px 8px; border-radius: 6px; background: var(--papel); font-size: .88rem; }
+.fila-bt .m { color: var(--gris); font-size: .8rem; display: block; font-weight: 400; }
+.fila-bt .real { font-weight: 800; }
+.sesgos { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.sesgos span { font-size: .72rem; padding: 1px 6px; border-radius: 5px; background: var(--papel); }
+.instalar { background: var(--superficie); border-radius: 12px; padding: 10px 14px; margin-top: 10px; display: none; }
