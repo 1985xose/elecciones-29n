@@ -257,3 +257,11 @@ details[open] summary::after { content: "–"; }
 .coste .num small { color: var(--gris); font-weight: 500; font-size: .78rem; }
 .mapa svg .cambia path, .mapa svg .cambia circle.prov { stroke: var(--bronce); stroke-width: 4; }
 .mapa svg .sel.cambia path { stroke: var(--tinta); }
+.resumen-dia { background: var(--tinta); color: #fff; }
+.resumen-dia h2 { color: #fff; font-size: 1.1rem; margin-bottom: 6px; }
+.resumen-dia .resumen li { background: rgba(255,255,255,.08); border-left-color: var(--bronce); color: #fff; font-size: 1rem; }
+.perdidos { display: grid; gap: 6px; margin: 6px 0 10px; }
+.perdido { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; padding: 8px 10px; border-radius: 10px; background: var(--superficie); font-size: .9rem; }
+.perdido b { display: flex; align-items: center; gap: 6px; }
+.perdido .v { font-weight: 800; color: var(--mal); }
+.perdido .m { grid-column: 1 / -1; color: var(--gris); font-size: .82rem; }

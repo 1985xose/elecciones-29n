@@ -266,7 +266,7 @@ function main() {
     for (const f of fechas) {
       const fd = fechaD(f), m = Me.calcMedia(h23.encuestas, fd, { ventana: 30 }).media;
       const d = Math.round((fechaD("2023-07-23") - fd) / DIA);
-      const c = sigmas(m, [h19], d);
+      const c = sigmas(m, historicos.filter((h) => h.nombre !== "23J 2023"), d); // solo con lo anterior a 2023
       const s = simular(m, base19, c.sigmas, 4000, 23);
       const r = resumir(s, base19, config.escenarios_2023);
       salida.backtest.fechas.push({ fecha: f, dias: d, media: m, escenarios: Object.fromEntries(Object.values(r.escenarios).map((e) => [e.id, { nombre: e.nombre, p: e.p, p10: e.p10, p50: e.p50, p90: e.p90 }])), bloqueo: r.bloqueo,

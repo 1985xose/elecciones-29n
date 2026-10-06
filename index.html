@@ -31,6 +31,11 @@
 <main>
   <section id="hoy" class="pantalla">
 
+    <article class="pregunta resumen-dia">
+      <h2 id="resumen-titulo">El resumen de hoy</h2>
+      <ul id="resumen" class="resumen"></ul>
+    </article>
+
     <article class="pregunta">
       <h2>¿Quién va ganando?</h2>
       <p id="r-ganando" class="respuesta">Cargando…</p>
@@ -84,7 +89,8 @@
       <p id="r-coste" class="respuesta"></p>
       <div id="g-coste" class="barras-grandes"></div>
       <details class="como"><summary>¿Por qué pasa esto?</summary>
-        <p>Los asientos se reparten provincia a provincia, y los votos de un partido que no llega a asiento en una provincia se pierden. A los partidos medianos repartidos por toda España (Sumar, Podemos, SALF) les pasa en muchas provincias. A los partidos que concentran su voto en una zona (PNV, Bildu, ERC) casi nunca. Y los dos grandes salen beneficiados porque D'Hondt favorece al más votado en las provincias pequeñas.</p>
+        <p>Los asientos se reparten provincia a provincia. Si un partido no consigue asiento en una provincia, todos sus votos allí se pierden, no se suman en ningún sitio. A los partidos medianos con el voto repartido por toda España les pasa en la mayoría de provincias. A los que concentran su voto en una zona casi nunca. Y los dos grandes salen beneficiados porque D'Hondt favorece al más votado en las provincias pequeñas, que reparten 3 o 4 asientos.</p>
+        <div id="g-perdidos" class="perdidos"></div>
         <p class="fuente">Cálculo aproximado, los votos de cada partido se estiman con su porcentaje en la media de encuestas sobre los 24,7 millones de votos válidos de 2023, y los asientos son los del caso más probable.</p>
       </details>
     </article>
@@ -139,9 +145,7 @@
       <div id="fiabilidad" class="fiabilidad"></div>
       <h3>De quién se habla</h3>
       <div class="grafico"><canvas id="grafico-atencion" aria-label="Visitas diarias en Wikipedia"></canvas></div>
-      <h3>La porra</h3>
-      <div id="porra-instrucciones" class="fuente"></div>
-      <div id="porra" class="fiabilidad"></div>
+      <div id="porra-instrucciones" hidden></div><div id="porra" hidden></div>
     </details>
   </section>
 

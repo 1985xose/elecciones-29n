@@ -120,6 +120,17 @@ function pintarHoy(m, m7, proy) {
   const P = D.prob, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
   const o = ordenar(m.media);
 
+  // 0. El resumen de hoy
+  $("#resumen-titulo").textContent = `El resumen de hoy, ${new Intl.DateTimeFormat("es-ES", { weekday: "long", day: "numeric", month: "long" }).format(new Date())}`;
+  const resumen = [];
+  if (o.length) resumen.push(`${nombre(o[0])} va primero con ${Math.round(m.media[o[0]])} de cada 100 votos, ${Math.round(m.media[o[0]] - m.media[o[1]])} más que ${nombre(o[1])}.`);
+  if (P && der && izq) { const fav = der.p >= izq.p ? der : izq; resumen.push(`${cap(nombreEsc(fav))} ${fav.partidos.length > 1 ? "suman" : "suma"} mayoría en ${deCada100(fav.p)} de las simulaciones. Nadie suma en ${deCada100(P.bloqueo)}.`); }
+  const uu = D.analisis?.ultimas?.[0];
+  if (uu) resumen.push(`Última encuesta, ${uu.empresa} del ${fFecha.format(fechaD(uu.fin))}, ${uu.veredicto === "ruido" ? "sin novedades" : uu.veredicto === "leve" ? "con algún movimiento" : "con una novedad de verdad"}.`);
+  const pol0 = D.noticias?.polemicas?.[0];
+  if (pol0) resumen.push(`Polémica del día, ${pol0.titulo}`);
+  $("#resumen").replaceChildren(...resumen.map((t) => el("li", {}, t)));
+
   // 1. ¿Quién va ganando?
   if (o.length) {
     $("#r-ganando").replaceChildren(el("b", {}, `${nombre(o[0])}.`), ` De cada 100 votos sacaría ${Math.round(m.media[o[0]])}, ${nombre(o[1])} ${Math.round(m.media[o[1]])} y ${nombre(o[2])} ${Math.round(m.media[o[2]])}.`);
@@ -190,9 +201,19 @@ function pintarHoy(m, m7, proy) {
   if (coste.length > 2) {
     const a = coste[0], z = coste[coste.length - 1], maxV = z.v;
     const sinEsc = ordenar(m.media).filter((k) => m.media[k] >= 1.5 && !esc2[k]);
-    $("#r-coste").replaceChildren(el("b", {}, "No."), ` A ${nombre(a.k)} cada asiento le cuesta unos ${fmt0.format(a.v)} votos y a ${nombre(z.k)} unos ${fmt0.format(z.v)}, ${fmt1.format(z.v / a.v)} veces más.${sinEsc.length ? ` ${lista(sinEsc.map(nombre))} ${sinEsc.length > 1 ? "tendrían" : "tendría"} cientos de miles de votos y ningún asiento.` : ""}`);
-    $("#g-coste").replaceChildren(...coste.map((x) => el("div", { class: "bg coste" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(x.k) } }), nombre(x.k)),
-      el("div", { class: "num" }, fmt0.format(x.v), el("small", {}, ` votos por asiento`)), el("div", { class: "pista" }, el("i", { style: { width: `${x.v / maxV * 100}%`, background: color(x.k) } })))));
+    const pz = (() => { let con = 0, sin = 0, pc = 0; for (const pr of proy.provincias) { const v = (pr.cuotas[z.k] || 0) * pr.n; if (!v) continue; if (pr.escanos[z.k]) { con += v; pc++; } else sin += v; } return { frac: sin / (con + sin || 1), pc }; })();
+    $("#r-coste").replaceChildren(el("b", {}, "No."), ` A ${nombre(a.k)} cada asiento le cuesta unos ${fmt0.format(a.v)} votos y a ${nombre(z.k)} unos ${fmt0.format(z.v)}, ${fmt1.format(z.v / a.v)} veces más. ${nombre(z.k)} tiene votos en toda España pero solo saca asiento en ${pz.pc} ${pz.pc === 1 ? "provincia" : "provincias"}, y el ${r100(pz.frac)} % de sus votos no sirve para elegir a nadie.${sinEsc.length ? ` ${lista(sinEsc.map(nombre))} ${sinEsc.length > 1 ? "tendrían" : "tendría"} cientos de miles de votos y ningún asiento.` : ""}`);
+    // Votos que no cuentan: los de las provincias donde el partido no saca asiento (población aproximada por asientos de la provincia)
+    const perdidos = (k) => { let con = 0, sin = 0, provCon = 0, provSin = 0;
+      for (const pr of proy.provincias) { const v = (pr.cuotas[k] || 0) * pr.n; if (!v) continue; if (pr.escanos[k]) { con += v; provCon++; } else { sin += v; provSin++; } }
+      return { frac: sin / (con + sin || 1), provCon, provSin }; };
+    const expl = [...coste].sort((a, b) => b.v - a.v).slice(0, 4).concat(sinEsc.map((k) => ({ k, v: null }))).map((x) => ({ ...x, ...perdidos(x.k) }));
+    $("#g-coste").replaceChildren(...coste.map((x) => { const pd = perdidos(x.k);
+      return el("div", { class: "bg coste" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(x.k) } }), nombre(x.k)),
+        el("div", { class: "num" }, fmt0.format(x.v), el("small", {}, ` votos por asiento`)), el("div", { class: "pista" }, el("i", { style: { width: `${x.v / maxV * 100}%`, background: color(x.k) } }))); }));
+    $("#g-perdidos").replaceChildren(el("p", {}, el("b", {}, "Los casos más claros")), ...expl.map((x) => el("div", { class: "perdido" }, el("b", {}, el("i", { class: "punto", style: { background: color(x.k) } }), nombre(x.k)),
+      el("span", { class: "v" }, `${r100(x.frac)} % de sus votos no cuentan`),
+      el("span", { class: "m" }, x.provCon ? `Saca asiento en ${x.provCon} ${x.provCon === 1 ? "provincia" : "provincias"} y se queda a cero en ${x.provSin}. ${x.frac > 0.5 ? "Más de la mitad de sus votantes no eligen a nadie." : x.frac < 0.1 ? "Casi todos sus votos están donde gana, por eso le salen baratos." : ""}` : `Con unos ${fmt0.format(Math.round(m.media[x.k] * VOTOS_VALIDOS / 100 / 10000) * 10000)} votos no saca ningún asiento, se queda a cero en las ${x.provSin} provincias donde se presenta.`))));
   }
 
   // 5. Mi provincia
