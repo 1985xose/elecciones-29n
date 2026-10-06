@@ -2,6 +2,7 @@
 from datetime import date
 from comun import escribir, ahora_iso, clave_empresa
 from wikitabla import html_pagina, parsear_tablas
+from encuestas import EQUIVALENCIAS
 
 ELECCIONES = [
     {"nombre": "23J 2023", "pagina": "Opinion polling for the 2023 Spanish general election", "fecha": date(2023, 7, 23), "archivo": "historico_2023.json"},
@@ -27,6 +28,7 @@ def main():
             if f.get("es_resultado") or f["fin"] > limite:
                 continue
             clave, base = clave_empresa(f["empresa"])
+            clave = EQUIVALENCIAS.get(clave, clave)
             if not clave or (clave in ultima and ultima[clave]["fin"] >= f["fin"]):
                 continue
             if all(p in f["pct"] for p in principales):
@@ -44,6 +46,7 @@ def main():
             if f.get("es_resultado") or not f["pct"]:
                 continue
             clave, base = clave_empresa(f["empresa"])
+            clave = EQUIVALENCIAS.get(clave, clave)
             if not clave or f["empresa"].startswith("CIS (") or f["fin"] > el["fecha"].isoformat():
                 continue
             hist.append({"id": f"{clave}-{f['fin']}-{f.get('muestra') or 0}", "empresa": f["empresa"], "empresa_base": base, "clave": clave,

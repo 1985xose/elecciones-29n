@@ -216,10 +216,13 @@ function analizar(encuestas, ranking, mediaHoy) {
     const s = sesgos[e.clave];
     const detalle = [];
     let maxZ = 0, culpable = null;
+    const margen = e.muestra ? 98 / Math.sqrt(e.muestra) : 3.1; // margen de error muestral al 95 % para un 50 %, en puntos
     for (const p of principales) {
       if (e.pct[p] == null || m[p] == null) continue;
       const esperado = m[p] + (s && s.sesgo[p] != null ? s.sesgo[p] : 0);
-      const resid = e.pct[p] - esperado, z = resid / (s ? s.sd : 1.5);
+      const resid = e.pct[p] - esperado;
+      const sdTotal = Math.sqrt(Math.pow(s ? s.sd : 1.5, 2) + Math.pow(margen / 1.96 * Math.sqrt(Math.max(e.pct[p], 1) * (100 - Math.max(e.pct[p], 1))) / 50, 2));
+      const z = resid / sdTotal;
       detalle.push({ partido: p, dado: e.pct[p], esperado: +esperado.toFixed(1), diferencia: +resid.toFixed(1) });
       if (Math.abs(z) > Math.abs(maxZ)) { maxZ = z; culpable = p; }
     }
@@ -229,7 +232,7 @@ function analizar(encuestas, ranking, mediaHoy) {
     const texto = veredicto === "ruido" ? "Dentro de lo que suele dar esta empresa. No cambia nada."
       : veredicto === "leve" ? `Algo fuera de lo habitual: ${culpable} ${d.diferencia > 0 ? "sube" : "baja"} ${Math.abs(d.diferencia).toFixed(1)} puntos respecto a lo esperado de esta empresa.`
       : `Movimiento real: ${culpable} sale ${Math.abs(d.diferencia).toFixed(1)} puntos ${d.diferencia > 0 ? "por encima" : "por debajo"} de lo que cabía esperar de esta empresa.`;
-    ultimas.push({ id: e.id, empresa: e.empresa_base, encargo: e.encargo, fin: e.fin, veredicto, texto, nota: nota(e.clave).letra, detalle });
+    ultimas.push({ id: e.id, empresa: e.empresa_base, encargo: e.encargo, fin: e.fin, veredicto, texto, nota: nota(e.clave).letra, margen: +margen.toFixed(1), detalle });
   }
   const notas = Object.values(encuestas.reduce((acc, e) => { acc[e.clave] ||= { clave: e.clave, empresa: e.empresa_base, encuestas: 0 }; acc[e.clave].encuestas++; return acc; }, {}))
     .map((x) => ({ ...x, ...nota(x.clave), sesgo: sesgos[x.clave] ? sesgos[x.clave].sesgo : null }))

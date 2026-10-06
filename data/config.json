@@ -45,13 +45,13 @@
     "Sumar": {
       "nombre": "Sumar",
       "color": "#E5326E",
-      "consulta": "Sumar",
+      "consulta": "\"Yolanda Díaz\" OR \"de Sumar\" OR \"Movimiento Sumar\" OR \"Sumar y Podemos\" OR \"Podemos y Sumar\" OR \"coalición Sumar\" OR \"Antonio Maíllo\" OR \"Más Madrid\"",
       "lider": "Yolanda_Díaz"
     },
     "Podemos": {
       "nombre": "Podemos",
       "color": "#6C3483",
-      "consulta": "Podemos",
+      "consulta": "\"Ione Belarra\" OR \"Irene Montero\" OR \"de Podemos\" OR \"Podemos y Sumar\" OR \"Sumar y Podemos\" OR \"partido morado\"",
       "lider": "Irene_Montero"
     },
     "SALF": {
@@ -211,5 +211,5 @@
     "derecha": "pp_vox",
     "izquierda": "izq_socios"
   },
-  "polemicas": "polémica OR escándalo OR imputado OR investigación OR \"caso\""
+  "polemicas": "polémica OR escándalo OR imputado OR imputada OR investigación OR Fiscalía OR \"Guardia Civil\" OR dimisión"
 }

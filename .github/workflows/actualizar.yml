@@ -1,9 +1,10 @@
-﻿name: Actualizar panel
+name: Actualizar panel
 
 on:
-  # Actualizacion cada hora. GitHub puede retrasar o saltarse alguna ejecucion si la cola va cargada.
+  # El cron de GitHub se salta ejecuciones cuando va cargado, así que estas horas son solo la red de seguridad.
+  # La cadena real la mantiene el último paso, que vuelve a lanzar este workflow pasados 55 minutos.
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 5,8,11,14,17,20 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -33,23 +34,24 @@ jobs:
 
       - run: pip install requests beautifulsoup4
 
-      - name: Encuestas
+      - name: Encuestas (si falla la validación se conservan los datos anteriores y el workflow acaba en rojo)
+        id: encuestas
         continue-on-error: true
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/encuestas.py
 
-      - name: Fiabilidad de encuestadoras (una vez al dÃ­a)
+      - name: Fiabilidad de encuestadoras (una vez al día)
         continue-on-error: true
         run: |
-          if [ ! -f data/fiabilidad.json ] || [ ! -f data/historico_2023.json ] || [ ! -f data/historico_2016.json ] || [ "$(date -u +%H)" = "04" ]; then python scripts/fiabilidad.py; else echo "Se mantiene la del dÃ­a"; fi
+          if [ ! -f data/fiabilidad.json ] || [ ! -f data/historico_2023.json ] || [ ! -f data/historico_2016.json ] || [ "$(date -u +%H)" = "04" ]; then python scripts/fiabilidad.py; else echo "Se mantiene la del día"; fi
 
-      - name: Modelo de probabilidades y anÃ¡lisis de encuestas
+      - name: Modelo de probabilidades y análisis de encuestas
         continue-on-error: true
         run: node scripts/simular.js
 
-      - name: Resumen de la maÃ±ana por Telegram (7:00 UTC)
+      - name: Resumen de la mañana por Telegram (7:00 UTC)
         continue-on-error: true
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -61,10 +63,10 @@ jobs:
         continue-on-error: true
         run: python scripts/noticias.py
 
-      - name: AtenciÃ³n en Wikipedia (una vez al dÃ­a)
+      - name: Atención en Wikipedia (una vez al día)
         continue-on-error: true
         run: |
-          if [ ! -f data/atencion.json ] || [ "$(date -u +%H)" = "05" ]; then python scripts/atencion.py; else echo "Se mantiene la del dÃ­a"; fi
+          if [ ! -f data/atencion.json ] || [ "$(date -u +%H)" = "05" ]; then python scripts/atencion.py; else echo "Se mantiene la del día"; fi
 
       - name: Bot de Telegram (porra)
         continue-on-error: true
@@ -86,3 +88,23 @@ jobs:
           path: .
       - id: despliegue
         uses: actions/deploy-pages@v4
+
+      - name: Marcar en rojo si las encuestas no pasaron la validación
+        if: steps.encuestas.outcome == 'failure'
+        run: |
+          echo "La lectura de encuestas falló la validación. La web sigue publicada con los datos anteriores. Revisa el paso Encuestas."
+          exit 1
+
+  # El cron de GitHub se salta ejecuciones cuando la cola va cargada. Este job espera 55 minutos
+  # y vuelve a lanzar el workflow, así la cadena se mantiene sola. El cron queda de red de seguridad.
+  encadenar:
+    needs: actualizar
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Esperar y relanzar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          sleep 3300
+          gh workflow run actualizar.yml --repo "$GITHUB_REPOSITORY" --ref main || echo "No se ha podido encadenar, el cron lo retomará"

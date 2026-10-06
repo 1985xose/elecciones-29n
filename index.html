@@ -29,6 +29,8 @@
 </nav>
 
 <main>
+  <p id="aviso-datos" class="aviso" hidden></p>
+  <button type="button" id="aviso-version" class="aviso aviso-boton" hidden onclick="navigator.serviceWorker.getRegistration().then((r) => r && r.waiting && r.waiting.postMessage('activar'))">Hay una versión nueva de la app. Toca para actualizar.</button>
   <section id="hoy" class="pantalla">
 
     <article class="pregunta resumen-dia">
@@ -168,6 +170,11 @@
   <section id="encuestas" class="pantalla" hidden>
     <h2>Lo que dicen las encuestas</h2>
     <div id="filtro-empresas" class="filtro-empresas"></div>
+    <div class="conmutador tramos" role="group" aria-label="Tramo de la gráfica">
+      <button type="button" data-tramo="legislatura" aria-pressed="true">Toda la legislatura</button>
+      <button type="button" data-tramo="anio" aria-pressed="false">Último año</button>
+      <button type="button" data-tramo="tres" aria-pressed="false">3 meses</button>
+    </div>
     <p id="explica-tendencia" class="explica">Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.</p>
     <div class="grafico"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div>
     <details class="como"><summary>Los partidos pequeños y el CIS</summary>
@@ -222,6 +229,13 @@
 <script src="assets/modelo.js"></script>
 <script src="assets/media.js"></script>
 <script src="assets/app.js"></script>
-<script>if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");</script>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js").then((reg) => {
+    reg.addEventListener("updatefound", () => { const nuevo = reg.installing; nuevo && nuevo.addEventListener("statechange", () => { if (nuevo.state === "installed" && navigator.serviceWorker.controller) document.getElementById("aviso-version").hidden = false; }); });
+  });
+  navigator.serviceWorker.addEventListener("controllerchange", () => location.reload());
+}
+</script>
 </body>
 </html>

@@ -302,3 +302,6 @@ details[open] summary::after { content: "–"; }
 .par .fila i { display: block; height: 12px; border-radius: 6px; }
 .par .fila.tendria i { opacity: .35; }
 .par .fila b { color: var(--tinta); text-align: right; }
+.aviso-boton { display: block; width: 100%; border: 0; font: inherit; text-align: left; cursor: pointer; font-weight: 600; }
+.tramos { margin: 0 0 8px; }
+.tramos button { padding: 6px 12px; font-size: .85rem; }
