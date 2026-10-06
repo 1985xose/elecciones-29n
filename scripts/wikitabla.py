@@ -79,23 +79,30 @@ def rejilla(tabla):
     return filas
 
 
-def fecha_fin(txt):
+def fecha_fin(txt, anio_defecto):
+    """'24–26 Sep 2026', '30 Sep–2 Oct', '29 Dec–5 Jan 2026', '17 Jul'. Si no trae año usa anio_defecto."""
     t = txt.replace("\u2013", "-").replace("\u2014", "-")
     anios = re.findall(r"(\d{4})", t)
-    if not anios:
+    anio = int(anios[-1]) if anios else anio_defecto
+    if not anio:
         return None, None
-    anio = int(anios[-1])
     partes = [p.strip() for p in t.split("-") if p.strip()]
-    def parse(p, mes_def=None, anio_def=anio):
+    def parse(p, mes_def=None):
         d = re.search(r"\b(\d{1,2})\b", re.sub(r"\d{4}", "", p))
         m = re.search(r"([A-Za-z]{3})[a-z]*", p)
-        y = re.search(r"(\d{4})", p)
         mes = MESES.get(m.group(1).lower()) if m else mes_def
         if not mes:
             return None
-        return date(int(y.group(1)) if y else anio_def, mes, int(d.group(1)) if d else 15)
+        try:
+            return date(anio, mes, int(d.group(1)) if d else 15)
+        except ValueError:
+            return None
     fin = parse(partes[-1])
-    ini = parse(partes[0], fin.month if fin else None) if len(partes) > 1 else fin
+    if not fin:
+        return None, None
+    ini = parse(partes[0], fin.month) if len(partes) > 1 else fin
+    if ini and ini > fin:  # '29 Dec–5 Jan': el inicio es del año anterior
+        ini = ini.replace(year=ini.year - 1)
     return ini, fin
 
 
@@ -110,27 +117,36 @@ def celda_texto(c):
     return c.get_text(" ", strip=True)
 
 
-def tabla_estimacion(sopa, seccion="Voting_intention_estimates"):
-    """Solo la tabla de estimación de voto. La página tiene más tablas con el mismo formato
-    (intención directa, preferencia de victoria...) que no deben mezclarse."""
+def tablas_estimacion(sopa, seccion="Voting_intention_estimates"):
+    """Tablas de estimación de voto con el año de su bloque. La estimación está partida en una tabla
+    por año (títulos '2026', '2025'...) y las fechas de esas tablas no llevan año. Se para en el
+    siguiente apartado de nivel 2 (intención directa, escenarios...), que no debe mezclarse."""
     es_encuestas = lambda t: t.find("tr") is not None and "Polling firm" in t.find("tr").get_text(" ")
     ancla = sopa.find(id=seccion)
-    if ancla is not None:
-        for t in ancla.find_all_next("table", class_="wikitable"):
-            if es_encuestas(t):
-                return t, "seccion"
-    for t in sopa.find_all("table", class_="wikitable"):
-        if es_encuestas(t):
-            return t, "primera tabla (sin sección encontrada)"
-    return None, None
+    if ancla is None:
+        t = next((t for t in sopa.find_all("table", class_="wikitable") if es_encuestas(t)), None)
+        return ([(t, None)] if t else []), "primera tabla (sin sección encontrada)"
+    salida, anio = [], None
+    for el in ancla.find_all_next(["h2", "h3", "h4", "table"]):
+        if el.name == "h2":
+            break
+        if el.name in ("h3", "h4"):
+            m = re.fullmatch(r"\s*(\d{4})\s*", el.get_text())
+            anio = int(m.group(1)) if m else anio
+        elif "wikitable" in (el.get("class") or []) and es_encuestas(el) and el.find_parent("table") is None:
+            salida.append((el, anio))
+    return salida, f"sección, {len(salida)} tablas, años {[a for _, a in salida]}"
 
 
-def parsear_tablas(html):
+def parsear_tablas(html, anio_defecto=None):
+    """anio_defecto: año de la fila más reciente cuando la página no tiene bloques por año.
+    En ese caso el año se va deduciendo hacia atrás, porque las filas van de más nueva a más antigua."""
     sopa = BeautifulSoup(html, "html.parser")
     resultado, partidos_vistos = [], []
-    tabla, origen = tabla_estimacion(sopa)
-    print(f"Tabla usada: {origen}")
-    for tabla in ([tabla] if tabla is not None else []):
+    tablas, origen = tablas_estimacion(sopa)
+    print(f"Tablas usadas: {origen}")
+    anio_corrido, ultima = anio_defecto, None
+    for tabla, anio_tabla in tablas:
         filas = rejilla(tabla)
         # filas de cabecera = filas iniciales solo con th
         n_cab = 0
@@ -172,7 +188,13 @@ def parsear_tablas(html):
             if all(c is f[0] for c in f):  # fila que ocupa todo el ancho (notas)
                 continue
             empresa = celda_texto(f[idx["empresa"]])
-            ini, fin = fecha_fin(celda_texto(f[idx["fecha"]]))
+            txt_fecha = celda_texto(f[idx["fecha"]])
+            ini, fin = fecha_fin(txt_fecha, anio_tabla or anio_corrido)
+            if fin and not anio_tabla and not re.search(r"\d{4}", txt_fecha) and ultima and (fin - ultima).days > 60:
+                anio_corrido -= 1  # se ha cruzado de enero a diciembre bajando por la tabla
+                ini, fin = fecha_fin(txt_fecha, anio_corrido)
+            if fin:
+                ultima = fin
             if not empresa or not fin:
                 continue
             reg = {"empresa": empresa, "inicio": ini.isoformat() if ini else None, "fin": fin.isoformat(),

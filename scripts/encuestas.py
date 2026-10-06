@@ -1,5 +1,6 @@
 """Descarga las encuestas de Wikipedia, detecta las nuevas y avisa por Telegram."""
-import sys
+import re, sys
+from datetime import date
 from comun import leer, escribir, ahora_iso, clave_empresa, telegram_enviar
 from wikitabla import html_pagina, parsear_tablas
 
@@ -8,12 +9,14 @@ PAGINA = "Opinion polling for the next Spanish general election"
 
 def main():
     titulo, revid, html = html_pagina(PAGINA)
-    filas, partidos = parsear_tablas(html)
+    filas, partidos = parsear_tablas(html, anio_defecto=date.today().year)
     previo = leer("encuestas.json", {}) or {}
     primera = {e["id"]: e.get("primera_vez") for e in previo.get("encuestas", [])}
     encuestas, nuevas = [], []
     for f in filas:
         if f.get("es_resultado"):
+            continue
+        if re.match(r"^CIS\s*\(", f["empresa"]):  # reproyecciones de terceros con datos del CIS
             continue
         clave, base = clave_empresa(f["empresa"])
         f["empresa_base"], f["clave"] = base, clave

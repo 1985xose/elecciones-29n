@@ -13,7 +13,7 @@ def main():
     salida, acumulado = [], {}
     for el in ELECCIONES:
         _, _, html = html_pagina(el["pagina"])
-        filas, _ = parsear_tablas(html)
+        filas, _ = parsear_tablas(html, anio_defecto=el["fecha"].year)
         real = next((f for f in filas if f.get("es_resultado") and f["fin"] == el["fecha"].isoformat()), None)
         if not real:
             print(f"{el['nombre']}: no encuentro la fila del resultado real, se omite")
