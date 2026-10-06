@@ -110,15 +110,17 @@ def portada(cfg):
     limite = (datetime.now(timezone.utc) - timedelta(hours=24)).isoformat()
     recientes = sorted((x for x in todos if x["fecha"] and x["fecha"] >= limite and x["imagen"]), key=lambda x: x["fecha"], reverse=True)
     elegidos, vistos, por_medio = [], set(), {}
-    # Primero lo que habla de las elecciones, después el resto de la política. Dos titulares por periódico como mucho.
-    for pat in (fuertes, claves):
-        for x in recientes:
-            if len(elegidos) >= 10:
-                break
-            h = huella(x["titulo"])
-            if not pat or h in vistos or por_medio.get(x["fuente"], 0) >= 2 or not pat.search(x["texto"]):
-                continue
-            vistos.add(h); por_medio[x["fuente"]] = por_medio.get(x["fuente"], 0) + 1; elegidos.append(x)
+    # Un titular de cada periódico antes de repetir ninguno, para que no manden los que más publican. En cada vuelta,
+    # primero lo que habla de las elecciones y después el resto de la política. Dos por periódico como mucho.
+    for tope in (1, 2):
+        for pat in (fuertes, claves):
+            for x in recientes:
+                if len(elegidos) >= 10:
+                    break
+                h = huella(x["titulo"])
+                if not pat or h in vistos or por_medio.get(x["fuente"], 0) >= tope or not pat.search(x["texto"]):
+                    continue
+                vistos.add(h); por_medio[x["fuente"]] = por_medio.get(x["fuente"], 0) + 1; elegidos.append(x)
     elegidos.sort(key=lambda x: x["fecha"], reverse=True)
     print(f"   Titulares del día con foto: {len(elegidos)} de {len(por_medio)} periódicos")
     return elegidos, todos
