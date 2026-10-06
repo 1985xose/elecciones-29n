@@ -1,0 +1,947 @@
+{
+ "actualizado": "2026-10-06T08:11:19+00:00",
+ "generales": [
+  {
+   "titulo": "Cómo votar por correo en las elecciones generales: plazos para pedirlo, dónde y cómo hacerlo",
+   "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdkx6Nm5fSFdTeFNXbHd4elVURlh1ZXVtTnRCaUkwd3ZydE40R0hzWnFiNlJxV2lSOEdsbnRFZFA5a1pydUZmRElPT3YwOUxyeTlFVGRmNXRWSWg5aTNFNkVPZkFmand3dExoUThFdkl6SUZHSklZcTJPekVNUmRJRHM0ZV90b29HajBCQUxoTnl4TzZwQTI0TU1maTVwU0pCNnR4OWJWT2ROV05YSHR4Q3pWWEc1UQ?oc=5",
+   "fuente": "El Confidencial",
+   "fecha": "2026-10-06T08:01:00+00:00"
+  },
+  {
+   "titulo": "Madrid gana un diputado y tendrá 38 en las elecciones generales del 29 de noviembre",
+   "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMTctbUtRN2RWbElSbWRIcGJBSXpQNVRlY1g0OEMxNEVPU3E4YzZUcERKNVVxdnkyak5wMmtBamNhSk4wbUF6TlMwdWlVdTBKOEhZYVRud21BMk5lXzdwMGJrTV92azhBQ2JWS2p0QWNTMEpNX2FMR09JUzg4ME00MWJxV244ZHY0bmtPVVdWWmp2X2lXdEUxOFpSVEdZWFQ2N0wwQk84cnkxM1ZIZWd1aUtMU3RrbDhqWEZfS3JFU1BOa3F1bjFqc05HVVU4S2s4b0w5bndwaGc2dmdyMEs3MXR4eUxPakJ3UzZST0hGY27SAfYBQVVfeXFMTnNPLUh0MWhHT0xCVlBDdjZmdWdhV21UY0E0NWkxaXFPZ1Ntc1NZNnhvZWE3U0pDX3V6WGJpQ3VYS0ZaSXlOMW4yUGF3MVViTEdNaUxoSll5MHFzRHdPX19pa2VCZ29ab3E0OEUteFg3VEhtc3RfRGxKNHBFYzIzVVpxS0ZzekFKVWNyN2cxWDVCcnFDaFNQaFlQNmIyN3FJVjA2X2RDVy0xcVJmSEk5ZEFfTHRyMXZ3alhnd1E0M3M2TkxnbWlZSkFCMC1JenNUeFk4WFNtWGtZWUpxOUJGandPYmJSLVc1X3prMDhHRTVYRTFwcTV3?oc=5",
+   "fuente": "Telemadrid",
+   "fecha": "2026-10-06T07:48:10+00:00"
+  },
+  {
+   "titulo": "Junqueras despeja dudas: Rufián será el candidato de ERC el 29 de noviembre",
+   "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZUZSN1RsWUtzLXRiUGlLUmNmamhhaWhxR3c1bEhjWEczSHJ4cEpxQlBDRXVDVlJvSmVrMEdzbGdsT0VmbnMxWDJ4cmtSY1F2b2pQMnpYdmxoZE9lQU1jaGtBc05JSXl5b0JQYzBVbktnc0NwLUd1dUx4aTNXcDRRMXJxTURZZXd2Vnp1TWVCbFhUN1NwRUQxM0ROSFNxZmNLVm5MODdCdVBacUU3NUdGQkdvdWFrVm5wZlNJ0gHAAUFVX3lxTFBCeDhOdkFQbWJJMkQzVTV5OUE1Zmw2ZDRuUi1vMXo4M3lGejl4V1Jnb3R4V3hlWmVRS3JpQWQxWXFhNzhvUk1aVXo1QkkxMllhVURXZkJzQW1LUHR2NlhEZS14REYyYTJfTkJBT0tuaktEY2ItTExaSGJWeDlSWmVvUXR0VWdFZmJnZWE5ZmwxMTBZcjY2VGpRX1Z5LWlTZjFJTUxfU3lpbERzekM4bjRHeWQ3NzZDWVRNZ3VVeGhsZQ?oc=5",
+   "fuente": "Demócrata",
+   "fecha": "2026-10-06T07:40:07+00:00"
+  },
+  {
+   "titulo": "Vicente Vallés, sobre las elecciones generales convocadas por Pedro Sánchez: «Termina una legislatura que empezó porque lo consintió Puigdemont desde Waterloo»",
+   "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYk4tSVh6MUN5eS1zNUd5U0pFeTVJNGlXclFCeWV4VVdxamdGZjY0Z0xMVC1jQUJtbjVzamFPRHBtVllQX2JMZTZBR1Z4cHMyWlljdTFENXB1cW5rWUd6amhYVWVfMXcwOVRFdWI2QnlfWFl1YlBpOTdHVUluUkF4MHBQUy1zOWhOMXlMTnZhTk05T0t6MW1yczlwS2ZIbklXc3htbVZIcDA5cDhPLWdZd2EyZEMzcWNFT2w2RGE5YkU4dU3SAcgBQVVfeXFMTlJGTU1IdVdidzF1WXY5cFgxTklXX05xeVhuMXB3VDA1cDlqNG5LQ1pQVXMwNThFVTBLSTRJdEVycS10RFBGME9UcVMySGplVWY5S3ZfZ0JpYzFlTS1TZlYwZFdkZmI5M1N1RW1mT0R6bFpkdUY4QlNXWXBzUzRMbWxfNkNtZHNNaHkzbjRJek90NmtwUGR5d0lvNTNubmxnTnVNZEJHaENKbDhCT2hOVnhsMlZ4NVQxcjJUY2ZUZ2hRUkZSZHBFZGo?oc=5",
+   "fuente": "ABC",
+   "fecha": "2026-10-06T07:38:41+00:00"
+  },
+  {
+   "titulo": "Junqueras anuncia que Rufián repetirá como candidato de ERC al Congreso",
+   "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeWZ1cVNFbkRvcUJnRlBVdXlxQVZnczBkMHBCSF9vMXg5TXVrQU0yWVVvVlRCRVlUdml6NGJHY1JJa0E2eC1QQ3ZCZnhvcXYwV3NZQjlmZmNud3FRLXQ5RjlSUmlNZXhOZFUtcjNGQTl5U0xyTDZvUS10MFgxMmpuX2F3SmhRU3p5UldVa1ZBWjhMb3NrYmpnVGw5R0tjYWE3SWloZ2N5MXlMakMwQk9vWFVscFltOVJIaHg5TzN30gHDAUFVX3lxTE5wWkF6cVliSVlxNW5DT0dqUkRSd0tjdVFrWmZkeTI4VGg5U0RqR1VBbWdHSmpKSndHR1V5UUdBTS0tTnBHV1NoNWhDNjBQTlpPdEFaUVBkcS1EY2FUbjVQRkJuRWU4V0s5YnBEN3RYTTRjR3pWS0d1cDZBSWRjSzhFZ3lNT2Q2c1RkM2MzOEVpSmRmcVgycG5KNkF2dV84clFVYnlHWWVxeWE5WGJXQldNd2RJU3I1WlVrVnZGSWkyQ29yYw?oc=5",
+   "fuente": "Diario de Noticias de Álava",
+   "fecha": "2026-10-06T07:32:42+00:00"
+  },
+  {
+   "titulo": "Ya es oficial: el BOE publica el Real Decreto que convoca elecciones generales el 29 de noviembre y disuelve las Cortes",
+   "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTDg1VmhRdmRmU3h4QXYteV9GSDh1WlVmUXRtVXZVc2tROHBvNUxyejlKVzR0UkVVNzdoVDlpQmVIaG9QRDlKVGNRbE9neG9td2pocHR3V1dPUDFsMVJLMGsxckYwUklNQ19vdjUtcEVzTEt1MFY5OVdBYTVQZWVaRjRUakQtd2dMSUt0dEpmR05nRWotcExKeUk3OThibFd6MUs0NE96X2ZtZUUxc1o0YUt3YkdJem03NHNoaUJ0R1BzcmlRM24zeTNEdF9xcm9xdmNYNU5HbEZsUzRkQmZ2TUpjVUlBbWU5aEZYaUhTeDItaUU?oc=5",
+   "fuente": "Infobae",
+   "fecha": "2026-10-06T07:30:21+00:00"
+  },
+  {
+   "titulo": "Cuándo sabré si me ha tocado estar en una mesa electoral y qué \"excusas\" puedo poner para no acudir",
+   "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVnU2cUxrOC1VTlNBZ2tUSXcxenZMQ1JnVnNDWFpwWGJEd3N6dHdTQi1YUG0tQ1VKYmQ5RXZWZjF4TFZCWTRiSXE2enJXRzVkbGx5VXR3c0EwWHV2azAydlRXV3E0Qy1IcG5PSTNQbHl2SDRaYVE5TEU5dHNOcVRSZzgzU2FGU0ZlNmRtOFVoOEUxZl9xZTFuVGF2bllpcVl1NHJmaTAyNF90VGJmbVZqbWZPZ0FqLUo0MHJhbnBDNU12Ul85OG95akRhNHQzclNKV3NpU3F30gHqAUFVX3lxTE1GVG55dHZLelN5SDAyQi13LTBhOWs5WnVibkhYczVFMHY1ZjJWdFY0RTdOdTNQRS1TWWQyYTZuMEJBMmMwTm0zXy15QldZb2F4SHZ0YTVpdFNfd0NGMFB5NkZnNXJQa2xZWDRjQ0JUZmU0YkU1dFF6U0xRU1BkM2xybkYxRmM0ZlN0bmlCOGlyNEx0N3o0bk1wMGdqVmhBTk13S0pMUk9vM1M4VlNZMk05UFh0NnBqcmZISVhjMVYwRWYtNEVSWENjYkZKWDhaWmR0cGFhOFNkNWIxTHBPb05xN00yZGd0NlRJQQ?oc=5",
+   "fuente": "La Razón",
+   "fecha": "2026-10-06T07:24:31+00:00"
+  },
+  {
+   "titulo": "Elecciones generales 29 de noviembre: BOE disuelve las Cortes",
+   "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBYckpTMmZEUHpoSmotY3drRzIxR0Q1LUN2cFh6N1hmelZZb0Z4dVI1M2pJSF95c09LQVhCYmwtU0hFdjE5a21ZVVpJMkJxMkZKUWNLdXRoLXlCcHduYzhzWmVpb2RRbDdtUDl6SXdqN1BGOVVnb1FR?oc=5",
+   "fuente": "Canarias en Pleno",
+   "fecha": "2026-10-06T07:23:59+00:00"
+  },
+  {
+   "titulo": "Calendario electoral en León: de las Generales del 29-N a la cita municipal de 2027",
+   "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVERDSjZSa3FJWDAybC05SVNQSDR6ajBxeW81RGFjUFBuaVFScGg0dEMyUU5kd3ZpOWpzajVuTVlqaVJWMW1ydlRxaGJ4S1FqYURVTDJueE1icHUzdzFuZjAwN1l1U3Y5RjJVUEhDQUc3QmlFTmIwZm9KcHlsWFZQQ2JrLTNtem9yUllxT0w2bkJPbFBhNXpFdXFPU1ZSRkU4RlRZeldnSm0tU3JKamVkNTN6LThtRzFIRnlHMm8wLWY?oc=5",
+   "fuente": "León 24 Horas",
+   "fecha": "2026-10-06T07:16:20+00:00"
+  },
+  {
+   "titulo": "Elecciones generales del 29N en España: calendario completo, voto por correo, campaña y fechas clave",
+   "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdWFSQzA2eVJTcFgtVjctVVhOQ0g0akJhaWlubjFYcGlIbTU2UFJhYjlSbTIwbFU0S08wMk1YNmEwQk8xNXNlMlJ2T3EyMU1DbkJPRFA0NE1yTnB2NS1OdTlHU0ZMZ1ppT0ZHMXhYaDZXWF83STZLNWZLTzZhRHdTRWdkM0pRR0R6a285N0J5NGNIZGlVUkg0V1ZJdTFKTElZRmJpUll3?oc=5",
+   "fuente": "Euronews",
+   "fecha": "2026-10-06T07:10:55+00:00"
+  }
+ ],
+ "partidos": {
+  "PP": [
+   {
+    "titulo": "Óscar Puente vuelve a prender la mecha: se mofa de Feijóo y el PP le responde con un baño de realidad",
+    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZ1hzWnlqYlVuQldLUVM3Rk1LYnZ6TnZlRnlnZVpDcm1aaHYxOUUzZWE0aEh1dlU2WHNnV2hRaVFrT0dWblMtemlqbkM0QTI4d2NyZDJyVDd2QkIxdWlMblhaVVdOZ21mWVd6SmlfaFBqYzJGRmtzWHE1czg2a0lSR0VkbHNkbXhCd0k5ZW5vN01wVnhlMzBlazZMcW9nLVE4VFBjRXdwbzdURWt5NVZublcxUmxQM3NUWXllUEo1SGhYTjVGMGfSAcsBQVVfeXFMUE1GbXktY1hwUGVuSk1fd2dpT3NwRnpCeUhCUVJIUWVudUVYRVB3dTBuZzAzWFJlSGdwRjV4MlFsZHBQY201UjlrY2lzWnJtdEd5dDRXT1VRYVZqUjdKb19FaTc5c3FEbm5KM0VHcmF2Y05vU2ExMUltM2FMa3F6ZnNMMVl6a2RPcDBsUW92SWkybkd3RGRueEdEOWNXME9hdmdZa0ZVdkFHMlZDQmlSQXpWSlJuODJlZUpBenVESXYwWEpUSF95NFZDZVE?oc=5",
+    "fuente": "ESdiario",
+    "fecha": "2026-10-06T07:36:55+00:00"
+   },
+   {
+    "titulo": "Encuestas elecciones generales 29-N: estos serían los resultados y el ganador según los sondeos",
+    "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ1VkcjVGOUh5ejgwRXZsUkVkYTVKN1BWYmJTTWptR08tVjRBbzd0X3pxTkowd2hRVUZvdmNrZXFKckdPMjViQTdHS0h6anlJYnhza2tLVXBjMUJTVzF5YWNnS21FZ2QycXhHWFdia2FVSGJWbjFRTHJ5V2lXaUd5TVRaNWV0ZUJNcXpaR29uZVljWGg1eFI2ZXFaSTdzVFBjWWJkbmtsckVsUXp10gGyAUFVX3lxTE1rdWxTaWF1NkhycDF2YmxST1Zqa3ZIakNOUUFyRXRqUnNzUF80LW9SdEZ5bmptS0NNeTZic3FydXZab0pYeGVIS2xzLXktaXpSOW42U3BEMGUtQVBYaXI2RFhzWXJtZ0xsVGlrNXlZY1lfTlJKQUVkWS1uam1CR0ladXQyc2tpQzFLSlR5XzFWNzJkLVZsMUFSVkNacjVyWFpFRXVab3dMblYycGpHNXlQRFE?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-06T06:30:14+00:00"
+   },
+   {
+    "titulo": "Encuestas de las elecciones generales en España 2026: así están los sondeos",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFlPMWlWbWpSUGdGRUlQbE5EMkxTdldYZ09Ienk2MWtNSG9TV01DbHE3ak1FUUFuOHNyZHE0eVBmN1BWSEQ4YS0zNmZ1QmhPcHFEWGRSdFNFbDhtTzJ2TUJGV0lWQnBpbG1POXlRVXRRMFFEekwtTlNUSWtTWjBqMndvWHlCZHhSZlpmWDdKSFpjMnpYdzdEN2tHNVRyZVpqYW80bVpB0gGmAUFVX3lxTE5ITkRic0ZpODhfNUpjSnZGQTY5NHJkdGl0d25JY0xscG5TZzRNdnlaenFQdG94dmljUGtCZmVyWkVMdGM3bjJWSko3UG9qV1R5VHM1TTd3X0dXenFIWVVFdUczU2dJbGlOOVoxR09ERHVCQkp5elpJSW82ZmpHMklyV0ZqMUsyUnQxNWUtVXRRV2lMa2FhNnhKRVdDb1pfamNBcF85OWc?oc=5",
+    "fuente": "elperiodico.com",
+    "fecha": "2026-10-06T06:23:45+00:00"
+   },
+   {
+    "titulo": "Las encuestas sobre Feijóo y Vox que animaron a Sánchez a convocar elecciones",
+    "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMlVKTXFYbWd6S2VTUk5BQmhhOG1mRklWOWVCaDNhTG9ULUVDc2JObmZWSU5aaDNOQmxJZzZHei1HaVRfZnRGWmVnQjlmQV9NNktsZFJZQThHSVlJU0JBZTJnRDdfcWNib3BnMDdKVVRFZU5FclBjYjN6VmpuNW9UMG95TDNScTZjR3NvMmtSV3ItWVV4c19WOTJiRXlfbEs3YlQzcmhZamRBZ1k40gGyAUFVX3lxTE5Hak9Mcm1faW9FXzRJTF9FSGdVNFBTcTI1ek15blZobjctWEpvYXpyeTk5a29MWTJET1ItNVpDYks5WmhvME9NaVhPTDlxY1dGemRsQmJiaDllWnVKa1hHR2xpa0VTNDdVUzBwME1FYm9xdHZiblkxTHhVX3VOYllwSTRhN05wR0lZSVlEUFhzLVRuNlVwOEJTaDdaUzAxNVZueUt3ZjNiZElFaU5kajVHREE?oc=5",
+    "fuente": "Elplural.com",
+    "fecha": "2026-10-06T06:21:54+00:00"
+   },
+   {
+    "titulo": "Nacho Abad alerta a Feijóo y Abascal sobre el resultado de Pedro Sánchez en las próximas elecciones generales: «Es más gato que cualquier otro animal, tiene mil vidas»",
+    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQkpNUk10SEt3aVBpMDNINGZEUlluMFBhQW5ZdGdEZUJZSDJVTUpHUVpodGVUOVVrR3l2cUl6amZSWUkyc3dKajJtekZsNDljYzZDYm5VTk1ST3pnZk4zTmVZM0wyb2FmUHV0WWphREx0VUlsTUVTckJmWGY2cG1wdjFUbkdqc1RuZmFZQVNBS3dobjZ2SUFyd0dRU2ctdTkyandEeWdLMGk2cWYxc1hTY1pVbng1UdIBuwFBVV95cUxQS184TlNrSVVuNHRyb0RzME5WZHBNRUpPUE5qSmduNGJGR01aaFpQM0Z0SWRsT21fYzhyYVJSUk9fRXYwZHpNOXR3aDZQNmx4RS1uNGs4VlZUbTJ4X3k5OGZuQ0dJcXFCVktBbEtTWDRhVHZPNlMzUDcyTno0c055UFI3SlZrRS1oaF9nLU5nMWduZGxaTzB0aHZnTUdlMVZraG5iTzk2WGhQdEVoNFB5SXJTVkloWEh6cWtn?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-06T06:19:11+00:00"
+   },
+   {
+    "titulo": "ELECCIONES GENERALES | Pérez Llorca se pone en manos de Feijóo (y viceversa)",
+    "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeS1SWXFlbmhLUmdqSHlxenMxSmhsaTFPdkpqODJyb2dSckFiaEY1ZWFGUjg3QTdwenVCZW1JZzB3dGlYNUlEeFc3X2dXOHk4UllvN0Jsc2Y0VG9HTXE5dWw4QlhfdUdYclB0SHU5bjFxb3ctUU5MRGtETjJpczR6MkZYaEtNLUJ2dkVkUWdmZ2l3UnRkSDhvU0N0YUZoQ3YzeEHSAacBQVVfeXFMTzZGZkRiTWExZGFNU2xEclZSZWRhcEU2aEtIck1TQnBabEpaSzRYcjZsanV0RVk0eDFnMDFCWE5Wbnl0UE02eVdvRW9uV21xamV6OXR1eWRuN25uSzNJb3hlVEVqTzd3NjVYQXFYZEtnT2NkYl9SZ3ctSkpETDI2RnYybVBNYjlKYzJyeVlrY2ExMkgtTWs0cFV0SGl3REgtajFlQmhsbE0?oc=5",
+    "fuente": "todoalicante.es",
+    "fecha": "2026-10-06T06:05:01+00:00"
+   }
+  ],
+  "PSOE": [
+   {
+    "titulo": "Juan del Val: «Es muy difícil que Pedro Sánchez pueda revertir el resultado de las elecciones, pero cuidado. Se mantendrá como líder de la oposición, que es su pretensión»",
+    "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSFIyNkNEX05yYklQM2FnRnozbGlFOHRPWDBGU2xxZUtpNko4SURta3JWOE5TanRDY1M2Z3lZREFocDVMWjZ5Qm5nVFNWRktnQTBMV2lMelpYOWIxazI0QWtDUGVJU3oxWHByYVVZM095Q3A0N251VlpRU2FXUmx6Z1NCdlV4WFRoYkFsVkZ0bzNBc1puREpJX2VuU1NOTjlFalpub3J6bklRb2MyamZzWmV30gG3AUFVX3lxTE43clNUZ2hnN0VOSEdwaHl3OS1CRnJhdk1ZX1pJVjBFVGllR1hYZnI3M192MVV4NmlsRk1rRU8xcU1IZi13a0pTZzhWYzVrSWJoa01HMkRDZzJYR0FXN21aZHRhRS15NVNmNzZCbkVuZGp2MWV3RENQZUJuenl2MjM4X1BkRlhWY0FHRmZ3Qi15WE9pUHIyYkZtN2hZaWo1MnJWNlBTanI5U1h6aU4ydlR2dlpPWVRBaw?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-06T07:40:18+00:00"
+   },
+   {
+    "titulo": "Horario y dónde ver la rueda de prensa de Pedro Sánchez tras el Consejo de Ministros: aprobación de los decretos de vivienda en la Diputación Permanente, elecciones y huelga general",
+    "enlace": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNUkZLSUxLbjdtOGJRN2VmWU5iVWN6bTYzeWY1NTZ3WE53WkVfTGRRbHlLYzk4WG93OGhDVE94d09iSlJCZXctbGdUa1dNZzhFSWRxbXItTXBoNnc4V2R0Qk1PT2Y2dy0xRFhNOVlkc3U4ZmNlLTNoY0hVRV9IVmdENGE0ckF5WjBqYlVPY3laWWhOY3JSakJkblRLY1E5TFdSQVdNNjhMWG9yWEgwdVlKS0dNdEVVOE9nZG1LUTBoRWJidElmWFJlMDBCWUdkTXZ0dldEM2FaN0tTN09kempra0NaT0JoSGZYMU9lb0g0dWJDWnFnNVRjLWtsTFhYa2ZMY2I0T0VPVFJyQTJ2XzBKcjBvVHptODNJZktyMnFDN25va1VtM0t0Y0RLX0FuLWPSAZoCQVVfeXFMT2ExUUhlNVBGQTU3aXRZTGJqWVJ0QkRManJHSTBUTlI4SWNmd19jSjB6cm02QTFzbURJYTBCYUJHbEtBS2xUd0FqdjdtdnhrbzhnMXpwVzUxODd1TldUM1lERlEzX3BlWE9iV3N3OEM1N3hDSVFPbWVrbHI3NTYzdi1YWWRNeW1DT20wMjN5R2xyVk1YYXNwOEpqTnpGbFk5ZkFUMEgyT1ROUW10LU5EMHlSdEt0eU1uWTl2dUFCTF8xZUtobDQ3dFFyc1RjQlBrc21xZWI1LVQzRENTQnFZTFl2SVpuVWxSMWFpNFRYQlpyTnZjbWluOEZWQjJkM2xhZDJhS214Vk5ZdG9GQTg4RjhFcVJaM0lEcHFR?oc=5",
+    "fuente": "El Economista",
+    "fecha": "2026-10-06T07:38:43+00:00"
+   },
+   {
+    "titulo": "Vicente Vallés, sobre las elecciones generales convocadas por Pedro Sánchez: «Termina una legislatura que empezó porque lo consintió Puigdemont desde Waterloo»",
+    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYk4tSVh6MUN5eS1zNUd5U0pFeTVJNGlXclFCeWV4VVdxamdGZjY0Z0xMVC1jQUJtbjVzamFPRHBtVllQX2JMZTZBR1Z4cHMyWlljdTFENXB1cW5rWUd6amhYVWVfMXcwOVRFdWI2QnlfWFl1YlBpOTdHVUluUkF4MHBQUy1zOWhOMXlMTnZhTk05T0t6MW1yczlwS2ZIbklXc3htbVZIcDA5cDhPLWdZd2EyZEMzcWNFT2w2RGE5YkU4dU3SAcgBQVVfeXFMTlJGTU1IdVdidzF1WXY5cFgxTklXX05xeVhuMXB3VDA1cDlqNG5LQ1pQVXMwNThFVTBLSTRJdEVycS10RFBGME9UcVMySGplVWY5S3ZfZ0JpYzFlTS1TZlYwZFdkZmI5M1N1RW1mT0R6bFpkdUY4QlNXWXBzUzRMbWxfNkNtZHNNaHkzbjRJek90NmtwUGR5d0lvNTNubmxnTnVNZEJHaENKbDhCT2hOVnhsMlZ4NVQxcjJUY2ZUZ2hRUkZSZHBFZGo?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-06T07:38:41+00:00"
+   },
+   {
+    "titulo": "Pedro Sánchez comparece hoy tras el Consejo de Ministros que recupera los decretos de vivienda",
+    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVlpOelBkQWZSMG8tOFFoNFZMWS13N1FjazJJUnQ1OUpTT2EyT1gzZEtEY1NUUElmRzZKYnZJUVdWbTU0NXQ2UldmQlBpWGtiWkhkM2xtcV9NU2F6REUxRTVpUGg5Q3NHMWdlRW9VcVljZ3Y2TmJ3d244T2FOWVNDY2dDNGxVMmVLRnFZLUtYTDJHVlNvVFZIN0p0Q3JuUjjSAZ8BQVVfeXFMTjZJcDZLNlVENHNPMVBWWV96dnBWc3BXQ1pMRXp5MDUzYnE5UGI0V3FCMnQtOF9iZnI2bzd5QVVabm0yZWE5blNralRSZXBjYjdETmkxUVlmdzB1YTJmV1BMSE1YbHZQSG15UTVzaUcycnV2T1Q0dmxiSExWeFZpd2lWSVFNWFZPSU53aWdBSGIxa1ZGRDltVVphZk9SOENV?oc=5",
+    "fuente": "Expansión",
+    "fecha": "2026-10-06T07:37:52+00:00"
+   },
+   {
+    "titulo": "Sánchez comparecerá hoy después de volver a aprobar los decretos de vivienda",
+    "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd3pJcGxzRUcxYVh2aWk5VnBBNkFOeFl5ZERxQUJycld0UkNaSG1zejNQWGIzanVGa2ZoYmg5X0JVZ3V2M2VTX2QtOFE1bnZ4VHJTaEYyZmpBWXZEN1JLVHVhc25JeHBjOWRaMlk0QklYSnlpaDA4NHI5TTBJbTNCS01QU2FUQ005N2JOR3ZlVnZZalVQQVF3YWVfVmhkTEhCWlBNRmtpeFRIM2vSAbABQVVfeXFMTlRqNDA2TEJyaks0bVk4eUIzWlh1LWJPZ211Uk1fdGZua29zbnJsaUhRSlVWTlBDUWFVanlLRlA0LWl2aGFiNUd5SWpta2ZYVTVBZlB1UzRxMk5wU1YzWEZKbXY1MTZLVnVoWWVBUWVwaFR1ZEY3TnoyVm5oRXUzX2tUdUhVaDV5LUpFUWkwZVlhX3ZOY1BCSzNXaGRnLXdvakJtQlNSUURleDBReGJDMXo?oc=5",
+    "fuente": "Diari ARA",
+    "fecha": "2026-10-06T07:33:13+00:00"
+   },
+   {
+    "titulo": "Sánchez anima a la cúpula del PSOE a salir a ganar las elecciones del 29 de noviembre",
+    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTHphUHZwNU1IT1lmVFl0UlExbU9tb3hwQVFTQzU0S2tndHNMR3JYZDlIUkljWU1BYmd3UmJiUzdMYXVIWDJHRmY5enlZeGJyd3VEUGxQd2pubTNGS2dHSmt3MUxlaWRGS09KTjRVdnVkeG9MZ1VqOHdnNG9BbnVqRldkbEJtd0luVkFHR1haeGlRWkYzNEk5a0NKLV9aVFZVeXFSVkduSlpOYjV3R1ZraG1EYk14Mk1HNlNfMDJaMndCTThMQWIxZjRYNDV0SVVibExYaEktTdIB1wFBVV95cUxQc0s3LVp0d1RPZHhIemVwQUhRVDlhX1BqcXFiMERUZzZUR0owXzZzVXBiWlB5VzBWRHhpR1E2UGNiempmRkRRZzFUZTByUXJoZjFyUURIQUhYbDZNQVpUUWZyX3ctZXpmU3hzcnRtaDdNeE0wT2xIVDNGV1BWNmRsU19ZcG1ZRGJ3U0lfSVBIWHlaNDNzZG9JYm5yT2JvRXVKNzJzRDNDWTFjOTNvY3ljeGpKS1Y4SmJmQjVSeHNxRWsyR1FCUjFBLXVsSktZTUZpdjhPSTdpNA?oc=5",
+    "fuente": "Ultima Hora",
+    "fecha": "2026-10-06T07:30:38+00:00"
+   }
+  ],
+  "Vox": [
+   {
+    "titulo": "Mínguez defiende ante la huelga general que el PSOE respalda siempre a los trabajadores y su protesta en la calle",
+    "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSjRpcFVWemNLUGNxY2hEQ052YnNLc2pqd2NPSHh5YVFOUThhMTF4RWN4OWhuSlJFeEhxR18yeDd0OHJQUzNSczU0MEpLaXBnaXliN3lYTVNTY1VYeDFVLVpQSEhnV0xpY1hGRlBra0l6cnhVQTBUSGRxR3czd1otN2pHN1BEdmM5ZDRiejJpWV9FM0U1YlExR1Z0Y1pGQTZRemttdmQxYTJiSHFfNnp1Mi1zVThNODhKQVRDZVo3QzBSX05sR3htY0dJbVBYcURCTGhfZEphaUJUdndNZmptUERB0gHnAUFVX3lxTE9MN3JrS2k2akppRUp5dlRNMlQ1djNJSWU2d2lOcy14S25EdUphTU8wVDEzNS1QSmJnRUJ3ZVg0WFlBVUpncFhLRjdLM0ZvYVRtUElTaGZDaDhDTHYwazJ3ZG9DWW50NlNXbFNhSVFORkltdm11N1I3eEdhUmdQc25XbWNsT2E2b2NubVhnRzdnc1RrajBXOGllaURUZ0lhLU9KNllMb1FfRDV0ME95V0NUTmhVd3U3NjB2NUxXc0ZhbC15aGFLYVAxYjF3Q2RpcGF6eXZmejhDU0JGTy1vUl8wSG5ZZ29wNA?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-06T08:04:57+00:00"
+   },
+   {
+    "titulo": "Vox Castilla-La Mancha respalda a Abascal y reclama voto presencial por supuesto fraude en el censo",
+    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLVBPMEhmMkpzTXVUb2VIS20zVUNyNkUxem84akxweWs5MEVpSXlkLUY4TVlrUVNNcjR6cXpNd1dlY00wN3RBUmVuYmVLcTVpU3dJMS1ZelhBTlVBZExvZkM2Tl9LUmRmNm5QQWI1Q2ZxajMxQ080UW9GS2dSNU05R3BmU1hWWDNnbVZVc184bTR3NEJ3STZoZVJlWEhjbnNKNnRKMTk2NzhvODdqN29YX2t3Ujk3Rkd4Sks5a0xxQkFqU3Vta2hyQ2JJZHhxelnSAdQBQVVfeXFMT1dTZmk5M3JlU1hYRW9tYm5SSGlSNDJwWG0yQ1V0QThvc0hneGppeXUxSlRyWmI3akJDaldGZ2ZzMy04YmpOZ3VUd3lQcndHVm40Q1l0Y3drWEJIdmVTT1pkclUzaF95cVpLTkstNXZuNUktenV3Z1RZSVNOWl9xYkhaZGY0b0hpT2kyd2F0S3BCQ3AwZzk3WFdqbGNsVjhyaFBhRGR6cmQwdU1iMU5OT3lSTkl0TXczZVJ1N21YREVfcDdQaTJSenFMMEtsLXc0a2tUR2M?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-06T07:52:51+00:00"
+   },
+   {
+    "titulo": "Ya es oficial: el BOE publica el Real Decreto que convoca elecciones generales el 29 de noviembre y disuelve las Cortes",
+    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTDg1VmhRdmRmU3h4QXYteV9GSDh1WlVmUXRtVXZVc2tROHBvNUxyejlKVzR0UkVVNzdoVDlpQmVIaG9QRDlKVGNRbE9neG9td2pocHR3V1dPUDFsMVJLMGsxckYwUklNQ19vdjUtcEVzTEt1MFY5OVdBYTVQZWVaRjRUakQtd2dMSUt0dEpmR05nRWotcExKeUk3OThibFd6MUs0NE96X2ZtZUUxc1o0YUt3YkdJem03NHNoaUJ0R1BzcmlRM24zeTNEdF9xcm9xdmNYNU5HbEZsUzRkQmZ2TUpjVUlBbWU5aEZYaUhTeDItaUU?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-10-06T07:30:21+00:00"
+   },
+   {
+    "titulo": "Las encuestas disparan al PP y Vox: así quedaría el Congreso si hoy se celebraran las elecciones del 29N",
+    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNjFPWV94XzZ1SWpxbEdON0xaSzE5OHg0UGJUWGhlYlRsb1doV0o3aXVhMGMwQUhkaDJDc2Y0SUFreWdiMGo4S3RYV1hmZFFlVmtrMHVQcFA2UU4tcFBPQ0xhTkFLUG5jTXdmQVNFRGoyWTh3RGJ1SWd5MjRibXM5TXVvVVVjXzVfR3haNVpMbTVQOGZFOHZtSmM5TWo2RlRMSzB5ZVk0X3p3V2hSN281RTlqbEJ3akJxeDNHR0xlRF9rc1M2TWM5YXQ5NXE?oc=5",
+    "fuente": "Almagro Noticias",
+    "fecha": "2026-10-06T07:10:34+00:00"
+   },
+   {
+    "titulo": "Elecciones del 29N: Aragón pone en juego sus 13 escaños en el Congreso de los Diputados",
+    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUkNqRHFraGtDYVRvUWFPdnpxSUo0YXlyOE5BWWVZYkZEdHVoRkQwUzBsQkZLNzYyWmw0dEpRMXhfalFVSFhTTGVJX0VOQlBlMzBmM0twZmhyR3Bjc3dRdWJDRE1TN2VNYkJZVzBjQ29vaG1sVW9uaWRkTFdScU0xdnZ4aWdyNUJ5bXZYa1lBa0FfMFV1V2F2a0t0Y1lNcWhleGs5REVnT1ZhWVlIdm5pcm0waG96U2xXZ1pCZXVYeF93ZWlHSml2VF9CRkVOT1BXWEHSAdcBQVVfeXFMTUh4NGk4cGJndUdLU1dXTHFpemwwektIWENNalhEZHpBeTJFbFllQmlBSk5KS1BneG5ZY0lwNVB0azBsTTVZLTEwYzg5UzlWa0l2RGVlRUxoQmtfYXgwRklKdGNhbEFtZmVJeV92QTU0VVFoR0NRZ3ZFVm9BM0d4Mk9rYW5DdDNUY00yWlBtYmJUN2RINGIxNDlXUWxUV09kV0lxUmcxaGE1V1gxVThlaEpmWTBNa2t5Uk12bVdCamtuQ3dkbkV6VnhPMFFJdnk0Q0s3RnIyQWc?oc=5",
+    "fuente": "Aragón Digital",
+    "fecha": "2026-10-06T07:00:00+00:00"
+   },
+   {
+    "titulo": "Encuestas elecciones generales 29-N: estos serían los resultados y el ganador según los sondeos",
+    "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ1VkcjVGOUh5ejgwRXZsUkVkYTVKN1BWYmJTTWptR08tVjRBbzd0X3pxTkowd2hRVUZvdmNrZXFKckdPMjViQTdHS0h6anlJYnhza2tLVXBjMUJTVzF5YWNnS21FZ2QycXhHWFdia2FVSGJWbjFRTHJ5V2lXaUd5TVRaNWV0ZUJNcXpaR29uZVljWGg1eFI2ZXFaSTdzVFBjWWJkbmtsckVsUXp10gGyAUFVX3lxTE1rdWxTaWF1NkhycDF2YmxST1Zqa3ZIakNOUUFyRXRqUnNzUF80LW9SdEZ5bmptS0NNeTZic3FydXZab0pYeGVIS2xzLXktaXpSOW42U3BEMGUtQVBYaXI2RFhzWXJtZ0xsVGlrNXlZY1lfTlJKQUVkWS1uam1CR0ladXQyc2tpQzFLSlR5XzFWNzJkLVZsMUFSVkNacjVyWFpFRXVab3dMblYycGpHNXlQRFE?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-06T06:30:14+00:00"
+   }
+  ],
+  "Sumar": [
+   {
+    "titulo": "Sumar rechaza la oferta de primarias de Podemos",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU295cUJyZEZYbThZUjFBNlBQZVRVSGZQcUNtWnJCSFBlakt1NkV4VjVEcU1rTXFLMFFBeW5PNUszU2dCSDM5M1ZpejFlenM2QWh3OWx5cUJlM01qR1BKOGNuSFE2OTVuenNIWHhkV3hOZy1Zb1UySjloaUhab19YcGEtb0ZJck5qTFJmcnlBamJ4cEZpMTdXeGRHUW5UY2dCclJ2aWhn?oc=5",
+    "fuente": "El Imparcial - Diario liberal e independiente",
+    "fecha": "2026-10-06T08:02:00+00:00"
+   },
+   {
+    "titulo": "¿Qué dicen los sondeos de cara al 29-N? De la clara ventaja entre PP y Vox al descalabro de Sumar",
+    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSzNxU2dTa1RvTGlZYVc0RTgyaWozazk0OWJvTU42SDdJdktydDA4dmZJZFM4WG1jVUdicDBOZ0FZUG5HY0tKeGZEeV9qNFVfemFrYVY2OHNXSGpUczNqLXRsUnh5WXdQS1N4Z1hvQWg4cFI4WmlpTzVkanh5bTY2X2hURmZfdUtpcW5GYmc0cDYteC1ZVWhUbEFPM21kZW1hbmttTFh3aEdPZ0p3eEVFdzJIU0xDaTE1N2l0VdIBwgFBVV95cUxQWngwZ2NMQU16cVpoeS1xSmVHbFhFVVgyXy0yN3gwTmw3R3ptdWlKa0xPT0otVDIwbzRNODV1cV80R01KU0lVcVpQZWJucUtHQ2Zlbm43M0pkUUFaVGFRb1lSQW1nNFRjRk5xdlc0WkUzRmN0dHNyc2tnaFVkRlR5VG9Xc0oyS251eG1WRnJyYm0tcVJOTnMwVWY1UEt3aU03Mm5GTDQxRmYweS1fX1JzR1FlQUZhRlk0dmo0WGVWbGtMZw?oc=5",
+    "fuente": "Diario de Pontevedra",
+    "fecha": "2026-10-06T05:52:24+00:00"
+   },
+   {
+    "titulo": "Sumar y Podemos enfrentan una negociación exprés trufada de rencillas del pasado",
+    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbV9ISklmd1hjY0FlXzlmYnRlY2drbm9JYmx3Nl9FNnJRX21QYWQwMmd1SGRtSzVRcXJYMWlfcmtaNzdvMDdLc2p2V0l0UUZ0ZnNrdTBXdmZmZzZWeTczMXhIUGVQTU1UZGtxMl9hRzNwdW1mRlZLNWJpb3lGdXk0SFBUNzdqeHR6ZjZpWWNKdnAzN1RYdVFhbkM0VUU3d2Z2Wmw3WUVXQ3RqYTNHaTlHd3AtaFAtU1dJUk9lVdIBvAFBVV95cUxPbV9ISklmd1hjY0FlXzlmYnRlY2drbm9JYmx3Nl9FNnJRX21QYWQwMmd1SGRtSzVRcXJYMWlfcmtaNzdvMDdLc2p2V0l0UUZ0ZnNrdTBXdmZmZzZWeTczMXhIUGVQTU1UZGtxMl9hRzNwdW1mRlZLNWJpb3lGdXk0SFBUNzdqeHR6ZjZpWWNKdnAzN1RYdVFhbkM0VUU3d2Z2Wmw3WUVXQ3RqYTNHaTlHd3AtaFAtU1dJUk9lVQ?oc=5",
+    "fuente": "Diario Córdoba",
+    "fecha": "2026-10-06T05:14:16+00:00"
+   },
+   {
+    "titulo": "Estos fueron los resultados de las últimas elecciones generales de 2023 en Málaga: municipio a municipio",
+    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU1RfdmxrczZMTlZwczU5NnFDYnB1a2Q3WUxBd3pJUm5wazZMaWZTaC1OLTJLTFJQeFZvUDZQa0NOQ0VVMzJMUDNiQVRMMFU1eVdjNUpiVWVhd1VwblM1UUgyUmVmamFiOHY4NV9vcklmV2hLcjJoZm5HanF2ZFZvMnBOTHBBTkNvaGIwY3JZSFVWelIzYjZTdjBINXM4MXA0UENxdEVpXzB1aUctajdlbVl5cl9IdmVj?oc=5",
+    "fuente": "Málaga Hoy",
+    "fecha": "2026-10-06T05:00:31+00:00"
+   },
+   {
+    "titulo": "De la remontada al descalabro: diez gráficos para entender qué puede pasar el 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZjJIN2lKZDlPYnkwZ3FlNTdoS0lWZUk4b1FoWDRZNFJWQ0t6eWZpdGxIbWROSnM2dFdLcXdyUC1COTA2Uk1QZnBWMHBieXVqNktXRWZRVURLODZmYmdLdDhGeFQ3ZnRJR2lvRnZoY2s5eWNKaU80UGJGeE5oSWRuZXRRVFZnQlhRZGIxSm5sTGFhRjU5M2xqWUVkR0lseEpqMkNGc3d6N25TZ3lu?oc=5",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-06T03:00:00+00:00"
+   },
+   {
+    "titulo": "Movimientos contrarreloj en el nuevo Sumar: su candidato, esta semana",
+    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUi1qejhIUEZ5VlJBOVVjQ0lCLTgxcEhUSzBmdTFDZWJUT2ZlZ0Y5d2hzbUtDYkN0ZkxuWlpGZHdkODRrX2U4MF9mV2ZOSlZRdDJtLUhIVlRCM3dYM1hGWk05UGRPOTZ5VDhCeE5abGxaQ1l6T0l4QnFtN1lLbkJndEE2QUcyTVpMUFgzNVZBeGxzVjBkakZ3QUJwMlNJd3BxX3U2RWw2Mms4Vjczci1rLUpzMl82TE0?oc=5",
+    "fuente": "Artículo 14",
+    "fecha": "2026-10-06T02:00:00+00:00"
+   }
+  ],
+  "Podemos": [
+   {
+    "titulo": "Resultados ONPE en La Libertad: al 95.48 %, Somos Perú y Podemos disputan el primer lugar",
+    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMzJFUkhyLUlwa0E2NGk5VlQzam9CM3ZIZHA1ZW1halo0QU1BcXBkdU5UWDhRMGhvSE80bU9BbHdwWGJhUU1NTFhoT2lNOFBoV0JEMTdFY0xqWlp2enVWQ0ZNSF9zRTB0MTFCWEJVZEEzTm5KNEZ5X1ZqeGJSNGJxenFyTmhSSnZzYXlKOFBoUTlrazhOT0ppQ1hwdmtqVFpPOXhZcEgxdEJnM0xheWJKby01MTN1SmwwcWVCX29WZnZsaHc?oc=5",
+    "fuente": "Agencia Andina",
+    "fecha": "2026-10-06T06:24:09+00:00"
+   },
+   {
+    "titulo": "Sumar y Podemos enfrentan una negociación exprés trufada de rencillas del pasado",
+    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbV9ISklmd1hjY0FlXzlmYnRlY2drbm9JYmx3Nl9FNnJRX21QYWQwMmd1SGRtSzVRcXJYMWlfcmtaNzdvMDdLc2p2V0l0UUZ0ZnNrdTBXdmZmZzZWeTczMXhIUGVQTU1UZGtxMl9hRzNwdW1mRlZLNWJpb3lGdXk0SFBUNzdqeHR6ZjZpWWNKdnAzN1RYdVFhbkM0VUU3d2Z2Wmw3WUVXQ3RqYTNHaTlHd3AtaFAtU1dJUk9lVdIBvAFBVV95cUxPbV9ISklmd1hjY0FlXzlmYnRlY2drbm9JYmx3Nl9FNnJRX21QYWQwMmd1SGRtSzVRcXJYMWlfcmtaNzdvMDdLc2p2V0l0UUZ0ZnNrdTBXdmZmZzZWeTczMXhIUGVQTU1UZGtxMl9hRzNwdW1mRlZLNWJpb3lGdXk0SFBUNzdqeHR6ZjZpWWNKdnAzN1RYdVFhbkM0VUU3d2Z2Wmw3WUVXQ3RqYTNHaTlHd3AtaFAtU1dJUk9lVQ?oc=5",
+    "fuente": "Diario Córdoba",
+    "fecha": "2026-10-06T05:14:16+00:00"
+   },
+   {
+    "titulo": "Lluis Orriols apunta cuánto puede cambiar el porcentaje de voto en una campaña electoral: \"No podemos hablar de grandes vuelcos\"",
+    "enlace": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZzB4UDlaeXBBbnJPLUZtd1dCbG8wUEdkaFlreE14MGN0UmFBd1BnU1pfdF80MWpwMzVBTFBaaE01WmhEbllvWHlmSHIyU2oyd3g5TUlFcmg4TzZGZjhZQXpyZjd2dU1XSkZkRVBxcjJfY29UN29Lc3N5NU5Zd1duN2Q4RlBFcFVPXzdtYVg1Sm90VmJ0MGpKcWFKaDZ6T3FvQ2U1TmtVN19JanNsR1FsNFBXeGRBS252cERzUTY0VnBuTTZsb1YyVXhqa0RzbFlhUmxMQXVWb2pfSHdxWURvX1MzRnNfWjFua1EtRUJ4YVVxUHEzYjFCd3lqYU9jRFh1STQ1N19tV2d0THhpaUR5ci1LSTJGWnJC0gGYAkFVX3lxTFBJUmVMNzh6cWZydFdLWi16a3FpUVB6NzBNMVItNF84ejMwZm9WbVMxUy0zSl9MLVdYbEtPYnNHNk1oTGdRX1paWnFtTDFIbUpGUFZjTUJLajJkZXFFSlJwMlMyeGFBUjFRcXdHTkJzVjRGLUVxQlA1SFpsc1k5ZGVKSWZIMnhoYVJUWGxnZ0FrLWFud0stVVdyaUN2M3dhaWNyNzVZX0J6eGk4dDZlTEptWTRkdlZsQ1p5ek84U0hDUVowdDl4N044QkNuci11WFpiUUxqc2EwMVJHUHU1RGtBbGJfVTZxeW1heHZuMVI1VEgzQkdBem5GTVU0NGZqTS1IdVNiMDNucXpubEZtNDhxdlN3d3ozYk0?oc=5",
+    "fuente": "Onda Cero Radio",
+    "fecha": "2026-10-06T04:25:13+00:00"
+   },
+   {
+    "titulo": "Así gestó Sánchez el adelanto electoral: “Este Congreso no nos vale, tenemos que ir a elecciones, podemos ganar”",
+    "enlace": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNNF8tNFYyOURHN0U3RFBKMVRDM1pqNHItY2l1SGcyX2xsMlNnWEo5YWtlQTlWWUtnOXFCU3U2ZUFacjVzN1U3M2sxb2xtcHowUWEySkdFVTBpa1pOcFc5ZWtjRlpOcmdRSXFrc0RNRHJEamkyeGFhNVN4SEp5QU8xVktPTFQ2aFdNcWdqbng0U2RraWdjQWxDc1VadVYzSThYeWpkaU1YemFfRG1TOUFSRXRFMnVCTmI4ZjFGWnVnaDBxd3BWakhmOFlCTmh4QWlORVVWQzB1WmEyeWJCWTl6TS1lWEdjTG4zMzB5Q0JZRnNYamxhU3hZQXdmbFMxQXfSAZMCQVVfeXFMTUlRNTRfclB5UUMxaFZnZE5id1FiN0U2RVJpNjE5NG5NZGdjR1QweXA5UFNscmFua21YcG1WTS1tUWJFSEtmRExncXBiaGIzQ2ZrZjM2ZERtdkIwQTUzX1hnMzVnclhJRGdONVJhQTFwWGtNR0RJZU1UeTZ5aEtGMjJsWkxPR1VxYmxBQTZlazh3a1NiTkwzbTVEaFI2eEpBNFhCVnZnT0VMREJiSDdlTmhsTHFEWHBwcEo0a2IzNzhweTFBVmFKZm05dHAyUVo5dEt4MERrR0x2aXpOS2tuZVNMSnZFelBIcWFtVy0yVUtMVGstSmVqQXRaek1lbUZJSUJFZnF0d3FsMWxCQThRN3REa0U?oc=5",
+    "fuente": "EL PAÍS",
+    "fecha": "2026-10-06T03:30:01+00:00"
+   },
+   {
+    "titulo": "La derecha reclama investigar al grupo de Mélenchon y Podemos en la Eurocámara por instigar la violencia estudiantil en Francia",
+    "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxON01SUmZZek9OT0Y2eGQ5eWFVLVlUNEdVWDRFeWNLOUIyOE10NlJuMXdFcmJNVnJsMmhGSHFRbVAtODhyblJMZ2p2Zy1EM2FOSE9zNFFmWm1WWjh3NVFlNGhON3JvUmQyYUozNVpDSGJrWlNkallsODY0YU8zc0JfdTUwLTNZc2tYYUE4QlBYWDhtYzJYNTFOakswV2k1NG40ZDRxX3N1OTBVSnNtOHF5V0JIek83ZUU3OU5MVFlXWDgwdFlHaS1fUEozS3hCemtwVGljSWx6TnJmbFA3QmNwd2g0LVppVFZMRjJaTG8xR3JQM05YNDdOS2pLSllDQTZTNFRJ0gGDAkFVX3lxTE43TVJSZll6T05PRjZ4ZDl5YVUtWVQ0R1VYNEV5Y0s5QjI4TXQ2Um4xd0VyYk1WcmwyaEZIcVFtUC04OHJuUkxnanZnLUQzYU5IT3M0UWZabVZaOHc1UWU0aE43cm9SZDJhSjM1WkNIYmtaU2RqWWw4NjRhTzNzQl91NTAtM1lza1hhQThCUFhYOG1jMlg1MU5qSzBXaTU0bjRkNHFfc3U5MFVKc204cXlXQkh6TzdlRTc5TkxUWVdYODB0WUdpLV9QSjNLeEJ6a3BUaWNJbHpOcmZsUDdCY3B3aDQtWmlUVkxGMlpMbzFHclAzTlg0N05LaktKWUNBNlM0VEk?oc=5",
+    "fuente": "El Español",
+    "fecha": "2026-10-06T03:00:00+00:00"
+   },
+   {
+    "titulo": "Podemos La Rioja analizará si presenta candidaturas a las generales",
+    "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYlBTcE1nUE1mMFRHOHFJUzhrYWs1dU1jTjFMcDYtR2Yza003bEh0aXNSSS16TDdxOWVka25aMFg2QjVyRm9TMW9OSnVxaVM5eDEyX0J0TzlfV2ktMU5CbUZTME1jRktIRWtBdTQ4SFB6dHNmcGlHTU1CeXJaeVJ5TjVkbVg4MFFXX1diTi04TQ?oc=5",
+    "fuente": "NueveCuatroUno",
+    "fecha": "2026-10-06T01:06:46+00:00"
+   }
+  ],
+  "SALF": [
+   {
+    "titulo": "Alvise y el nuevo partido de Miriam González complican los planes electorales de PP y Vox",
+    "enlace": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWnV6ZmJNT2lKa0VsVmZwOEcxdVpoQ2QxMUlpblVXajhOSTNwUFRRSjkzeXQ4MGZYbEsxVTlJZDByRmIxSjFZNE50b1VzUjNWWGw3TjhGcnhsd1BGdmdoRWViS295eE53MVJiUVNNc1NWRGFvWF9xajI3YmY5cF9ORGpjVWZzZ9IBhgFBVV95cUxNWnV6ZmJNT2lKa0VsVmZwOEcxdVpoQ2QxMUlpblVXajhOSTNwUFRRSjkzeXQ4MGZYbEsxVTlJZDByRmIxSjFZNE50b1VzUjNWWGw3TjhGcnhsd1BGdmdoRWViS295eE53MVJiUVNNc1NWRGFvWF9xajI3YmY5cF9ORGpjVWZzZw?oc=5",
+    "fuente": "The Objective",
+    "fecha": "2026-10-06T03:52:07+00:00"
+   },
+   {
+    "titulo": "¿Quiénes podrían ser los candidatos en las elecciones generales del próximo 29N?",
+    "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSlhqT1M0b1NoLXJyeExrUjFvZjVoMzJ3VzhZemlsUXBjdVdKdUR4a1RHYW9qVEhuUTFpUkFmZmpBcm80Rmx5S1oxc3ZsaUpIRm52VFdrQ2RBUC01N3FuQVVaLU9zWlRHN3p5cThLR3dGT184OEQ2ZnpJOWc4cTNnRTFycThzUGdkaXJoVWVnZTQ4SGU0V2VlUUJQZjN0c1RiSzFodEU0TlVRcGU1djVDdDRB0gG3AUFVX3lxTE5IcTJzZ0tVbF9qd2JreGU4UzdiS09QZU1RTmpWT1h5ZWIyS254Z0dqOVN4MmlXRjBpN0huZWVTRG1sQXF6bDVjRWx1eWZPSzB4LW5vXzVDQUlFWXRJUFBxYUdsVXZCRy0xN2hzOERyZUZnVk52Y3ZpTHgwMVdLaHhlNlNtNWwyaXlPckFsTUdNVWg0bWJhck1FSGJtRzdPSmc5c1UzejdHOGh5Ym1VN1NFcWI5c2kxcw?oc=5",
+    "fuente": "El Debate",
+    "fecha": "2026-10-05T17:02:54+00:00"
+   },
+   {
+    "titulo": "\"La ardillita vuelve a comer nueces\": Alvise se lanza al 29N y encabezará la lista de SALF por Madrid",
+    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd3FqNjFkTloxanlia3JlQU9Rek5rbDJ1YklpWl96TjlGcnE2NTZCWVNob2wta0xfVzRXd1o3TzNhT0F6WDBwRExBRkxPMi02UGZNOVZ5Y1NaRVZuNllSa2dsam5pQjFxd0QzSHNMU3hhNjZVMGlqMEZtV3FxWU41SE91MUhDemJ1cEF6VmtLb2hMQ1FhR05MdW4yeG96OHFyMjdiM1JYSlF6MFdxY0RLSDU4ME9uRXFtaHItZ05OR1AtbXVkZV9n0gHMAUFVX3lxTE9QVXpfVkwxMkxVZHQ1cHFvRHpPNFhVMVVlTktsdmk3c0xIdUZNcVUwaExRb0NuVnFTYkFaS1VGSWZjQ0I0bmxuSkpvVTl3T0Niejg5SHVwT2ZhMWNRWXVEMUtiYXFlNXpVb0xXSDlBeGhkanNMVGk3WEZtZUF6aXBkbnhNWWxhSW52LVVOWUJvdHhiNlZMOFhmRDFwc3RkbDhod0tQM2FQYUNpYlFxelZxNm93eWlEb2tMNmdwWjVmQ0R2WFZyOWVRWGVwdQ?oc=5",
+    "fuente": "ESdiario",
+    "fecha": "2026-10-05T15:49:15+00:00"
+   },
+   {
+    "titulo": "Alvise se presenta a las elecciones: ¿será Vito Quiles su número dos?",
+    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOHgwRjd2UVNkNFVKYkl1UTFROGlNUVhrR2NreUhkVFQ2UmFoel81NGptY2dmUGJ6MFdQS3I2T0tFV1RucnZFZllhQnNSMldteUxkV3E1MURHWGlwd3I0TUZNbno2ZFBNcFRrWGtsWHE2S09EdDl2SElrTl9tU1hfRWR6RFA4M1NlekhfRUJrMDl2bEtEN1dqak8zREdTUExlMjJ3Z2V4TGhtbGREOGZEeVpmN2tGeHlzUXZkZGNZZnJkeDU5c1VGVDg3OF8tV03SAdoBQVVfeXFMTzF0S0NLejNQdmxjdTNybER0ek5HS2pYX0JzM2F0a1BoWnRaYkltS3hOa1VaYlI4bVJLbnNJejkwUWhXX2R5RVR2TnMwNW9kVVlFSDMxQXQwVDVFZWZ3LWk4bkNVc0NqajR3MGZDZmJ1czNRMmVsZExqTGtGazA4UENsYXhNRUh2VmZ3dnBBVWdpS3dFVm1nN2NFRlBtcjREbUdxeFM1YTJtdkdtOFpiRllsX09ZTmphZ2dlMXVXUzNRcG92R0pKV19zV3RKODlwSlh6c3dYc0NXUnc?oc=5",
+    "fuente": "Libertad Digital",
+    "fecha": "2026-10-05T15:41:21+00:00"
+   },
+   {
+    "titulo": "El ultra Alvise Pérez presenta su candidaturapara las elecciones el 29 de noviembre: acumula seis causas abiertas en el Supremo por presunta corrupción",
+    "enlace": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPQlRCRGdJMUFWRWtVZnJyQkt2eThFUGhpVld1WEJBSzJpTC1Wc0tNekVfN3lCcE1xY2xGbEhCOFU4NVBnVG96T2tTNXdmOFd1Tk0zRF9feThZUXZrQU9zbzVPNmVJemRnOERqSHgyalVRelFPb3hxYTEtX1k4ZHFRb1lJa0h6ampGbktGN3pLbnc3M3gyYU5EbWRaN3hOUUVFdDZlVGYxMVY0Uk5uQ2lpUXNZc0hqR3BqYkFJYW1rR0xXY2ZsZzhBeW1CcUFUUmFZNElhSFJwSWNzSENFWHlXX2hrMWx4MDRWb1EtOWltamVsQV9EV2dNdS1iTXlXb2RyckdDMXhISHowZ2QzUEZjQVRQYXFQSU9KcFRVYg?oc=5",
+    "fuente": "El Constitucional",
+    "fecha": "2026-10-05T15:40:39+00:00"
+   },
+   {
+    "titulo": "Alvise confirma que se presentará a las elecciones como cabeza de lista de SALF por Madrid",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUDN1Q01nMEN3VTRIZmxSRlVabnQwa1hqSlZQUVBxTVgzSU1xRVEwUUs2VkhGeGtXODdrTXhoSDdvaVhRajk4S1RneEg0Q0Jtb2trRmtwWVNCWmlZQ0RrQTY4ZUNVV29LQjVsQ2NXZkdlYjR4TlVlSzRNbHpBaXRRV3R3dzZlZk5mTmdFMDl3Zk9xVFNDZmJmbXA1N3NhV3pZbHhxWEdR0gGrAUFVX3lxTE1RNVFTQUN6YWxCVHNpUGVfSGRLU2ZuS1Q0Tkw2WlBwUHBVcXdTRXNYc2dvRHpwcUdaenhTM2tPcWxOUzhteHZpSnV1QjRhLUlTdDYwbkRsZmlVMDZMVXdVc0ZmRjI5NkpJSWJrajh2aFBMN3ZURnJFNjhjampVOEJmdEhHTHJrY2ZoTU1GRWE0Z19CNG9sdTFpSnFuWGhFVktGMWJnTFRucHBfYw?oc=5",
+    "fuente": "elDiario.es",
+    "fecha": "2026-10-05T15:00:04+00:00"
+   }
+  ],
+  "ERC": [
+   {
+    "titulo": "Estas son las condiciones de Rufián para volver a ser candidato de ERC: \"O se respetan o me voy a casa\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVU9DcFJXa2VCZUNJVS1oSDJUaDJmWVRpQ0tzS2NzTWNjZTk5Z3RDMWZKUTdKXzVQNGtjSW8ycmFMVldRczg0Rzc2ZVBEVDFEaVJINjNBT0xyTFJRMGF1MHgydjNVSjNGeDF0VWZxMFljdm8tYVp3SDFydDVEM0NjRjNHQndvLWZoc2RRYzViQXNpUEktYU5HUEYtWnB5Ni1Sa19wNTcyS1JiNGxlUHVuYmF2UjNCWHh6QWtZRF93bW5zTnNXLXMyc1pfR1VDbGNhUS00bHZ30gHqAUFVX3lxTE5yMWFLLXFGRUhDQ3BwekM2Rk1DYVhjdXlpS05pOUE5eTZ1TWkwNzlSaThFYUNPaFNkRVJMdjZ0YTVQZnBjZWdPSmtyS1hxZ0liZFJsb0JSZFM1UWNDbjhkRFhocTdLY0UxLUJPWm0xUGdCeUx0UFN1R1Azb05PMnNBeVRmTDRkX1U0TGhuTFJ2OWV5SEZxNHc2NHNmRGZjM2pwb1BlNXd0cFdxb3VLTVhjcjF0bzFEanpqQUNXN185a3doV2wxVmpUSU1wb296Rm1DSXpBeU9ybEZFUzc0UnFPc2VIR1ZYbS1idw?oc=5",
+    "fuente": "La Razón",
+    "fecha": "2026-10-06T08:03:46+00:00"
+   },
+   {
+    "titulo": "Junqueras avala a Rufián para las elecciones generales: \"Seguro que será el candidato de ERC\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORy14MmpIbmpWYkFNdEZFaXBDZFY0aXByTGxmWGhZblgxVXNBT1QzTEl4a1RmTGJZQzBJOEVKeU9IYkxCVy10cmpoSVdvZ1JkdF8zYnlFNThSdEUxN3NoWGJGS3JyOVFlZHYzSi1Dbl9SaE00dzN1a180RzRRX2dUVllRRDNqb1dBTkRDTlhjdC1nekpqQmhIWE5mOFpNOXVSM0ZEb3NGcEN4clFoWFBjQlJSeVJ2YlU1WFFhQ3hDMG9fQVVROWpRT0FZOS1GUkpiTnVDVDVlT3ZobWVYYUUydktRS0hlMWtHb3pTQ9IB7AFBVV95cUxPZHNJcGxiWGV3dGxRQWh3YUlJZXkyRVUzR05Ed2hsT3Y1U21UaXA5eDNlZndoZzRWRjFRWVc1QjVSTjBaYTB6eUxUTTJpa3pSaTdaSXRGSjlhMks2SDFiTGJsNVlrRVg2dDl6QTJtckJFazV1VlY3R0ZaSG8zS0FuSjVSdWlENkJOQWFCeXRVVlBMbWFtVUhOUDlzLUp3Z0pMN19oWlZ6WHdkN0RGdkE3aWJWVzdhQnNESHRsc2JXU2swR201OENKT2hWZFpVSkF6bGRQRzUxcDNwVFcwdDM5VHlzbVZlTjQyREMybw?oc=5",
+    "fuente": "lasexta.com",
+    "fecha": "2026-10-06T07:53:00+00:00"
+   },
+   {
+    "titulo": "Junqueras, sobre Rufián: “Seguro que será el candidato de ERC en las generales”",
+    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVW5IcDRzVExUTTVLM0JzZDVpZG42b0lxeVlMdjlLenpia0xraXE5RDNvaENlaC1oeE9uYWM2YVhYeUp3VFY0NmdQdG9lMnByLUNvckV1eHpPTVcwWG1JdktBRTFaeWtaZmxRMlFOSGtmQzFKNDlDY2twbl94cHp1bEJTa0l3T3J2Zk80ZE9YWXZLeFZ1YUpRWUZBajA1d3RqZWFXSFJMMkEwUE5mclppSnpqRXM0YndmTUpzNElsN1RGQ1nSAdcBQVVfeXFMTmZMOTAxMlVsOTB6ZlppWmNHRkc0VmU2bEZxRWJFZ2xRQ0lKOTdXSUtXamM0bzVEM0ZQMXNjZ1o4cXMzb3dIZG5TR2ZqSHB0bFdkU0JPQ09oczUxVGozTUNYa21wUEtnaVFZdHlONWpfX0dXcEF2RDRJWllOZVU3TmNVeXJSdUJUVl9FVVlkLWR3RXBZYm1Db01YS0VFanhJLU9fdW4zOG1vZ042ZmlYcDBGYmhDcWVodlVrS3haZzBZakZLVUs3V0E4MUFKaU5jMFdHcjlSLWc?oc=5",
+    "fuente": "Cadena SER",
+    "fecha": "2026-10-06T07:52:59+00:00"
+   },
+   {
+    "titulo": "Junqueras asegura que Rufián será el candidato de ERC en las elecciones",
+    "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdlhxNTZaYlMzenZSNEh5bzZ0ejctdVlPeVdFX2lsR05mX2ZiUnNQczlfWmlIR0lzZ2tfVzVtV01tREJDTGVEVXlaekFFOXM0TnRHSWtZN1ZheGFReE4zcUFGeTFCNHFkSTJqaHUtcjNEeDBpRnBSWGx3aEU3ZnozSVFrUEV3d0hPWEVRMi1rOWpvT0pzQXZzQTJR0gGfAUFVX3lxTFBNZy12S1FIZDZjYXJVTnRSWGRzUUhUbENYZDdfNVhsTEVpdkw3aUkzYk5NT1lZZGM1X2VIM19MdlpfaVd0dnByelVKWldsQ0FSNlZFLTFjNGZBRWFfVU4xLUMtQ0Y3ZVFrX25GM3haekhscmpVT1NUMEw1dEJ5Zmo4ZGFyamZvQm9pdDBIZDVIdFBrdElGbm1NTjhvUWxHaw?oc=5",
+    "fuente": "The Objective",
+    "fecha": "2026-10-06T07:49:13+00:00"
+   },
+   {
+    "titulo": "Junqueras despeja dudas: Rufián será el candidato de ERC el 29 de noviembre",
+    "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZUZSN1RsWUtzLXRiUGlLUmNmamhhaWhxR3c1bEhjWEczSHJ4cEpxQlBDRXVDVlJvSmVrMEdzbGdsT0VmbnMxWDJ4cmtSY1F2b2pQMnpYdmxoZE9lQU1jaGtBc05JSXl5b0JQYzBVbktnc0NwLUd1dUx4aTNXcDRRMXJxTURZZXd2Vnp1TWVCbFhUN1NwRUQxM0ROSFNxZmNLVm5MODdCdVBacUU3NUdGQkdvdWFrVm5wZlNJ0gHAAUFVX3lxTFBCeDhOdkFQbWJJMkQzVTV5OUE1Zmw2ZDRuUi1vMXo4M3lGejl4V1Jnb3R4V3hlWmVRS3JpQWQxWXFhNzhvUk1aVXo1QkkxMllhVURXZkJzQW1LUHR2NlhEZS14REYyYTJfTkJBT0tuaktEY2ItTExaSGJWeDlSWmVvUXR0VWdFZmJnZWE5ZmwxMTBZcjY2VGpRX1Z5LWlTZjFJTUxfU3lpbERzekM4bjRHeWQ3NzZDWVRNZ3VVeGhsZQ?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-06T07:40:07+00:00"
+   },
+   {
+    "titulo": "Junqueras asegura que Rufián (ERC) será el candidato republicano al Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQVlYcGIzbnJIR3BqeTBIYnlFVjUxbXYxeEI1OWVSRmRRTWpFXzFrbXlOOW1vbkc0QW04STByZVBuM1VfSU9CR2Z4aGkxX2lhcDJ1UTdWb0tsMUdacUs1akE0YUV6WnN2NVVhVlF3dGRPRWJLRnlYTzNacTVOSXJwLWQ4c0xPQzBTUmNscnQ2ZzYtZlY5WkJSblFYMDVGR3dVQTdPYlZ6SkJuYm95OVdrcW9lNEMxQVBkV3psalg0WDQwdG5URFhrZlN1a2FYdmZPcF9tNNIB1AFBVV95cUxPc2hWbjliMW5WXzdURHBLUzExN0NJQks2Z0YySmtaTkY1Vkl4UWFaWHQ3RHBselFBRU51WFFqbXNLbE0wd1VtaGktMElSR2pmM1QzQkNSa1hCbl85NDBacFE4bGVNc21tbTlVN0pIajZhTUN0QjZPS19BSTV4QVFVelRZY2F0RmJxeUJMcTZVOC1fNU5mRHJvLW1TTW9tVjVQWHVGQURkaDdPbXB3T0VwdTFyN29JVXltbGNPVzlWOTNLVWVGbXJkV0F0Wkp2QnpGZU9sMQ?oc=5",
+    "fuente": "Ultima Hora",
+    "fecha": "2026-10-06T07:37:00+00:00"
+   }
+  ],
+  "Junts": [
+   {
+    "titulo": "Vicente Vallés, sobre las elecciones generales convocadas por Pedro Sánchez: «Termina una legislatura que empezó porque lo consintió Puigdemont desde Waterloo»",
+    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYk4tSVh6MUN5eS1zNUd5U0pFeTVJNGlXclFCeWV4VVdxamdGZjY0Z0xMVC1jQUJtbjVzamFPRHBtVllQX2JMZTZBR1Z4cHMyWlljdTFENXB1cW5rWUd6amhYVWVfMXcwOVRFdWI2QnlfWFl1YlBpOTdHVUluUkF4MHBQUy1zOWhOMXlMTnZhTk05T0t6MW1yczlwS2ZIbklXc3htbVZIcDA5cDhPLWdZd2EyZEMzcWNFT2w2RGE5YkU4dU3SAcgBQVVfeXFMTlJGTU1IdVdidzF1WXY5cFgxTklXX05xeVhuMXB3VDA1cDlqNG5LQ1pQVXMwNThFVTBLSTRJdEVycS10RFBGME9UcVMySGplVWY5S3ZfZ0JpYzFlTS1TZlYwZFdkZmI5M1N1RW1mT0R6bFpkdUY4QlNXWXBzUzRMbWxfNkNtZHNNaHkzbjRJek90NmtwUGR5d0lvNTNubmxnTnVNZEJHaENKbDhCT2hOVnhsMlZ4NVQxcjJUY2ZUZ2hRUkZSZHBFZGo?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-06T07:38:41+00:00"
+   },
+   {
+    "titulo": "Ya es oficial: el BOE publica el Real Decreto que convoca elecciones generales el 29 de noviembre y disuelve las Cortes",
+    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTDg1VmhRdmRmU3h4QXYteV9GSDh1WlVmUXRtVXZVc2tROHBvNUxyejlKVzR0UkVVNzdoVDlpQmVIaG9QRDlKVGNRbE9neG9td2pocHR3V1dPUDFsMVJLMGsxckYwUklNQ19vdjUtcEVzTEt1MFY5OVdBYTVQZWVaRjRUakQtd2dMSUt0dEpmR05nRWotcExKeUk3OThibFd6MUs0NE96X2ZtZUUxc1o0YUt3YkdJem03NHNoaUJ0R1BzcmlRM24zeTNEdF9xcm9xdmNYNU5HbEZsUzRkQmZ2TUpjVUlBbWU5aEZYaUhTeDItaUU?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-10-06T07:30:21+00:00"
+   },
+   {
+    "titulo": "Pendientes de Puigdemont: el Tribunal Constitucional puede avalar hoy su regreso a España",
+    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdS1QMHVZOW94ZF9LcV9lUUNtazBRSmc3eTlVOTRvRGJJOTlhSFJ2cFNoM2otRkwtOWYzY2JEcm5BcUJwYV9oU2d4OG5fdTVLeHVBbk90NGVxV1BrNVR4clNQTUVOdHFpMWRFLTUzT1dJUGNKUDlGNS1fWDBaWkw4M1hZeXV6SXNqR0pNSUV6c25uUWpQX1lMaXUwaHhVQUVSdW55WTU2cWRPNWlOOW9tWTZUTU5UZ3ctVS1iblYxMkU0eEU3YXVoZNIByAFBVV95cUxQSDJraFNiTnlDdFFuQjExc3JFWDNfVXR5RUt4VUlfQ0NqUmYzUmpkWFhfd3MtSTd3QWJpU1VOVTNad19oMUw1N3l2NmNoblROS2Iyd0owMzB4dUFNMFJ6SEJ0aUFiQ3JyLTJZa3ZDV0hMQ0lDUWJjOERNMDlQcVF4ZHpsYndER18wa01Xdk9yU1ZIQnZlZDZwM2MyVXRXdktuZEFwdUM3Wk9UWTRmTVcwa2dMUGhUSlpyVkVRUUFnNTV4VlRvZzJ2MQ?oc=5",
+    "fuente": "MARCA",
+    "fecha": "2026-10-06T07:04:58+00:00"
+   },
+   {
+    "titulo": "La renuncia a concurrir de Aliança alivia a Junts y la CUP decidirá el sábado",
+    "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWDRXOGZIa1pfR2h0djNFN2dDTkFHS19HLXNFb2xlUFRQUEFnbngtZ0RsVlhnZEhhZERJRDk3ejRHeldPVF9ER0VGWV9oOWU5bnVtNlppdDdsT2xTamJ2Z2FDMDl3OUlKWGFodUU3ZVlwWllTR1NzSm5wTXZpUll0QU4yMml6dEZXUDB3RFhmWEhBS0U0YncwVmx5bkVYZ2JfS0dQYUtZb2kzeHY3cERRbGszbnNVdHlvTmdaU0dsaXl1QdIBwgFBVV95cUxOWDRXOGZIa1pfR2h0djNFN2dDTkFHS19HLXNFb2xlUFRQUEFnbngtZ0RsVlhnZEhhZERJRDk3ejRHeldPVF9ER0VGWV9oOWU5bnVtNlppdDdsT2xTamJ2Z2FDMDl3OUlKWGFodUU3ZVlwWllTR1NzSm5wTXZpUll0QU4yMml6dEZXUDB3RFhmWEhBS0U0YncwVmx5bkVYZ2JfS0dQYUtZb2kzeHY3cERRbGszbnNVdHlvTmdaU0dsaXl1QQ?oc=5",
+    "fuente": "naiz:",
+    "fecha": "2026-10-06T05:48:00+00:00"
+   },
+   {
+    "titulo": "Sánchez decidió adelantar las elecciones al confirmar que Junts tumbaría sus decretos en el Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb0JLaGdKQk9tMm1yMDBJUUxvVW1LcXNlWUxRcDdzZHRlTHZrVkp4Z3NZNnMyUUJzNkdqVnptWWxyZlY1SDl1M3E5Ni1pNEQzMndISVlMYVE0cmp4ODFHak5NQ3AyQU1Cb1cya1c5RHhxX3BUc1BYWTZ4THAzOU1WN2MzRzdUdGZFa3FTQlBOU2pnZDBRd0FnZTQwSXpyRTd2dEhfV1k0cEpsLVRm0gGyAUFVX3lxTFBwczRwbkI3ZDM5S1BINy16eXE4dm5kSEN2anczbGhPb3B3NEcxTTFldFY0ZG4td2Jid0k0VWdTdXozTFNmREQ3UE1HWFNlQ0pGRGpHREpaeWc1SmYzcWctWW9XM0wwZWFHYzBXcmxidjRXa013SEJ2YmxsUU1oajV3VnlaeWZjVFZiR093aDhPclRORGhKTms2NlUyUUFPMkY0NFFhYWh6d1NQc3RzYlZaSWc?oc=5",
+    "fuente": "ESdiario",
+    "fecha": "2026-10-06T05:22:23+00:00"
+   },
+   {
+    "titulo": "Orriols renuncia a Madrid y da oxígeno a Junts",
+    "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMExweTBadVpmV3FiSWFnWko2RlRHSHdDdk1KNmVjZW1kV0Q3WEM4eTd0RndVS21FejBEcnYyMUJHWmJwc2ltZFRWTkZuZklzS3V4Ujl5NFlLOGZVQkFxNndsR2lvcGVDT2xDSzZMN2w2akxKX3FBQ0VZc0tTNlpDSUppZExmZ2loNHlYZw?oc=5",
+    "fuente": "elliberal.cat",
+    "fecha": "2026-10-06T05:06:06+00:00"
+   }
+  ],
+  "Bildu": [
+   {
+    "titulo": "EH Bildu ganó en 2023 en Gipuzkoa mientras que el PSE venció al PNV en Euskadi",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWjFibDNjMkVQMWxVYTFPVG1MbTVYajJEUmZJTEhkOF9KaUEzZ1VfTlFKOTJxYndyckVOdVQ0YWZOaDRVUzRSM2lIRWxnckNadEluV3laOXpDeDRIaDVSbXdJOUlFTWVyeTIyY2tYclc2Wm51SHBNQjZfUEtqSFBRMm9vU0pWLVd0MXl2T0xYU1BLVDZweVFxN2lqVmdRVnBDb2FxU19R0gGmAUFVX3lxTE9aMWJsM2MyRVAxbFVhMU9UbUxtNVhqMkRSZklMSGQ4X0ppQTNnVV9OUUo5MnFid3JyRU51VDRhZk5oNFVTNFIzaUhFbGdyQ1p0SW5XeVo5ekN4NEhoNVJtd0k5SUVNZXJ5MjJja1hyVzZabnVIcE1CNl9QS2pIUFEyb29TSlYtV3QxeXZPTFhTUEtUNnB5UXE3aWpWZ1FWcENvYXFTX1E?oc=5",
+    "fuente": "El Diario Vasco",
+    "fecha": "2026-10-05T21:58:08+00:00"
+   },
+   {
+    "titulo": "Proyección de escaños provincia a provincia 29N2026",
+    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa3VkU29Tam8zMGQ4RTBMakViV3lhMzliSnpPTF9hbTdSOHh0anpiY3hyNFMycGNkdHpHSHBmLVN6UUM4WTUtV0Q0TDc4akVjZGNVTU5SNDVzLU5lQU50WThNeFBoU3piRC05YTQxVHJpazlOM1RMZmNYbW02MU5qdGtnUVBLTjIyNlZxVVZhNXJTOTlNTThEUWlTRU92WFU?oc=5",
+    "fuente": "BilbaoHiria",
+    "fecha": "2026-10-05T18:28:10+00:00"
+   },
+   {
+    "titulo": "Otegi: \"El 'bloque reaccionario' no gobernará si está en manos de EH Bildu\"",
+    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeDJWS3ZIbmZBZWlDMDBIdFpQYXVWOEZ6RVREX3U2bmlPWVFWYzdYSzJyUjJxbkdjd3FEdFV5dmFRamNnVDdidmlrRjN1SHhGcHRSVE9rMnlfYXZ6SlV5LXFsTUh4aW1idjdnWUVFM2MtX1lYWTl0eTQtdldIcC1TdVk4NkE0TEs3dGpyakItT2Z6TE1nODdwNTN5cl94TF81blFEZTV0MGY1MkFHMzRN?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-05T18:20:30+00:00"
+   },
+   {
+    "titulo": "EH Bildu analiza la coyuntura política tras la convocatoria de elecciones",
+    "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdjROZS12NGZqTlNELWlWaU4ydFBtaTFxdXpBQ2ZnenctcmlCU3F0a2ZZWVJmbGhDSWd3YktfQ2NxMkNqV0tKbERVT3R0cU82cnVIZHA2dnpERS1nUlF3UXBLMmdSb1B2SnN3Y1ZDLS00TWpobXZ2UzF5b0FHa01KQVEyWkEzQVAwT3Y1U3JtRDNBQTlXWWdfRkJfdEJPbkh1dEhJc3A3T1FSbjV2bnBhd1RiVUE?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-05T17:52:51+00:00"
+   },
+   {
+    "titulo": "¿Quién ganará las elecciones generales del 29 de noviembre? Esto dicen las últimas encuestas",
+    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMWNkclVwUHJUX1N6S3NLYkJOSUFPcXV0eHlaSkpoNjJiNmhRR0tuVkNQR2sxN0JweWttZmZ4WVZnRFZZRF9XMjRQaXZTSkNOcTY4bzdqN3VHSFBBZXQxcnNkTXNvbTFhSGxDQkxpODljWEh2bmF6eUM3aGdsOEE4aHE4eEU5YVRoWnhTY0RIWEtFUm9Vd0VkRGFSeXJLRkVnRkRLMjBaa1hwUmdGUUtLQzM2aE5ZZTQtSUdIZnFYVTVneWs0a2VjSw?oc=5",
+    "fuente": "ORAIN",
+    "fecha": "2026-10-05T17:24:35+00:00"
+   },
+   {
+    "titulo": "Otegi defiende que el objetivo es \"derrotar al bloque reaccionario\" y que lo van a hacer \"en las urnas\"",
+    "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNSVRJODFuLXRqVG0tZjRUaXV6dWZoSVdYTm0yOWdzRjNRZmtFdWUzV21ucWNSY1hqTndtdlBIYmVxNWVzeGo0LUhpelBkbFlWZTg0Tk1IVER3TFBpTXltRGRqa25iZXQtRzkzdjk0amdGdGtqckpfR1hIeDR1bjhmV2I4b0xRMkQyUThBQk5CVDVLNXpaTE02bVdXZ2dWZHdSUzY5WnNDdExNNVZWNEFkcW55Z3dPOGhKbjUtN1lITlB5UTAxajRQWTc4eTJ1YWI2UW1nT0NWTVF4SzJVc0M1RjZQeUZsSU9Db0llRjM2UjdLYlhHM1cyblIxNENXR3lE0gGAAkFVX3lxTE1JVEk4MW4tdGpUbS1mNFRpdXp1ZmhJV1hObTI5Z3NGM1Fma0V1ZTNXbW5xY1JjWGpOd212UEhiZXE1ZXN4ajQtSGl6UGRsWVZlODROTUhURHdMUGlNeW1EZGprbmJldC1HOTN2OTRqZ0Z0a2pySl9HWEh4NHVuOGZXYjhvTFEyRDJROEFCTkJUNUs1elpMTTZtV1dnZ1Zkd1JTNjlac0N0TE01VlY0QWRxbnlnd084aEpuNS03WUhOUHlRMDFqNFBZNzh5MnVhYjZRbWdPQ1ZNUXhLMlVzQzVGNlB5RmxJT0NvSWVGMzZSN0tiWEczVzJuUjE0Q1dHeUQ?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-10-05T17:22:32+00:00"
+   }
+  ],
+  "PNV": [
+   {
+    "titulo": "El adelanto electoral deja al PNV sin las transferencias a Euskadi o a ERC sin la financiación autonómica",
+    "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZmRiUGk0aExDaEJEcnFnWjJyOHhVWE0xTllWUUNXeEZPenpVd2Y2VkRaLWI2eUgxY202aFdObDhaQ2JfQVN2bTcybEhPQ3BxcUdqT2FadXBtcEN4MzlZVTNFQ0RHNVlxdVY1NFlmMWNqdVJnMVByUEF5TEtGQm1jQnhISVlSR0dBV0E4aURpVUZmd2hrLWFUVDlFRVppb1pwWjNmZmJ1Y2HSAagBQVVfeXFMTVhEZEdpOVhnNGhtWVJsWHZxMVhJRVc5VVlsdmo2QS1DZkMyWHRUN1YwUjRCNkVYMUJ3ZDlHTG1RSFpWdzJDbU4xbk9Ya1hqV2piNElDMEEyM05MVWJjTWxLcDJaUnNzbGRrNnN1MnQtdTFzRFFVdFAwRGw3aXRFUmlfR1NsN2REdGExV1RhRWRHamhCYVJzM0NRV3ZCb2FkRGx3cmxDVFVu?oc=5",
+    "fuente": "elperiodico.com",
+    "fecha": "2026-10-06T04:01:05+00:00"
+   },
+   {
+    "titulo": "¿Qué dice el CIS de Euskadi? Bildu aventaja al PNV y se consolida como referente del nacionalismo vasco",
+    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUEJOYjJTckNWem9IeEFTbDNfcnNpdU9XVkx4dUdBZ2w3RTRDNXdxdC1NWVNPcWVVZDA2MTY5Um1zb1ZpVEkwNUhlZUxJM2xiOHl6ZjM3ZkhYc3o4ZnVWZC1sZHh4TUFDc3JmMFhOcm5QeTJIZlJ4SmNVc3ZaVFhLRW51dVNkdm9XMnBoeXpleTFaeDR1NnBNVTRoWEJiU01lZ3RtVy1CSnZfVlFMSG40dVEzVk95cHEySHlPT2E5TThWbWl2OTNz0gHMAUFVX3lxTE9QMW1YNXJNd0tmYVVjMlZDZkpHZGVtcWFaWUlraFRCQWx2cEhfMEJyNEdsVTRpQ2FhbFp5eUoxSXk1UWpKLVExeDdiQ05EQkdIcjR5Z0lCaEtfZlJVN2xvUXE4ZUZkSzBhcjRWaUlteHRpVkpSc0JJbmFMVzcxMUNrVDlFRldOWnVDWWNyeVRsTWhRS0RQXzJ3d1htcUotRS1QT19SdkRRUk1PQmIyaEFTUm9sSFBjamo4WG53QjBGY2kzRGNUT3FtZjdEVg?oc=5",
+    "fuente": "Crónica Vasca",
+    "fecha": "2026-10-06T03:00:00+00:00"
+   },
+   {
+    "titulo": "EH Bildu ganó en 2023 en Gipuzkoa mientras que el PSE venció al PNV en Euskadi",
+    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeVJBX3E4NWNEX0l4SzA0cGh1Ry1CekRjYzdBUXVoRkFoaVB3ZXEzOFBGaHJJTXQ3T2tXd0FJaXlCU21xekRTck9vUEloX2IyNlNBYmNFUVN4b1U2WVQ4TWQ5MnoxanFra3gwTzVxVU5SLVdOcVRNUFdDXzl0WXhiN1dfY19ZR1ZPcWY5U01MWEdJR19rcmY4VUFUbkVodXd30gGmAUFVX3lxTE9aMWJsM2MyRVAxbFVhMU9UbUxtNVhqMkRSZklMSGQ4X0ppQTNnVV9OUUo5MnFid3JyRU51VDRhZk5oNFVTNFIzaUhFbGdyQ1p0SW5XeVo5ekN4NEhoNVJtd0k5SUVNZXJ5MjJja1hyVzZabnVIcE1CNl9QS2pIUFEyb29TSlYtV3QxeXZPTFhTUEtUNnB5UXE3aWpWZ1FWcENvYXFTX1E?oc=5",
+    "fuente": "El Diario Vasco",
+    "fecha": "2026-10-05T21:58:08+00:00"
+   },
+   {
+    "titulo": "Esteban (PNV): No estamos para defender bloques, sino los intereses de Euskadi",
+    "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1fNXZIMk9qYnlxeFVIaEVZYWtSVG5ENzI4elBlUThrUVcwOVhMZEVySDlGUHhkUGpkR2YxRWxHcG1zMU50YzN4VzZsdEthTW15Q2dYRmhzVTl5NWViY0JhY05PUDVpYjRFa1R5OUxDb3o1T214TzB3UWpUTG0?oc=5",
+    "fuente": "EFE - Agencia de noticias",
+    "fecha": "2026-10-05T20:13:36+00:00"
+   },
+   {
+    "titulo": "EAJ-PNV de Ajangiz reelige a Katia Lavín Olozaga para encabezar su proyecto en las elecciones de 2027",
+    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVUJuUVI3ZGEyUEk0enZRZ2hMd1FDUEVyNjByT0xVcHM2ekpqWFpSci1LX1ozQ2xRaXpkX2dVb2NZdTJ2QzlDNllkanV6WHNOQThmWElQbFdVREpWVWctZFJfeEI0VEV6eW4zZWdEOXZHWkdmWnRvRmZZUGh1YU1lQnV5TEhqUnZocnhfS25xbFdTZ1BkY2JhRA?oc=5",
+    "fuente": "eaj-pnv.eus",
+    "fecha": "2026-10-05T19:09:41+00:00"
+   },
+   {
+    "titulo": "Proyección de escaños provincia a provincia 29N2026",
+    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa3VkU29Tam8zMGQ4RTBMakViV3lhMzliSnpPTF9hbTdSOHh0anpiY3hyNFMycGNkdHpHSHBmLVN6UUM4WTUtV0Q0TDc4akVjZGNVTU5SNDVzLU5lQU50WThNeFBoU3piRC05YTQxVHJpazlOM1RMZmNYbW02MU5qdGtnUVBLTjIyNlZxVVZhNXJTOTlNTThEUWlTRU92WFU?oc=5",
+    "fuente": "BilbaoHiria",
+    "fecha": "2026-10-05T18:28:10+00:00"
+   }
+  ],
+  "BNG": [
+   {
+    "titulo": "El BNG pide que los más de 40 pisos de la Sareb en Silleda se alquilen antes de las elecciones",
+    "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQUVUMDIwcnNSeVVNeVgyWWRIcV9hNFVpb180anZqM1MzQkFQbXM2Zi0zVEdIWUNxTmVCaFRUVVo5elVhZHAtRWVCVktscGRqY29pcTFnSlROV2t5MXZvOVk4d19QaWM2SVBEUjZjSnAxbldUS0xvdzZfa3VINGt0cHYxZ3BCS0tta25pRU9rMHUwZEQ3TElEQ2pKbUfSAaIBQVVfeXFMTnExXzNEaTFZOWpaSWNUUXBQS1ppdmVJREgwdVZyTzdTTmNobGN0dDV4Z1YtSzRnRGlyZFk1WTBlY1cwei1taVJQbl9tY3dwRmthSDZTbWN4UWFyUmVoR0RUZEQzcVFVN3NJMHpTTkdXS2U4dG1sNkV1U0pHTGtCdEZwR1BNX2ZocGFoZkhVYm51dU03WE9wWlZoenlLeS0taVVR?oc=5",
+    "fuente": "Faro de Vigo",
+    "fecha": "2026-10-06T04:01:04+00:00"
+   },
+   {
+    "titulo": "El BNG de Vilalba nombra a Alfonso Baamonde como sustituto de Tino Alvite",
+    "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSVdOSWE4MUpUdXk4U1lYb3RSZDVVU210QUVZVUJTSVA2VDFxMWFlZTNZS3NyaEpHOEhDRzRpSmR2dXZHZjJyTGFQUnh2ekExdGp1eXQwd1gzbzU3US1vLWhwU0hVX29CVi1PV3BJZ0VsWXZXWktsd2RkQW9jeFNnNDBXVTJkUDQ3aWVtdWFUT0ZSSHY5TV92YUlCS2hVeWdDam1xN1VWaHBzTE14UU9hVHdGRTh3M2tnMFpKcHhETWp5T0ZCbjluRHBxSWIzMDR1cTlz0gHTAUFVX3lxTE9JV05JYTgxSlR1eThTWVhvdFJkNVVTbXRBRVlVQlNJUDZUMXExYWVlM1lLc3JoSkc4SENHNGlKZHZ1dkdmMnJMYVBSeHZ6QTF0anV5dDB3WDNvNTdRLW8taHBTSFVfb0JWLU9XcElnRWxZdldaS2x3ZGRBb2N4U2c0MFdVMmRQNDdpZW11YVRPRlJIdjlNX3ZhSUJLaFV5Z0NqbXE3VVZocHNMTXhRT2FUd0ZFOHcza2cwWkpweERNanlPRkJuOW5EcHFJYjMwNHVxOXM?oc=5",
+    "fuente": "El Progreso de Lugo",
+    "fecha": "2026-10-05T18:20:32+00:00"
+   },
+   {
+    "titulo": "El BNG se postula al 29N para «cortar el paso a la amenaza reaccionaria de la derecha ultraespañolista",
+    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPY2U3ZVhORlI4OWdBYk04ZHpfYVRFaXZhcHZzV1Q3V25lQUE3MHR5TEN6czQ2VFQ3dXdvZHlydGE2bWJOekVzLTNqSTB4dzlyYTU4Qm4xVm0zcXg5VkNXeDVqVUpRRm9IZUl1V192c2M5dE5lbko4MEhUUXFUYjdHbzRNZ25DVmdyZ2VMeXJpTS1DLTlwN2Q2a3o5a0JUTm9fQ3k2T1hpR1ZNZFljaEJnZHFiZlY1XzZoQ3J2QTJwU1pnVzN5ejZwendLOVFHUlU?oc=5",
+    "fuente": "VigoÉ",
+    "fecha": "2026-10-05T16:21:36+00:00"
+   },
+   {
+    "titulo": "Pontevedra concentra la pelea por el escaño más abierto del 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVG0tZzkwTVRKbXJndUo3OVFyTEw2TkhhWkN2Zy1hbk9OSWFMSEthM0hWVVQ1LUdnS3dPTEVrRG01QXo0NDRVNFBOdC1YQWJuZWQ2YURES18xRzZnVk9TcGZrSUlTNU5QU3l4WDN6VWF1X2Q3Y2FESkU2aGNTX1Jpczg3QXpTakJzT2NvTWdUbHU3UDhKQmRHRzJKNWgxUk1EMEs00gGoAUFVX3lxTE5Del91bTMzeG1sWGdIdGJldUlTZGJNdXRFbi0zWWFNZExlWE4tNlZKT0R3SlIzYTFhUmZaaGVWSU13RjRKZ1RZMzdFNjJRcTFPOWZuZUFLYXEyWExGbUZ1ckRBWUg0cHk5bURxSUt6Q2N1ZS0ySGxYS1NCdnlETDZ6YmlQUUpRZExrRS0yaFNlYnVVZnRoTDd5Z0RrMFE5MzMxRE9sck5yTw?oc=5",
+    "fuente": "Faro de Vigo",
+    "fecha": "2026-10-05T15:30:36+00:00"
+   },
+   {
+    "titulo": "Barómetro de Sondaxe: El PP y el BNG subirían un escaño en Galicia en las elecciones generales",
+    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWDJMWjcydFVYTm5kRUF3cXl6MFE5ZWg0RkdLM0xKbENxTVVoNkxPd05mX2ExNE9vbmNjRnZhU3l2RDRUaEowdmNtOHVuTk5vNk5zNG9qUFJodC1tMHU3MkgwZUMtSEI2YVhuSkR2VERiNUJaOU5FelVENmc1TlFwT3FCLUp4YWJ1TVhIaG5WU2QyQVBGM09uRDJSbk1qb0hKWlRFT1JVRDI3dDlzc0VHLWlCWVZLSUN0WEFybURmSF9FY1BNQ2xPUXg5UHA5NUJmQ0JFeDE5UmlmOWw0Qmc?oc=5",
+    "fuente": "La Voz de Galicia",
+    "fecha": "2026-10-05T14:04:32+00:00"
+   },
+   {
+    "titulo": "El PP ve el adelanto electoral la \"mejor noticia\" para Vigo y el BNG cree que es una \"oportunidad\"",
+    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeTh6NHdFUXlLSzhvaGQ2Uy1ubG9vd0JiZ2JpUjhwRUFfM1UzYTh3OEdZUUlTZl9NNm0xOVZEZU5ONTZRSXJQclVucW1rT2d1NVp2Y1huY2hzYTFxRUVsUTBfZUR5QlpleDl3cExYbTFJNVdGNnFXUFN6a2c4S3hkYWROaHRmU1BaRlVETHNRUUtkV1Q1RTdab0pMUFl6YjZTZnlEZnc0ZUFsZm5ybGUxMloyeFlzREtWc0R1UERTbm1pQlA2Wk1yUNIBzgFBVV95cUxNYXJPd3kzc0tJel9sN3lFNTVVeUg4YnNLYmJ0YS01bU05M3pHbnRNcmk1eFpUNWF6Mjg0SmlXZTNfaFROYU9GNjV5ampjemNQN1hPRnRKeUJ1WC1HTG1maTFpeHc3bDFrdy1aVl93SDFfSjJ6QzVIeUFwY0JhOE5EanFUd3ZKWEtrRFBjRktQVEI5Zl85UUtuX19LbmdIWlM4VzhRM2FFRHZOeERXeGdkYkFXRGZzNmRQelFwZmUwWERkaE1HSkpHT0l4emtNdw?oc=5",
+    "fuente": "Metropolitano.gal",
+    "fecha": "2026-10-05T13:10:44+00:00"
+   }
+  ],
+  "CCa": [
+   {
+    "titulo": "Coalición Canaria apremia a cerrar la unidad nacionalista ante las elecciones generales",
+    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQmpXdjYxc2w3VGh0dFNOeDBaX0hwLTRDTEFiZGUwd1NMWVJ1MUdXendMOW1oZUdJQnpsT0dGUnVjYkpzc2hjS2lmM21KQmROSTRXOWU3WXdtRnFpekc5RUJ2OWh5SHptQU41aXRxal9MbUV2eGc2X1hSc3gtNU5LQk1rTFhJaEhvamRkcV9zRGljajlrUEkyY0xWTUhoRVU1R3NfeUF2THk4OUZPeTI3a2Y5NmI4X2J2SXVOQ3M2YWx0SXJlOTRGV05ZVDVfM1BkQVpNSw?oc=5",
+    "fuente": "El Espejo Canario",
+    "fecha": "2026-10-06T08:09:56+00:00"
+   },
+   {
+    "titulo": "La Agenda Canaria, tres años después: 25 compromisos, avances y asuntos pendiente",
+    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNT0pReUVVZGJycVo3SDh2WE5rNmd6Q1lLT2ZYTDF0OEMzRHpub2p2OU1HUFBZYUdac3RZdzU0MzlpVVRNdnNRdVZfOTlEaUs0THBJSGZmYy15bF8xTDVseWNzMWx2TmtOVmR1TFM4NUMyMHZFY25Iam1KM3JXaGdJM2ZBclRRWkJsYXNjZ0RHMW55OFE3NlFKQVRaMnRKdm5LOTNUNXFldmg2cXIxeHl3ZjdQSnl1REsydWV2VGduM2dtbXFRdTZZ?oc=5",
+    "fuente": "Atlántico Hoy",
+    "fecha": "2026-10-06T04:00:00+00:00"
+   },
+   {
+    "titulo": "Alfonso Cabello y Patricia León serán los candidatos de CC al Senado en las generales",
+    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNYnpkWHFqMWpQVng1cVVuQUUzRDFCOUQ1TGlMWjhfOVAzNTFaSmh5TzNGWldmOXBULW9uYXktREo4UlBiUGVDaTNSc2dyWnhudWtBLU1oeHI2TnJnQ1dsbnBINm9BQW53TERVcjFnNGZOTGNxMngzamFMYk1ER0VFdTdlblF4bjNOVjJaMlFkemxNcW1QVGI3RUFpUGtLcXVEWFZvM0lrbXFXcjYyZnlWblh5QWhuM0xFNWtsR1p5RTk0U2hTTmdhRkZ2YUVyY2gxZXRSNFB1aWhCanBIYWU40gHqAUFVX3lxTE9NSFBGeUNnN0VnVG51bEFZcVNWaXVVb0RIVkdOaFNtVTdFOFpWRGQ1RFpVNVhTUE13Q0x6OXF2VnRWS0tqNFN4YnhGNl9HeWpoWFFCaEpwZ0Q0d3dUVXhOeVhaZjdLYlh1c05DbGVjaHVLblU5YWNIQ3pzOUhQdXRjSDR6RXk4OUYzRTdQRy1hRWU1SVN2aUIxR1dXaFFCWkpGZW5BUjRTTzJySFVEVE1GT01wMG53OVBtZlEwQ1I4ekN4cG9vM0d6TTZHcGNVNjNmRVphNUpuY1NjSmVCdmpBZ2oweWxhTHJxQQ?oc=5",
+    "fuente": "Libertad Digital",
+    "fecha": "2026-10-05T21:00:36+00:00"
+   },
+   {
+    "titulo": "Drago Canarias convocará un Secretariado Nacional para abordar las próximas elecciones generales",
+    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLTYzbVRiV0haLWo5NVJjd3UwVl9TY21TVFlQckJYOHphUjVwSUFreTdMbnU3TEtlTTJxY0V1b0RTX0tJcWxUdU9CN1BGeUZoREQzck4wUm1xdnFGcDB3Z1hhX1BOaFg4TVZTU3VQZkN1NzFSbkptVkE1MldHd1M2T1RRM3p2UGN0SFdLaTM2b2lGWUVET0ctUlMxSk54VDRsUnlneFNCLUEzcUNIeXZGcDBTS0FobTE2bDluSVJ6bW92Uk9NeGc?oc=5",
+    "fuente": "elpaiscanario.com",
+    "fecha": "2026-10-05T20:40:58+00:00"
+   },
+   {
+    "titulo": "La valla ya estaba ahí: ¿decisión de Coalición Canaria o apuesta personal por Pablo Rodríguez?",
+    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUlVsYXVCS3dwNF9odkJaYThFQmFOMjNyNkdSb2NnRkZrekZCM2c3bGdIblFyYmJOMlhnNmt5NXEtUk93SThBZDJUVDJLa243c2thWHpLc0NxMm8xSXZOUXJINDNpcl8zN21PeFJFMFIyenM0emJoN3dMejNORXdJN0cyV19DOV9vLXJ6QkZza05uY1JMWEdrY2tTdWNvNVJZVEQ3NkJPWUNiR3ZLRTFRWm04X21UMU1LRmpIag?oc=5",
+    "fuente": "detelde.es",
+    "fecha": "2026-10-05T20:08:11+00:00"
+   },
+   {
+    "titulo": "Cristina Valido, candidata de CC al Congreso: el plan para un grupo propio canario",
+    "enlace": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UZ2xaVS1NaElLQnl1bFpWWUNVMExTT08zUDBOMjUtdHpmSjZhYmRXUFZqQkxXVmd3ZkxmOWVwdVpJOTFDMlBMMVhUQkZtOGFtMDJPNnJvV2w2QUs5b3BjSG4yQ1lNQ1FTN0dwbFFR?oc=5",
+    "fuente": "Canarias en Pleno",
+    "fecha": "2026-10-05T19:50:35+00:00"
+   }
+  ],
+  "UPN": [
+   {
+    "titulo": "Cambio de caras y de alianzas en las próximas elecciones generales en Navarra",
+    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdkR5OVZzUGpudGwxX0JITHNkSlM4bklYWU9ETUFrNTJVeVpLMmRUZXZBZG5IOXd1aDRIWVlSRWo3SnlmeGNRN2Y4a1hOTF93WnMwNVRXRmpkTjcxWWFVRnhKMmg4djRremNYbS1yZ3kzd1BSS2JSTXlnRXdhZjZEc2hwRkNHYThvdzBldHBHTjVDY1RjeUhERjVuQnBzckRYOC1JLWJ3TzhUdUVTWWJVQ0RrWEl6d0xyeEoxekdwS2pQXzBpc0NOeW43cFB5QQ?oc=5",
+    "fuente": "Diario de Navarra",
+    "fecha": "2026-10-06T03:00:00+00:00"
+   },
+   {
+    "titulo": "Cristina Ibarrola insiste en que bloquearía una mayoría de PP, UPN y VOX",
+    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWE5ucEE5ejV2UndzTFRNd1RGeWlyS3NhYkdqWFRtZWF0WjJ4YnhZRVlRb1BmZmkxMktsUGhOMVpkVVpYei12bDVzRGtNblBMX2JscEQ0YmlQUFRNcTBiWlBxb0NkQ0Fjd0VPaUlta205bVVBa1YwSGx2a0JMS0FFUHF2aWNtd29LQTlrRVZ6dUE5OVhWS2RuSGs5SHoxSmpEUTNyUHg0LXlSSVhEU2pYbUdfLTN6R3M?oc=5",
+    "fuente": "Navarra Confidencial",
+    "fecha": "2026-10-05T21:55:46+00:00"
+   },
+   {
+    "titulo": "Unzu: “El 29N la ciudadanía elegirá entre avanzar en derechos y progreso o el sálvese quien pueda que representan UPN, PP y Vox” — Partido Socialista de Navarra",
+    "enlace": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM1laT2J5SGp3d2FaSko5cExCNUdPSzVZWmN1VWVFSzNxeXZGMy1PcVk0RnJJQ25fbkJLbFVTdzRZYVNHNVM4YVdsVVFKYmZVYzF4c1hMbmpJMDFUdkZkQTRWaW9zSUF4ekp6YWdpYW1HMFdJbDQ0Y2tDWm44QzgySw?oc=5",
+    "fuente": "PSN-PSOE",
+    "fecha": "2026-10-05T21:37:36+00:00"
+   },
+   {
+    "titulo": "Los partidos vascos dicen estar \"preparados\" para las elecciones tras la convocatoria de Sánchez",
+    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUnFjNDM0UDgyaVhYcGF6aFFWVGpfU0VuTXVySkJXcTRUdDdWS01XN1g2T3RXTDZjQXF5RHJ0TlBxbHpnY0xzUWFDWWFFblJSTGY1RU1INTFYSXdNTUQ5bTVmdlJ4bzZCU2VHUF9kb09hVEZweUNmYTBJS1VHcHZTSEFBQ1Y0TURUOXcydWhYcGEtUC11elQ3Tmt0NmkydXVibDNvVko5QzRCZGZhcGhKeEw3S1BaWHdKdk1rXzFYbDkwNm5xMXN3?oc=5",
+    "fuente": "ORAIN",
+    "fecha": "2026-10-05T19:28:45+00:00"
+   },
+   {
+    "titulo": "Las claves de las elecciones generales del 29 de noviembre: fechas, calendario y qué pasa ahora",
+    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdE9VM1BSQk56LXNRLTB3TkFrNzNtcUFzb1lBcmRoRlhScmJoTFUzbGdwUVpBMG1tS3o0QTJIdUZYTlJiSzh4U1I4V2dQY0lBRnFqdHU1YWtWVldDVkd2VWVzUTJxVjZjMXc3c0d5bWZhblVTTG43NkRvN2xUT0RZdTFSYndhRklvd3RvdEZqUnY4cXd3Nl9RdWFlN2NFeHJCN2YzWUJRNW00TTBZN1BQUXVqSFJnM2l2dlloWFpLdlZ2WG5DZFo2a3RB?oc=5",
+    "fuente": "La Voz de Ibiza",
+    "fecha": "2026-10-05T19:28:05+00:00"
+   },
+   {
+    "titulo": "Pedro Sánchez adelantó las elecciones generales en España tras el fracaso de sus leyes de vivienda",
+    "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQSUxhbTd5WER2aWsyeHlpU2tKcXlaLW93NF9hZjgtT1h1VWQ0UlV5cWtseE5leHA5WUExR3NIX2NMLXRwR2lrTVdYVWREVHB4dWpFZ3RnemI5QWI3SEdBX3BsVWlYWnUxZWRUOEJHSzFVY09RZS1Ec1RSWTVnWFBJbnZiaXBOQUlESjlQNkhQNGpRZzZiMXl2MFBjMjQzZV9oMFJ3VkxWclFneUtjVm1YbXV0WmlZcG1VODF0eHU2MjZQdkN2SVZ0RldoalRscjBsYmhrZ0hjMjJsc2hjYzBjTEVKSFBKMEhBaVA1UG1hczB4cFlaOFNrSHd3aFlFTmdiaXF6c05ZY0duTGxU?oc=5",
+    "fuente": "Diario Neuquino",
+    "fecha": "2026-10-05T18:21:48+00:00"
+   }
+  ],
+  "AC": [
+   {
+    "titulo": "Orriols renuncia a Madrid y da oxígeno a Junts",
+    "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMExweTBadVpmV3FiSWFnWko2RlRHSHdDdk1KNmVjZW1kV0Q3WEM4eTd0RndVS21FejBEcnYyMUJHWmJwc2ltZFRWTkZuZklzS3V4Ujl5NFlLOGZVQkFxNndsR2lvcGVDT2xDSzZMN2w2akxKX3FBQ0VZc0tTNlpDSUppZExmZ2loNHlYZw?oc=5",
+    "fuente": "elliberal.cat",
+    "fecha": "2026-10-06T05:06:06+00:00"
+   },
+   {
+    "titulo": "Lluis Orriols apunta cuánto puede cambiar el porcentaje de voto en una campaña electoral: \"No podemos hablar de grandes vuelcos\"",
+    "enlace": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZzB4UDlaeXBBbnJPLUZtd1dCbG8wUEdkaFlreE14MGN0UmFBd1BnU1pfdF80MWpwMzVBTFBaaE01WmhEbllvWHlmSHIyU2oyd3g5TUlFcmg4TzZGZjhZQXpyZjd2dU1XSkZkRVBxcjJfY29UN29Lc3N5NU5Zd1duN2Q4RlBFcFVPXzdtYVg1Sm90VmJ0MGpKcWFKaDZ6T3FvQ2U1TmtVN19JanNsR1FsNFBXeGRBS252cERzUTY0VnBuTTZsb1YyVXhqa0RzbFlhUmxMQXVWb2pfSHdxWURvX1MzRnNfWjFua1EtRUJ4YVVxUHEzYjFCd3lqYU9jRFh1STQ1N19tV2d0THhpaUR5ci1LSTJGWnJC0gGYAkFVX3lxTFBJUmVMNzh6cWZydFdLWi16a3FpUVB6NzBNMVItNF84ejMwZm9WbVMxUy0zSl9MLVdYbEtPYnNHNk1oTGdRX1paWnFtTDFIbUpGUFZjTUJLajJkZXFFSlJwMlMyeGFBUjFRcXdHTkJzVjRGLUVxQlA1SFpsc1k5ZGVKSWZIMnhoYVJUWGxnZ0FrLWFud0stVVdyaUN2M3dhaWNyNzVZX0J6eGk4dDZlTEptWTRkdlZsQ1p5ek84U0hDUVowdDl4N044QkNuci11WFpiUUxqc2EwMVJHUHU1RGtBbGJfVTZxeW1heHZuMVI1VEgzQkdBem5GTVU0NGZqTS1IdVNiMDNucXpubEZtNDhxdlN3d3ozYk0?oc=5",
+    "fuente": "Onda Cero Radio",
+    "fecha": "2026-10-06T04:25:13+00:00"
+   },
+   {
+    "titulo": "Aliança Catalana no se presentará a las elecciones generales: \"Que dice que hacen elecciones en España. Cuando las hagan en Catalunya me avisáis\"",
+    "enlace": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNOU1CZWNiS2FYbjBBXzVWalRjeEozd1NodHE1Vm9oaUdHbzF0T3F6UmM2RFdNM25fXzRlLXRpVGV2cG9KRmZrMllpWkFQN2xtbEpuaHROYVd5M2hra0w3aXhYVlB6VjlyNWcwWFNXZzNZOU9wVnhSQmh6WVJlX2dNWVV6RHg3SFFCXzJVR2lCOU1YMnR5UjcyOTU2VjJQOW1kMzZOWTlpUlI3TjhJbkJ4X3NoVG40eE9VUzZfcl9nVlJ0V29ldmhwS2xGMjEtZjhCYVFYaEowNWpFMEEtV0JxWklLQ2t1SlBjWVA1TVdBZ0dmS2ZNLWN4UW5xa2hjV3BPTmotNVV2ODhGZEt2U2wweHhJa9IBmAJBVV95cUxOeXdEZGRES1VFSk1nUHRwckFyOVJiN1c0cEJERVRCc21SeFFvb0taaGJiaTl4ejRhX0o5RmFyNU9HT0JZMV9UcEtZNDBDZXo3YVVrYnVQS3lWbnJmWFZLNWNrcWFmbjR0OGJEQi04c1h3MXduZ1dQRlJYd2JUNENpX05NVjJqcVNnNS03MDloYW50S1IyZVdEZE95VmFYOWV5ODFTZ3JTVkM3S3pEaXduak1UQkxJdVV5TFRjVEJZcmVPSkJkc2Vpb2tvQkhPb3VzT0pFN0VCMmVHVnlQNFpPaTZ5dGZGNDhnZDBCajEzOGhTQmlvSW9jbDhSTmx0RWpjTzlxSlZRUUVzTWJFdm55dEs1RjUyNVh5?oc=5",
+    "fuente": "Diario Red",
+    "fecha": "2026-10-06T04:00:00+00:00"
+   },
+   {
+    "titulo": "Las bases de Aliança reabren el debate sobre si deben presentarse a las generales",
+    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTTUtLXNjTkJ6WXNlRnowTDRMUW5IdVdGYmtpX2h4UEZXOHJnUG4wOGRYelNOcV90ZTl3YUZSY0tzSEdZbkRPaGwzQ3Z2NXhKTEtFSnRvV2FONXJwYUFJY2c4bEI2V2MxWDZlRHhWZ2dUOUJlc29KYUVpeXpJR2VLQkN6S2JSWmUzM2k4UVlfTjdtRndoOHd1UmxLTkNGNE9VYU1YSVkxLU9mQmJHN1V1VWR6TVM3dVFTU1JlR2djMXpyN21qYnZVZXUyOV8zOUVw0gHQAUFVX3lxTE5NNS0tc2NOQnpZc2VGejBMNExRbkh1V0Zia2lfaHhQRlc4cmdQbjA4ZFh6U05xX3RlOXdhRlJjS3NIR1luRE9obDNDdnY1eEpMS0VKdG9XYU41cnBhQUljZzhsQjZXYzFYNmVEeFZnZ1Q5QmVzb0phRWl5eklHZUtCQ3pLYlJaZTMzaThRWV9ON21Gd2g4d3VSbEtOQ0Y0T1VhTVhJWTEtT2ZCYkc3VXVVZHpNUzd1UVNTUmVHZ2MxenI3bWpidlVldTI5XzM5RXA?oc=5",
+    "fuente": "cronicaglobal.elespanol.com",
+    "fecha": "2026-10-06T04:00:00+00:00"
+   },
+   {
+    "titulo": "Lluis Orriols apunta a la desmovilización de la izquierda ante las elecciones: \"Dobla a lo que encontramos en el espacio de la derecha\" - Entrevistas de La Brújula - La Brújula",
+    "enlace": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQMW5ZLXlfTW9CbTdRZTJOT1k1eXRjMUE2eVB3cUh5Sjd0bEFLaGRITjRjR0cwWUJBNkZXRWJpZGh5SndZd2NYUHdkeVd1NWxSMjVZWGgzZ1NRcklUTTBiYmVwU1hpMzVzQVN2U3FLc0E0TmZ6cjRnSWlMamFXVjFleEdSU3R5bFlyYWI5YXI1VjVFT2g2N0gyZDhXLUVBN2pMbUtWNXFESHlmVW4tcXE2TUlMQVdKN3A2dXJmWUYtQnh6a3V3aTVDTkx3azdMcm9GZk80OXBpaWtuNEs5cXhfZERzMHItQmtZNWtwcW1oVDc5dFVMLTJ3SWMzb0g2a2NMV0dKdjE5UVRfN3RqS0RfaldrNmQ0WFVveFFZSG5zNlNjbDBYZDlZaDNzeDMwYU0?oc=5",
+    "fuente": "Onda Cero Radio",
+    "fecha": "2026-10-06T00:53:47+00:00"
+   },
+   {
+    "titulo": "Sílvia Orriols decide que Aliança Catalana no presente listas el 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaFZjdXNxcHJuTnVFY09zdS1mcWw3SnJjblM1b0JfNnJHNEJqTVhDT2ZOaklXeXF3LWlYTGhzdTU4ak1EdndYNnRnT2J6cDRzcVBBN3JsNzdSbldsS3d4QXdnSDFySlZVNmxYMVFzb3hUQlZERVF1c29aZkVsLWpNdU5zNVBDZlZoZWVXN3FrMWl1TXVDRy1FRy1JNmJVSGJVR043RzlCZ3JNNTBIcnfSAbMBQVVfeXFMTzNMT2xhWlJaMVNMUU9DOEJSaUl1dl83eVpUcjgtTXMzcnZ1WXN5eTBhMi1sM1lLX3M5c0hJMVlObjhFN1VHMzAwb3BQTktHdnNKaW9zRkxOd3FLNzE1cHlZSXEwelF3UDdpWmE0Zlotc2YyRktWTHk2Qi16OWtvQmktcVdLUmxsc1NtOEpkWi1JTExhekcwb2NZSlBxaW9QSllwcHpIYlI5Q1RCVVlacWVNTEU?oc=5",
+    "fuente": "El Triangle",
+    "fecha": "2026-10-05T21:20:51+00:00"
+   }
+  ]
+ },
+ "verificaciones": {
+  "PP": [
+   {
+    "titulo": "La Buloteca",
+    "enlace": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE50Mmt3UVZEVGg1dVJxZ2h5cFhNTVFCZVBVc3NWLXBwdXdjNk9BZHJjbk45d0p6d3Q4Ul9ZMFNjVjc3UQ?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-05T23:23:31+00:00"
+   },
+   {
+    "titulo": "¿«Feijóo no subirá las pensiones según suba el IPC del año»? · La Buloteca",
+    "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTlBsaTZFOF9xb2lsNW9zYlRDd0pqOXBCbzJkekVUVmhKa3lnajNhbFlJU21VQk5DUndXZlRYUUZmblJqaUcybC01NmdRS3VjVE9wLUpBeDl5ZmNRUElQbTV3dlh5RGpPZzdYSjNoQ3dxdE5zLUpGTG54UHVYUmI2WkZnVkRpYUd0dGl6d0hIYkhOSUll?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-05T15:38:57+00:00"
+   },
+   {
+    "titulo": "Cuando Sánchez decía que las elecciones serían en 2027",
+    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUDZNVERITEw1WFM2eUVha1NVUFJVc2s0aFQyNkR0Qll0Q3NQR0lucnl1TUZBSXI2VGhDeDFJWmVnQUJNV0Fkeko1UlU0bUgzTktlNjVhaGh1Rzl5QnVOZkNWM2dFR21ibjFuMmdfUzNSMWJTQWR6R2x4UlhUWVpfbmUwbEJkMzRvZ1lVTFFkNnludUZ6SVkySzlVQQ?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-05T09:01:06+00:00"
+   },
+   {
+    "titulo": "‘La Razón’ no ha publicado una encuesta electoral que otorga al PSOE la mayoría absoluta tras las protestas por la vivienda",
+    "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1XYklZYzE4ZG5SY3MyWExKNmJPblpQSjdDaUdyYml5RFJQa2FmdUZVZDVHby14NXcxZ19wbHVJUVlURXRBdVZmX2Jkeno0RjZxNXRnbUt2T1JRaUNpdVoteG90QzRoN2l6QlJqTlBRa0VBX0xyemd1SU8wTHI?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-03T18:38:35+00:00"
+   }
+  ],
+  "PSOE": [
+   {
+    "titulo": "La Buloteca",
+    "enlace": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE50Mmt3UVZEVGg1dVJxZ2h5cFhNTVFCZVBVc3NWLXBwdXdjNk9BZHJjbk45d0p6d3Q4Ul9ZMFNjVjc3UQ?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-05T23:23:31+00:00"
+   },
+   {
+    "titulo": "El Gobierno no entra en funciones hasta que se celebran las elecciones: qué implica y cómo funciona este proceso",
+    "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5FVkx3bDk1ZVdydmF5Q2Z6UW81dWJ3cVJDUERVOG9TV1N6am1NS0FSWGpkbG1MVktPa1RrallWMXhOcXZaZVo4VkpPa3o2bGVDSzVzNE12VXVvNU1aWUlzLTBpR3M5NHVqOVJuUzdKMllwRThqTnlLZk5GcXE?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T22:15:05+00:00"
+   },
+   {
+    "titulo": "Estas son las fechas clave del calendario electoral tras la convocatoria de elecciones para el 29 de noviembre",
+    "enlace": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ydmdiNXZLelVveVF5UUJhLVpJOWFGc0UyNXJxV1JFdG81QzRnVUtvVTVpdHBFQmJyQy1uT3Q2eUQwdW1VY0dwUlJ5UmxMZTVja0hSSko2TTN0aGFiN1Z0eUxWanpYTXhjTUlfN3QwVXN1UQ?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T19:07:35+00:00"
+   },
+   {
+    "titulo": "Cuando Sánchez prometía presentar los presupuestos en 2026 y agotar la legislatura",
+    "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM0ZpbGZnSmpGQjk2Zlo0VEJBbE9LLTFUNnZoTG5fNjNadmQ2dDVHcUtGdjhXVHdiLTFJYWs4bm85akNEampPZ2hrQUUtU3otcXROdXp1SUxoNVNkc29LS3lUOGZUUHNWQkZtN0s0Xy1sZTZnOFFnbVdqM2xrRlViUnh2aXlUemtL?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T16:02:57+00:00"
+   }
+  ],
+  "Vox": [
+   {
+    "titulo": "La Buloteca",
+    "enlace": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE50Mmt3UVZEVGg1dVJxZ2h5cFhNTVFCZVBVc3NWLXBwdXdjNk9BZHJjbk45d0p6d3Q4Ul9ZMFNjVjc3UQ?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-05T23:23:31+00:00"
+   },
+   {
+    "titulo": "Por qué Podemos representa al Grupo Mixto en la Diputación Permanente",
+    "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51WG14R3NReXlqR3BuRWJTSEVSLWRQVU14ak5HM2NfeW91Q3dzR2Q3dUIwRkdWTUZYTXVjS1pROTFGMmlpVjBKRjliRmdFMjVzQ3lkM1F3R0pVa0NBZXlydTN5MlJLc29xTUl5aXRmcw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T22:15:05+00:00"
+   },
+   {
+    "titulo": "¿Podrán votar los nacionalizados por la ‘ley de nietos’ el 29 de noviembre? Preguntas y (algunas) respuestas",
+    "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaVQ3ZzltT2N0anNKbTBCVWxCdUNNMVlDOTdhUE8xSUFWcVNTdWViNUJJS2szQVM5dXg4ZXRMUmtCRklDTkw2Mlhady02ZUtyc1ExdUlvWWhsUEdOSDBjZ3Zrd0haazN0QXRWQlNpVjlxbGdHMFU1b3lEeUotdzRqMWw1NEdIdEIwbTRNVnVhNzl5clZjeWduUGUxVWlpT3hYcHdv?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T18:16:25+00:00"
+   },
+   {
+    "titulo": "La Diputación Permanente entra en juego: así podría el Gobierno sacar las medidas de vivienda tras la convocatoria electoral",
+    "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ySk5pbVZzSFFzRjJVRk9ZRkZwT0tLUlpaQkhZZ2NIaU95czRHMmxyTS1ZTUlwenp1VExidm5OWExOUXFLenIzN3lFTjhZYTZxcFBJQVRSRDNuMVFvU0ZIb19HM082aGk3SW9XeTV2TTM?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T16:02:36+00:00"
+   }
+  ],
+  "Sumar": [
+   {
+    "titulo": "Por qué Podemos representa al Grupo Mixto en la Diputación Permanente",
+    "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51WG14R3NReXlqR3BuRWJTSEVSLWRQVU14ak5HM2NfeW91Q3dzR2Q3dUIwRkdWTUZYTXVjS1pROTFGMmlpVjBKRjliRmdFMjVzQ3lkM1F3R0pVa0NBZXlydTN5MlJLc29xTUl5aXRmcw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T22:15:05+00:00"
+   },
+   {
+    "titulo": "La Diputación Permanente entra en juego: así podría el Gobierno sacar las medidas de vivienda tras la convocatoria electoral",
+    "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ySk5pbVZzSFFzRjJVRk9ZRkZwT0tLUlpaQkhZZ2NIaU95czRHMmxyTS1ZTUlwenp1VExidm5OWExOUXFLenIzN3lFTjhZYTZxcFBJQVRSRDNuMVFvU0ZIb19HM082aGk3SW9XeTV2TTM?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T16:02:36+00:00"
+   },
+   {
+    "titulo": "Qué es la Diputación Permanente y cuáles son sus funciones",
+    "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hdkVybWxORlpMSlh4UGpRQ0VGSld4QWlJZTh0VHhBT1hhOTUyZTRqMjZOVFp0Mm44a3cxa3FPQW1DMVlBTms0eVh1UDJkdGg3ZkxuRnNlRFRTWlNUb3ZvUnpxSG9kLVZuZEI3UlRKSTF1NUpGUEdhSXFhVFB0dw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T16:02:36+00:00"
+   },
+   {
+    "titulo": "‘La Razón’ no ha publicado una encuesta electoral que otorga al PSOE la mayoría absoluta tras las protestas por la vivienda",
+    "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1XYklZYzE4ZG5SY3MyWExKNmJPblpQSjdDaUdyYml5RFJQa2FmdUZVZDVHby14NXcxZ19wbHVJUVlURXRBdVZmX2Jkeno0RjZxNXRnbUt2T1JRaUNpdVoteG90QzRoN2l6QlJqTlBRa0VBX0xyemd1SU8wTHI?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-03T18:38:35+00:00"
+   }
+  ],
+  "Podemos": [
+   {
+    "titulo": "La Buloteca",
+    "enlace": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE50Mmt3UVZEVGg1dVJxZ2h5cFhNTVFCZVBVc3NWLXBwdXdjNk9BZHJjbk45d0p6d3Q4Ul9ZMFNjVjc3UQ?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-05T23:23:31+00:00"
+   },
+   {
+    "titulo": "Por qué Podemos representa al Grupo Mixto en la Diputación Permanente",
+    "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51WG14R3NReXlqR3BuRWJTSEVSLWRQVU14ak5HM2NfeW91Q3dzR2Q3dUIwRkdWTUZYTXVjS1pROTFGMmlpVjBKRjliRmdFMjVzQ3lkM1F3R0pVa0NBZXlydTN5MlJLc29xTUl5aXRmcw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T22:15:05+00:00"
+   },
+   {
+    "titulo": "El Gobierno no entra en funciones hasta que se celebran las elecciones: qué implica y cómo funciona este proceso",
+    "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5FVkx3bDk1ZVdydmF5Q2Z6UW81dWJ3cVJDUERVOG9TV1N6am1NS0FSWGpkbG1MVktPa1RrallWMXhOcXZaZVo4VkpPa3o2bGVDSzVzNE12VXVvNU1aWUlzLTBpR3M5NHVqOVJuUzdKMllwRThqTnlLZk5GcXE?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T22:15:05+00:00"
+   },
+   {
+    "titulo": "Estas son las fechas clave del calendario electoral tras la convocatoria de elecciones para el 29 de noviembre",
+    "enlace": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ydmdiNXZLelVveVF5UUJhLVpJOWFGc0UyNXJxV1JFdG81QzRnVUtvVTVpdHBFQmJyQy1uT3Q2eUQwdW1VY0dwUlJ5UmxMZTVja0hSSko2TTN0aGFiN1Z0eUxWanpYTXhjTUlfN3QwVXN1UQ?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T19:07:35+00:00"
+   }
+  ],
+  "SALF": [
+   {
+    "titulo": "La Buloteca",
+    "enlace": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE50Mmt3UVZEVGg1dVJxZ2h5cFhNTVFCZVBVc3NWLXBwdXdjNk9BZHJjbk45d0p6d3Q4Ul9ZMFNjVjc3UQ?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-05T23:23:31+00:00"
+   },
+   {
+    "titulo": "No, la DGT no \"ha dado luz verde\" a eliminar el uso obligatorio de la baliza V16 a partir del 1 de octubre: la reforma del reglamento de circulación que entra en vigor ese día no lo menciona",
+    "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMnY4Qzh2blJKVzdUNndxNllmdGdSVXdnLUdhSVVjQkdHajFfQjRNMEdodkpmRTI4bFF6ZlRsVk5kbGMyaEZTeG9POUVLc2lTaWIzMG5YV3p6WjFPbzZNcTJ2aHVQM21kVXNZWVZEbkF0S1RVSEZDOTNsMGJiVVpPUUNHYmpGRWlabWU2bkI1Qkg4Rnc?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-09-23T07:00:00+00:00"
+   },
+   {
+    "titulo": "Artículos etiquetados con policía·Maldita.es - Periodismo para que no te la cuelen",
+    "enlace": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5CUlZiRm9rYm40WDJVbGtyN0dnMXpFMmhMTDdxbE9hZkVsYU9xV0tYV1JjOHk3VXkwaDBvUGtRV2RGSlFC?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2020-12-28T13:55:22+00:00"
+   },
+   {
+    "titulo": "Maldito Bulo·Maldita.es - Periodismo para que no te la cuelen",
+    "enlace": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5xT0Jfamx0aTFVdjlRMGxHMVJqYTRYTDFUanFSTkgwYzFrNXBfeDBFelhwNTI0cEhlZ1k4ZW1VdFJOMnpTZWc?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2017-12-14T07:41:48+00:00"
+   }
+  ],
+  "ERC": [
+   {
+    "titulo": "La Diputación Permanente entra en juego: así podría el Gobierno sacar las medidas de vivienda tras la convocatoria electoral",
+    "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ySk5pbVZzSFFzRjJVRk9ZRkZwT0tLUlpaQkhZZ2NIaU95czRHMmxyTS1ZTUlwenp1VExidm5OWExOUXFLenIzN3lFTjhZYTZxcFBJQVRSRDNuMVFvU0ZIb19HM082aGk3SW9XeTV2TTM?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T16:02:36+00:00"
+   },
+   {
+    "titulo": "Qué es la Diputación Permanente y cuáles son sus funciones",
+    "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hdkVybWxORlpMSlh4UGpRQ0VGSld4QWlJZTh0VHhBT1hhOTUyZTRqMjZOVFp0Mm44a3cxa3FPQW1DMVlBTms0eVh1UDJkdGg3ZkxuRnNlRFRTWlNUb3ZvUnpxSG9kLVZuZEI3UlRKSTF1NUpGUEdhSXFhVFB0dw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T16:02:36+00:00"
+   },
+   {
+    "titulo": "Verificación: repasamos con datos y contexto las declaraciones de los diputados en el pleno de vivienda",
+    "enlace": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5la1pZOW5kOUNaTDBmZVdYRlhVWWhpRnJEQ0Z1TFQ1dWtRaWxEUXg5MTdqNGlwWFVTNDhrUmRLOENuVm9rUTVEUkRrcEt3NE1zTTZ1aVVPQjRwaGlNTUV0WWRJMHJJY1MzSGJCTkYyZTgxQmhf?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-02T11:33:57+00:00"
+   },
+   {
+    "titulo": "La protección contra los desahucios y las prórrogas automáticas del alquiler, en juego este viernes en el Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sbXZUUzJtMV9HZ0lleTBRc3lNdDZOeW1tTEtyckMyUlVtWDdiOF9pVkplU1U3b0JTVEpkR1RQY0NiZGFBWnNkLTgyYWlTTXhBQWFpS1NpdTN1empWdW5IRGZQczBhMGp6TWU1MmZrRjU2X3JVNG9QZFdR?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-01T09:52:47+00:00"
+   }
+  ],
+  "Junts": [
+   {
+    "titulo": "Por qué Podemos representa al Grupo Mixto en la Diputación Permanente",
+    "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51WG14R3NReXlqR3BuRWJTSEVSLWRQVU14ak5HM2NfeW91Q3dzR2Q3dUIwRkdWTUZYTXVjS1pROTFGMmlpVjBKRjliRmdFMjVzQ3lkM1F3R0pVa0NBZXlydTN5MlJLc29xTUl5aXRmcw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T22:15:05+00:00"
+   },
+   {
+    "titulo": "La Diputación Permanente entra en juego: así podría el Gobierno sacar las medidas de vivienda tras la convocatoria electoral",
+    "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ySk5pbVZzSFFzRjJVRk9ZRkZwT0tLUlpaQkhZZ2NIaU95czRHMmxyTS1ZTUlwenp1VExidm5OWExOUXFLenIzN3lFTjhZYTZxcFBJQVRSRDNuMVFvU0ZIb19HM082aGk3SW9XeTV2TTM?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T16:02:36+00:00"
+   },
+   {
+    "titulo": "Qué es la Diputación Permanente y cuáles son sus funciones",
+    "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hdkVybWxORlpMSlh4UGpRQ0VGSld4QWlJZTh0VHhBT1hhOTUyZTRqMjZOVFp0Mm44a3cxa3FPQW1DMVlBTms0eVh1UDJkdGg3ZkxuRnNlRFRTWlNUb3ZvUnpxSG9kLVZuZEI3UlRKSTF1NUpGUEdhSXFhVFB0dw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T16:02:36+00:00"
+   },
+   {
+    "titulo": "Qué implica el rechazo del Congreso a los reales decretos ley de protección al desahucio y de prórroga del alquiler",
+    "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUnR2M0V4aGFNQXZOV19FQmNSaVpjQk1TcURfS0VwVjB0cGVIS1d4RzRiRVRQTWxLbExYelZEY1N6Rng1NzlYM09Jb1ZBbmpINC1JZFNxc0RnOHBONkpvNkt5Y2xvYldkOHBSSXN2akFldk9MOV9YZXBLbHRCQ20xelRuZWgtSTZnTFY1MEJPbXBQcHc?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-02T14:02:23+00:00"
+   }
+  ],
+  "Bildu": [
+   {
+    "titulo": "Qué es la Diputación Permanente y cuáles son sus funciones",
+    "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hdkVybWxORlpMSlh4UGpRQ0VGSld4QWlJZTh0VHhBT1hhOTUyZTRqMjZOVFp0Mm44a3cxa3FPQW1DMVlBTms0eVh1UDJkdGg3ZkxuRnNlRFRTWlNUb3ZvUnpxSG9kLVZuZEI3UlRKSTF1NUpGUEdhSXFhVFB0dw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T16:02:36+00:00"
+   },
+   {
+    "titulo": "¿«Bildu ha coordinado el movimiento de kale borroka de La Puerta del Sol»? · La Buloteca",
+    "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZDhjRDZjSVlnaW12MWlyUWVKWEZOMWZCVDR5emhnQUNwVk8wVmt5NDV5ZGNHVzdseFFtcEtmb3N1bzMxcmxNbTdIbEpIWkJ0dEo4d3dvdjdkMloycHhLTndXWEFKRENVS0VrTmdRRHQ5MHh3MGZkZnJOSTZSVEtJZ1Zmd0pBYmZ4dlJ3NWVZNnh0c29kUFM1VDAyRHBtNmZ3dEFfWk9SZw?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-01T12:14:16+00:00"
+   },
+   {
+    "titulo": "La protección contra los desahucios y las prórrogas automáticas del alquiler, en juego este viernes en el Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sbXZUUzJtMV9HZ0lleTBRc3lNdDZOeW1tTEtyckMyUlVtWDdiOF9pVkplU1U3b0JTVEpkR1RQY0NiZGFBWnNkLTgyYWlTTXhBQWFpS1NpdTN1empWdW5IRGZQczBhMGp6TWU1MmZrRjU2X3JVNG9QZFdR?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-01T09:52:47+00:00"
+   },
+   {
+    "titulo": "Las medidas de los dos decretos ley de vivienda aprobados",
+    "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTGtaaHJiLXBZWUZmc3FIcTBrMUhkUUJwdVp1aVhxTFVkclB5ZTg3ZlZTLUk5WU1obHZ3b1Bnd3hua3RWMlN3WndmNkxHWVB1REJscHlaWGt0c0lDSTNtcDY4bkpXT2dxeHVmbjZMa0ZDcF8tQzdrQmgzN1MtZ2tUb21UZkpya09XMXRoSjc0V2tOZw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-09-29T13:35:16+00:00"
+   }
+  ],
+  "PNV": [
+   {
+    "titulo": "Por qué Podemos representa al Grupo Mixto en la Diputación Permanente",
+    "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51WG14R3NReXlqR3BuRWJTSEVSLWRQVU14ak5HM2NfeW91Q3dzR2Q3dUIwRkdWTUZYTXVjS1pROTFGMmlpVjBKRjliRmdFMjVzQ3lkM1F3R0pVa0NBZXlydTN5MlJLc29xTUl5aXRmcw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T22:15:05+00:00"
+   },
+   {
+    "titulo": "La Diputación Permanente entra en juego: así podría el Gobierno sacar las medidas de vivienda tras la convocatoria electoral",
+    "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ySk5pbVZzSFFzRjJVRk9ZRkZwT0tLUlpaQkhZZ2NIaU95czRHMmxyTS1ZTUlwenp1VExidm5OWExOUXFLenIzN3lFTjhZYTZxcFBJQVRSRDNuMVFvU0ZIb19HM082aGk3SW9XeTV2TTM?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T16:02:36+00:00"
+   },
+   {
+    "titulo": "Qué es la Diputación Permanente y cuáles son sus funciones",
+    "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hdkVybWxORlpMSlh4UGpRQ0VGSld4QWlJZTh0VHhBT1hhOTUyZTRqMjZOVFp0Mm44a3cxa3FPQW1DMVlBTms0eVh1UDJkdGg3ZkxuRnNlRFRTWlNUb3ZvUnpxSG9kLVZuZEI3UlRKSTF1NUpGUEdhSXFhVFB0dw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T16:02:36+00:00"
+   },
+   {
+    "titulo": "Verificación: repasamos con datos y contexto las declaraciones de los diputados en el pleno de vivienda",
+    "enlace": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5la1pZOW5kOUNaTDBmZVdYRlhVWWhpRnJEQ0Z1TFQ1dWtRaWxEUXg5MTdqNGlwWFVTNDhrUmRLOENuVm9rUTVEUkRrcEt3NE1zTTZ1aVVPQjRwaGlNTUV0WWRJMHJJY1MzSGJCTkYyZTgxQmhf?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-02T11:33:57+00:00"
+   }
+  ],
+  "BNG": [
+   {
+    "titulo": "Por qué Podemos representa al Grupo Mixto en la Diputación Permanente",
+    "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51WG14R3NReXlqR3BuRWJTSEVSLWRQVU14ak5HM2NfeW91Q3dzR2Q3dUIwRkdWTUZYTXVjS1pROTFGMmlpVjBKRjliRmdFMjVzQ3lkM1F3R0pVa0NBZXlydTN5MlJLc29xTUl5aXRmcw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T22:15:05+00:00"
+   },
+   {
+    "titulo": "Verificación: repasamos con datos y contexto las declaraciones de los diputados en el pleno de vivienda",
+    "enlace": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5la1pZOW5kOUNaTDBmZVdYRlhVWWhpRnJEQ0Z1TFQ1dWtRaWxEUXg5MTdqNGlwWFVTNDhrUmRLOENuVm9rUTVEUkRrcEt3NE1zTTZ1aVVPQjRwaGlNTUV0WWRJMHJJY1MzSGJCTkYyZTgxQmhf?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-02T11:33:57+00:00"
+   },
+   {
+    "titulo": "La protección contra los desahucios y las prórrogas automáticas del alquiler, en juego este viernes en el Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sbXZUUzJtMV9HZ0lleTBRc3lNdDZOeW1tTEtyckMyUlVtWDdiOF9pVkplU1U3b0JTVEpkR1RQY0NiZGFBWnNkLTgyYWlTTXhBQWFpS1NpdTN1empWdW5IRGZQczBhMGp6TWU1MmZrRjU2X3JVNG9QZFdR?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-01T09:52:47+00:00"
+   },
+   {
+    "titulo": "Qué sabemos de los ingresos por “arrendar inmuebles” que han declarado Sánchez, Feijóo y otros diputados del Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBldlZjNjlsdFZTSkZ2TWMxdGRBQlVYOFQyd2cwbzJpMFZNY25VMDZ6QlRRdXQ5MHg0WnJfMzRUdTRza1I5UWt3ZmtYUXR5RnJ4Nm0tTXNKbjJVa2NjeXROekRkZXllcWxybkRidQ?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-09-30T15:38:30+00:00"
+   }
+  ],
+  "CCa": [
+   {
+    "titulo": "Por qué Podemos representa al Grupo Mixto en la Diputación Permanente",
+    "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51WG14R3NReXlqR3BuRWJTSEVSLWRQVU14ak5HM2NfeW91Q3dzR2Q3dUIwRkdWTUZYTXVjS1pROTFGMmlpVjBKRjliRmdFMjVzQ3lkM1F3R0pVa0NBZXlydTN5MlJLc29xTUl5aXRmcw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T22:15:05+00:00"
+   },
+   {
+    "titulo": "Verificación: repasamos con datos y contexto las declaraciones de los diputados en el pleno de vivienda",
+    "enlace": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5la1pZOW5kOUNaTDBmZVdYRlhVWWhpRnJEQ0Z1TFQ1dWtRaWxEUXg5MTdqNGlwWFVTNDhrUmRLOENuVm9rUTVEUkRrcEt3NE1zTTZ1aVVPQjRwaGlNTUV0WWRJMHJJY1MzSGJCTkYyZTgxQmhf?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-02T11:33:57+00:00"
+   },
+   {
+    "titulo": "La protección contra los desahucios y las prórrogas automáticas del alquiler, en juego este viernes en el Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sbXZUUzJtMV9HZ0lleTBRc3lNdDZOeW1tTEtyckMyUlVtWDdiOF9pVkplU1U3b0JTVEpkR1RQY0NiZGFBWnNkLTgyYWlTTXhBQWFpS1NpdTN1empWdW5IRGZQczBhMGp6TWU1MmZrRjU2X3JVNG9QZFdR?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-01T09:52:47+00:00"
+   },
+   {
+    "titulo": "Claves de la proposición de ley que propone una jubilación anticipada sin penalización que empieza su tramitación en el Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMlBTU2ZGM1lMWGNZdUxSRDRTSUQ2RGo0WGdBNXZCckQyYUl0WlJBVHhLV2hsRHlfWmNYV3JoczNBeWFsb0RjbDlnb1k1WXE4ckNBTDFTdHR2LXMyUzlNbHhtMkJMeWoxUWxmZndjVDJ4TjRHZF9DZzRwVVVfZTMtMS1WekpYR05aVXNMNXJxS3kzUQ?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-09-23T07:00:00+00:00"
+   }
+  ],
+  "UPN": [
+   {
+    "titulo": "Por qué Podemos representa al Grupo Mixto en la Diputación Permanente",
+    "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51WG14R3NReXlqR3BuRWJTSEVSLWRQVU14ak5HM2NfeW91Q3dzR2Q3dUIwRkdWTUZYTXVjS1pROTFGMmlpVjBKRjliRmdFMjVzQ3lkM1F3R0pVa0NBZXlydTN5MlJLc29xTUl5aXRmcw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-05T22:15:05+00:00"
+   },
+   {
+    "titulo": "La protección contra los desahucios y las prórrogas automáticas del alquiler, en juego este viernes en el Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sbXZUUzJtMV9HZ0lleTBRc3lNdDZOeW1tTEtyckMyUlVtWDdiOF9pVkplU1U3b0JTVEpkR1RQY0NiZGFBWnNkLTgyYWlTTXhBQWFpS1NpdTN1empWdW5IRGZQczBhMGp6TWU1MmZrRjU2X3JVNG9QZFdR?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-01T09:52:47+00:00"
+   },
+   {
+    "titulo": "Qué está pasando entre el Gobierno y el Senado por el Tratado de amistad con Francia",
+    "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wWGQxV2F2cm9teWc2YW13cGhxMFh6MW8zcGZHdXlhbzRkNHV1X0pIRFRwUUJoRzNTZkItMEs3amNLN3VpUXFNYm1WMUdTY3oyRHFqUHhNdWN4UW02SF8wU1N4bWtqc3dfZWFkS2VnQTF0ZGc3bFBlZDZR?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-09-30T15:46:32+00:00"
+   },
+   {
+    "titulo": "Las medidas de los dos decretos ley de vivienda aprobados",
+    "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTGtaaHJiLXBZWUZmc3FIcTBrMUhkUUJwdVp1aVhxTFVkclB5ZTg3ZlZTLUk5WU1obHZ3b1Bnd3hua3RWMlN3WndmNkxHWVB1REJscHlaWGt0c0lDSTNtcDY4bkpXT2dxeHVmbjZMa0ZDcF8tQzdrQmgzN1MtZ2tUb21UZkpya09XMXRoSjc0V2tOZw?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-09-29T13:35:16+00:00"
+   }
+  ],
+  "AC": [
+   {
+    "titulo": "¿«Aliança Catalana ha apoyado a Vox para que el Parlament de Catalunya anule la sanción a su portavoz por llamar \"asesino\" a Lluís Companys»? · La Buloteca · Maldita.es",
+    "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPZzUzeFFXT2dXT3NydmhRT09kTTRJMkxYQTJXemhmM0hac2wtSFY5a0ZraVRkZzBybkV4ZlhPR0tRSnRVWFpsLUZtdnJKa2JMRzB6MUJEanlxelJpMlhSMGEzNktTaklQbkM0S0RXM25rUGRkNVJKZlEzb0J3Tm4xUnZqX1JMTEtGYlB2R20wbVpJV2Y3RnJ1MW10MFRWTHhYOWVSMFNobVJBNmk1UXhKVnpnUGNrWDQ4X0xHLXNpd2J1X1hselJCcjN6SEhxTzBWQktRQmRCXzg4LUNKUUZnMmZUWGNCMjloN3B5ZUVCYzlib1VBQWV2OE1odUMydw?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-09-23T12:57:12+00:00"
+   }
+  ]
+ }
+}

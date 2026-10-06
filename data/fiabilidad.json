@@ -1,0 +1,198 @@
+{
+ "actualizado": "2026-10-06T08:11:19+00:00",
+ "elecciones": [
+  {
+   "nombre": "23J 2023",
+   "resultado": {
+    "N": 29.6,
+    "PP": 23.0,
+    "PSOE": 22.1,
+    "Vox": 8.6
+   },
+   "firmas": [
+    {
+     "clave": "swdemoscopia",
+     "empresa": "SW Demoscopia",
+     "fin": "2022-07-01",
+     "error_medio": 5.3,
+     "errores": {
+      "N": -13.5,
+      "PP": -3.5,
+      "PSOE": -2.4,
+      "Vox": 1.8
+     }
+    },
+    {
+     "clave": "simplelogica",
+     "empresa": "Simple Lógica",
+     "fin": "2023-07-16",
+     "error_medio": 5.42,
+     "errores": {
+      "N": -18.9,
+      "PP": -0.3,
+      "PSOE": 2.1,
+      "Vox": 0.4
+     }
+    },
+    {
+     "clave": "gesop",
+     "empresa": "GESOP",
+     "fin": "2023-07-15",
+     "error_medio": 5.85,
+     "errores": {
+      "N": -19.1,
+      "PP": -3.2,
+      "PSOE": 0.5,
+      "Vox": 0.6
+     }
+    },
+    {
+     "clave": "sociometrica",
+     "empresa": "SocioMétrica",
+     "fin": "2023-07-16",
+     "error_medio": 7.07,
+     "errores": {
+      "N": -23.9,
+      "PP": -0.8,
+      "PSOE": 2.4,
+      "Vox": 1.2
+     }
+    },
+    {
+     "clave": "40db",
+     "empresa": "40dB",
+     "fin": "2023-07-16",
+     "error_medio": 7.62,
+     "errores": {
+      "N": -22.4,
+      "PP": 1.9,
+      "PSOE": 2.8,
+      "Vox": 3.4
+     }
+    },
+    {
+     "clave": "cemop",
+     "empresa": "CEMOP",
+     "fin": "2022-05-18",
+     "error_medio": 8.25,
+     "errores": {
+      "N": -20.6,
+      "PP": -5.4,
+      "PSOE": -5.2,
+      "Vox": 1.8
+     }
+    },
+    {
+     "clave": "imop",
+     "empresa": "IMOP",
+     "fin": "2020-07-09",
+     "error_medio": 8.35,
+     "errores": {
+      "N": -16.9,
+      "PP": -10.0,
+      "PSOE": 3.2,
+      "Vox": -3.3
+     }
+    },
+    {
+     "clave": "cis",
+     "empresa": "CIS",
+     "fin": "2023-07-12",
+     "error_medio": 8.43,
+     "errores": {
+      "N": -27.3,
+      "PP": 1.9,
+      "PSOE": 4.4,
+      "Vox": 0.1
+     }
+    },
+    {
+     "clave": "intercampo",
+     "empresa": "Intercampo",
+     "fin": "2020-05-13",
+     "error_medio": 8.55,
+     "errores": {
+      "N": -18.9,
+      "PP": -9.2,
+      "PSOE": 3.1,
+      "Vox": -3.0
+     }
+    },
+    {
+     "clave": "dym",
+     "empresa": "DYM",
+     "fin": "2023-07-13",
+     "error_medio": 10.5,
+     "errores": {
+      "N": -28.9,
+      "PP": 9.1,
+      "PSOE": 3.9,
+      "Vox": -0.1
+     }
+    }
+   ]
+  }
+ ],
+ "ranking": [
+  {
+   "clave": "swdemoscopia",
+   "empresa": "SW Demoscopia",
+   "error_medio": 5.3,
+   "elecciones": 1
+  },
+  {
+   "clave": "simplelogica",
+   "empresa": "Simple Lógica",
+   "error_medio": 5.42,
+   "elecciones": 1
+  },
+  {
+   "clave": "gesop",
+   "empresa": "GESOP",
+   "error_medio": 5.85,
+   "elecciones": 1
+  },
+  {
+   "clave": "sociometrica",
+   "empresa": "SocioMétrica",
+   "error_medio": 7.07,
+   "elecciones": 1
+  },
+  {
+   "clave": "40db",
+   "empresa": "40dB",
+   "error_medio": 7.62,
+   "elecciones": 1
+  },
+  {
+   "clave": "cemop",
+   "empresa": "CEMOP",
+   "error_medio": 8.25,
+   "elecciones": 1
+  },
+  {
+   "clave": "imop",
+   "empresa": "IMOP",
+   "error_medio": 8.35,
+   "elecciones": 1
+  },
+  {
+   "clave": "cis",
+   "empresa": "CIS",
+   "error_medio": 8.43,
+   "elecciones": 1
+  },
+  {
+   "clave": "intercampo",
+   "empresa": "Intercampo",
+   "error_medio": 8.55,
+   "elecciones": 1
+  },
+  {
+   "clave": "dym",
+   "empresa": "DYM",
+   "error_medio": 10.5,
+   "elecciones": 1
+  }
+ ]
+}
