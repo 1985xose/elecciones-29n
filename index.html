@@ -85,17 +85,14 @@
     </article>
 
     <article class="pregunta">
-      <h2>¿Valen lo mismo todos los votos?</h2>
+      <h2>¿La ley electoral favorece a alguien?</h2>
       <p id="r-coste" class="respuesta"></p>
-      <p class="pie-bloque">De cada 100 votos a cada partido, cuántos sirven para elegir a un diputado (en color) y cuántos se pierden (en gris).</p>
-      <div id="g-coste" class="barras-grandes"></div>
-      <h3 class="sub">Si todos los votos valieran igual</h3>
-      <p id="r-proporcional" class="pie-bloque"></p>
-      <div id="g-proporcional" class="proporcional"></div>
+      <p class="pie-bloque">Asientos que tendrá cada partido, y los que tendría si los 350 se repartieran solo por el número de votos en toda España.</p>
+      <div id="g-proporcional" class="pares"></div>
       <details class="como"><summary>¿Por qué pasa esto?</summary>
-        <p>Los asientos se reparten provincia a provincia. Si un partido no consigue asiento en una provincia, todos sus votos allí se pierden, no se suman en ningún sitio. A los partidos medianos con el voto repartido por toda España les pasa en la mayoría de provincias. A los que concentran su voto en una zona casi nunca. Y los dos grandes salen beneficiados porque D'Hondt favorece al más votado en las provincias pequeñas, que reparten 3 o 4 asientos.</p>
+        <p>Porque los asientos no se reparten en toda España a la vez, sino provincia a provincia. En cada provincia, los votos de un partido que no llega a asiento se tiran, no se suman en ningún otro sitio. A los partidos medianos con el voto repartido por todo el país les pasa en casi todas las provincias. A los que concentran su voto en una zona casi nunca. Y los dos grandes salen ganando porque en las provincias pequeñas, que reparten 3 o 4 asientos, casi todo se lo llevan ellos.</p>
         <div id="g-perdidos" class="perdidos"></div>
-        <p class="fuente">Cálculo aproximado. Los votos de cada partido se estiman con la media de encuestas y el tamaño de cada provincia, y los asientos son los del caso más probable. "Si todos los votos valieran igual" reparte los 350 asientos en proporción al voto en toda España.</p>
+        <p class="fuente">Cálculo aproximado con la media de encuestas y el reparto más probable.</p>
       </details>
     </article>
 
@@ -170,7 +167,8 @@
 
   <section id="encuestas" class="pantalla" hidden>
     <h2>Lo que dicen las encuestas</h2>
-    <p class="explica">Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.</p>
+    <div id="filtro-empresas" class="filtro-empresas"></div>
+    <p id="explica-tendencia" class="explica">Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.</p>
     <div class="grafico"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div>
     <details class="como"><summary>Los partidos pequeños y el CIS</summary>
       <div id="lista-partidos" class="lista-partidos"></div>
@@ -178,7 +176,7 @@
       <p class="fuente">El CIS no entra en la media por defecto porque desde 2019 se separa mucho del resto de empresas, sobre todo con el PSOE.</p>
     </details>
     <h2>Las últimas encuestas, una a una</h2>
-    <p class="explica">Cada empresa tiene sus manías. Aquí te decimos si lo que dice una encuesta es normal en ella o es una novedad de verdad.</p>
+    <p class="explica">Cada empresa tiene sus manías. Aquí te decimos si lo que dice una encuesta es normal en ella o es una novedad de verdad. Toca una encuesta para ver todos sus datos.</p>
     <div id="tarjetas-encuestas" class="tarjetas"></div>
     <p class="fuente" id="fuente-encuestas"></p>
   </section>

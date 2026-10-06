@@ -202,33 +202,31 @@ function pintarHoy(m, m7, proy) {
     el("span", { class: `d ${Math.abs(x.d) < 0.1 ? "" : x.d > 0 ? "sube" : "baja"}` }, Math.abs(x.d) < 0.1 ? "igual" : signo(x.d)), el("span", { class: "m" }, `${fmt1.format(m7.media[x.k])} hace una semana, ${fmt1.format(m.media[x.k])} hoy`))));
   pintarHistorial();
 
-  // 4. ¿Valen lo mismo todos los votos?
+  // 4. ¿La ley electoral favorece a alguien?
   const esc2 = D.resultados?.escanos || proy.total;
-  const utiles = (k) => { let con = 0, sin = 0, provCon = 0, provSin = 0;
-    for (const pr of proy.provincias) { const v = (pr.cuotas[k] || 0) * pr.n; if (!v) continue; if (pr.escanos[k]) { con += v; provCon++; } else { sin += v; provSin++; } }
-    return { util: con / (con + sin || 1), provCon, provSin }; };
-  const partidosC = ordenar(m.media).filter((k) => m.media[k] >= 1.2).map((k) => ({ k, ...utiles(k) })).sort((a, b) => b.util - a.util);
-  if (partidosC.length > 2) {
-    const a = partidosC[0], z = partidosC[partidosC.length - 1];
-    $("#r-coste").replaceChildren(el("b", {}, "No."), ` De cada 100 votos a ${nombre(a.k)}, ${r100(a.util)} sirven para elegir a un diputado. De cada 100 votos a ${nombre(z.k)}, ${z.util > 0 ? `solo ${r100(z.util)}` : "ninguno"}, ${z.provCon ? `los demás se pierden en las ${z.provSin} provincias donde no consigue asiento` : `se pierden todos porque no llega a asiento en ninguna provincia`}.`);
-    $("#g-coste").replaceChildren(...partidosC.map((x) => el("div", { class: "bg" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(x.k) } }), nombre(x.k)),
-      el("div", { class: "num" }, r100(x.util), el("small", {}, ` de cada 100 eligen`)),
-      el("div", { class: "pista doble" }, el("i", { style: { width: `${r100(x.util)}%`, background: color(x.k) } })))));
-    // Reparto proporcional puro (restos mayores) con todos los partidos con voto
-    const conVoto = ordenar(m.media).filter((k) => m.media[k] > 0), suma = conVoto.reduce((s, k) => s + m.media[k], 0);
-    const cuo = conVoto.map((k) => ({ k, q: m.media[k] / suma * 350 }));
-    const prop = {}; let asignados = 0;
-    for (const x of cuo) { prop[x.k] = Math.floor(x.q); asignados += prop[x.k]; }
-    for (const x of cuo.sort((a, b) => (b.q - Math.floor(b.q)) - (a.q - Math.floor(a.q))).slice(0, 350 - asignados)) prop[x.k]++;
-    const comp = ordenar(esc2).filter((k) => esc2[k] > 0 || prop[k] >= 1).map((k) => ({ k, real: esc2[k] || 0, prop: prop[k] || 0 })).sort((a, b) => b.real - a.real);
-    const mayor = [...comp].sort((a, b) => (b.real - b.prop) - (a.real - a.prop))[0], menor = [...comp].sort((a, b) => (a.real - a.prop) - (b.real - b.prop))[0];
-    $("#r-proporcional").textContent = `Si los 350 asientos se repartieran en proporción al voto de toda España, ${nombre(mayor.k)} tendría ${mayor.prop} en vez de ${mayor.real}, y ${nombre(menor.k)} tendría ${menor.prop} en vez de ${menor.real}.`;
-    $("#g-proporcional").replaceChildren(...comp.map((x) => { const d = x.real - x.prop;
-      return el("div", { class: "prop" }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(x.k) } }), nombre(x.k)), el("span", { class: "n" }, x.real), el("span", { class: "vs" }, `tendrá, y ${x.prop} si todo valiera igual`), el("span", { class: `d ${d > 0 ? "sube" : d < 0 ? "baja" : ""}` }, d ? `${d > 0 ? "+" : "−"}${Math.abs(d)}` : "=")); }));
-    const expl = partidosC.filter((x) => x.util < 0.6 || x.util > 0.9).slice(0, 5);
-    $("#g-perdidos").replaceChildren(el("p", {}, el("b", {}, "Los casos más claros")), ...expl.map((x) => el("div", { class: "perdido" }, el("b", {}, el("i", { class: "punto", style: { background: color(x.k) } }), nombre(x.k)),
-      el("span", { class: "v" }, `${r100(1 - x.util)} % de sus votos se pierden`),
-      el("span", { class: "m" }, x.provCon ? `Saca asiento en ${x.provCon} ${x.provCon === 1 ? "provincia" : "provincias"} y se queda a cero en ${x.provSin}.` : `Con unos ${fmt0.format(Math.round(m.media[x.k] * VOTOS_VALIDOS / 100 / 10000) * 10000)} votos no saca ningún asiento.`))));
+  const conVoto = ordenar(m.media).filter((k) => m.media[k] > 0), sumaV = conVoto.reduce((s, k) => s + m.media[k], 0);
+  const cuo = conVoto.map((k) => ({ k, q: m.media[k] / sumaV * 350 }));
+  const prop = {}; let asignados = 0;
+  for (const x of cuo) { prop[x.k] = Math.floor(x.q); asignados += prop[x.k]; }
+  for (const x of cuo.sort((a, b) => (b.q - Math.floor(b.q)) - (a.q - Math.floor(a.q))).slice(0, 350 - asignados)) prop[x.k]++;
+  const comp = [...new Set([...Object.keys(esc2), ...Object.keys(prop)])].filter((k) => (esc2[k] || 0) > 0 || (prop[k] || 0) >= 2).map((k) => ({ k, real: esc2[k] || 0, prop: prop[k] || 0, d: (esc2[k] || 0) - (prop[k] || 0) })).sort((a, b) => b.real - a.real);
+  if (comp.length > 2) {
+    const ganan = comp.filter((x) => x.d >= 3).sort((a, b) => b.d - a.d), pierden = comp.filter((x) => x.d <= -3).sort((a, b) => a.d - b.d);
+    $("#r-coste").replaceChildren(el("b", {}, ganan.length ? "Sí." : "Poco."), ganan.length ? ` A ${lista(ganan.map((x) => nombre(x.k)))} le${ganan.length > 1 ? "s" : ""} da ${lista(ganan.map((x) => `${x.d}`))} asientos más de los que le${ganan.length > 1 ? "s" : ""} tocarían por sus votos.` : "", pierden.length ? ` A ${lista(pierden.map((x) => nombre(x.k)))} le${pierden.length > 1 ? "s" : ""} quita ${lista(pierden.map((x) => `${-x.d}`))}.` : "");
+    const maxB = Math.max(...comp.map((x) => Math.max(x.real, x.prop)));
+    $("#g-proporcional").replaceChildren(...comp.map((x) => el("div", { class: "par" },
+      el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(x.k) } }), nombre(x.k)),
+      el("span", { class: `dif ${x.d > 0 ? "sube" : x.d < 0 ? "baja" : ""}` }, x.d ? `${x.d > 0 ? "+" : "−"}${Math.abs(x.d)}` : "igual"),
+      el("div", { class: "filas" },
+        el("div", { class: "fila" }, el("span", {}, "tendrá"), el("i", { style: { width: `${x.real / maxB * 100}%`, background: color(x.k) } }), el("b", {}, x.real)),
+        el("div", { class: "fila tendria" }, el("span", {}, "le tocarían"), el("i", { style: { width: `${x.prop / maxB * 100}%`, background: color(x.k) } }), el("b", {}, x.prop))))));
+    const utiles = (k) => { let con = 0, sin = 0, provCon = 0, provSin = 0;
+      for (const pr of proy.provincias) { const v = (pr.cuotas[k] || 0) * pr.n; if (!v) continue; if (pr.escanos[k]) { con += v; provCon++; } else { sin += v; provSin++; } }
+      return { util: con / (con + sin || 1), provCon, provSin }; };
+    const expl = comp.filter((x) => Math.abs(x.d) >= 3).map((x) => ({ ...x, ...utiles(x.k) }));
+    $("#g-perdidos").replaceChildren(...expl.map((x) => el("div", { class: "perdido" }, el("b", {}, el("i", { class: "punto", style: { background: color(x.k) } }), nombre(x.k)),
+      el("span", { class: "v", style: x.d > 0 ? { color: "var(--bien)" } : null }, x.d > 0 ? `${x.d} asientos de regalo` : `${-x.d} asientos menos`),
+      el("span", { class: "m" }, x.provCon ? `Saca asiento en ${x.provCon} provincias y se queda a cero en ${x.provSin}. De cada 100 votos suyos, ${r100(1 - x.util)} no sirven para elegir a nadie.` : `No saca asiento en ninguna provincia. Todos sus votos se tiran.`))));
   }
 
   // 5. Mi provincia
@@ -294,6 +292,7 @@ function opciones(suf) {
 }
 
 /* ---------- Encuestas ---------- */
+const enc = { filtro: null, abiertas: new Set() };
 function pintarEncuestas(m, m7, proy) {
   const o = ordenar(m.media).filter((k) => m.media[k] >= 0.5);
   const max = Math.max(...o.map((k) => m.media[k]), 1);
@@ -302,34 +301,60 @@ function pintarEncuestas(m, m7, proy) {
       el("div", { class: "pct" }, `${fmt1.format(m.media[k])}`, el("small", { class: Math.abs(d) >= 0.1 ? (d > 0 ? "sube" : "baja") : "" }, Math.abs(d) >= 0.1 ? signo(d) : "")),
       el("div", { class: "barra" }, el("i", { style: { width: `${m.media[k] / max * 100}%`, background: color(k) } })),
       el("div", { class: "esc" }, `de cada 100 votos, ${D.prob?.partidos?.[k] ? `entre ${D.prob.partidos[k].p10} y ${D.prob.partidos[k].p90} asientos` : `${proy.total[k] || 0} asientos`}`)); }));
+  // Botones por empresa
+  const todas = D.encuestas?.encuestas || [], hace365 = new Date(+hoy() - 365 * DIA);
+  const cuenta = {};
+  for (const e of todas) if (fechaD(e.fin) >= hace365) { cuenta[e.clave] ||= { empresa: e.empresa_base, n: 0 }; cuenta[e.clave].n++; }
+  const empresas = Object.entries(cuenta).filter(([, v]) => v.n >= 3).sort((a, b) => b[1].n - a[1].n);
+  if (enc.filtro && !cuenta[enc.filtro]) enc.filtro = null;
+  $("#filtro-empresas").replaceChildren(el("button", { type: "button", "aria-pressed": enc.filtro ? "false" : "true", onclick: () => { enc.filtro = null; pintarEncuestas(m, m7, proy); } }, "Media de todas"),
+    ...empresas.map(([clave, v]) => el("button", { type: "button", "aria-pressed": enc.filtro === clave ? "true" : "false", onclick: () => { enc.filtro = clave; pintarEncuestas(m, m7, proy); } }, v.empresa)));
+  $("#explica-tendencia").textContent = enc.filtro ? `Las encuestas de ${cuenta[enc.filtro].empresa}, una a una, desde las últimas elecciones. Cada punto es una encuesta.` : "Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.";
+  // Tarjetas
   const usadas = new Set(m.usadas.map((e) => e.id));
-  $("#tarjetas-encuestas").replaceChildren(...(D.encuestas?.encuestas || []).slice(0, 12).map((e) => {
+  const lista = (enc.filtro ? todas.filter((e) => e.clave === enc.filtro) : todas).slice(0, enc.filtro ? 30 : 12);
+  $("#tarjetas-encuestas").replaceChildren(...lista.map((e) => {
     const an = D.analisis?.ultimas?.find((x) => x.id === e.id), nota = D.analisis?.notas?.find((x) => x.clave === e.clave), oe = ordenar(e.pct);
     const dif = e.pct[oe[0]] - e.pct[oe[1]];
     const fiable = nota ? (nota.letra === "A" || nota.letra === "B" ? "Es una empresa que ha acertado bastante en el pasado" : nota.letra === "C" || nota.letra === "D" ? "Es una empresa que ha fallado más de la cuenta en el pasado" : "No sabemos cuánto acierta, no hizo encuestas antes de las últimas elecciones") : "";
     const ver = an ? (an.veredicto === "ruido" ? "y dice más o menos lo mismo que las demás." : an.veredicto === "leve" ? "y se sale un poco de lo habitual en ella." : "y trae un cambio de verdad respecto a lo que suele dar.") : ".";
-    return el("div", { class: "tarjeta", id: `enc-${e.id}`, style: usadas.has(e.id) ? null : { opacity: .75 } },
+    const abierta = enc.abiertas.has(e.id);
+    const sesgo = D.analisis?.sesgos?.[e.clave]?.sesgo;
+    const tarjeta = el("div", { class: "tarjeta abrible", id: `enc-${e.id}`, style: usadas.has(e.id) || enc.filtro ? null : { opacity: .75 }, onclick: (ev) => { if (ev.target.closest("a")) return; abierta ? enc.abiertas.delete(e.id) : enc.abiertas.add(e.id); pintarEncuestas(m, m7, proy); } },
       el("div", { class: "cab" }, el("b", {}, e.empresa_base, e.encargo ? ` para ${e.encargo}` : "", nota && nota.letra !== "–" ? el("span", { class: "nota", title: nota.texto }, nota.letra) : null,
         an ? el("span", { class: `veredicto ${an.veredicto}` }, an.veredicto === "ruido" ? "nada nuevo" : an.veredicto === "leve" ? "algo se mueve" : "novedad") : null),
         el("span", {}, fFecha.format(fechaD(e.fin)))),
       el("p", { class: "ver" }, `Dice que gana ${nombre(oe[0])} por ${fmt1.format(dif)} puntos. ${fiable}${fiable ? " " : ""}${ver}${e.muestra ? ` Preguntó a ${fmt0.format(e.muestra)} personas.` : ""}`),
-      el("div", { class: "chips" }, ...oe.slice(0, 6).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${fmt1.format(e.pct[k])}`))));
+      el("div", { class: "chips" }, ...oe.slice(0, abierta ? 99 : 6).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${fmt1.format(e.pct[k])}`))),
+      abierta ? el("div", { class: "detalle" },
+        el("p", {}, `Trabajo de campo ${e.inicio && e.inicio !== e.fin ? `del ${fFecha.format(fechaD(e.inicio))} al ` : "el "}${fFecha.format(fechaD(e.fin))}.${e.muestra ? ` ${fmt0.format(e.muestra)} entrevistas.` : ""}${Object.keys(e.escanos || {}).length ? ` Asientos que da: ${ordenar(e.escanos).filter((k) => e.escanos[k] > 0).slice(0, 8).map((k) => `${nombre(k)} ${Math.round(e.escanos[k])}`).join(", ")}.` : ""}${nota && nota.letra !== "–" ? ` Nota ${nota.letra}, ${nota.texto}.` : ""}`),
+        el("table", {}, el("thead", {}, el("tr", {}, el("th", {}, "Partido"), el("th", {}, "Dio"), el("th", {}, "Suele dar"), el("th", {}, "Media de todas"))),
+          el("tbody", {}, ...oe.slice(0, 8).map((k) => { const d = an?.detalle?.find((x) => x.partido === k);
+            return el("tr", {}, el("td", {}, nombre(k)), el("td", {}, fmt1.format(e.pct[k])), el("td", {}, sesgo && sesgo[k] != null ? `${signo(sesgo[k])} que la media` : "–"), el("td", {}, d ? fmt1.format(d.esperado - (sesgo && sesgo[k] != null ? sesgo[k] : 0)) : "–")); }))),
+        el("p", { class: "mas" }, "\"Suele dar\" es lo que esta empresa se separa de la media del momento en sus encuestas de esta legislatura. Toca para cerrar.")) : el("p", { class: "mas" }, "Toca para ver todos los datos"));
+    return tarjeta;
   }));
-  if (D.encuestas) $("#fuente-encuestas").replaceChildren("Las atenuadas no entran en la media de hoy por ser antiguas o por haber otra más reciente de la misma empresa. Fuente ", el("a", { href: D.encuestas.fuente, target: "_blank", rel: "noopener" }, "Wikipedia"), `, actualizado ${hace(D.encuestas.actualizado)}.`);
+  if (D.encuestas) $("#fuente-encuestas").replaceChildren(enc.filtro ? "" : "Las atenuadas no entran en la media de hoy por ser antiguas o por haber otra más reciente de la misma empresa. ", "Fuente ", el("a", { href: D.encuestas.fuente, target: "_blank", rel: "noopener" }, "Wikipedia"), `, actualizado ${hace(D.encuestas.actualizado)}.`);
   graficoTendencia?.destroy(); graficoTendencia = null;
   if (!$("#encuestas").hidden) pintarTendencia();
 }
 function pintarTendencia() {
-  const m = calcMedia(), o = ordenar(m.media).filter((k) => m.media[k] >= 1.5).slice(0, 7), puntos = [];
+  const m = calcMedia(), o = ordenar(m.media).filter((k) => m.media[k] >= 1.5).slice(0, 7);
+  graficoTendencia?.destroy();
+  if (enc.filtro) {
+    const mias = (D.encuestas?.encuestas || []).filter((e) => e.clave === enc.filtro).slice().reverse();
+    graficoTendencia = new Chart($("#grafico-tendencia"), { type: "line", data: { labels: mias.map((e) => fFecha.format(fechaD(e.fin)) + (fechaD(e.fin).getUTCMonth() === 0 ? ` ${fechaD(e.fin).getUTCFullYear()}` : "")),
+      datasets: o.map((k) => ({ label: nombre(k), data: mias.map((e) => e.pct[k] ?? null), borderColor: color(k), backgroundColor: color(k), borderWidth: 2, pointRadius: 4, tension: .2, spanGaps: true })) }, options: opciones(" de cada 100 votos") });
+    return;
+  }
+  const puntos = [];
   for (let t = fechaD("2023-09-03"); t <= hoy(); t = new Date(+t + 7 * DIA)) puntos.push(t);
   if (puntos[puntos.length - 1] < hoy()) puntos.push(hoy());
   const series = {};
   for (const t of puntos) { const mm = calcMedia(t, 28).media; for (const k of o) (series[k] ||= []).push(mm[k] != null ? +mm[k].toFixed(2) : null); }
-  graficoTendencia?.destroy();
   graficoTendencia = new Chart($("#grafico-tendencia"), { type: "line", data: { labels: puntos.map((t) => t.getUTCMonth() === 0 && t.getUTCDate() <= 7 ? String(t.getUTCFullYear()) : fFecha.format(t)),
     datasets: o.map((k) => ({ label: nombre(k), data: series[k], borderColor: color(k), backgroundColor: color(k), borderWidth: 3, pointRadius: 0, tension: .3, spanGaps: true })) }, options: opciones(" de cada 100 votos") });
 }
-
 /* ---------- Mapa de teselas ---------- */
 const TESELAS = { "A Coruña": [0, 0], "Lugo": [1, 0], "Asturias": [2, 0], "Cantabria": [3, 0], "Bizkaia": [4, 0], "Gipuzkoa": [5, 0],
   "Pontevedra": [0, 1], "Ourense": [1, 1], "León": [2, 1], "Palencia": [3, 1], "Burgos": [4, 1], "Álava": [5, 1], "Navarra": [6, 1], "Huesca": [8, 1], "Lleida": [9, 1], "Girona": [10, 1],

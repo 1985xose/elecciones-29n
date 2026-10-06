@@ -282,3 +282,23 @@ details[open] summary::after { content: "–"; }
 .prop .n { font-weight: 800; min-width: 2.2em; text-align: right; }
 .prop .vs { color: var(--gris); font-size: .8rem; }
 .prop .d { font-weight: 700; min-width: 2.6em; text-align: right; }
+.filtro-empresas { display: flex; gap: 6px; overflow-x: auto; padding: 2px 0 10px; scrollbar-width: none; }
+.filtro-empresas::-webkit-scrollbar { display: none; }
+.filtro-empresas button { flex: none; border: 2px solid var(--linea); background: var(--superficie); border-radius: 999px; padding: 6px 14px; font: inherit; font-size: .88rem; font-weight: 600; cursor: pointer; color: var(--gris); }
+.filtro-empresas button[aria-pressed="true"] { border-color: var(--tinta); color: var(--tinta); background: var(--papel); }
+.tarjeta.abrible { cursor: pointer; }
+.tarjeta .detalle { margin-top: 10px; border-top: 1px solid var(--linea); padding-top: 8px; font-size: .88rem; }
+.tarjeta .detalle table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+.tarjeta .detalle td, .tarjeta .detalle th { padding: 3px 4px; text-align: right; border-top: 1px solid var(--linea); font-weight: 500; }
+.tarjeta .detalle th:first-child, .tarjeta .detalle td:first-child { text-align: left; font-weight: 650; }
+.tarjeta .detalle thead th { color: var(--gris); font-size: .78rem; font-weight: 600; border: 0; }
+.tarjeta .mas { color: var(--gris); font-size: .8rem; margin-top: 6px; }
+.pares { display: grid; gap: 10px; }
+.par { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; align-items: center; }
+.par .nom { font-weight: 700; display: flex; align-items: center; gap: 8px; }
+.par .dif { font-weight: 800; font-size: 1.1rem; }
+.par .filas { grid-column: 1 / -1; display: grid; gap: 3px; }
+.par .fila { display: grid; grid-template-columns: 6.2em 1fr 2.4em; align-items: center; gap: 8px; font-size: .82rem; color: var(--gris); }
+.par .fila i { display: block; height: 12px; border-radius: 6px; }
+.par .fila.tendria i { opacity: .35; }
+.par .fila b { color: var(--tinta); text-align: right; }
