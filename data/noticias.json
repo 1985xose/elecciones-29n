@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06T22:16:26+00:00",
+ "actualizado": "2026-10-06T22:24:10+00:00",
  "generales": [
   {
    "titulo": "El PP valenciano cierra filas para el 29-N con el objetivo de mejorar el resultado de 2023 y despejar dudas en Génova sobre Llorca",
@@ -30,6 +30,13 @@
    "imagen": "https://okdiario.com/img/2026/10/06/puchi-frase.jpg"
   },
   {
+   "titulo": "Desmarcarse de Europa y desobedecer ante el problema de la vivienda",
+   "enlace": "https://www.nuevatribuna.es/articulo/actualidad/espana-desmarcarse-europa-desobedecer-problema-vivienda/20261006203439254866.html",
+   "fuente": "Nueva Tribuna",
+   "fecha": "2026-10-06T20:34:39+02:00",
+   "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/10/06/2026100620301835237.jpg"
+  },
+  {
    "titulo": "Puigdemont no aclara cuándo regresará a Catalunya y se plantea volver tras el 29N",
    "enlace": "https://www.eldiario.es/catalunya/puigdemont-no-aclara-regresara-catalunya-plantea-volver-29n_1_13566601.html",
    "fuente": "elDiario.es",
@@ -49,13 +56,6 @@
    "fuente": "20minutos",
    "fecha": "2026-10-06T18:48:31+02:00",
    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac522bf567869-10754031.jpeg"
-  },
-  {
-   "titulo": "Puigdemont no desvela la fecha de su vuelta a Cataluña pese a la retirada de la orden de detención",
-   "enlace": "https://www.infolibre.es/politica/puigdemont-no-desvela-fecha-vuelta-cataluna-pese-retirada-orden-detencion_1_2237531.html",
-   "fuente": "infoLibre",
-   "fecha": "2026-10-06T17:21:57+00:00",
-   "imagen": "https://static.infolibre.es/clip/735e34a6-1677-4e52-bf1c-473f1cdd2de9_16-9-aspect-ratio_default_0_x299y64.jpg"
   },
   {
    "titulo": "El PP pide a la Junta Electoral que sancione a Sánchez por \"utilizar\" la Moncloa para \"dar un mitin del PSOE\"",
@@ -82,6 +82,12 @@
     "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17913144265448.jpg"
    },
    {
+    "titulo": "Feijóo visita Ceuta este miércoles y reúne a los populares ceutíes en la Estación del Ferrocarril",
+    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcHJQSXhOVll2TkdlOF9LT3Z5VDN4a05lTEczN0IyVWdwR245Q1VLM3JVN0R5amVLUnhoak9lekh0N2hrRlJEazhUVVdNM25sNjVtYWJ6R3VvTUVfdWlzTVdLU053SmZqUWo2blpFclczcnREZk1vWEM5aWd0Wk50aVNsUDZZNFNydWotZUlvdFFHclBoRm0wVXBzWTI0MTI3UmZGbkpZV05uYzVyRDZ4VWszclVxTElQZG9IUWNFTmcyZnU3b2hlLXRR?oc=5",
+    "fuente": "Ceuta Ahora",
+    "fecha": "2026-10-06T21:22:22+00:00"
+   },
+   {
     "titulo": "El PP inaugura la precampaña del 29N con una nueva ofensiva en los tribunales contra el PSOE",
     "enlace": "https://www.eldiario.es/politica/pp-inaugura-precampana-29n-nueva-ofensiva-tribunales-psoe_1_13566904.html",
     "fuente": "elDiario.es",
@@ -106,12 +112,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaXhWRGdSLTZBYWhtdkNFUU54RGNGMDFwN3pqSDJxcnRDd2x5WWthZmpDRlhwREdKRDNKaEtEamNNNXl6RHRfMlJublZVbjVVLW96N21nMU1nRkVVeFNjSVhQMHhYemU5RGh2aUE4R05vQTNfV2hlbWtBc3pGOWE4THV1cHdSc2VvMzdSZ0Y4Mm54MEhLUThIZ1dsSlY2N2RFWUFremNMQlZnY0lGNW5QUTZvcHZFSE1yVTRFR0U3V1lsZw?oc=5",
     "fuente": "castellonaldia.elmundo.es",
     "fecha": "2026-10-06T16:45:00+00:00"
-   },
-   {
-    "titulo": "Feijóo visita Ceuta este miércoles y reúne a los populares ceutíes en la Estación del Ferrocarril",
-    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcHJQSXhOVll2TkdlOF9LT3Z5VDN4a05lTEczN0IyVWdwR245Q1VLM3JVN0R5amVLUnhoak9lekh0N2hrRlJEazhUVVdNM25sNjVtYWJ6R3VvTUVfdWlzTVdLU053SmZqUWo2blpFclczcnREZk1vWEM5aWd0Wk50aVNsUDZZNFNydWotZUlvdFFHclBoRm0wVXBzWTI0MTI3UmZGbkpZV05uYzVyRDZ4VWszclVxTElQZG9IUWNFTmcyZnU3b2hlLXRR?oc=5",
-    "fuente": "Ceuta Ahora",
-    "fecha": "2026-10-06T16:18:52+00:00"
    }
   ],
   "PSOE": [
@@ -413,6 +413,12 @@
     "fecha": "2026-10-06T12:08:50+00:00"
    },
    {
+    "titulo": "¿Qué dice el CIS de Euskadi? Bildu aventaja al PNV y se consolida como referente del nacionalismo vasco",
+    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUDFtWDVyTXdLZmFVYzJWQ2ZKR2RlbXFhWllJa2hUQkFsdnBIXzBCcjRHbFU0aUNhYWxaeXlKMUl5NVFqSi1RMXg3YkNOREJHSHI0eWdJQmhLX2ZSVTdsb1FxOGVGZEswYXI0VmlJbXh0aVZKUnNCSW5hTFc3MTFDa1Q5RUZXTlp1Q1ljcnlUbE1oUUtEUF8yd3dYbXFKLUUtUE9fUnZEUVJNT0JiMmhBU1JvbEhQY2pqOFhud0IwRmNpM0RjVE9xbWY3RFbSAcwBQVVfeXFMT1AxbVg1ck13S2ZhVWMyVkNmSkdkZW1xYVpZSWtoVEJBbHZwSF8wQnI0R2xVNGlDYWFsWnl5SjFJeTVRakotUTF4N2JDTkRCR0hyNHlnSUJoS19mUlU3bG9RcThlRmRLMGFyNFZpSW14dGlWSlJzQkluYUxXNzExQ2tUOUVGV05adUNZY3J5VGxNaFFLRFBfMnd3WG1xSi1FLVBPX1J2RFFSTU9CYjJoQVNSb2xIUGNqajhYbndCMEZjaTNEY1RPcW1mN0RW?oc=5",
+    "fuente": "Crónica Vasca",
+    "fecha": "2026-10-06T03:00:00+00:00"
+   },
+   {
     "titulo": "EH Bildu ganó en 2023 en Gipuzkoa mientras que el PSE venció al PNV en Euskadi",
     "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWjFibDNjMkVQMWxVYTFPVG1MbTVYajJEUmZJTEhkOF9KaUEzZ1VfTlFKOTJxYndyckVOdVQ0YWZOaDRVUzRSM2lIRWxnckNadEluV3laOXpDeDRIaDVSbXdJOUlFTWVyeTIyY2tYclc2Wm51SHBNQjZfUEtqSFBRMm9vU0pWLVd0MXl2T0xYU1BLVDZweVFxN2lqVmdRVnBDb2FxU19R0gGmAUFVX3lxTE9aMWJsM2MyRVAxbFVhMU9UbUxtNVhqMkRSZklMSGQ4X0ppQTNnVV9OUUo5MnFid3JyRU51VDRhZk5oNFVTNFIzaUhFbGdyQ1p0SW5XeVo5ekN4NEhoNVJtd0k5SUVNZXJ5MjJja1hyVzZabnVIcE1CNl9QS2pIUFEyb29TSlYtV3QxeXZPTFhTUEtUNnB5UXE3aWpWZ1FWcENvYXFTX1E?oc=5",
     "fuente": "El Diario Vasco",
@@ -423,12 +429,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdjROZS12NGZqTlNELWlWaU4ydFBtaTFxdXpBQ2ZnenctcmlCU3F0a2ZZWVJmbGhDSWd3YktfQ2NxMkNqV0tKbERVT3R0cU82cnVIZHA2dnpERS1nUlF3UXBLMmdSb1B2SnN3Y1ZDLS00TWpobXZ2UzF5b0FHa01KQVEyWkEzQVAwT3Y1U3JtRDNBQTlXWWdfRkJfdEJPbkh1dEhJc3A3T1FSbjV2bnBhd1RiVUE?oc=5",
     "fuente": "ABC",
     "fecha": "2026-10-05T17:52:51+00:00"
-   },
-   {
-    "titulo": "Otegi dice que si está en su mano las derechas no van a gobernar y anima a la ciudadanía vasca a ganar el partido a los autoritarios",
-    "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOWmZwTE9rVlY3YWVLMHVITlY2MGE1QkpDZV9tX1l2MGpIM2hBM2dwUjlqb1ltX2VJd2V1NXhNRzF2ZjlORGdYNExBSUNzUEJDQUN2b1BRdXcyanU2ZEtMYmJLYTRmQVNPbHBYUUh6ZlhTU09HRWFieXdxZFVXQ1A0WUZBSVgtRHhrcWRrZDNuaml6RzdaaUFmNzU0SEhaT3ZPeGRfaWE2bm1ZdTE3bVBjS3MtUjZkNjBUbUlkck55TzVCcV8wSnFrQlBJSFQ0b1Qwd3lYMzZOX1lVU1BrNG16MUZVa3lsYjc0NmVlX0FDY014SUZneUYw?oc=5",
-    "fuente": "EHBildu",
-    "fecha": "2026-10-05T17:09:44+00:00"
    }
   ],
   "PNV": [
@@ -831,6 +831,13 @@
  ],
  "polemicas": [
   {
+   "titulo": "El Supremo deja sin efecto provisionalmente la orden de detención contra Puigdemont tras el fallo del Constitucional",
+   "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdDNYXzBkOXVmMUtKVGs4S0pfUFIyOHcwRy1xWXZWVjNqN2RkNWVSaG9KWEtySGJQdUw5R3hJeFo1RndweGxieFEzaFp5TmVEN2VBbzlrSnhNQUJZUGVoU0RpeWhxV25ETEdxUkx6Zi1qNVdSV0ljdjQ2YUVGSVdhUDkyQ1JUWjRKcmJkV1N4SWx0Q3N4V3lfWTV2c3UydE0tYTA4QnBHWGd0VEVfSV9HRUpNS00yNThwSl9nMUVwMk5PY0hDN28ya1dVa2lzWnJ1ZlJNMHIza2xrMUFBWjJmd2lIdm1zSUFJQnBVbNIB8gFBVV95cUxNcENYQjhaYVozQk84ZW5lNkJwaEgySDlma2hMWG5HOE90d3B6QUFWY25OZVVBUl85cjU4ckZWcE1ha2R4dlJ1QzloX0o3Um81VGpyMUpGTVpOa2VMVVcwSW1yZTVpdnBGVmRBX3VHSzhUNlRNUGxyTUVqUm4yb0R5TWstZ010UjNNVkZzcWxIbVBDbFhQMS04UlJTd3NwRHB1ci10TkRVNG1ZdXcxOTB5TmJoSlowLVBHWHBYa0FzMHlqZkNRTUNJVkFJbmYzYW1kV3JYMU1RTnZiQmNTUVFkMDR4SVZIb3pTejVCUWljdTRfUQ?oc=5",
+   "fuente": "Fibwi Diario",
+   "fecha": "2026-10-06T20:04:12+00:00",
+   "partido": "Junts"
+  },
+  {
    "titulo": "Imputación del PSOE: PP denuncia cloacas socialistas",
    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObnVHZUlvYndZQ09ITnQwSnhsVS1ueWVkMEtEb1AzOFp5WWhBZTlJVUtfVFVLcEV4Y20zM29nWDZ0cml6djFMN0dMYm5mREstVHhJQlRtU0o0TWNfdG5JX3NlMWtIUXRkS1dfZ0J2ajRMVTlsWl8xM04zTHIwRkl2emtpbklXVHVRY3YwSl91RmQtSjNPQ1hoMjVoQ2UzOVMybjN1M0JHZGM0U2VfeVdFcW1XRUZlcEFEdkp1d19vZU1DYUZScVhSd2dtZzZBTGM1aTUwYm53?oc=5",
    "fuente": "Canariasdiario.com",
@@ -1015,6 +1022,18 @@
   },
   {
    "nombre": "laSexta",
+   "grupo": "izquierda"
+  },
+  {
+   "nombre": "La Marea",
+   "grupo": "izquierda"
+  },
+  {
+   "nombre": "El Salto",
+   "grupo": "izquierda"
+  },
+  {
+   "nombre": "Nueva Tribuna",
    "grupo": "izquierda"
   },
   {
