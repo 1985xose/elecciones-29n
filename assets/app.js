@@ -59,8 +59,10 @@ function activarPestana(id) {
 window.addEventListener("hashchange", () => activarPestana(location.hash.slice(1)));
 
 /* ---------- Media ---------- */
-function calcMedia(fecha = hoy(), ventana = 30) {
-  return Media.calcMedia(D.encuestas?.encuestas || [], fecha, { ventana, incluirCIS: $("#incluir-cis")?.checked, ranking: D.fiabilidad?.ranking, sesgos: D.analisis?.sesgos });
+/* Sin ventana explícita, la de ese día según lo que faltara para votar. La gráfica de tendencia pasa una fija. */
+function calcMedia(fecha = hoy(), ventana = null) {
+  const va = ventana ? { ventana, semivida: 14 } : Media.ventanaAdaptativa(fecha, fechaD(D.config.eleccion.fecha));
+  return { ...Media.calcMedia(D.encuestas?.encuestas || [], fecha, { ...va, incluirCIS: $("#incluir-cis")?.checked, ranking: D.fiabilidad?.ranking, sesgos: D.analisis?.sesgos }), fase: va.fase };
 }
 
 /* Patrón de colores de una coalición según el peso de cada partido en escaños (p. ej. 2 PP por cada Vox) */
@@ -147,7 +149,13 @@ function pintarHoy(m, m7, proy) {
         el("div", { class: "num" }, fmt1.format(m.media[k]), el("small", {}, Math.abs(d) >= 0.2 ? `${d > 0 ? "sube" : "baja"} ${fmt1.format(Math.abs(d))}` : "igual que la semana pasada")),
         el("div", { class: "pista" }, el("i", { style: { width: `${m.media[k] / max * 100}%`, background: color(k) } }))); }));
     $("#g-resto").replaceChildren(...o.slice(3).filter((k) => m.media[k] >= 0.5).map((k) => el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} ${fmt1.format(m.media[k])}`)));
-    $("#como-ganando").textContent = `Hoy entran ${m.usadas.length} encuestas: ${lista(m.usadas.map((e) => `${e.empresa_base} (${fFecha.format(fechaD(e.fin))})`))}.`;
+    // Transparencia: qué encuestas forman la media de hoy y cuánto pesa cada una
+    const faseTxt = m.fase === "precampaña" ? "Ahora usamos las encuestas de los últimos 30 días. Desde que empiece la campaña, el 13 de noviembre, usaremos las de 14 días, y la última semana las de 10, para que los cambios se noten antes."
+      : m.fase === "campaña" ? "En campaña usamos solo las encuestas de los últimos 14 días, para que los cambios se noten antes." : "En la última semana usamos solo las encuestas de los últimos 10 días. Desde el 24 de noviembre la ley prohíbe publicar encuestas nuevas en España.";
+    $("#media-hoy").replaceChildren(el("p", { class: "pie-bloque" }, `La media de hoy sale de ${m.usadas.length} encuestas, la última de cada empresa. ${faseTxt}`),
+      ...m.usadas.map((e) => el("div", { class: "peso" }, el("span", {}, e.empresa_base, el("small", {}, ` ${fFecha.format(fechaD(e.fin))}${e.muestra ? `, ${fmt0.format(e.muestra)} entrevistas` : ""}`)),
+        el("div", { class: "pista" }, el("i", { style: { width: `${Math.round(e.peso_pct * 100)}%` } })), el("b", {}, `${Math.round(e.peso_pct * 100)} %`))));
+    $("#como-ganando").textContent = "El porcentaje es lo que pesa cada encuesta en la media. Pesa más la más reciente, la que preguntó a más gente y la de la empresa que más acertó en 2016, 2019 y 2023. A cada encuesta se le resta antes lo que esa empresa suele dar de más o de menos a cada partido.";
   } else $("#r-ganando").textContent = "Todavía no hay encuestas cargadas. La primera actualización tarda unos minutos.";
 
   // 2. ¿Quién va a gobernar?

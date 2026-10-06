@@ -30,8 +30,9 @@ const EQUIV = { Sumar: ["Sumar", "UP"], Podemos: ["Sumar", "UP"], SALF: ["Vox", 
 
 function erroresEleccion(hist) {
   // hist = {fecha, resultado:{p:%}, encuestas:[...]}; media a fecha de inicio de la veda
+  // Misma regla que se usa hoy: la media al empezar la veda, con la ventana de la última semana
   const veda = new Date(fechaD(hist.fecha) - 6 * DIA);
-  const m = Me.calcMedia(hist.encuestas, veda, { ventana: 30 }).media;
+  const m = Me.calcMedia(hist.encuestas, veda, Me.ventanaAdaptativa(veda, fechaD(hist.fecha))).media;
   const err = {};
   for (const [p, v] of Object.entries(hist.resultado)) if (v >= 1 && m[p] != null) err[p] = +(v - m[p]).toFixed(2);
   return { media: m, errores: err };
@@ -247,11 +248,14 @@ function main() {
   const encuestas = enc ? enc.encuestas : [];
   const hoy = new Date();
   const dias = Math.round((fechaD(config.eleccion.fecha) - hoy) / DIA);
-  const mediaBruta = Me.calcMedia(encuestas, hoy, { ventana: 30, ranking: fiab && fiab.ranking }).media;
+  const va = Me.ventanaAdaptativa(hoy, fechaD(config.eleccion.fecha));
+  console.log(`Ventana de la media: ${va.ventana} días, semivida ${va.semivida} días (${va.fase}, faltan ${va.dias} días)`);
+  const mediaBruta = Me.calcMedia(encuestas, hoy, { ...va, ranking: fiab && fiab.ranking }).media;
   if (!Object.keys(mediaBruta).length) { console.log("Sin encuestas, no se simula"); return; }
   // Primero el análisis (sesgo de casa de cada empresa), después la media ya corregida con esos sesgos
   const an = analizar(encuestas, fiab && fiab.ranking, mediaBruta);
-  const { media } = Me.calcMedia(encuestas, hoy, { ventana: 30, ranking: fiab && fiab.ranking, sesgos: an.sesgos });
+  const { media, usadas } = Me.calcMedia(encuestas, hoy, { ...va, ranking: fiab && fiab.ranking, sesgos: an.sesgos });
+  console.log(`Encuestas en la media de hoy: ${usadas.map((e) => `${e.empresa_base} ${e.fin} (${Math.round(e.peso_pct * 100)} %)`).join(", ")}`);
   console.log(`Corrección de sesgo de casa: ${Object.entries(media).slice(0, 5).map(([k, v]) => `${k} ${mediaBruta[k].toFixed(1)} -> ${v.toFixed(1)}`).join(", ")}`);
   const cal = sigmas(media, historicos, dias);
   console.log(`Media hoy: ${Object.entries(media).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([k, v]) => `${k} ${v.toFixed(1)}`).join(", ")}`);
@@ -265,7 +269,8 @@ function main() {
     console.log(`  ${e.nombre}: ${(e.p * 100).toFixed(0)} %  (${e.p10}-${e.p90})${e.gobierno ? `  margen ${e.margen > 0 ? "faltan " + e.margen : "sobran " + (-e.margen)} pts` : ""}`);
   }
   console.log(`  Bloqueo: ${(res.bloqueo * 100).toFixed(0)} %`);
-  const salida = { actualizado: hoy.toISOString(), simulaciones: N, dias_para_votar: dias, media, sigmas: cal.sigmas, calibracion: cal.detalle, errores_historicos: cal.errores.map((e, i) => ({ eleccion: historicos[i].nombre, errores: e.errores })),
+  const salida = { actualizado: hoy.toISOString(), simulaciones: N, dias_para_votar: dias, media,
+    ventana: { ...va, encuestas: usadas.map((e) => ({ id: e.id, empresa: e.empresa_base, encargo: e.encargo, fin: e.fin, muestra: e.muestra, peso: +e.peso_pct.toFixed(3) })) }, sigmas: cal.sigmas, calibracion: cal.detalle, errores_historicos: cal.errores.map((e, i) => ({ eleccion: historicos[i].nombre, errores: e.errores })),
     ...res, metodo: "Media ponderada de encuestas + error correlacionado por bloques (rho 0,55) calibrado con 2019 y 2023 + ruido provincial 5 %, D'Hondt por provincia con los escaños del RD 806/2026." };
 
   // Backtest 2023: base 2019 y encuestas de entonces, con el error calibrado SOLO con 2019
@@ -274,7 +279,7 @@ function main() {
     const fechas = ["2023-05-30", "2023-06-20", "2023-07-10", "2023-07-17"];
     salida.backtest = { eleccion: "23J 2023", resultado_escanos: base.escanos_reales, fechas: [] };
     for (const f of fechas) {
-      const fd = fechaD(f), m = Me.calcMedia(h23.encuestas, fd, { ventana: 30 }).media;
+      const fd = fechaD(f), m = Me.calcMedia(h23.encuestas, fd, Me.ventanaAdaptativa(fd, fechaD("2023-07-23"))).media;
       const d = Math.round((fechaD("2023-07-23") - fd) / DIA);
       const c = sigmas(m, historicos.filter((h) => h.nombre !== "23J 2023"), d); // solo con lo anterior a 2023
       const s = simular(m, base19, c.sigmas, 4000, 23);

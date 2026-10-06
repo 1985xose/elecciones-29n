@@ -305,3 +305,9 @@ details[open] summary::after { content: "–"; }
 .aviso-boton { display: block; width: 100%; border: 0; font: inherit; text-align: left; cursor: pointer; font-weight: 600; }
 .tramos { margin: 0 0 8px; }
 .tramos button { padding: 6px 12px; font-size: .85rem; }
+.media-hoy { display: grid; gap: 6px; margin: 4px 0 8px; }
+.peso { display: grid; grid-template-columns: 1fr 70px 3em; align-items: center; gap: 8px; font-size: .9rem; }
+.peso small { color: var(--gris); font-size: .78rem; }
+.peso .pista { height: 8px; background: var(--superficie); border-radius: 4px; overflow: hidden; }
+.peso .pista i { display: block; height: 100%; background: var(--bronce); border-radius: 4px; }
+.peso b { text-align: right; }
