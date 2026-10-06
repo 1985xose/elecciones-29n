@@ -110,13 +110,27 @@ def celda_texto(c):
     return c.get_text(" ", strip=True)
 
 
+def tabla_estimacion(sopa, seccion="Voting_intention_estimates"):
+    """Solo la tabla de estimación de voto. La página tiene más tablas con el mismo formato
+    (intención directa, preferencia de victoria...) que no deben mezclarse."""
+    es_encuestas = lambda t: t.find("tr") is not None and "Polling firm" in t.find("tr").get_text(" ")
+    ancla = sopa.find(id=seccion)
+    if ancla is not None:
+        for t in ancla.find_all_next("table", class_="wikitable"):
+            if es_encuestas(t):
+                return t, "seccion"
+    for t in sopa.find_all("table", class_="wikitable"):
+        if es_encuestas(t):
+            return t, "primera tabla (sin sección encontrada)"
+    return None, None
+
+
 def parsear_tablas(html):
     sopa = BeautifulSoup(html, "html.parser")
     resultado, partidos_vistos = [], []
-    for tabla in sopa.find_all("table", class_="wikitable"):
-        cab = tabla.find("tr")
-        if not cab or "Polling firm" not in cab.get_text(" "):
-            continue
+    tabla, origen = tabla_estimacion(sopa)
+    print(f"Tabla usada: {origen}")
+    for tabla in ([tabla] if tabla is not None else []):
         filas = rejilla(tabla)
         # filas de cabecera = filas iniciales solo con th
         n_cab = 0
