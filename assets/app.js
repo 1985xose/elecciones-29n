@@ -33,6 +33,7 @@ const TRAMOS = ["muy difícil", "difícil", "en el aire", "probable", "muy proba
 const tramo = (p) => Math.min(4, Math.max(0, Math.floor((p || 0) * 5 + 1e-9)));
 const palabra = (p) => TRAMOS[tramo(p)];
 const CON_ARTICULO = new Set(["PP", "PSOE", "PNV", "BNG"]);
+const aP = (k) => CON_ARTICULO.has(k) ? `al ${nombre(k)}` : `a ${nombre(k)}`;
 const elP = (k) => CON_ARTICULO.has(k) ? `el ${nombre(k)}` : nombre(k), deP = (k) => CON_ARTICULO.has(k) ? `del ${nombre(k)}` : `de ${nombre(k)}`;
 /* Frase que acompaña al arco del hemiciclo */
 function fraseArco(cont, o) {
@@ -72,6 +73,7 @@ function activarPestana(id) {
   document.querySelectorAll(".pestanas a").forEach((a) => a.classList.toggle("activa", a.dataset.tab === id));
   window.scrollTo({ top: 0 });
   if (id === "encuestas" && !graficoTendencia && D.listo) pintarTendencia();
+  if (id === "encuestas" && D.listo) pintarGraficoFoco();
 }
 window.addEventListener("hashchange", () => activarPestana(location.hash.slice(1)));
 
@@ -119,7 +121,7 @@ function medidores(cont, det, ops, sel, alElegir) {
 
 /* ---------- Hemiciclo ---------- */
 /* resaltar: {partidos, color} dibuja un arco por fuera sobre los asientos de ese bloque. Si el arco pasa la raya, hay mayoría. */
-function hemiciclo(cont, escanos, filas = 12, resaltar = null, etiqueta = "176") {
+function hemiciclo(cont, escanos, filas = 12, resaltar = null, etiqueta = "176", solo = null) {
   const orden = D.config.orden_hemiciclo;
   const claves = Object.keys(escanos).filter((k) => escanos[k] > 0).sort((a, b) => (orden.indexOf(a) + 1 || 99) - (orden.indexOf(b) + 1 || 99));
   const total = claves.reduce((s, k) => s + escanos[k], 0);
@@ -133,7 +135,7 @@ function hemiciclo(cont, escanos, filas = 12, resaltar = null, etiqueta = "176")
   radios.forEach((r, i) => { for (let j = 0; j < porFila[i]; j++) { const a = Math.PI * (1 - (porFila[i] === 1 ? 0.5 : j / (porFila[i] - 1))); asientos.push({ x: r * Math.cos(a), y: r * Math.sin(a), a }); } });
   asientos.sort((p, q) => q.a - p.a || Math.hypot(p.x, p.y) - Math.hypot(q.x, q.y));
   const colores = [];
-  for (const k of claves) for (let i = 0; i < escanos[k]; i++) colores.push(color(k));
+  for (const k of claves) for (let i = 0; i < escanos[k]; i++) colores.push(solo && k !== solo ? "var(--linea)" : color(k));
   const rp = (1 - r0) / (filas - 1) * 0.42, E = 100;
   let svg = `<svg viewBox="-114 -116 228 136" role="img" aria-label="Hemiciclo de ${total} asientos">`;
   if (resaltar?.partidos?.length) {
@@ -695,6 +697,111 @@ function pintarSenado(proy) {
   pintaMapa();
 }
 
+/* ---------- Modo partido: se elige uno y cada pestaña abre con su ficha ---------- */
+const foco = { k: null, ctx: null };
+let graficoFoco;
+try { foco.k = localStorage.getItem("partido") || null; } catch {}
+function elegirFoco(k) { foco.k = k; try { if (k) localStorage.setItem("partido", k); else localStorage.removeItem("partido"); } catch {} pintarFoco(); }
+const agujaFija = (titulo, p, col) => el("div", { class: "medidor-a fijo" }, el("span", { class: "tit" }, titulo), el("span", { class: "svg", html: aguja(p, col) }), el("b", {}, cap(palabra(p))));
+const ORDINAL = ["", "primero", "segundo", "tercero", "cuarto", "quinto", "sexto", "séptimo", "octavo", "noveno", "décimo"];
+function pintarFoco(ctx) {
+  if (ctx) foco.ctx = ctx;
+  if (!foco.ctx) return;
+  const { m, m7, proy } = foco.ctx, P = D.prob;
+  const partidos = ordenar(m.media).filter((x) => D.config.partidos[x] && (m.media[x] >= 0.8 || (proy.total[x] || 0) > 0));
+  if (foco.k && !partidos.includes(foco.k)) foco.k = null;
+  const k = foco.k;
+  $("#foco-tira").replaceChildren(el("span", { class: "eti" }, k ? `Toda la app, centrada en ${nombre(k)}` : "Céntrate en un partido"),
+    el("div", { class: "fila" }, el("button", { type: "button", "aria-pressed": k ? "false" : "true", onclick: () => elegirFoco(null) }, "Todos"),
+      ...partidos.map((x) => el("button", { type: "button", "data-k": x, "aria-pressed": k === x ? "true" : "false", style: k === x ? { background: color(x), borderColor: color(x), color: "#fff" } : null, onclick: () => elegirFoco(k === x ? null : x) },
+        el("i", { class: "punto", style: { background: k === x ? "#fff" : color(x) } }), nombre(x)))));
+  const caja = (id) => $(`#foco-${id}`);
+  for (const id of ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias"]) caja(id).replaceChildren();
+  graficoFoco?.destroy(); graficoFoco = null;
+  if (!k) return;
+  const col = color(k), art = (titulo, ...hijos) => el("article", { class: "pregunta foco", style: { "--c": col } }, el("h2", {}, titulo), ...hijos);
+  const X = proy.total[k] || 0, pp = P?.partidos?.[k], pos = ordenar(m.media).indexOf(k) + 1, d = m7.media[k] != null ? m.media[k] - m7.media[k] : 0;
+  const der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
+
+  // Hoy
+  const hemi = el("div", { class: "hemi" });
+  hemiciclo(hemi, proy.total, 10, null, "176", k);
+  const a23 = D.base.escanos_reales?.[k], ag = [];
+  if (pp && (pp.p_primero >= 0.005 || pos <= 2)) ag.push(agujaFija("Ser el más votado", pp.p_primero, col));
+  if (pp && (pp.p_mayoria >= 0.001 || pos <= 2)) ag.push(agujaFija("Mayoría absoluta sin nadie más", pp.p_mayoria, col));
+  for (const e of [der, izq]) if (e && e.partidos.length > 1 && e.partidos.includes(k)) ag.push(agujaFija(`Mayoría de ${nombreEsc(e)}`, e.p, col));
+  if (pp && pp.p10 === 0 && pp.histograma) { const tot = Object.values(pp.histograma).reduce((a, b) => a + b, 0); if (tot) ag.push(agujaFija("Entrar en el Congreso", 1 - (pp.histograma[0] || 0) / tot, col)); }
+  caja("hoy").append(art(`${nombre(k)}, de un vistazo`,
+    el("p", { class: "respuesta" }, el("b", {}, `${fmt1.format(m.media[k])} % de los votos.`), ` Es el ${ORDINAL[pos] || `número ${pos}`} en la media de encuestas y ${Math.abs(d) >= 0.2 ? `${d > 0 ? "sube" : "baja"} ${fmt1.format(Math.abs(d))} puntos esta semana` : "está igual que la semana pasada"}.`),
+    hemi,
+    el("p", { class: "arco-txt" }, el("i", { style: { background: col } }), `${nombre(k)}, ${X} de 350 asientos`),
+    el("p", { class: "pie-bloque" }, `Con las encuestas de hoy ${X ? `sacaría ${X} ${X === 1 ? "asiento" : "asientos"}` : "no sacaría ningún asiento"}${a23 != null ? (X === a23 ? ", los mismos que en 2023" : `, ${Math.abs(X - a23)} ${X > a23 ? "más" : "menos"} que en 2023`) : ""}.${pp ? ` Como las encuestas fallan, lo normal es que acabe entre ${Math.min(pp.p10, X)} y ${Math.max(pp.p90, X)}.` : ""}`),
+    ag.length ? el("div", { class: "medidores" }, ...ag) : null));
+
+  // Provincias
+  const con = proy.provincias.filter((p) => p.escanos[k]), maxS = Math.max(1, ...con.map((p) => p.escanos[k]));
+  const rel = (p) => Math.max(p.aspirante.falta, 0) / (10 / (p.n + 1)), votos = (p) => votosDe(Math.max(p.aspirante.falta, 0), p.n);
+  const defiende = proy.provincias.filter((p) => p.aspirante && p.ultimo?.p === k).sort((a, b) => rel(a) - rel(b)).slice(0, 4);
+  const persigue = proy.provincias.filter((p) => p.aspirante?.p === k).sort((a, b) => rel(a) - rel(b)).slice(0, 4);
+  const irA = (n) => { mapa.sel = n; try { localStorage.setItem("mi-provincia", n); } catch {} pintarMapa(mapa.proy); $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); };
+  const filaProv = (p, texto) => el("button", { class: "ajustada", type: "button", onclick: () => irA(p.nombre) }, el("b", {}, p.nombre), el("span", { class: "m" }, texto));
+  const mapaK = el("div", { class: "mapa" });
+  mapaK.innerHTML = dibujarMapa(proy, { vista: "ganador", sel: "", colorear: (p) => { const n = p.escanos[k] || 0; return { fill: n ? col : "var(--linea)", op: n ? 0.35 + 0.65 * Math.sqrt(n / maxS) : 0.45, txt: "#fff", etiqueta: n ? String(n) : "" }; } });
+  mapaK.querySelectorAll("g.prov").forEach((g) => g.addEventListener("click", () => irA(g.dataset.p)));
+  const top = [...con].sort((a, b) => b.escanos[k] - a.escanos[k]).slice(0, 3);
+  caja("mapa").append(art(`${nombre(k)}, provincia a provincia`,
+    el("p", { class: "respuesta" }, con.length ? `${cap(elP(k))} sacaría asiento en ${con.length} de las ${proy.provincias.length} circunscripciones. Donde más, ${lista(top.map((p) => `${p.nombre} con ${p.escanos[k]}`))}.` : `Con las encuestas de hoy ${elP(k)} no sacaría asiento en ninguna provincia.`),
+    mapaK, el("p", { class: "pie-bloque" }, "El número es los asientos que sacaría en cada provincia. Cuanto más intenso el color, más asientos. Toca una para ver su reparto completo."),
+    defiende.length ? el("h3", {}, "Asientos que puede perder") : null, defiende.length ? el("div", { class: "ajustadas" }, ...defiende.map((p) => filaProv(p, `Tiene el último asiento y ${elP(p.aspirante.p)} se lo quitaría ${votos(p) < 100 ? "con muy pocos votos" : `con unos ${fmt0.format(votos(p))} votos más`}.`))) : null,
+    persigue.length ? el("h3", {}, "Asientos que puede ganar") : null, persigue.length ? el("div", { class: "ajustadas" }, ...persigue.map((p) => filaProv(p, `Le faltan ${votos(p) < 100 ? "muy pocos votos" : `unos ${fmt0.format(votos(p))} votos`} para quitarle el último asiento ${aP(p.ultimo.p)}.`))) : null));
+
+  // Encuestas
+  const emp = m.usadas.filter((e) => e.pct[k] != null).sort((a, b) => b.pct[k] - a.pct[k]);
+  caja("encuestas").append(art(`${nombre(k)} en las encuestas`,
+    el("p", { class: "respuesta" }, emp.length > 1 ? `La media le da el ${fmt1.format(m.media[k])} %. La encuesta que más le da es la de ${emp[0].empresa_base}, con el ${fmt1.format(emp[0].pct[k])} %, y la que menos la de ${emp[emp.length - 1].empresa_base}, con el ${fmt1.format(emp[emp.length - 1].pct[k])} %.` : `La media le da el ${fmt1.format(m.media[k])} %.`),
+    el("p", { class: "pie-bloque" }, "Su media de encuestas en el último año."),
+    el("div", { class: "grafico grafico-bajo" }, el("canvas", { id: "grafico-foco", "aria-label": `Evolución de ${nombre(k)}` })),
+    emp.length ? el("details", { class: "como" }, el("summary", {}, "Empresa por empresa"),
+      ...emp.map((e) => { const sg = D.analisis?.sesgos?.[e.clave]?.sesgo?.[k];
+        return el("div", { class: "fila-foco" }, el("span", {}, e.empresa_base, el("small", {}, ` ${fFecha.format(fechaD(e.fin))}`)), el("b", {}, `${fmt1.format(e.pct[k])} %`), el("small", { class: "nota-sesgo" }, sg != null && Math.abs(sg) >= 0.3 ? `suele darle ${signo(sg)}` : "")); }),
+      el("p", { class: "fuente" }, "Son las encuestas que cuentan hoy en la media. \"Suele darle\" es lo que esa empresa se separa de la media con este partido.")) : null));
+
+  // Senado
+  const sen = {}, primeras = [], segundas = [];
+  for (const p of proy.provincias) { const r = Modelo.senadoProvincia(p.cuotas, p.nombre), o = ordenar(r); for (const [x, n] of Object.entries(r)) sen[x] = (sen[x] || 0) + n; if (o[0] === k) primeras.push(p.nombre); else if (r[k]) segundas.push(p.nombre); }
+  const XS = sen[k] || 0, S = P?.senado?.[k];
+  caja("senado").append(art(`${nombre(k)} en el Senado`,
+    el("p", { class: "respuesta" }, XS ? `${cap(elP(k))} sacaría ${XS} de los 208 senadores que se eligen${S ? `, y lo normal es que acabe entre ${Math.min(S.p10, XS)} y ${Math.max(S.p90, XS)}` : ""}. Sería el partido más votado en ${primeras.length} ${primeras.length === 1 ? "provincia" : "provincias"}${primeras.length && primeras.length <= 6 ? ` (${lista(primeras)})` : ""} y el segundo en ${segundas.length}.` : `Con las encuestas de hoy ${elP(k)} no sacaría senadores. Para sacarlos hay que ser el primero o el segundo partido de una provincia.`),
+    S && S.p_mayoria >= 0.001 ? el("div", { class: "medidores" }, agujaFija("Mayoría absoluta en el Senado", S.p_mayoria, col)) : null));
+
+  // ¿Y si…?
+  const sits = situaciones(m.media).filter((x) => x.id !== "media");
+  caja("simulador").append(art(`¿Qué le pasaría ${aP(k)}?`,
+    el("p", { class: "pie-bloque" }, `Hoy ${X ? `sacaría ${X} ${X === 1 ? "asiento" : "asientos"}` : "no sacaría ningún asiento"}. Así cambiaría en cada situación.`),
+    ...sits.map((x) => { const n = Modelo.proyectar(x.f({ ...m.media }), D.base).total[k] || 0, dif = n - X;
+      return el("div", { class: "fila-foco" }, el("span", {}, x.titulo), el("b", {}, n), el("small", { class: dif > 0 ? "sube" : dif < 0 ? "baja" : "" }, dif ? `${dif > 0 ? "+" : "−"}${Math.abs(dif)}` : "igual")); })));
+
+  // Noticias
+  const N = D.noticias || {}, tit = (n) => el("a", { class: "titular-n", href: n.enlace, target: "_blank", rel: "noopener" }, n.titulo, el("span", { class: "m" }, `${n.fuente} ${hace(n.fecha)}`));
+  const suyas = (N.partidos?.[k] || []).slice(0, 5), pol = (N.polemicas || []).filter((n) => n.partido === k).slice(0, 3), ver = (N.verificaciones?.[k] || []).slice(0, 3);
+  caja("noticias").append(art(`${nombre(k)} en las noticias`,
+    ...(suyas.length ? suyas.map(tit) : [el("p", { class: "vacio" }, "Sin titulares recientes.")]),
+    pol.length ? el("h3", {}, "Polémicas") : null, ...pol.map(tit),
+    ver.length ? el("h3", {}, "Verificado por Newtral y Maldita") : null, ...ver.map(tit)));
+
+  pintarGraficoFoco();
+}
+function pintarGraficoFoco() {
+  const k = foco.k, lienzo = $("#grafico-foco");
+  if (!k || !lienzo || $("#encuestas").hidden || graficoFoco) return;
+  const puntos = [];
+  for (let t = new Date(+hoy() - 365 * DIA); t <= hoy(); t = new Date(+t + 3 * DIA)) puntos.push(t);
+  if (puntos[puntos.length - 1] < hoy()) puntos.push(hoy());
+  const op = opciones(" %");
+  graficoFoco = new Chart(lienzo, { type: "line", data: { labels: puntos.map(etiquetaFecha), datasets: [{ label: nombre(k), data: puntos.map((t) => { const v = calcMedia(t).media[k]; return v != null ? +v.toFixed(2) : null; }), borderColor: color(k), backgroundColor: color(k), borderWidth: 3, pointRadius: 0, tension: .3, spanGaps: true }] },
+    options: { ...op, plugins: { ...op.plugins, legend: { display: false } }, scales: { ...op.scales, y: { ...op.scales.y, beginAtZero: false, ticks: { ...op.scales.y.ticks, callback: (v) => `${fmt1.format(v)} %` } } } } });
+}
+
 /* ---------- Arranque ---------- */
 let proyActual, diaPintado = null;
 function pintarTodo(opciones) {
@@ -714,6 +821,7 @@ function pintarTodo(opciones) {
   pintarFiabilidad();
   pintarPorra(proy);
   pintarPartidos(m, proy);
+  pintarFoco({ m, m7, proy });
 }
 
 /* Arriba a la derecha, en todas las pestañas: los días que faltan y la hora de la última actualización de datos.

@@ -352,3 +352,23 @@ details[open] summary::after { content: "–"; }
 .enlace-resumen { box-sizing: border-box; grid-template-columns: 28px minmax(0, 1fr) 18px; }
 .enlace-resumen > span { min-width: 0; overflow-wrap: anywhere; }
 .pregunta .ficha { background: var(--papel); }
+
+/* Modo partido */
+.foco-tira { margin: 2px 0 10px; }
+.foco-tira .eti { display: block; font-size: .78rem; color: var(--gris); font-weight: 600; margin: 0 2px 5px; }
+.foco-tira .fila { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+.foco-tira .fila::-webkit-scrollbar { display: none; }
+.foco-tira button { flex: none; display: inline-flex; align-items: center; gap: 6px; border: 2px solid var(--linea); background: var(--superficie); border-radius: 999px; padding: 5px 12px; font: inherit; font-size: .84rem; font-weight: 600; color: var(--tinta); cursor: pointer; white-space: nowrap; }
+.foco-tira button[aria-pressed="true"] { border-color: var(--tinta); }
+.foco-caja:empty { display: none; }
+.pregunta.foco { border-top: 6px solid var(--c); margin: 0 0 14px; }
+.pregunta.foco h3 { font-size: 1rem; margin: 16px 0 6px; }
+.pregunta.foco .ajustada, .pregunta.foco .titular-n { background: var(--papel); }
+.pregunta.foco .titular-n { margin-top: 6px; }
+.medidor-a.fijo { cursor: default; }
+.fila-foco { display: grid; grid-template-columns: minmax(0, 1fr) auto 4.6em; gap: 10px; align-items: baseline; padding: 8px 0; border-top: 1px solid var(--linea); font-size: .92rem; }
+.fila-foco:first-of-type { border-top: 0; }
+.fila-foco b { font-size: 1.05rem; text-align: right; }
+.fila-foco small { color: var(--gris); }
+.fila-foco > small { text-align: right; font-weight: 700; font-size: .8rem; }
+.fila-foco > small.sube { color: var(--bien); } .fila-foco > small.baja { color: var(--mal); }
