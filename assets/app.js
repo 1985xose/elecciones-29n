@@ -27,6 +27,10 @@ const deCada100 = (p) => `${r100(p)} de cada 100`;
 const pct = (p) => `${r100(p)} de 100`;
 const cap = (t) => t.charAt(0).toUpperCase() + t.slice(1);
 const VOTOS_VALIDOS = 24688087; // votos válidos del 23J
+// Votos aproximados de una provincia. Los asientos menos los 2 fijos por provincia van en proporción a la población.
+const votosProvincia = (n) => Math.max(n - 2, 0.3) / 246.6 * VOTOS_VALIDOS;
+const votosDe = (pts, n) => Math.round(pts / 100 * votosProvincia(n) / 100) * 100;
+const porVotos = (pts, n) => { const v = votosDe(pts, n); return v < 100 ? "por menos de 100 votos, un empate técnico" : `por unos ${fmt0.format(v)} votos`; };
 function puntosTexto(n) {
   const v = Math.round(Math.abs(n) * VOTOS_VALIDOS / 100 / 10000) * 10000;
   const refs = [[200000, "Vitoria"], [270000, "Gijón"], [330000, "Córdoba"], [450000, "Bilbao y Murcia juntas"], [580000, "Málaga"], [690000, "Sevilla"], [800000, "Valencia"], [1100000, "Sevilla y Zaragoza juntas"], [1650000, "Barcelona"], [2400000, "Barcelona y Valencia juntas"], [3300000, "Madrid"]];
@@ -136,8 +140,8 @@ function pintarHoy(m, m7, proy) {
   if (uu) resumen.push(fila("encuesta", `Última encuesta, ${uu.empresa}${uu.encargo ? ` para ${uu.encargo}` : ""}, del ${fFecha.format(fechaD(uu.fin))}, ${uu.veredicto === "ruido" ? "sin novedades" : uu.veredicto === "leve" ? "con algún movimiento" : "con una novedad de verdad"}.`, uu.texto, () => { location.hash = "#encuestas"; setTimeout(ir(`#enc-${CSS.escape(uu.id)}`), 150); }));
   const pol0 = D.noticias?.polemicas?.[0];
   if (pol0) resumen.push(fila("noticia", pol0.titulo, `Polémica del día, ${nombre(pol0.partido)}, ${pol0.fuente}`, pol0.enlace));
-  const aire0 = P ? [...P.provincias].sort((a, b) => b.en_el_aire - a.en_el_aire)[0] : null;
-  if (aire0 && aire0.disputa) resumen.push(fila("mapa", `La provincia más reñida es ${aire0.nombre}, ${nombre(aire0.disputa.tiene)} y ${nombre(aire0.disputa.quiere)} se disputan el último asiento.`, "Ver el mapa", () => { mapa.sel = aire0.nombre; mapa.vista = "filo"; document.querySelectorAll("#mapa .conmutador button").forEach((x) => x.setAttribute("aria-pressed", x.dataset.vista === "filo" ? "true" : "false")); pintarMapa(mapa.proy); location.hash = "#mapa"; }));
+  const aire0 = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => Math.max(a.aspirante.falta, 0) / (10 / (a.n + 1)) - Math.max(b.aspirante.falta, 0) / (10 / (b.n + 1)))[0];
+  if (aire0) resumen.push(fila("mapa", `La provincia más reñida es ${aire0.nombre}. ${nombre(aire0.ultimo.p)} y ${nombre(aire0.aspirante.p)} se disputan el último asiento ${porVotos(Math.max(aire0.aspirante.falta, 0), aire0.n)}.`, "Ver el mapa", () => { mapa.sel = aire0.nombre; mapa.vista = "filo"; document.querySelectorAll("#mapa .conmutador button").forEach((x) => x.setAttribute("aria-pressed", x.dataset.vista === "filo" ? "true" : "false")); pintarMapa(mapa.proy); location.hash = "#mapa"; }));
   $("#resumen").replaceChildren(...resumen);
 
   // 1. ¿Quién va ganando?
@@ -263,9 +267,9 @@ function fraseProvincia(p, conReparto = true) {
   const o = ordenar(p.escanos);
   const reparto = lista(o.map((k) => `${p.escanos[k]} para ${nombre(k)}`));
   let f = conReparto ? `En ${p.nombre} se reparten ${p.n} asientos, ${reparto}.${antes2023(p)} ` : "";
-  if (p.aspirante) { const falta = Math.max(p.aspirante.falta, 0), votos = Math.round(falta / 100 * (p.n / 350) * VOTOS_VALIDOS / 100) * 100;
-    const renido = votos < 5000 ? "muy reñido" : votos < 12000 ? "reñido" : null;
-    f += renido ? `El último asiento está ${renido}, lo tiene ${nombre(p.ultimo.p)} y ${nombre(p.aspirante.p)} se lo quitaría con unos ${fmt0.format(votos)} votos más.` : `El último asiento lo tiene bastante claro ${nombre(p.ultimo.p)}, ${nombre(p.aspirante.p)} necesitaría unos ${fmt0.format(votos)} votos más para quitárselo.`; }
+  if (p.aspirante) { const falta = Math.max(p.aspirante.falta, 0), votos = votosDe(falta, p.n), umbral = 10 / (p.n + 1);
+    const renido = falta < umbral / 2 ? "muy reñido" : falta < umbral ? "reñido" : null;
+    f += renido ? `El último asiento está ${renido}, lo tiene ${nombre(p.ultimo.p)} y ${nombre(p.aspirante.p)} se lo quitaría ${votos < 100 ? "con muy pocos votos, es un empate técnico" : `con unos ${fmt0.format(votos)} votos más`}.` : `El último asiento lo tiene bastante claro ${nombre(p.ultimo.p)}, ${nombre(p.aspirante.p)} necesitaría unos ${fmt0.format(votos)} votos más para quitárselo.`; }
   return f;
 }
 function pintarMiProvincia(proy) {
@@ -385,12 +389,13 @@ function colorProvincia(p) {
   const pp = D.prob?.provincias?.find((x) => x.nombre === p.nombre);
   const gan = ordenar(p.escanos)[0];
   if (mapa.vista === "filo") {
-    const a = pp ? pp.en_el_aire : (p.aspirante ? Math.max(0, 1 - p.aspirante.falta / 4) : 0);
-    // los dos partidos que se disputan el último asiento, por frecuencia en las simulaciones o por el reparto central
-    const dos = pp && pp.disputa ? [pp.disputa.tiene, pp.disputa.quiere] : (p.ultimo && p.aspirante ? [p.ultimo.p, p.aspirante.p] : []);
+    // Misma pareja y misma medida que la ficha y la lista: quién tiene el último asiento, quién se lo disputa,
+    // y lo que le falta comparado con lo que cuesta un asiento en esa provincia
+    const dos = p.ultimo && p.aspirante ? [p.ultimo.p, p.aspirante.p] : [];
+    const rel = p.aspirante ? Math.max(p.aspirante.falta, 0) / (10 / (p.n + 1)) : 9;
     const id = "g" + p.nombre.replace(/[^a-z]/gi, "");
     const grad = dos.length === 2 ? `<linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="50%" stop-color="${color(dos[0])}"/><stop offset="50%" stop-color="${color(dos[1])}"/></linearGradient>` : "";
-    return { fill: dos.length === 2 ? `url(#${id})` : "var(--linea)", op: Math.max(.15, Math.min(1, a * 1.4)), txt: "var(--tinta)", etiqueta: dos.length === 2 && p.n >= 4 ? `${nombre(dos[0])}·${nombre(dos[1])}` : "", grad, clase: "etq", tam: 21 };
+    return { fill: dos.length === 2 ? `url(#${id})` : "var(--linea)", op: rel < 0.5 ? 1 : rel < 1 ? 0.75 : rel < 2 ? 0.4 : 0.12, txt: "var(--tinta)", etiqueta: dos.length === 2 && p.n >= 4 ? `${nombre(dos[0])}·${nombre(dos[1])}` : "", grad, clase: "etq", tam: 21 };
   }
   const empate = gan && ordenar(p.escanos).length > 1 && p.escanos[gan] === p.escanos[ordenar(p.escanos)[1]];
   return { fill: gan ? color(gan) : "var(--linea)", op: empate ? .6 : 1, txt: "#fff", etiqueta: String(p.n) };
@@ -430,20 +435,21 @@ function pintarMapa(proy) {
   const svg = dibujarMapa(proy);
   $("#mapa-svg").innerHTML = svg;
   $("#mapa-svg").querySelectorAll("g.prov").forEach((g) => g.addEventListener("click", () => { mapa.sel = g.dataset.p; try { localStorage.setItem("mi-provincia", mapa.sel); } catch {} pintarMapa(mapa.proy); }));
-  $("#mapa-pista").textContent = mapa.vista === "ganador" ? "Cada provincia lleva el color del partido que más asientos sacaría en ella, y el número de asientos que reparte. Si está más clara es que hay empate. Toca una para ver el detalle." : "Cada provincia lleva los dos colores de los partidos que más veces se disputan su último asiento, y sus nombres. Cuanto más intensa, más veces se decide ese asiento por menos de un punto. Las casi blancas están decididas.";
+  $("#mapa-pista").textContent = mapa.vista === "ganador" ? "Cada provincia lleva el color del partido que más asientos sacaría en ella, y el número de asientos que reparte. Si está más clara es que hay empate. Toca una para ver el detalle." : "Cada provincia lleva los colores de los dos partidos que se disputan su último asiento, primero el que lo tiene y luego el que lo persigue. Cuanto más intenso, más reñido. Las casi blancas están decididas. Toca una para ver el detalle.";
   const p = proy.provincias.find((x) => x.nombre === mapa.sel);
   $("#ficha-provincia").replaceChildren(...(p ? [el("div", { class: "ficha" }, el("h3", {}, `${p.nombre}, ${p.n} asientos`),
     el("div", { class: "chips" }, ...ordenar(p.escanos).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${p.escanos[k]}`))),
     el("p", {}, (p.aspirante ? fraseProvincia(p, false) : "") + antes2023(p)),
-    (() => { const pp = D.prob?.provincias?.find((x) => x.nombre === p.nombre); return pp ? el("p", { class: "fuente" }, `En ${r100(pp.en_el_aire)} de cada 100 simulaciones el último asiento se decide por menos de 10.000 votos${pp.disputa ? `, y lo más frecuente es que se lo disputen ${nombre(pp.disputa.tiene)} y ${nombre(pp.disputa.quiere)}` : ""}.`) : null; })(),
     el("details", { class: "como" }, el("summary", {}, "¿Cómo se reparten estos asientos?"),
       el("p", {}, "Con la ley D'Hondt. El voto de cada partido se divide entre 1, 2, 3… y los asientos van a los números más altos. Los marcados en color son los que se llevan asiento. Solo entran los partidos con al menos el 3 % del voto de la provincia."),
       tablaDhondt(p)))] : []));
-  const aj = D.prob ? [...D.prob.provincias].sort((a, b) => b.en_el_aire - a.en_el_aire).slice(0, 5).map((pp) => ({ x: proy.provincias.find((q) => q.nombre === pp.nombre), pp }))
-    : [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => a.aspirante.falta - b.aspirante.falta).slice(0, 5).map((x) => ({ x }));
+  // Ordenadas por lo mismo que dice la etiqueta: lo que le falta al aspirante comparado con lo que cuesta un asiento en esa provincia
+  const relativo = (x) => Math.max(x.aspirante.falta, 0) / (10 / (x.n + 1));
+  const aj = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => relativo(a) - relativo(b)).slice(0, 5).map((x) => ({ x }));
+  const nivel = (x) => { const f = Math.max(x.aspirante?.falta ?? 99, 0), u = 10 / (x.n + 1); return f < u / 2 ? "Muy reñida" : f < u ? "Reñida" : "Algo reñida"; };
   $("#ajustadas").replaceChildren(...aj.map(({ x, pp }) => el("button", { class: "ajustada", type: "button", onclick: () => { mapa.sel = x.nombre; pintarMapa(mapa.proy); $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); } },
-    el("b", {}, x.nombre), el("span", { class: "pts" }, pp ? `por menos de 10.000 votos en ${r100(pp.en_el_aire)} de cada 100` : `a ${fmt1.format(Math.max(x.aspirante.falta, 0))} puntos`),
-    el("span", { class: "m" }, pp?.disputa ? `Se lo disputan ${nombre(pp.disputa.tiene)} y ${nombre(pp.disputa.quiere)}. ${x.aspirante ? `Hoy lo tiene ${nombre(x.ultimo.p)} por unos ${fmt0.format(Math.round(Math.max(x.aspirante.falta, 0) / 100 * (x.n / 350) * VOTOS_VALIDOS / 100) * 100)} votos.` : ""}` : (x.aspirante ? `El último asiento es de ${nombre(x.ultimo.p)} y se lo disputa ${nombre(x.aspirante.p)}` : "")))));
+    el("b", {}, x.nombre), el("span", { class: "pts" }, nivel(x)),
+    el("span", { class: "m" }, x.aspirante ? `Se lo disputan ${nombre(x.ultimo.p)} y ${nombre(x.aspirante.p)}. Hoy lo tiene ${nombre(x.ultimo.p)} ${porVotos(Math.max(x.aspirante.falta, 0), x.n)}.` : ""))));
 }
 function tablaDhondt(p) {
   const partidos = ordenar(p.cuotas).filter((k) => p.cuotas[k] >= Modelo.UMBRAL);

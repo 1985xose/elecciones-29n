@@ -169,8 +169,9 @@ function resumir(sims, base, escenarios) {
       rep[clave] = (rep[clave] || 0) + 1;
       if (p.ultimo) ult[p.ultimo] = (ult[p.ultimo] || 0) + 1;
       if (p.ultimo && p.aspirante) { const k = `${p.ultimo}|${p.aspirante}`; pares[k] = (pares[k] || 0) + 1; }
-      // reñida: el último asiento se decide por menos de 10.000 votos (los puntos de la provincia pasados a votos por su tamaño)
-      if (p.falta / 100 * (prov.escanos / 350) * 24688087 < 10000) renidas++;
+      // Reñida: al aspirante le falta menos de una décima parte de lo que cuesta un asiento en esa provincia.
+      // Un asiento cuesta más o menos el 100/(n+1) % del voto, así la medida vale igual en Madrid que en Ceuta.
+      if (p.falta < 10 / (prov.escanos + 1)) renidas++;
       sumaFalta += Math.min(p.falta, 10);
     }
     const par = Object.entries(pares).sort((a, b) => b[1] - a[1])[0];
@@ -179,7 +180,7 @@ function resumir(sims, base, escenarios) {
     for (const par of modal[0].split(",")) { const [k, v] = par.split(":"); reparto[k] = +v; }
     const ultimo = {};
     for (const [k, c] of Object.entries(ult)) ultimo[k] = +(c / n).toFixed(3);
-    // en_el_aire: de cada 100 simulaciones, en cuántas el último asiento se decide por menos de 10.000 votos
+    // en_el_aire: de cada 100 simulaciones, en cuántas el último asiento se decide por menos de una décima parte de lo que cuesta un asiento
     return { nombre: prov.nombre, ccaa: prov.ccaa, n: prov.escanos, reparto, p_reparto: +(modal[1] / n).toFixed(3), en_el_aire: +(renidas / n).toFixed(3), falta_media: +(sumaFalta / n).toFixed(2),
       disputa: par ? { tiene: par[0].split("|")[0], quiere: par[0].split("|")[1], p: +(par[1] / n).toFixed(3) } : null, ultimo };
   });

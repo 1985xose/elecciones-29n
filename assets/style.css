@@ -94,7 +94,7 @@ main { max-width: 760px; margin: 0 auto; padding: 4px 16px 24px; }
 .ajustadas { display: grid; gap: 6px; }
 .ajustada { background: var(--superficie); border-radius: 12px; padding: 10px 14px; display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; align-items: center; cursor: pointer; border: 0; text-align: left; width: 100%; }
 .ajustada b { font-weight: 650; }
-.ajustada .pts { font-size: 1.1rem; font-weight: 800; color: var(--mal); }
+.ajustada .pts { font-size: 1rem; font-weight: 800; color: var(--mal); }
 .ajustada .m { color: var(--gris); font-size: .82rem; grid-column: 1 / -1; }
 
 /* Simulador */
@@ -171,7 +171,11 @@ details[open] summary::after { content: "–"; }
 .clave .m { color: var(--gris); font-size: .88rem; }
 .grafico-bajo { height: 200px; margin-bottom: 12px; }
 .veredicto { font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; margin-left: 6px; vertical-align: middle; color: #fff; }
-.veredicto.ruido { background: var(--gris); } .veredicto.leve { background: var(--bronce); } .veredicto.movimiento { background: var(--mal); }
+.tarjeta .cab .veredicto, .tarjeta .cab .nota { white-space: nowrap; }
+.tarjeta .cab .veredicto.ruido { background: #E6E9EE; color: #3D4654; }
+.tarjeta .cab .veredicto.leve { background: #F3E3BF; color: #6B4E12; }
+.tarjeta .cab .veredicto.movimiento { background: var(--mal); color: #fff; }
+.tarjeta .cab .nota { color: var(--tinta); }
 .nota { display: inline-block; min-width: 1.5em; text-align: center; font-size: .75rem; font-weight: 800; border-radius: 5px; padding: 1px 4px; background: var(--papel); color: var(--tinta); margin-left: 6px; vertical-align: middle; }
 .tarjeta .ver { color: var(--gris); font-size: .86rem; margin-top: 6px; }
 .swing { background: var(--superficie); border-radius: 16px; padding: 12px 14px; margin-bottom: 10px; display: grid; gap: 6px; }
