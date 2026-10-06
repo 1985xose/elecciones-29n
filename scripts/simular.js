@@ -76,7 +76,7 @@ function simular(media, base, sig, n, semilla, opciones = {}) {
       const cuotas = ruido(prov, M.proyectarProvincia(prov, m, base, gr));
       const d = M.dhondt(cuotas, opciones.escanos ? opciones.escanos[prov.nombre] : prov.escanos);
       for (const [p, s] of Object.entries(d.escanos)) total[p] = (total[p] || 0) + s;
-      provincias.push({ escanos: d.escanos, ultimo: d.ultimo ? d.ultimo.p : null, cuotas });
+      provincias.push({ escanos: d.escanos, ultimo: d.ultimo ? d.ultimo.p : null, aspirante: d.aspirante ? d.aspirante.p : null, falta: d.aspirante ? Math.max(0, d.aspirante.falta) : 99, cuotas });
     }
     resultados.push({ total, provincias, senado: senadoDe(provincias, base) });
   }
@@ -136,20 +136,27 @@ function resumir(sims, base, escenarios) {
   }
   // Provincias: reparto más frecuente y probabilidad de que el último escaño sea de cada partido
   const provincias = base.provincias.map((prov, i) => {
-    const rep = {}, ult = {};
+    const rep = {}, ult = {}, pares = {};
+    let renidas = 0, sumaFalta = 0;
     for (const s of sims) {
       const p = s.provincias[i];
       const clave = Object.keys(p.escanos).sort().map((k) => `${k}:${p.escanos[k]}`).join(",");
       rep[clave] = (rep[clave] || 0) + 1;
       if (p.ultimo) ult[p.ultimo] = (ult[p.ultimo] || 0) + 1;
+      if (p.ultimo && p.aspirante) { const k = `${p.ultimo}|${p.aspirante}`; pares[k] = (pares[k] || 0) + 1; }
+      // reñida: el último asiento se decide por menos de 10.000 votos (los puntos de la provincia pasados a votos por su tamaño)
+      if (p.falta / 100 * (prov.escanos / 350) * 24688087 < 10000) renidas++;
+      sumaFalta += Math.min(p.falta, 10);
     }
+    const par = Object.entries(pares).sort((a, b) => b[1] - a[1])[0];
     const modal = Object.entries(rep).sort((a, b) => b[1] - a[1])[0];
     const reparto = {};
     for (const par of modal[0].split(",")) { const [k, v] = par.split(":"); reparto[k] = +v; }
     const ultimo = {};
     for (const [k, c] of Object.entries(ult)) ultimo[k] = +(c / n).toFixed(3);
-    const pMaxUltimo = Math.max(0, ...Object.values(ultimo));
-    return { nombre: prov.nombre, ccaa: prov.ccaa, n: prov.escanos, reparto, p_reparto: +(modal[1] / n).toFixed(3), en_el_aire: +(1 - pMaxUltimo).toFixed(3), ultimo };
+    // en_el_aire: de cada 100 simulaciones, en cuántas el último asiento se decide por menos de 10.000 votos
+    return { nombre: prov.nombre, ccaa: prov.ccaa, n: prov.escanos, reparto, p_reparto: +(modal[1] / n).toFixed(3), en_el_aire: +(renidas / n).toFixed(3), falta_media: +(sumaFalta / n).toFixed(2),
+      disputa: par ? { tiene: par[0].split("|")[0], quiere: par[0].split("|")[1], p: +(par[1] / n).toFixed(3) } : null, ultimo };
   });
   // Senado
   const senado = {};

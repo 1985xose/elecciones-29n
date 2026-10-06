@@ -87,11 +87,15 @@
     <article class="pregunta">
       <h2>¿Valen lo mismo todos los votos?</h2>
       <p id="r-coste" class="respuesta"></p>
+      <p class="pie-bloque">De cada 100 votos a cada partido, cuántos sirven para elegir a un diputado (en color) y cuántos se pierden (en gris).</p>
       <div id="g-coste" class="barras-grandes"></div>
+      <h3 class="sub">Si todos los votos valieran igual</h3>
+      <p id="r-proporcional" class="pie-bloque"></p>
+      <div id="g-proporcional" class="proporcional"></div>
       <details class="como"><summary>¿Por qué pasa esto?</summary>
         <p>Los asientos se reparten provincia a provincia. Si un partido no consigue asiento en una provincia, todos sus votos allí se pierden, no se suman en ningún sitio. A los partidos medianos con el voto repartido por toda España les pasa en la mayoría de provincias. A los que concentran su voto en una zona casi nunca. Y los dos grandes salen beneficiados porque D'Hondt favorece al más votado en las provincias pequeñas, que reparten 3 o 4 asientos.</p>
         <div id="g-perdidos" class="perdidos"></div>
-        <p class="fuente">Cálculo aproximado, los votos de cada partido se estiman con su porcentaje en la media de encuestas sobre los 24,7 millones de votos válidos de 2023, y los asientos son los del caso más probable.</p>
+        <p class="fuente">Cálculo aproximado. Los votos de cada partido se estiman con la media de encuestas y el tamaño de cada provincia, y los asientos son los del caso más probable. "Si todos los votos valieran igual" reparte los 350 asientos en proporción al voto en toda España.</p>
       </details>
     </article>
 
@@ -160,7 +164,7 @@
     <p id="mapa-pista" class="explica"></p>
     <div id="ficha-provincia"></div>
     <h2>Las más reñidas</h2>
-    <p class="explica">Donde el último asiento puede cambiar de partido por muy pocos votos.</p>
+    <p class="explica">Donde el último asiento se decide más veces por menos de 10.000 votos, los de un pueblo mediano.</p>
     <div id="ajustadas" class="ajustadas"></div>
   </section>
 
@@ -168,8 +172,11 @@
     <h2>Lo que dicen las encuestas</h2>
     <p class="explica">Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.</p>
     <div class="grafico"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div>
-    <div id="lista-partidos" class="lista-partidos"></div>
-    <label class="interruptor"><input type="checkbox" id="incluir-cis"> Incluir el CIS, el organismo público, en la media</label>
+    <details class="como"><summary>Los partidos pequeños y el CIS</summary>
+      <div id="lista-partidos" class="lista-partidos"></div>
+      <label class="interruptor"><input type="checkbox" id="incluir-cis"> Incluir el CIS, el organismo público, en la media</label>
+      <p class="fuente">El CIS no entra en la media por defecto porque desde 2019 se separa mucho del resto de empresas, sobre todo con el PSOE.</p>
+    </details>
     <h2>Las últimas encuestas, una a una</h2>
     <p class="explica">Cada empresa tiene sus manías. Aquí te decimos si lo que dice una encuesta es normal en ella o es una novedad de verdad.</p>
     <div id="tarjetas-encuestas" class="tarjetas"></div>
@@ -185,11 +192,13 @@
     <div id="sim-waffle-ley" class="waffle-ley"></div>
     <div id="sim-hemiciclo" class="hemi"></div>
     <div id="sim-leyenda" class="leyenda"></div>
-    <div id="pactos" class="pactos"></div>
     <h2>Así quedaría el mapa</h2>
     <div id="sim-mapa" class="mapa"></div>
     <p id="sim-cambios" class="explica"></p>
     <div id="sim-ficha"></div>
+    <details class="como"><summary>Suma partidos y mira si llegan a 176</summary>
+      <div id="pactos" class="pactos"></div>
+    </details>
     <details class="como"><summary>Modo avanzado, mueve tú los números</summary>
       <div class="swing">
         <label for="swing">Trasvase de votos entre la izquierda y la derecha</label>
