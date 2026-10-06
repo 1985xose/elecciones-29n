@@ -225,16 +225,38 @@ details[open] summary::after { content: "–"; }
 .bg .nom { font-weight: 700; font-size: 1.05rem; display: flex; align-items: center; gap: 8px; }
 .bg .num { font-weight: 800; font-size: 1.5rem; line-height: 1; }
 .bg .num small { font-size: .8rem; font-weight: 500; color: var(--gris); margin-left: 4px; }
+.bg .num small.sube { color: var(--bien); font-weight: 700; } .bg .num small.baja { color: var(--mal); font-weight: 700; }
 .bg .pista { grid-column: 1 / -1; height: 18px; background: var(--papel); border-radius: 9px; overflow: hidden; }
 .bg .pista i { display: block; height: 100%; border-radius: 9px; }
 .resto { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
 .resto span { font-size: .85rem; padding: 4px 10px; border-radius: 999px; background: var(--papel); display: inline-flex; align-items: center; gap: 6px; }
 
-.waffle svg { width: 100%; max-width: 360px; height: auto; display: block; margin: 0 auto; }
-.waffle-ley { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 16px; margin: 10px 0 4px; font-size: .92rem; }
-.waffle-ley span { display: inline-flex; align-items: center; gap: 6px; }
-.waffle-ley i { width: 14px; height: 14px; border-radius: 4px; }
-.hemi { max-width: 440px; margin: 6px auto 0; }
+.hemi { max-width: 500px; margin: 6px auto 0; }
+.arco-txt { text-align: center; font-weight: 700; font-size: .95rem; margin: 2px 0 8px; min-height: 1.3em; }
+.arco-txt i { display: inline-block; width: 22px; height: 5px; border-radius: 3px; vertical-align: middle; margin-right: 7px; }
+.medidores, .medidor-detalle { --fondo: var(--superficie); --hueco: var(--papel); }
+.pregunta .medidores, .pregunta .medidor-detalle { --fondo: var(--papel); --hueco: var(--superficie); }
+.medidores { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
+.medidor-a { background: var(--fondo); border: 2px solid transparent; border-radius: 14px; padding: 10px 6px; font: inherit; color: var(--tinta); cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 2px; text-align: center; }
+.medidor-a[aria-pressed="true"] { border-color: var(--tinta); }
+.medidor-a .tit { font-size: .8rem; font-weight: 600; color: var(--gris); line-height: 1.2; min-height: 2.4em; display: flex; align-items: center; }
+.medidor-a .svg { width: 100%; max-width: 130px; }
+.medidor-a svg { width: 100%; height: auto; display: block; }
+.medidor-a b { font-size: .95rem; font-weight: 800; line-height: 1.15; min-height: 2.3em; display: flex; align-items: center; }
+.medidor-detalle { margin-top: 8px; }
+.medidor-detalle .pie-bloque { text-align: center; margin: 0; }
+.medidor-detalle .caja { background: var(--fondo); border-radius: 14px; padding: 14px 14px 10px; }
+.medidor-detalle .caja p { margin: 6px 0 0; font-size: .92rem; }
+.barra-asientos { position: relative; height: 66px; margin: 6px 8px 0; }
+.barra-asientos .pista { position: absolute; left: 0; right: 0; top: 26px; height: 12px; border-radius: 6px; background: var(--hueco); }
+.barra-asientos .franja { position: absolute; top: 26px; height: 12px; border-radius: 6px; opacity: .45; }
+.barra-asientos .hoy { position: absolute; top: 21px; width: 22px; height: 22px; margin-left: -11px; border-radius: 50%; border: 3px solid var(--fondo); box-sizing: border-box; }
+.barra-asientos .raya { position: absolute; top: 16px; height: 32px; border-left: 2px dashed var(--tinta); margin-left: -1px; }
+.barra-asientos .eti-raya { position: absolute; top: -3px; transform: translateX(-50%); font-size: .75rem; font-weight: 700; white-space: nowrap; }
+.barra-asientos .n { position: absolute; top: 47px; font-size: .78rem; color: var(--gris); }
+.barra-asientos .n.izq { transform: translateX(-100%); padding-right: 4px; }
+.barra-asientos .n.der { padding-left: 4px; }
+.barra-asientos .n.c { transform: translateX(-50%); font-weight: 800; color: var(--tinta); font-size: .86rem; }
 .hemi svg { width: 100%; height: auto; display: block; }
 
 .cambios { display: grid; gap: 8px; margin-bottom: 12px; }
