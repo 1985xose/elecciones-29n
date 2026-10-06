@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06T21:29:26+00:00",
+ "actualizado": "2026-10-06T21:39:39+00:00",
  "generales": [
   {
    "titulo": "Si Puigdemont cuenta la décima parte de lo que le prometió Sánchez…",
@@ -9,25 +9,11 @@
    "imagen": "https://okdiario.com/img/2026/10/06/puchi-frase.jpg"
   },
   {
-   "titulo": "Puigdemont volverá a España después de las elecciones del 29-N y antes de Navidad",
-   "enlace": "https://okdiario.com/espana/puigdemont-volvera-espana-despues-elecciones-del-29-n-antes-navidad-20499469",
-   "fuente": "OKdiario",
-   "fecha": "2026-10-06T21:04:40+02:00",
-   "imagen": "https://okdiario.com/img/2026/10/06/bild-especial-puigdemont-volvera-espana-interior.jpg"
-  },
-  {
    "titulo": "Sánchez carga contra el Parlamento en otro mitin desde la Moncloa",
    "enlace": "https://www.abc.es/espana/sanchez-carga-parlamento-mitin-moncloa-20261007191047-nt.html",
    "fuente": "ABC",
    "fecha": "2026-10-06T20:51:09+02:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/07/1518367795-R3slwHRFRNajSuKTEUSYwKM-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "Compromís irá a las generales con su propio frente valenciano al margen del estatal",
-   "enlace": "https://www.abc.es/espana/comunidad-valenciana/compromis-ira-generales-propio-frente-valenciano-margen-20261006203218-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-06T20:45:45+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/ejecutiva-compromis-RkQm8AoxR6Tnqxr2xpPsCcN-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "El PP denuncia a Sánchez ante la Junta Electoral y pide la multa máxima por utilizar Moncloa para \"dar un mitin del PSOE\"",
@@ -44,13 +30,6 @@
    "imagen": "https://static.eldiario.es/clip/cc04c326-53aa-4b07-82ed-c3a6ec218580_16-9-discover-aspect-ratio_default_0_x1548y396.jpg"
   },
   {
-   "titulo": "El PP inaugura la precampaña del 29N con una nueva ofensiva en los tribunales contra el PSOE",
-   "enlace": "https://www.eldiario.es/politica/pp-inaugura-precampana-29n-nueva-ofensiva-tribunales-psoe_1_13566904.html",
-   "fuente": "elDiario.es",
-   "fecha": "2026-10-06T20:02:46+00:00",
-   "imagen": "https://static.eldiario.es/clip/4ca090d9-8531-4603-b9a4-416d9de7bd5a_16-9-discover-aspect-ratio_default_0_x1040y307.jpg"
-  },
-  {
    "titulo": "Compromís cierra filas y acuerda contactar con EU y Podem para lograr una sola lista valenciana",
    "enlace": "https://www.lavanguardia.com/local/valencia/20261006/11652726/compromis-cierra-filas-acuerda-contactar-eu-podem-lograr-sola-lista-valenciana.html",
    "fuente": "La Vanguardia",
@@ -58,33 +37,54 @@
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac532c418ff2.r_d.693-697-2806.jpeg"
   },
   {
-   "titulo": "La fecha clave para saber si te toca mesa electoral: cuánto se cobra y cómo librarte",
-   "enlace": "https://www.elespanol.com/espana/20261006/fecha-clave-saber-toca-mesa-electoral-cobra-librarte/1003744409834_0.html",
-   "fuente": "El Español",
-   "fecha": "2026-10-06T19:00:00+02:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/10271915.jpg?p=c:1920:1080:nowe:0:0/w:1706/h:960&h=m3vwP-3Q"
-  },
-  {
    "titulo": "El PP denuncia ante la Junta Electoral el \"mitin\" de Sánchez tras el Consejo de Ministros",
    "enlace": "https://www.20minutos.es/nacional/pp-denuncia-ante-junta-electoral-mitin-sanchez-tras-consejo-ministros_7045675_0.html",
    "fuente": "20minutos",
    "fecha": "2026-10-06T18:48:31+02:00",
    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac522bf567869-10754031.jpeg"
+  },
+  {
+   "titulo": "El Tribunal Supremo da 48 horas a las partes para que presenten alegaciones antes de resolver el recurso sobre la ´Ley de nietos'",
+   "enlace": "https://www.elmundo.es/espana/2026/10/06/6ac5045be4d4d8591e8b45ae.html",
+   "fuente": "El Mundo",
+   "fecha": "2026-10-06T17:19:21+02:00",
+   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912969962833.jpg"
+  },
+  {
+   "titulo": "El PP pide a la Junta Electoral que sancione a Sánchez por \"utilizar\" la Moncloa para \"dar un mitin del PSOE\"",
+   "enlace": "https://www.europapress.es/nacional/noticia-pp-pide-junta-electoral-sancione-sanchez-utilizar-moncloa-dar-mitin-psoe-20261006183024.html",
+   "fuente": "Europa Press",
+   "fecha": "2026-10-06T16:30:24+00:00",
+   "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261006183024_120.jpg"
+  },
+  {
+   "titulo": "El Supremo da 48 horas de plazo para las alegaciones antes de resolver sobre la ley de nietos",
+   "enlace": "https://www.elconfidencial.com/espana/2026-10-06/supremo-48-horas-alegaciones-resolver-ley-nietos_4439499/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-10-06T16:16:00+02:00",
+   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/a29/fdf/a29fdfd539b37319bdf3ceeb77b66442/la-ley-de-nietos-rompe-tambien-el-supremo-y-genera-hondo-malestar-por-la-discrepancia-entre-companeros.jpg?mtime=1789484401"
+  },
+  {
+   "titulo": "Montero: “La huelga general se convoca contra la oposición por derribar los decretos de vivienda”",
+   "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-06/montero-la-huelga-general-se-convoca-contra-la-oposicion-por-derribar-los-decretos-de-vivienda.html",
+   "fuente": "El País",
+   "fecha": "2026-10-06T12:58:05+00:00",
+   "imagen": "https://imagenes.elpais.com/resizer/v2/YPSHE7CVJJP2FPOAXOGWP4F3ZQ.jpg?auth=d84c6f4a393d496273c558d7e132f80cf4d2dc35f884f4e31cbe43ff444ad23c"
   }
  ],
  "partidos": {
   "PP": [
    {
+    "titulo": "El PNV votará a favor del primer decreto de vivienda y rechazará el segundo",
+    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRHpab3RiNnhmVkYtUHQ2Mi1NRHhSY0lROVQyQkdjOE4yUENTYmJNRzFSOFFUVnc1ek9BeURfUGF3eHp5dHFfUnhfd3lOQWJrMGN3a2RCTHRzTy1zQ0dNYm1LdEk3MEc5WlhSUi10M05fN0UxdHZqTlJZdk5Dc1MzQ0ctSzhhdW9USlA4U3hWNzlnTm1KVVlMN2FfOTFuS1NocjQwdy1sUXBPSTdBRnJFT2otb0h3eEhqcFh4OUtEalVJYTNzdGfSAcYBQVVfeXFMTTNYbWtQSUN1d1dwU0NDSmVkMi1QNXdVOEp2bmItZ2FtVnc4OUZiZ0ZhSHJVbS1DdGVHazI2Z2Z1Sk16UWdSajVQZUIyMUNMVnNBdmdNQTBLR2NobWVBVjlaSFRXVFdkRUZRYVgyTmhIbkJvS0tUODBOWndqRTBRN1VKR19CNUFPODAwTlhUNk8xUmJtOFE0a2o3bzFFM05wa1NRbUp5VzRJNEdEYmZmcWFtaE9aOVdLbmI1WHV5bHQ5amJBRHNn?oc=5",
+    "fuente": "Antena 3 Noticias",
+    "fecha": "2026-10-06T20:37:44+00:00"
+   },
+   {
     "titulo": "Voto por correo: el PP siembra la duda ante un Feijóo que calla a pesar de que trabajó tres años en Correos y conoce el sistema",
     "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZXF1ZHNzLTdRTVlMUUU3VlpaTWhZX3hURkxXYkdJTHVBdzJya3g4UFlvY2haN29yenRmbk4tWlhqR1VKVEkyZUp6N0MzNDVqS282aHV2dUJmWWQ1TkR0RFB6d1NVdFNHcHAwRDJnOTNIM0E4cU9Hb0h4OWsxTEk5TFBGZkE1S0JuQ0liUXp6WG5HdzVsSGh6VmNvQzFwU25hRlYwck9BaGNjdEZ1RVdvNWR1b3I4LTUyRWp2c1lNX1dFU2daVDNMV2VyZ3FSOTg5ZkRnNXFPTkRqeUppQmE3bjlQbGp4M2dzR2RPdU41NUIxY19XZG9MUWhhSXJwSnhlU1FPSFBR0gGGAkFVX3lxTE5lcXVkc3MtN1FNWUxRRTdWWlpNaFlfeFRGTFdiR0lMdUF3MnJreDhQWW9jaFo3b3J6dGZuTi1aWGpHVUpUSTJlSno3QzM0NWpLbzZodXZ1QmZZZDVORHREUHp3U1V0U0dwcDBEMmc5M0gzQThxT0dvSHg5azFMSTlMUEZmQTVLQm5DSWJRenpYbkd3NWxIaHpWY29DMXBTbmFGVjByT0FoY2N0RnVFV281ZHVvcjgtNTJFanZzWU1fV0VTZ1pUM0xXZXJncVI5ODlmRGc1cU9ORGp5SmlCYTduOVBsangzZ3NHZE91TjU1QjFjX1dkb0xRaGFJcnBKeGVTUU9IUFE?oc=5",
     "fuente": "LaSexta",
     "fecha": "2026-10-06T18:35:53+00:00"
-   },
-   {
-    "titulo": "Última hora de las elecciones generales y reacciones, en directo: El PNV votará a favor del primer decreto de vivienda y rechazará el segundo",
-    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRHpab3RiNnhmVkYtUHQ2Mi1NRHhSY0lROVQyQkdjOE4yUENTYmJNRzFSOFFUVnc1ek9BeURfUGF3eHp5dHFfUnhfd3lOQWJrMGN3a2RCTHRzTy1zQ0dNYm1LdEk3MEc5WlhSUi10M05fN0UxdHZqTlJZdk5Dc1MzQ0ctSzhhdW9USlA4U3hWNzlnTm1KVVlMN2FfOTFuS1NocjQwdy1sUXBPSTdBRnJFT2otb0h3eEhqcFh4OUtEalVJYTNzdGfSAcYBQVVfeXFMTTNYbWtQSUN1d1dwU0NDSmVkMi1QNXdVOEp2bmItZ2FtVnc4OUZiZ0ZhSHJVbS1DdGVHazI2Z2Z1Sk16UWdSajVQZUIyMUNMVnNBdmdNQTBLR2NobWVBVjlaSFRXVFdkRUZRYVgyTmhIbkJvS0tUODBOWndqRTBRN1VKR19CNUFPODAwTlhUNk8xUmJtOFE0a2o3bzFFM05wa1NRbUp5VzRJNEdEYmZmcWFtaE9aOVdLbmI1WHV5bHQ5amJBRHNn?oc=5",
-    "fuente": "Antena 3 Noticias",
-    "fecha": "2026-10-06T18:15:19+00:00"
    },
    {
     "titulo": "Feijóo veta un adelanto electoral a Llorca para no debatir de la dana",
@@ -139,17 +139,17 @@
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/sante-RGprCvovXkn3wPV4snDe4CP-1200x840@diario_abc.jpg"
    },
    {
+    "titulo": "El PNV votará a favor del primer decreto de vivienda y rechazará el segundo",
+    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRHpab3RiNnhmVkYtUHQ2Mi1NRHhSY0lROVQyQkdjOE4yUENTYmJNRzFSOFFUVnc1ek9BeURfUGF3eHp5dHFfUnhfd3lOQWJrMGN3a2RCTHRzTy1zQ0dNYm1LdEk3MEc5WlhSUi10M05fN0UxdHZqTlJZdk5Dc1MzQ0ctSzhhdW9USlA4U3hWNzlnTm1KVVlMN2FfOTFuS1NocjQwdy1sUXBPSTdBRnJFT2otb0h3eEhqcFh4OUtEalVJYTNzdGfSAcYBQVVfeXFMTTNYbWtQSUN1d1dwU0NDSmVkMi1QNXdVOEp2bmItZ2FtVnc4OUZiZ0ZhSHJVbS1DdGVHazI2Z2Z1Sk16UWdSajVQZUIyMUNMVnNBdmdNQTBLR2NobWVBVjlaSFRXVFdkRUZRYVgyTmhIbkJvS0tUODBOWndqRTBRN1VKR19CNUFPODAwTlhUNk8xUmJtOFE0a2o3bzFFM05wa1NRbUp5VzRJNEdEYmZmcWFtaE9aOVdLbmI1WHV5bHQ5amJBRHNn?oc=5",
+    "fuente": "Antena 3 Noticias",
+    "fecha": "2026-10-06T20:37:44+00:00"
+   },
+   {
     "titulo": "El PP denuncia a Sánchez ante la Junta Electoral y pide la multa máxima por utilizar Moncloa para \"dar un mitin del PSOE\"",
     "enlace": "https://www.elespanol.com/espana/politica/20261006/pp-denuncia-sanchez-junta-electoral-pide-multa-maxima-utilizar-moncloa-dar-mitin-psoe/1003744410896_0.html",
     "fuente": "El Español",
     "fecha": "2026-10-06T20:15:14+02:00",
     "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11371637.jpg?p=w:1706/h:960&h=Do_JWMoE"
-   },
-   {
-    "titulo": "El horizonte judicial del PSOE con las elecciones en juego",
-    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOUE4X0c2aklydEkxVHVTUDB2VnZ6YjJSYk5TNzB0MnFyTVZUcTViSkQ2RXFPZUV5aXpPeVZFeTVoTEpsaGpuSEJRdHZyVDhlVk53SUFWSjlOQ0o5SThzUUQzNy1zS0V4YXU4TzBnbUctT3ZLX1NRZG9vcGE1eUwwallUX0JBWVQxMTJoLU1lVnE2VE5fZnJUVFYxWnNGNGJMd3lzR2owS01uZ3hlYTNHcUNZMTFsT0tmVmwxcjd5bnoyS09Zb3UxTmhn0gHPAUFVX3lxTE1NWjNnaWJGYm9HRnVDaUwwMmM1RW1yNXR6bE1LZUdFNWs3LUVQc2w3OXdISEZXSEhuTU1tZkxVWk1iVWVZZ2FzZmltMzMybkY1V0FodE9fR2hrY094M3hmZi1Rakxyd18wTnpTM3ZLa0dIVWtDREpaWVJ4R2FoVC1Ka2NUT29wMUdVUjQ1bkV2NEJHVnJ3bmV5TTZfNXNvMFR2WmhtNFVWNjlCQlp1cnVSWktVRjhaZEJVektZMjU0Y1NOQldZY2dGMDNiVlBrdw?oc=5",
-    "fuente": "COPE",
-    "fecha": "2026-10-06T19:44:43+00:00"
    }
   ],
   "Vox": [
@@ -184,10 +184,10 @@
     "fecha": "2026-10-06T19:27:47+00:00"
    },
    {
-    "titulo": "El PSOE defiende el voto por correo y exige al PP que desautorice las dudas de Ayuso y Abascal",
-    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQazB1Q0JFVk95bnpuUVBWYnYxbk90aWdja2Q0QUdXbW9GN0MwMWpqYjVtb1c3eHk0WG1mejd4YXhDTkh4dWhZYnhhX0JvaW9jcG5KdVlUV3hVbnByd2EtN1BIdVozOERxQmpLNGRZQnZsQlN5Y3cyMERpTlRTMXlOSmNpOGFNSXZyYktZSHliUzlxdEt1MDlCWFNkSGg0WksxTVBhYjJZNmhhejR4X1dQMUxyYXZHcnA2aFl4U3VwM3FrTkpLTmhkRmE3ajhZM0xHMzJIOTNB0gHwAUFVX3lxTE1ETzY1WjRzS1k5X21rNGF0OGc5czBsRlpNWGxOd2ZOYUN5NXQ1aWpaRG94UHR5UUpoZkY2eG0tYWFqUEt3c1ZJR3Axam9jakNkSGJFR0JqenVGS1RaMl8zZmNCM00yMW56SGxJaW45MXg0OUNvTE93WVN1T0RXdElscGktT2RNd0h1WmIzWkJMYUpqQWZvYWtzT2FDM28xd3FTdXdCQjB0Zlhnb2ZfMzNvTUVYMnpNejhoc2JmbGRTVDdwc1pRdWVkX25TdHZSQVcxdWZtdUF6U1liZHBRT1h2TnVzRlJBd1NJV19LWVZ2NQ?oc=5",
-    "fuente": "El Cronista",
-    "fecha": "2026-10-06T18:16:54+00:00"
+    "titulo": "La derecha agita las dudas sobre el voto por correo en el arranque de la precampaña: insta a votar \"presencialmente\"",
+    "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5wUnkzTUo5ZkNQZ0V3UGdDdUIwS2IzeHVVU1UwdU5SbXBpS0lZOWt0T2p4cURmdTZnZHBtNkJsQ3ZPaVV6X1ZsWVdydTBnYk9zWVoySDRZODZxRDZJMWJhekhySWJNVnlwV0YtajRNUl9ldXhWamZmX0J30gF6QVVfeXFMTnBSeTNNSjlmQ1BnRXdQZ0N1QjBLYjN4dVVTVTB1TlJtcGlLSVk5a3RPanhxRGZ1NmdkcG02QmxDdk9pVXpfVmxZV3J1MGdiT3NZWjJINFk4NnFENkkxYmF6SHJJYk1WeXBXRi1qNE1SX2V1eFZqZmZfQnc?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-06T18:58:45+00:00"
    }
   ],
   "Sumar": [
@@ -423,10 +423,10 @@
   ],
   "PNV": [
    {
-    "titulo": "Última hora de las elecciones generales y reacciones, en directo: El PNV votará a favor del primer decreto de vivienda y rechazará el segundo",
+    "titulo": "El PNV votará a favor del primer decreto de vivienda y rechazará el segundo",
     "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRHpab3RiNnhmVkYtUHQ2Mi1NRHhSY0lROVQyQkdjOE4yUENTYmJNRzFSOFFUVnc1ek9BeURfUGF3eHp5dHFfUnhfd3lOQWJrMGN3a2RCTHRzTy1zQ0dNYm1LdEk3MEc5WlhSUi10M05fN0UxdHZqTlJZdk5Dc1MzQ0ctSzhhdW9USlA4U3hWNzlnTm1KVVlMN2FfOTFuS1NocjQwdy1sUXBPSTdBRnJFT2otb0h3eEhqcFh4OUtEalVJYTNzdGfSAcYBQVVfeXFMTTNYbWtQSUN1d1dwU0NDSmVkMi1QNXdVOEp2bmItZ2FtVnc4OUZiZ0ZhSHJVbS1DdGVHazI2Z2Z1Sk16UWdSajVQZUIyMUNMVnNBdmdNQTBLR2NobWVBVjlaSFRXVFdkRUZRYVgyTmhIbkJvS0tUODBOWndqRTBRN1VKR19CNUFPODAwTlhUNk8xUmJtOFE0a2o3bzFFM05wa1NRbUp5VzRJNEdEYmZmcWFtaE9aOVdLbmI1WHV5bHQ5amJBRHNn?oc=5",
     "fuente": "Antena 3 Noticias",
-    "fecha": "2026-10-06T18:15:19+00:00"
+    "fecha": "2026-10-06T20:37:44+00:00"
    },
    {
     "titulo": "El PNV anuncia que votará a favor del primer decreto de vivienda y allana su aprobación en la Diputación Permanente del Congreso",
@@ -502,15 +502,9 @@
   "CCa": [
    {
     "titulo": "Primero Canarias acelera la unidad con CC y abre la negociación de las listas para el 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORXpiX1doejhIbW1POFU1dEx1NjlZZU5zd2I3SkJqVkNFTGJhSzQ2N0d6dUU4eURhNzdLcXpKUXVYLUY2OTdIZUF0YzhQTVVrLU9nRE1KMUFHdnZhOWs1THQxSGlhSVRYRjBaTVFSRV84ZmxBa2JQc0pUTUdHNTRxek9rWUQ1UU5sMnprbnFBWEREZ2FLMExvWjNScnVfZnZEWlE3RDBPaDNGd0FVbFVYMFNaT1ZpX1JPTVVOVGd3?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeTV5QUdPY1c3U1U2WjRCTjNrWTRpdlRZNFhwQjBiZHdWWm5vMmxxMUdsem9pNDcyQUFUajBKZk8zaHpVOTJUYkp3VUVGTE1CTGx3bE1lMUhOOTE3N3NlUm5XakgyN1AxVndKbFZ1akRtZk5sQmpGdDQ5REFMMExjekNPWmhseHA3bUJ4SXJwOWNqTVozdXh1bHpnajFvTFhONGdHd0ZYR3AyQXFWMEVEc1lwaVBYSFlmQWdSYzBKbUEyejQ?oc=5",
     "fuente": "Atlántico Hoy",
     "fecha": "2026-10-06T19:11:00+00:00"
-   },
-   {
-    "titulo": "CC deshoja la margarita para el Senado en Lanzarote",
-    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM1NXbjZZNFZuYldwUFdodnVmdkNtMTFUY01aWGxfR2J3UFFKMC1CWHBOSEVwejdIV3BadzQwWVBuQUZxbnJndlUzSW81VzR6UmJjbFZpMTBxV0MxQVFMYUpLODBFVlY0SFBjTGRzWlRJYUYwYjJkSVBOX2xtSE1hZnhwWklXenQ0WEl0RkllT1BnbVlfN2puag?oc=5",
-    "fuente": "Lancelot Digital",
-    "fecha": "2026-10-06T19:06:43+00:00"
    },
    {
     "titulo": "Primero Canarias confirma su apuesta por compartir lista con Coalición Canaria y negocia su candidato",
@@ -535,15 +529,15 @@
     "enlace": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNQnJzUFAxMzZtdDhXVTVSOVB3b1lxZXNfMkdiUmFkeG8xVTdXYkpXNmtpNjBqQWpBZWRMSXRjVjFXZGQtdmxuV0tpOUxrT2E3bFktRzNjZ3k1cWVHV2xhU3BHU3M5V3hxNmo5SkdNWDd2RUUtZ0VtQlJfRFhaVXQ5bmJrYWE0Z3lzbzRIRGpIZ0tfUFQ0di10empGSkRyYmNVMUwySXpobnBuUGZUY0tweGlYcnZ6aEdLNFdONjllMGdtc2hCVmZ2MnM2MkJ2OWgwQkFYeTN5OTR2cThIRW00ZFlCUmItWW9Pd3d6UnlMdnQ0djZ1M0l6S3JhZzgxLW93Sy1UMHNmSElpYU5uUWfSAY4CQVVfeXFMTUJyc1BQMTM2bXQ4V1U1UjlQd29ZcWVzXzJHYlJhZHhvMVU3V2JKVzZraTYwakFqQWVkTEl0Y1YxV2RkLXZsbldLaTlMa09hN2xZLUczY2d5NXFlR1dsYVNwR1NzOVd4cTZqOUpHTVg3dkVFLWdFbUJSX0RYWlV0OW5ia2FhNGd5c280SERqSGdLX1BUNHYtdHpqRkpEcmJjVTFMMkl6aG5wblBmVGNLcHhpWHJ2emhHSzRXTjY5ZTBnbXNoQlZmdjJzNjJCdjloMEJBWHkzeTk0dnE4SEVtNGRZQlJiLVlvT3d3elJ5THZ0NHY2dTNJektyYWc4MS1vd0stVDBzZkhJaWFOblFn?oc=5",
     "fuente": "Vozpopuli",
     "fecha": "2026-10-06T15:30:50+00:00"
+   },
+   {
+    "titulo": "Cristina Valido: “Canarias tiene que estar en el Congreso con fuerza para que nadie pueda ignorar sus derechos",
+    "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxONjh5MUg5dDdEMHJ3VU9fS0V1Y2RPT09CS3FLemtyaGVtZDd6U0s2YVNBdEgxSnVPQzVHT1hrcHk5X3BjNk9nVW5vNFV1R3FBbThyXzRBNFpiT0JyZEVQYnBtNmtzRDV1b3J3VWptbXc2NmM2RC1Zd29Ea3VjUWlNRmZDbF92NjRoWVAyejQ4dHNRal9wOEJENWhBX0FNeURYRkdyOXBuVnVJRnFtRUt2UTFJWVZmYVRWdDRraEpwTW55elppRTJfRHNvTk55UHBEZWREcE14ZkFNWmVBTjZ1dzkwb2FtTy03ejM2XzQzd2J0ZHhZSnY4NE9B?oc=5",
+    "fuente": "Digital Faro Canarias",
+    "fecha": "2026-10-06T12:42:11+00:00"
    }
   ],
   "UPN": [
-   {
-    "titulo": "\"Ojalá nos den los números para gobernar con VOX en Navarra\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUHBra191ZkNnamQ2S0JGSjJ6UldTOFMwa1R1dmRxTlB2V3JvLW9ZbVVPZU5pTDUwRFZNZUNLemd6VjNJSkQ3TVVqRkwyX1JETm1vMEVrZjZOU3NJekpGdHZ3N2l4a0hjcTdoUlRLZnhqdWR5c3JtZExLSG1oM0x6QzZ4VWYtUlUwWEVBSmQ1ZmhfSGZ0VF84SnM1NHVua3hQbF83dWNOLXNDNXNSdExPSXFNWGptdENMbXhCbW5WY2RuWDNFWjlSTUREMGVQYzFXdUZuNXNjX2pYdjA?oc=5",
-    "fuente": "navarratelevision.es",
-    "fecha": "2026-10-06T20:30:00+00:00"
-   },
    {
     "titulo": "Ibarrola, sobre una posible coalición con el PP: \"La voluntad de UPN es llegar a un acuerdo bueno para Navarra\"",
     "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNTRuYUgtWUNFdnh6MWU5M0dQVlROOXRWTlpWTHJ2VE5jdS1iMGR1cllCeXFtckJZbURiaVZ3U19CN2JINW9pOE0yS0RRNXdGVW5ObVkxX3dLTUV5ZEhyMVZFUmdmeHA5ajh0d1VFbGVBVTBBbTU0ajY0dXNRQkUxQ3FSNWFoY0FHVEZaNmE0Q3BESjdJZTVBVm5yQmpPNzN6b3BRZlhsSXZhY09GcG9WaUFBNjZncS1UQThDclFUb0RUYlV1a3h4TmNMRThhREpDUk1KWU9saGE2LXJVNFJTOWlQM3FQQQ?oc=5",
@@ -573,6 +567,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZ3lYYUZIbEtuWlQwcGRvZnYwbEtxYmJGUEdCZXhQM3kwRnYzS1VVWVpzTWhrcGhROVRKLUxVcnczV25GX2hJSFB4b0JuTjFrYm4yNTdyMzdsS2MxejY1Vm9jekJuOEZUMFRFVUY0YXZjZHpSaW5tSmJ5RXlvd3Q5NWFOelNQZ3lwTzlmNWljRFBrT1Y1bjFMN3IyWnFWcjZTdWc1SDVZZU1nNXJXOHdqX1BTWHNmenhXOE11RmNQcW5Ob2V3ZzlqQlJCTGRpY2VXUU1EWG12aDRHZVRGc29Bd2NQd2ZZQQ?oc=5",
     "fuente": "Diario de Navarra",
     "fecha": "2026-10-06T11:51:18+00:00"
+   },
+   {
+    "titulo": "Ibarrola recoge el guante del PP para ir juntos a las elecciones pero avisa: \"Será un acuerdo si es bueno para Navarra\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZE5iVEdxcFE4U1RkckY3RkdadkhRejI3NFpQaklNLTMwdzVoQk5NT2xrdklmQmtnNF9UeGFsWWtxQXh5Q1pJRW82bkFJdklsMTcwMUw4SnczUkhSQ0xkeUtrYkp4US0wVTNsYWpoTG50OEFDU0ppODM2cjVPcjNzd2FtZmpYR1duUmREUmpXODZrSFFBanB4RHc5a2dkcUFKeTVMN2d5X096TnpPSWFWc1IxWjB5dERKU3dObDdkNXJyZkhDc0ZwaXpVbUVWdTJnaDN6V0lOd0I3SDFPZkF4S05yVHZESmZBQkpV0gHwAUFVX3lxTE9YaDVodG9yeWdqRU5mOXhKRy1NWWQ1VzVGUWtQTnN2dVluRlpBdUxOZjBnTTB4QTZWZVVTdkFBWDJmLVhQaXdUaHkzaExhajZsNU42X3hCMnF1eXEzbUxNSVR6ZGJhTkNzbWttZGNjQXVadW9kTUFpT1ptRmxCLWtjMlRPXzJIY2ZLVjEtRV9sbktKWXhVZktRdXRTcWV3NHJMdWMxcHRtM2g2WFR1bXZaS3ZrLXkxT0tZUlJzMUdFemJCNHJmd0JkVEl4RkJKOTdqT1cyU1FhaDdFR2xQMUJfcWFTbUU5YjhuSVBJcWVaeQ?oc=5",
+    "fuente": "Navarra.com",
+    "fecha": "2026-10-06T11:50:23+00:00"
    }
   ],
   "AC": [
@@ -726,10 +726,10 @@
     "fecha": "2026-10-06T16:21:28+00:00"
    },
    {
-    "titulo": "Serrat desmiente un vídeo de YouTube que especula sobre su estado de salud",
-    "enlace": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YZ3BzQXFlSzM4VHlrTXlOZFhPU1RUTWZyQ1NzN2p2QkxkcGlaOFVxYUc4dmdVb1Y5YnFEX2Voc0FVcWJVSkVkWDlPNFEwSzBOX0hxOTdsVUg0M3N4TG1sZw?oc=5",
+    "titulo": "Este vídeo no muestra a policías franceses renunciando a su puesto para unirse a las protestas estudiantiles",
+    "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQeFN2MVFWZmlVVWFTTXVDakRKVmZHbU5rdWhSSmlSdUNlaUpMVTBIemRaaUI1N3VpQjV0N3B1VWJiRFNxZnRfdF84c2Vra3Y3UGFEOWZZVDhGY1hRbXVQM0ZhYUFFbmlNSmExUXdoYl9ITzRaYXJyMHZ6SFZQdw?oc=5",
     "fuente": "Newtral",
-    "fecha": "2026-10-06T15:11:21+00:00"
+    "fecha": "2026-10-06T15:15:55+00:00"
    }
   ],
   "Sumar": [
@@ -1004,6 +1004,13 @@
    "partido": "ERC"
   },
   {
+   "titulo": "El Supremo deja sin efecto provisionalmente la orden de detención contra Puigdemont tras el fallo del Constitucional",
+   "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdDNYXzBkOXVmMUtKVGs4S0pfUFIyOHcwRy1xWXZWVjNqN2RkNWVSaG9KWEtySGJQdUw5R3hJeFo1RndweGxieFEzaFp5TmVEN2VBbzlrSnhNQUJZUGVoU0RpeWhxV25ETEdxUkx6Zi1qNVdSV0ljdjQ2YUVGSVdhUDkyQ1JUWjRKcmJkV1N4SWx0Q3N4V3lfWTV2c3UydE0tYTA4QnBHWGd0VEVfSV9HRUpNS00yNThwSl9nMUVwMk5PY0hDN28ya1dVa2lzWnJ1ZlJNMHIza2xrMUFBWjJmd2lIdm1zSUFJQnBVbNIB8gFBVV95cUxNcENYQjhaYVozQk84ZW5lNkJwaEgySDlma2hMWG5HOE90d3B6QUFWY25OZVVBUl85cjU4ckZWcE1ha2R4dlJ1QzloX0o3Um81VGpyMUpGTVpOa2VMVVcwSW1yZTVpdnBGVmRBX3VHSzhUNlRNUGxyTUVqUm4yb0R5TWstZ010UjNNVkZzcWxIbVBDbFhQMS04UlJTd3NwRHB1ci10TkRVNG1ZdXcxOTB5TmJoSlowLVBHWHBYa0FzMHlqZkNRTUNJVkFJbmYzYW1kV3JYMU1RTnZiQmNTUVFkMDR4SVZIb3pTejVCUWljdTRfUQ?oc=5",
+   "fuente": "Fibwi Diario",
+   "fecha": "2026-10-06T20:04:12+00:00",
+   "partido": "Junts"
+  },
+  {
    "titulo": "Imputación del PSOE: PP denuncia cloacas socialistas",
    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObnVHZUlvYndZQ09ITnQwSnhsVS1ueWVkMEtEb1AzOFp5WWhBZTlJVUtfVFVLcEV4Y20zM29nWDZ0cml6djFMN0dMYm5mREstVHhJQlRtU0o0TWNfdG5JX3NlMWtIUXRkS1dfZ0J2ajRMVTlsWl8xM04zTHIwRkl2emtpbklXVHVRY3YwSl91RmQtSjNPQ1hoMjVoQ2UzOVMybjN1M0JHZGM0U2VfeVdFcW1XRUZlcEFEdkp1d19vZU1DYUZScVhSd2dtZzZBTGM1aTUwYm53?oc=5",
    "fuente": "Canariasdiario.com",
@@ -1047,13 +1054,6 @@
    "partido": "ERC"
   },
   {
-   "titulo": "Toni Comín, exconseller de Salut de Cataluña durante el procés, podrá volver a España",
-   "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQM2xtX09KSmN6aF9uT0JhV08waXRiYThDODdHTjM5bmtCb19TdElFN1JodjR2eER3MWx6enQxVWZjSC12eDN4dEZ1ZFhvNlo5TDZTcVdfYUtTX2pHSWdqVXRYUm1nMHFWS0hBT0l6THlidGt5ZzdrZ1JLM1A2VkRGWXk3OGtaZTBRd3FfMXpDZU9qZ2ZPdHRzUEhUNVpJcGdlMFV5N3lfb202aFVud01aZ1ZBU253ODZtQkFyUExZN1VOYzZNSmpvWGMySUxpeFhGRjZOOXFISU5wQmY2bXpuSG1EQkExX01LR1HSAe8BQVVfeXFMTVpuQUlLdUdMVWhTODFjV2s3aFdhTlNKb3lyaU9WaFdBNVBqWHdvMWJHLVhGdGhjOXFTNzQwaF92Vk8yOElpaGxlWG5oMkJja04yQWU0OGlqN0FCel9hZjYzdEo3NllZamZIRzBLck1ycnRGeEVYNTdMU1ExUHRndnVrUWl0Q2hzRE1wbTlncmo1bmlpSlRqdzAtdWU3UnFUVDUzM1ZhVmJtcWxaSEZhNGdsOUhWakY1LWtXMjdUTWVZUUpTM2Fjc1ctV1lSNFg3UEY4dE1MNERONGVZOGxXNG85cVJheHVuclAxSkpLeGc?oc=5",
-   "fuente": "Redacción médica",
-   "fecha": "2026-10-06T18:35:01+00:00",
-   "partido": "Junts"
-  },
-  {
    "titulo": "El PSOE defiende el voto por correo y exige al PP que desautorice las dudas de Ayuso y Abascal",
    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQazB1Q0JFVk95bnpuUVBWYnYxbk90aWdja2Q0QUdXbW9GN0MwMWpqYjVtb1c3eHk0WG1mejd4YXhDTkh4dWhZYnhhX0JvaW9jcG5KdVlUV3hVbnByd2EtN1BIdVozOERxQmpLNGRZQnZsQlN5Y3cyMERpTlRTMXlOSmNpOGFNSXZyYktZSHliUzlxdEt1MDlCWFNkSGg0WksxTVBhYjJZNmhhejR4X1dQMUxyYXZHcnA2aFl4U3VwM3FrTkpLTmhkRmE3ajhZM0xHMzJIOTNB0gHwAUFVX3lxTE1ETzY1WjRzS1k5X21rNGF0OGc5czBsRlpNWGxOd2ZOYUN5NXQ1aWpaRG94UHR5UUpoZkY2eG0tYWFqUEt3c1ZJR3Axam9jakNkSGJFR0JqenVGS1RaMl8zZmNCM00yMW56SGxJaW45MXg0OUNvTE93WVN1T0RXdElscGktT2RNd0h1WmIzWkJMYUpqQWZvYWtzT2FDM28xd3FTdXdCQjB0Zlhnb2ZfMzNvTUVYMnpNejhoc2JmbGRTVDdwc1pRdWVkX25TdHZSQVcxdWZtdUF6U1liZHBRT1h2TnVzRlJBd1NJV19LWVZ2NQ?oc=5",
    "fuente": "El Cronista",
@@ -1073,6 +1073,13 @@
    "fuente": "Infobae",
    "fecha": "2026-10-06T17:35:10+00:00",
    "partido": "PSOE"
+  },
+  {
+   "titulo": "Puente critica al PP por \"sembrar dudas\" sobre la limpieza del voto por correo",
+   "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPR3pKMlI0ZWRsNC1LdWgzd3lSTk1iejQtVk1pOF9kV1FUWW5kb0s5am0yOWNVUFBqbVl4amtPdE9PN2dYMkRNak8yejhxWDhfa0d0aWwtTFhiWk5xLTNMX2VBTHhtWURXN09wSDEzNF9GeW5rTC1kSXVYSm1ad3FaNC1GTTY3NnlEdGYyQkZvTHRJS0pNZzBMWFllQ3B0RDJOd2xUbDF5UUQ0Szd2anRXNHZyaUZGNTJIeGJrMGwyUEc2Mm9rTkh2b0JTMmo1SWx5SUpXV9IB2gFBVV95cUxQOFJ4UWZjWTFPa3dXQ0RLWG5WRDFEcVgtTGRjdWFINU9WYVppVGotOExMejhPemctTHJhQmxZdlhjWE5EM1ZZVmtyVEViSzlRUDlXaENBeUZScDk5TTJOdUJkek9lSHFIQzh0TmQ1QnZvSXZnZk5fRnlqaVVrVTJXWURHMG8yVVdQa190VkRHUDJaSkVYWkVRVldwRmlIakhrS0xSSF9DUWQ2aEZSQlFzWVB0ejFYeEh1ZHFQUnJzVmE2aUF6a1RmaV8wSEVmQkVPWFUzYXhGeExjQQ?oc=5",
+   "fuente": "Diario en Positivo",
+   "fecha": "2026-10-06T17:29:59+00:00",
+   "partido": "PP"
   },
   {
    "titulo": "PP y Vox bloquean que la Sindicatura de Cuentas investigue a Bestard por el uso de coches oficiales",
@@ -1129,13 +1136,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbEVueVhURTVBUmZpakNydlhuakNPTzhWVEtQcEF2cDJjZnAzWGNZOThFYWR2ZTV2eVlJYVBJSldFVTd2TlduclppWTFEalZ3WE13MzZMc0IwQ1Rfc3laVEhMc05ZdWVCMF9MOHU3eVUzM1FzbFFxQ1lZSGd6VHFpc04xMjAtcUNOMURnY2F5QXhjcFdtaVpjYUphTF91TDdPN2x1a2hRc19pMVczcDFKblhWSzBlY0xhRWVwSXlnQWotbEtOTnFicGZHMWpkS2twVlZxeVBnUTdlQkk?oc=5",
    "fuente": "El Confidencial",
    "fecha": "2026-10-06T13:40:00+00:00",
-   "partido": "PP"
-  },
-  {
-   "titulo": "El PP solicita en la Audiencia Nacional imputar al PSOE en el 'caso Leire Díez': acusa al partido de cinco delitos y de crear una \"organización criminal\"",
-   "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYzdDSlBHRm5ldERmRnhzcHNvZnJydHdQZkF0MHlJZXRaaDVYZWNsY24tbEMzT01KOXlNRDNrdU9YSi1Lb1FhOUFfS0d5RnBjVFFwekxUQ2hjdTduTHdYUUxSRnBjSk9XWDR3aXNPV2hjbWV2WWUtR1dNcllLYV9lNWxkSHlJTjJfVlQ3SExaMU1IUjNTdk9taVFaZ3BsWVJGaWdWaTA2UkZwQ2VHR0RGVU9COUJHQ1VYZU5ZWVQ5ZVpSdmdmZEgtcnNVM0NxeC1CYm5yaHJyNU03aGVwazJITThHWGMwUDhDZ19GLS0ycHpWS0tPQW9RdWdKM1BTRnAtMkVIZnk4d2U3bmpjVHd0ZC12dktiVERzY3c?oc=5",
-   "fuente": "El Constitucional",
-   "fecha": "2026-10-06T12:55:25+00:00",
    "partido": "PP"
   },
   {
