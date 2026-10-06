@@ -1,0 +1,270 @@
+{
+ "fuente": "Europeas 9-J-2024, resultados por circunscripción (Ministerio del Interior vía Wikipedia). Solo se usa el reparto relativo entre provincias, no el nivel.",
+ "nacional": {
+  "Sumar": 4.67,
+  "SALF": 4.58,
+  "Podemos": 3.3
+ },
+ "provincias": {
+  "A Coruña": {
+   "Sumar": 2.2,
+   "SALF": 2.0,
+   "Podemos": 2.2
+  },
+  "Álava": {
+   "Sumar": 3.8,
+   "SALF": 2.3,
+   "Podemos": 3.6
+  },
+  "Albacete": {
+   "Sumar": 3.2,
+   "SALF": 5.7,
+   "Podemos": 2.3
+  },
+  "Alicante": {
+   "Sumar": 5.6,
+   "SALF": 6.0,
+   "Podemos": 2.6
+  },
+  "Almería": {
+   "Sumar": 2.8,
+   "SALF": 7.0,
+   "Podemos": 1.8
+  },
+  "Asturias": {
+   "Sumar": 5.9,
+   "SALF": 3.3,
+   "Podemos": 3.8
+  },
+  "Ávila": {
+   "Sumar": 2.5,
+   "SALF": 4.2,
+   "Podemos": 2.1
+  },
+  "Badajoz": {
+   "Sumar": 2.5,
+   "SALF": 3.6,
+   "Podemos": 2.1
+  },
+  "Baleares": {
+   "Sumar": 4.4,
+   "SALF": 5.3,
+   "Podemos": 3.1
+  },
+  "Barcelona": {
+   "Sumar": 4.8,
+   "SALF": 2.8,
+   "Podemos": 5.1
+  },
+  "Bizkaia": {
+   "Sumar": 3.3,
+   "SALF": 1.8,
+   "Podemos": 3.2
+  },
+  "Burgos": {
+   "Sumar": 3.4,
+   "SALF": 4.0,
+   "Podemos": 2.6
+  },
+  "Cáceres": {
+   "Sumar": 2.5,
+   "SALF": 3.2,
+   "Podemos": 2.5
+  },
+  "Cádiz": {
+   "Sumar": 5.6,
+   "SALF": 6.5,
+   "Podemos": 2.9
+  },
+  "Cantabria": {
+   "Sumar": 3.2,
+   "SALF": 5.7,
+   "Podemos": 2.7
+  },
+  "Castellón": {
+   "Sumar": 7.3,
+   "SALF": 5.1,
+   "Podemos": 2.7
+  },
+  "Ceuta": {
+   "Sumar": 1.6,
+   "SALF": 7.8,
+   "Podemos": 2.0
+  },
+  "Ciudad Real": {
+   "Sumar": 2.6,
+   "SALF": 4.1,
+   "Podemos": 1.8
+  },
+  "Córdoba": {
+   "Sumar": 6.5,
+   "SALF": 5.3,
+   "Podemos": 2.6
+  },
+  "Cuenca": {
+   "Sumar": 2.6,
+   "SALF": 3.9,
+   "Podemos": 1.9
+  },
+  "Gipuzkoa": {
+   "Sumar": 3.0,
+   "SALF": 1.4,
+   "Podemos": 3.0
+  },
+  "Girona": {
+   "Sumar": 3.0,
+   "SALF": 2.2,
+   "Podemos": 3.2
+  },
+  "Granada": {
+   "Sumar": 4.8,
+   "SALF": 6.0,
+   "Podemos": 3.0
+  },
+  "Guadalajara": {
+   "Sumar": 4.2,
+   "SALF": 6.5,
+   "Podemos": 3.1
+  },
+  "Huelva": {
+   "Sumar": 4.2,
+   "SALF": 4.9,
+   "Podemos": 2.4
+  },
+  "Huesca": {
+   "Sumar": 4.8,
+   "SALF": 4.7,
+   "Podemos": 2.8
+  },
+  "Jaén": {
+   "Sumar": 3.5,
+   "SALF": 4.4,
+   "Podemos": 1.9
+  },
+  "La Rioja": {
+   "Sumar": 3.3,
+   "SALF": 3.7,
+   "Podemos": 2.4
+  },
+  "Las Palmas": {
+   "Sumar": 4.6,
+   "SALF": 6.8,
+   "Podemos": 3.4
+  },
+  "León": {
+   "Sumar": 2.8,
+   "SALF": 4.0,
+   "Podemos": 2.5
+  },
+  "Lleida": {
+   "Sumar": 2.2,
+   "SALF": 2.3,
+   "Podemos": 2.2
+  },
+  "Lugo": {
+   "Sumar": 1.2,
+   "SALF": 1.7,
+   "Podemos": 1.3
+  },
+  "Madrid": {
+   "Sumar": 5.8,
+   "SALF": 5.1,
+   "Podemos": 4.5
+  },
+  "Málaga": {
+   "Sumar": 5.0,
+   "SALF": 7.4,
+   "Podemos": 2.8
+  },
+  "Melilla": {
+   "Sumar": 1.7,
+   "SALF": 5.9,
+   "Podemos": 1.6
+  },
+  "Murcia": {
+   "Sumar": 3.3,
+   "SALF": 6.6,
+   "Podemos": 2.4
+  },
+  "Navarra": {
+   "Sumar": 3.9,
+   "SALF": 3.1,
+   "Podemos": 3.2
+  },
+  "Ourense": {
+   "Sumar": 1.2,
+   "SALF": 1.8,
+   "Podemos": 1.2
+  },
+  "Palencia": {
+   "Sumar": 2.6,
+   "SALF": 4.0,
+   "Podemos": 1.9
+  },
+  "Pontevedra": {
+   "Sumar": 2.6,
+   "SALF": 2.3,
+   "Podemos": 2.2
+  },
+  "Salamanca": {
+   "Sumar": 2.3,
+   "SALF": 3.7,
+   "Podemos": 2.2
+  },
+  "Santa Cruz de Tenerife": {
+   "Sumar": 3.4,
+   "SALF": 5.9,
+   "Podemos": 3.5
+  },
+  "Segovia": {
+   "Sumar": 3.4,
+   "SALF": 4.4,
+   "Podemos": 2.5
+  },
+  "Sevilla": {
+   "Sumar": 6.0,
+   "SALF": 6.3,
+   "Podemos": 3.5
+  },
+  "Soria": {
+   "Sumar": 2.1,
+   "SALF": 3.1,
+   "Podemos": 2.0
+  },
+  "Tarragona": {
+   "Sumar": 2.9,
+   "SALF": 3.4,
+   "Podemos": 3.0
+  },
+  "Teruel": {
+   "Sumar": 3.0,
+   "SALF": 4.6,
+   "Podemos": 1.8
+  },
+  "Toledo": {
+   "Sumar": 3.0,
+   "SALF": 4.9,
+   "Podemos": 2.2
+  },
+  "Valencia": {
+   "Sumar": 8.9,
+   "SALF": 5.8,
+   "Podemos": 3.4
+  },
+  "Valladolid": {
+   "Sumar": 3.6,
+   "SALF": 4.5,
+   "Podemos": 2.7
+  },
+  "Zamora": {
+   "Sumar": 1.9,
+   "SALF": 3.3,
+   "Podemos": 1.8
+  },
+  "Zaragoza": {
+   "Sumar": 5.5,
+   "SALF": 5.2,
+   "Podemos": 3.3
+  }
+ }
+}

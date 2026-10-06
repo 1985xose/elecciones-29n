@@ -5,8 +5,8 @@ Panel personal de las elecciones generales del 29 de noviembre de 2026, con un m
 ## Cómo funciona el modelo
 
 1. **Media de encuestas.** Última encuesta de cada empresa, ponderada por antigüedad, entrevistas y acierto histórico, corregida por el sesgo de casa y con un tope del 25 % al peso de una sola encuesta. La ventana se estrecha al acercarse la votación, 30 días en precampaña (semivida 14), 14 en campaña (semivida 7) y 10 la última semana (semivida 5). La calibración del error y el backtest usan la misma regla.
-2. **Error calibrado.** Con lo que fallaron las medias de encuestas en 2016, abril y noviembre de 2019 y 2023 (`fiabilidad.py` guarda los históricos). Suelo del 6 % del voto, techo para partidos pequeños, más incertidumbre cuanto más lejos esté la votación.
-3. **10.000 simulaciones.** Error correlacionado por bloques (derecha, izquierda, territoriales, rho 0,55), ruido provincial del 5 %, swing proporcional por provincia sobre el 23J y D'Hondt con los escaños del RD 806/2026.
+2. **Error calibrado.** Con lo que fallaron las medias de encuestas en 2016, abril y noviembre de 2019 y 2023, medido a la misma distancia de la votación (a 54 días el error es 1,68 veces el de 6 días) (`fiabilidad.py` guarda los históricos). Suelo del 6 % del voto, techo para partidos pequeños, más incertidumbre cuanto más lejos esté la votación.
+3. **10.000 simulaciones.** Error correlacionado por bloques (rho 0,55, probado de 0,30 a 0,80 sin cambio relevante), ruido territorial medido entre 2019 y 2023 (17,3 % por comunidad, 8,5 % por provincia, reajustado para no mover el total nacional), swing proporcional por provincia sobre el 23J con Sumar, Podemos y SALF repartidos según las europeas de 2024, y D'Hondt con los escaños del RD 806/2026.
 4. **Salidas.** Probabilidad de cada escenario (`config.json` > `escenarios`), abanicos de escaños, provincia bisagra, provincias en el aire, puntos de margen, y un backtest sobre 2023 con la base de 2019.
 5. **Análisis de encuestas.** Sesgo de casa de cada empresa frente a la media del momento, notas de A a D por acierto histórico, y veredicto de noticia o ruido para cada encuesta nueva.
 

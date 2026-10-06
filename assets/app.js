@@ -543,10 +543,19 @@ function probabilidadSim() {
   const rn = () => { let u = 0, v = 0; while (u === 0) u = Math.random(); v = Math.random(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v); };
   let cd = 0, ci = 0;
   const claves = Object.keys(sim.valores).filter((k) => sim.valores[k] > 0);
+  const R = P.ruido || { comunidad: 0.173, provincia: 0.085 }, est = new Set(D.base.estatales || []);
+  const ccaas = [...new Set(D.base.provincias.map((p) => p.ccaa))], peso = D.base.provincias.map((p) => Math.max(p.escanos - 2, 0.3));
+  const lnc = (sd) => Math.exp(sd * rn() - sd * sd / 2);
   for (let i = 0; i < N; i++) {
     const z = { d: rn(), i: rn(), t: rn() }, zt = rn(), m = {};
     for (const k of claves) { const b = bloque(k); m[k] = Math.max(0, sim.valores[k] + (P.sigmas[k] || 0.06 * sim.valores[k]) * (0.55 * z[b] + 0.835 * rn() + 0.35 * (b === "d" ? 1 : b === "i" ? -1 : 0) * zt)); }
-    const t = Modelo.proyectar(m, D.base).total;
+    const gr = Modelo.grupos(m, D.base), fc = {};
+    for (const k of claves) { fc[k] = {}; for (const c of ccaas) fc[k][c] = est.has(k) ? lnc(R.comunidad) : 1; }
+    const brutas = D.base.provincias.map((p) => Modelo.proyectarProvincia(p, m, D.base, gr));
+    const ruid = brutas.map((cu, j) => { const o = {}; for (const [k, v] of Object.entries(cu)) o[k] = v * (fc[k] ? fc[k][D.base.provincias[j].ccaa] : 1) * lnc(R.provincia); return o; });
+    for (const k of claves) if (est.has(k)) { let a = 0, d = 0; brutas.forEach((cu, j) => { a += (cu[k] || 0) * peso[j]; d += (ruid[j][k] || 0) * peso[j]; }); if (d > 0) for (const cu of ruid) if (cu[k] != null) cu[k] *= a / d; }
+    const t = {};
+    D.base.provincias.forEach((p, j) => { for (const [k, n] of Object.entries(Modelo.dhondt(ruid[j], p.escanos).escanos)) t[k] = (t[k] || 0) + n; });
     if (der.partidos.reduce((a, k) => a + (t[k] || 0), 0) >= 176) cd++;
     if (izq.partidos.reduce((a, k) => a + (t[k] || 0), 0) >= 176) ci++;
   }
@@ -602,10 +611,11 @@ function pintarTodo() {
   pintarPartidos(m, proy);
 }
 (async function iniciar() {
-  const nombres = ["config", "base2023", "encuestas", "fiabilidad", "noticias", "atencion", "porra", "agenda", "resultados", "probabilidades", "analisis", "probabilidades_historial", "mapa"];
+  const nombres = ["config", "base2023", "encuestas", "fiabilidad", "noticias", "atencion", "porra", "agenda", "resultados", "probabilidades", "analisis", "probabilidades_historial", "mapa", "europeas2024"];
   const datos = await Promise.all(nombres.map(cargar));
   nombres.forEach((n, i) => { D[n === "base2023" ? "base" : n === "probabilidades" ? "prob" : n === "probabilidades_historial" ? "historial" : n] = datos[i]; });
   if (!D.config || !D.base) { $("#r-ganando").textContent = "No se han podido cargar los datos base."; return; }
+  if (D.europeas2024) D.base.europeas = D.europeas2024;
   try { mapa.sel = localStorage.getItem("mi-provincia") || null; } catch {}
   $("#incluir-cis").addEventListener("change", pintarTodo);
   $("#compartir").addEventListener("click", compartir);

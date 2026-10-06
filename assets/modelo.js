@@ -28,12 +28,18 @@
       const mSum = miembros.reduce((s, k) => s + media[k], 0);
       if (bProv > 0 && bNat > 0) {
         const pool = bProv * mSum / bNat;
-        for (const k of miembros) out[k] = pool * media[k] / mSum;
+        // El tamaño del espacio sale de las generales de 2023. Cómo se reparte dentro (p. ej. Sumar frente a Podemos)
+        // sale de las europeas de 2024, donde fueron por separado. Solo se usa la forma, no el nivel.
+        const eu = base.europeas, rel = (k) => (eu && eu.provincias[prov.nombre] && eu.provincias[prov.nombre][k] && eu.nacional[k]) ? eu.provincias[prov.nombre][k] / eu.nacional[k] : 1;
+        const pesos = miembros.map((k) => media[k] * (miembros.length > 1 ? rel(k) : 1)), sumP = pesos.reduce((a, b) => a + b, 0) || 1;
+        miembros.forEach((k, i) => { out[k] = pool * pesos[i] / sumP; });
       } else {
         for (const k of miembros) {
           const amb = base.ambitos && base.ambitos[k];
           if (amb) { if (prov.ccaa === amb) out[k] = media[k] * base.factores_ccaa[amb]; }
-          else if ((base.estatales || []).includes(k) || bNat === 0) out[k] = media[k]; // sin base: reparto uniforme
+          else if (base.europeas && base.europeas.provincias[prov.nombre] && base.europeas.provincias[prov.nombre][k] && base.europeas.nacional[k])
+            out[k] = media[k] * base.europeas.provincias[prov.nombre][k] / base.europeas.nacional[k]; // sin base de 2023: forma de las europeas
+          else if ((base.estatales || []).includes(k) || bNat === 0) out[k] = media[k]; // sin ningún dato: reparto uniforme
         }
       }
     }

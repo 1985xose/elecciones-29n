@@ -28,18 +28,26 @@ const bloqueDe = (k) => Object.keys(BLOQUES).find((b) => BLOQUES[b].includes(k))
 // Un partido de hoy hereda el error histórico de su equivalente de entonces
 const EQUIV = { Sumar: ["Sumar", "UP"], Podemos: ["Sumar", "UP"], SALF: ["Vox", "Cs"], AA: ["Sumar", "UP"], AC: ["Junts", "CDC"], Junts: ["Junts", "CDC"] };
 
-function erroresEleccion(hist) {
-  // hist = {fecha, resultado:{p:%}, encuestas:[...]}; media a fecha de inicio de la veda
-  // Misma regla que se usa hoy: la media al empezar la veda, con la ventana de la última semana
-  const veda = new Date(fechaD(hist.fecha) - 6 * DIA);
-  const m = Me.calcMedia(hist.encuestas, veda, Me.ventanaAdaptativa(veda, fechaD(hist.fecha))).media;
+function erroresEleccion(hist, dias = 6) {
+  // Media de encuestas a 'dias' de la votación (como mínimo al empezar la veda), con la misma regla de ventana que hoy
+  const fe = fechaD(hist.fecha), f = new Date(fe - Math.max(dias, 6) * DIA);
+  const m = Me.calcMedia(hist.encuestas, f, Me.ventanaAdaptativa(f, fe)).media;
   const err = {};
   for (const [p, v] of Object.entries(hist.resultado)) if (v >= 1 && m[p] != null) err[p] = +(v - m[p]).toFixed(2);
   return { media: m, errores: err };
 }
 
+/* Factor por días que faltan, medido: error típico de la media a 'dias' de la votación dividido entre el error a 6 días,
+   juntando los cuatro partidos principales de cada elección histórica. */
+function factorDias(historicos, dias) {
+  const rms = (d) => { const xs = []; for (const h of historicos) { const e = erroresEleccion(h, d), top = Object.entries(h.resultado).sort((a, b) => b[1] - a[1]).slice(0, 4).map((x) => x[0]); for (const p of top) if (e.errores[p] != null) xs.push(e.errores[p]); } return Math.sqrt(xs.reduce((a, x) => a + x * x, 0) / Math.max(xs.length, 1)); };
+  const base = rms(6);
+  return base ? Math.max(1, rms(Math.max(dias, 6)) / base) : 1;
+}
+
 function sigmas(media, historicos, dias) {
-  const errs = historicos.map(erroresEleccion);
+  const errs = historicos.map((h) => erroresEleccion(h, 6));
+  const tiempo = factorDias(historicos, dias);
   const out = {}, detalle = {};
   for (const k of Object.keys(media)) {
     const fuentes = EQUIV[k] || [k];
@@ -49,17 +57,24 @@ function sigmas(media, historicos, dias) {
     const suelo = Math.max(0.4, 0.06 * media[k]);
     const techo = 0.6 * media[k] + 0.3; // un partido pequeño no puede tener un error mayor que él mismo
     const base = Math.min(Math.max(rms, suelo), techo);
-    const tiempo = 1 + 0.5 * Math.min(Math.max(dias, 0), 90) / 90; // más incertidumbre cuanto más lejos esté la votación
     out[k] = +(base * tiempo).toFixed(3);
     detalle[k] = { errores_historicos: muestras, rms: +rms.toFixed(2), suelo: +suelo.toFixed(2), factor_tiempo: +tiempo.toFixed(2), sigma: out[k] };
   }
-  return { sigmas: out, detalle, errores: errs };
+  return { sigmas: out, detalle, errores: errs, factor_tiempo: +tiempo.toFixed(2) };
 }
 
 /* ---------- Simulación ---------- */
+/* Separación del reparto proporcional medida entre 2019 y 2023 (mismo plazo que ahora):
+   17 % toda una comunidad a la vez y 8,5 % cada provincia dentro de su comunidad. */
+const RUIDO = { comunidad: 0.173, provincia: 0.085 };
 function simular(media, base, sig, n, semilla, opciones = {}) {
   const r = rng(semilla), claves = Object.keys(media).filter((k) => media[k] > 0);
-  const RHO = 0.55, ZS = 0.35, RUIDO_PROV = 0.05;
+  // Cuánto van juntos los errores de partidos del mismo bloque. Con 4 elecciones no se puede medir bien;
+  // probado de 0,30 a 0,80 el resultado apenas cambia (84 a 88 de cada 100 a 6-oct-2026), se deja el valor intermedio.
+  const RHO = 0.55, ZS = 0.35;
+  const estatales = new Set(base.estatales || []);
+  const ccaas = [...new Set(base.provincias.map((p) => p.ccaa))];
+  const peso = base.provincias.map((p) => Math.max((opciones.escanos ? opciones.escanos[p.nombre] : p.escanos) - 2, 0.3)); // población aproximada
   const resultados = [];
   for (let i = 0; i < n; i++) {
     const zb = {}, zt = r.n();
@@ -71,10 +86,19 @@ function simular(media, base, sig, n, semilla, opciones = {}) {
       const z = RHO * zb[b] + Math.sqrt(1 - RHO * RHO) * r.n() + ZS * signo * zt;
       m[k] = Math.max(0, media[k] + sig[k] * z);
     }
-    const ruido = (prov, cuotas) => { for (const k of Object.keys(cuotas)) cuotas[k] *= 1 + RUIDO_PROV * r.n(); return cuotas; };
     const gr = M.grupos(m, base), total = {}, provincias = [];
-    for (const prov of base.provincias) {
-      const cuotas = ruido(prov, M.proyectarProvincia(prov, m, base, gr));
+    const zc = {}; for (const k of claves) { zc[k] = {}; for (const c of ccaas) zc[k][c] = r.n(); }
+    const lnc = (sd, z) => Math.exp(sd * z - sd * sd / 2);
+    const brutas = base.provincias.map((prov) => M.proyectarProvincia(prov, m, base, gr));
+    const ruidosas = brutas.map((cu, i) => { const o = {}; for (const [k, v] of Object.entries(cu)) o[k] = v * (estatales.has(k) ? lnc(RUIDO.comunidad, zc[k] ? zc[k][base.provincias[i].ccaa] : 0) : 1) * lnc(RUIDO.provincia, r.n()); return o; });
+    // Reajuste para que el ruido territorial no cambie el total nacional de cada partido estatal
+    for (const k of claves) if (estatales.has(k)) {
+      let antes = 0, despues = 0;
+      brutas.forEach((cu, i) => { antes += (cu[k] || 0) * peso[i]; despues += (ruidosas[i][k] || 0) * peso[i]; });
+      if (despues > 0) { const f = antes / despues; for (const cu of ruidosas) if (cu[k] != null) cu[k] *= f; }
+    }
+    for (let i = 0; i < base.provincias.length; i++) {
+      const prov = base.provincias[i], cuotas = ruidosas[i];
       const d = M.dhondt(cuotas, opciones.escanos ? opciones.escanos[prov.nombre] : prov.escanos);
       for (const [p, s] of Object.entries(d.escanos)) total[p] = (total[p] || 0) + s;
       provincias.push({ escanos: d.escanos, ultimo: d.ultimo ? d.ultimo.p : null, aspirante: d.aspirante ? d.aspirante.p : null, falta: d.aspirante ? Math.max(0, d.aspirante.falta) : 99, cuotas });
@@ -253,6 +277,7 @@ function analizar(encuestas, ranking, mediaHoy) {
 /* ---------- Principal ---------- */
 function main() {
   const config = leer("config.json"), base = leer("base2023.json"), enc = leer("encuestas.json"), fiab = leer("fiabilidad.json");
+  base.europeas = leer("europeas2024.json");
   const historicos = [leer("historico_2023.json"), leer("historico_2019.json"), leer("historico_2019a.json"), leer("historico_2016.json")].filter(Boolean);
   const encuestas = enc ? enc.encuestas : [];
   const hoy = new Date();
@@ -268,7 +293,8 @@ function main() {
   console.log(`Corrección de sesgo de casa: ${Object.entries(media).slice(0, 5).map(([k, v]) => `${k} ${mediaBruta[k].toFixed(1)} -> ${v.toFixed(1)}`).join(", ")}`);
   const cal = sigmas(media, historicos, dias);
   console.log(`Media hoy: ${Object.entries(media).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([k, v]) => `${k} ${v.toFixed(1)}`).join(", ")}`);
-  console.log(`Sigmas: ${Object.entries(cal.sigmas).slice(0, 6).map(([k, v]) => `${k} ±${v}`).join(", ")}  (elecciones calibradas: ${historicos.length})`);
+  console.log(`Sigmas: ${Object.entries(cal.sigmas).slice(0, 6).map(([k, v]) => `${k} ±${v}`).join(", ")}  (elecciones calibradas: ${historicos.length}, factor por ${dias} días ${cal.factor_tiempo}, medido)`);
+  console.log(`Ruido territorial medido 2019-2023: comunidad ${(RUIDO.comunidad * 100).toFixed(1)} %, provincia ${(RUIDO.provincia * 100).toFixed(1)} %. Europeas 2024: ${base.europeas ? "sí" : "no"}`);
   const t0 = Date.now();
   const sims = simular(media, base, cal.sigmas, N, 29);
   const res = resumir(sims, base, config.escenarios);
