@@ -1,21 +1,21 @@
 {
- "actualizado": "2026-10-06T11:05:17.404Z",
+ "actualizado": "2026-10-06T11:15:55.418Z",
  "simulaciones": 10000,
  "dias_para_votar": 54,
  "media": {
-  "PP": 31.46006214841414,
-  "PSOE": 26.929693752725115,
-  "Vox": 18.4725644500017,
+  "PP": 31.46006214841413,
+  "PSOE": 26.929693752725107,
+  "Vox": 18.47256445000169,
   "Sumar": 6.267083898823157,
   "ERC": 2.2310669447631666,
-  "Junts": 1.207415651028256,
+  "Junts": 1.2074156510282559,
   "Bildu": 1.358343681223671,
-  "PNV": 1.0155015612049965,
-  "BNG": 0.943057960170717,
-  "CCa": 0.4168268246859694,
-  "UPN": 0.20000000000000004,
-  "AA": 0.904926436203369,
-  "Podemos": 3.3874677889918026,
+  "PNV": 1.0155015612049962,
+  "BNG": 0.9430579601707169,
+  "CCa": 0.4168268246859693,
+  "UPN": 0.2,
+  "AA": 0.9049264362033689,
+  "Podemos": 3.3874677889918017,
   "SALF": 1.7895174910906442,
   "AC": 1
  },
@@ -1047,7 +1047,13 @@
     "PSOE": 2
    },
    "p_reparto": 0.293,
-   "en_el_aire": 0.561,
+   "en_el_aire": 0.707,
+   "falta_media": 1.34,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Vox",
+    "p": 0.256
+   },
    "ultimo": {
     "Vox": 0.099,
     "PSOE": 0.211,
@@ -1068,7 +1074,13 @@
     "PSOE": 1
    },
    "p_reparto": 0.5,
-   "en_el_aire": 0.718,
+   "en_el_aire": 0.544,
+   "falta_media": 3.87,
+   "disputa": {
+    "tiene": "PNV",
+    "quiere": "PSOE",
+    "p": 0.088
+   },
    "ultimo": {
     "PP": 0.282,
     "PSOE": 0.269,
@@ -1088,7 +1100,13 @@
     "Vox": 1
    },
    "p_reparto": 0.925,
-   "en_el_aire": 0.105,
+   "en_el_aire": 0.177,
+   "falta_media": 7.19,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "PSOE",
+    "p": 0.738
+   },
    "ultimo": {
     "PP": 0.895,
     "PSOE": 0.078,
@@ -1105,7 +1123,13 @@
     "Vox": 3
    },
    "p_reparto": 0.242,
-   "en_el_aire": 0.642,
+   "en_el_aire": 0.522,
+   "falta_media": 1.41,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "PSOE",
+    "p": 0.103
+   },
    "ultimo": {
     "Sumar": 0.086,
     "PP": 0.358,
@@ -1125,7 +1149,13 @@
     "Vox": 2
    },
    "p_reparto": 0.559,
-   "en_el_aire": 0.473,
+   "en_el_aire": 0.431,
+   "falta_media": 3.31,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "PSOE",
+    "p": 0.4
+   },
    "ultimo": {
     "PP": 0.527,
     "AA": 0.048,
@@ -1143,7 +1173,13 @@
     "Vox": 1
    },
    "p_reparto": 0.376,
-   "en_el_aire": 0.655,
+   "en_el_aire": 0.645,
+   "falta_media": 1.78,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "Vox",
+    "p": 0.173
+   },
    "ultimo": {
     "PP": 0.27,
     "PSOE": 0.345,
@@ -1162,7 +1198,13 @@
     "Vox": 1
    },
    "p_reparto": 0.652,
-   "en_el_aire": 0.562,
+   "en_el_aire": 0.644,
+   "falta_media": 4.02,
+   "disputa": {
+    "tiene": "Vox",
+    "quiere": "PP",
+    "p": 0.378
+   },
    "ultimo": {
     "PSOE": 0.309,
     "PP": 0.253,
@@ -1179,7 +1221,13 @@
     "Vox": 1
    },
    "p_reparto": 0.968,
-   "en_el_aire": 0.373,
+   "en_el_aire": 0.076,
+   "falta_media": 8.18,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "PP",
+    "p": 0.304
+   },
    "ultimo": {
     "PSOE": 0.627,
     "PP": 0.333,
@@ -1197,7 +1245,13 @@
     "Vox": 2
    },
    "p_reparto": 0.348,
-   "en_el_aire": 0.599,
+   "en_el_aire": 0.509,
+   "falta_media": 2.22,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Sumar",
+    "p": 0.129
+   },
    "ultimo": {
     "PP": 0.401,
     "Sumar": 0.157,
@@ -1221,7 +1275,13 @@
     "Vox": 4
    },
    "p_reparto": 0.001,
-   "en_el_aire": 0.677,
+   "en_el_aire": 0.738,
+   "falta_media": 0.32,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "ERC",
+    "p": 0.046
+   },
    "ultimo": {
     "Sumar": 0.079,
     "PSOE": 0.323,
@@ -1245,7 +1305,13 @@
     "PSOE": 2
    },
    "p_reparto": 0.236,
-   "en_el_aire": 0.726,
+   "en_el_aire": 0.609,
+   "falta_media": 1.75,
+   "disputa": {
+    "tiene": "PNV",
+    "quiere": "Bildu",
+    "p": 0.074
+   },
    "ultimo": {
     "PNV": 0.274,
     "Bildu": 0.253,
@@ -1267,7 +1333,13 @@
     "Vox": 1
    },
    "p_reparto": 0.912,
-   "en_el_aire": 0.5,
+   "en_el_aire": 0.234,
+   "falta_media": 6.48,
+   "disputa": {
+    "tiene": "Vox",
+    "quiere": "PSOE",
+    "p": 0.433
+   },
    "ultimo": {
     "Vox": 0.5,
     "PP": 0.429,
@@ -1284,7 +1356,13 @@
     "Vox": 1
    },
    "p_reparto": 0.678,
-   "en_el_aire": 0.458,
+   "en_el_aire": 0.453,
+   "falta_media": 4.54,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "PSOE",
+    "p": 0.52
+   },
    "ultimo": {
     "PP": 0.542,
     "PSOE": 0.245,
@@ -1301,7 +1379,13 @@
     "Vox": 2
    },
    "p_reparto": 0.464,
-   "en_el_aire": 0.589,
+   "en_el_aire": 0.526,
+   "falta_media": 1.98,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "Sumar",
+    "p": 0.149
+   },
    "ultimo": {
     "PP": 0.332,
     "PSOE": 0.411,
@@ -1321,7 +1405,13 @@
     "Vox": 1
    },
    "p_reparto": 0.624,
-   "en_el_aire": 0.405,
+   "en_el_aire": 0.361,
+   "falta_media": 4.51,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "PP",
+    "p": 0.422
+   },
    "ultimo": {
     "PP": 0.396,
     "PSOE": 0.595,
@@ -1338,7 +1428,13 @@
     "Vox": 1
    },
    "p_reparto": 0.773,
-   "en_el_aire": 0.349,
+   "en_el_aire": 0.471,
+   "falta_media": 3.32,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "Vox",
+    "p": 0.39
+   },
    "ultimo": {
     "PP": 0.193,
     "PSOE": 0.651,
@@ -1355,7 +1451,13 @@
     "PP": 1
    },
    "p_reparto": 0.645,
-   "en_el_aire": 0.355,
+   "en_el_aire": 0.993,
+   "falta_media": 3.9,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Vox",
+    "p": 0.559
+   },
    "ultimo": {
     "PP": 0.645,
     "PSOE": 0.041,
@@ -1372,7 +1474,13 @@
     "Vox": 1
    },
    "p_reparto": 0.791,
-   "en_el_aire": 0.288,
+   "en_el_aire": 0.335,
+   "falta_media": 4.86,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "Vox",
+    "p": 0.437
+   },
    "ultimo": {
     "PP": 0.239,
     "PSOE": 0.712,
@@ -1389,7 +1497,13 @@
     "Vox": 1
    },
    "p_reparto": 0.662,
-   "en_el_aire": 0.485,
+   "en_el_aire": 0.507,
+   "falta_media": 2.66,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Vox",
+    "p": 0.278
+   },
    "ultimo": {
     "PSOE": 0.263,
     "PP": 0.515,
@@ -1409,7 +1523,13 @@
     "Vox": 1
    },
    "p_reparto": 0.929,
-   "en_el_aire": 0.096,
+   "en_el_aire": 0.27,
+   "falta_media": 6.99,
+   "disputa": {
+    "tiene": "Vox",
+    "quiere": "PP",
+    "p": 0.756
+   },
    "ultimo": {
     "PP": 0.065,
     "Vox": 0.904,
@@ -1426,7 +1546,13 @@
     "PSOE": 1
    },
    "p_reparto": 0.26,
-   "en_el_aire": 0.618,
+   "en_el_aire": 0.655,
+   "falta_media": 2.19,
+   "disputa": {
+    "tiene": "Bildu",
+    "quiere": "PP",
+    "p": 0.18
+   },
    "ultimo": {
     "Bildu": 0.382,
     "PNV": 0.239,
@@ -1449,7 +1575,13 @@
     "Vox": 1
    },
    "p_reparto": 0.17,
-   "en_el_aire": 0.788,
+   "en_el_aire": 0.873,
+   "falta_media": 1.18,
+   "disputa": {
+    "tiene": "Vox",
+    "quiere": "PP",
+    "p": 0.1
+   },
    "ultimo": {
     "PP": 0.21,
     "PSOE": 0.2,
@@ -1472,7 +1604,13 @@
     "Vox": 2
    },
    "p_reparto": 0.723,
-   "en_el_aire": 0.578,
+   "en_el_aire": 0.343,
+   "falta_media": 3.47,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Sumar",
+    "p": 0.131
+   },
    "ultimo": {
     "Vox": 0.364,
     "PP": 0.422,
@@ -1492,7 +1630,13 @@
     "Vox": 1
    },
    "p_reparto": 0.998,
-   "en_el_aire": 0.447,
+   "en_el_aire": 0.015,
+   "falta_media": 9.75,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "PP",
+    "p": 0.429
+   },
    "ultimo": {
     "PSOE": 0.553,
     "Vox": 0.407,
@@ -1509,7 +1653,13 @@
     "Vox": 1
    },
    "p_reparto": 0.882,
-   "en_el_aire": 0.308,
+   "en_el_aire": 0.236,
+   "falta_media": 5.4,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "Vox",
+    "p": 0.25
+   },
    "ultimo": {
     "PSOE": 0.692,
     "PP": 0.262,
@@ -1527,7 +1677,13 @@
     "Vox": 1
    },
    "p_reparto": 0.596,
-   "en_el_aire": 0.407,
+   "en_el_aire": 0.76,
+   "falta_media": 3.15,
+   "disputa": {
+    "tiene": "Vox",
+    "quiere": "PP",
+    "p": 0.522
+   },
    "ultimo": {
     "PP": 0.381,
     "PSOE": 0.026,
@@ -1544,7 +1700,13 @@
     "Vox": 1
    },
    "p_reparto": 0.874,
-   "en_el_aire": 0.3,
+   "en_el_aire": 0.241,
+   "falta_media": 5.52,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "Vox",
+    "p": 0.276
+   },
    "ultimo": {
     "PSOE": 0.7,
     "PP": 0.255,
@@ -1561,7 +1723,13 @@
     "PSOE": 2
    },
    "p_reparto": 0.469,
-   "en_el_aire": 0.551,
+   "en_el_aire": 0.811,
+   "falta_media": 2.17,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "Vox",
+    "p": 0.4
+   },
    "ultimo": {
     "PP": 0.286,
     "PSOE": 0.449,
@@ -1578,7 +1746,13 @@
     "Vox": 2
    },
    "p_reparto": 0.407,
-   "en_el_aire": 0.63,
+   "en_el_aire": 0.535,
+   "falta_media": 1.92,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Sumar",
+    "p": 0.111
+   },
    "ultimo": {
     "PSOE": 0.355,
     "PP": 0.37,
@@ -1598,7 +1772,13 @@
     "Vox": 1
    },
    "p_reparto": 0.87,
-   "en_el_aire": 0.352,
+   "en_el_aire": 0.299,
+   "falta_media": 5.86,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "PSOE",
+    "p": 0.624
+   },
    "ultimo": {
     "Vox": 0.239,
     "PP": 0.648,
@@ -1615,7 +1795,13 @@
     "PSOE": 2
    },
    "p_reparto": 0.201,
-   "en_el_aire": 0.702,
+   "en_el_aire": 0.913,
+   "falta_media": 1.6,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "PP",
+    "p": 0.133
+   },
    "ultimo": {
     "PSOE": 0.298,
     "PP": 0.272,
@@ -1634,7 +1820,13 @@
     "PSOE": 1
    },
    "p_reparto": 0.589,
-   "en_el_aire": 0.344,
+   "en_el_aire": 0.354,
+   "falta_media": 5.54,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "BNG",
+    "p": 0.31
+   },
    "ultimo": {
     "PP": 0.656,
     "PSOE": 0.096,
@@ -1653,7 +1845,13 @@
     "Vox": 8
    },
    "p_reparto": 0.013,
-   "en_el_aire": 0.582,
+   "en_el_aire": 0.536,
+   "falta_media": 0.44,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Vox",
+    "p": 0.094
+   },
    "ultimo": {
     "Sumar": 0.079,
     "Vox": 0.221,
@@ -1673,7 +1871,13 @@
     "Vox": 3
    },
    "p_reparto": 0.342,
-   "en_el_aire": 0.623,
+   "en_el_aire": 0.514,
+   "falta_media": 1.53,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Sumar",
+    "p": 0.131
+   },
    "ultimo": {
     "Vox": 0.238,
     "PSOE": 0.234,
@@ -1692,7 +1896,13 @@
     "PP": 1
    },
    "p_reparto": 1,
-   "en_el_aire": 0,
+   "en_el_aire": 0.072,
+   "falta_media": 9.97,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Vox",
+    "p": 0.73
+   },
    "ultimo": {
     "PP": 1,
     "PSOE": 0
@@ -1708,7 +1918,13 @@
     "Vox": 4
    },
    "p_reparto": 0.489,
-   "en_el_aire": 0.572,
+   "en_el_aire": 0.399,
+   "falta_media": 2.1,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Vox",
+    "p": 0.167
+   },
    "ultimo": {
     "PP": 0.391,
     "Vox": 0.428,
@@ -1727,7 +1943,13 @@
     "PSOE": 2
    },
    "p_reparto": 0.194,
-   "en_el_aire": 0.753,
+   "en_el_aire": 0.665,
+   "falta_media": 2.45,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "Vox",
+    "p": 0.112
+   },
    "ultimo": {
     "PSOE": 0.247,
     "PP": 0.17,
@@ -1747,7 +1969,13 @@
     "PSOE": 1
    },
    "p_reparto": 0.629,
-   "en_el_aire": 0.321,
+   "en_el_aire": 0.362,
+   "falta_media": 5.36,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "BNG",
+    "p": 0.311
+   },
    "ultimo": {
     "PP": 0.679,
     "BNG": 0.231,
@@ -1763,7 +1991,13 @@
     "PSOE": 1
    },
    "p_reparto": 0.597,
-   "en_el_aire": 0.411,
+   "en_el_aire": 0.819,
+   "falta_media": 2.84,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Vox",
+    "p": 0.58
+   },
    "ultimo": {
     "PP": 0.589,
     "Vox": 0.384,
@@ -1780,7 +2014,13 @@
     "PSOE": 2
    },
    "p_reparto": 0.286,
-   "en_el_aire": 0.557,
+   "en_el_aire": 0.589,
+   "falta_media": 1.93,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Vox",
+    "p": 0.162
+   },
    "ultimo": {
     "PP": 0.443,
     "PSOE": 0.274,
@@ -1800,7 +2040,13 @@
     "Vox": 1
    },
    "p_reparto": 0.995,
-   "en_el_aire": 0.507,
+   "en_el_aire": 0.021,
+   "falta_media": 9.43,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "PSOE",
+    "p": 0.294
+   },
    "ultimo": {
     "Vox": 0.493,
     "PP": 0.415,
@@ -1818,7 +2064,13 @@
     "Vox": 1
    },
    "p_reparto": 0.245,
-   "en_el_aire": 0.668,
+   "en_el_aire": 0.456,
+   "falta_media": 2.92,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Vox",
+    "p": 0.119
+   },
    "ultimo": {
     "Vox": 0.156,
     "PSOE": 0.331,
@@ -1837,7 +2089,13 @@
     "PSOE": 1
    },
    "p_reparto": 0.514,
-   "en_el_aire": 0.539,
+   "en_el_aire": 0.799,
+   "falta_media": 2.92,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Vox",
+    "p": 0.44
+   },
    "ultimo": {
     "PP": 0.461,
     "Vox": 0.428,
@@ -1854,7 +2112,13 @@
     "Vox": 3
    },
    "p_reparto": 0.163,
-   "en_el_aire": 0.684,
+   "en_el_aire": 0.555,
+   "falta_media": 1.3,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Vox",
+    "p": 0.079
+   },
    "ultimo": {
     "Sumar": 0.08,
     "PSOE": 0.299,
@@ -1874,7 +2138,13 @@
     "PSOE": 1
    },
    "p_reparto": 0.981,
-   "en_el_aire": 0.045,
+   "en_el_aire": 0.209,
+   "falta_media": 8.47,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "Vox",
+    "p": 0.774
+   },
    "ultimo": {
     "PSOE": 0.955,
     "PP": 0.045,
@@ -1892,7 +2162,13 @@
     "Vox": 1
    },
    "p_reparto": 0.263,
-   "en_el_aire": 0.663,
+   "en_el_aire": 0.65,
+   "falta_media": 2.04,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "Junts",
+    "p": 0.075
+   },
    "ultimo": {
     "ERC": 0.211,
     "PSOE": 0.337,
@@ -1914,7 +2190,13 @@
     "Vox": 1
    },
    "p_reparto": 0.881,
-   "en_el_aire": 0.174,
+   "en_el_aire": 0.428,
+   "falta_media": 5.54,
+   "disputa": {
+    "tiene": "Vox",
+    "quiere": "PP",
+    "p": 0.777
+   },
    "ultimo": {
     "Vox": 0.826,
     "PP": 0.114,
@@ -1931,7 +2213,13 @@
     "Vox": 2
    },
    "p_reparto": 0.759,
-   "en_el_aire": 0.559,
+   "en_el_aire": 0.301,
+   "falta_media": 4.59,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "PP",
+    "p": 0.342
+   },
    "ultimo": {
     "PSOE": 0.441,
     "Vox": 0.332,
@@ -1949,7 +2237,13 @@
     "Vox": 4
    },
    "p_reparto": 0.179,
-   "en_el_aire": 0.659,
+   "en_el_aire": 0.515,
+   "falta_media": 1.06,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "PSOE",
+    "p": 0.084
+   },
    "ultimo": {
     "PP": 0.341,
     "PSOE": 0.285,
@@ -1969,7 +2263,13 @@
     "Vox": 1
    },
    "p_reparto": 0.653,
-   "en_el_aire": 0.378,
+   "en_el_aire": 0.409,
+   "falta_media": 4.1,
+   "disputa": {
+    "tiene": "PSOE",
+    "quiere": "PP",
+    "p": 0.322
+   },
    "ultimo": {
     "PP": 0.348,
     "PSOE": 0.622,
@@ -1985,7 +2285,13 @@
     "PSOE": 1
    },
    "p_reparto": 0.698,
-   "en_el_aire": 0.353,
+   "en_el_aire": 0.806,
+   "falta_media": 2.96,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Vox",
+    "p": 0.643
+   },
    "ultimo": {
     "PP": 0.647,
     "Vox": 0.29,
@@ -2002,7 +2308,13 @@
     "Vox": 2
    },
    "p_reparto": 0.812,
-   "en_el_aire": 0.604,
+   "en_el_aire": 0.353,
+   "falta_media": 3.26,
+   "disputa": {
+    "tiene": "PP",
+    "quiere": "Sumar",
+    "p": 0.213
+   },
    "ultimo": {
     "PSOE": 0.168,
     "PP": 0.396,
