@@ -372,3 +372,17 @@ details[open] summary::after { content: "–"; }
 .fila-foco small { color: var(--gris); }
 .fila-foco > small { text-align: right; font-weight: 700; font-size: .8rem; }
 .fila-foco > small.sube { color: var(--bien); } .fila-foco > small.baja { color: var(--mal); }
+
+/* Titulares con foto */
+.titular-n { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; align-items: center; padding: 8px 12px 8px 8px; color: inherit; }
+.pregunta .titular-n { background: var(--papel); }
+.titular-n .foto, .titular-n .sello { width: 64px; height: 64px; border-radius: 9px; }
+.titular-n .foto { object-fit: cover; display: block; background: var(--linea); }
+.titular-n .sello { display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.05rem; letter-spacing: .03em; }
+.titular-n .txt { font-weight: 600; font-size: .95rem; line-height: 1.3; }
+.titular-n .m { font-weight: 400; margin-top: 3px; }
+.titular-n .tag { display: inline-block; font-size: .72rem; font-weight: 700; color: #fff; padding: 1px 7px; border-radius: 5px; margin-right: 6px; vertical-align: middle; }
+.titular-n.grande { grid-template-columns: minmax(0, 1fr); gap: 10px; padding: 0 0 12px; overflow: hidden; }
+.titular-n.grande .foto { width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 0; }
+.titular-n.grande .txt { padding: 0 14px; font-size: 1.15rem; font-weight: 750; line-height: 1.25; }
+.ficha-p .titulares { margin-top: 6px; }

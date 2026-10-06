@@ -85,6 +85,19 @@ function calcMedia(fecha = hoy()) {
 }
 
 /* Patrón de colores de una coalición según el peso de cada partido en escaños (p. ej. 2 PP por cada Vox) */
+/* ---------- Un titular: foto si la trae y, si no, un sello con las iniciales del medio ---------- */
+function sello(fuente) {
+  const pal = String(fuente || "?").replace(/\.(es|com|cat|eus|net|org)$/i, "").split(/[\s.\-]+/).filter(Boolean);
+  const ini = (pal.length > 1 ? pal[0][0] + pal[1][0] : (pal[0] || "?").slice(0, 2)).toUpperCase();
+  let h = 0; for (const c of String(fuente || "")) h = (h * 31 + c.charCodeAt(0)) % 360;
+  return el("span", { class: "sello", style: { background: `hsl(${h} 40% 90%)`, color: `hsl(${h} 45% 30%)` }, "aria-hidden": "true" }, ini);
+}
+function noticia(n, opciones = {}) {
+  const foto = n.imagen ? el("img", { class: "foto", src: n.imagen, alt: "", loading: "lazy", referrerpolicy: "no-referrer", onerror: (ev) => { ev.target.closest("a")?.classList.remove("grande"); ev.target.replaceWith(sello(n.fuente)); } }) : sello(n.fuente);
+  return el("a", { class: `titular-n${opciones.grande && n.imagen ? " grande" : ""}`, href: n.enlace, target: "_blank", rel: "noopener" }, foto,
+    el("span", { class: "txt" }, n.partido && !opciones.sinPartido ? el("span", { class: "tag", style: { background: color(n.partido) } }, nombre(n.partido)) : null, n.titulo, el("span", { class: "m" }, `${n.fuente} · ${hace(n.fecha)}`)));
+}
+
 /* ---------- Medidor de aguja ---------- */
 function aguja(p, col) {
   const cx = 60, cy = 58, R = 44, pt = (f, r) => { const a = Math.PI * (1 - f); return [(cx + r * Math.cos(a)).toFixed(1), (cy - r * Math.sin(a)).toFixed(1)]; };
@@ -249,10 +262,9 @@ function pintarHoy(m, m7, proy) {
   pintarHistorial();
 
   // 5. Titulares
-  const tit = (n) => el("a", { class: "titular-n", href: n.enlace, target: "_blank", rel: "noopener" }, n.partido ? el("span", { class: "tag", style: { background: color(n.partido) } }, nombre(n.partido)) : null, n.titulo, el("span", { class: "m" }, `${n.fuente} ${hace(n.fecha)}`));
-  $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 4).map(tit), ...(D.noticias?.polemicas || []).slice(0, 2).map(tit));
-  $("#titulares-todos").replaceChildren(...(D.noticias?.generales || []).slice(0, 12).map(tit));
-  $("#polemicas-todas").replaceChildren(...((D.noticias?.polemicas || []).length ? D.noticias.polemicas.slice(0, 12).map(tit) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
+  $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 4).map((n) => noticia(n)), ...(D.noticias?.polemicas || []).slice(0, 2).map((n) => noticia(n)));
+  $("#titulares-todos").replaceChildren(...(D.noticias?.generales || []).slice(0, 12).map((n, i) => noticia(n, { grande: i === 0 })));
+  $("#polemicas-todas").replaceChildren(...((D.noticias?.polemicas || []).length ? D.noticias.polemicas.slice(0, 12).map((n) => noticia(n)) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
 
   // 6. Fechas
   const ag = D.agenda || [], sig = ag.find((x) => fechaD(x.fin || x.fecha) >= hoy());
@@ -647,7 +659,7 @@ function pintarPorra(proy) {
 }
 function pintarPartidos(m, proy) {
   const o = ordenar(m.media).filter((k) => m.media[k] >= 0.5);
-  const li = (arr) => arr?.length ? el("ul", {}, ...arr.map((n) => el("li", {}, el("a", { href: n.enlace, target: "_blank", rel: "noopener" }, n.titulo), el("span", { class: "m" }, `${n.fuente} ${hace(n.fecha)}`)))) : el("p", { class: "vacio" }, "Sin titulares recientes.");
+  const li = (arr) => arr?.length ? el("div", { class: "titulares" }, ...arr.map((n) => noticia(n, { sinPartido: true }))) : el("p", { class: "vacio" }, "Sin titulares recientes.");
   $("#fichas-partidos").replaceChildren(...o.map((k) => el("article", { class: "ficha-p", style: { "--c": color(k) } }, el("h3", {}, `${nombre(k)}, ${fmt1.format(m.media[k])} % de los votos`),
     li(D.noticias?.partidos?.[k]?.slice(0, 3)), D.noticias?.verificaciones?.[k]?.length ? [el("h4", {}, "Verificado por Newtral y Maldita"), li(D.noticias.verificaciones[k].slice(0, 2))] : null)));
 }
@@ -782,7 +794,7 @@ function pintarFoco(ctx) {
       return el("div", { class: "fila-foco" }, el("span", {}, x.titulo), el("b", {}, n), el("small", { class: dif > 0 ? "sube" : dif < 0 ? "baja" : "" }, dif ? `${dif > 0 ? "+" : "−"}${Math.abs(dif)}` : "igual")); })));
 
   // Noticias
-  const N = D.noticias || {}, tit = (n) => el("a", { class: "titular-n", href: n.enlace, target: "_blank", rel: "noopener" }, n.titulo, el("span", { class: "m" }, `${n.fuente} ${hace(n.fecha)}`));
+  const N = D.noticias || {}, tit = (n) => noticia(n, { sinPartido: true });
   const suyas = (N.partidos?.[k] || []).slice(0, 5), pol = (N.polemicas || []).filter((n) => n.partido === k).slice(0, 3), ver = (N.verificaciones?.[k] || []).slice(0, 3);
   caja("noticias").append(art(`${nombre(k)} en las noticias`,
     ...(suyas.length ? suyas.map(tit) : [el("p", { class: "vacio" }, "Sin titulares recientes.")]),

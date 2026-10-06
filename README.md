@@ -20,7 +20,7 @@ Panel personal de las elecciones generales del 29 de noviembre de 2026, con un m
 | `scripts/encuestas.py` | Encuestas desde Wikipedia con validación dura. Imprime en el log una tabla por empresa (total, último año, última fecha, días sin publicar) para ver si falta alguna |
 | `scripts/fiabilidad.py` | Ranking de acierto e históricos de 2019 y 2023 |
 | `scripts/simular.js` | Modelo de probabilidades, backtest y análisis de encuestas |
-| `scripts/noticias.py`, `scripts/atencion.py` | Titulares, verificaciones, visitas a Wikipedia |
+| `scripts/noticias.py`, `scripts/atencion.py` | Titulares del día con foto desde los RSS de los periódicos (`config.json` > `medios`, el log dice cuáles responden y cuántos traen foto), titulares por partido, polémicas y verificaciones desde Google News. Visitas a Wikipedia |
 | `scripts/telegram_bot.py`, `scripts/resumen_diario.py` | Porra y resumen de la mañana por Telegram |
 | `manifest.json`, `sw.js` | App instalable |
 

@@ -116,6 +116,23 @@
     }
   },
   "titulares_generales": "elecciones generales 29 de noviembre",
+  "medios": [
+    {"nombre": "El País", "rss": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada"},
+    {"nombre": "El Mundo", "rss": "https://e00-elmundo.uecdn.es/elmundo/rss/espana.xml"},
+    {"nombre": "ABC", "rss": "https://www.abc.es/rss/2.0/espana/"},
+    {"nombre": "elDiario.es", "rss": "https://www.eldiario.es/rss/politica/"},
+    {"nombre": "RTVE", "rss": "https://api2.rtve.es/rss/temas_espana.xml"},
+    {"nombre": "La Vanguardia", "rss": "https://www.lavanguardia.com/rss/politica.xml"},
+    {"nombre": "El Confidencial", "rss": "https://rss.elconfidencial.com/espana/"},
+    {"nombre": "20minutos", "rss": "https://www.20minutos.es/rss/nacional/"},
+    {"nombre": "Europa Press", "rss": "https://www.europapress.es/rss/rss.aspx?ch=00066"},
+    {"nombre": "Público", "rss": "https://www.publico.es/rss/politica"},
+    {"nombre": "La Razón", "rss": "https://www.larazon.es/rss/espana.xml"},
+    {"nombre": "El Español", "rss": "https://www.elespanol.com/rss/espana/"},
+    {"nombre": "OKdiario", "rss": "https://okdiario.com/feed"}
+  ],
+  "portada_fuertes": ["elecciones", "electoral", "29N", "29-N", "campaña", "encuesta", "sondeo", "candidat", "listas", "urnas", "adelanto", "debate"],
+  "portada_claves": ["Congreso", "Senado", "Gobierno", "Moncloa", "investidura", "escaño", "voto", "votar", "diputad", "ministr", "Sánchez", "Feijóo", "Abascal", "Yolanda Díaz", "CIS"],
   "verificadores": "(site:newtral.es OR site:maldita.es)",
   "escenarios": [
     {
