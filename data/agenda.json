@@ -1,10 +1,52 @@
 [
-  {"fecha": "2026-10-06", "titulo": "El BOE publica la convocatoria", "detalle": "Real Decreto 806/2026. Cortes disueltas."},
-  {"fecha": "2026-10-21", "fin": "2026-10-26", "titulo": "Presentación de candidaturas"},
-  {"fecha": "2026-11-13", "titulo": "Empieza la campaña", "detalle": "Desde las 0:00 del viernes 13."},
-  {"fecha": "2026-11-24", "fin": "2026-11-28", "titulo": "Prohibido publicar encuestas en España", "detalle": "Los cinco días anteriores a la votación (LOREG art. 69)."},
-  {"fecha": "2026-11-27", "titulo": "Fin de campaña", "detalle": "A las 24:00 del viernes 27."},
-  {"fecha": "2026-11-28", "titulo": "Jornada de reflexión"},
-  {"fecha": "2026-11-29", "titulo": "Votación", "detalle": "Urnas abiertas de 9:00 a 20:00."},
-  {"fecha": "2026-12-23", "titulo": "Se constituyen las nuevas Cortes"}
+ {
+  "fecha": "2026-10-06",
+  "titulo": "El BOE publica la convocatoria",
+  "detalle": "Real Decreto 806/2026. Cortes disueltas."
+ },
+ {
+  "fecha": "2026-10-06",
+  "fin": "2026-11-19",
+  "titulo": "Plazo para pedir el voto por correo",
+  "detalle": "En cualquier oficina de Correos o en su web, con el DNI. Hasta el 19 de noviembre."
+ },
+ {
+  "fecha": "2026-10-21",
+  "fin": "2026-10-26",
+  "titulo": "Presentación de candidaturas"
+ },
+ {
+  "fecha": "2026-11-13",
+  "titulo": "Empieza la campaña",
+  "detalle": "Desde las 0:00 del viernes 13."
+ },
+ {
+  "fecha": "2026-11-24",
+  "fin": "2026-11-28",
+  "titulo": "Prohibido publicar encuestas en España",
+  "detalle": "Los cinco días anteriores a la votación (LOREG art. 69)."
+ },
+ {
+  "fecha": "2026-11-26",
+  "titulo": "Último día para enviar el voto por correo",
+  "detalle": "Hay que entregarlo en Correos, certificado y gratis."
+ },
+ {
+  "fecha": "2026-11-27",
+  "titulo": "Fin de campaña",
+  "detalle": "A las 24:00 del viernes 27."
+ },
+ {
+  "fecha": "2026-11-28",
+  "titulo": "Jornada de reflexión"
+ },
+ {
+  "fecha": "2026-11-29",
+  "titulo": "Votación",
+  "detalle": "Urnas abiertas de 9:00 a 20:00."
+ },
+ {
+  "fecha": "2026-12-23",
+  "titulo": "Se constituyen las nuevas Cortes"
+ }
 ]

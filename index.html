@@ -21,11 +21,11 @@
 </header>
 
 <nav class="pestanas" aria-label="Secciones">
-  <a href="#hoy" data-tab="hoy">Hoy</a>
-  <a href="#mapa" data-tab="mapa">Provincias</a>
-  <a href="#encuestas" data-tab="encuestas">Encuestas</a>
-  <a href="#simulador" data-tab="simulador">¿Y si…?</a>
-  <a href="#noticias" data-tab="noticias">Noticias</a>
+  <a href="#hoy" data-tab="hoy"><svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Hoy</a>
+  <a href="#mapa" data-tab="mapa"><svg viewBox="0 0 24 24"><path d="M9 3 3 5.5v15L9 18l6 2.5 6-2.5v-15L15 6zM9 5.2v10.6l6 2.4V7.6z"/></svg>Provincias</a>
+  <a href="#encuestas" data-tab="encuestas"><svg viewBox="0 0 24 24"><path d="M4 20V10h3v10zm6.5 0V4h3v16zM17 20v-7h3v7z"/></svg>Encuestas</a>
+  <a href="#simulador" data-tab="simulador"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2zm-3 17h6v1.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 20.5z"/></svg>¿Y si…?</a>
+  <a href="#noticias" data-tab="noticias"><svg viewBox="0 0 24 24"><path d="M4 4h13a2 2 0 0 1 2 2v12h1a1 1 0 0 1-1 1H6a3 3 0 0 1-3-3V5a1 1 0 0 1 1-1zm2 3v2h9V7zm0 4v2h9v-2zm0 4v2h6v-2zM21 9v9a1 1 0 0 1-2 0V9z"/></svg>Noticias</a>
 </nav>
 
 <main>
@@ -71,6 +71,16 @@
     </article>
 
     <article class="pregunta">
+      <h2>¿Valen lo mismo todos los votos?</h2>
+      <p id="r-coste" class="respuesta"></p>
+      <div id="g-coste" class="barras-grandes"></div>
+      <details class="como"><summary>¿Por qué pasa esto?</summary>
+        <p>Los asientos se reparten provincia a provincia, y los votos de un partido que no llega a asiento en una provincia se pierden. A los partidos medianos repartidos por toda España (Sumar, Podemos, SALF) les pasa en muchas provincias. A los partidos que concentran su voto en una zona (PNV, Bildu, ERC) casi nunca. Y los dos grandes salen beneficiados porque D'Hondt favorece al más votado en las provincias pequeñas.</p>
+        <p class="fuente">Cálculo aproximado, los votos de cada partido se estiman con su porcentaje en la media de encuestas sobre los 24,7 millones de votos válidos de 2023, y los asientos son los del caso más probable.</p>
+      </details>
+    </article>
+
+    <article class="pregunta">
       <h2>¿Y en mi provincia?</h2>
       <label class="selector">Elige tu provincia <select id="mi-provincia"></select></label>
       <p id="r-provincia" class="respuesta"></p>
@@ -88,9 +98,28 @@
       <h2>¿Qué pasa el 29N?</h2>
       <p id="r-fechas" class="respuesta"></p>
       <ol id="agenda" class="agenda"></ol>
-      <details class="como"><summary>¿Cómo funciona la votación?</summary>
+      <details class="como"><summary>Cómo votar</summary>
+        <p><b>En el colegio.</b> El domingo 29 de 9:00 a 20:00, con el DNI, pasaporte o carné de conducir, aunque estén caducados. El colegio que te toca viene en la tarjeta censal que llega a casa, y también se consulta en la web del INE con el DNI.</p>
+        <p><b>Por correo.</b> Se pide hasta el 19 de noviembre en cualquier oficina de Correos o en su web, con el DNI. Te mandan las papeletas a casa y hay que devolverlas certificadas, gratis, en Correos, antes del 26 de noviembre. Quien vota por correo ya no puede votar en el colegio.</p>
+        <p><b>Desde el extranjero.</b> Los inscritos en el censo de residentes ausentes reciben la documentación de oficio y votan por correo o en el consulado.</p>
+      </details>
+      <details class="como"><summary>La noche electoral, hora a hora</summary>
+        <p><b>20:00.</b> Cierran los colegios y las televisiones dan los sondeos a pie de urna, que fallan a menudo.</p>
+        <p><b>21:00.</b> Primeros datos reales, con el 20 o 30 % contado. Los pueblos pequeños cuentan antes que las ciudades, así que suelen favorecer al PP al principio.</p>
+        <p><b>22:00 a 22:30.</b> Con el 90 % contado el resultado ya casi no se mueve.</p>
+        <p><b>23:00.</b> Discursos de los candidatos. El voto de los residentes en el extranjero se cuenta días después y a veces cambia un asiento.</p>
+        <p>Esta app se actualizará esa noche con el recuento oficial del Ministerio del Interior.</p>
+      </details>
+      <details class="como"><summary>Cómo funciona la votación</summary>
         <p>Se eligen 350 diputados. Cada provincia reparte un número de asientos según su población, Madrid 38 y Soria 2, por ejemplo. Dentro de cada provincia los asientos se reparten entre los partidos que pasan del 3 % con la ley D'Hondt, un método que favorece un poco a los partidos grandes, sobre todo en las provincias pequeñas. Para gobernar sin apoyos hacen falta 176.</p>
-        <p>Los colegios abren de 9:00 a 20:00. El recuento es rápido, hacia las 22:30 suele estar casi todo escrutado.</p>
+      </details>
+      <details class="como"><summary>Diccionario rápido</summary>
+        <p><b>Escaño o asiento.</b> Cada uno de los 350 puestos de diputado en el Congreso.</p>
+        <p><b>Mayoría absoluta.</b> 176 asientos, la mitad más uno. Permite gobernar sin pactar con nadie.</p>
+        <p><b>Investidura.</b> La votación en la que el Congreso elige al presidente. En la primera hacen falta 176 síes, en la segunda basta con más síes que noes.</p>
+        <p><b>Bloqueo.</b> Cuando ninguna combinación de partidos dispuestos a pactar suma 176. Si dura dos meses desde la primera investidura fallida, se repiten las elecciones.</p>
+        <p><b>Punto.</b> Un punto es 1 de cada 100 votos, unos 250.000 votantes, más o menos la población de Gijón o de Vigo.</p>
+        <p><b>Ley D'Hondt.</b> La fórmula que convierte votos en asientos en cada provincia. Divide los votos de cada partido entre 1, 2, 3… y da los asientos a los números más altos.</p>
       </details>
     </article>
 
@@ -136,7 +165,7 @@
 
   <section id="simulador" class="pantalla" hidden>
     <h2>¿Y si…?</h2>
-    <p class="explica">Prueba qué pasaría si las cosas cambiaran. Toca una situación.</p>
+    <p class="explica">Prueba qué pasaría si las cosas cambiaran. Toca una situación. Los puntos son de cada 100 votos en toda España, y se reparten por provincias según lo fuerte que sea cada partido en cada una.</p>
     <div id="situaciones" class="situaciones"></div>
     <p id="r-sim" class="respuesta"></p>
     <div id="sim-waffle" class="waffle"></div>
@@ -144,7 +173,10 @@
     <div id="sim-hemiciclo" class="hemi"></div>
     <div id="sim-leyenda" class="leyenda"></div>
     <div id="pactos" class="pactos"></div>
-    <p id="sim-cambios" class="fuente"></p>
+    <h2>Así quedaría el mapa</h2>
+    <div id="sim-mapa" class="mapa"></div>
+    <p id="sim-cambios" class="explica"></p>
+    <div id="sim-ficha"></div>
     <details class="como"><summary>Modo avanzado, mueve tú los números</summary>
       <div class="swing">
         <label for="swing">Trasvase de votos entre la izquierda y la derecha</label>
