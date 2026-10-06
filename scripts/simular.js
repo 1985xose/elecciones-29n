@@ -188,7 +188,7 @@ function analizar(encuestas, ranking, mediaHoy) {
   const hoy = new Date(), recientes = encuestas.filter((e) => (hoy - fechaD(e.fin)) / DIA <= 420);
   const desv = {}; // clave -> [{fin, dev:{p:x}}]
   for (const e of recientes) {
-    const m = Me.calcMedia(encuestas, fechaD(e.fin), { ventana: 30, excluirClave: e.clave, incluirCIS: true }).media;
+    const m = Me.calcMedia(encuestas, fechaD(e.fin), { ventana: 30, excluirClave: e.clave, incluirCIS: false }).media;
     const dev = {};
     for (const p of principales) if (e.pct[p] != null && m[p] != null) dev[p] = e.pct[p] - m[p];
     if (Object.keys(dev).length >= 3) (desv[e.clave] ||= { empresa: e.empresa_base, filas: [] }).filas.push({ id: e.id, fin: e.fin, dev });
@@ -205,6 +205,15 @@ function analizar(encuestas, ranking, mediaHoy) {
     const sd = Math.sqrt(resid.reduce((a, x) => a + x * x, 0) / Math.max(1, resid.length));
     sesgos[clave] = { empresa: d.empresa, n: d.filas.length, sesgo, sd: +Math.max(sd, 0.5).toFixed(2) };
   }
+  // Centrar: de media las manías de las empresas (sin el CIS) suman cero en cada partido.
+  // Así la corrección quita lo raro de cada empresa sin mover el nivel de la media entera.
+  const normales = Object.entries(sesgos).filter(([k]) => k !== "cis");
+  for (const p of principales) {
+    const xs = normales.map(([, v]) => v.sesgo[p]).filter((x) => x != null);
+    if (!xs.length) continue;
+    const centro = xs.reduce((a, b) => a + b, 0) / xs.length;
+    for (const [, v] of Object.entries(sesgos)) if (v.sesgo[p] != null) v.sesgo[p] = +(v.sesgo[p] - centro).toFixed(2);
+  }
   const nota = (clave) => {
     const r = ranking && ranking.find((x) => x.clave === clave);
     if (!r) return { letra: "–", texto: "sin historial en 2019 ni 2023" };
@@ -213,7 +222,7 @@ function analizar(encuestas, ranking, mediaHoy) {
   };
   const ultimas = [];
   for (const e of encuestas.slice(0, 12)) {
-    const m = Me.calcMedia(encuestas, fechaD(e.fin), { ventana: 30, excluirClave: e.clave, incluirCIS: true }).media;
+    const m = Me.calcMedia(encuestas, fechaD(e.fin), { ventana: 30, excluirClave: e.clave, incluirCIS: false }).media;
     const s = sesgos[e.clave];
     const detalle = [];
     let maxZ = 0, culpable = null;
