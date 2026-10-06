@@ -6,6 +6,8 @@ from wikitabla import html_pagina, parsear_tablas
 ELECCIONES = [
     {"nombre": "23J 2023", "pagina": "Opinion polling for the 2023 Spanish general election", "fecha": date(2023, 7, 23), "archivo": "historico_2023.json"},
     {"nombre": "10N 2019", "pagina": "Opinion polling for the November 2019 Spanish general election", "fecha": date(2019, 11, 10), "archivo": "historico_2019.json"},
+    {"nombre": "28A 2019", "pagina": "Opinion polling for the April 2019 Spanish general election", "fecha": date(2019, 4, 28), "archivo": "historico_2019a.json"},
+    {"nombre": "26J 2016", "pagina": "Opinion polling for the 2016 Spanish general election", "fecha": date(2016, 6, 26), "archivo": "historico_2016.json"},
 ]
 
 

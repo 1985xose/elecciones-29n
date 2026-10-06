@@ -59,7 +59,7 @@ window.addEventListener("hashchange", () => activarPestana(location.hash.slice(1
 
 /* ---------- Media ---------- */
 function calcMedia(fecha = hoy(), ventana = 30) {
-  return Media.calcMedia(D.encuestas?.encuestas || [], fecha, { ventana, incluirCIS: $("#incluir-cis")?.checked, ranking: D.fiabilidad?.ranking });
+  return Media.calcMedia(D.encuestas?.encuestas || [], fecha, { ventana, incluirCIS: $("#incluir-cis")?.checked, ranking: D.fiabilidad?.ranking, sesgos: D.analisis?.sesgos });
 }
 
 /* Patrón de colores de una coalición según el peso de cada partido en escaños (p. ej. 2 PP por cada Vox) */
@@ -164,6 +164,15 @@ function pintarHoy(m, m7, proy) {
     $("#r-gobernar").textContent = o.length ? `Si se votara hoy, ${nombre(ordenar(esc)[0])} sacaría ${esc[ordenar(esc)[0]]} asientos. Las probabilidades se calculan en la próxima actualización.` : "";
   }
 
+  // Senado
+  if (P?.senado) {
+    const sen = Object.entries(P.senado).filter(([, v]) => v.p50 > 0).sort((a, b) => b[1].p50 - a[1].p50);
+    if (sen.length) { const [k1, v1] = sen[0];
+      $("#r-senado").replaceChildren(el("b", {}, v1.p_mayoria >= 0.5 ? `${nombre(k1)} tendría mayoría absoluta en el Senado en ${deCada100(v1.p_mayoria)}.` : `Nadie tiene asegurada la mayoría del Senado.`), ` ${nombre(k1)} sacaría entre ${v1.p10} y ${v1.p90} de los 208 senadores que se eligen${sen[1] ? `, ${nombre(sen[1][0])} entre ${sen[1][1].p10} y ${sen[1][1].p90}` : ""}.`);
+      $("#g-senado").replaceChildren(...sen.slice(0, 5).map(([k, v]) => el("div", { class: "bg" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)), el("div", { class: "num" }, v.p50, el("small", {}, ` senadores`)), el("div", { class: "pista" }, el("i", { style: { width: `${v.p50 / 208 * 100}%`, background: color(k) } })))));
+    }
+  } else { $("#r-senado").textContent = "Se calcula en la próxima actualización."; }
+
   // 3. ¿Ha cambiado algo?
   const cambios = Object.keys(m.media).filter((k) => m7.media[k] != null && m.media[k] >= 2).map((k) => ({ k, d: m.media[k] - m7.media[k] })).sort((a, b) => Math.abs(b.d) - Math.abs(a.d));
   const fuertes = cambios.filter((x) => Math.abs(x.d) >= 0.3);
@@ -201,10 +210,17 @@ function pintarHoy(m, m7, proy) {
   $("#agenda").replaceChildren(...ag.map((x) => { const fin = fechaD(x.fin || x.fecha);
     return el("li", { class: fin < hoy() ? "pasado" : x === sig ? "siguiente" : null }, el("span", { class: "dia" }, x.fin ? `${fFecha.format(fechaD(x.fecha))} al ${fFecha.format(fin)}` : fFecha.format(fechaD(x.fecha))), el("span", {}, x.titulo, x.detalle ? el("span", { class: "det" }, x.detalle) : null)); }));
 }
+function antes2023(p) {
+  const b = D.base.provincias.find((x) => x.nombre === p.nombre);
+  if (!b?.esc_reales_2023) return "";
+  const r = b.esc_reales_2023, ks = new Set([...Object.keys(r), ...Object.keys(p.escanos)]);
+  const dif = [...ks].map((k) => ({ k, d: (p.escanos[k] || 0) - (r[k] || 0) })).filter((x) => x.d);
+  return dif.length ? ` Respecto a 2023, ${lista(dif.map((x) => `${nombre(x.k)} ${x.d > 0 ? "gana" : "pierde"} ${Math.abs(x.d)}`))}.` : " Es el mismo reparto que en 2023.";
+}
 function fraseProvincia(p, conReparto = true) {
   const o = ordenar(p.escanos);
   const reparto = lista(o.map((k) => `${p.escanos[k]} para ${nombre(k)}`));
-  let f = conReparto ? `En ${p.nombre} se reparten ${p.n} asientos, ${reparto}. ` : "";
+  let f = conReparto ? `En ${p.nombre} se reparten ${p.n} asientos, ${reparto}.${antes2023(p)} ` : "";
   if (p.aspirante) { const falta = Math.max(p.aspirante.falta, 0);
     f += `El último asiento ${falta < 0.5 ? "está muy reñido" : falta < 1.5 ? "está reñido" : "lo tiene bastante claro"} ${nombre(p.ultimo.p)}${falta < 1.5 ? `, se lo disputa ${nombre(p.aspirante.p)}` : `, aunque ${nombre(p.aspirante.p)} se lo quitaría si subiera ${fmt1.format(falta)} puntos`}.`; }
   return f;
@@ -344,7 +360,7 @@ function pintarMapa(proy) {
   const p = proy.provincias.find((x) => x.nombre === mapa.sel);
   $("#ficha-provincia").replaceChildren(...(p ? [el("div", { class: "ficha" }, el("h3", {}, `${p.nombre}, ${p.n} asientos`),
     el("div", { class: "chips" }, ...ordenar(p.escanos).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${p.escanos[k]}`))),
-    p.aspirante ? el("p", {}, fraseProvincia(p, false)) : null,
+    el("p", {}, (p.aspirante ? fraseProvincia(p, false) : "") + antes2023(p)),
     (() => { const pp = D.prob?.provincias?.find((x) => x.nombre === p.nombre); return pp ? el("p", { class: "fuente" }, `De cada 100 veces que simulamos las elecciones, el último asiento es ${ordenar(pp.ultimo).slice(0, 3).map((k) => `de ${nombre(k)} ${Math.round(pp.ultimo[k] * 100)}`).join(", ")}.`) : null; })(),
     el("details", { class: "como" }, el("summary", {}, "¿Cómo se reparten estos asientos?"),
       el("p", {}, "Con la ley D'Hondt. El voto de cada partido se divide entre 1, 2, 3… y los asientos van a los números más altos. Los marcados en color son los que se llevan asiento. Solo entran los partidos con al menos el 3 % del voto de la provincia."),

@@ -42,7 +42,7 @@ jobs:
       - name: Fiabilidad de encuestadoras (una vez al día)
         continue-on-error: true
         run: |
-          if [ ! -f data/fiabilidad.json ] || [ ! -f data/historico_2023.json ] || [ "$(date -u +%H)" = "04" ]; then python scripts/fiabilidad.py; else echo "Se mantiene la del día"; fi
+          if [ ! -f data/fiabilidad.json ] || [ ! -f data/historico_2023.json ] || [ ! -f data/historico_2016.json ] || [ "$(date -u +%H)" = "04" ]; then python scripts/fiabilidad.py; else echo "Se mantiene la del día"; fi
 
       - name: Modelo de probabilidades y análisis de encuestas
         continue-on-error: true

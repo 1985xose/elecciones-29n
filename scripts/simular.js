@@ -26,7 +26,7 @@ function rng(semilla) {
 const BLOQUES = { derecha: ["PP", "Vox", "SALF", "UPN", "Cs", "NA+"], izquierda: ["PSOE", "Sumar", "Podemos", "UP", "MP", "AA"], territorial: ["ERC", "Junts", "Bildu", "PNV", "BNG", "CCa", "AC", "CUP", "PRC", "TE"] };
 const bloqueDe = (k) => Object.keys(BLOQUES).find((b) => BLOQUES[b].includes(k)) || "otros";
 // Un partido de hoy hereda el error histórico de su equivalente de entonces
-const EQUIV = { Sumar: ["Sumar", "UP"], Podemos: ["Sumar", "UP"], SALF: ["Vox"], AA: ["Sumar", "UP"], AC: ["Junts"] };
+const EQUIV = { Sumar: ["Sumar", "UP"], Podemos: ["Sumar", "UP"], SALF: ["Vox", "Cs"], AA: ["Sumar", "UP"], AC: ["Junts", "CDC"], Junts: ["Junts", "CDC"] };
 
 function erroresEleccion(hist) {
   // hist = {fecha, resultado:{p:%}, encuestas:[...]}; media a fecha de inicio de la veda
@@ -78,9 +78,22 @@ function simular(media, base, sig, n, semilla, opciones = {}) {
       for (const [p, s] of Object.entries(d.escanos)) total[p] = (total[p] || 0) + s;
       provincias.push({ escanos: d.escanos, ultimo: d.ultimo ? d.ultimo.p : null, cuotas });
     }
-    resultados.push({ total, provincias });
+    resultados.push({ total, provincias, senado: senadoDe(provincias, base) });
   }
   return resultados;
+}
+
+/* Senado: 4 por provincia (3 al primero, 1 al segundo), islas y ciudades autónomas con su reparto propio. 208 electos */
+const SENADO_ESPECIAL = { Baleares: [4, 1], "Las Palmas": [4, 1], "Santa Cruz de Tenerife": [5, 1], Ceuta: [2, 0], Melilla: [2, 0] };
+function senadoDe(provincias, base) {
+  const total = {};
+  provincias.forEach((p, i) => {
+    const o = Object.keys(p.cuotas).sort((a, b) => p.cuotas[b] - p.cuotas[a]);
+    const [s1, s2] = SENADO_ESPECIAL[base.provincias[i].nombre] || [3, 1];
+    if (o[0]) total[o[0]] = (total[o[0]] || 0) + s1;
+    if (o[1] && s2) total[o[1]] = (total[o[1]] || 0) + s2;
+  });
+  return total;
 }
 
 function resumir(sims, base, escenarios) {
@@ -138,7 +151,11 @@ function resumir(sims, base, escenarios) {
     const pMaxUltimo = Math.max(0, ...Object.values(ultimo));
     return { nombre: prov.nombre, ccaa: prov.ccaa, n: prov.escanos, reparto, p_reparto: +(modal[1] / n).toFixed(3), en_el_aire: +(1 - pMaxUltimo).toFixed(3), ultimo };
   });
-  return { partidos, escenarios: esc, bloqueo: +bloqueo.toFixed(4), provincias };
+  // Senado
+  const senado = {};
+  const clavesS = new Set(); for (const s of sims) for (const k of Object.keys(s.senado)) clavesS.add(k);
+  for (const k of clavesS) { const v = sims.map((s) => s.senado[k] || 0).sort((a, b) => a - b); senado[k] = { p10: v[Math.floor(n * .1)], p50: v[Math.floor(n * .5)], p90: v[Math.floor(n * .9)], p_mayoria: +(v.filter((x) => x >= 105).length / n).toFixed(4) }; }
+  return { partidos, escenarios: esc, bloqueo: +bloqueo.toFixed(4), provincias, senado };
 }
 
 /* Puntos de voto que le faltan (o sobran) a una coalición para que su probabilidad de 176 sea del 50 % */
@@ -216,12 +233,16 @@ function analizar(encuestas, ranking, mediaHoy) {
 /* ---------- Principal ---------- */
 function main() {
   const config = leer("config.json"), base = leer("base2023.json"), enc = leer("encuestas.json"), fiab = leer("fiabilidad.json");
-  const historicos = [leer("historico_2023.json"), leer("historico_2019.json")].filter(Boolean);
+  const historicos = [leer("historico_2023.json"), leer("historico_2019.json"), leer("historico_2019a.json"), leer("historico_2016.json")].filter(Boolean);
   const encuestas = enc ? enc.encuestas : [];
   const hoy = new Date();
   const dias = Math.round((fechaD(config.eleccion.fecha) - hoy) / DIA);
-  const { media } = Me.calcMedia(encuestas, hoy, { ventana: 30, ranking: fiab && fiab.ranking });
-  if (!Object.keys(media).length) { console.log("Sin encuestas, no se simula"); return; }
+  const mediaBruta = Me.calcMedia(encuestas, hoy, { ventana: 30, ranking: fiab && fiab.ranking }).media;
+  if (!Object.keys(mediaBruta).length) { console.log("Sin encuestas, no se simula"); return; }
+  // Primero el análisis (sesgo de casa de cada empresa), después la media ya corregida con esos sesgos
+  const an = analizar(encuestas, fiab && fiab.ranking, mediaBruta);
+  const { media } = Me.calcMedia(encuestas, hoy, { ventana: 30, ranking: fiab && fiab.ranking, sesgos: an.sesgos });
+  console.log(`Corrección de sesgo de casa: ${Object.entries(media).slice(0, 5).map(([k, v]) => `${k} ${mediaBruta[k].toFixed(1)} -> ${v.toFixed(1)}`).join(", ")}`);
   const cal = sigmas(media, historicos, dias);
   console.log(`Media hoy: ${Object.entries(media).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([k, v]) => `${k} ${v.toFixed(1)}`).join(", ")}`);
   console.log(`Sigmas: ${Object.entries(cal.sigmas).slice(0, 6).map(([k, v]) => `${k} ±${v}`).join(", ")}  (elecciones calibradas: ${historicos.length})`);
@@ -263,9 +284,7 @@ function main() {
   if (i >= 0) hist[i] = fila; else hist.push(fila);
   escribir("probabilidades_historial.json", hist);
 
-  // Análisis de encuestas
-  const an = analizar(encuestas, fiab && fiab.ranking, media);
-  escribir("analisis.json", { actualizado: hoy.toISOString(), ...an });
+  escribir("analisis.json", { actualizado: hoy.toISOString(), media_bruta: mediaBruta, ...an });
   console.log(`Análisis: ${Object.keys(an.sesgos).length} empresas con sesgo calculado, última encuesta ${an.ultimas[0] ? an.ultimas[0].empresa + " -> " + an.ultimas[0].veredicto : "ninguna"}`);
 }
 

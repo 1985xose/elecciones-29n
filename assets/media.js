@@ -8,7 +8,9 @@
     return r ? Math.min(1.4, Math.max(0.6, 1.6 / (0.6 + r.error_medio))) : 1;
   }
 
-  /* encuestas: [{clave, fin, muestra, pct}], fecha: Date, opciones: {ventana, incluirCIS, ranking, excluirClave} */
+  /* encuestas: [{clave, fin, muestra, pct}], fecha: Date,
+     opciones: {ventana, incluirCIS, ranking, excluirClave, sesgos: {clave: {sesgo: {partido: puntos}}}}
+     Si hay sesgos, a cada encuesta se le resta lo que esa empresa suele dar de más o de menos respecto a la media. */
   function calcMedia(encuestas, fecha, opciones = {}) {
     const ventana = opciones.ventana || 30;
     const elegir = (v) => {
@@ -28,7 +30,8 @@
     for (const e of usadas) {
       const edad = (fecha - fechaD(e.fin)) / DIA;
       e.peso = Math.exp(-edad / 14) * Math.sqrt(Math.min(e.muestra || 1000, 5000) / 1000) * factorAcierto(e.clave, opciones.ranking);
-      for (const [p, v] of Object.entries(e.pct)) { suma[p] = (suma[p] || 0) + v * e.peso; pesos[p] = (pesos[p] || 0) + e.peso; }
+      const sg = opciones.sesgos && opciones.sesgos[e.clave] ? opciones.sesgos[e.clave].sesgo : null;
+      for (const [p, v] of Object.entries(e.pct)) { const vc = sg && sg[p] != null ? v - sg[p] : v; suma[p] = (suma[p] || 0) + vc * e.peso; pesos[p] = (pesos[p] || 0) + e.peso; }
     }
     const media = {};
     for (const p of Object.keys(suma)) media[p] = suma[p] / pesos[p];
