@@ -1,22 +1,22 @@
 {
- "actualizado": "2026-10-06T21:59:54.627Z",
+ "actualizado": "2026-10-06T22:15:38.345Z",
  "simulaciones": 10000,
  "dias_para_votar": 54,
  "media": {
   "PP": 32.40653954477421,
-  "PSOE": 26.250129886117072,
-  "Vox": 18.587783888289874,
-  "Sumar": 6.235179625383514,
-  "ERC": 2.162442498405859,
-  "Junts": 1.2126921706682094,
-  "Bildu": 1.3623493799357909,
-  "PNV": 1.0185969029950157,
-  "BNG": 0.9430711892863893,
-  "CCa": 0.40915238821210553,
-  "UPN": 0.19999999999999998,
+  "PSOE": 26.25012988611707,
+  "Vox": 18.58778388828987,
+  "Sumar": 6.235179625383513,
+  "ERC": 2.1624424984058597,
+  "Junts": 1.21269217066821,
+  "Bildu": 1.3623493799357915,
+  "PNV": 1.0185969029950162,
+  "BNG": 0.9430711892863896,
+  "CCa": 0.4091523882121057,
+  "UPN": 0.2,
   "AA": 0.9201014264730452,
-  "Podemos": 3.3740714061571246,
-  "SALF": 1.7876012541766593,
+  "Podemos": 3.3740714061571233,
+  "SALF": 1.7876012541766597,
   "AC": 1.0404850269272314
  },
  "ventana": {
@@ -1215,82 +1215,6 @@
     }
    ],
    "margen": 7.7
-  },
-  "izq_sin_junts": {
-   "id": "izq_sin_junts",
-   "nombre": "Lo mismo sin Junts",
-   "partidos": [
-    "PSOE",
-    "Sumar",
-    "Podemos",
-    "ERC",
-    "Bildu",
-    "PNV",
-    "BNG",
-    "CCa"
-   ],
-   "gobierno": false,
-   "p": 0.0399,
-   "p10": 116,
-   "p50": 140,
-   "p90": 166,
-   "bisagra": [
-    {
-     "nombre": "Murcia",
-     "p": 0.153
-    },
-    {
-     "nombre": "Almería",
-     "p": 0.088
-    },
-    {
-     "nombre": "Madrid",
-     "p": 0.068
-    },
-    {
-     "nombre": "Teruel",
-     "p": 0.053
-    },
-    {
-     "nombre": "Toledo",
-     "p": 0.048
-    }
-   ]
-  },
-  "gran_coalicion": {
-   "id": "gran_coalicion",
-   "nombre": "PP y PSOE",
-   "partidos": [
-    "PP",
-    "PSOE"
-   ],
-   "gobierno": false,
-   "p": 1,
-   "p10": 216,
-   "p50": 235,
-   "p90": 252,
-   "bisagra": [
-    {
-     "nombre": "Madrid",
-     "p": 0.151
-    },
-    {
-     "nombre": "Valencia",
-     "p": 0.082
-    },
-    {
-     "nombre": "Alicante",
-     "p": 0.047
-    },
-    {
-     "nombre": "Sevilla",
-     "p": 0.047
-    },
-    {
-     "nombre": "Las Palmas",
-     "p": 0.043
-    }
-   ]
   }
  },
  "bloqueo": 0.0751,
