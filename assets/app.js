@@ -20,7 +20,12 @@ function el(tag, attrs = {}, ...hijos) {
 }
 const color = (k) => D.config.partidos[k]?.color || "#8A93A3";
 const nombre = (k) => D.config.partidos[k]?.nombre || k;
-const hoy = () => new Date(new Date().toISOString().slice(0, 10) + "T12:00:00Z");
+/* "Hoy" es el día del calendario de España, no el del reloj UTC. Si no, de 12 de la noche a 2 de la madrugada
+   la app seguiría en el día anterior y la cuenta atrás iría un día por detrás. */
+const fDiaMadrid = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Madrid", year: "numeric", month: "2-digit", day: "2-digit" });
+const fHoraMadrid = new Intl.DateTimeFormat("es-ES", { timeZone: "Europe/Madrid", hour: "2-digit", minute: "2-digit" });
+const diaMadrid = (d = new Date()) => fDiaMadrid.format(d);
+const hoy = () => new Date(diaMadrid() + "T12:00:00Z");
 const fechaD = (s) => new Date(s + "T12:00:00Z");
 const r100 = (p) => Math.round(p * 100);
 /* La probabilidad se dice con palabras, cinco tramos iguales, los mismos en toda la app. */
@@ -149,12 +154,11 @@ let graficoHistorial, graficoTendencia, graficoAtencion;
 const gob = { sel: null };
 function pintarHoy(m, m7, proy) {
   const dias = Math.round((fechaD(D.config.eleccion.fecha) - hoy()) / DIA);
-  $("#cuenta").innerHTML = dias > 1 ? `faltan <strong>${dias} días</strong>` : dias === 1 ? "se vota <strong>mañana</strong>" : dias === 0 ? "se vota <strong>hoy</strong>" : "elecciones celebradas";
   const P = D.prob, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
   const o = ordenar(m.media);
 
   // 0. El resumen de hoy, cada línea lleva a lo que anuncia
-  $("#resumen-titulo").replaceChildren("El resumen de hoy ", el("span", { class: "fecha" }, new Intl.DateTimeFormat("es-ES", { weekday: "long", day: "numeric", month: "long" }).format(new Date())));
+  $("#resumen-titulo").replaceChildren("El resumen de hoy ", el("span", { class: "fecha" }, new Intl.DateTimeFormat("es-ES", { timeZone: "Europe/Madrid", weekday: "long", day: "numeric", month: "long" }).format(new Date())));
   const ICO = { urna: "M4 10h16v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zM7 4h10l2 4H5zM9 13v2h6v-2z", congreso: "M12 3 2 10h3v9h14v-9h3zm-3 8h2v6H9zm4 0h2v6h-2z", encuesta: "M4 20V9h3v11zm6.5 0V4h3v16zM17 20v-6h3v6z", noticia: "M4 4h13a2 2 0 0 1 2 2v13H5a1 1 0 0 1-1-1zm2 3v2h9V7zm0 4v2h9v-2zm0 4v2h6v-2z", mapa: "M9 3 3 5.5v15L9 18l6 2.5 6-2.5v-15L15 6zM9 5.2v10.6l6 2.4V7.6z" };
   const fila = (ico, texto, sub, accion) => el("li", {}, el(typeof accion === "string" ? "a" : "button", typeof accion === "string" ? { class: "enlace-resumen", href: accion, target: "_blank", rel: "noopener" } : { class: "enlace-resumen", type: "button", onclick: accion },
     el("svg", { viewBox: "0 0 24 24", html: `<path d="${ICO[ico]}"/>` }), el("span", {}, texto, sub ? el("small", {}, sub) : null), el("svg", { class: "flecha", viewBox: "0 0 24 24", html: '<path d="M9 5l7 7-7 7-1.4-1.4L13.2 12 7.6 6.4z"/>' })));
@@ -692,41 +696,84 @@ function pintarSenado(proy) {
 }
 
 /* ---------- Arranque ---------- */
-let proyActual;
-function pintarTodo() {
+let proyActual, diaPintado = null;
+function pintarTodo(opciones) {
   const m = calcMedia(), m7 = calcMedia(new Date(+hoy() - 7 * DIA));
   const sinDatos = !Object.keys(m.media).length;
   if (sinDatos) m.media = Modelo.mediaDesdeBase(D.base);
   const proy = Modelo.proyectar(m.media, D.base);
   proyActual = proy;
+  diaPintado = diaMadrid();
   pintarHoy(m, m7, proy);
   pintarEncuestas(m, m7, proy);
   pintarMapa(proy);
   pintarSenado(proy);
-  pintarSimulador(m, proy);
+  // En un refresco automático no se le deshace a nadie la situación que esté probando en ¿Y si…?
+  const probando = sim.base && (sim.situacion !== "media" || Object.keys(sim.valores).some((k) => Math.abs((sim.valores[k] || 0) - (sim.base[k] || 0)) > 1e-9));
+  if (!(opciones?.conservarSim && probando)) pintarSimulador(m, proy);
   pintarFiabilidad();
   pintarPorra(proy);
   pintarPartidos(m, proy);
 }
+
+/* Arriba a la derecha, en todas las pestañas: los días que faltan y la hora de la última actualización de datos.
+   Se repinta cada minuto para que cambie sola a medianoche y cuando entran datos nuevos. */
+function pintarCabecera() {
+  if (!D.config) return;
+  const dias = Math.round((fechaD(D.config.eleccion.fecha) - hoy()) / DIA);
+  $("#cuenta").innerHTML = dias > 1 ? `faltan <strong>${dias} días</strong>` : dias === 1 ? "se vota <strong>mañana</strong>" : dias === 0 ? "se vota <strong>hoy</strong>" : "elecciones celebradas";
+  const act = [D.encuestas?.actualizado, D.noticias?.actualizado].filter(Boolean).sort().pop();
+  if (!act) { $("#cuenta-act").textContent = ""; return; }
+  const d = new Date(act), hace_dias = Math.round((fechaD(diaMadrid()) - fechaD(diaMadrid(d))) / DIA);
+  $("#cuenta-act").textContent = `actualizado ${hace_dias <= 0 ? "a las" : hace_dias === 1 ? "ayer a las" : `el ${fFecha.format(d)} a las`} ${fHoraMadrid.format(d)}`;
+  $("#actualizado").textContent = `Datos actualizados ${hace(act)}.`;
+  const horas = (Date.now() - d) / 3600000;
+  $("#aviso-datos").textContent = horas > 3 ? `Los datos tienen ${Math.round(horas)} horas. La actualización automática puede estar fallando, lo que ves es la última foto buena.` : "";
+  $("#aviso-datos").hidden = !(horas > 3);
+}
+
+const NOMBRES = ["config", "base2023", "encuestas", "fiabilidad", "noticias", "atencion", "porra", "agenda", "resultados", "probabilidades", "analisis", "probabilidades_historial", "mapa", "europeas2024"];
+async function cargarDatos() {
+  const datos = await Promise.all(NOMBRES.map(cargar));
+  // Si falla la red en un refresco se conserva lo que ya había
+  NOMBRES.forEach((n, i) => { const k = n === "base2023" ? "base" : n === "probabilidades" ? "prob" : n === "probabilidades_historial" ? "historial" : n; if (datos[i] != null || D[k] == null) D[k] = datos[i]; });
+  if (D.europeas2024 && D.base) D.base.europeas = D.europeas2024;
+}
+
+/* ¿Ha publicado el robot datos nuevos? Se pregunta solo por la cabecera de dos ficheros, sin descargarlos. */
+let firmaDatos = null, ultimaComprobacion = 0;
+async function hayDatosNuevos() {
+  ultimaComprobacion = Date.now();
+  try {
+    const rs = await Promise.all(["encuestas", "noticias"].map((n) => fetch(`data/${n}.json`, { method: "HEAD", cache: "no-store" })));
+    const firma = rs.map((r) => r.ok ? (r.headers.get("etag") || r.headers.get("last-modified") || "") : "").join("|");
+    if (firma === "|") return false;
+    const cambio = firmaDatos != null && firma !== firmaDatos;
+    firmaDatos = firma;
+    return cambio;
+  } catch { return false; }
+}
+async function refrescar() {
+  if (document.hidden || !D.listo) return;
+  if (Date.now() - ultimaComprobacion > 4.5 * 60000 && await hayDatosNuevos()) { await cargarDatos(); pintarTodo({ conservarSim: true }); }
+  else if (diaMadrid() !== diaPintado) pintarTodo({ conservarSim: true });
+  pintarCabecera();
+}
+
 (async function iniciar() {
-  const nombres = ["config", "base2023", "encuestas", "fiabilidad", "noticias", "atencion", "porra", "agenda", "resultados", "probabilidades", "analisis", "probabilidades_historial", "mapa", "europeas2024"];
-  const datos = await Promise.all(nombres.map(cargar));
-  nombres.forEach((n, i) => { D[n === "base2023" ? "base" : n === "probabilidades" ? "prob" : n === "probabilidades_historial" ? "historial" : n] = datos[i]; });
+  await cargarDatos();
   if (!D.config || !D.base) { $("#r-ganando").textContent = "No se han podido cargar los datos base."; return; }
-  if (D.europeas2024) D.base.europeas = D.europeas2024;
   try { mapa.sel = localStorage.getItem("mi-provincia") || null; } catch {}
   $("#incluir-cis").addEventListener("change", pintarTodo);
   $("#compartir").addEventListener("click", compartir);
   $("#ver-metodo").addEventListener("click", (ev) => { ev.preventDefault(); $("#metodo").hidden = false; $("#metodo").open = true; $("#metodo").scrollIntoView({ behavior: "smooth" }); if (!graficoAtencion) pintarAtencion(); });
   pintarTodo();
   D.listo = true;
-  const act = [D.encuestas?.actualizado, D.noticias?.actualizado].filter(Boolean).sort().pop();
-  if (act) {
-    $("#actualizado").textContent = `Datos actualizados ${hace(act)}.`;
-    const horas = (Date.now() - new Date(act)) / 3600000;
-    if (horas > 3) { $("#aviso-datos").textContent = `Los datos tienen ${Math.round(horas)} horas. La actualización automática puede estar fallando, lo que ves es la última foto buena.`; $("#aviso-datos").hidden = false; }
-  }
+  pintarCabecera();
   activarPestana(location.hash.slice(1));
+  hayDatosNuevos();
+  setInterval(refrescar, 60000);
+  document.addEventListener("visibilitychange", refrescar);
 })();
 
 /* ---------- Tarjeta para compartir ---------- */
