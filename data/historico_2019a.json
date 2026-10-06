@@ -1,0 +1,7214 @@
+{
+ "nombre": "28A 2019",
+ "fecha": "2019-04-28",
+ "resultado": {
+  "PP": 16.7,
+  "PSOE": 28.7,
+  "UP": 14.3,
+  "Cs": 15.9,
+  "ERC": 3.9,
+  "PNV": 1.5,
+  "PACMA": 1.3,
+  "Bildu": 1.0,
+  "CCa": 0.5,
+  "Vox": 10.3,
+  "Compromís": 0.7,
+  "Junts": 1.9,
+  "NA+": 0.4
+ },
+ "escanos": {
+  "PP": 66.0,
+  "PSOE": 123.0,
+  "UP": 42.0,
+  "Cs": 57.0,
+  "ERC": 15.0,
+  "PNV": 6.0,
+  "PACMA": 0.0,
+  "Bildu": 4.0,
+  "CCa": 2.0,
+  "Vox": 24.0,
+  "Compromís": 1.0,
+  "Junts": 7.0,
+  "NA+": 2.0
+ },
+ "encuestas": [
+  {
+   "id": "electopanel-2019-04-28-4300",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-04-28",
+   "fin": "2019-04-28",
+   "muestra": 4300,
+   "pct": {
+    "PP": 19.3,
+    "PSOE": 25.3,
+    "UP": 14.5,
+    "Cs": 15.0,
+    "ERC": 3.3,
+    "PNV": 1.3,
+    "PACMA": 1.4,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 13.0,
+    "Compromís": 1.2,
+    "Junts": 1.4,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "sociometrica-2019-04-27-3600",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-04-25",
+   "fin": "2019-04-27",
+   "muestra": 3600,
+   "pct": {
+    "PP": 17.9,
+    "PSOE": 27.9,
+    "UP": 16.5,
+    "Cs": 16.0,
+    "ERC": 2.8,
+    "PNV": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 11.0,
+    "Compromís": 0.5,
+    "Junts": 1.6,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "imop-2019-04-27-4200",
+   "empresa": "IMOP/COPE",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2019-04-25",
+   "fin": "2019-04-27",
+   "muestra": 4200,
+   "pct": {
+    "PP": 18.3,
+    "PSOE": 26.8,
+    "UP": 16.8,
+    "Cs": 14.2,
+    "ERC": 3.1,
+    "PNV": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 12.7,
+    "Compromís": 0.6,
+    "Junts": 1.3,
+    "NA+": 0.2
+   }
+  },
+  {
+   "id": "gad3-2019-04-27-12000",
+   "empresa": "GAD3/RTVE–FORTA",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2019-04-12",
+   "fin": "2019-04-27",
+   "muestra": 12000,
+   "pct": {
+    "PP": 17.8,
+    "PSOE": 28.1,
+    "UP": 16.1,
+    "Cs": 14.4,
+    "ERC": 3.3,
+    "PNV": 1.3,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 12.4,
+    "Compromís": 0.5,
+    "Junts": 1.6,
+    "NA+": 0.5
+   }
+  },
+  {
+   "id": "elespanol-2019-04-26-0",
+   "empresa": "El Español",
+   "empresa_base": "El Español",
+   "clave": "elespanol",
+   "inicio": "2019-04-26",
+   "fin": "2019-04-26",
+   "muestra": null,
+   "pct": {
+    "PP": 18.0,
+    "PSOE": 27.0,
+    "UP": 15.0,
+    "Cs": 15.0,
+    "Vox": 11.0
+   }
+  },
+  {
+   "id": "podemos-2019-04-26-0",
+   "empresa": "Podemos",
+   "empresa_base": "Podemos",
+   "clave": "podemos",
+   "inicio": "2019-04-26",
+   "fin": "2019-04-26",
+   "muestra": null,
+   "pct": {
+    "PP": 15.0,
+    "PSOE": 30.0,
+    "UP": 15.0,
+    "Cs": 15.0,
+    "Vox": 15.0
+   }
+  },
+  {
+   "id": "demoscopiaservicios-2019-04-26-0",
+   "empresa": "Demoscopia Servicios/Okdiario",
+   "empresa_base": "Demoscopia Servicios",
+   "clave": "demoscopiaservicios",
+   "inicio": "2019-04-26",
+   "fin": "2019-04-26",
+   "muestra": null,
+   "pct": {
+    "PP": 21.7,
+    "PSOE": 27.2,
+    "UP": 12.3,
+    "Cs": 15.4,
+    "Vox": 13.3
+   }
+  },
+  {
+   "id": "psoe-2019-04-25-0",
+   "empresa": "PSOE",
+   "empresa_base": "PSOE",
+   "clave": "psoe",
+   "inicio": "2019-04-25",
+   "fin": "2019-04-25",
+   "muestra": null,
+   "pct": {
+    "PP": 15.0,
+    "PSOE": 30.0,
+    "Vox": 13.0
+   }
+  },
+  {
+   "id": "electopanel-2019-04-25-11000",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-25",
+   "muestra": 11000,
+   "pct": {
+    "PP": 20.2,
+    "PSOE": 25.3,
+    "UP": 14.6,
+    "Cs": 15.0,
+    "ERC": 2.7,
+    "PNV": 1.3,
+    "PACMA": 1.8,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 12.3,
+    "Compromís": 1.3,
+    "Junts": 1.3,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "electopanel-2019-04-24-11000",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-24",
+   "muestra": 11000,
+   "pct": {
+    "PP": 20.1,
+    "PSOE": 25.6,
+    "UP": 14.1,
+    "Cs": 15.1,
+    "ERC": 2.7,
+    "PNV": 1.3,
+    "PACMA": 1.9,
+    "Bildu": 0.8,
+    "CCa": 0.2,
+    "Vox": 12.4,
+    "Compromís": 1.3,
+    "Junts": 1.3,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "electopanel-2019-04-23-11000",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-23",
+   "muestra": 11000,
+   "pct": {
+    "PP": 19.9,
+    "PSOE": 26.2,
+    "UP": 13.5,
+    "Cs": 15.1,
+    "ERC": 2.7,
+    "PNV": 1.3,
+    "PACMA": 2.1,
+    "Bildu": 0.8,
+    "CCa": 0.2,
+    "Vox": 12.4,
+    "Compromís": 1.3,
+    "Junts": 1.3,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "hamalgamametrica-2019-04-22-0",
+   "empresa": "Hamalgama Métrica/Espiral21",
+   "empresa_base": "Hamalgama Métrica",
+   "clave": "hamalgamametrica",
+   "inicio": "2019-04-22",
+   "fin": "2019-04-22",
+   "muestra": null,
+   "pct": {
+    "PP": 23.1,
+    "PSOE": 28.1,
+    "UP": 12.1,
+    "Cs": 13.2,
+    "ERC": 3.1,
+    "PNV": 1.3,
+    "PACMA": 1.4,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 10.1,
+    "Compromís": 0.9,
+    "Junts": 1.4,
+    "NA+": 0.1
+   }
+  },
+  {
+   "id": "llorentecuenca-2019-04-22-0",
+   "empresa": "Llorente & Cuenca",
+   "empresa_base": "Llorente & Cuenca",
+   "clave": "llorentecuenca",
+   "inicio": "2019-04-22",
+   "fin": "2019-04-22",
+   "muestra": null,
+   "pct": {
+    "PP": 22.0,
+    "PSOE": 28.3,
+    "UP": 13.8,
+    "Cs": 18.9,
+    "ERC": 2.8,
+    "Vox": 7.9,
+    "Junts": 1.3
+   }
+  },
+  {
+   "id": "keydata-2019-04-22-0",
+   "empresa": "KeyData/Público",
+   "empresa_base": "KeyData",
+   "clave": "keydata",
+   "inicio": "2019-04-22",
+   "fin": "2019-04-22",
+   "muestra": null,
+   "pct": {
+    "PP": 20.4,
+    "PSOE": 29.4,
+    "UP": 13.1,
+    "Cs": 15.3,
+    "ERC": 3.3,
+    "PNV": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.4,
+    "Vox": 10.4,
+    "Junts": 1.5
+   }
+  },
+  {
+   "id": "demoscopiaservicios-2019-04-22-0",
+   "empresa": "Demoscopia Servicios/Okdiario",
+   "empresa_base": "Demoscopia Servicios",
+   "clave": "demoscopiaservicios",
+   "inicio": "2019-04-17",
+   "fin": "2019-04-22",
+   "muestra": null,
+   "pct": {
+    "PP": 21.8,
+    "PSOE": 28.1,
+    "UP": 12.6,
+    "Cs": 14.4,
+    "ERC": 2.9,
+    "PNV": 1.4,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 12.7,
+    "Compromís": 1.1,
+    "Junts": 1.3
+   }
+  },
+  {
+   "id": "electopanel-2019-04-22-11000",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-22",
+   "muestra": 11000,
+   "pct": {
+    "PP": 19.5,
+    "PSOE": 27.2,
+    "UP": 12.8,
+    "Cs": 15.0,
+    "ERC": 2.7,
+    "PNV": 1.3,
+    "PACMA": 2.2,
+    "Bildu": 0.8,
+    "CCa": 0.2,
+    "Vox": 12.4,
+    "Compromís": 1.3,
+    "Junts": 1.3,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "sociometrica-2019-04-21-1800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-04-14",
+   "fin": "2019-04-21",
+   "muestra": 1800,
+   "pct": {
+    "PP": 18.2,
+    "PSOE": 29.5,
+    "UP": 13.6,
+    "Cs": 15.1,
+    "ERC": 3.3,
+    "PNV": 1.1,
+    "PACMA": 0.9,
+    "Bildu": 0.9,
+    "CCa": 0.2,
+    "Vox": 12.6,
+    "Compromís": 1.1,
+    "Junts": 1.3,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "electopanel-2019-04-21-11000",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-21",
+   "muestra": 11000,
+   "pct": {
+    "PP": 19.9,
+    "PSOE": 27.4,
+    "UP": 12.4,
+    "Cs": 14.4,
+    "ERC": 2.8,
+    "PNV": 1.3,
+    "PACMA": 2.3,
+    "Bildu": 0.8,
+    "CCa": 0.2,
+    "Vox": 12.5,
+    "Compromís": 1.3,
+    "Junts": 1.3,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "celestetel-2019-04-20-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2019-04-15",
+   "fin": "2019-04-20",
+   "muestra": 1100,
+   "pct": {
+    "PP": 23.5,
+    "PSOE": 28.9,
+    "UP": 13.5,
+    "Cs": 15.1,
+    "ERC": 2.9,
+    "PNV": 1.2,
+    "PACMA": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 7.9,
+    "Compromís": 1.3,
+    "Junts": 1.5,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "imop-2019-04-20-1400",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2019-04-14",
+   "fin": "2019-04-20",
+   "muestra": 1400,
+   "pct": {
+    "PP": 19.8,
+    "PSOE": 29.8,
+    "UP": 14.1,
+    "Cs": 15.1,
+    "ERC": 3.0,
+    "PNV": 1.2,
+    "PACMA": 1.8,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 10.0,
+    "Compromís": 0.8,
+    "Junts": 1.2,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "sociometrica-2019-04-20-1800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-04-13",
+   "fin": "2019-04-20",
+   "muestra": 1800,
+   "pct": {
+    "PP": 18.4,
+    "PSOE": 30.0,
+    "UP": 13.7,
+    "Cs": 15.5,
+    "ERC": 3.2,
+    "PNV": 1.1,
+    "PACMA": 0.8,
+    "Bildu": 1.0,
+    "CCa": 0.2,
+    "Vox": 11.8,
+    "Compromís": 1.0,
+    "Junts": 1.4,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "electopanel-2019-04-20-10800",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-20",
+   "muestra": 10800,
+   "pct": {
+    "PP": 19.9,
+    "PSOE": 27.5,
+    "UP": 12.3,
+    "Cs": 14.3,
+    "ERC": 2.7,
+    "PNV": 1.3,
+    "PACMA": 2.2,
+    "Bildu": 0.8,
+    "CCa": 0.2,
+    "Vox": 12.5,
+    "Compromís": 1.3,
+    "Junts": 1.3,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "invymark-2019-04-19-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2019-04-15",
+   "fin": "2019-04-19",
+   "muestra": null,
+   "pct": {
+    "PP": 20.4,
+    "PSOE": 28.1,
+    "UP": 13.0,
+    "Cs": 15.2,
+    "ERC": 3.3,
+    "PNV": 1.3,
+    "Vox": 12.7,
+    "Junts": 1.3
+   }
+  },
+  {
+   "id": "ncreport-2019-04-19-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2019-04-15",
+   "fin": "2019-04-19",
+   "muestra": 1000,
+   "pct": {
+    "PP": 23.8,
+    "PSOE": 28.1,
+    "UP": 13.0,
+    "Cs": 14.9,
+    "ERC": 2.9,
+    "PNV": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 9.0,
+    "Compromís": 1.5,
+    "Junts": 1.4,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "sociometrica-2019-04-19-1800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-04-12",
+   "fin": "2019-04-19",
+   "muestra": 1800,
+   "pct": {
+    "PP": 18.5,
+    "PSOE": 30.5,
+    "UP": 13.8,
+    "Cs": 15.9,
+    "ERC": 3.1,
+    "PNV": 1.0,
+    "PACMA": 0.7,
+    "Bildu": 1.1,
+    "CCa": 0.2,
+    "Vox": 10.9,
+    "Compromís": 0.8,
+    "Junts": 1.5,
+    "NA+": 0.2
+   }
+  },
+  {
+   "id": "gad3-2019-04-19-10000",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2019-04-01",
+   "fin": "2019-04-19",
+   "muestra": 10000,
+   "pct": {
+    "PP": 20.1,
+    "PSOE": 31.5,
+    "UP": 12.1,
+    "Cs": 13.9,
+    "ERC": 3.3,
+    "PNV": 1.2,
+    "PACMA": 1.9,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 11.4,
+    "Compromís": 0.4,
+    "Junts": 1.2,
+    "NA+": 0.5
+   }
+  },
+  {
+   "id": "electopanel-2019-04-19-10700",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-19",
+   "muestra": 10700,
+   "pct": {
+    "PP": 20.1,
+    "PSOE": 27.6,
+    "UP": 12.4,
+    "Cs": 14.2,
+    "ERC": 2.8,
+    "PNV": 1.3,
+    "PACMA": 2.3,
+    "Bildu": 0.8,
+    "CCa": 0.2,
+    "Vox": 12.5,
+    "Compromís": 1.3,
+    "Junts": 1.3,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "demoscopiaservicios-2019-04-18-950",
+   "empresa": "Demoscopia Servicios/ESdiario",
+   "empresa_base": "Demoscopia Servicios",
+   "clave": "demoscopiaservicios",
+   "inicio": "2019-04-15",
+   "fin": "2019-04-18",
+   "muestra": 950,
+   "pct": {
+    "PP": 21.6,
+    "PSOE": 28.4,
+    "UP": 12.7,
+    "Cs": 14.7,
+    "ERC": 2.4,
+    "PNV": 1.4,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 12.4,
+    "Compromís": 1.2,
+    "Junts": 1.2
+   }
+  },
+  {
+   "id": "40db-2019-04-18-2000",
+   "empresa": "40dB/El País",
+   "empresa_base": "40dB",
+   "clave": "40db",
+   "inicio": "2019-04-15",
+   "fin": "2019-04-18",
+   "muestra": 2000,
+   "pct": {
+    "PP": 17.8,
+    "PSOE": 28.8,
+    "UP": 13.2,
+    "Cs": 14.1,
+    "ERC": 3.3,
+    "PNV": 1.0,
+    "PACMA": 2.8,
+    "Bildu": 1.0,
+    "CCa": 0.4,
+    "Vox": 12.5,
+    "Compromís": 0.9,
+    "Junts": 1.9
+   }
+  },
+  {
+   "id": "sondaxe-2019-04-18-1000",
+   "empresa": "Sondaxe/La Voz de Galicia",
+   "empresa_base": "Sondaxe",
+   "clave": "sondaxe",
+   "inicio": "2019-04-11",
+   "fin": "2019-04-18",
+   "muestra": 1000,
+   "pct": {
+    "PP": 18.3,
+    "PSOE": 30.9,
+    "UP": 13.6,
+    "Cs": 13.8,
+    "ERC": 2.8,
+    "PNV": 2.1,
+    "Bildu": 0.8,
+    "CCa": 0.4,
+    "Vox": 10.5,
+    "Junts": 1.5,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "sociometrica-2019-04-18-1800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-04-11",
+   "fin": "2019-04-18",
+   "muestra": 1800,
+   "pct": {
+    "PP": 18.6,
+    "PSOE": 31.0,
+    "UP": 13.4,
+    "Cs": 15.5,
+    "ERC": 3.2,
+    "PNV": 1.1,
+    "PACMA": 0.9,
+    "Bildu": 1.0,
+    "CCa": 0.2,
+    "Vox": 11.0,
+    "Compromís": 0.6,
+    "Junts": 1.4,
+    "NA+": 0.2
+   }
+  },
+  {
+   "id": "electopanel-2019-04-18-10600",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-18",
+   "muestra": 10600,
+   "pct": {
+    "PP": 20.3,
+    "PSOE": 27.6,
+    "UP": 12.4,
+    "Cs": 14.3,
+    "ERC": 2.8,
+    "PNV": 1.4,
+    "PACMA": 2.3,
+    "Bildu": 0.9,
+    "CCa": 0.2,
+    "Vox": 12.4,
+    "Compromís": 1.3,
+    "Junts": 1.3,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "pp-2019-04-17-0",
+   "empresa": "PP",
+   "empresa_base": "PP",
+   "clave": "pp",
+   "inicio": "2019-04-17",
+   "fin": "2019-04-17",
+   "muestra": null,
+   "pct": {
+    "PP": 19.0,
+    "PSOE": 30.0,
+    "UP": 12.5,
+    "Cs": 12.5,
+    "Vox": 11.0
+   }
+  },
+  {
+   "id": "dym-2019-04-17-1025",
+   "empresa": "DYM/El Independiente",
+   "empresa_base": "DYM",
+   "clave": "dym",
+   "inicio": "2019-04-15",
+   "fin": "2019-04-17",
+   "muestra": 1025,
+   "pct": {
+    "PP": 20.4,
+    "PSOE": 29.0,
+    "UP": 13.7,
+    "Cs": 15.5,
+    "Vox": 10.4
+   }
+  },
+  {
+   "id": "celestetel-2019-04-17-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2019-04-11",
+   "fin": "2019-04-17",
+   "muestra": 1100,
+   "pct": {
+    "PP": 23.8,
+    "PSOE": 28.1,
+    "UP": 12.9,
+    "Cs": 15.8,
+    "ERC": 2.9,
+    "PNV": 1.2,
+    "PACMA": 1.4,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 7.7,
+    "Compromís": 1.4,
+    "Junts": 1.4,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "sociometrica-2019-04-17-1800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-04-10",
+   "fin": "2019-04-17",
+   "muestra": 1800,
+   "pct": {
+    "PP": 18.7,
+    "PSOE": 30.8,
+    "UP": 13.1,
+    "Cs": 15.8,
+    "ERC": 3.4,
+    "PNV": 1.1,
+    "PACMA": 0.8,
+    "Bildu": 1.1,
+    "CCa": 0.2,
+    "Vox": 10.6,
+    "Compromís": 0.7,
+    "Junts": 1.3,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "sigmados-2019-04-17-8000",
+   "empresa": "Sigma Dos/El Mundo",
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "inicio": "2019-04-03",
+   "fin": "2019-04-17",
+   "muestra": 8000,
+   "pct": {
+    "PP": 20.1,
+    "PSOE": 30.3,
+    "UP": 13.2,
+    "Cs": 15.0,
+    "ERC": 3.8,
+    "PNV": 1.3,
+    "Vox": 10.2,
+    "Junts": 1.3
+   }
+  },
+  {
+   "id": "electopanel-2019-04-17-10200",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-17",
+   "muestra": 10200,
+   "pct": {
+    "PP": 20.4,
+    "PSOE": 27.7,
+    "UP": 12.4,
+    "Cs": 14.6,
+    "ERC": 2.7,
+    "PNV": 1.4,
+    "PACMA": 2.2,
+    "Bildu": 0.8,
+    "CCa": 0.2,
+    "Vox": 12.0,
+    "Compromís": 1.3,
+    "Junts": 1.3,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "metroscopia-2019-04-16-4775",
+   "empresa": "Metroscopia/Henneo",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2019-04-11",
+   "fin": "2019-04-16",
+   "muestra": 4775,
+   "pct": {
+    "PP": 19.6,
+    "PSOE": 29.1,
+    "UP": 14.3,
+    "Cs": 14.2,
+    "ERC": 3.5,
+    "PNV": 1.4,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 11.1,
+    "Compromís": 1.1,
+    "Junts": 1.4,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "imop-2019-04-16-1400",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2019-04-10",
+   "fin": "2019-04-16",
+   "muestra": 1400,
+   "pct": {
+    "PP": 19.3,
+    "PSOE": 30.4,
+    "UP": 13.5,
+    "Cs": 15.3,
+    "ERC": 3.2,
+    "PNV": 1.2,
+    "PACMA": 1.9,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 9.6,
+    "Compromís": 0.8,
+    "Junts": 1.4,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "sociometrica-2019-04-16-1800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-04-09",
+   "fin": "2019-04-16",
+   "muestra": 1800,
+   "pct": {
+    "PP": 18.8,
+    "PSOE": 30.5,
+    "UP": 12.7,
+    "Cs": 16.0,
+    "ERC": 3.3,
+    "PNV": 1.1,
+    "PACMA": 1.0,
+    "Bildu": 1.0,
+    "CCa": 0.2,
+    "Vox": 10.9,
+    "Compromís": 0.8,
+    "Junts": 1.3,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "electopanel-2019-04-16-10200",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-16",
+   "muestra": 10200,
+   "pct": {
+    "PP": 20.2,
+    "PSOE": 28.2,
+    "UP": 12.4,
+    "Cs": 15.3,
+    "ERC": 2.8,
+    "PNV": 1.3,
+    "PACMA": 2.1,
+    "Bildu": 0.8,
+    "CCa": 0.2,
+    "Vox": 11.5,
+    "Compromís": 1.3,
+    "Junts": 1.3,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "topposition-2019-04-15-1200",
+   "empresa": "Top Position",
+   "empresa_base": "Top Position",
+   "clave": "topposition",
+   "inicio": "2019-04-13",
+   "fin": "2019-04-15",
+   "muestra": 1200,
+   "pct": {
+    "PP": 22.3,
+    "PSOE": 27.8,
+    "UP": 12.2,
+    "Cs": 13.1,
+    "ERC": 3.2,
+    "PNV": 1.2,
+    "Vox": 14.2,
+    "Junts": 1.6
+   }
+  },
+  {
+   "id": "demoscopiaservicios-2019-04-15-0",
+   "empresa": "Demoscopia Servicios/Okdiario",
+   "empresa_base": "Demoscopia Servicios",
+   "clave": "demoscopiaservicios",
+   "inicio": "2019-04-12",
+   "fin": "2019-04-15",
+   "muestra": null,
+   "pct": {
+    "PP": 21.3,
+    "PSOE": 28.9,
+    "UP": 12.8,
+    "Cs": 14.9,
+    "ERC": 2.3,
+    "PNV": 1.5,
+    "Bildu": 1.2,
+    "Vox": 12.2,
+    "Junts": 1.3
+   }
+  },
+  {
+   "id": "gad3-2019-04-15-2000",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2019-04-09",
+   "fin": "2019-04-15",
+   "muestra": 2000,
+   "pct": {
+    "PP": 20.9,
+    "PSOE": 31.3,
+    "UP": 12.3,
+    "Cs": 13.2,
+    "Vox": 11.8
+   }
+  },
+  {
+   "id": "sociometrica-2019-04-15-1800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-04-08",
+   "fin": "2019-04-15",
+   "muestra": 1800,
+   "pct": {
+    "PP": 19.0,
+    "PSOE": 30.2,
+    "UP": 13.2,
+    "Cs": 15.7,
+    "ERC": 3.2,
+    "PNV": 1.2,
+    "PACMA": 1.1,
+    "Bildu": 0.9,
+    "CCa": 0.2,
+    "Vox": 11.0,
+    "Compromís": 0.9,
+    "Junts": 1.2,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "electopanel-2019-04-15-10100",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-15",
+   "muestra": 10100,
+   "pct": {
+    "PP": 20.2,
+    "PSOE": 28.2,
+    "UP": 12.3,
+    "Cs": 15.1,
+    "ERC": 2.8,
+    "PNV": 1.3,
+    "PACMA": 2.1,
+    "Bildu": 0.9,
+    "CCa": 0.2,
+    "Vox": 11.5,
+    "Compromís": 1.3,
+    "Junts": 1.3,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "keydata-2019-04-14-0",
+   "empresa": "KeyData/Público",
+   "empresa_base": "KeyData",
+   "clave": "keydata",
+   "inicio": "2019-04-14",
+   "fin": "2019-04-14",
+   "muestra": null,
+   "pct": {
+    "PP": 20.8,
+    "PSOE": 28.8,
+    "UP": 13.5,
+    "Cs": 15.6,
+    "ERC": 3.4,
+    "PNV": 1.3,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 9.8,
+    "Junts": 1.6
+   }
+  },
+  {
+   "id": "electopanel-2019-04-14-10000",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-14",
+   "muestra": 10000,
+   "pct": {
+    "PP": 20.0,
+    "PSOE": 28.1,
+    "UP": 12.1,
+    "Cs": 15.3,
+    "ERC": 2.8,
+    "PNV": 1.3,
+    "PACMA": 1.9,
+    "Bildu": 0.8,
+    "CCa": 0.2,
+    "Vox": 11.1,
+    "Compromís": 1.3,
+    "Junts": 1.3,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "ncreport-2019-04-13-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2019-04-09",
+   "fin": "2019-04-13",
+   "muestra": 1000,
+   "pct": {
+    "PP": 24.1,
+    "PSOE": 27.5,
+    "UP": 12.1,
+    "Cs": 15.8,
+    "ERC": 2.9,
+    "PNV": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 9.1,
+    "Compromís": 1.8,
+    "Junts": 1.3,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "imop-2019-04-13-1410",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2019-04-07",
+   "fin": "2019-04-13",
+   "muestra": 1410,
+   "pct": {
+    "PP": 18.6,
+    "PSOE": 31.0,
+    "UP": 13.4,
+    "Cs": 15.8,
+    "ERC": 3.3,
+    "PNV": 1.2,
+    "PACMA": 2.0,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 9.5,
+    "Compromís": 0.9,
+    "Junts": 1.3,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "sociometrica-2019-04-12-1800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-04-05",
+   "fin": "2019-04-12",
+   "muestra": 1800,
+   "pct": {
+    "PP": 19.1,
+    "PSOE": 29.9,
+    "UP": 13.0,
+    "Cs": 15.4,
+    "ERC": 3.2,
+    "PNV": 1.3,
+    "PACMA": 1.2,
+    "Bildu": 1.0,
+    "CCa": 0.3,
+    "Vox": 11.2,
+    "Compromís": 0.8,
+    "Junts": 1.4,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "gad3-2019-04-11-1800",
+   "empresa": "GAD3/La Vanguardia",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2019-04-09",
+   "fin": "2019-04-11",
+   "muestra": 1800,
+   "pct": {
+    "PP": 21.0,
+    "PSOE": 31.1,
+    "UP": 11.4,
+    "Cs": 14.4,
+    "ERC": 3.6,
+    "PNV": 1.2,
+    "PACMA": 1.4,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 11.2,
+    "Compromís": 0.5,
+    "Junts": 1.2
+   }
+  },
+  {
+   "id": "demoscopiaservicios-2019-04-11-920",
+   "empresa": "Demoscopia Servicios/ESdiario",
+   "empresa_base": "Demoscopia Servicios",
+   "clave": "demoscopiaservicios",
+   "inicio": "2019-04-08",
+   "fin": "2019-04-11",
+   "muestra": 920,
+   "pct": {
+    "PP": 20.8,
+    "PSOE": 27.9,
+    "UP": 13.2,
+    "Cs": 16.6,
+    "ERC": 2.3,
+    "PNV": 1.5,
+    "Bildu": 1.1,
+    "CCa": 0.2,
+    "Vox": 11.7,
+    "Compromís": 1.0,
+    "Junts": 1.2
+   }
+  },
+  {
+   "id": "invymark-2019-04-11-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2019-04-08",
+   "fin": "2019-04-11",
+   "muestra": null,
+   "pct": {
+    "PP": 20.8,
+    "PSOE": 27.1,
+    "UP": 13.2,
+    "Cs": 16.4,
+    "Vox": 12.7
+   }
+  },
+  {
+   "id": "celestetel-2019-04-10-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2019-04-04",
+   "fin": "2019-04-10",
+   "muestra": 1100,
+   "pct": {
+    "PP": 23.9,
+    "PSOE": 27.3,
+    "UP": 13.1,
+    "Cs": 15.9,
+    "ERC": 2.8,
+    "PNV": 1.2,
+    "PACMA": 1.5,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 7.8,
+    "Compromís": 1.5,
+    "Junts": 1.6,
+    "NA+": 0.5
+   }
+  },
+  {
+   "id": "gad3-2019-04-09-2000",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2019-04-08",
+   "fin": "2019-04-09",
+   "muestra": 2000,
+   "pct": {
+    "PP": 21.3,
+    "PSOE": 30.9,
+    "UP": 12.0,
+    "Cs": 13.5,
+    "Vox": 11.2
+   }
+  },
+  {
+   "id": "imop-2019-04-09-1407",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2019-04-03",
+   "fin": "2019-04-09",
+   "muestra": 1407,
+   "pct": {
+    "PP": 19.4,
+    "PSOE": 31.0,
+    "UP": 13.2,
+    "Cs": 16.0,
+    "ERC": 3.1,
+    "PNV": 1.3,
+    "PACMA": 1.5,
+    "Bildu": 0.8,
+    "Vox": 9.8,
+    "Compromís": 0.8,
+    "Junts": 1.3
+   }
+  },
+  {
+   "id": "electopanel-2019-04-07-9600",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-04-07",
+   "muestra": 9600,
+   "pct": {
+    "PP": 20.1,
+    "PSOE": 27.4,
+    "UP": 11.9,
+    "Cs": 15.6,
+    "ERC": 2.6,
+    "PNV": 1.3,
+    "PACMA": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 10.6,
+    "Compromís": 1.5,
+    "Junts": 1.3,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "ncreport-2019-04-06-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2019-04-02",
+   "fin": "2019-04-06",
+   "muestra": 1000,
+   "pct": {
+    "PP": 24.0,
+    "PSOE": 26.9,
+    "UP": 12.3,
+    "Cs": 16.1,
+    "ERC": 2.8,
+    "PNV": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 9.4,
+    "Compromís": 1.7,
+    "Junts": 1.3,
+    "NA+": 0.4
+   }
+  },
+  {
+   "id": "imop-2019-04-06-1440",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2019-03-31",
+   "fin": "2019-04-06",
+   "muestra": 1440,
+   "pct": {
+    "PP": 20.0,
+    "PSOE": 31.5,
+    "UP": 12.9,
+    "Cs": 15.5,
+    "ERC": 3.2,
+    "PNV": 1.3,
+    "PACMA": 1.2,
+    "Bildu": 0.9,
+    "Vox": 9.3,
+    "Compromís": 0.6,
+    "Junts": 1.2
+   }
+  },
+  {
+   "id": "simplelogica-2019-04-05-1054",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2019-04-01",
+   "fin": "2019-04-05",
+   "muestra": 1054,
+   "pct": {
+    "PP": 16.7,
+    "PSOE": 30.5,
+    "UP": 14.4,
+    "Cs": 15.5,
+    "Vox": 9.8
+   }
+  },
+  {
+   "id": "gesop-2019-04-05-1500",
+   "empresa": "GESOP/El Periódico",
+   "empresa_base": "GESOP",
+   "clave": "gesop",
+   "inicio": "2019-04-01",
+   "fin": "2019-04-05",
+   "muestra": 1500,
+   "pct": {
+    "PP": 21.0,
+    "PSOE": 29.8,
+    "UP": 12.0,
+    "Cs": 14.5,
+    "Vox": 10.6
+   }
+  },
+  {
+   "id": "sociometrica-2019-04-05-1800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-03-29",
+   "fin": "2019-04-05",
+   "muestra": 1800,
+   "pct": {
+    "PP": 19.4,
+    "PSOE": 30.1,
+    "UP": 12.3,
+    "Cs": 15.1,
+    "ERC": 3.0,
+    "PNV": 1.2,
+    "PACMA": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 10.6,
+    "Compromís": 1.0,
+    "Junts": 1.3,
+    "NA+": 0.5
+   }
+  },
+  {
+   "id": "gad3-2019-04-04-4000",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2019-03-26",
+   "fin": "2019-04-04",
+   "muestra": 4000,
+   "pct": {
+    "PP": 20.9,
+    "PSOE": 31.1,
+    "UP": 11.5,
+    "Cs": 14.9,
+    "Vox": 9.8
+   }
+  },
+  {
+   "id": "celestetel-2019-04-03-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2019-03-26",
+   "fin": "2019-04-03",
+   "muestra": 1100,
+   "pct": {
+    "PP": 23.6,
+    "PSOE": 27.2,
+    "UP": 12.2,
+    "Cs": 15.7,
+    "ERC": 2.8,
+    "PNV": 1.2,
+    "PACMA": 1.5,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 8.7,
+    "Compromís": 1.6,
+    "Junts": 1.6,
+    "NA+": 0.5
+   }
+  },
+  {
+   "id": "keydata-2019-04-02-0",
+   "empresa": "KeyData/Público",
+   "empresa_base": "KeyData",
+   "clave": "keydata",
+   "inicio": "2019-04-02",
+   "fin": "2019-04-02",
+   "muestra": null,
+   "pct": {
+    "PP": 20.6,
+    "PSOE": 28.7,
+    "UP": 13.7,
+    "Cs": 16.0,
+    "ERC": 2.9,
+    "PNV": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.2,
+    "Vox": 10.8,
+    "Junts": 1.4
+   }
+  },
+  {
+   "id": "imop-2019-04-02-1431",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2019-03-27",
+   "fin": "2019-04-02",
+   "muestra": 1431,
+   "pct": {
+    "PP": 20.8,
+    "PSOE": 30.0,
+    "UP": 13.9,
+    "Cs": 14.8,
+    "ERC": 3.5,
+    "PNV": 1.1,
+    "PACMA": 1.5,
+    "Bildu": 1.0,
+    "Vox": 9.6,
+    "Compromís": 0.5,
+    "Junts": 1.1
+   }
+  },
+  {
+   "id": "electopanel-2019-03-31-8850",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-03-31",
+   "muestra": 8850,
+   "pct": {
+    "PP": 19.9,
+    "PSOE": 27.7,
+    "UP": 11.4,
+    "Cs": 16.6,
+    "ERC": 2.4,
+    "PNV": 1.3,
+    "PACMA": 1.1,
+    "Bildu": 0.9,
+    "CCa": 0.2,
+    "Vox": 10.7,
+    "Compromís": 1.8,
+    "Junts": 1.3
+   }
+  },
+  {
+   "id": "imop-2019-03-30-1419",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2019-03-24",
+   "fin": "2019-03-30",
+   "muestra": 1419,
+   "pct": {
+    "PP": 21.6,
+    "PSOE": 30.0,
+    "UP": 13.7,
+    "Cs": 14.0,
+    "ERC": 3.5,
+    "PNV": 1.1,
+    "PACMA": 1.8,
+    "Bildu": 1.0,
+    "Vox": 9.5,
+    "Compromís": 0.5,
+    "Junts": 1.1
+   }
+  },
+  {
+   "id": "ncreport-2019-03-29-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2019-03-25",
+   "fin": "2019-03-29",
+   "muestra": 1000,
+   "pct": {
+    "PP": 23.1,
+    "PSOE": 26.7,
+    "UP": 11.9,
+    "Cs": 16.5,
+    "ERC": 3.0,
+    "PNV": 1.3,
+    "Bildu": 0.7,
+    "Vox": 10.3,
+    "Junts": 1.3
+   }
+  },
+  {
+   "id": "sociometrica-2019-03-29-1600",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-03-25",
+   "fin": "2019-03-29",
+   "muestra": 1600,
+   "pct": {
+    "PP": 18.8,
+    "PSOE": 29.0,
+    "UP": 12.6,
+    "Cs": 16.1,
+    "ERC": 3.0,
+    "PNV": 1.2,
+    "PACMA": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 11.9,
+    "Compromís": 0.5,
+    "Junts": 1.3,
+    "NA+": 0.3
+   }
+  },
+  {
+   "id": "invymark-2019-03-29-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2019-03-25",
+   "fin": "2019-03-29",
+   "muestra": null,
+   "pct": {
+    "PP": 20.1,
+    "PSOE": 25.9,
+    "UP": 13.0,
+    "Cs": 17.5,
+    "Vox": 12.9
+   }
+  },
+  {
+   "id": "demoscopiaservicios-2019-03-27-1175",
+   "empresa": "Demoscopia Servicios/Okdiario",
+   "empresa_base": "Demoscopia Servicios",
+   "clave": "demoscopiaservicios",
+   "inicio": "2019-03-24",
+   "fin": "2019-03-27",
+   "muestra": 1175,
+   "pct": {
+    "PP": 21.0,
+    "PSOE": 27.7,
+    "UP": 13.4,
+    "Cs": 16.9,
+    "ERC": 2.1,
+    "PNV": 1.5,
+    "Bildu": 1.0,
+    "Vox": 11.2,
+    "Compromís": 1.4,
+    "Junts": 1.4
+   }
+  },
+  {
+   "id": "celestetel-2019-03-27-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2019-03-21",
+   "fin": "2019-03-27",
+   "muestra": 1100,
+   "pct": {
+    "PP": 22.9,
+    "PSOE": 27.0,
+    "UP": 12.1,
+    "Cs": 16.7,
+    "ERC": 2.8,
+    "PNV": 1.2,
+    "PACMA": 1.4,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 9.1,
+    "Compromís": 1.6,
+    "Junts": 1.7,
+    "NA+": 0.5
+   }
+  },
+  {
+   "id": "imop-2019-03-26-1400",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2019-03-20",
+   "fin": "2019-03-26",
+   "muestra": 1400,
+   "pct": {
+    "PP": 20.0,
+    "PSOE": 31.0,
+    "UP": 11.9,
+    "Cs": 14.9,
+    "ERC": 3.3,
+    "PNV": 1.2,
+    "PACMA": 2.0,
+    "Bildu": 1.1,
+    "Vox": 10.1,
+    "Compromís": 0.7,
+    "Junts": 1.3
+   }
+  },
+  {
+   "id": "metroscopia-2019-03-25-2722",
+   "empresa": "Metroscopia/Henneo",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2019-03-18",
+   "fin": "2019-03-25",
+   "muestra": 2722,
+   "pct": {
+    "PP": 19.0,
+    "PSOE": 28.7,
+    "UP": 14.0,
+    "Cs": 16.3,
+    "Vox": 11.7
+   }
+  },
+  {
+   "id": "electopanel-2019-03-24-8200",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-03-24",
+   "muestra": 8200,
+   "pct": {
+    "PP": 20.1,
+    "PSOE": 28.6,
+    "UP": 11.1,
+    "Cs": 16.3,
+    "ERC": 2.4,
+    "PNV": 1.3,
+    "PACMA": 1.1,
+    "Bildu": 0.9,
+    "CCa": 0.2,
+    "Vox": 10.5,
+    "Compromís": 1.8,
+    "Junts": 1.3
+   }
+  },
+  {
+   "id": "imop-2019-03-23-1399",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2019-03-17",
+   "fin": "2019-03-23",
+   "muestra": 1399,
+   "pct": {
+    "PP": 19.5,
+    "PSOE": 30.5,
+    "UP": 12.4,
+    "Cs": 14.4,
+    "ERC": 3.5,
+    "PNV": 1.3,
+    "PACMA": 2.1,
+    "Bildu": 1.0,
+    "Vox": 11.0,
+    "Junts": 1.3
+   }
+  },
+  {
+   "id": "ncreport-2019-03-22-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2019-03-18",
+   "fin": "2019-03-22",
+   "muestra": 1000,
+   "pct": {
+    "PP": 22.4,
+    "PSOE": 26.9,
+    "UP": 12.0,
+    "Cs": 17.1,
+    "ERC": 2.9,
+    "PNV": 1.3,
+    "Bildu": 0.7,
+    "Vox": 10.7,
+    "Compromís": 1.5,
+    "Junts": 1.2
+   }
+  },
+  {
+   "id": "gad3-2019-03-22-7500",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2019-03-01",
+   "fin": "2019-03-22",
+   "muestra": 7500,
+   "pct": {
+    "PP": 21.9,
+    "PSOE": 30.9,
+    "UP": 11.3,
+    "Cs": 13.1,
+    "ERC": 2.6,
+    "PNV": 1.2,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 11.5,
+    "Compromís": 0.5,
+    "Junts": 1.5
+   }
+  },
+  {
+   "id": "sondaxe-2019-03-20-1000",
+   "empresa": "Sondaxe/La Voz de Galicia",
+   "empresa_base": "Sondaxe",
+   "clave": "sondaxe",
+   "inicio": "2019-03-15",
+   "fin": "2019-03-20",
+   "muestra": 1000,
+   "pct": {
+    "PP": 18.9,
+    "PSOE": 26.9,
+    "UP": 13.4,
+    "Cs": 13.8,
+    "ERC": 3.9,
+    "PNV": 1.0,
+    "Bildu": 0.8,
+    "CCa": 0.5,
+    "Vox": 13.9,
+    "Junts": 1.7
+   }
+  },
+  {
+   "id": "40db-2019-03-19-1500",
+   "empresa": "40dB/El País",
+   "empresa_base": "40dB",
+   "clave": "40db",
+   "inicio": "2019-03-14",
+   "fin": "2019-03-19",
+   "muestra": 1500,
+   "pct": {
+    "PP": 19.3,
+    "PSOE": 27.1,
+    "UP": 12.3,
+    "Cs": 17.7,
+    "Vox": 10.2
+   }
+  },
+  {
+   "id": "cis-2019-03-18-16194",
+   "empresa": "CIS",
+   "empresa_base": "CIS",
+   "clave": "cis",
+   "inicio": "2019-03-01",
+   "fin": "2019-03-18",
+   "muestra": 16194,
+   "pct": {
+    "PP": 17.2,
+    "PSOE": 30.2,
+    "UP": 12.9,
+    "Cs": 13.6,
+    "ERC": 4.5,
+    "PNV": 1.3,
+    "PACMA": 1.4,
+    "Bildu": 1.1,
+    "CCa": 0.4,
+    "Vox": 11.9,
+    "Compromís": 0.9,
+    "Junts": 1.2,
+    "NA+": 0.1
+   }
+  },
+  {
+   "id": "electopanel-2019-03-17-7400",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-03-17",
+   "muestra": 7400,
+   "pct": {
+    "PP": 20.7,
+    "PSOE": 27.3,
+    "UP": 11.3,
+    "Cs": 15.4,
+    "ERC": 3.2,
+    "PDeCAT": 1.3,
+    "PNV": 1.3,
+    "PACMA": 0.9,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 12.5,
+    "Compromís": 1.7
+   }
+  },
+  {
+   "id": "ncreport-2019-03-15-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2019-03-11",
+   "fin": "2019-03-15",
+   "muestra": 1000,
+   "pct": {
+    "PP": 23.2,
+    "PSOE": 26.0,
+    "UP": 14.8,
+    "Cs": 17.8,
+    "ERC": 2.8,
+    "PDeCAT": 1.2,
+    "PNV": 1.1,
+    "Bildu": 0.6,
+    "Vox": 10.3
+   }
+  },
+  {
+   "id": "simplelogica-2019-03-13-1092",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2019-03-04",
+   "fin": "2019-03-13",
+   "muestra": 1092,
+   "pct": {
+    "PP": 17.1,
+    "PSOE": 31.2,
+    "UP": 12.4,
+    "Cs": 16.7,
+    "Vox": 8.6
+   }
+  },
+  {
+   "id": "celestetel-2019-03-11-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2019-03-04",
+   "fin": "2019-03-11",
+   "muestra": 1100,
+   "pct": {
+    "PP": 22.8,
+    "PSOE": 25.4,
+    "UP": 14.3,
+    "Cs": 18.1,
+    "ERC": 2.7,
+    "PDeCAT": 1.7,
+    "PNV": 1.2,
+    "PACMA": 1.2,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 9.6
+   }
+  },
+  {
+   "id": "electopanel-2019-03-10-6800",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-03-10",
+   "muestra": 6800,
+   "pct": {
+    "PP": 20.3,
+    "PSOE": 26.9,
+    "UP": 11.4,
+    "Cs": 16.1,
+    "ERC": 3.3,
+    "PDeCAT": 1.3,
+    "PNV": 1.3,
+    "PACMA": 0.9,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 12.3,
+    "Compromís": 1.8
+   }
+  },
+  {
+   "id": "keydata-2019-03-09-0",
+   "empresa": "KeyData/Público",
+   "empresa_base": "KeyData",
+   "clave": "keydata",
+   "inicio": "2019-03-09",
+   "fin": "2019-03-09",
+   "muestra": null,
+   "pct": {
+    "PP": 21.5,
+    "PSOE": 26.6,
+    "UP": 14.5,
+    "Cs": 16.1,
+    "ERC": 2.9,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 10.2
+   }
+  },
+  {
+   "id": "sociometrica-2019-03-08-1600",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-03-05",
+   "fin": "2019-03-08",
+   "muestra": 1600,
+   "pct": {
+    "PP": 17.5,
+    "PSOE": 27.6,
+    "UP": 14.1,
+    "Cs": 17.8,
+    "ERC": 3.1,
+    "PDeCAT": 1.5,
+    "PNV": 1.0,
+    "PACMA": 2.0,
+    "Bildu": 0.9,
+    "CCa": 0.2,
+    "Vox": 12.1
+   }
+  },
+  {
+   "id": "gad3-2019-03-08-1000",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2019-03-04",
+   "fin": "2019-03-08",
+   "muestra": 1000,
+   "pct": {
+    "PP": 22.1,
+    "PSOE": 30.6,
+    "UP": 11.8,
+    "Cs": 13.2,
+    "ERC": 2.8,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "Bildu": 0.6,
+    "CCa": 0.2,
+    "Vox": 12.1
+   }
+  },
+  {
+   "id": "invymark-2019-03-08-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2019-03-04",
+   "fin": "2019-03-08",
+   "muestra": null,
+   "pct": {
+    "PP": 20.4,
+    "PSOE": 25.2,
+    "UP": 13.2,
+    "Cs": 20.3,
+    "Vox": 11.5
+   }
+  },
+  {
+   "id": "electopanel-2019-03-03-5200",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-02-22",
+   "fin": "2019-03-03",
+   "muestra": 5200,
+   "pct": {
+    "PP": 20.5,
+    "PSOE": 26.7,
+    "UP": 11.5,
+    "Cs": 16.2,
+    "ERC": 3.3,
+    "PDeCAT": 1.3,
+    "PNV": 1.3,
+    "PACMA": 0.8,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 12.1,
+    "Compromís": 1.8
+   }
+  },
+  {
+   "id": "keydata-2019-02-26-0",
+   "empresa": "KeyData/Público",
+   "empresa_base": "KeyData",
+   "clave": "keydata",
+   "inicio": "2019-02-26",
+   "fin": "2019-02-26",
+   "muestra": null,
+   "pct": {
+    "PP": 21.5,
+    "PSOE": 25.1,
+    "UP": 14.5,
+    "Cs": 18.0,
+    "ERC": 3.1,
+    "PDeCAT": 1.5,
+    "PNV": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 10.9
+   }
+  },
+  {
+   "id": "sigmados-2019-02-22-1200",
+   "empresa": "Sigma Dos/El Mundo",
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "inicio": "2019-02-19",
+   "fin": "2019-02-22",
+   "muestra": 1200,
+   "pct": {
+    "PP": 19.1,
+    "PSOE": 27.3,
+    "UP": 14.4,
+    "Cs": 16.0,
+    "ERC": 3.2,
+    "PDeCAT": 1.1,
+    "PNV": 1.2,
+    "Vox": 13.3
+   }
+  },
+  {
+   "id": "gad3-2019-02-22-800",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2019-02-18",
+   "fin": "2019-02-22",
+   "muestra": 800,
+   "pct": {
+    "PP": 23.2,
+    "PSOE": 28.9,
+    "UP": 11.5,
+    "Cs": 15.7,
+    "ERC": 3.0,
+    "PDeCAT": 1.5,
+    "PNV": 1.3,
+    "Bildu": 0.6,
+    "CCa": 0.2,
+    "Vox": 10.8
+   }
+  },
+  {
+   "id": "invymark-2019-02-21-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2019-02-18",
+   "fin": "2019-02-21",
+   "muestra": null,
+   "pct": {
+    "PP": 21.0,
+    "PSOE": 24.3,
+    "UP": 13.9,
+    "Cs": 20.2,
+    "Vox": 11.3
+   }
+  },
+  {
+   "id": "sondaxe-2019-02-21-1500",
+   "empresa": "Sondaxe/La Voz de Galicia",
+   "empresa_base": "Sondaxe",
+   "clave": "sondaxe",
+   "inicio": "2019-02-13",
+   "fin": "2019-02-21",
+   "muestra": 1500,
+   "pct": {
+    "PP": 19.3,
+    "PSOE": 28.2,
+    "UP": 14.2,
+    "Cs": 13.5,
+    "ERC": 3.8,
+    "PDeCAT": 1.7,
+    "PNV": 1.4,
+    "Bildu": 0.8,
+    "Vox": 14.2
+   }
+  },
+  {
+   "id": "sociometrica-2019-02-15-1000",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-02-13",
+   "fin": "2019-02-15",
+   "muestra": 1000,
+   "pct": {
+    "PP": 18.6,
+    "PSOE": 24.3,
+    "UP": 11.9,
+    "Cs": 18.7,
+    "ERC": 3.3,
+    "PDeCAT": 1.3,
+    "PNV": 1.1,
+    "PACMA": 1.9,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 11.8,
+    "Compromís": 2.3
+   }
+  },
+  {
+   "id": "sociometrica-2019-02-15-1000",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2019-02-13",
+   "fin": "2019-02-15",
+   "muestra": 1000,
+   "pct": {
+    "PP": 18.6,
+    "PSOE": 24.3,
+    "UP": 15.2,
+    "Cs": 18.7,
+    "ERC": 3.3,
+    "PDeCAT": 1.3,
+    "PNV": 1.1,
+    "PACMA": 1.9,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 11.8
+   }
+  },
+  {
+   "id": "gesop-2019-02-15-1000",
+   "empresa": "GESOP/El Periódico",
+   "empresa_base": "GESOP",
+   "clave": "gesop",
+   "inicio": "2019-02-13",
+   "fin": "2019-02-15",
+   "muestra": 1000,
+   "pct": {
+    "PP": 19.9,
+    "PSOE": 27.4,
+    "UP": 13.6,
+    "Cs": 14.5,
+    "Vox": 13.0
+   }
+  },
+  {
+   "id": "gad3-2019-02-15-1200",
+   "empresa": "GAD3/La Vanguardia",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2019-02-12",
+   "fin": "2019-02-15",
+   "muestra": 1200,
+   "pct": {
+    "PP": 23.6,
+    "PSOE": 28.2,
+    "UP": 12.4,
+    "Cs": 17.1,
+    "ERC": 2.8,
+    "PDeCAT": 1.6,
+    "PNV": 1.2,
+    "Bildu": 0.6,
+    "CCa": 0.3,
+    "Vox": 8.8
+   }
+  },
+  {
+   "id": "ncreport-2019-02-15-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2019-02-11",
+   "fin": "2019-02-15",
+   "muestra": 1000,
+   "pct": {
+    "PP": 23.6,
+    "PSOE": 24.1,
+    "UP": 16.0,
+    "Cs": 18.9,
+    "ERC": 2.8,
+    "PDeCAT": 1.3,
+    "PNV": 1.1,
+    "Bildu": 0.6,
+    "Vox": 10.0
+   }
+  },
+  {
+   "id": "metroscopia-2019-02-13-1995",
+   "empresa": "Metroscopia/Henneo",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2019-02-11",
+   "fin": "2019-02-13",
+   "muestra": 1995,
+   "pct": {
+    "PP": 20.5,
+    "PSOE": 27.6,
+    "UP": 13.8,
+    "Cs": 15.4,
+    "Vox": 12.7
+   }
+  },
+  {
+   "id": "celestetel-2019-02-08-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2019-02-04",
+   "fin": "2019-02-08",
+   "muestra": 1100,
+   "pct": {
+    "PP": 23.1,
+    "PSOE": 23.7,
+    "UP": 15.8,
+    "Cs": 19.2,
+    "ERC": 2.8,
+    "PDeCAT": 1.7,
+    "PNV": 1.2,
+    "PACMA": 1.1,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 8.9
+   }
+  },
+  {
+   "id": "simplelogica-2019-02-08-1017",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2019-02-01",
+   "fin": "2019-02-08",
+   "muestra": 1017,
+   "pct": {
+    "PP": 17.9,
+    "PSOE": 25.4,
+    "UP": 13.9,
+    "Cs": 17.0,
+    "Vox": 11.7
+   }
+  },
+  {
+   "id": "invymark-2019-02-01-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2019-01-28",
+   "fin": "2019-02-01",
+   "muestra": null,
+   "pct": {
+    "PP": 21.3,
+    "PSOE": 23.9,
+    "UP": 13.5,
+    "Cs": 20.9,
+    "Vox": 11.2
+   }
+  },
+  {
+   "id": "electopanel-2019-01-30-2890",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-01-26",
+   "fin": "2019-01-30",
+   "muestra": 2890,
+   "pct": {
+    "PP": 20.1,
+    "PSOE": 23.1,
+    "UP": 14.9,
+    "Cs": 19.6,
+    "Vox": 12.1
+   }
+  },
+  {
+   "id": "keydata-2019-01-27-0",
+   "empresa": "KeyData/Público",
+   "empresa_base": "KeyData",
+   "clave": "keydata",
+   "inicio": "2019-01-27",
+   "fin": "2019-01-27",
+   "muestra": null,
+   "pct": {
+    "PP": 21.5,
+    "PSOE": 22.3,
+    "UP": 14.8,
+    "Cs": 19.8,
+    "ERC": 3.1,
+    "PDeCAT": 1.6,
+    "PNV": 1.1,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 10.3
+   }
+  },
+  {
+   "id": "ncreport-2019-01-25-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2019-01-21",
+   "fin": "2019-01-25",
+   "muestra": 1000,
+   "pct": {
+    "PP": 24.0,
+    "PSOE": 24.2,
+    "UP": 16.6,
+    "Cs": 18.7,
+    "ERC": 2.8,
+    "PDeCAT": 1.2,
+    "PNV": 0.9,
+    "Bildu": 0.7,
+    "Vox": 9.4
+   }
+  },
+  {
+   "id": "gad3-2019-01-24-1800",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2019-01-14",
+   "fin": "2019-01-24",
+   "muestra": 1800,
+   "pct": {
+    "PP": 23.0,
+    "PSOE": 26.5,
+    "UP": 11.6,
+    "Cs": 17.1,
+    "ERC": 2.8,
+    "PDeCAT": 1.6,
+    "PNV": 1.2,
+    "Bildu": 0.6,
+    "CCa": 0.2,
+    "Vox": 9.8
+   }
+  },
+  {
+   "id": "invymark-2019-01-18-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2019-01-14",
+   "fin": "2019-01-18",
+   "muestra": null,
+   "pct": {
+    "PP": 21.5,
+    "PSOE": 23.2,
+    "UP": 14.4,
+    "Cs": 23.0,
+    "Vox": 8.9
+   }
+  },
+  {
+   "id": "metroscopia-2019-01-15-2332",
+   "empresa": "Metroscopia/Henneo",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2019-01-09",
+   "fin": "2019-01-15",
+   "muestra": 2332,
+   "pct": {
+    "PP": 19.1,
+    "PSOE": 23.7,
+    "UP": 17.1,
+    "Cs": 17.8,
+    "Vox": 12.1
+   }
+  },
+  {
+   "id": "electopanel-2019-01-13-1399",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2019-01-06",
+   "fin": "2019-01-13",
+   "muestra": 1399,
+   "pct": {
+    "PP": 19.1,
+    "PSOE": 21.3,
+    "UP": 16.3,
+    "Cs": 19.9,
+    "PACMA": 1.1,
+    "Vox": 13.0
+   }
+  },
+  {
+   "id": "hamalgamametrica-2019-01-13-0",
+   "empresa": "Hamalgama Métrica/La Provincia",
+   "empresa_base": "Hamalgama Métrica",
+   "clave": "hamalgamametrica",
+   "inicio": "2018-12-15",
+   "fin": "2019-01-13",
+   "muestra": null,
+   "pct": {
+    "PP": 22.5,
+    "PSOE": 21.2,
+    "UP": 19.3,
+    "Cs": 18.2,
+    "ERC": 2.5,
+    "PDeCAT": 1.8,
+    "PNV": 2.0,
+    "Bildu": 0.6,
+    "CCa": 0.2,
+    "Vox": 8.7
+   }
+  },
+  {
+   "id": "simplelogica-2019-01-09-1042",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2019-01-03",
+   "fin": "2019-01-09",
+   "muestra": 1042,
+   "pct": {
+    "PP": 18.2,
+    "PSOE": 25.1,
+    "UP": 14.0,
+    "Cs": 17.9,
+    "Vox": 11.5
+   }
+  },
+  {
+   "id": "celestetel-2019-01-08-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2019-01-02",
+   "fin": "2019-01-08",
+   "muestra": 1100,
+   "pct": {
+    "PP": 23.8,
+    "PSOE": 24.1,
+    "UP": 16.1,
+    "Cs": 19.6,
+    "ERC": 2.8,
+    "PDeCAT": 1.5,
+    "PNV": 1.0,
+    "PACMA": 0.8,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 8.1
+   }
+  },
+  {
+   "id": "sociometrica-2019-01-05-2200",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2018-12-22",
+   "fin": "2019-01-05",
+   "muestra": 2200,
+   "pct": {
+    "PP": 18.3,
+    "PSOE": 22.4,
+    "UP": 17.1,
+    "Cs": 18.5,
+    "ERC": 3.2,
+    "PDeCAT": 1.4,
+    "PNV": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 12.5
+   }
+  },
+  {
+   "id": "keydata-2019-01-02-0",
+   "empresa": "KeyData/Público",
+   "empresa_base": "KeyData",
+   "clave": "keydata",
+   "inicio": "2019-01-02",
+   "fin": "2019-01-02",
+   "muestra": null,
+   "pct": {
+    "PP": 22.0,
+    "PSOE": 22.6,
+    "UP": 15.2,
+    "Cs": 20.5,
+    "ERC": 2.9,
+    "PDeCAT": 1.7,
+    "PNV": 1.1,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 8.6
+   }
+  },
+  {
+   "id": "sigmados-2018-12-27-1000",
+   "empresa": "Sigma Dos/El Mundo",
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "inicio": "2018-12-21",
+   "fin": "2018-12-27",
+   "muestra": 1000,
+   "pct": {
+    "PP": 19.2,
+    "PSOE": 22.6,
+    "UP": 15.8,
+    "Cs": 18.8,
+    "ERC": 3.6,
+    "PDeCAT": 1.0,
+    "PNV": 1.2,
+    "Vox": 12.9
+   }
+  },
+  {
+   "id": "invymark-2018-12-21-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-12-17",
+   "fin": "2018-12-21",
+   "muestra": null,
+   "pct": {
+    "PP": 21.8,
+    "PSOE": 23.5,
+    "UP": 15.2,
+    "Cs": 22.7,
+    "Vox": 7.8
+   }
+  },
+  {
+   "id": "llorentecuenca-2018-12-17-0",
+   "empresa": "Llorente & Cuenca",
+   "empresa_base": "Llorente & Cuenca",
+   "clave": "llorentecuenca",
+   "inicio": "2018-12-17",
+   "fin": "2018-12-17",
+   "muestra": null,
+   "pct": {
+    "PP": 23.9,
+    "PSOE": 25.3,
+    "UP": 13.9,
+    "Cs": 19.8,
+    "ERC": 3.5,
+    "PDeCAT": 1.4,
+    "Vox": 7.3
+   }
+  },
+  {
+   "id": "sigmados-2018-12-16-1000",
+   "empresa": "Sigma Dos/Antena 3",
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "inicio": "2018-12-16",
+   "fin": "2018-12-16",
+   "muestra": 1000,
+   "pct": {
+    "PP": 21.2,
+    "PSOE": 24.1,
+    "UP": 16.7,
+    "Cs": 18.4,
+    "Vox": 9.2
+   }
+  },
+  {
+   "id": "keydata-2018-12-16-0",
+   "empresa": "KeyData/Público",
+   "empresa_base": "KeyData",
+   "clave": "keydata",
+   "inicio": "2018-12-16",
+   "fin": "2018-12-16",
+   "muestra": null,
+   "pct": {
+    "PP": 22.3,
+    "PSOE": 23.0,
+    "UP": 15.6,
+    "Cs": 20.7,
+    "ERC": 3.0,
+    "PDeCAT": 1.5,
+    "PNV": 1.1,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 7.3
+   }
+  },
+  {
+   "id": "sociometrica-2018-12-14-900",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2018-12-10",
+   "fin": "2018-12-14",
+   "muestra": 900,
+   "pct": {
+    "PP": 21.6,
+    "PSOE": 22.5,
+    "UP": 17.8,
+    "Cs": 19.0,
+    "ERC": 3.1,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "Bildu": 0.7,
+    "CCa": 0.4,
+    "Vox": 8.5
+   }
+  },
+  {
+   "id": "gad3-2018-12-14-1005",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2018-12-10",
+   "fin": "2018-12-14",
+   "muestra": 1005,
+   "pct": {
+    "PP": 20.5,
+    "PSOE": 24.2,
+    "UP": 14.2,
+    "Cs": 20.7,
+    "ERC": 2.8,
+    "PDeCAT": 1.8,
+    "PNV": 1.2,
+    "Bildu": 0.7,
+    "CCa": 0.2,
+    "Vox": 8.7
+   }
+  },
+  {
+   "id": "ncreport-2018-12-14-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2018-12-05",
+   "fin": "2018-12-14",
+   "muestra": 1000,
+   "pct": {
+    "PP": 24.4,
+    "PSOE": 24.8,
+    "UP": 17.2,
+    "Cs": 18.0,
+    "ERC": 2.8,
+    "PDeCAT": 1.2,
+    "PNV": 0.9,
+    "Bildu": 0.6,
+    "Vox": 8.7
+   }
+  },
+  {
+   "id": "simplelogica-2018-12-14-1204",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-12-03",
+   "fin": "2018-12-14",
+   "muestra": 1204,
+   "pct": {
+    "PP": 18.8,
+    "PSOE": 23.2,
+    "UP": 17.7,
+    "Cs": 20.4,
+    "Vox": 8.7
+   }
+  },
+  {
+   "id": "imop-2018-12-13-1036",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2018-12-10",
+   "fin": "2018-12-13",
+   "muestra": 1036,
+   "pct": {
+    "PP": 19.6,
+    "PSOE": 25.8,
+    "UP": 15.5,
+    "Cs": 20.6,
+    "ERC": 3.0,
+    "PDeCAT": 1.6,
+    "PNV": 1.2,
+    "PACMA": 1.6,
+    "Bildu": 0.9,
+    "Vox": 8.0
+   }
+  },
+  {
+   "id": "metroscopia-2018-12-12-1895",
+   "empresa": "Metroscopia/Henneo",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2018-12-10",
+   "fin": "2018-12-12",
+   "muestra": 1895,
+   "pct": {
+    "PP": 18.0,
+    "PSOE": 22.2,
+    "UP": 17.9,
+    "Cs": 20.5,
+    "Vox": 11.5
+   }
+  },
+  {
+   "id": "celestetel-2018-12-11-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-12-03",
+   "fin": "2018-12-11",
+   "muestra": 1100,
+   "pct": {
+    "PP": 24.7,
+    "PSOE": 25.2,
+    "UP": 16.2,
+    "Cs": 19.4,
+    "ERC": 2.9,
+    "PDeCAT": 1.5,
+    "PNV": 1.0,
+    "PACMA": 0.8,
+    "Bildu": 0.6,
+    "CCa": 0.3,
+    "Vox": 6.8
+   }
+  },
+  {
+   "id": "targetpoint-2018-12-07-0",
+   "empresa": "Target Point/OKDiario",
+   "empresa_base": "Target Point",
+   "clave": "targetpoint",
+   "inicio": "2018-12-07",
+   "fin": "2018-12-07",
+   "muestra": null,
+   "pct": {
+    "PP": 22.8,
+    "PSOE": 24.9,
+    "UP": 17.2,
+    "Cs": 20.6,
+    "Vox": 5.9
+   }
+  },
+  {
+   "id": "invymark-2018-12-07-1200",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-12-03",
+   "fin": "2018-12-07",
+   "muestra": 1200,
+   "pct": {
+    "PP": 22.9,
+    "PSOE": 23.2,
+    "UP": 14.8,
+    "Cs": 22.9,
+    "Vox": 7.3
+   }
+  },
+  {
+   "id": "sociometrica-2018-12-05-0",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2018-12-05",
+   "fin": "2018-12-05",
+   "muestra": null,
+   "pct": {
+    "PP": 20.3,
+    "PSOE": 25.0,
+    "UP": 16.0,
+    "Cs": 18.8,
+    "ERC": 3.1,
+    "PDeCAT": 1.5,
+    "PNV": 1.1,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 11.0
+   }
+  },
+  {
+   "id": "electopanel-2018-12-04-1530",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2018-12-03",
+   "fin": "2018-12-04",
+   "muestra": 1530,
+   "pct": {
+    "PP": 19.1,
+    "PSOE": 19.3,
+    "UP": 17.6,
+    "Cs": 21.4,
+    "ERC": 3.1,
+    "PDeCAT": 1.6,
+    "PNV": 1.3,
+    "PACMA": 1.6,
+    "Bildu": 0.8,
+    "Vox": 10.4
+   }
+  },
+  {
+   "id": "simplelogica-2018-11-14-1019",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-11-02",
+   "fin": "2018-11-14",
+   "muestra": 1019,
+   "pct": {
+    "PP": 19.6,
+    "PSOE": 24.1,
+    "UP": 18.1,
+    "Cs": 22.4
+   }
+  },
+  {
+   "id": "celestetel-2018-11-09-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-11-05",
+   "fin": "2018-11-09",
+   "muestra": 1100,
+   "pct": {
+    "PP": 25.8,
+    "PSOE": 26.9,
+    "UP": 17.3,
+    "Cs": 20.4,
+    "ERC": 2.8,
+    "PDeCAT": 1.6,
+    "PNV": 1.0,
+    "PACMA": 0.9,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 1.5
+   }
+  },
+  {
+   "id": "ncreport-2018-11-09-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2018-11-05",
+   "fin": "2018-11-09",
+   "muestra": 1000,
+   "pct": {
+    "PP": 26.3,
+    "PSOE": 26.5,
+    "UP": 17.0,
+    "Cs": 19.9,
+    "ERC": 2.9,
+    "PDeCAT": 1.4,
+    "PNV": 0.9,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 2.1
+   }
+  },
+  {
+   "id": "invymark-2018-11-09-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-11-05",
+   "fin": "2018-11-09",
+   "muestra": null,
+   "pct": {
+    "PP": 24.2,
+    "PSOE": 25.4,
+    "UP": 17.0,
+    "Cs": 22.7
+   }
+  },
+  {
+   "id": "gad3-2018-11-07-1208",
+   "empresa": "GAD3/La Vanguardia",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2018-11-02",
+   "fin": "2018-11-07",
+   "muestra": 1208,
+   "pct": {
+    "PP": 22.3,
+    "PSOE": 26.6,
+    "UP": 16.6,
+    "Cs": 21.9,
+    "ERC": 2.9,
+    "PDeCAT": 1.4,
+    "PNV": 1.3,
+    "Bildu": 0.6,
+    "CCa": 0.1,
+    "Vox": 3.4
+   }
+  },
+  {
+   "id": "keydata-2018-10-30-0",
+   "empresa": "KeyData/Público",
+   "empresa_base": "KeyData",
+   "clave": "keydata",
+   "inicio": "2018-10-30",
+   "fin": "2018-10-30",
+   "muestra": null,
+   "pct": {
+    "PP": 22.2,
+    "PSOE": 24.6,
+    "UP": 17.5,
+    "Cs": 21.3,
+    "ERC": 3.0,
+    "PDeCAT": 0.8,
+    "PNV": 0.5,
+    "Bildu": 0.9,
+    "CCa": 0.1,
+    "Vox": 1.5
+   }
+  },
+  {
+   "id": "gesop-2018-10-30-911",
+   "empresa": "GESOP/El Periódico",
+   "empresa_base": "GESOP",
+   "clave": "gesop",
+   "inicio": "2018-10-22",
+   "fin": "2018-10-30",
+   "muestra": 911,
+   "pct": {
+    "PP": 21.3,
+    "PSOE": 25.3,
+    "UP": 16.1,
+    "Cs": 21.8,
+    "ERC": 3.3,
+    "PDeCAT": 1.5,
+    "Vox": 4.3
+   }
+  },
+  {
+   "id": "pp-2018-10-28-0",
+   "empresa": "PP",
+   "empresa_base": "PP",
+   "clave": "pp",
+   "inicio": "2018-10-28",
+   "fin": "2018-10-28",
+   "muestra": null,
+   "pct": {
+    "PP": 23.9,
+    "PSOE": 24.4,
+    "UP": 16.0,
+    "Cs": 20.0,
+    "Vox": 3.0
+   }
+  },
+  {
+   "id": "invymark-2018-10-26-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-10-22",
+   "fin": "2018-10-26",
+   "muestra": null,
+   "pct": {
+    "PP": 24.2,
+    "PSOE": 25.7,
+    "UP": 17.3,
+    "Cs": 22.0
+   }
+  },
+  {
+   "id": "electopanel-2018-10-26-1037",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2018-10-20",
+   "fin": "2018-10-26",
+   "muestra": 1037,
+   "pct": {
+    "PP": 23.1,
+    "PSOE": 22.0,
+    "UP": 18.5,
+    "Cs": 21.9,
+    "ERC": 3.1,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "PACMA": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 3.6
+   }
+  },
+  {
+   "id": "cs-2018-10-25-0",
+   "empresa": "Cs",
+   "empresa_base": "Cs",
+   "clave": "cs",
+   "inicio": "2018-10-25",
+   "fin": "2018-10-25",
+   "muestra": null,
+   "pct": {
+    "PP": 22.0,
+    "PSOE": 26.0,
+    "UP": 17.0,
+    "Cs": 24.0
+   }
+  },
+  {
+   "id": "metroscopia-2018-10-18-1588",
+   "empresa": "Metroscopia/Henneo",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2018-10-16",
+   "fin": "2018-10-18",
+   "muestra": 1588,
+   "pct": {
+    "PP": 22.6,
+    "PSOE": 25.2,
+    "UP": 17.7,
+    "Cs": 19.2,
+    "Vox": 5.1
+   }
+  },
+  {
+   "id": "ncreport-2018-10-11-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2018-10-01",
+   "fin": "2018-10-11",
+   "muestra": 1000,
+   "pct": {
+    "PP": 26.7,
+    "PSOE": 26.8,
+    "UP": 16.8,
+    "Cs": 19.5,
+    "ERC": 3.0,
+    "PDeCAT": 1.4,
+    "PNV": 1.1,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 1.9
+   }
+  },
+  {
+   "id": "simplelogica-2018-10-05-1055",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-10-01",
+   "fin": "2018-10-05",
+   "muestra": 1055,
+   "pct": {
+    "PP": 23.8,
+    "PSOE": 25.2,
+    "UP": 17.3,
+    "Cs": 21.6
+   }
+  },
+  {
+   "id": "celestetel-2018-10-05-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-10-01",
+   "fin": "2018-10-05",
+   "muestra": 1100,
+   "pct": {
+    "PP": 26.3,
+    "PSOE": 27.7,
+    "UP": 17.4,
+    "Cs": 19.3,
+    "ERC": 3.0,
+    "PDeCAT": 1.7,
+    "PNV": 1.1,
+    "PACMA": 0.8,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 1.0
+   }
+  },
+  {
+   "id": "electopanel-2018-10-05-0",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2018-09-30",
+   "fin": "2018-10-05",
+   "muestra": null,
+   "pct": {
+    "PP": 23.6,
+    "PSOE": 22.4,
+    "UP": 18.7,
+    "Cs": 22.2,
+    "ERC": 3.1,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "PACMA": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 2.5
+   }
+  },
+  {
+   "id": "simplelogica-2018-10-02-1000",
+   "empresa": "Simple Lógica/El Debate",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-10-02",
+   "fin": "2018-10-02",
+   "muestra": 1000,
+   "pct": {
+    "PP": 21.2,
+    "PSOE": 25.3,
+    "UP": 15.9,
+    "Cs": 23.1,
+    "PACMA": 2.2,
+    "Vox": 2.0
+   }
+  },
+  {
+   "id": "invymark-2018-09-28-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-09-24",
+   "fin": "2018-09-28",
+   "muestra": null,
+   "pct": {
+    "PP": 24.6,
+    "PSOE": 24.6,
+    "UP": 17.8,
+    "Cs": 22.3
+   }
+  },
+  {
+   "id": "dym-2018-09-19-1017",
+   "empresa": "DYM/El Independiente",
+   "empresa_base": "DYM",
+   "clave": "dym",
+   "inicio": "2018-09-17",
+   "fin": "2018-09-19",
+   "muestra": 1017,
+   "pct": {
+    "PP": 23.4,
+    "PSOE": 26.5,
+    "UP": 16.2,
+    "Cs": 22.7,
+    "Vox": 3.0
+   }
+  },
+  {
+   "id": "metroscopia-2018-09-19-1095",
+   "empresa": "Metroscopia/Henneo",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2018-09-17",
+   "fin": "2018-09-19",
+   "muestra": 1095,
+   "pct": {
+    "PP": 22.8,
+    "PSOE": 27.7,
+    "UP": 15.1,
+    "Cs": 20.8
+   }
+  },
+  {
+   "id": "invymark-2018-09-14-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-09-10",
+   "fin": "2018-09-14",
+   "muestra": null,
+   "pct": {
+    "PP": 24.1,
+    "PSOE": 25.0,
+    "UP": 18.6,
+    "Cs": 22.1
+   }
+  },
+  {
+   "id": "imop-2018-09-11-1012",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2018-09-06",
+   "fin": "2018-09-11",
+   "muestra": 1012,
+   "pct": {
+    "PP": 20.3,
+    "PSOE": 26.5,
+    "UP": 15.4,
+    "Cs": 23.9,
+    "ERC": 2.8,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "PACMA": 2.1,
+    "Bildu": 0.7,
+    "Vox": 3.0
+   }
+  },
+  {
+   "id": "electopanel-2018-09-09-1050",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2018-09-07",
+   "fin": "2018-09-09",
+   "muestra": 1050,
+   "pct": {
+    "PP": 24.6,
+    "PSOE": 24.9,
+    "UP": 17.8,
+    "Cs": 19.8,
+    "ERC": 3.0,
+    "PDeCAT": 1.6,
+    "PNV": 1.3,
+    "PACMA": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 1.6
+   }
+  },
+  {
+   "id": "simplelogica-2018-09-07-1010",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-09-03",
+   "fin": "2018-09-07",
+   "muestra": 1010,
+   "pct": {
+    "PP": 21.1,
+    "PSOE": 24.8,
+    "UP": 16.6,
+    "Cs": 23.2
+   }
+  },
+  {
+   "id": "celestetel-2018-09-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-09-03",
+   "fin": "2018-09-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 26.4,
+    "PSOE": 28.2,
+    "UP": 17.1,
+    "Cs": 18.7,
+    "ERC": 3.0,
+    "PDeCAT": 1.7,
+    "PNV": 1.1,
+    "PACMA": 0.8,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 0.7
+   }
+  },
+  {
+   "id": "gad3-2018-09-07-1001",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2018-09-03",
+   "fin": "2018-09-07",
+   "muestra": 1001,
+   "pct": {
+    "PP": 25.9,
+    "PSOE": 27.0,
+    "UP": 15.9,
+    "Cs": 20.6,
+    "ERC": 2.8,
+    "PDeCAT": 1.9,
+    "PNV": 1.1,
+    "Bildu": 0.7,
+    "Vox": 1.5
+   }
+  },
+  {
+   "id": "ncreport-2018-08-31-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2018-08-27",
+   "fin": "2018-08-31",
+   "muestra": 1000,
+   "pct": {
+    "PP": 27.5,
+    "PSOE": 27.8,
+    "UP": 16.0,
+    "Cs": 18.8,
+    "ERC": 3.0,
+    "PDeCAT": 1.5,
+    "PNV": 1.1,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 1.4
+   }
+  },
+  {
+   "id": "sociometrica-2018-08-30-1200",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2018-08-22",
+   "fin": "2018-08-30",
+   "muestra": 1200,
+   "pct": {
+    "PP": 22.6,
+    "PSOE": 25.8,
+    "UP": 16.5,
+    "Cs": 23.1,
+    "ERC": 3.0,
+    "PDeCAT": 1.5,
+    "PNV": 1.3,
+    "PACMA": 1.5,
+    "Bildu": 0.7,
+    "CCa": 0.5,
+    "Vox": 1.8
+   }
+  },
+  {
+   "id": "jma-2018-08-20-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2018-08-20",
+   "fin": "2018-08-20",
+   "muestra": null,
+   "pct": {
+    "PP": 21.2,
+    "PSOE": 26.3,
+    "UP": 16.8,
+    "Cs": 22.0,
+    "ERC": 2.8,
+    "PDeCAT": 2.2,
+    "PNV": 1.4,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 2.5
+   }
+  },
+  {
+   "id": "jma-2018-08-10-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2018-08-10",
+   "fin": "2018-08-10",
+   "muestra": null,
+   "pct": {
+    "PP": 21.4,
+    "PSOE": 26.4,
+    "UP": 16.8,
+    "Cs": 22.0,
+    "ERC": 2.7,
+    "PDeCAT": 2.2,
+    "PNV": 1.4,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 2.3
+   }
+  },
+  {
+   "id": "celestetel-2018-08-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-08-01",
+   "fin": "2018-08-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 25.5,
+    "PSOE": 28.0,
+    "UP": 17.3,
+    "Cs": 19.4,
+    "ERC": 3.0,
+    "PDeCAT": 1.6,
+    "PNV": 1.1,
+    "PACMA": 1.0,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 0.6
+   }
+  },
+  {
+   "id": "simplelogica-2018-08-03-1029",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-08-01",
+   "fin": "2018-08-03",
+   "muestra": 1029,
+   "pct": {
+    "PP": 24.4,
+    "PSOE": 25.5,
+    "UP": 15.3,
+    "Cs": 23.4
+   }
+  },
+  {
+   "id": "electopanel-2018-08-03-1100",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2018-07-27",
+   "fin": "2018-08-03",
+   "muestra": 1100,
+   "pct": {
+    "PP": 22.9,
+    "PSOE": 24.7,
+    "UP": 18.7,
+    "Cs": 21.2,
+    "ERC": 3.3,
+    "PDeCAT": 1.4,
+    "PNV": 1.3,
+    "PACMA": 1.6,
+    "Bildu": 0.8,
+    "Vox": 1.0
+   }
+  },
+  {
+   "id": "ncreport-2018-07-27-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2018-07-23",
+   "fin": "2018-07-27",
+   "muestra": 1000,
+   "pct": {
+    "PP": 26.7,
+    "PSOE": 27.4,
+    "UP": 15.8,
+    "Cs": 19.2,
+    "ERC": 3.1,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 1.4
+   }
+  },
+  {
+   "id": "invymark-2018-07-27-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-07-23",
+   "fin": "2018-07-27",
+   "muestra": null,
+   "pct": {
+    "PP": 24.4,
+    "PSOE": 26.0,
+    "UP": 18.3,
+    "Cs": 21.1
+   }
+  },
+  {
+   "id": "gad3-2018-07-26-804",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2018-07-24",
+   "fin": "2018-07-26",
+   "muestra": 804,
+   "pct": {
+    "PP": 26.2,
+    "PSOE": 27.9,
+    "UP": 15.1,
+    "Cs": 19.6,
+    "ERC": 3.0,
+    "PDeCAT": 1.9,
+    "PNV": 1.1,
+    "PACMA": 1.4,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 0.9
+   }
+  },
+  {
+   "id": "demoscopiaservicios-2018-07-25-1080",
+   "empresa": "Demoscopia Servicios/Okdiario",
+   "empresa_base": "Demoscopia Servicios",
+   "clave": "demoscopiaservicios",
+   "inicio": "2018-07-22",
+   "fin": "2018-07-25",
+   "muestra": 1080,
+   "pct": {
+    "PP": 27.1,
+    "PSOE": 25.3,
+    "UP": 16.8,
+    "Cs": 20.8,
+    "ERC": 2.5,
+    "PDeCAT": 1.8,
+    "PNV": 1.3,
+    "Bildu": 0.7,
+    "CCa": 0.6
+   }
+  },
+  {
+   "id": "metroscopia-2018-07-25-2260",
+   "empresa": "Metroscopia/Henneo",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2018-07-16",
+   "fin": "2018-07-25",
+   "muestra": 2260,
+   "pct": {
+    "PP": 24.4,
+    "PSOE": 26.6,
+    "UP": 16.1,
+    "Cs": 20.1
+   }
+  },
+  {
+   "id": "electopanel-2018-07-22-2848",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2018-07-17",
+   "fin": "2018-07-22",
+   "muestra": 2848,
+   "pct": {
+    "PP": 21.0,
+    "PSOE": 26.1,
+    "UP": 18.5,
+    "Cs": 20.8,
+    "ERC": 3.1,
+    "PDeCAT": 1.4,
+    "PNV": 1.3,
+    "PACMA": 1.7,
+    "Bildu": 0.9,
+    "Vox": 1.7
+   }
+  },
+  {
+   "id": "invymark-2018-07-13-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-07-09",
+   "fin": "2018-07-13",
+   "muestra": null,
+   "pct": {
+    "PP": 23.4,
+    "PSOE": 26.5,
+    "UP": 18.1,
+    "Cs": 21.9
+   }
+  },
+  {
+   "id": "sigmados-2018-07-12-1000",
+   "empresa": "Sigma Dos/El Mundo",
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "inicio": "2018-07-09",
+   "fin": "2018-07-12",
+   "muestra": 1000,
+   "pct": {
+    "PP": 22.3,
+    "PSOE": 26.3,
+    "UP": 16.1,
+    "Cs": 24.2,
+    "ERC": 3.2,
+    "PDeCAT": 1.2,
+    "PNV": 1.1
+   }
+  },
+  {
+   "id": "topposition-2018-07-11-1200",
+   "empresa": "Top Position/Merca2",
+   "empresa_base": "Top Position",
+   "clave": "topposition",
+   "inicio": "2018-07-10",
+   "fin": "2018-07-11",
+   "muestra": 1200,
+   "pct": {
+    "PP": 23.5,
+    "PSOE": 23.8,
+    "UP": 17.1,
+    "Cs": 22.1,
+    "ERC": 3.5,
+    "Vox": 1.8
+   }
+  },
+  {
+   "id": "jma-2018-07-10-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2018-07-10",
+   "fin": "2018-07-10",
+   "muestra": null,
+   "pct": {
+    "PP": 19.7,
+    "PSOE": 26.4,
+    "UP": 17.5,
+    "Cs": 23.6,
+    "ERC": 2.4,
+    "PDeCAT": 2.4,
+    "PNV": 1.5,
+    "Bildu": 0.7,
+    "CCa": 0.4,
+    "Vox": 2.4
+   }
+  },
+  {
+   "id": "cis-2018-07-10-2485",
+   "empresa": "CIS",
+   "empresa_base": "CIS",
+   "clave": "cis",
+   "inicio": "2018-07-01",
+   "fin": "2018-07-10",
+   "muestra": 2485,
+   "pct": {
+    "PP": 20.4,
+    "PSOE": 29.9,
+    "UP": 15.6,
+    "Cs": 20.4,
+    "ERC": 3.9,
+    "PDeCAT": 1.3,
+    "PNV": 1.2,
+    "Bildu": 0.6,
+    "CCa": 0.2
+   }
+  },
+  {
+   "id": "simplelogica-2018-07-06-1048",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-07-02",
+   "fin": "2018-07-06",
+   "muestra": 1048,
+   "pct": {
+    "PP": 18.7,
+    "PSOE": 27.2,
+    "UP": 17.3,
+    "Cs": 26.0
+   }
+  },
+  {
+   "id": "celestetel-2018-07-06-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-07-02",
+   "fin": "2018-07-06",
+   "muestra": 1100,
+   "pct": {
+    "PP": 24.2,
+    "PSOE": 27.1,
+    "UP": 17.7,
+    "Cs": 20.6,
+    "ERC": 3.1,
+    "PDeCAT": 1.6,
+    "PNV": 1.1,
+    "PACMA": 1.1,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 0.5
+   }
+  },
+  {
+   "id": "ncreport-2018-06-30-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2018-06-25",
+   "fin": "2018-06-30",
+   "muestra": 1000,
+   "pct": {
+    "PP": 25.2,
+    "PSOE": 26.3,
+    "UP": 16.2,
+    "Cs": 20.6,
+    "ERC": 3.1,
+    "PDeCAT": 1.4,
+    "PNV": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "sociometrica-2018-06-22-1000",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2018-06-19",
+   "fin": "2018-06-22",
+   "muestra": 1000,
+   "pct": {
+    "PP": 19.5,
+    "PSOE": 23.9,
+    "UP": 16.9,
+    "Cs": 25.3,
+    "ERC": 2.9,
+    "PDeCAT": 1.3,
+    "PNV": 1.3,
+    "PACMA": 1.6,
+    "Bildu": 0.8,
+    "CCa": 0.5,
+    "Vox": 2.1
+   }
+  },
+  {
+   "id": "invymark-2018-06-22-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-06-18",
+   "fin": "2018-06-22",
+   "muestra": null,
+   "pct": {
+    "PP": 22.9,
+    "PSOE": 26.7,
+    "UP": 17.9,
+    "Cs": 22.1
+   }
+  },
+  {
+   "id": "gesop-2018-06-13-800",
+   "empresa": "GESOP/El Periódico",
+   "empresa_base": "GESOP",
+   "clave": "gesop",
+   "inicio": "2018-06-11",
+   "fin": "2018-06-13",
+   "muestra": 800,
+   "pct": {
+    "PP": 21.0,
+    "PSOE": 28.6,
+    "UP": 16.6,
+    "Cs": 22.8,
+    "ERC": 2.6,
+    "PDeCAT": 1.6
+   }
+  },
+  {
+   "id": "dym-2018-06-12-1019",
+   "empresa": "DYM/El Independiente",
+   "empresa_base": "DYM",
+   "clave": "dym",
+   "inicio": "2018-06-11",
+   "fin": "2018-06-12",
+   "muestra": 1019,
+   "pct": {
+    "PP": 24.9,
+    "PSOE": 27.1,
+    "UP": 14.6,
+    "Cs": 20.6
+   }
+  },
+  {
+   "id": "ncreport-2018-06-09-1200",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2018-06-01",
+   "fin": "2018-06-09",
+   "muestra": 1200,
+   "pct": {
+    "PP": 25.5,
+    "PSOE": 24.9,
+    "UP": 16.7,
+    "Cs": 21.0,
+    "ERC": 3.1,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 1.3
+   }
+  },
+  {
+   "id": "jma-2018-06-08-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2018-06-08",
+   "fin": "2018-06-08",
+   "muestra": null,
+   "pct": {
+    "PP": 18.1,
+    "PSOE": 23.5,
+    "UP": 19.5,
+    "Cs": 25.8,
+    "ERC": 2.1,
+    "PDeCAT": 2.7,
+    "PNV": 1.7,
+    "Bildu": 0.6,
+    "CCa": 0.4,
+    "Vox": 2.5
+   }
+  },
+  {
+   "id": "gad3-2018-06-08-800",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2018-06-07",
+   "fin": "2018-06-08",
+   "muestra": 800,
+   "pct": {
+    "PP": 25.6,
+    "PSOE": 28.8,
+    "UP": 13.1,
+    "Cs": 21.1,
+    "ERC": 3.2,
+    "PDeCAT": 1.6,
+    "PNV": 1.0,
+    "PACMA": 1.4,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 1.1
+   }
+  },
+  {
+   "id": "simplelogica-2018-06-08-1030",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-06-04",
+   "fin": "2018-06-08",
+   "muestra": 1030,
+   "pct": {
+    "PP": 20.6,
+    "PSOE": 26.7,
+    "UP": 16.5,
+    "Cs": 25.7
+   }
+  },
+  {
+   "id": "celestetel-2018-06-08-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-06-04",
+   "fin": "2018-06-08",
+   "muestra": 1100,
+   "pct": {
+    "PP": 24.3,
+    "PSOE": 25.8,
+    "UP": 17.4,
+    "Cs": 21.1,
+    "ERC": 3.0,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "PACMA": 1.3,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 0.4
+   }
+  },
+  {
+   "id": "invymark-2018-06-08-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-06-04",
+   "fin": "2018-06-08",
+   "muestra": null,
+   "pct": {
+    "PP": 23.7,
+    "PSOE": 25.1,
+    "UP": 17.3,
+    "Cs": 22.2
+   }
+  },
+  {
+   "id": "electopanel-2018-06-07-846",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2018-06-06",
+   "fin": "2018-06-07",
+   "muestra": 846,
+   "pct": {
+    "PP": 17.1,
+    "PSOE": 25.2,
+    "UP": 20.5,
+    "Cs": 22.5,
+    "ERC": 3.0,
+    "PDeCAT": 1.3,
+    "PNV": 1.3,
+    "PACMA": 2.1,
+    "Bildu": 1.2,
+    "CCa": 0.3,
+    "Vox": 2.1
+   }
+  },
+  {
+   "id": "electopanel-2018-06-02-2043",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2018-05-26",
+   "fin": "2018-06-02",
+   "muestra": 2043,
+   "pct": {
+    "PP": 18.0,
+    "PSOE": 22.0,
+    "UP": 20.9,
+    "Cs": 24.2,
+    "ERC": 2.9,
+    "PDeCAT": 1.4,
+    "PNV": 1.2,
+    "PACMA": 2.0,
+    "Bildu": 1.3,
+    "CCa": 0.3,
+    "Vox": 2.5
+   }
+  },
+  {
+   "id": "invymark-2018-05-29-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-05-28",
+   "fin": "2018-05-29",
+   "muestra": null,
+   "pct": {
+    "PP": 23.5,
+    "PSOE": 22.6,
+    "UP": 17.3,
+    "Cs": 26.4
+   }
+  },
+  {
+   "id": "electopanel-2018-05-28-1425",
+   "empresa": "ElectoPanel/Electomanía",
+   "empresa_base": "ElectoPanel",
+   "clave": "electopanel",
+   "inicio": "2018-05-26",
+   "fin": "2018-05-28",
+   "muestra": 1425,
+   "pct": {
+    "PP": 17.9,
+    "PSOE": 23.0,
+    "UP": 20.1,
+    "Cs": 24.0,
+    "ERC": 3.0,
+    "PDeCAT": 1.7,
+    "PNV": 1.3,
+    "PACMA": 2.0,
+    "Bildu": 1.1,
+    "CCa": 0.3,
+    "Vox": 3.1
+   }
+  },
+  {
+   "id": "imop-2018-05-28-1015",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2018-05-23",
+   "fin": "2018-05-28",
+   "muestra": 1015,
+   "pct": {
+    "PP": 19.6,
+    "PSOE": 20.6,
+    "UP": 19.7,
+    "Cs": 28.6,
+    "ERC": 2.4,
+    "PDeCAT": 1.8,
+    "PNV": 1.2,
+    "PACMA": 2.0,
+    "Bildu": 0.7
+   }
+  },
+  {
+   "id": "sociometrica-2018-05-26-1700",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2018-05-17",
+   "fin": "2018-05-26",
+   "muestra": 1700,
+   "pct": {
+    "PP": 16.8,
+    "PSOE": 20.3,
+    "UP": 19.3,
+    "Cs": 28.5,
+    "ERC": 3.3,
+    "PDeCAT": 1.5,
+    "PNV": 1.4,
+    "PACMA": 1.5,
+    "Bildu": 1.0,
+    "CCa": 0.4,
+    "Vox": 1.9
+   }
+  },
+  {
+   "id": "ncreport-2018-05-25-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2018-05-16",
+   "fin": "2018-05-25",
+   "muestra": 1000,
+   "pct": {
+    "PP": 25.6,
+    "PSOE": 23.6,
+    "UP": 15.8,
+    "Cs": 24.4,
+    "ERC": 2.9,
+    "PDeCAT": 1.4,
+    "PNV": 1.1,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 1.2
+   }
+  },
+  {
+   "id": "simplelogica-2018-05-10-1067",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-05-03",
+   "fin": "2018-05-10",
+   "muestra": 1067,
+   "pct": {
+    "PP": 20.9,
+    "PSOE": 20.1,
+    "UP": 17.2,
+    "Cs": 29.6
+   }
+  },
+  {
+   "id": "metroscopia-2018-05-09-1726",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2018-05-07",
+   "fin": "2018-05-09",
+   "muestra": 1726,
+   "pct": {
+    "PP": 19.5,
+    "PSOE": 19.0,
+    "UP": 19.8,
+    "Cs": 29.1
+   }
+  },
+  {
+   "id": "celestetel-2018-05-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-05-02",
+   "fin": "2018-05-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 24.7,
+    "PSOE": 24.2,
+    "UP": 16.9,
+    "Cs": 23.5,
+    "Vox": 0.4
+   }
+  },
+  {
+   "id": "celestetel-2018-04-30-1000",
+   "empresa": "Celeste-Tel/PSOE",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-04-26",
+   "fin": "2018-04-30",
+   "muestra": 1000,
+   "pct": {
+    "PP": 26.0,
+    "PSOE": 24.9,
+    "UP": 17.7,
+    "Cs": 19.7,
+    "ERC": 3.6,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "gesop-2018-04-18-1000",
+   "empresa": "GESOP/El Periódico",
+   "empresa_base": "GESOP",
+   "clave": "gesop",
+   "inicio": "2018-04-12",
+   "fin": "2018-04-18",
+   "muestra": 1000,
+   "pct": {
+    "PP": 21.0,
+    "PSOE": 20.5,
+    "UP": 18.1,
+    "Cs": 28.5,
+    "ERC": 3.0,
+    "PDeCAT": 2.0
+   }
+  },
+  {
+   "id": "invymark-2018-04-13-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-04-09",
+   "fin": "2018-04-13",
+   "muestra": null,
+   "pct": {
+    "PP": 24.8,
+    "PSOE": 22.3,
+    "UP": 17.1,
+    "Cs": 25.2
+   }
+  },
+  {
+   "id": "ncreport-2018-04-13-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2018-04-09",
+   "fin": "2018-04-13",
+   "muestra": 1000,
+   "pct": {
+    "PP": 26.3,
+    "PSOE": 23.5,
+    "UP": 16.2,
+    "Cs": 24.3,
+    "ERC": 2.9,
+    "PDeCAT": 1.4,
+    "PNV": 1.1,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 0.9
+   }
+  },
+  {
+   "id": "cis-2018-04-10-2466",
+   "empresa": "CIS",
+   "empresa_base": "CIS",
+   "clave": "cis",
+   "inicio": "2018-04-01",
+   "fin": "2018-04-10",
+   "muestra": 2466,
+   "pct": {
+    "PP": 24.0,
+    "PSOE": 22.0,
+    "UP": 19.6,
+    "Cs": 22.4,
+    "ERC": 3.0,
+    "PDeCAT": 1.7,
+    "PNV": 1.3,
+    "Bildu": 0.6,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "simplelogica-2018-04-09-1062",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-04-02",
+   "fin": "2018-04-09",
+   "muestra": 1062,
+   "pct": {
+    "PP": 19.0,
+    "PSOE": 20.2,
+    "UP": 17.6,
+    "Cs": 29.9
+   }
+  },
+  {
+   "id": "celestetel-2018-04-06-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-04-02",
+   "fin": "2018-04-06",
+   "muestra": 1100,
+   "pct": {
+    "PP": 24.9,
+    "PSOE": 24.1,
+    "UP": 16.6,
+    "Cs": 24.0,
+    "ERC": 2.9,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "PACMA": 1.3,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 0.3
+   }
+  },
+  {
+   "id": "metroscopia-2018-04-05-1278",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2018-04-04",
+   "fin": "2018-04-05",
+   "muestra": 1278,
+   "pct": {
+    "PP": 20.4,
+    "PSOE": 19.1,
+    "UP": 18.3,
+    "Cs": 28.7
+   }
+  },
+  {
+   "id": "jma-2018-04-01-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2018-04-01",
+   "fin": "2018-04-01",
+   "muestra": null,
+   "pct": {
+    "PP": 22.4,
+    "PSOE": 20.4,
+    "UP": 18.1,
+    "Cs": 26.4,
+    "ERC": 2.9,
+    "PDeCAT": 2.2,
+    "PNV": 1.6,
+    "Bildu": 0.8,
+    "CCa": 0.4
+   }
+  },
+  {
+   "id": "sociometrica-2018-03-29-1000",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2018-03-19",
+   "fin": "2018-03-29",
+   "muestra": 1000,
+   "pct": {
+    "PP": 21.9,
+    "PSOE": 19.4,
+    "UP": 16.2,
+    "Cs": 27.4,
+    "ERC": 4.0,
+    "PDeCAT": 1.5,
+    "PNV": 1.1,
+    "Bildu": 0.9,
+    "CCa": 0.5,
+    "Vox": 1.5
+   }
+  },
+  {
+   "id": "sigmados-2018-03-27-1000",
+   "empresa": "Sigma Dos/El Mundo",
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "inicio": "2018-03-23",
+   "fin": "2018-03-27",
+   "muestra": 1000,
+   "pct": {
+    "PP": 23.3,
+    "PSOE": 19.7,
+    "UP": 18.4,
+    "Cs": 26.7,
+    "ERC": 3.3,
+    "PDeCAT": 1.3,
+    "PNV": 1.2
+   }
+  },
+  {
+   "id": "myword-2018-03-16-1002",
+   "empresa": "MyWord/Cadena SER",
+   "empresa_base": "MyWord",
+   "clave": "myword",
+   "inicio": "2018-03-13",
+   "fin": "2018-03-16",
+   "muestra": 1002,
+   "pct": {
+    "PP": 24.7,
+    "PSOE": 20.4,
+    "UP": 16.0,
+    "Cs": 23.8
+   }
+  },
+  {
+   "id": "invymark-2018-03-16-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-03-12",
+   "fin": "2018-03-16",
+   "muestra": null,
+   "pct": {
+    "PP": 25.1,
+    "PSOE": 22.6,
+    "UP": 16.8,
+    "Cs": 25.0,
+    "ERC": 2.4,
+    "PDeCAT": 2.4,
+    "PNV": 1.2
+   }
+  },
+  {
+   "id": "gad3-2018-03-14-1008",
+   "empresa": "GAD3/La Vanguardia",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2018-03-12",
+   "fin": "2018-03-14",
+   "muestra": 1008,
+   "pct": {
+    "PP": 23.8,
+    "PSOE": 22.1,
+    "UP": 16.7,
+    "Cs": 27.3,
+    "ERC": 2.9,
+    "PDeCAT": 1.6,
+    "PNV": 1.4,
+    "Bildu": 0.6,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "simplelogica-2018-03-07-1076",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-03-01",
+   "fin": "2018-03-07",
+   "muestra": 1076,
+   "pct": {
+    "PP": 20.0,
+    "PSOE": 21.0,
+    "UP": 17.3,
+    "Cs": 29.6
+   }
+  },
+  {
+   "id": "celestetel-2018-03-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-03-01",
+   "fin": "2018-03-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 26.6,
+    "PSOE": 24.3,
+    "UP": 16.2,
+    "Cs": 23.5,
+    "ERC": 2.6,
+    "PDeCAT": 1.6,
+    "PNV": 1.3,
+    "PACMA": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 0.3
+   }
+  },
+  {
+   "id": "metroscopia-2018-03-05-1175",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2018-03-02",
+   "fin": "2018-03-05",
+   "muestra": 1175,
+   "pct": {
+    "PP": 21.5,
+    "PSOE": 19.4,
+    "UP": 17.0,
+    "Cs": 28.9
+   }
+  },
+  {
+   "id": "invymark-2018-03-02-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-02-26",
+   "fin": "2018-03-02",
+   "muestra": null,
+   "pct": {
+    "PP": 26.0,
+    "PSOE": 23.1,
+    "UP": 16.5,
+    "Cs": 24.0
+   }
+  },
+  {
+   "id": "ncreport-2018-03-02-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2018-02-26",
+   "fin": "2018-03-02",
+   "muestra": 1000,
+   "pct": {
+    "PP": 27.9,
+    "PSOE": 24.0,
+    "UP": 15.8,
+    "Cs": 22.1,
+    "ERC": 2.8,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 0.7
+   }
+  },
+  {
+   "id": "imop-2018-02-27-1402",
+   "empresa": "IMOP/El Confidencial",
+   "empresa_base": "IMOP",
+   "clave": "imop",
+   "inicio": "2018-02-22",
+   "fin": "2018-02-27",
+   "muestra": 1402,
+   "pct": {
+    "PP": 21.4,
+    "PSOE": 21.5,
+    "UP": 17.0,
+    "Cs": 28.5,
+    "ERC": 3.0,
+    "PDeCAT": 1.7,
+    "PNV": 1.1,
+    "PACMA": 2.0,
+    "Bildu": 0.8
+   }
+  },
+  {
+   "id": "invymark-2018-02-16-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-02-12",
+   "fin": "2018-02-16",
+   "muestra": null,
+   "pct": {
+    "PP": 25.9,
+    "PSOE": 22.8,
+    "UP": 16.5,
+    "Cs": 23.8
+   }
+  },
+  {
+   "id": "myword-2018-02-14-1000",
+   "empresa": "MyWord/Cadena SER",
+   "empresa_base": "MyWord",
+   "clave": "myword",
+   "inicio": "2018-02-07",
+   "fin": "2018-02-14",
+   "muestra": 1000,
+   "pct": {
+    "PP": 24.5,
+    "PSOE": 21.3,
+    "UP": 16.6,
+    "Cs": 22.1
+   }
+  },
+  {
+   "id": "jma-2018-02-11-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2018-02-11",
+   "fin": "2018-02-11",
+   "muestra": null,
+   "pct": {
+    "PP": 23.7,
+    "PSOE": 22.4,
+    "UP": 17.0,
+    "Cs": 24.6,
+    "ERC": 3.0,
+    "PDeCAT": 2.2,
+    "PNV": 1.6,
+    "Bildu": 0.8,
+    "CCa": 0.4
+   }
+  },
+  {
+   "id": "celestetel-2018-02-09-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-02-05",
+   "fin": "2018-02-09",
+   "muestra": 1100,
+   "pct": {
+    "PP": 28.9,
+    "PSOE": 25.5,
+    "UP": 16.5,
+    "Cs": 19.3,
+    "ERC": 2.7,
+    "PDeCAT": 1.6,
+    "PNV": 1.3,
+    "PACMA": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 0.2
+   }
+  },
+  {
+   "id": "metroscopia-2018-02-08-1321",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2018-02-05",
+   "fin": "2018-02-08",
+   "muestra": 1321,
+   "pct": {
+    "PP": 21.9,
+    "PSOE": 20.1,
+    "UP": 16.8,
+    "Cs": 28.3
+   }
+  },
+  {
+   "id": "simplelogica-2018-02-07-1065",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-02-01",
+   "fin": "2018-02-07",
+   "muestra": 1065,
+   "pct": {
+    "PP": 22.2,
+    "PSOE": 21.4,
+    "UP": 17.0,
+    "Cs": 28.7
+   }
+  },
+  {
+   "id": "gad3-2018-02-07-1002",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2018-01-31",
+   "fin": "2018-02-07",
+   "muestra": 1002,
+   "pct": {
+    "PP": 25.8,
+    "PSOE": 23.7,
+    "UP": 14.8,
+    "Cs": 25.6,
+    "ERC": 2.9,
+    "PDeCAT": 1.8,
+    "PNV": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "cs-2018-01-31-0",
+   "empresa": "Cs",
+   "empresa_base": "Cs",
+   "clave": "cs",
+   "inicio": "2018-01-31",
+   "fin": "2018-01-31",
+   "muestra": null,
+   "pct": {
+    "PP": 23.3,
+    "PSOE": 24.1,
+    "UP": 16.9,
+    "Cs": 25.0
+   }
+  },
+  {
+   "id": "invymark-2018-01-26-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2018-01-22",
+   "fin": "2018-01-26",
+   "muestra": null,
+   "pct": {
+    "PP": 26.1,
+    "PSOE": 23.0,
+    "UP": 16.2,
+    "Cs": 23.4
+   }
+  },
+  {
+   "id": "cis-2018-01-14-2477",
+   "empresa": "CIS",
+   "empresa_base": "CIS",
+   "clave": "cis",
+   "inicio": "2018-01-02",
+   "fin": "2018-01-14",
+   "muestra": 2477,
+   "pct": {
+    "PP": 26.3,
+    "PSOE": 23.1,
+    "UP": 19.0,
+    "Cs": 20.7,
+    "ERC": 3.4,
+    "PDeCAT": 2.0,
+    "PNV": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.2
+   }
+  },
+  {
+   "id": "metroscopia-2018-01-11-1332",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2018-01-09",
+   "fin": "2018-01-11",
+   "muestra": 1332,
+   "pct": {
+    "PP": 23.2,
+    "PSOE": 21.6,
+    "UP": 15.1,
+    "Cs": 27.1
+   }
+  },
+  {
+   "id": "gad3-2018-01-11-800",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2018-01-08",
+   "fin": "2018-01-11",
+   "muestra": 800,
+   "pct": {
+    "PP": 24.7,
+    "PSOE": 24.2,
+    "UP": 14.7,
+    "Cs": 26.2,
+    "ERC": 2.9,
+    "PDeCAT": 1.9,
+    "PNV": 1.3,
+    "Bildu": 0.7,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "simplelogica-2018-01-08-1079",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2018-01-02",
+   "fin": "2018-01-08",
+   "muestra": 1079,
+   "pct": {
+    "PP": 21.8,
+    "PSOE": 23.4,
+    "UP": 17.8,
+    "Cs": 24.1
+   }
+  },
+  {
+   "id": "celestetel-2018-01-05-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2018-01-02",
+   "fin": "2018-01-05",
+   "muestra": 1100,
+   "pct": {
+    "PP": 29.8,
+    "PSOE": 25.1,
+    "UP": 16.9,
+    "Cs": 18.6,
+    "ERC": 2.5,
+    "PDeCAT": 1.7,
+    "PNV": 1.2,
+    "PACMA": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 0.2
+   }
+  },
+  {
+   "id": "ncreport-2017-12-30-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2017-12-26",
+   "fin": "2017-12-30",
+   "muestra": 1000,
+   "pct": {
+    "PP": 30.0,
+    "PSOE": 23.8,
+    "UP": 16.1,
+    "Cs": 18.8,
+    "ERC": 3.0,
+    "PDeCAT": 1.3,
+    "PNV": 1.1,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 0.7
+   }
+  },
+  {
+   "id": "invymark-2017-12-29-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-12-25",
+   "fin": "2017-12-29",
+   "muestra": null,
+   "pct": {
+    "PP": 27.6,
+    "PSOE": 23.3,
+    "UP": 15.7,
+    "Cs": 22.4,
+    "ERC": 2.3,
+    "PDeCAT": 2.3
+   }
+  },
+  {
+   "id": "sociometrica-2017-12-29-1000",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2017-12-22",
+   "fin": "2017-12-29",
+   "muestra": 1000,
+   "pct": {
+    "PP": 24.1,
+    "PSOE": 22.5,
+    "UP": 16.2,
+    "Cs": 23.9,
+    "ERC": 3.5,
+    "PDeCAT": 1.9,
+    "PNV": 1.1,
+    "PACMA": 1.4,
+    "Bildu": 0.7,
+    "CCa": 0.5,
+    "Vox": 1.7
+   }
+  },
+  {
+   "id": "jma-2017-12-26-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2017-12-26",
+   "fin": "2017-12-26",
+   "muestra": null,
+   "pct": {
+    "PP": 25.8,
+    "PSOE": 23.0,
+    "UP": 17.6,
+    "Cs": 22.4,
+    "ERC": 2.9,
+    "PDeCAT": 1.9,
+    "PNV": 1.4,
+    "Bildu": 0.8,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "simplelogica-2017-12-13-1077",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2017-12-05",
+   "fin": "2017-12-13",
+   "muestra": 1077,
+   "pct": {
+    "PP": 24.8,
+    "PSOE": 23.8,
+    "UP": 16.3,
+    "Cs": 22.8
+   }
+  },
+  {
+   "id": "celestetel-2017-12-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2017-12-01",
+   "fin": "2017-12-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 30.2,
+    "PSOE": 24.7,
+    "UP": 17.4,
+    "Cs": 17.7
+   }
+  },
+  {
+   "id": "invymark-2017-11-17-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-11-13",
+   "fin": "2017-11-17",
+   "muestra": null,
+   "pct": {
+    "PP": 30.1,
+    "PSOE": 25.3,
+    "UP": 17.0,
+    "Cs": 16.4,
+    "ERC": 2.8,
+    "PDeCAT": 1.6
+   }
+  },
+  {
+   "id": "celestetel-2017-11-10-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2017-11-06",
+   "fin": "2017-11-10",
+   "muestra": 1100,
+   "pct": {
+    "PP": 30.3,
+    "PSOE": 24.2,
+    "UP": 17.7,
+    "Cs": 17.5,
+    "ERC": 2.7,
+    "PDeCAT": 1.3,
+    "PNV": 1.2,
+    "PACMA": 1.3,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "metroscopia-2017-11-08-1730",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2017-11-06",
+   "fin": "2017-11-08",
+   "muestra": 1730,
+   "pct": {
+    "PP": 26.1,
+    "PSOE": 22.7,
+    "UP": 14.7,
+    "Cs": 22.7
+   }
+  },
+  {
+   "id": "simplelogica-2017-11-08-1071",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2017-11-02",
+   "fin": "2017-11-08",
+   "muestra": 1071,
+   "pct": {
+    "PP": 27.1,
+    "PSOE": 24.8,
+    "UP": 15.1,
+    "Cs": 21.6
+   }
+  },
+  {
+   "id": "sociometrica-2017-11-03-800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2017-10-27",
+   "fin": "2017-11-03",
+   "muestra": 800,
+   "pct": {
+    "PP": 27.5,
+    "PSOE": 24.8,
+    "UP": 15.7,
+    "Cs": 20.6,
+    "ERC": 2.1,
+    "PDeCAT": 1.7,
+    "PNV": 1.0,
+    "Bildu": 0.6,
+    "CCa": 0.3,
+    "Vox": 2.0
+   }
+  },
+  {
+   "id": "invymark-2017-11-02-1200",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-10-30",
+   "fin": "2017-11-02",
+   "muestra": 1200,
+   "pct": {
+    "PP": 30.3,
+    "PSOE": 25.1,
+    "UP": 17.5,
+    "Cs": 15.8
+   }
+  },
+  {
+   "id": "sigmados-2017-10-26-1250",
+   "empresa": "Sigma Dos/El Mundo",
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "inicio": "2017-10-23",
+   "fin": "2017-10-26",
+   "muestra": 1250,
+   "pct": {
+    "PP": 31.4,
+    "PSOE": 26.0,
+    "UP": 15.3,
+    "Cs": 16.7,
+    "ERC": 3.0,
+    "PDeCAT": 1.4,
+    "PNV": 1.4
+   }
+  },
+  {
+   "id": "invymark-2017-10-20-1100",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-10-16",
+   "fin": "2017-10-20",
+   "muestra": 1100,
+   "pct": {
+    "PP": 30.0,
+    "PSOE": 24.9,
+    "UP": 19.5,
+    "Cs": 14.6
+   }
+  },
+  {
+   "id": "jma-2017-10-14-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2017-10-14",
+   "fin": "2017-10-14",
+   "muestra": null,
+   "pct": {
+    "PP": 27.6,
+    "PSOE": 22.0,
+    "UP": 21.0,
+    "Cs": 18.2,
+    "ERC": 2.8,
+    "PDeCAT": 1.8,
+    "PNV": 1.3,
+    "Bildu": 0.7,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "ncreport-2017-10-14-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2017-10-11",
+   "fin": "2017-10-14",
+   "muestra": 1000,
+   "pct": {
+    "PP": 31.4,
+    "PSOE": 22.0,
+    "UP": 17.5,
+    "Cs": 17.8,
+    "ERC": 3.0,
+    "PDeCAT": 1.3,
+    "PNV": 1.1,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 0.6
+   }
+  },
+  {
+   "id": "cis-2017-10-11-2487",
+   "empresa": "CIS",
+   "empresa_base": "CIS",
+   "clave": "cis",
+   "inicio": "2017-10-02",
+   "fin": "2017-10-11",
+   "muestra": 2487,
+   "pct": {
+    "PP": 28.0,
+    "PSOE": 24.2,
+    "UP": 18.5,
+    "Cs": 17.5,
+    "ERC": 2.7,
+    "PDeCAT": 1.6,
+    "PNV": 1.3,
+    "Bildu": 0.7,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "dym-2017-10-11-982",
+   "empresa": "DYM/El Confidencial",
+   "empresa_base": "DYM",
+   "clave": "dym",
+   "inicio": "2017-09-26",
+   "fin": "2017-10-11",
+   "muestra": 982,
+   "pct": {
+    "PP": 29.9,
+    "PSOE": 24.0,
+    "UP": 16.9,
+    "Cs": 17.5
+   }
+  },
+  {
+   "id": "celestetel-2017-10-10-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2017-10-09",
+   "fin": "2017-10-10",
+   "muestra": 1100,
+   "pct": {
+    "PP": 30.6,
+    "PSOE": 23.6,
+    "UP": 18.1,
+    "Cs": 17.2,
+    "ERC": 2.8,
+    "PDeCAT": 1.3,
+    "PNV": 1.2,
+    "PACMA": 1.4,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "simplelogica-2017-10-10-1053",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2017-10-02",
+   "fin": "2017-10-10",
+   "muestra": 1053,
+   "pct": {
+    "PP": 27.7,
+    "PSOE": 24.2,
+    "UP": 16.6,
+    "Cs": 20.7
+   }
+  },
+  {
+   "id": "gad3-2017-10-06-1238",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2017-10-02",
+   "fin": "2017-10-06",
+   "muestra": 1238,
+   "pct": {
+    "PP": 29.8,
+    "PSOE": 21.8,
+    "UP": 17.9,
+    "Cs": 19.5,
+    "ERC": 3.1,
+    "PDeCAT": 1.8,
+    "PNV": 1.2,
+    "Bildu": 1.0,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "invymark-2017-09-15-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-09-11",
+   "fin": "2017-09-15",
+   "muestra": null,
+   "pct": {
+    "PP": 30.2,
+    "PSOE": 24.5,
+    "UP": 20.0,
+    "Cs": 14.1
+   }
+  },
+  {
+   "id": "simplelogica-2017-09-14-1078",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2017-09-05",
+   "fin": "2017-09-14",
+   "muestra": 1078,
+   "pct": {
+    "PP": 30.1,
+    "PSOE": 25.0,
+    "UP": 18.8,
+    "Cs": 15.8
+   }
+  },
+  {
+   "id": "gad3-2017-09-08-1000",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2017-09-04",
+   "fin": "2017-09-08",
+   "muestra": 1000,
+   "pct": {
+    "PP": 31.9,
+    "PSOE": 23.9,
+    "UP": 18.3,
+    "Cs": 15.8,
+    "ERC": 3.5,
+    "PDeCAT": 1.3,
+    "PNV": 1.4,
+    "Bildu": 0.7,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "celestetel-2017-09-08-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2017-09-01",
+   "fin": "2017-09-08",
+   "muestra": 1100,
+   "pct": {
+    "PP": 30.9,
+    "PSOE": 25.4,
+    "UP": 18.7,
+    "Cs": 14.9,
+    "ERC": 2.9,
+    "PDeCAT": 1.3,
+    "PNV": 1.2,
+    "PACMA": 1.3,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "myword-2017-09-07-1003",
+   "empresa": "MyWord/Cadena SER",
+   "empresa_base": "MyWord",
+   "clave": "myword",
+   "inicio": "2017-09-04",
+   "fin": "2017-09-07",
+   "muestra": 1003,
+   "pct": {
+    "PP": 30.9,
+    "PSOE": 26.1,
+    "UP": 17.5,
+    "Cs": 14.1
+   }
+  },
+  {
+   "id": "sigmados-2017-09-07-1000",
+   "empresa": "Sigma Dos/El Mundo",
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "inicio": "2017-09-04",
+   "fin": "2017-09-07",
+   "muestra": 1000,
+   "pct": {
+    "PP": 30.8,
+    "PSOE": 26.4,
+    "UP": 19.5,
+    "Cs": 12.7,
+    "ERC": 2.3,
+    "PDeCAT": 1.3,
+    "PNV": 1.2
+   }
+  },
+  {
+   "id": "jma-2017-09-01-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2017-09-01",
+   "fin": "2017-09-01",
+   "muestra": null,
+   "pct": {
+    "PP": 28.1,
+    "PSOE": 23.4,
+    "UP": 20.0,
+    "Cs": 17.4,
+    "ERC": 2.9,
+    "PDeCAT": 1.9,
+    "PNV": 1.4,
+    "Bildu": 0.7,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "simplelogica-2017-08-10-0",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2017-08-01",
+   "fin": "2017-08-10",
+   "muestra": null,
+   "pct": {
+    "PP": 30.8,
+    "PSOE": 25.0,
+    "UP": 18.8,
+    "Cs": 13.7
+   }
+  },
+  {
+   "id": "celestetel-2017-08-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2017-08-01",
+   "fin": "2017-08-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 31.1,
+    "PSOE": 25.0,
+    "UP": 18.9,
+    "Cs": 14.9,
+    "ERC": 2.9,
+    "PDeCAT": 1.4,
+    "PNV": 1.2,
+    "PACMA": 1.3,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "redondoasociados-2017-07-31-0",
+   "empresa": "Redondo & Asociados",
+   "empresa_base": "Redondo & Asociados",
+   "clave": "redondoasociados",
+   "inicio": "2017-07-31",
+   "fin": "2017-07-31",
+   "muestra": null,
+   "pct": {
+    "PP": 28.7,
+    "PSOE": 23.8,
+    "UP": 19.6,
+    "Cs": 14.3
+   }
+  },
+  {
+   "id": "metroscopia-2017-07-18-1700",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2017-07-14",
+   "fin": "2017-07-18",
+   "muestra": 1700,
+   "pct": {
+    "PP": 26.9,
+    "PSOE": 22.0,
+    "UP": 19.7,
+    "Cs": 18.5
+   }
+  },
+  {
+   "id": "invymark-2017-07-14-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-07-10",
+   "fin": "2017-07-14",
+   "muestra": null,
+   "pct": {
+    "PP": 30.7,
+    "PSOE": 23.4,
+    "UP": 21.3,
+    "Cs": 13.6
+   }
+  },
+  {
+   "id": "myword-2017-07-12-1003",
+   "empresa": "MyWord/Cadena SER",
+   "empresa_base": "MyWord",
+   "clave": "myword",
+   "inicio": "2017-07-07",
+   "fin": "2017-07-12",
+   "muestra": 1003,
+   "pct": {
+    "PP": 29.2,
+    "PSOE": 23.6,
+    "UP": 19.0,
+    "Cs": 14.5
+   }
+  },
+  {
+   "id": "simplelogica-2017-07-10-1003",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2017-07-03",
+   "fin": "2017-07-10",
+   "muestra": 1003,
+   "pct": {
+    "PP": 27.2,
+    "PSOE": 24.1,
+    "UP": 20.4,
+    "Cs": 17.2
+   }
+  },
+  {
+   "id": "cis-2017-07-10-2490",
+   "empresa": "CIS",
+   "empresa_base": "CIS",
+   "clave": "cis",
+   "inicio": "2017-07-01",
+   "fin": "2017-07-10",
+   "muestra": 2490,
+   "pct": {
+    "PP": 28.8,
+    "PSOE": 24.9,
+    "UP": 20.3,
+    "Cs": 14.5,
+    "ERC": 2.9,
+    "PDeCAT": 1.7,
+    "PNV": 1.0,
+    "Bildu": 0.8,
+    "CCa": 0.4
+   }
+  },
+  {
+   "id": "ncreport-2017-07-09-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2017-07-09",
+   "fin": "2017-07-09",
+   "muestra": 1000,
+   "pct": {
+    "PP": 34.2,
+    "PSOE": 22.3,
+    "UP": 19.1,
+    "Cs": 13.9,
+    "ERC": 2.9,
+    "PDeCAT": 1.2,
+    "PNV": 1.0,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 0.4
+   }
+  },
+  {
+   "id": "celestetel-2017-07-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2017-07-03",
+   "fin": "2017-07-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 31.6,
+    "PSOE": 24.4,
+    "UP": 18.8,
+    "Cs": 15.1,
+    "ERC": 2.9,
+    "PDeCAT": 1.3,
+    "PNV": 1.1,
+    "PACMA": 1.4,
+    "Bildu": 0.8,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "jma-2017-07-05-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2017-07-05",
+   "fin": "2017-07-05",
+   "muestra": null,
+   "pct": {
+    "PP": 29.2,
+    "PSOE": 25.5,
+    "UP": 18.5,
+    "Cs": 15.3,
+    "ERC": 2.8,
+    "PDeCAT": 1.9,
+    "PNV": 1.1,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "invymark-2017-06-30-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-06-26",
+   "fin": "2017-06-30",
+   "muestra": null,
+   "pct": {
+    "PP": 30.0,
+    "PSOE": 24.2,
+    "UP": 21.1,
+    "Cs": 13.8
+   }
+  },
+  {
+   "id": "metroscopia-2017-06-28-1017",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2017-06-27",
+   "fin": "2017-06-28",
+   "muestra": 1017,
+   "pct": {
+    "PP": 25.5,
+    "PSOE": 21.6,
+    "UP": 20.6,
+    "Cs": 18.8
+   }
+  },
+  {
+   "id": "dym-2017-06-28-1219",
+   "empresa": "DYM/El Confidencial",
+   "empresa_base": "DYM",
+   "clave": "dym",
+   "inicio": "2017-06-22",
+   "fin": "2017-06-28",
+   "muestra": 1219,
+   "pct": {
+    "PP": 30.9,
+    "PSOE": 25.0,
+    "UP": 17.5,
+    "Cs": 15.8
+   }
+  },
+  {
+   "id": "invymark-2017-06-16-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-06-12",
+   "fin": "2017-06-16",
+   "muestra": null,
+   "pct": {
+    "PP": 30.4,
+    "PSOE": 23.6,
+    "UP": 21.0,
+    "Cs": 14.2
+   }
+  },
+  {
+   "id": "sociometrica-2017-06-16-800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2017-06-06",
+   "fin": "2017-06-16",
+   "muestra": 800,
+   "pct": {
+    "PP": 26.7,
+    "PSOE": 24.2,
+    "UP": 19.1,
+    "Cs": 18.1,
+    "ERC": 3.3,
+    "PDeCAT": 2.0,
+    "PNV": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.5
+   }
+  },
+  {
+   "id": "simplelogica-2017-06-09-1004",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2017-06-05",
+   "fin": "2017-06-09",
+   "muestra": 1004,
+   "pct": {
+    "PP": 29.9,
+    "PSOE": 25.3,
+    "UP": 18.6,
+    "Cs": 16.8
+   }
+  },
+  {
+   "id": "invymark-2017-06-09-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-06-05",
+   "fin": "2017-06-09",
+   "muestra": null,
+   "pct": {
+    "PP": 30.9,
+    "PSOE": 23.0,
+    "UP": 20.9,
+    "Cs": 14.3
+   }
+  },
+  {
+   "id": "celestetel-2017-06-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2017-06-01",
+   "fin": "2017-06-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 31.9,
+    "PSOE": 23.5,
+    "UP": 19.0,
+    "Cs": 14.5,
+    "ERC": 2.8,
+    "PDeCAT": 1.4,
+    "PNV": 1.2,
+    "PACMA": 1.6,
+    "Bildu": 1.0,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "myword-2017-06-01-1008",
+   "empresa": "MyWord/Cadena SER",
+   "empresa_base": "MyWord",
+   "clave": "myword",
+   "inicio": "2017-05-30",
+   "fin": "2017-06-01",
+   "muestra": 1008,
+   "pct": {
+    "PP": 28.6,
+    "PSOE": 24.8,
+    "UP": 18.9,
+    "Cs": 15.7
+   }
+  },
+  {
+   "id": "gad3-2017-06-01-805",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2017-05-29",
+   "fin": "2017-06-01",
+   "muestra": 805,
+   "pct": {
+    "PP": 30.7,
+    "PSOE": 25.9,
+    "UP": 17.8,
+    "Cs": 15.4,
+    "ERC": 2.9,
+    "PDeCAT": 1.5,
+    "PNV": 1.4,
+    "Bildu": 0.8,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "metroscopia-2017-06-01-1768",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2017-05-29",
+   "fin": "2017-06-01",
+   "muestra": 1768,
+   "pct": {
+    "PP": 25.9,
+    "PSOE": 22.8,
+    "UP": 19.2,
+    "Cs": 18.7
+   }
+  },
+  {
+   "id": "ncreport-2017-06-01-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2017-05-22",
+   "fin": "2017-06-01",
+   "muestra": 1000,
+   "pct": {
+    "PP": 36.0,
+    "PSOE": 20.5,
+    "UP": 20.2,
+    "Cs": 12.6,
+    "ERC": 2.8,
+    "PDeCAT": 1.5,
+    "PNV": 1.1,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 0.3
+   }
+  },
+  {
+   "id": "invymark-2017-05-26-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-05-22",
+   "fin": "2017-05-26",
+   "muestra": null,
+   "pct": {
+    "PP": 31.2,
+    "PSOE": 22.8,
+    "UP": 20.8,
+    "Cs": 14.1
+   }
+  },
+  {
+   "id": "redondoasociados-2017-05-22-0",
+   "empresa": "Redondo & Asociados",
+   "empresa_base": "Redondo & Asociados",
+   "clave": "redondoasociados",
+   "inicio": "2017-05-22",
+   "fin": "2017-05-22",
+   "muestra": null,
+   "pct": {
+    "PP": 29.0,
+    "PSOE": 23.0,
+    "UP": 22.0,
+    "Cs": 16.0
+   }
+  },
+  {
+   "id": "invymark-2017-05-19-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-05-15",
+   "fin": "2017-05-19",
+   "muestra": null,
+   "pct": {
+    "PP": 31.7,
+    "PSOE": 22.0,
+    "UP": 21.2,
+    "Cs": 14.2
+   }
+  },
+  {
+   "id": "simplelogica-2017-05-12-1002",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2017-05-03",
+   "fin": "2017-05-12",
+   "muestra": 1002,
+   "pct": {
+    "PP": 30.9,
+    "PSOE": 22.3,
+    "UP": 19.8,
+    "Cs": 14.8
+   }
+  },
+  {
+   "id": "sigmados-2017-05-10-1200",
+   "empresa": "Sigma Dos/El Mundo",
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "inicio": "2017-05-08",
+   "fin": "2017-05-10",
+   "muestra": 1200,
+   "pct": {
+    "PP": 31.1,
+    "PSOE": 23.5,
+    "UP": 21.6,
+    "Cs": 14.3,
+    "ERC": 2.6,
+    "PDeCAT": 1.0,
+    "PNV": 1.2
+   }
+  },
+  {
+   "id": "celestetel-2017-05-05-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2017-05-02",
+   "fin": "2017-05-05",
+   "muestra": 1100,
+   "pct": {
+    "PP": 34.8,
+    "PSOE": 22.5,
+    "UP": 19.3,
+    "Cs": 12.7,
+    "ERC": 2.8,
+    "PDeCAT": 1.5,
+    "PNV": 1.2,
+    "PACMA": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "invymark-2017-05-05-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-05-02",
+   "fin": "2017-05-05",
+   "muestra": null,
+   "pct": {
+    "PP": 32.0,
+    "PSOE": 21.7,
+    "UP": 21.6,
+    "Cs": 13.8
+   }
+  },
+  {
+   "id": "jma-2017-05-02-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2017-05-02",
+   "fin": "2017-05-02",
+   "muestra": null,
+   "pct": {
+    "PP": 27.0,
+    "PSOE": 22.7,
+    "UP": 21.8,
+    "Cs": 17.1,
+    "ERC": 2.7,
+    "PDeCAT": 1.8,
+    "PNV": 1.1,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "sociometrica-2017-04-12-800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2017-04-05",
+   "fin": "2017-04-12",
+   "muestra": 800,
+   "pct": {
+    "PP": 31.6,
+    "PSOE": 21.2,
+    "UP": 19.4,
+    "Cs": 16.7,
+    "ERC": 2.8,
+    "PDeCAT": 1.9,
+    "PNV": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.4
+   }
+  },
+  {
+   "id": "ncreport-2017-04-11-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2017-04-05",
+   "fin": "2017-04-11",
+   "muestra": 1000,
+   "pct": {
+    "PP": 36.8,
+    "PSOE": 21.0,
+    "UP": 20.2,
+    "Cs": 11.8,
+    "ERC": 2.7,
+    "PDeCAT": 1.5,
+    "PNV": 1.0,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 0.2
+   }
+  },
+  {
+   "id": "simplelogica-2017-04-10-1008",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2017-04-03",
+   "fin": "2017-04-10",
+   "muestra": 1008,
+   "pct": {
+    "PP": 30.8,
+    "PSOE": 23.8,
+    "UP": 19.3,
+    "Cs": 13.9
+   }
+  },
+  {
+   "id": "cis-2017-04-08-2492",
+   "empresa": "CIS",
+   "empresa_base": "CIS",
+   "clave": "cis",
+   "inicio": "2017-04-01",
+   "fin": "2017-04-08",
+   "muestra": 2492,
+   "pct": {
+    "PP": 31.5,
+    "PSOE": 19.9,
+    "UP": 19.7,
+    "Cs": 14.9,
+    "ERC": 2.9,
+    "PDeCAT": 2.0,
+    "PNV": 1.1,
+    "Bildu": 1.1,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "celestetel-2017-04-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2017-04-03",
+   "fin": "2017-04-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 35.1,
+    "PSOE": 22.3,
+    "UP": 19.2,
+    "Cs": 12.9,
+    "ERC": 2.8,
+    "PDeCAT": 1.5,
+    "PNV": 1.1,
+    "PACMA": 1.3,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "metroscopia-2017-04-06-3166",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2017-03-30",
+   "fin": "2017-04-06",
+   "muestra": 3166,
+   "pct": {
+    "PP": 30.2,
+    "PSOE": 20.2,
+    "UP": 20.7,
+    "Cs": 17.4
+   }
+  },
+  {
+   "id": "invymark-2017-03-31-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-03-27",
+   "fin": "2017-03-31",
+   "muestra": null,
+   "pct": {
+    "PP": 33.2,
+    "PSOE": 21.4,
+    "UP": 21.4,
+    "Cs": 12.9
+   }
+  },
+  {
+   "id": "myword-2017-03-26-1055",
+   "empresa": "MyWord/Cadena SER",
+   "empresa_base": "MyWord",
+   "clave": "myword",
+   "inicio": "2017-03-21",
+   "fin": "2017-03-26",
+   "muestra": 1055,
+   "pct": {
+    "PP": 30.7,
+    "PSOE": 22.6,
+    "UP": 20.3,
+    "Cs": 14.0
+   }
+  },
+  {
+   "id": "invymark-2017-03-17-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-03-13",
+   "fin": "2017-03-17",
+   "muestra": null,
+   "pct": {
+    "PP": 32.6,
+    "PSOE": 21.0,
+    "UP": 21.9,
+    "Cs": 13.4
+   }
+  },
+  {
+   "id": "ncreport-2017-03-17-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2017-03-13",
+   "fin": "2017-03-17",
+   "muestra": 1000,
+   "pct": {
+    "PP": 37.0,
+    "PSOE": 20.8,
+    "UP": 20.2,
+    "Cs": 11.3,
+    "ERC": 2.7,
+    "PDeCAT": 1.6,
+    "PNV": 1.1,
+    "Bildu": 1.0,
+    "CCa": 0.3,
+    "Vox": 0.3
+   }
+  },
+  {
+   "id": "dym-2017-03-15-1010",
+   "empresa": "DYM/El Confidencial",
+   "empresa_base": "DYM",
+   "clave": "dym",
+   "inicio": "2017-03-07",
+   "fin": "2017-03-15",
+   "muestra": 1010,
+   "pct": {
+    "PP": 31.0,
+    "PSOE": 20.0,
+    "UP": 19.9,
+    "Cs": 16.2
+   }
+  },
+  {
+   "id": "jma-2017-03-12-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2017-03-12",
+   "fin": "2017-03-12",
+   "muestra": null,
+   "pct": {
+    "PP": 31.2,
+    "PSOE": 18.2,
+    "UP": 23.7,
+    "Cs": 16.2,
+    "ERC": 2.6,
+    "PDeCAT": 2.2,
+    "PNV": 1.3,
+    "Bildu": 0.9,
+    "CCa": 0.4
+   }
+  },
+  {
+   "id": "metroscopia-2017-03-09-1230",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2017-03-06",
+   "fin": "2017-03-09",
+   "muestra": 1230,
+   "pct": {
+    "PP": 31.2,
+    "PSOE": 19.0,
+    "UP": 21.5,
+    "Cs": 16.5
+   }
+  },
+  {
+   "id": "simplelogica-2017-03-09-1006",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2017-03-01",
+   "fin": "2017-03-09",
+   "muestra": 1006,
+   "pct": {
+    "PP": 29.9,
+    "PSOE": 20.9,
+    "UP": 20.0,
+    "Cs": 15.7
+   }
+  },
+  {
+   "id": "celestetel-2017-03-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2017-03-01",
+   "fin": "2017-03-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 35.6,
+    "PSOE": 22.1,
+    "UP": 19.3,
+    "Cs": 12.1,
+    "ERC": 2.8,
+    "PDeCAT": 1.6,
+    "PNV": 1.2,
+    "PACMA": 1.4,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "invymark-2017-03-03-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-02-27",
+   "fin": "2017-03-03",
+   "muestra": null,
+   "pct": {
+    "PP": 33.2,
+    "PSOE": 21.3,
+    "UP": 21.5,
+    "Cs": 12.8
+   }
+  },
+  {
+   "id": "sigmados-2017-03-02-1000",
+   "empresa": "Sigma Dos/El Mundo",
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "inicio": "2017-02-27",
+   "fin": "2017-03-02",
+   "muestra": 1000,
+   "pct": {
+    "PP": 34.3,
+    "PSOE": 20.2,
+    "UP": 21.7,
+    "Cs": 12.6,
+    "ERC": 2.6,
+    "PDeCAT": 1.6,
+    "PNV": 1.3
+   }
+  },
+  {
+   "id": "gesop-2017-02-22-1000",
+   "empresa": "GESOP/El Periódico",
+   "empresa_base": "GESOP",
+   "clave": "gesop",
+   "inicio": "2017-02-19",
+   "fin": "2017-02-22",
+   "muestra": 1000,
+   "pct": {
+    "PP": 32.2,
+    "PSOE": 21.1,
+    "UP": 21.7,
+    "Cs": 14.0,
+    "ERC": 2.8,
+    "PDeCAT": 1.4
+   }
+  },
+  {
+   "id": "sociometrica-2017-02-17-800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2017-02-13",
+   "fin": "2017-02-17",
+   "muestra": 800,
+   "pct": {
+    "PP": 32.5,
+    "PSOE": 18.6,
+    "UP": 20.2,
+    "Cs": 15.4,
+    "ERC": 3.0,
+    "PDeCAT": 1.5,
+    "PNV": 1.4,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "invymark-2017-02-17-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-02-13",
+   "fin": "2017-02-17",
+   "muestra": null,
+   "pct": {
+    "PP": 33.3,
+    "PSOE": 21.1,
+    "UP": 22.0,
+    "Cs": 12.5
+   }
+  },
+  {
+   "id": "jma-2017-02-13-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2017-02-13",
+   "fin": "2017-02-13",
+   "muestra": null,
+   "pct": {
+    "PP": 32.7,
+    "PSOE": 18.0,
+    "UP": 24.2,
+    "Cs": 14.4
+   }
+  },
+  {
+   "id": "simplelogica-2017-02-10-1005",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2017-02-06",
+   "fin": "2017-02-10",
+   "muestra": 1005,
+   "pct": {
+    "PP": 31.0,
+    "PSOE": 21.4,
+    "UP": 22.6,
+    "Cs": 13.7
+   }
+  },
+  {
+   "id": "celestetel-2017-02-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2017-02-01",
+   "fin": "2017-02-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 35.7,
+    "PSOE": 21.3,
+    "UP": 19.7,
+    "Cs": 12.1,
+    "ERC": 2.8,
+    "PDeCAT": 1.8,
+    "PNV": 1.2,
+    "PACMA": 1.4,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "myword-2017-02-06-1000",
+   "empresa": "MyWord/Cadena SER",
+   "empresa_base": "MyWord",
+   "clave": "myword",
+   "inicio": "2017-01-31",
+   "fin": "2017-02-06",
+   "muestra": 1000,
+   "pct": {
+    "PP": 32.7,
+    "PSOE": 21.8,
+    "UP": 20.5,
+    "Cs": 12.6
+   }
+  },
+  {
+   "id": "ncreport-2017-02-02-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2017-01-28",
+   "fin": "2017-02-02",
+   "muestra": 1000,
+   "pct": {
+    "PP": 36.8,
+    "PSOE": 19.9,
+    "UP": 20.8,
+    "Cs": 11.5,
+    "ERC": 2.7,
+    "PDeCAT": 1.8,
+    "PNV": 1.1,
+    "Bildu": 1.0,
+    "CCa": 0.3,
+    "Vox": 0.3
+   }
+  },
+  {
+   "id": "gad3-2017-02-02-805",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2017-01-25",
+   "fin": "2017-02-02",
+   "muestra": 805,
+   "pct": {
+    "PP": 34.2,
+    "PSOE": 20.4,
+    "UP": 20.8,
+    "Cs": 13.8,
+    "ERC": 2.8,
+    "PDeCAT": 1.6,
+    "PNV": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "invymark-2017-01-27-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-01-23",
+   "fin": "2017-01-27",
+   "muestra": null,
+   "pct": {
+    "PP": 34.1,
+    "PSOE": 20.6,
+    "UP": 22.6,
+    "Cs": 11.7
+   }
+  },
+  {
+   "id": "simplelogica-2017-01-13-0",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2017-01-09",
+   "fin": "2017-01-13",
+   "muestra": null,
+   "pct": {
+    "PP": 33.4,
+    "PSOE": 18.2,
+    "UP": 22.6,
+    "Cs": 14.7
+   }
+  },
+  {
+   "id": "invymark-2017-01-13-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2017-01-09",
+   "fin": "2017-01-13",
+   "muestra": null,
+   "pct": {
+    "PP": 34.3,
+    "PSOE": 20.2,
+    "UP": 22.9,
+    "Cs": 11.3,
+    "ERC": 2.6,
+    "PDeCAT": 1.6,
+    "PNV": 1.2
+   }
+  },
+  {
+   "id": "metroscopia-2017-01-12-1578",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2017-01-10",
+   "fin": "2017-01-12",
+   "muestra": 1578,
+   "pct": {
+    "PP": 33.2,
+    "PSOE": 19.1,
+    "UP": 21.7,
+    "Cs": 15.5
+   }
+  },
+  {
+   "id": "cis-2017-01-12-2490",
+   "empresa": "CIS",
+   "empresa_base": "CIS",
+   "clave": "cis",
+   "inicio": "2017-01-02",
+   "fin": "2017-01-12",
+   "muestra": 2490,
+   "pct": {
+    "PP": 33.0,
+    "PSOE": 18.6,
+    "UP": 21.7,
+    "Cs": 12.4,
+    "ERC": 3.0,
+    "PDeCAT": 1.7,
+    "PNV": 1.8,
+    "Bildu": 0.9,
+    "CCa": 0.2
+   }
+  },
+  {
+   "id": "celestetel-2017-01-09-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2017-01-02",
+   "fin": "2017-01-09",
+   "muestra": 1100,
+   "pct": {
+    "PP": 35.9,
+    "PSOE": 20.7,
+    "UP": 20.3,
+    "Cs": 12.4,
+    "ERC": 2.8,
+    "PDeCAT": 1.9,
+    "PNV": 1.2,
+    "PACMA": 1.4,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "gipeyop-2017-01-04-5414",
+   "empresa": "GIPEyOP/Mediaflows",
+   "empresa_base": "GIPEyOP",
+   "clave": "gipeyop",
+   "inicio": "2016-12-14",
+   "fin": "2017-01-04",
+   "muestra": 5414,
+   "pct": {
+    "PP": 34.9,
+    "PSOE": 19.9,
+    "UP": 20.6,
+    "Cs": 13.3,
+    "ERC": 2.9,
+    "PDeCAT": 1.8,
+    "PNV": 1.3,
+    "Bildu": 1.0,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "jma-2017-01-02-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2017-01-02",
+   "fin": "2017-01-02",
+   "muestra": null,
+   "pct": {
+    "PP": 32.1,
+    "PSOE": 17.4,
+    "UP": 24.8,
+    "Cs": 14.8,
+    "ERC": 2.7,
+    "PDeCAT": 2.2,
+    "PNV": 1.3,
+    "Bildu": 0.9,
+    "CCa": 0.4
+   }
+  },
+  {
+   "id": "sigmados-2016-12-29-1000",
+   "empresa": "Sigma Dos/El Mundo",
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "inicio": "2016-12-23",
+   "fin": "2016-12-29",
+   "muestra": 1000,
+   "pct": {
+    "PP": 34.8,
+    "PSOE": 19.4,
+    "UP": 22.5,
+    "Cs": 12.6,
+    "ERC": 2.7,
+    "PDeCAT": 1.7,
+    "PNV": 1.2
+   }
+  },
+  {
+   "id": "sociometrica-2016-12-29-800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2016-12-22",
+   "fin": "2016-12-29",
+   "muestra": 800,
+   "pct": {
+    "PP": 33.0,
+    "PSOE": 18.8,
+    "UP": 21.1,
+    "Cs": 15.5,
+    "ERC": 2.7,
+    "PDeCAT": 1.2,
+    "PNV": 1.5,
+    "Bildu": 0.8,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "invymark-2016-12-23-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2016-12-19",
+   "fin": "2016-12-23",
+   "muestra": null,
+   "pct": {
+    "PP": 34.5,
+    "PSOE": 20.4,
+    "UP": 22.4,
+    "Cs": 11.8
+   }
+  },
+  {
+   "id": "redondoasociados-2016-12-20-0",
+   "empresa": "Redondo & Asociados",
+   "empresa_base": "Redondo & Asociados",
+   "clave": "redondoasociados",
+   "inicio": "2016-12-20",
+   "fin": "2016-12-20",
+   "muestra": null,
+   "pct": {
+    "PP": 34.0,
+    "PSOE": 20.0,
+    "UP": 22.0,
+    "Cs": 12.0
+   }
+  },
+  {
+   "id": "ncreport-2016-12-17-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2016-12-13",
+   "fin": "2016-12-17",
+   "muestra": 1000,
+   "pct": {
+    "PP": 36.9,
+    "PSOE": 19.3,
+    "UP": 21.2,
+    "Cs": 11.6,
+    "ERC": 2.7,
+    "PDeCAT": 1.8,
+    "PNV": 1.1,
+    "Bildu": 1.0,
+    "CCa": 0.3,
+    "Vox": 0.4
+   }
+  },
+  {
+   "id": "gad3-2016-12-16-800",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2016-12-13",
+   "fin": "2016-12-16",
+   "muestra": 800,
+   "pct": {
+    "PP": 34.1,
+    "PSOE": 19.2,
+    "UP": 21.6,
+    "Cs": 14.2,
+    "ERC": 2.8,
+    "PDeCAT": 2.1,
+    "PNV": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "invymark-2016-12-16-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2016-12-12",
+   "fin": "2016-12-16",
+   "muestra": null,
+   "pct": {
+    "PP": 34.7,
+    "PSOE": 19.9,
+    "UP": 22.6,
+    "Cs": 12.1
+   }
+  },
+  {
+   "id": "simplelogica-2016-12-07-1000",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2016-12-01",
+   "fin": "2016-12-07",
+   "muestra": 1000,
+   "pct": {
+    "PP": 33.9,
+    "PSOE": 19.9,
+    "UP": 21.0,
+    "Cs": 14.5
+   }
+  },
+  {
+   "id": "celestetel-2016-12-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2016-12-01",
+   "fin": "2016-12-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 35.9,
+    "PSOE": 20.2,
+    "UP": 20.7,
+    "Cs": 12.7,
+    "ERC": 2.8,
+    "PDeCAT": 1.9,
+    "PNV": 1.2,
+    "PACMA": 1.4,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "sociometrica-2016-12-02-800",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2016-11-28",
+   "fin": "2016-12-02",
+   "muestra": 800,
+   "pct": {
+    "PP": 32.4,
+    "PSOE": 19.6,
+    "UP": 22.4,
+    "Cs": 15.4,
+    "ERC": 2.8,
+    "PDeCAT": 1.3,
+    "PNV": 1.3,
+    "Bildu": 0.7,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "invymark-2016-12-02-1200",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2016-11-28",
+   "fin": "2016-12-02",
+   "muestra": 1200,
+   "pct": {
+    "PP": 34.3,
+    "PSOE": 20.0,
+    "UP": 22.9,
+    "Cs": 12.4
+   }
+  },
+  {
+   "id": "metroscopia-2016-11-30-2650",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2016-11-23",
+   "fin": "2016-11-30",
+   "muestra": 2650,
+   "pct": {
+    "PP": 34.2,
+    "PSOE": 17.9,
+    "UP": 22.9,
+    "Cs": 14.5
+   }
+  },
+  {
+   "id": "myword-2016-11-22-1000",
+   "empresa": "MyWord/Cadena SER",
+   "empresa_base": "MyWord",
+   "clave": "myword",
+   "inicio": "2016-11-17",
+   "fin": "2016-11-22",
+   "muestra": 1000,
+   "pct": {
+    "PP": 33.8,
+    "PSOE": 18.6,
+    "UP": 22.5,
+    "Cs": 12.4
+   }
+  },
+  {
+   "id": "ncreport-2016-11-19-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2016-11-15",
+   "fin": "2016-11-19",
+   "muestra": 1000,
+   "pct": {
+    "PP": 36.9,
+    "PSOE": 19.5,
+    "UP": 20.6,
+    "Cs": 11.4,
+    "ERC": 2.8,
+    "PDeCAT": 1.6,
+    "PNV": 1.1,
+    "Bildu": 0.9,
+    "CCa": 0.3,
+    "Vox": 0.3
+   }
+  },
+  {
+   "id": "invymark-2016-11-18-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2016-11-14",
+   "fin": "2016-11-18",
+   "muestra": null,
+   "pct": {
+    "PP": 34.8,
+    "PSOE": 19.5,
+    "UP": 22.7,
+    "Cs": 12.1,
+    "ERC": 2.5,
+    "PDeCAT": 1.8,
+    "PNV": 1.2
+   }
+  },
+  {
+   "id": "jma-2016-11-16-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2016-11-16",
+   "fin": "2016-11-16",
+   "muestra": null,
+   "pct": {
+    "PP": 34.0,
+    "PSOE": 18.3,
+    "UP": 24.1,
+    "Cs": 13.1,
+    "ERC": 2.7,
+    "PDeCAT": 2.2,
+    "PNV": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.4
+   }
+  },
+  {
+   "id": "estudiodesociologiaconsultores-2016-11-12-1100",
+   "empresa": "Estudio de Sociología Consultores",
+   "empresa_base": "Estudio de Sociología Consultores",
+   "clave": "estudiodesociologiaconsultores",
+   "inicio": "2016-11-07",
+   "fin": "2016-11-12",
+   "muestra": 1100,
+   "pct": {
+    "PP": 36.8,
+    "PSOE": 18.1,
+    "UP": 18.2,
+    "Cs": 14.0
+   }
+  },
+  {
+   "id": "metroscopia-2016-11-11-1302",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2016-11-07",
+   "fin": "2016-11-11",
+   "muestra": 1302,
+   "pct": {
+    "PP": 35.7,
+    "PSOE": 17.9,
+    "UP": 23.1,
+    "Cs": 13.0
+   }
+  },
+  {
+   "id": "simplelogica-2016-11-08-1003",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2016-11-02",
+   "fin": "2016-11-08",
+   "muestra": 1003,
+   "pct": {
+    "PP": 34.1,
+    "PSOE": 17.6,
+    "UP": 22.9,
+    "Cs": 14.5
+   }
+  },
+  {
+   "id": "celestetel-2016-11-07-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2016-11-02",
+   "fin": "2016-11-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 36.2,
+    "PSOE": 20.4,
+    "UP": 20.2,
+    "Cs": 12.8,
+    "ERC": 2.8,
+    "PDeCAT": 2.0,
+    "PNV": 1.2,
+    "PACMA": 1.3,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "invymark-2016-11-04-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2016-10-31",
+   "fin": "2016-11-04",
+   "muestra": null,
+   "pct": {
+    "PP": 35.0,
+    "PSOE": 19.1,
+    "UP": 22.6,
+    "Cs": 12.4,
+    "ERC": 2.6,
+    "PDeCAT": 1.8,
+    "PNV": 1.2
+   }
+  },
+  {
+   "id": "invymark-2016-10-28-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2016-10-24",
+   "fin": "2016-10-28",
+   "muestra": null,
+   "pct": {
+    "PP": 35.3,
+    "PSOE": 18.5,
+    "UP": 23.2,
+    "Cs": 12.0,
+    "ERC": 2.7,
+    "PDeCAT": 1.9,
+    "PNV": 1.2
+   }
+  },
+  {
+   "id": "metroscopia-2016-10-13-1388",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2016-10-10",
+   "fin": "2016-10-13",
+   "muestra": 1388,
+   "pct": {
+    "PP": 37.8,
+    "PSOE": 18.0,
+    "UP": 22.1,
+    "Cs": 11.6
+   }
+  },
+  {
+   "id": "simplelogica-2016-10-11-1002",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2016-10-03",
+   "fin": "2016-10-11",
+   "muestra": 1002,
+   "pct": {
+    "PP": 36.8,
+    "PSOE": 15.9,
+    "UP": 23.5,
+    "Cs": 13.9
+   }
+  },
+  {
+   "id": "cis-2016-10-10-2491",
+   "empresa": "CIS",
+   "empresa_base": "CIS",
+   "clave": "cis",
+   "inicio": "2016-10-01",
+   "fin": "2016-10-10",
+   "muestra": 2491,
+   "pct": {
+    "PP": 34.5,
+    "PSOE": 17.0,
+    "UP": 21.8,
+    "Cs": 12.8,
+    "ERC": 3.0,
+    "PDeCAT": 1.7,
+    "PNV": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.5
+   }
+  },
+  {
+   "id": "ncreport-2016-10-07-500",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2016-10-03",
+   "fin": "2016-10-07",
+   "muestra": 500,
+   "pct": {
+    "PP": 36.7,
+    "PSOE": 19.9,
+    "UP": 20.6,
+    "Cs": 11.9,
+    "Vox": 0.3
+   }
+  },
+  {
+   "id": "estudiodesociologiaconsultores-2016-10-07-1100",
+   "empresa": "Estudio de Sociología Consultores",
+   "empresa_base": "Estudio de Sociología Consultores",
+   "clave": "estudiodesociologiaconsultores",
+   "inicio": "2016-10-03",
+   "fin": "2016-10-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 36.5,
+    "PSOE": 19.4,
+    "UP": 18.6,
+    "Cs": 12.5
+   }
+  },
+  {
+   "id": "invymark-2016-10-07-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2016-10-03",
+   "fin": "2016-10-07",
+   "muestra": null,
+   "pct": {
+    "PP": 34.1,
+    "PSOE": 20.0,
+    "UP": 21.8,
+    "Cs": 13.4,
+    "ERC": 2.6,
+    "PDeCAT": 1.9,
+    "PNV": 1.2
+   }
+  },
+  {
+   "id": "celestetel-2016-10-06-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2016-10-01",
+   "fin": "2016-10-06",
+   "muestra": 1100,
+   "pct": {
+    "PP": 36.1,
+    "PSOE": 20.9,
+    "UP": 20.5,
+    "Cs": 12.5,
+    "ERC": 2.8,
+    "PDeCAT": 2.0,
+    "PNV": 1.2,
+    "PACMA": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "dym-2016-10-06-1132",
+   "empresa": "DYM/El Confidencial",
+   "empresa_base": "DYM",
+   "clave": "dym",
+   "inicio": "2016-09-27",
+   "fin": "2016-10-06",
+   "muestra": 1132,
+   "pct": {
+    "PP": 36.2,
+    "PSOE": 19.6,
+    "UP": 21.7,
+    "Cs": 11.8
+   }
+  },
+  {
+   "id": "jma-2016-10-03-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2016-10-03",
+   "fin": "2016-10-03",
+   "muestra": null,
+   "pct": {
+    "PP": 33.0,
+    "PSOE": 20.3,
+    "UP": 22.6,
+    "Cs": 13.4,
+    "ERC": 2.8,
+    "PDeCAT": 2.3,
+    "PNV": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.4
+   }
+  },
+  {
+   "id": "sociometrica-2016-09-30-1000",
+   "empresa": "SocioMétrica/El Español",
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "inicio": "2016-09-26",
+   "fin": "2016-09-30",
+   "muestra": 1000,
+   "pct": {
+    "PP": 33.8,
+    "PSOE": 19.9,
+    "UP": 21.4,
+    "Cs": 14.6,
+    "ERC": 2.8,
+    "PDeCAT": 1.9,
+    "PNV": 1.4,
+    "Bildu": 0.9,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "gad3-2016-09-30-3400",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2016-09-05",
+   "fin": "2016-09-30",
+   "muestra": 3400,
+   "pct": {
+    "PP": 36.4,
+    "PSOE": 18.6,
+    "UP": 20.8,
+    "Cs": 11.9,
+    "ERC": 2.8,
+    "PDeCAT": 2.1,
+    "PNV": 1.4,
+    "Bildu": 1.0,
+    "CCa": 0.4
+   }
+  },
+  {
+   "id": "gad3-2016-09-28-2400",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2016-09-05",
+   "fin": "2016-09-28",
+   "muestra": 2400,
+   "pct": {
+    "PP": 35.4,
+    "PSOE": 19.8,
+    "UP": 20.9,
+    "Cs": 11.5,
+    "ERC": 2.7,
+    "PDeCAT": 2.1,
+    "PNV": 1.4,
+    "Bildu": 1.0,
+    "CCa": 0.4
+   }
+  },
+  {
+   "id": "jma-2016-09-14-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2016-09-14",
+   "fin": "2016-09-14",
+   "muestra": null,
+   "pct": {
+    "PP": 31.5,
+    "PSOE": 23.6,
+    "UP": 20.4,
+    "Cs": 13.7,
+    "ERC": 3.0,
+    "PDeCAT": 2.2,
+    "PNV": 1.3,
+    "Bildu": 0.9,
+    "CCa": 0.4
+   }
+  },
+  {
+   "id": "myword-2016-09-14-995",
+   "empresa": "MyWord/Cadena SER",
+   "empresa_base": "MyWord",
+   "clave": "myword",
+   "inicio": "2016-09-09",
+   "fin": "2016-09-14",
+   "muestra": 995,
+   "pct": {
+    "PP": 33.4,
+    "PSOE": 22.0,
+    "UP": 20.6,
+    "Cs": 12.9
+   }
+  },
+  {
+   "id": "simplelogica-2016-09-14-1046",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2016-09-01",
+   "fin": "2016-09-14",
+   "muestra": 1046,
+   "pct": {
+    "PP": 33.6,
+    "PSOE": 23.7,
+    "UP": 20.0,
+    "Cs": 12.8
+   }
+  },
+  {
+   "id": "gad3-2016-09-09-802",
+   "empresa": "GAD3/ABC",
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "inicio": "2016-09-06",
+   "fin": "2016-09-09",
+   "muestra": 802,
+   "pct": {
+    "PP": 33.9,
+    "PSOE": 21.1,
+    "UP": 20.5,
+    "Cs": 12.9,
+    "ERC": 2.7,
+    "PDeCAT": 2.1,
+    "PNV": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "invymark-2016-09-09-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2016-09-05",
+   "fin": "2016-09-09",
+   "muestra": null,
+   "pct": {
+    "PP": 33.7,
+    "PSOE": 21.8,
+    "UP": 20.1,
+    "Cs": 14.0
+   }
+  },
+  {
+   "id": "metroscopia-2016-09-08-1294",
+   "empresa": "Metroscopia/El País",
+   "empresa_base": "Metroscopia",
+   "clave": "metroscopia",
+   "inicio": "2016-09-06",
+   "fin": "2016-09-08",
+   "muestra": 1294,
+   "pct": {
+    "PP": 34.8,
+    "PSOE": 21.3,
+    "UP": 21.1,
+    "Cs": 12.0
+   }
+  },
+  {
+   "id": "estudiodesociologiaconsultores-2016-09-07-1100",
+   "empresa": "Estudio de Sociología Consultores",
+   "empresa_base": "Estudio de Sociología Consultores",
+   "clave": "estudiodesociologiaconsultores",
+   "inicio": "2016-09-01",
+   "fin": "2016-09-07",
+   "muestra": 1100,
+   "pct": {
+    "PP": 34.7,
+    "PSOE": 22.5,
+    "UP": 19.5,
+    "Cs": 11.5
+   }
+  },
+  {
+   "id": "ncreport-2016-09-03-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2016-08-29",
+   "fin": "2016-09-03",
+   "muestra": 1000,
+   "pct": {
+    "PP": 34.8,
+    "PSOE": 22.4,
+    "UP": 20.7,
+    "Cs": 12.1,
+    "ERC": 2.8,
+    "PDeCAT": 1.9,
+    "PNV": 1.2,
+    "Bildu": 0.8,
+    "CCa": 0.3,
+    "Vox": 0.3
+   }
+  },
+  {
+   "id": "celestetel-2016-08-27-1100",
+   "empresa": "Celeste-Tel/eldiario.es",
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "inicio": "2016-08-22",
+   "fin": "2016-08-27",
+   "muestra": 1100,
+   "pct": {
+    "PP": 34.0,
+    "PSOE": 22.3,
+    "UP": 20.9,
+    "Cs": 12.7,
+    "ERC": 2.5,
+    "PDeCAT": 2.0,
+    "PNV": 1.3,
+    "PACMA": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.3
+   }
+  },
+  {
+   "id": "simplelogica-2016-08-10-1049",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2016-08-01",
+   "fin": "2016-08-10",
+   "muestra": 1049,
+   "pct": {
+    "PP": 35.4,
+    "PSOE": 22.8,
+    "UP": 21.3,
+    "Cs": 12.3
+   }
+  },
+  {
+   "id": "jma-2016-08-02-0",
+   "empresa": "JM&A/Público",
+   "empresa_base": "JM&A",
+   "clave": "jma",
+   "inicio": "2016-08-02",
+   "fin": "2016-08-02",
+   "muestra": null,
+   "pct": {
+    "PP": 32.7,
+    "PSOE": 22.8,
+    "UP": 21.0,
+    "Cs": 12.8,
+    "ERC": 2.8,
+    "PDeCAT": 2.2,
+    "PNV": 1.3,
+    "Bildu": 0.8,
+    "CCa": 0.4
+   }
+  },
+  {
+   "id": "ncreport-2016-07-25-1000",
+   "empresa": "NC Report/La Razón",
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "inicio": "2016-07-18",
+   "fin": "2016-07-25",
+   "muestra": 1000,
+   "pct": {
+    "PP": 34.1,
+    "PSOE": 22.2,
+    "UP": 21.0,
+    "Cs": 12.3,
+    "ERC": 2.9,
+    "PDeCAT": 2.0,
+    "PNV": 1.2,
+    "Bildu": 0.7,
+    "CCa": 0.3,
+    "Vox": 0.2
+   }
+  },
+  {
+   "id": "simplelogica-2016-07-15-1033",
+   "empresa": "Simple Lógica",
+   "empresa_base": "Simple Lógica",
+   "clave": "simplelogica",
+   "inicio": "2016-07-01",
+   "fin": "2016-07-15",
+   "muestra": 1033,
+   "pct": {
+    "PP": 33.5,
+    "PSOE": 22.3,
+    "UP": 21.6,
+    "Cs": 14.1
+   }
+  },
+  {
+   "id": "cis-2016-07-11-2479",
+   "empresa": "CIS",
+   "empresa_base": "CIS",
+   "clave": "cis",
+   "inicio": "2016-07-01",
+   "fin": "2016-07-11",
+   "muestra": 2479,
+   "pct": {
+    "PP": 32.5,
+    "PSOE": 23.1,
+    "UP": 19.6,
+    "Cs": 12.0,
+    "ERC": 2.9,
+    "PDeCAT": 1.7,
+    "PNV": 1.2,
+    "Bildu": 0.9,
+    "CCa": 0.1
+   }
+  },
+  {
+   "id": "invymark-2016-07-01-0",
+   "empresa": "InvyMark/laSexta",
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "inicio": "2016-06-27",
+   "fin": "2016-07-01",
+   "muestra": null,
+   "pct": {
+    "PP": 33.6,
+    "PSOE": 22.5,
+    "UP": 21.2,
+    "Cs": 11.7
+   }
+  }
+ ]
+}

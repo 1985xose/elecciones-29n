@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06T09:25:19+00:00",
+ "actualizado": "2026-10-06T10:57:29+00:00",
  "elecciones": [
   {
    "nombre": "23J 2023",
@@ -586,15 +586,643 @@
      }
     }
    ]
+  },
+  {
+   "nombre": "28A 2019",
+   "resultado": {
+    "PSOE": 28.7,
+    "PP": 16.7,
+    "Cs": 15.9,
+    "UP": 14.3
+   },
+   "firmas": [
+    {
+     "clave": "simplelogica",
+     "empresa": "Simple Lógica",
+     "fin": "2019-04-05",
+     "error_medio": 0.58,
+     "errores": {
+      "PSOE": 1.8,
+      "PP": 0.0,
+      "Cs": -0.4,
+      "UP": 0.1
+     }
+    },
+    {
+     "clave": "sociometrica",
+     "empresa": "SocioMétrica",
+     "fin": "2019-04-21",
+     "error_medio": 0.95,
+     "errores": {
+      "PSOE": 0.8,
+      "PP": 1.5,
+      "Cs": -0.8,
+      "UP": -0.7
+     }
+    },
+    {
+     "clave": "40db",
+     "empresa": "40dB",
+     "fin": "2019-04-18",
+     "error_medio": 1.03,
+     "errores": {
+      "PSOE": 0.1,
+      "PP": 1.1,
+      "Cs": -1.8,
+      "UP": -1.1
+     }
+    },
+    {
+     "clave": "dym",
+     "empresa": "DYM",
+     "fin": "2019-04-17",
+     "error_medio": 1.25,
+     "errores": {
+      "PSOE": 0.3,
+      "PP": 3.7,
+      "Cs": -0.4,
+      "UP": -0.6
+     }
+    },
+    {
+     "clave": "metroscopia",
+     "empresa": "Metroscopia",
+     "fin": "2019-04-16",
+     "error_medio": 1.25,
+     "errores": {
+      "PSOE": 0.4,
+      "PP": 2.9,
+      "Cs": -1.7,
+      "UP": 0.0
+     }
+    },
+    {
+     "clave": "imop",
+     "empresa": "IMOP",
+     "fin": "2019-04-20",
+     "error_medio": 1.3,
+     "errores": {
+      "PSOE": 1.1,
+      "PP": 3.1,
+      "Cs": -0.8,
+      "UP": -0.2
+     }
+    },
+    {
+     "clave": "keydata",
+     "empresa": "KeyData",
+     "fin": "2019-04-22",
+     "error_medio": 1.55,
+     "errores": {
+      "PSOE": 0.7,
+      "PP": 3.7,
+      "Cs": -0.6,
+      "UP": -1.2
+     }
+    },
+    {
+     "clave": "invymark",
+     "empresa": "InvyMark",
+     "fin": "2019-04-19",
+     "error_medio": 1.57,
+     "errores": {
+      "PSOE": -0.6,
+      "PP": 3.7,
+      "Cs": -0.7,
+      "UP": -1.3
+     }
+    },
+    {
+     "clave": "sondaxe",
+     "empresa": "Sondaxe",
+     "fin": "2019-04-18",
+     "error_medio": 1.65,
+     "errores": {
+      "PSOE": 2.2,
+      "PP": 1.6,
+      "Cs": -2.1,
+      "UP": -0.7
+     }
+    },
+    {
+     "clave": "electopanel",
+     "empresa": "ElectoPanel",
+     "fin": "2019-04-22",
+     "error_medio": 1.68,
+     "errores": {
+      "PSOE": -1.5,
+      "PP": 2.8,
+      "Cs": -0.9,
+      "UP": -1.5
+     }
+    },
+    {
+     "clave": "sigmados",
+     "empresa": "Sigma Dos",
+     "fin": "2019-04-17",
+     "error_medio": 1.75,
+     "errores": {
+      "PSOE": 1.6,
+      "PP": 3.4,
+      "Cs": -0.9,
+      "UP": -1.1
+     }
+    },
+    {
+     "clave": "cis",
+     "empresa": "CIS",
+     "fin": "2019-03-18",
+     "error_medio": 1.88,
+     "errores": {
+      "PSOE": 1.9,
+      "PP": 3.4,
+      "Cs": -1.2,
+      "UP": -1.0
+     }
+    },
+    {
+     "clave": "celestetel",
+     "empresa": "Celeste-Tel",
+     "fin": "2019-04-20",
+     "error_medio": 2.15,
+     "errores": {
+      "PSOE": 0.2,
+      "PP": 6.8,
+      "Cs": -0.8,
+      "UP": -0.8
+     }
+    },
+    {
+     "clave": "pp",
+     "empresa": "PP",
+     "fin": "2019-04-17",
+     "error_medio": 2.2,
+     "errores": {
+      "PSOE": 1.3,
+      "PP": 2.3,
+      "Cs": -3.4,
+      "UP": -1.8
+     }
+    },
+    {
+     "clave": "demoscopiaservicios",
+     "empresa": "Demoscopia Servicios",
+     "fin": "2019-04-22",
+     "error_medio": 2.23,
+     "errores": {
+      "PSOE": -0.6,
+      "PP": 5.1,
+      "Cs": -1.5,
+      "UP": -1.7
+     }
+    },
+    {
+     "clave": "gesop",
+     "empresa": "GESOP",
+     "fin": "2019-04-05",
+     "error_medio": 2.27,
+     "errores": {
+      "PSOE": 1.1,
+      "PP": 4.3,
+      "Cs": -1.4,
+      "UP": -2.3
+     }
+    },
+    {
+     "clave": "llorentecuenca",
+     "empresa": "Llorente & Cuenca",
+     "fin": "2019-04-22",
+     "error_medio": 2.3,
+     "errores": {
+      "PSOE": -0.4,
+      "PP": 5.3,
+      "Cs": 3.0,
+      "UP": -0.5
+     }
+    },
+    {
+     "clave": "ncreport",
+     "empresa": "NC Report",
+     "fin": "2019-04-19",
+     "error_medio": 2.5,
+     "errores": {
+      "PSOE": -0.6,
+      "PP": 7.1,
+      "Cs": -1.0,
+      "UP": -1.3
+     }
+    },
+    {
+     "clave": "gad3",
+     "empresa": "GAD3",
+     "fin": "2019-04-19",
+     "error_medio": 2.6,
+     "errores": {
+      "PSOE": 2.8,
+      "PP": 3.4,
+      "Cs": -2.0,
+      "UP": -2.2
+     }
+    },
+    {
+     "clave": "topposition",
+     "empresa": "Top Position",
+     "fin": "2019-04-15",
+     "error_medio": 2.85,
+     "errores": {
+      "PSOE": -0.9,
+      "PP": 5.6,
+      "Cs": -2.8,
+      "UP": -2.1
+     }
+    },
+    {
+     "clave": "hamalgamametrica",
+     "empresa": "Hamalgama Métrica",
+     "fin": "2019-04-22",
+     "error_medio": 2.98,
+     "errores": {
+      "PSOE": -0.6,
+      "PP": 6.4,
+      "Cs": -2.7,
+      "UP": -2.2
+     }
+    },
+    {
+     "clave": "jma",
+     "empresa": "JM&A",
+     "fin": "2018-08-20",
+     "error_medio": 3.88,
+     "errores": {
+      "PSOE": -2.4,
+      "PP": 4.5,
+      "Cs": 6.1,
+      "UP": 2.5
+     }
+    },
+    {
+     "clave": "targetpoint",
+     "empresa": "Target Point",
+     "fin": "2018-12-07",
+     "error_medio": 4.38,
+     "errores": {
+      "PSOE": -3.8,
+      "PP": 6.1,
+      "Cs": 4.7,
+      "UP": 2.9
+     }
+    },
+    {
+     "clave": "cs",
+     "empresa": "Cs",
+     "fin": "2018-10-25",
+     "error_medio": 4.7,
+     "errores": {
+      "PSOE": -2.7,
+      "PP": 5.3,
+      "Cs": 8.1,
+      "UP": 2.7
+     }
+    },
+    {
+     "clave": "redondoasociados",
+     "empresa": "Redondo & Asociados",
+     "fin": "2017-07-31",
+     "error_medio": 5.95,
+     "errores": {
+      "PSOE": -4.9,
+      "PP": 12.0,
+      "Cs": -1.6,
+      "UP": 5.3
+     }
+    },
+    {
+     "clave": "myword",
+     "empresa": "MyWord",
+     "fin": "2018-03-16",
+     "error_medio": 6.48,
+     "errores": {
+      "PSOE": -8.3,
+      "PP": 8.0,
+      "Cs": 7.9,
+      "UP": 1.7
+     }
+    },
+    {
+     "clave": "gipeyop",
+     "empresa": "GIPEyOP",
+     "fin": "2017-01-04",
+     "error_medio": 8.97,
+     "errores": {
+      "PSOE": -8.8,
+      "PP": 18.2,
+      "Cs": -2.6,
+      "UP": 6.3
+     }
+    },
+    {
+     "clave": "estudiodesociologiaconsultores",
+     "empresa": "Estudio de Sociología Consultores",
+     "fin": "2016-11-12",
+     "error_medio": 9.12,
+     "errores": {
+      "PSOE": -10.6,
+      "PP": 20.1,
+      "Cs": -1.9,
+      "UP": 3.9
+     }
+    }
+   ]
+  },
+  {
+   "nombre": "26J 2016",
+   "resultado": {
+    "PP": 33.0,
+    "PSOE": 22.6,
+    "UP": 21.2,
+    "Cs": 13.1
+   },
+   "firmas": [
+    {
+     "clave": "encuestamos",
+     "empresa": "Encuestamos",
+     "fin": "2016-06-19",
+     "error_medio": 1.55,
+     "errores": {
+      "PP": -2.4,
+      "PSOE": -0.6,
+      "UP": 2.7,
+      "Cs": 0.5
+     }
+    },
+    {
+     "clave": "symconsulting",
+     "empresa": "SYM Consulting",
+     "fin": "2016-06-10",
+     "error_medio": 1.77,
+     "errores": {
+      "PP": -3.3,
+      "PSOE": 0.3,
+      "UP": 3.2,
+      "Cs": 0.3
+     }
+    },
+    {
+     "clave": "jma",
+     "empresa": "JM&A",
+     "fin": "2016-06-19",
+     "error_medio": 1.8,
+     "errores": {
+      "PP": -3.2,
+      "PSOE": -0.5,
+      "UP": 2.7,
+      "Cs": 0.8
+     }
+    },
+    {
+     "clave": "celestetel",
+     "empresa": "Celeste-Tel",
+     "fin": "2016-06-17",
+     "error_medio": 1.9,
+     "errores": {
+      "PP": -2.5,
+      "PSOE": -0.8,
+      "UP": 4.1,
+      "Cs": 0.2
+     }
+    },
+    {
+     "clave": "ncreport",
+     "empresa": "NC Report",
+     "fin": "2016-06-17",
+     "error_medio": 1.9,
+     "errores": {
+      "PP": -1.9,
+      "PSOE": -1.4,
+      "UP": 4.2,
+      "Cs": 0.1
+     }
+    },
+    {
+     "clave": "gad3",
+     "empresa": "GAD3",
+     "fin": "2016-06-20",
+     "error_medio": 2.1,
+     "errores": {
+      "PP": -2.3,
+      "PSOE": -1.4,
+      "UP": 3.7,
+      "Cs": 1.0
+     }
+    },
+    {
+     "clave": "simplelogica",
+     "empresa": "Simple Lógica",
+     "fin": "2016-06-15",
+     "error_medio": 2.12,
+     "errores": {
+      "PP": -3.8,
+      "PSOE": -0.1,
+      "UP": 2.3,
+      "Cs": 2.3
+     }
+    },
+    {
+     "clave": "psoe",
+     "empresa": "PSOE",
+     "fin": "2016-06-01",
+     "error_medio": 2.22,
+     "errores": {
+      "PP": -5.1,
+      "PSOE": 1.2,
+      "UP": 1.2,
+      "Cs": 1.4
+     }
+    },
+    {
+     "clave": "gipeyop",
+     "empresa": "GIPEyOP",
+     "fin": "2016-06-20",
+     "error_medio": 2.3,
+     "errores": {
+      "PP": -5.2,
+      "PSOE": -2.0,
+      "UP": 1.8,
+      "Cs": 0.2
+     }
+    },
+    {
+     "clave": "gesop",
+     "empresa": "GESOP",
+     "fin": "2016-06-20",
+     "error_medio": 2.35,
+     "errores": {
+      "PP": -4.0,
+      "PSOE": -1.1,
+      "UP": 2.5,
+      "Cs": 1.8
+     }
+    },
+    {
+     "clave": "netquest",
+     "empresa": "Netquest",
+     "fin": "2016-06-17",
+     "error_medio": 2.42,
+     "errores": {
+      "PP": -2.6,
+      "PSOE": -2.2,
+      "UP": 2.8,
+      "Cs": 2.1
+     }
+    },
+    {
+     "clave": "sigmados",
+     "empresa": "Sigma Dos",
+     "fin": "2016-06-16",
+     "error_medio": 2.42,
+     "errores": {
+      "PP": -2.5,
+      "PSOE": -2.6,
+      "UP": 3.6,
+      "Cs": 1.0
+     }
+    },
+    {
+     "clave": "hamalgamametrica",
+     "empresa": "Hamalgama Métrica",
+     "fin": "2016-06-17",
+     "error_medio": 2.45,
+     "errores": {
+      "PP": -2.6,
+      "PSOE": -1.6,
+      "UP": 5.0,
+      "Cs": -0.6
+     }
+    },
+    {
+     "clave": "sondaxe",
+     "empresa": "Sondaxe",
+     "fin": "2016-06-09",
+     "error_medio": 2.52,
+     "errores": {
+      "PP": -3.8,
+      "PSOE": -1.2,
+      "UP": 4.9,
+      "Cs": -0.2
+     }
+    },
+    {
+     "clave": "tnsdemoscopia",
+     "empresa": "TNS Demoscopia",
+     "fin": "2016-06-19",
+     "error_medio": 2.55,
+     "errores": {
+      "PP": -3.4,
+      "PSOE": -1.6,
+      "UP": 3.5,
+      "Cs": 1.7
+     }
+    },
+    {
+     "clave": "redondoasociados",
+     "empresa": "Redondo & Asociados",
+     "fin": "2016-06-19",
+     "error_medio": 2.6,
+     "errores": {
+      "PP": -3.6,
+      "PSOE": -1.1,
+      "UP": 3.7,
+      "Cs": 2.0
+     }
+    },
+    {
+     "clave": "advicestrategic",
+     "empresa": "Advice Strategic",
+     "fin": "2016-06-15",
+     "error_medio": 2.77,
+     "errores": {
+      "PP": -3.4,
+      "PSOE": -2.1,
+      "UP": 3.9,
+      "Cs": 1.7
+     }
+    },
+    {
+     "clave": "cis",
+     "empresa": "CIS",
+     "fin": "2016-05-22",
+     "error_medio": 2.77,
+     "errores": {
+      "PP": -3.8,
+      "PSOE": -1.4,
+      "UP": 4.4,
+      "Cs": 1.5
+     }
+    },
+    {
+     "clave": "invymark",
+     "empresa": "InvyMark",
+     "fin": "2016-06-19",
+     "error_medio": 2.8,
+     "errores": {
+      "PP": -2.9,
+      "PSOE": -2.7,
+      "UP": 4.9,
+      "Cs": 0.7
+     }
+    },
+    {
+     "clave": "myword",
+     "empresa": "MyWord",
+     "fin": "2016-06-16",
+     "error_medio": 2.8,
+     "errores": {
+      "PP": -4.1,
+      "PSOE": -2.2,
+      "UP": 3.6,
+      "Cs": 1.3
+     }
+    },
+    {
+     "clave": "am",
+     "empresa": "A+M",
+     "fin": "2016-06-17",
+     "error_medio": 2.83,
+     "errores": {
+      "PP": -4.2,
+      "PSOE": -0.9,
+      "UP": 3.1,
+      "Cs": 3.1
+     }
+    },
+    {
+     "clave": "dym",
+     "empresa": "DYM",
+     "fin": "2016-06-15",
+     "error_medio": 2.85,
+     "errores": {
+      "PP": -4.0,
+      "PSOE": -1.6,
+      "UP": 3.7,
+      "Cs": 2.1
+     }
+    },
+    {
+     "clave": "metroscopia",
+     "empresa": "Metroscopia",
+     "fin": "2016-06-15",
+     "error_medio": 3.08,
+     "errores": {
+      "PP": -4.0,
+      "PSOE": -2.1,
+      "UP": 4.8,
+      "Cs": 1.4
+     }
+    }
+   ]
   }
  ],
  "ranking": [
-  {
-   "clave": "electopanel",
-   "empresa": "ElectoPanel",
-   "error_medio": 0.48,
-   "elecciones": 1
-  },
   {
    "clave": "swdemoscopia",
    "empresa": "SW Demoscopia",
@@ -604,49 +1232,37 @@
   {
    "clave": "40db",
    "empresa": "40dB",
-   "error_medio": 1.09,
-   "elecciones": 2
+   "error_medio": 1.07,
+   "elecciones": 3
   },
   {
-   "clave": "demoscopiaservicios",
-   "empresa": "Demoscopia Servicios",
-   "error_medio": 1.12,
-   "elecciones": 1
+   "clave": "electopanel",
+   "empresa": "ElectoPanel",
+   "error_medio": 1.08,
+   "elecciones": 2
   },
   {
    "clave": "sociometrica",
    "empresa": "SocioMétrica",
-   "error_medio": 1.23,
-   "elecciones": 2
-  },
-  {
-   "clave": "keydata",
-   "empresa": "KeyData",
-   "error_medio": 1.26,
-   "elecciones": 2
+   "error_medio": 1.14,
+   "elecciones": 3
   },
   {
    "clave": "imop",
    "empresa": "IMOP",
-   "error_medio": 1.26,
-   "elecciones": 2
+   "error_medio": 1.27,
+   "elecciones": 3
+  },
+  {
+   "clave": "keydata",
+   "empresa": "KeyData",
+   "error_medio": 1.35,
+   "elecciones": 3
   },
   {
    "clave": "ipsos",
    "empresa": "Ipsos",
    "error_medio": 1.39,
-   "elecciones": 2
-  },
-  {
-   "clave": "sondaxe",
-   "empresa": "Sondaxe",
-   "error_medio": 1.4,
-   "elecciones": 2
-  },
-  {
-   "clave": "sigmados",
-   "empresa": "Sigma Dos",
-   "error_medio": 1.45,
    "elecciones": 2
   },
   {
@@ -656,39 +1272,27 @@
    "elecciones": 1
   },
   {
-   "clave": "gad3",
-   "empresa": "GAD3",
-   "error_medio": 1.46,
-   "elecciones": 2
-  },
-  {
    "clave": "emanalytics",
    "empresa": "EM-Analytics",
    "error_medio": 1.48,
    "elecciones": 1
   },
   {
-   "clave": "topposition",
-   "empresa": "Top Position",
-   "error_medio": 1.53,
+   "clave": "simplelogica",
+   "empresa": "Simple Lógica",
+   "error_medio": 1.49,
+   "elecciones": 4
+  },
+  {
+   "clave": "encuestamos",
+   "empresa": "Encuestamos",
+   "error_medio": 1.55,
    "elecciones": 1
   },
   {
-   "clave": "dym",
-   "empresa": "DYM",
-   "error_medio": 1.54,
-   "elecciones": 2
-  },
-  {
-   "clave": "simplelogica",
-   "empresa": "Simple Lógica",
-   "error_medio": 1.64,
-   "elecciones": 2
-  },
-  {
-   "clave": "celestetel",
-   "empresa": "Celeste-Tel",
-   "error_medio": 1.64,
+   "clave": "demoscopiaservicios",
+   "empresa": "Demoscopia Servicios",
+   "error_medio": 1.68,
    "elecciones": 2
   },
   {
@@ -704,28 +1308,34 @@
    "elecciones": 1
   },
   {
-   "clave": "hamalgamametrica",
-   "empresa": "Hamalgama Métrica",
-   "error_medio": 1.71,
-   "elecciones": 2
+   "clave": "sondaxe",
+   "empresa": "Sondaxe",
+   "error_medio": 1.74,
+   "elecciones": 4
   },
   {
    "clave": "symconsulting",
    "empresa": "SyM Consulting",
-   "error_medio": 1.72,
-   "elecciones": 1
-  },
-  {
-   "clave": "targetpoint",
-   "empresa": "Target Point",
-   "error_medio": 1.77,
-   "elecciones": 1
-  },
-  {
-   "clave": "gesop",
-   "empresa": "GESOP",
-   "error_medio": 1.78,
+   "error_medio": 1.75,
    "elecciones": 2
+  },
+  {
+   "clave": "sigmados",
+   "empresa": "Sigma Dos",
+   "error_medio": 1.77,
+   "elecciones": 4
+  },
+  {
+   "clave": "dym",
+   "empresa": "DYM",
+   "error_medio": 1.8,
+   "elecciones": 4
+  },
+  {
+   "clave": "celestetel",
+   "empresa": "Celeste-Tel",
+   "error_medio": 1.83,
+   "elecciones": 4
   },
   {
    "clave": "data10",
@@ -734,16 +1344,10 @@
    "elecciones": 1
   },
   {
-   "clave": "invymark",
-   "empresa": "InvyMark",
-   "error_medio": 1.95,
-   "elecciones": 2
-  },
-  {
-   "clave": "ncreport",
-   "empresa": "NC Report",
-   "error_medio": 2.01,
-   "elecciones": 2
+   "clave": "gad3",
+   "empresa": "GAD3",
+   "error_medio": 1.91,
+   "elecciones": 4
   },
   {
    "clave": "yougov",
@@ -752,27 +1356,135 @@
    "elecciones": 1
   },
   {
+   "clave": "gesop",
+   "empresa": "GESOP",
+   "error_medio": 2.04,
+   "elecciones": 4
+  },
+  {
+   "clave": "invymark",
+   "empresa": "InvyMark",
+   "error_medio": 2.07,
+   "elecciones": 4
+  },
+  {
+   "clave": "ncreport",
+   "empresa": "NC Report",
+   "error_medio": 2.1,
+   "elecciones": 4
+  },
+  {
+   "clave": "topposition",
+   "empresa": "Top Position",
+   "error_medio": 2.19,
+   "elecciones": 2
+  },
+  {
+   "clave": "pp",
+   "empresa": "PP",
+   "error_medio": 2.2,
+   "elecciones": 1
+  },
+  {
+   "clave": "hamalgamametrica",
+   "empresa": "Hamalgama Métrica",
+   "error_medio": 2.21,
+   "elecciones": 4
+  },
+  {
+   "clave": "psoe",
+   "empresa": "PSOE",
+   "error_medio": 2.22,
+   "elecciones": 1
+  },
+  {
+   "clave": "netquest",
+   "empresa": "Netquest",
+   "error_medio": 2.42,
+   "elecciones": 1
+  },
+  {
+   "clave": "metroscopia",
+   "empresa": "Metroscopia",
+   "error_medio": 2.44,
+   "elecciones": 3
+  },
+  {
    "clave": "llorentecuenca",
    "empresa": "Llorente & Cuenca",
-   "error_medio": 2.75,
+   "error_medio": 2.52,
+   "elecciones": 2
+  },
+  {
+   "clave": "tnsdemoscopia",
+   "empresa": "TNS Demoscopia",
+   "error_medio": 2.55,
    "elecciones": 1
   },
   {
    "clave": "cis",
    "empresa": "CIS",
+   "error_medio": 2.58,
+   "elecciones": 4
+  },
+  {
+   "clave": "advicestrategic",
+   "empresa": "Advice Strategic",
+   "error_medio": 2.77,
+   "elecciones": 1
+  },
+  {
+   "clave": "am",
+   "empresa": "A+M",
+   "error_medio": 2.83,
+   "elecciones": 1
+  },
+  {
+   "clave": "jma",
+   "empresa": "JM&A",
    "error_medio": 2.84,
    "elecciones": 2
   },
   {
-   "clave": "metroscopia",
-   "empresa": "Metroscopia",
-   "error_medio": 3.0,
-   "elecciones": 1
+   "clave": "targetpoint",
+   "empresa": "Target Point",
+   "error_medio": 3.08,
+   "elecciones": 2
   },
   {
    "clave": "atlasintel",
    "empresa": "AtlasIntel",
    "error_medio": 3.25,
+   "elecciones": 1
+  },
+  {
+   "clave": "redondoasociados",
+   "empresa": "Redondo & Asociados",
+   "error_medio": 4.28,
+   "elecciones": 2
+  },
+  {
+   "clave": "myword",
+   "empresa": "MyWord",
+   "error_medio": 4.64,
+   "elecciones": 2
+  },
+  {
+   "clave": "cs",
+   "empresa": "Cs",
+   "error_medio": 4.7,
+   "elecciones": 1
+  },
+  {
+   "clave": "gipeyop",
+   "empresa": "GIPEyOP",
+   "error_medio": 5.63,
+   "elecciones": 2
+  },
+  {
+   "clave": "estudiodesociologiaconsultores",
+   "empresa": "Estudio de Sociología Consultores",
+   "error_medio": 9.12,
    "elecciones": 1
   }
  ]

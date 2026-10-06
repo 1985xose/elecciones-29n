@@ -1,5 +1,22 @@
 {
- "actualizado": "2026-10-06T10:38:57.818Z",
+ "actualizado": "2026-10-06T10:57:29.915Z",
+ "media_bruta": {
+  "PP": 32.463261226925006,
+  "PSOE": 26.43606897106231,
+  "Vox": 18.735578943531046,
+  "Sumar": 6.138525207298163,
+  "ERC": 2.1199075790121684,
+  "Junts": 1.2074156510282559,
+  "Bildu": 1.3583436812236709,
+  "PNV": 1.0155015612049962,
+  "BNG": 0.9430579601707167,
+  "CCa": 0.4168268246859694,
+  "UPN": 0.19999999999999998,
+  "AA": 0.9049264362033689,
+  "Podemos": 3.3880235548187168,
+  "SALF": 1.789517491090644,
+  "AC": 1
+ },
  "principales": [
   "PP",
   "PSOE",
@@ -218,13 +235,28 @@
    "empresa": "40dB",
    "encuestas": 34,
    "letra": "A",
-   "texto": "error medio de 1.1 puntos en 2019 y 2023",
+   "texto": "error medio de 1.1 puntos en una elección",
    "sesgo": {
     "PP": -0.42,
     "PSOE": 0.55,
     "Vox": -0.1,
     "Sumar": -0.32,
     "Podemos": -0.8
+   }
+  },
+  {
+   "clave": "sociometrica",
+   "empresa": "SocioMétrica",
+   "encuestas": 33,
+   "letra": "A",
+   "texto": "error medio de 1.1 puntos en una elección",
+   "sesgo": {
+    "PP": 2.29,
+    "PSOE": -1.68,
+    "Vox": -0.53,
+    "Sumar": -0.03,
+    "Podemos": -0.39,
+    "ERC": -0.02
    }
   },
   {
@@ -247,7 +279,7 @@
    "empresa": "Sigma Dos",
    "encuestas": 36,
    "letra": "B",
-   "texto": "error medio de 1.4 puntos en 2019 y 2023",
+   "texto": "error medio de 1.8 puntos en una elección",
    "sesgo": {
     "PP": 1.82,
     "PSOE": -0.89,
@@ -258,40 +290,11 @@
    }
   },
   {
-   "clave": "sociometrica",
-   "empresa": "SocioMétrica",
-   "encuestas": 33,
-   "letra": "B",
-   "texto": "error medio de 1.2 puntos en 2019 y 2023",
-   "sesgo": {
-    "PP": 2.29,
-    "PSOE": -1.68,
-    "Vox": -0.53,
-    "Sumar": -0.03,
-    "Podemos": -0.39,
-    "ERC": -0.02
-   }
-  },
-  {
-   "clave": "targetpoint",
-   "empresa": "Target Point",
-   "encuestas": 24,
-   "letra": "B",
-   "texto": "error medio de 1.8 puntos en una elección",
-   "sesgo": {
-    "PP": 0.1,
-    "PSOE": -1.58,
-    "Vox": 0.89,
-    "Sumar": 0.37,
-    "Podemos": -0.34
-   }
-  },
-  {
    "clave": "keydata",
    "empresa": "KeyData",
    "encuestas": 23,
    "letra": "B",
-   "texto": "error medio de 1.3 puntos en 2019 y 2023",
+   "texto": "error medio de 1.4 puntos en una elección",
    "sesgo": {
     "PP": 2.07,
     "PSOE": -1.49,
@@ -302,26 +305,11 @@
    }
   },
   {
-   "clave": "hamalgamametrica",
-   "empresa": "Hamalgama Métrica",
-   "encuestas": 20,
-   "letra": "B",
-   "texto": "error medio de 1.7 puntos en 2019 y 2023",
-   "sesgo": {
-    "PP": 3.32,
-    "PSOE": -2.22,
-    "Vox": 0.63,
-    "Sumar": -0.5,
-    "Podemos": 0.39,
-    "ERC": -0.26
-   }
-  },
-  {
    "clave": "dym",
    "empresa": "DYM",
    "encuestas": 19,
    "letra": "B",
-   "texto": "error medio de 1.5 puntos en 2019 y 2023",
+   "texto": "error medio de 1.8 puntos en una elección",
    "sesgo": {
     "PP": 3.88,
     "PSOE": -0.9,
@@ -335,46 +323,8 @@
    "empresa": "Simple Lógica",
    "encuestas": 14,
    "letra": "B",
-   "texto": "error medio de 1.6 puntos en 2019 y 2023",
+   "texto": "error medio de 1.5 puntos en una elección",
    "sesgo": null
-  },
-  {
-   "clave": "celestetel",
-   "empresa": "Celeste-Tel",
-   "encuestas": 13,
-   "letra": "B",
-   "texto": "error medio de 1.6 puntos en 2019 y 2023",
-   "sesgo": null
-  },
-  {
-   "clave": "gad3",
-   "empresa": "GAD3",
-   "encuestas": 11,
-   "letra": "B",
-   "texto": "error medio de 1.5 puntos en 2019 y 2023",
-   "sesgo": {
-    "PP": 0.4,
-    "PSOE": -0.99,
-    "Vox": 0.55,
-    "Sumar": 0.25,
-    "Podemos": -0.32,
-    "ERC": 0.12
-   }
-  },
-  {
-   "clave": "gesop",
-   "empresa": "GESOP",
-   "encuestas": 10,
-   "letra": "B",
-   "texto": "error medio de 1.8 puntos en 2019 y 2023",
-   "sesgo": {
-    "PP": -0.42,
-    "PSOE": -1.45,
-    "Vox": 0.33,
-    "Sumar": 1.43,
-    "Podemos": 0.25,
-    "ERC": 0.08
-   }
   },
   {
    "clave": "ipsos",
@@ -397,7 +347,7 @@
    "empresa": "Sondaxe",
    "encuestas": 2,
    "letra": "B",
-   "texto": "error medio de 1.4 puntos en 2019 y 2023",
+   "texto": "error medio de 1.7 puntos en una elección",
    "sesgo": null
   },
   {
@@ -405,7 +355,7 @@
    "empresa": "NC Report",
    "encuestas": 22,
    "letra": "C",
-   "texto": "error medio de 2.0 puntos en 2019 y 2023",
+   "texto": "error medio de 2.1 puntos en una elección",
    "sesgo": {
     "PP": 2.91,
     "PSOE": -2.14,
@@ -416,17 +366,70 @@
    }
   },
   {
+   "clave": "hamalgamametrica",
+   "empresa": "Hamalgama Métrica",
+   "encuestas": 20,
+   "letra": "C",
+   "texto": "error medio de 2.2 puntos en una elección",
+   "sesgo": {
+    "PP": 3.32,
+    "PSOE": -2.22,
+    "Vox": 0.63,
+    "Sumar": -0.5,
+    "Podemos": 0.39,
+    "ERC": -0.26
+   }
+  },
+  {
    "clave": "invymark",
    "empresa": "InvyMark",
    "encuestas": 18,
    "letra": "C",
-   "texto": "error medio de 1.9 puntos en 2019 y 2023",
+   "texto": "error medio de 2.1 puntos en una elección",
    "sesgo": {
     "PP": 2.83,
     "PSOE": -0.29,
     "Vox": 0.06,
     "Sumar": -0.99,
     "Podemos": -0.07
+   }
+  },
+  {
+   "clave": "celestetel",
+   "empresa": "Celeste-Tel",
+   "encuestas": 13,
+   "letra": "C",
+   "texto": "error medio de 1.8 puntos en una elección",
+   "sesgo": null
+  },
+  {
+   "clave": "gad3",
+   "empresa": "GAD3",
+   "encuestas": 11,
+   "letra": "C",
+   "texto": "error medio de 1.9 puntos en una elección",
+   "sesgo": {
+    "PP": 0.4,
+    "PSOE": -0.99,
+    "Vox": 0.55,
+    "Sumar": 0.25,
+    "Podemos": -0.32,
+    "ERC": 0.12
+   }
+  },
+  {
+   "clave": "gesop",
+   "empresa": "GESOP",
+   "encuestas": 10,
+   "letra": "C",
+   "texto": "error medio de 2.0 puntos en una elección",
+   "sesgo": {
+    "PP": -0.42,
+    "PSOE": -1.45,
+    "Vox": 0.33,
+    "Sumar": 1.43,
+    "Podemos": 0.25,
+    "ERC": 0.08
    }
   },
   {
@@ -449,7 +452,7 @@
    "empresa": "CIS",
    "encuestas": 35,
    "letra": "D",
-   "texto": "error medio de 2.8 puntos en 2019 y 2023",
+   "texto": "error medio de 2.6 puntos en una elección",
    "sesgo": {
     "PP": -8.61,
     "PSOE": 5.74,
@@ -457,6 +460,20 @@
     "Sumar": 0.53,
     "Podemos": -0.29,
     "ERC": 0.51
+   }
+  },
+  {
+   "clave": "targetpoint",
+   "empresa": "Target Point",
+   "encuestas": 24,
+   "letra": "D",
+   "texto": "error medio de 3.1 puntos en 2019 y 2023",
+   "sesgo": {
+    "PP": 0.1,
+    "PSOE": -1.58,
+    "Vox": 0.89,
+    "Sumar": 0.37,
+    "Podemos": -0.34
    }
   },
   {
@@ -583,7 +600,7 @@
    "fin": "2026-10-03",
    "veredicto": "movimiento",
    "texto": "Movimiento real: PSOE sale 1.7 puntos por encima de lo que cabía esperar de esta empresa.",
-   "nota": "B",
+   "nota": "A",
    "detalle": [
     {
      "partido": "PP",
@@ -847,7 +864,7 @@
    "fin": "2026-09-26",
    "veredicto": "leve",
    "texto": "Algo fuera de lo habitual: PSOE sube 1.1 puntos respecto a lo esperado de esta empresa.",
-   "nota": "B",
+   "nota": "A",
    "detalle": [
     {
      "partido": "PP",
@@ -941,7 +958,7 @@
    "fin": "2026-09-21",
    "veredicto": "leve",
    "texto": "Algo fuera de lo habitual: PP sube 1.8 puntos respecto a lo esperado de esta empresa.",
-   "nota": "B",
+   "nota": "C",
    "detalle": [
     {
      "partido": "PP",
