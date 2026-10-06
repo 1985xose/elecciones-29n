@@ -135,11 +135,13 @@ function medidores(cont, det, ops, sel, alElegir) {
 
 /* ---------- Hemiciclo ---------- */
 /* resaltar: {partidos, color} dibuja un arco por fuera sobre los asientos de ese bloque. Si el arco pasa la raya, hay mayoría. */
-/* extra: {marcado, alTocar}. Con alTocar el hemiciclo se puede tocar: avisa del partido del asiento más cercano al toque
+/* extra: {marcado, alTocar, orden, apagado}. orden coloca los partidos de izquierda a derecha en el orden que se le dé
+   y apagado(k) deja a media luz los que diga. Con alTocar el hemiciclo se puede tocar: avisa del partido del asiento más cercano al toque
    (o de null si se toca fuera). El partido marcado se queda a todo color y el resto se apaga. */
 function hemiciclo(cont, escanos, filas = 12, resaltar = null, etiqueta = "176", solo = null, extra = {}) {
   const orden = D.config.orden_hemiciclo;
-  const claves = Object.keys(escanos).filter((k) => escanos[k] > 0).sort((a, b) => (orden.indexOf(a) + 1 || 99) - (orden.indexOf(b) + 1 || 99));
+  const sitio = (k) => extra.orden ? (extra.orden.indexOf(k) + 1 || 999) : (orden.indexOf(k) + 1 || 99);
+  const claves = Object.keys(escanos).filter((k) => escanos[k] > 0).sort((a, b) => sitio(a) - sitio(b));
   const total = claves.reduce((s, k) => s + escanos[k], 0);
   if (!total) { cont.replaceChildren(); return; }
   const r0 = 0.4, radios = [];
@@ -161,7 +163,7 @@ function hemiciclo(cont, escanos, filas = 12, resaltar = null, etiqueta = "176",
     if (i0 >= 0) { const RA = (1 + rp + 0.04) * E, pt = (f) => { const a = Math.PI * (1 - f); return `${(RA * Math.cos(a)).toFixed(1)} ${(-RA * Math.sin(a)).toFixed(1)}`; };
       svg += `<path class="arco" d="M${pt(i0 / total)} A${RA.toFixed(1)} ${RA.toFixed(1)} 0 0 1 ${pt(i1 / total)}" fill="none" stroke="${resaltar.color}" stroke-width="4" stroke-linecap="round"/>`; }
   }
-  asientos.forEach((s, i) => { svg += `<circle cx="${(s.x * E).toFixed(1)}" cy="${(-s.y * E).toFixed(1)}" r="${(rp * E).toFixed(1)}" fill="${colores[i] || "var(--linea)"}"${extra.marcado && partidoDe[i] !== extra.marcado ? ' fill-opacity=".2"' : ""}/>`; });
+  asientos.forEach((s, i) => { svg += `<circle cx="${(s.x * E).toFixed(1)}" cy="${(-s.y * E).toFixed(1)}" r="${(rp * E).toFixed(1)}" fill="${colores[i] || "var(--linea)"}"${(extra.marcado && partidoDe[i] !== extra.marcado) || (extra.apagado && extra.apagado(partidoDe[i])) ? ' fill-opacity=".2"' : ""}/>`; });
   svg += `<line x1="0" y1="-114" x2="0" y2="${-r0 * E + 8}" stroke="var(--tinta)" stroke-width="1.6" stroke-dasharray="3 3"/>`;
   svg += `<text x="0" y="${-r0 * E + 24}" text-anchor="middle" font-size="15" font-weight="800" fill="var(--tinta)">${etiqueta}</text><text x="0" y="${-r0 * E + 37}" text-anchor="middle" font-size="9.5" font-weight="600" fill="var(--gris)">mayoría</text></svg>`;
   cont.innerHTML = svg;
@@ -562,36 +564,14 @@ function situaciones(base) {
 }
 function pintarSimulador(m, proyBase) {
   sim.base = { ...m.media }; sim.valores = { ...m.media }; sim.proyBase = proyBase; sim.situacion = "media";
-  $("#swing").value = 0; $("#swing-out").textContent = "Como la media de encuestas";
   const sits = situaciones(sim.base);
   $("#situaciones").replaceChildren(...sits.map((x) => el("button", { class: "situacion", type: "button", "aria-pressed": sim.situacion === x.id ? "true" : "false", onclick: () => {
     sim.situacion = x.id; sim.valores = x.f({ ...sim.base }); document.querySelectorAll(".situacion").forEach((b) => b.setAttribute("aria-pressed", b === b ? "false" : "false")); 
     document.querySelectorAll(".situacion").forEach((b, i) => b.setAttribute("aria-pressed", sits[i].id === x.id ? "true" : "false"));
-    pintarControles(); recalcularSim(); probabilidadSim(); } }, x.titulo, el("small", {}, x.detalle))));
-  pintarControles();
+    recalcularSim(); probabilidadSim(); } }, x.titulo, el("small", {}, x.detalle))));
   recalcularSim();
   probabilidadSim();
 }
-function pintarControles() {
-  const o = ordenar(sim.base).filter((k) => sim.base[k] >= 0.3);
-  $("#sim-controles").replaceChildren(...o.map((k) => { const out = el("output", {}, fmt1.format(sim.valores[k] || 0));
-    return el("label", { class: "deslizador" }, el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), " ", nombre(k)),
-      el("input", { type: "range", min: 0, max: 45, step: 0.1, value: (sim.valores[k] || 0).toFixed(1), "aria-label": `Voto de ${nombre(k)}`, style: { accentColor: color(k) },
-        oninput: (ev) => { sim.valores[k] = +ev.target.value; out.textContent = fmt1.format(sim.valores[k]); programarSim(); }, onchange: () => probabilidadSim() }), out); }),
-    el("button", { class: "boton", type: "button", onclick: () => pintarSimulador({ media: sim.base }, sim.proyBase) }, "Volver a la media de encuestas"));
-}
-$("#swing").addEventListener("input", (ev) => {
-  const s = +ev.target.value, der = DERECHA.filter((k) => sim.base[k] > 0), izq = IZQUIERDA.filter((k) => sim.base[k] > 0);
-  const sd = der.reduce((a, k) => a + sim.base[k], 0), si = izq.reduce((a, k) => a + sim.base[k], 0);
-  sim.valores = { ...sim.base };
-  for (const k of der) sim.valores[k] = Math.max(0, sim.base[k] + s * sim.base[k] / sd);
-  for (const k of izq) sim.valores[k] = Math.max(0, sim.base[k] - s * sim.base[k] / si);
-  $("#swing-out").textContent = s === 0 ? "Como la media de encuestas" : `${puntosTexto(s)}, pasan ${s > 0 ? "de la izquierda a la derecha" : "de la derecha a la izquierda"}`;
-  pintarControles(); programarSim();
-});
-$("#swing").addEventListener("change", () => probabilidadSim());
-let simPendiente = false;
-function programarSim() { if (!simPendiente) { simPendiente = true; requestAnimationFrame(() => { simPendiente = false; recalcularSim(); }); } }
 function pintarHemiSim() {
   const tot = sim.ultimaProy.total, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda), suma = (e) => e.partidos.reduce((a, k) => a + (tot[k] || 0), 0);
   const bl = !der || !izq || sim.med === "nadie" ? null : [der, izq].find((e) => e.id === sim.med) || (suma(der) >= suma(izq) ? der : izq);
@@ -604,17 +584,27 @@ function pintarHemiSim() {
   const k = sim.hemi, dif = k ? tot[k] - (sim.proyBase.total[k] || 0) : 0;
   fichaHemi($("#sim-hemi-ficha"), k, k ? `${tot[k]} ${tot[k] === 1 ? "asiento" : "asientos"} en esta situación, ${dif ? `${Math.abs(dif)} ${dif > 0 ? "más" : "menos"} que con las encuestas de hoy` : "los mismos que con las encuestas de hoy"}.` : "", () => tocar(null));
 }
+/* Suma de partidos: los elegidos se juntan a la izquierda del hemiciclo, a todo color, y el resto se queda a media luz.
+   Si el arco de los elegidos pasa la raya, suman mayoría. Se eligen tocando el dibujo o los botones. */
+function pintarPactos() {
+  const tot = sim.ultimaProy.total, sel = sim.seleccion, base = D.config.orden_hemiciclo;
+  for (const k of [...sel]) if (!tot[k]) sel.delete(k);
+  const con = Object.keys(tot).filter((k) => tot[k] > 0);
+  const orden = [...ordenar(tot).filter((k) => sel.has(k)), ...con.filter((k) => !sel.has(k)).sort((a, b) => (base.indexOf(a) + 1 || 99) - (base.indexOf(b) + 1 || 99))];
+  const alternar = (k) => { if (!k || !tot[k]) return; if (sel.has(k)) sel.delete(k); else sel.add(k); pintarPactos(); };
+  const suma = [...sel].reduce((a, k) => a + (tot[k] || 0), 0);
+  hemiciclo($("#pactos-hemi"), tot, 10, sel.size ? { partidos: [...sel], color: "var(--tinta)" } : null, "176", null, { orden, apagado: (k) => !sel.has(k), alTocar: alternar });
+  $("#pactos-frase").replaceChildren(...(sel.size ? [el("b", {}, `Suman ${suma}.`), suma > 176 ? ` Pasan la raya, les sobran ${suma - 176}.` : suma === 176 ? " Justo los que hacen falta." : ` Les faltan ${176 - suma} para llegar a 176.`] : ["Todavía no has elegido ninguno."]));
+  $("#pactos").replaceChildren(...ordenar(tot).filter((k) => tot[k] > 0).map((k) => el("button", { class: "pacto", type: "button", "aria-pressed": sel.has(k) ? "true" : "false", onclick: () => alternar(k) },
+    el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} ${tot[k]}`)),
+    sel.size ? el("button", { class: "pacto limpiar", type: "button", onclick: () => { sel.clear(); pintarPactos(); } }, "Quitar todos") : null);
+}
 function recalcularSim() {
   const proy = Modelo.proyectar(sim.valores, D.base);
   sim.ultimaProy = proy;
   pintarHemiSim();
   pintarLey(sim.valores, proy.total, proy.provincias);
-  for (const k of [...sim.seleccion]) if (!proy.total[k]) sim.seleccion.delete(k);
-  const suma = [...sim.seleccion].reduce((s, k) => s + (proy.total[k] || 0), 0);
-  $("#pactos").replaceChildren(el("p", { class: "pie-bloque", style: { width: "100%", margin: "0 0 4px" } }, "Toca partidos para sumar sus asientos y ver si llegan a 176."), ...ordenar(proy.total).filter((k) => proy.total[k] > 0).map((k) => el("button", { class: "pacto", type: "button", "aria-pressed": sim.seleccion.has(k) ? "true" : "false",
-    onclick: () => { sim.seleccion.has(k) ? sim.seleccion.delete(k) : sim.seleccion.add(k); recalcularSim(); } }, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} ${proy.total[k]}`)),
-    el("div", { class: "suma-pacto" }, sim.seleccion.size ? (suma >= 176 ? `Suman ${suma}. Llegan a la mayoría.` : `Suman ${suma}. Les faltan ${176 - suma}.`) : "",
-      el("div", { class: "medidor" }, el("div", { class: "lleno", style: { width: `${suma / 350 * 100}%` } }), el("div", { class: "meta" }))));
+  pintarPactos();
   sim.ultimaProy = proy;
   pintarMapaSim();
 }

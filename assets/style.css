@@ -407,3 +407,7 @@ details[open] summary::after { content: "–"; }
 .tabla-palabras { display: grid; gap: 4px; margin: 10px 0 4px; }
 .tabla-palabras span { background: var(--papel); border-radius: 8px; padding: 7px 12px; font-size: .92rem; }
 .tabla-palabras b { display: inline-block; min-width: 7.2em; }
+
+.pregunta .pactos { justify-content: center; }
+.pregunta .pacto { background: var(--papel); font: inherit; font-size: .86rem; color: inherit; display: inline-flex; align-items: center; gap: 6px; }
+.pacto.limpiar { border-style: dotted; padding-left: 12px; color: var(--gris); }
