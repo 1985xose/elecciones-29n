@@ -2,15 +2,15 @@
  {
   "fecha": "2026-10-06",
   "escenarios": {
-   "pp": 0.0001,
-   "pp_vox": 0.9019,
-   "izq_socios": 0.0371,
-   "izq_sin_junts": 0.0221,
+   "pp": 0.0002,
+   "pp_vox": 0.906,
+   "izq_socios": 0.0352,
+   "izq_sin_junts": 0.0207,
    "gran_coalicion": 1
   },
-  "bloqueo": 0.061,
+  "bloqueo": 0.0588,
   "p50": {
-   "PP": 129,
+   "PP": 130,
    "PSOE": 108,
    "Vox": 65,
    "Bildu": 7,
@@ -18,11 +18,11 @@
    "Sumar": 8,
    "ERC": 8,
    "Junts": 4,
-   "AC": 2,
    "BNG": 2,
    "Podemos": 2,
    "AA": 0,
    "UPN": 1,
+   "AC": 2,
    "CCa": 1,
    "SALF": 0
   }
