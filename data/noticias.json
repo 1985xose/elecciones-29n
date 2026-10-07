@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-07T02:02:09+00:00",
+ "actualizado": "2026-10-07T02:22:52+00:00",
  "generales": [
   {
    "titulo": "Abascal se servirá de los presupuestos autonómicos pactados con el PP para su campaña",
@@ -58,18 +58,18 @@
    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac522bf567869-10754031.jpeg"
   },
   {
+   "titulo": "Puigdemont no desvela la fecha de su vuelta a Cataluña pese a la retirada de la orden de detención",
+   "enlace": "https://www.infolibre.es/politica/puigdemont-no-desvela-fecha-vuelta-cataluna-pese-retirada-orden-detencion_1_2237531.html",
+   "fuente": "infoLibre",
+   "fecha": "2026-10-06T17:21:57+00:00",
+   "imagen": "https://static.infolibre.es/clip/735e34a6-1677-4e52-bf1c-473f1cdd2de9_16-9-aspect-ratio_default_0_x299y64.jpg"
+  },
+  {
    "titulo": "El PP pide a la Junta Electoral que sancione a Sánchez por \"utilizar\" la Moncloa para \"dar un mitin del PSOE\"",
    "enlace": "https://www.europapress.es/nacional/noticia-pp-pide-junta-electoral-sancione-sanchez-utilizar-moncloa-dar-mitin-psoe-20261006183024.html",
    "fuente": "Europa Press",
    "fecha": "2026-10-06T16:30:24+00:00",
    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261006183024_120.jpg"
-  },
-  {
-   "titulo": "El Supremo da 48 horas de plazo para las alegaciones antes de resolver sobre la ley de nietos",
-   "enlace": "https://www.elconfidencial.com/espana/2026-10-06/supremo-48-horas-alegaciones-resolver-ley-nietos_4439499/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-10-06T16:16:00+02:00",
-   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/a29/fdf/a29fdfd539b37319bdf3ceeb77b66442/la-ley-de-nietos-rompe-tambien-el-supremo-y-genera-hondo-malestar-por-la-discrepancia-entre-companeros.jpg?mtime=1789484401"
   }
  ],
  "partidos": {
@@ -116,11 +116,11 @@
   ],
   "PSOE": [
    {
-    "titulo": "La crisis fabricada en Moncloa: el \"cohete económico\" de Sánchez recaudó 168.166 millones más pero dejó a una generación sin casa ante unos precios un 80% más caros",
-    "enlace": "https://www.larazon.es/economia/crisis-fabricada-moncloa-cohete-economico-sanchez-recaudo-168166-millones-mas-pero-dejo-generacion-casa-precios-80-mas-caros_202610076ac5a56248d2d008d0c87a28.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-07T03:50:26+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/06/FCEFDAEE-DBC3-42C2-91BD-E2B57B17B714/96.jpg?crop=3000,1688,x0,y156&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "El PSOE balear se abraza como nunca al sanchismo e inunda el Parlament con sus fracasadas recetas sobre vivienda",
+    "enlace": "https://okdiario.com/baleares/psoe-balear-abraza-como-nunca-sanchismo-inunda-parlament-sus-decretos-sobre-vivienda-20498140",
+    "fuente": "OKdiario",
+    "fecha": "2026-10-07T04:12:55+02:00",
+    "imagen": "https://okdiario.com/img/2026/10/06/imagen_recortada-2-2.jpg"
    },
    {
     "titulo": "Moncloa y Ferraz pugnan por el control de la campaña electoral",
@@ -317,12 +317,6 @@
   ],
   "ERC": [
    {
-    "titulo": "Joan Tardà: \"Gabriel Rufián será el candidato de ERC para las Elecciones con total seguridad\"",
-    "enlace": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNZ0wtN2ZlWnJja05VTXdzMGVXYzIweVJ6UFdKNERYUVIzU2c2dlpxVmhES2RWMXM0OXJnNk9KZlZwa0IwMlhQMndjUUV3czg4R1F1SzhGNGFVOHEtSDNIQzdhSTVMa2lta1R0UHJHd1hKNUJOeVZVUTZaX1h5QXFFM091TDBLRlpxb191Y2pQbjdOLWE0eUltWFN5UVlhNlRjQ21oMTZzek5fTk9Vamd0YVJVQ2gwb3JnamhObmpsZ0ZSeWpzUE1YeHpJMy00UzM1SDlOdW5BY3JPa1pIajBKeFJLQm5aS195OGQ2Q2xEeFZ3c1dNUzlVUHBpaklYcUQ5V0lfa1FMdWhlRk54MUE?oc=5",
-    "fuente": "atresplayer",
-    "fecha": "2026-10-06T23:26:36+00:00"
-   },
-   {
     "titulo": "El futuro de Rufián para el 29N: una negociación \"intensa\" para liderar ERC mientras constata la dificultad de una candidatura unitaria de izquierdas",
     "enlace": "https://news.google.com/rss/articles/CBMingJBVV95cUxNMlZXeVd3bDNldTVpakNULV9FOFNIYkF6dmtvN0xPa21maFVoeG1lQkswNmUtSEV4d3Jja0MwaWllMldEOGdOT1NLNUZZS20wSWRoc1h1NVlVRlRKbjNibVNOYTJ0eW5NTUNIOXdiNFJHb0o3Q3k2d2hwRHJLOExNbDFJQ2YwN1JDcllFLVdURWFaNzIxRUlGeGYwcV83bzJ0U21sUGlybXZYTFhHVGJIRzlOYjRYNDlmakp4a19qV19jRDI3a0tGOWFzZHE3VlZ0amdCZ1UzY1p4Tk5NZ2NuSmZSZGpQazJqYThFcllxWW9TdDU5ZEJmTUlWRks1blBQUjBJYnUwaC1vSE94Tl84emhSXzl5eldqQ0RwZ2t30gGeAkFVX3lxTE8zODhIMHlwYmZBTDZPRll0dGpsWEo1bm9oUWdQMzlkZjduTWlLcEM0blNYakN5WjNicjM2cENqSkMyZU0xSmxxVG93MGNqb3lXcTlUUzlFU3Vyc2hRMkVMXzkxQmlqRHRVbUgtM3FtQURubHZhZnZ4ZkdlM3dwVm5OQmdPRy1IVHU2QzlFVGRuM19JVXRVczFXTy1SYjJVOGNIbjk0QTFmckdFYmJidkFFX19GMUhieklIdjA0ZzlRVlhFUHlwSndqSzhXUXlLdGdrWmJqczZ6T2M3UmJ1X0lsNDVvR3o5aUY5cFZrMTZxSFh3OTNVSXR5UndiOC1LY2NsSnZoV1BpaWRVYjRCblk2N3QzOEo2VTA0d1RBX1E?oc=5",
     "fuente": "LaSexta",
@@ -351,21 +345,27 @@
     "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNnBZNFNLOHFWUkpaclhpYjQzZS1XdS1naEtCQWFjUGk3UGVkX0ZVVzNFaXQwazloZzdVVl94M0x4ZmJhZDBtOC0zQU52RnYzMXJna1RrN2ZGY0RxUUxaZnpEbUZHUmF2a3p3UFY3STA0X0gyYUVwUVg5UGx4WmF4UjZTelRRdlhPZjBoVk1zdTJsZ2N6elE1aGtSbHE0Q2JDb1AxRjlKcHRNQWx1STJaYUdNd0daSElrM0thbDdoTzZNZGkyVWJRSV9EdDVuMDU0WmhvZ2xVMVEydHdyc0RYR1BBM2x4VFlWMGd0LWJpUdIB-gFBVV95cUxQV29GRk41c2JCVUlCdjlJd2FreGpRdjU4V2R4RlFKcDU3eWU5M0FsZnJJckhTa3RrMThEM090MlRzelJQSnhiZlhJcVZCcG1UelZuVWdwV2d5cVV5aUxhd1hrb3NnWU5yRE5YRDBkX1o1OElYMF9uME9mT0MyMEdlc1ZCT2o3SnA2ZW96RlRfUjY1aTY5Y0ZiRmxac1BIa1c3NFBnWllORUJLRG5pTGxrbUpUaXF4elV5UHVTa0d0cU43U0RYQllUa3d5WGpINHJjZzRRTEhNVlN5aGx5U3FDSGpGTVEzci0yN1puQUxZcDlDeHhxdmU1UDVB?oc=5",
     "fuente": "Libertad Digital",
     "fecha": "2026-10-06T16:25:11+00:00"
+   },
+   {
+    "titulo": "Tardà descarta que Rufián encabece una candidatura de izquierdas para el 29N: \"Con total seguridad será el candidato de ERC\"",
+    "enlace": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOQU1iQXFfSGJWLXVNVHlkcEhPT1dnbEpRakNtQ2c2cDFuZkRPTEltdXJ2bExfUDZNSmpxOGtxSUJzYU8wb0VLaEdqampLdUZBbnJUMXVCNWNJYkF6dlpMeTRVZml2TV9fTzhVbjMtRW9Dc1l0b1F3NVNQVTB1SDZMWnpLLWNudFZUTm1PcDZSMk4taThHYzU5eFo0cFVnZkd3bklPUUZCdDhuNFhrd1IySEhpLXNSdkZyYVE3ZkpiSTJxdzVVR2lGOVR2NTZNYTF1Q0M3SElQZ21QS0RzQk9LYUtibmZUdzlBcTBnQXpiU3dPLUMtY0pyWTY5SEYtNDR2SlZpd192ZktLSUnSAYsCQVVfeXFMT0tHeWtpUjhDMmEzRDBnUTRoVWdmNm5mR2RIdUU3cXEwcngtanFkR0k1UXVDZkt5bVNPUi1yczBlVUJfZWN6Q0p0cDY0WlhEaTljXzI2OXN5dnI5Z09lYmw2eXJyWVN6OWlkbUJTN08yYkFNLUZTNWdWTmxydXJodFRWb2FyTTl5Y3RfaWJlWFRuQl9ZYmR3am1JekVmcUJYMDZWaUxtREh3dmVCSDlMbC1OaWVWQ1FFcWRXaGZnX0ppcDBMVWpiaF8xSTloQ19odjJRZG9XTGhDQUJCTTlaMmw0eWN6YmtxNllHTVUwTmRMOG1VQ1ExNDRxekt2amJKVnhsZmJQLVdEMDFv?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-10-06T14:40:33+00:00"
    }
   ],
   "Junts": [
+   {
+    "titulo": "La vivienda de Puigdemont",
+    "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QM2QtOHpFcGZ5TUFITUd6bC16VUh6UzA3TW12RmY5bTQ1Z3JGd1c2azlJeVgxa3BOSzMxWmphMjI5c05vSTlkZkdkSGRJLUpMS0dmMnVrSEhKaDRhWEFmaVdhVHJ6Uy1FdXNTeXVHb2tJLWdIQk5KTXdwR3o?oc=5",
+    "fuente": "LNE",
+    "fecha": "2026-10-07T02:01:07+00:00"
+   },
    {
     "titulo": "Moncloa cree que la vuelta de Puigdemont es un aval a su gestión y beneficia a Illa",
     "enlace": "https://www.abc.es/espana/moncloa-cree-vuelta-puigdemont-aval-gestion-beneficia-20261007012130-nt.html",
     "fuente": "ABC",
     "fecha": "2026-10-07T01:21:53+02:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/07/50775063-R1Z5F2VcKQDx8jZxA8f6LBK-1200x840@diario_abc.jpg"
-   },
-   {
-    "titulo": "Elecciones generales del 29-N, en directo | Puigdemont celebra la “derrota” de los poderes públicos que “han impedido y retrasado” la aplicación de la amnistía",
-    "enlace": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPNE5oZTNsR3pTMVh3S2ZwcDNiUVFTYlhBVXRRMl9BQ2hqM1N3Ym1pSVY0RDllTUhOMk4xcUR2WkxJZGxNNHpBWkpmZVRMbEh0Z3ZhWS05dzhKYlktWXJzQjk4SUxMN0lFUTBpNy1EUHhDcUFQX0s3TTBpM0VNTmNhY21jaUpJTDlzYnNobV93Z2w5MG9ubkZxRlRaZUk3TVRtUmpubGZhSUVFdHlUZ0NyQmdBZ2JnMU5yb0N3ZHhWQU9qU1BySXFMRHBVcE4tbzhQN0NxcFZXc1pPRVotbG8tcEpwZDZMM3RSemFVbElQRTFMVW11UkJGVHdWX2ZUZGJ5Wk5makVrLXFZVWstQUlxcWRIelBjQQ?oc=5",
-    "fuente": "Revista Gerente - Colombia",
-    "fecha": "2026-10-07T00:25:15+00:00"
    },
    {
     "titulo": "Puigdemont descarta un regreso inminente y delega en Nogueras el peso de la campaña del 29-N",
@@ -415,6 +415,12 @@
     "fecha": "2026-10-06T12:08:50+00:00"
    },
    {
+    "titulo": "¿Qué dice el CIS de Euskadi? Bildu aventaja al PNV y se consolida como referente del nacionalismo vasco",
+    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUDFtWDVyTXdLZmFVYzJWQ2ZKR2RlbXFhWllJa2hUQkFsdnBIXzBCcjRHbFU0aUNhYWxaeXlKMUl5NVFqSi1RMXg3YkNOREJHSHI0eWdJQmhLX2ZSVTdsb1FxOGVGZEswYXI0VmlJbXh0aVZKUnNCSW5hTFc3MTFDa1Q5RUZXTlp1Q1ljcnlUbE1oUUtEUF8yd3dYbXFKLUUtUE9fUnZEUVJNT0JiMmhBU1JvbEhQY2pqOFhud0IwRmNpM0RjVE9xbWY3RFbSAcwBQVVfeXFMT1AxbVg1ck13S2ZhVWMyVkNmSkdkZW1xYVpZSWtoVEJBbHZwSF8wQnI0R2xVNGlDYWFsWnl5SjFJeTVRakotUTF4N2JDTkRCR0hyNHlnSUJoS19mUlU3bG9RcThlRmRLMGFyNFZpSW14dGlWSlJzQkluYUxXNzExQ2tUOUVGV05adUNZY3J5VGxNaFFLRFBfMnd3WG1xSi1FLVBPX1J2RFFSTU9CYjJoQVNSb2xIUGNqajhYbndCMEZjaTNEY1RPcW1mN0RW?oc=5",
+    "fuente": "Crónica Vasca",
+    "fecha": "2026-10-06T03:00:00+00:00"
+   },
+   {
     "titulo": "EH Bildu ganó en 2023 en Gipuzkoa mientras que el PSE venció al PNV en Euskadi",
     "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWjFibDNjMkVQMWxVYTFPVG1MbTVYajJEUmZJTEhkOF9KaUEzZ1VfTlFKOTJxYndyckVOdVQ0YWZOaDRVUzRSM2lIRWxnckNadEluV3laOXpDeDRIaDVSbXdJOUlFTWVyeTIyY2tYclc2Wm51SHBNQjZfUEtqSFBRMm9vU0pWLVd0MXl2T0xYU1BLVDZweVFxN2lqVmdRVnBDb2FxU19R0gGmAUFVX3lxTE9aMWJsM2MyRVAxbFVhMU9UbUxtNVhqMkRSZklMSGQ4X0ppQTNnVV9OUUo5MnFid3JyRU51VDRhZk5oNFVTNFIzaUhFbGdyQ1p0SW5XeVo5ekN4NEhoNVJtd0k5SUVNZXJ5MjJja1hyVzZabnVIcE1CNl9QS2pIUFEyb29TSlYtV3QxeXZPTFhTUEtUNnB5UXE3aWpWZ1FWcENvYXFTX1E?oc=5",
     "fuente": "El Diario Vasco",
@@ -425,12 +431,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdjROZS12NGZqTlNELWlWaU4ydFBtaTFxdXpBQ2ZnenctcmlCU3F0a2ZZWVJmbGhDSWd3YktfQ2NxMkNqV0tKbERVT3R0cU82cnVIZHA2dnpERS1nUlF3UXBLMmdSb1B2SnN3Y1ZDLS00TWpobXZ2UzF5b0FHa01KQVEyWkEzQVAwT3Y1U3JtRDNBQTlXWWdfRkJfdEJPbkh1dEhJc3A3T1FSbjV2bnBhd1RiVUE?oc=5",
     "fuente": "ABC",
     "fecha": "2026-10-05T17:52:51+00:00"
-   },
-   {
-    "titulo": "Otegi dice que si está en su mano las derechas no van a gobernar y anima a la ciudadanía vasca a ganar el partido a los autoritarios",
-    "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOWmZwTE9rVlY3YWVLMHVITlY2MGE1QkpDZV9tX1l2MGpIM2hBM2dwUjlqb1ltX2VJd2V1NXhNRzF2ZjlORGdYNExBSUNzUEJDQUN2b1BRdXcyanU2ZEtMYmJLYTRmQVNPbHBYUUh6ZlhTU09HRWFieXdxZFVXQ1A0WUZBSVgtRHhrcWRrZDNuaml6RzdaaUFmNzU0SEhaT3ZPeGRfaWE2bm1ZdTE3bVBjS3MtUjZkNjBUbUlkck55TzVCcV8wSnFrQlBJSFQ0b1Qwd3lYMzZOX1lVU1BrNG16MUZVa3lsYjc0NmVlX0FDY014SUZneUYw?oc=5",
-    "fuente": "EHBildu",
-    "fecha": "2026-10-05T17:09:44+00:00"
    }
   ],
   "PNV": [
