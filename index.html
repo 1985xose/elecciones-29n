@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=37">
+<link rel="stylesheet" href="assets/style.css?v=38">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
@@ -136,11 +136,15 @@
     </div>
     <p id="explica-tendencia" class="explica">Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.</p>
     <div class="grafico"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div>
-    <details class="como"><summary>Los partidos pequeños y el CIS</summary>
-      <div id="lista-partidos" class="lista-partidos"></div>
-      <label class="interruptor"><input type="checkbox" id="incluir-cis"> Incluir el CIS, el organismo público, en la media</label>
-      <p class="fuente">El CIS no entra en la media por defecto porque desde 2019 se separa mucho del resto de empresas, sobre todo con el PSOE.</p>
-    </details>
+    <h2>Cómo va cada partido</h2>
+    <p class="explica">El porcentaje es la media de hoy. El número pequeño de color es lo que ha cambiado en una semana. Debajo, los asientos entre los que lo normal es que acabe.</p>
+    <div id="lista-partidos" class="lista-partidos"></div>
+    <article class="pregunta" id="cis-bloque" hidden>
+      <h2>¿Y el CIS?</h2>
+      <p id="cis-texto" class="pie-bloque"></p>
+      <div id="cis-tabla" class="cis-tabla"></div>
+      <p id="cis-nota" class="fuente"></p>
+    </article>
     <h2>Las últimas encuestas, una a una</h2>
     <p class="explica">Cada empresa tiene sus manías. Aquí te decimos si lo que dice una encuesta es normal en ella o es una novedad de verdad. Toca una encuesta para ver todos sus datos.</p>
     <div id="tarjetas-encuestas" class="tarjetas"></div>
@@ -298,7 +302,7 @@
       <p><b>Unas pesan más que otras.</b> Pesa más la más reciente (<span id="met-mitad">una de hace 10 días pesa la mitad que una de hoy</span>), la que preguntó a más gente (una de 4.000 entrevistas pesa el doble que una de 1.000) y la de la empresa que más acertó en elecciones anteriores (la que más acertó pesa, como mucho, algo más del doble que la que menos).</p>
       <p><b>Ninguna manda sola.</b> Una encuesta no puede pesar más de la cuarta parte del total, por muy reciente y grande que sea.</p>
       <p><b>Se corrigen las manías.</b> Cada empresa tiene las suyas, unas dan siempre algo más a un partido y otras algo menos. Se mide cuánto se ha separado cada empresa de la media de las demás en el último año largo, y eso se le resta a su encuesta antes de promediar. La corrección está hecha para que no mueva el conjunto, solo quita lo raro de cada una.</p>
-      <p><b>El CIS, aparte.</b> El CIS no entra en la media porque desde 2019 se separa mucho del resto, sobre todo con el PSOE. Se puede activar en la pestaña Encuestas para ver qué cambia.</p>
+      <p><b>El CIS, aparte.</b> El CIS no entra en la media porque desde 2019 se separa mucho del resto, sobre todo con el PSOE. En la pestaña Encuestas se enseña lo que dice su última encuesta al lado de la media.</p>
       <p><b>Las de los partidos, fuera.</b> Las encuestas que hace o encarga un partido se enseñan, pero no cuentan.</p>
       <p><b>Las empresas nuevas.</b> Una empresa que nunca ha pasado por unas elecciones cuenta como una empresa normal, ni mejor ni peor. Está medido, las debutantes de 2019 y 2023 fallaron lo mismo que las veteranas.</p>
       <h3>Las encuestas que cuentan hoy y cuánto pesa cada una</h3>
@@ -362,9 +366,9 @@
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-<script src="assets/modelo.js?v=37"></script>
-<script src="assets/media.js?v=37"></script>
-<script src="assets/app.js?v=37"></script>
+<script src="assets/modelo.js?v=38"></script>
+<script src="assets/media.js?v=38"></script>
+<script src="assets/app.js?v=38"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;

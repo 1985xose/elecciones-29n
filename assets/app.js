@@ -84,7 +84,7 @@ window.addEventListener("hashchange", () => activarPestana(location.hash.slice(1
 /* La media de un día, con la regla que tocaba ese día según lo que faltara para votar. La gráfica usa la misma. */
 function calcMedia(fecha = hoy()) {
   const va = Media.ventanaAdaptativa(fecha, fechaD(D.config.eleccion.fecha));
-  return { ...Media.calcMedia(D.encuestas?.encuestas || [], fecha, { ...va, incluirCIS: $("#incluir-cis")?.checked, ranking: D.fiabilidad?.ranking, sesgos: D.analisis?.sesgos }), fase: va.fase, mitad: va.mitad };
+  return { ...Media.calcMedia(D.encuestas?.encuestas || [], fecha, { ...va, ranking: D.fiabilidad?.ranking, sesgos: D.analisis?.sesgos }), fase: va.fase, mitad: va.mitad };
 }
 
 /* Patrón de colores de una coalición según el peso de cada partido en escaños (p. ej. 2 PP por cada Vox) */
@@ -345,18 +345,41 @@ function opciones(suf) {
 }
 
 /* ---------- Encuestas ---------- */
-const enc = { filtro: null, abiertas: new Set(), tramo: "legislatura" };
+const enc = { filtro: null, abiertas: new Set(), tramo: "legislatura", todos: false };
 const fMesAnio = new Intl.DateTimeFormat("es-ES", { month: "short", year: "numeric" });
 const etiquetaFecha = (t) => fMesAnio.format(t).replace(" de ", " ");
 document.querySelectorAll(".tramos button").forEach((b) => b.addEventListener("click", () => { enc.tramo = b.dataset.tramo; document.querySelectorAll(".tramos button").forEach((x) => x.setAttribute("aria-pressed", x === b ? "true" : "false")); pintarTendencia(); }));
-function pintarEncuestas(m, m7, proy) {
+/* La lista de partidos de Encuestas. Va aparte porque también se repinta al elegir partido en el modo partido. */
+function pintarListaPartidos(m, m7, proy) {
   const o = ordenar(m.media).filter((k) => m.media[k] >= 0.5);
   const max = Math.max(...o.map((k) => m.media[k]), 1);
-  $("#lista-partidos").replaceChildren(...o.map((k) => { const d = m7.media[k] != null ? m.media[k] - m7.media[k] : 0;
+  // A la vista, los partidos con al menos un 5 % (y el que se esté siguiendo en modo partido). El resto, con un botón.
+  const grandes = o.filter((k) => m.media[k] >= 5 || k === foco.k), resto = o.length - grandes.length;
+  const fila = (k) => { const d = m7.media[k] != null ? m.media[k] - m7.media[k] : 0;
     return el("div", { class: "fila-p" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
       el("div", { class: "pct" }, `${fmt1.format(m.media[k])} %`, el("small", { class: Math.abs(d) >= 0.1 ? (d > 0 ? "sube" : "baja") : "" }, Math.abs(d) >= 0.1 ? signo(d) : "")),
       el("div", { class: "barra" }, el("i", { style: { width: `${m.media[k] / max * 100}%`, background: color(k) } })),
-      el("div", { class: "esc" }, D.prob?.partidos?.[k] ? `entre ${D.prob.partidos[k].p10} y ${D.prob.partidos[k].p90} asientos` : `${proy.total[k] || 0} asientos`)); }));
+      el("div", { class: "esc" }, D.prob?.partidos?.[k] ? `entre ${D.prob.partidos[k].p10} y ${D.prob.partidos[k].p90} asientos` : `${proy.total[k] || 0} asientos`)); };
+  poner($("#lista-partidos"), ...(enc.todos ? o : grandes).map(fila),
+    resto > 0 ? el("button", { class: "ver-mas", type: "button", "aria-expanded": enc.todos ? "true" : "false", onclick: () => { enc.todos = !enc.todos; pintarListaPartidos(m, m7, proy); } },
+      enc.todos ? "Ver solo los más votados" : `Ver los otros ${resto} partidos`) : null);
+}
+function pintarEncuestas(m, m7, proy) {
+  const o = ordenar(m.media).filter((k) => m.media[k] >= 0.5);
+  pintarListaPartidos(m, m7, proy);
+  // El CIS no entra en la media. Se enseña al lado lo que dice su última encuesta, para ver cuánto se separa.
+  const cis = (D.encuestas?.encuestas || []).filter((e) => e.clave === "cis").sort((x, y) => y.fin.localeCompare(x.fin))[0];
+  $("#cis-bloque").hidden = !cis;
+  if (cis) {
+    const dia = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "long" }).format(Media.fechaD(cis.fin));
+    $("#cis-texto").textContent = `Es la encuesta del organismo público. No entra en la media porque desde 2019 se separa mucho del resto de empresas, sobre todo con el PSOE. Su última encuesta es del ${dia}.`;
+    const filas = o.filter((k) => cis.pct[k] != null).slice(0, 4);
+    poner($("#cis-tabla"), el("span", {}), el("span", { class: "cab" }, "Media de hoy"), el("span", { class: "cab" }, "El CIS"), el("span", { class: "cab" }, "Diferencia"),
+      ...filas.flatMap((k) => { const d = cis.pct[k] - m.media[k];
+        return [el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)), el("span", {}, `${fmt1.format(m.media[k])} %`),
+          el("b", {}, `${fmt1.format(cis.pct[k])} %`), el("span", { class: "dif" }, Math.abs(d) < 0.05 ? "igual" : `${fmt1.format(Math.abs(d))} ${d > 0 ? "más" : "menos"}`)]; }));
+    $("#cis-nota").textContent = "Aunque entrara, la media cambiaría muy poco. A cada empresa se le resta lo que suele dar de más o de menos a cada partido antes de hacer la cuenta.";
+  }
   // Botones por empresa: todas las de la legislatura. Primero las que han publicado en el último año, de más a menos
   // encuestas, y al final las que llevan más de un año calladas. Las de partido no son empresas y no tienen botón.
   const todas = D.encuestas?.encuestas || [], hace365 = new Date(+hoy() - 365 * DIA);
@@ -727,7 +750,7 @@ function probabilidadSim() {
   }
   sd.sort((a, b) => a - b); si.sort((a, b) => a - b);
   // Sin tocar nada es la misma situación que en Hoy, así que se enseñan los mismos números que allí y no otra tirada de dados
-  const intacto = !$("#incluir-cis")?.checked && !sim.fusiones.length && Object.keys(sim.valores).every((k) => Math.abs((sim.valores[k] || 0) - (sim.base[k] ?? -9)) < 1e-9);
+  const intacto = !sim.fusiones.length && Object.keys(sim.valores).every((k) => Math.abs((sim.valores[k] || 0) - (sim.base[k] ?? -9)) < 1e-9);
   const pd = intacto ? der.p : cd / N, pi = intacto ? izq.p : ci / N, pb = intacto ? P.bloqueo : Math.max(0, 1 - pd - pi);
   const rd = intacto ? [der.p10, der.p90] : [sd[Math.floor(N * .1)], sd[Math.floor(N * .9)]], ri = intacto ? [izq.p10, izq.p90] : [si[Math.floor(N * .1)], si[Math.floor(N * .9)]];
   const nd = nombreEsc(der), ni = nombreEsc(izq);
@@ -807,7 +830,7 @@ function pintarSenado(proy) {
 const foco = { k: null, ctx: null };
 let graficoFoco;
 try { foco.k = localStorage.getItem("partido") || null; } catch {}
-function elegirFoco(k) { foco.k = k; try { if (k) localStorage.setItem("partido", k); else localStorage.removeItem("partido"); } catch {} pintarFoco(); }
+function elegirFoco(k) { foco.k = k; try { if (k) localStorage.setItem("partido", k); else localStorage.removeItem("partido"); } catch {} pintarFoco(); if (foco.ctx) pintarListaPartidos(foco.ctx.m, foco.ctx.m7, foco.ctx.proy); }
 const agujaFija = (titulo, p, col) => el("div", { class: "medidor-a fijo" }, el("span", { class: "tit" }, titulo), el("span", { class: "svg", html: aguja(p, col) }), el("b", {}, cap(palabra(p))));
 const ORDINAL = ["", "primero", "segundo", "tercero", "cuarto", "quinto", "sexto", "séptimo", "octavo", "noveno", "décimo"];
 function pintarFoco(ctx) {
@@ -1006,7 +1029,6 @@ async function refrescar() {
   await cargarDatos();
   if (!D.config || !D.base) { $("#r-ganando").textContent = "No se han podido cargar los datos base."; return; }
   try { mapa.sel = localStorage.getItem("mi-provincia") || null; } catch {}
-  $("#incluir-cis").addEventListener("change", pintarTodo);
   $("#compartir").addEventListener("click", compartir);
   pintarTodo();
   D.listo = true;
