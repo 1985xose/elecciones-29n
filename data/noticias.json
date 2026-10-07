@@ -1,12 +1,26 @@
 {
- "actualizado": "2026-10-07T02:22:52+00:00",
+ "actualizado": "2026-10-07T03:01:57+00:00",
  "generales": [
   {
-   "titulo": "Abascal se servirá de los presupuestos autonómicos pactados con el PP para su campaña",
-   "enlace": "https://www.larazon.es/espana/abascal-servira-presupuestos-autonomicos-pactados-campana_202610076ac5a49d48d2d008d0c879e6.html",
+   "titulo": "Ayuso entrega a Feijóo el «ejército» del PP de Madrid y fija su meta en subir a «19 escaños»",
+   "enlace": "https://www.larazon.es/espana/ayuso-entrega-feijoo-ejercito-madrid-fija-meta-subir-19-escanos_202610076ac5b5bf69377819d1689ac5.html",
    "fuente": "La Razón",
-   "fecha": "2026-10-07T03:47:09+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/05/5A9A1E0B-834F-451B-8BB9-FC8A822B652B/96.jpg?crop=4208,2367,x0,y217&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   "fecha": "2026-10-07T05:00:15+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/06/C009764E-3A9C-4513-B60C-9E214D0474FB/noticia-dia-6-10-26_96.jpg?crop=2204,1240,x0,y1&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
+  {
+   "titulo": "Las encuestas en Cataluña lanzan a Orriols, meten miedo al PSC y dejan a Junts en manos de Puigdemont",
+   "enlace": "https://www.elconfidencial.com/espana/cataluna/2026-10-07/encuestas-cataluna-orriols-miedo-psc-junts-puigdemont_4439721/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-10-07T05:00:00+02:00",
+   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/a45/bdd/a45bddba66917481f2d6b505534b348d/junts-asegura-que-se-opondra-a-investir-tanto-a-nunez-feijoo-como-a-pedro-sanchez.jpg?mtime=1791283138"
+  },
+  {
+   "titulo": "Montero, la estratega de Sánchez para radicalizar la campaña que se estrelló como candidata en Andalucía",
+   "enlace": "https://www.eldebate.com/espana/20261007/montero-estratega-sanchez-radicalizar-campana-estrello-como-candidata-andalucia_466722.html",
+   "fuente": "El Debate",
+   "fecha": "2026-10-07T04:30:00+02:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac4fb9d41252.r_d.935-546-0.jpeg"
   },
   {
    "titulo": "Los 70 diputados de Vox, el listón clave que espera el PSOE y que \"puede hacer la legislatura casi imposible\" para el PP",
@@ -14,13 +28,6 @@
    "fuente": "El Mundo",
    "fecha": "2026-10-07T01:36:10+02:00",
    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17912009449084.jpg"
-  },
-  {
-   "titulo": "Podemos escenificará unas primarias abiertas aunque se descuelgue Sumar",
-   "enlace": "https://www.abc.es/espana/podemos-escenificara-primarias-abiertas-descuelgue-sumar-20261006012141-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-07T01:22:15+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/sumar-febrero-tsieira-RpNjP1NVxgDbz8mYS7UoMjN-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Adelanto de elecciones en directo | El PNV confirma su apoyo al primer decreto de vivienda en la Diputación Permanente, pero mantiene su rechazo al segundo",
@@ -58,13 +65,6 @@
    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac522bf567869-10754031.jpeg"
   },
   {
-   "titulo": "Puigdemont no desvela la fecha de su vuelta a Cataluña pese a la retirada de la orden de detención",
-   "enlace": "https://www.infolibre.es/politica/puigdemont-no-desvela-fecha-vuelta-cataluna-pese-retirada-orden-detencion_1_2237531.html",
-   "fuente": "infoLibre",
-   "fecha": "2026-10-06T17:21:57+00:00",
-   "imagen": "https://static.infolibre.es/clip/735e34a6-1677-4e52-bf1c-473f1cdd2de9_16-9-aspect-ratio_default_0_x299y64.jpg"
-  },
-  {
    "titulo": "El PP pide a la Junta Electoral que sancione a Sánchez por \"utilizar\" la Moncloa para \"dar un mitin del PSOE\"",
    "enlace": "https://www.europapress.es/nacional/noticia-pp-pide-junta-electoral-sancione-sanchez-utilizar-moncloa-dar-mitin-psoe-20261006183024.html",
    "fuente": "Europa Press",
@@ -75,11 +75,18 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Abascal se servirá de los presupuestos autonómicos pactados con el PP para su campaña",
-    "enlace": "https://www.larazon.es/espana/abascal-servira-presupuestos-autonomicos-pactados-campana_202610076ac5a49d48d2d008d0c879e6.html",
+    "titulo": "Ayuso entrega a Feijóo el «ejército» del PP de Madrid y fija su meta en subir a «19 escaños»",
+    "enlace": "https://www.larazon.es/espana/ayuso-entrega-feijoo-ejercito-madrid-fija-meta-subir-19-escanos_202610076ac5b5bf69377819d1689ac5.html",
     "fuente": "La Razón",
-    "fecha": "2026-10-07T03:47:09+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/05/5A9A1E0B-834F-451B-8BB9-FC8A822B652B/96.jpg?crop=4208,2367,x0,y217&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "fecha": "2026-10-07T05:00:15+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/06/C009764E-3A9C-4513-B60C-9E214D0474FB/noticia-dia-6-10-26_96.jpg?crop=2204,1240,x0,y1&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "El PP rescata Ceuta y la corrupción para atacar al PSOE en campaña y mira de reojo al voto por correo",
+    "enlace": "https://www.elconfidencial.com/espana/2026-10-07/pp-rescata-ceuta-corrupcion-atacar-psoe-campana-voto-correo_4439654/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-07T05:00:00+02:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/1cf/414/1cf4144a6f7f4f551c18613fe2cd8684/el-fin-de-semana-en-el-que-feijoo-se-preparo-para-el-momento-mas-importante-de-mi-vida-politica.jpg?mtime=1791208837"
    },
    {
     "titulo": "Feijóo visita Ceuta este miércoles y reúne a los populares ceutíes en la Estación del Ferrocarril",
@@ -93,13 +100,6 @@
     "fuente": "elDiario.es",
     "fecha": "2026-10-06T20:02:46+00:00",
     "imagen": "https://static.eldiario.es/clip/4ca090d9-8531-4603-b9a4-416d9de7bd5a_16-9-discover-aspect-ratio_default_0_x1040y307.jpg"
-   },
-   {
-    "titulo": "El PP denuncia ante la Junta Electoral el \"mitin\" de Sánchez tras el Consejo de Ministros",
-    "enlace": "https://www.20minutos.es/nacional/pp-denuncia-ante-junta-electoral-mitin-sanchez-tras-consejo-ministros_7045675_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-10-06T18:48:31+02:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac522bf567869-10754031.jpeg"
    },
    {
     "titulo": "Voto por correo: el PP siembra la duda ante un Feijóo que calla a pesar de que trabajó tres años en Correos y conoce el sistema",
@@ -116,11 +116,18 @@
   ],
   "PSOE": [
    {
-    "titulo": "El PSOE balear se abraza como nunca al sanchismo e inunda el Parlament con sus fracasadas recetas sobre vivienda",
-    "enlace": "https://okdiario.com/baleares/psoe-balear-abraza-como-nunca-sanchismo-inunda-parlament-sus-decretos-sobre-vivienda-20498140",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-07T04:12:55+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/06/imagen_recortada-2-2.jpg"
+    "titulo": "El PP rescata Ceuta y la corrupción para atacar al PSOE en campaña y mira de reojo al voto por correo",
+    "enlace": "https://www.elconfidencial.com/espana/2026-10-07/pp-rescata-ceuta-corrupcion-atacar-psoe-campana-voto-correo_4439654/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-07T05:00:00+02:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/1cf/414/1cf4144a6f7f4f551c18613fe2cd8684/el-fin-de-semana-en-el-que-feijoo-se-preparo-para-el-momento-mas-importante-de-mi-vida-politica.jpg?mtime=1791208837"
+   },
+   {
+    "titulo": "Montero, la estratega de Sánchez para radicalizar la campaña que se estrelló como candidata en Andalucía",
+    "enlace": "https://www.eldebate.com/espana/20261007/montero-estratega-sanchez-radicalizar-campana-estrello-como-candidata-andalucia_466722.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-07T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac4fb9d41252.r_d.935-546-0.jpeg"
    },
    {
     "titulo": "Moncloa y Ferraz pugnan por el control de la campaña electoral",
@@ -147,21 +154,21 @@
     "enlace": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTl90ckg1aWx0OTkybmNnWmI0dUpaN0dWNGNlTVVwWktNdHdvMXZmLU5LT2lzUHFLZE5IeWhKYi1aTEh1MnpKNzFNaWJFLTRkQS1sRnZNR2xOd1ZSTmNPN0ZEZ2F1UndEa2hpdDN2Yi1MWXpPSHlnY0NFUHpmSGNBZUFFQXhYb0tISUVZ0gGLAUFVX3lxTFBVSHBma1duSG82WHRSRjZnU2swZzFhNkw1dDZoa204bXBQUmRPNTIxaXYzWVJPdHFCM1poMllVTVRJWmVxaVg1Y2RSQkpsQXE1NWJVZ0RQWGxjbHU1VzRncXB0RTR5NUlTZE8yZDNHdFZ1U3BYUDRjUjRtaVVpQ0ZiZHF6ampSSnZENms?oc=5",
     "fuente": "El Mundo",
     "fecha": "2026-10-06T21:23:32+00:00"
-   },
-   {
-    "titulo": "Un sociólogo próximo al PSOE le da «un 6 % de probabilidades» de gobernar tras las elecciones del 29-N",
-    "enlace": "https://www.eldebate.com/espana/20261006/sociologo-proximo-psoe-le-da-6-probabilidades-gobernar-elecciones-29n_466925.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-06T21:09:42+00:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/10/06/6ac5637a7acf5.png"
    }
   ],
   "Vox": [
    {
+    "titulo": "El campo toma Toledo y el PP aprovecha para pedir el fin de la era de Page: Vox contra el fanatismo climático",
+    "enlace": "https://www.eldebate.com/espana/castilla-la-mancha/20261007/campo-toma-toledo-pp-aprovecha-pedir-fin-page-vox-contra-fanatismo-climatico_466853.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-07T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac52e5255529.r_d.963-537-0.jpeg"
+   },
+   {
     "titulo": "Abascal se servirá de los presupuestos autonómicos pactados con el PP para su campaña",
     "enlace": "https://www.larazon.es/espana/abascal-servira-presupuestos-autonomicos-pactados-campana_202610076ac5a49d48d2d008d0c879e6.html",
     "fuente": "La Razón",
-    "fecha": "2026-10-07T03:47:09+02:00",
+    "fecha": "2026-10-07T01:47:09+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/05/5A9A1E0B-834F-451B-8BB9-FC8A822B652B/96.jpg?crop=4208,2367,x0,y217&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
@@ -189,12 +196,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbndxS3U5bUp4Q1JheUNsZGMyWWZOYlppZTh4YTE5UlV6X3E5TWpxM1BBakEwSTNaUnBhMWRaUDY2NFBtMjkyUWduXzJVcmQwNXhBM3hKVnRkRzlvUkRFZms3VzhuQmxuTm1TOUFvdW5hN1N0OS1fN3JtcVRVMURuaEFOdVUxZ3RlLVprdjFJUnQzNmRRTnowYUd1TE83QUlqeTFMNC15UGlNSkE4d0hZSzRydkVpbFRBWTNwclE2bjhHQnVLMkJJdmZQMlNwRk5QN2g5VGhVYkQxMWtNMm14Sk9ERnZGS2VvZDhwcjl3?oc=5",
     "fuente": "heraldo.es",
     "fecha": "2026-10-06T20:13:05+00:00"
-   },
-   {
-    "titulo": "Por qué Ayuso y Abascal tiran del manual de la ultraderecha para cuestionar las elecciones",
-    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZ2VJUDc4aTZJRktFeE0xNjdDRWJaSGdMQ1NTZi02cFdQa0RmU3B5Z2RFdnlPUWg5ZHJnVTlRQ2lSUzE5S01pc1U3U2ZHbjNEOEdCMnpJT1VSelpVeWRpLUpaSGt6dlJGMkM5QUxxaXBCS3RySGFqTEY3bUJfdU5ib3VaN0YxLTJ6MmRZeUJ4bTN5RTl5WEt2ZTJCMUV5X1pSVlpPZDFMSjBaSF9vVWpXeVk5SFk4Z9IBuwFBVV95cUxQRFU4eE9hX2xiQlVBeWxUS0NyVU5iSzBjMmdUU3k2UWRsV29DRW1sY2lva2FvUFNIX1ZQZ3JkcXB0bnNBQW5sYm16Q3BGZ1BoUjctSjBFNW5RdTRtSU90aFFSOXp1c09zMkpPOXAxNFN4NGdsVWJKRElEVXBSMFhwZzByQVVvM1d5VFJxd2JfenRFTGIzUHJpbEZ0M0RTaHh3cDIzM09ncmVqeno4MjNHcXRnU0lCWXlTZXRn?oc=5",
-    "fuente": "elDiario.es",
-    "fecha": "2026-10-06T20:02:47+00:00"
    }
   ],
   "Sumar": [
@@ -219,10 +220,9 @@
    },
    {
     "titulo": "Más Madrid plantea al resto de partidos del Frente Amplio elegir candidato en 48 horas",
-    "enlace": "https://www.eldebate.com/espana/madrid/20261006/madrid-plantea-resto-partidos-frente-amplio-elegir-candidato-48-horas_466739.html",
+    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNXdQM3FuTkFKc3JjQzZGMXYzaUdjc3MtaU03ZlAycFNVNV9aT2lUTHlMd0FHY2NlRG43RVlzWm5UdDNEYUJmMEdZN2M5YUdBdnM4TEJsNXRhQ0FoYzV5RzZSMUc3YmRiODQzNWJuOTZqdW1mUGxUTHNNdDJWWkZYeWM0alllUjV5SGJpNC01SjB0QnpVNXBiT092Umg3Q3pnb2NfMld6Yjh2bnhObUNwSXBlaF85aUVROTZXRjRYbDFjR0czdktmTtIBzgFBVV95cUxOTXlDRDhidUdvTkVpNktwSXM4NlhzV2RraXFST3ZOSzFCc2R4MTFvNWNzeUd3R0ZMdzBHcnhub1ZLaTkzOHZ6Q2JmbGROMFlRWlQzLVh0bmttUTNVdHNLcWF3NHZ2aWJYZ2J5UFJpT3NkSFNwZGkyLUJDTmhqV3BZQW83cF9zZlBabHZNNlFHZERYWU84Q2FGMDBGXy1VdFllRUZzNXlfOGJjM2hmOGx4TmRmXzlVQ2NoNXctMXliWjZXR21DeTV0eWxkOFd1UQ?oc=5",
     "fuente": "El Debate",
-    "fecha": "2026-10-06T13:54:45+00:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/09/29/6abb5e54d4a47.r_d.3440-987-0.jpeg"
+    "fecha": "2026-10-06T13:54:45+00:00"
    },
    {
     "titulo": "Más Madrid urge al Frente Amplio a cerrar en 48 horas su candidato",
@@ -317,6 +317,12 @@
   ],
   "ERC": [
    {
+    "titulo": "Joan Tardà: \"Gabriel Rufián será el candidato de ERC para las Elecciones con total seguridad\"",
+    "enlace": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNZ0wtN2ZlWnJja05VTXdzMGVXYzIweVJ6UFdKNERYUVIzU2c2dlpxVmhES2RWMXM0OXJnNk9KZlZwa0IwMlhQMndjUUV3czg4R1F1SzhGNGFVOHEtSDNIQzdhSTVMa2lta1R0UHJHd1hKNUJOeVZVUTZaX1h5QXFFM091TDBLRlpxb191Y2pQbjdOLWE0eUltWFN5UVlhNlRjQ21oMTZzek5fTk9Vamd0YVJVQ2gwb3JnamhObmpsZ0ZSeWpzUE1YeHpJMy00UzM1SDlOdW5BY3JPa1pIajBKeFJLQm5aS195OGQ2Q2xEeFZ3c1dNUzlVUHBpaklYcUQ5V0lfa1FMdWhlRk54MUE?oc=5",
+    "fuente": "atresplayer",
+    "fecha": "2026-10-06T23:26:36+00:00"
+   },
+   {
     "titulo": "El futuro de Rufián para el 29N: una negociación \"intensa\" para liderar ERC mientras constata la dificultad de una candidatura unitaria de izquierdas",
     "enlace": "https://news.google.com/rss/articles/CBMingJBVV95cUxNMlZXeVd3bDNldTVpakNULV9FOFNIYkF6dmtvN0xPa21maFVoeG1lQkswNmUtSEV4d3Jja0MwaWllMldEOGdOT1NLNUZZS20wSWRoc1h1NVlVRlRKbjNibVNOYTJ0eW5NTUNIOXdiNFJHb0o3Q3k2d2hwRHJLOExNbDFJQ2YwN1JDcllFLVdURWFaNzIxRUlGeGYwcV83bzJ0U21sUGlybXZYTFhHVGJIRzlOYjRYNDlmakp4a19qV19jRDI3a0tGOWFzZHE3VlZ0amdCZ1UzY1p4Tk5NZ2NuSmZSZGpQazJqYThFcllxWW9TdDU5ZEJmTUlWRks1blBQUjBJYnUwaC1vSE94Tl84emhSXzl5eldqQ0RwZ2t30gGeAkFVX3lxTE8zODhIMHlwYmZBTDZPRll0dGpsWEo1bm9oUWdQMzlkZjduTWlLcEM0blNYakN5WjNicjM2cENqSkMyZU0xSmxxVG93MGNqb3lXcTlUUzlFU3Vyc2hRMkVMXzkxQmlqRHRVbUgtM3FtQURubHZhZnZ4ZkdlM3dwVm5OQmdPRy1IVHU2QzlFVGRuM19JVXRVczFXTy1SYjJVOGNIbjk0QTFmckdFYmJidkFFX19GMUhieklIdjA0ZzlRVlhFUHlwSndqSzhXUXlLdGdrWmJqczZ6T2M3UmJ1X0lsNDVvR3o5aUY5cFZrMTZxSFh3OTNVSXR5UndiOC1LY2NsSnZoV1BpaWRVYjRCblk2N3QzOEo2VTA0d1RBX1E?oc=5",
     "fuente": "LaSexta",
@@ -345,15 +351,23 @@
     "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNnBZNFNLOHFWUkpaclhpYjQzZS1XdS1naEtCQWFjUGk3UGVkX0ZVVzNFaXQwazloZzdVVl94M0x4ZmJhZDBtOC0zQU52RnYzMXJna1RrN2ZGY0RxUUxaZnpEbUZHUmF2a3p3UFY3STA0X0gyYUVwUVg5UGx4WmF4UjZTelRRdlhPZjBoVk1zdTJsZ2N6elE1aGtSbHE0Q2JDb1AxRjlKcHRNQWx1STJaYUdNd0daSElrM0thbDdoTzZNZGkyVWJRSV9EdDVuMDU0WmhvZ2xVMVEydHdyc0RYR1BBM2x4VFlWMGd0LWJpUdIB-gFBVV95cUxQV29GRk41c2JCVUlCdjlJd2FreGpRdjU4V2R4RlFKcDU3eWU5M0FsZnJJckhTa3RrMThEM090MlRzelJQSnhiZlhJcVZCcG1UelZuVWdwV2d5cVV5aUxhd1hrb3NnWU5yRE5YRDBkX1o1OElYMF9uME9mT0MyMEdlc1ZCT2o3SnA2ZW96RlRfUjY1aTY5Y0ZiRmxac1BIa1c3NFBnWllORUJLRG5pTGxrbUpUaXF4elV5UHVTa0d0cU43U0RYQllUa3d5WGpINHJjZzRRTEhNVlN5aGx5U3FDSGpGTVEzci0yN1puQUxZcDlDeHhxdmU1UDVB?oc=5",
     "fuente": "Libertad Digital",
     "fecha": "2026-10-06T16:25:11+00:00"
-   },
-   {
-    "titulo": "Tardà descarta que Rufián encabece una candidatura de izquierdas para el 29N: \"Con total seguridad será el candidato de ERC\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOQU1iQXFfSGJWLXVNVHlkcEhPT1dnbEpRakNtQ2c2cDFuZkRPTEltdXJ2bExfUDZNSmpxOGtxSUJzYU8wb0VLaEdqampLdUZBbnJUMXVCNWNJYkF6dlpMeTRVZml2TV9fTzhVbjMtRW9Dc1l0b1F3NVNQVTB1SDZMWnpLLWNudFZUTm1PcDZSMk4taThHYzU5eFo0cFVnZkd3bklPUUZCdDhuNFhrd1IySEhpLXNSdkZyYVE3ZkpiSTJxdzVVR2lGOVR2NTZNYTF1Q0M3SElQZ21QS0RzQk9LYUtibmZUdzlBcTBnQXpiU3dPLUMtY0pyWTY5SEYtNDR2SlZpd192ZktLSUnSAYsCQVVfeXFMT0tHeWtpUjhDMmEzRDBnUTRoVWdmNm5mR2RIdUU3cXEwcngtanFkR0k1UXVDZkt5bVNPUi1yczBlVUJfZWN6Q0p0cDY0WlhEaTljXzI2OXN5dnI5Z09lYmw2eXJyWVN6OWlkbUJTN08yYkFNLUZTNWdWTmxydXJodFRWb2FyTTl5Y3RfaWJlWFRuQl9ZYmR3am1JekVmcUJYMDZWaUxtREh3dmVCSDlMbC1OaWVWQ1FFcWRXaGZnX0ppcDBMVWpiaF8xSTloQ19odjJRZG9XTGhDQUJCTTlaMmw0eWN6YmtxNllHTVUwTmRMOG1VQ1ExNDRxekt2amJKVnhsZmJQLVdEMDFv?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-10-06T14:40:33+00:00"
    }
   ],
   "Junts": [
+   {
+    "titulo": "Las encuestas en Cataluña lanzan a Orriols, meten miedo al PSC y dejan a Junts en manos de Puigdemont",
+    "enlace": "https://www.elconfidencial.com/espana/cataluna/2026-10-07/encuestas-cataluna-orriols-miedo-psc-junts-puigdemont_4439721/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-07T05:00:00+02:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/a45/bdd/a45bddba66917481f2d6b505534b348d/junts-asegura-que-se-opondra-a-investir-tanto-a-nunez-feijoo-como-a-pedro-sanchez.jpg?mtime=1791283138"
+   },
+   {
+    "titulo": "Salvador Illa recibirá a Carles Puigdemont en el Palau de la Generalitat",
+    "enlace": "https://www.eldebate.com/espana/cataluna/20261007/salvador-illa-recibira-carles-puigdemont-palau-generalitat_466711.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-07T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/08/25/6a8d6a5bcb90f.jpeg"
+   },
    {
     "titulo": "La vivienda de Puigdemont",
     "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QM2QtOHpFcGZ5TUFITUd6bC16VUh6UzA3TW12RmY5bTQ1Z3JGd1c2azlJeVgxa3BOSzMxWmphMjI5c05vSTlkZkdkSGRJLUpMS0dmMnVrSEhKaDRhWEFmaVdhVHJ6Uy1FdXNTeXVHb2tJLWdIQk5KTXdwR3o?oc=5",
@@ -361,11 +375,10 @@
     "fecha": "2026-10-07T02:01:07+00:00"
    },
    {
-    "titulo": "Moncloa cree que la vuelta de Puigdemont es un aval a su gestión y beneficia a Illa",
-    "enlace": "https://www.abc.es/espana/moncloa-cree-vuelta-puigdemont-aval-gestion-beneficia-20261007012130-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-07T01:21:53+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/07/50775063-R1Z5F2VcKQDx8jZxA8f6LBK-1200x840@diario_abc.jpg"
+    "titulo": "Elecciones generales del 29-N, en directo | Puigdemont celebra la “derrota” de los poderes públicos que “han impedido y retrasado” la aplicación de la amnistía",
+    "enlace": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPNE5oZTNsR3pTMVh3S2ZwcDNiUVFTYlhBVXRRMl9BQ2hqM1N3Ym1pSVY0RDllTUhOMk4xcUR2WkxJZGxNNHpBWkpmZVRMbEh0Z3ZhWS05dzhKYlktWXJzQjk4SUxMN0lFUTBpNy1EUHhDcUFQX0s3TTBpM0VNTmNhY21jaUpJTDlzYnNobV93Z2w5MG9ubkZxRlRaZUk3TVRtUmpubGZhSUVFdHlUZ0NyQmdBZ2JnMU5yb0N3ZHhWQU9qU1BySXFMRHBVcE4tbzhQN0NxcFZXc1pPRVotbG8tcEpwZDZMM3RSemFVbElQRTFMVW11UkJGVHdWX2ZUZGJ5Wk5makVrLXFZVWstQUlxcWRIelBjQQ?oc=5",
+    "fuente": "Revista Gerente - Colombia",
+    "fecha": "2026-10-07T00:25:15+00:00"
    },
    {
     "titulo": "Puigdemont descarta un regreso inminente y delega en Nogueras el peso de la campaña del 29-N",
@@ -379,19 +392,6 @@
     "fuente": "laSexta",
     "fecha": "2026-10-06T22:03:05+02:00",
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2024/08/10/D610868C-7811-4734-93C6-A32D7AE378C7/carles-puigdemont-vuelta-waterloo_96.jpg?crop=1489,838,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "El mejor momento para que vuelva Puigdemont",
-    "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVUFiRDRqZXRHTHZFek15ZFA5OFE2ZDRVMFBDUHRNWFkwLWpxdHBzdDNPV19BY3BuTkN3bmcxX0JrM0tzWWhvWktSU1dWZktheE5OMXJYNkdpQWRlamlFTmlTMlM5NmI1dXVWenpTYTZNRzFzRVBKNEpIODVBTVhPWldoQ09iZk9jSmc1MDByY3ZOUTFXWTZfVzdnMjAzalF6WFFRVExkOG5BU3V3MmlHRHBENUdwSW55UFl0YmotWTVxUdIBzAFBVV95cUxNOWptQURGS1NQSkt6N2RDblQyMmo4WG9oeDFXMU5iZUk4R2I4aWhHcktvbjI4UjFjVUZ3YW90bG5hX05SN3J1X0lDVWstUU5Jb3gwVnpYSDJTQWtBRXpYbHNzTTZLcGxOUXZ1SnNKbW5vYzVJOXFaVDFEblZfcGFkR05wVVg5UEZwa3B1aUxkMVNzbDluTTVYVWJHTWcyd2hNdENvRlVXa0lVeW5walV1eHBLdGFRMDlJbE9aZU5NUzZYRF9kb1JzckVyaFg?oc=5",
-    "fuente": "Libertad Digital",
-    "fecha": "2026-10-06T20:09:52+00:00"
-   },
-   {
-    "titulo": "Puigdemont aguardará al archivo de la causa en el Supremo para volver a Catalunya",
-    "enlace": "https://www.lavanguardia.com/politica/20261006/11652725/puigdemont-aguardara-archivo-causa-supremo-volver-catalunya.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-06T20:03:03+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac534dcb94d3.r_d.3028-1845-748.jpeg"
    }
   ],
   "Bildu": [
@@ -501,17 +501,16 @@
     "fecha": "2026-10-06T13:48:55+00:00"
    },
    {
-    "titulo": "Inés Rey condena a La Coruña a la prórroga presupuestaria ante su incapacidad para pactar con PP y BNG",
-    "enlace": "https://www.eldebate.com/espana/galicia/20261006/ines-rey-condena-coruna-prorroga-presupuestaria-ante-incapacidad-pactar-pp-bng_466654.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-06T13:34:04+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/05/24/6a130ca518b91.r_d.1062-562-0.jpeg"
-   },
-   {
     "titulo": "El BNG pide que los más de 40 pisos de la Sareb en Silleda se alquilen antes de las elecciones",
     "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQUVUMDIwcnNSeVVNeVgyWWRIcV9hNFVpb180anZqM1MzQkFQbXM2Zi0zVEdIWUNxTmVCaFRUVVo5elVhZHAtRWVCVktscGRqY29pcTFnSlROV2t5MXZvOVk4d19QaWM2SVBEUjZjSnAxbldUS0xvdzZfa3VINGt0cHYxZ3BCS0tta25pRU9rMHUwZEQ3TElEQ2pKbUfSAaIBQVVfeXFMTnExXzNEaTFZOWpaSWNUUXBQS1ppdmVJREgwdVZyTzdTTmNobGN0dDV4Z1YtSzRnRGlyZFk1WTBlY1cwei1taVJQbl9tY3dwRmthSDZTbWN4UWFyUmVoR0RUZEQzcVFVN3NJMHpTTkdXS2U4dG1sNkV1U0pHTGtCdEZwR1BNX2ZocGFoZkhVYm51dU03WE9wWlZoenlLeS0taVVR?oc=5",
     "fuente": "Faro de Vigo",
     "fecha": "2026-10-06T04:01:04+00:00"
+   },
+   {
+    "titulo": "El BNG de Vilalba nombra a Alfonso Baamonde como sustituto de Tino Alvite",
+    "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSVdOSWE4MUpUdXk4U1lYb3RSZDVVU210QUVZVUJTSVA2VDFxMWFlZTNZS3NyaEpHOEhDRzRpSmR2dXZHZjJyTGFQUnh2ekExdGp1eXQwd1gzbzU3US1vLWhwU0hVX29CVi1PV3BJZ0VsWXZXWktsd2RkQW9jeFNnNDBXVTJkUDQ3aWVtdWFUT0ZSSHY5TV92YUlCS2hVeWdDam1xN1VWaHBzTE14UU9hVHdGRTh3M2tnMFpKcHhETWp5T0ZCbjluRHBxSWIzMDR1cTlz0gHTAUFVX3lxTE9JV05JYTgxSlR1eThTWVhvdFJkNVVTbXRBRVlVQlNJUDZUMXExYWVlM1lLc3JoSkc4SENHNGlKZHZ1dkdmMnJMYVBSeHZ6QTF0anV5dDB3WDNvNTdRLW8taHBTSFVfb0JWLU9XcElnRWxZdldaS2x3ZGRBb2N4U2c0MFdVMmRQNDdpZW11YVRPRlJIdjlNX3ZhSUJLaFV5Z0NqbXE3VVZocHNMTXhRT2FUd0ZFOHcza2cwWkpweERNanlPRkJuOW5EcHFJYjMwNHVxOXM?oc=5",
+    "fuente": "El Progreso de Lugo",
+    "fecha": "2026-10-05T18:20:32+00:00"
    }
   ],
   "CCa": [
@@ -592,6 +591,13 @@
   ],
   "AC": [
    {
+    "titulo": "Las encuestas en Cataluña lanzan a Orriols, meten miedo al PSC y dejan a Junts en manos de Puigdemont",
+    "enlace": "https://www.elconfidencial.com/espana/cataluna/2026-10-07/encuestas-cataluna-orriols-miedo-psc-junts-puigdemont_4439721/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-07T05:00:00+02:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/a45/bdd/a45bddba66917481f2d6b505534b348d/junts-asegura-que-se-opondra-a-investir-tanto-a-nunez-feijoo-como-a-pedro-sanchez.jpg?mtime=1791283138"
+   },
+   {
     "titulo": "Orriols se jacta de “hacer caer” a Sánchez y deja vía libre a Junts el 29-N",
     "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNR2RfeXBSbmw2dEgzOE9PSlh5dHRTUklLLVdDamVGTmFkUnB1V0lnQ0dPMzRfdFlJWGN6eUhHM1FTZVJLanMxaUhSWXV6b0dWN0xrM3EzZEl1a08yUzJRWnJwSHkxbXg5YURQVk8xTm8xWjJ1eVZhcm5nc2gtN19FdGdPVVZvTWxNOWpfVUhyQlU0RWEyd3JPczVySWJmRWFSakxNRFR0c3NlS3FBbUkzbFJzSG91dTN1ZEhkdXhqZEQyRWVaQWd0OXZNWXlPZDV5Nnd5b3RWQ01WUGVfakRkc0swMFFwWUJnanhn0gHrAUFVX3lxTE1HZF95cFJubDZ0SDM4T09KWHl0dFNSSUstV0NqZUZOYWRScHVXSWdDR08zNF90WUlYY3p5SEczUVNlUktqczFpSFJZdXpvR1Y3TGszcTNkSXVrTzJTMlFacnBIeTFteDlhRFBWTzFObzFaMnV5VmFybmdzaC03X0V0Z09VVm9NbE05al9VSHJCVTRFYTJ3ck9zNXJJYmZFYVJqTE1EVHRzc2VLcUFtSTNsUnNIb3V1M3VkSGR1eGpkRDJFZVpBZ3Q5dk1ZeU9kNXk2d3lvdFZDTVZQZV9qRGRzSzAwUXBZQmdqeGc?oc=5",
     "fuente": "MUNDIARIO",
@@ -620,12 +626,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTTUtLXNjTkJ6WXNlRnowTDRMUW5IdVdGYmtpX2h4UEZXOHJnUG4wOGRYelNOcV90ZTl3YUZSY0tzSEdZbkRPaGwzQ3Z2NXhKTEtFSnRvV2FONXJwYUFJY2c4bEI2V2MxWDZlRHhWZ2dUOUJlc29KYUVpeXpJR2VLQkN6S2JSWmUzM2k4UVlfTjdtRndoOHd1UmxLTkNGNE9VYU1YSVkxLU9mQmJHN1V1VWR6TVM3dVFTU1JlR2djMXpyN21qYnZVZXUyOV8zOUVw0gHQAUFVX3lxTE5NNS0tc2NOQnpZc2VGejBMNExRbkh1V0Zia2lfaHhQRlc4cmdQbjA4ZFh6U05xX3RlOXdhRlJjS3NIR1luRE9obDNDdnY1eEpMS0VKdG9XYU41cnBhQUljZzhsQjZXYzFYNmVEeFZnZ1Q5QmVzb0phRWl5eklHZUtCQ3pLYlJaZTMzaThRWV9ON21Gd2g4d3VSbEtOQ0Y0T1VhTVhJWTEtT2ZCYkc3VXVVZHpNUzd1UVNTUmVHZ2MxenI3bWpidlVldTI5XzM5RXA?oc=5",
     "fuente": "Crónica Global",
     "fecha": "2026-10-06T04:00:00+00:00"
-   },
-   {
-    "titulo": "Lluis Orriols apunta a la desmovilización de la izquierda ante las elecciones: \"Dobla a lo que encontramos en el espacio de la derecha\" - Entrevistas de La Brújula - La Brújula",
-    "enlace": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQMW5ZLXlfTW9CbTdRZTJOT1k1eXRjMUE2eVB3cUh5Sjd0bEFLaGRITjRjR0cwWUJBNkZXRWJpZGh5SndZd2NYUHdkeVd1NWxSMjVZWGgzZ1NRcklUTTBiYmVwU1hpMzVzQVN2U3FLc0E0TmZ6cjRnSWlMamFXVjFleEdSU3R5bFlyYWI5YXI1VjVFT2g2N0gyZDhXLUVBN2pMbUtWNXFESHlmVW4tcXE2TUlMQVdKN3A2dXJmWUYtQnh6a3V3aTVDTkx3azdMcm9GZk80OXBpaWtuNEs5cXhfZERzMHItQmtZNWtwcW1oVDc5dFVMLTJ3SWMzb0g2a2NMV0dKdjE5UVRfN3RqS0RfaldrNmQ0WFVveFFZSG5zNlNjbDBYZDlZaDNzeDMwYU0?oc=5",
-    "fuente": "Onda Cero",
-    "fecha": "2026-10-06T00:53:47+00:00"
    }
   ],
   "AA": [
