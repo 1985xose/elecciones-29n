@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06T10:57:29+00:00",
+ "actualizado": "2026-10-07T04:01:18+00:00",
  "elecciones": [
   {
    "nombre": "23J 2023",
@@ -35,7 +35,7 @@
      }
     },
     {
-     "clave": "emanalytics",
+     "clave": "electopanel",
      "empresa": "EM-Analytics",
      "fin": "2023-07-17",
      "error_medio": 1.48,
@@ -1236,15 +1236,15 @@
    "elecciones": 3
   },
   {
-   "clave": "electopanel",
-   "empresa": "ElectoPanel",
-   "error_medio": 1.08,
-   "elecciones": 2
-  },
-  {
    "clave": "sociometrica",
    "empresa": "SocioMétrica",
    "error_medio": 1.14,
+   "elecciones": 3
+  },
+  {
+   "clave": "electopanel",
+   "empresa": "EM-Analytics",
+   "error_medio": 1.21,
    "elecciones": 3
   },
   {
@@ -1269,12 +1269,6 @@
    "clave": "cluster17",
    "empresa": "Cluster17",
    "error_medio": 1.45,
-   "elecciones": 1
-  },
-  {
-   "clave": "emanalytics",
-   "empresa": "EM-Analytics",
-   "error_medio": 1.48,
    "elecciones": 1
   },
   {

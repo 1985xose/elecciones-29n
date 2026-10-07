@@ -1,21 +1,21 @@
 {
- "actualizado": "2026-10-07T03:01:18.772Z",
+ "actualizado": "2026-10-07T04:01:19.010Z",
  "media_bruta": {
-  "PP": 32.39358812989402,
-  "PSOE": 26.465766089528657,
-  "Vox": 18.71339244022082,
-  "Sumar": 6.084349788813296,
-  "ERC": 2.1137374462164606,
-  "Junts": 1.2126921706682094,
-  "Bildu": 1.3623493799357913,
+  "PP": 32.393588129894006,
+  "PSOE": 26.465766089528653,
+  "Vox": 18.713392440220815,
+  "Sumar": 6.084349788813294,
+  "ERC": 2.113737446216461,
+  "Junts": 1.2126921706682097,
+  "Bildu": 1.362349379935791,
   "PNV": 1.018596902995016,
-  "BNG": 0.9430711892863894,
+  "BNG": 0.9430711892863896,
   "CCa": 0.4091523882121056,
   "UPN": 0.2,
   "AA": 0.9201014264730454,
-  "Podemos": 3.3722263112178235,
-  "SALF": 1.7876012541766595,
-  "AC": 1.0404850269272317
+  "Podemos": 3.3722263112178226,
+  "SALF": 1.7876012541766597,
+  "AC": 1.0404850269272314
  },
  "principales": [
   "PP",
@@ -231,21 +231,6 @@
  },
  "notas": [
   {
-   "clave": "electopanel",
-   "empresa": "EM-Analytics",
-   "encuestas": 166,
-   "letra": "A",
-   "texto": "error medio de 1,1 puntos en 2 elecciones",
-   "sesgo": {
-    "PP": -0.6,
-    "PSOE": 0.61,
-    "Vox": 1.08,
-    "Sumar": -0.71,
-    "Podemos": 0.51,
-    "ERC": -0.13
-   }
-  },
-  {
    "clave": "40db",
    "empresa": "40dB",
    "encuestas": 34,
@@ -272,6 +257,21 @@
     "Sumar": 0,
     "Podemos": -0.41,
     "ERC": 0.05
+   }
+  },
+  {
+   "clave": "electopanel",
+   "empresa": "EM-Analytics",
+   "encuestas": 166,
+   "letra": "B",
+   "texto": "error medio de 1,2 puntos en 3 elecciones",
+   "sesgo": {
+    "PP": -0.6,
+    "PSOE": 0.61,
+    "Vox": 1.08,
+    "Sumar": -0.71,
+    "Podemos": 0.51,
+    "ERC": -0.13
    }
   },
   {
@@ -553,7 +553,7 @@
    "fin": "2026-10-03",
    "veredicto": "leve",
    "texto": "Algo fuera de lo habitual: Sumar sube 0.9 puntos respecto a lo esperado de esta empresa.",
-   "nota": "A",
+   "nota": "B",
    "margen": 1.1,
    "detalle": [
     {
@@ -919,7 +919,7 @@
    "fin": "2026-09-25",
    "veredicto": "leve",
    "texto": "Algo fuera de lo habitual: Sumar sube 1.3 puntos respecto a lo esperado de esta empresa.",
-   "nota": "A",
+   "nota": "B",
    "margen": 2.9,
    "detalle": [
     {
@@ -1057,7 +1057,7 @@
    "fin": "2026-09-18",
    "veredicto": "leve",
    "texto": "Algo fuera de lo habitual: Sumar sube 1.3 puntos respecto a lo esperado de esta empresa.",
-   "nota": "A",
+   "nota": "B",
    "margen": 2.6,
    "detalle": [
     {
