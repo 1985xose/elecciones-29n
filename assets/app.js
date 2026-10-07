@@ -548,7 +548,7 @@ document.querySelectorAll("#mapa .conmutador button").forEach((b) => b.addEventL
 }));
 
 /* ---------- ¿Y si…? ---------- */
-const sim = { valores: {}, seleccion: new Set(), situacion: "media" };
+const sim = { valores: {}, seleccion: new Set(), situacion: "media", fusiones: [], caso: { quien: "", verbo: "absorbe", a: new Set(), puntos: 3, sigue: 1 } };
 const DERECHA = ["PP", "Vox", "SALF", "UPN"], IZQUIERDA = ["PSOE", "Sumar", "Podemos", "AA"];
 function situaciones(base) {
   const s = [{ id: "media", titulo: "Como van las encuestas", detalle: "la media de hoy", f: (m) => m }];
@@ -563,14 +563,72 @@ function situaciones(base) {
   return s;
 }
 function pintarSimulador(m, proyBase) {
-  sim.base = { ...m.media }; sim.valores = { ...m.media }; sim.proyBase = proyBase; sim.situacion = "media";
+  sim.base = { ...m.media }; sim.valores = { ...m.media }; sim.proyBase = proyBase; sim.situacion = "media"; sim.fusiones = [];
+  Object.assign(sim.caso, { quien: "", a: new Set(), puntos: 3, sigue: 1 });
   const sits = situaciones(sim.base);
-  $("#situaciones").replaceChildren(...sits.map((x) => el("button", { class: "situacion", type: "button", "aria-pressed": sim.situacion === x.id ? "true" : "false", onclick: () => {
-    sim.situacion = x.id; sim.valores = x.f({ ...sim.base }); document.querySelectorAll(".situacion").forEach((b) => b.setAttribute("aria-pressed", b === b ? "false" : "false")); 
-    document.querySelectorAll(".situacion").forEach((b, i) => b.setAttribute("aria-pressed", sits[i].id === x.id ? "true" : "false"));
-    recalcularSim(); probabilidadSim(); } }, x.titulo, el("small", {}, x.detalle))));
+  $("#situaciones").replaceChildren(...sits.map((x) => el("button", { class: "situacion", type: "button", "data-id": x.id, "aria-pressed": sim.situacion === x.id ? "true" : "false", onclick: () => {
+    sim.situacion = x.id; sim.valores = x.f({ ...sim.base }); sim.fusiones = [];
+    Object.assign(sim.caso, { quien: "", a: new Set(), puntos: 3, sigue: 1 }); pintarCaso();
+    marcarSituacion(); recalcularSim(); probabilidadSim(); } }, x.titulo, el("small", {}, x.detalle))));
+  pintarCaso();
   recalcularSim();
   probabilidadSim();
+}
+const marcarSituacion = () => document.querySelectorAll(".situacion").forEach((b) => b.setAttribute("aria-pressed", b.dataset.id === sim.situacion ? "true" : "false"));
+
+/* Monta tu caso: una frase con quién, qué hace y a quién. Un cambio cada vez, igual que las situaciones de arriba.
+   Quitar puntos mueve votos en toda España, como las situaciones fijas. Absorber o ir en una lista junta los votos
+   provincia a provincia (Modelo.fundir), cada partido donde los tiene, y después se reparten los asientos. */
+const VERBOS = [["absorbe", "absorbe a"], ["lista", "va en una lista con"], ["quita", "le quita puntos a"]];
+const SIGUEN = [[1, "Todos"], [0.75, "Tres cuartos"], [0.5, "La mitad"]];
+function aplicarCaso() {
+  const c = sim.caso, otros = [...c.a].filter((k) => k !== c.quien && sim.base[k] > 0);
+  if (!c.quien || !(sim.base[c.quien] > 0) || !otros.length) return false;
+  const v = { ...sim.base };
+  if (c.verbo === "quita") {
+    const total = otros.reduce((t, k) => t + v[k], 0), pts = Math.min(c.puntos, total);
+    for (const k of otros) v[k] -= pts * sim.base[k] / total;
+    v[c.quien] += pts; sim.fusiones = [];
+  } else {
+    // En una lista conjunta manda el nombre del partido con más votos. Si uno absorbe a otros, el suyo.
+    const todos = [c.quien, ...otros], cabeza = c.verbo === "lista" ? todos.reduce((x, k) => v[k] > v[x] ? k : x) : c.quien;
+    sim.fusiones = [{ a: cabeza, de: todos.filter((k) => k !== cabeza), sigue: c.sigue }];
+  }
+  sim.valores = v; sim.situacion = "propio";
+  return true;
+}
+function pintarCaso() {
+  const c = sim.caso, cont = $("#caso");
+  if (!cont || !sim.base) return;
+  const partidos = ordenar(sim.base).filter((k) => sim.base[k] > 0);
+  const cambiar = () => {
+    if (!aplicarCaso() && sim.situacion === "propio") { sim.situacion = "media"; sim.valores = { ...sim.base }; sim.fusiones = []; }
+    else if (sim.situacion !== "propio") { pintarCaso(); return; }
+    pintarCaso(); marcarSituacion(); recalcularSim(); probabilidadSim();
+  };
+  const pastillas = (valores, actual, alElegir) => el("div", { class: "pactos" }, ...valores.map(([val, txt]) =>
+    el("button", { class: "pacto opcion", type: "button", "aria-pressed": val === actual ? "true" : "false", onclick: () => alElegir(val) }, txt)));
+  const otros = [...c.a].filter((k) => k !== c.quien && sim.base[k] > 0), activo = sim.situacion === "propio";
+  const f = activo ? sim.fusiones[0] : null, n = (ks) => lista(ks.map(nombre));
+  let resumen = "Elige un partido, qué hace y con quién.";
+  if (c.quien && !otros.length) resumen = c.verbo === "quita" ? "Ahora toca a quién le quita los puntos." : "Ahora toca los partidos con los que se junta.";
+  if (activo && c.verbo === "quita") resumen = `${cap(elP(c.quien))} le quita ${c.puntos} ${c.puntos === 1 ? "punto" : "puntos"} ${otros.length > 1 ? `entre ${n(otros)}, a cada uno según su tamaño` : aP(otros[0])}. Son ${puntosTexto(Math.min(c.puntos, otros.reduce((t, k) => t + sim.base[k], 0))).replace(/^.*? puntos, /, "")}.`;
+  if (f) resumen = `${c.verbo === "lista" ? `${cap(n([f.a, ...f.de]))} van en una sola lista. En los dibujos sale con el nombre y el color ${deP(f.a)}.` : `${cap(elP(f.a))} se queda con los votos de ${n(f.de)}.`} Se suman provincia a provincia, cada uno donde los tiene.${f.sigue < 1 ? ` ${f.sigue === 0.5 ? "La mitad" : "Uno de cada cuatro"} de los votantes de ${n(f.de)} no le sigue y se queda en casa.` : ""}`;
+  cont.replaceChildren(
+    el("h3", {}, "O monta tu caso"),
+    el("div", { class: "caso-frase" }, el("span", {}, "¿Y si"),
+      el("select", { "aria-label": "Qué partido", onchange: (e) => { c.quien = e.target.value; c.a.delete(c.quien); cambiar(); } },
+        el("option", { value: "" }, "elige partido"), ...partidos.map((k) => el("option", { value: k, selected: k === c.quien ? "" : null }, elP(k)))),
+      el("select", { "aria-label": "Qué hace", onchange: (e) => { c.verbo = e.target.value; cambiar(); } },
+        ...VERBOS.map(([val, txt]) => el("option", { value: val, selected: val === c.verbo ? "" : null }, txt))),
+      el("span", {}, "…?")),
+    el("div", { class: "pactos" }, ...partidos.filter((k) => k !== c.quien).map((k) => el("button", { class: "pacto", type: "button", "aria-pressed": c.a.has(k) ? "true" : "false",
+      onclick: () => { if (c.a.has(k)) c.a.delete(k); else c.a.add(k); cambiar(); } }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)))),
+    c.verbo === "quita"
+      ? el("div", { class: "caso-extra" }, el("span", {}, "¿Cuántos puntos?"), pastillas([[1, "1"], [2, "2"], [3, "3"], [5, "5"]], c.puntos, (val) => { c.puntos = val; cambiar(); }))
+      : el("div", { class: "caso-extra" }, el("span", {}, otros.length ? `¿Cuántos votantes de ${n(f ? f.de : otros)} le siguen?` : "¿Cuántos de sus votantes le siguen?"), pastillas(SIGUEN, c.sigue, (val) => { c.sigue = val; cambiar(); })),
+    el("p", { class: "caso-resumen" }, resumen),
+    activo ? el("button", { class: "pacto limpiar", type: "button", onclick: () => { Object.assign(c, { quien: "", a: new Set(), puntos: 3, sigue: 1 }); cambiar(); } }, "Quitar mi caso") : null);
 }
 function pintarHemiSim() {
   const tot = sim.ultimaProy.total, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda), suma = (e) => e.partidos.reduce((a, k) => a + (tot[k] || 0), 0);
@@ -600,10 +658,10 @@ function pintarPactos() {
     sel.size ? el("button", { class: "pacto limpiar", type: "button", onclick: () => { sel.clear(); pintarPactos(); } }, "Quitar todos") : null);
 }
 function recalcularSim() {
-  const proy = Modelo.proyectar(sim.valores, D.base);
+  const proy = Modelo.proyectar(sim.valores, D.base, { fusiones: sim.fusiones });
   sim.ultimaProy = proy;
   pintarHemiSim();
-  pintarLey(sim.valores, proy.total, proy.provincias);
+  pintarLey(Modelo.fundir(sim.valores, sim.fusiones), proy.total, proy.provincias);
   pintarPactos();
   sim.ultimaProy = proy;
   pintarMapaSim();
@@ -641,13 +699,13 @@ function probabilidadSim() {
     const ruid = brutas.map((cu, j) => { const o = {}; for (const [k, v] of Object.entries(cu)) o[k] = v * (fc[k] ? fc[k][D.base.provincias[j].ccaa] : 1) * lnc(R.provincia); return o; });
     for (const k of claves) if (est.has(k)) { let a = 0, d = 0; brutas.forEach((cu, j) => { a += (cu[k] || 0) * peso[j]; d += (ruid[j][k] || 0) * peso[j]; }); if (d > 0) for (const cu of ruid) if (cu[k] != null) cu[k] *= a / d; }
     const t = {};
-    D.base.provincias.forEach((p, j) => { for (const [k, n] of Object.entries(Modelo.dhondt(ruid[j], p.escanos).escanos)) t[k] = (t[k] || 0) + n; });
+    D.base.provincias.forEach((p, j) => { for (const [k, n] of Object.entries(Modelo.dhondt(Modelo.fundir(ruid[j], sim.fusiones), p.escanos).escanos)) t[k] = (t[k] || 0) + n; });
     const td = der.partidos.reduce((a, k) => a + (t[k] || 0), 0), ti = izq.partidos.reduce((a, k) => a + (t[k] || 0), 0);
     sd.push(td); si.push(ti); if (td >= 176) cd++; if (ti >= 176) ci++;
   }
   sd.sort((a, b) => a - b); si.sort((a, b) => a - b);
   // Sin tocar nada es la misma situación que en Hoy, así que se enseñan los mismos números que allí y no otra tirada de dados
-  const intacto = !$("#incluir-cis")?.checked && Object.keys(sim.valores).every((k) => Math.abs((sim.valores[k] || 0) - (sim.base[k] ?? -9)) < 1e-9);
+  const intacto = !$("#incluir-cis")?.checked && !sim.fusiones.length && Object.keys(sim.valores).every((k) => Math.abs((sim.valores[k] || 0) - (sim.base[k] ?? -9)) < 1e-9);
   const pd = intacto ? der.p : cd / N, pi = intacto ? izq.p : ci / N, pb = intacto ? P.bloqueo : Math.max(0, 1 - pd - pi);
   const rd = intacto ? [der.p10, der.p90] : [sd[Math.floor(N * .1)], sd[Math.floor(N * .9)]], ri = intacto ? [izq.p10, izq.p90] : [si[Math.floor(N * .1)], si[Math.floor(N * .9)]];
   const nd = nombreEsc(der), ni = nombreEsc(izq);

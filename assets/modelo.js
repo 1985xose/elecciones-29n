@@ -63,10 +63,24 @@
     return { escanos: res, ultimo: ultimo ? { p: ultimo.p, q: ultimo.q } : null, aspirante };
   }
 
+  /* Junta listas dentro de un reparto de votos, sea el de toda España o el de una provincia.
+     fusiones = [{ a: destino, de: [partidos], sigue: 0..1 }]. Los votos de «de» pasan a «a», solo la parte que le sigue. */
+  function fundir(cuotas, fusiones) {
+    if (!fusiones || !fusiones.length) return cuotas;
+    const r = { ...cuotas };
+    for (const f of fusiones) {
+      let suma = 0;
+      for (const k of f.de) if (k !== f.a && r[k] != null) { suma += r[k]; delete r[k]; }
+      if (suma > 0 || r[f.a] != null) r[f.a] = (r[f.a] || 0) + suma * (f.sigue == null ? 1 : f.sigue);
+    }
+    return r;
+  }
+
   function proyectar(media, base, opciones = {}) {
     const gr = grupos(media, base), total = {}, provincias = [];
     for (const prov of base.provincias) {
-      const cuotas = proyectarProvincia(prov, media, base, gr);
+      // Si hay listas que se juntan, se suman sus votos en cada provincia, cada una donde los tiene, y después se reparte
+      const cuotas = fundir(proyectarProvincia(prov, media, base, gr), opciones.fusiones);
       const r = dhondt(cuotas, opciones.escanos ? opciones.escanos[prov.nombre] : prov.escanos);
       for (const [p, n] of Object.entries(r.escanos)) total[p] = (total[p] || 0) + n;
       provincias.push({ nombre: prov.nombre, ccaa: prov.ccaa, n: prov.escanos, cuotas, ...r });
@@ -84,6 +98,6 @@
     return r;
   }
 
-  const api = { proyectar, proyectarProvincia, dhondt, grupos, senadoProvincia, mediaDesdeBase: (b) => ({ ...b.nacional }), UMBRAL };
+  const api = { proyectar, proyectarProvincia, dhondt, grupos, fundir, senadoProvincia, mediaDesdeBase: (b) => ({ ...b.nacional }), UMBRAL };
   if (typeof module !== "undefined" && module.exports) module.exports = api; else root.Modelo = api;
 })(typeof window !== "undefined" ? window : globalThis);

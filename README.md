@@ -14,7 +14,7 @@ Panel personal de las elecciones generales del 29 de noviembre de 2026, con un m
 
 | Ruta | Qué hace |
 |---|---|
-| `index.html`, `assets/` | El panel. `modelo.js` motor de escaños, `media.js` media de encuestas (ambos compartidos con Node) |
+| `index.html`, `assets/` | El panel. `modelo.js` motor de escaños (con `fundir` para juntar listas provincia a provincia, que usa «monta tu caso» en ¿Y si…?), `media.js` media de encuestas (ambos compartidos con Node) |
 | `data/base2023.json`, `data/base2019.json` | Resultados por provincia. 2019 sirve para el backtest |
 | `data/config.json` | Partidos, colores, escenarios, búsquedas, líderes, bot |
 | `scripts/encuestas.py` | Encuestas desde Wikipedia con validación dura. Imprime en el log una tabla por empresa (total, último año, última fecha, días sin publicar) para ver si falta alguna |
