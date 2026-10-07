@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-10-06T23:02:06+00:00",
+ "actualizado": "2026-10-07T00:02:09+00:00",
  "generales": [
   {
-   "titulo": "Sánchez carga contra el Parlamento en otro mitin desde la Moncloa",
-   "enlace": "https://www.abc.es/espana/sanchez-carga-parlamento-mitin-moncloa-20261007191047-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-07T00:43:12+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/07/1518367795-R3slwHRFRNajSuKTEUSYwKM-1200x840@diario_abc.jpg"
+   "titulo": "Los 70 diputados de Vox, el listón clave que espera el PSOE y que \"puede hacer la legislatura casi imposible\" para el PP",
+   "enlace": "https://www.elmundo.es/espana/2026/10/07/6ac53478e9cf4af3538b4577.html",
+   "fuente": "El Mundo",
+   "fecha": "2026-10-07T01:36:10+02:00",
+   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17912009449084.jpg"
   },
   {
-   "titulo": "El PP valenciano cierra filas para el 29-N con el objetivo de mejorar el resultado de 2023 y despejar dudas en Génova sobre Llorca",
-   "enlace": "https://www.elmundo.es/comunidad-valenciana/2026/10/07/6ac4f610e9cf4a35798b4573.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-10-07T00:00:29+02:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17913144265448.jpg"
+   "titulo": "Podemos escenificará unas primarias abiertas aunque se descuelgue Sumar",
+   "enlace": "https://www.abc.es/espana/podemos-escenificara-primarias-abiertas-descuelgue-sumar-20261006012141-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-10-07T01:22:15+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/sumar-febrero-tsieira-RpNjP1NVxgDbz8mYS7UoMjN-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Adelanto de elecciones en directo | El PNV confirma su apoyo al primer decreto de vivienda en la Diputación Permanente, pero mantiene su rechazo al segundo",
@@ -58,22 +58,29 @@
    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac522bf567869-10754031.jpeg"
   },
   {
+   "titulo": "Puigdemont no desvela la fecha de su vuelta a Cataluña pese a la retirada de la orden de detención",
+   "enlace": "https://www.infolibre.es/politica/puigdemont-no-desvela-fecha-vuelta-cataluna-pese-retirada-orden-detencion_1_2237531.html",
+   "fuente": "infoLibre",
+   "fecha": "2026-10-06T17:21:57+00:00",
+   "imagen": "https://static.infolibre.es/clip/735e34a6-1677-4e52-bf1c-473f1cdd2de9_16-9-aspect-ratio_default_0_x299y64.jpg"
+  },
+  {
    "titulo": "El PP pide a la Junta Electoral que sancione a Sánchez por \"utilizar\" la Moncloa para \"dar un mitin del PSOE\"",
    "enlace": "https://www.europapress.es/nacional/noticia-pp-pide-junta-electoral-sancione-sanchez-utilizar-moncloa-dar-mitin-psoe-20261006183024.html",
    "fuente": "Europa Press",
    "fecha": "2026-10-06T16:30:24+00:00",
    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261006183024_120.jpg"
-  },
-  {
-   "titulo": "El Supremo da 48 horas de plazo para las alegaciones antes de resolver sobre la ley de nietos",
-   "enlace": "https://www.elconfidencial.com/espana/2026-10-06/supremo-48-horas-alegaciones-resolver-ley-nietos_4439499/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-10-06T16:16:00+02:00",
-   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/a29/fdf/a29fdfd539b37319bdf3ceeb77b66442/la-ley-de-nietos-rompe-tambien-el-supremo-y-genera-hondo-malestar-por-la-discrepancia-entre-companeros.jpg?mtime=1789484401"
   }
  ],
  "partidos": {
   "PP": [
+   {
+    "titulo": "Los 70 diputados de Vox, el listón clave que espera el PSOE y que \"puede hacer la legislatura casi imposible\" para el PP",
+    "enlace": "https://www.elmundo.es/espana/2026/10/07/6ac53478e9cf4af3538b4577.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-07T01:36:10+02:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17912009449084.jpg"
+   },
    {
     "titulo": "El PP valenciano cierra filas para el 29-N con el objetivo de mejorar el resultado de 2023 y despejar dudas en Génova sobre Llorca",
     "enlace": "https://www.elmundo.es/comunidad-valenciana/2026/10/07/6ac4f610e9cf4a35798b4573.html",
@@ -106,15 +113,16 @@
     "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNaTdBSjk1RDFXQ0lyOGx1a1FPc1hLN1F1ckVseWRuVUlRUlVNY3dTaE12aHd1amlHcVNIVlRUdjcwX1hfUE5ReV92RjN1VjM3OHRRMDBkLXRFb1pIemtmNkJMSlB5ajlGUlhzbkxPc2ozSlVfSldFaUNHcXZtVHlPZFhPUWI4djExU1B5dFJCRW5KYnBtckRlS2xTOFpOcFJFWVZlYWdHRmloTTY5TmQ0Szk5NWwtclBLeXFCcXlteWZSOHFFSjJYR2RXV3U3dnFyVlNUUHhFSHZRYmx1emlKLUtoc2Z2Ukc2Z3pvYmQ5UURCNDMwZk5PZzFIaEVYR3F5VzZuVGJR0gGGAkFVX3lxTE5lcXVkc3MtN1FNWUxRRTdWWlpNaFlfeFRGTFdiR0lMdUF3MnJreDhQWW9jaFo3b3J6dGZuTi1aWGpHVUpUSTJlSno3QzM0NWpLbzZodXZ1QmZZZDVORHREUHp3U1V0U0dwcDBEMmc5M0gzQThxT0dvSHg5azFMSTlMUEZmQTVLQm5DSWJRenpYbkd3NWxIaHpWY29DMXBTbmFGVjByT0FoY2N0RnVFV281ZHVvcjgtNTJFanZzWU1fV0VTZ1pUM0xXZXJncVI5ODlmRGc1cU9ORGp5SmlCYTduOVBsangzZ3NHZE91TjU1QjFjX1dkb0xRaGFJcnBKeGVTUU9IUFE?oc=5",
     "fuente": "LaSexta",
     "fecha": "2026-10-06T18:35:53+00:00"
-   },
-   {
-    "titulo": "Feijóo veta un adelanto electoral a Llorca para no debatir de la dana",
-    "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaXhWRGdSLTZBYWhtdkNFUU54RGNGMDFwN3pqSDJxcnRDd2x5WWthZmpDRlhwREdKRDNKaEtEamNNNXl6RHRfMlJublZVbjVVLW96N21nMU1nRkVVeFNjSVhQMHhYemU5RGh2aUE4R05vQTNfV2hlbWtBc3pGOWE4THV1cHdSc2VvMzdSZ0Y4Mm54MEhLUThIZ1dsSlY2N2RFWUFremNMQlZnY0lGNW5QUTZvcHZFSE1yVTRFR0U3V1lsZw?oc=5",
-    "fuente": "castellonaldia.elmundo.es",
-    "fecha": "2026-10-06T16:45:00+00:00"
    }
   ],
   "PSOE": [
+   {
+    "titulo": "Los 70 diputados de Vox, el listón clave que espera el PSOE y que \"puede hacer la legislatura casi imposible\" para el PP",
+    "enlace": "https://www.elmundo.es/espana/2026/10/07/6ac53478e9cf4af3538b4577.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-07T01:36:10+02:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17912009449084.jpg"
+   },
    {
     "titulo": "Sánchez carga contra el Parlamento en otro mitin desde la Moncloa",
     "enlace": "https://www.abc.es/espana/sanchez-carga-parlamento-mitin-moncloa-20261007191047-nt.html",
@@ -146,15 +154,16 @@
     "fuente": "El Debate",
     "fecha": "2026-10-06T21:09:42+00:00",
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/10/06/6ac5637a7acf5.png"
-   },
-   {
-    "titulo": "Los expertos explican por qué Pedro Sánchez ha adelantado las elecciones y calibran sus opciones de ganar: “Es el experto en caer de pie”",
-    "enlace": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNUU81bXhfUTVzQm1ZWXpIZkk4cXU5aXpMOWJNRGkyMHRSakYySjRqWmZOeFJWLU93SENrSDBTR1FrOW1aRWVVNzlMWl9CSDF0YVFYc3BFekZzSkJ1SWplMW1HWmF0b21zbW85aUwxSVdqUkNaN19xb2FkNUk3bUtWZWlPbzJNTjFlV0RYU21qMWtqTmFUdTRxZTdKSUNkZzlGdElaZnM5aWJVNE1ldlFjMUYwdnpRQkZXWG95QVh6VkhnZ2tqdTkzbzRFTl9LV01tZWZZRjFiVDFDNDY0TnluQjlGaElSa0N4ZnZia2FPVjl3YWw5LXo3ekYtcDg4Ym10N01aLTYzRXd0VWtlSkNib2VDRnJNWmRxbGltRHNQeFg3QdIBvAJBVV95cUxNa3VoODBYZk5HcVYwSDNiS2Fhc3VieHB1ckhpRm8xMWhRRGFQakZoalRVT0l3MkNzOTN6U255M0I3NmM1MHFRVGI4ZE42QmF5TTUybDMxdk5GRW9zQ2hsd1l3ODJtNGt4V3o1LUg5NmF3anczak9HR01yY2pScENzYjV3UlpCem9uNzhQaklCMURpRGRMN0hMYUE4SUlCRnFGSGhVY2o2dHduenFKaHhYWktpQm1fQ1JUeG9sSDZYQl81RHNBSUdWUV9yWGxqdDdnR2UwNnNuV0hDS2pCR0NTOUpVQjNVa2dBTGtBaFItQjVhLWh1WXhWTndGREJGaW92eEJXcEt5SWQ4QzJrM29uMjJPS3hsaGJnNmdPN3czcHN6RmFPeW9jY2d3ak5oWjlZSVRyVnJLc0NNbzdC?oc=5",
-    "fuente": "Infobae",
-    "fecha": "2026-10-06T20:55:32+00:00"
    }
   ],
   "Vox": [
+   {
+    "titulo": "Los 70 diputados de Vox, el listón clave que espera el PSOE y que \"puede hacer la legislatura casi imposible\" para el PP",
+    "enlace": "https://www.elmundo.es/espana/2026/10/07/6ac53478e9cf4af3538b4577.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-07T01:36:10+02:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17912009449084.jpg"
+   },
    {
     "titulo": "Nuevo bulo racista de Vox: publican un vídeo de un grupo de mujeres con hiyab paseando por Zaragoza para sembrar \"odio y racismo\"",
     "enlace": "https://www.lasexta.com/noticias/nacional/nuevo-bulo-racista-vox-publican-video-grupo-mujeres-hiyab-paseando-zaragoza-sembrar-odio-racismo_202610066ac541f3f7f8f566d14ea40e.html",
@@ -185,15 +194,16 @@
     "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOS3E1b2tqVzU1cnd1LUEyOGJmZ0hlTmFJcy1FWnFjV2ZwVTlFNW1PdTV0MGk1b25TZ2E0Sm5MYl8ybV91NzZPa0t4N3VheEt6ckdyTS1qczh1STRmcWhHNXdabHFLSjN6SWxCcEZMMEh5QmVxempJSk1vVl9oX013N3J0Z3QyX3lKOTdNdDNtRUhnRXhvLTJGZXBUTUZvNWh6SWZydV93TmpZWDRZWVdaT0NPOHd2Zlhzc1lTaFV1TnJGeDV3WkJRX05vWkl1eHB0Tzc5aTd2U3hhX1dsNVVfY3RmRkYtbzdZcjRBeVBjQlFBTU0?oc=5",
     "fuente": "Ultima Hora",
     "fecha": "2026-10-06T18:20:09+00:00"
-   },
-   {
-    "titulo": "El PSOE defiende el voto por correo y exige al PP que desautorice las dudas de Ayuso y Abascal",
-    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQazB1Q0JFVk95bnpuUVBWYnYxbk90aWdja2Q0QUdXbW9GN0MwMWpqYjVtb1c3eHk0WG1mejd4YXhDTkh4dWhZYnhhX0JvaW9jcG5KdVlUV3hVbnByd2EtN1BIdVozOERxQmpLNGRZQnZsQlN5Y3cyMERpTlRTMXlOSmNpOGFNSXZyYktZSHliUzlxdEt1MDlCWFNkSGg0WksxTVBhYjJZNmhhejR4X1dQMUxyYXZHcnA2aFl4U3VwM3FrTkpLTmhkRmE3ajhZM0xHMzJIOTNB0gHwAUFVX3lxTE1ETzY1WjRzS1k5X21rNGF0OGc5czBsRlpNWGxOd2ZOYUN5NXQ1aWpaRG94UHR5UUpoZkY2eG0tYWFqUEt3c1ZJR3Axam9jakNkSGJFR0JqenVGS1RaMl8zZmNCM00yMW56SGxJaW45MXg0OUNvTE93WVN1T0RXdElscGktT2RNd0h1WmIzWkJMYUpqQWZvYWtzT2FDM28xd3FTdXdCQjB0Zlhnb2ZfMzNvTUVYMnpNejhoc2JmbGRTVDdwc1pRdWVkX25TdHZSQVcxdWZtdUF6U1liZHBRT1h2TnVzRlJBd1NJV19LWVZ2NQ?oc=5",
-    "fuente": "El Cronista",
-    "fecha": "2026-10-06T18:16:54+00:00"
    }
   ],
   "Sumar": [
+   {
+    "titulo": "Podemos escenificará unas primarias abiertas aunque se descuelgue Sumar",
+    "enlace": "https://www.abc.es/espana/podemos-escenificara-primarias-abiertas-descuelgue-sumar-20261006012141-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-07T01:22:15+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/sumar-febrero-tsieira-RpNjP1NVxgDbz8mYS7UoMjN-1200x840@diario_abc.jpg"
+   },
    {
     "titulo": "El PSOE exprime el caos de Sumar y se lanza a laminar a sus socios en las provincias medianas y pequeñas con el voto útil",
     "enlace": "https://www.elmundo.es/espana/2026/10/06/6ac54230fc6c83251f8b459c.html",
@@ -225,15 +235,16 @@
     "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZU1OUWlmeEx0dFg4Rktlc0NCVlFaTkhMM3Z1czFWakxfNlZqb3p1cXM3TmlYc1JET01lMjI4VDU0Tk5mT3BfR2ppaUVQanQtN3JUZzIzaGJsN09PakhVT2lsTThmdEIxNW5nUGRaVlo0UjRqVnljNmRBdkEtTVE4bks0NmlNSjV2cmE4eTF5ZWFnN0tLaXpTSlF3aGRGTjM2ZHNB0gGoAUFVX3lxTE9YeFJpMVpOWkRFZjFMa2VZY2h4eTd0NE5DSGtRN3o1aWYtTENvbFBoOF9tZjB1eGlHS0VzLTYySHlKM1o3ckd4WC1HN1g5OW0zT2MyZ1o3akwzeF9oWHBzdExoNUtQT0NuSVFpbmMwQ043X2E1REd5N1pYNzV3LU85Y2ZKbDdoRF9fNURPcWFCWnFIeEVHSjdudDBRcFFlbDFkOTFpaEN6aw?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-06T13:00:34+00:00"
-   },
-   {
-    "titulo": "Más Madrid reclama liderar la lista del Frente Amplio en Madrid mientras Podemos defiende unas primarias abiertas",
-    "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNSkhaMmtQMjRyNzNIc05jdlhid2swdDZrNEJIZDltdmRrRmlCMERhVjdDNXM4Z21PRHN1S2s3VURSdlZ0aE4wdnJKdUZTSGpqNzl3V3NlQlY5NjJZa1NNV0tiNEoxczhnVjJLMW4xZC03dmFKZG1SWFBTZW1wQ2ZpYi1XYVJiLWY4M0s0MzdTbGlHc2NTYmxMenVuTDVGVXpDdDhXQUR0N0xsX2Y2OVc5Z3U5MDFxRHEtVmZFMm44LVZGRFNJT3ZUNUdWS1BHRkdsZDN3TUt2R1NZN2hMS2NsN1U1VG5CNGlGS1ExVGpkaUo3MHF6RnlKby1B0gH6AUFVX3lxTE1KSFoya1AyNHI3M0hzTmN2WGJ3azB0Nms0QkhkOW12ZGtGaUIwRGFWN0M1czhnbU9Ec3VLazdVRFJ2VnRoTjB2ckp1RlNIamo3OXdXc2VCVjk2MllrU01XS2I0SjFzOGdWMksxbjFkLTd2YUpkbVJYUFNlbXBDZmliLVdhUmItZjgzSzQzN1NsaUdzY1NibEx6dW5MNUZVekN0OFdBRHQ3TGxfZjY5VzlndTkwMXFEcS1WZkUybjgtVkZEU0lPdlQ1R1ZLUEdGR2xkM3dNS3ZHU1k3aExLY2w3VTVUbkI0aUZLUTFUamRpSjcwcXpGeUpvLUE?oc=5",
-    "fuente": "El Diario de Madrid",
-    "fecha": "2026-10-06T11:05:57+00:00"
    }
   ],
   "Podemos": [
+   {
+    "titulo": "Podemos escenificará unas primarias abiertas aunque se descuelgue Sumar",
+    "enlace": "https://www.abc.es/espana/podemos-escenificara-primarias-abiertas-descuelgue-sumar-20261006012141-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-07T01:22:15+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/sumar-febrero-tsieira-RpNjP1NVxgDbz8mYS7UoMjN-1200x840@diario_abc.jpg"
+   },
    {
     "titulo": "Podemos abre una vía para ir con el Frente Amplio a las elecciones del 29N: pactar una lista y ratificarla en primarias",
     "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORDU1bk1ualptVE5oNlZCTW5FUUNmVHNTRDJsS3ZMc3lUZVBRYVBKdHgyVzhfRmNFanRiVm1sbk1oUkoycFhuaDNMWnJrV3ZEOGRYcmNGa0hYOXhhMXdjVGQzN0RzSDkyTVoyaUdWNmNnQkh2eEN5UTJXczNWSU52a3NVYWhlYTRZWVZXTjRhSml3WUVJNGxkbTEzNnF3SlJrdGxmOUpFRTFMYmlsUFhSN3kwcUVUaUk3bjlKMFNLZnlEZ3gyTWxxX0VaTkZjcWk0bnl4N1lGUDA0VXotbTFZV0d3?oc=5",
@@ -265,12 +276,6 @@
     "fuente": "El Mundo",
     "fecha": "2026-10-06T10:37:31+02:00",
     "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912751660574.jpg"
-   },
-   {
-    "titulo": "Elecciones generales 2026: Podemos insta a Sumar a que recapacite y acepte que las primarias es el único camino para salir del \"bucle\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdHMyVWQtTVVMYWdLT2lOdFI5QVRWZmw2cFU3OGVmSUpyUTBIcjZ2TjNvZUx6YjYySXFWenRETlVjSW1adzJNeC0xb1VWbGRTeGExajJpci1PZU0yVFk4RmJMWXJ4aHEtbU51aFlMZmRwdHcxa2ZqVE5ORE9SWk9lSGlCdmZXaTctNTlRRWl1QmJIRVlUVl9hbk5UcFZhWG5lazV3eGtpdndLTWJLUTVqNFUzWGV3aktSNmdwNVRjbUM0bWFSY21LVG02a3FEV2RuamVZeTVfSUh5OFlLbmlaWmx4TVphZ9IB5gFBVV95cUxQdHMyVWQtTVVMYWdLT2lOdFI5QVRWZmw2cFU3OGVmSUpyUTBIcjZ2TjNvZUx6YjYySXFWenRETlVjSW1adzJNeC0xb1VWbGRTeGExajJpci1PZU0yVFk4RmJMWXJ4aHEtbU51aFlMZmRwdHcxa2ZqVE5ORE9SWk9lSGlCdmZXaTctNTlRRWl1QmJIRVlUVl9hbk5UcFZhWG5lazV3eGtpdndLTWJLUTVqNFUzWGV3aktSNmdwNVRjbUM0bWFSY21LVG02a3FEV2RuamVZeTVfSUh5OFlLbmlaWmx4TVphZw?oc=5",
-    "fuente": "Diario de León",
-    "fecha": "2026-10-06T10:25:24+00:00"
    }
   ],
   "SALF": [
@@ -351,6 +356,13 @@
   ],
   "Junts": [
    {
+    "titulo": "Moncloa cree que la vuelta de Puigdemont es un aval a su gestión y beneficia a Illa",
+    "enlace": "https://www.abc.es/espana/moncloa-cree-vuelta-puigdemont-aval-gestion-beneficia-20261007012130-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-07T01:21:53+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/07/50775063-R1Z5F2VcKQDx8jZxA8f6LBK-1200x840@diario_abc.jpg"
+   },
+   {
     "titulo": "Puigdemont no volverá a España hasta que el Supremo archive la causa del procés y aplique la ley de amnistía \"en su totalidad\"",
     "enlace": "https://www.lasexta.com/noticias/nacional/puigdemont-volvera-espana-que-supremo-archive-causa-proces-aplique-ley-amnistia-totalidad_202610066ac553f9f7f8f566d14ead73.html",
     "fuente": "laSexta",
@@ -382,13 +394,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE82QVlza2xZNGRnNjdLbXhVYnM1V21xYWVvX0I4c1R3LW81MVUydHRaZWdwbWJ2TmMyS29WV1FrTVZTOGVfNFpJVWh0eEs2b2ljdDBwaA?oc=5",
     "fuente": "Cadena SER",
     "fecha": "2026-10-06T19:35:28+00:00"
-   },
-   {
-    "titulo": "Puigdemont volverá a España después de las elecciones del 29-N y antes de Navidad",
-    "enlace": "https://okdiario.com/espana/puigdemont-volvera-espana-despues-elecciones-del-29-n-antes-navidad-20499469",
-    "fuente": "OkDiario",
-    "fecha": "2026-10-06T19:04:40+00:00",
-    "imagen": "https://okdiario.com/img/2026/10/06/bild-especial-puigdemont-volvera-espana-interior.jpg"
    }
   ],
   "Bildu": [
