@@ -548,7 +548,7 @@ document.querySelectorAll("#mapa .conmutador button").forEach((b) => b.addEventL
 }));
 
 /* ---------- ¿Y si…? ---------- */
-const sim = { valores: {}, seleccion: new Set(), situacion: "media", fusiones: [], caso: { quien: "", verbo: "absorbe", a: new Set(), puntos: 3, sigue: 1 } };
+const sim = { valores: {}, seleccion: new Set(), situacion: "media", fusiones: [], cambios: [], caso: { quien: "", verbo: "absorbe", a: new Set(), puntos: 3, sigue: 1 } };
 const DERECHA = ["PP", "Vox", "SALF", "UPN"], IZQUIERDA = ["PSOE", "Sumar", "Podemos", "AA"];
 function situaciones(base) {
   const s = [{ id: "media", titulo: "Como van las encuestas", detalle: "la media de hoy", f: (m) => m }];
@@ -564,11 +564,11 @@ function situaciones(base) {
 }
 function pintarSimulador(m, proyBase) {
   sim.base = { ...m.media }; sim.valores = { ...m.media }; sim.proyBase = proyBase; sim.situacion = "media"; sim.fusiones = [];
-  Object.assign(sim.caso, { quien: "", a: new Set(), puntos: 3, sigue: 1 });
+  vaciarCaso();
   const sits = situaciones(sim.base);
   $("#situaciones").replaceChildren(...sits.map((x) => el("button", { class: "situacion", type: "button", "data-id": x.id, "aria-pressed": sim.situacion === x.id ? "true" : "false", onclick: () => {
     sim.situacion = x.id; sim.valores = x.f({ ...sim.base }); sim.fusiones = [];
-    Object.assign(sim.caso, { quien: "", a: new Set(), puntos: 3, sigue: 1 }); pintarCaso();
+    vaciarCaso(); pintarCaso();
     marcarSituacion(); recalcularSim(); probabilidadSim(); } }, x.titulo, el("small", {}, x.detalle))));
   pintarCaso();
   recalcularSim();
@@ -576,47 +576,65 @@ function pintarSimulador(m, proyBase) {
 }
 const marcarSituacion = () => document.querySelectorAll(".situacion").forEach((b) => b.setAttribute("aria-pressed", b.dataset.id === sim.situacion ? "true" : "false"));
 
-/* Monta tu caso: una frase con quién, qué hace y a quién. Un cambio cada vez, igual que las situaciones de arriba.
+/* Monta tu caso: frases con quién, qué hace y a quién. Se pueden encadenar varias con «Añadir otro cambio».
    Quitar puntos mueve votos en toda España, como las situaciones fijas. Absorber o ir en una lista junta los votos
-   provincia a provincia (Modelo.fundir), cada partido donde los tiene, y después se reparten los asientos. */
+   provincia a provincia (Modelo.fundir), cada partido donde los tiene, y después se reparten los asientos.
+   sim.cambios son los cambios ya guardados y sim.caso el que se está montando. Se aplican en ese orden. */
 const VERBOS = [["absorbe", "absorbe a"], ["lista", "va en una lista con"], ["quita", "le quita puntos a"]];
 const SIGUEN = [[1, "Todos"], [0.75, "Tres cuartos"], [0.5, "La mitad"]];
-function aplicarCaso() {
-  const c = sim.caso, otros = [...c.a].filter((k) => k !== c.quien && sim.base[k] > 0);
-  if (!c.quien || !(sim.base[c.quien] > 0) || !otros.length) return false;
-  const v = { ...sim.base };
-  if (c.verbo === "quita") {
-    const total = otros.reduce((t, k) => t + v[k], 0), pts = Math.min(c.puntos, total);
-    for (const k of otros) v[k] -= pts * sim.base[k] / total;
-    v[c.quien] += pts; sim.fusiones = [];
-  } else {
-    // En una lista conjunta manda el nombre del partido con más votos. Si uno absorbe a otros, el suyo.
-    const todos = [c.quien, ...otros], cabeza = c.verbo === "lista" ? todos.reduce((x, k) => v[k] > v[x] ? k : x) : c.quien;
-    sim.fusiones = [{ a: cabeza, de: todos.filter((k) => k !== cabeza), sigue: c.sigue }];
-  }
-  sim.valores = v; sim.situacion = "propio";
-  return true;
+const casoNuevo = () => ({ quien: "", verbo: "absorbe", a: new Set(), puntos: 3, sigue: 1 });
+function vaciarCaso() { sim.cambios = []; sim.caso = casoNuevo(); }
+function resolverCaso(cambios) {
+  const v = { ...sim.base }, fusiones = [], fuera = new Set(), hechos = [];
+  // Los partidos que forman hoy la lista k: ella y los que se le han ido juntando
+  const partes = (k) => [k, ...fusiones.filter((f) => f.a === k).flatMap((f) => f.de.flatMap(partes))];
+  cambios.forEach((c, i) => {
+    const otros = [...c.a].filter((k) => k !== c.quien && v[k] > 0 && !fuera.has(k));
+    if (!c.quien || !(v[c.quien] > 0) || fuera.has(c.quien) || !otros.length) return;
+    if (c.verbo === "quita") {
+      // Los puntos salen de cada lista según su tamaño, y dentro de una lista conjunta, de cada partido que la forma
+      const de = otros.flatMap(partes), antes = { ...v }, total = de.reduce((t, k) => t + antes[k], 0), pts = Math.min(c.puntos, total);
+      for (const k of de) v[k] -= pts * antes[k] / total;
+      v[c.quien] += pts; hechos.push({ i, c, otros, pts });
+    } else {
+      // En una lista conjunta manda el nombre del partido con más votos. Si uno absorbe a otros, el suyo.
+      const todos = [c.quien, ...otros], tam = Modelo.fundir(v, fusiones), cabeza = c.verbo === "lista" ? todos.reduce((x, k) => tam[k] > tam[x] ? k : x) : c.quien;
+      const f = { a: cabeza, de: todos.filter((k) => k !== cabeza), sigue: c.sigue };
+      fusiones.push(f); f.de.forEach((k) => fuera.add(k)); hechos.push({ i, c, otros, f });
+    }
+  });
+  return { v, fusiones, fuera, hechos };
 }
 function pintarCaso() {
   const c = sim.caso, cont = $("#caso");
   if (!cont || !sim.base) return;
-  const partidos = ordenar(sim.base).filter((k) => sim.base[k] > 0);
+  const guardados = resolverCaso(sim.cambios), todo = resolverCaso([...sim.cambios, c]), actual = todo.hechos.find((h) => h.c === c);
+  const partidos = ordenar(sim.base).filter((k) => sim.base[k] > 0 && !guardados.fuera.has(k));
+  if (c.quien && !partidos.includes(c.quien)) c.quien = "";
   const cambiar = () => {
-    if (!aplicarCaso() && sim.situacion === "propio") { sim.situacion = "media"; sim.valores = { ...sim.base }; sim.fusiones = []; }
-    else if (sim.situacion !== "propio") { pintarCaso(); return; }
+    const r = resolverCaso([...sim.cambios, sim.caso]);
+    if (r.hechos.length) { sim.valores = r.v; sim.fusiones = r.fusiones; sim.situacion = "propio"; }
+    else if (sim.situacion === "propio") { sim.situacion = "media"; sim.valores = { ...sim.base }; sim.fusiones = []; }
+    else { pintarCaso(); return; }
     pintarCaso(); marcarSituacion(); recalcularSim(); probabilidadSim();
   };
-  const pastillas = (valores, actual, alElegir) => el("div", { class: "pactos" }, ...valores.map(([val, txt]) =>
-    el("button", { class: "pacto opcion", type: "button", "aria-pressed": val === actual ? "true" : "false", onclick: () => alElegir(val) }, txt)));
-  const otros = [...c.a].filter((k) => k !== c.quien && sim.base[k] > 0), activo = sim.situacion === "propio";
-  const f = activo ? sim.fusiones[0] : null, n = (ks) => lista(ks.map(nombre));
-  let resumen = "Elige un partido, qué hace y con quién.";
+  const pastillas = (valores, elegido, alElegir) => el("div", { class: "pactos" }, ...valores.map(([val, txt]) =>
+    el("button", { class: "pacto opcion", type: "button", "aria-pressed": val === elegido ? "true" : "false", onclick: () => alElegir(val) }, txt)));
+  const n = (ks) => lista(ks.map(nombre)), puntos = (x) => `${Number.isInteger(x) ? x : fmt1.format(x)} ${x === 1 ? "punto" : "puntos"}`;
+  // Una línea por cambio ya guardado
+  const frase = (h) => h.f
+    ? `${h.c.verbo === "lista" ? `${cap(n([h.f.a, ...h.f.de]))} van en una lista` : `${cap(elP(h.f.a))} absorbe ${lista(h.f.de.map(aP))}`}${h.f.sigue < 1 ? `, y de los que se suman le ${h.f.sigue === 0.5 ? "sigue la mitad" : "siguen tres cuartos"}` : ""}`
+    : `${cap(elP(h.c.quien))} le quita ${puntos(h.pts)} ${lista(h.otros.map(aP))}`;
+  const otros = [...c.a].filter((k) => k !== c.quien && partidos.includes(k)), f = actual?.f;
+  let resumen = sim.cambios.length ? "Puedes dejarlo así o montar otro cambio." : "Elige un partido, qué hace y con quién.";
   if (c.quien && !otros.length) resumen = c.verbo === "quita" ? "Ahora toca a quién le quita los puntos." : "Ahora toca los partidos con los que se junta.";
-  if (activo && c.verbo === "quita") resumen = `${cap(elP(c.quien))} le quita ${c.puntos} ${c.puntos === 1 ? "punto" : "puntos"} ${otros.length > 1 ? `entre ${n(otros)}, a cada uno según su tamaño` : aP(otros[0])}. Son ${puntosTexto(Math.min(c.puntos, otros.reduce((t, k) => t + sim.base[k], 0))).replace(/^.*? puntos, /, "")}.`;
-  if (f) resumen = `${c.verbo === "lista" ? `${cap(n([f.a, ...f.de]))} van en una sola lista. En los dibujos sale con el nombre y el color ${deP(f.a)}.` : `${cap(elP(f.a))} se queda con los votos de ${n(f.de)}.`} Se suman provincia a provincia, cada uno donde los tiene.${f.sigue < 1 ? ` ${f.sigue === 0.5 ? "La mitad" : "Uno de cada cuatro"} de los votantes de ${n(f.de)} no le sigue y se queda en casa.` : ""}`;
+  if (actual && !f) resumen = `${cap(elP(c.quien))} le quita ${puntos(actual.pts)} ${otros.length > 1 ? `entre ${n(otros)}, a cada uno según su tamaño` : aP(otros[0])}. Son ${puntosTexto(actual.pts).replace(/^.*? puntos, /, "")}.`;
+  if (f) resumen = `${c.verbo === "lista" ? `${cap(n([f.a, ...f.de]))} van en una sola lista. En los dibujos sale con el nombre y el color ${deP(f.a)}.` : `${cap(elP(f.a))} se queda con los votos ${lista(f.de.map(deP))}.`} Se suman provincia a provincia, cada uno donde los tiene.${f.sigue < 1 ? ` ${f.sigue === 0.5 ? "La mitad" : "Uno de cada cuatro"} de los votantes ${lista(f.de.map(deP))} no le sigue y se queda en casa.` : ""}`;
   cont.replaceChildren(
     el("h3", {}, "O monta tu caso"),
-    el("div", { class: "caso-frase" }, el("span", {}, "¿Y si"),
+    guardados.hechos.length ? el("ul", { class: "caso-lista" }, ...guardados.hechos.map((h) => el("li", {}, el("span", {}, frase(h)),
+      el("button", { type: "button", "aria-label": `Quitar este cambio, ${frase(h)}`, onclick: () => { sim.cambios.splice(h.i, 1); cambiar(); } }, "×")))) : null,
+    el("div", { class: "caso-frase" }, el("span", {}, sim.cambios.length ? "¿Y si además" : "¿Y si"),
       el("select", { "aria-label": "Qué partido", onchange: (e) => { c.quien = e.target.value; c.a.delete(c.quien); cambiar(); } },
         el("option", { value: "" }, "elige partido"), ...partidos.map((k) => el("option", { value: k, selected: k === c.quien ? "" : null }, elP(k)))),
       el("select", { "aria-label": "Qué hace", onchange: (e) => { c.verbo = e.target.value; cambiar(); } },
@@ -626,9 +644,11 @@ function pintarCaso() {
       onclick: () => { if (c.a.has(k)) c.a.delete(k); else c.a.add(k); cambiar(); } }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)))),
     c.verbo === "quita"
       ? el("div", { class: "caso-extra" }, el("span", {}, "¿Cuántos puntos?"), pastillas([[1, "1"], [2, "2"], [3, "3"], [5, "5"]], c.puntos, (val) => { c.puntos = val; cambiar(); }))
-      : el("div", { class: "caso-extra" }, el("span", {}, otros.length ? `¿Cuántos votantes de ${n(f ? f.de : otros)} le siguen?` : "¿Cuántos de sus votantes le siguen?"), pastillas(SIGUEN, c.sigue, (val) => { c.sigue = val; cambiar(); })),
+      : el("div", { class: "caso-extra" }, el("span", {}, otros.length ? `¿Cuántos votantes ${lista((f ? f.de : otros).map(deP))} le siguen?` : "¿Cuántos de sus votantes le siguen?"), pastillas(SIGUEN, c.sigue, (val) => { c.sigue = val; cambiar(); })),
     el("p", { class: "caso-resumen" }, resumen),
-    activo ? el("button", { class: "pacto limpiar", type: "button", onclick: () => { Object.assign(c, { quien: "", a: new Set(), puntos: 3, sigue: 1 }); cambiar(); } }, "Quitar mi caso") : null);
+    el("div", { class: "caso-botones" },
+      actual ? el("button", { class: "pacto opcion", type: "button", onclick: () => { sim.cambios.push({ ...c, a: new Set(c.a) }); sim.caso = casoNuevo(); cambiar(); } }, "Añadir otro cambio") : null,
+      sim.situacion === "propio" ? el("button", { class: "pacto limpiar", type: "button", onclick: () => { vaciarCaso(); cambiar(); } }, "Quitar mi caso") : null));
 }
 function pintarHemiSim() {
   const tot = sim.ultimaProy.total, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda), suma = (e) => e.partidos.reduce((a, k) => a + (tot[k] || 0), 0);
