@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-07T00:02:09+00:00",
+ "actualizado": "2026-10-07T01:02:06+00:00",
  "generales": [
+  {
+   "titulo": "Moncloa y Ferraz pugnan por el control de la campaña electoral",
+   "enlace": "https://www.larazon.es/espana/moncloa-ferraz-pugnan-control-campana-electoral_202610076ac5999db0108820e09a735c.html",
+   "fuente": "La Razón",
+   "fecha": "2026-10-07T03:00:13+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/06/61BAB30F-F20C-470C-BA70-BA5D73332CB9/96.jpg?crop=5662,3185,x0,y233&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
   {
    "titulo": "Los 70 diputados de Vox, el listón clave que espera el PSOE y que \"puede hacer la legislatura casi imposible\" para el PP",
    "enlace": "https://www.elmundo.es/espana/2026/10/07/6ac53478e9cf4af3538b4577.html",
@@ -21,13 +28,6 @@
    "fuente": "laSexta",
    "fecha": "2026-10-07T00:00:17+02:00",
    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/10/05/593BBB46-AA6C-4376-84E0-CA139FF64C41/portavoz-pnv-congreso-maribel-vaquero-junto-otros-diputados-congreso_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "Un sociólogo próximo al PSOE le da «un 6 % de probabilidades» de gobernar tras las elecciones del 29-N",
-   "enlace": "https://www.eldebate.com/espana/20261006/sociologo-proximo-psoe-le-da-6-probabilidades-gobernar-elecciones-29n_466925.html",
-   "fuente": "El Debate",
-   "fecha": "2026-10-06T23:09:42+02:00",
-   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/10/06/6ac5637a7acf5.png"
   },
   {
    "titulo": "Desmarcarse de Europa y desobedecer ante el problema de la vivienda",
@@ -58,18 +58,18 @@
    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac522bf567869-10754031.jpeg"
   },
   {
-   "titulo": "Puigdemont no desvela la fecha de su vuelta a Cataluña pese a la retirada de la orden de detención",
-   "enlace": "https://www.infolibre.es/politica/puigdemont-no-desvela-fecha-vuelta-cataluna-pese-retirada-orden-detencion_1_2237531.html",
-   "fuente": "infoLibre",
-   "fecha": "2026-10-06T17:21:57+00:00",
-   "imagen": "https://static.infolibre.es/clip/735e34a6-1677-4e52-bf1c-473f1cdd2de9_16-9-aspect-ratio_default_0_x299y64.jpg"
-  },
-  {
    "titulo": "El PP pide a la Junta Electoral que sancione a Sánchez por \"utilizar\" la Moncloa para \"dar un mitin del PSOE\"",
    "enlace": "https://www.europapress.es/nacional/noticia-pp-pide-junta-electoral-sancione-sanchez-utilizar-moncloa-dar-mitin-psoe-20261006183024.html",
    "fuente": "Europa Press",
    "fecha": "2026-10-06T16:30:24+00:00",
    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261006183024_120.jpg"
+  },
+  {
+   "titulo": "El Supremo da 48 horas de plazo para las alegaciones antes de resolver sobre la ley de nietos",
+   "enlace": "https://www.elconfidencial.com/espana/2026-10-06/supremo-48-horas-alegaciones-resolver-ley-nietos_4439499/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-10-06T16:16:00+02:00",
+   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/a29/fdf/a29fdfd539b37319bdf3ceeb77b66442/la-ley-de-nietos-rompe-tambien-el-supremo-y-genera-hondo-malestar-por-la-discrepancia-entre-companeros.jpg?mtime=1789484401"
   }
  ],
  "partidos": {
@@ -80,13 +80,6 @@
     "fuente": "El Mundo",
     "fecha": "2026-10-07T01:36:10+02:00",
     "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17912009449084.jpg"
-   },
-   {
-    "titulo": "El PP valenciano cierra filas para el 29-N con el objetivo de mejorar el resultado de 2023 y despejar dudas en Génova sobre Llorca",
-    "enlace": "https://www.elmundo.es/comunidad-valenciana/2026/10/07/6ac4f610e9cf4a35798b4573.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-10-07T00:00:29+02:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17913144265448.jpg"
    },
    {
     "titulo": "Feijóo visita Ceuta este miércoles y reúne a los populares ceutíes en la Estación del Ferrocarril",
@@ -113,22 +106,28 @@
     "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNaTdBSjk1RDFXQ0lyOGx1a1FPc1hLN1F1ckVseWRuVUlRUlVNY3dTaE12aHd1amlHcVNIVlRUdjcwX1hfUE5ReV92RjN1VjM3OHRRMDBkLXRFb1pIemtmNkJMSlB5ajlGUlhzbkxPc2ozSlVfSldFaUNHcXZtVHlPZFhPUWI4djExU1B5dFJCRW5KYnBtckRlS2xTOFpOcFJFWVZlYWdHRmloTTY5TmQ0Szk5NWwtclBLeXFCcXlteWZSOHFFSjJYR2RXV3U3dnFyVlNUUHhFSHZRYmx1emlKLUtoc2Z2Ukc2Z3pvYmQ5UURCNDMwZk5PZzFIaEVYR3F5VzZuVGJR0gGGAkFVX3lxTE5lcXVkc3MtN1FNWUxRRTdWWlpNaFlfeFRGTFdiR0lMdUF3MnJreDhQWW9jaFo3b3J6dGZuTi1aWGpHVUpUSTJlSno3QzM0NWpLbzZodXZ1QmZZZDVORHREUHp3U1V0U0dwcDBEMmc5M0gzQThxT0dvSHg5azFMSTlMUEZmQTVLQm5DSWJRenpYbkd3NWxIaHpWY29DMXBTbmFGVjByT0FoY2N0RnVFV281ZHVvcjgtNTJFanZzWU1fV0VTZ1pUM0xXZXJncVI5ODlmRGc1cU9ORGp5SmlCYTduOVBsangzZ3NHZE91TjU1QjFjX1dkb0xRaGFJcnBKeGVTUU9IUFE?oc=5",
     "fuente": "LaSexta",
     "fecha": "2026-10-06T18:35:53+00:00"
+   },
+   {
+    "titulo": "Feijóo veta un adelanto electoral a Llorca para no debatir de la dana",
+    "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaXhWRGdSLTZBYWhtdkNFUU54RGNGMDFwN3pqSDJxcnRDd2x5WWthZmpDRlhwREdKRDNKaEtEamNNNXl6RHRfMlJublZVbjVVLW96N21nMU1nRkVVeFNjSVhQMHhYemU5RGh2aUE4R05vQTNfV2hlbWtBc3pGOWE4THV1cHdSc2VvMzdSZ0Y4Mm54MEhLUThIZ1dsSlY2N2RFWUFremNMQlZnY0lGNW5QUTZvcHZFSE1yVTRFR0U3V1lsZw?oc=5",
+    "fuente": "castellonaldia.elmundo.es",
+    "fecha": "2026-10-06T16:45:00+00:00"
    }
   ],
   "PSOE": [
    {
+    "titulo": "Moncloa y Ferraz pugnan por el control de la campaña electoral",
+    "enlace": "https://www.larazon.es/espana/moncloa-ferraz-pugnan-control-campana-electoral_202610076ac5999db0108820e09a735c.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-07T03:00:13+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/06/61BAB30F-F20C-470C-BA70-BA5D73332CB9/96.jpg?crop=5662,3185,x0,y233&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
     "titulo": "Los 70 diputados de Vox, el listón clave que espera el PSOE y que \"puede hacer la legislatura casi imposible\" para el PP",
     "enlace": "https://www.elmundo.es/espana/2026/10/07/6ac53478e9cf4af3538b4577.html",
     "fuente": "El Mundo",
-    "fecha": "2026-10-07T01:36:10+02:00",
+    "fecha": "2026-10-06T23:36:00+00:00",
     "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17912009449084.jpg"
-   },
-   {
-    "titulo": "Sánchez carga contra el Parlamento en otro mitin desde la Moncloa",
-    "enlace": "https://www.abc.es/espana/sanchez-carga-parlamento-mitin-moncloa-20261007191047-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-07T00:43:12+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/07/1518367795-R3slwHRFRNajSuKTEUSYwKM-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "¿Y si ganase el PSOE?",
@@ -205,13 +204,6 @@
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/sumar-febrero-tsieira-RpNjP1NVxgDbz8mYS7UoMjN-1200x840@diario_abc.jpg"
    },
    {
-    "titulo": "El PSOE exprime el caos de Sumar y se lanza a laminar a sus socios en las provincias medianas y pequeñas con el voto útil",
-    "enlace": "https://www.elmundo.es/espana/2026/10/06/6ac54230fc6c83251f8b459c.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-10-06T22:48:58+02:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17913125456205.jpg"
-   },
-   {
     "titulo": "Yolanda Díaz prepara una nueva norma antes de las elecciones generales que cambia el paro y los despidos de mayores de 50 años",
     "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWWdCM0s3NVhmUlF6cUVZNmNzekprRlR1T0RGcTBadTdnWXVhT1dOTWVnU2ptay1Lc0c5OTJKNk9ta3ByQWF5SDdhcGNsQjFDQTlIWlFBbzdfNlMzaEtOaWZ5SGpTRGc1Tjc3M2YzWGNaNVhEZFd3eGRBc2dRMnBidVF5TV9ROFhTUmJobDZ5aktZZmdhOHJmeXIyTktFcGhHaFFQaGJaZmlQbm5hSF82VXd4R2tDSFdmbDZQWk5UQnEyV0xZbEpHbzROVEttYTFNbTVfQUpvTVNGcUtvZXZrY2Rn?oc=5",
     "fuente": "EmpleoJob",
@@ -235,6 +227,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZU1OUWlmeEx0dFg4Rktlc0NCVlFaTkhMM3Z1czFWakxfNlZqb3p1cXM3TmlYc1JET01lMjI4VDU0Tk5mT3BfR2ppaUVQanQtN3JUZzIzaGJsN09PakhVT2lsTThmdEIxNW5nUGRaVlo0UjRqVnljNmRBdkEtTVE4bks0NmlNSjV2cmE4eTF5ZWFnN0tLaXpTSlF3aGRGTjM2ZHNB0gGoAUFVX3lxTE9YeFJpMVpOWkRFZjFMa2VZY2h4eTd0NE5DSGtRN3o1aWYtTENvbFBoOF9tZjB1eGlHS0VzLTYySHlKM1o3ckd4WC1HN1g5OW0zT2MyZ1o3akwzeF9oWHBzdExoNUtQT0NuSVFpbmMwQ043X2E1REd5N1pYNzV3LU85Y2ZKbDdoRF9fNURPcWFCWnFIeEVHSjdudDBRcFFlbDFkOTFpaEN6aw?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-06T13:00:34+00:00"
+   },
+   {
+    "titulo": "Más Madrid reclama liderar la lista del Frente Amplio en Madrid mientras Podemos defiende unas primarias abiertas",
+    "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNSkhaMmtQMjRyNzNIc05jdlhid2swdDZrNEJIZDltdmRrRmlCMERhVjdDNXM4Z21PRHN1S2s3VURSdlZ0aE4wdnJKdUZTSGpqNzl3V3NlQlY5NjJZa1NNV0tiNEoxczhnVjJLMW4xZC03dmFKZG1SWFBTZW1wQ2ZpYi1XYVJiLWY4M0s0MzdTbGlHc2NTYmxMenVuTDVGVXpDdDhXQUR0N0xsX2Y2OVc5Z3U5MDFxRHEtVmZFMm44LVZGRFNJT3ZUNUdWS1BHRkdsZDN3TUt2R1NZN2hMS2NsN1U1VG5CNGlGS1ExVGpkaUo3MHF6RnlKby1B0gH6AUFVX3lxTE1KSFoya1AyNHI3M0hzTmN2WGJ3azB0Nms0QkhkOW12ZGtGaUIwRGFWN0M1czhnbU9Ec3VLazdVRFJ2VnRoTjB2ckp1RlNIamo3OXdXc2VCVjk2MllrU01XS2I0SjFzOGdWMksxbjFkLTd2YUpkbVJYUFNlbXBDZmliLVdhUmItZjgzSzQzN1NsaUdzY1NibEx6dW5MNUZVekN0OFdBRHQ3TGxfZjY5VzlndTkwMXFEcS1WZkUybjgtVkZEU0lPdlQ1R1ZLUEdGR2xkM3dNS3ZHU1k3aExLY2w3VTVUbkI0aUZLUTFUamRpSjcwcXpGeUpvLUE?oc=5",
+    "fuente": "El Diario de Madrid",
+    "fecha": "2026-10-06T11:05:57+00:00"
    }
   ],
   "Podemos": [
@@ -271,11 +269,10 @@
     "fecha": "2026-10-06T11:05:37+00:00"
    },
    {
-    "titulo": "Podemos y Frente Amplio rompen el hielo con un encuentro fortuito en la calle: \"Oye, plantéalo en una reunión y no a través de la tele\"",
-    "enlace": "https://www.elmundo.es/espana/2026/10/06/6ac4b28efdddffe8268b45a3.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-10-06T10:37:31+02:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912751660574.jpg"
+    "titulo": "Elecciones generales 2026: Podemos insta a Sumar a que recapacite y acepte que las primarias es el único camino para salir del \"bucle\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdHMyVWQtTVVMYWdLT2lOdFI5QVRWZmw2cFU3OGVmSUpyUTBIcjZ2TjNvZUx6YjYySXFWenRETlVjSW1adzJNeC0xb1VWbGRTeGExajJpci1PZU0yVFk4RmJMWXJ4aHEtbU51aFlMZmRwdHcxa2ZqVE5ORE9SWk9lSGlCdmZXaTctNTlRRWl1QmJIRVlUVl9hbk5UcFZhWG5lazV3eGtpdndLTWJLUTVqNFUzWGV3aktSNmdwNVRjbUM0bWFSY21LVG02a3FEV2RuamVZeTVfSUh5OFlLbmlaWmx4TVphZ9IB5gFBVV95cUxQdHMyVWQtTVVMYWdLT2lOdFI5QVRWZmw2cFU3OGVmSUpyUTBIcjZ2TjNvZUx6YjYySXFWenRETlVjSW1adzJNeC0xb1VWbGRTeGExajJpci1PZU0yVFk4RmJMWXJ4aHEtbU51aFlMZmRwdHcxa2ZqVE5ORE9SWk9lSGlCdmZXaTctNTlRRWl1QmJIRVlUVl9hbk5UcFZhWG5lazV3eGtpdndLTWJLUTVqNFUzWGV3aktSNmdwNVRjbUM0bWFSY21LVG02a3FEV2RuamVZeTVfSUh5OFlLbmlaWmx4TVphZw?oc=5",
+    "fuente": "Diario de León",
+    "fecha": "2026-10-06T10:25:24+00:00"
    }
   ],
   "SALF": [
@@ -363,18 +360,17 @@
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/07/50775063-R1Z5F2VcKQDx8jZxA8f6LBK-1200x840@diario_abc.jpg"
    },
    {
+    "titulo": "Puigdemont descarta un regreso inminente y delega en Nogueras el peso de la campaña del 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OTkdBdmZJc05LX1lsSldmNUF3dk9lY0xuSE1yYndOOTRxTmppdGRya1RqZ0RUZVRCSk85T0M1MFZ0WGQzVWR4NVQ0YTZSZWhDb1c5U3d6UkJnTXNoT3dqZDA1ZmZXVnZIMUdycWhYS1drS3ZtTE8zYkVkQ3HSAXxBVV95cUxPVUZpemRLS3loMklSUEJJUXM3XzFuUkFLXzJpc1hYYVVBX0p3NDFnQ1RCaXZpY09fb3dMNTh2VGtZLWZ5ek9YMFVzRm5ULVJUV0lBdkpITVYtUTZ0a2hOMElJam1oWkJsMjlHWkRvSjJDcnFQV0lRcUJNNFcz?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-06T23:36:00+00:00"
+   },
+   {
     "titulo": "Puigdemont no volverá a España hasta que el Supremo archive la causa del procés y aplique la ley de amnistía \"en su totalidad\"",
     "enlace": "https://www.lasexta.com/noticias/nacional/puigdemont-volvera-espana-que-supremo-archive-causa-proces-aplique-ley-amnistia-totalidad_202610066ac553f9f7f8f566d14ead73.html",
     "fuente": "laSexta",
     "fecha": "2026-10-06T22:03:05+02:00",
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2024/08/10/D610868C-7811-4734-93C6-A32D7AE378C7/carles-puigdemont-vuelta-waterloo_96.jpg?crop=1489,838,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Si Puigdemont cuenta la décima parte de lo que le prometió Sánchez…",
-    "enlace": "https://okdiario.com/opinion/si-puigdemont-cuenta-decima-parte-lo-que-prometio-sanchez-20498915",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-06T21:05:49+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/06/puchi-frase.jpg"
    },
    {
     "titulo": "El mejor momento para que vuelva Puigdemont",
@@ -417,6 +413,12 @@
     "fecha": "2026-10-06T12:08:50+00:00"
    },
    {
+    "titulo": "¿Qué dice el CIS de Euskadi? Bildu aventaja al PNV y se consolida como referente del nacionalismo vasco",
+    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUDFtWDVyTXdLZmFVYzJWQ2ZKR2RlbXFhWllJa2hUQkFsdnBIXzBCcjRHbFU0aUNhYWxaeXlKMUl5NVFqSi1RMXg3YkNOREJHSHI0eWdJQmhLX2ZSVTdsb1FxOGVGZEswYXI0VmlJbXh0aVZKUnNCSW5hTFc3MTFDa1Q5RUZXTlp1Q1ljcnlUbE1oUUtEUF8yd3dYbXFKLUUtUE9fUnZEUVJNT0JiMmhBU1JvbEhQY2pqOFhud0IwRmNpM0RjVE9xbWY3RFbSAcwBQVVfeXFMT1AxbVg1ck13S2ZhVWMyVkNmSkdkZW1xYVpZSWtoVEJBbHZwSF8wQnI0R2xVNGlDYWFsWnl5SjFJeTVRakotUTF4N2JDTkRCR0hyNHlnSUJoS19mUlU3bG9RcThlRmRLMGFyNFZpSW14dGlWSlJzQkluYUxXNzExQ2tUOUVGV05adUNZY3J5VGxNaFFLRFBfMnd3WG1xSi1FLVBPX1J2RFFSTU9CYjJoQVNSb2xIUGNqajhYbndCMEZjaTNEY1RPcW1mN0RW?oc=5",
+    "fuente": "Crónica Vasca",
+    "fecha": "2026-10-06T03:00:00+00:00"
+   },
+   {
     "titulo": "EH Bildu ganó en 2023 en Gipuzkoa mientras que el PSE venció al PNV en Euskadi",
     "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWjFibDNjMkVQMWxVYTFPVG1MbTVYajJEUmZJTEhkOF9KaUEzZ1VfTlFKOTJxYndyckVOdVQ0YWZOaDRVUzRSM2lIRWxnckNadEluV3laOXpDeDRIaDVSbXdJOUlFTWVyeTIyY2tYclc2Wm51SHBNQjZfUEtqSFBRMm9vU0pWLVd0MXl2T0xYU1BLVDZweVFxN2lqVmdRVnBDb2FxU19R0gGmAUFVX3lxTE9aMWJsM2MyRVAxbFVhMU9UbUxtNVhqMkRSZklMSGQ4X0ppQTNnVV9OUUo5MnFid3JyRU51VDRhZk5oNFVTNFIzaUhFbGdyQ1p0SW5XeVo5ekN4NEhoNVJtd0k5SUVNZXJ5MjJja1hyVzZabnVIcE1CNl9QS2pIUFEyb29TSlYtV3QxeXZPTFhTUEtUNnB5UXE3aWpWZ1FWcENvYXFTX1E?oc=5",
     "fuente": "El Diario Vasco",
@@ -427,12 +429,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdjROZS12NGZqTlNELWlWaU4ydFBtaTFxdXpBQ2ZnenctcmlCU3F0a2ZZWVJmbGhDSWd3YktfQ2NxMkNqV0tKbERVT3R0cU82cnVIZHA2dnpERS1nUlF3UXBLMmdSb1B2SnN3Y1ZDLS00TWpobXZ2UzF5b0FHa01KQVEyWkEzQVAwT3Y1U3JtRDNBQTlXWWdfRkJfdEJPbkh1dEhJc3A3T1FSbjV2bnBhd1RiVUE?oc=5",
     "fuente": "ABC",
     "fecha": "2026-10-05T17:52:51+00:00"
-   },
-   {
-    "titulo": "Otegi dice que si está en su mano las derechas no van a gobernar y anima a la ciudadanía vasca a ganar el partido a los autoritarios",
-    "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOWmZwTE9rVlY3YWVLMHVITlY2MGE1QkpDZV9tX1l2MGpIM2hBM2dwUjlqb1ltX2VJd2V1NXhNRzF2ZjlORGdYNExBSUNzUEJDQUN2b1BRdXcyanU2ZEtMYmJLYTRmQVNPbHBYUUh6ZlhTU09HRWFieXdxZFVXQ1A0WUZBSVgtRHhrcWRrZDNuaml6RzdaaUFmNzU0SEhaT3ZPeGRfaWE2bm1ZdTE3bVBjS3MtUjZkNjBUbUlkck55TzVCcV8wSnFrQlBJSFQ0b1Qwd3lYMzZOX1lVU1BrNG16MUZVa3lsYjc0NmVlX0FDY014SUZneUYw?oc=5",
-    "fuente": "EHBildu",
-    "fecha": "2026-10-05T17:09:44+00:00"
    }
   ],
   "PNV": [
@@ -530,16 +526,10 @@
     "fecha": "2026-10-06T19:11:00+00:00"
    },
    {
-    "titulo": "Primero Canarias compartirá lista con Coalición Canaria y negocia su candidato",
-    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYXhXRmljbWVtNzJBcmxrd0ZjM1hMWlJGdlJxYmJtbzhqNHhKWkRsdW1HV0NmbWRSX1lNYnlOV2RZYUxEOVJoRUNBWTByNDl4aEFWZ05fN3dFS1lSS0VPRFBOV2RRaEpyVGR3dkpKYThmV1M0b1ZoN1YtLWIzVFhvMC10V0pVYk1nT01ra25jaFZpdkJjeTF4WUdlODNXVVBvTnNTcHRVb2xRUkJFdjRBYWsyTmdfZWEtX3pNRzFKQ00yV0h0WDE4WG9wRWJrcFpLYy02eHVwONIB3AFBVV95cUxQMFJhZXF5bl9NOVR2Wkp4aGZaQ0w4S0toX1QzbWZ5MUVEWHEzZ1JuUGFiWTFyamFQMndFTWJ0Q2pDUUI0anhFdDl4bGI5ZlhPNUI4U1Flb2xsZkg5THJhcnJ3bFZYWm1XNW80aXVaMjNRRXV3b3Z4MTRoOF9qV3NuVlhVLTlBajJRUDlHZktBY19sRlJFcUNGemFxanpZcEdTWl90UU9qeFg4UnphUS03UktOVGRZUVYtU0ZjSnQ4WDVybGVxODY5aVZMUWxMNk5vSzhQT1NnTElzZTEw?oc=5",
+    "titulo": "Primero Canarias confirma su apuesta por compartir lista con Coalición Canaria y negocia su candidato",
+    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMFJhZXF5bl9NOVR2Wkp4aGZaQ0w4S0toX1QzbWZ5MUVEWHEzZ1JuUGFiWTFyamFQMndFTWJ0Q2pDUUI0anhFdDl4bGI5ZlhPNUI4U1Flb2xsZkg5THJhcnJ3bFZYWm1XNW80aXVaMjNRRXV3b3Z4MTRoOF9qV3NuVlhVLTlBajJRUDlHZktBY19sRlJFcUNGemFxanpZcEdTWl90UU9qeFg4UnphUS03UktOVGRZUVYtU0ZjSnQ4WDVybGVxODY5aVZMUWxMNk5vSzhQT1NnTElzZTEw0gHcAUFVX3lxTFAwUmFlcXluX005VHZaSnhoZlpDTDhLS2hfVDNtZnkxRURYcTNnUm5QYWJZMXJqYVAyd0VNYnRDakNRQjRqeEV0OXhsYjlmWE81QjhTUWVvbGxmSDlMcmFycndsVlhabVc1bzRpdVoyM1FFdXdvdngxNGg4X2pXc25WWFUtOUFqMlFQOUdmS0FjX2xGUkVxQ0Z6YXFqellwR1NaX3RRT2p4WDhSemFRLTdSS05UZFlRVi1TRmNKdDhYNXJsZXE4NjlpVkxRbEw2Tm9LOFBPU2dMSXNlMTA?oc=5",
     "fuente": "elDiario.es",
     "fecha": "2026-10-06T18:44:10+00:00"
-   },
-   {
-    "titulo": "Primero Canarias confirma su apuesta por compartir lista con CC, aún por definir candidato",
-    "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNDRSeXN4RVN4QVpNSEpuOXJpT0lLWFF5RTJfZmdEWnM5LTQ0S1hzNkR1YkJLa1B0bnhXeElwQnhyWWtYdlJKd19fbzVMMmFYU1ZjcFZfR1lIcHNhSVNWSDR4R21vT1J3Sk51NnRRV1NYVDVMZy1kQURCNTVnWW1OVzZPVTBfVVhKTVR3bFpTLXc1dnhkN2hUVVU2aG56TlFGbGZkNA?oc=5",
-    "fuente": "Radio Televisión Canaria",
-    "fecha": "2026-10-06T18:19:16+00:00"
    },
    {
     "titulo": "Coalición Canaria y Primero Canarias deciden hoy si van juntos al 29-N: ¿quién liderará en Las Palmas?",
@@ -552,14 +542,20 @@
     "enlace": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNQnJzUFAxMzZtdDhXVTVSOVB3b1lxZXNfMkdiUmFkeG8xVTdXYkpXNmtpNjBqQWpBZWRMSXRjVjFXZGQtdmxuV0tpOUxrT2E3bFktRzNjZ3k1cWVHV2xhU3BHU3M5V3hxNmo5SkdNWDd2RUUtZ0VtQlJfRFhaVXQ5bmJrYWE0Z3lzbzRIRGpIZ0tfUFQ0di10empGSkRyYmNVMUwySXpobnBuUGZUY0tweGlYcnZ6aEdLNFdONjllMGdtc2hCVmZ2MnM2MkJ2OWgwQkFYeTN5OTR2cThIRW00ZFlCUmItWW9Pd3d6UnlMdnQ0djZ1M0l6S3JhZzgxLW93Sy1UMHNmSElpYU5uUWfSAY4CQVVfeXFMTUJyc1BQMTM2bXQ4V1U1UjlQd29ZcWVzXzJHYlJhZHhvMVU3V2JKVzZraTYwakFqQWVkTEl0Y1YxV2RkLXZsbldLaTlMa09hN2xZLUczY2d5NXFlR1dsYVNwR1NzOVd4cTZqOUpHTVg3dkVFLWdFbUJSX0RYWlV0OW5ia2FhNGd5c280SERqSGdLX1BUNHYtdHpqRkpEcmJjVTFMMkl6aG5wblBmVGNLcHhpWHJ2emhHSzRXTjY5ZTBnbXNoQlZmdjJzNjJCdjloMEJBWHkzeTk0dnE4SEVtNGRZQlJiLVlvT3d3elJ5THZ0NHY2dTNJektyYWc4MS1vd0stVDBzZkhJaWFOblFn?oc=5",
     "fuente": "Vozpopuli",
     "fecha": "2026-10-06T15:30:50+00:00"
+   },
+   {
+    "titulo": "Fernando Clavijo: “Sánchez ha llevado la política al ‘estás conmigo o estás contra mí’ y Coalición Canaria no va a caer en ese juego”",
+    "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUHRJejJmVjZXeDAyemdDTnFndGo3bWlMRGRpS2J0MDVPajZmOEZVQXM2aDBQQnlwbk5BVFl4ell0SUp5SWVmcFAwUUI3bTIxcEFYbWpkOTlLMnlWRmVxd3dhMnR2OEpzZXVEWlV2QUhNMmZCZ0NTSzhKRU0yU1pNU2k0NnFsdDlSaW9yNWx0V0h2Tk92YjdTcHJNZzdBVS1wOFZNdHU5WHlSeUxKT3lYb19QT1VCVW0wdS1ORy1lYjVQekE4c3dweWJTdFcySU8tZk50ZlNrT3ZaZHdBWWVzUUViTkhRajNvTFZXb3QwWlA?oc=5",
+    "fuente": "Canal 4 Tenerife",
+    "fecha": "2026-10-06T12:10:17+00:00"
    }
   ],
   "UPN": [
    {
-    "titulo": "Ibarrola, sobre una posible coalición con el PP: \"La voluntad de UPN es llegar a un acuerdo bueno para Navarra\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNTRuYUgtWUNFdnh6MWU5M0dQVlROOXRWTlpWTHJ2VE5jdS1iMGR1cllCeXFtckJZbURiaVZ3U19CN2JINW9pOE0yS0RRNXdGVW5ObVkxX3dLTUV5ZEhyMVZFUmdmeHA5ajh0d1VFbGVBVTBBbTU0ajY0dXNRQkUxQ3FSNWFoY0FHVEZaNmE0Q3BESjdJZTVBVm5yQmpPNzN6b3BRZlhsSXZhY09GcG9WaUFBNjZncS1UQThDclFUb0RUYlV1a3h4TmNMRThhREpDUk1KWU9saGE2LXJVNFJTOWlQM3FQQQ?oc=5",
-    "fuente": "Pamplona Actual",
-    "fecha": "2026-10-06T16:52:30+00:00"
+    "titulo": "UPN y PP buscan una entente tras los malos resultados de 2023",
+    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQd1ZGRGkzM2JUcW1FclNBaFlZQlNTdGZsZGhWYUNfNWl1am03YTZXR2tNSjZCUk5PbmhnUS1YYWlfLVhpS2NzVjZiWlg1NVRzTjlEaEtMXy0xeVdCNEplNzJGbmRqaExKYVpMYnJKbS0tQUMtV3gtS2tZS0ZXcy1JOUR0dDZOYlp0eVBvVEtac1B0LXpuTmRramdidXJ5TUdJUTNISS1Xa2ZoTGJ1VUNuZV9NbXBwNzFmby1uaVgyWUlDSnFabjF4eVMyTTlzWGpROW5uTTBaOHZlNEJUdFHSAd4BQVVfeXFMUHdWRkRpMzNiVHFtRXJTQWhZWUJTU3RmbGRoVmFDXzVpdWptN2E2V0drTUo2QlJOT25oZ1EtWGFpXy1YaUtjc1Y2YlpYNTVUc045RGhLTF8tMXlXQjRKZTcyRm5kamhMSmFaTGJySm0tLUFDLVd4LUtrWUtGV3MtSTlEdHQ2TmJadHlQb1RLWnNQdC16bk5ka2pnYnVyeU1HSVEzSEktV2tmaExidVVDbmVfTW1wcDcxZm8tbmlYMllJQ0pxWm4xeHlTMk05c1hqUTlubk0wWjh2ZTRCVHRR?oc=5",
+    "fuente": "naiz:",
+    "fecha": "2026-10-06T22:00:00+00:00"
    },
    {
     "titulo": "Sayas ofrece a UPN una candidatura conjunta el 29-N y cierra la puerta a una lista electoral con Vox en Navarra",
@@ -723,6 +719,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5oWjlaTUg3eHlmVTdSWDV6a1o4dWk3VVZZUjltSndEU2dNMEctVHVadnRMR2hVWXY5VWZsM2tGQWRhQVU0T3J1Q1NNR2ZkNVJsMUtEOXFxdGsxb3c1akZ5TFhJaWJ4RHlHSzJpTUl5cGF1Smc?oc=5",
     "fuente": "Newtral",
     "fecha": "2026-10-06T13:33:48+00:00"
+   },
+   {
+    "titulo": "¿Vox ha anunciado que eliminará el Ingreso Mínimo Vital en noviembre si llega al Gobierno?",
+    "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONFZwc09XTUtTemtVOTQwWjZVaDU4TWJyMXVoNDhETkdKSEUxX05YN3hWbmNJMnoyWTJiMWh4OTVkZjlQZ05yNXB3VTBiWTR5dGFOWFl6RGo3cnN1bGpTaEhORmJfbUtHSEItQXA0WFVsN3VyVTA5TjFoNjVFbTE5Tnh4cTdyX3c2UFRIVEZITkhkVTk4Ull4VlEtNWhHRG5nS3ZrVjlnTnlfSi1HRWVvSWtMUWk1QjdZYmUtcEZDcw?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-06T09:10:40+00:00"
    }
   ],
   "Sumar": [
