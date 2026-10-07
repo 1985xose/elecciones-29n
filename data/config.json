@@ -106,7 +106,7 @@
       "nombre": "CC",
       "color": "#E9C21B",
       "consulta": "\"Coalición Canaria\"",
-   "nombres": ["Coalición Canaria", "CC", "Clavijo"],
+   "nombres": ["Coalición Canaria", "CC", "Clavijo"], "no": ["CC.OO", "CC OO", "CC. OO"],
       "lider": ""
     },
     "UPN": {
@@ -137,7 +137,6 @@
     {"nombre": "elDiario.es", "grupo": "izquierda", "rss": ["https://www.eldiario.es/rss/politica/"]},
     {"nombre": "infoLibre", "grupo": "izquierda", "rss": ["https://www.infolibre.es/rss/"]},
     {"nombre": "laSexta", "grupo": "izquierda", "rss": ["https://www.lasexta.com/rss/351410.xml"]},
-    {"nombre": "El Plural", "grupo": "izquierda", "rss": ["https://www.elplural.com/rss", "https://www.elplural.com/feed", "https://www.elplural.com/rss/politica"]},
     {"nombre": "La Marea", "grupo": "izquierda", "rss": ["https://www.lamarea.com/feed/"]},
     {"nombre": "El Salto", "grupo": "izquierda", "rss": ["https://www.elsaltodiario.com/general/feed", "https://www.elsaltodiario.com/feed"]},
     {"nombre": "Nueva Tribuna", "grupo": "izquierda", "rss": ["https://www.nuevatribuna.es/rss/listado", "https://www.nuevatribuna.es/rss"]},
@@ -155,8 +154,12 @@
   ],
   "grupos_medios": {"izquierda": "progresistas", "derecha": "conservadores", "centro": "generalistas, públicos y agencias"},
   "polemicas_titular": ["polémica", "escándalo", "imputa", "investig", "Fiscalía", "fiscal general", "Anticorrupción", "juez", "juzgado", "Guardia Civil", "UCO", "corrupción", "dimisión", "dimite", "querella", "denuncia", "cloaca", "trama", "fraude", "malversación", "cohecho", "Supremo", "Audiencia Nacional", "condenad", "sentencia", "detenid", "detención", "sanción", "expediente", "caso"],
-  "portada_fuertes": ["elecciones", "electoral", "29N", "29-N", "campaña", "encuesta", "sondeo", "candidat", "listas", "urnas", "adelanto", "debate"],
-  "portada_claves": ["Congreso", "Senado", "Gobierno", "Moncloa", "investidura", "escaño", "voto", "votar", "diputad", "ministr", "Sánchez", "Feijóo", "Abascal", "Yolanda Díaz", "CIS"],
+  "portada_seguras": ["29N", "29-N", "29 de noviembre", "elecciones generales", "las generales", "electoral", "precampaña", "voto por correo", "urnas"],
+  "portada_fuertes": ["elecciones", "campaña", "encuesta", "sondeo", "candidat", "listas", "adelanto", "debate", "mitin", "primarias"],
+  "portada_claves": ["investidura", "escaño", "diputad", "ministr", "legislatura"],
+  "portada_nombres": ["Congreso", "Senado", "Gobierno", "Moncloa", "las Cortes", "Cortes Generales", "CIS", "Junta Electoral", "Consejo de Ministros", "Compromís", "Izquierda Unida", "IU", "PSC", "Comuns", "Podem", "Ayuso", "Zapatero", "Montero"],
+  "secciones_fuera": ["deportes", "deporte", "futbol", "baloncesto", "motor", "horoscopo", "curiosidades", "mascotas", "naturaleza", "techy", "tecnologia", "ciencia", "salud", "bienestar", "gente", "famosos", "corazon", "celebrities", "television", "tv", "series", "cine", "musica", "ocio", "viajes", "gastronomia", "recetas", "cocina", "loteria", "loterias", "sorteos", "estilo", "moda", "belleza", "lifestyle", "juegos", "videojuegos", "tiempo", "el-tiempo", "meteorologia", "internacional", "mundo", "opinion", "opiniones", "editorial", "editoriales", "columnas", "blogs", "podcast", "humor", "promociones"],
+  "titulos_fuera": ["vota en nuestra encuesta", "vota en la encuesta", "vota en esta encuesta", "participa en nuestra encuesta"],
   "verificadores": "(site:newtral.es OR site:maldita.es)",
   "escenarios": [
     {

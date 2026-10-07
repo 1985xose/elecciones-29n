@@ -125,6 +125,36 @@ def terminos_consulta(consulta):
     return [t.strip().strip('"') for t in consulta.split(" OR ") if t.strip()]
 
 
+def seccion_fuera(enlace, fuera):
+    """True si la dirección de la noticia pasa por una sección que no es información política (deportes, horóscopo,
+    opinión...). Mira las carpetas de la dirección y el subdominio, nunca el nombre final de la noticia."""
+    m = re.match(r"https?://([^/]+)/?(.*)", enlace or "")
+    if not m:
+        return False
+    trozos = m.group(1).lower().split(".")[:-2] + m.group(2).lower().split("?")[0].split("/")[:-1]
+    return any(t in fuera for t in trozos)
+
+
+def filtro_portada(cfg):
+    """Devuelve una función que clasifica un titular de periódico: 1 si va de las elecciones, 2 si es política, 0 si no.
+    Hay palabras que solo se usan hablando de elecciones (29N, electoral, voto por correo) y bastan solas, aunque estén en
+    la entradilla. Otras se usan también para el fútbol o la tele (encuesta, debate, campaña, candidato) y solo cuentan si
+    el propio titular nombra a un partido, a un líder o a una institución. Sin ese nombre en el titular no es política."""
+    seguras, dudosas, claves = patron(cfg.get("portada_seguras", [])), patron(cfg.get("portada_fuertes", [])), patron(cfg.get("portada_claves", []))
+    nombres = patron_nombres(cfg.get("portada_nombres", []))
+    # Cada partido con sus nombres y con lo que no es él aunque se escriba igual (el ERC de las becas, CC.OO.)
+    partidos = [(patron_nombres(p.get("nombres") or terminos_consulta(p["consulta"])), patron_nombres(p.get("no") or [])) for p in cfg["partidos"].values()]
+
+    def clase(x):
+        titulo = x["titulo"]
+        texto, t = x.get("texto") or plano(titulo), sin_acentos(titulo)
+        ancla = bool((nombres and nombres.search(t)) or (claves and claves.search(plano(titulo))) or any(si.search(t) and not (no and no.search(t)) for si, no in partidos if si))
+        if (seguras and seguras.search(texto)) or (ancla and dudosas and dudosas.search(texto)):
+            return 1
+        return 2 if ancla else 0
+    return clase
+
+
 def reparto_plural(candidatos, n, grupos, tope=2):
     """Elige n titulares de una lista ya ordenada por preferencia, pero por turnos: uno de cada grupo de periódicos
     (progresistas, conservadores, generalistas) y sin repetir periódico hasta que hayan salido todos. Así no mandan ni
@@ -148,28 +178,34 @@ def reparto_plural(candidatos, n, grupos, tope=2):
 def portada(cfg):
     """Lee todos los periódicos y devuelve (titulares del día, todos los titulares leídos). Imprime qué tal ha ido cada uno."""
     todos, activos = [], []
+    fuera, relleno = {plano(t) for t in cfg.get("secciones_fuera", [])}, patron(cfg.get("titulos_fuera", []))
     print("Periódicos con RSS propio:")
     for medio in cfg.get("medios", []):
         try:
             items, url = leer_medio(medio)
-            todos += items
+            # Fuera lo que no es información política: deportes, horóscopo, opinión... y las encuestas de «vota aquí»
+            validos = [x for x in items if not seccion_fuera(x["enlace"], fuera) and not (relleno and relleno.search(plano(x["titulo"])))]
+            todos += validos
             if any(x["imagen"] for x in items):
                 activos.append({"nombre": medio["nombre"], "grupo": medio.get("grupo", "centro")})
-            print(f"   {medio['nombre']:<16} {medio.get('grupo', ''):<10} {len(items):>3} titulares, {sum(1 for x in items if x['imagen']):>3} con foto   {url}")
+            print(f"   {medio['nombre']:<16} {medio.get('grupo', ''):<10} {len(items):>3} titulares, {sum(1 for x in items if x['imagen']):>3} con foto, {len(items) - len(validos):>3} fuera por sección   {url}")
         except Exception as e:
             print(f"   {medio['nombre']:<16} {medio.get('grupo', ''):<10} FALLA: {type(e).__name__} {str(e)[:70]}")
-    fuertes, claves = patron(cfg.get("portada_fuertes", [])), patron(cfg.get("portada_claves", []) + [t for p in cfg["partidos"].values() for t in terminos_consulta(p["consulta"])])
+    clase = filtro_portada(cfg)
     limite = (datetime.now(timezone.utc) - timedelta(hours=24)).isoformat()
     recientes = sorted((x for x in todos if x["fecha"] and x["fecha"] >= limite and x["imagen"]), key=lambda x: x["fecha"], reverse=True)
     # Preferencia: primero lo que habla de las elecciones y después el resto de la política, lo más reciente delante.
-    ordenados = [x for x in recientes if fuertes and fuertes.search(x["texto"])]
-    ordenados += [x for x in recientes if x not in ordenados and claves and claves.search(x["texto"])]
+    clases = [clase(x) for x in recientes]
+    ordenados = [x for x, c in zip(recientes, clases) if c == 1] + [x for x, c in zip(recientes, clases) if c == 2]
     grupos = list(cfg.get("grupos_medios") or {}) or sorted({x["grupo"] for x in todos})
     grupos = sorted(grupos, key=lambda g: g != "centro")  # el turno empieza por los generalistas
     elegidos = reparto_plural(ordenados, 10, grupos)
     elegidos.sort(key=lambda x: x["fecha"], reverse=True)
     cuenta = {g: sum(1 for x in elegidos if x["grupo"] == g) for g in grupos}
+    print(f"   De {len(recientes)} titulares de hoy con foto, {clases.count(1)} van de las elecciones, {clases.count(2)} son de política y {clases.count(0)} se descartan")
     print(f"   Titulares del día con foto: {len(elegidos)} de {len({x['fuente'] for x in elegidos})} periódicos. Por grupo: {cuenta}")
+    for x in elegidos:
+        print(f"      {x['fuente']:<16} {x['titulo'][:100]}")
     return elegidos, todos, grupos, activos
 
 
@@ -287,8 +323,8 @@ def main():
         print("verificaciones generales:", e)
     for n in verif.values():
         n["titulo"] = re.sub(r"\s*[·|-]\s*La Buloteca\s*$", "", n["titulo"]).strip()
-    politica = patron(cfg.get("portada_fuertes", []) + cfg.get("portada_claves", []))
-    generales = sorted((n for n in verif.values() if len(n["titulo"]) >= 30 and ((politica and politica.search(plano(n["titulo"]))) or any(nombra(k, n["titulo"]) for k in cfg["partidos"]))),
+    clase = filtro_portada(cfg)
+    generales = sorted((n for n in verif.values() if len(n["titulo"]) >= 30 and clase({"titulo": n["titulo"]})),
                        key=lambda x: x["fecha"] or "", reverse=True)[:8]
     res["verificaciones_generales"] = generales or previo.get("verificaciones_generales", [])
     print(f"Descartados por no nombrar al partido en el titular: {descartes['partido']} titulares y {descartes['verificación']} verificaciones. Polémicas descartadas: {descartes['polémica']}")
