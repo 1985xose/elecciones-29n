@@ -1,6 +1,20 @@
 {
- "actualizado": "2026-10-08T02:42:41+00:00",
+ "actualizado": "2026-10-08T03:02:04+00:00",
  "generales": [
+  {
+   "titulo": "Junts afronta un duro golpe electoral pero cierra filas con Puigdemont por no venir a España antes del 29-N",
+   "enlace": "https://www.elconfidencial.com/espana/cataluna/2026-10-08/junts-crisis-electoral-cerrando-filas-puigdemont_4440529/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-10-08T05:00:00+02:00",
+   "imagen": "https://images.ecestaticos.com/j-irSTu9gw4XeAkjVV8PIGmx8sU=/77x52:2202x1450/1338x880/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F75e%2F107%2F94c%2F75e10794c0d4f06cab94fe424250100d.jpg"
+  },
+  {
+   "titulo": "El reparto de poder entre Más Madrid y Colau solivianta al resto de Frente Amplio, mientras Podemos insiste en ir a primarias",
+   "enlace": "https://www.20minutos.es/nacional/reparto-poder-entre-mas-madrid-colau-solivianta-resto-frente-amplio-mientras-podemos-insiste-ir-primarias_7046217_0.html",
+   "fuente": "20minutos",
+   "fecha": "2026-10-08T05:00:00+02:00",
+   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/05/6ac3c353d0d827-19531356.jpeg"
+  },
   {
    "titulo": "El PP acusa al Gobierno de «electoralismo» al no llevar aún los decretos de vivienda a la Diputación Permanente",
    "enlace": "https://www.eldebate.com/espana/20261008/pp-acusa-gobierno-electoralismo-no-llevar-aun-decretos-vivienda-diputacion-permanente_467247.html",
@@ -23,13 +37,6 @@
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/07/1518435917-U20609936686z6H-R07PO3088IATlk6pTUlez3N-1200x840@diario_abc.jpg"
   },
   {
-   "titulo": "Feijóo traslada el pésame a la familia de Maricarmen y pide no hacer \"campaña\" con su muerte",
-   "enlace": "https://www.20minutos.es/nacional/feijoo-traslada-pesame-familia-maricarmen-pide-no-hacer-campana-con-su-muerte_7046305_0.html",
-   "fuente": "20minutos",
-   "fecha": "2026-10-07T23:16:34+02:00",
-   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/03/6ac10aca345ac8-64720936.webp"
-  },
-  {
    "titulo": "Feijóo intenta centrar en Ceuta la precampaña mientras esquiva la crisis de la vivienda",
    "enlace": "https://www.eldiario.es/politica/feijoo-centrar-ceuta-precampana-esquiva-crisis-vivienda_1_13570526.html",
    "fuente": "elDiario.es",
@@ -42,13 +49,6 @@
    "fuente": "Europa Press",
    "fecha": "2026-10-07T21:32:44+00:00",
    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261007233244_120.jpg"
-  },
-  {
-   "titulo": "CCOO y UGT convocan una huelga general para el próximo 11 de noviembre",
-   "enlace": "https://www.elconfidencial.com/espana/2026-10-07/huelga-general-vivienda-salarios-sindicatos-1hms_4440351/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-10-07T21:00:00+02:00",
-   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/235/cce/235cce661b5aae80c00238b552ad3f8f/huelga-general-por-la-vivienda-en-espana-cuando-es-y-quien-la-convoca.jpg?mtime=1791384464"
   },
   {
    "titulo": "Más Madrid propone que Colau sea la candidata del Frente Amplio a la presidencia del Gobierno y encabece la lista en Barcelona",
@@ -75,18 +75,18 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "El PP acusa al Gobierno de «electoralismo» al no llevar aún los decretos de vivienda a la Diputación Permanente",
-    "enlace": "https://www.eldebate.com/espana/20261008/pp-acusa-gobierno-electoralismo-no-llevar-aun-decretos-vivienda-diputacion-permanente_467247.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-08T04:30:00+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2025/12/06/6934625291b78.r_d.3013-1364-0.jpeg"
+    "titulo": "Tellado, Muñoz y Ezcurra: el tridente del PP para cubrir el flanco derecho y evitar una fuga de votos a Vox",
+    "enlace": "https://www.larazon.es/espana/tellado-munoz-ezcurra-tridente-cubrir-flanco-derecho-evitar-fuga-votos-vox_202610086ac6c4ce48d2d008d0c932a2.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-08T05:00:13+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/08/9F759D95-EFBC-43E2-887A-3ABA83B3F65C/noticia-dia-7-10-26_96.jpg?crop=1900,1069,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
-    "titulo": "Feijóo traslada el pésame a la familia de Maricarmen y pide no hacer \"campaña\" con su muerte",
-    "enlace": "https://www.20minutos.es/nacional/feijoo-traslada-pesame-familia-maricarmen-pide-no-hacer-campana-con-su-muerte_7046305_0.html",
+    "titulo": "El Gobierno retrasa la nueva votación de los decretos de vivienda y el PP denuncia un \"uso electoral\" del Congreso por parte de Sánchez",
+    "enlace": "https://www.20minutos.es/nacional/gobierno-retrasa-nueva-votacion-los-decretos-vivienda-pp-denuncia-un-uso-electoral-congreso-por-parte-sanchez_7046199_0.html",
     "fuente": "20minutos",
-    "fecha": "2026-10-07T23:16:34+02:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/03/6ac10aca345ac8-64720936.webp"
+    "fecha": "2026-10-08T05:00:00+02:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/07/6ac66c2b0ae2f0-64501162.jpeg"
    },
    {
     "titulo": "Sánchez y Feijóo: \"Nada está escrito\"",
@@ -116,6 +116,13 @@
   ],
   "PSOE": [
    {
+    "titulo": "El Gobierno retrasa la nueva votación de los decretos de vivienda y el PP denuncia un \"uso electoral\" del Congreso por parte de Sánchez",
+    "enlace": "https://www.20minutos.es/nacional/gobierno-retrasa-nueva-votacion-los-decretos-vivienda-pp-denuncia-un-uso-electoral-congreso-por-parte-sanchez_7046199_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-10-08T05:00:00+02:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/07/6ac66c2b0ae2f0-64501162.jpeg"
+   },
+   {
     "titulo": "Sánchez empezó a diseñar el carné de conducir digital para votar recién llegado a La Moncloa",
     "enlace": "https://www.eldebate.com/espana/20261008/sanchez-empezo-disenar-carne-conducir-digital-votar-recien-llegado-moncloa_467298.html",
     "fuente": "El Debate",
@@ -136,13 +143,6 @@
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/06/E900B56E-C321-4466-AE56-9D479B971492/96.jpg?crop=4739,2666,x0,y280&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
-    "titulo": "Pedro Sánchez, ante la muerte de Maricarmen: “Un abrazo a los que sentimos esta pérdida como propia”",
-    "enlace": "https://www.lavanguardia.com/vida/20261007/11653731/pedro-sanchez-muerte-maricarmen-abrazo-sentimos-perdida-propia.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-07T23:37:50+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac5356829667.r_d.3371-4072-0.jpeg"
-   },
-   {
     "titulo": "Los agujeros de Sánchez en las listas del PSOE: quién es su pareja por Madrid, qué papel juega Cuerpo y la renuncia de los ministros candidatos",
     "enlace": "https://www.elmundo.es/espana/2026/10/08/6ac654dbe85ece78768b45bb.html",
     "fuente": "El Mundo",
@@ -150,18 +150,32 @@
     "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/07/17913949581050.jpg"
    },
    {
-    "titulo": "\"Podría haber empate de PP y PSOE en 28 provincias\": Iván Redondo analiza el mapa electoral de cara al 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNcjNtaW1kZWRfNW1GWllnWE8zenNPcjBYaThpWVhVOHAtV1YxQ191M18yY2xBbnprOWY2SnBTcFNBendjRG1GNFhDdVV5ZDRwMElENUtFZ1ZGcmp4X2xOUWRBMDBXei1seEJJWlg4RGJIVTZ3V1pFQXpSd0ZtWnZFcFEyRGlsXzZOLVVIYU9GaUU2WnRuUDkycHpacjFfMEYycXM4XzNMMjczbldpeWlIMndkeFQyaTZoVlo4dlZOelpEV3ZSVEVIQ19VeEZUYk9lek1SMmJQcW4zSDFFcGhfaldQM1NZMWFIcTRxOU1QaEVfZ9IB8gFBVV95cUxNbG1kbTh3MlNjUTVRVGlrRVZIVGtWdjViWkpMRjB3QWRvLTMwZTBRdTF5YkJQeVlyVmxnVlFZYUk0Xy0yYXBQMkJEWDROX2hpeUlmVFlKdFNOYzhJTWEzSFBGUHJyb1p5UWlwUXRQS3VoQ3hkZUpUWXM3M3lCbjN6RmRBMXZ0UjJObzNmWHc3WEI4YTZvNWl5U1U5eHVGUjVZcFlrUUUyeU1BbVJOSjhNelJ0QUNDQWg5NjJsYy1ySWdDelVpNmJKdGR0bnNWUWRScEFpTzVHUDAtVWRKR01KVHYzcDdVNjhqUDJZaW4xLXluUQ?oc=5",
-    "fuente": "Antena 3",
-    "fecha": "2026-10-07T21:56:33+00:00"
+    "titulo": "Sánchez traslada su pésame por la muerte de Maricarmen: \"Sentimos esta pérdida como propia\"",
+    "enlace": "https://www.lasexta.com/noticias/nacional/sanchez-traslada-pesame-muerte-maricarmen-sentimos-esta-perdida-como-propia_202610076ac6a48169377819d169397e.html",
+    "fuente": "laSexta",
+    "fecha": "2026-10-07T22:09:55+02:00",
+    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/10/07/43B8195A-F532-4868-943F-D7697563FBD2/imagen-archivo-pedro-sanchez_96.jpg?crop=1920,1080,x0,y99&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    }
   ],
   "Vox": [
    {
+    "titulo": "Tellado, Muñoz y Ezcurra: el tridente del PP para cubrir el flanco derecho y evitar una fuga de votos a Vox",
+    "enlace": "https://www.larazon.es/espana/tellado-munoz-ezcurra-tridente-cubrir-flanco-derecho-evitar-fuga-votos-vox_202610086ac6c4ce48d2d008d0c932a2.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-08T05:00:13+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/08/9F759D95-EFBC-43E2-887A-3ABA83B3F65C/noticia-dia-7-10-26_96.jpg?crop=1900,1069,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Moncloa ordena impulsar mediáticamente a Alvise para torpedear el 20% de Vox en las encuestas",
+    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUjRQOTF4QVg5U2dIOS11UjVJVjJySXNKYkVzQWxjLV9XN2I4QzVXWmdEeU96YU9lYjdjZkpzdGtpbXFDYVdHWUlnVUk0elI3czAyUTI4Q0FyeVphSi1mWGdxQmVxRzVMeVFDSXlobFJsS3EzSm5yeXB6bldRalp1OUE3dkxhSDlaNS03VzVVUmRhUjhteGpXWURoRGFPU0ZxNU9mak9YdU5fX0FRYll1ZUhmSVp4QzBlQ2M2dVpKYkR5dFZTWlhlck8tWmtoUzlkYWlWVkRn0gHbAUFVX3lxTFBMWlktVGpJSy1fSlZNTEZrVVktZmQyR1JaakVkR294TmxOdnloSk83VDN2eDU2Vi1RclNDN1R4MGJyRGVxVzlDRTJ3T3c0Ui13NkVFamxfRkFxTEJXSXBIY1NJblZLUVhudC1MOE1WVnZnTU5PUVZwd3F6S2Fvc3BIc3VESlFwRWkzTkMwWnNTVXUwNG1zWHRETDRBMnpLZ1FOWlRMOVdVYnBaUXhuOW1SNk5LSlBWeEhScnFyQTc4NDhzNFAxZXVlMGFUdWJ2T2p2UE9BLU1EQnRkaw?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-10-08T02:45:00+00:00"
+   },
+   {
     "titulo": "El adelanto electoral refuerza el bloque de PP, Vox y Junts",
     "enlace": "https://www.larazon.es/espana/adelanto-electoral-refuerza-bloque-vox-junts_202610086ac69166b0108820e09b13b5.html",
     "fuente": "La Razón",
-    "fecha": "2026-10-08T03:00:18+02:00",
+    "fecha": "2026-10-08T01:00:18+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/07/91A324CF-D46E-4323-8611-C90A46933376/encuesta-electoral-7-octubre_96.jpg?crop=1899,1068,x3,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
@@ -182,22 +196,16 @@
     "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeVlFR2Z3LWdINlVHTlF6MGZYSUF2c2VBeGphSmVmMDJ4ZWk1M2ZsMlI3bVhKS1d0Z182eHpMWlVHeDZ0VlJZWXh5eVNZdHFkQWplQ2RUaHVYRUFXREdWXzk4MlZwLXozVVRaTllkS0M0TmhwRXA5Q2lBRUxKN0FWdDhQZ3h3cjJOLTNtNVJFNW83Y3NTazBzc3JwS1RRcy0zdTBPV0JrMFNlQURkdnYxcTF2cEV4VkRTSXRpRdIBwgFBVV95cUxQOUN4VmxhaGt2WlJQUDdGT2MwcUJjNkdXVEZIUmJUR2N6ektiZk1xVGprQzVnM3dNbjJ5RldkUE5obUxDV1J1QS1hR210cWRrcjVxX1JYby1nRk0tME5ZS3ZQSmNWd1B4X1pxTHhzblVWcktlTGdFcEJVRTI1Rk04OVRwQ01ncUg1NV96M3ZST2dtSm9uSElrakwwem5EcWRpSmJ3T0xSeVd1SjZ3UlRGcUtZS3RIU2tNUmlqOHBMaHhvdw?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-07T20:14:49+00:00"
-   },
-   {
-    "titulo": "El Supremo irrumpe en el 29N al alterar a petición de Vox un censo electoral cerrado hace dos meses",
-    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdmxncGpVQWxldHZoOEE4UklWSlhhRzh2N1Bad3d3b013TEU2R0tRZTZJdjYxb1o4RTFNdExJN2ZwTjQ4U0F1UVlGUWZJdlJPQWl2Vlowc19EakJQQ0dCb0NjclNUZmRCQ09HMms5QlBtWTdMblQ3ZTVqWjEybm9YQzYwSXd0TERhRG16RFlkcHJuSDdrU2pCOEdRbzZqdlpXYlR5djVtZ1Ryc0tfX0xjMlRrT2U4RFNmMjZuVQ?oc=5",
-    "fuente": "infoLibre",
-    "fecha": "2026-10-07T19:42:31+00:00"
-   },
-   {
-    "titulo": "Sánchez traslada su pésame por la muerte de Maricarmen Abascal: \"Sentimos esta pérdida como propia\"",
-    "enlace": "https://www.europapress.es/nacional/noticia-sanchez-traslada-pesame-muerte-maricarmen-abascal-sentimos-perdida-propia-20261007212150.html",
-    "fuente": "Europa Press",
-    "fecha": "2026-10-07T19:21:50+00:00",
-    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261007212150_120.jpg"
    }
   ],
   "Sumar": [
+   {
+    "titulo": "El reparto de poder entre Más Madrid y Colau solivianta al resto de Frente Amplio, mientras Podemos insiste en ir a primarias",
+    "enlace": "https://www.20minutos.es/nacional/reparto-poder-entre-mas-madrid-colau-solivianta-resto-frente-amplio-mientras-podemos-insiste-ir-primarias_7046217_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-10-08T05:00:00+02:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/05/6ac3c353d0d827-19531356.jpeg"
+   },
    {
     "titulo": "Yolanda Díaz mueve ficha para subir el salario mínimo para antes del 29-N",
     "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSVNIcWxXMVBXN0xiTk5YNExVR3NtYU5pWE04RkRqZDhBU041ZVF1VlNGX2YzNzNjNmZTSlVrUWFURW16c2wtWVFNUng5dkVIeVlHMXNLRXFlNUhCN2pONUtlaGtLaVhPcWJ4bVdxemxwbWFUZWZGM0h4QjRXbi1VY0JlalY0UkFYZTFtRGtjV25JeHhPLXFpWF8zcEFBY3h1TDEzMzdzSk1lalRSMC1CclF6eXgwdTExZXVNaGVrdmVWdC1PSzJWbWw3TnY3aDhlUkQyMFY5LVd2T05hdVZIbmRRWW8wbzTSAewBQVVfeXFMTnZzQVY1RTBRak9maVZVODhMWVpyTVdlb0dxbm1rc2xmdnM5cE81SHQzaFRtZm9VbUg3UXRJLUdqazY0NDliaFFSX0MzSlF5Y20weDBKcmRMV05wZjRNS0dEeGdlUTdOS2xDZER6UW1VamVSQ0FHMXlWVVFXdkRQc29oUWlzQkRlYnNGMnJKZ3E1Z2o1VGFnVjFKSVlPQ0Foa3RpMHJzNmRIMWFLVEU4eHNnTW5JUGZHTkZUUmlqMXgxTExfanV0bUlDSmNKUWZVOE1ySnJoVnVDZW1xd1hsX2h0enBOVUdJY1BJaEs?oc=5",
@@ -228,29 +236,22 @@
     "enlace": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcFdPOURCUGxrdmNJY0tfb1lMNjluX3RPVVlzRmFpRG0zaG0yTlpVa3lWM005RDBrRE9venVYemQ2dnpYUVVXV09MVjlYUjNHaW9QTmlHZ282SXR2R3hMSnppX0lCaUJENE9oOWEzZ0xNS0VocGlsa0g1QzZ6dHlFctIBgAFBVV95cUxQcVlDZEsyODlUeUUzYmRabW40bWpnQmx6TUVMZGluM3ZONnpwYnRLMkNLel9QUUppWnZfZXc4cGVRLURqVjByNVBnUWN5SUtTZ3VZLVk4SlVvUnBVQjdJU0RDajBjcGkxc2VkWW5KeTg1S1d2LWJuTjd2WVZzYkg2Xw?oc=5",
     "fuente": "Expansión",
     "fecha": "2026-10-07T18:02:50+00:00"
-   },
-   {
-    "titulo": "Izquierda Unida critica la propuesta de Más Madrid con Ada Colau: «Debe formar parte de un acuerdo global»",
-    "enlace": "https://www.eldebate.com/espana/20261007/izquierda-unida-critica-propuesta-madrid-ada-colau-debe-formar-parte-acuerdo-global_467326.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-07T17:57:18+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/07/6ac66ba35a3f1.r_d.1762-400-0.jpeg"
    }
   ],
   "Podemos": [
+   {
+    "titulo": "El reparto de poder entre Más Madrid y Colau solivianta al resto de Frente Amplio, mientras Podemos insiste en ir a primarias",
+    "enlace": "https://www.20minutos.es/nacional/reparto-poder-entre-mas-madrid-colau-solivianta-resto-frente-amplio-mientras-podemos-insiste-ir-primarias_7046217_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-10-08T05:00:00+02:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/05/6ac3c353d0d827-19531356.jpeg"
+   },
    {
     "titulo": "Reacciones políticas a la muerte de Maricarmen: del \"hijos de puta\" de Rufián al \"la han matado\" de Irene Montero",
     "enlace": "https://www.larazon.es/espana/reacciones-politicas-muerte-maricarmen-hijos-puta-rufian-encendio-mecha-que-apagar-monica-garcia_202610076ac69448b0108820e09b15f2.html",
     "fuente": "La Razón",
     "fecha": "2026-10-07T20:49:44+02:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/07/F7BAEE0E-DAA1-464E-81CB-BDFC9698FF80/96.jpg?crop=4000,2250,x0,y208&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Gabriel Rufián e Irene Montero muestran su indignación por la muerte de Maricarmen",
-    "enlace": "https://www.20minutos.es/nacional/que-hijos-puta-tuit-gabriel-rufian-poco-despues-conocerse-muerte-maricarmen_7046277_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-10-07T20:46:01+02:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/07/6ac6925171a131-53317698.jpeg"
    },
    {
     "titulo": "Ione Belarra y Pablo Fernández reivindican las primarias para escoger candidato: \"¿Por qué tenemos miedo a que la gente decida?\"",
@@ -280,6 +281,12 @@
    }
   ],
   "SALF": [
+   {
+    "titulo": "Moncloa ordena impulsar mediáticamente a Alvise para torpedear el 20% de Vox en las encuestas",
+    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUjRQOTF4QVg5U2dIOS11UjVJVjJySXNKYkVzQWxjLV9XN2I4QzVXWmdEeU96YU9lYjdjZkpzdGtpbXFDYVdHWUlnVUk0elI3czAyUTI4Q0FyeVphSi1mWGdxQmVxRzVMeVFDSXlobFJsS3EzSm5yeXB6bldRalp1OUE3dkxhSDlaNS03VzVVUmRhUjhteGpXWURoRGFPU0ZxNU9mak9YdU5fX0FRYll1ZUhmSVp4QzBlQ2M2dVpKYkR5dFZTWlhlck8tWmtoUzlkYWlWVkRn0gHbAUFVX3lxTFBMWlktVGpJSy1fSlZNTEZrVVktZmQyR1JaakVkR294TmxOdnloSk83VDN2eDU2Vi1RclNDN1R4MGJyRGVxVzlDRTJ3T3c0Ui13NkVFamxfRkFxTEJXSXBIY1NJblZLUVhudC1MOE1WVnZnTU5PUVZwd3F6S2Fvc3BIc3VESlFwRWkzTkMwWnNTVXUwNG1zWHRETDRBMnpLZ1FOWlRMOVdVYnBaUXhuOW1SNk5LSlBWeEhScnFyQTc4NDhzNFAxZXVlMGFUdWJ2T2p2UE9BLU1EQnRkaw?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-10-08T02:45:00+00:00"
+   },
    {
     "titulo": "Artículos etiquetados con Se Acabó la Fiesta (SALF)·Maldita.es - Periodismo para que no te la cuelen",
     "enlace": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ERnp2U21NSk5KRUl1d0JHa3c0V3phQ1F5NGhaNVg1bDNfejFQNWd4WGVWZjhvOXBycm9URUNvckg0bGdvOUl6R3NzeHdNZDc4TzVNZkJVZkQ?oc=5",
@@ -313,6 +320,13 @@
   ],
   "ERC": [
    {
+    "titulo": "Junqueras da poder de veto a Rufián para rehacer en el Congreso a su medida un grupo que está destrozado",
+    "enlace": "https://www.elconfidencial.com/espana/cataluna/2026-10-08/junqueras-poder-veto-rufian-rehacer-congreso-grupo_4440623/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-08T05:00:00+02:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/f3a/0ab/f3a0ab262f5fea795744957c84b24181/gabriel-rufian-durante-la-votacion-en-el-congreso-de-los-decretos-de-la-vivienda-solo-tengo-ganas-de-llorar-salgan-a-la-calle-a-descojonarse-de-esto.jpg?mtime=1790938484"
+   },
+   {
     "titulo": "Reacciones políticas a la muerte de Maricarmen: del \"hijos de puta\" de Rufián al \"la han matado\" de Irene Montero",
     "enlace": "https://www.larazon.es/espana/reacciones-politicas-muerte-maricarmen-hijos-puta-rufian-encendio-mecha-que-apagar-monica-garcia_202610076ac69448b0108820e09b15f2.html",
     "fuente": "La Razón",
@@ -325,13 +339,6 @@
     "fuente": "laSexta",
     "fecha": "2026-10-07T20:47:54+02:00",
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/10/07/251F5D17-7068-4F55-AD06-BF205398EE0F/imagen-archivo-gabriel-rufian_96.jpg?crop=1920,1080,x0,y40&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Gabriel Rufián e Irene Montero muestran su indignación por la muerte de Maricarmen",
-    "enlace": "https://www.20minutos.es/nacional/que-hijos-puta-tuit-gabriel-rufian-poco-despues-conocerse-muerte-maricarmen_7046277_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-10-07T20:46:01+02:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/07/6ac6925171a131-53317698.jpeg"
    },
    {
     "titulo": "¿Será Gabriel Rufián candidato en las elecciones del 29-N?",
@@ -354,6 +361,13 @@
   ],
   "Junts": [
    {
+    "titulo": "Junts afronta un duro golpe electoral pero cierra filas con Puigdemont por no venir a España antes del 29-N",
+    "enlace": "https://www.elconfidencial.com/espana/cataluna/2026-10-08/junts-crisis-electoral-cerrando-filas-puigdemont_4440529/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-08T05:00:00+02:00",
+    "imagen": "https://images.ecestaticos.com/j-irSTu9gw4XeAkjVV8PIGmx8sU=/77x52:2202x1450/1338x880/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F75e%2F107%2F94c%2F75e10794c0d4f06cab94fe424250100d.jpg"
+   },
+   {
     "titulo": "El adelanto electoral refuerza el bloque de PP, Vox y Junts",
     "enlace": "https://www.larazon.es/espana/adelanto-electoral-refuerza-bloque-vox-junts_202610086ac69166b0108820e09b13b5.html",
     "fuente": "La Razón",
@@ -373,23 +387,17 @@
     "fecha": "2026-10-07T20:50:57+00:00"
    },
    {
-    "titulo": "Puigdemont traslada su oficina de expresidente a la zona alta de Barcelona",
-    "enlace": "https://www.lavanguardia.com/politica/20261007/11653666/puigdemont-traslada-oficina-expresidente-zona-alta-barcelona.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-07T19:51:15+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac542840121e.r_d.3273-1733-816.jpeg"
+    "titulo": "Puigdemont traslada su oficina de expresidente a un inmueble en la zona alta de Barcelona",
+    "enlace": "https://www.lasexta.com/noticias/nacional/puigdemont-traslada-oficina-expresidente-inmueble-zona-alta-barcelona_202610076ac6908648d2d008d0c91809.html",
+    "fuente": "laSexta",
+    "fecha": "2026-10-07T20:35:14+02:00",
+    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/10/07/3DA20140-E5AA-4850-A281-E02EB0692F1D/imagen-archivo-carles-puigdemont_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "Puigdemont en campaña para las españolas, sí o sí",
     "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1POHZsVHh0US1DVHlFblNwWjgxV1g5NGJCM1dkSHhDSnAwTDcwSjBZcXFMZVA4RWFCLTFZVndUWTV4aEptSzBmd3h2a3ljUXptTjBMS2V3NTJ2R3pkQ0FPd1R0WU13akdPeDZzSGhkU0ZULTlyMjZhUXJ30gF_QVVfeXFMT1hwcU53MGxqQXFSWWd6aGZfQ2RMbUNpZmpPMGtEYU5DTXFabDMzcmdXSzBfSTV5RkFTZTdVVVNqMjdsR1hOSl9OQ1JPWmdsQ19vdjcwemMtSXNLMm9objdfbTdFNk9HcGJXSDM3WmszWXRSOFFUQlZNdXJ2dDFmQQ?oc=5",
     "fuente": "Diari ARA",
     "fecha": "2026-10-07T19:12:19+00:00"
-   },
-   {
-    "titulo": "Comín y Puig volverán a Catalunya sin esperar a Puigdemont para reservarle un \"regreso institucional\"",
-    "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSWI5QkQzS0gzZmZ5UTNtM0M3YTdpMS1PWnJvcGJJRmNnTlZpNS1ma2VhV1ZXbzhLaGE4X3h3WVlObjFDT2tHb3ZBWVE2bzBQYzJUa194NXRHazgzMmJaNFB5NjlvdEFHa1diTG1mbnJSNkVGb01GcVRDUVJsOG10RjJfSUwzUHhjNzBLdUNtaVhYOEI4MnZDUmJtdjTSAZwBQVVfeXFMTWxQUUtVaW5fcXlDTlk1U1JBM3BPMmhNUlItOEJaa3BsUFozTE9GZ3dFRW5ONmJNWmtfM1RoQ1VDNWtxU3ZydjA3YnBDelBXR2VnTW1BRWNWOG9KRnFMN0NPNVVZNFFhdzB1TkNrUTlFZ1lmTWJsUHBXSDVYMThPbUFzaFNGbGlPY0JzM2p6TS12M1pzSmV4WGgta0lS?oc=5",
-    "fuente": "El Periódico",
-    "fecha": "2026-10-07T18:00:58+00:00"
    }
   ],
   "Bildu": [
@@ -510,7 +518,7 @@
   "CCa": [
    {
     "titulo": "CC Gran Canaria abre el diálogo con fuerzas nacionalistas para las elecciones del 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcVYtaElneEhJQlJKenQ1QkVvbEo1aS1YTWxuN2dDYmtFZ245ZEttczZHZUpVOHdmQWxmZ3RTM3lsTXU1X0xPR2pXS0lFV0I0MERIT3pFR1dXU2tTM0E4QjVZMEdEamFYUVc1SF9zNXV2RkFrdkRyZ1MycnlmSUxsN1ZHdkE1SFJNcGhCUHdsUk5hbGs3ckQzYXBMbnJmMkc2SkFJVmlsREdGTVByRWdpM0I3NHd1Zk5YaWF3NQ?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ2hjR0JzTEQ3NkFsVEF2Y0tlUGd5SXhIeFpIYnNIdXVzYWw4WFl1ZVdJYkIyTTdVVVpDU2xNQk12Rm9pYk10V3VRNXg4U3J0dmdPbHgzQXlVQTVWQ2RqQ3pGREQxUk5iR0xCVElJY2xjN01DLTFrWFZtam1MekhMTFNoeVMxZFRNSXcwT040YmREQmtXSUFqNy1Sc3Fza25HRzF0bDJ4RnpFM2pjX0VDMlBmQjA2ekU?oc=5",
     "fuente": "Atlántico Hoy",
     "fecha": "2026-10-07T18:41:00+00:00"
    },
