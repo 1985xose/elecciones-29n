@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-08T02:02:04+00:00",
+ "actualizado": "2026-10-08T02:42:41+00:00",
  "generales": [
+  {
+   "titulo": "El PP acusa al Gobierno de «electoralismo» al no llevar aún los decretos de vivienda a la Diputación Permanente",
+   "enlace": "https://www.eldebate.com/espana/20261008/pp-acusa-gobierno-electoralismo-no-llevar-aun-decretos-vivienda-diputacion-permanente_467247.html",
+   "fuente": "El Debate",
+   "fecha": "2026-10-08T04:30:00+02:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2025/12/06/6934625291b78.r_d.3013-1364-0.jpeg"
+  },
   {
    "titulo": "El adelanto electoral refuerza el bloque de PP, Vox y Junts",
    "enlace": "https://www.larazon.es/espana/adelanto-electoral-refuerza-bloque-vox-junts_202610086ac69166b0108820e09b13b5.html",
@@ -14,13 +21,6 @@
    "fuente": "ABC",
    "fecha": "2026-10-08T02:29:30+02:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/07/1518435917-U20609936686z6H-R07PO3088IATlk6pTUlez3N-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "Los agujeros de Sánchez en las listas del PSOE: quién es su pareja por Madrid, qué papel juega Cuerpo y la renuncia de los ministros candidatos",
-   "enlace": "https://www.elmundo.es/espana/2026/10/08/6ac654dbe85ece78768b45bb.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-10-08T01:19:06+02:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/07/17913949581050.jpg"
   },
   {
    "titulo": "Feijóo traslada el pésame a la familia de Maricarmen y pide no hacer \"campaña\" con su muerte",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "El adelanto electoral refuerza el bloque de PP, Vox y Junts",
-    "enlace": "https://www.larazon.es/espana/adelanto-electoral-refuerza-bloque-vox-junts_202610086ac69166b0108820e09b13b5.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-08T03:00:18+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/07/91A324CF-D46E-4323-8611-C90A46933376/encuesta-electoral-7-octubre_96.jpg?crop=1899,1068,x3,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "El PP acusa al Gobierno de «electoralismo» al no llevar aún los decretos de vivienda a la Diputación Permanente",
+    "enlace": "https://www.eldebate.com/espana/20261008/pp-acusa-gobierno-electoralismo-no-llevar-aun-decretos-vivienda-diputacion-permanente_467247.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-08T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2025/12/06/6934625291b78.r_d.3013-1364-0.jpeg"
    },
    {
     "titulo": "Feijóo traslada el pésame a la familia de Maricarmen y pide no hacer \"campaña\" con su muerte",
@@ -116,11 +116,17 @@
   ],
   "PSOE": [
    {
-    "titulo": "Baleares estudia recurrir el decreto de Sánchez que le obliga a pagar la deuda del inquilino con el propietario",
-    "enlace": "https://okdiario.com/baleares/baleares-estudia-recurrir-decreto-sanchez-que-obliga-pagar-deuda-del-inquilino-propietario-20506741",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-08T04:00:45+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/07/baleares-recurrir-decreto-sanchez-interior.jpg"
+    "titulo": "Sánchez empezó a diseñar el carné de conducir digital para votar recién llegado a La Moncloa",
+    "enlace": "https://www.eldebate.com/espana/20261008/sanchez-empezo-disenar-carne-conducir-digital-votar-recien-llegado-moncloa_467298.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-08T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/07/6ac662ac41b0a.r_d.1059-540-0.jpeg"
+   },
+   {
+    "titulo": "¿Qué partido ganó las últimas elecciones generales en Asturias: PSOE o PP? El mapa regional de las votaciones de 2023",
+    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaGpfWlFPTGdKaWRLcmVJZTE2dEpNVU9POEE4ZGFnRE4xekR2S1Vudmg5bDQ3S3BSWEtCY1pfb1U1R0VGVVNqU1VFWFJJV2FCMFZ4b2U2QVVYT0cyeWlLNmM0Y25WSktqbC1QYkdYNXZzNTU3R2xVc2lNMjhvOG1tbUJFejlWSnV1OEVGYXNuUWtZdXQ0MzFQR1pkc9IBoAFBVV95cUxQbU5BNllCWmVjTFZYdE1rSVFRQktMdkJZdmg3QkQ0aGxMWVZUdWptdmVfVk5DdnY5YUdjdGVUczVNbHhzUVpRSXdqRTBjU2ZYOTNmX3U5emlBd1k4QzBZb0Uya3E4SUxYallsdGZ3aDRhQXNWOS05N21nWi1CeUJDamlvQkJwT20xazJsbHdsaDRsMWZJZk1waFhoOUxtOE4z?oc=5",
+    "fuente": "La Nueva España",
+    "fecha": "2026-10-08T02:01:05+00:00"
    },
    {
     "titulo": "La \"ingeniería electoral\" de Moncloa: Pedro Sánchez lanza una opa a la izquierda vía decretos",
@@ -148,12 +154,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNcjNtaW1kZWRfNW1GWllnWE8zenNPcjBYaThpWVhVOHAtV1YxQ191M18yY2xBbnprOWY2SnBTcFNBendjRG1GNFhDdVV5ZDRwMElENUtFZ1ZGcmp4X2xOUWRBMDBXei1seEJJWlg4RGJIVTZ3V1pFQXpSd0ZtWnZFcFEyRGlsXzZOLVVIYU9GaUU2WnRuUDkycHpacjFfMEYycXM4XzNMMjczbldpeWlIMndkeFQyaTZoVlo4dlZOelpEV3ZSVEVIQ19VeEZUYk9lek1SMmJQcW4zSDFFcGhfaldQM1NZMWFIcTRxOU1QaEVfZ9IB8gFBVV95cUxNbG1kbTh3MlNjUTVRVGlrRVZIVGtWdjViWkpMRjB3QWRvLTMwZTBRdTF5YkJQeVlyVmxnVlFZYUk0Xy0yYXBQMkJEWDROX2hpeUlmVFlKdFNOYzhJTWEzSFBGUHJyb1p5UWlwUXRQS3VoQ3hkZUpUWXM3M3lCbjN6RmRBMXZ0UjJObzNmWHc3WEI4YTZvNWl5U1U5eHVGUjVZcFlrUUUyeU1BbVJOSjhNelJ0QUNDQWg5NjJsYy1ySWdDelVpNmJKdGR0bnNWUWRScEFpTzVHUDAtVWRKR01KVHYzcDdVNjhqUDJZaW4xLXluUQ?oc=5",
     "fuente": "Antena 3",
     "fecha": "2026-10-07T21:56:33+00:00"
-   },
-   {
-    "titulo": "\"No creo que sea esa su intención\": Vicente Vallés, sobre qué hará Pedro Sánchez si pierde las elecciones",
-    "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUUlpYTlmNGxoUkFwWENZZXhyMlNEUkFlMWk3cFVlTXBXMmR0dzZtdzctUTUtNkRYQUhsUXozUUF1VUptNERIMEp3ejAtenJhTHU3UEVIVEk3Y19PVS1fNjRTTVFaRGpJYzROYk9uRWdtOTFEMHZTN1NXek95QWcyUlUxNW15djVNSF9QSnBFa204YVRLUVNGVXdldndKR0dhemV3NUl1UGFQZktxQW1ONkZWcFlIUmlka3hueHNtNDdNQ092NFNfdU5mWlMtY0FMZGEzWjlyV2xlSF9Xb1FXNTFOODB6YU5EeE91cWZoWUjSAfABQVVfeXFMT3ZjYVJXU1BFclNuRzl1ZnlNekJTZjdaNjRKT2d3aTJoWDl1YjZFX3ZCYXA1RWg5VnQ2T19zQ1d5SEtwVGRWREI3ZWh2YTVhOXVtZEN6V1RFRENaVXBmbmZKckNtRENLbkJ3WHhwamwyS0plaUNUQ3Fla2QweGxQa1NINVU5MGtBMnpDYlRwcWFOMHdjY21RekN5M3F1akFReDBXWkJVR0gzQ3RiUW0tS3VPX0RHdi10QmNqbXFZa2VfWXVCdDdaSnZuNmhUQkRhT0IyR0NJOFJqZW1TN2Z3TzlMNDFKWVZhMFNoODFJY1ht?oc=5",
-    "fuente": "Antena 3",
-    "fecha": "2026-10-07T21:43:30+00:00"
    }
   ],
   "Vox": [
@@ -451,13 +451,6 @@
     "fecha": "2026-10-07T15:20:04+00:00"
    },
    {
-    "titulo": "El PNV vuelve a proponer a Maribel Vaquero como candidata al Congreso",
-    "enlace": "https://www.eldebate.com/espana/20261007/pnv-vuelve-proponer-maribel-vaquero-como-candidata-congreso_467197.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-07T14:22:14+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/06/24/6a3ba6c316208.r_d.2311-1218-0.jpeg"
-   },
-   {
     "titulo": "Las caras nuevas del PNV en el Congreso de Madrid",
     "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdmN0S0dJNnViaWFPZWRwNHZ6UmVZcWdpWEduUV9hb2d0UDZNSFlIUFRhbHN5ek1sdkc0bVNTYURGVGhQTVZ4cUh5RFlXcmxmZDJ3UFJqUFNuc3FZbjVHZUlfbGdLZkg2Zkphd2dmTE9EZU1oenowOEZOVFRjbHZmcjF4aF9ZRFBmUEZiOVJCVFBoN0JiOHc?oc=5",
     "fuente": "BilbaoHiria",
@@ -468,6 +461,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaF9Ud0NoRDE0c2ZpQ2VNUkdsZTduQnBvaVRWTmxJNlZra1lsSVQ2SkxGRXFvRnBLVDA2eEpMcl9yVVdkVHVZaHI3QmhjNWlRNDJralhZaExPVmNSVDdCUVZKU1FueTNVcDN1VW9SRGkyRnowNTdOZ3lSQnJ2dVBfcnJaRG5lUHFIOGpOeS1kVXZKQkYwZGc?oc=5",
     "fuente": "GasteizBerri.com",
     "fecha": "2026-10-07T13:27:23+00:00"
+   },
+   {
+    "titulo": "El 90 aniversario del primer Gobierno vasco entra en clave electoral: PNV, PSE y EH Bildu reivindican su legado mirando al 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPUzdydDN3Z3Y0QVlrVkpQdlMwM3p2dFBnY3cyWGZkNEVWVVgyMjBFTFZzRUtyMm1qajRFcllWZ0JTNVR2NjF1cy1jcHdNWnZVMUhES0YxQTN4WXdocTV5ZmNrUnVXYlI0QWVZTEI2SnJqa0UwZXJsa2N3RFpGYUoxdlY0T1RIOEotMEVFcUItOUpvVTBFZW5SZzRlZmFMblFNT09mY1k5OWh6MTMxVGptRHg5eWJzdDBxNDNzTVpDcEVRREpnQWxwWE1HNVVwZk05WGR3S0dxMWNxMUlZZXBmWlNQd1R5Tkd1ejZkNGU2MlJMd1BrNDFPRkZOS09jT24zbmJIeFdyZWxMZGszU3c5TUZhaGZNREtuVko4RTNaNmzSAaACQVVfeXFMT1M3cnQzd2d2NEFZa1ZKUHZTMDN6dnRQZ2N3MlhmZDRFVlVYMjIwRUxWc0VLcjJtamo0RXJZVmdCUzVUdjYxdXMtY3B3TVp2VTFIREtGMUEzeFl3aHE1eWZja1J1V2JSNEFlWUxCNkpyamtFMGVybGtjd0RaRmFKMXZWNE9USDhKLTBFRXFCLTlKb1UwRWVuUmc0ZWZhTG5RTU9PZmNZOTloejEzMVRqbUR4OXlic3QwcTQzc01aQ3BFUURKZ0FscFhNRzVVcGZNOVhkd0tHcTFjcTFJWWVwZlpTUHdUeU5HdXo2ZDRlNjJSTHdQazQxT0ZGTktPY09uM25iSHhXcmVsTGRrM1N3OU1GYWhmTURLblZKOEUzWjZs?oc=5",
+    "fuente": "Cadena SER",
+    "fecha": "2026-10-07T12:02:06+00:00"
    }
   ],
   "BNG": [
@@ -828,7 +827,7 @@
  "polemicas": [
   {
    "titulo": "Víctor de Aldama: “El PSOE va a ser imputado por financiación ilegal”",
-   "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMHk2aFRXenFicmpXdnNpdjlnRmZaSW01c2ZfbHIwRnlYbDd3RUxLZDZtbjg3Zk92eHdWa1FXRVZrT3QwYWplRTNTaS1peThwRFA1Uk9YeGFwRVpMaEhMZmY2VnNyWVNSbUNTTk1ZMFU2OHVDUk5yS0hNYkRHVGhOTW5FejN1Z2gzRzhRZzdvOWpBTkh3cTZmWDQxMjF2QXVTQWhIM0lWLUVxOW5aczAyWlFZWTg5U2paeGtJZjdpSEpORDlNREpCblpiOUUtTVZGRnpJbEhJQlRoaDk5U1U4MTdfVk4tRHhWQWZfT0FESFl3WlYxQ0VLazlkS0gtTzNoakHSAYICQVVfeXFMTjB5NmhUV3pxYnJqV3ZzaXY5Z0ZmWkltNXNmX2xyMEZ5WGw3d0VMS2Q2bW44N2ZPdnh3VmtRV0VWa090MGFqZUUzU2ktaXk4cERQNVJPWHhhcEVaTGhITGZmNlZzcllTUm1DU05NWTBVNjh1Q1JOcktITWJER1RoTk1uRXozdWdoM0c4UWc3bzlqQU5Id3E2Zlg0MTIxdkF1U0FoSDNJVi1FcTluWnMwMlpRWVk4OVNqWnhrSWY3aUhKTkQ5TURKQm5aYjlFLU1WRkZ6SWxISUJUaGg5OVNVODE3X1ZOLUR4VkFmX09BREhZd1pWMUNFS2s5ZEtILU8zaGpB?oc=5",
+   "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTUFLTkZhTHFaSmhaRjNmT1REb0o2ZmZWUzhCVXNkSjlNYkJkcjh5dnREc2s0NzlmTjhaV05qUFRDekk2NlVHM3VsNzItM3hXeUl3YWNGdmtTejdwRF9zdEY2d25FdW9Sb3BtQ2ZBaG4teXFuZmZQNWFCNkZuaWFsZXVTVWZndXJ5bW83VVM0VW5TTnMzVW9xdkFiaXlJVmtGdE1mRzBvdTVCLWlreDNXall3VmQ2ZWh5YzFUblhCdzJQcEEwa1BnN1ZqN0t1amN1MlM3a0lrbXlJbnJaS0tnNlZWRTlTRS1vV3ZoOHRHSEpZSnNsc3lWRnNaWFPSAYICQVVfeXFMTjB5NmhUV3pxYnJqV3ZzaXY5Z0ZmWkltNXNmX2xyMEZ5WGw3d0VMS2Q2bW44N2ZPdnh3VmtRV0VWa090MGFqZUUzU2ktaXk4cERQNVJPWHhhcEVaTGhITGZmNlZzcllTUm1DU05NWTBVNjh1Q1JOcktITWJER1RoTk1uRXozdWdoM0c4UWc3bzlqQU5Id3E2Zlg0MTIxdkF1U0FoSDNJVi1FcTluWnMwMlpRWVk4OVNqWnhrSWY3aUhKTkQ5TURKQm5aYjlFLU1WRkZ6SWxISUJUaGg5OVNVODE3X1ZOLUR4VkFmX09BREhZd1pWMUNFS2s5ZEtILU8zaGpB?oc=5",
    "fuente": "Telemadrid",
    "fecha": "2026-10-07T21:37:15+00:00",
    "partido": "PSOE"
