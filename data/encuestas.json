@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-08T06:01:20+00:00",
+ "actualizado": "2026-10-08T07:01:19+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1379000951,
+ "revision": 1379152624,
  "partidos": [
   "PP",
   "PSOE",
@@ -20,6 +20,46 @@
   "AC"
  ],
  "encuestas": [
+  {
+   "empresa": "NC Report/La Razón",
+   "inicio": "2026-10-01",
+   "fin": "2026-10-06",
+   "muestra": 1000,
+   "participacion": 63.1,
+   "pct": {
+    "PP": 34.1,
+    "PSOE": 25.0,
+    "Vox": 18.2,
+    "Sumar": 5.3,
+    "ERC": 1.8,
+    "Junts": 2.9,
+    "Bildu": 1.4,
+    "PNV": 0.9,
+    "BNG": 0.7,
+    "CCa": 0.4,
+    "UPN": 0.2,
+    "Podemos": 3.9
+   },
+   "escanos": {
+    "PP": 147.0,
+    "PSOE": 100.0,
+    "Vox": 62.5,
+    "Sumar": 7.0,
+    "ERC": 6.5,
+    "Junts": 10.5,
+    "Bildu": 6.0,
+    "PNV": 4.5,
+    "BNG": 1.5,
+    "CCa": 1.0,
+    "UPN": 1.0,
+    "Podemos": 3.0
+   },
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "encargo": "La Razón",
+   "id": "ncreport-2026-10-06-1000",
+   "primera_vez": "2026-10-08T07:01:19+00:00"
+  },
   {
    "empresa": "EM-Analytics/Electomanía",
    "inicio": "2026-10-02",
