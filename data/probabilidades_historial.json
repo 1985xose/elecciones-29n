@@ -80,13 +80,13 @@
  {
   "fecha": "2026-10-09",
   "escenarios": {
-   "pp": 0.0014,
-   "pp_vox": 0.8987,
-   "izq_socios": 0.0407
+   "pp": 0.0013,
+   "pp_vox": 0.8933,
+   "izq_socios": 0.0431
   },
-  "bloqueo": 0.0606,
+  "bloqueo": 0.0636,
   "p50": {
-   "PP": 132,
+   "PP": 131,
    "PSOE": 104,
    "Vox": 66,
    "Sumar": 8,
