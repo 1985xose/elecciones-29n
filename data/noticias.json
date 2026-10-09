@@ -1,19 +1,26 @@
 {
- "actualizado": "2026-10-09T00:01:56+00:00",
+ "actualizado": "2026-10-09T01:02:04+00:00",
  "generales": [
+  {
+   "titulo": "El PSOE pugna con la izquierda por incluir en las listas a \"indignados\" de la vivienda",
+   "enlace": "https://www.larazon.es/espana/psoe-pugna-izquierda-incluir-listas-indignados-vivienda_202610096ac83c9e6e8df44596acf437.html",
+   "fuente": "La Razón",
+   "fecha": "2026-10-09T03:00:14+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/08/32509184-92FA-43BD-BAEB-7A24922B1BF5/96.jpg?crop=8095,4553,x0,y421&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
+  {
+   "titulo": "Feijóo pide al PP no repetir los errores del 23J",
+   "enlace": "https://www.abc.es/espana/feijoo-pide-pp-repetir-errores-23j-encarga-20261009021121-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-10-09T02:54:22+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/09/1518463547-Rz8D0oTQqS45wBN9Nt7tClL-1200x840@diario_abc.jpg"
+  },
   {
    "titulo": "Los autores de 'El palacete vasco' denuncian la \"rapiña\" del PNV y Bilbao les anula la presentación del libro por estar \"en campaña\"",
    "enlace": "https://www.elespanol.com/espana/20261009/autores-palacete-vasco-denuncian-rapina-pnv-bilbao-anula-presentacion-libro-campana/1003744413507_0.html",
    "fuente": "El Español",
    "fecha": "2026-10-09T00:01:21+02:00",
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11373739.jpg?p=w:1706/h:960&h=ydCYC9RZ"
-  },
-  {
-   "titulo": "Muere Maricarmen, en directo: última hora de la campaña de las elecciones generales del 29N y reacciones políticas hoy",
-   "enlace": "https://www.larazon.es/espana/muere-maricarmen-directo-ultima-hora-campana-elecciones-generales-29n-reacciones-politicas-hoy_202610086ac7167dfb06971aadfe1674.html",
-   "fuente": "La Razón",
-   "fecha": "2026-10-08T23:55:15+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/07/F86BE641-2BE5-4451-B31E-AE0F05FC5FAE/96.jpg?crop=6000,3375,x0,y322&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
    "titulo": "Los tres modelos del PP al minuto de silencio por Maricarmen: del \"no tenemos precedentes\" del Senado y el desplante de Ayuso al 'sí' de Moreno y Pérez Llorca",
@@ -23,18 +30,11 @@
    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/10/08/AD677988-8B2E-4BF2-8B8F-FEAD40EF0309/tres-modelos-minuto-silencio-maricarmen-tenemos-precedentes-senado-desplante-ayuso-moreno-perez-llorca_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
-   "titulo": "El PSOE está a solo 0,5 puntos de verse sobrepasado por Compromís en la Comunidad Valenciana antes de las generales",
-   "enlace": "https://www.elmundo.es/espana/encuestas/2026/10/08/6ac7db79e9cf4af0188b4583.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-10-08T22:41:42+02:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/08/17914829496923.jpg"
-  },
-  {
    "titulo": "El Gobierno pide al Supremo que deje votar el 29-N a todos los nacionalizados de la ley de nietos",
    "enlace": "https://www.elconfidencial.com/espana/2026-10-08/el-gobierno-pide-al-supremo-que-deje-votar-a-todos-los-nacionalizados-de-la-ley-de-nietos_4441456/",
    "fuente": "El Confidencial",
    "fecha": "2026-10-08T21:03:00+02:00",
-   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1791504124&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1791507375&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
   },
   {
    "titulo": "La Abogacía del Estado pide que no se suspenda el voto por la 'ley de nietos'",
@@ -75,6 +75,13 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "Feijóo pide al PP no repetir los errores del 23J",
+    "enlace": "https://www.abc.es/espana/feijoo-pide-pp-repetir-errores-23j-encarga-20261009021121-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-09T02:54:22+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/09/1518463547-Rz8D0oTQqS45wBN9Nt7tClL-1200x840@diario_abc.jpg"
+   },
+   {
     "titulo": "Los tres modelos del PP al minuto de silencio por Maricarmen: del \"no tenemos precedentes\" del Senado y el desplante de Ayuso al 'sí' de Moreno y Pérez Llorca",
     "enlace": "https://www.lasexta.com/noticias/nacional/tres-modelos-minuto-silencio-maricarmen-tenemos-precedentes-senado-desplante-ayuso-moreno-perez-llorca_202610086ac801abbafd3d73635bb65a.html",
     "fuente": "laSexta",
@@ -82,11 +89,10 @@
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/10/08/AD677988-8B2E-4BF2-8B8F-FEAD40EF0309/tres-modelos-minuto-silencio-maricarmen-tenemos-precedentes-senado-desplante-ayuso-moreno-perez-llorca_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
-    "titulo": "El PP señala que España merece «un Ejecutivo que se parezca más a un gobierno democrático que al clan de los Soprano»",
-    "enlace": "https://www.eldebate.com/espana/galicia/20261008/pp-senala-espana-merece-ejecutivo-parezca-gobierno-democratico-clan-soprano_467812.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-08T21:30:00+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/08/6ac7ca4deb614.r_d.960-447-0.jpeg"
+    "titulo": "Feijóo afirma que las elecciones se ganan persona a persona y voto a voto",
+    "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRVpsN2hoR1Y1VktuX19XZW1sa0RxeDN4LTlVWFpIb04tMDlUSy1tVFdvcC1UdGFzVVpBcWNEWEdaRzhuUTVLSkstc0NhOUR2d25pMzdPMU5VNUNCV0dRZTBGT2hpdXhPemJ4dGE3TGt3M1RUeXktTkNfVFppVWxTSzM2bTk5eXVaaXJWSFVVcjNRV0ROTVA5OWRLd0dnSUNScHc?oc=5",
+    "fuente": "Espacio Diario",
+    "fecha": "2026-10-08T21:59:05+00:00"
    },
    {
     "titulo": "Feijóo siembra la sospecha sobre la dirección postal y arrastra su propio pasado en la entidad",
@@ -95,43 +101,43 @@
     "fecha": "2026-10-08T21:16:04+00:00"
    },
    {
+    "titulo": "Moreno y Ayuso harán campaña propia como si fueran candidatos para reforzar a Feijóo: \"Nos van a hacer trampas muy sucias\"",
+    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRUtqaFN0OHpjeC1LeS1IMjc3MWs0MHp6WkQ1U3BBQ1lHdXFzeTlFNzdZSDlvM0IzbGdSV1RlTE5WV1BnN3ZmQkQxMGlWWm5yREwxdk0wdEp4Q3Y5aHRDX3IwbzBCRFRPMHAxV0V2QS1ZYnY2a0loTkFlTDc4M05pcWhPN2JkRnl3NzFvRHJPbzJkMURLeEZ3VUtLQdIBmwFBVV95cUxNbU43MXEwOHdmcFlVeERpcWk5bmpXLVRWeXVLd3FYU3dvSGVuUGkycTltR0NwQmVsOHJiX0NvNE1CbFBRVlRkNjlmdDV4cm1ybmR4RkI5ejVFbnZRTkVXc2t1STFMaUpTM2VBbTBITWZfTEFrMllMRUhtYmJlTU03VHlOUVROREg1M2N1SG9zRWlFcnFmYmZWWXZDUQ?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-08T20:42:17+00:00"
+   },
+   {
     "titulo": "Feijóo advierte a Pedro Sánchez de que el PP no permitirá \"un intento de manipulación emocional a los españoles\"",
     "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN2JpMlRJS2Z3bHhXc193ZXRGZ2pkVXY5bm5KUGlmd2gwU2p0bDk3bFN5a0xPVUJScTlQamVDSVdpRTY5WHZER1p0MnYteGVqanZDSlNfOU5PTWxLTGEzeDVJSE1hYlNYTUhZM1g4azJ4dXVZdGZ4ZVBfdnNFQzU0TGVtZHh1bnF0SnBNXy1FUG12akhIRHp5V1VxcnNxNk9BNFVOWVA5M2VNQ0p6VUdDaWpRN3lhZ0ZFUFHSAboBQVVfeXFMTXV3SGx0SjJvYmJfYmNkMUNWQ3Z3MmJpblgwbjFZMjhCVXp2NnR4QXEwS2NBWFZrdGRENnBaa0U3NGpWcWJsaUJvRVcyYkNUdXg1bDNMcWlKTl9CS3p2aGR2cEN6VmRWVWdmX2Y5bHY0S2ZpTFNmLVhPeXk2YkJXbkNDMFFiclhYRk00OUtTeTd5eEduR0w3MGxxTEx6cUNCM2xtYUhlRC00UFBuNnE5TVI4Z0d6b19HUWp3?oc=5",
     "fuente": "Antena 3 Noticias",
     "fecha": "2026-10-08T20:02:04+00:00"
-   },
-   {
-    "titulo": "Feijóo prepara al PP para la campaña del 29-N y pide no confiarse: “No hay nada ganado”",
-    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbUpoNGJrZXBZbFQwRDFPWENTX2lyMm8xVkVTTlc3RnF3bTVtYWJJVTF5Ri1kdndsMkJnU0cwZlZEZm5GeEtCbHJQTzM2dVdmV3ZvaEw1YTFrSHpKVml0LUR6azI2NV8yamFiZ2hBOUtmWjI5WHpZbk83X0Q1T2FmVDE4a0Z3TkF1VDR4SHBIS3NPb09iRUUzcXpkQkhUaFh2bjNWUjZzVFZDeTU1eHB3TFNEcWVvSW8zVzVKTE5tVVB5N2ltQWU1btIB4wFBVV95cUxQSnRNZk4ySlVLNjYzdVg1aEpFOWd2YU5UeXU5VmY0eldtSEpKclhiVUg0clRkaDNvTmlHcGp6YzZDSEhtSzhEY1JaRzF4V3NnTjlhem85NUF5NzAzMGNvRTlnZHpPWWU1eTd4Z1U1MThXVU1ZbGF6VFJMdk9KNjFmU00wc05yMy1PRWo4UjRkWEhjVElHZXBiU283ZF9ubUY1MFdyaXRheTkyWTZnSUx4QTg1Y2tBM1V6MDNhMHRXNUtueVRiUTVMdE5LTnp4a0pLNnpEYzExcDJYc0lxN1FMUkRQRQ?oc=5",
-    "fuente": "El Cronista",
-    "fecha": "2026-10-08T19:43:46+00:00"
-   },
-   {
-    "titulo": "Feijóo se prepara para \"la madre de todas las batallas\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNU1iVWNHZlFkTHM2dktDZFJwT3N3Qm00US1xZWVIRGJrX1pvVHNVUzdBLUk1MEdEblB0cGxIbmUzYm90cnZCWFFIV1RxMGVEM3BxWGRfRlFQaDJkR0VfekNCbURuTEFYTnRjNHRpSUlpSXFmbk5mN3QzWmFNOWZnUjF4QmNydXdY?oc=5",
-    "fuente": "Agencia Atlas",
-    "fecha": "2026-10-08T18:58:00+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Biedma deja al exjuez de las \"cloacas del PSOE\" a un paso de la imputación",
-    "enlace": "https://www.larazon.es/espana/biedma-deja-exjuez-cloacas-psoe-paso-imputacion_202610096ac82e8f6e8df44596acef29.html",
+    "titulo": "El PSOE pugna con la izquierda por incluir en las listas a \"indignados\" de la vivienda",
+    "enlace": "https://www.larazon.es/espana/psoe-pugna-izquierda-incluir-listas-indignados-vivienda_202610096ac83c9e6e8df44596acf437.html",
     "fuente": "La Razón",
-    "fecha": "2026-10-09T02:00:15+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/08/A75FD27F-BBEF-418D-97A3-0BFCCF25FE16/96.jpg?crop=2561,1441,x0,y133&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "fecha": "2026-10-09T03:00:14+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/08/32509184-92FA-43BD-BAEB-7A24922B1BF5/96.jpg?crop=8095,4553,x0,y421&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Tomás Gómez, exsecretario del PSOE de Madrid, convencido sobre quiénes serán los sucesores de Pedro Sánchez en el PSOE: «Tienen intereses en que pierda las elecciones»",
+    "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb2VlaXJaYy1jR3kyYlNjOFdXdDFJZEpsanRzZmg1UEFITVhXd0ZFZDdEdExUTlBlQ196b24zbWNsNEp0QkFUN3BLUkR4LVItbzRxcDlxR3RGS1dCYjQ5VExoQnVVakVTZ0s0bDVjdk9nekV6aHkyWTY0bTVFRzZmUE0xbWlXc0sxTTdXckRSNVRlYzFGa0QzY0phUUhJT0NNWW5YWXJTMUh0VFIyUHFibmtSbHE3aklIZVRVdzZ3SFPSAcYBQVVfeXFMTl9jNXJFSUtqNTdqU192QzVVOTRudlFFdU5hWHdYV1gyQUpVcTVoUFpOX1Zjd1FzZmw2U1pCSmF1aDVGMEd0OWkwSGxCeDdOOUREMklkVGkzM01FVDh2SGpBNjVtSWgwRmZTMUVMZEdXZllqQlpuNDVDVG9WcDNXT083OGVhUER2M2VnUVRFT1NSd0NYcGYtVDNQdGg5MEpocHhzM211T0V2V0xwNUp4UDRmYS1JWHI5eUJWRldwNzlxUEF1LU1n?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-09T00:29:19+00:00"
+   },
+   {
+    "titulo": "El PSOE de Fuerteventura designa a José Cabrera coordinador de su campaña electoral",
+    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVnpPYVBPTXpacGpFdkpGVGNpTmJIcC1MX1EzNUQ2Uld0T0E5cVh1bmN2cXhEdEQwZTBKaXVjSUduWks5ZzZFVEs2alZiellfMUtnWm9fNW92aHhjbGM4d2x2anVjTUxGaDJFMjZrQUhOQ1dFZnk3Rm4wRUVlMWxTbktPWEVZLXlhNEs1dFRWbHVjdjlyaEpTR1pJeDJIdEw5QW5pSVhaYWo0NWN2Q0M2SDRHOXhYZVdaNUJ1alhrblR2Y2xlejc3NXFpMzFTMU9icWVsUUdOb0U2WWVScnfSAd4BQVVfeXFMT1Z6T2FQT016WnBqRXZKRlRjaU5iSHAtTF9RMzVENlJXdE9BOXFYdW5jdnF4RHREMGUwSml1Y0lHblpLOWc2RVRLNmpWYnpZXzFLZ1pvXzVvdmh4Y2xjOHdsdmp1Y01MRmgyRTI2a0FITkNXRWZ5N0ZuMEVFZTFsU25LT1hFWS15YTRLNXRUVmx1Y3Y5cmhKU0daSXgySHRMOUFuaUlYWmFqNDVjdkNDNkg0Rzl4WGVXWjVCdWpYa25UdmNsZXo3NzVxaTMxUzFPYnFlbFFHTm9FNlllUnJ3?oc=5",
+    "fuente": "la voz de fuerteventura",
+    "fecha": "2026-10-08T22:02:30+00:00"
    },
    {
     "titulo": "Ferreras, contundente sobre el resultado de Pedro Sánchez en las elecciones: «Se ha comido a su izquierda, a Sumar y a Podemos. Es muy difícil que pueda sumar»",
     "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOGt1YnVyOWE5Z01lYTlJVE1SZ3BRT1Z3c1dqMkJNOWprMlBSYkprTGhqSjNmbkNsVy1MYnc1cTA4ODFqRndqcTJ3YkJmSU5xeS03dXE1d0FsUGN2eTJ2WHpTOFpsdzlOQjctLXZMcXFocDNWN1N6eFo0ZjVRaGg4dWVTVHdLRTVDUS1vSGNxXzJlVEszMjdPMy10bXJYaTN3NDk1dDJQaUlPcEVwbUhVX1lISTJQNXpEUzBYSnRlYlBYWlR3MTRN0gHMAUFVX3lxTE9uR2kwNjlNOVQ3bVptdjFsbm5GRERGbVVoQTh6Qm9fRDA2c25RN3dTeHBjbGU4WW9lRHZaMWd6VU9vU3ZYMDVFS2lxcDBDei1uSEVrclFjdk1SVjNPUUVsQ1pHdHEtNllhbzhoYW9PWnY4emtDX2pJeWFmMEdRLWtCZnZCZ05ZcWhNYl9mdDViNFg0LXZyS3BmQ09hUXRZLWhGWXBfTEpjOWZzMlV6bWhraFVmT3V0RXZyWHN5dWJKalNxUTZycDE1OGdoaA?oc=5",
     "fuente": "ABC",
     "fecha": "2026-10-08T22:01:51+00:00"
-   },
-   {
-    "titulo": "Tomás Gómez, exsecretario del PSOE de Madrid, convencido sobre quiénes serán los sucesores de Pedro Sánchez en el PSOE: «Tienen intereses en que pierda las elecciones»",
-    "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb2VlaXJaYy1jR3kyYlNjOFdXdDFJZEpsanRzZmg1UEFITVhXd0ZFZDdEdExUTlBlQ196b24zbWNsNEp0QkFUN3BLUkR4LVItbzRxcDlxR3RGS1dCYjQ5VExoQnVVakVTZ0s0bDVjdk9nekV6aHkyWTY0bTVFRzZmUE0xbWlXc0sxTTdXckRSNVRlYzFGa0QzY0phUUhJT0NNWW5YWXJTMUh0VFIyUHFibmtSbHE3aklIZVRVdzZ3SFPSAcYBQVVfeXFMTl9jNXJFSUtqNTdqU192QzVVOTRudlFFdU5hWHdYV1gyQUpVcTVoUFpOX1Zjd1FzZmw2U1pCSmF1aDVGMEd0OWkwSGxCeDdOOUREMklkVGkzM01FVDh2SGpBNjVtSWgwRmZTMUVMZEdXZllqQlpuNDVDVG9WcDNXT083OGVhUER2M2VnUVRFT1NSd0NYcGYtVDNQdGg5MEpocHhzM211T0V2V0xwNUp4UDRmYS1JWHI5eUJWRldwNzlxUEF1LU1n?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-10-08T21:25:38+00:00"
    },
    {
     "titulo": "Feijóo advierte a Pedro Sánchez de que el PP no permitirá \"un intento de manipulación emocional a los españoles\"",
@@ -145,12 +151,6 @@
     "fuente": "El País",
     "fecha": "2026-10-08T19:23:57+00:00",
     "imagen": "https://imagenes.elpais.com/resizer/v2/4Q3WDKGPX5AILJ2T4T7HFP33OA.jpg?auth=51695a3524ad7a645461d4f92ffb5ecf2a499265cf6a1fac5d0b06bcfa070386"
-   },
-   {
-    "titulo": "Aznar advierte riesgos que deben observarse en elecciones \"convocadas por Pedro Sánchez\"",
-    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVmJRSEI0YURubVpaOXpsUEkyTi05am5uem0ySDU2dFlnQlZ4OXlWUUphZWFGbkJ2MldVcENnWERBYVgzdFRzcmdZSmlQbE9CTHc4UU9iN1FZSGNZbEE1UjJsM0w4UXA3aVdzMHBRSjU4TGppVVhZY1Yyamx5YTdJQkpVVWM3djNreUktQXF4NF9fU1BlX3BFUTd5dGUxTXhqRDhZOFdYNkZ4cTZ1QzZvZkdiRlg0M2k5Z3dCZEhkMFdjWkJrREI40gHMAUFVX3lxTE54VWdyR3dKVFlMMG01TGVlbnMxTHBwMEF5MzVtTnpmdmNTcTFEM3lBVmZpWVRCRjl0U3VXd25pN0hLcENKVEo2aVhOaG9hRWF0THFyMnBVcktSUmV6MHZsekxSN3czcVA5SkZJTkY2YU1TR3dMbDJSS0dsN29UUmE4UjgydkRwMUFmNE5rZ3BQUTlJOG42WDhpSnpaelZNaURlVzBFamNNU2JKY0NDcm9reFZtbVpIS1BCblQwZHg4dEJJZDM4SURMWGJ1Sw?oc=5",
-    "fuente": "Diario Las Américas",
-    "fecha": "2026-10-08T18:41:00+00:00"
    }
   ],
   "Vox": [
@@ -265,10 +265,10 @@
     "imagen": "https://theobjective.com/wp-content/uploads/2026/10/belarra.jpg"
    },
    {
-    "titulo": "Irene Montero encabezará Madrid si gana las primarias abiertas de Podemos",
-    "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSU5YOVVMNVVpU21WRFdDeE5mdGN5ZXFBb0FOTDM1V1BaTHRub0FERG1fTHp1S3ZQNm1US05ULU00OExSeE5fWm52LWZ1c190VzNsUVU0bDdCaHNsLWExdXo1ZFBUN0V2LWZfSjRtYzdNYVBuazU2X0h4dkRnRHlrc3JRMmE5VFRiZDFrZnkySmY?oc=5",
-    "fuente": "BilbaoHiria",
-    "fecha": "2026-10-08T18:00:00+00:00"
+    "titulo": "Irene Montero: “Me crié en la Elipa y luego en Ciudad Lineal. Siempre me he movido mucho porque mi colegio estaba en Moratalaz y tenía muchos amigos y amigas en Vallecas”",
+    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdjdZMEduT3hjOXI5QUR3VldNOUYyUHB6QkNHRS1Mc01fM0lqcW0wUzN2bVdYRjRYYXJ0dkRybTdMdWhoOG1JMFJxMks1MklEM3R5d0JzQjl5M2xkaXhvUWJ1QnFfdXJtME5kcDN5dkxER0lFVlI3SXgxSk83MFVMYl82S25JSWJpcXVZN2FpMWdEVVMyUnRkN1l3RnVBaDlMa0dad0VKWDd1dXJEejlZZzZ2eGxJMDkwM1ptTlZycElkdDFG?oc=5",
+    "fuente": "Lecturas",
+    "fecha": "2026-10-08T18:52:00+00:00"
    }
   ],
   "SALF": [
@@ -337,17 +337,17 @@
     "fecha": "2026-10-08T19:46:12+00:00"
    },
    {
-    "titulo": "Junqueras presiona a Rufián aireando un candidato alternativo para el 29N",
-    "enlace": "https://www.abc.es/espana/cataluna/junqueras-presiona-rufian-aireando-candidato-alternativo-29n-20261008185017-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-08T19:39:15+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/08/rufijunqui-RLnvm8Fqmoji53RZzylnFgJ-1200x840@diario_abc.jpg"
-   },
-   {
     "titulo": "Ione Belarra invita a Ada Colau a las primarias abiertas y tiende la mano a Rufián: \"Nos encantaría hacer equipo\"",
     "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZmdsTElBZHFyTkJmVi1IUFBYVER6OTBiRTFDeW94Tzk1eENlVXJxMzBobWhobWQ4MDh1cmNBWlpFaENTXzE3ZlNFZmJ6OHlwZXFhNHhtLVl6QnM0UGRNNlZPMjFsNW5SMC1Gb2VBaDVOV2M1dGZtdXZZd09mRU9mQU1xVjY2dkJSNWZiMEtuOGJmVUhWUEdZRE1EOHR3T0otMWZRczBCQXpJUVZvdG1YRTBfYkwteVRUNWMxXzRhUC1kUmxxVk1SWDVXOFJoZ0NsOWtqSVdPM2gwTWh2cTJmNkZvMTNEaFo3b1BOUXVDaEpjUkp5?oc=5",
     "fuente": "El Constitucional",
     "fecha": "2026-10-08T19:38:10+00:00"
+   },
+   {
+    "titulo": "Belarra reitera que le encantaría «hacer equipo» con Rufián: «Es un valor para la izquierda»",
+    "enlace": "https://theobjective.com/espana/politica/2026-10-08/belarra-encantaria-hacer-equipo-rufian-valor-izquierda/",
+    "fuente": "The Objective",
+    "fecha": "2026-10-08T19:19:48+00:00",
+    "imagen": "https://theobjective.com/wp-content/uploads/2026/10/belarra.jpg"
    }
   ],
   "Junts": [
@@ -404,12 +404,6 @@
     "fecha": "2026-10-08T22:00:00+00:00"
    },
    {
-    "titulo": "EH Bildu confía en avanzar en derechos en elecciones del 29 de noviembre",
-    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRDRmM1VLWFhMQUdRTGlHczRGY0RvNlZySUNsYWhHN3V0TzJ6ZS0weHl3S1FJRkItb1duaG51Z0NOVHozXzlBQWZPYXFzVjR6dTJYOGZhTlJiekV2VE9GYm5IeG1XUFNER0pBNEpXUVRJUEZnR0UxZ1VaYlNlUWRIX215U3l3S3lOYTJVaGFLLTF3bFgxbUx1OUdSX1pNNU1o?oc=5",
-    "fuente": "Espacio Diario",
-    "fecha": "2026-10-08T12:11:05+00:00"
-   },
-   {
     "titulo": "Bildu, ante la propuesta de colaboración electoral de Geroa Bai: Estamos en otra pantalla",
     "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa1lhSklfOUs0dzhmWDkwQ2xROXB5WUg4Q3AzejdkSmdRM2l3NmtGWWRKbkF2VEJYYVNqWWhMcFhmeU5wdTRDbGZidXQ1STRJZ1U5V25NTmJENUhMMVlMUkJaRXJrN3NFWkVJUXhxSFpkUGpyajBadVA0bGVJSFg4anNXYW16WEVXZEszUGJVYk82ZnZRYmdicjgtY0VQNTA1UWNfX0ZVTHJPSkhZMWo1UUJfU0RvaDDSAbcBQVVfeXFMT2tZYUpJXzlLNHc4Zlg5MENsUTlweVlIOENwM3o3ZEpnUTNpdzZrRllkSm5BdlRCWGFTalloTHBYZnlOcHU0Q2xmYnV0NUk0SWdVOVduTU5iRDVITDFZTFJCWkVyazdzRVpFSVF4cUhaZFBqcmowWnVQNGxlSUhYOGpzV2FtelhFV2RLM1BiVWJPNmZ2UWJnYnI4LWNFUDUwNVFjX19GVUxyT0pIWTFqNVFCX1NEb2gw?oc=5",
     "fuente": "Noticias de Navarra",
@@ -426,6 +420,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPek8yVWNuV21ncXFKLWVMTjZvUU9aS0hURGxhMC1YZ29pdWVaZG1DV21yTmxYSV96OVFXVEZOa1B0NklIbnBvOWtaRXhPTnI3RklwWXJabm1GVVJiTHJscU5UeUhfNmEtNlhydldEbmdTdUVDWGtHdk5Kd2oyVGk2bXk1M1J3YzFrUTFjVXM3SFJ1NHNkRldR?oc=5",
     "fuente": "BilbaoHiria",
     "fecha": "2026-10-08T11:21:00+00:00"
+   },
+   {
+    "titulo": "Matute dice que «en Euskal Herria ya está construido el frente amplio» con EH Bildu",
+    "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTVk3RElkUzRZcVhuUzJMN2VYY3BlOEpoMXVpZlJXWHVwbVhRVFZuYnpHZV9kMkg2MUJhNmhaYkMxdVg3MHNsQnQ5RTdjcjZpcVlwanRwX2FSTXlaWkNua2FvRlpFOWUzUFkzUDdHMmt3YW4xb0JvRGhGTTNvcUtidFJ4bGc0czBNalpWbzg1Y2RxQmxHaXBDZGpTQjZkTzhYN2pzLUlwRlBYUnJJZVdjVV9Hd2J5dU9OOFlTUnByTlpCd9IBxwFBVV95cUxQb19IU0FSY1VrTkRuVlNHeFZfdzl0Ny1SdTdJQzN6TWtoQmZINE9fVjNvUnZrSWhqZF9oVjBrSHNWUkFFOWpDNkNFRGllZEpscTMwQ1l5WWVBQmpSeUNLSTV0QlVrblRmWUZRMW0zSU1lclYwMTNMbTFaNHZQdDNlM3MxMUlFWnhral8zZXhXdC1WNXRuYmdkRmxoSndueXZBc3pUcnh0eng1YVZ0TDhNTHZWakxURUM4QmJPdFRQb2JOSkJNY1JB?oc=5",
+    "fuente": "naiz:",
+    "fecha": "2026-10-08T08:51:00+00:00"
    }
   ],
   "PNV": [
@@ -509,6 +509,13 @@
   ],
   "CCa": [
    {
+    "titulo": "Coalición Canaria busca alianzas para ganar dos escaños claves para el 29N",
+    "enlace": "https://www.abc.es/espana/canarias/coalicion-canaria-busca-tres-diputados-29n-presentandose-20261008022101-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-09T02:21:01+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/08/1518226507-RAusghURZrTb1dvkJypFDCK-1200x840@diario_abc.jpg"
+   },
+   {
     "titulo": "Clavijo: «Cuanta más unidad haya, mejor defenderemos a Canarias en Madrid»",
     "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbl9ObmFQVGgwVjJONWdEMWpWWDB2LTcxbG0zWDRJek9rRlFWX0FvMXF5WGNJeHZkbS0yWlM5dUJVRjNuNGpBSVpiQUZxMmZmWG4yOXA0ZWczQ2lqcDBWWlJRS0hPMDRZcnNZUDhvQ0tnLUJUWE5DMm5HNkhpZjYzbkZtaWlGZkxXZnh6Rlo0Mlppc29RdUxLajdoWGlBU3haZGdLWjQ4T2laNktlQlQ1bGw0TmhCWkZuVnfSAb8BQVVfeXFMTjhZSWdfbUdVdi1fWmItT1RaQ1FSVkhFWmN1Tld1MjgyN2Y2ZEhFdVVpQmhqLXE5UF9wV2pNY09iejRmVmNYLTNSWkg4ZVhwMjNiV2ppd3BhNlJpZnZ5S285RnJPa0hFMkF4V3RBR1NWRGZVMEY2UW9Jd2xKOGFTOVJWeGVsb0JTaVhKZm1fUVNMSXBwSjFnSmVDVlA0OHIyUGVESVhMRGtpZ2JpVzFKR3Q2Y2lpU2hlcGcwdEdiZlE?oc=5",
     "fuente": "Canarias7",
@@ -537,12 +544,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPT3pnOG5VVHFEU2FTX2h6V0FSWXB1VDFpVnpIMF9RMGU5anNkVlREOWhkS2tOZDNDcVM5a0cycF9Sc1MtbW1SQUpNNmxJOW1OM1JsdUZCRUtkSmw4dDFaVFVwYldCRjViV0FwSkJ6MXpyLWxFWHlGeUJDUmh2QWdMSEZyOEhSdEtMeXcyYl9hUEVUcHdYbTNyRERJUXo0Q2VGdEhsdA?oc=5",
     "fuente": "Maspalomas24h",
     "fecha": "2026-10-07T23:32:37+00:00"
-   },
-   {
-    "titulo": "CC Gran Canaria abre el diálogo con fuerzas nacionalistas para las elecciones del 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ2hjR0JzTEQ3NkFsVEF2Y0tlUGd5SXhIeFpIYnNIdXVzYWw4WFl1ZVdJYkIyTTdVVVpDU2xNQk12Rm9pYk10V3VRNXg4U3J0dmdPbHgzQXlVQTVWQ2RqQ3pGREQxUk5iR0xCVElJY2xjN01DLTFrWFZtam1MekhMTFNoeVMxZFRNSXcwT040YmREQmtXSUFqNy1Sc3Fza25HRzF0bDJ4RnpFM2pjX0VDMlBmQjA2ekU?oc=5",
-    "fuente": "Atlántico Hoy",
-    "fecha": "2026-10-07T18:41:00+00:00"
    }
   ],
   "UPN": [
@@ -844,6 +845,14 @@
    "partido": "PSOE"
   },
   {
+   "titulo": "Los autores de 'El palacete vasco' denuncian la \"rapiña\" del PNV y Bilbao les anula la presentación del libro por estar \"en campaña\"",
+   "enlace": "https://www.elespanol.com/espana/20261009/autores-palacete-vasco-denuncian-rapina-pnv-bilbao-anula-presentacion-libro-campana/1003744413507_0.html",
+   "fuente": "El Español",
+   "fecha": "2026-10-08T22:01:21+00:00",
+   "partido": "PNV",
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11373739.jpg?p=w:1706/h:960&h=ydCYC9RZ"
+  },
+  {
    "titulo": "El hermano de Pedro Sánchez presenta recurso de apelación por 'investigación prospectiva'",
    "enlace": "https://www.europapress.es/extremadura/noticia-hermano-pedro-sanchez-presenta-recurso-apelacion-investigacion-prospectiva-pide-absolucion-20261008174049.html",
    "fuente": "Región Digital",
@@ -902,9 +911,9 @@
   },
   {
    "titulo": "El Supremo da 5 días de alegaciones sobre la amnistía a Puigdemont y a líderes del procés",
-   "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNR0MxRjR2NlRnMnBDU01HUk5pMjFISlEtRzMzOFQwU1FnR1BPRzE1VnhfeFNEc1NYbDV3blB5WkZWZjRqSkJnMnV0Z2pkUndpOXlXTGpaTGRZbzFoZ3JBRXBsRHVyTkZWcllrWFlzcnlYZTkzTTF3UjltMUJaSkhsWWlOT0RoeFNod2JzUEJTWmZUeWdZb0cwZWhZTU5fNmNoZkd0TkM1cTU3Tm94ZnF0UkdPVnVOLVh5ZEwtMnRhWGNQaWMtVGp6WGFZemhGYUgwaDdsQ01TeE7SAfMBQVVfeXFMTkxSamc2dndVdnpScG52dWFMYWszY2paLWtlbjdaanNFMk10R3hoeUdXQXIxc3l0Z2xnd3pBdXRGZVRoazdLNEIxMzd3TmZGMGF3Z2JrWmY1SmRpRjlZcGgzaDdmQlFtVHdLWk16bFdIRjZmUjJRVndSTlRyMzFJNXpUNXVyN2l2UzJ2cmVrVnVwZlZBVWk4V2dQLUVmdnpURzczRmM1Q196ZV9zZWl6aVZoS1lWZHVpb2Y4YW4xTjBfcGgtQW5JRzJOWm5PV09maEN5aTVqaFNncTQyQU1WYlFZdnZlVDNtdnYycWVsQ0VNWVJF?oc=5",
+   "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOTFJqZzZ2d1V2elJwbnZ1YUxhazNjalota2VuN1pqc0UyTXRHeGh5R1dBcjFzeXRnbGd3ekF1dEZlVGhrN0s0QjEzN3dOZkYwYXdnYmtaZjVKZGlGOVlwaDNoN2ZCUW1Ud0taTXpsV0hGNmZSMlFWd1JOVHIzMUk1elQ1dXI3aXZTMnZyZWtWdXBmVkFVaThXZ1AtRWZ2elRHNzNGYzVDX3plX3NlaXppVmhLWVZkdWlvZjhhbjFOMF9waC1BbklHMk5abk9XT2ZoQ3lpNWpoU2dxNDJBTVZiUVl2dmVUM212djJxZWxDRU1ZUkXSAfMBQVVfeXFMTkxSamc2dndVdnpScG52dWFMYWszY2paLWtlbjdaanNFMk10R3hoeUdXQXIxc3l0Z2xnd3pBdXRGZVRoazdLNEIxMzd3TmZGMGF3Z2JrWmY1SmRpRjlZcGgzaDdmQlFtVHdLWk16bFdIRjZmUjJRVndSTlRyMzFJNXpUNXVyN2l2UzJ2cmVrVnVwZlZBVWk4V2dQLUVmdnpURzczRmM1Q196ZV9zZWl6aVZoS1lWZHVpb2Y4YW4xTjBfcGgtQW5JRzJOWm5PV09maEN5aTVqaFNncTQyQU1WYlFZdnZlVDNtdnYycWVsQ0VNWVJF?oc=5",
    "fuente": "Infobae",
-   "fecha": "2026-10-07T12:58:39+00:00",
+   "fecha": "2026-10-07T12:58:44+00:00",
    "partido": "Junts"
   },
   {
@@ -985,13 +994,6 @@
    "partido": "Sumar"
   },
   {
-   "titulo": "Irene Montero acusa de “racismo” a quienes critican la crisis migratoria de Ceuta y desata una fuerte polémica",
-   "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSzlGZ3FTdzN0Mzc4QjVjNWJvaDRxTVM1MkVPeDdzdk03NjNaMzFmaVlUTHJKWmFSV1h1QnRMT19qS3Uzb0dmLTQ5RnlJY1ZUQ2NadHVPb2JHV2dCTFdsMWNOYkw5cFJkTlJSUmNDbnB2clh4MFVqWlYtbmpiVERWdzR1OWVZdEItUTJwT1FWeXNyVFNGdklqQUtNdGp6WVJuS1dxSmRRN0hIbVdKaS1YcGdiT195XzExYUh2Y2pXWXJUNTZfWTR4X1ZZelpFWUN6VFBZcw?oc=5",
-   "fuente": "valencianoticias.com",
-   "fecha": "2026-08-28T07:00:00+00:00",
-   "partido": "Podemos"
-  },
-  {
    "titulo": "Polémica en X: Irene Montero denuncia la presencia de \"nazis armados con palos\" en Ceuta para \"cazar\" inmigrantes",
    "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbElGLW9FNFUwcVZNT0YycGcxNWgzOVR6M2NYRWJLYjFQTUM4bGx6bTl4d2FXRHd0TFRhcnJiX2NDeW5ZTEtha2FRV1RkdDhfQXhFYWFBajR3TFV4ZUJpSk15NTZjbHVRRk9Rc045U0JjWlpwR2xjLTBlajFOeW5uZU9qX1JzRy1GY0dMV1VMWFJpRE0yLXRra0c1RzZ0eTVZWDNyVHNSbTJlRU5mMFBmME5SSWs4OXlfeXl3NVpuejdfUjZkQ0tzLU5xcEJoZ0NfVjJPU1p2dEt5ekMxQ2NiWVZRckM1MTlH0gH8AUFVX3lxTE1OQkUwRDdYVDNGYWtJaUZNdWR4OUJkdml2SkRJQTFhQ2Q3VlVQR0NDQ0NrVGhCdXIzOGx1aHhkUVVJRmdaRC1jR0JFVGZucG1ZRllNNnhVR0ZTSVp2UVZ3NjFuSW5xSE9lOHJXckplaU5TOHhtSndFbllFNXZOVTk0Y1UzNkpFcE9PN2xBeFBmWjFBd1FxaGVhelJKelkzOEFDZVV3Nk9QaC1vNjFpSkI3eUNvNWhNREUwZnFNdm1OdzlQakhlbkpZR1FoLTY1N1l1NExXRHhZOWt6SXFUMXBxS3pvMk5sbmVTbF96WS1aSXJoYVpCOVhOUDNtdg?oc=5",
    "fuente": "La Razón",
@@ -1003,6 +1005,13 @@
    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVnhZM1VQWllkdzZkeHRHd1NQSXhBYzAyODNWQmM0WERZTzNrWWtFdzRQRDlfS2taeDRsUEV5U2k0c3p2aTNfMGExOVJ6MUtfRVQzWVczdmFiN2RWa1BnbUZSWmFRR3QyMXVDTlZZV2w4aVRtTFlIWEZlZEtCbzRadl9jRGpiNDkzamtER1Y1QU5FdnpFQVZPN01LeGFrWEdjZnh3Q2R0WUs0YUw5X0ZNejZZU3FvZjRBM0dLQzFMMDJIOG8wenBWczNn0gHPAUFVX3lxTE5HOTdiR1pMWk03NnczZmlPVERXcmRoRHRBTTZFaGdZRldrbk5UQmdGa0Z4ZlhkalN0Um1tazBCNkNtdEZ2ek55QUVjbVpFZFlZRlRQb1J3aVNFZlYzSmowSHdaa0trSjlMak9jT3BGdVgwRkJLQzZFenR1NGhJWU1mRTVBRkFBb1BBZEFua2pta192alVwd3JENmxFVmZPX2VwTFFGN3J0V0xkSnhoOVF2SVZtXzUyVHllTkNBRE1WVWtST1V4V2ktYWpHdGRjRQ?oc=5",
    "fuente": "Digital de León",
    "fecha": "2026-07-28T07:00:00+00:00",
+   "partido": "Podemos"
+  },
+  {
+   "titulo": "La Fiscalía archiva la denuncia de Podemos contra el convenio de Santa Clotilde",
+   "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR2ZWS0J0VjV6bzJSYnktaExxY1J6eldRNEx2ZTd1SEktc1J5a3AxTDkyVWppQ1ktQTkxRHpTR0RZTG13QTIwSWxKNDBlX3NjUHdvNlV4V3NDZzZ6cUlGd3E1eXZ4VmdqNTRIZ0ZFTFdwVEJpMk1MQ3RqLWRpdEVVU1dVU1dSSjJ3eENLdDJhUjl1bjU2Y1l1MThMcUhXNzRZWG9yWHRjOWJ5emtPaUZKUVpnTWoyMURzWGpiX25GNA?oc=5",
+   "fuente": "El Diario Montañés",
+   "fecha": "2026-07-27T07:00:00+00:00",
    "partido": "Podemos"
   }
  ],
