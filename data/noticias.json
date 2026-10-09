@@ -1,6 +1,20 @@
 {
- "actualizado": "2026-10-09T02:02:02+00:00",
+ "actualizado": "2026-10-09T03:01:59+00:00",
  "generales": [
+  {
+   "titulo": "Las otras puñaladas (electorales) que vienen: a algunos partidos les sobran hombres y a otros, mujeres",
+   "enlace": "https://www.elconfidencial.com/espana/2026-10-09/las-otras-punaladas-electorales-partidos-sobran-hombres-mujeres_4440534/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-10-09T05:00:00+02:00",
+   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1791514838&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+  },
+  {
+   "titulo": "El PSOE de Armengol y los nacionalistas negocian una inédita lista conjunta al Senado el 29-N para taponar a PP y Vox",
+   "enlace": "https://www.eldebate.com/espana/baleares/20261009/psoe-armengol-nacionalistas-negocian-inedita-lista-conjunta-senado-29n-taponar-pp-vox_467620.html",
+   "fuente": "El Debate",
+   "fecha": "2026-10-09T04:30:00+02:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/08/6ac785dae7696.r_d.383-192-0.jpeg"
+  },
   {
    "titulo": "El PSOE seguirá utilizando políticamente a Maricarmen: el martes llevará su nombre al Parlament balear",
    "enlace": "https://okdiario.com/baleares/psoe-seguira-utilizando-politicamente-maricarmen-martes-llevara-nombre-parlament-balear-20515178",
@@ -14,13 +28,6 @@
    "fuente": "La Razón",
    "fecha": "2026-10-09T03:44:09+02:00",
    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/08/27665E0A-FAFE-44B9-9A57-7F1B215D3B47/caratula-2_96.jpg?crop=1900,1069,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "Feijóo pide al PP no repetir los errores del 23J",
-   "enlace": "https://www.abc.es/espana/feijoo-pide-pp-repetir-errores-23j-encarga-20261009021121-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-09T02:54:22+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/09/1518463547-Rz8D0oTQqS45wBN9Nt7tClL-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Los tres modelos del PP al minuto de silencio por Maricarmen: del \"no tenemos precedentes\" del Senado y el desplante de Ayuso al 'sí' de Moreno y Pérez Llorca",
@@ -58,13 +65,6 @@
    "imagen": "https://imagenes.elpais.com/resizer/v2/4Q3WDKGPX5AILJ2T4T7HFP33OA.jpg?auth=51695a3524ad7a645461d4f92ffb5ecf2a499265cf6a1fac5d0b06bcfa070386"
   },
   {
-   "titulo": "Demos gracias a Junts por su providencial voto en contra del decreto sobre la vivienda",
-   "enlace": "https://www.nuevatribuna.es/articulo/actualidad/maricarmen-demos-gracias-junts-providencial-voto-decreto-vivienda/20261008184725254957.html",
-   "fuente": "Nueva Tribuna",
-   "fecha": "2026-10-08T18:47:25+02:00",
-   "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/10/08/2026100818372969079.jpg"
-  },
-  {
    "titulo": "Gobierno ve imposible separar entre nacionalizados por 'ley de nietos' y otros motivos antes de elecciones",
    "enlace": "https://www.europapress.es/nacional/noticia-gobierno-ve-imposible-separar-nacionalizados-ley-nietos-otros-motivos-antes-elecciones-20261008203522.html",
    "fuente": "Europa Press",
@@ -75,10 +75,29 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Feijóo promete a su partido que llevará a cabo una «auditoría» del sanchismo",
+    "titulo": "El PSOE de Armengol y los nacionalistas negocian una inédita lista conjunta al Senado el 29-N para taponar a PP y Vox",
+    "enlace": "https://www.eldebate.com/espana/baleares/20261009/psoe-armengol-nacionalistas-negocian-inedita-lista-conjunta-senado-29n-taponar-pp-vox_467620.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-09T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/08/6ac785dae7696.r_d.383-192-0.jpeg"
+   },
+   {
+    "titulo": "🗣️ Alberto Núñez Feijóo acusa a Pedro Sánchez y al PSOE de pretender \"manipular\" a los españoles con la vivienda: \"No va a colar\" 🎥 Europa Press #Feijoo #PedroSanchez #PSOE #PP #Vivienda",
+    "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOY3BBY2dhVWM4ei1VMVBhVHM5VHczZmZQanFzSkkzNGxna1E5VWJsQjU4WWN3VjZWZEd6T01hd1dJenhTbkEzbTJwREtCRUIySHFBSG1CZE5ZaEhoeFBRbnFHNExfU2lMWUlrYVVJcGZZMlhHbUJLbWNmTUlIenlYMFRDXzJlblg5OUFUTWFUQ04xRDNlNXFYb01jRzZPcHk2dWpQSWpfNFp6OEZqQjB4XzZMS1JqWjU1NGhOWjdoT1l6MkNBVXFXVkd1RHdsUnJGTF9uQUtWYnZsMzNnLXR0TjFxYndHUjJUaFgtYzgzRDBXcTBhZVRyMzM0QloycUxr?oc=5",
+    "fuente": "Facebook",
+    "fecha": "2026-10-09T02:38:00+00:00"
+   },
+   {
+    "titulo": "Feijóo no entiende a Sánchez",
+    "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN2JKWHo2MTlzbFllekxiMXFMaTFXeElJeXl6Y0xia2pOb3FaVWlmd05QY1VYemFxbFZaZXpwRWdzNUFnbXViTFlsZl95SHUya0haVHhIWFpmZ0l4OHJDOTVFRkJBa19tTC01TlJyRGVoUEprVGJhYnlYZ3JKNzc2NTJtdzNIRE1xR1R4WtIBkgFBVV95cUxOc1N1c0tnZWktc1hmMjFiLWtaZ05QYjBudGExdWpBT2lZUHFXMkExZEkxV190OU5weUlUbHFVbGUxMFFtREhoYXp1cThpNjBLX2ZXcTFwYnpic3djQnc5VlVIVl9vU1Q1VURhaU5JQ3FTUUZxQlJoaEl1RnZyRC1iZl9yaW8tQ2dkbzZQdy1yMTJaUQ?oc=5",
+    "fuente": "El Economista",
+    "fecha": "2026-10-09T02:19:13+00:00"
+   },
+   {
+    "titulo": "Feijóo promete a su partido que llevará a cabo una \"auditoría\" del sanchismo",
     "enlace": "https://www.larazon.es/espana/feijoo-promete-partido-que-llevara-cabo-auditoria-sanchismo_202610096ac847116e8df44596acf7d5.html",
     "fuente": "La Razón",
-    "fecha": "2026-10-09T03:44:49+02:00",
+    "fecha": "2026-10-09T01:44:49+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/08/4EA00C9D-E7D8-4912-8E3D-5519CDE29057/96.jpg?crop=8192,4608,x0,y428&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
@@ -93,33 +112,22 @@
     "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRVpsN2hoR1Y1VktuX19XZW1sa0RxeDN4LTlVWFpIb04tMDlUSy1tVFdvcC1UdGFzVVpBcWNEWEdaRzhuUTVLSkstc0NhOUR2d25pMzdPMU5VNUNCV0dRZTBGT2hpdXhPemJ4dGE3TGt3M1RUeXktTkNfVFppVWxTSzM2bTk5eXVaaXJWSFVVcjNRV0ROTVA5OWRLd0dnSUNScHc?oc=5",
     "fuente": "Espacio Diario",
     "fecha": "2026-10-08T21:59:05+00:00"
-   },
-   {
-    "titulo": "Feijóo siembra la sospecha sobre la dirección postal y arrastra su propio pasado en la entidad",
-    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZnRoaTU1UWtuak9KbzBiUzJBYWR0VjdMVXFzZmg3SnBBNUpVek03NTlMTDlqZW5HMXkwZUhRaXZHRzYzS2JXRmhKeVNEYlhsUm5xMmJiRTMyMzViUXFyTlpfNnBCUnZOQ1U4UTdNalV6OUlPX1NhVmgzbXRySmR1YXpIMm12WG94clBMTXhwVjlMWVpHR01VanpNa01qU2xWNzl5QjRSelJlR0prMXRja3puMkVLOWU2dHk4T0tVS2txcS0zZ25XbWZjd20wdjlWTTFGYlJyZ080LTJnWks40gHfAUFVX3lxTE9mdGhpNTVRa25qT0pvMGJTMkFhZHRWN0xVcXNmaDdKcEE1SlV6TTc1OUxMOWplbkcxeTBlSFFpdkdHNjNLYldGaEp5U0RiWGxSbnEyYmJFMzIzNWJRcXJOWl82cEJSdk5DVThRN01qVXo5SU9fU2FWaDNtdHJKZHVhekgybXZYb3hyUExNeHBWOUxZWkdHTVVqek1rTWpTbFY3OXlCNFJ6UmVHSmsxdGNrem4yRUs5ZTZ0eThPS1VLa3FxLTNnbldtZmN3bTB2OVZNMUZiUnJnTzQtMmdaSzg?oc=5",
-    "fuente": "MUNDIARIO",
-    "fecha": "2026-10-08T21:16:04+00:00"
-   },
-   {
-    "titulo": "Moreno y Ayuso harán campaña propia como si fueran candidatos para reforzar a Feijóo: \"Nos van a hacer trampas muy sucias\"",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRUtqaFN0OHpjeC1LeS1IMjc3MWs0MHp6WkQ1U3BBQ1lHdXFzeTlFNzdZSDlvM0IzbGdSV1RlTE5WV1BnN3ZmQkQxMGlWWm5yREwxdk0wdEp4Q3Y5aHRDX3IwbzBCRFRPMHAxV0V2QS1ZYnY2a0loTkFlTDc4M05pcWhPN2JkRnl3NzFvRHJPbzJkMURLeEZ3VUtLQdIBmwFBVV95cUxNbU43MXEwOHdmcFlVeERpcWk5bmpXLVRWeXVLd3FYU3dvSGVuUGkycTltR0NwQmVsOHJiX0NvNE1CbFBRVlRkNjlmdDV4cm1ybmR4RkI5ejVFbnZRTkVXc2t1STFMaUpTM2VBbTBITWZfTEFrMllMRUhtYmJlTU03VHlOUVROREg1M2N1SG9zRWlFcnFmYmZWWXZDUQ?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-10-08T20:42:17+00:00"
-   },
-   {
-    "titulo": "Feijóo advierte a Pedro Sánchez de que el PP no permitirá \"un intento de manipulación emocional a los españoles\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN2JpMlRJS2Z3bHhXc193ZXRGZ2pkVXY5bm5KUGlmd2gwU2p0bDk3bFN5a0xPVUJScTlQamVDSVdpRTY5WHZER1p0MnYteGVqanZDSlNfOU5PTWxLTGEzeDVJSE1hYlNYTUhZM1g4azJ4dXVZdGZ4ZVBfdnNFQzU0TGVtZHh1bnF0SnBNXy1FUG12akhIRHp5V1VxcnNxNk9BNFVOWVA5M2VNQ0p6VUdDaWpRN3lhZ0ZFUFHSAboBQVVfeXFMTXV3SGx0SjJvYmJfYmNkMUNWQ3Z3MmJpblgwbjFZMjhCVXp2NnR4QXEwS2NBWFZrdGRENnBaa0U3NGpWcWJsaUJvRVcyYkNUdXg1bDNMcWlKTl9CS3p2aGR2cEN6VmRWVWdmX2Y5bHY0S2ZpTFNmLVhPeXk2YkJXbkNDMFFiclhYRk00OUtTeTd5eEduR0w3MGxxTEx6cUNCM2xtYUhlRC00UFBuNnE5TVI4Z0d6b19HUWp3?oc=5",
-    "fuente": "Antena 3 Noticias",
-    "fecha": "2026-10-08T20:02:04+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "El PSOE seguirá utilizando políticamente a Maricarmen: el martes llevará su nombre al Parlament balear",
-    "enlace": "https://okdiario.com/baleares/psoe-seguira-utilizando-politicamente-maricarmen-martes-llevara-nombre-parlament-balear-20515178",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-09T04:00:53+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/08/el-psoe-llevara-la-utilizacion-politica-interior.jpg"
+    "titulo": "El PSOE de Armengol y los nacionalistas negocian una inédita lista conjunta al Senado el 29-N para taponar a PP y Vox",
+    "enlace": "https://www.eldebate.com/espana/baleares/20261009/psoe-armengol-nacionalistas-negocian-inedita-lista-conjunta-senado-29n-taponar-pp-vox_467620.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-09T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/08/6ac785dae7696.r_d.383-192-0.jpeg"
+   },
+   {
+    "titulo": "Los beneficios judiciales que podría obtener Begoña Gómez si fuese elegida diputada del PSOE",
+    "enlace": "https://www.eldebate.com/espana/20261009/beneficios-judiciales-podria-obtener-begona-gomez-fuese-elegida-diputada-psoe-cns_467757.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-09T02:30:00+00:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/06/24/6a3befe87af04.r_d.2504-1014-0.jpeg"
    },
    {
     "titulo": "El PP busca un duelo con el PSOE sobre la vivienda en campaña: No nos incomoda lo más mínimo",
@@ -146,16 +154,23 @@
     "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb2VlaXJaYy1jR3kyYlNjOFdXdDFJZEpsanRzZmg1UEFITVhXd0ZFZDdEdExUTlBlQ196b24zbWNsNEp0QkFUN3BLUkR4LVItbzRxcDlxR3RGS1dCYjQ5VExoQnVVakVTZ0s0bDVjdk9nekV6aHkyWTY0bTVFRzZmUE0xbWlXc0sxTTdXckRSNVRlYzFGa0QzY0phUUhJT0NNWW5YWXJTMUh0VFIyUHFibmtSbHE3aklIZVRVdzZ3SFPSAcYBQVVfeXFMTl9jNXJFSUtqNTdqU192QzVVOTRudlFFdU5hWHdYV1gyQUpVcTVoUFpOX1Zjd1FzZmw2U1pCSmF1aDVGMEd0OWkwSGxCeDdOOUREMklkVGkzM01FVDh2SGpBNjVtSWgwRmZTMUVMZEdXZllqQlpuNDVDVG9WcDNXT083OGVhUER2M2VnUVRFT1NSd0NYcGYtVDNQdGg5MEpocHhzM211T0V2V0xwNUp4UDRmYS1JWHI5eUJWRldwNzlxUEF1LU1n?oc=5",
     "fuente": "ABC",
     "fecha": "2026-10-09T00:29:19+00:00"
-   },
-   {
-    "titulo": "Biedma deja al exjuez de las \"cloacas del PSOE\" a un paso de la imputación",
-    "enlace": "https://www.larazon.es/espana/biedma-deja-exjuez-cloacas-psoe-paso-imputacion_202610096ac82e8f6e8df44596acef29.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-09T00:00:15+00:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/08/A75FD27F-BBEF-418D-97A3-0BFCCF25FE16/96.jpg?crop=2561,1441,x0,y133&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    }
   ],
   "Vox": [
+   {
+    "titulo": "Abascal, ausente otra vez del desfile del 12-O: celebrará en Ceuta la Fiesta Nacional con el líder de Patriots",
+    "enlace": "https://www.elconfidencial.com/espana/2026-10-09/abascal-desfile-12o-ceuta-fiesta-nacional_4441306/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-09T05:00:00+02:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/11f/3a6/11f3a6008c9e46e76e9509d180d5ffcd/el-pp-rescata-ceuta-y-la-corrupcion-para-atacar-al-psoe-en-campana-y-mira-de-reojo-al-voto-por-correo.jpg?mtime=1791302051"
+   },
+   {
+    "titulo": "El PSOE de Armengol y los nacionalistas negocian una inédita lista conjunta al Senado el 29-N para taponar a PP y Vox",
+    "enlace": "https://www.eldebate.com/espana/baleares/20261009/psoe-armengol-nacionalistas-negocian-inedita-lista-conjunta-senado-29n-taponar-pp-vox_467620.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-09T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/08/6ac785dae7696.r_d.383-192-0.jpeg"
+   },
    {
     "titulo": "La muerte de Maricarmen Abascal es puesta al centro de las elecciones anticipadas en España",
     "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNi0xU0hpcnhzV2xFNVhhV0g4c1N6QzNsTTNJcHMtaWR1UWFWSTZEaVBaUWpIbjlZYk1zX0VacWVSenV2SXlhNXhYLXRFUmRXYUhfLWFMSmxhM3RNUWlRQkI1XzN2M3dvYTJXN2xlTk5adzBvV29XakEzY1hDeHlfWFNXcUNFYm9CdVFweHVGOFdkSzhlTFRMZkxydkxmU0xid1pNX0dWWF8xaXlEd205RU1jTEM4X3RVVXNWUmM0dDJuRWpxcGc?oc=5",
@@ -163,17 +178,10 @@
     "fecha": "2026-10-08T21:35:07+00:00"
    },
    {
-    "titulo": "Última hora de la muerte de Maricarmen Abascal, en directo | De qué ha fallecido, reacciones políticas y seguimiento de la acampada por la vivienda en Sol",
-    "enlace": "https://okdiario.com/espana/ultima-hora-muerte-maricarmen-abascal-directo-reacciones-politicas-mensajes-condolencia-seguimiento-desde-puerta-del-sol-20509433",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-08T19:42:27+02:00",
-    "imagen": "https://okdiario.com/img/2026/09/11/propuesta-directo-espana-gif-interior-3.gif"
-   },
-   {
     "titulo": "Vox denuncia intento de asesinato a la jueza Biedma por investigar corrupción",
     "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR1J3NHNCVms0cllHRDczcGZjcUg1WkFQek9SUzkxVHdPU21UcUxqMU1TWW5hY1pPeVoyZmlXNTltcWxFOUVVcF9SNEVJVFVfU3JJQU1tSEdFZDBCaEx3bGtXUzNrSWxHdzBVWVdza2hIcWVDZHF0NGJDYWFxR0RnVjl1WlRyTUNNdFdUZGVvcTRRWFBxUmwtU0NzYU9VWjVnMEpZUzYyQQ?oc=5",
     "fuente": "Espacio Diario",
-    "fecha": "2026-10-08T18:11:15+00:00"
+    "fecha": "2026-10-08T18:14:07+00:00"
    },
    {
     "titulo": "Vox aplaza la comisión de las VPP en Les Corts para \"evitar interferencias\" en las elecciones",
@@ -186,12 +194,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQX3k2Y0Etek5XLXVSVWpvY3ZQUzVpNGkxS1VSWEVjaWtqbmhLMl9qaUoxajVUZFdOYjVrbHFQQ2VmUXNfaGJqZHNPSWNWYnlPdlhjNmpYZ25RV0IzeUxILVZBblIwVTRXVURlQWRyWVFTWjN6el9lMzZQZ2xyMUxRYkpvZG5fWm14TWhCU2VaY2pUOG1yV1E2OVk3OHhsY2hmNE9od0JXYWVEYUtXa1Y4TkpqcExtamVJTk54ZVBheFh3aVE5Z1FFUnZkcDZlLWM3c0htZ2VUVFBCd9IB3wFBVV95cUxQX3pwUW5yQTlJZEZqdXF2b3NkM1dSdG9nZjVrUVdMZXBDczdlS0NLcjdXSHlsUU41QVRhdzhHc1NIREYwWElrQnBPRlo5cTJQR2ZqVTN0aTBIcS1pWHhwMDVfTGxUeU9YYnZfYlFoMEphRWUteHh1UktVR29EcnBGd0RoQ3dieG1uakRuNmU0alc2QzY3cnVaRkZBWWpaeGl3LXBKNUhlQTFpN0pBZDZOVDhPV050OHRVVk9oUjVTY2NrWXNQa3AwQ0hkc3BKdkNDMXBBOEI1a2ZYdkdVVWlJ?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-08T17:08:57+00:00"
-   },
-   {
-    "titulo": "PP y Vox tumban en la Asamblea la propuesta del PSOE para respaldar el olivar tradicional de montaña Manzanilla Cacereña",
-    "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNkpKRzVpTUZYSFR6akFrWEhBaEd2T1NxRmtQQlRRd2FtZzVrSUxQMnNtRms1VU1LcnNiZHFUV2E5U0swTnhYM1liTGlUZUM3bGxpUFZ1YTlUREtYUjUzTS01YVd5amtFbDhyc3NiY2M4X3hCMFhlZXdJb0Y5aEgyWEJSMkJ6d0hnTzdyOUJFcU42RG5YamlhNHA3QjR2dzNTYjVRelBhc3hJM3RhcGh1bFRMREd6eWlhUDhyWWN6TEZNbnZ6LUhuaHc2Mmh4QTNvMG1aeEo4cVlrMm9SMV85UjVEdTdLeUFVZzhLbE1BRdIB9AFBVV95cUxNWW9fQmRaNEdWNnRBZE00Y3doOW10c19XWC00bFBZMFJqR2JSeF80M3drRURYZElfU1dtWmF1d1drUVBSWU51UlVOc0tFMXBoa3dWamVGc0lnWkJFV0wwU2pCU0ZXeEtjWEM4MHdpM3ZBbVdiSzNDdDk0SmRtTGVQWmpxWXRxLWFDVlZVZ19CbWpNTE9oOG5Iay1ZeUpiVUVSM0Y3S1RhcUhmM0tRdkx1MUdFUjJBdmVvbUlBR0ZGWm13X3p4dmFHLXlSdV9WYVdhcjl2TFhyUElGbVNQVml5TThlUlRNelhqOGVaaU5nUzNIV0hh?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-10-08T17:08:44+00:00"
    }
   ],
   "Sumar": [
@@ -212,7 +214,7 @@
     "titulo": "Yolanda Díaz busca aprobar una subida del SMI antes de las elecciones generales para compensar la inflación",
     "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPYjhOd2JJLWEyTGc5dGdSQnlXblFpMTQxb0tDbWxKQjJTVkJSVTJzM3RHM2dFN1FMWTkzUDJYVWMxcTZiSEtrRDk0c0h6bVpzREI4cGZZNG03NUNSTlFzT1NrdXU3R2pURTEwaEdvT1U5TllvQ3Z0cHJLR3Z0aDZBQkRGNGtGelRhUDlIRXFhbFFOdWE0OTAxYWJ1ZFlMMkVXTWVxT0dPaDdOWVJNQ3RDOC1Ta1lOV1NaWnVfRnFTLUExb3FHeUFFS0tVamtiUDFHY1RYNThvb3NvOEdCUm1zaWkzOU7SAf8BQVVfeXFMUExVajMta0dDVk90VWxyVVRoaFNhUXlMclJab0xGR2lxaUlwalplOE5WdHpadEpMTVNRZUhCWHJINFJ6Y3BhcjlQZEMzcnF2aS12OWZKcHdfQXRtVDdBS2U4aG9vTk43SU9hLVNTRGVDRm9Qc29mamI1U3JMaFdQQnI2bFN5aDFtVTFrUV9IUW5nSFFkVlZLRlBpWmRWNWRUQnVldzRKTmxRSUl2dWpJb1VKX2lCOHBsUmlsN3lKZGtnVy14dF9Jd0pOc2RwNnFIUlNXRURta25iTk4zZlJXVEZPLWVWdEpQa0U5WGl1aGh0VGQ2VmpRU3Q1enVWS240?oc=5",
     "fuente": "Infobae",
-    "fecha": "2026-10-08T14:37:24+00:00"
+    "fecha": "2026-10-08T15:13:00+00:00"
    },
    {
     "titulo": "Miguel Sebastián, sobre la subida del SMI antes de las elecciones: \"Creo que forma parte de la oferta electoral de Yolanda Díaz\"",
