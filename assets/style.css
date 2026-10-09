@@ -395,10 +395,22 @@ details[open] summary::after { content: "–"; }
 /* Modo partido */
 .foco-tira { margin: 2px 0 10px; }
 .foco-tira .eti { display: block; font-size: .78rem; color: var(--gris); font-weight: 600; margin: 0 2px 5px; }
+.foco-tira .carril { position: relative; }
 .foco-tira .fila { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
 .foco-tira .fila::-webkit-scrollbar { display: none; }
-.foco-tira button { flex: none; display: inline-flex; align-items: center; gap: 6px; border: 2px solid var(--linea); background: var(--superficie); border-radius: 999px; padding: 5px 12px; font: inherit; font-size: .84rem; font-weight: 600; color: var(--tinta); cursor: pointer; white-space: nowrap; }
-.foco-tira button[aria-pressed="true"] { border-color: var(--tinta); }
+.foco-tira .fila.arrastrando { cursor: grabbing; user-select: none; }
+.foco-tira .fila.arrastrando button { pointer-events: none; }
+.foco-tira .flecha { display: none; }
+@media (hover: hover) and (pointer: fine) {
+  .foco-tira .fila button { user-select: none; }
+  .foco-tira .flecha:not([hidden]) { display: flex; position: absolute; top: 0; bottom: 4px; width: 64px; padding: 0; border: 0; align-items: center; cursor: pointer; z-index: 1; }
+  .foco-tira .flecha.izq { left: 0; justify-content: flex-start; background: linear-gradient(to right, var(--papel) 45%, transparent); }
+  .foco-tira .flecha.der { right: 0; justify-content: flex-end; background: linear-gradient(to left, var(--papel) 45%, transparent); }
+  .foco-tira .flecha span { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--superficie); border: 2px solid var(--linea); font-size: 1.25rem; line-height: 1; font-weight: 700; color: var(--tinta); padding-bottom: 3px; }
+  .foco-tira .flecha:hover span, .foco-tira .flecha:focus-visible span { border-color: var(--tinta); }
+}
+.foco-tira .fila button { flex: none; display: inline-flex; align-items: center; gap: 6px; border: 2px solid var(--linea); background: var(--superficie); border-radius: 999px; padding: 5px 12px; font: inherit; font-size: .84rem; font-weight: 600; color: var(--tinta); cursor: pointer; white-space: nowrap; }
+.foco-tira .fila button[aria-pressed="true"] { border-color: var(--tinta); }
 .foco-caja:empty { display: none; }
 .pregunta.foco { border-top: 6px solid var(--c); margin: 0 0 14px; }
 .pregunta.foco h3 { font-size: 1rem; margin: 16px 0 6px; }

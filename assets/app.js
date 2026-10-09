@@ -80,6 +80,7 @@ function contar(nombre) {
 }
 document.querySelector("script[data-goatcounter]")?.addEventListener("load", () => { visitas.cola.splice(0).forEach((f) => f()); });
 const NOMBRE_PESTANA = { hoy: "Hoy", mapa: "Provincias", encuestas: "Encuestas", senado: "Senado", simulador: "Y si", noticias: "Noticias", el29n: "29N", metodologia: "Metodología" };
+let carrilVivo; // vuelve a medir las flechas de la fila de partidos
 function activarPestana(id) {
   const ids = ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias", "el29n", "metodologia"];
   if (!ids.includes(id)) id = "hoy";
@@ -89,6 +90,7 @@ function activarPestana(id) {
   $(".mas-boton")?.classList.toggle("activa", !!document.querySelector(`.mas-hoja a[data-tab="${id}"]`));
   cerrarMas();
   $("#foco-tira").hidden = id === "el29n" || id === "metodologia"; // ahí no hay nada propio de un partido
+  carrilVivo?.();
   window.scrollTo({ top: 0 });
   if (id === "encuestas" && !graficoTendencia && D.listo) pintarTendencia();
   if (id === "encuestas" && D.listo) pintarGraficoFoco();
@@ -898,6 +900,36 @@ let graficoFoco;
 try { foco.k = localStorage.getItem("partido") || null; } catch {}
 function elegirFoco(k) { foco.k = k; if (k) contar("Usa el modo partido"); try { if (k) localStorage.setItem("partido", k); else localStorage.removeItem("partido"); } catch {} pintarFoco(); if (foco.ctx) pintarListaPartidos(foco.ctx.m, foco.ctx.m7, foco.ctx.proy); }
 const agujaFija = (titulo, p, col) => el("div", { class: "medidor-a fijo" }, el("span", { class: "tit" }, titulo), el("span", { class: "svg", html: aguja(p, col) }), el("b", {}, cap(palabra(p))));
+/* La fila de partidos no cabe entera. Con el dedo se desliza; con ratón hacen falta flechas y poder arrastrarla. */
+function carril(fila, donde = 0) {
+  const paso = (s) => fila.scrollBy({ left: s * Math.max(160, fila.clientWidth * 0.7), behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  const izq = el("button", { type: "button", class: "flecha izq", "aria-label": "Ver los partidos de antes", hidden: true, onclick: () => paso(-1) }, el("span", { "aria-hidden": "true" }, "‹"));
+  const der = el("button", { type: "button", class: "flecha der", "aria-label": "Ver más partidos", hidden: true, onclick: () => paso(1) }, el("span", { "aria-hidden": "true" }, "›"));
+  const medir = () => { const resto = fila.scrollWidth - fila.clientWidth; izq.hidden = fila.scrollLeft < 4; der.hidden = fila.scrollLeft > resto - 4; };
+  fila.addEventListener("scroll", medir, { passive: true });
+  let x0 = null, s0 = 0, movida = false;
+  const soltar = () => { x0 = null; fila.classList.remove("arrastrando"); };
+  fila.addEventListener("pointerdown", (e) => { if (e.pointerType !== "mouse" || e.button !== 0) return; x0 = e.clientX; s0 = fila.scrollLeft; movida = false; });
+  fila.addEventListener("pointermove", (e) => {
+    if (x0 == null) return;
+    if (!(e.buttons & 1)) return soltar();
+    const dx = e.clientX - x0;
+    if (!movida && Math.abs(dx) > 5) { movida = true; fila.setPointerCapture(e.pointerId); fila.classList.add("arrastrando"); }
+    if (movida) fila.scrollLeft = s0 - dx;
+  });
+  fila.addEventListener("pointerup", soltar);
+  fila.addEventListener("pointercancel", soltar);
+  fila.addEventListener("click", (e) => { if (movida) { e.preventDefault(); e.stopPropagation(); movida = false; } }, true); // soltar tras arrastrar no elige partido
+  carrilVivo = medir;
+  requestAnimationFrame(() => {
+    fila.scrollLeft = donde;
+    const b = fila.querySelector('[data-k][aria-pressed="true"]'); // el partido elegido, siempre a la vista
+    if (b && fila.clientWidth) { const a = b.offsetLeft - fila.offsetLeft, z = a + b.offsetWidth; if (a < fila.scrollLeft + 34) fila.scrollLeft = a - 40; else if (z > fila.scrollLeft + fila.clientWidth - 34) fila.scrollLeft = z - fila.clientWidth + 40; }
+    medir();
+  });
+  return el("div", { class: "carril" }, izq, fila, der);
+}
+addEventListener("resize", () => carrilVivo?.());
 const ORDINAL = ["", "primero", "segundo", "tercero", "cuarto", "quinto", "sexto", "séptimo", "octavo", "noveno", "décimo"];
 function pintarFoco(ctx) {
   if (ctx) foco.ctx = ctx;
@@ -906,10 +938,11 @@ function pintarFoco(ctx) {
   const partidos = ordenar(m.media).filter((x) => D.config.partidos[x] && (m.media[x] >= 0.8 || (proy.total[x] || 0) > 0));
   if (foco.k && !partidos.includes(foco.k)) foco.k = null;
   const k = foco.k;
-  $("#foco-tira").replaceChildren(el("span", { class: "eti" }, k ? `Toda la app, centrada en ${nombre(k)}` : "Céntrate en un partido"),
-    el("div", { class: "fila" }, el("button", { type: "button", "aria-pressed": k ? "false" : "true", onclick: () => elegirFoco(null) }, "Todos"),
-      ...partidos.map((x) => el("button", { type: "button", "data-k": x, "aria-pressed": k === x ? "true" : "false", style: k === x ? { background: color(x), borderColor: color(x), color: "#fff" } : null, onclick: () => elegirFoco(k === x ? null : x) },
-        el("i", { class: "punto", style: { background: k === x ? "#fff" : color(x) } }), nombre(x)))));
+  const donde = $("#foco-tira .fila")?.scrollLeft || 0; // al repintar, la fila se queda donde estaba
+  const fila = el("div", { class: "fila" }, el("button", { type: "button", "aria-pressed": k ? "false" : "true", onclick: () => elegirFoco(null) }, "Todos"),
+    ...partidos.map((x) => el("button", { type: "button", "data-k": x, "aria-pressed": k === x ? "true" : "false", style: k === x ? { background: color(x), borderColor: color(x), color: "#fff" } : null, onclick: () => elegirFoco(k === x ? null : x) },
+      el("i", { class: "punto", style: { background: k === x ? "#fff" : color(x) } }), nombre(x))));
+  $("#foco-tira").replaceChildren(el("span", { class: "eti" }, k ? `Toda la app, centrada en ${nombre(k)}` : "Céntrate en un partido"), carril(fila, donde));
   const caja = (id) => $(`#foco-${id}`);
   for (const id of ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias"]) caja(id).replaceChildren();
   graficoFoco?.destroy(); graficoFoco = null;
