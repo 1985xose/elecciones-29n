@@ -1145,7 +1145,9 @@ async function refrescar() {
    Al final de Metodología hay un desplegable que pide una clave. Es una clave de GoatCounter con permiso solo para leer
    estadísticas. Se guarda en este dispositivo (nunca en el repositorio) y con ella la app lee las cifras y las enseña
    arriba de Metodología. El dispositivo que tiene la clave es del autor, así que deja de contar como visita: se marca
-   con «skipgc», que es la señal que el propio contador respeta. Sin clave no se pide ni se enseña nada. */
+   con «skipgc», que es la señal que el propio contador respeta. Sin clave no se pide ni se enseña nada.
+   GoatCounter admite 4 peticiones por segundo y el navegador hace dos por cada lectura (la de permiso y la de verdad),
+   así que las lecturas van en fila, de una en una y con un respiro entre ellas. Si aun así una choca, se reintenta. */
 const VIS = { clave: null, datos: null, periodo: "semana", detalle: {}, todos: false, cargando: false, error: null, leido: null };
 const VIS_DESDE = "2026-10-09"; // el día que se puso el contador
 const VIS_API = (document.querySelector("script[data-goatcounter]")?.dataset.goatcounter || "").replace(/\/count$/, "/api/v0");
@@ -1153,23 +1155,25 @@ try { VIS.clave = localStorage.getItem("clave-visitas") || null; if (VIS.clave) 
 const VIS_ERROR = {
   clave: "Esa clave no vale.",
   permiso: "La clave vale, pero no tiene permiso para leer estadísticas.",
-  prisa: "Demasiadas peticiones seguidas. Espera un momento y prueba otra vez.",
+  prisa: "El contador pide ir más despacio. Espera un momento y pulsa Actualizar.",
   red: "No se ha podido conectar con el contador. Puede que este navegador lo bloquee o que no haya conexión.",
   fallo: "El contador ha respondido con un error. Prueba más tarde.",
 };
 const VIS_PERIODOS = [["hoy", "Hoy"], ["semana", "Últimos 7 días"], ["todo", null]];
 const VIS_USOS = [...Object.values(NOMBRE_PESTANA).map((n) => `Pestaña ${n}`), "Usa el modo partido", "Usa monta tu caso", "Comparte la foto", "Abre el menú Más"];
 const visUso = (n) => ({ "Pestaña Hoy": "Vuelven a Hoy", "Usa el modo partido": "Modo partido", "Usa monta tu caso": "Monta tu caso", "Comparte la foto": "Compartir la foto", "Abre el menú Más": "Menú Más" })[n] || n.replace(/^Pestaña /, "");
-/* De dónde llega una visita, dicho con nombre conocido. Lo que no se reconoce se enseña tal cual. */
+/* De dónde llega una visita, dicho con nombre conocido. Vale tanto para la página de la que viene como para la
+   etiqueta que se le ponga al enlace (…/elecciones-29n/?ref=instagram). Lo que no se reconoce se enseña tal cual. */
 function visOrigen(n) {
-  const t = (n || "").toLowerCase(), sitio = t.split("/")[0];
+  const t = (n || "").trim().toLowerCase(), sitio = t.split("/")[0];
   if (!t) return "Sin origen";
   if (sitio === "1985xose.github.io") return "Desde la propia app";
-  for (const [patron, nombre] of [[/linkedin|lnkd\.in/, "LinkedIn"], [/instagram/, "Instagram"], [/facebook|^fb\.com$/, "Facebook"], [/whatsapp/, "WhatsApp"], [/telegram|^t\.me$/, "Telegram"],
-    [/twitter|^t\.co$|^x\.com$/, "X"], [/google/, "Google"], [/bing\./, "Bing"], [/duckduckgo/, "DuckDuckGo"], [/finofilipino/, "Finofilipino"], [/forocoches/, "Forocoches"], [/reddit/, "Reddit"],
-    [/youtube|^youtu\.be$/, "YouTube"], [/^github\.com$/, "GitHub"]]) if (patron.test(sitio)) return nombre;
-  return n;
+  for (const [patron, nombre] of [[/linkedin|lnkd\.in/, "LinkedIn"], [/instagram|^insta$|^ig$/, "Instagram"], [/facebook|^fb\.com$|^fb$/, "Facebook"], [/whatsapp|^wa\.me$|^wasap$/, "WhatsApp"], [/telegram|^t\.me$/, "Telegram"],
+    [/twitter|^t\.co$|^x\.com$|^x$/, "X"], [/google/, "Google"], [/bing\.|^bing$/, "Bing"], [/duckduckgo/, "DuckDuckGo"], [/finofilipino/, "Finofilipino"], [/forocoches/, "Forocoches"], [/reddit/, "Reddit"],
+    [/youtube|^youtu\.be$/, "YouTube"], [/^github\.com$/, "GitHub"], [/tiktok/, "TikTok"], [/bsky|bluesky/, "Bluesky"], [/threads\.net|^threads$/, "Threads"], [/mastodon/, "Mastodon"]]) if (patron.test(sitio)) return nombre;
+  return sitio.includes(".") ? n : cap(n.trim());
 }
+const visPais = (() => { let dn; try { dn = new Intl.DisplayNames("es", { type: "region" }); } catch {} return (x) => { try { return (x.id && dn?.of(x.id.toUpperCase())) || x.name || "No se sabe"; } catch { return x.name || "No se sabe"; } }; })();
 /* El instante en que empieza un día en la península, para pedir al contador justo desde ahí. */
 function inicioDia(dia) {
   const t = new Date(dia + "T00:00:00Z");
@@ -1177,7 +1181,8 @@ function inicioDia(dia) {
   return new Date(t.getTime() - (m ? +m[1] : 1) * 3600000);
 }
 const visISO = (d) => d.toISOString().replace(/\.\d+Z$/, "Z");
-async function visPedir(ruta, params, clave) {
+const visPausa = (ms) => new Promise((r) => setTimeout(r, ms));
+async function visUna(ruta, params, clave) {
   const u = new URL(VIS_API + ruta);
   for (const [k, v] of Object.entries(params || {})) u.searchParams.set(k, v);
   let r;
@@ -1185,39 +1190,66 @@ async function visPedir(ruta, params, clave) {
   if (!r.ok) throw new Error(r.status === 401 ? "clave" : r.status === 403 ? "permiso" : r.status === 429 ? "prisa" : "fallo");
   return r.json();
 }
+let visFila_ = Promise.resolve(), visUltima = 0;
+const VIS_RESPIRO = 650; // ms entre lecturas: dos peticiones por lectura, menos de 4 por segundo
+function visPedir(ruta, params, clave) {
+  const tarea = visFila_.then(async () => {
+    for (let intento = 0; ; intento++) {
+      const espera = visUltima + VIS_RESPIRO - Date.now();
+      if (espera > 0) await visPausa(espera);
+      visUltima = Date.now();
+      try { return await visUna(ruta, params, clave); }
+      catch (e) { if ((e.message === "prisa" || e.message === "red") && intento < 2) { await visPausa(1500); continue; } throw e; }
+    }
+  });
+  visFila_ = tarea.catch(() => {});
+  return tarea;
+}
 const visFin = () => new Date(Math.ceil((Date.now() + 1000) / 3600000) * 3600000); // la hora en punto siguiente
-/* Una sola petición trae cada página y cada uso con sus cifras día a día. De ahí salen las tres cifras, la lista de días y «Qué miran». */
+/* Una sola lectura trae cada página y cada uso con sus cifras día a día y hora a hora. De ahí salen las tres cifras,
+   la lista de días, las horas y «Qué miran». */
 async function visLeer(clave) {
   const r = await visPedir("/stats/hits", { start: visISO(inicioDia(VIS_DESDE)), end: visISO(visFin()), daily: "true", limit: "100" }, clave);
   const hits = r.hits || [], porDia = (h) => Object.fromEntries((h.stats || []).map((s) => [s.day, s.daily || 0]));
   const dias = [...new Set(hits.flatMap((h) => (h.stats || []).map((s) => s.day)))].filter((d) => d >= VIS_DESDE).sort();
   if (!dias.includes(diaMadrid())) dias.push(diaMadrid());
   const entradas = hits.filter((h) => !h.event), usos = hits.filter((h) => h.event);
-  const suma = {}; for (const h of entradas) for (const [d, n] of Object.entries(porDia(h))) suma[d] = (suma[d] || 0) + n;
-  return { dias, entradas: suma, ids: entradas.map((h) => h.path_id), usos: usos.map((h) => ({ nombre: h.path, dias: porDia(h) })) };
+  const suma = {}, horas = {};
+  for (const h of entradas) for (const s of h.stats || []) {
+    suma[s.day] = (suma[s.day] || 0) + (s.daily || 0);
+    const hh = (horas[s.day] ||= new Array(24).fill(0));
+    (s.hourly || []).forEach((n, i) => { if (i < 24) hh[i] += n || 0; });
+  }
+  return { dias, entradas: suma, horas, ids: entradas.map((h) => h.path_id).filter((x) => x != null), usos: usos.map((h) => ({ nombre: h.path, dias: porDia(h) })) };
 }
 const visDias = (p) => p === "hoy" ? VIS.datos.dias.slice(-1) : p === "semana" ? VIS.datos.dias.slice(-7) : VIS.datos.dias;
 const visSuma = (porDia, dias) => dias.reduce((a, d) => a + (porDia[d] || 0), 0);
-/* De dónde llegan y con qué entran, solo de las entradas a la app (no de los usos) y del tramo elegido. */
-async function visDetalle(p) {
+/* Lo demás que sabe el contador, solo de las entradas a la app (no de los usos) y del tramo elegido. Cada lista se
+   pide por separado y se pinta en cuanto llega. Si una falla, las otras siguen. */
+const VIS_LISTAS = [["origen", "toprefs"], ["paises", "locations"], ["pantallas", "sizes"], ["sistemas", "systems"], ["navegadores", "browsers"]];
+function visDetalle(p) {
   if (VIS.detalle[p] || !VIS.datos?.ids.length) return;
-  const q = { start: visISO(inicioDia(visDias(p)[0])), end: visISO(visFin()), include_paths: VIS.datos.ids.join(","), limit: "30" };
-  const [refs, tam] = [await visPedir("/stats/toprefs", q, VIS.clave), await visPedir("/stats/sizes", q, VIS.clave)];
-  const origen = {}; for (const x of refs.stats || []) { const n = visOrigen(x.name); origen[n] = (origen[n] || 0) + x.count; }
-  const t = Object.fromEntries((tam.stats || []).map((x) => [x.id, x.count]));
-  VIS.detalle[p] = { origen, con: { "Móvil": t.phone || 0, "Tableta": t.tablet || 0, "Ordenador": (t.desktop || 0) + (t.desktophd || 0), "No se sabe": t.unknown || 0 } };
+  const det = VIS.detalle[p] = {}, datos = VIS.datos;
+  const q = { start: visISO(inicioDia(visDias(p)[0])), end: visISO(visFin()), include_paths: datos.ids.join(","), limit: "30" };
+  for (const [clave, ruta] of VIS_LISTAS) {
+    visPedir(`/stats/${ruta}`, q, VIS.clave).then((r) => {
+      const filas = {}, st = r.stats || [];
+      if (clave === "origen") for (const x of st) { const n = visOrigen(x.name); filas[n] = (filas[n] || 0) + x.count; }
+      else if (clave === "paises") for (const x of st) { const n = visPais(x); filas[n] = (filas[n] || 0) + x.count; }
+      else if (clave === "pantallas") { const t = Object.fromEntries(st.map((x) => [x.id, x.count])); Object.assign(filas, { "Móvil": t.phone || 0, "Tableta": t.tablet || 0, "Ordenador": (t.desktop || 0) + (t.desktophd || 0), "No se sabe": t.unknown || 0 }); }
+      else for (const x of st) { const n = x.name || "No se sabe"; filas[n] = (filas[n] || 0) + x.count; }
+      det[clave] = filas;
+    }).catch((e) => { det[clave] = { error: VIS_ERROR[e.message] || VIS_ERROR.fallo }; }).finally(() => { if (VIS.datos === datos) pintarVisitas(); });
+  }
 }
 async function visActualizar() {
   if (!VIS.clave || VIS.cargando) return;
   VIS.cargando = true; VIS.error = null; pintarVisitas();
-  try { VIS.datos = await visLeer(VIS.clave); VIS.detalle = {}; await visDetalle(VIS.periodo); VIS.leido = new Date(); }
+  try { VIS.datos = await visLeer(VIS.clave); VIS.detalle = {}; VIS.leido = new Date(); visDetalle(VIS.periodo); }
   catch (e) { VIS.error = VIS_ERROR[e.message] || VIS_ERROR.fallo; }
   VIS.cargando = false; pintarVisitas();
 }
-async function visElegir(p) {
-  VIS.periodo = p; pintarVisitas();
-  if (!VIS.detalle[p]) { try { await visDetalle(p); } catch (e) { VIS.error = VIS_ERROR[e.message] || VIS_ERROR.fallo; } pintarVisitas(); }
-}
+function visElegir(p) { VIS.periodo = p; visDetalle(p); pintarVisitas(); }
 function visQuitar() {
   if (!confirm("Se quita la clave de este dispositivo y vuelve a contar como una visita más. ¿Seguro?")) return;
   try { localStorage.removeItem("clave-visitas"); localStorage.removeItem("skipgc"); } catch {}
@@ -1226,6 +1258,14 @@ function visQuitar() {
 }
 const visFila = (nombre, n, max, valor, nota) => el("div", { class: "vis-fila" }, el("span", {}, nombre, nota ? el("small", {}, nota) : null),
   el("span", { class: "barra" }, el("i", { style: { width: `${max ? Math.min(100, Math.round(100 * n / max)) : 0}%` } })), el("b", {}, valor ?? fmt0.format(n)));
+/* Una lista del detalle: título, y debajo las filas, «Leyendo…» si aún no ha llegado o el aviso si ha fallado. */
+function visLista(titulo, sub, filas, N, nota) {
+  const cab = [el("h3", {}, titulo), sub ? el("p", { class: "sub" }, sub) : null];
+  if (!filas) return [...cab, el("p", { class: "sub" }, "Leyendo…")];
+  if (filas.error) return [...cab, el("p", { class: "vis-aviso" }, filas.error)];
+  const o = Object.entries(filas).filter(([, c]) => c > 0).sort((a, b) => b[1] - a[1]);
+  return [...cab, ...(o.length ? o.map(([n, c]) => visFila(n, c, N, null, nota?.(n))) : [el("p", { class: "sub" }, "Sin datos todavía.")])];
+}
 function pintarVisitas() {
   const caja = $("#visitas"), puerta = $("#visitas-puerta");
   if (!caja || !puerta) return;
@@ -1247,21 +1287,22 @@ function pintarVisitas() {
       lista.length > 14 ? el("button", { type: "button", class: "ver-mas", onclick: () => { VIS.todos = !VIS.todos; pintarVisitas(); } }, VIS.todos ? "Ver solo los últimos 14 días" : `Ver los ${lista.length} días`) : null);
     const tramo = VIS.periodo === "hoy" ? "de hoy" : VIS.periodo === "semana" ? "de los últimos 7 días" : "desde el principio";
     const de = `${fmt0.format(N)} ${N === 1 ? "entrada" : "entradas"} ${tramo}`;
-    const D2 = VIS.detalle[VIS.periodo];
-    if (N && D2) {
-      const o = Object.entries(D2.origen).sort((a, b) => b[1] - a[1]);
-      hijos.push(el("h3", {}, "De dónde llegan"), el("p", { class: "sub" }, `De las ${de}.`),
-        ...(o.length ? o.map(([n, c]) => visFila(n, c, N, null, n === "Sin origen" ? "WhatsApp, app instalada o dirección escrita" : null)) : [el("p", { class: "sub" }, "Sin datos.")]));
+    const D2 = VIS.detalle[VIS.periodo] || {};
+    if (N) {
+      // A qué horas
+      const hh = new Array(24).fill(0); for (const d of dias) (X.horas[d] || []).forEach((n, i) => { hh[i] += n; });
+      const tope = Math.max(...hh), punta = hh.indexOf(tope);
+      if (tope > 0) hijos.push(el("h3", {}, "A qué horas entran"), el("p", { class: "sub" }, `La hora con más entradas es la de las ${punta}, con ${fmt0.format(tope)}. Va con la hora que tenga puesta tu cuenta de GoatCounter.`),
+        el("div", { class: "vis-horas", role: "img", "aria-label": `Entradas por hora. La hora con más es la de las ${punta}, con ${tope}.` }, ...hh.map((n, i) => el("i", { title: `${i} h, ${n}`, style: { height: `${Math.max(n ? 8 : 2, Math.round(100 * n / tope))}%` }, class: n ? null : "cero" }))),
+        el("div", { class: "vis-horas-eje" }, ...["0 h", "6 h", "12 h", "18 h", "23 h"].map((t) => el("span", {}, t))));
+      hijos.push(...visLista("De dónde llegan", `De las ${de}. Para que un enlace diga de dónde viene, añádele ?ref=sitio al final.`, D2.origen, N, (n) => n === "Sin origen" ? "WhatsApp, app instalada, dirección escrita o enlace sin etiqueta" : null));
     }
     const usos = X.usos.map((u) => ({ nombre: u.nombre, n: visSuma(u.dias, dias) })).filter((u) => u.n > 0).sort((a, b) => b.n - a.n);
     const sinUso = VIS_USOS.filter((n) => !usos.some((u) => u.nombre === n)).map(visUso);
     hijos.push(el("h3", {}, "Qué miran"), el("p", { class: "sub" }, N ? `En cuántas de las ${de} se hizo cada cosa.` : `No hay entradas ${tramo}.`),
       ...usos.map((u) => visFila(visUso(u.nombre), u.n, N, N ? `${fmt0.format(u.n)} de ${fmt0.format(N)}` : fmt0.format(u.n))),
       sinUso.length && N ? visFila(sinUso.join(", "), 0, N, "0") : null);
-    if (N && D2) {
-      const c = Object.entries(D2.con).filter(([, n]) => n > 0);
-      if (c.length) hijos.push(el("h3", {}, "Con qué entran"), ...c.map(([n, x]) => visFila(n, x, N)));
-    }
+    if (N) hijos.push(...visLista("Desde qué países", null, D2.paises, N), ...visLista("Con qué entran", null, D2.pantallas, N), ...visLista("Con qué sistema", null, D2.sistemas, N), ...visLista("Con qué navegador", null, D2.navegadores, N));
   } else if (!VIS.error) hijos.push(el("p", { class: "sub" }, "Leyendo las cifras…"));
   hijos.push(pie);
   caja.replaceChildren(el("article", { class: "pregunta vis" }, ...hijos.filter(Boolean)));
@@ -1276,9 +1317,7 @@ $("#visitas-form")?.addEventListener("submit", async (e) => {
     try { localStorage.setItem("clave-visitas", clave); localStorage.setItem("skipgc", "t"); } catch {}
     Object.assign(VIS, { clave, datos, detalle: {}, error: null, leido: new Date() });
     campo.value = ""; aviso.textContent = "";
-    pintarVisitas(); $("#visitas").scrollIntoView({ block: "start" });
-    try { await visDetalle(VIS.periodo); } catch {}
-    pintarVisitas();
+    visDetalle(VIS.periodo); pintarVisitas(); $("#visitas").scrollIntoView({ block: "start" });
   } catch (err) { aviso.textContent = VIS_ERROR[err.message] || VIS_ERROR.fallo; }
 });
 pintarVisitas();

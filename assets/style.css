@@ -486,3 +486,7 @@ details[open] summary::after { content: "–"; }
 .vis-pie { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin-top: 18px; font-size: .84rem; color: var(--gris); }
 .vis-pie button { border: 2px solid var(--linea); background: var(--superficie); border-radius: 999px; padding: 6px 14px; font: inherit; font-weight: 650; color: var(--tinta); cursor: pointer; }
 .vis-pie button.enlace { border: 0; background: none; padding: 0; margin-left: auto; font-weight: 500; color: var(--gris); text-decoration: underline; }
+.vis-horas { display: grid; grid-template-columns: repeat(24, 1fr); gap: 2px; align-items: end; height: 72px; padding-top: 4px; border-bottom: 1px solid var(--linea); }
+.vis-horas i { display: block; background: var(--tinta); border-radius: 3px 3px 0 0; min-height: 2px; }
+.vis-horas i.cero { background: var(--linea); }
+.vis-horas-eje { display: flex; justify-content: space-between; font-size: .72rem; color: var(--gris); margin-top: 3px; }
