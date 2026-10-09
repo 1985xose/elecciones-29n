@@ -150,10 +150,21 @@ document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") cerrarMa
 window.addEventListener("hashchange", () => activarPestana(location.hash.slice(1)));
 
 /* ---------- Media ---------- */
+/* Partidos que han anunciado que no se presentan (config.partidos[k].no_concurre). Salen de la media, del reparto y de
+   todo lo que cuelga de ellos, aunque encuestas anteriores al anuncio los incluyan. Sus votos no se le dan a nadie. */
+const noConcurren = () => Object.keys(D.config?.partidos || {}).filter((k) => D.config.partidos[k].no_concurre);
+function notaNoConcurren() {
+  const ks = noConcurren();
+  if (!ks.length) return null;
+  const f = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "long", timeZone: "UTC" });
+  return el("p", { class: "explica nota-fuera" }, ...ks.flatMap((k, i) => { const x = D.config.partidos[k].no_concurre;
+    return [i ? " " : null, el("b", {}, `${nombre(k)} no se presenta a estas elecciones.`), ` Lo anunció el ${f.format(fechaD(x.fecha))}`, x.fuente ? [" (", el("a", { href: x.fuente, target: "_blank", rel: "noopener" }, "fuente"), ")"] : null, "."]; }),
+    ` Por eso no sale en la media ni en el reparto de asientos, aunque algunas encuestas de antes ${ks.length > 1 ? "los" : "la"} incluyan. Sus votos no se le suman a ningún otro partido, porque no hay dato de adónde irán. Las encuestas nuevas ya lo recogerán.`);
+}
 /* La media de un día, con la regla que tocaba ese día según lo que faltara para votar. La gráfica usa la misma. */
 function calcMedia(fecha = hoy()) {
   const va = Media.ventanaAdaptativa(fecha, fechaD(D.config.eleccion.fecha));
-  return { ...Media.calcMedia(D.encuestas?.encuestas || [], fecha, { ...va, ranking: D.fiabilidad?.ranking, sesgos: D.analisis?.sesgos }), fase: va.fase, mitad: va.mitad };
+  return { ...Media.calcMedia(D.encuestas?.encuestas || [], fecha, { ...va, ranking: D.fiabilidad?.ranking, sesgos: D.analisis?.sesgos, fuera: noConcurren() }), fase: va.fase, mitad: va.mitad };
 }
 
 /* Patrón de colores de una coalición según el peso de cada partido en escaños (p. ej. 2 PP por cada Vox) */
@@ -431,7 +442,7 @@ function pintarListaPartidos(m, m7, proy) {
       el("div", { class: "esc" }, D.prob?.partidos?.[k] ? `entre ${D.prob.partidos[k].p10} y ${D.prob.partidos[k].p90} asientos` : `${proy.total[k] || 0} asientos`)); };
   poner($("#lista-partidos"), ...(enc.todos ? o : grandes).map(fila),
     resto > 0 ? el("button", { class: "ver-mas", type: "button", "aria-expanded": enc.todos ? "true" : "false", onclick: () => { enc.todos = !enc.todos; pintarListaPartidos(m, m7, proy); } },
-      enc.todos ? "Ver solo los más votados" : `Ver los otros ${resto} partidos`) : null);
+      enc.todos ? "Ver solo los más votados" : `Ver los otros ${resto} partidos`) : null, notaNoConcurren());
 }
 function pintarEncuestas(m, m7, proy) {
   const o = ordenar(m.media).filter((k) => m.media[k] >= 0.5);
@@ -1423,7 +1434,7 @@ function pintarVisitas() {
       if (tope > 0) hijos.push(el("h3", {}, "A qué horas entran"), el("p", { class: "sub" }, `De las ${de}. La hora con más es la de las ${punta}, con ${fmt0.format(tope)}.`),
         el("div", { class: "vis-horas", role: "img", "aria-label": `Entradas por hora. La hora con más es la de las ${punta}, con ${tope}.` }, ...hh.map((n, i) => el("i", { title: `${i} h, ${n}`, style: { height: `${Math.max(n ? 8 : 2, Math.round(100 * n / tope))}%` }, class: n ? null : "cero" }))),
         el("div", { class: "vis-horas-eje" }, ...["0 h", "6 h", "12 h", "18 h", "23 h"].map((t) => el("span", {}, t))));
-      hijos.push(...visLista("De dónde llegan", `De las ${de}. El panel de GoatCounter suma además cada pestaña que se abre, por eso allí salen cifras más altas.`, D2.origen, N,
+      hijos.push(...visLista("De dónde llegan", `De las ${de}. Para comparar con GoatCounter hay que mirar allí la fila /elecciones-29n de la lista Pages. Su lista «Top referrers» da cifras más altas porque suma además cada pestaña que se abre.`, D2.origen, N,
         (n) => n === "Sin origen" ? "WhatsApp, app instalada o dirección escrita. Con ?ref=sitio al final del enlace, sale el sitio" : n === "Desde la propia app" ? "Gente que ya la tenía abierta y vuelve a ella" : null));
     }
     const usos = X.usos.map((u) => ({ nombre: u.nombre, n: visSuma(u.dias, dias) })).filter((u) => u.n > 0).sort((a, b) => b.n - a.n);

@@ -29,3 +29,5 @@ Las visitas se cuentan con GoatCounter (cuenta `xose`, panel en https://xose.goa
 ## Secretos del repo (opcionales)
 
 `TELEGRAM_TOKEN` y `TELEGRAM_CHAT_ID`. Sin ellos funciona todo menos los avisos, la porra y el resumen diario.
+
+Si un partido anuncia que no se presenta, se marca en `data/config.json` con `"no_concurre": { "fecha": "AAAA-MM-DD", "fuente": "enlace" }` dentro de su ficha. Sale de la media (`calcMedia`, opción `fuera`), del reparto y de la simulación, y en Encuestas aparece una nota que lo explica. Sus votos no se le dan a nadie. Primer caso, Aliança Catalana, anunciado el 5 de octubre de 2026.

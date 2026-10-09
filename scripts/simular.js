@@ -279,11 +279,14 @@ function main() {
   const dias = Math.round((fechaD(config.eleccion.fecha) - hoy) / DIA);
   const va = Me.ventanaAdaptativa(hoy, fechaD(config.eleccion.fecha));
   console.log(`Ventana de la media: última encuesta de cada empresa de los últimos ${va.ventana} días, el peso se queda en la mitad cada ${va.mitad} días (${va.fase}, faltan ${va.dias} días)`);
-  const mediaBruta = Me.calcMedia(encuestas, hoy, { ...va, ranking: fiab && fiab.ranking }).media;
+  // Partidos que han anunciado que no se presentan (config.partidos[k].no_concurre): fuera de la media y del reparto
+  const fuera = Object.keys(config.partidos).filter((k) => config.partidos[k].no_concurre);
+  if (fuera.length) console.log(`No concurren y salen de la media: ${fuera.join(", ")}`);
+  const mediaBruta = Me.calcMedia(encuestas, hoy, { ...va, ranking: fiab && fiab.ranking, fuera }).media;
   if (!Object.keys(mediaBruta).length) { console.log("Sin encuestas, no se simula"); return; }
   // Primero el análisis (sesgo de casa de cada empresa), después la media ya corregida con esos sesgos
   const an = analizar(encuestas, fiab && fiab.ranking, mediaBruta);
-  const { media, usadas } = Me.calcMedia(encuestas, hoy, { ...va, ranking: fiab && fiab.ranking, sesgos: an.sesgos });
+  const { media, usadas } = Me.calcMedia(encuestas, hoy, { ...va, ranking: fiab && fiab.ranking, sesgos: an.sesgos, fuera });
   console.log(`Encuestas en la media de hoy: ${usadas.map((e) => `${e.empresa_base} ${e.fin} (${Math.round(e.peso_pct * 100)} %)`).join(", ")}`);
   console.log(`Corrección de sesgo de casa: ${Object.entries(media).slice(0, 5).map(([k, v]) => `${k} ${mediaBruta[k].toFixed(1)} -> ${v.toFixed(1)}`).join(", ")}`);
   const cal = sigmas(media, historicos, dias);

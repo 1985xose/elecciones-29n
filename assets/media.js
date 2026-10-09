@@ -82,6 +82,9 @@
     }
     const media = {};
     for (const p of Object.keys(suma)) media[p] = suma[p] / pesos[p];
+    // Un partido que ha anunciado que no se presenta sale de la media aunque encuestas anteriores lo incluyan.
+    // Sus votos no se le dan a nadie: no hay dato de adónde irán, y las encuestas nuevas ya lo recogerán.
+    for (const p of opciones.fuera || []) delete media[p];
     const total = usadas.reduce((a, e) => a + e.peso, 0) || 1;
     return { media, usadas: usadas.map((e) => ({ ...e, peso_pct: e.peso / total })).sort((a, b) => b.peso - a.peso), ventana, caida };
   }

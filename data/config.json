@@ -121,7 +121,8 @@
       "color": "#1F3A5F",
       "consulta": "\"Aliança Catalana\" OR Orriols",
    "nombres": ["Aliança Catalana", "Aliança", "Orriols"],
-      "lider": "Sílvia_Orriols"
+      "lider": "Sílvia_Orriols",
+      "no_concurre": { "fecha": "2026-10-05", "fuente": "https://www.infobae.com/espana/agencias/2026/10/05/alianca-catalana-no-se-presentara-a-las-elecciones-generales/" }
     },
     "AA": {
       "nombre": "Adelante Andalucía",
