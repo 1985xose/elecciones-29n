@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-09T15:01:12+00:00",
+ "actualizado": "2026-10-09T16:01:13+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1379345374,
+ "revision": 1379372037,
  "partidos": [
   "PP",
   "PSOE",
@@ -20,31 +20,6 @@
   "AC"
  ],
  "encuestas": [
-  {
-   "empresa": "InvyMark/laSexta",
-   "inicio": "2026-10-09",
-   "fin": "2026-10-09",
-   "muestra": null,
-   "participacion": null,
-   "pct": {
-    "PP": 32.8,
-    "PSOE": 28.0,
-    "Vox": 18.8,
-    "Sumar": 6.3,
-    "ERC": 1.9,
-    "Junts": 1.2,
-    "Bildu": 1.5,
-    "PNV": 1.1,
-    "Podemos": 3.2,
-    "SALF": 1.8
-   },
-   "escanos": {},
-   "empresa_base": "InvyMark",
-   "clave": "invymark",
-   "encargo": "laSexta",
-   "id": "invymark-2026-10-09-0",
-   "primera_vez": "2026-10-09T12:01:10+00:00"
-  },
   {
    "empresa": "40dB/Prisa",
    "inicio": "2026-10-07",
@@ -80,6 +55,31 @@
    "encargo": "Prisa",
    "id": "40db-2026-10-08-800",
    "primera_vez": "2026-10-09T06:01:11+00:00"
+  },
+  {
+   "empresa": "InvyMark/laSexta",
+   "inicio": "2026-10-05",
+   "fin": "2026-10-08",
+   "muestra": null,
+   "participacion": null,
+   "pct": {
+    "PP": 32.8,
+    "PSOE": 28.0,
+    "Vox": 18.8,
+    "Sumar": 6.3,
+    "ERC": 1.9,
+    "Junts": 1.2,
+    "Bildu": 1.5,
+    "PNV": 1.1,
+    "Podemos": 3.2,
+    "SALF": 1.8
+   },
+   "escanos": {},
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "encargo": "laSexta",
+   "id": "invymark-2026-10-08-0",
+   "primera_vez": "2026-10-09T16:01:13+00:00"
   },
   {
    "empresa": "IMOP/El Confidencial",

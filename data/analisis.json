@@ -1,18 +1,18 @@
 {
- "actualizado": "2026-10-09T15:01:13.221Z",
+ "actualizado": "2026-10-09T16:01:13.677Z",
  "media_bruta": {
-  "PP": 32.398844046174624,
-  "PSOE": 26.74464385641288,
-  "Vox": 18.76152924935987,
-  "Sumar": 5.997740292300757,
-  "ERC": 2.0703089905044276,
-  "Junts": 1.3556955077893353,
-  "Bildu": 1.3735665823243723,
-  "PNV": 1.0004842400024252,
-  "Podemos": 3.240882929544462,
-  "SALF": 1.670078909754063,
+  "PP": 32.396571392434865,
+  "PSOE": 26.737531934460186,
+  "Vox": 18.76131130246296,
+  "Sumar": 5.996027911745184,
+  "Podemos": 3.2411145420678107,
+  "SALF": 1.669082631967986,
+  "ERC": 2.0717380274202286,
+  "Junts": 1.3570019251874799,
+  "Bildu": 1.3725056986874349,
+  "PNV": 0.9996492183496081,
   "BNG": 0.9430894169390496,
-  "CCa": 0.4388773472297945,
+  "CCa": 0.43887734722979443,
   "UPN": 0.20000000000000004,
   "AA": 0.9397514083356806,
   "AC": 1.0404850269272317
@@ -26,6 +26,18 @@
   "ERC"
  ],
  "sesgos": {
+  "40db": {
+   "empresa": "40dB",
+   "n": 14,
+   "sesgo": {
+    "PP": -1.21,
+    "PSOE": 1.21,
+    "Vox": -0.19,
+    "Sumar": -0.36,
+    "Podemos": -0.82
+   },
+   "sd": 0.67
+  },
   "invymark": {
    "empresa": "InvyMark",
    "n": 8,
@@ -38,18 +50,6 @@
     "ERC": -0.15
    },
    "sd": 0.54
-  },
-  "40db": {
-   "empresa": "40dB",
-   "n": 14,
-   "sesgo": {
-    "PP": -1.21,
-    "PSOE": 1.22,
-    "Vox": -0.19,
-    "Sumar": -0.36,
-    "Podemos": -0.82
-   },
-   "sd": 0.67
   },
   "dym": {
    "empresa": "DYM",
@@ -239,7 +239,7 @@
    "texto": "error medio de 1,1 puntos en 3 elecciones",
    "sesgo": {
     "PP": -1.21,
-    "PSOE": 1.22,
+    "PSOE": 1.21,
     "Vox": -0.19,
     "Sumar": -0.36,
     "Podemos": -0.82
@@ -557,10 +557,52 @@
  ],
  "ultimas": [
   {
-   "id": "invymark-2026-10-09-0",
+   "id": "40db-2026-10-08-800",
+   "empresa": "40dB",
+   "encargo": "Prisa",
+   "fin": "2026-10-08",
+   "veredicto": "ruido",
+   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
+   "nota": "A",
+   "margen": 3.5,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 31.9,
+     "esperado": 31.4,
+     "diferencia": 0.5
+    },
+    {
+     "partido": "PSOE",
+     "dado": 28.1,
+     "esperado": 27.8,
+     "diferencia": 0.3
+    },
+    {
+     "partido": "Vox",
+     "dado": 18.9,
+     "esperado": 18.5,
+     "diferencia": 0.4
+    },
+    {
+     "partido": "Sumar",
+     "dado": 5.3,
+     "esperado": 5.7,
+     "diferencia": -0.4
+    },
+    {
+     "partido": "Podemos",
+     "dado": 2.3,
+     "esperado": 2.6,
+     "diferencia": -0.3
+    }
+   ]
+  },
+  {
+   "id": "invymark-2026-10-08-0",
    "empresa": "InvyMark",
    "encargo": "laSexta",
-   "fin": "2026-10-09",
+   "fin": "2026-10-08",
    "veredicto": "leve",
    "texto": "Algo fuera de lo habitual: Sumar sube 1.1 puntos respecto a lo esperado de esta empresa.",
    "nota": "C",
@@ -601,48 +643,6 @@
      "dado": 1.9,
      "esperado": 1.9,
      "diferencia": 0
-    }
-   ]
-  },
-  {
-   "id": "40db-2026-10-08-800",
-   "empresa": "40dB",
-   "encargo": "Prisa",
-   "fin": "2026-10-08",
-   "veredicto": "ruido",
-   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
-   "nota": "A",
-   "margen": 3.5,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 31.9,
-     "esperado": 31.4,
-     "diferencia": 0.5
-    },
-    {
-     "partido": "PSOE",
-     "dado": 28.1,
-     "esperado": 27.6,
-     "diferencia": 0.5
-    },
-    {
-     "partido": "Vox",
-     "dado": 18.9,
-     "esperado": 18.5,
-     "diferencia": 0.4
-    },
-    {
-     "partido": "Sumar",
-     "dado": 5.3,
-     "esperado": 5.7,
-     "diferencia": -0.4
-    },
-    {
-     "partido": "Podemos",
-     "dado": 2.3,
-     "esperado": 2.6,
-     "diferencia": -0.3
     }
    ]
   },
