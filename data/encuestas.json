@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-09T05:01:12+00:00",
+ "actualizado": "2026-10-09T06:01:11+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1379192751,
+ "revision": 1379320127,
  "partidos": [
   "PP",
   "PSOE",
@@ -20,6 +20,42 @@
   "AC"
  ],
  "encuestas": [
+  {
+   "empresa": "40dB/Prisa",
+   "inicio": "2026-10-07",
+   "fin": "2026-10-08",
+   "muestra": 800,
+   "participacion": null,
+   "pct": {
+    "PP": 31.9,
+    "PSOE": 28.1,
+    "Vox": 18.9,
+    "Sumar": 5.3,
+    "Podemos": 2.3,
+    "SALF": 1.8
+   },
+   "escanos": {
+    "PP": 132.0,
+    "PSOE": 112.0,
+    "Vox": 66.0,
+    "Sumar": 5.0,
+    "ERC": 8.0,
+    "Junts": 7.0,
+    "Bildu": 7.0,
+    "PNV": 6.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "UPN": 1.0,
+    "AA": 1.0,
+    "Podemos": 2.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "40dB",
+   "clave": "40db",
+   "encargo": "Prisa",
+   "id": "40db-2026-10-08-800",
+   "primera_vez": "2026-10-09T06:01:11+00:00"
+  },
   {
    "empresa": "NC Report/La Razón",
    "inicio": "2026-10-01",
