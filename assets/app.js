@@ -78,10 +78,52 @@ function contar(nombre) {
   const enviar = () => { try { window.goatcounter.count({ path: nombre, title: nombre, event: true }); } catch {} };
   if (window.goatcounter?.count) enviar(); else visitas.cola.push(enviar);
 }
-document.querySelector("script[data-goatcounter]")?.addEventListener("load", () => { visitas.cola.splice(0).forEach((f) => f()); });
+/* Personas. Una «entrada» de GoatCounter no es una persona: el contador reconoce a cada visitante por su IP y su navegador
+   durante 8 horas, así que quien vuelve por la tarde o cambia de red cuenta otra vez. Para contar personas de verdad la
+   app guarda en el dispositivo dos fechas, la de la primera visita y la de la última, sin ningún identificador. Con ellas
+   avisa al contador como mucho una vez al día: «Persona nueva» la primera vez y «Persona vuelve N» las siguientes, donde
+   N son los días que hacía desde la visita anterior (de 1 a 7, y 7 quiere decir 7 o más). Con esos avisos el panel de
+   visitas sabe cuántos dispositivos distintos entran cada día, en los últimos 7 días y en total, sin repetir a nadie.
+   - «Persona de antes» es un dispositivo que ya había entrado antes de que existiera esta cuenta (versión 46). Se nota
+     porque tiene guardada una versión anterior de la app, o un partido o una provincia elegidos.
+   - «Persona sin memoria» es un navegador que no deja guardar nada (algunos modos privados). No se sabe si es nueva.
+   - Las fechas solo se guardan cuando el aviso ha salido de verdad. Con el contador bloqueado no se guarda nada.
+   - Estos avisos van con «no_session» para que el contador no junte dos dispositivos que comparten IP y modelo. */
+const PERSONAS_VERSION = 46;
+const habiaEstado = (async () => {
+  try { if (["partido", "mi-provincia"].some((k) => localStorage.getItem(k) != null)) return true; } catch {}
+  try { return (await caches.keys()).some((k) => { const m = /^29n-v(\d+)$/.exec(k); return m && +m[1] < PERSONAS_VERSION; }); } catch { return false; }
+})();
+function memoriaVale() { try { localStorage.setItem("prueba-memoria", "1"); const ok = localStorage.getItem("prueba-memoria") === "1"; localStorage.removeItem("prueba-memoria"); return ok; } catch { return false; } }
+let personaEnCurso = false;
+async function contarPersona() {
+  const gc = window.goatcounter;
+  if (personaEnCurso || !gc?.count || !gc.filter || gc.filter()) return; // sin contador, o dispositivo que no se cuenta (el del autor, pruebas en local)
+  personaEnCurso = true;
+  try {
+    const dia = diaMadrid();
+    if (!memoriaVale()) {
+      if (!visitas.hechas.has("Persona sin memoria")) { visitas.hechas.add("Persona sin memoria"); gc.count({ path: "Persona sin memoria", title: "Persona sin memoria", event: true }); }
+      return;
+    }
+    const primera = localStorage.getItem("visto"), ultima = localStorage.getItem("visto-dia");
+    if (primera && ultima === dia) return; // hoy ya está contado
+    let nombre;
+    if (!primera) nombre = (await habiaEstado) ? "Persona de antes" : "Persona nueva";
+    else { const dias = /^\d{4}-\d\d-\d\d$/.test(ultima || "") ? Math.round((fechaD(dia) - fechaD(ultima)) / DIA) : 7; nombre = `Persona vuelve ${Math.max(1, Math.min(7, dias))}`; }
+    gc.count({ path: nombre, title: nombre, event: true, no_session: true });
+    if (!primera) localStorage.setItem("visto", dia);
+    localStorage.setItem("visto-dia", dia);
+  } catch {} finally { personaEnCurso = false; }
+}
+document.querySelector("script[data-goatcounter]")?.addEventListener("load", () => { visitas.cola.splice(0).forEach((f) => f()); contarPersona(); });
+document.addEventListener("visibilitychange", () => { if (!document.hidden) contarPersona(); }); // por si la app sigue abierta al cambiar de día
+contarPersona();
 const NOMBRE_PESTANA = { hoy: "Hoy", mapa: "Provincias", encuestas: "Encuestas", senado: "Senado", simulador: "Y si", noticias: "Noticias", el29n: "29N", metodologia: "Metodología" };
 let carrilVivo; // vuelve a medir las flechas de la fila de partidos
 function activarPestana(id) {
+  // «#no-contar» no es una pestaña: es la forma de pedir que este dispositivo no se cuente en las visitas
+  if (id === "no-contar") { try { localStorage.setItem("skipgc", "t"); alert("Hecho. Este dispositivo ya no se cuenta en las visitas."); } catch { alert("Este navegador no deja guardarlo, así que no se ha podido."); } history.replaceState(null, "", location.pathname + location.search); id = "hoy"; }
   const ids = ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias", "el29n", "metodologia"];
   if (!ids.includes(id)) id = "hoy";
   for (const i of ids) document.getElementById(i).hidden = i !== id;
@@ -1122,6 +1164,7 @@ async function hayDatosNuevos() {
 }
 async function refrescar() {
   if (document.hidden || !D.listo) return;
+  contarPersona();
   if (Date.now() - ultimaComprobacion > 4.5 * 60000 && await hayDatosNuevos()) { await cargarDatos(); pintarTodo({ conservarSim: true }); }
   else if (diaMadrid() !== diaPintado) pintarTodo({ conservarSim: true });
   pintarCabecera();
@@ -1206,46 +1249,100 @@ function visPedir(ruta, params, clave) {
   return tarea;
 }
 const visFin = () => new Date(Math.ceil((Date.now() + 1000) / 3600000) * 3600000); // la hora en punto siguiente
-/* Una sola lectura trae cada página y cada uso con sus cifras día a día y hora a hora. De ahí salen las tres cifras,
-   la lista de días, las horas y «Qué miran». */
+/* Una sola lectura trae cada página y cada uso con sus cifras día a día y hora a hora. De ahí salen las entradas, las
+   personas, la lista de días, las horas y «Qué miran». Los avisos «Persona …» se apartan: son la cuenta de personas. */
 async function visLeer(clave) {
   const r = await visPedir("/stats/hits", { start: visISO(inicioDia(VIS_DESDE)), end: visISO(visFin()), daily: "true", limit: "100" }, clave);
   const hits = r.hits || [], porDia = (h) => Object.fromEntries((h.stats || []).map((s) => [s.day, s.daily || 0]));
   const dias = [...new Set(hits.flatMap((h) => (h.stats || []).map((s) => s.day)))].filter((d) => d >= VIS_DESDE).sort();
   if (!dias.includes(diaMadrid())) dias.push(diaMadrid());
-  const entradas = hits.filter((h) => !h.event), usos = hits.filter((h) => h.event);
+  const esPersona = (h) => h.event && /^Persona /.test(h.path || "");
+  const entradas = hits.filter((h) => !h.event), usos = hits.filter((h) => h.event && !esPersona(h));
   const suma = {}, horas = {};
   for (const h of entradas) for (const s of h.stats || []) {
     suma[s.day] = (suma[s.day] || 0) + (s.daily || 0);
     const hh = (horas[s.day] ||= new Array(24).fill(0));
     (s.hourly || []).forEach((n, i) => { if (i < 24) hh[i] += n || 0; });
   }
-  return { dias, entradas: suma, horas, ids: entradas.map((h) => h.path_id).filter((x) => x != null), usos: usos.map((h) => ({ nombre: h.path, dias: porDia(h) })) };
+  // Personas: nuevas, de antes, sin memoria y las que vuelven según los días que hacía (vuelve[1] … vuelve[7])
+  const per = { nueva: {}, antes: {}, sinmem: {}, vuelve: Array.from({ length: 8 }, () => ({})) };
+  let inicio = null; // el primer día y la primera hora con algún aviso de persona: desde ahí se cuentan personas
+  for (const h of hits.filter(esPersona)) {
+    const m = /^Persona (nueva|de antes|sin memoria|vuelve (\d+))$/.exec(h.path);
+    if (!m) continue;
+    const cual = m[1] === "nueva" ? per.nueva : m[1] === "de antes" ? per.antes : m[1] === "sin memoria" ? per.sinmem : per.vuelve[Math.max(1, Math.min(7, +m[2]))];
+    for (const s of h.stats || []) {
+      if (s.day < VIS_DESDE || !s.daily) continue;
+      cual[s.day] = (cual[s.day] || 0) + s.daily;
+      const hora = (s.hourly || []).findIndex((x) => x > 0);
+      if (hora >= 0 && (!inicio || s.day < inicio.dia || (s.day === inicio.dia && hora < inicio.hora))) inicio = { dia: s.day, hora };
+    }
+  }
+  return { dias, entradas: suma, horas, per, inicio, mas: !!r.more, ids: entradas.map((h) => h.path_id).filter((x) => x != null), usos: usos.map((h) => ({ nombre: h.path, dias: porDia(h) })) };
+}
+/* Personas (dispositivos) que entran un día: las nuevas, las de antes y todas las que vuelven. */
+const visPerDia = (X, d) => (X.per.nueva[d] || 0) + (X.per.antes[d] || 0) + X.per.vuelve.reduce((a, v) => a + (v[d] || 0), 0);
+/* Personas distintas de un tramo, sin repetir a nadie. Cada dispositivo se cuenta el primer día del tramo en que
+   aparece: ese día es nuevo, o de antes, o vuelve tras más días de los que lleva recorridos el tramo. Para el tramo
+   completo basta con nuevas más de antes, porque cada dispositivo manda uno de esos dos avisos una sola vez en la vida. */
+function visDistintas(X, dias, p) {
+  const fijos = (d) => (X.per.nueva[d] || 0) + (X.per.antes[d] || 0);
+  if (p === "todo") return dias.reduce((a, d) => a + fijos(d), 0);
+  const ini = fechaD(dias[0]);
+  return dias.reduce((a, d) => { const pos = Math.round((fechaD(d) - ini) / DIA); return a + fijos(d) + X.per.vuelve.reduce((b, v, k) => b + (k > pos ? (v[d] || 0) : 0), 0); }, 0);
+}
+/* Entradas del tramo que llegaron antes de que se empezaran a contar personas. */
+function visSinMedir(X, dias) {
+  if (!X.inicio) return visSuma(X.entradas, dias);
+  return dias.reduce((a, d) => a + (d < X.inicio.dia ? (X.entradas[d] || 0) : d === X.inicio.dia ? (X.horas[d] || []).slice(0, X.inicio.hora).reduce((x, y) => x + y, 0) : 0), 0);
+}
+/* ¿La cuenta de GoatCounter corta los días a la misma hora que España? Si no, «Hoy» no cuadraría. */
+function mismaHora(zona) {
+  try {
+    const desfase = (z, t) => new Intl.DateTimeFormat("en-GB", { timeZone: z, timeZoneName: "shortOffset" }).formatToParts(t).find((x) => x.type === "timeZoneName")?.value;
+    return [new Date(), new Date("2026-07-15T12:00:00Z"), new Date("2026-11-15T12:00:00Z")].every((t) => desfase(zona, t) === desfase("Europe/Madrid", t));
+  } catch { return null; }
+}
+async function visZona() {
+  if (VIS.zona !== undefined) return;
+  VIS.zona = null;
+  try {
+    const r = await visPedir("/me", {}, VIS.clave), z = String(r?.user?.settings?.timezone || "");
+    const nombre = z.includes(".") ? z.slice(z.indexOf(".") + 1) : z, ok = nombre ? mismaHora(nombre) : null;
+    if (ok != null) VIS.zona = { nombre, ok };
+  } catch {}
+  pintarVisitas();
 }
 const visDias = (p) => p === "hoy" ? VIS.datos.dias.slice(-1) : p === "semana" ? VIS.datos.dias.slice(-7) : VIS.datos.dias;
 const visSuma = (porDia, dias) => dias.reduce((a, d) => a + (porDia[d] || 0), 0);
 /* Lo demás que sabe el contador, solo de las entradas a la app (no de los usos) y del tramo elegido. Cada lista se
    pide por separado y se pinta en cuanto llega. Si una falla, las otras siguen. */
-const VIS_LISTAS = [["origen", "toprefs"], ["paises", "locations"], ["pantallas", "sizes"], ["sistemas", "systems"], ["navegadores", "browsers"]];
+const VIS_LISTAS = [["paises", "locations"], ["pantallas", "sizes"], ["sistemas", "systems"], ["navegadores", "browsers"]];
 function visDetalle(p) {
   if (VIS.detalle[p] || !VIS.datos?.ids.length) return;
-  const det = VIS.detalle[p] = {}, datos = VIS.datos;
+  const det = VIS.detalle[p] = {}, datos = VIS.datos, repintar = () => { if (VIS.datos === datos) pintarVisitas(); };
   const q = { start: visISO(inicioDia(visDias(p)[0])), end: visISO(visFin()), include_paths: datos.ids.join(","), limit: "30" };
+  /* El origen se pide página a página y no a la lista general de orígenes de GoatCounter, porque esa lista esconde las
+     entradas que llegan desde la propia app (alguien que ya la tenía abierta y vuelve) y entonces la suma no cuadra. */
+  Promise.all(datos.ids.slice(0, 4).map((id) => visPedir(`/stats/hits/${id}`, { start: q.start, end: q.end, limit: "50" }, VIS.clave))).then((rs) => {
+    const filas = {};
+    for (const r of rs) for (const x of r.refs || []) { const n = visOrigen(x.name); filas[n] = (filas[n] || 0) + x.count; }
+    det.origen = filas;
+  }).catch((e) => { det.origen = { error: VIS_ERROR[e.message] || VIS_ERROR.fallo }; }).finally(repintar);
   for (const [clave, ruta] of VIS_LISTAS) {
     visPedir(`/stats/${ruta}`, q, VIS.clave).then((r) => {
       const filas = {}, st = r.stats || [];
-      if (clave === "origen") for (const x of st) { const n = visOrigen(x.name); filas[n] = (filas[n] || 0) + x.count; }
-      else if (clave === "paises") for (const x of st) { const n = visPais(x); filas[n] = (filas[n] || 0) + x.count; }
+      if (clave === "paises") for (const x of st) { const n = visPais(x); filas[n] = (filas[n] || 0) + x.count; }
       else if (clave === "pantallas") { const t = Object.fromEntries(st.map((x) => [x.id, x.count])); Object.assign(filas, { "Móvil": t.phone || 0, "Tableta": t.tablet || 0, "Ordenador": (t.desktop || 0) + (t.desktophd || 0), "No se sabe": t.unknown || 0 }); }
       else for (const x of st) { const n = x.name || "No se sabe"; filas[n] = (filas[n] || 0) + x.count; }
       det[clave] = filas;
-    }).catch((e) => { det[clave] = { error: VIS_ERROR[e.message] || VIS_ERROR.fallo }; }).finally(() => { if (VIS.datos === datos) pintarVisitas(); });
+    }).catch((e) => { det[clave] = { error: VIS_ERROR[e.message] || VIS_ERROR.fallo }; }).finally(repintar);
   }
 }
 async function visActualizar() {
   if (!VIS.clave || VIS.cargando) return;
   VIS.cargando = true; VIS.error = null; pintarVisitas();
-  try { VIS.datos = await visLeer(VIS.clave); VIS.detalle = {}; VIS.leido = new Date(); visDetalle(VIS.periodo); }
+  try { VIS.datos = await visLeer(VIS.clave); VIS.detalle = {}; VIS.leido = new Date(); visZona(); visDetalle(VIS.periodo); }
   catch (e) { VIS.error = VIS_ERROR[e.message] || VIS_ERROR.fallo; }
   VIS.cargando = false; pintarVisitas();
 }
@@ -1253,7 +1350,7 @@ function visElegir(p) { VIS.periodo = p; visDetalle(p); pintarVisitas(); }
 function visQuitar() {
   if (!confirm("Se quita la clave de este dispositivo y vuelve a contar como una visita más. ¿Seguro?")) return;
   try { localStorage.removeItem("clave-visitas"); localStorage.removeItem("skipgc"); } catch {}
-  Object.assign(VIS, { clave: null, datos: null, detalle: {}, error: null, leido: null });
+  Object.assign(VIS, { clave: null, datos: null, detalle: {}, error: null, leido: null, zona: undefined });
   pintarVisitas();
 }
 const visFila = (nombre, n, max, valor, nota) => el("div", { class: "vis-fila" }, el("span", {}, nombre, nota ? el("small", {}, nota) : null),
@@ -1266,6 +1363,8 @@ function visLista(titulo, sub, filas, N, nota) {
   const o = Object.entries(filas).filter(([, c]) => c > 0).sort((a, b) => b[1] - a[1]);
   return [...cab, ...(o.length ? o.map(([n, c]) => visFila(n, c, N, null, nota?.(n))) : [el("p", { class: "sub" }, "Sin datos todavía.")])];
 }
+const fDiaVis = new Intl.DateTimeFormat("es-ES", { weekday: "long", day: "numeric", timeZone: "UTC" });
+const plural = (n, uno, varios) => `${fmt0.format(n)} ${n === 1 ? uno : varios}`;
 function pintarVisitas() {
   const caja = $("#visitas"), puerta = $("#visitas-puerta");
   if (!caja || !puerta) return;
@@ -1277,35 +1376,78 @@ function pintarVisitas() {
   if (VIS.error) hijos.push(el("p", { class: "vis-aviso" }, VIS.error));
   const X = VIS.datos;
   if (X) {
-    const dias = visDias(VIS.periodo), N = visSuma(X.entradas, dias), desde = `Desde el ${new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "long", timeZone: "UTC" }).format(fechaD(X.dias[0]))}`;
-    hijos.push(el("div", { class: "vis-cifras" }, ...VIS_PERIODOS.map(([p, t]) => el("button", { type: "button", "aria-pressed": VIS.periodo === p ? "true" : "false", onclick: () => visElegir(p) },
-      el("b", {}, fmt0.format(visSuma(X.entradas, visDias(p)))), el("span", {}, t || desde)))));
+    const p = VIS.periodo, dias = visDias(p), N = visSuma(X.entradas, dias), hay = !!X.inicio;
+    const desde = `Desde el ${new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "long", timeZone: "UTC" }).format(fechaD(X.dias[0]))}`;
+    const tramo = p === "hoy" ? "de hoy" : p === "semana" ? "de los últimos 7 días" : "desde el principio";
+    const P = hay ? visDistintas(X, dias, p) : 0;
+    // Las tres cifras. Si ya se cuentan personas mandan ellas y las entradas van debajo. Si no, solo entradas.
+    hijos.push(el("div", { class: "vis-cifras" }, ...VIS_PERIODOS.map(([q, t]) => { const dd = visDias(q), e = visSuma(X.entradas, dd);
+      return el("button", { type: "button", "aria-pressed": p === q ? "true" : "false", onclick: () => visElegir(q) },
+        el("b", {}, fmt0.format(hay ? visDistintas(X, dd, q) : e)), el("span", {}, t || desde), el("small", {}, hay ? `${visDistintas(X, dd, q) === 1 ? "persona" : "personas"} · ${plural(e, "entrada", "entradas")}` : e === 1 ? "entrada" : "entradas")); })));
+    // Avisos: lo que hace que la cifra de arriba no sea redonda, dicho aquí mismo
+    const ojo = [], cuando = hay ? `${fDiaVis.format(fechaD(X.inicio.dia))} a las ${X.inicio.hora} h` : "";
+    const fuera = visSinMedir(X, dias), sinMem = visSuma(X.per.sinmem, dias);
+    if (!hay) ojo.push("Todavía no hay cifra de personas. Empieza a contarse con la primera visita que llegue con esta versión. De momento solo se ven entradas, que cuentan otra vez a quien vuelve pasadas unas horas.");
+    else if (fuera > 0) ojo.push(`Las personas se cuentan desde el ${cuando}. Antes de ese momento hay ${plural(fuera, "entrada", "entradas")} ${tramo} que no están en la cifra de personas, porque entonces no se podía saber quién repetía.`);
+    if (sinMem > 0) ojo.push(`${plural(sinMem, "entrada viene", "entradas vienen")} de navegadores que no dejan guardar nada, como algunos modos privados. No se sabe si son personas nuevas o repetidas, así que no están en la cifra de personas.`);
+    if (VIS.zona && VIS.zona.ok === false) ojo.push(`Tu cuenta de GoatCounter está en la zona horaria ${VIS.zona.nombre} y no en la de España. Los días se cortan a otra hora y la cifra de hoy puede no cuadrar. Se cambia en los ajustes de GoatCounter.`);
+    if (X.mas) ojo.push("El contador solo ha devuelto las 100 primeras páginas y usos. Alguna cifra puede quedarse corta.");
+    if (X.ids.length > 4) ojo.push("Hay más de 4 direcciones de entrada distintas y el origen solo se ha leído de las 4 con más visitas.");
+    if (ojo.length) hijos.push(el("ul", { class: "vis-ojo" }, ...ojo.map((t) => el("li", {}, t))));
     // Día a día, del más reciente al más antiguo
-    const lista = [...X.dias].reverse(), max = Math.max(1, ...lista.map((d) => X.entradas[d] || 0)), corta = VIS.todos ? lista : lista.slice(0, 14);
-    hijos.push(el("h3", {}, "Día a día"), el("p", { class: "sub" }, "Entradas a la app. Si alguien vuelve pasadas unas horas, cuenta otra vez."),
-      ...corta.map((d) => visFila(cap(new Intl.DateTimeFormat("es-ES", { weekday: "long", day: "numeric", timeZone: "UTC" }).format(fechaD(d))), X.entradas[d] || 0, max)),
+    const lista = [...X.dias].reverse(), corta = VIS.todos ? lista : lista.slice(0, 14);
+    const medido = (d) => hay && d >= X.inicio.dia, max = Math.max(1, ...lista.map((d) => medido(d) ? visPerDia(X, d) : 0)), maxE = Math.max(1, ...lista.map((d) => X.entradas[d] || 0));
+    hijos.push(el("h3", {}, "Día a día"), el("p", { class: "sub" }, hay ? "Personas distintas cada día. Debajo, cuántas eran nuevas y cuántas entradas hubo." : "Entradas a la app. Si alguien vuelve pasadas unas horas, cuenta otra vez."),
+      ...corta.map((d) => { const e = X.entradas[d] || 0, nombre = cap(fDiaVis.format(fechaD(d)));
+        if (!hay) return visFila(nombre, e, maxE);
+        if (!medido(d)) return visFila(nombre, 0, max, "sin medir", plural(e, "entrada", "entradas"));
+        return visFila(nombre, visPerDia(X, d), max, null, `${plural(X.per.nueva[d] || 0, "nueva", "nuevas")} · ${plural(e, "entrada", "entradas")}${d === X.inicio.dia && X.inicio.hora > 0 ? ` · personas desde las ${X.inicio.hora} h` : ""}`); }),
       lista.length > 14 ? el("button", { type: "button", class: "ver-mas", onclick: () => { VIS.todos = !VIS.todos; pintarVisitas(); } }, VIS.todos ? "Ver solo los últimos 14 días" : `Ver los ${lista.length} días`) : null);
-    const tramo = VIS.periodo === "hoy" ? "de hoy" : VIS.periodo === "semana" ? "de los últimos 7 días" : "desde el principio";
-    const de = `${fmt0.format(N)} ${N === 1 ? "entrada" : "entradas"} ${tramo}`;
-    const D2 = VIS.detalle[VIS.periodo] || {};
+    // Quiénes son y cada cuánto vuelven
+    if (hay) {
+      const nuevas = visSuma(X.per.nueva, dias), antes = visSuma(X.per.antes, dias), vuelta = X.per.vuelve.map((v) => visSuma(v, dias)), vueltas = vuelta.reduce((a, b) => a + b, 0);
+      hijos.push(el("h3", {}, "Quiénes son"), el("p", { class: "sub" }, `${plural(P, "persona distinta", "personas distintas")} ${tramo}. Cada dispositivo cuenta una sola vez, entre las veces que entre.`),
+        visFila("Nuevas", nuevas, P, null, "Es la primera vez que entran"),
+        antes ? visFila("Ya venían de antes", antes, P, null, "Entraron cuando aún no se contaban personas") : null,
+        p === "todo" ? null : visFila("Repiten", P - nuevas - antes, P, null, p === "hoy" ? "Habían entrado otro día" : "Habían entrado antes de estos 7 días"),
+        p === "hoy" ? null : visFila("Visitas de vuelta", vueltas, Math.max(P, vueltas), null, "Veces que alguien que ya había entrado volvió otro día"));
+      if (vueltas) hijos.push(el("h3", {}, "Cada cuánto vuelven"), el("p", { class: "sub" }, `De las ${plural(vueltas, "vuelta", "vueltas")} ${tramo}, cuánto hacía de la visita anterior.`),
+        ...[["Al día siguiente", vuelta[1]], ["A los 2 o 3 días", vuelta[2] + vuelta[3]], ["De 4 a 6 días", vuelta[4] + vuelta[5] + vuelta[6]], ["Una semana o más", vuelta[7]]].filter(([, n]) => n > 0).map(([t, n]) => visFila(t, n, vueltas)));
+    }
+    const de = `${plural(N, "entrada", "entradas")} ${tramo}`;
+    const D2 = VIS.detalle[p] || {};
     if (N) {
       // A qué horas
       const hh = new Array(24).fill(0); for (const d of dias) (X.horas[d] || []).forEach((n, i) => { hh[i] += n; });
       const tope = Math.max(...hh), punta = hh.indexOf(tope);
-      if (tope > 0) hijos.push(el("h3", {}, "A qué horas entran"), el("p", { class: "sub" }, `La hora con más entradas es la de las ${punta}, con ${fmt0.format(tope)}. Va con la hora que tenga puesta tu cuenta de GoatCounter.`),
+      if (tope > 0) hijos.push(el("h3", {}, "A qué horas entran"), el("p", { class: "sub" }, `De las ${de}. La hora con más es la de las ${punta}, con ${fmt0.format(tope)}.`),
         el("div", { class: "vis-horas", role: "img", "aria-label": `Entradas por hora. La hora con más es la de las ${punta}, con ${tope}.` }, ...hh.map((n, i) => el("i", { title: `${i} h, ${n}`, style: { height: `${Math.max(n ? 8 : 2, Math.round(100 * n / tope))}%` }, class: n ? null : "cero" }))),
         el("div", { class: "vis-horas-eje" }, ...["0 h", "6 h", "12 h", "18 h", "23 h"].map((t) => el("span", {}, t))));
-      hijos.push(...visLista("De dónde llegan", `De las ${de}. Para que un enlace diga de dónde viene, añádele ?ref=sitio al final.`, D2.origen, N, (n) => n === "Sin origen" ? "WhatsApp, app instalada, dirección escrita o enlace sin etiqueta" : null));
+      hijos.push(...visLista("De dónde llegan", `De las ${de}. El panel de GoatCounter suma además cada pestaña que se abre, por eso allí salen cifras más altas.`, D2.origen, N,
+        (n) => n === "Sin origen" ? "WhatsApp, app instalada o dirección escrita. Con ?ref=sitio al final del enlace, sale el sitio" : n === "Desde la propia app" ? "Gente que ya la tenía abierta y vuelve a ella" : null));
     }
     const usos = X.usos.map((u) => ({ nombre: u.nombre, n: visSuma(u.dias, dias) })).filter((u) => u.n > 0).sort((a, b) => b.n - a.n);
     const sinUso = VIS_USOS.filter((n) => !usos.some((u) => u.nombre === n)).map(visUso);
     hijos.push(el("h3", {}, "Qué miran"), el("p", { class: "sub" }, N ? `En cuántas de las ${de} se hizo cada cosa.` : `No hay entradas ${tramo}.`),
       ...usos.map((u) => visFila(visUso(u.nombre), u.n, N, N ? `${fmt0.format(u.n)} de ${fmt0.format(N)}` : fmt0.format(u.n))),
       sinUso.length && N ? visFila(sinUso.join(", "), 0, N, "0") : null);
-    if (N) hijos.push(...visLista("Desde qué países", null, D2.paises, N), ...visLista("Con qué entran", null, D2.pantallas, N), ...visLista("Con qué sistema", null, D2.sistemas, N), ...visLista("Con qué navegador", null, D2.navegadores, N));
+    if (N) hijos.push(...visLista("Desde qué países", `De las ${de}.`, D2.paises, N), ...visLista("Con qué entran", null, D2.pantallas, N), ...visLista("Con qué sistema", null, D2.sistemas, N), ...visLista("Con qué navegador", null, D2.navegadores, N));
+    // Qué es exacto y qué no, siempre a mano
+    const z = VIS.zona;
+    hijos.push(el("details", { class: "como dentro vis-fiable" }, el("summary", {}, "Qué es exacto y qué no"),
+      el("p", {}, el("b", {}, "Exacto. "), "Las personas. Cada dispositivo deja guardada en sí mismo la fecha de su primera y de su última visita, y avisa una sola vez al día. Por eso nadie se cuenta dos veces, ni hoy, ni en los últimos 7 días, ni en el total."),
+      hay ? el("p", {}, el("b", {}, "Desde cuándo. "), `Las personas se cuentan desde el ${cuando}. Lo anterior solo tiene entradas.`) : null,
+      el("p", {}, el("b", {}, "Aproximado. "), "Las entradas, que es lo que cuenta GoatCounter por su cuenta. La misma persona vuelve a contar si entra pasadas 8 horas o cambia de red, por ejemplo del wifi a los datos. El origen, las horas, los países, las pantallas, los sistemas y los navegadores van por entradas."),
+      el("p", {}, el("b", {}, "No se ve. "), "Quien lleva bloqueador de contadores, como Firefox en modo estricto, Brave o un bloqueador de anuncios. No aparece ni como persona ni como entrada y no hay forma de contarlo desde una página como esta."),
+      el("p", {}, el("b", {}, "Cuenta de más. "), "Una persona con móvil y ordenador son dos. También quien abre el enlace dentro de Instagram o LinkedIn y luego en su navegador. Y quien entra en modo privado o borra los datos del navegador vuelve a salir como nueva."),
+      el("p", {}, el("b", {}, "Tus dispositivos. "), "Cuentan como cualquier otro hasta que metas la clave en cada uno."),
+      el("p", {}, el("b", {}, "La hora. "), z ? (z.ok ? "La cuenta de GoatCounter está en hora de España, así que los días cuadran." : `La cuenta de GoatCounter está en ${z.nombre}, no en hora de España.`) : "No se ha podido comprobar en qué zona horaria está la cuenta de GoatCounter.")));
   } else if (!VIS.error) hijos.push(el("p", { class: "sub" }, "Leyendo las cifras…"));
   hijos.push(pie);
+  // Se repinta a menudo mientras llegan las listas: que no se cierre lo que estuviera abierto
+  const abierto = caja.querySelector(".vis-fiable")?.open;
   caja.replaceChildren(el("article", { class: "pregunta vis" }, ...hijos.filter(Boolean)));
+  if (abierto) caja.querySelector(".vis-fiable").open = true;
 }
 $("#visitas-form")?.addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -1317,7 +1459,7 @@ $("#visitas-form")?.addEventListener("submit", async (e) => {
     try { localStorage.setItem("clave-visitas", clave); localStorage.setItem("skipgc", "t"); } catch {}
     Object.assign(VIS, { clave, datos, detalle: {}, error: null, leido: new Date() });
     campo.value = ""; aviso.textContent = "";
-    visDetalle(VIS.periodo); pintarVisitas(); $("#visitas").scrollIntoView({ block: "start" });
+    visZona(); visDetalle(VIS.periodo); pintarVisitas(); $("#visitas").scrollIntoView({ block: "start" });
   } catch (err) { aviso.textContent = VIS_ERROR[err.message] || VIS_ERROR.fallo; }
 });
 pintarVisitas();

@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=44">
+<link rel="stylesheet" href="assets/style.css?v=46">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
@@ -358,7 +358,7 @@
     <article class="pregunta texto">
       <h2>8. Quién lo hace y cómo comprobarlo</h2>
       <p>Es un proyecto personal, hecho por afición. No lleva publicidad y no depende de ningún partido, medio ni empresa de encuestas.</p>
-      <p><b>Cuenta visitas y nada más.</b> Para saber cuánta gente entra, la app usa <a href="https://www.goatcounter.com/" target="_blank" rel="noopener">GoatCounter</a>, un contador que no pone cookies ni guarda datos personales. Solo apunta que alguien ha entrado, desde qué web llega y qué pestañas abre.</p>
+      <p><b>Cuenta visitas y nada más.</b> Para saber cuánta gente entra, la app usa <a href="https://www.goatcounter.com/" target="_blank" rel="noopener">GoatCounter</a>, un contador que no pone cookies ni guarda datos personales. Solo apunta que alguien ha entrado, desde qué web llega y qué pestañas abre. Para no contar dos veces a la misma persona, la app guarda en tu dispositivo dos fechas, la de tu primera visita y la de la última. No llevan ningún número que te identifique y no salen de tu dispositivo. Al contador solo le llega si es tu primera vez o si vuelves, y cuántos días hacía de la visita anterior. Si prefieres que tu dispositivo no se cuente, <a href="#no-contar">pulsa aquí</a> y no se volverá a contar.</p>
       <p><b>El código es público.</b> Todas las cuentas que se explican aquí están en <a href="https://github.com/1985xose/elecciones-29n" target="_blank" rel="noopener">github.com/1985xose/elecciones-29n</a>. Cualquiera puede leerlo, copiarlo y rehacer los cálculos.</p>
       <p><b>Los datos también.</b> Son los mismos ficheros que usa la app. <a href="data/encuestas.json" target="_blank" rel="noopener">Todas las encuestas</a>, <a href="data/probabilidades.json" target="_blank" rel="noopener">las probabilidades y el resultado de las repeticiones</a>, <a href="data/analisis.json" target="_blank" rel="noopener">las manías y notas de cada empresa</a>, <a href="data/fiabilidad.json" target="_blank" rel="noopener">el acierto de cada empresa en elecciones anteriores</a>, <a href="data/base2023.json" target="_blank" rel="noopener">los resultados de 2023 por provincia</a> y <a href="data/noticias.json" target="_blank" rel="noopener">las noticias</a>.</p>
       <p><b>Se actualiza sola.</b> Un programa descarga las encuestas y las noticias cada hora y rehace todas las cuentas. Arriba a la derecha pone siempre la hora de la última actualización.</p>
@@ -379,11 +379,13 @@
   <div id="porra-instrucciones" hidden></div><div id="porra" hidden></div>
 </main>
 
+<script>/* Quien entra con #no-contar deja de contarse en este dispositivo. Va antes del contador para que ni esa entrada cuente. */
+try { if (location.hash === "#no-contar") localStorage.setItem("skipgc", "t"); } catch (e) {}</script>
 <script data-goatcounter="https://xose.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-<script src="assets/modelo.js?v=44"></script>
-<script src="assets/media.js?v=44"></script>
-<script src="assets/app.js?v=44"></script>
+<script src="assets/modelo.js?v=46"></script>
+<script src="assets/media.js?v=46"></script>
+<script src="assets/app.js?v=46"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;

@@ -490,3 +490,9 @@ details[open] summary::after { content: "–"; }
 .vis-horas i { display: block; background: var(--tinta); border-radius: 3px 3px 0 0; min-height: 2px; }
 .vis-horas i.cero { background: var(--linea); }
 .vis-horas-eje { display: flex; justify-content: space-between; font-size: .72rem; color: var(--gris); margin-top: 3px; }
+.vis-cifras small { display: block; margin-top: 4px; font-size: .7rem; color: var(--gris); line-height: 1.25; }
+.vis-ojo { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
+.vis-ojo li { position: relative; padding: 10px 12px 10px 38px; border-radius: 12px; background: color-mix(in srgb, var(--bronce) 14%, var(--superficie)); font-size: .88rem; line-height: 1.4; }
+.vis-ojo li::before { content: "!"; position: absolute; left: 11px; top: 10px; width: 18px; height: 18px; border-radius: 50%; background: var(--bronce); color: #fff; font-weight: 800; font-size: .78rem; display: grid; place-items: center; }
+.vis-fiable { margin-top: 20px; }
+.vis-fiable p { font-size: .9rem; }
