@@ -80,14 +80,14 @@
  {
   "fecha": "2026-10-09",
   "escenarios": {
-   "pp": 0.0016,
-   "pp_vox": 0.8998,
-   "izq_socios": 0.0398
+   "pp": 0.0014,
+   "pp_vox": 0.8987,
+   "izq_socios": 0.0407
   },
-  "bloqueo": 0.0604,
+  "bloqueo": 0.0606,
   "p50": {
-   "PP": 133,
-   "PSOE": 103,
+   "PP": 132,
+   "PSOE": 104,
    "Vox": 66,
    "Sumar": 8,
    "ERC": 8,

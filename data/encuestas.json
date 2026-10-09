@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-09T06:05:51+00:00",
+ "actualizado": "2026-10-09T07:01:12+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1379320127,
+ "revision": 1379323293,
  "partidos": [
   "PP",
   "PSOE",
@@ -35,10 +35,10 @@
     "SALF": 1.8
    },
    "escanos": {
-    "PP": 132.0,
-    "PSOE": 112.0,
-    "Vox": 66.0,
-    "Sumar": 5.0,
+    "PP": 131.5,
+    "PSOE": 111.0,
+    "Vox": 68.5,
+    "Sumar": 6.0,
     "ERC": 8.0,
     "Junts": 7.0,
     "Bildu": 7.0,
@@ -55,6 +55,32 @@
    "encargo": "Prisa",
    "id": "40db-2026-10-08-800",
    "primera_vez": "2026-10-09T06:01:11+00:00"
+  },
+  {
+   "empresa": "DYM/Henneo",
+   "inicio": "2026-10-05",
+   "fin": "2026-10-07",
+   "muestra": 1011,
+   "participacion": null,
+   "pct": {
+    "PP": 34.0,
+    "PSOE": 28.2,
+    "Vox": 18.2,
+    "Sumar": 3.6,
+    "Podemos": 3.6
+   },
+   "escanos": {
+    "PP": 141.0,
+    "PSOE": 109.0,
+    "Vox": 63.0,
+    "Sumar": 4.0,
+    "Podemos": 1.5
+   },
+   "empresa_base": "DYM",
+   "clave": "dym",
+   "encargo": "Henneo",
+   "id": "dym-2026-10-07-1011",
+   "primera_vez": "2026-10-09T07:01:12+00:00"
   },
   {
    "empresa": "NC Report/La Razón",
