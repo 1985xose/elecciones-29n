@@ -68,16 +68,40 @@ function escenario(id) { return D.prob?.escenarios?.[id]; }
 const nombreEsc = (e) => (D.config.escenarios.find((x) => x.id === e.id) || {}).corto || lista(e.partidos.map(nombre));
 
 /* ---------- Pestañas ---------- */
+/* Visitas. Las cuenta GoatCounter, que no usa cookies ni guarda datos personales. La entrada a la web la apunta su
+   propio script. Aquí se apuntan además las pestañas que se abren y tres usos (modo partido, caso propio y compartir),
+   una vez por visita. Si el contador no ha cargado todavía se guarda y se manda cuando cargue. Si está bloqueado, nada. */
+const visitas = { hechas: new Set(), cola: [], inicio: true };
+function contar(nombre) {
+  if (visitas.hechas.has(nombre)) return;
+  visitas.hechas.add(nombre);
+  const enviar = () => { try { window.goatcounter.count({ path: nombre, title: nombre, event: true }); } catch {} };
+  if (window.goatcounter?.count) enviar(); else visitas.cola.push(enviar);
+}
+document.querySelector("script[data-goatcounter]")?.addEventListener("load", () => { visitas.cola.splice(0).forEach((f) => f()); });
+const NOMBRE_PESTANA = { hoy: "Hoy", mapa: "Provincias", encuestas: "Encuestas", senado: "Senado", simulador: "Y si", noticias: "Noticias", el29n: "29N", metodologia: "Metodología" };
 function activarPestana(id) {
   const ids = ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias", "el29n", "metodologia"];
   if (!ids.includes(id)) id = "hoy";
   for (const i of ids) document.getElementById(i).hidden = i !== id;
   document.querySelectorAll(".pestanas a").forEach((a) => a.classList.toggle("activa", a.dataset.tab === id));
+  // Si la pestaña elegida vive dentro de «Más», se marca ese botón para que se sepa dónde se está. Y la hoja se cierra.
+  $(".mas-boton")?.classList.toggle("activa", !!document.querySelector(`.mas-hoja a[data-tab="${id}"]`));
+  cerrarMas();
   $("#foco-tira").hidden = id === "el29n" || id === "metodologia"; // ahí no hay nada propio de un partido
   window.scrollTo({ top: 0 });
   if (id === "encuestas" && !graficoTendencia && D.listo) pintarTendencia();
   if (id === "encuestas" && D.listo) pintarGraficoFoco();
+  // Entrar por la portada ya lo cuenta el contador. Se apunta la pestaña si se llega directo a otra o al cambiar.
+  if (!(visitas.inicio && id === "hoy")) contar(`Pestaña ${NOMBRE_PESTANA[id]}`);
+  visitas.inicio = false;
 }
+function cerrarMas() { $(".pestanas")?.classList.remove("abierta"); $(".mas-boton")?.setAttribute("aria-expanded", "false"); }
+$(".mas-boton")?.addEventListener("click", (ev) => { ev.stopPropagation(); const abierta = $(".pestanas").classList.toggle("abierta"); $(".mas-boton").setAttribute("aria-expanded", abierta ? "true" : "false"); if (abierta) contar("Abre el menú Más"); });
+// Tocar una pestaña de la hoja cierra la hoja aunque sea la que ya estaba abierta, y también tocar fuera o pulsar Escape
+$(".mas-hoja")?.addEventListener("click", cerrarMas);
+document.addEventListener("click", (ev) => { if (!ev.target.closest(".pestanas")) cerrarMas(); });
+document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") cerrarMas(); });
 window.addEventListener("hashchange", () => activarPestana(location.hash.slice(1)));
 
 /* ---------- Media ---------- */
@@ -399,7 +423,7 @@ function pintarEncuestas(m, m7, proy) {
     empresas.length > CORTE ? el("button", { type: "button", class: "mas", "aria-expanded": enc.todas ? "true" : "false", onclick: () => { enc.todas = !enc.todas; if (!enc.todas && oculta()) enc.filtro = null; pintarEncuestas(m, m7, proy); } }, enc.todas ? "Ver menos" : `Ver las ${empresas.length}`) : null);
   $("#leyenda-empresas").textContent = `${empresas.length} empresas han publicado encuestas desde 2023. El número es cuántas lleva cada una. Con punto verde, las ${enMedia.size} que cuentan hoy en la media. En gris, las que llevan más de un año sin publicar.`;
   const cf = enc.filtro ? cuenta[enc.filtro] : null;
-  $("#explica-tendencia").textContent = cf ? `Las encuestas de ${cf.empresa}, una a una, desde las últimas elecciones. Cada punto es una encuesta. ${enMedia.has(enc.filtro) ? "Su última encuesta cuenta hoy en la media." : enc.filtro === "cis" ? "El CIS no cuenta en la media salvo que lo actives más abajo." : cf.activa ? `Hoy no cuenta en la media porque su última encuesta, del ${fFecha.format(fechaD(cf.ultima))}, tiene más de ${m.ventana} días.` : "Lleva más de un año sin publicar."}` : "Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.";
+  $("#explica-tendencia").textContent = cf ? `Las encuestas de ${cf.empresa}, una a una, desde las últimas elecciones. Cada punto es una encuesta. ${enMedia.has(enc.filtro) ? "Su última encuesta cuenta hoy en la media." : enc.filtro === "cis" ? "El CIS no cuenta en la media." : cf.activa ? `Hoy no cuenta en la media porque su última encuesta, del ${fFecha.format(fechaD(cf.ultima))}, tiene más de ${m.ventana} días.` : "Lleva más de un año sin publicar."}` : "Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.";
   // Tarjetas
   const usadas = new Set(m.usadas.map((e) => e.id));
   const lista = (enc.filtro ? todas.filter((e) => e.clave === enc.filtro) : todas).slice(0, enc.filtro ? 30 : 12);
@@ -411,7 +435,7 @@ function pintarEncuestas(m, m7, proy) {
     const ver = an ? (an.veredicto === "ruido" ? "y dice más o menos lo mismo que las demás." : an.veredicto === "leve" ? "y se sale un poco de lo habitual en ella." : "y trae un cambio de verdad respecto a lo que suele dar.") : ".";
     const abierta = enc.abiertas.has(e.id);
     const sesgo = D.analisis?.sesgos?.[e.clave]?.sesgo;
-    const tarjeta = el("div", { class: "tarjeta abrible", id: `enc-${e.id}`, style: usadas.has(e.id) || enc.filtro ? null : { opacity: .75 }, onclick: (ev) => { if (ev.target.closest("a")) return; abierta ? enc.abiertas.delete(e.id) : enc.abiertas.add(e.id); pintarEncuestas(m, m7, proy); } },
+    const tarjeta = el("div", { class: "tarjeta abrible", id: `enc-${e.id}`, style: usadas.has(e.id) || enc.filtro ? null : { opacity: .75 }, onclick: (ev) => { if (ev.target.closest("a, .mini-grafico")) return; abierta ? enc.abiertas.delete(e.id) : enc.abiertas.add(e.id); pintarEncuestas(m, m7, proy); } },
       el("div", { class: "cab" }, el("b", {}, e.empresa_base, e.encargo ? ` para ${e.encargo}` : "", nota && nota.letra !== "–" ? el("span", { class: "nota", title: nota.texto }, nota.letra) : null,
         dePartido ? el("span", { class: "veredicto leve" }, "de un partido") : an ? el("span", { class: `veredicto ${an.veredicto}` }, an.veredicto === "ruido" ? "nada nuevo" : an.veredicto === "leve" ? "algo se mueve" : "novedad") : null),
         el("span", {}, fFecha.format(fechaD(e.fin)))),
@@ -419,15 +443,40 @@ function pintarEncuestas(m, m7, proy) {
       el("div", { class: "chips" }, ...oe.slice(0, abierta ? 99 : 6).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${fmt1.format(e.pct[k])}`))),
       abierta ? el("div", { class: "detalle" },
         el("p", {}, `Trabajo de campo ${e.inicio && e.inicio !== e.fin ? `del ${fFecha.format(fechaD(e.inicio))} al ` : "el "}${fFecha.format(fechaD(e.fin))}.${e.muestra ? ` ${fmt0.format(e.muestra)} entrevistas.` : ""}${Object.keys(e.escanos || {}).length ? ` Asientos que da: ${ordenar(e.escanos).filter((k) => e.escanos[k] > 0).slice(0, 8).map((k) => `${nombre(k)} ${Math.round(e.escanos[k])}`).join(", ")}.` : ""}${nota && nota.letra !== "–" ? ` Nota ${nota.letra}, ${nota.texto}.` : ""}`),
+        graficoDeEmpresa(e, todas),
         el("table", {}, el("thead", {}, el("tr", {}, el("th", {}, "Partido"), el("th", {}, "Dio"), el("th", {}, "Suele dar"), el("th", {}, "Media de todas"))),
           el("tbody", {}, ...oe.slice(0, 8).map((k) => { const d = an?.detalle?.find((x) => x.partido === k);
             return el("tr", {}, el("td", {}, nombre(k)), el("td", {}, fmt1.format(e.pct[k])), el("td", {}, sesgo && sesgo[k] != null ? `${signo(sesgo[k])} que la media` : "–"), el("td", {}, d ? fmt1.format(d.esperado - (sesgo && sesgo[k] != null ? sesgo[k] : 0)) : "–")); }))),
         el("p", { class: "mas" }, "\"Suele dar\" es lo que esta empresa se separa de la media del momento en sus encuestas de esta legislatura. Toca para cerrar.")) : el("p", { class: "mas" }, "Toca para ver todos los datos"));
     return tarjeta;
   }));
+  dibujarGraficosDeEmpresa(todas);
   if (D.encuestas) $("#fuente-encuestas").replaceChildren(enc.filtro ? "" : `Las atenuadas no entran en la media de hoy por tener más de ${m.ventana} días, por haber otra más reciente de la misma empresa o por ser de un partido. La fecha de cada encuesta es la del último día en que preguntó. `, "Fuente ", el("a", { href: D.encuestas.fuente, target: "_blank", rel: "noopener" }, "Wikipedia"), `, actualizado ${hace(D.encuestas.actualizado)}.`);
   graficoTendencia?.destroy(); graficoTendencia = null;
   if (!$("#encuestas").hidden) pintarTendencia();
+}
+/* Dentro de cada encuesta desplegada, un gráfico pequeño con las encuestas de esa misma empresa del último año,
+   una a una, y la que se está mirando marcada con el punto grande. Así se ve si lo que dice es nuevo en ella o no. */
+const graficosEmpresa = [];
+const deEmpresa = (e, todas) => todas.filter((x) => x.clave === e.clave && fechaD(x.fin) >= new Date(+hoy() - 365 * DIA)).slice().reverse();
+function graficoDeEmpresa(e, todas) {
+  const mias = deEmpresa(e, todas);
+  if (mias.length < 2 || !mias.some((x) => x.id === e.id)) return el("p", { class: "mas" }, `No hay más encuestas de ${e.empresa_base} en el último año para comparar.`);
+  return el("div", { class: "mini-grafico" },
+    el("p", {}, `Las ${mias.length} encuestas de ${e.empresa_base} del último año, una a una. El punto grande es esta.`),
+    el("div", { class: "lienzo" }, el("canvas", { "data-enc": e.id, "aria-label": `Evolución de las encuestas de ${e.empresa_base}` })));
+}
+function dibujarGraficosDeEmpresa(todas) {
+  graficosEmpresa.splice(0).forEach((g) => g.destroy());
+  if (typeof Chart === "undefined") return;
+  document.querySelectorAll("#tarjetas-encuestas canvas[data-enc]").forEach((lienzo) => {
+    const e = todas.find((x) => x.id === lienzo.dataset.enc); if (!e) return;
+    const mias = deEmpresa(e, todas), cual = mias.findIndex((x) => x.id === e.id), partidos = ordenar(e.pct).slice(0, 5);
+    const op = opciones(" %"); op.plugins.legend.labels.boxWidth = 7; op.plugins.legend.labels.boxHeight = 7; op.scales.y.beginAtZero = false;
+    graficosEmpresa.push(new Chart(lienzo, { type: "line", data: { labels: mias.map((x) => fFecha.format(fechaD(x.fin))),
+      datasets: partidos.map((k) => ({ label: nombre(k), data: mias.map((x) => x.pct[k] ?? null), borderColor: color(k), backgroundColor: color(k), borderWidth: 2, tension: .2, spanGaps: true,
+        pointRadius: mias.map((_, i) => i === cual ? 6 : 2.5), pointHoverRadius: 6 })) }, options: op }));
+  });
 }
 function pintarTendencia() {
   const m = calcMedia(), o = ordenar(m.media).filter((k) => m.media[k] >= 1.5).slice(0, 7);
@@ -545,8 +594,12 @@ function pintarMapa(proy) {
     el("div", { class: "chips" }, ...ordenar(p.escanos).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${p.escanos[k]}`))),
     el("p", {}, (p.aspirante ? fraseProvincia(p, false) : "") + antes2023(p)),
     el("details", { class: "como" }, el("summary", {}, "¿Cómo se reparten estos asientos?"),
-      el("p", {}, "Con la ley D'Hondt. El voto de cada partido se divide entre 1, 2, 3… y los asientos van a los números más altos. Los marcados en color son los que se llevan asiento. Solo entran los partidos con al menos el 3 % del voto de la provincia."),
-      tablaDhondt(p)))] : []));
+      el("p", {}, `De uno en uno. Cada asiento se lo lleva el partido que tenga el número más alto en ese momento. Todos empiezan con su porcentaje de voto. Cuando un partido gana un asiento, para optar al siguiente su voto se divide entre 2. Si gana otro, entre 3. Así el que ya tiene asientos lo tiene cada vez más difícil y los demás van entrando. Es la ley D'Hondt.`),
+      pasosDhondt(p),
+      el("p", { class: "fuente" }, `Ahí se acaban los ${p.n} asientos de ${p.nombre}. Solo entran en el reparto los partidos con al menos el 3 % del voto de la provincia.`),
+      el("details", { class: "como dentro" }, el("summary", {}, "Ver todas las divisiones en una tabla"),
+        el("p", {}, "Es lo mismo, visto de golpe. El voto de cada partido dividido entre 1, 2, 3… Los números en color son los más altos, y cada uno es un asiento."),
+        tablaDhondt(p))))] : []));
   // Ordenadas por lo mismo que dice la etiqueta: lo que le falta al aspirante comparado con lo que cuesta un asiento en esa provincia
   const relativo = (x) => Math.max(x.aspirante.falta, 0) / (10 / (x.n + 1));
   const aj = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => relativo(a) - relativo(b)).slice(0, 5).map((x) => ({ x }));
@@ -554,6 +607,19 @@ function pintarMapa(proy) {
   $("#ajustadas").replaceChildren(...aj.map(({ x, pp }) => el("button", { class: "ajustada", type: "button", onclick: () => { mapa.sel = x.nombre; pintarMapa(mapa.proy); $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); } },
     el("b", {}, x.nombre), el("span", { class: "pts" }, nivel(x)),
     el("span", { class: "m" }, x.aspirante ? `Se lo disputan ${nombre(x.ultimo.p)} y ${nombre(x.aspirante.p)}. Hoy lo tiene ${nombre(x.ultimo.p)} ${porVotos(Math.max(x.aspirante.falta, 0), x.n)}.` : ""))));
+}
+/* El reparto contado asiento a asiento, que se entiende mejor que la tabla de divisiones. Es la ley D'Hondt de siempre,
+   en el orden en que se van dando los asientos. En las provincias grandes se enseñan los primeros y los últimos. */
+function pasosDhondt(p) {
+  const partidos = ordenar(p.cuotas).filter((k) => p.cuotas[k] >= Modelo.UMBRAL), lleva = {}, pasos = [];
+  for (let i = 1; i <= p.n && partidos.length; i++) {
+    const m = partidos.map((k) => ({ k, d: (lleva[k] || 0) + 1, q: p.cuotas[k] / ((lleva[k] || 0) + 1) })).sort((x, y) => y.q - x.q)[0];
+    lleva[m.k] = m.d; pasos.push({ i, ...m });
+  }
+  const paso = (x) => el("li", {}, el("span", { class: "num" }, `${x.i}.º`), el("span", { class: "chip", style: { background: color(x.k) } }, nombre(x.k)),
+    el("span", { class: "por" }, x.d === 1 ? `con su ${fmt1.format(x.q)} % de voto` : `con ${fmt1.format(x.q)}, que es su ${fmt1.format(p.cuotas[x.k])} entre ${x.d} porque va a por su ${x.d}.º asiento`));
+  const corta = pasos.length > 10;
+  return el("ol", { class: "pasos-dh" }, ...(corta ? [...pasos.slice(0, 4).map(paso), el("li", { class: "salto" }, `Del ${pasos[4].i}.º al ${pasos[pasos.length - 4].i}.º, igual, uno a uno`), ...pasos.slice(-3).map(paso)] : pasos.map(paso)));
 }
 function tablaDhondt(p) {
   const partidos = ordenar(p.cuotas).filter((k) => p.cuotas[k] >= Modelo.UMBRAL);
@@ -638,7 +704,7 @@ function pintarCaso() {
   if (c.quien && !partidos.includes(c.quien)) c.quien = "";
   const cambiar = () => {
     const r = resolverCaso([...sim.cambios, sim.caso]);
-    if (r.hechos.length) { sim.valores = r.v; sim.fusiones = r.fusiones; sim.situacion = "propio"; }
+    if (r.hechos.length) { sim.valores = r.v; sim.fusiones = r.fusiones; sim.situacion = "propio"; contar("Usa monta tu caso"); }
     else if (sim.situacion === "propio") { sim.situacion = "media"; sim.valores = { ...sim.base }; sim.fusiones = []; }
     else { pintarCaso(); return; }
     pintarCaso(); marcarSituacion(); recalcularSim(); probabilidadSim();
@@ -830,7 +896,7 @@ function pintarSenado(proy) {
 const foco = { k: null, ctx: null };
 let graficoFoco;
 try { foco.k = localStorage.getItem("partido") || null; } catch {}
-function elegirFoco(k) { foco.k = k; try { if (k) localStorage.setItem("partido", k); else localStorage.removeItem("partido"); } catch {} pintarFoco(); if (foco.ctx) pintarListaPartidos(foco.ctx.m, foco.ctx.m7, foco.ctx.proy); }
+function elegirFoco(k) { foco.k = k; if (k) contar("Usa el modo partido"); try { if (k) localStorage.setItem("partido", k); else localStorage.removeItem("partido"); } catch {} pintarFoco(); if (foco.ctx) pintarListaPartidos(foco.ctx.m, foco.ctx.m7, foco.ctx.proy); }
 const agujaFija = (titulo, p, col) => el("div", { class: "medidor-a fijo" }, el("span", { class: "tit" }, titulo), el("span", { class: "svg", html: aguja(p, col) }), el("b", {}, cap(palabra(p))));
 const ORDINAL = ["", "primero", "segundo", "tercero", "cuarto", "quinto", "sexto", "séptimo", "octavo", "noveno", "décimo"];
 function pintarFoco(ctx) {
@@ -1041,6 +1107,7 @@ async function refrescar() {
 
 /* ---------- Tarjeta para compartir ---------- */
 async function compartir() {
+  contar("Comparte la foto");
   const P = D.prob, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
   if (!P || !der || !izq) return;
   const c = document.createElement("canvas"); c.width = 1080; c.height = 1350;

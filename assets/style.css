@@ -36,6 +36,20 @@ h2 { font-stretch: 78%; font-weight: 750; font-size: 1.45rem; line-height: 1.1; 
 .pestanas .largo { display: none; }
 @media (min-width: 430px) and (max-width: 759px) { .pestanas a { font-size: .62rem; } }
 .pestanas a.activa svg { fill: var(--bronce); }
+/* En el móvil van cuatro pestañas a la vista y el resto dentro de «Más», que se despliega encima de la barra.
+   En pantallas anchas no hace falta, caben todas en fila y el botón desaparece. */
+.pestanas .mas-boton { flex: 1 1 0; min-width: 0; border: 0; background: transparent; font: inherit; color: var(--gris); font-size: .68rem; font-weight: 650; font-stretch: 80%; padding: 6px 0 4px; border-radius: 10px; display: flex; flex-direction: column; align-items: center; gap: 2px; cursor: pointer; }
+.pestanas .mas-boton svg { width: 22px; height: 22px; fill: currentColor; }
+.pestanas .mas-boton.activa, .pestanas.abierta .mas-boton { color: var(--tinta); background: var(--papel); }
+.pestanas .mas-boton.activa svg { fill: var(--bronce); }
+@media (max-width: 759px) {
+  .pestanas > a { font-size: .68rem; }
+  .pestanas .mas-hoja { display: none; position: absolute; right: 8px; bottom: calc(100% + 8px); min-width: 210px; background: var(--superficie); border: 1px solid var(--linea); border-radius: 14px; padding: 6px; box-shadow: 0 8px 28px rgba(23, 32, 46, .18); flex-direction: column; gap: 2px; }
+  .pestanas.abierta .mas-hoja { display: flex; }
+  .pestanas .mas-hoja a { flex: none; flex-direction: row; justify-content: flex-start; gap: 12px; font-size: .98rem; font-stretch: 100%; letter-spacing: 0; padding: 12px 12px; }
+  .pestanas .mas-hoja .largo { display: inline; } .pestanas .mas-hoja .corto { display: none; }
+}
+@media (min-width: 760px) { .pestanas .mas-boton { display: none; } .pestanas .mas-hoja { display: contents; } }
 @media (min-width: 760px) {
   body { padding-bottom: 40px; }
   .pestanas { position: sticky; top: 0; bottom: auto; border-top: 0; border-bottom: 1px solid var(--linea); justify-content: center; gap: 2px; padding: 8px 4px; }
@@ -203,6 +217,15 @@ details[open] summary::after { content: "–"; }
 .mapa svg .sel path, .mapa svg .sel circle.prov { stroke: var(--tinta); stroke-width: 3; }
 .mapa svg text { pointer-events: none; font-family: inherit; }
 .recuadro { fill: none; stroke: var(--linea); stroke-width: 2; }
+.pasos-dh { list-style: none; margin: 10px 0 8px; padding: 0; }
+.pasos-dh li { display: grid; grid-template-columns: 2.2em auto 1fr; align-items: center; gap: 4px 8px; padding: 7px 0; border-top: 1px solid var(--linea); font-size: .9rem; line-height: 1.35; }
+.pasos-dh li:first-child { border-top: 0; }
+.pasos-dh .num { font-weight: 800; color: var(--gris); }
+.pasos-dh .chip { justify-self: start; }
+.pasos-dh .por { color: var(--tinta); }
+.pasos-dh .salto { display: block; color: var(--gris); font-style: italic; padding-left: 2.2em; }
+@media (max-width: 480px) { .pasos-dh li { grid-template-columns: 2.2em 1fr; } .pasos-dh .por { grid-column: 2; } }
+.como.dentro { background: var(--superficie); margin-top: 8px; }
 .dhondt { width: 100%; border-collapse: collapse; font-size: .8rem; margin-top: 8px; }
 .dhondt th, .dhondt td { padding: 3px 5px; text-align: right; border-top: 1px solid var(--linea); white-space: nowrap; }
 .dhondt th:first-child, .dhondt td:first-child { text-align: left; font-weight: 650; }
@@ -338,6 +361,9 @@ details[open] summary::after { content: "–"; }
 .leyenda-empresas { margin: -4px 0 10px; }
 .tarjeta.abrible { cursor: pointer; }
 .tarjeta .detalle { margin-top: 10px; border-top: 1px solid var(--linea); padding-top: 8px; font-size: .88rem; }
+.mini-grafico { margin: 8px 0 10px; cursor: default; }
+.mini-grafico p { margin: 0 0 6px; color: var(--gris); }
+.mini-grafico .lienzo { position: relative; height: 210px; background: var(--papel); border-radius: 12px; padding: 8px 6px 2px; }
 .tarjeta .detalle table { width: 100%; border-collapse: collapse; margin-top: 6px; }
 .tarjeta .detalle td, .tarjeta .detalle th { padding: 3px 4px; text-align: right; border-top: 1px solid var(--linea); font-weight: 500; }
 .tarjeta .detalle th:first-child, .tarjeta .detalle td:first-child { text-align: left; font-weight: 650; }

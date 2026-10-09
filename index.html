@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=38">
+<link rel="stylesheet" href="assets/style.css?v=41">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
@@ -39,11 +39,14 @@
   <a href="#hoy" data-tab="hoy"><svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Hoy</a>
   <a href="#mapa" data-tab="mapa"><svg viewBox="0 0 24 24"><path d="M9 3 3 5.5v15L9 18l6 2.5 6-2.5v-15L15 6zM9 5.2v10.6l6 2.4V7.6z"/></svg>Provincias</a>
   <a href="#encuestas" data-tab="encuestas"><svg viewBox="0 0 24 24"><path d="M4 20V10h3v10zm6.5 0V4h3v16zM17 20v-7h3v7z"/></svg>Encuestas</a>
-  <a href="#senado" data-tab="senado"><svg viewBox="0 0 24 24"><path d="M12 3 2 10h3v9h14v-9h3zm-3 8h2v6H9zm4 0h2v6h-2z"/></svg>Senado</a>
   <a href="#simulador" data-tab="simulador"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2zm-3 17h6v1.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 20.5z"/></svg>¿Y si…?</a>
-  <a href="#noticias" data-tab="noticias"><svg viewBox="0 0 24 24"><path d="M4 4h13a2 2 0 0 1 2 2v12h1a1 1 0 0 1-1 1H6a3 3 0 0 1-3-3V5a1 1 0 0 1 1-1zm2 3v2h9V7zm0 4v2h9v-2zm0 4v2h6v-2zM21 9v9a1 1 0 0 1-2 0V9z"/></svg>Noticias</a>
-  <a href="#el29n" data-tab="el29n"><svg viewBox="0 0 24 24"><path d="M7 2v2H5a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2zM5 10h14v9H5z"/></svg>29N</a>
-  <a href="#metodologia" data-tab="metodologia"><svg viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.2 8.2h2.4V17h-2.4zm0-3.6h2.4V9h-2.4z"/></svg><span class="largo">Metodología</span><span class="corto">Método</span></a>
+  <button type="button" class="mas-boton" aria-expanded="false" aria-controls="mas-hoja"><svg viewBox="0 0 24 24"><path d="M5 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm7 0a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm7 0a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg>Más</button>
+  <div class="mas-hoja" id="mas-hoja">
+    <a href="#senado" data-tab="senado"><svg viewBox="0 0 24 24"><path d="M12 3 2 10h3v9h14v-9h3zm-3 8h2v6H9zm4 0h2v6h-2z"/></svg>Senado</a>
+    <a href="#noticias" data-tab="noticias"><svg viewBox="0 0 24 24"><path d="M4 4h13a2 2 0 0 1 2 2v12h1a1 1 0 0 1-1 1H6a3 3 0 0 1-3-3V5a1 1 0 0 1 1-1zm2 3v2h9V7zm0 4v2h9v-2zm0 4v2h6v-2zM21 9v9a1 1 0 0 1-2 0V9z"/></svg>Noticias</a>
+    <a href="#el29n" data-tab="el29n"><svg viewBox="0 0 24 24"><path d="M7 2v2H5a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2zM5 10h14v9H5z"/></svg>29N</a>
+    <a href="#metodologia" data-tab="metodologia"><svg viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.2 8.2h2.4V17h-2.4zm0-3.6h2.4V9h-2.4z"/></svg><span class="largo">Metodología</span><span class="corto">Método</span></a>
+  </div>
 </nav>
 
 <main>
@@ -271,7 +274,7 @@
       <p><b>Investidura.</b> La votación en la que el Congreso elige al presidente. En la primera hacen falta 176 síes, en la segunda basta con más síes que noes.</p>
       <p><b>Bloqueo.</b> Cuando ninguna combinación de partidos dispuestos a pactar suma 176. Si dura dos meses desde la primera investidura fallida, se repiten las elecciones.</p>
       <p><b>Punto.</b> Un punto es el 1 % de los votos, unos 250.000 votantes, más o menos la población de Gijón o de Vigo.</p>
-      <p><b>Ley D'Hondt.</b> La fórmula que convierte votos en asientos en cada provincia. Divide los votos de cada partido entre 1, 2, 3… y da los asientos a los números más altos.</p>
+      <p><b>Ley D'Hondt.</b> La fórmula que convierte votos en asientos en cada provincia. Los asientos se dan de uno en uno al partido con el número más alto, y a quien gana uno se le divide el voto entre 2 para optar al siguiente, luego entre 3, y así.</p>
     </article>
   </section>
 
@@ -315,7 +318,7 @@
       <p><b>Se parte de 2023.</b> Se coge lo que sacó cada partido en cada provincia en las últimas generales.</p>
       <p><b>Se mueve en proporción.</b> Si un partido tiene hoy en las encuestas un 10 % más de voto que en 2023, se le sube un 10 % en todas las provincias. Si tiene menos, se le baja igual.</p>
       <p><b>Los partidos que en 2023 no iban solos.</b> Sumar y Podemos fueron juntos, y Se Acabó La Fiesta no existía. Para repartirlos por provincias se mira dónde fue más fuerte cada uno en las europeas de 2024.</p>
-      <p><b>Se reparten los asientos.</b> En cada provincia se aplica la ley electoral tal cual. Solo entran los partidos con al menos el 3 % del voto de esa provincia y los asientos se reparten con la fórmula D'Hondt. El reparto de cada provincia, división a división, se puede ver tocándola en la pestaña Provincias.</p>
+      <p><b>Se reparten los asientos.</b> En cada provincia se aplica la ley electoral tal cual. Solo entran los partidos con al menos el 3 % del voto de esa provincia y los asientos se reparten con la fórmula D'Hondt. El reparto de cada provincia, asiento a asiento, se puede ver tocándola en la pestaña Provincias.</p>
       <p>Eso da el número de asientos «con las encuestas de hoy» que sale en el hemiciclo, en el mapa y en ¿Y si…?. Es siempre el mismo cálculo.</p>
       <p><b>Si montas tu caso.</b> En ¿Y si…? puedes plantear que un partido le quite puntos a otro, que lo absorba o que vayan en una sola lista. Puedes encadenar varios cambios, que se aplican en el orden en que los añades. Al juntar partidos se suman sus votos provincia a provincia, cada uno donde los tiene, y después se reparten los asientos con la misma ley. Es una cuenta, no una predicción. Cuando dos partidos se juntan no siempre conservan todos sus votantes, y por eso puedes elegir si les siguen todos, tres cuartos o la mitad. Los que no les siguen cuentan como si se quedaran en casa.</p>
     </article>
@@ -354,6 +357,7 @@
     <article class="pregunta texto">
       <h2>8. Quién lo hace y cómo comprobarlo</h2>
       <p>Es un proyecto personal, hecho por afición. No lleva publicidad y no depende de ningún partido, medio ni empresa de encuestas.</p>
+      <p><b>Cuenta visitas y nada más.</b> Para saber cuánta gente entra, la app usa <a href="https://www.goatcounter.com/" target="_blank" rel="noopener">GoatCounter</a>, un contador que no pone cookies ni guarda datos personales. Solo apunta que alguien ha entrado, desde qué web llega y qué pestañas abre.</p>
       <p><b>El código es público.</b> Todas las cuentas que se explican aquí están en <a href="https://github.com/1985xose/elecciones-29n" target="_blank" rel="noopener">github.com/1985xose/elecciones-29n</a>. Cualquiera puede leerlo, copiarlo y rehacer los cálculos.</p>
       <p><b>Los datos también.</b> Son los mismos ficheros que usa la app. <a href="data/encuestas.json" target="_blank" rel="noopener">Todas las encuestas</a>, <a href="data/probabilidades.json" target="_blank" rel="noopener">las probabilidades y el resultado de las repeticiones</a>, <a href="data/analisis.json" target="_blank" rel="noopener">las manías y notas de cada empresa</a>, <a href="data/fiabilidad.json" target="_blank" rel="noopener">el acierto de cada empresa en elecciones anteriores</a>, <a href="data/base2023.json" target="_blank" rel="noopener">los resultados de 2023 por provincia</a> y <a href="data/noticias.json" target="_blank" rel="noopener">las noticias</a>.</p>
       <p><b>Se actualiza sola.</b> Un programa descarga las encuestas y las noticias cada hora y rehace todas las cuentas. Arriba a la derecha pone siempre la hora de la última actualización.</p>
@@ -365,10 +369,11 @@
   <div id="porra-instrucciones" hidden></div><div id="porra" hidden></div>
 </main>
 
+<script data-goatcounter="https://xose.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-<script src="assets/modelo.js?v=38"></script>
-<script src="assets/media.js?v=38"></script>
-<script src="assets/app.js?v=38"></script>
+<script src="assets/modelo.js?v=41"></script>
+<script src="assets/media.js?v=41"></script>
+<script src="assets/app.js?v=41"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;

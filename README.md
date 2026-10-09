@@ -10,6 +10,8 @@ Panel personal de las elecciones generales del 29 de noviembre de 2026, con un m
 4. **Salidas.** Probabilidad de cada escenario (`config.json` > `escenarios`), abanicos de escaños, provincia bisagra, provincias en el aire, puntos de margen, y un backtest sobre 2023 con la base de 2019.
 5. **Análisis de encuestas.** Sesgo de casa de cada empresa frente a la media del momento, notas de A a D por acierto histórico, y veredicto de noticia o ruido para cada encuesta nueva.
 
+Las visitas se cuentan con GoatCounter (cuenta `xose`, panel en https://xose.goatcounter.com), sin cookies. La línea está en `index.html` y los apuntes de pestañas y usos en `contar()` de `app.js`.
+
 ## Ficheros
 
 | Ruta | Qué hace |
