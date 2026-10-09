@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-09T11:01:10+00:00",
+ "actualizado": "2026-10-09T12:01:10+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1379331299,
+ "revision": 1379345374,
  "partidos": [
   "PP",
   "PSOE",
@@ -20,6 +20,31 @@
   "AC"
  ],
  "encuestas": [
+  {
+   "empresa": "InvyMark/laSexta",
+   "inicio": "2026-10-09",
+   "fin": "2026-10-09",
+   "muestra": null,
+   "participacion": null,
+   "pct": {
+    "PP": 32.8,
+    "PSOE": 28.0,
+    "Vox": 18.8,
+    "Sumar": 6.3,
+    "ERC": 1.9,
+    "Junts": 1.2,
+    "Bildu": 1.5,
+    "PNV": 1.1,
+    "Podemos": 3.2,
+    "SALF": 1.8
+   },
+   "escanos": {},
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "encargo": "laSexta",
+   "id": "invymark-2026-10-09-0",
+   "primera_vez": "2026-10-09T12:01:10+00:00"
+  },
   {
    "empresa": "40dB/Prisa",
    "inicio": "2026-10-07",
