@@ -512,3 +512,27 @@ details[open] summary::after { content: "–"; }
 .tramo-fechas input { border: 2px solid var(--linea); border-radius: 10px; padding: 7px 10px; font: inherit; font-weight: 600; color: var(--tinta); background: var(--superficie); min-height: 40px; }
 .tramo-fechas p { flex-basis: 100%; margin: 0; }
 .tramo-fechas p:empty { display: none; }
+/* Qué te toca hacer */
+.tareas-grupo { font-size: 1rem; margin: 18px 0 8px; }
+.tareas { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.tarea { display: grid; gap: 4px; background: var(--papel); border-radius: 12px; padding: 11px 14px; border-left: 4px solid var(--linea); font-size: .95rem; }
+.tarea.abierta { border-left-color: var(--bronce); }
+.tarea .cab { display: flex; justify-content: space-between; align-items: center; gap: 10px; font-size: .8rem; font-weight: 600; color: var(--gris); }
+.tarea .estado { border: 1px solid var(--gris); border-radius: 999px; padding: 1px 9px; }
+.tarea.abierta .estado { background: var(--tinta); border-color: var(--tinta); color: #fff; }
+.tarea.pasada { color: var(--gris); }
+.tarea.pasada .estado { border-color: var(--linea); }
+.tarea.pasada b { font-weight: 600; }
+.tarea .det { color: var(--gris); font-size: .88rem; }
+.tarea a { color: var(--tinta); font-size: .88rem; font-weight: 600; justify-self: start; }
+/* Enlaces directos y avisos de un partido */
+.foco-tira .eti { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 26px; }
+.copiar-enlace { flex: none; border: 2px solid var(--linea); background: var(--superficie); border-radius: 999px; padding: 3px 12px; font: inherit; font-size: .8rem; font-weight: 650; color: var(--tinta); cursor: pointer; }
+.copiar-enlace:hover { border-color: var(--tinta); }
+.copiar-enlace:disabled { border-color: var(--bien); color: var(--bien); cursor: default; }
+.ficha .copiar-enlace { margin-top: 10px; padding: 6px 14px; font-size: .86rem; background: var(--papel); }
+.pregunta .ficha .copiar-enlace { background: var(--superficie); }
+.foco-aviso { margin: 6px 0 0; padding: 9px 12px; border-radius: 12px; background: color-mix(in srgb, var(--bronce) 14%, var(--superficie)); font-size: .86rem; line-height: 1.4; }
+.foco-aviso a, .nota-fuera a { color: var(--tinta); }
+.marca-aviso { border: 0; border-radius: 999px; padding: 1px 8px; background: var(--bronce); color: #fff; font: inherit; font-size: .7rem; font-weight: 700; cursor: pointer; }
+.nota-fuera { border-radius: 8px; }

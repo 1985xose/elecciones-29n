@@ -37,6 +37,11 @@
  },
  {
   "fecha": "2026-10-31",
+  "titulo": "Último día para pedir el voto si estás de paso en el extranjero",
+  "detalle": "Para quien vive en España y el 29 estará fuera una temporada. Se pide en el consulado."
+ },
+ {
+  "fecha": "2026-10-31",
   "fin": "2026-11-04",
   "titulo": "Sorteo de las mesas electorales",
   "detalle": "Los ayuntamientos sortean quién es presidente y vocal. Si te toca, te lo notifican en casa."
@@ -47,6 +52,11 @@
   "detalle": "Las listas ya son las definitivas. Salen en el BOE el martes 3."
  },
  {
+  "fecha": "2026-11-02",
+  "titulo": "El INE empieza a enviar las tarjetas censales",
+  "detalle": "Llegan a casa y dicen en qué mesa y en qué colegio votas."
+ },
+ {
   "fecha": "2026-11-09",
   "titulo": "Correos empieza a enviar la documentación del voto por correo",
   "detalle": "A la dirección que se puso al pedirlo."
@@ -55,6 +65,12 @@
   "fecha": "2026-11-13",
   "titulo": "Empieza la campaña",
   "detalle": "Desde las 0:00 del viernes 13."
+ },
+ {
+  "fecha": "2026-11-21",
+  "fin": "2026-11-26",
+  "titulo": "Voto en urna en los consulados",
+  "detalle": "Para los residentes en el extranjero. Por correo tienen hasta el 24 de noviembre."
  },
  {
   "fecha": "2026-11-24",

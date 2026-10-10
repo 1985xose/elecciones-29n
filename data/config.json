@@ -231,5 +231,86 @@
     "derecha": "pp_vox",
     "izquierda": "izq_socios"
   },
-  "polemicas": "polémica OR escándalo OR imputado OR imputada OR investigación OR Fiscalía OR \"Guardia Civil\" OR dimisión"
+  "polemicas": "polémica OR escándalo OR imputado OR imputada OR investigación OR Fiscalía OR \"Guardia Civil\" OR dimisión",
+  "tareas": [
+    {
+      "id": "censo",
+      "grupo": "todos",
+      "que": "Comprobar que estás en el censo",
+      "desde": "2026-10-12",
+      "hasta": "2026-10-19",
+      "como": "En tu ayuntamiento, o por internet en la sede electrónica del INE con Cl@ve, donde sale también tu mesa y tu colegio. Si hay un error, se reclama en esos mismos días.",
+      "enlace": {
+        "texto": "Sede electrónica del INE",
+        "url": "https://sede.ine.gob.es/"
+      }
+    },
+    {
+      "id": "mesa",
+      "sin_plazo": true,
+      "grupo": "todos",
+      "que": "Mirar si te ha tocado mesa",
+      "desde": "2026-10-31",
+      "hasta": "2026-11-04",
+      "como": "Los ayuntamientos sortean esos días quién es presidente y vocal. Si te toca, te llega la notificación a casa, y desde que la recibes tienes 7 días para alegar que no puedes ir."
+    },
+    {
+      "id": "tarjeta",
+      "sin_plazo": true,
+      "cuando": "Desde el 2 nov",
+      "grupo": "todos",
+      "que": "Mirar en la tarjeta censal dónde votas",
+      "desde": "2026-11-02",
+      "hasta": "2026-11-28",
+      "como": "El INE las envía a casa a partir del 2 de noviembre. Dice tu mesa y tu colegio. Si no te llega, se consulta en su sede electrónica.",
+      "enlace": {
+        "texto": "Sede electrónica del INE",
+        "url": "https://sede.ine.gob.es/"
+      }
+    },
+    {
+      "id": "votar",
+      "grupo": "todos",
+      "que": "Votar",
+      "desde": "2026-11-29",
+      "hasta": "2026-11-29",
+      "como": "De 9:00 a 20:00 en tu colegio, con el DNI, el pasaporte o el carné de conducir, aunque estén caducados."
+    },
+    {
+      "id": "correo-pedir",
+      "grupo": "correo",
+      "que": "Pedir el voto por correo",
+      "desde": "2026-10-06",
+      "hasta": "2026-11-19",
+      "como": "En persona en cualquier oficina de Correos, con el DNI, el pasaporte o el carné de conducir. O por internet en correos.es, si tienes certificado digital o DNI electrónico. El último día es el jueves 19 de noviembre.",
+      "enlace": {
+        "texto": "Web de Correos",
+        "url": "https://www.correos.es/"
+      }
+    },
+    {
+      "id": "correo-enviar",
+      "grupo": "correo",
+      "que": "Entregar tu voto en Correos",
+      "desde": "2026-11-09",
+      "hasta": "2026-11-25",
+      "como": "La documentación se empieza a enviar el 9 de noviembre, a la dirección que pusiste al pedirlo. El voto se entrega en Correos, certificado y gratis. El último día es el miércoles 25."
+    },
+    {
+      "id": "fuera-paso",
+      "grupo": "fuera",
+      "que": "Pedir el voto si estás de paso en el extranjero",
+      "desde": "2026-10-06",
+      "hasta": "2026-10-31",
+      "como": "Para quien vive en España y el 29 estará fuera una temporada. Hay que estar inscrito en el consulado como no residente y pedirlo allí."
+    },
+    {
+      "id": "fuera-votar",
+      "grupo": "fuera",
+      "que": "Votar si vives en el extranjero",
+      "desde": "2026-11-21",
+      "hasta": "2026-11-26",
+      "como": "No hay que pedir nada, la documentación llega a casa. En urna en el consulado, del 21 al 26 de noviembre. Por correo, hasta el 24."
+    }
+  ]
 }

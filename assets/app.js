@@ -79,8 +79,8 @@ const nombreEsc = (e) => (D.config.escenarios.find((x) => x.id === e.id) || {}).
 
 /* ---------- Pestañas ---------- */
 /* Visitas. Las cuenta GoatCounter, que no usa cookies ni guarda datos personales. La entrada a la web la apunta su
-   propio script. Aquí se apuntan además las pestañas que se abren y tres usos (modo partido, caso propio y compartir),
-   una vez por visita. Si el contador no ha cargado todavía se guarda y se manda cuando cargue. Si está bloqueado, nada. */
+   propio script. Aquí se apuntan además las pestañas que se abren y algunos usos (modo partido, caso propio, compartir,
+   copiar un enlace y llegar con un enlace a un partido o a una provincia), una vez por visita. Si el contador no ha cargado todavía se guarda y se manda cuando cargue. Si está bloqueado, nada. */
 const visitas = { hechas: new Set(), cola: [], inicio: true };
 function contar(nombre) {
   if (visitas.hechas.has(nombre)) return;
@@ -149,12 +149,14 @@ addEventListener("error", (e) => { if (e.message) apuntarError(e.message, e.file
 addEventListener("unhandledrejection", (e) => apuntarError(`Promesa: ${e.reason?.message || e.reason}`, "", 0));
 const NOMBRE_PESTANA = { hoy: "Hoy", mapa: "Provincias", encuestas: "Encuestas", senado: "Senado", simulador: "Y si", noticias: "Noticias", el29n: "29N", metodologia: "Metodología" };
 let carrilVivo; // vuelve a medir las flechas de la fila de partidos
+let pestanaActual = "hoy";
 function activarPestana(id) {
   // «#no-contar» no es una pestaña: es la forma de pedir que este dispositivo no se cuente en las visitas
   if (id === "no-contar") { try { localStorage.setItem("skipgc", "t"); alert("Hecho. Este dispositivo ya no se cuenta en las visitas."); } catch { alert("Este navegador no deja guardarlo, así que no se ha podido."); } history.replaceState(null, "", location.pathname + location.search); id = "hoy"; }
   const ids = ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias", "el29n", "metodologia"];
   if (!ids.includes(id)) id = "hoy";
   for (const i of ids) document.getElementById(i).hidden = i !== id;
+  pestanaActual = id;
   document.querySelectorAll(".pestanas a").forEach((a) => a.classList.toggle("activa", a.dataset.tab === id));
   // Si la pestaña elegida vive dentro de «Más», se marca ese botón para que se sepa dónde se está. Y la hoja se cierra.
   $(".mas-boton")?.classList.toggle("activa", !!document.querySelector(`.mas-hoja a[data-tab="${id}"]`));
@@ -183,12 +185,45 @@ window.addEventListener("hashchange", () => activarPestana(location.hash.slice(1
 const noConcurren = () => Object.keys(D.config?.partidos || {}).filter((k) => D.config.partidos[k].no_concurre);
 /* Avisos sobre un partido que conviene tener a la vista (config.partidos[k].aviso), por ejemplo un cambio de nombre
    anunciado que todavía no es oficial. Salen bajo la lista de partidos y en la ficha de ese partido. */
-function notaAviso(k) {
+function notaAviso(k, attrs = { class: "explica nota-fuera", id: `aviso-${k}` }) {
   const x = D.config?.partidos?.[k]?.aviso;
   if (!x?.texto) return null;
-  return el("p", { class: "explica nota-fuera" }, el("b", {}, `${nombre(k)}. `), x.texto, x.fuente ? [" (", el("a", { href: x.fuente, target: "_blank", rel: "noopener" }, "fuente"), ")"] : null);
+  return el("p", attrs, el("b", {}, `${nombre(k)}. `), x.texto, x.fuente ? [" (", el("a", { href: x.fuente, target: "_blank", rel: "noopener" }, "fuente"), ")"] : null);
 }
-const notasAviso = () => Object.keys(D.config?.partidos || {}).map(notaAviso).filter(Boolean);
+/* Enlaces directos. «?partido=sumar» abre la app centrada en ese partido y «?provincia=madrid» abre la ficha de esa
+   provincia. Valen para esa visita y no se guardan en el dispositivo, así que no pisan lo que cada uno tuviera elegido.
+   En cuanto la persona elige otro partido u otra provincia, el dato se quita de la dirección. */
+const llano = (t) => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+const slug = (t) => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const OTROS_NOMBRES = { coruna: "A Coruña", lacoruna: "A Coruña", araba: "Álava", vizcaya: "Bizkaia", guipuzcoa: "Gipuzkoa", gerona: "Girona", lerida: "Lleida", orense: "Ourense", illesbalears: "Baleares", islasbaleares: "Baleares", rioja: "La Rioja", palmas: "Las Palmas", tenerife: "Santa Cruz de Tenerife", alacant: "Alicante", castello: "Castellón" };
+const enlace = { partido: false, provincia: false };
+function leerEnlace() {
+  let q; try { q = new URLSearchParams(location.search); } catch { return; }
+  const p = llano(q.get("partido")), v = llano(q.get("provincia"));
+  if (p) { const k = Object.keys(D.config.partidos).find((x) => !D.config.partidos[x].no_concurre && (llano(x) === p || llano(nombre(x)) === p));
+    if (k) { foco.k = k; enlace.partido = true; contar("Llega con enlace a un partido"); } }
+  if (v) { const n = D.base.provincias.map((x) => x.nombre).find((x) => llano(x) === v || x === OTROS_NOMBRES[v]);
+    if (n) { mapa.sel = n; enlace.provincia = true; contar("Llega con enlace a una provincia"); } }
+}
+function quitarDelEnlace(clave) {
+  try { const u = new URL(location.href); if (!u.searchParams.has(clave)) return; u.searchParams.delete(clave); history.replaceState(null, "", u.pathname + u.search + u.hash); } catch {}
+}
+function enlaceA({ partido, provincia, pestana }) {
+  const base = document.querySelector('link[rel="canonical"]')?.href || location.origin + location.pathname;
+  const q = [partido ? `partido=${slug(nombre(partido))}` : "", provincia ? `provincia=${slug(provincia)}` : ""].filter(Boolean).join("&");
+  return base + (q ? `?${q}` : "") + (pestana && pestana !== "hoy" ? `#${pestana}` : "");
+}
+async function copiarEnlace(boton, url) {
+  contar("Copia un enlace");
+  let ok = false;
+  try { await navigator.clipboard.writeText(url); ok = true; } catch {}
+  if (!ok) { prompt("Copia este enlace", url); return; }
+  const antes = boton.textContent;
+  boton.textContent = "Enlace copiado"; boton.disabled = true;
+  setTimeout(() => { boton.textContent = antes; boton.disabled = false; }, 2000);
+}
+const botonEnlace = (texto, url) => el("button", { type: "button", class: "copiar-enlace", onclick: (e) => copiarEnlace(e.currentTarget, url()) }, texto);
+const notasAviso = () => Object.keys(D.config?.partidos || {}).map((k) => notaAviso(k)).filter(Boolean);
 function notaNoConcurren() {
   const ks = noConcurren();
   if (!ks.length) return null;
@@ -314,7 +349,7 @@ function pintarHoy(m, m7, proy) {
 
   // 0. El resumen de hoy, cada línea lleva a lo que anuncia
   $("#resumen-titulo").replaceChildren("El resumen de hoy ", el("span", { class: "fecha" }, new Intl.DateTimeFormat("es-ES", { timeZone: "Europe/Madrid", weekday: "long", day: "numeric", month: "long" }).format(new Date())));
-  const ICO = { urna: "M4 10h16v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zM7 4h10l2 4H5zM9 13v2h6v-2z", congreso: "M12 3 2 10h3v9h14v-9h3zm-3 8h2v6H9zm4 0h2v6h-2z", encuesta: "M4 20V9h3v11zm6.5 0V4h3v16zM17 20v-6h3v6z", noticia: "M4 4h13a2 2 0 0 1 2 2v13H5a1 1 0 0 1-1-1zm2 3v2h9V7zm0 4v2h9v-2zm0 4v2h6v-2z", mapa: "M9 3 3 5.5v15L9 18l6 2.5 6-2.5v-15L15 6zM9 5.2v10.6l6 2.4V7.6z" };
+  const ICO = { urna: "M4 10h16v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zM7 4h10l2 4H5zM9 13v2h6v-2z", congreso: "M12 3 2 10h3v9h14v-9h3zm-3 8h2v6H9zm4 0h2v6h-2z", encuesta: "M4 20V9h3v11zm6.5 0V4h3v16zM17 20v-6h3v6z", noticia: "M4 4h13a2 2 0 0 1 2 2v13H5a1 1 0 0 1-1-1zm2 3v2h9V7zm0 4v2h9v-2zm0 4v2h6v-2z", mapa: "M9 3 3 5.5v15L9 18l6 2.5 6-2.5v-15L15 6zM9 5.2v10.6l6 2.4V7.6z", calendario: "M7 2v2H5a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2zM5 10h14v9H5z" };
   const fila = (ico, texto, sub, accion) => el("li", {}, el(typeof accion === "string" ? "a" : "button", typeof accion === "string" ? { class: "enlace-resumen", href: accion, target: "_blank", rel: "noopener" } : { class: "enlace-resumen", type: "button", onclick: accion },
     el("svg", { viewBox: "0 0 24 24", html: `<path d="${ICO[ico]}"/>` }), el("span", {}, texto, sub ? el("small", {}, sub) : null), el("svg", { class: "flecha", viewBox: "0 0 24 24", html: '<path d="M9 5l7 7-7 7-1.4-1.4L13.2 12 7.6 6.4z"/>' })));
   const ir = (sel) => () => { const t = $(sel); t.scrollIntoView({ behavior: "smooth", block: "center" }); t.classList.add("destacada"); setTimeout(() => t.classList.remove("destacada"), 2500); };
@@ -326,7 +361,9 @@ function pintarHoy(m, m7, proy) {
   const pol0 = D.noticias?.polemicas?.[0];
   if (pol0) resumen.push(fila("noticia", pol0.titulo, `Polémica del día, ${nombre(pol0.partido)}, ${pol0.fuente}`, pol0.enlace));
   const aire0 = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => Math.max(a.aspirante.falta, 0) / (10 / (a.n + 1)) - Math.max(b.aspirante.falta, 0) / (10 / (b.n + 1)))[0];
-  if (aire0) resumen.push(fila("mapa", `La provincia más reñida es ${aire0.nombre}. ${nombre(aire0.ultimo.p)} y ${nombre(aire0.aspirante.p)} se disputan el último asiento ${porVotos(Math.max(aire0.aspirante.falta, 0), aire0.n)}.`, "Ver el mapa", () => { mapa.sel = aire0.nombre; mapa.vista = "filo"; document.querySelectorAll("#mapa .conmutador button").forEach((x) => x.setAttribute("aria-pressed", x.dataset.vista === "filo" ? "true" : "false")); pintarMapa(mapa.proy); location.hash = "#mapa"; }));
+  if (aire0) resumen.push(fila("mapa", `La provincia más reñida es ${aire0.nombre}. ${nombre(aire0.ultimo.p)} y ${nombre(aire0.aspirante.p)} se disputan el último asiento ${porVotos(Math.max(aire0.aspirante.falta, 0), aire0.n)}.`, "Ver el mapa", () => { quitarDelEnlace("provincia"); mapa.sel = aire0.nombre; mapa.vista = "filo"; document.querySelectorAll("#mapa .conmutador button").forEach((x) => x.setAttribute("aria-pressed", x.dataset.vista === "filo" ? "true" : "false")); pintarMapa(mapa.proy); location.hash = "#mapa"; }));
+  const toca = pintarTareas();
+  if (toca) resumen.push(fila("calendario", toca, "Ver qué te toca hacer y hasta cuándo", () => { location.hash = "#el29n"; }));
   $("#resumen").replaceChildren(...resumen);
 
   // 1. ¿Quién va ganando?
@@ -429,6 +466,45 @@ function pintarHoy(m, m7, proy) {
   $("#agenda").replaceChildren(...ag.map((x) => { const fin = fechaD(x.fin || x.fecha);
     return el("li", { class: fin < hoy() ? "pasado" : x === sig ? "siguiente" : null }, el("span", { class: "dia" }, x.fin ? `${fFecha.format(fechaD(x.fecha))} al ${fFecha.format(fin)}` : fFecha.format(fechaD(x.fecha))), el("span", {}, x.titulo, x.detalle ? el("span", { class: "det" }, x.detalle) : null)); }));
 }
+/* ---------- Qué te toca hacer: los trámites del votante con sus plazos (config.tareas) ---------- */
+const GRUPOS_TAREA = [["todos", "Para votar el 29"], ["correo", "Si vas a votar por correo"], ["fuera", "Si estás fuera de España"]];
+const fMes = new Intl.DateTimeFormat("es-ES", { month: "long", timeZone: "UTC" });
+const diaLargo = (t) => fFechaLarga.format(t).replace(",", "");
+const minus = (t) => t.charAt(0).toLowerCase() + t.slice(1);
+function listaTareas() {
+  const h = hoy();
+  return (D.config.tareas || []).map((t) => { const a = fechaD(t.desde), z = fechaD(t.hasta), faltan = Math.round((a - h) / DIA), quedan = Math.round((z - h) / DIA);
+    return { ...t, a, z, faltan, quedan, unDia: t.desde === t.hasta, fase: quedan < 0 ? "pasada" : faltan > 0 ? "futura" : "abierta" }; });
+}
+/* Pinta el bloque de la pestaña 29N y devuelve la frase que va en el resumen de Hoy (o nada si ya no queda ningún trámite). */
+function pintarTareas() {
+  const T = listaTareas(), vivas = T.filter((t) => t.fase !== "pasada");
+  $("#tareas-bloque").hidden = !vivas.length;
+  if (!vivas.length) return null;
+  const rango = (t) => t.unDia ? `el ${diaLargo(t.a)}` : fMes.format(t.a) === fMes.format(t.z) ? `del ${t.a.getUTCDate()} al ${t.z.getUTCDate()} de ${fMes.format(t.z)}` : `del ${t.a.getUTCDate()} de ${fMes.format(t.a)} al ${t.z.getUTCDate()} de ${fMes.format(t.z)}`;
+  // Lo de todo el mundo manda en el titular. Si hay varias cosas abiertas, la que antes se acaba.
+  const mias = T.filter((t) => t.grupo === "todos"), ahora = mias.filter((t) => t.fase === "abierta").sort((x, y) => x.z - y.z)[0], sig = mias.filter((t) => t.fase === "futura").sort((x, y) => x.a - y.a)[0];
+  let toca;
+  if (ahora?.unDia) toca = `Hoy toca ${minus(ahora.que)}, de 9:00 a 20:00.`;
+  else if (ahora?.sin_plazo) toca = `Estos días toca ${minus(ahora.que)}.`;
+  else if (ahora) toca = `Ahora toca ${minus(ahora.que)}. Hay hasta el ${diaLargo(ahora.z)}${ahora.quedan === 0 ? ", hoy es el último día" : ahora.quedan === 1 ? ", mañana es el último día" : `, quedan ${ahora.quedan} días`}.`;
+  else if (sig) toca = `Lo siguiente que te toca es ${minus(sig.que)}, ${rango(sig)}${sig.faltan === 1 ? (sig.unDia ? ", mañana" : ", empieza mañana") : ""}.`;
+  else toca = "Por tu parte ya está todo hecho.";
+  // Los otros dos grupos solo suben al titular cuando a un plazo le quedan tres días o menos
+  const ojo = T.filter((t) => t.grupo !== "todos" && t.fase === "abierta" && !t.sin_plazo && t.quedan <= 3).sort((x, y) => x.z - y.z)[0];
+  const resto = ojo ? ` Ojo, ${ojo.quedan === 0 ? "hoy" : ojo.quedan === 1 ? "mañana" : `el ${diaLargo(ojo.z)}`} es el último día para ${minus(ojo.que)}.` : " Si votas por correo o estás fuera de España, tus plazos van más abajo.";
+  $("#r-tareas").textContent = toca + resto;
+  const estado = (t) => t.fase === "pasada" ? (t.unDia ? "Ya pasó" : t.sin_plazo ? "Ya pasó" : "Plazo cerrado")
+    : t.fase === "futura" ? (t.faltan === 1 ? (t.unDia ? "Mañana" : "Empieza mañana") : `Dentro de ${t.faltan} días`)
+    : t.unDia ? "Hoy" : t.sin_plazo ? "Estos días" : t.quedan === 0 ? "Último día" : t.quedan === 1 ? "Termina mañana" : `Abierto, quedan ${t.quedan} días`;
+  const fechas = (t) => t.cuando || (t.unDia ? fFecha.format(t.a) : `${fFecha.format(t.a)} al ${fFecha.format(t.z)}`);
+  $("#tareas").replaceChildren(...GRUPOS_TAREA.flatMap(([g, titulo]) => { const suyas = T.filter((t) => t.grupo === g).sort((x, y) => x.a - y.a || x.z - y.z);
+    return suyas.length ? [el("h3", { class: "tareas-grupo" }, titulo), el("ul", { class: "tareas" }, ...suyas.map((t) => el("li", { class: `tarea ${t.fase}` },
+      el("div", { class: "cab" }, el("span", { class: "estado" }, estado(t)), el("span", { class: "dias" }, fechas(t))),
+      el("b", {}, t.que), el("span", { class: "det" }, t.como),
+      t.enlace?.url ? el("a", { href: t.enlace.url, target: "_blank", rel: "noopener" }, t.enlace.texto || "Más información") : null)))] : []; }));
+  return toca;
+}
 function antes2023(p) {
   const b = D.base.provincias.find((x) => x.nombre === p.nombre);
   if (!b?.esc_reales_2023) return "";
@@ -449,7 +525,7 @@ function pintarMiProvincia(proy) {
   const sel = $("#mi-provincia");
   if (!sel.options.length) {
     sel.append(el("option", { value: "" }, "Elige una"), ...proy.provincias.map((p) => p.nombre).sort((a, b) => a.localeCompare(b, "es")).map((n) => el("option", { value: n }, n)));
-    sel.addEventListener("change", () => { try { localStorage.setItem("mi-provincia", sel.value); } catch {} mapa.sel = sel.value || null; if (mapa.proy) pintarMapa(mapa.proy); if (sel.value) $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); });
+    sel.addEventListener("change", () => { quitarDelEnlace("provincia"); try { localStorage.setItem("mi-provincia", sel.value); } catch {} mapa.sel = sel.value || null; if (mapa.proy) pintarMapa(mapa.proy); if (sel.value) $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); });
   }
   sel.value = mapa.sel || "";
 }
@@ -537,7 +613,8 @@ function pintarListaPartidos(m, m7, proy) {
   // A la vista, los partidos con al menos un 5 % (y el que se esté siguiendo en modo partido). El resto, con un botón.
   const grandes = o.filter((k) => m.media[k] >= 5 || k === foco.k), resto = o.length - grandes.length;
   const fila = (k) => { const d = m7.media[k] != null ? m.media[k] - m7.media[k] : 0;
-    return el("div", { class: "fila-p" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+    const marca = D.config.partidos[k]?.aviso?.texto ? el("button", { type: "button", class: "marca-aviso", "aria-label": `Ver el aviso sobre ${nombre(k)}`, onclick: () => { const t = document.getElementById(`aviso-${k}`); if (!t) return; t.scrollIntoView({ behavior: "smooth", block: "center" }); t.classList.add("destacada"); setTimeout(() => t.classList.remove("destacada"), 2500); } }, "aviso") : null;
+    return el("div", { class: "fila-p" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k), marca),
       el("div", { class: "pct" }, `${fmt1.format(m.media[k])} %`, el("small", { class: Math.abs(d) >= 0.1 ? (d > 0 ? "sube" : "baja") : "" }, Math.abs(d) >= 0.1 ? signo(d) : "")),
       el("div", { class: "barra" }, el("i", { style: { width: `${m.media[k] / max * 100}%`, background: color(k) } })),
       el("div", { class: "esc" }, D.prob?.partidos?.[k] ? `entre ${D.prob.partidos[k].p10} y ${D.prob.partidos[k].p90} asientos` : `${proy.total[k] || 0} asientos`)); };
@@ -751,12 +828,13 @@ function pintarMapa(proy) {
   pintarMiProvincia(proy);
   const svg = dibujarMapa(proy);
   $("#mapa-svg").innerHTML = svg;
-  $("#mapa-svg").querySelectorAll("g.prov").forEach((g) => g.addEventListener("click", () => { mapa.sel = g.dataset.p; try { localStorage.setItem("mi-provincia", mapa.sel); } catch {} pintarMapa(mapa.proy); }));
+  $("#mapa-svg").querySelectorAll("g.prov").forEach((g) => g.addEventListener("click", () => { quitarDelEnlace("provincia"); mapa.sel = g.dataset.p; try { localStorage.setItem("mi-provincia", mapa.sel); } catch {} pintarMapa(mapa.proy); }));
   $("#mapa-pista").textContent = mapa.vista === "ganador" ? "Cada provincia lleva el color del partido que más asientos sacaría en ella, y el número de asientos que reparte. Si está más clara es que hay empate. Toca una para ver el detalle." : "Cada provincia lleva los colores de los dos partidos que se disputan su último asiento, primero el que lo tiene y luego el que lo persigue. Cuanto más intenso, más reñido. Las casi blancas están decididas. Toca una para ver el detalle.";
   const p = proy.provincias.find((x) => x.nombre === mapa.sel);
   $("#ficha-provincia").replaceChildren(...(p ? [el("div", { class: "ficha" }, el("h3", {}, `${p.nombre}, ${p.n} asientos`),
     el("div", { class: "chips" }, ...ordenar(p.escanos).map((k) => el("span", { class: "chip", style: { background: color(k) } }, `${nombre(k)} ${p.escanos[k]}`))),
     el("p", {}, (p.aspirante ? fraseProvincia(p, false) : "") + antes2023(p)),
+    botonEnlace(`Copiar el enlace a ${p.nombre}`, () => enlaceA({ provincia: p.nombre, pestana: "mapa" })),
     el("details", { class: "como" }, el("summary", {}, "¿Cómo se reparten estos asientos?"),
       el("p", {}, `De uno en uno. Cada asiento se lo lleva el partido que tenga el número más alto en ese momento. Todos empiezan con su porcentaje de voto. Cuando un partido gana un asiento, para optar al siguiente su voto se divide entre 2. Si gana otro, entre 3. Así el que ya tiene asientos lo tiene cada vez más difícil y los demás van entrando. Es la ley D'Hondt.`),
       pasosDhondt(p),
@@ -768,7 +846,7 @@ function pintarMapa(proy) {
   const relativo = (x) => Math.max(x.aspirante.falta, 0) / (10 / (x.n + 1));
   const aj = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => relativo(a) - relativo(b)).slice(0, 5).map((x) => ({ x }));
   const nivel = (x) => { const f = Math.max(x.aspirante?.falta ?? 99, 0), u = 10 / (x.n + 1); return f < u / 2 ? "Muy reñida" : f < u ? "Reñida" : "Algo reñida"; };
-  $("#ajustadas").replaceChildren(...aj.map(({ x, pp }) => el("button", { class: "ajustada", type: "button", onclick: () => { mapa.sel = x.nombre; pintarMapa(mapa.proy); $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); } },
+  $("#ajustadas").replaceChildren(...aj.map(({ x, pp }) => el("button", { class: "ajustada", type: "button", onclick: () => { quitarDelEnlace("provincia"); mapa.sel = x.nombre; pintarMapa(mapa.proy); $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); } },
     el("b", {}, x.nombre), el("span", { class: "pts" }, nivel(x)),
     el("span", { class: "m" }, x.aspirante ? `Se lo disputan ${nombre(x.ultimo.p)} y ${nombre(x.aspirante.p)}. Hoy lo tiene ${nombre(x.ultimo.p)} ${porVotos(Math.max(x.aspirante.falta, 0), x.n)}.` : ""))));
 }
@@ -1060,7 +1138,7 @@ function pintarSenado(proy) {
 const foco = { k: null, ctx: null };
 let graficoFoco;
 try { foco.k = localStorage.getItem("partido") || null; } catch {}
-function elegirFoco(k) { foco.k = k; if (k) contar("Usa el modo partido"); try { if (k) localStorage.setItem("partido", k); else localStorage.removeItem("partido"); } catch {} pintarFoco(); if (foco.ctx) pintarListaPartidos(foco.ctx.m, foco.ctx.m7, foco.ctx.proy); }
+function elegirFoco(k) { quitarDelEnlace("partido"); foco.k = k; if (k) contar("Usa el modo partido"); try { if (k) localStorage.setItem("partido", k); else localStorage.removeItem("partido"); } catch {} pintarFoco(); if (foco.ctx) pintarListaPartidos(foco.ctx.m, foco.ctx.m7, foco.ctx.proy); }
 const agujaFija = (titulo, p, col) => el("div", { class: "medidor-a fijo" }, el("span", { class: "tit" }, titulo), el("span", { class: "svg", html: aguja(p, col) }), el("b", {}, cap(palabra(p))));
 /* La fila de partidos no cabe entera. Con el dedo se desliza; con ratón hacen falta flechas y poder arrastrarla. */
 function carril(fila, donde = 0) {
@@ -1104,7 +1182,8 @@ function pintarFoco(ctx) {
   const fila = el("div", { class: "fila" }, el("button", { type: "button", "aria-pressed": k ? "false" : "true", onclick: () => elegirFoco(null) }, "Todos"),
     ...partidos.map((x) => el("button", { type: "button", "data-k": x, "aria-pressed": k === x ? "true" : "false", style: k === x ? { background: color(x), borderColor: color(x), color: "#fff" } : null, onclick: () => elegirFoco(k === x ? null : x) },
       el("i", { class: "punto", style: { background: k === x ? "#fff" : color(x) } }), nombre(x))));
-  $("#foco-tira").replaceChildren(el("span", { class: "eti" }, k ? `Toda la app, centrada en ${nombre(k)}` : "Céntrate en un partido"), carril(fila, donde));
+  poner($("#foco-tira"), el("div", { class: "eti" }, el("span", {}, k ? `Toda la app, centrada en ${nombre(k)}` : "Céntrate en un partido"),
+    k ? botonEnlace("Copiar enlace", () => enlaceA({ partido: k, pestana: pestanaActual })) : null), carril(fila, donde), k ? notaAviso(k, { class: "foco-aviso" }) : null);
   const caja = (id) => $(`#foco-${id}`);
   for (const id of ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias"]) caja(id).replaceChildren();
   graficoFoco?.destroy(); graficoFoco = null;
@@ -1133,7 +1212,7 @@ function pintarFoco(ctx) {
   const rel = (p) => Math.max(p.aspirante.falta, 0) / (10 / (p.n + 1)), votos = (p) => votosDe(Math.max(p.aspirante.falta, 0), p.n);
   const defiende = proy.provincias.filter((p) => p.aspirante && p.ultimo?.p === k).sort((a, b) => rel(a) - rel(b)).slice(0, 4);
   const persigue = proy.provincias.filter((p) => p.aspirante?.p === k).sort((a, b) => rel(a) - rel(b)).slice(0, 4);
-  const irA = (n) => { mapa.sel = n; try { localStorage.setItem("mi-provincia", n); } catch {} pintarMapa(mapa.proy); $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); };
+  const irA = (n) => { quitarDelEnlace("provincia"); mapa.sel = n; try { localStorage.setItem("mi-provincia", n); } catch {} pintarMapa(mapa.proy); $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); };
   const filaProv = (p, texto) => el("button", { class: "ajustada", type: "button", onclick: () => irA(p.nombre) }, el("b", {}, p.nombre), el("span", { class: "m" }, texto));
   const mapaK = el("div", { class: "mapa" });
   mapaK.innerHTML = dibujarMapa(proy, { vista: "ganador", sel: "", colorear: (p) => { const n = p.escanos[k] || 0; return { fill: n ? col : "var(--linea)", op: n ? 0.35 + 0.65 * Math.sqrt(n / maxS) : 0.45, txt: "#fff", etiqueta: n ? String(n) : "" }; } });
@@ -1301,11 +1380,14 @@ async function refrescar() {
   await cargarDatos();
   if (!D.config || !D.base) { $("#r-ganando").textContent = "No se han podido cargar los datos base."; return; }
   try { mapa.sel = localStorage.getItem("mi-provincia") || null; } catch {}
+  leerEnlace();
   $("#compartir").addEventListener("click", compartir);
   pintarTodo();
   D.listo = true;
   pintarCabecera();
-  activarPestana(location.hash.slice(1));
+  // Quien llega con el enlace de una provincia y sin pestaña va directo a su ficha
+  activarPestana(location.hash.slice(1) || (enlace.provincia ? "mapa" : ""));
+  if (enlace.provincia && pestanaActual === "mapa") requestAnimationFrame(() => $("#ficha-provincia").scrollIntoView({ block: "center" }));
   hayDatosNuevos();
   setInterval(refrescar, 60000);
   document.addEventListener("visibilitychange", refrescar);

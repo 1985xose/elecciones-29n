@@ -49,3 +49,9 @@ La hora «actualizado» de la cabecera es la de la última lectura buena de encu
 `data/agenda.json`: cada hito lleva `fecha`, `titulo` y, si es un plazo, `fin`. Los plazos cuyo último día importa llevan además `fin_titulo`, y ese día sale como hito propio en «Lo siguiente en el calendario».
 
 Tramos de la gráfica de Encuestas (`rangoTendencia()` en `app.js`): toda la legislatura, último año, 3 meses, desde la convocatoria (la fecha sale de `agenda.json`) y dos fechas a elegir entre el 3 de septiembre de 2023 y hoy. Hasta 130 días se pinta un punto por día, hasta 500 uno cada 3 días y más allá uno por semana.
+
+«Qué te toca hacer» (pestaña 29N y última línea del resumen de Hoy) sale de `data/config.json` > `tareas`. Cada trámite lleva `grupo` (`todos`, `correo` o `fuera`), `que`, `como`, `desde`, `hasta` y, si hace falta, `enlace`. Con `sin_plazo` el tramo no es un plazo del votante (el sorteo de mesas, las tarjetas censales) y con `cuando` se escribe a mano el texto de las fechas. El estado de cada uno (dentro de N días, abierto, último día, cerrado) lo calcula `pintarTareas()` con la fecha de hoy. Si la Junta Electoral cambia un plazo, se toca ahí y en `agenda.json`.
+
+Enlaces directos: `?partido=sumar` abre la app centrada en ese partido y `?provincia=madrid` abre la ficha de esa provincia. Se pueden combinar entre sí, con `?ref=` y con la pestaña (`?partido=vox&ref=x#encuestas`). Valen para esa visita y no se guardan en el dispositivo. Los genera la propia app con los botones «Copiar enlace» de la fila de partidos y de la ficha de provincia (`enlaceA()` y `leerEnlace()` en `app.js`).
+
+Un aviso sobre un partido (`config.json` > `partidos` > `aviso`, con `texto`, `fecha` y `fuente`) sale bajo la fila de partidos cuando ese partido está elegido, bajo la lista de Encuestas, y con una marca junto a su nombre en esa lista.

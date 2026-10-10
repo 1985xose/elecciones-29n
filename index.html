@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=50">
+<link rel="stylesheet" href="assets/style.css?v=51">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
@@ -247,6 +247,13 @@
   </section>
 
   <section id="el29n" class="pantalla" hidden>
+    <article class="pregunta" id="tareas-bloque">
+      <h2>Qué te toca hacer</h2>
+      <p id="r-tareas" class="respuesta"></p>
+      <div id="tareas"></div>
+      <p class="pie-bloque">Fechas del INE y de Correos. Si la Junta Electoral amplía algún plazo, se cambia aquí.</p>
+    </article>
+
     <article class="pregunta">
       <h2>¿Qué pasa el 29N?</h2>
       <p id="r-fechas" class="respuesta"></p>
@@ -256,8 +263,8 @@
     <article class="pregunta texto">
       <h2>Cómo votar</h2>
       <p><b>En el colegio.</b> El domingo 29 de 9:00 a 20:00, con el DNI, pasaporte o carné de conducir, aunque estén caducados. El colegio que te toca viene en la tarjeta censal que llega a casa, y también se consulta en la web del INE con el DNI.</p>
-      <p><b>Por correo.</b> Se pide hasta el 19 de noviembre en cualquier oficina de Correos o en su web, con el DNI. Te mandan las papeletas a casa y hay que devolverlas certificadas, gratis, en Correos, antes del 26 de noviembre. Quien vota por correo ya no puede votar en el colegio.</p>
-      <p><b>Desde el extranjero.</b> Los inscritos en el censo de residentes ausentes reciben la documentación de oficio y votan por correo o en el consulado.</p>
+      <p><b>Por correo.</b> Se pide hasta el 19 de noviembre, en persona en cualquier oficina de Correos con el DNI, o en su web si tienes certificado digital o DNI electrónico. Te mandan las papeletas a casa y hay que devolverlas certificadas, gratis, en Correos, hasta el miércoles 25 de noviembre. Quien vota por correo ya no puede votar en el colegio.</p>
+      <p><b>Desde el extranjero.</b> Los inscritos en el censo de residentes ausentes reciben la documentación sin tener que pedirla. Votan en urna en el consulado, del 21 al 26 de noviembre, o por correo, hasta el 24.</p>
     </article>
 
     <article class="pregunta texto">
@@ -365,7 +372,7 @@
     <article class="pregunta texto">
       <h2>8. Quién lo hace y cómo comprobarlo</h2>
       <p>Es un proyecto personal, hecho por afición. No lleva publicidad y no depende de ningún partido, medio ni empresa de encuestas.</p>
-      <p><b>Cuenta visitas y nada más.</b> Para saber cuánta gente entra, la app usa <a href="https://www.goatcounter.com/" target="_blank" rel="noopener">GoatCounter</a>, un contador que no pone cookies ni guarda datos personales. Solo apunta que alguien ha entrado, desde qué web llega, qué pestañas abre y si la app le ha dado algún fallo de programa. Para no contar dos veces a la misma persona, la app guarda en tu dispositivo dos fechas, la de tu primera visita y la de la última. No llevan ningún número que te identifique y no salen de tu dispositivo. Al contador solo le llega si es tu primera vez o si vuelves, y cuántos días hacía de la visita anterior. Si prefieres que tu dispositivo no se cuente, <a href="#no-contar">pulsa aquí</a> y no se volverá a contar.</p>
+      <p><b>Cuenta visitas y nada más.</b> Para saber cuánta gente entra, la app usa <a href="https://www.goatcounter.com/" target="_blank" rel="noopener">GoatCounter</a>, un contador que no pone cookies ni guarda datos personales. Solo apunta que alguien ha entrado, desde qué web llega, qué pestañas abre, si usa alguna función (el modo partido, compartir, copiar un enlace) y si la app le ha dado algún fallo de programa. Para no contar dos veces a la misma persona, la app guarda en tu dispositivo dos fechas, la de tu primera visita y la de la última. No llevan ningún número que te identifique y no salen de tu dispositivo. Al contador solo le llega si es tu primera vez o si vuelves, y cuántos días hacía de la visita anterior. Si prefieres que tu dispositivo no se cuente, <a href="#no-contar">pulsa aquí</a> y no se volverá a contar.</p>
       <p><b>El código es público.</b> Todas las cuentas que se explican aquí están en <a href="https://github.com/1985xose/elecciones-29n" target="_blank" rel="noopener">github.com/1985xose/elecciones-29n</a>. Cualquiera puede leerlo, copiarlo y rehacer los cálculos.</p>
       <p><b>Los datos también.</b> Son los mismos ficheros que usa la app. <a href="data/encuestas.json" target="_blank" rel="noopener">Todas las encuestas</a>, <a href="data/probabilidades.json" target="_blank" rel="noopener">las probabilidades y el resultado de las repeticiones</a>, <a href="data/analisis.json" target="_blank" rel="noopener">las manías y notas de cada empresa</a>, <a href="data/fiabilidad.json" target="_blank" rel="noopener">el acierto de cada empresa en elecciones anteriores</a>, <a href="data/base2023.json" target="_blank" rel="noopener">los resultados de 2023 por provincia</a> y <a href="data/noticias.json" target="_blank" rel="noopener">las noticias</a>.</p>
       <p><b>Se actualiza sola.</b> Un programa descarga las encuestas y las noticias cada hora y rehace todas las cuentas. Arriba a la derecha pone siempre la hora de la última actualización.</p>
@@ -389,10 +396,10 @@
 <script>/* Quien entra con #no-contar deja de contarse en este dispositivo. Va antes del contador para que ni esa entrada cuente. */
 try { if (location.hash === "#no-contar") localStorage.setItem("skipgc", "t"); } catch (e) {}</script>
 <script data-goatcounter="https://xose.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-<script src="assets/chart.umd.js?v=50"></script>
-<script src="assets/modelo.js?v=50"></script>
-<script src="assets/media.js?v=50"></script>
-<script src="assets/app.js?v=50"></script>
+<script src="assets/chart.umd.js?v=51"></script>
+<script src="assets/modelo.js?v=51"></script>
+<script src="assets/media.js?v=51"></script>
+<script src="assets/app.js?v=51"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;
