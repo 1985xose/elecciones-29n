@@ -1,0 +1,38 @@
+{
+ "encuestas": {
+  "ok": true,
+  "hora": "2026-10-10T12:50:52+00:00",
+  "mensaje": "506 encuestas leídas, 0 nuevas",
+  "ultima_buena": "2026-10-10T12:50:52+00:00",
+  "detalle": {
+   "ignoradas": [],
+   "apartadas": [
+    "Sigma Dos/Antena 3 2023-11-27"
+   ],
+   "corregidas": [],
+   "nuevas": []
+  }
+ },
+ "simulacion": {
+  "ok": true,
+  "hora": "2026-10-10T12:51:42.278Z",
+  "mensaje": "10000 repeticiones, faltan 50 días",
+  "ultima_buena": "2026-10-10T12:51:42.278Z",
+  "detalle": {
+   "partidos": 14
+  }
+ },
+ "noticias": {
+  "ok": true,
+  "hora": "2026-10-10T12:52:14+00:00",
+  "mensaje": "10 titulares del día, 87 por partido, 25 polémicas",
+  "ultima_buena": "2026-10-10T12:52:14+00:00",
+  "detalle": {
+   "medios": 18
+  }
+ },
+ "telegram": {
+  "activo": false,
+  "hora": "2026-10-10T12:52:14+00:00"
+ }
+}
