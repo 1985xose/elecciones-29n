@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from urllib.parse import quote
-from comun import leer, escribir, ahora_iso, get, S
+from comun import leer, escribir, ahora_iso, get, S, apuntar_estado, con_parte
 
 RSS = "https://news.google.com/rss/search?q={q}&hl=es&gl=ES&ceid=ES:es"
 
@@ -240,8 +240,10 @@ def main():
     cfg = leer("config.json")
     previo = leer("noticias.json", {}) or {}
     res = {"actualizado": ahora_iso(), "generales": [], "partidos": {}, "verificaciones": {}, "verificaciones_generales": [], "polemicas": []}
+    ha_leido = False  # ¿ha respondido alguna fuente en esta pasada? Si no, la hora de «actualizado» no se toca
     try:
         res["generales"] = buscar(f"{cfg['titulares_generales']} when:1d", 10)
+        ha_leido = True
     except Exception as e:
         print("generales:", e); res["generales"] = previo.get("generales", [])
     # Titulares del día: primero los de los periódicos, con foto, y hasta llegar a 10 los de Google News, sin foto.
@@ -251,6 +253,13 @@ def main():
         print("periódicos:", e); del_dia, leidos, grupos, activos = [], [], [], []
     # Los periódicos que han respondido con foto en esta pasada, para que la metodología diga los que de verdad se usan
     res["medios"] = activos or previo.get("medios", [])
+    if activos:
+        ha_leido = True
+    if not ha_leido and previo.get("actualizado"):
+        # Sin red o con todas las fuentes caídas se conserva lo anterior, y también su hora: decir «actualizado ahora»
+        # con los titulares de hace horas sería engañar.
+        print("Ninguna fuente de titulares ha respondido, se conserva la hora de la última lectura buena")
+        res["actualizado"] = previo["actualizado"]
     if del_dia:
         ya = {huella(x["titulo"]) for x in del_dia}
         relleno = [x for x in res["generales"] if huella(x["titulo"]) not in ya]
@@ -333,7 +342,11 @@ def main():
     print(f"Con foto: {fotos[0]} titulares del día, {fotos[1]} por partido, {fotos[2]} polémicas")
     print(f"Titulares generales {len(res['generales'])}, por partido {total}, verificaciones {sum(len(v) for v in res['verificaciones'].values())}, polémicas {len(res['polemicas'])}")
     escribir("noticias.json", res)
+    if ha_leido:
+        apuntar_estado("noticias", True, f"{len(res['generales'])} titulares del día, {total} por partido, {len(res['polemicas'])} polémicas", {"medios": len(activos)})
+    else:
+        apuntar_estado("noticias", False, "Ninguna fuente de titulares ha respondido. Se conservan los titulares de antes.")
 
 
 if __name__ == "__main__":
-    main()
+    con_parte("noticias", main)

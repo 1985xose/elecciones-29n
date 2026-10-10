@@ -1,6 +1,6 @@
 """Ranking de acierto de las encuestadoras: última encuesta de cada una antes de 23J-2023 y 10N-2019."""
 from datetime import date
-from comun import escribir, ahora_iso, clave_empresa
+from comun import escribir, ahora_iso, clave_empresa, apuntar_estado, con_parte
 from wikitabla import html_pagina, parsear_tablas
 from encuestas import EQUIVALENCIAS
 
@@ -64,7 +64,8 @@ def main():
     if not ranking:
         raise SystemExit("Sin datos de fiabilidad, no se escribe nada")
     escribir("fiabilidad.json", {"actualizado": ahora_iso(), "elecciones": salida, "ranking": ranking})
+    apuntar_estado("fiabilidad", True, f"{len(ranking)} empresas con nota, {len(salida)} elecciones pasadas")
 
 
 if __name__ == "__main__":
-    main()
+    con_parte("fiabilidad", main)

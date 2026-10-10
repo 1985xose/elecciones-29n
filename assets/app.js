@@ -20,6 +20,16 @@ function el(tag, attrs = {}, ...hijos) {
 }
 const color = (k) => D.config.partidos[k]?.color || "#8A93A3";
 const nombre = (k) => D.config.partidos[k]?.nombre || k;
+/* Para meter un texto dentro de una cadena que se pinta como HTML o SVG. Un nombre de partido que no esté en la
+   configuración sale tal cual viene de la tabla de encuestas, así que nunca se pega sin pasar por aquí. */
+const esc = (t) => String(t ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+/* Si la librería de gráficas no ha cargado, la gráfica se cambia por una línea que lo dice y todo lo demás sigue. */
+function hayGraficas(lienzo) {
+  if (typeof Chart !== "undefined") return true;
+  const caja = lienzo?.parentElement;
+  if (caja && !caja.querySelector(".sin-grafica")) { lienzo.hidden = true; caja.append(el("p", { class: "vacio sin-grafica" }, "La gráfica no se ha podido cargar. El resto funciona igual.")); }
+  return false;
+}
 /* "Hoy" es el día del calendario de España, no el del reloj UTC. Si no, de 12 de la noche a 2 de la madrugada
    la app seguiría en el día anterior y la cuenta atrás iría un día por detrás. */
 const fDiaMadrid = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Madrid", year: "numeric", month: "2-digit", day: "2-digit" });
@@ -98,9 +108,10 @@ function memoriaVale() { try { localStorage.setItem("prueba-memoria", "1"); cons
 let personaEnCurso = false;
 async function contarPersona() {
   const gc = window.goatcounter;
-  if (personaEnCurso || !gc?.count || !gc.filter || gc.filter()) return; // sin contador, o dispositivo que no se cuenta (el del autor, pruebas en local)
+  if (personaEnCurso || !gc?.count || !gc.filter) return; // sin contador
   personaEnCurso = true;
   try {
+    if (gc.filter()) return; // dispositivo que no se cuenta (el del autor, pruebas en local). Va dentro del try porque lee la memoria del navegador y puede estar prohibida
     const dia = diaMadrid();
     if (!memoriaVale()) {
       if (!visitas.hechas.has("Persona sin memoria")) { visitas.hechas.add("Persona sin memoria"); gc.count({ path: "Persona sin memoria", title: "Persona sin memoria", event: true }); }
@@ -119,6 +130,23 @@ async function contarPersona() {
 document.querySelector("script[data-goatcounter]")?.addEventListener("load", () => { visitas.cola.splice(0).forEach((f) => f()); contarPersona(); });
 document.addEventListener("visibilitychange", () => { if (!document.hidden) contarPersona(); }); // por si la app sigue abierta al cambiar de día
 contarPersona();
+/* Fallos de programa en el dispositivo de un visitante. Sin esto, si la app se rompe en un móvil concreto no queda rastro
+   en ningún sitio. Se apunta en el contador como un uso más, con la versión, el fichero y la línea, y el mensaje recortado.
+   No lleva ningún dato de la persona. Como mucho 3 por carga, y solo los de los ficheros de la propia app. */
+const VERSION_APP = (document.currentScript?.src.match(/[?&]v=(\d+)/) || [])[1] || "?";
+let erroresApuntados = 0;
+function apuntarError(mensaje, fichero, linea) {
+  try {
+    if (erroresApuntados >= 3) return;
+    let donde = "";
+    if (fichero) { const u = new URL(fichero, location.href); if (u.origin !== location.origin) return; donde = `${u.pathname.split("/").pop()}:${linea || 0} `; }
+    const texto = String(mensaje || "sin mensaje").replace(/\s+/g, " ").slice(0, 90);
+    erroresApuntados++;
+    contar(`Error v${VERSION_APP} ${donde}${texto}`);
+  } catch {}
+}
+addEventListener("error", (e) => { if (e.message) apuntarError(e.message, e.filename, e.lineno); });
+addEventListener("unhandledrejection", (e) => apuntarError(`Promesa: ${e.reason?.message || e.reason}`, "", 0));
 const NOMBRE_PESTANA = { hoy: "Hoy", mapa: "Provincias", encuestas: "Encuestas", senado: "Senado", simulador: "Y si", noticias: "Noticias", el29n: "29N", metodologia: "Metodología" };
 let carrilVivo; // vuelve a medir las flechas de la fila de partidos
 function activarPestana(id) {
@@ -153,6 +181,14 @@ window.addEventListener("hashchange", () => activarPestana(location.hash.slice(1
 /* Partidos que han anunciado que no se presentan (config.partidos[k].no_concurre). Salen de la media, del reparto y de
    todo lo que cuelga de ellos, aunque encuestas anteriores al anuncio los incluyan. Sus votos no se le dan a nadie. */
 const noConcurren = () => Object.keys(D.config?.partidos || {}).filter((k) => D.config.partidos[k].no_concurre);
+/* Avisos sobre un partido que conviene tener a la vista (config.partidos[k].aviso), por ejemplo un cambio de nombre
+   anunciado que todavía no es oficial. Salen bajo la lista de partidos y en la ficha de ese partido. */
+function notaAviso(k) {
+  const x = D.config?.partidos?.[k]?.aviso;
+  if (!x?.texto) return null;
+  return el("p", { class: "explica nota-fuera" }, el("b", {}, `${nombre(k)}. `), x.texto, x.fuente ? [" (", el("a", { href: x.fuente, target: "_blank", rel: "noopener" }, "fuente"), ")"] : null);
+}
+const notasAviso = () => Object.keys(D.config?.partidos || {}).map(notaAviso).filter(Boolean);
 function notaNoConcurren() {
   const ks = noConcurren();
   if (!ks.length) return null;
@@ -350,7 +386,13 @@ function pintarHoy(m, m7, proy) {
     const bt = P.backtest;
     const era = (x) => tramo(x) === 2 ? "estaba en el aire" : `era ${palabra(x)}`;
     if (bt) { const real = bt.resultado_escanos, pv = (real.PP || 0) + (real.Vox || 0), f6 = bt.fechas[bt.fechas.length - 1], f54 = bt.fechas[0];
-      $("#backtest").replaceChildren(el("p", {}, el("b", {}, "¿Y acierta esto? "), `Lo probamos con 2023. A ${f54.dias} días del 23J, con las encuestas de entonces, este modelo habría dicho que la mayoría de PP y Vox ${era(f54.escenarios.pp_vox.p)} (${r100(f54.escenarios.pp_vox.p)} %). A ${f6.dias} días, que ${era(f6.escenarios.pp_vox.p)} (${r100(f6.escenarios.pp_vox.p)} %). Se quedaron en ${pv} asientos. Es decir, se habría equivocado de lado, pero dejando claro que no era seguro. Las encuestas españolas suelen quedarse cortas con el PSOE y eso ya lo tenemos en cuenta.`)); }
+      // El veredicto sale de lo que el modelo habría dicho la última semana, no de una frase fija
+      const t6 = tramo(f6.escenarios.pp_vox.p), hubo = pv >= 176;
+      const veredicto = t6 === 2 ? "Es decir, a una semana de votar no habría dado a nadie por ganador, y así de justo fue." : (t6 > 2) === hubo ? "Es decir, habría acertado de qué lado caía." : "Es decir, se habría equivocado de lado, pero dejando claro que no era seguro.";
+      // Cuántas veces sacó el PSOE más voto del que le daba la media de encuestas, con las elecciones que hay medidas
+      const ep = (P.calibracion?.PSOE?.errores_historicos || P.calibracion?.detalle?.PSOE?.errores_historicos || []), mas = ep.filter((x) => x > 0).length;
+      const psoe = ep.length >= 3 && mas > ep.length / 2 ? ` En ${mas} de las ${ep.length} últimas elecciones el PSOE sacó más voto del que le daban las encuestas. El modelo no empuja a nadie por eso, deja el mismo margen de error hacia arriba que hacia abajo.` : "";
+      $("#backtest").replaceChildren(el("p", {}, el("b", {}, "¿Y acierta esto? "), `Lo probamos con 2023. A ${f54.dias} días del 23J, con las encuestas de entonces, este modelo habría dicho que la mayoría de PP y Vox ${era(f54.escenarios.pp_vox.p)} (${r100(f54.escenarios.pp_vox.p)} %). A ${f6.dias} días, que ${era(f6.escenarios.pp_vox.p)} (${r100(f6.escenarios.pp_vox.p)} %). Se quedaron en ${pv} asientos, a ${176 - pv} de la mayoría. ${veredicto}${psoe}`)); }
   } else {
     hemiciclo($("#hemiciclo"), esc, 10); leyenda($("#leyenda"), esc); fraseArco($("#hemi-arco"), null);
     $("#g-medidores").replaceChildren(); $("#g-medidor-detalle").replaceChildren();
@@ -375,8 +417,15 @@ function pintarHoy(m, m7, proy) {
   $("#verificaciones-todas").replaceChildren(...((D.noticias?.verificaciones_generales || []).length ? D.noticias.verificaciones_generales.slice(0, 8).map((n) => noticia(n)) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
 
   // 6. Fechas
-  const ag = D.agenda || [], sig = ag.find((x) => fechaD(x.fin || x.fecha) >= hoy());
-  $("#r-fechas").textContent = `Se vota el domingo 29 de noviembre${dias > 0 ? `, dentro de ${dias} días` : ""}. ${sig ? `Lo siguiente en el calendario, ${sig.titulo.charAt(0).toLowerCase() + sig.titulo.slice(1)}, ${sig.fin ? `del ${fFecha.format(fechaD(sig.fecha))} al ${fFecha.format(fechaD(sig.fin))}` : `el ${fFechaLarga.format(fechaD(sig.fecha))}`}.` : ""}`;
+  /* Lo siguiente es el hito más cercano que aún no ha pasado: algo que empieza o, en los plazos que lo tienen apuntado
+     (fin_titulo), su último día. Antes se cogía el primer plazo abierto y se quedaba semanas clavado en el mismo. */
+  const ag = D.agenda || [], h0 = hoy();
+  const hitos = ag.flatMap((x) => [{ x, t: fechaD(x.fecha), titulo: x.titulo, empieza: true }, ...(x.fin && x.fin_titulo ? [{ x, t: fechaD(x.fin), titulo: x.fin_titulo }] : [])])
+    .filter((y) => y.t >= h0 && y.x.fecha !== D.config.eleccion.fecha).sort((a, b) => a.t - b.t || (a.empieza ? 1 : -1));
+  const hito = hitos[0], sig = hito?.x;
+  const cuando = (y) => { const n = Math.round((y.t - h0) / DIA); return y.empieza && y.x.fin ? `del ${fFecha.format(y.t)} al ${fFecha.format(fechaD(y.x.fin))}${n === 0 ? ", empieza hoy" : n === 1 ? ", empieza mañana" : ""}` : n === 0 ? "hoy" : n === 1 ? "mañana" : `el ${fFechaLarga.format(y.t)}`; };
+  const voto = dias > 1 ? `Se vota el domingo 29 de noviembre, dentro de ${dias} días.` : dias === 1 ? "Se vota mañana, domingo 29 de noviembre." : dias === 0 ? "Se vota hoy, domingo 29 de noviembre, de 9:00 a 20:00." : "Se votó el domingo 29 de noviembre.";
+  $("#r-fechas").textContent = `${voto}${hito ? ` Lo siguiente en el calendario, ${hito.titulo.charAt(0).toLowerCase() + hito.titulo.slice(1)}, ${cuando(hito)}.` : ""}`;
   $("#agenda").replaceChildren(...ag.map((x) => { const fin = fechaD(x.fin || x.fecha);
     return el("li", { class: fin < hoy() ? "pasado" : x === sig ? "siguiente" : null }, el("span", { class: "dia" }, x.fin ? `${fFecha.format(fechaD(x.fecha))} al ${fFecha.format(fin)}` : fFecha.format(fechaD(x.fecha))), el("span", {}, x.titulo, x.detalle ? el("span", { class: "det" }, x.detalle) : null)); }));
 }
@@ -409,7 +458,8 @@ function pintarHistorial() {
   const cont = $("#grafico-historial").parentElement;
   if (!h?.length || h.length < 3 || !der || !izq) { cont.style.display = "none"; return; }
   cont.style.display = "";
-  graficoHistorial?.destroy();
+  graficoHistorial?.destroy(); graficoHistorial = null;
+  if (!hayGraficas($("#grafico-historial"))) return;
   graficoHistorial = new Chart($("#grafico-historial"), { type: "line",
     data: { labels: h.map((x) => fFecha.format(fechaD(x.fecha))), datasets: [
       { label: `${nombreEsc(der)} suman mayoría`, data: h.map((x) => r100(x.escenarios[der.id])), borderColor: color("PP"), backgroundColor: color("PP"), borderWidth: 3, pointRadius: h.length < 20 ? 3 : 0, tension: .3 },
@@ -442,7 +492,7 @@ function pintarListaPartidos(m, m7, proy) {
       el("div", { class: "esc" }, D.prob?.partidos?.[k] ? `entre ${D.prob.partidos[k].p10} y ${D.prob.partidos[k].p90} asientos` : `${proy.total[k] || 0} asientos`)); };
   poner($("#lista-partidos"), ...(enc.todos ? o : grandes).map(fila),
     resto > 0 ? el("button", { class: "ver-mas", type: "button", "aria-expanded": enc.todos ? "true" : "false", onclick: () => { enc.todos = !enc.todos; pintarListaPartidos(m, m7, proy); } },
-      enc.todos ? "Ver solo los más votados" : `Ver los otros ${resto} partidos`) : null, notaNoConcurren());
+      enc.todos ? "Ver solo los más votados" : `Ver los otros ${resto} partidos`) : null, ...notasAviso(), notaNoConcurren());
 }
 function pintarEncuestas(m, m7, proy) {
   const o = ordenar(m.media).filter((k) => m.media[k] >= 0.5);
@@ -536,7 +586,8 @@ function dibujarGraficosDeEmpresa(todas) {
 }
 function pintarTendencia() {
   const m = calcMedia(), o = ordenar(m.media).filter((k) => m.media[k] >= 1.5).slice(0, 7);
-  graficoTendencia?.destroy();
+  graficoTendencia?.destroy(); graficoTendencia = null;
+  if (!hayGraficas($("#grafico-tendencia"))) return;
   const desde = enc.tramo === "anio" ? new Date(+hoy() - 365 * DIA) : enc.tramo === "tres" ? new Date(+hoy() - 92 * DIA) : fechaD("2023-09-03");
   if (enc.filtro) {
     const mias = (D.encuestas?.encuestas || []).filter((e) => e.clave === enc.filtro && fechaD(e.fin) >= desde).slice().reverse();
@@ -603,7 +654,7 @@ function colorProvincia(p) {
     const rel = p.aspirante ? Math.max(p.aspirante.falta, 0) / (10 / (p.n + 1)) : 9;
     const id = "g" + p.nombre.replace(/[^a-z]/gi, "");
     const grad = dos.length === 2 ? `<linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="50%" stop-color="${color(dos[0])}"/><stop offset="50%" stop-color="${color(dos[1])}"/></linearGradient>` : "";
-    return { fill: dos.length === 2 ? `url(#${id})` : "var(--linea)", op: rel < 0.5 ? 1 : rel < 1 ? 0.75 : rel < 2 ? 0.4 : 0.12, txt: "var(--tinta)", etiqueta: dos.length === 2 && p.n >= 4 ? `${nombre(dos[0])}·${nombre(dos[1])}` : "", grad, clase: "etq", tam: 21 };
+    return { fill: dos.length === 2 ? `url(#${id})` : "var(--linea)", op: rel < 0.5 ? 1 : rel < 1 ? 0.75 : rel < 2 ? 0.4 : 0.12, txt: "var(--tinta)", etiqueta: dos.length === 2 && p.n >= 4 ? esc(`${nombre(dos[0])}·${nombre(dos[1])}`) : "", grad, clase: "etq", tam: 21 };
   }
   const empate = gan && ordenar(p.escanos).length > 1 && p.escanos[gan] === p.escanos[ordenar(p.escanos)[1]];
   return { fill: gan ? color(gan) : "var(--linea)", op: empate ? .6 : 1, txt: "#fff", etiqueta: String(p.n) };
@@ -655,7 +706,7 @@ function pintarMapa(proy) {
       el("p", { class: "fuente" }, `Ahí se acaban los ${p.n} asientos de ${p.nombre}. Solo entran en el reparto los partidos con al menos el 3 % del voto de la provincia.`),
       el("details", { class: "como dentro" }, el("summary", {}, "Ver todas las divisiones en una tabla"),
         el("p", {}, "Es lo mismo, visto de golpe. El voto de cada partido dividido entre 1, 2, 3… Los números en color son los más altos, y cada uno es un asiento."),
-        tablaDhondt(p))))] : []));
+        el("div", { class: "tabla-scroll" }, tablaDhondt(p)))))] : []));
   // Ordenadas por lo mismo que dice la etiqueta: lo que le falta al aspirante comparado con lo que cuesta un asiento en esa provincia
   const relativo = (x) => Math.max(x.aspirante.falta, 0) / (10 / (x.n + 1));
   const aj = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => relativo(a) - relativo(b)).slice(0, 5).map((x) => ({ x }));
@@ -1076,6 +1127,7 @@ function pintarFoco(ctx) {
 function pintarGraficoFoco() {
   const k = foco.k, lienzo = $("#grafico-foco");
   if (!k || !lienzo || $("#encuestas").hidden || graficoFoco) return;
+  if (!hayGraficas(lienzo)) return;
   const puntos = [];
   for (let t = new Date(+hoy() - 365 * DIA); t <= hoy(); t = new Date(+t + 3 * DIA)) puntos.push(t);
   if (puntos[puntos.length - 1] < hoy()) puntos.push(hoy());
@@ -1140,14 +1192,21 @@ function pintarCabecera() {
   if (!D.config) return;
   const dias = Math.round((fechaD(D.config.eleccion.fecha) - hoy()) / DIA);
   $("#cuenta").innerHTML = dias > 1 ? `faltan <strong>${dias} días</strong>` : dias === 1 ? "se vota <strong>mañana</strong>" : dias === 0 ? "se vota <strong>hoy</strong>" : "elecciones celebradas";
-  const act = [D.encuestas?.actualizado, D.noticias?.actualizado].filter(Boolean).sort().pop();
+  /* La hora de arriba es la de la última lectura buena de encuestas, que es de lo que cuelga todo lo demás. Antes se cogía
+     la más reciente entre encuestas y noticias, y si las encuestas dejaban de leerse la hora seguía pareciendo de ahora
+     porque las noticias la renovaban. Cada cosa avisa por separado cuando se queda atrás. */
+  const tE = D.encuestas?.actualizado, tP = D.prob?.actualizado, tN = D.noticias?.actualizado, act = tE || tP || tN;
   if (!act) { $("#cuenta-act").textContent = ""; return; }
   const d = new Date(act), hace_dias = Math.round((fechaD(diaMadrid()) - fechaD(diaMadrid(d))) / DIA);
   $("#cuenta-act").textContent = `actualizado ${hace_dias <= 0 ? "a las" : hace_dias === 1 ? "ayer a las" : `el ${fFecha.format(d)} a las`} ${fHoraMadrid.format(d)}`;
   $("#actualizado").textContent = `Datos actualizados ${hace(act)}.`;
-  const horas = (Date.now() - d) / 3600000;
-  $("#aviso-datos").textContent = horas > 3 ? `Los datos tienen ${Math.round(horas)} horas. La actualización automática puede estar fallando, lo que ves es la última foto buena.` : "";
-  $("#aviso-datos").hidden = !(horas > 3);
+  const horasDe = (t) => t ? (Date.now() - new Date(t)) / 3600000 : null, rato = (h) => h < 48 ? `${Math.round(h)} horas` : `${Math.round(h / 24)} días`;
+  const hE = horasDe(tE), hP = horasDe(tP), hN = horasDe(tN);
+  const aviso = hE != null && hE > 3 ? `Las encuestas no se han podido leer desde hace ${rato(hE)}. Lo que ves es la última lectura buena.`
+    : hP != null && hP > 3 ? `Las probabilidades no se han podido rehacer desde hace ${rato(hP)}. Pueden no cuadrar del todo con la media de hoy.`
+    : hN != null && hN > 6 ? `Los titulares no se actualizan desde hace ${rato(hN)}.` : "";
+  $("#aviso-datos").textContent = aviso;
+  $("#aviso-datos").hidden = !aviso;
 }
 
 const NOMBRES = ["config", "base2023", "encuestas", "fiabilidad", "noticias", "porra", "agenda", "probabilidades", "analisis", "probabilidades_historial", "mapa", "europeas2024"];
@@ -1265,10 +1324,11 @@ const visFin = () => new Date(Math.ceil((Date.now() + 1000) / 3600000) * 3600000
 async function visLeer(clave) {
   const r = await visPedir("/stats/hits", { start: visISO(inicioDia(VIS_DESDE)), end: visISO(visFin()), daily: "true", limit: "100" }, clave);
   const hits = r.hits || [], porDia = (h) => Object.fromEntries((h.stats || []).map((s) => [s.day, s.daily || 0]));
-  const dias = [...new Set(hits.flatMap((h) => (h.stats || []).map((s) => s.day)))].filter((d) => d >= VIS_DESDE).sort();
-  if (!dias.includes(diaMadrid())) dias.push(diaMadrid());
-  const esPersona = (h) => h.event && /^Persona /.test(h.path || "");
-  const entradas = hits.filter((h) => !h.event), usos = hits.filter((h) => h.event && !esPersona(h));
+  // De 23:00 a 24:00 el contador devuelve también el día de mañana, vacío. Si se colara, «Hoy» sería mañana y saldría a cero.
+  const hoyD = diaMadrid(), dias = [...new Set(hits.flatMap((h) => (h.stats || []).map((s) => s.day)))].filter((d) => d >= VIS_DESDE && d <= hoyD).sort();
+  if (!dias.includes(hoyD)) dias.push(hoyD);
+  const esPersona = (h) => h.event && /^Persona /.test(h.path || ""), esError = (h) => h.event && /^Error /.test(h.path || "");
+  const entradas = hits.filter((h) => !h.event), usos = hits.filter((h) => h.event && !esPersona(h) && !esError(h));
   const suma = {}, horas = {};
   for (const h of entradas) for (const s of h.stats || []) {
     suma[s.day] = (suma[s.day] || 0) + (s.daily || 0);
@@ -1289,7 +1349,8 @@ async function visLeer(clave) {
       if (hora >= 0 && (!inicio || s.day < inicio.dia || (s.day === inicio.dia && hora < inicio.hora))) inicio = { dia: s.day, hora };
     }
   }
-  return { dias, entradas: suma, horas, per, inicio, mas: !!r.more, ids: entradas.map((h) => h.path_id).filter((x) => x != null), usos: usos.map((h) => ({ nombre: h.path, dias: porDia(h) })) };
+  return { dias, entradas: suma, horas, per, inicio, mas: !!r.more, ids: entradas.map((h) => h.path_id).filter((x) => x != null), usos: usos.map((h) => ({ nombre: h.path, dias: porDia(h) })),
+    errores: hits.filter(esError).map((h) => ({ nombre: h.path.replace(/^Error /, ""), dias: porDia(h) })) };
 }
 /* Personas (dispositivos) que entran un día: las nuevas, las de antes y todas las que vuelven. */
 const visPerDia = (X, d) => (X.per.nueva[d] || 0) + (X.per.antes[d] || 0) + X.per.vuelve.reduce((a, v) => a + (v[d] || 0), 0);
@@ -1313,6 +1374,35 @@ function mismaHora(zona) {
     const desfase = (z, t) => new Intl.DateTimeFormat("en-GB", { timeZone: z, timeZoneName: "shortOffset" }).formatToParts(t).find((x) => x.type === "timeZoneName")?.value;
     return [new Date(), new Date("2026-07-15T12:00:00Z"), new Date("2026-11-15T12:00:00Z")].every((t) => desfase(zona, t) === desfase("Europe/Madrid", t));
   } catch { return null; }
+}
+/* El parte del robot (data/estado.json): cómo le ha ido a cada paso en su última pasada. Es un fichero de la propia web. */
+const VIS_ROBOT = [["encuestas", "Lectura de encuestas", 3], ["simulacion", "Simulación", 3], ["noticias", "Noticias", 6], ["fiabilidad", "Notas de las empresas", 30]];
+async function visRobot() {
+  VIS.robot = await cargar("estado"); // null si el robot aún no ha dejado ninguno
+  pintarVisitas();
+}
+function pintarRobot() {
+  const R = VIS.robot, out = [el("h3", {}, "Estado del robot")];
+  if (R === undefined) return [...out, el("p", { class: "sub" }, "Leyendo…")];
+  if (!R) return [...out, el("p", { class: "sub" }, "El robot todavía no ha dejado su primer parte. Saldrá aquí tras su siguiente pasada.")];
+  const fH = new Intl.DateTimeFormat("es-ES", { weekday: "long", day: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Madrid" });
+  const rato = (h) => h < 48 ? `${Math.round(h)} horas` : `${Math.round(h / 24)} días`;
+  let malos = 0;
+  const filas = VIS_ROBOT.map(([paso, nombre, limite]) => {
+    const x = R[paso];
+    if (!x) return el("div", { class: "vis-robot" }, el("i", { class: "nada" }, "·"), el("span", {}, el("b", {}, nombre), el("small", {}, "Sin parte todavía.")));
+    const h = (Date.now() - new Date(x.hora)) / 3600000, parado = h > limite, mal = !x.ok || parado;
+    if (mal) malos++;
+    return el("div", { class: `vis-robot${mal ? " mal" : ""}` }, el("i", {}, mal ? "!" : "✓"), el("span", {}, el("b", {}, nombre),
+      el("small", {}, mal ? (x.ok ? `No da señales desde hace ${rato(h)}. Su última pasada fue bien, pero ya tendría que haber vuelto.` : `${x.mensaje || "Ha fallado, sin más detalle."}`) : `${x.mensaje}. ${cap(hace(x.hora))}.`),
+      mal && !x.ok ? el("small", {}, `${cap(hace(x.hora))}.${x.ultima_buena ? ` La última vez que fue bien, el ${fH.format(new Date(x.ultima_buena))}.` : ""}`) : null));
+  });
+  out.push(el("p", { class: "sub" }, malos ? `${malos === 1 ? "Hay un paso que no va bien" : `Hay ${malos} pasos que no van bien`}. La web sigue enseñando los últimos datos buenos.` : "Todo ha ido bien en la última pasada."), ...filas);
+  const d = R.encuestas?.detalle || {}, lista = (t, arr) => arr?.length ? el("p", { class: "sub" }, el("b", {}, t), arr.join(", "), ".") : null;
+  out.push(lista("Columnas de Wikipedia que se ignoran por no ser un partido conocido, ", d.ignoradas), lista("Encuestas apartadas por números que no cuadran o fecha futura, ", d.apartadas), lista("Encuestas ya leídas a las que les han cambiado algún número, ", d.corregidas));
+  const tg = R.telegram;
+  out.push(el("p", { class: "sub" }, tg?.activo ? "Avisos por Telegram, activados." : tg?.problema ? `Avisos por Telegram, sin funcionar. ${tg.problema}` : "Avisos por Telegram, sin configurar."));
+  return out.filter(Boolean);
 }
 async function visZona() {
   if (VIS.zona !== undefined) return;
@@ -1353,6 +1443,7 @@ function visDetalle(p) {
 async function visActualizar() {
   if (!VIS.clave || VIS.cargando) return;
   VIS.cargando = true; VIS.error = null; pintarVisitas();
+  visRobot();
   try { VIS.datos = await visLeer(VIS.clave); VIS.detalle = {}; VIS.leido = new Date(); visZona(); visDetalle(VIS.periodo); }
   catch (e) { VIS.error = VIS_ERROR[e.message] || VIS_ERROR.fallo; }
   VIS.cargando = false; pintarVisitas();
@@ -1361,7 +1452,7 @@ function visElegir(p) { VIS.periodo = p; visDetalle(p); pintarVisitas(); }
 function visQuitar() {
   if (!confirm("Se quita la clave de este dispositivo y vuelve a contar como una visita más. ¿Seguro?")) return;
   try { localStorage.removeItem("clave-visitas"); localStorage.removeItem("skipgc"); } catch {}
-  Object.assign(VIS, { clave: null, datos: null, detalle: {}, error: null, leido: null, zona: undefined });
+  Object.assign(VIS, { clave: null, datos: null, detalle: {}, error: null, leido: null, zona: undefined, robot: undefined });
   pintarVisitas();
 }
 const visFila = (nombre, n, max, valor, nota) => el("div", { class: "vis-fila" }, el("span", {}, nombre, nota ? el("small", {}, nota) : null),
@@ -1405,6 +1496,7 @@ function pintarVisitas() {
     if (X.mas) ojo.push("El contador solo ha devuelto las 100 primeras páginas y usos. Alguna cifra puede quedarse corta.");
     if (X.ids.length > 4) ojo.push("Hay más de 4 direcciones de entrada distintas y el origen solo se ha leído de las 4 con más visitas.");
     if (ojo.length) hijos.push(el("ul", { class: "vis-ojo" }, ...ojo.map((t) => el("li", {}, t))));
+    hijos.push(...pintarRobot());
     // Día a día, del más reciente al más antiguo
     const lista = [...X.dias].reverse(), corta = VIS.todos ? lista : lista.slice(0, 14);
     const medido = (d) => hay && d >= X.inicio.dia, max = Math.max(1, ...lista.map((d) => medido(d) ? visPerDia(X, d) : 0)), maxE = Math.max(1, ...lista.map((d) => X.entradas[d] || 0));
@@ -1442,6 +1534,10 @@ function pintarVisitas() {
     hijos.push(el("h3", {}, "Qué miran"), el("p", { class: "sub" }, N ? `En cuántas de las ${de} se hizo cada cosa.` : `No hay entradas ${tramo}.`),
       ...usos.map((u) => visFila(visUso(u.nombre), u.n, N, N ? `${fmt0.format(u.n)} de ${fmt0.format(N)}` : fmt0.format(u.n))),
       sinUso.length && N ? visFila(sinUso.join(", "), 0, N, "0") : null);
+    // Fallos de programa que le han saltado a algún visitante
+    const fallos = X.errores.map((u) => ({ nombre: u.nombre, n: visSuma(u.dias, dias) })).filter((u) => u.n > 0).sort((a, b) => b.n - a.n), maxF = Math.max(1, ...fallos.map((u) => u.n));
+    hijos.push(el("h3", {}, "Fallos en la app"), el("p", { class: "sub" }, fallos.length ? `Fallos de programa que le han saltado a algún visitante ${tramo}. Delante va la versión, el fichero y la línea.` : `Ningún fallo de programa apuntado ${tramo}.`),
+      ...fallos.slice(0, 12).map((u) => visFila(u.nombre, u.n, maxF)));
     if (N) hijos.push(...visLista("Desde qué países", `De las ${de}.`, D2.paises, N), ...visLista("Con qué entran", null, D2.pantallas, N), ...visLista("Con qué sistema", null, D2.sistemas, N), ...visLista("Con qué navegador", null, D2.navegadores, N));
     // Qué es exacto y qué no, siempre a mano
     const z = VIS.zona;
@@ -1453,7 +1549,7 @@ function pintarVisitas() {
       el("p", {}, el("b", {}, "Cuenta de más. "), "Una persona con móvil y ordenador son dos. También quien abre el enlace dentro de Instagram o LinkedIn y luego en su navegador. Y quien entra en modo privado o borra los datos del navegador vuelve a salir como nueva."),
       el("p", {}, el("b", {}, "Tus dispositivos. "), "Cuentan como cualquier otro hasta que metas la clave en cada uno."),
       el("p", {}, el("b", {}, "La hora. "), z ? (z.ok ? "La cuenta de GoatCounter está en hora de España, así que los días cuadran." : `La cuenta de GoatCounter está en ${z.nombre}, no en hora de España.`) : "No se ha podido comprobar en qué zona horaria está la cuenta de GoatCounter.")));
-  } else if (!VIS.error) hijos.push(el("p", { class: "sub" }, "Leyendo las cifras…"));
+  } else { if (!VIS.error) hijos.push(el("p", { class: "sub" }, "Leyendo las cifras…")); hijos.push(...pintarRobot()); }
   hijos.push(pie);
   // Se repinta a menudo mientras llegan las listas: que no se cierre lo que estuviera abierto
   const abierto = caja.querySelector(".vis-fiable")?.open;
@@ -1470,7 +1566,7 @@ $("#visitas-form")?.addEventListener("submit", async (e) => {
     try { localStorage.setItem("clave-visitas", clave); localStorage.setItem("skipgc", "t"); } catch {}
     Object.assign(VIS, { clave, datos, detalle: {}, error: null, leido: new Date() });
     campo.value = ""; aviso.textContent = "";
-    visZona(); visDetalle(VIS.periodo); pintarVisitas(); $("#visitas").scrollIntoView({ block: "start" });
+    visRobot(); visZona(); visDetalle(VIS.periodo); pintarVisitas(); $("#visitas").scrollIntoView({ block: "start" });
   } catch (err) { aviso.textContent = VIS_ERROR[err.message] || VIS_ERROR.fallo; }
 });
 pintarVisitas();

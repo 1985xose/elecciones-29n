@@ -50,7 +50,8 @@
       "color": "#E5326E",
       "consulta": "\"Yolanda Díaz\" OR \"de Sumar\" OR \"Movimiento Sumar\" OR \"Sumar y Podemos\" OR \"Podemos y Sumar\" OR \"coalición Sumar\" OR \"Antonio Maíllo\" OR \"Más Madrid\"",
    "nombres": ["Sumar", "Yolanda Díaz", "Maíllo", "Más Madrid"],
-      "lider": "Yolanda_Díaz"
+      "lider": "Yolanda_Díaz",
+      "aviso": { "texto": "El espacio de Sumar ha anunciado que se presentará con el nombre de Frente Amplio, junto a IU, Más Madrid y Comuns. Aquí sigue saliendo como Sumar, que es como lo llaman todavía las encuestas, hasta que haya candidatura oficial, con candidato y listas.", "fecha": "2026-10-05", "fuente": "https://www.eldiario.es/politica/frente-amplio-deberan-decidir-proximos-10-dias-si-separados-elecciones_1_13561882.html" }
     },
     "Podemos": {
       "nombre": "Podemos",

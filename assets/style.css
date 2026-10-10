@@ -496,3 +496,10 @@ details[open] summary::after { content: "–"; }
 .vis-ojo li::before { content: "!"; position: absolute; left: 11px; top: 10px; width: 18px; height: 18px; border-radius: 50%; background: var(--bronce); color: #fff; font-weight: 800; font-size: .78rem; display: grid; place-items: center; }
 .vis-fiable { margin-top: 20px; }
 .vis-fiable p { font-size: .9rem; }
+.vis-robot { display: grid; grid-template-columns: 22px 1fr; gap: 10px; align-items: start; padding: 8px 0; border-top: 1px solid var(--linea); font-size: .93rem; }
+.vis-robot i { width: 20px; height: 20px; margin-top: 1px; border-radius: 50%; background: var(--bien); color: #fff; display: grid; place-items: center; font-style: normal; font-size: .78rem; font-weight: 800; }
+.vis-robot.mal i { background: var(--mal); }
+.vis-robot i.nada { background: var(--linea); color: var(--gris); }
+.vis-robot small { display: block; color: var(--gris); font-size: .82rem; line-height: 1.35; overflow-wrap: anywhere; }
+.vis-robot.mal small:first-of-type { color: var(--tinta); }
+.vis-fila span:first-child { overflow-wrap: anywhere; }

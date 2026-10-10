@@ -23,11 +23,27 @@ Las visitas se cuentan con GoatCounter (cuenta `xose`, panel en https://xose.goa
 | `scripts/fiabilidad.py` | Ranking de acierto e históricos de 2019 y 2023 |
 | `scripts/simular.js` | Modelo de probabilidades, backtest y análisis de encuestas |
 | `scripts/noticias.py` | Titulares del día con foto desde los RSS de los periódicos (`config.json` > `medios`, cada uno con su grupo y una o varias direcciones que se prueban por orden; el log dice cuáles responden y cuántos traen foto). Antes se quitan las secciones que no son información política (`secciones_fuera`: deportes, opinión, internacional...) y las encuestas de «vota aquí» (`titulos_fuera`). Un titular entra si lleva una palabra que solo se usa hablando de elecciones (`portada_seguras`) o si nombra en el propio titular a un partido, un dirigente o una institución (`portada_nombres`, `portada_claves` y los `nombres` de cada partido). Las palabras que también valen para el fútbol o la tele (`portada_fuertes`: encuesta, debate, campaña) solo cuentan con ese nombre en el titular. Se eligen por turnos entre grupos y sin repetir medio, titulares por partido, polémicas y verificaciones desde Google News (un titular solo se apunta a un partido si lo nombra en el titular, `config.json` > `partidos` > `nombres`, y solo es polémica si además lleva una palabra de `polemicas_titular`). |
-| `scripts/telegram_bot.py`, `scripts/resumen_diario.py` | Porra y resumen de la mañana por Telegram |
+| `scripts/telegram_bot.py`, `scripts/resumen_diario.py` | Vigilante del robot con avisos por Telegram solo para el dueño, y resumen de la mañana |
 | `manifest.json`, `sw.js` | App instalable |
 
 ## Secretos del repo (opcionales)
 
-`TELEGRAM_TOKEN` y `TELEGRAM_CHAT_ID`. Sin ellos funciona todo menos los avisos, la porra y el resumen diario.
+`TELEGRAM_TOKEN` (el del bot, de @BotFather) y `TELEGRAM_CHAT_ID` (el número de chat del dueño). Sin ellos funciona todo menos los avisos y el resumen diario. El bot solo escribe a ese chat y solo atiende mensajes de ese chat (`/estado`, `/ayuda`), una vez por hora. Lo que escriba cualquier otra persona se ignora.
+
+## Cómo enterarse de que algo falla
+
+- **Parte del robot.** Cada paso (encuestas, notas de las empresas, simulación, noticias) apunta en `data/estado.json` si ha ido bien, a qué hora y, si no, por qué (`apuntar_estado` y `con_parte` en `comun.py`, `apuntarEstado` en `simular.js`). Se ve en el panel privado de la app, apartado «Estado del robot». Un paso que no da señales en 3 horas (6 las noticias, 30 las notas) cuenta como caído.
+- **Telegram.** `telegram_bot.py` lee ese parte al final de cada pasada y avisa una vez cuando un paso pasa de bien a mal, lo recuerda cada 12 horas y avisa cuando se arregla. Además llegan las encuestas nuevas y el resumen de las 7:00 UTC.
+- **Correo de GitHub.** Si la lectura de encuestas no pasa la validación, la ejecución acaba en rojo aunque el resto de pasos siga.
+- **Aviso en la app.** Arriba, para todo el mundo, si encuestas, probabilidades o titulares se quedan atrás.
+- **Fallos en el dispositivo de un visitante.** `apuntarError` en `app.js` los manda al contador como «Error vNN fichero:línea mensaje», máximo 3 por carga. Se ven en el panel privado, apartado «Fallos en la app».
 
 Si un partido anuncia que no se presenta, se marca en `data/config.json` con `"no_concurre": { "fecha": "AAAA-MM-DD", "fuente": "enlace" }` dentro de su ficha. Sale de la media (`calcMedia`, opción `fuera`), del reparto y de la simulación, y en Encuestas aparece una nota que lo explica. Sus votos no se le dan a nadie. Primer caso, Aliança Catalana, anunciado el 5 de octubre de 2026.
+
+Escudo del lector de encuestas (`scripts/encuestas.py`): solo cuentan como partido las claves de `data/config.json`. Una columna desconocida de la tabla de Wikipedia se ignora, se apunta en el log y en `columnas_ignoradas`, y nunca llega a la app. La lectura se descarta entera, conservando los datos anteriores, si un partido conocido desaparece de 5 o más encuestas que ya estaban leídas (columna renombrada), si cambian 3 puntos o más los números de 5 o más encuestas ya leídas (columnas movidas) o si una encuesta nueva trae una columna desconocida y le falta un partido habitual. `frenteamplio` entra como `Sumar` hasta que la app cambie el nombre. Un aviso por partido se pone en su ficha de `config.json` con `"aviso": { "texto", "fecha", "fuente" }`.
+
+La librería de gráficas (Chart.js 4.4.1, licencia MIT) va dentro del repo, en `assets/chart.umd.js`, y no se pide a ningún servidor externo. Si aun así no carga, cada gráfica se cambia por una línea que lo dice y el resto de la app sigue.
+
+La hora «actualizado» de la cabecera es la de la última lectura buena de encuestas. La app avisa por separado si se quedan atrás las encuestas (más de 3 horas), las probabilidades (más de 3) o los titulares (más de 6). `noticias.py` no renueva su hora si no ha respondido ninguna fuente.
+
+`data/agenda.json`: cada hito lleva `fecha`, `titulo` y, si es un plazo, `fin`. Los plazos cuyo último día importa llevan además `fin_titulo`, y ese día sale como hito propio en «Lo siguiente en el calendario».

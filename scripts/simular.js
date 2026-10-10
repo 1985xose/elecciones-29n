@@ -336,4 +336,20 @@ function main() {
   console.log(`Análisis: ${Object.keys(an.sesgos).length} empresas con sesgo calculado, última encuesta ${an.ultimas[0] ? an.ultimas[0].empresa + " -> " + an.ultimas[0].veredicto : "ninguna"}`);
 }
 
-main();
+/* Parte del robot: cómo ha ido este paso, en data/estado.json, igual que hacen los pasos en Python (comun.py). */
+function apuntarEstado(ok, mensaje, detalle) {
+  const est = leer("estado.json", {}) || {}, antes = est.simulacion || {}, ahora = new Date().toISOString();
+  est.simulacion = { ok: !!ok, hora: ahora, mensaje: String(mensaje || "").slice(0, 600), ultima_buena: ok ? ahora : antes.ultima_buena || null, detalle: detalle || {} };
+  escribir("estado.json", est);
+}
+try {
+  const antes = (leer("probabilidades.json", {}) || {}).actualizado;
+  main();
+  const p = leer("probabilidades.json", {}) || {};
+  if (p.actualizado && p.actualizado !== antes) apuntarEstado(true, `${p.simulaciones} repeticiones, faltan ${p.dias_para_votar} días`, { partidos: Object.keys(p.partidos || {}).length });
+  else apuntarEstado(false, "No se ha simulado nada, no había encuestas con las que hacerlo.");
+} catch (e) {
+  console.error(e);
+  try { apuntarEstado(false, `${e.name}: ${e.message}`); } catch {}
+  process.exit(1);
+}

@@ -53,6 +53,33 @@ def clave_empresa(nombre):
     return re.sub(r"[^a-z0-9]", "", t), base
 
 
+# ---- Parte del robot ----
+# Cada paso (encuestas, notas de las empresas, simulación, noticias) apunta en data/estado.json cómo le ha ido: si ha
+# acabado bien, a qué hora, y si no, por qué. El fichero se publica con los demás datos. Lo leen el panel privado de la
+# app («Estado del robot») y el vigilante de telegram_bot.py, que es quien avisa cuando algo cambia de bien a mal o al revés.
+def apuntar_estado(paso, ok, mensaje="", detalle=None):
+    est = leer("estado.json", {}) or {}
+    antes = est.get(paso) or {}
+    ahora = ahora_iso()
+    est[paso] = {"ok": bool(ok), "hora": ahora, "mensaje": str(mensaje)[:600],
+                 "ultima_buena": ahora if ok else antes.get("ultima_buena"), "detalle": detalle or {}}
+    escribir("estado.json", est)
+
+
+def con_parte(paso, funcion):
+    """Ejecuta un paso entero y, si revienta por algo que el propio paso no ha previsto (sin red, un formato que cambia,
+    un fallo de programa), lo deja apuntado antes de salir. Lo que el paso sí prevé lo apunta él mismo."""
+    try:
+        return funcion()
+    except SystemExit as e:
+        if e.code not in (0, None) and not isinstance(e.code, int):
+            apuntar_estado(paso, False, str(e.code))
+        raise
+    except Exception as e:
+        apuntar_estado(paso, False, f"{type(e).__name__}: {e}")
+        raise
+
+
 # ---- Telegram (opcional: solo actúa si hay TELEGRAM_TOKEN y TELEGRAM_CHAT_ID) ----
 def telegram_enviar(texto, chat_id=None):
     token = os.environ.get("TELEGRAM_TOKEN")

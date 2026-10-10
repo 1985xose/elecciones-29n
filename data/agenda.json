@@ -8,12 +8,48 @@
   "fecha": "2026-10-06",
   "fin": "2026-11-19",
   "titulo": "Plazo para pedir el voto por correo",
-  "detalle": "En cualquier oficina de Correos o en su web, con el DNI. Hasta el 19 de noviembre."
+  "detalle": "En cualquier oficina de Correos o en su web, con el DNI. Hasta el jueves 19 de noviembre incluido.",
+  "fin_titulo": "Último día para pedir el voto por correo"
+ },
+ {
+  "fecha": "2026-10-12",
+  "fin": "2026-10-19",
+  "titulo": "Consulta del censo",
+  "detalle": "Ocho días para comprobar que estás bien inscrito y reclamar si no. En tu ayuntamiento o en la sede electrónica del INE.",
+  "fin_titulo": "Último día para consultar el censo"
+ },
+ {
+  "fecha": "2026-10-16",
+  "titulo": "Último día para registrar coaliciones",
+  "detalle": "Los partidos que quieran ir en una lista conjunta tienen que comunicarlo a la Junta Electoral."
  },
  {
   "fecha": "2026-10-21",
   "fin": "2026-10-26",
-  "titulo": "Presentación de candidaturas"
+  "titulo": "Presentación de candidaturas",
+  "detalle": "Los partidos entregan sus listas en las juntas electorales.",
+  "fin_titulo": "Último día para presentar candidaturas"
+ },
+ {
+  "fecha": "2026-10-28",
+  "titulo": "Se publican las candidaturas presentadas",
+  "detalle": "Todavía pueden corregirse."
+ },
+ {
+  "fecha": "2026-10-31",
+  "fin": "2026-11-04",
+  "titulo": "Sorteo de las mesas electorales",
+  "detalle": "Los ayuntamientos sortean quién es presidente y vocal. Si te toca, te lo notifican en casa."
+ },
+ {
+  "fecha": "2026-11-02",
+  "titulo": "Se proclaman las candidaturas",
+  "detalle": "Las listas ya son las definitivas. Salen en el BOE el martes 3."
+ },
+ {
+  "fecha": "2026-11-09",
+  "titulo": "Correos empieza a enviar la documentación del voto por correo",
+  "detalle": "A la dirección que se puso al pedirlo."
  },
  {
   "fecha": "2026-11-13",
@@ -27,9 +63,9 @@
   "detalle": "Los cinco días anteriores a la votación (LOREG art. 69)."
  },
  {
-  "fecha": "2026-11-26",
+  "fecha": "2026-11-25",
   "titulo": "Último día para enviar el voto por correo",
-  "detalle": "Hay que entregarlo en Correos, certificado y gratis."
+  "detalle": "Hay que entregarlo en Correos, certificado y gratis. Correos da de plazo hasta el miércoles 25."
  },
  {
   "fecha": "2026-11-27",

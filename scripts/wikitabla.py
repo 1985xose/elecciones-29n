@@ -6,7 +6,9 @@ from comun import get
 
 API = "https://en.wikipedia.org/w/api.php"
 MESES = {m: i + 1 for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"])}
-CANON = {"pp": "PP", "psoe": "PSOE", "vox": "Vox", "sumar": "Sumar", "erc": "ERC", "junts": "Junts",
+# «Frente Amplio» es el nombre con el que se presentará el espacio de Sumar. Mientras la app lo siga llamando Sumar, la
+# columna entra con la clave de siempre para que las encuestas no se queden sin ese partido el día que Wikipedia la renombre.
+CANON = {"pp": "PP", "psoe": "PSOE", "vox": "Vox", "sumar": "Sumar", "frenteamplio": "Sumar", "erc": "ERC", "junts": "Junts",
          "ehbildu": "Bildu", "bildu": "Bildu", "pnv": "PNV", "eajpnv": "PNV", "bng": "BNG", "cca": "CCa",
          "upn": "UPN", "podemos": "Podemos", "salf": "SALF", "aliancacat": "AC", "alianca": "AC",
          "up": "UP", "unidaspodemos": "UP", "unidospodemos": "UP", "podemosiu": "UP", "ercsobiranistes": "ERC", "ercsob": "ERC", "ercsobiranistes": "ERC", "ercsob": "ERC", "jxcat": "Junts", "jxcatjunts": "Junts", "ccnca": "CCa", "ccapncnc": "CCa", "adelanteandalucia": "AA", "adelanteandalucia2021": "AA", "cs": "Cs", "maspais": "MP"}

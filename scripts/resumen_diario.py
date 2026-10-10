@@ -23,6 +23,15 @@ def main():
     if der.get("bisagra"): lineas.append(f"Provincia bisagra: {der['bisagra'][0]['nombre']}")
     u = (an.get("ultimas") or [None])[0]
     if u: lineas.append(f"Última encuesta, {u['empresa']} ({u['fin']}): {u['texto']}")
+    # Cómo está el robot, en una línea si va todo bien y con detalle si no
+    try:
+        from telegram_bot import PASOS, como_va
+        from datetime import datetime, timezone
+        est = leer("estado.json", {}) or {}
+        malos = [f for m, f in (como_va(paso, est, datetime.now(timezone.utc)) for paso in PASOS if paso in est) if m]
+        lineas.append("Robot: todo bien." if not malos else "Robot: FALLA " + ". FALLA ".join(malos))
+    except Exception as e:
+        lineas.append(f"Robot: no he podido mirar su estado ({type(e).__name__}).")
     texto = "\n".join(lineas)
     print(texto)
     telegram_enviar(texto)
