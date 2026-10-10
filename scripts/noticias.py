@@ -125,6 +125,89 @@ def terminos_consulta(consulta):
     return [t.strip().strip('"') for t in consulta.split(" OR ") if t.strip()]
 
 
+# ---------- Polémicas: de quién son, que no sean viejas y que no se repitan ----------
+POLEMICA_DIAS = 7
+# Quien hace esto en el titular es el que acusa, no el acusado
+ACUSA = (r"denuncian?|acusan?|piden?|exigen?|reclaman?|critican?|cargan?|senalan?|ven?|tachan?|instan?|urgen?|cuestionan?|afean?|reprochan?|atacan?|arremeten?|censuran?|"
+         r"culpan?|advierten?|alertan?|llevan?|recurren?|sospechan?|denunciar[aá]n?|pedir[aá]n?|exigir[aá]n?|llevar[aá]n?|recurrir[aá]n?|registran?|presentan?|se querellan?|representar[aá]n?")
+# Lo que va justo delante del nombre cuando el titular dice contra quién va la cosa
+CONTRA = (r"(?:investig\w+|imput\w+|conden\w+|deten\w+|detencion de|juzg\w+|sancion\w+|expedient\w+|multa\w*|procesa\w*|querella contra|denuncia contra|indicios contra|contra|"
+          r"acusan?|denuncian?|piden?|exigen?|reclaman?|senalan?|critican?|culpan?|atacan?|cargan? contra|exonera\w*|absuelv\w+)\s+(?:a |al |a la |a los |de |del |el |la )?")
+ACUSACION_POPULAR = re.compile(r"acusaci(?:on|ones) popular(?:es)?")
+GENERICAS = set("para como tras sobre entre desde hasta contra este esta estos estas pero porque tiene tienen sera seran anos otros otras otro otra mas menos todo todos toda todas "
+                "cuando donde quien quienes cual cuales hace hacen dice dicen segun ante bajo durante mientras tambien solo cada nuevo nueva nuevos nuevas primer primera segundo segunda "
+                "partido partidos gobierno elecciones electoral campana espana juez jueza jueces juzgado fiscal fiscalia supremo audiencia nacional tribunal caso polemica escandalo "
+                "investigacion investiga investigar imputado imputada denuncia denuncian acusa acusan condena condenado sentencia confirma pide piden exige exigen".split())
+
+
+def papeles(titulo, nombres):
+    """Qué partidos nombra un titular y qué papel tiene cada uno: «acusado» si el titular dice que la cosa va contra él,
+    «acusa» si es el que denuncia, pide o reclama, y «nombrado» si solo sale. nombres = {partido: (patrón sí, patrón no)}."""
+    t, out = sin_acentos(titulo), {}
+    popular = bool(ACUSACION_POPULAR.search(t.lower()))
+    for k, (si, no) in nombres.items():
+        if not si or (no and no.search(t)):
+            continue
+        halla = list(si.finditer(t))
+        if not halla:
+            continue
+        papel = "nombrado"
+        for m in halla:
+            antes, despues = t[:m.start()].lower(), t[m.end():].lower()
+            if re.search(CONTRA + r"$", antes):
+                papel = "acusado"; break
+            # «X denuncia…», y también «X y Z denuncian…» cuando el verbo va en plural
+            if re.match(r"\s+(?:" + ACUSA + r")(?![a-z])", despues) or re.match(r"\s+(?:y|e)\s+(?:[A-Za-z]+\s+){1,3}?(?:" + ACUSA.replace("n?", "n") + r")(?![a-z])", despues):
+                papel = "acusa"
+        if papel == "nombrado" and popular:
+            papel = "acusa"  # ejercer la acusación popular es acusar
+        out[k] = papel
+    return out
+
+
+def de_quien_es(titulo, buscado, nombres):
+    """El partido al que se le apunta una polémica, o None si el titular solo lo trae como el que acusa.
+    Manda el acusado. Si no hay ninguno claro, vale un partido nombrado que no sea el que acusa, mejor el que se buscaba."""
+    p = papeles(titulo, nombres)
+    for papel in ("acusado", "nombrado"):
+        suyos = [k for k, v in p.items() if v == papel]
+        if suyos:
+            return buscado if buscado in suyos else suyos[0]
+    return None
+
+
+def palabras_propias(titulo, nombres_partido=None):
+    """Las palabras de un titular que dicen de qué va: largas, sin las genéricas de cualquier polémica y sin el nombre del partido."""
+    t = plano(nombres_partido.sub(" ", sin_acentos(titulo)) if nombres_partido else titulo)
+    # Se comparan por sus seis primeras letras, para que «policía» y «policial» o «mensaje» y «mensajes» cuenten como la misma
+    return {w[:6] for w in re.findall(r"[a-z]{4,}", t) if w not in GENERICAS}
+
+
+def ordenar_polemicas(candidatas, nombres, ahora=None, por_partido=4):
+    """De todo lo que devuelven las búsquedas, lo que se publica: polémicas de la última semana, apuntadas al partido al que
+    le afectan y no al que las denuncia, sin repetir titular y con una sola por historia y partido. Devuelve (lista, cuenta
+    de descartes por motivo)."""
+    ahora = ahora or datetime.now(timezone.utc)
+    limite = (ahora - timedelta(days=POLEMICA_DIAS)).isoformat()
+    fuera = {"viejas": 0, "solo acusa": 0, "repetidas": 0, "misma historia": 0, "tope por partido": 0}
+    buenas = []
+    for n in sorted(candidatas, key=lambda x: x.get("fecha") or "", reverse=True):
+        if not n.get("fecha") or n["fecha"] < limite:
+            fuera["viejas"] += 1; continue
+        k = de_quien_es(n["titulo"], n.get("partido"), nombres)
+        if not k:
+            fuera["solo acusa"] += 1; continue
+        if any(parecidos(n["titulo"], u["titulo"]) for u in buenas):
+            fuera["repetidas"] += 1; continue
+        propias = palabras_propias(n["titulo"], nombres[k][0] if k in nombres else None)
+        if any(u["partido"] == k and len(propias & u["_propias"]) >= 2 for u in buenas):
+            fuera["misma historia"] += 1; continue
+        if sum(1 for u in buenas if u["partido"] == k) >= por_partido:
+            fuera["tope por partido"] += 1; continue
+        buenas.append({**n, "partido": k, "_propias": propias})
+    return [{c: v for c, v in n.items() if c != "_propias"} for n in buenas], fuera
+
+
 def seccion_fuera(enlace, fuera):
     """True si la dirección de la noticia pasa por una sección que no es información política (deportes, horóscopo,
     opinión...). Mira las carpetas de la dirección y el subdominio, nunca el nombre final de la noticia."""
@@ -311,19 +394,19 @@ def main():
                 hallados = buscar(f"({p['consulta']}) ({cfg['polemicas']}) when:7d", 12)
                 buenos = [n for n in hallados if nombra(k, n["titulo"]) and polemico.search(plano(n["titulo"]))]
                 descartes["polémica"] += len(hallados) - len(buenos)
-                for n in buenos[:4]:
+                for n in buenos:
                     res["polemicas"].append({**n, "partido": k})
             except Exception as e:
                 print(k, "polémicas", e)
-    # La misma polémica sale al buscar por varios partidos. Se queda una sola vez.
-    unicas = []
-    for n in sorted(res["polemicas"], key=lambda x: x["fecha"] or "", reverse=True):
-        if not any(parecidos(n["titulo"], u["titulo"]) for u in unicas):
-            unicas.append(n)
+    # La misma polémica sale al buscar por varios partidos, Google News cuela cosas de hace meses aunque se le pida la
+    # última semana, y un titular que nombra a dos partidos no es de los dos. Todo eso se ordena en ordenar_polemicas.
+    halladas = len(res["polemicas"])
+    if not halladas:  # sin red: se conservan las de antes, pero pasan el mismo filtro, que la semana también corre para ellas
+        res["polemicas"] = previo.get("polemicas", [])
+    unicas, pol_fuera = ordenar_polemicas(res["polemicas"], nombres)
+    print(f"Polémicas: {halladas} halladas, quedan {len(unicas)}. Fuera: {', '.join(f'{v} por {m}' for m, v in pol_fuera.items() if v) or 'ninguna'}")
     res["polemicas"] = con_foto(unicas)
     res["polemicas"].sort(key=lambda x: x["fecha"] or "", reverse=True)
-    if not res["polemicas"]:
-        res["polemicas"] = previo.get("polemicas", [])
     # Verificaciones de Newtral y Maldita sobre la campaña en general: van en un bloque propio, no colgadas de un partido
     try:
         for n in buscar(f"elecciones {cfg['verificadores']} when:14d", 12):

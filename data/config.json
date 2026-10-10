@@ -312,5 +312,23 @@
       "hasta": "2026-11-26",
       "como": "No hay que pedir nada, la documentación llega a casa. En urna en el consulado, del 21 al 26 de noviembre. Por correo, hasta el 24."
     }
-  ]
+  ],
+  "senado": {
+    "electos": 208,
+    "designados": {
+      "PP": 23,
+      "PSOE": 19,
+      "Vox": 5,
+      "Junts": 3,
+      "ERC": 1,
+      "BNG": 1,
+      "PNV": 1,
+      "Bildu": 1,
+      "CCa": 1,
+      "Otros": 3
+    },
+    "otros": "Geroa Bai, Compromís y Más Madrid, uno cada uno",
+    "fecha": "2026-10-10",
+    "fuente": "https://www.infobae.com/espana/agencias/2026/10/10/el-senado-ya-tiene-casi-60-escanos-asignados-al-margen-de-las-elecciones-23-para-el-pp-y-19-para-el-psoe/"
+  }
 }

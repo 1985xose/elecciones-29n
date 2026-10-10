@@ -62,6 +62,8 @@ function puntosTexto(n) {
   return `${fmt1.format(Math.abs(n))} puntos, unos ${fmt0.format(v)} votantes, más o menos la población de ${ref[1]}`;
 }
 const signo = (d) => (d > 0 ? "+" : "−") + fmt1.format(Math.abs(d));
+// La franja de una cifra, dicha con palabras. Cuando las dos puntas coinciden no se escribe «entre 0 y 0».
+const entreDos = (a, b) => a === b ? `en ${a}` : `entre ${a} y ${b}`;
 // Como replaceChildren, pero se salta los huecos. replaceChildren a secas escribe la palabra «null» en pantalla.
 const poner = (cont, ...hijos) => cont.replaceChildren(...hijos.flat().filter((h) => h != null && h !== false));
 const ordenar = (o) => Object.keys(o).sort((a, b) => o[b] - o[a]);
@@ -283,7 +285,7 @@ function medidores(cont, det, ops, sel, alElegir) {
   const M = o.mayoria || 176;
   det.replaceChildren(el("div", { class: "caja" }, ...(o.central != null ? [barraAsientos(o),
     el("p", {}, `${o.con || "Con las encuestas de hoy"} ${o.verbo} ${o.central} ${o.unidad || "asientos"}, ${o.central > M ? `${o.central - M} más de los que hacen falta` : o.central === M ? "justo los que hacen falta" : `${M - o.central} menos de los que hacen falta`}. Como las encuestas fallan, lo normal es que ${o.plural ? "acaben" : "acabe"} entre ${o.p10} y ${o.p90}. Probabilidad de llegar a la mayoría, ${r100(o.p)} %.`)]
-    : [el("p", {}, `${o.texto || "Pasa cuando ninguno de los dos bloques llega a 176 asientos. Habría que negociar con otros partidos o repetir las elecciones."} Probabilidad, ${r100(o.p)} %.`)])));
+    : [el("p", {}, `${o.texto || "Pasa cuando ninguno de los dos bloques llega a 176 asientos. Habría que negociar con otros partidos o repetir las elecciones."} Probabilidad, ${r100(o.p)} %.${o.despues ? ` ${o.despues}` : ""}`)])));
 }
 
 /* ---------- Hemiciclo ---------- */
@@ -405,7 +407,7 @@ function pintarHoy(m, m7, proy) {
       fraseArco($("#hemi-arco"), o);
       leyenda($("#leyenda"), esc, null, tocar, gob.hemi);
       const k = gob.hemi, pk = k && P.partidos?.[k];
-      fichaHemi($("#hemi-ficha"), k, k ? `${esc[k]} ${esc[k] === 1 ? "asiento" : "asientos"} con las encuestas de hoy${m.media[k] != null ? `, con el ${fmt1.format(m.media[k])} % de los votos` : ""}.${pk ? ` Lo normal es que acabe entre ${Math.min(pk.p10, esc[k])} y ${Math.max(pk.p90, esc[k])}.` : ""}` : "", () => tocar(null));
+      fichaHemi($("#hemi-ficha"), k, k ? `${esc[k]} ${esc[k] === 1 ? "asiento" : "asientos"} con las encuestas de hoy${m.media[k] != null ? `, con el ${fmt1.format(m.media[k])} % de los votos` : ""}.${pk ? ` Lo normal es que acabe ${entreDos(Math.min(pk.p10, esc[k]), Math.max(pk.p90, esc[k]))}.` : ""}` : "", () => tocar(null));
       medidores($("#g-medidores"), $("#g-medidor-detalle"), ops, gob.sel, (id) => { gob.sel = id; pinta(); });
     };
     pinta();
@@ -617,7 +619,7 @@ function pintarListaPartidos(m, m7, proy) {
     return el("div", { class: "fila-p" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k), marca),
       el("div", { class: "pct" }, `${fmt1.format(m.media[k])} %`, el("small", { class: Math.abs(d) >= 0.1 ? (d > 0 ? "sube" : "baja") : "" }, Math.abs(d) >= 0.1 ? signo(d) : "")),
       el("div", { class: "barra" }, el("i", { style: { width: `${m.media[k] / max * 100}%`, background: color(k) } })),
-      el("div", { class: "esc" }, D.prob?.partidos?.[k] ? `entre ${D.prob.partidos[k].p10} y ${D.prob.partidos[k].p90} asientos` : `${proy.total[k] || 0} asientos`)); };
+      el("div", { class: "esc" }, D.prob?.partidos?.[k] ? (D.prob.partidos[k].p10 === D.prob.partidos[k].p90 ? `${D.prob.partidos[k].p90} ${D.prob.partidos[k].p90 === 1 ? "asiento" : "asientos"}` : `entre ${D.prob.partidos[k].p10} y ${D.prob.partidos[k].p90} asientos`) : `${proy.total[k] || 0} asientos`)); };
   poner($("#lista-partidos"), ...(enc.todos ? o : grandes).map(fila),
     resto > 0 ? el("button", { class: "ver-mas", type: "button", "aria-expanded": enc.todos ? "true" : "false", onclick: () => { enc.todos = !enc.todos; pintarListaPartidos(m, m7, proy); } },
       enc.todos ? "Ver solo los más votados" : `Ver los otros ${resto} partidos`) : null, ...notasAviso(), notaNoConcurren());
@@ -1042,14 +1044,15 @@ function probabilidadSim() {
   const claves = Object.keys(sim.valores).filter((k) => sim.valores[k] > 0);
   const R = P.ruido || { comunidad: 0.173, provincia: 0.085 }, est = new Set(D.base.estatales || []);
   const ccaas = [...new Set(D.base.provincias.map((p) => p.ccaa))], peso = D.base.provincias.map((p) => Math.max(p.escanos - 2, 0.3));
-  const lnc = (sd) => Math.exp(sd * rn() - sd * sd / 2);
+  const lnz = (sd, z) => Math.exp(sd * z - sd * sd / 2), CA = Math.sqrt(R.comun || 0), CB = Math.sqrt(1 - (R.comun || 0));
   for (let i = 0; i < N; i++) {
     const z = { d: rn(), i: rn(), t: rn() }, zt = rn(), m = {};
     for (const k of claves) { const b = bloque(k); m[k] = Math.max(0, sim.valores[k] + (P.sigmas[k] || 0.06 * sim.valores[k]) * (0.55 * z[b] + 0.835 * rn() + 0.35 * (b === "d" ? 1 : b === "i" ? -1 : 0) * zt)); }
     const gr = Modelo.grupos(m, D.base), fc = {};
-    for (const k of claves) { fc[k] = {}; for (const c of ccaas) fc[k][c] = est.has(k) ? lnc(R.comunidad) : 1; }
+    const zcom = {}; for (const c of ccaas) zcom[c] = rn(); // lo que se separan a la vez todos los estatales en esa comunidad
+    for (const k of claves) { fc[k] = {}; for (const c of ccaas) fc[k][c] = est.has(k) ? lnz(R.comunidad, CA * zcom[c] + CB * rn()) : 1; }
     const brutas = D.base.provincias.map((p) => Modelo.proyectarProvincia(p, m, D.base, gr));
-    const ruid = brutas.map((cu, j) => { const o = {}; for (const [k, v] of Object.entries(cu)) o[k] = v * (fc[k] ? fc[k][D.base.provincias[j].ccaa] : 1) * lnc(R.provincia); return o; });
+    const ruid = brutas.map((cu, j) => { const o = {}, zp = rn(); for (const [k, v] of Object.entries(cu)) o[k] = v * (fc[k] ? fc[k][D.base.provincias[j].ccaa] : 1) * lnz(R.provincia, est.has(k) ? CA * zp + CB * rn() : rn()); return o; });
     for (const k of claves) if (est.has(k)) { let a = 0, d = 0; brutas.forEach((cu, j) => { a += (cu[k] || 0) * peso[j]; d += (ruid[j][k] || 0) * peso[j]; }); if (d > 0) for (const cu of ruid) if (cu[k] != null) cu[k] *= a / d; }
     const t = {};
     D.base.provincias.forEach((p, j) => { for (const [k, n] of Object.entries(Modelo.dhondt(Modelo.fundir(ruid[j], sim.fusiones), p.escanos).escanos)) t[k] = (t[k] || 0) + n; });
@@ -1095,32 +1098,53 @@ function pintarPartidos(m, proy) {
 
 /* ---------- Senado ---------- */
 const senado = { sel: null, prov: null, hemi: null };
+/* El Senado tiene más asientos que los 208 que se eligen: los parlamentos de las comunidades designan al resto, y esos no
+   cambian con estas elecciones (config.senado.designados). La mayoría absoluta es la de toda la cámara. */
+function datosSenado() {
+  const des = D.config.senado?.designados || {}, nDes = Object.values(des).reduce((a, b) => a + b, 0), total = 208 + nDes;
+  return { des, nDes, total, M: Math.floor(total / 2) + 1 };
+}
 function pintarSenado(proy) {
-  // Los senadores de hoy salen del mismo reparto por provincias que el mapa. Las simulaciones ponen la probabilidad y el margen.
-  const M = 105, tot = {}, porProv = {};
-  for (const p of proy.provincias) { const r = Modelo.senadoProvincia(p.cuotas, p.nombre); porProv[p.nombre] = r; for (const [k, n] of Object.entries(r)) tot[k] = (tot[k] || 0) + n; }
-  const S = D.prob?.senado, o = ordenar(tot), k1 = o[0], k2 = o[1];
+  // Los senadores elegidos de hoy salen del mismo reparto por provincias que el mapa. Las simulaciones ponen la probabilidad y el margen.
+  const { des, nDes, total, M } = datosSenado(), tot = {}, porProv = {}, primeras = {};
+  for (const p of proy.provincias) { const r = Modelo.senadoProvincia(p.cuotas, p.nombre); porProv[p.nombre] = r; const g = ordenar(r)[0]; if (g) primeras[g] = (primeras[g] || 0) + 1; for (const [k, n] of Object.entries(r)) tot[k] = (tot[k] || 0) + n; }
+  // Las probabilidades solo valen si el robot las calculó con la misma mayoría. Tras cambiar los designados tardan una pasada.
+  const S = D.prob?.senado_mayoria === M ? D.prob.senado : null, o = ordenar(tot), k1 = o[0], k2 = o[1];
   if (!k1) return;
-  const X = tot[k1], p1 = S?.[k1]?.p_mayoria, t = p1 == null ? -1 : tramo(p1);
+  const con = {}; for (const k of new Set([...Object.keys(tot), ...Object.keys(des)])) con[k] = (tot[k] || 0) + (des[k] || 0);
+  const X = con[k1], p1 = S?.[k1]?.p_mayoria, t = p1 == null ? -1 : tramo(p1);
+  const mas = (k) => des[k] ? `, y con los ${des[k]} que ya tiene designados por las comunidades serían ${con[k]}` : "";
   $("#r-senado").replaceChildren(el("b", {}, t >= 3 ? `${cap(palabra(p1))}, mayoría absoluta ${deP(k1)}.` : t === 2 ? "En el aire." : t >= 0 ? "Nadie tiene asegurada la mayoría del Senado." : `${cap(elP(k1))}, el que más senadores sacaría.`),
-    ` Con las encuestas de hoy ${elP(k1)} sacaría ${X} de los 208 senadores que se eligen, ${X > M ? `${X - M} más de los ${M} que hacen falta` : X === M ? `justo los ${M} que hacen falta` : `${M - X} menos de los ${M} que hacen falta`}.`, k2 ? ` ${cap(elP(k2))} sacaría ${tot[k2]}.` : "");
-  const op = (k) => ({ id: k, titulo: `Mayoría ${deP(k)}`, arco: nombre(k), p: S[k]?.p_mayoria || 0, color: color(k), partidos: [k], central: tot[k], p10: Math.min(S[k]?.p10 ?? tot[k], tot[k]), p90: Math.max(S[k]?.p90 ?? tot[k], tot[k]), verbo: "sacaría", plural: false, mayoria: M, unidad: "senadores" });
-  const ops = S ? [op(k1), { id: "nadie", titulo: "Nadie con mayoría", p: Math.max(0, 1 - Object.values(S).reduce((a, v) => a + (v.p_mayoria || 0), 0)), color: "#8A93A3", texto: `Pasa cuando ningún partido llega solo a ${M} senadores. Tendrían que ponerse de acuerdo varios para sacar adelante las votaciones.` }, ...(k2 ? [op(k2)] : [])] : [];
+    ` Con las encuestas de hoy ${elP(k1)} sacaría ${tot[k1]} de los 208 senadores que se eligen${mas(k1)}. El Senado tiene ${total} y hacen falta ${M}, así que ${X > M ? `le sobrarían ${X - M}` : X === M ? "llegaría justo" : `le faltarían ${M - X}`}.`, k2 ? ` ${cap(elP(k2))} sacaría ${tot[k2]}${mas(k2)}.` : "");
+  const franja = (k) => [Math.min(S?.[k]?.p10 ?? tot[k], tot[k]) + (des[k] || 0), Math.max(S?.[k]?.p90 ?? tot[k], tot[k]) + (des[k] || 0)];
+  const op = (k) => ({ id: k, titulo: `Mayoría ${deP(k)}`, arco: nombre(k), p: S[k]?.p_mayoria || 0, color: color(k), partidos: [k], central: con[k], p10: franja(k)[0], p90: franja(k)[1], verbo: "tendría", plural: false, mayoria: M, unidad: "senadores", con: des[k] ? `Con las encuestas de hoy y sus ${des[k]} designados` : null });
+  const juntos = D.prob?.senado_escenarios?.[D.config.principales.derecha], eJ = escenario(D.config.principales.derecha);
+  const ops = S ? [op(k1), { id: "nadie", titulo: "Nadie con mayoría", p: Math.max(0, 1 - Object.values(S).reduce((a, v) => a + (v.p_mayoria || 0), 0)), color: "#8A93A3", texto: `Pasa cuando ningún partido llega solo a ${M} senadores. Tendrían que ponerse de acuerdo varios para sacar adelante las votaciones.`,
+    despues: juntos && eJ && eJ.partidos.length > 1 ? `Eso no es lo mismo que un Senado bloqueado: que ${nombreEsc(eJ)} lleguen a ${M} entre los dos es ${palabra(juntos.p)} (${r100(juntos.p)} %).` : null }, ...(k2 ? [op(k2)] : [])] : [];
   const pinta = () => {
     const sel = ops.find((x) => x.id === senado.sel && x.partidos) || (senado.sel === "nadie" ? null : (ops[0] || { partidos: [k1], color: color(k1), arco: nombre(k1), central: X, mayoria: M, unidad: "senadores" }));
-    const tocar = (k) => { senado.hemi = k && k !== senado.hemi && tot[k] ? k : null; pinta(); };
-    hemiciclo($("#sen-hemiciclo"), tot, 8, sel ? { partidos: sel.partidos, color: sel.color } : null, String(M), null, { marcado: senado.hemi, alTocar: tocar });
+    const tocar = (k) => { senado.hemi = k && k !== senado.hemi && con[k] ? k : null; pinta(); };
+    hemiciclo($("#sen-hemiciclo"), con, 9, sel ? { partidos: sel.partidos, color: sel.color } : null, String(M), null, { marcado: senado.hemi, alTocar: tocar });
     fraseArco($("#sen-hemi-arco"), sel);
-    leyenda($("#sen-leyenda"), tot, null, tocar, senado.hemi);
+    leyenda($("#sen-leyenda"), con, null, tocar, senado.hemi);
     const kh = senado.hemi;
-    fichaHemi($("#sen-hemi-ficha"), kh, kh ? `${tot[kh]} ${tot[kh] === 1 ? "senador" : "senadores"} con las encuestas de hoy.${S?.[kh] ? ` Lo normal es que acabe entre ${Math.min(S[kh].p10, tot[kh])} y ${Math.max(S[kh].p90, tot[kh])}.` : ""}` : "", () => tocar(null));
+    fichaHemi($("#sen-hemi-ficha"), kh, kh ? (kh === "Otros" ? `${con[kh]} senadores designados por las comunidades. ${D.config.senado?.otros || ""}.`
+      : `${con[kh]} ${con[kh] === 1 ? "senador" : "senadores"}. ${tot[kh] ? `${tot[kh]} ${tot[kh] === 1 ? "elegido" : "elegidos"} con las encuestas de hoy` : "Ninguno elegido con las encuestas de hoy"}${des[kh] ? ` y ${des[kh]} ${des[kh] === 1 ? "designado" : "designados"} por las comunidades` : ""}.${S?.[kh] ? ` De los que se eligen, lo normal es que se quede ${entreDos(Math.min(S[kh].p10, tot[kh] || 0), Math.max(S[kh].p90, tot[kh] || 0))}.` : ""}`) : "", () => tocar(null));
     if (ops.length) medidores($("#sen-medidores"), $("#sen-medidor-detalle"), ops, senado.sel, (id) => { senado.sel = id; pinta(); });
-    else { $("#sen-medidores").replaceChildren(); $("#sen-medidor-detalle").replaceChildren(); }
+    else { $("#sen-medidores").replaceChildren(); $("#sen-medidor-detalle").replaceChildren(el("p", { class: "pie-bloque" }, "Las probabilidades del Senado se calculan en la próxima actualización.")); }
   };
   pinta();
+  $("#sen-pie").textContent = `Cada punto es uno de los ${total} senadores: los 208 que se eligen el 29N y los ${nDes} que designan los parlamentos de las comunidades, que no cambian con estas elecciones. El partido cuyo arco pasa la raya del centro, ${M}, controla el Senado. Toca un partido en el dibujo para ver sus datos.`;
+  // Por qué la franja del primero cae más hacia abajo que hacia arriba
+  const [f10, f90] = S ? franja(k1) : [X, X], n1 = primeras[k1] || 0;
+  $("#sen-nota").textContent = S && X - f10 > 2 * (f90 - X) && n1 > proy.provincias.length / 2 ? `La franja ${deP(k1)} va de ${f10} a ${f90} y hoy está en ${X}, casi arriba del todo. Es porque sería el más votado en ${n1} de las ${proy.provincias.length} provincias: tiene muchas que perder y pocas que ganar, y cada provincia en la que deja de ser primero le cuesta 2 senadores.` : "";
+  const d = D.config.senado;
+  const conNombre = ordenar(des).filter((k) => k !== "Otros");
+  poner($("#sen-designados"), ...(nDes ? [`Además de los que se eligen, las comunidades ya tienen designados ${nDes}. ${lista([...conNombre.map((k) => `${nombre(k)} ${des[k]}`), ...(des.Otros ? [`otros partidos ${des.Otros}`] : [])])}.`, des.Otros && d.otros ? ` Los otros son ${d.otros}.` : null,
+    ...(d.fuente ? [" (", el("a", { href: d.fuente, target: "_blank", rel: "noopener" }, "fuente"), ")"] : [])] : []));
   const max = Math.max(...o.map((k) => tot[k]));
   $("#g-senado").replaceChildren(...o.map((k) => el("div", { class: "bg" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
-    el("div", { class: "num" }, tot[k], el("small", {}, S?.[k] ? ` senadores, lo normal entre ${Math.min(S[k].p10, tot[k])} y ${Math.max(S[k].p90, tot[k])}` : " senadores")), el("div", { class: "pista" }, el("i", { style: { width: `${tot[k] / max * 100}%`, background: color(k) } })))));
+    el("div", { class: "num" }, tot[k], el("small", {}, S?.[k] ? ` elegidos, lo normal ${entreDos(Math.min(S[k].p10, tot[k]), Math.max(S[k].p90, tot[k]))}` : " elegidos")), el("div", { class: "pista" }, el("i", { style: { width: `${tot[k] / max * 100}%`, background: color(k) } })))));
   // Mapa: el color es el del partido más votado de la provincia, que es quien se lleva casi todos sus senadores
   if (senado.prov == null) senado.prov = mapa.sel;
   const pintaMapa = () => {
@@ -1204,7 +1228,7 @@ function pintarFoco(ctx) {
     el("p", { class: "respuesta" }, el("b", {}, `${fmt1.format(m.media[k])} % de los votos.`), ` Es el ${ORDINAL[pos] || `número ${pos}`} en la media de encuestas y ${Math.abs(d) >= 0.2 ? `${d > 0 ? "sube" : "baja"} ${fmt1.format(Math.abs(d))} puntos esta semana` : "está igual que la semana pasada"}.`),
     hemi,
     el("p", { class: "arco-txt" }, el("i", { style: { background: col } }), `${nombre(k)}, ${X} de 350 asientos`),
-    el("p", { class: "pie-bloque" }, `Con las encuestas de hoy ${X ? `sacaría ${X} ${X === 1 ? "asiento" : "asientos"}` : "no sacaría ningún asiento"}${a23 != null ? (X === a23 ? ", los mismos que en 2023" : `, ${Math.abs(X - a23)} ${X > a23 ? "más" : "menos"} que en 2023`) : ""}.${pp ? ` Como las encuestas fallan, lo normal es que acabe entre ${Math.min(pp.p10, X)} y ${Math.max(pp.p90, X)}.` : ""}`),
+    el("p", { class: "pie-bloque" }, `Con las encuestas de hoy ${X ? `sacaría ${X} ${X === 1 ? "asiento" : "asientos"}` : "no sacaría ningún asiento"}${a23 != null ? (X === a23 ? ", los mismos que en 2023" : `, ${Math.abs(X - a23)} ${X > a23 ? "más" : "menos"} que en 2023`) : ""}.${pp ? ` Como las encuestas fallan, lo normal es que acabe ${entreDos(Math.min(pp.p10, X), Math.max(pp.p90, X))}.` : ""}`),
     ag.length ? el("div", { class: "medidores" }, ...ag) : null));
 
   // Provincias
@@ -1238,9 +1262,9 @@ function pintarFoco(ctx) {
   // Senado
   const sen = {}, primeras = [], segundas = [];
   for (const p of proy.provincias) { const r = Modelo.senadoProvincia(p.cuotas, p.nombre), o = ordenar(r); for (const [x, n] of Object.entries(r)) sen[x] = (sen[x] || 0) + n; if (o[0] === k) primeras.push(p.nombre); else if (r[k]) segundas.push(p.nombre); }
-  const XS = sen[k] || 0, S = P?.senado?.[k];
+  const dS = datosSenado(), XS = sen[k] || 0, S = P?.senado_mayoria === dS.M ? P.senado?.[k] : null, misDes = dS.des[k] || 0;
   caja("senado").append(art(`${nombre(k)} en el Senado`,
-    el("p", { class: "respuesta" }, XS ? `${cap(elP(k))} sacaría ${XS} de los 208 senadores que se eligen${S ? `, y lo normal es que acabe entre ${Math.min(S.p10, XS)} y ${Math.max(S.p90, XS)}` : ""}. Sería el partido más votado en ${primeras.length} ${primeras.length === 1 ? "provincia" : "provincias"}${primeras.length && primeras.length <= 6 ? ` (${lista(primeras)})` : ""} y el segundo en ${segundas.length}.` : `Con las encuestas de hoy ${elP(k)} no sacaría senadores. Para sacarlos hay que ser el primero o el segundo partido de una provincia.`),
+    el("p", { class: "respuesta" }, XS ? `${cap(elP(k))} sacaría ${XS} de los 208 senadores que se eligen${S ? `, y lo normal es que acabe ${entreDos(Math.min(S.p10, XS), Math.max(S.p90, XS))}` : ""}. Sería el partido más votado en ${primeras.length} ${primeras.length === 1 ? "provincia" : "provincias"}${primeras.length && primeras.length <= 6 ? ` (${lista(primeras)})` : ""} y el segundo en ${segundas.length}.` : `Con las encuestas de hoy ${elP(k)} no sacaría senadores. Para sacarlos hay que ser el primero o el segundo partido de una provincia.`, misDes ? ` Tiene ${misDes} ${misDes === 1 ? "designado" : "designados"} por las comunidades, que no ${misDes === 1 ? "cambia" : "cambian"} con estas elecciones. La mayoría del Senado son ${dS.M} de ${dS.total}.` : null),
     S && S.p_mayoria >= 0.001 ? el("div", { class: "medidores" }, agujaFija("Mayoría absoluta en el Senado", S.p_mayoria, col)) : null));
 
   // ¿Y si…?
@@ -1315,6 +1339,8 @@ function pintarMetodo(m) {
   if (cal) {
     const tres = ["PP", "PSOE", "Vox"].filter((k) => cal[k]?.rms);
     $("#met-error").textContent = tres.length ? `A seis días de votar, la media de encuestas de 2016, 2019 y 2023 se desvió del resultado, de media, unos ${lista(tres.map((k) => `${fmt1.format(cal[k].rms)} puntos con ${elP(k)}`))}.` : "";
+    const cu = P.curva;
+    if (cu?.exponente) $("#met-curva").textContent = `Medido con ${cu.casos} casos de 2016, 2019 y 2023: un partido el doble de grande tiene un error ${fmt1.format(Math.pow(2, cu.exponente))} veces mayor, y a los partidos que solo se presentan en su territorio las encuestas les fallan ${fmt1.format(cu.estatales / cu.territoriales)} veces menos que a los de toda España del mismo tamaño.`;
     const ft = Object.values(cal)[0]?.factor_tiempo;
     $("#met-tiempo").textContent = ft && P.dias_para_votar > 6 ? `Hoy faltan ${P.dias_para_votar} días, y a esa distancia las encuestas fallan ${fmt1.format(ft)} veces más que en la última semana. Por eso las franjas son ahora anchas y se irán estrechando.` : "";
   }

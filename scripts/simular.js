@@ -25,16 +25,45 @@ function rng(semilla) {
 /* ---------- Calibración del error ---------- */
 const BLOQUES = { derecha: ["PP", "Vox", "SALF", "UPN", "Cs", "NA+"], izquierda: ["PSOE", "Sumar", "Podemos", "UP", "MP", "AA"], territorial: ["ERC", "Junts", "Bildu", "PNV", "BNG", "CCa", "AC", "CUP", "PRC", "TE"] };
 const bloqueDe = (k) => Object.keys(BLOQUES).find((b) => BLOQUES[b].includes(k)) || "otros";
-// Un partido de hoy hereda el error histórico de su equivalente de entonces
-const EQUIV = { Sumar: ["Sumar", "UP"], Podemos: ["Sumar", "UP"], SALF: ["Vox", "Cs"], AA: ["Sumar", "UP"], AC: ["Junts", "CDC"], Junts: ["Junts", "CDC"] };
+// Con qué nombre salía antes el mismo partido o el mismo espacio. Un partido nuevo de verdad (SALF, Adelante Andalucía)
+// no hereda el historial de nadie: se le pone el margen típico de un partido de su tamaño.
+const HISTORIA = { Sumar: ["Sumar", "UP"], Podemos: ["Sumar", "UP"], Junts: ["Junts", "DiL", "CDC"], AC: ["Junts", "DiL", "CDC"], ERC: ["ERC", "ERC–CatSí"], CCa: ["CCa", "CC"], UPN: ["UPN", "NA+"] };
+// Partidos que en las elecciones históricas se presentaban en toda España. Los demás son de un solo territorio.
+const ESTATALES_ANTES = new Set(["PP", "PSOE", "Vox", "Cs", "UP", "Sumar", "Podemos", "MP", "PACMA", "EV", "SALF"]);
+const PESO_CURVA = 4; // la curva de tamaño pesa como cuatro elecciones: lo mismo que el historial de un partido que las tiene todas
 
 function erroresEleccion(hist, dias = 6) {
   // Media de encuestas a 'dias' de la votación (como mínimo al empezar la veda), con la misma regla de ventana que hoy
   const fe = fechaD(hist.fecha), f = new Date(fe - Math.max(dias, 6) * DIA);
   const m = Me.calcMedia(hist.encuestas, f, Me.ventanaAdaptativa(f, fe)).media;
-  const err = {};
-  for (const [p, v] of Object.entries(hist.resultado)) if (v >= 1 && m[p] != null) err[p] = +(v - m[p]).toFixed(2);
-  return { media: m, errores: err };
+  const err = {}, casos = [];
+  for (const [p, v] of Object.entries(hist.resultado)) if (m[p] != null) {
+    casos.push({ p, media: m[p], error: v - m[p] }); // todos, también los de menos del 1 %, para la curva de tamaño
+    if (v >= 1) err[p] = +(v - m[p]).toFixed(2);
+  }
+  return { media: m, errores: err, casos };
+}
+
+/* Curva de tamaño: cuánto fallan las encuestas con un partido según lo grande que es. Margen = A × media^B.
+   Se mide con todos los partidos de las elecciones históricas (unos 50 casos), por máxima verosimilitud, con el mismo
+   exponente B para todos y un nivel A para los partidos estatales y otro para los de un solo territorio, que las
+   encuestas clavan bastante más. Sale B cerca de 0,6: un partido el doble de grande tiene un error vez y media mayor. */
+function curvaTamano(errs) {
+  const casos = errs.flatMap((e) => e.casos).filter((c) => c.media > 0).map((c) => ({ ...c, g: ESTATALES_ANTES.has(c.p) ? "E" : "T" }));
+  let mejor = null;
+  for (let B = 0.3; B <= 1.001; B += 0.01) {
+    const A = {}; let ll = 0;
+    for (const g of ["E", "T"]) {
+      const x = casos.filter((c) => c.g === g);
+      if (!x.length) { A[g] = null; continue; }
+      const a2 = x.reduce((s, c) => s + c.error * c.error / Math.pow(c.media, 2 * B), 0) / x.length;
+      A[g] = Math.sqrt(a2);
+      ll -= x.reduce((s, c) => s + 0.5 * Math.log(a2 * Math.pow(c.media, 2 * B)) + c.error * c.error / (2 * a2 * Math.pow(c.media, 2 * B)), 0);
+    }
+    if (!mejor || ll > mejor.ll) mejor = { A, B: +B.toFixed(2), ll, casos: casos.length };
+  }
+  if (mejor.A.E == null) mejor.A.E = mejor.A.T; if (mejor.A.T == null) mejor.A.T = mejor.A.E;
+  return mejor;
 }
 
 /* Factor por días que faltan, medido: error típico de la media a 'dias' de la votación dividido entre el error a 6 días,
@@ -45,33 +74,54 @@ function factorDias(historicos, dias) {
   return base ? Math.max(1, rms(Math.max(dias, 6)) / base) : 1;
 }
 
-function sigmas(media, historicos, dias) {
+/* Margen de error de cada partido a seis días de votar, y de ahí al día de hoy con el factor de tiempo.
+   1. Sus errores en las elecciones históricas, llevados a su tamaño de hoy con la curva (el error de cuando tenía un 13 %
+      no vale tal cual para un partido que hoy tiene un 6 %).
+   2. El margen típico de un partido de su tamaño y de su tipo, que es la curva.
+   3. Las dos cosas se mezclan: la curva pesa como PESO_CURVA elecciones. Con tres o cuatro elecciones el historial de un
+      solo partido engaña (por suerte puede salir muy pequeño), y la curva sola olvida que a unos partidos las encuestas
+      los miden siempre mejor que a otros.
+   Probado dejando cada elección fuera y calculando con las otras tres: con la regla anterior (el error propio con un
+   suelo fijo de 0,4 puntos) el error real fue 1,34 veces el margen en los partidos estatales y 0,67 veces en los
+   territoriales. Con esta, 1,10 y 1,01. */
+function sigmas(media, historicos, dias, base) {
   const errs = historicos.map((h) => erroresEleccion(h, 6));
-  const tiempo = factorDias(historicos, dias);
+  const tiempo = factorDias(historicos, dias), cv = curvaTamano(errs);
+  const estatales = new Set((base && base.estatales) || []);
   const out = {}, detalle = {};
   for (const k of Object.keys(media)) {
-    const fuentes = EQUIV[k] || [k];
+    const fuentes = HISTORIA[k] || [k];
     const muestras = [];
-    for (const e of errs) for (const f of fuentes) if (e.errores[f] != null) { muestras.push(e.errores[f]); break; }
-    const rms = muestras.length ? Math.sqrt(muestras.reduce((s, x) => s + x * x, 0) / muestras.length) : 0;
-    const suelo = Math.max(0.4, 0.06 * media[k]);
-    const techo = 0.6 * media[k] + 0.3; // un partido pequeño no puede tener un error mayor que él mismo
-    const base = Math.min(Math.max(rms, suelo), techo);
-    out[k] = +(base * tiempo).toFixed(3);
-    detalle[k] = { errores_historicos: muestras, rms: +rms.toFixed(2), suelo: +suelo.toFixed(2), factor_tiempo: +tiempo.toFixed(2), sigma: out[k] };
+    for (const e of errs) for (const f of fuentes) { const c = e.casos.find((x) => x.p === f); if (c && c.media > 0) { muestras.push(c); break; } }
+    // Sin historial propio no se sabe si las encuestas lo miden bien: se le pone el nivel ancho, el de los estatales
+    const grupo = estatales.has(k) || !muestras.length ? "E" : "T";
+    const m = Math.max(media[k], 0), tipico = m > 0 ? cv.A[grupo] * Math.pow(m, cv.B) : 0;
+    const llevados = muestras.map((c) => c.error * Math.pow(m / c.media, cv.B));
+    const base6 = Math.sqrt((llevados.reduce((s, x) => s + x * x, 0) + PESO_CURVA * tipico * tipico) / (llevados.length + PESO_CURVA));
+    const crudos = muestras.map((c) => +c.error.toFixed(2));
+    out[k] = +(base6 * tiempo).toFixed(3);
+    detalle[k] = { errores_historicos: crudos, rms: +(crudos.length ? Math.sqrt(crudos.reduce((s, x) => s + x * x, 0) / crudos.length) : 0).toFixed(2),
+      a_su_tamano: llevados.map((x) => +x.toFixed(2)), tipico: +tipico.toFixed(2), grupo: grupo === "E" ? "estatal" : "territorial", seis_dias: +base6.toFixed(2), factor_tiempo: +tiempo.toFixed(2), sigma: out[k] };
   }
-  return { sigmas: out, detalle, errores: errs, factor_tiempo: +tiempo.toFixed(2) };
+  return { sigmas: out, detalle, errores: errs, factor_tiempo: +tiempo.toFixed(2), curva: { estatales: +cv.A.E.toFixed(3), territoriales: +cv.A.T.toFixed(3), exponente: cv.B, casos: cv.casos, peso: PESO_CURVA } };
 }
 
 /* ---------- Simulación ---------- */
 /* Separación del reparto proporcional medida entre 2019 y 2023 (mismo plazo que ahora):
-   17 % toda una comunidad a la vez y 8,5 % cada provincia dentro de su comunidad. */
-const RUIDO = { comunidad: 0.173, provincia: 0.085 };
+   17 % toda una comunidad a la vez y 8,5 % cada provincia dentro de su comunidad.
+   Los partidos estatales no se separan cada uno por su lado: donde uno queda por encima de lo que le tocaba, los demás
+   suelen quedar también (pasa sobre todo donde suben o bajan los partidos propios de la comunidad). Entre 2019 y 2023
+   la correlación media entre PP, PSOE, Vox y Sumar fue de 0,36 entre comunidades y de 0,40 dentro de cada una. Se pone
+   0,36 en los dos niveles: una parte del ruido es común a todos los estatales y el resto es de cada partido. Sin esa
+   parte común la distancia entre el primero y el segundo de una provincia bailaba un 50 % más de lo que bailó de verdad
+   (8,9 puntos frente a 6,0), y eso es lo que decide los senadores. */
+const RUIDO = { comunidad: 0.173, provincia: 0.085, comun: 0.36 };
 function simular(media, base, sig, n, semilla, opciones = {}) {
   const r = rng(semilla), claves = Object.keys(media).filter((k) => media[k] > 0);
   // Cuánto van juntos los errores de partidos del mismo bloque. Con 4 elecciones no se puede medir bien;
   // probado de 0,30 a 0,80 el resultado apenas cambia (84 a 88 de cada 100 a 6-oct-2026), se deja el valor intermedio.
   const RHO = 0.55, ZS = 0.35;
+  const CA = Math.sqrt(RUIDO.comun), CB = Math.sqrt(1 - RUIDO.comun);
   const estatales = new Set(base.estatales || []);
   const ccaas = [...new Set(base.provincias.map((p) => p.ccaa))];
   const peso = base.provincias.map((p) => Math.max((opciones.escanos ? opciones.escanos[p.nombre] : p.escanos) - 2, 0.3)); // población aproximada
@@ -87,10 +137,11 @@ function simular(media, base, sig, n, semilla, opciones = {}) {
       m[k] = Math.max(0, media[k] + sig[k] * z);
     }
     const gr = M.grupos(m, base), total = {}, provincias = [];
-    const zc = {}; for (const k of claves) { zc[k] = {}; for (const c of ccaas) zc[k][c] = r.n(); }
+    const zcom = {}; for (const c of ccaas) zcom[c] = r.n(); // lo que se separan a la vez todos los estatales en esa comunidad
+    const zc = {}; for (const k of claves) { zc[k] = {}; for (const c of ccaas) zc[k][c] = CA * zcom[c] + CB * r.n(); }
     const lnc = (sd, z) => Math.exp(sd * z - sd * sd / 2);
     const brutas = base.provincias.map((prov) => M.proyectarProvincia(prov, m, base, gr));
-    const ruidosas = brutas.map((cu, i) => { const o = {}; for (const [k, v] of Object.entries(cu)) o[k] = v * (estatales.has(k) ? lnc(RUIDO.comunidad, zc[k] ? zc[k][base.provincias[i].ccaa] : 0) : 1) * lnc(RUIDO.provincia, r.n()); return o; });
+    const ruidosas = brutas.map((cu, i) => { const o = {}, zp = r.n(); for (const [k, v] of Object.entries(cu)) o[k] = v * (estatales.has(k) ? lnc(RUIDO.comunidad, zc[k] ? zc[k][base.provincias[i].ccaa] : 0) * lnc(RUIDO.provincia, CA * zp + CB * r.n()) : lnc(RUIDO.provincia, r.n())); return o; });
     // Reajuste para que el ruido territorial no cambie el total nacional de cada partido estatal
     for (const k of claves) if (estatales.has(k)) {
       let antes = 0, despues = 0;
@@ -115,7 +166,7 @@ function senadoDe(provincias, base) {
   return total;
 }
 
-function resumir(sims, base, escenarios) {
+function resumir(sims, base, escenarios, senadoCfg) {
   const n = sims.length, claves = new Set();
   for (const s of sims) for (const k of Object.keys(s.total)) claves.add(k);
   const partidos = {};
@@ -178,11 +229,17 @@ function resumir(sims, base, escenarios) {
     return { nombre: prov.nombre, ccaa: prov.ccaa, n: prov.escanos, reparto, p_reparto: +(modal[1] / n).toFixed(3), en_el_aire: +(renidas / n).toFixed(3), falta_media: +(sumaFalta / n).toFixed(2),
       disputa: par ? { tiene: par[0].split("|")[0], quiere: par[0].split("|")[1], p: +(par[1] / n).toFixed(3) } : null, ultimo };
   });
-  // Senado
+  // Senado. La mayoría absoluta es la de toda la cámara: los 208 que se eligen más los que designan las comunidades,
+  // que no cambian con estas elecciones (config.senado). Sin ese dato se cuenta solo con los elegidos, como antes.
+  const desig = (senadoCfg && senadoCfg.designados) || {}, totalS = 208 + Object.values(desig).reduce((a, b) => a + b, 0), mayoriaS = Math.floor(totalS / 2) + 1;
   const senado = {};
   const clavesS = new Set(); for (const s of sims) for (const k of Object.keys(s.senado)) clavesS.add(k);
-  for (const k of clavesS) { const v = sims.map((s) => s.senado[k] || 0).sort((a, b) => a - b); senado[k] = { p10: v[Math.floor(n * .1)], p50: v[Math.floor(n * .5)], p90: v[Math.floor(n * .9)], p_mayoria: +(v.filter((x) => x >= 105).length / n).toFixed(4) }; }
-  return { partidos, escenarios: esc, bloqueo: +bloqueo.toFixed(4), provincias, senado };
+  for (const k of clavesS) { const v = sims.map((s) => s.senado[k] || 0).sort((a, b) => a - b); senado[k] = { p10: v[Math.floor(n * .1)], p50: v[Math.floor(n * .5)], p90: v[Math.floor(n * .9)], p_mayoria: +(v.filter((x) => x + (desig[k] || 0) >= mayoriaS).length / n).toFixed(4) }; }
+  // Las mismas coaliciones que en el Congreso, contando lo que suman sus senadores elegidos y los designados
+  const senadoEsc = {};
+  for (const e of escenarios) { const d = e.partidos.reduce((a, k) => a + (desig[k] || 0), 0), v = sims.map((s) => e.partidos.reduce((a, k) => a + (s.senado[k] || 0), 0)).sort((a, b) => a - b);
+    senadoEsc[e.id] = { p: +(v.filter((x) => x + d >= mayoriaS).length / n).toFixed(4), p10: v[Math.floor(n * .1)], p50: v[Math.floor(n * .5)], p90: v[Math.floor(n * .9)], designados: d }; }
+  return { partidos, escenarios: esc, bloqueo: +bloqueo.toFixed(4), provincias, senado, senado_escenarios: senadoEsc, senado_mayoria: mayoriaS };
 }
 
 /* Puntos de voto que le faltan (o sobran) a una coalición para que su probabilidad de 176 sea del 50 % */
@@ -289,13 +346,14 @@ function main() {
   const { media, usadas } = Me.calcMedia(encuestas, hoy, { ...va, ranking: fiab && fiab.ranking, sesgos: an.sesgos, fuera });
   console.log(`Encuestas en la media de hoy: ${usadas.map((e) => `${e.empresa_base} ${e.fin} (${Math.round(e.peso_pct * 100)} %)`).join(", ")}`);
   console.log(`Corrección de sesgo de casa: ${Object.entries(media).slice(0, 5).map(([k, v]) => `${k} ${mediaBruta[k].toFixed(1)} -> ${v.toFixed(1)}`).join(", ")}`);
-  const cal = sigmas(media, historicos, dias);
+  const cal = sigmas(media, historicos, dias, base);
   console.log(`Media hoy: ${Object.entries(media).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([k, v]) => `${k} ${v.toFixed(1)}`).join(", ")}`);
-  console.log(`Sigmas: ${Object.entries(cal.sigmas).slice(0, 6).map(([k, v]) => `${k} ±${v}`).join(", ")}  (elecciones calibradas: ${historicos.length}, factor por ${dias} días ${cal.factor_tiempo}, medido)`);
+  console.log(`Curva de tamaño con ${cal.curva.casos} casos: estatales ${cal.curva.estatales} × media^${cal.curva.exponente}, territoriales ${cal.curva.territoriales} × media^${cal.curva.exponente}`);
+  console.log(`Sigmas: ${Object.entries(cal.sigmas).map(([k, v]) => `${k} ±${v}`).join(", ")}  (elecciones calibradas: ${historicos.length}, factor por ${dias} días ${cal.factor_tiempo}, medido)`);
   console.log(`Ruido territorial medido 2019-2023: comunidad ${(RUIDO.comunidad * 100).toFixed(1)} %, provincia ${(RUIDO.provincia * 100).toFixed(1)} %. Europeas 2024: ${base.europeas ? "sí" : "no"}`);
   const t0 = Date.now();
   const sims = simular(media, base, cal.sigmas, N, 29);
-  const res = resumir(sims, base, config.escenarios);
+  const res = resumir(sims, base, config.escenarios, config.senado);
   console.log(`${N} simulaciones en ${((Date.now() - t0) / 1000).toFixed(1)} s`);
   for (const e of Object.values(res.escenarios)) {
     if (e.gobierno) e.margen = margen(media, base, cal.sigmas, e, 29);
@@ -303,7 +361,7 @@ function main() {
   }
   console.log(`  Bloqueo: ${(res.bloqueo * 100).toFixed(0)} %`);
   const salida = { actualizado: hoy.toISOString(), simulaciones: N, dias_para_votar: dias, media,
-    ventana: { ...va, encuestas: usadas.map((e) => ({ id: e.id, empresa: e.empresa_base, encargo: e.encargo, fin: e.fin, muestra: e.muestra, peso: +e.peso_pct.toFixed(3) })) }, sigmas: cal.sigmas, calibracion: cal.detalle, errores_historicos: cal.errores.map((e, i) => ({ eleccion: historicos[i].nombre, errores: e.errores })),
+    ventana: { ...va, encuestas: usadas.map((e) => ({ id: e.id, empresa: e.empresa_base, encargo: e.encargo, fin: e.fin, muestra: e.muestra, peso: +e.peso_pct.toFixed(3) })) }, sigmas: cal.sigmas, calibracion: cal.detalle, curva: cal.curva, ruido: RUIDO, errores_historicos: cal.errores.map((e, i) => ({ eleccion: historicos[i].nombre, errores: e.errores })),
     ...res, metodo: "Media ponderada de encuestas (última de cada empresa, hasta 60 días en precampaña) + error correlacionado por bloques (rho 0,55) calibrado con 2016, 2019 y 2023 + ruido territorial medido 2019-2023, D'Hondt por provincia con los escaños del RD 806/2026." };
 
   // Backtest 2023: base 2019 y encuestas de entonces, con el error calibrado SOLO con 2019
@@ -314,7 +372,7 @@ function main() {
     for (const f of fechas) {
       const fd = fechaD(f), m = Me.calcMedia(h23.encuestas, fd, Me.ventanaAdaptativa(fd, fechaD("2023-07-23"))).media;
       const d = Math.round((fechaD("2023-07-23") - fd) / DIA);
-      const c = sigmas(m, historicos.filter((h) => h.nombre !== "23J 2023"), d); // solo con lo anterior a 2023
+      const c = sigmas(m, historicos.filter((h) => h.nombre !== "23J 2023"), d, base19); // solo con lo anterior a 2023
       const s = simular(m, base19, c.sigmas, 4000, 23);
       const r = resumir(s, base19, config.escenarios_2023);
       salida.backtest.fechas.push({ fecha: f, dias: d, media: m, escenarios: Object.fromEntries(Object.values(r.escenarios).map((e) => [e.id, { nombre: e.nombre, p: e.p, p10: e.p10, p50: e.p50, p90: e.p90 }])), bloqueo: r.bloqueo,

@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=51">
+<link rel="stylesheet" href="assets/style.css?v=52">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
@@ -170,14 +170,16 @@
       <div id="sen-hemi-ficha"></div>
       <p id="sen-hemi-arco" class="arco-txt"></p>
       <div id="sen-leyenda" class="leyenda"></div>
-      <p class="pie-bloque">Cada punto es uno de los 208 senadores que se eligen. El partido cuyo arco pasa la raya del centro, 105, controla el Senado. Toca un partido en el dibujo para ver sus datos.</p>
+      <p id="sen-pie" class="pie-bloque"></p>
       <div id="sen-medidores" class="medidores"></div>
       <div id="sen-medidor-detalle" class="medidor-detalle"></div>
+      <p id="sen-nota" class="pie-bloque"></p>
     </article>
 
     <article class="pregunta">
       <h2>¿Cuántos senadores sacaría cada partido?</h2>
       <div id="g-senado" class="barras-grandes"></div>
+      <p id="sen-designados" class="pie-bloque"></p>
     </article>
 
     <article class="pregunta">
@@ -189,7 +191,8 @@
 
     <article class="pregunta texto">
       <h2>¿Qué pinta el Senado?</h2>
-      <p>El mismo día se eligen 208 senadores, 4 por provincia (3 para el partido más votado y 1 para el segundo), y los suyos en las islas, Ceuta y Melilla. Como casi todo va al primero, el Senado suele tener mayorías mucho más claras que el Congreso. Hacen falta 105 de esos 208 para controlarlo, y sirve para frenar leyes y para que el Gobierno no pueda cambiar la Constitución sin acuerdo. Las comunidades autónomas nombran después otros 57 senadores que aquí no se cuentan.</p>
+      <p>El mismo día se eligen 208 senadores, 4 por provincia (3 para el partido más votado y 1 para el segundo), y los suyos en las islas, Ceuta y Melilla. Como casi todo va al primero, el Senado suele tener mayorías mucho más claras que el Congreso. Sirve para frenar leyes y para que el Gobierno no pueda cambiar la Constitución sin acuerdo.</p>
+      <p><b>No todos se eligen el 29N.</b> Además de esos 208, los parlamentos de las comunidades autónomas designan a otros 58 según el resultado de sus propias elecciones, y esos no cambian ahora. En total son 266, así que para controlar el Senado hacen falta 134, contando los elegidos y los designados.</p>
       <p><b>Cómo se vota.</b> La papeleta del Senado es la de color sepia y lleva los nombres de todos los candidatos. En la mayoría de provincias se pueden marcar hasta 3, del mismo partido o de varios.</p>
     </article>
   </section>
@@ -342,8 +345,10 @@
       <h2>4. Por qué decimos «probable» y no un resultado fijo</h2>
       <p>Porque las encuestas fallan, y se sabe cuánto. <span id="met-error"></span></p>
       <p><b>Las elecciones se repiten 10.000 veces en el ordenador.</b> En cada repetición se le mete a cada partido un error al azar del tamaño del que tuvieron las encuestas de verdad en 2016, 2019 y 2023 a esta misma distancia de la votación. <span id="met-tiempo"></span></p>
+      <p><b>El error depende del tamaño del partido.</b> <span id="met-curva">Con un partido grande las encuestas fallan más puntos que con uno pequeño, y con los que solo se presentan en su territorio aciertan más que con los de toda España.</span> A cada partido se le pone un margen que mezcla sus propios fallos de otras elecciones, llevados al tamaño que tiene hoy, con el fallo normal de un partido de su tamaño. Un partido nuevo, sin historial, lleva solo lo segundo.</p>
       <p><b>Los errores no van sueltos.</b> Cuando las encuestas se quedan cortas con un partido de la derecha suelen quedarse cortas con toda la derecha, y lo mismo con la izquierda. Las repeticiones lo tienen en cuenta.</p>
-      <p><b>Cada sitio va un poco por libre.</b> Una comunidad o una provincia puede moverse distinto que el conjunto de España. Cuánto, se ha medido comparando 2019 con 2023.</p>
+      <p><b>Cada sitio va un poco por libre.</b> Una comunidad o una provincia puede moverse distinto que el conjunto de España. Cuánto, se ha medido comparando 2019 con 2023. Los partidos de toda España no se mueven cada uno por su lado: donde uno sale mejor de lo que le tocaba, los demás suelen salir también, y eso también está medido y metido.</p>
+      <p><b>El Senado es lo menos fino.</b> El más votado de cada provincia se lleva 3 de sus 4 senadores, así que un error pequeño en una provincia mueve 2 de golpe. Probado con el voto real de 2023, el PP sacó 120 senadores y las repeticiones daban entre 102 y 120. Entró, pero por el borde de arriba.</p>
       <p><b>Se cuenta cuántas veces pasa cada cosa</b> y se dice con una palabra, siempre con la misma tabla.</p>
       <div class="tabla-palabras"><span><b>Muy probable</b> pasa en más del 80 % de las repeticiones</span><span><b>Probable</b> entre el 60 y el 80 %</span><span><b>En el aire</b> entre el 40 y el 60 %</span><span><b>Difícil</b> entre el 20 y el 40 %</span><span><b>Muy difícil</b> en menos del 20 %</span></div>
       <p><b>«Lo normal es que acabe entre…»</b> es la franja donde cae el resultado el 80 % de las veces. El resto de las veces queda algo por encima o algo por debajo.</p>
@@ -396,10 +401,10 @@
 <script>/* Quien entra con #no-contar deja de contarse en este dispositivo. Va antes del contador para que ni esa entrada cuente. */
 try { if (location.hash === "#no-contar") localStorage.setItem("skipgc", "t"); } catch (e) {}</script>
 <script data-goatcounter="https://xose.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-<script src="assets/chart.umd.js?v=51"></script>
-<script src="assets/modelo.js?v=51"></script>
-<script src="assets/media.js?v=51"></script>
-<script src="assets/app.js?v=51"></script>
+<script src="assets/chart.umd.js?v=52"></script>
+<script src="assets/modelo.js?v=52"></script>
+<script src="assets/media.js?v=52"></script>
+<script src="assets/app.js?v=52"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;
