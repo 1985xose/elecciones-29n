@@ -1,6 +1,20 @@
 {
- "actualizado": "2026-10-10T02:22:25+00:00",
+ "actualizado": "2026-10-10T03:01:57+00:00",
  "generales": [
+  {
+   "titulo": "Orriols se apunta un tanto en el trumpismo tras cargar contra una manifestación propalestina en Barcelona con un lema de Hamás",
+   "enlace": "https://www.elconfidencial.com/espana/cataluna/2026-10-10/orriols-manifestacion-terrorismo-barcelona_4441387/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-10-10T05:00:00+02:00",
+   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/1b0/6c2/1b06c279e3cf53f871d3f153d4081036/silvia-orriols-alianca-catalana-no-tiene-techo-vox-si-es-un-partido-retrogrado.jpg?mtime=1763190026"
+  },
+  {
+   "titulo": "Andalucía, escenario de la precampaña: Sánchez y Abascal eligen la comunidad para sus primeros mítines",
+   "enlace": "https://www.eldebate.com/espana/andalucia/20261010/andalucia-escenario-precampana-sanchez-abascal-eligen-comunidad-primeros-mitines_467945.html",
+   "fuente": "El Debate",
+   "fecha": "2026-10-10T04:30:00+02:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/01/16/696a5269d81a5.jpeg"
+  },
   {
    "titulo": "Y no ha hecho más que empezar",
    "enlace": "https://www.larazon.es/espana/hecho-mas-que-empezar_202610106ac91e17bafd3d73635c5968.html",
@@ -21,13 +35,6 @@
    "fuente": "laSexta",
    "fecha": "2026-10-10T00:35:15+02:00",
    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/10/09/40B7F95E-A5F3-4670-8E34-AB0616967AA2/secretario-general-director-campana-miguel-tellado_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "La 'guerra interna' en el PNV en Vizcaya da alas a EH Bildu: \"Van a ser las elecciones más disputadas de la Historia\"",
-   "enlace": "https://www.elmundo.es/pais-vasco/2026/10/10/6ac92929e9cf4a8c1f8b4584.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-10-10T00:02:26+02:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/09/17915730235649.jpg"
   },
   {
    "titulo": "Un pacto entre Podemos y el Frente Amplio duplicaría sus opciones para las generales",
@@ -58,13 +65,6 @@
    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/10/09/2026100918091956063.jpg"
   },
   {
-   "titulo": "El censo electoral crece en más de 1,26 millones de personas para las elecciones del 29-N, de las que 440.000 residen fuera de España",
-   "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-09/el-censo-electoral-crece-en-mas-de-126-millones-de-personas-para-las-elecciones-del-29-n-de-los-que-440000-residen-fuera-de-espana.html",
-   "fuente": "El País",
-   "fecha": "2026-10-09T14:15:25+00:00",
-   "imagen": "https://imagenes.elpais.com/resizer/v2/JR6KUBCOVNA4FBMDRHUILTXCKY.jpg?auth=8194380fd3c84158b33aba241455f5c6966640f278f6d089a648484cf00bf862"
-  },
-  {
    "titulo": "Santiago (IU) espera \"una sola candidatura a la izquierda del PSOE\" y asegura que su formación trabaja para ello",
    "enlace": "https://www.europapress.es/andalucia/noticia-santiago-iu-espera-sola-candidatura-izquierda-psoe-asegura-formacion-trabaja-ello-20261009153037.html",
    "fuente": "Europa Press",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Los precedentes en las urnas elevan al PP sobre los 30 escaños en Andalucía",
-    "enlace": "https://www.larazon.es/andalucia/precedentes-urnas-elevan-30-escanos-andalucia_202610106ac9990ab79b18452fc11d7c.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-10T03:46:50+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/05/10/861E60A0-B6A5-4E39-9488-57DC3374ADE7/presidente-alberto-nunez-feijoo-candidato-popular-elecciones-andalucia-actual-presidente-junta-juanma-moreno-acto-campana-partido-popular-este-domingo_96.jpg?crop=4162,2341,x0,y434&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Los compromisos de Feijóo de cara a las elecciones: «derogar» leyes sanchistas, bajar impuestos y un millón de casas",
+    "enlace": "https://www.eldebate.com/espana/20261010/compromisos-feijoo-cara-elecciones-derogar-leyes-sanchistas-bajar-impuestos-millon-casas_466730.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-10T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/08/6ac7c5bb78959.r_d.1217-474-0.jpeg"
    },
    {
     "titulo": "Última hora tras la muerte de Maricarmen | El PP asegura \"no haber utilizado nunca\" el caso de Maricarmen para \"hacer política\"",
@@ -117,23 +117,31 @@
   ],
   "PSOE": [
    {
-    "titulo": "La falta de control con los pagos a la cloaca complican el futuro procesal del PSOE",
-    "enlace": "https://www.larazon.es/espana/falta-control-pagos-cloaca-complican-futuro-procesal-psoe_202610106ac98e1dbafd3d73635c907a.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-10T03:00:13+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2025/10/06/B85878D6-57F8-44FC-BB8B-41EA26543A45/unidad-central-operativa-uco-guardia-civil-sede-psoe-calle-ferraz-peticion-tribunal-supremo-clonar-correo-corporativo-exsecretario-organizacion-partid_96.jpg?crop=6000,3375,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Andalucía, escenario de la precampaña: Sánchez y Abascal eligen la comunidad para sus primeros mítines",
+    "enlace": "https://www.eldebate.com/espana/andalucia/20261010/andalucia-escenario-precampana-sanchez-abascal-eligen-comunidad-primeros-mitines_467945.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-10T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/01/16/696a5269d81a5.jpeg"
    },
    {
     "titulo": "El PSOE se presenta a unas elecciones sin Ábalos en sus listas por primera vez en 27 años",
-    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ01ENzdoRW55QnEwVzlVd2VJZHM4eUNWOHZTSVE1dDByLXhpU0gzM2x2clBWdUNFT3RwT0lGVUpFRDR0Vzdqa2Jsakc5MDB0SXBhRDF3R0pBZWIyQ2hONjBGRXN3cmRFalA3QjJDbjdBR0VvNjM4R19ocmczWUhELXlVcl9Rd3V4T2tjUWs4V1ZPZjZfWWF4MkNLMDlOclVqNWQ0VjRXRFBBUHRaYm1OMEZPLThHcm9DV2NmU2tsSXprSmhmbHh2UF9TUlbSAdIBQVVfeXFMTUhZNE1JdU1UUzRPZXNWRS0wc0V6ZlUwNWxnN1puQjFpVjhidTNKTENoX1Q0TWpwaTFxc3JZQnN3Vjd0emp2Y1BEUzROMnZXbjBtbERTNEgydkF5M3pJS3pNc1lKYmZQdEJMWTFFWjM1Nm9jZjdkaWdWQVQ3eE0wS0FNYWRraEZfbnlvTTJvcXU3dzJCaElkSEpKMGhFNmJlTnpOU29MMnUtdnllMzJhNmRHd3NOSVhwNnBiMXRtbHgxdklWT1laRzFnRkk3WTVxS3Bn?oc=5",
+    "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261010/psoe-presenta-elecciones-abalos-listas-primera-vez-27-anos_467367.html",
     "fuente": "El Debate",
-    "fecha": "2026-10-10T02:00:00+00:00"
+    "fecha": "2026-10-10T02:00:00+00:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/02/06/6986319c3f3ce.r_d.461-175-0.jpeg"
    },
    {
     "titulo": "Esperanza Aguirre, convencida del resultado de las próximas elecciones generales: «Pedro Sánchez se ha comido a la extrema izquierda. Estoy segura de que el PP va a ganar»",
     "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbE14QmE5NWdldlNCVXBwaEpQb0NUU3NOdFpzVl80OHlRZktZZ2c0ZG9ERFk3YUpHdkt5X1BxZko2UkRubW5rdy00czJsMnl5elp1VjdlYzM0MDVZZVR1emVJanRjR0Q0dXE1SGRSNlMxLVM2aWNDbzhOalU3eFUtc3BSWE56M3FUdmM4STNmemNVczhWQW1Id2RiZk9Na2JyRGtJUktpbmYxLTdNLXVlRDRvQ3FlU3QyOEpWMkV0RkRIMHJySDBoQTY3NE5fczRx0gHWAUFVX3lxTFBPTTg3V1JiTU5OU2JaeFZuRGFCN1JmWm01NHhGYUMwNWVkOVlZQVRrYlpMYVdsTXVpZ1Y5cUR3aE5OaUdsRjdHamFCa2l3R2FFaXl0OWx5a1FzM203b0NoMXJmRGJrMlFuX1FMOWJHdHdSY2hiWEJ5c1ZZTndjNFFsalhPSTRYYlpyUjdQR3JrQzU3RmRvTEROVEhyaFktNWZnWHVUZ3dkS1YyZmh0Rm9kRS1MbEpiYUJERXN1M0c0Q0lMeU9fVEE0ZzlGYlZRVVdNRzZxQnc?oc=5",
     "fuente": "ABC",
     "fecha": "2026-10-10T01:17:26+00:00"
+   },
+   {
+    "titulo": "La falta de control con los pagos a la cloaca complican el futuro procesal del PSOE",
+    "enlace": "https://www.larazon.es/espana/falta-control-pagos-cloaca-complican-futuro-procesal-psoe_202610106ac98e1dbafd3d73635c907a.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-10T01:00:13+00:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2025/10/06/B85878D6-57F8-44FC-BB8B-41EA26543A45/unidad-central-operativa-uco-guardia-civil-sede-psoe-calle-ferraz-peticion-tribunal-supremo-clonar-correo-corporativo-exsecretario-organizacion-partid_96.jpg?crop=6000,3375,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "Vicente Vallés, convencido sobre qué hará Pedro Sánchez si pierde las elecciones: «Es lo normal en las democracias occidentales, pero no creo que sea su intención»",
@@ -146,27 +154,21 @@
     "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNemVpTm9QcGU3N2g5UzNUc05JdkllOGNQVFFNc09ZX3MtTTRQc2h0SkV0TW00N0NGQXFqMUtQREJNclo3LTF0LXdBeG1WU20tTHBycldCLVZLMklPdVFoRGFGeXVEQllHYlFRSUg2TFVNWUt0Q0h5TFZUNjV4N1dGOUtaX3QxX01qUDRBR3A2eXBoUGhJQzFiVVQwbXpCU2lUQW5qQ3F2aGRUMzJFblJaN2g5a1F2dnPSAbcBQVVfeXFMTXplaU5vUHBlNzdoOVMzVHNOSXZJZThjUFRRTXNPWV9zLU00UHNodEpFdE1tNDdDRkFxajFLUERCTXJaNy0xdC13QXhtVlNtLUxwcnJXQi1WSzJJT3VRaERhRnl1REJZR2JRUUlINkxVTVlLdENIeUxWVDY1eDdXRjlLWl90MV9NalA0QUdwNnlwaFBoSUMxYlVUMG16QlNpVEFuakNxdmhkVDMyRW5SWjdoOWtRdnZz?oc=5",
     "fuente": "La Razón",
     "fecha": "2026-10-09T22:30:24+00:00"
-   },
-   {
-    "titulo": "Sánchez lanza un 'frente popular' en el Senado para limitar las reformas del PP",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUHBiSHF3Yk4wbi1sSEpMdHBBOGMwTzhZNXU4WkRiakw4cE1Sb2xGVUd5LVh0RnVac1Jac2lYZDlyLUZnYUFoeXY1TTF0SU5jZ2haWFJfOU9LSVJBaEdUekkzZVpLUE5VWjV6UVZ2WjJDU0JJWWxMc0FheUhqak01NHlfcnhMUkFjeWZ5MXpLM29nMzZMd0Q0QmVXVdIBmwFBVV95cUxPS3B1X3pVeTFJQms4RFNOLTRYSG1LUXRvaV8zX0dtczNWZi1US1JkanRRZ0pGN3JWSlVKbFdiVUQxc3JZX2w1TldlQ1c0MmgtM0VGS3ZCMGRBX19obk1jNnp0Y19LT0Y5Q1FfVlNTY0hTUFZSVGEzMmExOEpQTVY0R3hJdWhDVVVpLWFnZHlzeXhSbWhydVFKaFF5MA?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-10-09T20:41:38+00:00"
    }
   ],
   "Vox": [
+   {
+    "titulo": "Andalucía, escenario de la precampaña: Sánchez y Abascal eligen la comunidad para sus primeros mítines",
+    "enlace": "https://www.eldebate.com/espana/andalucia/20261010/andalucia-escenario-precampana-sanchez-abascal-eligen-comunidad-primeros-mitines_467945.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-10T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/01/16/696a5269d81a5.jpeg"
+   },
    {
     "titulo": "El PP y Vox mantienen la mayoría absoluta tras el adelanto electoral",
     "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdEhsVmhMSEdra0lWWFZRRmpGa3cwM3pjSGl5RFdROHJSZnVDcHFWZGNvNHhOQ3VWZ1MzYUlEYXRzaE1XcUszUmpaSW9TMFdnejVrYTA3US00TzlIYkhja0E5amhNXzdPOVpxTVZvUFcyNXJsSVJ5eE56ZWxxem9RZGFDaW1qWExwTnlHV3ZsTkdJRVMzbGF0WjQ0aGNFaDlxSy1TRXZjbWYySGhhWTIw?oc=5",
     "fuente": "EL PAÍS",
     "fecha": "2026-10-10T00:27:24+00:00"
-   },
-   {
-    "titulo": "La juez unifica en Vox la representación de la acusación popular en el caso del accidente de Adamuz",
-    "enlace": "https://www.abc.es/espana/andalucia/cordoba/juez-unifica-vox-representacion-acusacion-popular-accidente-20261009232550-nts.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-09T23:25:50+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/09/iryo-accidente-cordoba-kVNE-U3021672356806-1200x840@diario_abc.JPG"
    },
    {
     "titulo": "La letra pequeña de la encuesta: el trasvase de votos del PP a Vox, que fideliza a sus votantes mientras la izquierda pierde apoyos",
@@ -338,12 +340,6 @@
     "fecha": "2026-10-09T20:52:11+00:00"
    },
    {
-    "titulo": "¿Gabriel Rufián, al Frente Amplio? Ada Colau le pide que use “su liderazgo” para unir a la izquierda antes de las elecciones del 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNcy15cDJlNXF4SGJWVGY5YUt2bW1hdENSUF9zbElaVXVHSi01d3BxOGo5c0wxZkl0UGx5SmZyM3dYRkdiNkpkS25jUHFNZE1fTGJQcURZUThrY0tLck9SSHNRaG1sM2lrSW9LcDVRODFFbUU0SXA1RXp3YTlIYzFvTi1mc1FPeVUxaDVQRDl6c2h3T3Jlb2IwMkZZbmc3eVVIQWMtbWJhX3JoYmY0ZDhDU0dpcUpjYVFlY3VrNnE3UzZyWVU2cTBQeElCM3k2SEROUjVRV091dmJQbWpac1phdUNval9FNHY1d1l2emlHaGhOZ3EtZ25LOGtMNmluZElr0gGbAkFVX3lxTE9OTmpEZG5vV0RUVzhhZVJMVS1FaUxMWWZPRUlfQXNVUm81T2VIbTA4NURmTXVBQUVsVzBRM1R2MkR5ZVhRNEllWlBnZ0Y2OFUtQkRpOUhsUGZzQmFOSEs5TElxUzRDOXVEenZRWWFMcElxNEZTdXQ2ZklnXzFZcHdJeEc1UnlYNlEyUzhMdDNaR1pJdGo5dTZObVFfSkp3azhBYnNFbl9SUEFaSTlYXzhBT1M5UXAtMm1ZV3NBOHpiQ2NYM3FtU1ViR0hvQnhvUTg2RDU2Q3lNQ0RvLWY3RDZMWXZiZ3BYX2d4OWtMeHJqem9YWEYwNzNmTDZ1Sm1hd3hNN1dtOUxCS3Bjc2hvUEQtTWdjbWdYY29ybW8?oc=5",
-    "fuente": "Infobae",
-    "fecha": "2026-10-09T19:48:05+00:00"
-   },
-   {
     "titulo": "Colau abre la puerta de Frente Amplio a Rufián y le pide liderazgo para unir a la izquierda",
     "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVlBWVVdwenVZTG5xNXNlVVY2RWdEcXJjMWVkWWgzWFIzZi1KMlctV1VaZ09rTzNUcGl6VHhTblRuRHJqdG9DMEZ1a0VpaW83UzExVDIwcTE1ZV8wX25ZZjVaVlZ2UEFGenZiQk95YmZxVVR5ZjRpVmpqLXVIRWZ2aFZ4OFY0dDhVQmZwYXpvMXp3ZHVFWmpYdW9PeXBrWklES0J1TURRMXdoM1BETlFPd3ZiaWd5RUY0eE0yTjlOVkdMa2hJLXJqcUptdlNEZFlHUUhDNEwzSdIB3AFBVV95cUxQS245aWhfTE5FbEZuVW04WXU2dnBqdmZSY2dwbFlvXzRuMVZaTHFwN3BFeGFDblk5QTBoeHIxZ1VuYXJvVDlRSkhmZTN6QmdxQi1Ga3ZHNWpfMUk1ak1TSExFMzMzNTJUSDRIWjdSQnUwUnVZSE9yQnJDa2RVclh5MVFialhuS3pHdl94TVJINkJNUE1ITWxMS29SSTF3Wnl2ZVRERGZGWm9SNzdLS2Nlemp5T3JHQXJvTG1WZFdsc3BpVVhxSWpRRUtEdUk5bm5yamVlRjA4RUh4Q2k3?oc=5",
     "fuente": "Fibwi Diario",
@@ -354,6 +350,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSkJaUXdHcEtNQ3VrSmRwZkJTMjMzS3dudzdhdTlnMHJwcXVzeHNtVl9NUWdlSjdCVENiT1V3V0JVVUtQMUVTY29PZGViUVdOTjNsZHh1TERCVUdKcW0yczVSRVE3ZUZYaXZKRWZTMmNfVm95WkZKS1RDa1lkN3Q1Wjl1Um9uT096SWc3emw4OHVPNnpXTVFCTGJBMjJqYkRfbFBRMkVlVElpWGtFaVdZaXpUdU5kdExNU3BTSi1jTlhleWVFOFFhRDktUFlBOFJYS0RhVFV1bzNHMkRwQ1FkMjFXZGVoWFJDWTUxS9IB7AFBVV95cUxNSkJaUXdHcEtNQ3VrSmRwZkJTMjMzS3dudzdhdTlnMHJwcXVzeHNtVl9NUWdlSjdCVENiT1V3V0JVVUtQMUVTY29PZGViUVdOTjNsZHh1TERCVUdKcW0yczVSRVE3ZUZYaXZKRWZTMmNfVm95WkZKS1RDa1lkN3Q1Wjl1Um9uT096SWc3emw4OHVPNnpXTVFCTGJBMjJqYkRfbFBRMkVlVElpWGtFaVdZaXpUdU5kdExNU3BTSi1jTlhleWVFOFFhRDktUFlBOFJYS0RhVFV1bzNHMkRwQ1FkMjFXZGVoWFJDWTUxSw?oc=5",
     "fuente": "El Progreso de Lugo",
     "fecha": "2026-10-09T19:05:52+00:00"
+   },
+   {
+    "titulo": "Ada Colau irrumpe en el futuro de Rufián y agita todavía más la incógnita sobre su futuro para el 29N",
+    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRk9qWDlPYTRIUVhsdFh0QldTa3RYQnFDNGxnQ3kyUV9rZmZxWnVxMWs1OV9CbVowLUNiMjRZTy03QmJwWUctUW5aZ0FYbDRSNWJ0VDIyZU0ycWxSZWdmRzN3MWtqYWhuLUJfYWN1aDhKbkp5S0duc2taR3dXM3VHWU1HZHY4OEV5T1QyNDNvY1dpeThWUUFoOUR6X3BEaXcwTE5aX3BQMzcxSWdfZGFNbkRSQ1hSWHVoYXo4cUVpZTRTYU3SAcgBQVVfeXFMUEIxRk04LThkWGxxZVNTUlpjMklvMGZpUlBlR09OdV91U01pZFBmN1gtc0FHT2hvdlZtYko5OTZMSWxlZ0tKN0xqSDkwZEFuNDlIdTRwY0ZDM0FmbWxQaTZPZWp3MnlYWUNNNFZVaURMa1MxNXJFR09LTDVvQXA1QzFnNGQxT2ZnLTVrdDl2WGJadEVDSjlrLWVSSDg3V1FHY3BKbmtidFJxakZwODhGaHExeE1FZ1B5N2Y2NzhBaTY0NXVoOFhST1Y?oc=5",
+    "fuente": "ESdiario",
+    "fecha": "2026-10-09T18:44:02+00:00"
    }
   ],
   "Junts": [
@@ -418,13 +420,6 @@
     "fecha": "2026-10-09T15:24:24+00:00"
    },
    {
-    "titulo": "El Gobierno de Navarra aprueba el anteproyecto de Presupuestos de 2027 tras pactar con Bildu",
-    "enlace": "https://www.eldebate.com/espana/20261009/gobierno-navarra-aprueba-anteproyecto-presupuestos-2027-pactar-bildu_468027.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-09T13:15:01+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/07/24/6a634aec16ce4.jpeg"
-   },
-   {
     "titulo": "EH Bildu abre con el Gobierno foral la negociación de los últimos Presupuestos de la legislatura",
     "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORjk3NmxXR0VQVm9HSEw1bF92WC1QNjBNVlJ3YmtuMEFfcXA4ZTM5RTh4UFdlQllOOC0yZnBSNWRYWVdKczlidVJWUjVCX3o1bXdqZ3FsVy1NaVJqUVk2azF6cXUwU1JPcWhHbmFVSXRBOVVmdGk3UTZmRldZNmNmQ0FFVk9WVXJmbWFGQjB2Y1BHTHEwTl9PMXY0cVN6eElXWm91WkRXTHNBQVZWWlNBS2dEdUdDbDFyc0tuRzBTcjRIbW9xb0wyN1N5WUhlU2NNYlFuRF9BOA?oc=5",
     "fuente": "Pamplona Actual",
@@ -435,6 +430,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVjVCand5RjZCX2pHZ1pwenE4THlxQW5xMk1kUEM2Q04tTEVnRUY2QUg3NnJIYmdPajEyME5NY25jU1g4a2ZEQjhTMXFwTUY0Y0ZqM2hZQVRPMkl4NUZPSWRhby1RYU40SGFzMm1EZDl6bFNEQkg5aVpxMURWcnpCNENfbXZfbjRqM014TjNQNXI3SVFFc3hqejZWbklGd3VfaldVb0ZYdFNNRTN6cG1xQnNtcy1iQdIBuwFBVV95cUxQS0N3akhnY1VOSlJqZU1QTGxrQk8yTjR3T3dzV3ZjMlZma0oweTVuRDNjSGR2T3BycDdrQkFQUTY4eEc3d0h5MEY3Q2VRdDNxbVMwcmg5SzQtcTcxYmZoaUI2dXFYMzBtTDFRSlpiZ200MWk0ZUJiWjNidDlOVF9GZ2tWbjdFRElQT1VFY29IYzA5ZDAzMnpSbC1heWI3SnFDTTc2WkFmakVrenVsY1ZUaXpJZVRSeUZpNEdv?oc=5",
     "fuente": "El Diario Vasco",
     "fecha": "2026-10-09T10:55:49+00:00"
+   },
+   {
+    "titulo": "Pradales insta a EH Bildu a reclamar el Estatuto con el mismo ímpetu que respalda los decretos del Gobierno",
+    "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNkpUdktxMEZlbk5OdGdXd1JzMHBVX0ZCRUhlNFd1T2p3cHZsSkN5YzZUMmVvUERNMVdmV0dQeVBuZlotSVZNVUk2NXJYdWJWWFQ0SURyVy1zQ1A2ZWR0R1JEaHNCRU9IeFVtdzBDWS1mZEhkcGhuR1hsaG1zdmh3MHFraVhINDlDSzBmbVJwckZzNjhrMDIzU0MtWGlpLS1JZDczbUV5dGliblBQS2tEeU8tbmhLSnEtNlBYZi00UGE2UlhlU0xZdG9IU3hVMXplaTc2b21YWUrSAd4BQVVfeXFMUDBQR3VvRUJZRUpjZXpyVlU4dk5aMjNPWjdoMlNyWE9DeTlzMjk5ZlJLbDRtU1N6UUpSa3FxOVphcFhGNTB5aVlVUzVQQXl6SlNwN1Zja09pemQ4RDBEbmZPWGVyOWtlVjktUV9sbUQ2UWx6d0RBZUpPekF1ZHREdmd4dkhnYnd3RFgyNk5QMjlIdHl6LUpYdW52X1poT3Vvc2NvdDVjck1MdjlJdGtqb2RVQTBpNTdtZzVqV2ZONnlZQlp3R0o2VlE3MWNmdUhvOGdlM2JpMmVoNlI5U1VR?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-09T08:38:43+00:00"
    }
   ],
   "PNV": [
@@ -572,13 +573,20 @@
     "fecha": "2026-10-08T11:37:04+00:00"
    },
    {
-    "titulo": "Sánchez de Muniáin (UPN), al Gobierno: \"Son responsables de la desesperante situación en vivienda de miles de navarros\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNSzJvOTVKQ3BDeS1raTRvOS11NS1nd19wUFpFT2hxMGRmaUIyRlk2WGx5S1JqR0xpb3M2UWZiVHlRenUtX3lwcmFZc2JJYkZlaUkybE54cWVJTEVWNVhqTmRHOTQwZmhRTU0tcFZkQXNHYjRHRGdqbVlQanRralVkYzkzS2FIanBLVE01VFJucEVxSnJmOHpJaEJIWmowR2pkRG01ZC1mQXJaQUVNemNyQnFTVlJaU2x5bUg5UVVNNVhRZVVnWW5QMFE3c2hnMUc2dE95SHU0dUJGR3c3WkNhamI4V2hXYmZmWlJVSzYwN1B5bV9LNzliUzJn?oc=5",
-    "fuente": "Diario de Navarra",
-    "fecha": "2026-10-08T10:23:19+00:00"
+    "titulo": "UPN sospecha un \"apaño\" de 8,5 millones en el túnel de Belate con empresas que fueron socias de Santos Cerdán",
+    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMGZBOFFIdDQ0RE9McC1zVVZ5RjhkLUU0OW52ZmJuRlhadGxieFlmRTlQWHhxUTJvZVE1UFNBRDE5LWRVSUVmSzV6V1psNkNYOUIzanM3a0IwNE54RV9hU19nb3FKX3BRQV9uMVVZUkdWdmZGQzJJRXRkY2RfRGFTTTBpWFd6Y2UtNHZ3Si1ZRTRxdkFBS1hTTS1qNDVOY1Nock5zZVdRVDluZllaS0Vxc0Vtd21LOUJRVThXUzdRWHczTEVYV1ZzY0dnd3U2S19yN3FZSjdzTjQyQk5iSEY1b3l5UXRGX0pNZjZ5bkV6UVphT2PSAfMBQVVfeXFMUDBmQThRSHQ0NERPTHAtc1VWeUY4ZC1FNDludmZibkZYWnRsYnhZZkU5UFh4cVEyb2VRNVBTQUQxOS1kVUlFZks1eldabDZDWDlCM2pzN2tCMDROeEVfYVNfZ29xSl9wUUFfbjFVWVJHVnZmRkMySUV0ZGNkX0RhU00waVhXemNlLTR2d0otWUU0cXZBQUtYU00tajQ1TmNTaHJOc2VXUVQ5bmZZWktFcXNFbXdtSzlCUVU4V1M3UVh3M0xFWFdWc2NHZ3d1NktfcjdxWUo3c040MkJOYkhGNW95eVF0Rl9KTWY2eW5FelFaYU9j?oc=5",
+    "fuente": "Navarra.com",
+    "fecha": "2026-10-08T09:23:47+00:00"
    }
   ],
   "AC": [
+   {
+    "titulo": "Orriols se apunta un tanto en el trumpismo tras cargar contra una manifestación propalestina en Barcelona con un lema de Hamás",
+    "enlace": "https://www.elconfidencial.com/espana/cataluna/2026-10-10/orriols-manifestacion-terrorismo-barcelona_4441387/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-10T05:00:00+02:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/1b0/6c2/1b06c279e3cf53f871d3f153d4081036/silvia-orriols-alianca-catalana-no-tiene-techo-vox-si-es-un-partido-retrogrado.jpg?mtime=1763190026"
+   },
    {
     "titulo": "Quién es Sílvia Orriols: de administrativa en una empresa privada a alcaldesa de Ripoll y líder de Aliança Catalana",
     "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTmR6TTFtQkNQOUExbjFNeFVhaEpkZXh4UDk4OWxzZC1mY1hXTUtwNlJnUlFzb2Q0ZXV6ZTNjS2ZpY1VRQ0RZcFJfd0hzbFdKSTQzclhUd041UC1wVlhXaU9ZME1qM2NjM3BJbG5qR2tESnhkSXdOTmU3U21sNWhVRUlycUxxTWFr?oc=5",
@@ -821,13 +829,6 @@
  ],
  "polemicas": [
   {
-   "titulo": "La Fiscalía no exonera al PSOE, le da tiempo",
-   "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVTJ0LWxFWkRLUzFLaV9Bd3lzWG1SZjRsVGdIN2xXVGFYZEdCa2x2WU92ZzhhOGdWV2xpeWNiTVBEWDh0dUwzRmIwM1ZkUDM5eXB5WGJZZFZvTGRGeHZodnBKYXgybjMzSE9PUjZOdkFySjlMcy1ydFdVNFNoTXlpMzgxNXprMEJRYUFGQlRRUzJuUGpXVUtwMFBzNDZWSWtHODVTekxYT2NTQUQy0gGyAUFVX3lxTE9pbVVxSG8zUV9xTlZGV09PMld4bm1ueWFIem5lZE0xRDlzMXFRNzE4NkJHVFlEcVlaNXRHTUpsdWtteGNicmJBaWVQMnlsRlVWTkM2Nl9waEpCaVF4RGJRVGRfMGV2TEJtNW9ucm5CT3dGcG80SktlRjRQSXNKZjBLSGpadERoUk1QZVd3SXRwVVVPUHBnbEs3WGVvY0VkQTBaalN5NmVsNlVyeW0zVFJpakE?oc=5",
-   "fuente": "El Español",
-   "fecha": "2026-10-10T00:30:36+00:00",
-   "partido": "PSOE"
-  },
-  {
    "titulo": "El Supremo confirma la condena a Alvise por mensajes contra el jefe de Policía de Canarias",
    "enlace": "https://www.eldebate.com/espana/20261009/supremo-confirma-condena-alvise-mensajes-contra-jefe-policia-canarias_468265.html",
    "fuente": "Diario de Avisos",
@@ -872,6 +873,13 @@
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11312546.jpg?p=w:1706/h:960&h=_s7JeZ9p"
   },
   {
+   "titulo": "'Punto Crítico': Ayuso agita el fantasma del fraude electoral y Feijóo guarda silencio",
+   "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQU0p1aXhiSzIzbklqSFMtVEtKUnJNeDRjWmE5VGRDOFNqbTRNV1U4MmsxMWFqRUpHLWM2SEZ3YUZ0ZTlBVnhxVEZ0OUM1UTBzLTZ6RjVmbkk1VUxLbWNwMjZXbHNVVXdzVFZsWUJQNEJpd29vUm5HSUtaQUVuZ3VQWlhRMkV5Z21IMWZzSE9HWGw1RkFoek41UWpRS3g0dk55cjRkejJlTnpPWWVLcUFpTXVFbm1RaF9xWHFVd1NMWTVYMjTSAcgBQVVfeXFMTmdFRk5ObmdHMVFVdTVMYm9ydTl3X1FlNUtVTzAtS0FqTnRHWFRsemNQdXMtQmJkYWpwc3VMdWlZTFRYd2N3MlVfRFJaUWRBTjRQWHZfWUVDODU3Qjl4YnBhV0JQMFczVnNKSGVVR3Y4blZKcnJLeEFfbGh4ZDhaRWRGd2IxSTE5WUM0cUR4YWZfZ3RNQ29zY2JaYm1SYXl0dXl5VGl0ZHktR21icFprN0I2aHFoNWtGMGhNTTN5U0p4Q2c2cGcwbXg?oc=5",
+   "fuente": "Diario Público",
+   "fecha": "2026-10-09T16:35:36+00:00",
+   "partido": "PP"
+  },
+  {
    "titulo": "Feijóo se abre a una entrevista con Silvia Intxaurrondo en TVE tras la polémica en las anteriores elecciones",
    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMGtWM1laRXhTQXl0YThqWVU0TzM0Uk52cnBvbDlPZnMxZUItWmNQeE1oR2pVUF9zOFl3cVlzSWtvZk5mbXlrQmhBdnpoaHM0OHlSRTFIYUhZS0Z2RVRia0dvYk1FQ010MGUtNjlfdnc0a3MtQXF1RHk0ekZpZ2lmOUh5blhMcjMzX1V1UHFNUUxwd19aTElhWkQ5b3VldGR3enpzTFp2S1p0MzFnODN0U0pmSk5lQmlEaTRwSXhjVG1IRWxBbWxSVzhzR3JDV0kzRnhUSC14MEpWYzBJVl9zanhpSmJzQdIB5gFBVV95cUxQVjlHS1MzeGstbnNKV05jcGQ5RzVMNnRJZHc2LUY0MF80T2pyQzhxcnJUQUwwRV9jeTNJby1tYUs5MExsVGdEQ1lMNzQxa1FMX3F0LWtadDNqTmctaDdLU0c1ZHlFTktqNlZSSWswak0xOHhoSUY1dEVuZkNGVHB2WUJLN2YxQ2VFakVCcG5yWXRUMXdQTC0zaU5kZXRYeEJsVmRkNzZOV3FCWlFqVWtSSDVoNlNKanh0WmtfdzJhakR4cGNEY2F0elZVQVVmNHVJQkg4YThHalVhN2hVNXNRYWh1TVhMdw?oc=5",
    "fuente": "El Periódico",
@@ -892,6 +900,14 @@
    "fecha": "2026-10-09T14:19:00+00:00",
    "partido": "PSOE",
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11373868.jpg?p=w:1706/h:960&h=wyxolLwb"
+  },
+  {
+   "titulo": "La Fiscalía insiste en la absolución del hermano de Sánchez y de Gallardo por falta de pruebas",
+   "enlace": "https://elpais.com/espana/2026-10-09/la-fiscalia-insiste-en-la-absolucion-del-hermano-de-pedro-sanchez-y-gallardo-por-falta-de-pruebas.html",
+   "fuente": "EL PAÍS",
+   "fecha": "2026-10-09T12:14:21+00:00",
+   "partido": "PSOE",
+   "imagen": "https://imagenes.elpais.com/resizer/v2/U55Y6QMYKNCSPB6IFONDSBZNKU.jpg?auth=e78054055901735a28ed7d216750cf40356d78071163bbcf2c2b528f42f190e8"
   },
   {
    "titulo": "El Supremo confirma la segunda condena a Alvise por vulnerar el honor de Ábalos al llamarlo \"mafioso\"",
@@ -935,13 +951,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSTZxR2xIeE9JNXdMeDltY2hSR1VZc3l6UXVIM3htaTM4TVkyMm1ZaGtCemVSZ1ZTRUxOZDBlVFJ3NDJhYWFmejZ2RnZCenRJd2s5a3hGWGpYWUNDNFlKSjBnbUlyNHFzaGpfQVV2QzdhYUNfOFR2bEUxWWVBZWVKcC1LSzIyRjlGeHhibUlEbVNNdVZYOE5YRlNHdWd1MFhaR3pZWno1SWMzU3RkUkY2UHEwWFBVNzNoOWpMMEtpY2xUUmtfa2ZVR25YMFhIazlwSVBkTXhtVUtQQUtsUnZKWGo1MHJYUQ?oc=5",
    "fuente": "Canal 4 Diario",
    "fecha": "2026-10-08T15:04:50+00:00",
-   "partido": "PP"
-  },
-  {
-   "titulo": "Feijóo exige a Sánchez decir quién ordenó \"deshacerse\" de la jueza de su hermano",
-   "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUmctLVJZLXBJNHY2OHNFODFUa3Jvd1NaVWhSdVQwdnE0TU5mcnhSX2lwRGhqRTZjcDZlcHRzQkhpWVhPbGJBS2h5OUZsR0JmajdsVEMzS0d3bFRVRVJ3UlNfX05iak03Z2FWS203MzltSFlUa2FZTWJRdXFMMWhWLU02elBUTC1vR3BxYm9ZcnlyRjR5M0EzWkFKUk1CUnkyOUliMFBDaVdRZ3pwQUFVLTFCU1ExNFVCQ3RrQTJ5RUJjdWRON25fUGQ1SU5QQkhNaHFvZWNXNA?oc=5",
-   "fuente": "CatalunyaPress",
-   "fecha": "2026-10-08T13:46:00+00:00",
    "partido": "PP"
   },
   {
