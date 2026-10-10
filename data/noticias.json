@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-10-10T04:01:58+00:00",
+ "actualizado": "2026-10-10T05:01:50+00:00",
  "generales": [
+  {
+   "titulo": "El PSOE busca alianzas para evitar otra mayoría absoluta del PP en el Senado",
+   "enlace": "https://www.lavanguardia.com/politica/20261010/11655494/moncloa-intenta-evitar-pp-reedite-mayoria-absoluta-camara-alta.html",
+   "fuente": "La Vanguardia",
+   "fecha": "2026-10-10T06:00:00+02:00",
+   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/09/6ac91ed816d10.r_d.1600-1066-1403.jpeg"
+  },
   {
    "titulo": "El CIS de la vivienda se vuelve contra Sánchez: un 54% de españoles rechaza su idea de expropiar viviendas vacías",
    "enlace": "https://okdiario.com/economia/vivienda/cis-vivienda-vuelve-contra-sanchez-54-espanoles-rechaza-idea-expropiar-viviendas-vacias-20523023",
    "fuente": "OKdiario",
    "fecha": "2026-10-10T05:45:35+02:00",
    "imagen": "https://okdiario.com/img/2026/10/09/imagen_recortada-2026-10-09t192021.043.jpg"
-  },
-  {
-   "titulo": "Llorca lidera una comitiva para arropar a Feijóo en su primer mitin en pleno debate de su candidatura",
-   "enlace": "https://www.lavanguardia.com/local/valencia/20261010/11655399/llorca-lidera-comitiva-arropar-feijoo-primer-mitin-pleno-debate-candidatura.html",
-   "fuente": "La Vanguardia",
-   "fecha": "2026-10-10T05:30:00+02:00",
-   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/09/6ac90400888c4.r_d.3000-2000-748.jpeg"
   },
   {
    "titulo": "Encuestas elecciones generales 29N en la Comunidad Valenciana: resultados de PSOE, PP, VOX y Compromís y ganador según los sondeos",
@@ -37,6 +37,13 @@
    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/1b0/6c2/1b06c279e3cf53f871d3f153d4081036/silvia-orriols-alianca-catalana-no-tiene-techo-vox-si-es-un-partido-retrogrado.jpg?mtime=1763190026"
   },
   {
+   "titulo": "Acuerdo amplio o accidente múltiple",
+   "enlace": "https://www.elsaltodiario.com/la-semana-politica/acuerdo-amplio-accidente-multiple?utm_source=feed",
+   "fuente": "El Salto",
+   "fecha": "2026-10-10T04:05:00+00:00",
+   "imagen": "https://www.elsaltodiario.com/uploads/fotos/h300/787f981f/IMG_0311.jpg?v=63958170149"
+  },
+  {
    "titulo": "El Supremo decide ‘in extremis’ sobre el derecho a voto de los descendientes del exilio para el 29-N",
    "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-10/el-supremo-decide-in-extremis-sobre-el-derecho-a-voto-de-los-descendientes-del-exilio-para-el-29-n.html",
    "fuente": "El País",
@@ -49,13 +56,6 @@
    "fuente": "laSexta",
    "fecha": "2026-10-10T00:35:15+02:00",
    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/10/09/40B7F95E-A5F3-4670-8E34-AB0616967AA2/secretario-general-director-campana-miguel-tellado_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "Un pacto entre Podemos y el Frente Amplio duplicaría sus opciones para las generales",
-   "enlace": "https://www.eldiario.es/politica/pacto-frente-amplio-duplicaria-opciones-generales_1_13574953.html",
-   "fuente": "elDiario.es",
-   "fecha": "2026-10-09T20:40:12+00:00",
-   "imagen": "https://static.eldiario.es/clip/5855d7e5-a78e-4d3e-9a05-ab23ff1738a7_16-9-discover-aspect-ratio_default_0_x661y365.jpg"
   },
   {
    "titulo": "Bendodo pide interventores del PP en todas las mesas en las elecciones generales: \"No nos fiamos de este Gobierno\"",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Llorca lidera una comitiva para arropar a Feijóo en su primer mitin en pleno debate de su candidatura",
-    "enlace": "https://www.lavanguardia.com/local/valencia/20261010/11655399/llorca-lidera-comitiva-arropar-feijoo-primer-mitin-pleno-debate-candidatura.html",
+    "titulo": "El PSOE busca alianzas para evitar otra mayoría absoluta del PP en el Senado",
+    "enlace": "https://www.lavanguardia.com/politica/20261010/11655494/moncloa-intenta-evitar-pp-reedite-mayoria-absoluta-camara-alta.html",
     "fuente": "La Vanguardia",
-    "fecha": "2026-10-10T05:30:00+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/09/6ac90400888c4.r_d.3000-2000-748.jpeg"
+    "fecha": "2026-10-10T06:00:00+02:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/09/6ac91ed816d10.r_d.1600-1066-1403.jpeg"
    },
    {
     "titulo": "Encuestas elecciones generales 29N en la Comunidad Valenciana: resultados de PSOE, PP, VOX y Compromís y ganador según los sondeos",
@@ -125,36 +125,35 @@
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/09/8D7F37DB-F97E-4080-9ED1-E611B5C1EB1D/cayetana-sanchez_96.jpg?crop=1280,720,x0,y440&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
+    "titulo": "El PSOE busca alianzas para evitar otra mayoría absoluta del PP en el Senado",
+    "enlace": "https://www.lavanguardia.com/politica/20261010/11655494/moncloa-intenta-evitar-pp-reedite-mayoria-absoluta-camara-alta.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-10-10T06:00:00+02:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/09/6ac91ed816d10.r_d.1600-1066-1403.jpeg"
+   },
+   {
+    "titulo": "Esperanza Aguirre, convencida del resultado de las próximas elecciones generales: «Pedro Sánchez se ha comido a la extrema izquierda. Estoy segura de que el PP va a ganar»",
+    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbE14QmE5NWdldlNCVXBwaEpQb0NUU3NOdFpzVl80OHlRZktZZ2c0ZG9ERFk3YUpHdkt5X1BxZko2UkRubW5rdy00czJsMnl5elp1VjdlYzM0MDVZZVR1emVJanRjR0Q0dXE1SGRSNlMxLVM2aWNDbzhOalU3eFUtc3BSWE56M3FUdmM4STNmemNVczhWQW1Id2RiZk9Na2JyRGtJUktpbmYxLTdNLXVlRDRvQ3FlU3QyOEpWMkV0RkRIMHJySDBoQTY3NE5fczRx0gHWAUFVX3lxTFBPTTg3V1JiTU5OU2JaeFZuRGFCN1JmWm01NHhGYUMwNWVkOVlZQVRrYlpMYVdsTXVpZ1Y5cUR3aE5OaUdsRjdHamFCa2l3R2FFaXl0OWx5a1FzM203b0NoMXJmRGJrMlFuX1FMOWJHdHdSY2hiWEJ5c1ZZTndjNFFsalhPSTRYYlpyUjdQR3JrQzU3RmRvTEROVEhyaFktNWZnWHVUZ3dkS1YyZmh0Rm9kRS1MbEpiYUJERXN1M0c0Q0lMeU9fVEE0ZzlGYlZRVVdNRzZxQnc?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-10T04:16:12+00:00"
+   },
+   {
+    "titulo": "Llama la atención: Que el PSOE no haya manifestado aún si va a concurrir a las elecciones del 29N con su propia lista para el Senado o si repetirá el pacto con otros partidos de izquierda",
+    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOUtyRGFpRC16VTJLNGswRnZxdUxJQVBkSTR6VDFfV2FzUEtOTDVBaUZudXJjYU5CMzJTUk5wWGdKTWJYdTlwRkdsQjFNSHF4b1A3Ry1PRktwemVmNnFIdnFRZzFKV19YMnl2ZUdETHBIejVmTTNUaXpaSzNCcjRraGRORjlhZE1DZ1Z2LThjYlhnMUQwaElQOG1UbU1QQdIBowFBVV95cUxOSlltMGZWZDhpWHQ5MzI3UjBjbEs4akx6WGgzYXBOUkxCZmZnQ3RrSlNrM0JuR2o5eWlnVGRCRUh5WThXcURUT0p1aFhNUXhrQno5dnFxREdCeWZ3dXZ3Rnh3YVhkdmw4V0FkTHBCb3c5NGZMNFp2SG0wMi1PM1lhWUhuNW1lNFZqdjhIOXpsRG5pdW5mZm92aHZ4YThEYXZQUEhv?oc=5",
+    "fuente": "Diario de Ibiza",
+    "fecha": "2026-10-10T04:00:52+00:00"
+   },
+   {
+    "titulo": "¿Se está negociando un acuerdo entre el Frente Amplio (ex Sumar) y el PSOE para ir en coalición al Senado en las elecciones generales?",
+    "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPOGNZNXcxOGRNMWhUOXdiTEtnRnI1YVpSdGpmNm83MDJYbVVpSFpkblFiRktaSHZFV3J6anZ3aEJ5aGNtYzdJSC1uZ0dWTXpwTmRjT2RWRHd1LXhtQlZQZ0hKdGp4UE1DRWcyQnBCNEpHNWNRQWNCZzNkNlJfbUk5QjhQWUNhVFZ2VnJ3LWc5UmZIeXNBZWtfLTI5dktFa3h0YWF6dFNNWVc5eXVYNUcyTDZ5NnNYVTh2b0hNbTd5c3lPZ3h2bGhwMzZLYldmT2c2cjQ4cEIycXFkcXl5OGlWajUyaENWR21aVkd3QS1iR1dPNHlM0gH6AUFVX3lxTE5yWFl2cEF4dnZ0c0htRnM2YnV0dFRnRTNfcFY1bk5GWlc1WHFPY1JOTWhnVmF2akZlUFRVU1Ita2ZRRlc1Qnp1cUp3LWsyOG9XWTJFeC15YWsyRzNROHFhR3p1NExvRUNBLXhHakdrRld4MmxrMDZrUUdmT04yNmhBNjNZTThPdi1PN01QSnMxSWZZb0M2Z09TUDdGSGpfVThsdnF4dnNLcTZ1aGdZLUlManY3S0Q4Uk1EZUtFa0ViUEJGdDZlM0E3LTdTalVJWTZRWUI3VFNkRkUyTHMyWEpoRTMwelRQeG9mVnlYUjVCMk9LSlNwMk9WOXc?oc=5",
+    "fuente": "Diario Red",
+    "fecha": "2026-10-10T04:00:00+00:00"
+   },
+   {
     "titulo": "Vicente Vallés, convencido sobre qué hará Pedro Sánchez si pierde las elecciones: «Es lo normal en las democracias occidentales, pero no creo que sea su intención»",
     "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYnF5MVBKTnZSQ013M29WUGloMzdUejhueks2djJ0SnBTWHpzUE5PdmUxTXVQOFBXMW9xdXpfNEpYdUtUM1RkQ0pQdVRJQWJfNVZvNUt4cVc4d0tzMmJCYTM2eG9EXzYtVnRmcThqVWdnQS1Gc0dSOUdCTGhkMGVPR252SzE1c2h6a3BVd1hVUURkUlFxbGNtYy03NV9sVFFtMW5vQjdPNFZGc29hTGJFOW1KUV9WREV10gG-AUFVX3lxTE5CS1FjcVdKMFRmbEVQM29Bb0ZFMTBOYzZJaU9aM3NOVzFXSm5KTHdxWVU2dkFsZ1B5YVlpTnNsdVZnOUZVdVNEVVByU3VZdTVUT0FXUy1kUms4VnQ1X2ZFSXYxODUwbGFsS0xBTWlGdUhNb1ZHWWNEeFdWdnQzalc5bFUtWGdidDhweWdJcWEwRXJKaE5vZW9vM1dVR3l4ajl2Sy1JT0gwYTk0dkVXcms0VHA1NG5TaGNzbTdlOXc?oc=5",
     "fuente": "ABC",
     "fecha": "2026-10-10T03:58:08+00:00"
-   },
-   {
-    "titulo": "Encuestas elecciones generales 29N en la Comunidad Valenciana: resultados de PSOE, PP, VOX y Compromís y ganador según los sondeos",
-    "enlace": "https://www.abc.es/espana/comunidad-valenciana/encuestas-elecciones-generales-29n-comunidad-valenciana-resultados-20261010051500-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-10T03:15:00+00:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/10/encuestas-cv-kWWE-U3021366937486gC-1200x840@diario_abc.jpg"
-   },
-   {
-    "titulo": "Begoña Gómez, Plus Ultra, cloacas, Ceuta: Pedro Sánchez afronta las elecciones del 29-N rodeado de procesos judiciales",
-    "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPaEtXNnFJLVFmWktiWm51NUZfUVN4TVN0OXZTTF9oZzNCWmJYbVVLNEkwNVdBUXpiVEVNTGR4cU02TjYyS19DUm50c1RhX1ZYRHJOWThQVUptYjdGLXpnN2xsYTItMDAxOFdtV2hGTEZxNENUZnBCWXhyaThVOVZUVFVEU0gwQWZDYk03aE9zUURkWHQ5ak5mb3dhZUVkNlVibWZTZGdraVRKSlpxNkVxTHZmRkdaMGJBRlR6RWZxVUdkcU5zVURDSGdHZzFrSnE1OVVLSUJpaUNNaXNmMUI0VVRLMmtGQ0VYNzFnV0pSWmpZQTk1LVJaczdReC1wMldZSVRN0gGOAkFVX3lxTE5MVU55WG91eEZvYm9lNENxVVZKdzJPRlljdVpSdWZxM0VfTHktUjNjRHpfS2RzMnpGQ3M0S1VZYUxyQXFkM3lNUGJ6bU5KNWhTaFBKdDRSTVkzM1lsVG9UcTBNbE9ySWtxR01tdW5BVmgtcEVVY0JUd3JsbWhpM2k3cGRzSHVTajlrRzVRRGowdUZMMF9kWnh1aXRadEE1eUtDODRlYW05cThKRDdJbVRkZ3ppTHBrejN5cXA1WlVlQ1pLZlZCd0szNXdQQl96bjhaX0t6SmRmQkU3MVJvaFpJNHZJOFlIbFlpQS1CMkp6cE96SEVyb1B0Nk5pOWwzd3htSWVBdFdvbWduVU9aQQ?oc=5",
-    "fuente": "Libertad Digital",
-    "fecha": "2026-10-10T03:00:37+00:00"
-   },
-   {
-    "titulo": "Álvaro Bilbao encabezará la candidatura al Congreso del PSOE con permiso de Ferraz",
-    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdmtzelhmcjIzSHd1ZXlyREJ5Tm13Q3pHS2ljMkwtbG9wSE1jUHlfTWJWaUc0a04yZUs3Vk1ObTRxaW1RZUhpOE1tYTR2a1FtX0plZEd1eXc4WXpQaVFYZ2Uzc1h2WWVyNGtQd1dWb2dVTUVFSjVxRVJSbVd1SzdoOWd6UUZTNkx2YkN6QTV0dmNfWTh1MWY0TVJ4d0hTN1hKRTFqZDVLVnJIdVhvZEZhZUZybGFiOUVSSy14dTZ2eEFYRGE0am5KVDZPZDBqNHVEZ1REeFVnSzR4TEtR?oc=5",
-    "fuente": "Diario Palentino",
-    "fecha": "2026-10-10T03:00:00+00:00"
-   },
-   {
-    "titulo": "El PSOE se presenta a unas elecciones sin Ábalos en sus listas por primera vez en 27 años",
-    "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261010/psoe-presenta-elecciones-abalos-listas-primera-vez-27-anos_467367.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-10T02:00:00+00:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/02/06/6986319c3f3ce.r_d.461-175-0.jpeg"
    }
   ],
   "Vox": [
@@ -166,16 +165,22 @@
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/01/16/696a5269d81a5.jpeg"
    },
    {
-    "titulo": "Sánchez vuelve a jugársela: elecciones anticipadas ante el avance de PP-Vox y una izquierda fragmentada",
-    "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSzkyTUxTdk1ZSW9MQ1Z4aG5QRGVsY2k0eUxac19XQVVpdkk1NGptc3RGQkszdmppaEkzNmtiMGdLNnhGbnRBdTVqMWhBWEJRU21ZT295UlI4NGlPUzZwMVpfcXUzU0xJZzZsd2o5bmppdk1KekItX0dmRjJ0YVJ4cVB4aHh2bDM4TWVlcng5dUM0ZFZyNUZHUXh0VjBlUWtGNmlnVzNvYmJ2ZHhUcV9kbHZuWGhjcXQ1NkpqaGctWGthclZCOUlvZV9MN1lPOVZIMXVNbTdYNHrSAewBQVVfeXFMT3FITVQzMDVQcU1CallOVzhhLUpaT2hwX0dqaVBIQU1YMUtpQS1TdjdLUU5lcGVFYmdPemZPRFBfOXp2b05seWRBNXFoYjM5TzZna1R1SWxVR1NHY3dLLXdlT0RFYjNHT0xlY3poSmIySjkxRkFfYzhxd2F0Qi1NYi04Wjh6RkpTQzNNRkg2NjZRaThhOUp5Sm5ybTZmM2NVai1rUnp2dG0xSFFXTV9EZXhHWXZFeG5tQ29Jc1UwWUJ6TGdDdUk0WDc4aU1KX1dYVVk1TmpWaXBLT0o5NHk3djR0NnFVQlFPX3NOSGc?oc=5",
-    "fuente": "El Destape",
-    "fecha": "2026-10-10T03:12:57+00:00"
-   },
-   {
     "titulo": "El PP y Vox mantienen la mayoría absoluta tras el adelanto electoral",
     "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdEhsVmhMSEdra0lWWFZRRmpGa3cwM3pjSGl5RFdROHJSZnVDcHFWZGNvNHhOQ3VWZ1MzYUlEYXRzaE1XcUszUmpaSW9TMFdnejVrYTA3US00TzlIYkhja0E5amhNXzdPOVpxTVZvUFcyNXJsSVJ5eE56ZWxxem9RZGFDaW1qWExwTnlHV3ZsTkdJRVMzbGF0WjQ0aGNFaDlxSy1TRXZjbWYySGhhWTIw?oc=5",
     "fuente": "EL PAÍS",
-    "fecha": "2026-10-10T00:27:24+00:00"
+    "fecha": "2026-10-10T03:45:01+00:00"
+   },
+   {
+    "titulo": "La Abascal que importa ya no es Santiago, es Maricarmen",
+    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR0ZZVVhqdHVLRlprQ2tnMFhSWFM0NE1La1ZoMFRpSDdJUzhySTdiYWgwRXJQem00M2ttVTVUMHBFVGZxZnlNVEx4eGZ6M1BoeWNxaUFrc2cwb3M4bWxTR00zN2FzazdxQTE3c0d0V1pTMmRrQm0zXzZwN2FGSnhuN3BCblBmeVZYRTQ2ckhVZ2ZoQmxNVF8tS2NOMGtXdXJqUjRfelcwWG9xSk1tMTVV0gGvAUFVX3lxTFBHRllVWGp0dUtGWmtDa2cwWFJYUzQ0TUtrVmgwVGlIN0lTOHJJN2JhaDBFclB6bTQza21VNVQwcEVUZnFmeU1UTHh4ZnozUGh5Y3FpQWtzZzBvczhtbFNHTTM3YXNrN3FBMTdzR3RXWlMyZGtCbTNfNnA3YUZKeG43cEJuUGZ5VlhFNDZySFVnZmhCbE1UXy1LY04wa1d1cmpSNF96VzBYb3FKTW0xNVU?oc=5",
+    "fuente": "EL PAÍS",
+    "fecha": "2026-10-10T03:30:00+00:00"
+   },
+   {
+    "titulo": "Sánchez vuelve a jugársela: elecciones anticipadas ante el avance de PP-Vox y una izquierda fragmentada",
+    "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcUhNVDMwNVBxTUJqWU5XOGEtSlpPaHBfR2ppUEhBTVgxS2lBLVN2N0tRTmVwZUViZ096Zk9EUF85enZvTmx5ZEE1cWhiMzlPNmdrVHVJbFVHU0djd0std2VPREViM0dPTGVjemhKYjJKOTFGQV9jOHF3YXRCLU1iLThaOHpGSlNDM01GSDY2NlFpOGE5SnlKbnJtNmYzY1VqLWtSenZ0bTFIUVdNX0RleEdZdkV4bm1Db0lzVTBZQnpMZ0N1STRYNzhpTUpfV1hVWTVOalZpcEtPSjk0eTd2NHQ2cVVCUU9fc05IZ9IB7AFBVV95cUxPcUhNVDMwNVBxTUJqWU5XOGEtSlpPaHBfR2ppUEhBTVgxS2lBLVN2N0tRTmVwZUViZ096Zk9EUF85enZvTmx5ZEE1cWhiMzlPNmdrVHVJbFVHU0djd0std2VPREViM0dPTGVjemhKYjJKOTFGQV9jOHF3YXRCLU1iLThaOHpGSlNDM01GSDY2NlFpOGE5SnlKbnJtNmYzY1VqLWtSenZ0bTFIUVdNX0RleEdZdkV4bm1Db0lzVTBZQnpMZ0N1STRYNzhpTUpfV1hVWTVOalZpcEtPSjk0eTd2NHQ2cVVCUU9fc05IZw?oc=5",
+    "fuente": "El Destape",
+    "fecha": "2026-10-10T03:24:46+00:00"
    },
    {
     "titulo": "La letra pequeña de la encuesta: el trasvase de votos del PP a Vox, que fideliza a sus votantes mientras la izquierda pierde apoyos",
@@ -189,22 +194,15 @@
     "fuente": "elDiario.es",
     "fecha": "2026-10-09T20:40:17+00:00",
     "imagen": "https://static.eldiario.es/clip/6db9f2f4-7c1e-4033-aafe-2874724f0f62_16-9-discover-aspect-ratio_default_0_x861y235.jpg"
-   },
-   {
-    "titulo": "Feijóo y Abascal aceptan la invitación de Jordi Wild para ser entrevistados en su podcast: Sánchez aún no ha respondido",
-    "enlace": "https://www.20minutos.es/nacional/feijoo-abascal-aceptan-invitacion-jordi-wild-para-ser-entrevistados-su-podcast-sanchez-aun-no-ha-respondido_7047296_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-10-09T19:00:52+02:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/09/6ac91dae75ff58-71482379.png"
    }
   ],
   "Sumar": [
    {
-    "titulo": "Quién es Manuela Bergerot, la hija de refugiados argentinos de Más Madrid que afirma que «no va a haber paz» en las calles",
-    "enlace": "https://www.abc.es/espana/madrid/manuela-bergerot-hija-refugiados-argentinos-madrid-afirma-20261009220332-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-09T22:10:33+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/09/1517099580--758x531.jpg"
+    "titulo": "Los abogados laboralistas coinciden sobre la subida del Salario Mínimo Interprofesional que prepara Yolanda Díaz: \"Independientemente de la inflación, tu sueldo sigue igual\"",
+    "enlace": "https://www.larazon.es/economia/abogados-laboralistas-coinciden-subida-salario-minimo-interprofesional-prepara-yolanda-diaz-independientemente-inflacion-sueldo-sigue-igual-b50m_202610106ac9c65e6e8df44596adcf7b.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-10T07:00:14+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2025/09/26/3D0F871A-A21C-4039-A05D-E4A850C98A61/ignacio-calzada-abogado-convenio-hay-nada-plus-antiguedad-tienes-derecho-cobrarlo_96.jpg?crop=1900,1069,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "Una diputada de Más Madrid critica las primarias de Podemos: \"Como si la democracia se hiciera en TikTok\"",
@@ -282,12 +280,6 @@
   ],
   "SALF": [
    {
-    "titulo": "La jugada de Alvise que podría alterar los planes de PP y Vox para el 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zQWFxdG8yYTd5bzQ5S1J4ZXBrNFFfVzBFMnNLdWtGVHpHOVFmMHJ3RTdHUEFIV0hycjJaNmxBT2hrX01XMUdIVlg3QzdXN0hnMEVNaGJLV0U4ZUl4QXVwYktQX1YzaEVTR0pSVmx3?oc=5",
-    "fuente": "La Bandera",
-    "fecha": "2026-10-09T22:37:00+00:00"
-   },
-   {
     "titulo": "El Supremo confirma la condena a Alvise por mensajes contra el jefe de Policía de Canarias",
     "enlace": "https://www.eldebate.com/espana/20261009/supremo-confirma-condena-alvise-mensajes-contra-jefe-policia-canarias_468265.html",
     "fuente": "El Debate",
@@ -317,6 +309,13 @@
     "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdjhkVGZjVWctcHNmMlM5OUlfdkFFTk9IMnh5eXM5Q2h6dkxSaVNPMXU3RDRVdkF4UTJSaHgwdExTT0JCTl9UZnRyMk85dGU1N1NZRFNLX19Bdkd3cWI0Sl90N3FvN1lYZXF5NGxGdEFDbGVJNFNIVUFSS29vemxqZHNVV05mM0JFSndCb3p4eS1ZV05FdHB4cHluVUVMRU5NUG5vT1Brc2NnckRCUGdSbTVGS1ZqaktFbDBhNUNDN2QzaXpEOEoxWnlUOFhTMDJmVlHSAdcBQVVfeXFMT19Yd0Rvd0lDUTNPMVAyTnQ4UEdJelZLSDZFMHdfbUd5bUZZMnNtWWlnRkV2bXJVR3g0T3RvdGdvU2szNDdPUXBVaF9CaXRxLUJ3X0tyU3p1dVA1ak1rY2ZlRnlORk9MY1lhMFFFZGFzMmRWcUI4czVjVjU2RXhQMXBBTlQ5MDlHVTN1S0JLOWU1Mm5fNVotNXRsTl82RWhxZzY0UDBENXphY2lldUlVSC1neDZHTThhXzJZTlk1VHpjTl9xaFNwdXltM0FoR24xTEl0RjhjVlE?oc=5",
     "fuente": "Galiciae",
     "fecha": "2026-10-09T15:03:59+00:00"
+   },
+   {
+    "titulo": "El Supremo confirma la segunda condena a Alvise por vulnerar el honor de Ábalos al llamarlo \"mafioso\"",
+    "enlace": "https://www.20minutos.es/nacional/supremo-confirma-segunda-condena-alvise-por-vulnerar-honor-abalos-llamarlo-mafioso_7047141_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-10-09T14:11:29+02:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/07/10/6a51100f750813-40777013.r_d.2093-967.jpeg"
    }
   ],
   "ERC": [
@@ -345,7 +344,7 @@
     "enlace": "https://www.lavanguardia.com/politica/20261010/11655492/puigdemont-vuelve-rufian.html",
     "fuente": "La Vanguardia",
     "fecha": "2026-10-10T00:05:00+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/09/6ac9333081547.jpeg"
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/09/6ac9333081547.r_d.3438-1693-0.jpeg"
    },
    {
     "titulo": "Junqueras valora que sea candidato Romeva, su compañero de celda, si Rufián se va",
@@ -373,7 +372,7 @@
     "enlace": "https://www.lavanguardia.com/politica/20261010/11655492/puigdemont-vuelve-rufian.html",
     "fuente": "La Vanguardia",
     "fecha": "2026-10-10T00:05:00+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/09/6ac9333081547.jpeg"
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/09/6ac9333081547.r_d.3438-1693-0.jpeg"
    },
    {
     "titulo": "Acuerdo Junts PNC para concurrir juntos a las elecciones: Marta Pascal entra en la ejecutiva de Puigdemont",
@@ -423,12 +422,6 @@
     "fecha": "2026-10-09T15:24:24+00:00"
    },
    {
-    "titulo": "EH Bildu abre con el Gobierno foral la negociación de los últimos Presupuestos de la legislatura",
-    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORjk3NmxXR0VQVm9HSEw1bF92WC1QNjBNVlJ3YmtuMEFfcXA4ZTM5RTh4UFdlQllOOC0yZnBSNWRYWVdKczlidVJWUjVCX3o1bXdqZ3FsVy1NaVJqUVk2azF6cXUwU1JPcWhHbmFVSXRBOVVmdGk3UTZmRldZNmNmQ0FFVk9WVXJmbWFGQjB2Y1BHTHEwTl9PMXY0cVN6eElXWm91WkRXTHNBQVZWWlNBS2dEdUdDbDFyc0tuRzBTcjRIbW9xb0wyN1N5WUhlU2NNYlFuRF9BOA?oc=5",
-    "fuente": "Pamplona Actual",
-    "fecha": "2026-10-09T11:20:41+00:00"
-   },
-   {
     "titulo": "EH Bildu acusa al Gobierno Vasco de ocultar la decisión sobre el enlace del TAV por división interna: «Hay quien dice una cosa y la contraria»",
     "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVjVCand5RjZCX2pHZ1pwenE4THlxQW5xMk1kUEM2Q04tTEVnRUY2QUg3NnJIYmdPajEyME5NY25jU1g4a2ZEQjhTMXFwTUY0Y0ZqM2hZQVRPMkl4NUZPSWRhby1RYU40SGFzMm1EZDl6bFNEQkg5aVpxMURWcnpCNENfbXZfbjRqM014TjNQNXI3SVFFc3hqejZWbklGd3VfaldVb0ZYdFNNRTN6cG1xQnNtcy1iQdIBuwFBVV95cUxQS0N3akhnY1VOSlJqZU1QTGxrQk8yTjR3T3dzV3ZjMlZma0oweTVuRDNjSGR2T3BycDdrQkFQUTY4eEc3d0h5MEY3Q2VRdDNxbVMwcmg5SzQtcTcxYmZoaUI2dXFYMzBtTDFRSlpiZ200MWk0ZUJiWjNidDlOVF9GZ2tWbjdFRElQT1VFY29IYzA5ZDAzMnpSbC1heWI3SnFDTTc2WkFmakVrenVsY1ZUaXpJZVRSeUZpNEdv?oc=5",
     "fuente": "El Diario Vasco",
@@ -439,6 +432,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNkpUdktxMEZlbk5OdGdXd1JzMHBVX0ZCRUhlNFd1T2p3cHZsSkN5YzZUMmVvUERNMVdmV0dQeVBuZlotSVZNVUk2NXJYdWJWWFQ0SURyVy1zQ1A2ZWR0R1JEaHNCRU9IeFVtdzBDWS1mZEhkcGhuR1hsaG1zdmh3MHFraVhINDlDSzBmbVJwckZzNjhrMDIzU0MtWGlpLS1JZDczbUV5dGliblBQS2tEeU8tbmhLSnEtNlBYZi00UGE2UlhlU0xZdG9IU3hVMXplaTc2b21YWUrSAd4BQVVfeXFMUDBQR3VvRUJZRUpjZXpyVlU4dk5aMjNPWjdoMlNyWE9DeTlzMjk5ZlJLbDRtU1N6UUpSa3FxOVphcFhGNTB5aVlVUzVQQXl6SlNwN1Zja09pemQ4RDBEbmZPWGVyOWtlVjktUV9sbUQ2UWx6d0RBZUpPekF1ZHREdmd4dkhnYnd3RFgyNk5QMjlIdHl6LUpYdW52X1poT3Vvc2NvdDVjck1MdjlJdGtqb2RVQTBpNTdtZzVqV2ZONnlZQlp3R0o2VlE3MWNmdUhvOGdlM2JpMmVoNlI5U1VR?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-09T08:38:43+00:00"
+   },
+   {
+    "titulo": "Pradales insta a EH Bildu a activar a sus alcaldes para ceder suelo y levantar 42.000 viviendas",
+    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVk91eVBtLVpESzdLNFVBUmRadHJaeGVwQ3RYajhOMTJJdzZZeUNPSDNPQnNzU2hZUmZ6S1dyVVdka1ZSckhVN2czNGhUMmNNV1IxcHZZblA1UDB5SXdWUjZEeWZlbXJfWlBkUmZGMGJVSmVVdEZnMG5fMHIwTmxoUl9haE9VZTJIR08zQWFqVHdLRndneFNITUlwZHNjaXlOeUNxeGlmc3NYOTBfNTdFeDEtbllSeTR4c2dhTk4tVUtuWGJROXB5TtIBzgFBVV95cUxOMTIxQk4yTHc0emJnY3ViMnAyVDJLOURrRnFvX0t6eVRTbTc4R1pzQjZ0eTFKTVp5ZFIwRnRKd2tuc3lFa2tZOTRDQ2hGU3ZvVTd4ejZ3d0l6NzAycFFZdV9NMjZWbklEVFBnanEyTVlTODAwbVNhM0ZiZzZRY0oxYTdOckMtZ0JtT0xYSTcwN0NCOGhqbF9vVTZTU2YwTkhTRy15NS1GWVRjNDdmMUdhT05uNzlqM3NnTDlqRTZJdDM0aDlPbGZpNnlhWTNkdw?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-09T08:24:45+00:00"
    }
   ],
   "PNV": [
@@ -593,7 +592,7 @@
    },
    {
     "titulo": "Viaje al fenómeno de Aliança Catalana, el partido que se jacta de forzar elecciones: Orriols no se presenta por \"odio\" a España",
-    "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZk5UUm9VS2xLcFdDYUVMNXd5V0ttdmRUUld6LW5OV0U4OXhoV3JHSHB1X01mc2pQVC0xWFpmSmpZSU0ybmpTeWQyOWY3VFliUjJ2U29nT0d6al9meEI3cHNTTWY4YWllb2tBVzhTN2tJNU9JT3FDUmFwbjdTXzBUMllrT05Ed0NfOHVjTTBEaTJaLVg1VzFkWUJ5UlZObm9WOXo2RDc5czZucmFXZl81NVBjb3YwdnJJV1JaSnBsMy0wY1NwUmJROUQ2WkxCTjVJSktJRDRTY3lEdF9VUFZ2eXdYVWYzdWg1UEZaLVRqZnJGRFYw0gH6AUFVX3lxTE9LYjBsVERJN3A2bHhidk1kQnhPX0hYamtuNzhNRXVOSllxZHFfaTVXSnhrajlKVnROd2hmQUJxeXowNEpJbGkta09uWXdnMV9NZXNvSTNLTzRfTXRzd3RaaHd3aEVuQWh4dUFVS1dDaE15dTEtYldvTS1fRkVYdmRVa05mQ2hyMkl5b1JBWnV4S2xMeHV5cElUbVBQTkFFTjZfT1VsalRpVlp2TmdmcmpSRUhmMmFZMDdQMnNGdUl2bWlDNE5vNnNEVEFISi11Y0NURlA4cmVabExVblI2ZmZYOE9MYmlBeWpobUxnTERKelo0YVpzYlVMOXc?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPS2IwbFRESTdwNmx4YnZNZEJ4T19IWGprbjc4TUV1TkpZcWRxX2k1V0p4a2o5SlZ0TndoZkFCcXl6MDRKSWxpLWtPbll3ZzFfTWVzb0kzS080X010c3d0Wmh3d2hFbkFoeHVBVUtXQ2hNeXUxLWJXb00tX0ZFWHZkVWtOZkNocjJJeW9SQVp1eEtsTHh1eXBJVG1QUE5BRU42X09VbGpUaVZadk5nZnJqUkVIZjJhWTA3UDJzRnVJdm1pQzRObzZzRFRBSEotdWNDVEZQOHJlWmxMVW5SNmZmWDhPTGJpQXlqaG1MZ0xESnpaNGFac2JVTDl30gH6AUFVX3lxTE9LYjBsVERJN3A2bHhidk1kQnhPX0hYamtuNzhNRXVOSllxZHFfaTVXSnhrajlKVnROd2hmQUJxeXowNEpJbGkta09uWXdnMV9NZXNvSTNLTzRfTXRzd3RaaHd3aEVuQWh4dUFVS1dDaE15dTEtYldvTS1fRkVYdmRVa05mQ2hyMkl5b1JBWnV4S2xMeHV5cElUbVBQTkFFTjZfT1VsalRpVlp2TmdmcmpSRUhmMmFZMDdQMnNGdUl2bWlDNE5vNnNEVEFISi11Y0NURlA4cmVabExVblI2ZmZYOE9MYmlBeWpobUxnTERKelo0YVpzYlVMOXc?oc=5",
     "fuente": "El Español",
     "fecha": "2026-10-10T03:00:00+00:00"
    },
@@ -728,6 +727,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1rUkxSSTFoVjU1cjdmNWQ3VWpXRlFHcVM0cnl1b1A1aEYyeUZUWjk4YThfUERneEY4QXYtamxNUnhyN3YzaTNFckZVdGxFZTJseWFrQml3Yk1kRTZPWHY0Mi1tNHhNcXplY0E?oc=5",
     "fuente": "Newtral",
     "fecha": "2026-10-07T15:18:54+00:00"
+   },
+   {
+    "titulo": "¿«Yolanda Díaz dice sobre la vivienda de más de 430 metros en la que reside sin pagar alquiler que las pareces son grises y que para alegrarlas puso una obra de arte»? · La Buloteca · Maldita.es",
+    "enlace": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQTzBaREJheW1JRGNseVNZOUlTTl83MEhqVDFGOVJ2ZmM0Y3EzRWUtM1NoRUxmNkw3U1MyX1A1UWQtMnY5SExUV1NmR0pPZk5UbXI0dzdSM3NjUHZna2plYkhXdGphd1VsaTI2NGJpWTR0ZU5VQTFuYUVNQzhXU21KVEg5ZHRXNk9LWWVIQXJxR0ROUU5zUlRHa0swcDdra3dWdGFDRnNCdGd6MUxoWEN2OXdKMUh4N29qY3VQcGxSUnU3bTluNkd3WDFZZFNMd3ZhR2VSN0Q0bWVpczdKZFcycjA3a3NXRHhPNmhqVjBpekJfTGhhWFlEek10Q0ZoSURlSjlHaXVYY3B3NUZGWmNzbHgyaWkzTkdBSHJ4VXQ3U1l4UjA?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-07T07:37:28+00:00"
    }
   ],
   "Podemos": [
@@ -919,19 +924,19 @@
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11373868.jpg?p=w:1706/h:960&h=wyxolLwb"
   },
   {
-   "titulo": "El Supremo confirma la segunda condena a Alvise por vulnerar el honor de Ábalos al llamarlo \"mafioso\"",
-   "enlace": "https://www.20minutos.es/nacional/supremo-confirma-segunda-condena-alvise-por-vulnerar-honor-abalos-llamarlo-mafioso_7047141_0.html",
-   "fuente": "20Minutos",
-   "fecha": "2026-10-09T12:11:29+00:00",
-   "partido": "SALF",
-   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/07/10/6a51100f750813-40777013.r_d.2093-967.jpeg"
-  },
-  {
    "titulo": "Vox reclama al juez Llarena que reactive la orden de detención de Puigdemont",
    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNVB5c1hPLWdzLThSMWJuMlEwWWdkSElUMWxCWHFEVXlrZElVcS1JbzJlNElONzNjejUyVi1lTzJ6S2o0WUlWRjl5b0JHZmdac0I3N3RhVkRDZ25hRWlQTEVDS0xTOGZONk5GQ01keEt0bmRwbFQzVERLNjhrOEZMTzUtUmhhMGNmbFVGS2NpdXBqY2UtdWFhdlpDQ216aWNYM21jcXRlOUZlLTBWdUUxYzNObEtBSS1RYVY5VVBIczRVTFNt?oc=5",
    "fuente": "El Nacional.cat",
    "fecha": "2026-10-09T11:55:00+00:00",
    "partido": "Junts"
+  },
+  {
+   "titulo": "El Supremo confirma la segunda condena a Alvise por vulnerar el honor de José Luis Ábalos",
+   "enlace": "https://www.20minutos.es/nacional/supremo-confirma-segunda-condena-alvise-por-vulnerar-honor-abalos-llamarlo-mafioso_7047141_0.html",
+   "fuente": "El Periódico",
+   "fecha": "2026-10-09T11:10:22+00:00",
+   "partido": "SALF",
+   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/07/10/6a51100f750813-40777013.r_d.2093-967.jpeg"
   },
   {
    "titulo": "El Supremo ratifica la condena a Alvise Pérez por vulnerar el honor de Ábalos y le tendrá que indemnizar con 10.000 euros",
