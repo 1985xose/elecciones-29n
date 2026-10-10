@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-10-10T19:01:49+00:00",
+ "actualizado": "2026-10-10T20:01:33+00:00",
  "generales": [
+  {
+   "titulo": "El Ayuntamiento de Toledo expondrá el censo electoral entre el 12 y el 19 de octubre para que los vecinos puedan verificar sus datos antes de las Elecciones Generales del 29 de noviembre",
+   "enlace": "https://www.larazon.es/castilla-la-mancha/ayuntamiento-toledo-expondra-censo-electoral-12-19-octubre-vecinos-puedan-verificar-datos-antes-elecciones-generales-29-noviembre-b30m_202610106aca994d6e8df44596ae399a.html",
+   "fuente": "La Razón",
+   "fecha": "2026-10-10T22:00:13+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/09/03023312-05A2-44D9-861B-F900736A3E62/96.jpg?crop=1920,1080,x0,y94&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
+  {
+   "titulo": "Hiperinflación",
+   "enlace": "https://www.abc.es/espana/castilla-leon/david-frontela-hiperinflacion-20261009212422-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-10-10T21:45:58+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/09/1790773011457-R8YTlqyf2Kf33IYPtI2oLoI-1200x840@diario_abc.jpg"
+  },
+  {
+   "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y el adelanto electoral: encuestas, sondeos y voto por correo",
+   "enlace": "https://www.elespanol.com/espana/20261010/elecciones-generales-directo-ultima-hora-pedro-sanchez-sondeos-actos-precampana-psoe-pp-vox/1003744416009_10.html",
+   "fuente": "El Español",
+   "fecha": "2026-10-10T21:31:00+02:00",
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11375157.jpg?p=w:1706/h:960&h=teHISQCk"
+  },
   {
    "titulo": "Barómetro laSexta | El 74,5% de los encuestados valora positivamente el adelanto electoral al 29 de noviembre",
    "enlace": "https://www.lasexta.com/noticias/nacional/barometro-lasexta-745-encuestados-valora-positivamente-adelanto-electoral-29-noviembre_202610106aca8677cfd4076f0c7834d9.html",
@@ -9,32 +30,11 @@
    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/10/10/072CF633-7E19-43DC-8472-51A49ED23AFD/barometro-lasexta_96.jpg?crop=1600,900,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
-   "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y el adelanto electoral: encuestas, voto por correo y sondeos",
-   "enlace": "https://www.elespanol.com/espana/20261010/elecciones-generales-directo-ultima-hora-pedro-sanchez-sondeos-actos-precampana-psoe-pp-vox/1003744416009_10.html",
-   "fuente": "El Español",
-   "fecha": "2026-10-10T20:32:00+02:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11375105.jpg?p=w:1706/h:960&h=Uqi-0q1U"
-  },
-  {
-   "titulo": "Del 23 de julio de 2023 al 29 de noviembre de 2026: 41 meses para la amnesia colectiva",
-   "enlace": "https://www.abc.es/espana/julio-2023-noviembre-2026-meses-amnesia-colectiva-20261011113724-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-10T19:40:49+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/11/1484785533-RpPQSdWeVZwJ2qyVd6AKMQN-1200x840@diario_abc.jpg"
-  },
-  {
    "titulo": "Diez píldoras de la campaña electoral",
    "enlace": "https://www.nuevatribuna.es/articulo/actualidad/10-pildoras-campana-electoral-generales-29-noviembre/20261010192331255064.html",
    "fuente": "Nueva Tribuna",
    "fecha": "2026-10-10T19:23:31+02:00",
    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/10/10/2026101019232279324.jpg"
-  },
-  {
-   "titulo": "Armengol define a Pedro Sánchez como \"faro del progresismo\"",
-   "enlace": "https://www.larazon.es/espana/armengol-define-pedro-sanchez-como-faro-progresismo_202610106aca6f506e8df44596ae23db.html",
-   "fuente": "La Razón",
-   "fecha": "2026-10-10T19:01:04+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2025/12/06/DC6E977A-1EEE-403B-9895-8C80208BEA47/pedro-sanchez-francina-armengol_96.jpg?crop=1600,900,x0,y84&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
    "titulo": "ERC y Rufián apuran una negociación abierta pero “encauzada” para la candidatura del 29-N",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Feijóo se compromete a ser «el presidente que España está esperando»: «Vamos a ganar y gobernar»",
-    "enlace": "https://www.abc.es/espana/feijoo-compromete-presidente-espana-esperando-vamos-ganar-20261010135221-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-10T19:13:32+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/10/afp_20261010134946-RWmp5zPdzhmBim1wxPuRbkN-1200x840@diario_abc.jpg"
+    "titulo": "La abogada Miriam González lanza un partido para disputar el centro a Sánchez y Feijóo: «Cojan juntos el Falcon, váyanse a Bruselas»",
+    "enlace": "https://okdiario.com/espana/abogada-miriam-gonzalez-lanza-partido-disputar-centro-sanchez-feijoo-cojan-juntos-falcon-vayanse-bruselas-20526994",
+    "fuente": "OKdiario",
+    "fecha": "2026-10-10T18:49:37+02:00",
+    "imagen": "https://okdiario.com/img/2026/10/10/imagen_recortada-2026-10-10t184852.947.jpg"
    },
    {
     "titulo": "El PNV rechaza que se le incluya en ningún bloque tras el 29N, pero avisa a Feijóo que con Vox, \"ni a heredar\"",
@@ -115,11 +115,11 @@
   ],
   "PSOE": [
    {
-    "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y el adelanto electoral: encuestas, voto por correo y sondeos",
+    "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y el adelanto electoral: encuestas, sondeos y voto por correo",
     "enlace": "https://www.elespanol.com/espana/20261010/elecciones-generales-directo-ultima-hora-pedro-sanchez-sondeos-actos-precampana-psoe-pp-vox/1003744416009_10.html",
     "fuente": "El Español",
-    "fecha": "2026-10-10T20:32:00+02:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11375105.jpg?p=w:1706/h:960&h=Uqi-0q1U"
+    "fecha": "2026-10-10T21:31:00+02:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11375157.jpg?p=w:1706/h:960&h=teHISQCk"
    },
    {
     "titulo": "Pedro Sánchez, ¿ensanchará su leyenda?: \"Flotando como un velero\" o \"hundido hasta los cabellos\"",
@@ -158,7 +158,13 @@
     "enlace": "https://www.eldebate.com/espana/20261010/garriga-advierte-sanchez-puede-volver-ganar-elecciones-pese-ventaja-pp-vox_468438.html",
     "fuente": "El Debate",
     "fecha": "2026-10-10T18:37:34+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/04/13/69dcdca608b91.r_d.983-409-0.jpeg"
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/04/13/69dcdca608b91.r_d.798-282-0.jpeg"
+   },
+   {
+    "titulo": "Vox lanza un simulador para cuanto sube tu sueldo con su rebaja fiscal",
+    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaWtCQ2JnTmhwVjBBaGFadkFwdy0xUFRTX3dLV2xFd2dfTkNSZjBsbmJJQTQ5Qm5zUVdPMTB4bGZhX1EyUzRZZU0yZnJqZ1R6REhKWVNKcXZSWTBOdFVEQ29EaEI3VTFRNzF5TWlsemM5VmUwTTJLT3k5bHR6NWxINV9VMWdpdUNYRFJYN3IxWUM3YnhYcXBwY25nVHdPQVZuOEdQSng0UVlNbUxhbHFRTjFPYkVyNkd5TTJvOF8zc2Y1STFKWlBRQWc1LTFfb3BVM1JaT9IB3wFBVV95cUxNNFZuMWM2cXpXZldIdDVKQkZPMDkxd2Z1NVI3RWlOU1VxdDZKSlYxT3dFN2t4WS1TSmdRTXF1V0tSWG5ac2JjUmlfeS1kZWZxM2lpRnBjYnF4bmtrSF8wa0RsbW5WUkt5UU8ydUViZmdFSUdfWndQWERKVEdtUmZkeFpXWnpJWkticlJWVjlHcWQxZ1YxclVxbHU1eTVDZ3hfLTJQa3RsSDNIMlFBMnpuT29YeUhCaUxBdC1kYWd0cW9nTTNiY3RINkdkU01lc1NmUkZidi16TnBzRllJNkRF?oc=5",
+    "fuente": "Libertad Digital",
+    "fecha": "2026-10-10T18:19:02+00:00"
    },
    {
     "titulo": "El PNV rechaza que se le incluya en ningún bloque tras el 29N, pero avisa a Feijóo que con Vox, \"ni a heredar\"",
@@ -166,13 +172,6 @@
     "fuente": "20minutos",
     "fecha": "2026-10-10T17:31:52+02:00",
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/10/6aca599c5d37b7-03588601.jpeg"
-   },
-   {
-    "titulo": "Adelante Andalucía se reivindica como el \"voto útil\" en las próximas elecciones para \"pararle los pies\" a PP y Vox",
-    "enlace": "https://www.larazon.es/andalucia/adelante-andalucia-reivindica-como-voto-util-proximas-elecciones_202610106aca0aafbafd3d73635cc4fa.html",
-    "fuente": "Europa Press",
-    "fecha": "2026-10-10T16:55:06+00:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/10/58F74771-B419-497F-9748-F0B25C0618FB/96.jpg?crop=1280,720,x0,y117&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "Sánchez vuelve a jugársela: elecciones anticipadas ante el avance de PP-Vox y una izquierda fragmentada",
@@ -313,6 +312,12 @@
   ],
   "ERC": [
    {
+    "titulo": "ERC da por encarrilada la negociación para que Rufián sea líder de lista por Barcelona: todo apunta a una colaboración con Podemos",
+    "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZTdQMjZGYXdWeWZMWWRmcS1FdV81OEtkaTNObzVTUGlkTFh3UGN3SlN2Vkg3aDRQQ3BDNEF4ai1fS0tuT2NXcWg0TUhLdUo5SUphc2kxNFM3NkFCSDFBUjVnbVpSQUpqa1JxUEdGQWtsTzZtelFGZEhCZVRIa094VEl4Tnpod0s5dFFoTmY2NmIyTWU1TlVNa2tuSkQxMDJ1bzJJa29RUEwwS2lwX2FQT183aVlVNHA4cUwwbkR3WlNBSGlpNzliOEdoZlB5bXlhaFpYSWZBVlFXS3JPVVgzNmFZOWNpb3hUVHNWaXJWYTFoeWZZLVRtbDV6dHZuR0w1eXhpWVhYakFMeUVs?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-10-10T19:33:01+00:00"
+   },
+   {
     "titulo": "ERC y Rufián apuran una negociación abierta pero “encauzada” para la candidatura del 29-N",
     "enlace": "https://www.lavanguardia.com/politica/20261010/11656057/erc-rufian-apuran-negociacion-abierta-encauzada-candidatura-29-n.html",
     "fuente": "La Vanguardia",
@@ -342,12 +347,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTUtsa0RPVzJTZzh6VGFmSnZnX0dzQ2NybWhVMHBWMkh5UkRLd0kwZWxkQXZqM1gzVFFMVGNkemYzVlJjOTJYb3NXR08taEpCR0NPNEZad0p5Sk5FZmhSZGZhMFF5S040cG0yOVA4M3RsUnRZbWNpT1EwN3B6OGVRSGJLTENpdi1ISE93cU9JOFliNzdGaEI5QUp1Z2xXMkx5RlFDX3dLTlF5N3RsVER6STRpenM?oc=5",
     "fuente": "ORAIN",
     "fecha": "2026-10-10T12:29:45+00:00"
-   },
-   {
-    "titulo": "Los frentes abiertos con Rufián de protagonista: la izquierda continúa la búsqueda para un candidato a las elecciones",
-    "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQRG1JM2QyMUZBa0JDZVFjTWxiUmZXX1RFXzV3LUVoMTh4MGpHY2dLb2cxVENCdGZSTkZ0a1V2VXVPN0xvRGQtdko4T2RuU1BRNlp3SU5qX2h4XzczZHhTZUVKNDk3RTNwN0loSDBZVWpIbEVLOXNxSi14cE43elBvX1AtR1FPa2l4a05XcWJyLUR5Sk9UOHhNSk5pa1BxUWpsV2NjWnlYUDc3NloyODQ1b0g4WV9sSGVNUkJtSHliamFiQ2RaUWZDWGZUZ01HVENiZjF3RzNLN1VWcVd1UUlUN2c3b3BJWjU3SzFzYmVTX29iLXdVOHpNWl8zbHjSAfwBQVVfeXFMTkdXYVliZzdxVXRXMEkyc05aZWxTX3NDLVp5WU13UUVfbDRmMEJUdU5FWU1pdFVWeF9RWEY4WXpDcTNuWWpwNVdCTm5KLVl5TmV5eWRDeUpJRm9xWHZaSmYzY2dOVmNqSkdsd3lTY1hkcjFhWF9yX3B6WGRRRUV5TFkydUhWcXFoczJ1amNob0tadHgtRno0LXV4MFpiRmVaOFBrMy1ZMkxtZC1KbW5vdi01X2lreUtJUG9sM1JWa1I5ZzM2VkJPaXh4X2pRaUdNa2RZeU9TZTZQR0hBS3g1OEpDaHdfVmV1MzROSzBjMGtGdHlmandBVUh2Mnk5?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-10-10T12:21:37+00:00"
    }
   ],
   "Junts": [
@@ -372,12 +371,6 @@
     "fecha": "2026-10-10T07:00:36+00:00"
    },
    {
-    "titulo": "\"El regreso de Puigdemont no mejorará las encuestas de Junts\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRlByVmx3MURza1FJN29icW5NZjlzdmstQUl2NG9Vb0JJb1EyUlZja01sVWMxNjVmUDNDUkZ2RVB4dU9yM3FwVGNyamIxUjdia2puYUtGNkVHQ243UlBjZDZsZUx5Y0kwOU56Tm53U29McW80b2Y1WDhPcDBLZ0NiMXEtWkRTUGMzNEZtbkxSTnBqRU5CeFgxR3JKMUg5TkRWVUpQM2kxSlNwaXFTb1A5OXNRejFFbVl3TUMyTUxUMEdQLUFidTBqd1cyOFF2NUwyY2poX0wtT29LZi1qdmlZTHNpeXfSAeQBQVVfeXFMUGhtZzYyQmpvVmJRSTdLYWd5SzBYaEV0NVkyLTdRMGhZYWp4S3phSVFEV0Y5VXBObHhNeXQ0Ui0tWlZoSTdHajhydmtEMmo3UHR0STZYaW1fcFVSYXRBcTQ2eDhTOFlPSXNVdFVkaFdKY1I5cEM4R2QyOU5CelRJSC1PeHRxZHdsUGR3RWU2RXo3TnAyMDVYbWE3eTV6b3hDcDZEeUpkVXVXWklHZHdGTXE3bUlDaFp1RGowRlkxWGxoZDZPNDE5QXNXSEN0SWNaQkp2ekFReHhzbUFyQ3BmN0h4UWw5?oc=5",
-    "fuente": "El Periódico",
-    "fecha": "2026-10-10T05:01:00+00:00"
-   },
-   {
     "titulo": "El plan de Puigdemont tras la amnistía: volver a esconderse para evitar el marrón del 29-N",
     "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONEFUY2JtR0VEcGUtRHVTdllNdjF4THRSbGR0VkhyMEIyMTY2OHNGTDRKSV92ZmxPMVVqTW1LcWliVlhDVWtoTHdyVlNsaDhnWVhnajk0Q0pwd0hZZkNraDlHWGdTQVZsS0E1VzNVbXVOV0JwNXZrRGZXbkJzQ3J0QnJlZTlEdDRZcnRkVWNOa3RhSzdGekxMNVFWejJ0U3h1eGhPQkw3cUpBSnF1bW93?oc=5",
     "fuente": "e-noticies.cat",
@@ -388,9 +381,23 @@
     "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYXBjNzdLdndqdHR3YlNYLWgyNllEUDRZS1RYNW9OX2pqNW5XLWw0bm0yM3UzTnZMQ1R3eEhzWS1wYXd6Q3RZLUtBalJEYngzRGlsSlhwXzlKeU9CbENsY2FaQjZCdzZ3Z1NvVHpnMlVKQm5GR1FPa19hOGIwNVg3QUVkM0Y5SE0zODVLNFBOR2hOcUlFRmh2NXNMdk5SUQ?oc=5",
     "fuente": "El Confidencial",
     "fecha": "2026-10-10T03:00:00+00:00"
+   },
+   {
+    "titulo": "Puigdemont vuelve; ¿Rufián se va?",
+    "enlace": "https://www.lavanguardia.com/politica/20261010/11655492/puigdemont-vuelve-rufian.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-10-10T00:05:00+02:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/09/6ac9333081547.r_d.3438-1693-0.jpeg"
    }
   ],
   "Bildu": [
+   {
+    "titulo": "Otegi logra el objetivo que se marcó en 2021 al apoyar a Sánchez: solo quedan una treintena de etarras «sin pisar la calle»",
+    "enlace": "https://www.abc.es/espana/solo-etarras-pisado-calle-siguen-carcel-20261009012852-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-10T20:57:20+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/09/4347043-RTWI82fFQZH4dsPEvb6UmcO-1200x840@diario_abc.jpg"
+   },
    {
     "titulo": "EH Bildu y ERC reeditan su coalición al Senado para las elecciones del 29 de noviembre",
     "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2I5QVVEZlZPRU92VzBnWDVES0dRT1MzQkc4UkpWMlV5SnhvYjAtV1ZjZmMwWF85OU9GTDVoT0d6elQxOGpXTWJjOExtLUdYQXk3U09sY2dkMk8xTzR5ajhwaWxYV1c5OGQ2VG5KZ0pBb1ZqVExPQmprdk1Jc3NCZVhoTWxVTGpi?oc=5",
@@ -420,16 +427,15 @@
     "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRHpaQWdPZXZLbU80aFFxbjU0dm0yNUs5VlUzY2ZhS050TUk0VnFVSnh3SEpVamd3YTB5REVvOU1MQXRmbHQtTm5VM015dFByalhFTDI1THZpX1c3Y1JWRFN4LUlDbk1QOXB4Y3RiQkxYdWRWN2tRaWVxTjdac2VJaWYtS2dabUprdFplOWp3bzZaYWFPeGhWRExRVS1KLS0yNGZ5OXJwUVfSAa4BQVVfeXFMT2JVWlJEVzdGNm55RU1OYjBPbE4tTmp1YlNxUzhBeXdxTm9zampPWGdhUmtWMkdYWVNFTUxWRXhBQVFqcVMyTmNUTXJXbUNnQlpQUk9fS1dHb1dUYlMwdGpveWZ3eGRJV2l6ckZEcm93b1ZFTEk1Z1l5Rkt2MDhfVkY4NUJiSzRXSXY2UnVzRTI5Szk0YXdCYkVtUVh3VGRoVlEzdmFSdUw3bEN6ZWRB?oc=5",
     "fuente": "El Diario Vasco",
     "fecha": "2026-10-10T12:06:22+00:00"
-   },
-   {
-    "titulo": "ERC y EH Bildu reeditarán su coalición al Senado para hacer frente al \"bloque reaccionario\"",
-    "enlace": "https://www.20minutos.es/nacional/erc-eh-bildu-reeditaran-su-coalicion-senado-para-hacer-frente-bloque-reaccionario_7047407_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-10-10T11:37:01+02:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2024/01/22/li_bildu-erc-proponen-gobierno-salarios-minimos-autonomicos.jpeg"
    }
   ],
   "PNV": [
+   {
+    "titulo": "El PNV elige a Ander Larrinaga como candidato a alcalde de Llodio",
+    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSW1MZHVzNlZLaU1ESUZYdkdNUEIycnduWEVuaUpOTGhQa0FVRERhdTZ1UDhtME1jZ25QQzZ4Y1VjRXMzSkcyaV9rQ19pdG5Eam40N1VrS1dnMmdGYWZxVmJ0MS1pSkJOVmhmekM2UnpoZ2oxVS12LWlyTEZXZ3pNOVhpcnBpM3F2ZEZBN2NWRC1feWZObHZvTEVaSlgxWmfSAaQBQVVfeXFMTXZmSEt3T09EeUpnQ3VqQ1NJc05LWXo0MmFCbkxsZDA2SEhvN3ZwSUlrYXAxMmdXSUxuVHFtay1kbEQyMjB1TXZrZHQtOFVOMGVfbEVLTjRlLTJXWEtpM3Nxb1BqZjFFYndFN0h5VnpfcVA3czBfNFZueFVxWUw1Y1o5bDVfY2VNN1E3ci1sZUp4cnYxRGRzVHhtT2taM3ZEd3pqZnY?oc=5",
+    "fuente": "elDiario.es",
+    "fecha": "2026-10-10T19:46:24+00:00"
+   },
    {
     "titulo": "El PNV rechaza que se le incluya en ningún bloque tras el 29N, pero avisa a Feijóo que con Vox, \"ni a heredar\"",
     "enlace": "https://www.20minutos.es/nacional/pnv-rechaza-que-se-le-incluya-ningun-bloque-tras-29n-pero-avisa-feijoo-que-con-vox-ni-heredar_7047483_0.html",
@@ -461,12 +467,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWWIxMV9jZko2Z1VIeXQ4T2wxTlJkR19jZUJfaDY5MHdIYVRKTVNJM01Qb0phdTJVT21haTZwcjR1Q3lrVjNsUjUxcDRkR1poWWN1ZVp2eUlkVWVNcDdJSUk5WDc2djVtNkFNb0dtZGUybkthUGxPMWlzY1NXcERsQ3A3eV9xeGsxeTJld1BEYXBsRWVHeG1pX1FyN2tHczBZSVZtdFMzTHpmQQ?oc=5",
     "fuente": "Servimedia",
     "fecha": "2026-10-10T10:10:00+00:00"
-   },
-   {
-    "titulo": "El PNV avisa a Feijóo de que no pactará con Vox \"ni para heredar\" después del 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT1BBVmhPWkY0QmZabHV3QmVSQjAtSGpaUEdYczZlSDJZSnIyQ1hEdlNpY0p2NVNTOFJzWS1BSXRfMHZ1bktFZFlsZGVVR19acHRHWDVLeFhOZ0hZVUtYU2hudGdCSVJJeGM5c2xQLXpRdzdSOThXelVEME1jTkUtd0hhdWdVeFNtNjVqcFlqMVVyLUVoZ3hKX1NnaUVLR1BkcTFlVlprVkw3b05uWXVZbHpNbUw?oc=5",
-    "fuente": "El Nacional.cat",
-    "fecha": "2026-10-10T09:01:16+00:00"
    }
   ],
   "BNG": [
@@ -561,6 +561,12 @@
   ],
   "AC": [
    {
+    "titulo": "El porqué de la \"vía rápida\" de Orriols en medio de un terremoto político",
+    "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY0M4UklyWktKTmlJQ2lUS3RRUTNNeExLa2Jldkl2Ty16WVY5UDd5NUY4NHRiRjQtWFFYblpUaXZqMWZHdjF6YVBKTmVmbWFNOTdXSGtIYVcyOHFXRGdmNG1FNUg5ZUgydzAtWEhSbUFiTURrc2plaEdSakhWbDhlYkhVcjdlT2FuQTBFbHhuSXctQQ?oc=5",
+    "fuente": "El Món",
+    "fecha": "2026-10-10T19:00:45+00:00"
+   },
+   {
     "titulo": "¿Qué impacto tiene que Aliança Catalana no se presente a las elecciones generales? Los expertos responden",
     "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbHo1RVJ4Y0tjME56SU8zRV9rZE1MVDBYWWhtbUlHM2J3R2FXQk53cVJ4WDF2NzYweUN6ZVR1eldNYWdabDNxeWRzcHNreldvTWo4UXJ2WWxPNXM3aElXR19XUGFTSkZ3alZSakkzNFFxRTE1Vkl0ZjVwaHB5cGo2WE53NjR5eWZDbFdDemYwdm5hcnQ2WUhPaE1HSmVoNVZUUEFJZ3h3ZVUyNlRxcnpPTlEwbzdMaUlqTXdpRzgyQ3psVGtqVGVZU3hlR3F5ZkJwOVJlctIB1AFBVV95cUxNbHo1RVJ4Y0tjME56SU8zRV9rZE1MVDBYWWhtbUlHM2J3R2FXQk53cVJ4WDF2NzYweUN6ZVR1eldNYWdabDNxeWRzcHNreldvTWo4UXJ2WWxPNXM3aElXR19XUGFTSkZ3alZSakkzNFFxRTE1Vkl0ZjVwaHB5cGo2WE53NjR5eWZDbFdDemYwdm5hcnQ2WUhPaE1HSmVoNVZUUEFJZ3h3ZVUyNlRxcnpPTlEwbzdMaUlqTXdpRzgyQ3psVGtqVGVZU3hlR3F5ZkJwOVJlcg?oc=5",
     "fuente": "El Periódico",
@@ -577,21 +583,9 @@
     "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcWZPZFdQRk9IQzRyN1ZVTFJDQ2xzZlFhZGVQS0JxNV8wekRNajZwemd4TnNEa2VIQlZQQjVoTkl5dEpaSnNFTXVhZUNPbDZPTFRfM0RZMVoyMGRYY3lhMmZ6aFM0ZE51eEdWV2w5WER0NTVfdmJBVzdhblZJOUNFbUM0VERsUFMzVmkwOU9jUUtQbEdUbzNzMjkzU09wOHJNb1dlVTJnOGkyU215Y1E?oc=5",
     "fuente": "El Confidencial",
     "fecha": "2026-10-10T03:00:00+00:00"
-   },
-   {
-    "titulo": "Quién es Sílvia Orriols: de administrativa en una empresa privada a alcaldesa de Ripoll y líder de Aliança Catalana",
-    "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTmR6TTFtQkNQOUExbjFNeFVhaEpkZXh4UDk4OWxzZC1mY1hXTUtwNlJnUlFzb2Q0ZXV6ZTNjS2ZpY1VRQ0RZcFJfd0hzbFdKSTQzclhUd041UC1wVlhXaU9ZME1qM2NjM3BJbG5qR2tESnhkSXdOTmU3U21sNWhVRUlycUxxTWFr?oc=5",
-    "fuente": "El Confidencial",
-    "fecha": "2026-10-09T08:26:00+00:00"
    }
   ],
   "AA": [
-   {
-    "titulo": "Adelante Andalucía apuesta por una izquierda amplia de cara a las elecciones municipales",
-    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQUhESk9BM18wcU5pSWZHOWh0eGgzS2hWSE1RbUNtMUtMcl8wcXBPSU54Njk4THBGLXhaZnAxOUZIMC1jdWVMZHUzLTRkMWU3d3pLdGUtZnhKeUlkNTBkWGllbzZGX09xWk5zdEFJTW9uS29pSnB4VlE5dWdYQUI0V2VmY3M5dHJQSWtQQ3V4OFI0RDFtRVUtLW9xNUhxVWM3Y2dCZzUwOWdvbHcwWjE0cHdvd0lac3NmcjV0T19XRV9YSVZqRE5INw?oc=5",
-    "fuente": "enandaluz.es",
-    "fecha": "2026-10-10T17:08:20+00:00"
-   },
    {
     "titulo": "Adelante Andalucía plantea para las municipales candidaturas \"abiertas\" a la ciudadanía y aliarse con propuestas locales",
     "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOGxTSVZpM1pCT1J4RnpMRjhKeUZYcGFBeGJTOFBQSkQydUVScFFvZklDLTg3V0VCYkxoa0ZuSTVXcnoyNHhucnc4eUhDNU1rSzVGNk5oUVRvT25xWThxZnhWYlY1NTVnTWVpY2p4N3NTSkg2R1U2SmVrcTUyd09NVk0xcmlwdUdvSFBYbGNJRlJKa0hYZEE4ZWZaZTdnS18wekQ0TDJkTUU2czNNcG9lYXNjMXMwVHY1ektNR2w4cWlJM09tT25YaTVZMUQyV0NGTktFeEtIUmVJMERQdGV0M1pVNExCYXVackRRSmY5M0dNZFRQSVE?oc=5",
@@ -623,6 +617,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRHJ1X2Q2c2l0a2xkU2w5aWNVXzAxdC1adHY2RGVJM1IyM2ZvZUI1VnZlLVpnSkx2LTlhZHRkblZyeXd6ZlI4czJidnFHSndZMlZRR243WUloQVN1M1lnbXEySkxnM1BIMU5qYS1aUmtZMFBzejZlYk92ZUpLRnltam1Bd3JUV2Mtb3RNai1UMXp4V1E5YXhWWXZhRHJQdw?oc=5",
     "fuente": "Diario de Sevilla",
     "fecha": "2026-10-10T10:01:10+00:00"
+   },
+   {
+    "titulo": "Adelante Andalucía propone una ley para convertir los pisos turísticos en viviendas de alquiler asequible: \"Hace falta voluntad\"",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ1hoaXU4aXZXcktaZEZRS3h2NGZFVS14RjNOYlNTSWNGY0pSUVBUWlpUSEU2S09UalpHLTlqM1lHT0pLWlJ3UjZhalR3d20xQTVwT2FRWEU4Z1EzVEVRZVBPel93TmRJRGhuWkdVeGQwMm5TeW5CNnB0M1lfQmxFRlhXTWJOVVhiQWhuN3lmWjJCMHZZQVdwTVpMZEZsVzFqTnFZSzlB0gGrAUFVX3lxTE1IMWVENTF5TzN6bkN2eEd6cXRleXVFYlVXWmRwWEdLc1JXQ2MyNVFFb0t3dXdDckI1U2E4SWQ3Yi1RRzRYZzNMaXJVQ2NZSmUyUUwxRXdYRWw4UlpyamxTQmY3TWxHSVc3SE5RQlZueFozQ3Q2M2JwaXBLNWxYX1N3aWZCbVY4ajd4TEs0MVl1OGhkU3VtX2djcUc0RmFyM0lwSHpyT1pvSU9hSQ?oc=5",
+    "fuente": "El Correo de Andalucía",
+    "fecha": "2026-10-09T11:53:56+00:00"
    }
   ]
  },
