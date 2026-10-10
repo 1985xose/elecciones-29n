@@ -1,6 +1,7 @@
 :root {
   --papel: #F5F6F8; --superficie: #FFFFFF; --tinta: #17202E; --gris: #5C6575; --linea: #D7DCE3;
   --bronce: #A97E2F; --bien: #2F7D5B; --mal: #B23A3A;
+  --bronce-texto: #86611F; /* el bronce, oscurecido lo justo para que se lea como texto o debajo de un texto blanco */
   --fuente: "Archivo", "Helvetica Neue", Arial, sans-serif;
   box-sizing: border-box; color-scheme: light;
   padding-top: env(safe-area-inset-top, 0px);
@@ -99,7 +100,7 @@ main { max-width: 760px; margin: 0 auto; padding: 4px 16px 24px; }
 .tarjeta .cab { display: flex; justify-content: space-between; gap: 10px; font-size: .9rem; }
 .tarjeta .cab b { font-weight: 650; }
 .tarjeta .cab span { color: var(--gris); white-space: nowrap; }
-.etiqueta-nueva { font-size: .72rem; background: var(--bronce); color: #fff; border-radius: 4px; padding: 1px 6px; margin-left: 6px; vertical-align: middle; }
+.etiqueta-nueva { font-size: .72rem; background: var(--bronce-texto); color: #fff; border-radius: 4px; padding: 1px 6px; margin-left: 6px; vertical-align: middle; }
 .chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
 .chip { font-size: .8rem; padding: 2px 8px; border-radius: 6px; color: #fff; white-space: nowrap; font-weight: 600; }
 
@@ -149,7 +150,7 @@ details[open] summary::after { content: "–"; }
 .agenda li { display: grid; grid-template-columns: 8.5em 1fr; gap: 10px; padding: 9px 0; border-top: 1px solid var(--linea); font-size: .95rem; }
 .agenda li.pasado { color: var(--gris); }
 .agenda li.siguiente { font-weight: 650; }
-.agenda li.siguiente .dia { color: var(--bronce); }
+.agenda li.siguiente .dia { color: var(--bronce-texto); }
 .agenda .det { display: block; color: var(--gris); font-weight: 400; font-size: .85rem; }
 .fichas { display: grid; gap: 10px; padding-bottom: 10px; }
 .ficha-p { border-left: 5px solid var(--c); padding: 4px 0 4px 12px; }
@@ -534,5 +535,13 @@ details[open] summary::after { content: "–"; }
 .pregunta .ficha .copiar-enlace { background: var(--superficie); }
 .foco-aviso { margin: 6px 0 0; padding: 9px 12px; border-radius: 12px; background: color-mix(in srgb, var(--bronce) 14%, var(--superficie)); font-size: .86rem; line-height: 1.4; }
 .foco-aviso a, .nota-fuera a { color: var(--tinta); }
-.marca-aviso { border: 0; border-radius: 999px; padding: 1px 8px; background: var(--bronce); color: #fff; font: inherit; font-size: .7rem; font-weight: 700; cursor: pointer; }
+.marca-aviso { border: 0; border-radius: 999px; padding: 1px 8px; background: var(--bronce-texto); color: #fff; font: inherit; font-size: .7rem; font-weight: 700; cursor: pointer; }
 .nota-fuera { border-radius: 8px; }
+/* Teclado: la provincia que tiene el foco se marca con un borde a rayas, y no con el recuadro del navegador */
+.mapa g.prov:focus { outline: none; }
+.mapa g.prov:focus-visible path, .mapa g.prov:focus-visible circle.prov, .mapa g.prov:focus-visible rect { stroke: var(--tinta); stroke-width: 5; stroke-dasharray: 8 5; }
+/* Desde tu última visita */
+.pregunta.desde { border-left: 6px solid var(--tinta); padding-top: 14px; }
+.pregunta.desde h2 { font-size: 1.1rem; margin: 0 0 8px; }
+.pregunta.desde h2 .fecha { color: var(--gris); font-size: .9rem; font-weight: 500; }
+.pregunta.desde ul { margin: 0; padding-left: 1.1em; display: grid; gap: 5px; font-size: .95rem; }

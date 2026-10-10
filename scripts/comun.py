@@ -43,14 +43,34 @@ def get(url, **kw):
             time.sleep(3 * (intento + 1))
 
 
-def clave_empresa(nombre):
-    """'SocioMétrica/El Español' -> 'sociometrica'. Sirve para cruzar empresas entre elecciones."""
-    base = nombre.split("/")[0]
-    base = re.sub(r"\(.*?\)|\[.*?\]", "", base).strip()
-    t = base.lower()
+def _llano(t):
+    t = t.lower()
     for a, b in zip("áéíóúüñ", "aeiouun"):
         t = t.replace(a, b)
-    return re.sub(r"[^a-z0-9]", "", t), base
+    return re.sub(r"[^a-z0-9]", "", t)
+
+
+def clave_empresa(nombre):
+    """'SocioMétrica/El Español' -> 'sociometrica'. Sirve para cruzar empresas entre elecciones.
+    Wikipedia trae también estimaciones que otras empresas hacen con los datos del CIS, como «CIS (SocioMétrica)». No son
+    encuestas del CIS y no deben contar como suyas (ni para su nota ni como «la última del CIS»), así que llevan clave propia,
+    'cis-sociometrica', y su nombre entero."""
+    primero = nombre.split("/")[0]
+    tercero = re.match(r"\s*CIS\s*\(([^)]+)\)", primero)
+    if tercero and _llano(tercero.group(1)) and _llano(tercero.group(1)) not in ("cis", "tezanos"):
+        return "cis-" + _llano(tercero.group(1)), f"CIS ({tercero.group(1).strip()})"
+    base = re.sub(r"\(.*?\)|\[.*?\]", "", primero).strip()
+    return _llano(base), base
+
+
+def hoy_madrid():
+    """El día de hoy en la península. El robot corre en hora universal y entre las 00:00 y las 02:00 de Madrid todavía cree
+    que es ayer: una encuesta fechada hoy le parecía del futuro."""
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo("Europe/Madrid")).date()
+    except Exception:
+        return datetime.now(timezone.utc).date()
 
 
 # ---- Parte del robot ----

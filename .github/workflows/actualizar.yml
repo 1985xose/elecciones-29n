@@ -80,11 +80,16 @@ jobs:
           if git diff --cached --quiet; then echo "Sin datos nuevos"; exit 0; fi
           git commit -q -m "datos $(date -u +%Y-%m-%dT%H:%M)"
           if ! git pull --rebase; then
-            # Otra ejecución ha subido datos mientras esta trabajaba. Los ficheros de data/ se generan enteros en cada
-            # ejecución, así que no se mezclan. Se quedan los de esta, que son los más nuevos, y se sigue.
-            echo "Conflicto en los datos, se conservan enteros los de esta ejecución"
-            git checkout REBASE_HEAD -- data/
-            git add data/
+            # Otra ejecución ha subido datos mientras esta trabajaba. Los ficheros del robot se generan enteros en cada
+            # ejecución, así que no se mezclan: de los que chocan se quedan los de esta, que son los más nuevos.
+            # Solo los que chocan. Antes se reponía la carpeta data/ entera, y eso podía pisar un config.json o un
+            # agenda.json recién subidos a mano con la copia vieja que tenía esta ejecución.
+            echo "Conflicto en los datos, se conservan los de esta ejecución en los ficheros que chocan"
+            for f in $(git diff --name-only --diff-filter=U); do
+              echo "  $f"
+              git checkout REBASE_HEAD -- "$f"
+              git add "$f"
+            done
             GIT_EDITOR=true git rebase --continue
           fi
           git push

@@ -16,6 +16,9 @@
     "erc", "junts", "jxcat", "pdecat", "cdc", "pnv", "eajpnv", "ehbildu", "bildu", "bng", "cc", "cca", "coalicioncanaria", "upn", "salf",
     "maspais", "compromis", "cup", "upyd", "aliancacatalana"]);
   const normal = (t) => String(t || "").replace(/\(.*?\)|\[.*?\]/g, "").toLowerCase().normalize("NFD").replace(/[^a-z0-9]/g, "");
+  /* El CIS y las estimaciones que hacen otros con los datos del CIS («CIS (SocioMétrica)» en Wikipedia, clave cis-…).
+     Ninguna entra en la media: la del CIS por lo que se separa del resto, y las otras porque no son una encuesta propia. */
+  const esCIS = (e) => e.clave === "cis" || String(e.clave || "").startsWith("cis-");
   function esDePartido(e) {
     return PARTIDOS.has(e.clave) || String(e.empresa || e.empresa_base || "").split("/").some((x) => PARTIDOS.has(normal(x)));
   }
@@ -46,7 +49,7 @@
       for (const e of encuestas) {
         const edad = (fecha - fechaD(e.fin)) / DIA;
         if (edad < 0 || edad > v) continue;
-        if (!opciones.incluirCIS && e.clave === "cis") continue;
+        if (!opciones.incluirCIS && esCIS(e)) continue;
         if (opciones.excluirClave && e.clave === opciones.excluirClave) continue;
         if (esDePartido(e)) continue;
         if (!ult[e.clave] || ult[e.clave].fin < e.fin) ult[e.clave] = e;
@@ -89,6 +92,6 @@
     return { media, usadas: usadas.map((e) => ({ ...e, peso_pct: e.peso / total })).sort((a, b) => b.peso - a.peso), ventana, caida };
   }
 
-  const api = { calcMedia, ventanaAdaptativa, factorAcierto, esDePartido, PRECAMPANA, fechaD, DIA };
+  const api = { calcMedia, ventanaAdaptativa, factorAcierto, esDePartido, esCIS, PRECAMPANA, fechaD, DIA };
   if (typeof module !== "undefined" && module.exports) module.exports = api; else root.Media = api;
 })(typeof window !== "undefined" ? window : globalThis);

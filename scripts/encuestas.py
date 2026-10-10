@@ -2,7 +2,7 @@
 import re, sys
 from collections import Counter
 from datetime import date, timedelta
-from comun import leer, escribir, ahora_iso, clave_empresa, telegram_enviar, apuntar_estado, con_parte
+from comun import leer, escribir, ahora_iso, clave_empresa, telegram_enviar, apuntar_estado, con_parte, hoy_madrid
 from wikitabla import html_pagina, parsear_tablas
 
 PAGINA = "Opinion polling for the next Spanish general election"
@@ -23,7 +23,7 @@ def limpia(k):
 def tabla_empresas(encuestas, hoy=None):
     """Una línea por empresa con cuántas encuestas tiene, la fecha de la última (fin del trabajo de campo) y los días que
     lleva sin publicar. Sirve para ver en el log de un vistazo si falta alguna empresa o si una habitual se ha quedado atrás."""
-    hoy = hoy or date.today()
+    hoy = hoy or hoy_madrid()
     por = {}
     for e in encuestas:
         por.setdefault(e["clave"], []).append(e)
@@ -44,7 +44,7 @@ def tabla_empresas(encuestas, hoy=None):
 
 def main():
     titulo, revid, html = html_pagina(PAGINA)
-    filas, partidos = parsear_tablas(html, anio_defecto=date.today().year)
+    filas, partidos = parsear_tablas(html, anio_defecto=hoy_madrid().year)
     previo = leer("encuestas.json", {}) or {}
     primera = {e["id"]: e.get("primera_vez") for e in previo.get("encuestas", [])}
     # Si a una empresa se le cambia la clave (equivalencias), su encuesta sigue siendo la misma y no es "nueva"
@@ -109,7 +109,7 @@ def main():
 
     # ---- Validación dura. Si algo no cuadra, se para y se conservan los datos anteriores ----
     problemas = []
-    hoy = date.today()
+    hoy = hoy_madrid()
     corte = (hoy - timedelta(days=60)).isoformat()
     antes_por_id = {e["id"]: e for e in previo.get("encuestas", [])}
     # 1. Un partido conocido que desaparece de encuestas que ya estaban leídas: le han cambiado el nombre a su columna.

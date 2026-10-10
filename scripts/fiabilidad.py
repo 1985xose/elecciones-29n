@@ -29,7 +29,8 @@ def main():
                 continue
             clave, base = clave_empresa(f["empresa"])
             clave = EQUIVALENCIAS.get(clave, clave)
-            if not clave or (clave in ultima and ultima[clave]["fin"] >= f["fin"]):
+            # Las estimaciones que otros hacen con los datos del CIS no son de ninguna empresa: no llevan nota
+            if not clave or clave.startswith("cis-") or (clave in ultima and ultima[clave]["fin"] >= f["fin"]):
                 continue
             if all(p in f["pct"] for p in principales):
                 ultima[clave] = {**f, "clave": clave, "base": base}

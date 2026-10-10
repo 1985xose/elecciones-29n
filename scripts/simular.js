@@ -14,6 +14,12 @@ const leer = (n, d = null) => fs.existsSync(path.join(DATA, n)) ? JSON.parse(fs.
 const escribir = (n, o) => fs.writeFileSync(path.join(DATA, n), JSON.stringify(o, null, 1));
 const N = +(process.env.SIMULACIONES || 10000), MAYORIA = 176;
 const fechaD = Me.fechaD, DIA = Me.DIA;
+/* El día de hoy en la península, como lo calcula la app en el dispositivo. El robot corre en hora universal, y entre las
+   00:00 y las 02:00 de Madrid creía que seguía siendo ayer: la cuenta de días y la media no cuadraban con las de la app. */
+function diaMadrid(d = new Date()) {
+  const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: "Europe/Madrid", year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(d).map((x) => [x.type, x.value]));
+  return `${p.year}-${p.month}-${p.day}`;
+}
 
 /* ---------- Aleatorio reproducible ---------- */
 function rng(semilla) {
@@ -283,7 +289,7 @@ function analizar(encuestas, ranking, mediaHoy) {
   }
   // Centrar: de media las manías de las empresas (sin el CIS) suman cero en cada partido.
   // Así la corrección quita lo raro de cada empresa sin mover el nivel de la media entera.
-  const normales = Object.entries(sesgos).filter(([k]) => k !== "cis");
+  const normales = Object.entries(sesgos).filter(([k]) => !Me.esCIS({ clave: k }));
   for (const p of principales) {
     const xs = normales.map(([, v]) => v.sesgo[p]).filter((x) => x != null);
     if (!xs.length) continue;
@@ -331,8 +337,13 @@ function main() {
   const config = leer("config.json"), base = leer("base2023.json"), enc = leer("encuestas.json"), fiab = leer("fiabilidad.json");
   base.europeas = leer("europeas2024.json");
   const historicos = [leer("historico_2023.json"), leer("historico_2019.json"), leer("historico_2019a.json"), leer("historico_2016.json")].filter(Boolean);
+  // En 2023 Podemos acabó dentro de Sumar, pero hasta junio muchas encuestas los daban por separado. Sin juntarlos, la
+  // media de entonces contaba ese espacio dos veces (Sumar 12 y además Podemos 6) y la prueba con 2023 partía de ahí.
+  const h23u = historicos.find((h) => h.nombre === "23J 2023");
+  if (h23u) for (const e of h23u.encuestas) if (e.pct.Podemos != null) { e.pct.Sumar = (e.pct.Sumar || 0) + e.pct.Podemos; delete e.pct.Podemos; }
   const encuestas = enc ? enc.encuestas : [];
-  const hoy = new Date();
+  // «hoy» es el mediodía del día de Madrid, igual que en la app. «ahora» es la hora de verdad, para apuntar cuándo se hizo.
+  const ahora = new Date(), hoy = fechaD(diaMadrid(ahora));
   const dias = Math.round((fechaD(config.eleccion.fecha) - hoy) / DIA);
   const va = Me.ventanaAdaptativa(hoy, fechaD(config.eleccion.fecha));
   console.log(`Ventana de la media: última encuesta de cada empresa de los últimos ${va.ventana} días, el peso se queda en la mitad cada ${va.mitad} días (${va.fase}, faltan ${va.dias} días)`);
@@ -360,7 +371,7 @@ function main() {
     console.log(`  ${e.nombre}: ${(e.p * 100).toFixed(0)} %  (${e.p10}-${e.p90})${e.gobierno ? `  margen ${e.margen > 0 ? "faltan " + e.margen : "sobran " + (-e.margen)} pts` : ""}`);
   }
   console.log(`  Bloqueo: ${(res.bloqueo * 100).toFixed(0)} %`);
-  const salida = { actualizado: hoy.toISOString(), simulaciones: N, dias_para_votar: dias, media,
+  const salida = { actualizado: ahora.toISOString(), simulaciones: N, dias_para_votar: dias, media,
     ventana: { ...va, encuestas: usadas.map((e) => ({ id: e.id, empresa: e.empresa_base, encargo: e.encargo, fin: e.fin, muestra: e.muestra, peso: +e.peso_pct.toFixed(3) })) }, sigmas: cal.sigmas, calibracion: cal.detalle, curva: cal.curva, ruido: RUIDO, errores_historicos: cal.errores.map((e, i) => ({ eleccion: historicos[i].nombre, errores: e.errores })),
     ...res, metodo: "Media ponderada de encuestas (última de cada empresa, hasta 60 días en precampaña) + error correlacionado por bloques (rho 0,55) calibrado con 2016, 2019 y 2023 + ruido territorial medido 2019-2023, D'Hondt por provincia con los escaños del RD 806/2026." };
 
@@ -384,13 +395,13 @@ function main() {
 
   // Historial diario
   const hist = leer("probabilidades_historial.json", []);
-  const dia = hoy.toISOString().slice(0, 10);
+  const dia = diaMadrid(ahora);
   const fila = { fecha: dia, escenarios: Object.fromEntries(Object.values(res.escenarios).map((e) => [e.id, e.p])), bloqueo: res.bloqueo, p50: Object.fromEntries(Object.entries(res.partidos).map(([k, v]) => [k, v.p50])) };
   const i = hist.findIndex((h) => h.fecha === dia);
   if (i >= 0) hist[i] = fila; else hist.push(fila);
   escribir("probabilidades_historial.json", hist);
 
-  escribir("analisis.json", { actualizado: hoy.toISOString(), media_bruta: mediaBruta, ...an });
+  escribir("analisis.json", { actualizado: ahora.toISOString(), media_bruta: mediaBruta, ...an });
   console.log(`Análisis: ${Object.keys(an.sesgos).length} empresas con sesgo calculado, última encuesta ${an.ultimas[0] ? an.ultimas[0].empresa + " -> " + an.ultimas[0].veredicto : "ninguna"}`);
 }
 

@@ -63,3 +63,16 @@ Ruido territorial (`RUIDO` en `simular.js`): 17,3 % por comunidad y 8,5 % por pr
 Senado: `data/config.json` > `senado` lleva los senadores que designan las comunidades, por partido, con fecha y fuente. La mayoría absoluta se calcula sobre toda la cámara (208 elegidos más los designados). `simular.js` da la probabilidad de mayoría de cada partido contando sus designados (`senado`), la de las coaliciones del Congreso (`senado_escenarios`) y la mayoría que ha usado (`senado_mayoria`). Si la app ve que ese número no coincide con el de `config.json`, no enseña probabilidades hasta la siguiente pasada del robot. Si una comunidad cambia sus designados, se toca `config.json` y nada más.
 
 Polémicas (`ordenar_polemicas()` en `scripts/noticias.py`): solo las de los últimos 7 días (Google News cuela cosas de hace meses aunque se le pida la última semana), apuntadas al partido al que afectan y no al que las denuncia (`papeles()` mira si el partido va detrás de «investigar a», «condena a», «pide a»… o si es el que denuncia, pide o ejerce la acusación popular), sin titulares repetidos, con una sola por historia y partido (dos titulares del mismo partido que comparten dos palabras propias) y como mucho 4 por partido. El log dice cuántas se quedan fuera y por qué.
+
+Versión 53, pulido:
+- Las restas entre porcentajes se hacen con los números tal como se leen en pantalla (`dif1()` en `app.js`), y «igual que la semana pasada» quiere decir en todas partes que los dos números que se ven son el mismo.
+- ¿Y si…? solo repite las elecciones en el dispositivo cuando se toca algo. Sin tocar nada enseña las cifras del robot.
+- El service worker guarda una copia por fichero, sin lo que va detrás de «?». Antes acumulaba una copia de cada dato en cada visita.
+- Texto sobre color de partido: `sobre()` elige blanco o tinta oscura según se lea mejor, y si ninguno llega a un contraste de 4,5 oscurece el fondo lo justo. El bronce que va como texto es `--bronce-texto`.
+- Teclado: las provincias de los mapas y las tarjetas de encuestas reciben el foco y se activan con Intro o con la barra.
+- «Desde tu última visita» (`pintarDesde()`): la app guarda en el dispositivo (clave `visita`) la media, los asientos, la probabilidad del bloque que va delante y las encuestas de los últimos 60 días, y al volver otro día dice qué ha cambiado. No sale del dispositivo.
+- Sin `encuestas.json` la app enseña el resultado de 2023, y ahora lo dice en un aviso arriba y en la primera respuesta.
+- El robot usa el día de Madrid (`diaMadrid()` en `simular.js`, `hoy_madrid()` en `comun.py`), no el de la hora universal.
+- En el histórico de 2023 Podemos se suma a Sumar antes de calcular nada, porque acabaron en la misma lista y hasta junio las encuestas los daban por separado.
+- Las estimaciones que otras empresas hacen con los datos del CIS («CIS (SocioMétrica)») llevan clave propia (`cis-…`) y no cuentan como encuestas del CIS para su nota. Tampoco entran en la media (`esCIS()` en `media.js`).
+- Flujo de GitHub: si al guardar los datos hay conflicto, solo se reponen los ficheros que chocan, no la carpeta `data/` entera.
