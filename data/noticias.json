@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-10-10T09:48:53+00:00",
+ "actualizado": "2026-10-10T10:01:50+00:00",
  "generales": [
   {
-   "titulo": "Elecciones generales del 29-N, en directo | Feijóo arranca la precampaña del PP en Madrid junto a Ayuso y Almeida",
-   "enlace": "https://www.elespanol.com/espana/20261010/elecciones-generales-directo-ultima-hora-pedro-sanchez-sondeos-actos-precampana-psoe-pp-vox/1003744416009_10.html",
-   "fuente": "El Español",
-   "fecha": "2026-10-10T11:44:00+02:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11374987.png?p=g:fp:0.46:0.27/w:1706/h:960&h=GWK4gtag"
+   "titulo": "Feijóo llena un auditorio de Madrid en su primer mitin de precampaña y cientos de personas se quedan fuera",
+   "enlace": "https://okdiario.com/espana/feijoo-llena-auditorio-madrid-primer-mitin-precampana-cientos-personas-quedan-fuera-20525514",
+   "fuente": "OKdiario",
+   "fecha": "2026-10-10T11:57:22+02:00",
+   "imagen": "https://okdiario.com/img/2026/10/10/frame-pp-gente-fuera-1.jpg"
   },
   {
-   "titulo": "La oposición socialista a Page respalda a Tolón como cabeza de lista al Congreso y al alcalde de Noblejas al Senado",
-   "enlace": "https://www.abc.es/espana/castilla-la-mancha/toledo/oposicion-socialista-page-respalda-tolon-cabeza-lista-20261010112405-nt.html",
+   "titulo": "Sigue en directo el acto de precampaña de Feijóo junto Ayuso y Almeida en Madrid",
+   "enlace": "https://www.abc.es/espana/sigue-directo-intervencion-feijoo-acto-junto-ayuso-20261010103859-nt.html",
    "fuente": "ABC",
-   "fecha": "2026-10-10T11:24:06+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/10/1506403362-RfUk8zqCDeFwxp1ud8Q3biK-1200x840@diario_abc.jpg"
+   "fecha": "2026-10-10T11:54:24+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/10/1518461246-RbjKfatpI8KwNcqQCixAxSJ-1200x840@diario_abc.jpg"
   },
   {
-   "titulo": "ERC y Bildu acuerdan reeditar su coalición electoral en el Senado",
-   "enlace": "https://www.larazon.es/espana/erc-bildu-acuerdan-reeditar-coalicion-electoral-senado_202610106ac9ff8efb06971aadffc3aa.html",
+   "titulo": "Adelante Andalucía se reivindica como el \"voto útil\" en las próximas elecciones",
+   "enlace": "https://www.larazon.es/andalucia/adelante-andalucia-reivindica-como-voto-util-proximas-elecciones_202610106aca0aafbafd3d73635cc4fa.html",
    "fuente": "La Razón",
-   "fecha": "2026-10-10T11:04:21+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2025/08/25/5EFB88F7-D5A2-447D-980C-85921C29EB5C/96.jpg?crop=5711,3212,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   "fecha": "2026-10-10T11:51:43+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/10/58F74771-B419-497F-9748-F0B25C0618FB/96.jpg?crop=1280,720,x0,y117&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
    "titulo": "Vox ve las elecciones del 29-N como la “última oportunidad” de “recuperar” España y alerta: “Puede volver a ganar Sánchez”",
@@ -75,11 +75,17 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Elecciones generales del 29-N, en directo | Feijóo arranca la precampaña del PP en Madrid junto a Ayuso y Almeida",
-    "enlace": "https://www.elespanol.com/espana/20261010/elecciones-generales-directo-ultima-hora-pedro-sanchez-sondeos-actos-precampana-psoe-pp-vox/1003744416009_10.html",
-    "fuente": "El Español",
-    "fecha": "2026-10-10T11:44:00+02:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11374987.png?p=g:fp:0.46:0.27/w:1706/h:960&h=GWK4gtag"
+    "titulo": "Feijóo llena un auditorio de Madrid en su primer mitin de precampaña y cientos de personas se quedan fuera",
+    "enlace": "https://okdiario.com/espana/feijoo-llena-auditorio-madrid-primer-mitin-precampana-cientos-personas-quedan-fuera-20525514",
+    "fuente": "OKdiario",
+    "fecha": "2026-10-10T11:57:22+02:00",
+    "imagen": "https://okdiario.com/img/2026/10/10/frame-pp-gente-fuera-1.jpg"
+   },
+   {
+    "titulo": "Pedro Sánchez y Alberto Núñez Feijóo arrancan este sábado la precampaña electoral: cuál es la diferencia con la campaña electoral",
+    "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOd2M1UVNjclcwUUNhNXJCYmwtQzFxQ1FiMWpJc0Rfb19GM2ZObW5abktOWmdkcTFMcEU5RER1SVRCM2hycURjOEo3MkZpek5wT1BpX0pMakZoaXIxSWRQTzdWVjhyNE1saDlibTRRSVJQSmliZDdiTEVKUVo1cjF5R1FKMmVvdG9QQWVGUlhFRWI5Y3M1NmZmVEFfallHWVgzSEpsSnlaanYtM3JESXM1Rk5yNXY3OFFNcjQ4SUNIbklzc1ktdy16RUlyYjFnUXlqejBkUktBZ3V4cUxrejFNZzJ3cnpmaVNRMWJwSEQxVnlKeXVWeEFhWU5qZWpXSFU30gGbAkFVX3lxTE8zZ1NWbFVsX0lNS2M0QTAzQjA4aFZLTEJMb3UyWGRiVG5vVll2aWVmSXZwQ1Bzb05TOHpNV0lPbjBMdS00MEpXc19ZQS1rQ2tieGdkMU1WX1ExVWtPeEZGaDdpM3dfaFlpU1NfdkVPamJ1NVA3WTVLcDQ2dXhoN0NaazhFX3V6UmxwNlB2c1dFbnlJTlZEQ3hPcTBBZzVIclZFUnFIX2JtamJxTEFpTGtNeGEzMF9NRzB4NkNpRDlxRUlfRTJMcm45eXNiVlRkSW9sODBRMFFuMDdBQnd3ZjQxbFVyem5xZVRCS0RZRExGMG9QaHFkaFJ6enF6c1lONzdETnFoRWticDRxNEM5X1NsSUp5ODFEemp6YlE?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-10-10T09:47:58+00:00"
    },
    {
     "titulo": "Feijóo ante su segunda, mejor y última oportunidad: Sánchez está en la lona a 50 días para las elecciones, pero hay un riesgo a la derecha",
@@ -94,24 +100,16 @@
     "fecha": "2026-10-10T08:16:54+00:00"
    },
    {
-    "titulo": "Última hora tras la muerte de Maricarmen | El PP asegura \"no haber utilizado nunca\" el caso de Maricarmen para \"hacer política\"",
-    "enlace": "https://www.lasexta.com/noticias/nacional/muerte-maricarmen-reacciones_202610086ac7365dfb06971aadfe2410.html",
-    "fuente": "laSexta",
-    "fecha": "2026-10-10T08:05:15+02:00",
-    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/10/09/40B7F95E-A5F3-4670-8E34-AB0616967AA2/secretario-general-director-campana-miguel-tellado_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Elecciones generales del 29-N, en directo: Sánchez y Feijóo arrancan la precampaña con actos en Sevilla y Madrid",
+    "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZWNuVXVuSm1hZ1RjWTVva3Y2dlZaNWZMdkdQMG1Nc2pKbFhEWjB6ZDdZbUxLQkFaOURkVEFlVGw4WERzRGh2Zy1ab0NlS1IwWnpjME91U3JLU192dnJ6aDZsR2Nfb1dHV0VUWlJoaGI2SFlOcUJJOENVVjRLZVF4c054SzdmS1UzeGNTZ2xsS2RNZVZfVmo3ejh6aGNxb0x3VzZiYjFucVlGTUZZUEFRYUc1N0NYTUVvY3FYQ0tjaXRjZF9BRjB1dldtRUJsbC1WQlI0MmsyM01FaVlmYmxrUGFB0gHnAUFVX3lxTE5uZjE2ZFFqQlpHcGg2Rk5sSG5nbVllMWw3VVZ1YUVSd2hadnJZZVpBdHhLVXpncjJSLThxVlgyaExpUVdZNWNHVS1RaXpHbGREcl9TWU9ZYTU0S3BJSy1LOWNkSmdoTU1xY1lyZy1BdnRNN2FUNEtpTDU1UzVyMVkzY3ZLQWFDb3J6S3BNTmtCSzlqR1h3Mncya1plaENPbkRqXzNJRDVVazZwZ1Qtc3dOVTdzT1BfOW82TTdOYkhTM3hKZUhTVG1WX1FmdHBrVDNtX3RYSXRyeHVDWXlXYjBFbjdRZ1BlUQ?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-10-10T08:12:18+00:00"
    },
    {
-    "titulo": "El PNV rechaza que se le incluya en ningún bloque tras el 29N, pero avisa a Feijóo que con Vox, \"ni a heredar\"",
-    "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUmE0ZndsR0ZVWWV1QzBzNm1rLUJic3M5dUZ4TXU3bE9UVW51SVd0akRUS19tMW1UZVdfTS1nRkhTcU5VV2laS2swTE9zMkFZdVFJQWN1RENSbzBuSDg5WGFmOW01cVFNVy1TZEtENVRCeHlHTnNFS1FuTkt4RG85OGlvYkNha1BjQXdYQ9IBjAFBVV95cUxQZ3UwSG5IRmd5bFk5Y2hWV0RLUlB4d0pQWHVyXzFxTGRGZWNpUDF1V2hGSkFjRHl3bnkxekhFMjJDX2hPSTBFa3VNUDFtUVQtRjJSb0dCc1phU0tFVi1UdVJBZUNic0djOTdNV0VoY1hjMlcwajd1WGk4Y1pTak9rQWVaVTRia2t2bFl3eg?oc=5",
-    "fuente": "El Periódico",
-    "fecha": "2026-10-10T08:02:07+00:00"
-   },
-   {
-    "titulo": "El PP contrapondrá sus propuestas con los últimos años de escándalos de Sánchez en una campaña electoral que prevé \"muy sucia\"",
-    "enlace": "https://www.20minutos.es/nacional/pp-contrapondra-sus-propuestas-con-los-ultimos-anos-escandalos-sanchez-una-campana-electoral-que-preve-muy-sucia_7046763_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-10-10T07:44:31+02:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/08/6ac7c612252456-80679098.jpeg"
+    "titulo": "Feijóo abre la precampaña en Madrid junto a Ayuso y Almeida",
+    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZzhRd3FtalJVY2NpOGVoc1JsaGJKaFVPLVlLbW1PMzZlZ2U1QkRQNEVreTNxVmFDWWFUZ3RTb0tEWWs5MFNrczVDbW9KaVphZHY5cWh0MS1taVlFU2xySk9xYTZjY0kyRTJFa1diVGVNQjlFLVNScFlTVEhsM0l0YlhqczEzRjVzOFEyWVFVWkhvR3VjcEluUElPTm1oTk5zSU9Ta3ZLbUIxVFJrbTJqVUNoaGJ5WjVuZmFUa1RqSG44TVR6ZmfSAcsBQVVfeXFMTUNCOWVCWlpXakp0ZUtlazNCYnI2WnUzWW5hN2N5OGFneFZ2eWgxem5zRTI1VmI1MVNmM0Vfd0ZaeWFMcDNiWkdfaWlmMmJSQ3RaSzBCOXhMSzBNSW1ZbGZmSTcwNmkwOGxGSi1QYmFNRExBZVVsZVYxTVZZMy1ETnFPRDZmX3VYREFjSENGQTgycUo3SFRPWWRNUFFTS1Z3YUh0dVdGa1YxUm1VYzZ1Q2t5VGhXcTgtQk5HdEVadVpiNVpKQ1BOMy1sbWM?oc=5",
+    "fuente": "El Diario de Madrid",
+    "fecha": "2026-10-10T08:09:20+00:00"
    }
   ],
   "PSOE": [
@@ -130,28 +128,28 @@
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/05/18/6a0b85a2862af.r_d.1797-875-0.jpeg"
    },
    {
+    "titulo": "Vicente Vallés, convencido sobre qué hará Pedro Sánchez si pierde las elecciones: «Es lo normal en las democracias occidentales, pero no creo que sea su intención»",
+    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYnF5MVBKTnZSQ013M29WUGloMzdUejhueks2djJ0SnBTWHpzUE5PdmUxTXVQOFBXMW9xdXpfNEpYdUtUM1RkQ0pQdVRJQWJfNVZvNUt4cVc4d0tzMmJCYTM2eG9EXzYtVnRmcThqVWdnQS1Gc0dSOUdCTGhkMGVPR252SzE1c2h6a3BVd1hVUURkUlFxbGNtYy03NV9sVFFtMW5vQjdPNFZGc29hTGJFOW1KUV9WREV10gG-AUFVX3lxTE5CS1FjcVdKMFRmbEVQM29Bb0ZFMTBOYzZJaU9aM3NOVzFXSm5KTHdxWVU2dkFsZ1B5YVlpTnNsdVZnOUZVdVNEVVByU3VZdTVUT0FXUy1kUms4VnQ1X2ZFSXYxODUwbGFsS0xBTWlGdUhNb1ZHWWNEeFdWdnQzalc5bFUtWGdidDhweWdJcWEwRXJKaE5vZW9vM1dVR3l4ajl2Sy1JT0gwYTk0dkVXcms0VHA1NG5TaGNzbTdlOXc?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-10T10:01:18+00:00"
+   },
+   {
+    "titulo": "Pedro Sánchez y Alberto Núñez Feijóo arrancan este sábado la precampaña electoral: cuál es la diferencia con la campaña electoral",
+    "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOd2M1UVNjclcwUUNhNXJCYmwtQzFxQ1FiMWpJc0Rfb19GM2ZObW5abktOWmdkcTFMcEU5RER1SVRCM2hycURjOEo3MkZpek5wT1BpX0pMakZoaXIxSWRQTzdWVjhyNE1saDlibTRRSVJQSmliZDdiTEVKUVo1cjF5R1FKMmVvdG9QQWVGUlhFRWI5Y3M1NmZmVEFfallHWVgzSEpsSnlaanYtM3JESXM1Rk5yNXY3OFFNcjQ4SUNIbklzc1ktdy16RUlyYjFnUXlqejBkUktBZ3V4cUxrejFNZzJ3cnpmaVNRMWJwSEQxVnlKeXVWeEFhWU5qZWpXSFU30gGbAkFVX3lxTE8zZ1NWbFVsX0lNS2M0QTAzQjA4aFZLTEJMb3UyWGRiVG5vVll2aWVmSXZwQ1Bzb05TOHpNV0lPbjBMdS00MEpXc19ZQS1rQ2tieGdkMU1WX1ExVWtPeEZGaDdpM3dfaFlpU1NfdkVPamJ1NVA3WTVLcDQ2dXhoN0NaazhFX3V6UmxwNlB2c1dFbnlJTlZEQ3hPcTBBZzVIclZFUnFIX2JtamJxTEFpTGtNeGEzMF9NRzB4NkNpRDlxRUlfRTJMcm45eXNiVlRkSW9sODBRMFFuMDdBQnd3ZjQxbFVyem5xZVRCS0RZRExGMG9QaHFkaFJ6enF6c1lONzdETnFoRWticDRxNEM5X1NsSUp5ODFEemp6YlE?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-10-10T09:47:58+00:00"
+   },
+   {
+    "titulo": "Sánchez inicia la precampaña con un acto del PSOE en Dos Hermanas, en directo",
+    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZWlxZ0JZM2N3QVpfRHZRcXVBQTI4ZEV0bEVpUV9EQVVTb2hmSWEzVFhvek1TVDN0Y2hDNjV2YW1XbXNZbG1FMVFVVnBOeVRtaFk1RUVBd3o4dXNyNS1pRVRkUncwaG13Z3pQZXJiZ0FJNnA5cXFMTWtDaWNxc01LbWNHblN5Y1RTYUxkbGJUY0lNTWVVcHczVGlBdWNyUQ?oc=5",
+    "fuente": "RTVE.es",
+    "fecha": "2026-10-10T09:30:36+00:00"
+   },
+   {
     "titulo": "El PSOE de Los Santos de Maimona designa a Ignacio Camacho como candidato a la alcaldía en las elecciones de 2027",
     "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM2R6MDdGMFI0a0Rwd242QlEyMWx6TGdlZVVMNXc5WDF6Njc2d0RwSTFHZmlQZERtWlBfXzc2cmR6V2FvR0huWkNyYU4wc05CYUhLOWRWV3d3M3ByR1BlaUd1R0l6VWZqRGhiNDZyQ1hrckhxNzRtX0RsMGZpVko3dHhPWmI3NGFMOWxveFZ6WHlpY0VBLVJoM0luYnlqZ2xPT2ZkSDVZQS1pUEd6cERoX3c5WjE5bFR4MkhiM21TRkxhdHhTZVJicWUzcDhzZXdVV2FTblNNV21GcVpuUUE?oc=5",
     "fuente": "Europa Press",
     "fecha": "2026-10-10T09:01:50+00:00"
-   },
-   {
-    "titulo": "Sánchez regresa este sábado al feudo socialista de Dos Hermanas con un mitin para lanzar su precampaña",
-    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVnlsTHB3UjhoOGJPOGZWNjJJeU1OMHVBbFMyeUw1UkJTTEM4WnhRRERVY09DYjRmVmZmczZmaThOLU9iRGlQeFdvYXRHNVJ5SmlCV2V1eEdrNVp3YUU3b0RBUG8zS2VWNmx5XzNBS2RtLUNsSHFOTmJ5V2NSTHppbW95blNzMmgwNmxuaUVpSGtKYWFFdFpFM0h4WnpIVWPSAZ8BQVVfeXFMTVZ5bExwd1I4aDhiTzhmVjYySXlNTjB1QWxTMnlMNVJCU0xDOFp4UUREVWNPQ2I0ZlZmZnM2Zmk4Ti1PYkRpUHhXb2F0RzVSeUppQldldXhHazVad2FFN29EQVBvM0tlVjZseV8zQUtkbS1DbEhxTk5ieVdjUkx6aW1veW5TczJoMDZsbmlFaUhrSmFhRXRaRTNIeFp6SFVj?oc=5",
-    "fuente": "El Periódico",
-    "fecha": "2026-10-10T08:19:36+00:00"
-   },
-   {
-    "titulo": "El Senado ya tiene casi 60 escaños asignados al margen de las elecciones: 23 para el PP y 19 para el PSOE",
-    "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNeFpUZ3B0eWVVeFQwdmZ5UXBId2tHbGxmeG9MMUVDbjZTMmRRNi0xeUExOUZSbURZbWZ2VWNZNzR1TXpVd0lRTF9PWjZwaVl4dTgxMzBLUlNvbDRGdjZ1cVhaNEFqb0hrOTh1d09lV3J0Vy0yeG9JdkxRNXc1ckxIbUE1TnR6ZVN6YW10UHNUVF9aNENwWVNpM056SVlvMS1BbGpRNnN1bkdnTU5RdTMzM2pXb2xqTnMtUzkzbjNXNTk2X3JxNXdZdV94NVI5V1M2c09tSTJRWVl1RUhqYmFaWVZKU000SzJUT2NzZGdtTTN6N3ZzR19zdVVR?oc=5",
-    "fuente": "Diario del Alto Aragón",
-    "fecha": "2026-10-10T08:16:29+00:00"
-   },
-   {
-    "titulo": "Sánchez vuelve a Dos Hermanas con un mitin para iniciar su precampaña",
-    "enlace": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNbWp6V1pzZnY5ZmpUZFUySlJsVmZ5TGhBc0VaMVdHa3VVd1AyTlVGSEVJNDRuZ19qRU5Pd0h1SDJlM3NyS0lkZXVMQm9qenM0VmhmZmszeVMxU3RXbVZGbnZUQUNIRzNnci1RV3UtcDNvYXVvd2xFMnBuSWJ2bWVURWVCU1d2Tmc5cVVwb2JkYTlKOWFmN3B6elF6ZHhJYVBjYVdDZ3dxMlp5QnpwVXJuc3Jfem9NRVlnR0lzem1uR3FXdWhvbWhmYjVWR21aWnVvRUlLdDhrUVlyM2hyd253Um9VWG9FUXhjZXB4RUdzenQzYjZrRHpGcVRjMUc4bm13a1l3WkJnQW9nQdIBjwJBVV95cUxQVjdKcV9lRlJXM1AyRWdTb0wwXy1ScTlSZEh4S3N6aXMybWpObGlPeV9RbnJwYmxLQVU4RDNtaGo3Q1RuSm9rY3BuTWJyWDMyUHN6RzRCX3h3c2xsZmh2QzVOblVfQ2hQZzBPR20zSEM1bmR3MUg1RmRteFVPZVJLY1dQNU9TZ2NhaklyYjZsUkUzRzJOWEloRjFlUVloOXV6VjFtTU9rWDdoMTBUUzN3bFNUVDB3dEY4MWpOY1BFeXBhN1lqb051WE1oWDhGX19Gbk5QZ2R0VXU1cUlqbng5a3JuZmVRNHAzQ09sLUNEZTMyWE5tMTA0eHIxUVRUUEdIdEdXajBwQjk2RHNwbWww?oc=5",
-    "fuente": "Andalucía Información",
-    "fecha": "2026-10-10T08:02:51+00:00"
    }
   ],
   "Vox": [
@@ -171,9 +169,16 @@
    },
    {
     "titulo": "Adelante Andalucía se reivindica como el \"voto útil\" en las próximas elecciones para \"pararle los pies\" a PP y Vox",
-    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVFF6ZFJBUTFSMUhzN3J6VHRwamZIbk5IMXp3cTdubjNINDJMSTItR21NVFV3WWozLVRLR1dhaFZNaHlIb1JQdFlYOU5qQ0MwLWtla1FDOTAyNXRFelVVcnNwUjdBNml5V0YzLWM3Zk14QUoyTGFfQUMxSG9PR3VKSzctX01jUXItRGtVMmNRajd6THBnWFRuQUM3Rng3a0lQQnhoVHRUM1Y1RGhZcDMyZFM4TjV1N1ZWREVTQ3Nuc3JLT3lna1NleHQxY05wWGlQWmozWk1pOE5GVUhq?oc=5",
+    "enlace": "https://www.larazon.es/andalucia/adelante-andalucia-reivindica-como-voto-util-proximas-elecciones_202610106aca0aafbafd3d73635cc4fa.html",
     "fuente": "Europa Press",
-    "fecha": "2026-10-10T09:43:51+00:00"
+    "fecha": "2026-10-10T09:43:51+00:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/10/58F74771-B419-497F-9748-F0B25C0618FB/96.jpg?crop=1280,720,x0,y117&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Abascal inicia precampaña en Estepona y prepara la Hispanidad en Ceuta",
+    "enlace": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPTFlkcFZNT1kxTS1uQjctcW5xQ052cVRHd2x2eG42a0VLMzk0aFNjcUoyYU5TbWxJWnpjZTNDOEl3Wl9qdklmWV9uOW91MHlHNzI3emNIT0JvYVBzbDRmT3hmWlFLYndSeHdZc0V3T01GN0FSZkxPcjA5c0RXSFNiLWRabkVzNENBS1FqQnFsMWtzUGJITFRyZVo5dDdlRElKT2pES1NXME5TZFRCc3NYMk82b2N2RVEyc3ZlZW9SZVRxZUt3V3FldWxTaE9QTGNjYVdjcU1IZjFLdlduMzBNX3RRaDNwT2pjbGhmYWdLR2tXT1hHOGtXNzNMVmFFeUpkR0pmckJ5b0JpU3hOZG9vTUNqSdIBkwJBVV95cUxPTFlkcFZNT1kxTS1uQjctcW5xQ052cVRHd2x2eG42a0VLMzk0aFNjcUoyYU5TbWxJWnpjZTNDOEl3Wl9qdklmWV9uOW91MHlHNzI3emNIT0JvYVBzbDRmT3hmWlFLYndSeHdZc0V3T01GN0FSZkxPcjA5c0RXSFNiLWRabkVzNENBS1FqQnFsMWtzUGJITFRyZVo5dDdlRElKT2pES1NXME5TZFRCc3NYMk82b2N2RVEyc3ZlZW9SZVRxZUt3V3FldWxTaE9QTGNjYVdjcU1IZjFLdlduMzBNX3RRaDNwT2pjbGhmYWdLR2tXT1hHOGtXNzNMVmFFeUpkR0pmckJ5b0JpU3hOZG9vTUNqSQ?oc=5",
+    "fuente": "Andalucía Información",
+    "fecha": "2026-10-10T09:15:43+00:00"
    },
    {
     "titulo": "Abascal arranca mañana la precampaña en Estepona (Málaga) con el foco en Ceuta, donde celebrará la Hispanidad",
@@ -186,12 +191,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdTRKeEo5MjdvTUpWcUVOaUtBLXJJSlpCU0Y4d2xwSXhhWnNKa0NaWjdoUXZhTlVTOGd3LVF4VWNnQy1KQVVFYUJGQUxiRTROb0lqc25qbEtsZW1xdGc4OVdsa3R4VEpobzVYcTk3Mlg0U2tZYkVHZ0cwaC00SGxLRzRLT0pacG1Dd25CMDdCcmxEZFY0TGlHblpISk1WMzRHLWdHaDBtTlJ6akRfZFZZejlKYkhoYWJLOTlOMGhrMDlYZ9IBxwFBVV95cUxPNWxrSEJObFg1MGE0SEJBNWJxS1FTbUhpTWN4XzhxVDZBdGo0dEFEdW5QZGFaeXppXzRNX0NyVkNDVXpYUkR6dmU1SXR6WW1GbVN1T2ZXZ25VbjhqSlpQWDlJSml3VEFzRGc3MGpMdGtxU1ZGb3VBSTItUFRIaE9aRERFdktrenlsRVBKR3VuQ0ZuclFORmMyTVl4YWlzM0tEeDdEOTZQZlVEUEZ5YXAxMXJsT3VqMkdOU05mYlduTnlZRlB3SkI4?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-10T09:00:35+00:00"
-   },
-   {
-    "titulo": "El PNV ‘pasa’ de bloques tras las elecciones y avisa a Feijóo: “Con Vox, ni a heredar”",
-    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX2NoNHdSUlFKOExsYWtEaVpXYXRiU0RteVljX3hOWmMzaXZpZnRFb2hDLXRGMFVWSS1YQktqUDdGQTNWd0hUUmw5dHRkUEVBU1J4Y1VzMXJITGhvenhRTF9BRU9hOEpPdTVhVmRmeFRBYm13bG9hMGNaNTJDOElzbm1PLUVBdTd4cERZcWVSUmtzM0RZelR0dFlJV2NiemNiMTVXS0l1Y3JMZk00UXk40gG0AUFVX3lxTE9DVEtRd01wQmljVUVxMHBxWUhSNWJFQTZMUXcyeEVfVDJHNl9OcFczZ2xCXzdsWFpmYldSa2hpZk9ObkxlT1h1cXRXN25SU2hYVGgtQjg1VlJYb1RseW1wNXBzRmxlc19nRHFXbDBnS21JRlpQZURyRmRsUFpIczF0b1p3eWVBWm5JaHJkeDJzQ3N4RWFHZzNmS3RJVXN6M3ZfV0NfeUhHNl9BTHBHNWU5VWR1SQ?oc=5",
-    "fuente": "Elplural.com",
-    "fecha": "2026-10-10T08:16:54+00:00"
    }
   ],
   "Sumar": [
@@ -285,9 +284,9 @@
    },
    {
     "titulo": "Feijóo abre la puerta a pactar con Vox mientras Alvise y nuevos partidos disputan el voto de la derecha",
-    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaXVEYU15U3cyeTFhcWdxaFdENGNfeDRnNlhNRWU0ZWdudWE0VHBLSmVORWt0ZXc2czR0YkJSMXJ3cnpwZllVNmw1QVpxbDU3cWJ5eVVXR1lYTXdZV0xnZ0plQkpLLVR0dnA4REY1ODdfdWNfMDdITVRtb0NfRkd1VjlLT3NaTXpFQ2p0emxiTDNlTlN1MTI0UUU4MFNOTEtLV0dGa0V0YkptemlfdGJFWHVkR2EyUEh1NGNJck93elhPRGIzU2NpbnF6cjE2T2PSAc8BQVVfeXFMUGl1RGFNeVN3MnkxYXFncWhXRDRjX3g0ZzZYTUVlNGVnbnVhNFRwS0plTkVrdGV3NnM0dGJCUjFyd3J6cGZZVTZsNUFacWw1N3FieXlVV0dZWE13WVdMZ2dKZUJKSy1UdHZwOERGNTg3X3VjXzA3SE1UbW9DX0ZHdVY5S09zWk16RUNqdHpsYkwzZU5TdTEyNFFFODBTTkxLS1dHRmtFdGJKbXppX3RiRVh1ZEdhMlBIdTRjSXJPd3pYT0RiM1NjaW5xenIxNk9j?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNM2ltYVFNNUdDdkVlcDBBREViajdaYnBxd09RSmMzMHc4RzhyV0U4eWlJS1ZXZkxTUFh6T0dVVXU3cFYyRUZybWlVZmxmU3FqdC1zYk9WemZSTUIxNDRTSlNVTWx6bFd4ZG1VWUJ4MVI5ZHMtWlR4NFh1bk9oXzFjUjF2dUd4cUJWWUZtZU1zdzg1bmhESzVyMWFWQURMamlYc2FBZE82OU1OQ3dEQmNlVVBLV3hPa2t4LW92ajRtVFpMem9iYTVSWWZR0gHPAUFVX3lxTFBpdURhTXlTdzJ5MWFxZ3FoV0Q0Y194NGc2WE1FZTRlZ251YTRUcEtKZU5Fa3RldzZzNHRiQlIxcndyenBmWVU2bDVBWnFsNTdxYnl5VVdHWVhNd1lXTGdnSmVCSkstVHR2cDhERjU4N191Y18wN0hNVG1vQ19GR3VWOUtPc1pNekVDanR6bGJMM2VOU3UxMjRRRTgwU05MS0tXR0ZrRXRiSm16aV90YkVYdWRHYTJQSHU0Y0lyT3d6WE9EYjNTY2lucXpyMTZPYw?oc=5",
     "fuente": "El Boletín",
-    "fecha": "2026-10-10T05:20:25+00:00"
+    "fecha": "2026-10-10T05:10:23+00:00"
    },
    {
     "titulo": "El Supremo confirma la condena a Alvise por mensajes contra el jefe de Policía de Canarias",
@@ -317,11 +316,11 @@
   ],
   "ERC": [
    {
-    "titulo": "ERC y Bildu acuerdan reeditar su coalición electoral en el Senado",
-    "enlace": "https://www.larazon.es/espana/erc-bildu-acuerdan-reeditar-coalicion-electoral-senado_202610106ac9ff8efb06971aadffc3aa.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-10T11:04:21+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2025/08/25/5EFB88F7-D5A2-447D-980C-85921C29EB5C/96.jpg?crop=5711,3212,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Fin del culebrón en ERC: los republicanos anuncian que Rufián será su cabeza de lista en el Congreso",
+    "enlace": "https://okdiario.com/espana/fin-del-culebron-erc-republicanos-anuncian-que-rufian-sera-cabeza-lista-congreso-20525515",
+    "fuente": "OKdiario",
+    "fecha": "2026-10-10T11:55:47+02:00",
+    "imagen": "https://okdiario.com/img/2026/10/10/imagen_recortada-2026-10-10t115432.138.jpg"
    },
    {
     "titulo": "ERC y Bildu reeditan su coalición en el Senado para las elecciones generales del 29-N",
@@ -329,6 +328,19 @@
     "fuente": "La Vanguardia",
     "fecha": "2026-10-10T09:20:30+02:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/09/16/6aaa7659dcc11.r_d.2116-2499-0.jpeg"
+   },
+   {
+    "titulo": "Gabriel Rufián encabezará la lista de ERC el 29N tras su pulso con Junqueras",
+    "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNW5JNlNVdldMcm5iSE43b0NVMXZscWw3OWJUc2htbVFDcXdxUFl4bDM2ZTkySlZJN3Y4MU82SE5kUVBFblB1UmVwb2p0QUNWbUVNV3BpelZ3aUhvREEzZGszdDlXN1dweHhqZG5Kb0NDN3lTRG5aNjA1MkFhd1VTVU5GUUpZdjMy?oc=5",
+    "fuente": "BilbaoHiria",
+    "fecha": "2026-10-10T09:09:27+00:00"
+   },
+   {
+    "titulo": "ERC y Bildu acuerdan reeditar su coalición electoral en el Senado",
+    "enlace": "https://www.larazon.es/espana/erc-bildu-acuerdan-reeditar-coalicion-electoral-senado_202610106ac9ff8efb06971aadffc3aa.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-10T09:04:14+00:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2025/08/25/5EFB88F7-D5A2-447D-980C-85921C29EB5C/96.jpg?crop=5711,3212,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "ERC contará con Gabriel Rufián como candidato para el 29N",
@@ -341,19 +353,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWDV0cDk4TEctZnQyazEzVWkyTlZyZWhQSHAzbzFTdk1YLUxZOXkyczg5TnoyY2xJazRUWW5pc1R1WVdXZG0tUGJTMS1rdk1DQWpUemhzLUJEeUlPUWFWdlNpMG1GekhMWE5tNGx1YU5BSHhxb3lELWJmbnpQYTFTNFBCVS04QUlqZWRsZ1FZVG1KYjYwQXU0eTdOMGRsZ0V6Qk1HTEVVdGI1WERJMUJuY0wzTHVRalJ0ZjVRNHBtWjlJQXNtVWJibNIByAFBVV95cUxQWDV0cDk4TEctZnQyazEzVWkyTlZyZWhQSHAzbzFTdk1YLUxZOXkyczg5TnoyY2xJazRUWW5pc1R1WVdXZG0tUGJTMS1rdk1DQWpUemhzLUJEeUlPUWFWdlNpMG1GekhMWE5tNGx1YU5BSHhxb3lELWJmbnpQYTFTNFBCVS04QUlqZWRsZ1FZVG1KYjYwQXU0eTdOMGRsZ0V6Qk1HTEVVdGI1WERJMUJuY0wzTHVRalJ0ZjVRNHBtWjlJQXNtVWJibA?oc=5",
     "fuente": "Crónica Global",
     "fecha": "2026-10-10T08:58:10+00:00"
-   },
-   {
-    "titulo": "ERC y EH Bildu reeditarán la coalición en el Senado para las elecciones generales del 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYTFzYmdZV2tKU05GdGxfanp1cTh2aFZzX1RGb3UzcEljWF9LazI2RVYyTlNJMi1UUm1EWW5oUE5aU2hpRkhrdXgwRlpnVUJlQXJoTXhNWTI3cF9DaWNoaURZTTRmeXlfR0EyV2pla3Q2OFFVS3YyaUR0aDI1My1yUnB6MzlsMXhja09RUkxpMnFCTHZ4VEFHU2FfOU10ck5lVGE4c1NBLVZYNlZfRThKX2tQTDRqQdIBuwFBVV95cUxNeUJxbUpwOFBHaHV1WXpCU2wzTUhQSjVSd1JpMlM3cjFhM2hsdFE4ODhaclhBZEg1bTFSLWcyY2ZPUHdBNU1TQ1djZlFHVTU0eVAwc1ZQMWtpWXJkajNCVHJjaHpVbC1UZEtPRFVpYkJfSFE0OV9FcWhXN3VPa2YxN2pmT1l3NzF1dkJwcXJuVUNjMjhXM2lVNDFTdlNVdmswNzMtLUhXTDV5U2NKeDFXcUloTG1ib1VLbkU4?oc=5",
-    "fuente": "La Ciutat",
-    "fecha": "2026-10-10T08:33:35+00:00"
-   },
-   {
-    "titulo": "ERC confirma a Gabriel Rufián como cabeza de lista para el 29-N",
-    "enlace": "https://theobjective.com/espana/politica/2026-10-10/erc-gabriel-rufian-29-n/",
-    "fuente": "The Objective",
-    "fecha": "2026-10-10T08:04:39+00:00",
-    "imagen": "https://theobjective.com/wp-content/uploads/2026/10/el-portavoz-de-erc-en-el-congreso-gabriel-rufia-n.jpg"
    }
   ],
   "Junts": [
@@ -533,6 +532,12 @@
     "fecha": "2026-10-09T13:41:26+00:00"
    },
    {
+    "titulo": "Clavijo reivindica a Teodoro Sosa como la gran baza nacionalista por Las Palmas",
+    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa0lnalM5NU55VE9KZC1mZjdxMEU0anZ6dEM3c1p3Z01QWmlNdy05WTl5TU9WZnEyYURZVGY2cV9Ra3pFUWhid3M0dXZDQ3djRmdaV1phOENtSzE0M0NzU1V6VVlJM0YzekdBcVQxN0RXWlVlT0VEU3FuaWUxeUpUSXdzcEhjY1V3aUNweUtyVmJVU0JkRWdzeGFESVFqaVBPV3M4RUVOaDFfVVV0enc?oc=5",
+    "fuente": "Atlántico Hoy",
+    "fecha": "2026-10-09T12:45:00+00:00"
+   },
+   {
     "titulo": "Clavijo ve a Teodoro Sosa como \"el mejor candidato\" para encabezar una coalición en Las Palmas",
     "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb0tMZFpXLWtjUUhpb0N3c2RnOFBkT096NHI5cHBOdTdza1NqaGZvOHc2bERFcVBFOWtFYkZDdWRlci0wWTZqMmd5azB5RUN2b3JJT1prQ3ItNFl2TUNVSHR4dnoweENUYVVyQXJJU29CcDM3V3dGVzgtY2VKZWszNm9pcF8zVXZUUnZwbkhTYUs1T01Db050VF9zYmhsVldXVDhJZTB0OV9ubDgxdTFTcmd4Y2Z2NExCV0VrUEIxZlRQZ9IBxwFBVV95cUxOMnVXdlp2UERKYWZWZ29NRjRhY2ZickNCdHlYcHg1VzM0aEF5ZW1EQlk4QUNMMlp1TG83UWozUUI4TzUxVi0wM21iSVFHVWhPdEFZNVM0UmpXNlU2bWxKbUhrM3dUdGZjS08xZkFBa0swMjFiQjNxMXZ6bVcwTDM0eGxfVkJzME01dUQzaTlVSFM2WEx1aDI5NFBsaFpxeE4ydzFQemRlTW9nLTJHSmVuVWFyTWFzOEVrYTEwRjhoTDV1d2pjMFFZ?oc=5",
     "fuente": "elDiario.es",
@@ -543,12 +548,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMnVXdlp2UERKYWZWZ29NRjRhY2ZickNCdHlYcHg1VzM0aEF5ZW1EQlk4QUNMMlp1TG83UWozUUI4TzUxVi0wM21iSVFHVWhPdEFZNVM0UmpXNlU2bWxKbUhrM3dUdGZjS08xZkFBa0swMjFiQjNxMXZ6bVcwTDM0eGxfVkJzME01dUQzaTlVSFM2WEx1aDI5NFBsaFpxeE4ydzFQemRlTW9nLTJHSmVuVWFyTWFzOEVrYTEwRjhoTDV1d2pjMFFZ0gHHAUFVX3lxTE4ydVd2WnZQREphZlZnb01GNGFjZmJyQ0J0eVhweDVXMzRoQXllbURCWThBQ0wyWnVMbzdRajNRQjhPNTFWLTAzbWJJUUdVaE90QVk1UzRSalc2VTZtbEptSGszd1R0ZmNLTzFmQUFrSzAyMWJCM3ExdnptVzBMMzR4bF9WQnMwTTV1RDNpOVVIUzZYTHVoMjk0UGxoWnF4TjJ3MVB6ZGVNb2ctMkdKZW5VYXJNYXM4RWthMTBGOGhMNXV3amMwUVk?oc=5",
     "fuente": "elDiario.es",
     "fecha": "2026-10-09T12:40:44+00:00"
-   },
-   {
-    "titulo": "Clavijo: «Teodoro es el político mas valorado de Gran Canaria. Sería un magnífico candidato»",
-    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLTlOYlNzWTJGcGtmVldXRTg2SGx1NE55VWxMUndPQVdBb2h1SXhzQ1JlbUhoU2pqTHZjaktfT1NNS09JWXZJeERhd0RzVHFkSFIwbzQ1YzBUV0sybldwLXdTUjQ2OElNeFN5NnpTZ1V1dW90Rk1Pb0pKdVRTeGEwWmIwU0N0M1dQZ0pqYTB6U2o1bHhkaTVIZzB5WkQwVXpFZ05JQUR3WXpRLXhZemc1YXJ5RFEzbEsyYnd2d1h5NEVveXljZjRIetIByAFBVV95cUxNLTlOYlNzWTJGcGtmVldXRTg2SGx1NE55VWxMUndPQVdBb2h1SXhzQ1JlbUhoU2pqTHZjaktfT1NNS09JWXZJeERhd0RzVHFkSFIwbzQ1YzBUV0sybldwLXdTUjQ2OElNeFN5NnpTZ1V1dW90Rk1Pb0pKdVRTeGEwWmIwU0N0M1dQZ0pqYTB6U2o1bHhkaTVIZzB5WkQwVXpFZ05JQUR3WXpRLXhZemc1YXJ5RFEzbEsyYnd2d1h5NEVveXljZjRIeg?oc=5",
-    "fuente": "Canarias7",
-    "fecha": "2026-10-09T11:46:58+00:00"
    }
   ],
   "UPN": [
@@ -575,7 +574,7 @@
   "AC": [
    {
     "titulo": "¿Qué impacto tiene que Aliança Catalana no se presente a las elecciones generales? Los expertos responden",
-    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbHo1RVJ4Y0tjME56SU8zRV9rZE1MVDBYWWhtbUlHM2J3R2FXQk53cVJ4WDF2NzYweUN6ZVR1eldNYWdabDNxeWRzcHNreldvTWo4UXJ2WWxPNXM3aElXR19XUGFTSkZ3alZSakkzNFFxRTE1Vkl0ZjVwaHB5cGo2WE53NjR5eWZDbFdDemYwdm5hcnQ2WUhPaE1HSmVoNVZUUEFJZ3h3ZVUyNlRxcnpPTlEwbzdMaUlqTXdpRzgyQ3psVGtqVGVZU3hlR3F5ZkJwOVJlctIB1AFBVV95cUxNbHo1RVJ4Y0tjME56SU8zRV9rZE1MVDBYWWhtbUlHM2J3R2FXQk53cVJ4WDF2NzYweUN6ZVR1eldNYWdabDNxeWRzcHNreldvTWo4UXJ2WWxPNXM3aElXR19XUGFTSkZ3alZSakkzNFFxRTE1Vkl0ZjVwaHB5cGo2WE53NjR5eWZDbFdDemYwdm5hcnQ2WUhPaE1HSmVoNVZUUEFJZ3h3ZVUyNlRxcnpPTlEwbzdMaUlqTXdpRzgyQ3psVGtqVGVZU3hlR3F5ZkJwOVJlcg?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVEw1d0RzMXdTYzdWT0JEc2Nwcmk5WXphcjB3blVZaDJuUGxwQnl5MnMxQzM1bUxHV05Na2FQVjZrZjVFbmZvektmck9hTjdCVWZpRFVVTGF2N0lFeWlobE4zMHdaNU5BQzhLZVd5MHFpUUE2WmltWTgtZmhRbF9wZTd3M3dfajBxMEU2VWlVWER3WnVLOXhhVXN0THF6OUVQRFpqQklIOEJ5VUhnTFNZeFFLQVQwX013c3BrTGtKc0FYZGphdlNrZXdaTUZQa2h3YjZYdNIB1AFBVV95cUxNbHo1RVJ4Y0tjME56SU8zRV9rZE1MVDBYWWhtbUlHM2J3R2FXQk53cVJ4WDF2NzYweUN6ZVR1eldNYWdabDNxeWRzcHNreldvTWo4UXJ2WWxPNXM3aElXR19XUGFTSkZ3alZSakkzNFFxRTE1Vkl0ZjVwaHB5cGo2WE53NjR5eWZDbFdDemYwdm5hcnQ2WUhPaE1HSmVoNVZUUEFJZ3h3ZVUyNlRxcnpPTlEwbzdMaUlqTXdpRzgyQ3psVGtqVGVZU3hlR3F5ZkJwOVJlcg?oc=5",
     "fuente": "El Periódico",
     "fecha": "2026-10-10T07:00:32+00:00"
    },
@@ -607,10 +606,11 @@
   ],
   "AA": [
    {
-    "titulo": "Adelante Andalucía se reivindica como el \"voto útil\" en las próximas elecciones para \"pararle los pies\" a PP y Vox",
-    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVFF6ZFJBUTFSMUhzN3J6VHRwamZIbk5IMXp3cTdubjNINDJMSTItR21NVFV3WWozLVRLR1dhaFZNaHlIb1JQdFlYOU5qQ0MwLWtla1FDOTAyNXRFelVVcnNwUjdBNml5V0YzLWM3Zk14QUoyTGFfQUMxSG9PR3VKSzctX01jUXItRGtVMmNRajd6THBnWFRuQUM3Rng3a0lQQnhoVHRUM1Y1RGhZcDMyZFM4TjV1N1ZWREVTQ3Nuc3JLT3lna1NleHQxY05wWGlQWmozWk1pOE5GVUhq?oc=5",
-    "fuente": "Europa Press",
-    "fecha": "2026-10-10T09:43:51+00:00"
+    "titulo": "Adelante Andalucía se reivindica como el \"voto útil\" en las próximas elecciones",
+    "enlace": "https://www.larazon.es/andalucia/adelante-andalucia-reivindica-como-voto-util-proximas-elecciones_202610106aca0aafbafd3d73635cc4fa.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-10T11:51:43+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/10/58F74771-B419-497F-9748-F0B25C0618FB/96.jpg?crop=1280,720,x0,y117&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "Adelante Andalucía anuncia una ley para devolver al alquiler pisos turísticos en zonas saturadas",
@@ -637,10 +637,10 @@
     "fecha": "2026-10-09T10:35:36+00:00"
    },
    {
-    "titulo": "Adelante Andalucía propone una ley para que los pisos turísticos en zonas saturadas vuelvan al uso residencial",
-    "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUl81YzdZdVZCNEZiQ2p6aGx1cFN4OXpWdGtXT21ZbGhmVXlubEt0ZVpZeHRpWWRnQVY1R204bjhYNFFaZmc3UC1xR0FRUW9PbEg5RDcxVGhlUnFNbXN0dGtjVGphYTZTZUo0Uy1ELVZQdmpOSHlMX0lWb0xzM1VRUnA1QVltdElleVVOcGVyU2FQRnd0bGxiUzR6RHRCbW1iRmsyMVdNemYySEdoSGk5ZTRTZmdISGU5cEQyTUsyaFgza0tJbXBzcEYxR3dwMHVlX1VZMFZTTFh1ZTdOajYtVNIB5gFBVV95cUxObWVwNTAtRGpTM2s4VUtNMlJ0YWxneWh6UDZSOGR1MWVCNDA1MkluLUZPNlY0U0tvLWpIRkVGQ1NLTXFSMWlfdWJiS2VwTlVjbDl3aEpUblFTSW9ycXR5WkY0dWhNTEFadVBhMXFaRm1obFBVNFJvd05XT3NIcWtIS0lmTDBtSmY0NjhDTVVGT21QT016TURIQlhFSDdnZWlmV1licHl6aFJXRWpvRDJYdEJmVmVIdkZMUFNtQUd0TWQyRzRBOERkM3l1OEhPcV9tWExGSmJCYjlib0tuM2t5bl9xYUUzZw?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-10-09T09:29:06+00:00"
+    "titulo": "Adelante Andalucía sobre sus listas: \"¿Por qué no se cuestiona en Cataluña, Euskadi o Galicia?\"",
+    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaVpWUVZkT1d5X3h1ekx6R0lNLTlUeGtHZXFuLWJpcnNtQkk1ei1ZZGt1Vm93Y1NMRjBSTXQzbEZ0ZzR0UGxpWm9vQkxZZ0pPeEhBbTRRblFVMWUyRlk3UEs0X0ZjZ2UzUl9oYWtGTEJOYUd4bXRkSkhXLTM4OEp0RFlxMmozZ0tGZHhDMUJ5TzJOaHlRaVVqTHoxZGRBdw?oc=5",
+    "fuente": "Diario de Sevilla",
+    "fecha": "2026-10-09T09:36:01+00:00"
    }
   ]
  },
