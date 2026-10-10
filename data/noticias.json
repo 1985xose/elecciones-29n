@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-10T01:01:52+00:00",
+ "actualizado": "2026-10-10T02:01:35+00:00",
  "generales": [
+  {
+   "titulo": "Y no ha hecho más que empezar",
+   "enlace": "https://www.larazon.es/espana/hecho-mas-que-empezar_202610106ac91e17bafd3d73635c5968.html",
+   "fuente": "La Razón",
+   "fecha": "2026-10-10T03:48:01+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/08/56282900-FDF8-42EC-822E-E4B833CC53DD/96.jpg?crop=4000,2250,x0,y210&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
   {
    "titulo": "Sánchez presiona a sus socios a la izquierda para que no se presenten en las provincias medianas",
    "enlace": "https://www.abc.es/espana/sanchez-presiona-izquierda-presente-provincias-medianas-20261010012841-nt.html",
@@ -21,13 +28,6 @@
    "fuente": "El Mundo",
    "fecha": "2026-10-10T00:02:26+02:00",
    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/09/17915730235649.jpg"
-  },
-  {
-   "titulo": "Iker Jiménez: «En España, gane el que gane el 29-N se va a liar»",
-   "enlace": "https://okdiario.com/baleares/iker-jimenez-espana-gane-que-gane-29-n-va-liar-20523508",
-   "fuente": "OKdiario",
-   "fecha": "2026-10-09T22:20:57+02:00",
-   "imagen": "https://okdiario.com/img/2026/10/09/imagen_recortada-2-1.jpg"
   },
   {
    "titulo": "Un pacto entre Podemos y el Frente Amplio duplicaría sus opciones para las generales",
@@ -75,6 +75,13 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "Los precedentes en las urnas elevan al PP sobre los 30 escaños en Andalucía",
+    "enlace": "https://www.larazon.es/andalucia/precedentes-urnas-elevan-30-escanos-andalucia_202610106ac9990ab79b18452fc11d7c.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-10T03:46:50+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/05/10/861E60A0-B6A5-4E39-9488-57DC3374ADE7/presidente-alberto-nunez-feijoo-candidato-popular-elecciones-andalucia-actual-presidente-junta-juanma-moreno-acto-campana-partido-popular-este-domingo_96.jpg?crop=4162,2341,x0,y434&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
     "titulo": "Última hora tras la muerte de Maricarmen | El PP asegura \"no haber utilizado nunca\" el caso de Maricarmen para \"hacer política\"",
     "enlace": "https://www.lasexta.com/noticias/nacional/muerte-maricarmen-reacciones_202610086ac7365dfb06971aadfe2410.html",
     "fuente": "laSexta",
@@ -82,11 +89,10 @@
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/10/09/40B7F95E-A5F3-4670-8E34-AB0616967AA2/secretario-general-director-campana-miguel-tellado_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
-    "titulo": "El PPdeG activa su campaña y deja en manos de Feijóo la renovación de las listas",
-    "enlace": "https://www.abc.es/espana/galicia/ppdeg-activa-campana-deja-manos-feijoo-renovacion-20261009213000-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-09T21:30:00+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/09/EuropaPress_7831612_comite_campana_ppdeg-R4pOFDWYjmQvDv47l7aCuGI-1200x840@diario_abc.jpg"
+    "titulo": "Feijóo prometió ayuda a los jóvenes en vivienda y empleo de cara a las elecciones en España",
+    "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPaU8zVy1YblBPRWgyU1UxY0dNREFGQVFTSDc2dXJSVW9sM1V2Zk1qQ3BPbDk2Um5tWG94Y2tpWmtoZ1lPZExONVVJckdiTHBjRTZLcmFMeGdnckh5S3d4VldYTzZ1OWtpZXdzVlVnaHFwU3RmTFpJMVViaG1JVGI3Q0VCS2hVNFIzRFdyNFFDWDJXZFNLR1prTG5PbzdiVGNBQzJvZzZhdnRtSzNzYVdSU3d6S21obGl1SU5zQW1iZFNLSW45enZqSzBIVFpkV2tYT2VVNERMTUpsZ2hKU2hHS3QwQ25HdDZ3WDBCNVg4aGhtZHR4OWpPWjFrYVHSAZACQVVfeXFMT0NVTDRLTVVMSWlaQThNdEVGd29KcUJuV08tbDZ5bnlXMlRxQmJwLWhaUVJMQ0xnaVpjbnNiS294QV9ZU3Y1LUtEYl9KMS1Mbndob3JfVEs5dk93bU9IUFRacEtJVm9KRFpzWGF0cndMeUk3NFA1SWtTbEZwMlNxSUtBY0VUNE1SVlVKNzNheGJsYmNVSkhnc2pFTUNlUEduLUhGUHFHTE04aV9QcWVoN2c3azJaZlNKSGlEZkRQZWIxZ1B0b3ptQXZvb1hkamZ5TzA4RHFnTm54VWEwTjNHU2NvRGx4RHVaOENTSnV3RWoyMVRGeHk0STR5T1BQUVlrZzNJVDM0a2FDSjZGV1RGUlA?oc=5",
+    "fuente": "El Destape",
+    "fecha": "2026-10-09T23:48:45+00:00"
    },
    {
     "titulo": "Feijóo promete ayudar a los jóvenes: «La izquierda les ha fallado»",
@@ -107,12 +113,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUGtrcnhSQ05SUjZNMXZickFQcTdkZUpfRWhkYWtaa0hYUU5VRE50RmhCR1hELWN5Q1VhZy1jUE9sMW5mcWRZalFjMnRtUGJ6MzRFX0xRVW1WRnBPcE15SnlydFJOTldsYzdlUEZFSVplSXh3ZVNEcG53UjRMbmVBcVNYcEdPTk51c2NXQTdZeGNwQ2ZjdjJtNlBoczBVMjh1VEh2YXVpNVBTOUZwMXpBN21XRmVpR3RWU3J5eVZZVExuRUVEdklCOEJVc19tOUhJZDZwTjdldHZLQQ?oc=5",
     "fuente": "Noticias Burgos",
     "fecha": "2026-10-09T19:57:01+00:00"
-   },
-   {
-    "titulo": "Feijóo puede perder el 29N si Vox llega al 22% según el sondeo interno del PP",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcmJGRndwYTFVbzB0OS1fMDNPTkk4Vkprb0MzWnZ6QXY3SmtJUXNGdkVIYl9IcnlUenpybVFMY1llWnUzNjM4UEc2OXZIcmVoYUkyTUx6VDA1Vzl5UmQ1Ykg2Rzl5QmgzcGVjcWc2ZEFBVEdOS1JPVE1CdGgwNl9vM2owVEJ2MzZYd3VsSzY1dnZGeVNCUmpHa2NDdw?oc=5",
-    "fuente": "BilbaoHiria",
-    "fecha": "2026-10-09T19:00:00+00:00"
    }
   ],
   "PSOE": [
@@ -122,6 +122,12 @@
     "fuente": "La Razón",
     "fecha": "2026-10-10T03:00:13+02:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2025/10/06/B85878D6-57F8-44FC-BB8B-41EA26543A45/unidad-central-operativa-uco-guardia-civil-sede-psoe-calle-ferraz-peticion-tribunal-supremo-clonar-correo-corporativo-exsecretario-organizacion-partid_96.jpg?crop=6000,3375,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Esperanza Aguirre, convencida del resultado de las próximas elecciones generales: «Pedro Sánchez se ha comido a la extrema izquierda. Estoy segura de que el PP va a ganar»",
+    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbE14QmE5NWdldlNCVXBwaEpQb0NUU3NOdFpzVl80OHlRZktZZ2c0ZG9ERFk3YUpHdkt5X1BxZko2UkRubW5rdy00czJsMnl5elp1VjdlYzM0MDVZZVR1emVJanRjR0Q0dXE1SGRSNlMxLVM2aWNDbzhOalU3eFUtc3BSWE56M3FUdmM4STNmemNVczhWQW1Id2RiZk9Na2JyRGtJUktpbmYxLTdNLXVlRDRvQ3FlU3QyOEpWMkV0RkRIMHJySDBoQTY3NE5fczRx0gHWAUFVX3lxTFBPTTg3V1JiTU5OU2JaeFZuRGFCN1JmWm01NHhGYUMwNWVkOVlZQVRrYlpMYVdsTXVpZ1Y5cUR3aE5OaUdsRjdHamFCa2l3R2FFaXl0OWx5a1FzM203b0NoMXJmRGJrMlFuX1FMOWJHdHdSY2hiWEJ5c1ZZTndjNFFsalhPSTRYYlpyUjdQR3JrQzU3RmRvTEROVEhyaFktNWZnWHVUZ3dkS1YyZmh0Rm9kRS1MbEpiYUJERXN1M0c0Q0lMeU9fVEE0ZzlGYlZRVVdNRzZxQnc?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-10T01:17:26+00:00"
    },
    {
     "titulo": "Vicente Vallés, convencido sobre qué hará Pedro Sánchez si pierde las elecciones: «Es lo normal en las democracias occidentales, pero no creo que sea su intención»",
@@ -134,12 +140,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNemVpTm9QcGU3N2g5UzNUc05JdkllOGNQVFFNc09ZX3MtTTRQc2h0SkV0TW00N0NGQXFqMUtQREJNclo3LTF0LXdBeG1WU20tTHBycldCLVZLMklPdVFoRGFGeXVEQllHYlFRSUg2TFVNWUt0Q0h5TFZUNjV4N1dGOUtaX3QxX01qUDRBR3A2eXBoUGhJQzFiVVQwbXpCU2lUQW5qQ3F2aGRUMzJFblJaN2g5a1F2dnPSAbcBQVVfeXFMTXplaU5vUHBlNzdoOVMzVHNOSXZJZThjUFRRTXNPWV9zLU00UHNodEpFdE1tNDdDRkFxajFLUERCTXJaNy0xdC13QXhtVlNtLUxwcnJXQi1WSzJJT3VRaERhRnl1REJZR2JRUUlINkxVTVlLdENIeUxWVDY1eDdXRjlLWl90MV9NalA0QUdwNnlwaFBoSUMxYlVUMG16QlNpVEFuakNxdmhkVDMyRW5SWjdoOWtRdnZz?oc=5",
     "fuente": "La Razón",
     "fecha": "2026-10-09T22:30:24+00:00"
-   },
-   {
-    "titulo": "Esperanza Aguirre, convencida del resultado de las próximas elecciones generales: «Pedro Sánchez se ha comido a la extrema izquierda. Estoy segura de que el PP va a ganar»",
-    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbE14QmE5NWdldlNCVXBwaEpQb0NUU3NOdFpzVl80OHlRZktZZ2c0ZG9ERFk3YUpHdkt5X1BxZko2UkRubW5rdy00czJsMnl5elp1VjdlYzM0MDVZZVR1emVJanRjR0Q0dXE1SGRSNlMxLVM2aWNDbzhOalU3eFUtc3BSWE56M3FUdmM4STNmemNVczhWQW1Id2RiZk9Na2JyRGtJUktpbmYxLTdNLXVlRDRvQ3FlU3QyOEpWMkV0RkRIMHJySDBoQTY3NE5fczRx0gHWAUFVX3lxTFBPTTg3V1JiTU5OU2JaeFZuRGFCN1JmWm01NHhGYUMwNWVkOVlZQVRrYlpMYVdsTXVpZ1Y5cUR3aE5OaUdsRjdHamFCa2l3R2FFaXl0OWx5a1FzM203b0NoMXJmRGJrMlFuX1FMOWJHdHdSY2hiWEJ5c1ZZTndjNFFsalhPSTRYYlpyUjdQR3JrQzU3RmRvTEROVEhyaFktNWZnWHVUZ3dkS1YyZmh0Rm9kRS1MbEpiYUJERXN1M0c0Q0lMeU9fVEE0ZzlGYlZRVVdNRzZxQnc?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-10-09T22:14:31+00:00"
    },
    {
     "titulo": "Sánchez lanza un 'frente popular' en el Senado para limitar las reformas del PP",
@@ -157,17 +157,17 @@
   ],
   "Vox": [
    {
+    "titulo": "El PP y Vox mantienen la mayoría absoluta tras el adelanto electoral",
+    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdEhsVmhMSEdra0lWWFZRRmpGa3cwM3pjSGl5RFdROHJSZnVDcHFWZGNvNHhOQ3VWZ1MzYUlEYXRzaE1XcUszUmpaSW9TMFdnejVrYTA3US00TzlIYkhja0E5amhNXzdPOVpxTVZvUFcyNXJsSVJ5eE56ZWxxem9RZGFDaW1qWExwTnlHV3ZsTkdJRVMzbGF0WjQ0aGNFaDlxSy1TRXZjbWYySGhhWTIw?oc=5",
+    "fuente": "EL PAÍS",
+    "fecha": "2026-10-10T00:27:24+00:00"
+   },
+   {
     "titulo": "La juez unifica en Vox la representación de la acusación popular en el caso del accidente de Adamuz",
     "enlace": "https://www.abc.es/espana/andalucia/cordoba/juez-unifica-vox-representacion-acusacion-popular-accidente-20261009232550-nts.html",
     "fuente": "ABC",
     "fecha": "2026-10-09T23:25:50+02:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/09/iryo-accidente-cordoba-kVNE-U3021672356806-1200x840@diario_abc.JPG"
-   },
-   {
-    "titulo": "El PP y Vox mantienen la mayoría absoluta tras el adelanto electoral",
-    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdEhsVmhMSEdra0lWWFZRRmpGa3cwM3pjSGl5RFdROHJSZnVDcHFWZGNvNHhOQ3VWZ1MzYUlEYXRzaE1XcUszUmpaSW9TMFdnejVrYTA3US00TzlIYkhja0E5amhNXzdPOVpxTVZvUFcyNXJsSVJ5eE56ZWxxem9RZGFDaW1qWExwTnlHV3ZsTkdJRVMzbGF0WjQ0aGNFaDlxSy1TRXZjbWYySGhhWTIw?oc=5",
-    "fuente": "EL PAÍS",
-    "fecha": "2026-10-09T23:18:29+00:00"
    },
    {
     "titulo": "La letra pequeña de la encuesta: el trasvase de votos del PP a Vox, que fideliza a sus votantes mientras la izquierda pierde apoyos",
@@ -190,7 +190,7 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/09/6ac91dae75ff58-71482379.png"
    },
    {
-    "titulo": "Feijóo puede perder el 29N si Vox llega al 22% según el sondeo interno del PP",
+    "titulo": "Feijóo puede perder el 29N si Vox llega al 22% según un estudio interno del PP",
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcmJGRndwYTFVbzB0OS1fMDNPTkk4Vkprb0MzWnZ6QXY3SmtJUXNGdkVIYl9IcnlUenpybVFMY1llWnUzNjM4UEc2OXZIcmVoYUkyTUx6VDA1Vzl5UmQ1Ykg2Rzl5QmgzcGVjcWc2ZEFBVEdOS1JPVE1CdGgwNl9vM2owVEJ2MzZYd3VsSzY1dnZGeVNCUmpHa2NDdw?oc=5",
     "fuente": "BilbaoHiria",
     "fecha": "2026-10-09T19:00:00+00:00"
@@ -212,12 +212,6 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/09/6ac911d2a85df0-79517384.jpeg"
    },
    {
-    "titulo": "La colíder de Sumar, sobre Rufián: «Todos los teléfonos pendientes de si Gabriel quiere estar en Frente Amplio»",
-    "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOY0tnQU5qOHFlVVFsaEhXQkhmTW9veTZyamxnYXBfRWN1WlVlQmdhWE5jSURndzh6WVNEa2NpVk9waTFubEktLWV3aXFuaEs3bU83MmJvQkNBNVRMTFpsX3FZcGpwZDFyT1d4UUpZSUpUNUxMRTNUM0JxZTZCMkluMEx1MDVwWHUtNUtwUDdKdkZfQ3VYcXY2T1pYbjhkVmowU0Z0WFVWcW51UlM3aENDLUhza3ZkZUM4NUNYMHlQb0NTLXVCQlNCamNDbE84Mko2YkFybDM3MHo?oc=5",
-    "fuente": "Torrijos Today",
-    "fecha": "2026-10-09T17:13:14+00:00"
-   },
-   {
     "titulo": "\"Buena sintonía\" en el primer encuentro entre CHA, IU, Podemos y Sumar para unirse en las elecciones generales en Aragón",
     "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQU2pLNmUxUmZXM2VYUVZ5ZjBMdjdxVjBZbFJfSnRQdk93b21CVmlNZ2dvb1pSNlJFdmIxbUNYZDZ4LV9GeXc5REp5andGMDZvZ05pSld2eG1QVUJmaVBJNWhoZGdlY2ZfNWE4Qm5waDJXbWZTVDJUenppZkY1R0c4cWRkWFVjdjZuMHZ4RkIzVmFLT0xOY0Q4UUJHX05yMGRJLW53WXkzdmJ5d2t5WHltWk1la3BnX1dqX0gwUno0aTFVd1B6X0ViWW96VFd0SndoRXQ1MVhHLUZibldCUU9OZnktcmUwZlZ5RmNZT1RJdVk4QzVCWk5LTw?oc=5",
     "fuente": "heraldo.es",
@@ -234,6 +228,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONU1CeGF4RTJmaFZwR2JkWU1KWFBFSXRuYmNhaHh1amJTRmVZVTBIZ19qc05pY2U4dFFrX1YxRXpOallNYzNMVGNfYVNXWGFuT2ZTRGZYdWlYYkhZcFkxZkdjZEc4QmRjNWRVQ1V3eUNock5LZTZEamMzNzVmcFd1d2tCaDRVbUtMcmRPcEtOZ3JQY0Q5NlJYd1hfOTEzTERzMHV2bFNjb1NrVGfSAbABQVVfeXFMTXp6Z0E0TDZyWncwcjQ2Q2h4RWw2MU5XbDZheUdjZWlGamsxUEh5TURCZTM3SDdFMGFlc1pJcFM0eXpieFVnZThFNkRzd0RMYXZlWlRmR1B3N0JtSXVSamM2NDdvYlVSR29pNzEzQURqdzRGaTN5TWNwYXRFWVYxV0YyZ0RGWDlJWGdSR0tUQWFyRW51VGtOV0tHdlFmVTFFSlNkbE84MUU1QkNjcjVDTzQ?oc=5",
     "fuente": "ESdiario",
     "fecha": "2026-10-09T14:43:09+00:00"
+   },
+   {
+    "titulo": "Así se vendieron Feijóo, Sánchez, Abascal y Yolanda Díaz en las elecciones de 2023: ¿han cambiado?",
+    "enlace": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNYUltXzNjWWM3MjRBbFNCeGlaaGl6X1ZsV0djc1RTTmtZcFNMblFGcU5XbGdXbV9DMVBGMm4xOWg5NTJfV0hwSThHM3lyT1BIbW1oTDF2bkVFalRxekJ3T1dJLWpOX0hkUFJoYTVTakF6OTN3Z3dnNWt4ZVZ2TExBajBZRkhNWDJyc0E1LVZPZVNDNFlzWnJ6RnQ2a0tYbUFNd1JFUVMyM3JtMUZKNEtKN2hTS01VX08xVE9VemJtVG1PZ0t1SWpTUTc2a2hnUE9UUUhJLUlZUHZyQjlPR0pjdm8yMG8zS0V3aGlCY3NyZkc3M3QxeFdnRVRVVzZQTDRXdUdnSNIBhAJBVV95cUxPTHNDaThWRXdDdk00SVF0NFl2UUNjdkpkbUZmYl9zSmdrTF9hNExDS1NqV1JCQzExSjRqZzRPVEtiaXBQQ1N6UHlacTVxb3h2ek53UjBXMWZYQTVub1VqTVNkV0lqZXBhQnp2TUZQMDl3TXMwcTJVNDZ4c2VfQ2sxY0FBX2k1MEJVdGtOeDltemdsb2g2bGt3X0c1d2c1d0MxY1VtaTRlY2N3eG1PWF9rbEI3NjRKeVVFMFZiV25MS1NiS3Nkdmo1b3RJbTM0aDZlY05yTkZpNEttLUxGSk9pUFpHdkNMS0JHYTdNcEtwS2lHQWZwNGZsTnpvQ1hueUVmUGpRSQ?oc=5",
+    "fuente": "Antena 3",
+    "fecha": "2026-10-09T12:57:34+00:00"
    }
   ],
   "Podemos": [
@@ -311,7 +311,7 @@
     "fecha": "2026-10-09T15:09:01+00:00"
    },
    {
-    "titulo": "Se Acabó La Fiesta inicia la recogida de 2.212 avales en Galicia para concurrir a las generales",
+    "titulo": "Se Acabó La Fiesta de Alvise Pérez busca 2.212 avales en Galicia para concurrir a las generales",
     "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdjhkVGZjVWctcHNmMlM5OUlfdkFFTk9IMnh5eXM5Q2h6dkxSaVNPMXU3RDRVdkF4UTJSaHgwdExTT0JCTl9UZnRyMk85dGU1N1NZRFNLX19Bdkd3cWI0Sl90N3FvN1lYZXF5NGxGdEFDbGVJNFNIVUFSS29vemxqZHNVV05mM0JFSndCb3p4eS1ZV05FdHB4cHluVUVMRU5NUG5vT1Brc2NnckRCUGdSbTVGS1ZqaktFbDBhNUNDN2QzaXpEOEoxWnlUOFhTMDJmVlHSAdcBQVVfeXFMT19Yd0Rvd0lDUTNPMVAyTnQ4UEdJelZLSDZFMHdfbUd5bUZZMnNtWWlnRkV2bXJVR3g0T3RvdGdvU2szNDdPUXBVaF9CaXRxLUJ3X0tyU3p1dVA1ak1rY2ZlRnlORk9MY1lhMFFFZGFzMmRWcUI4czVjVjU2RXhQMXBBTlQ5MDlHVTN1S0JLOWU1Mm5fNVotNXRsTl82RWhxZzY0UDBENXphY2lldUlVSC1neDZHTThhXzJZTlk1VHpjTl9xaFNwdXltM0FoR24xTEl0RjhjVlE?oc=5",
     "fuente": "Galiciae",
     "fecha": "2026-10-09T15:03:59+00:00"
@@ -573,10 +573,10 @@
     "fecha": "2026-10-08T11:37:04+00:00"
    },
    {
-    "titulo": "UPN sospecha un \"apaño\" de 8,5 millones en el túnel de Belate con empresas que fueron socias de Santos Cerdán",
-    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMGZBOFFIdDQ0RE9McC1zVVZ5RjhkLUU0OW52ZmJuRlhadGxieFlmRTlQWHhxUTJvZVE1UFNBRDE5LWRVSUVmSzV6V1psNkNYOUIzanM3a0IwNE54RV9hU19nb3FKX3BRQV9uMVVZUkdWdmZGQzJJRXRkY2RfRGFTTTBpWFd6Y2UtNHZ3Si1ZRTRxdkFBS1hTTS1qNDVOY1Nock5zZVdRVDluZllaS0Vxc0Vtd21LOUJRVThXUzdRWHczTEVYV1ZzY0dnd3U2S19yN3FZSjdzTjQyQk5iSEY1b3l5UXRGX0pNZjZ5bkV6UVphT2PSAfMBQVVfeXFMUDBmQThRSHQ0NERPTHAtc1VWeUY4ZC1FNDludmZibkZYWnRsYnhZZkU5UFh4cVEyb2VRNVBTQUQxOS1kVUlFZks1eldabDZDWDlCM2pzN2tCMDROeEVfYVNfZ29xSl9wUUFfbjFVWVJHVnZmRkMySUV0ZGNkX0RhU00waVhXemNlLTR2d0otWUU0cXZBQUtYU00tajQ1TmNTaHJOc2VXUVQ5bmZZWktFcXNFbXdtSzlCUVU4V1M3UVh3M0xFWFdWc2NHZ3d1NktfcjdxWUo3c040MkJOYkhGNW95eVF0Rl9KTWY2eW5FelFaYU9j?oc=5",
-    "fuente": "Navarra.com",
-    "fecha": "2026-10-08T09:23:47+00:00"
+    "titulo": "Sánchez de Muniáin (UPN), al Gobierno: \"Son responsables de la desesperante situación en vivienda de miles de navarros\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNSzJvOTVKQ3BDeS1raTRvOS11NS1nd19wUFpFT2hxMGRmaUIyRlk2WGx5S1JqR0xpb3M2UWZiVHlRenUtX3lwcmFZc2JJYkZlaUkybE54cWVJTEVWNVhqTmRHOTQwZmhRTU0tcFZkQXNHYjRHRGdqbVlQanRralVkYzkzS2FIanBLVE01VFJucEVxSnJmOHpJaEJIWmowR2pkRG01ZC1mQXJaQUVNemNyQnFTVlJaU2x5bUg5UVVNNVhRZVVnWW5QMFE3c2hnMUc2dE95SHU0dUJGR3c3WkNhamI4V2hXYmZmWlJVSzYwN1B5bV9LNzliUzJn?oc=5",
+    "fuente": "Diario de Navarra",
+    "fecha": "2026-10-08T10:23:19+00:00"
    }
   ],
   "AC": [
@@ -873,6 +873,13 @@
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11312546.jpg?p=w:1706/h:960&h=_s7JeZ9p"
   },
   {
+   "titulo": "'Punto Crítico': Ayuso agita el fantasma del fraude electoral y Feijóo guarda silencio",
+   "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQU0p1aXhiSzIzbklqSFMtVEtKUnJNeDRjWmE5VGRDOFNqbTRNV1U4MmsxMWFqRUpHLWM2SEZ3YUZ0ZTlBVnhxVEZ0OUM1UTBzLTZ6RjVmbkk1VUxLbWNwMjZXbHNVVXdzVFZsWUJQNEJpd29vUm5HSUtaQUVuZ3VQWlhRMkV5Z21IMWZzSE9HWGw1RkFoek41UWpRS3g0dk55cjRkejJlTnpPWWVLcUFpTXVFbm1RaF9xWHFVd1NMWTVYMjTSAcgBQVVfeXFMTmdFRk5ObmdHMVFVdTVMYm9ydTl3X1FlNUtVTzAtS0FqTnRHWFRsemNQdXMtQmJkYWpwc3VMdWlZTFRYd2N3MlVfRFJaUWRBTjRQWHZfWUVDODU3Qjl4YnBhV0JQMFczVnNKSGVVR3Y4blZKcnJLeEFfbGh4ZDhaRWRGd2IxSTE5WUM0cUR4YWZfZ3RNQ29zY2JaYm1SYXl0dXl5VGl0ZHktR21icFprN0I2aHFoNWtGMGhNTTN5U0p4Q2c2cGcwbXg?oc=5",
+   "fuente": "Diario Público",
+   "fecha": "2026-10-09T16:35:36+00:00",
+   "partido": "PP"
+  },
+  {
    "titulo": "Feijóo se abre a una entrevista con Silvia Intxaurrondo en TVE tras la polémica en las anteriores elecciones",
    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMGtWM1laRXhTQXl0YThqWVU0TzM0Uk52cnBvbDlPZnMxZUItWmNQeE1oR2pVUF9zOFl3cVlzSWtvZk5mbXlrQmhBdnpoaHM0OHlSRTFIYUhZS0Z2RVRia0dvYk1FQ010MGUtNjlfdnc0a3MtQXF1RHk0ekZpZ2lmOUh5blhMcjMzX1V1UHFNUUxwd19aTElhWkQ5b3VldGR3enpzTFp2S1p0MzFnODN0U0pmSk5lQmlEaTRwSXhjVG1IRWxBbWxSVzhzR3JDV0kzRnhUSC14MEpWYzBJVl9zanhpSmJzQdIB5gFBVV95cUxQVjlHS1MzeGstbnNKV05jcGQ5RzVMNnRJZHc2LUY0MF80T2pyQzhxcnJUQUwwRV9jeTNJby1tYUs5MExsVGdEQ1lMNzQxa1FMX3F0LWtadDNqTmctaDdLU0c1ZHlFTktqNlZSSWswak0xOHhoSUY1dEVuZkNGVHB2WUJLN2YxQ2VFakVCcG5yWXRUMXdQTC0zaU5kZXRYeEJsVmRkNzZOV3FCWlFqVWtSSDVoNlNKanh0WmtfdzJhakR4cGNEY2F0elZVQVVmNHVJQkg4YThHalVhN2hVNXNRYWh1TVhMdw?oc=5",
    "fuente": "El Periódico",
@@ -936,13 +943,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSTZxR2xIeE9JNXdMeDltY2hSR1VZc3l6UXVIM3htaTM4TVkyMm1ZaGtCemVSZ1ZTRUxOZDBlVFJ3NDJhYWFmejZ2RnZCenRJd2s5a3hGWGpYWUNDNFlKSjBnbUlyNHFzaGpfQVV2QzdhYUNfOFR2bEUxWWVBZWVKcC1LSzIyRjlGeHhibUlEbVNNdVZYOE5YRlNHdWd1MFhaR3pZWno1SWMzU3RkUkY2UHEwWFBVNzNoOWpMMEtpY2xUUmtfa2ZVR25YMFhIazlwSVBkTXhtVUtQQUtsUnZKWGo1MHJYUQ?oc=5",
    "fuente": "Canal 4 Diario",
    "fecha": "2026-10-08T15:04:50+00:00",
-   "partido": "PP"
-  },
-  {
-   "titulo": "Feijóo exige a Sánchez decir quién ordenó \"deshacerse\" de la jueza de su hermano",
-   "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUmctLVJZLXBJNHY2OHNFODFUa3Jvd1NaVWhSdVQwdnE0TU5mcnhSX2lwRGhqRTZjcDZlcHRzQkhpWVhPbGJBS2h5OUZsR0JmajdsVEMzS0d3bFRVRVJ3UlNfX05iak03Z2FWS203MzltSFlUa2FZTWJRdXFMMWhWLU02elBUTC1vR3BxYm9ZcnlyRjR5M0EzWkFKUk1CUnkyOUliMFBDaVdRZ3pwQUFVLTFCU1ExNFVCQ3RrQTJ5RUJjdWRON25fUGQ1SU5QQkhNaHFvZWNXNA?oc=5",
-   "fuente": "CatalunyaPress",
-   "fecha": "2026-10-08T13:46:00+00:00",
    "partido": "PP"
   },
   {
