@@ -47,3 +47,5 @@ La librería de gráficas (Chart.js 4.4.1, licencia MIT) va dentro del repo, en 
 La hora «actualizado» de la cabecera es la de la última lectura buena de encuestas. La app avisa por separado si se quedan atrás las encuestas (más de 3 horas), las probabilidades (más de 3) o los titulares (más de 6). `noticias.py` no renueva su hora si no ha respondido ninguna fuente.
 
 `data/agenda.json`: cada hito lleva `fecha`, `titulo` y, si es un plazo, `fin`. Los plazos cuyo último día importa llevan además `fin_titulo`, y ese día sale como hito propio en «Lo siguiente en el calendario».
+
+Tramos de la gráfica de Encuestas (`rangoTendencia()` en `app.js`): toda la legislatura, último año, 3 meses, desde la convocatoria (la fecha sale de `agenda.json`) y dos fechas a elegir entre el 3 de septiembre de 2023 y hoy. Hasta 130 días se pinta un punto por día, hasta 500 uno cada 3 días y más allá uno por semana.

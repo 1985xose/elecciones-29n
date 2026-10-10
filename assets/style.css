@@ -503,3 +503,12 @@ details[open] summary::after { content: "–"; }
 .vis-robot small { display: block; color: var(--gris); font-size: .82rem; line-height: 1.35; overflow-wrap: anywhere; }
 .vis-robot.mal small:first-of-type { color: var(--tinta); }
 .vis-fila span:first-child { overflow-wrap: anywhere; }
+/* Los tramos de la gráfica de Encuestas son cinco y en móvil ocupan dos filas */
+.conmutador.tramos { display: flex; flex-wrap: wrap; width: fit-content; max-width: 100%; border-radius: 20px; gap: 2px; }
+.conmutador.tramos button { padding: 7px 14px; white-space: nowrap; }
+.tramo-fechas { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 0 0 12px; }
+.tramo-fechas[hidden] { display: none; }
+.tramo-fechas label { display: inline-flex; align-items: center; gap: 8px; font-size: .92rem; font-weight: 600; color: var(--gris); }
+.tramo-fechas input { border: 2px solid var(--linea); border-radius: 10px; padding: 7px 10px; font: inherit; font-weight: 600; color: var(--tinta); background: var(--superficie); min-height: 40px; }
+.tramo-fechas p { flex-basis: 100%; margin: 0; }
+.tramo-fechas p:empty { display: none; }

@@ -475,10 +475,61 @@ function opciones(suf) {
 }
 
 /* ---------- Encuestas ---------- */
-const enc = { filtro: null, abiertas: new Set(), tramo: "legislatura", todos: false };
+const enc = { filtro: null, abiertas: new Set(), tramo: "legislatura", todos: false, desde: null, hasta: null };
 const fMesAnio = new Intl.DateTimeFormat("es-ES", { month: "short", year: "numeric" });
 const etiquetaFecha = (t) => fMesAnio.format(t).replace(" de ", " ");
-document.querySelectorAll(".tramos button").forEach((b) => b.addEventListener("click", () => { enc.tramo = b.dataset.tramo; document.querySelectorAll(".tramos button").forEach((x) => x.setAttribute("aria-pressed", x === b ? "true" : "false")); pintarTendencia(); }));
+/* Tramo de la gráfica de Encuestas. Tres fijos hacia atrás desde hoy, uno desde la convocatoria y uno con las dos fechas
+   que se quieran, entre el primer día con media (septiembre de 2023) y hoy. */
+const TRAMO_INICIO = "2023-09-03";
+const fFechaAnio = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+const diaConvocatoria = () => (D.agenda || []).find((x) => /convocatoria/i.test(x.titulo))?.fecha || "2026-10-06";
+function rangoTendencia() {
+  const h = hoy(), ini = fechaD(TRAMO_INICIO);
+  if (enc.tramo === "anio") return [new Date(+h - 365 * DIA), h];
+  if (enc.tramo === "tres") return [new Date(+h - 92 * DIA), h];
+  if (enc.tramo === "convocatoria") return [fechaD(diaConvocatoria()), h];
+  if (enc.tramo === "medida" && enc.desde && enc.hasta) {
+    let a = fechaD(enc.desde), b = fechaD(enc.hasta);
+    if (a > b) [a, b] = [b, a];
+    return [a < ini ? ini : a > h ? h : a, b > h ? h : b < ini ? ini : b];
+  }
+  return [ini, h];
+}
+function textoTramo() {
+  const [a, b] = rangoTendencia();
+  return enc.tramo === "anio" ? "en el último año" : enc.tramo === "tres" ? "en los últimos 3 meses"
+    : enc.tramo === "convocatoria" ? `desde que se convocaron las elecciones, el ${fFechaAnio.format(a).replace(/ de \d{4}$/, "")}`
+    : enc.tramo === "medida" ? `entre el ${fFechaAnio.format(a)} y el ${fFechaAnio.format(b)}` : "desde las últimas elecciones, en julio de 2023";
+}
+function elegirTramo(t) {
+  enc.tramo = t;
+  const caja = $("#tramo-fechas"), d = $("#tramo-desde"), h = $("#tramo-hasta"), hoyS = diaMadrid();
+  document.querySelectorAll(".tramos button").forEach((x) => { x.setAttribute("aria-pressed", x.dataset.tramo === t ? "true" : "false"); if (x.dataset.tramo === "medida") x.setAttribute("aria-expanded", t === "medida" ? "true" : "false"); });
+  caja.hidden = t !== "medida";
+  if (t === "medida") {
+    for (const c of [d, h]) { c.min = TRAMO_INICIO; c.max = hoyS; }
+    if (!enc.desde || !enc.hasta) { enc.desde = new Date(+hoy() - 180 * DIA).toISOString().slice(0, 10); enc.hasta = hoyS; } // de entrada, los últimos seis meses
+    d.value = enc.desde; h.value = enc.hasta;
+  }
+  avisoTramo();
+  if (enc.explica) $("#explica-tendencia").textContent = enc.explica();
+  pintarTendencia();
+}
+/* Lo que se le dice al que elige fechas: si están al revés se dan la vuelta, y si se salen de lo que hay se ajustan. */
+function avisoTramo() {
+  const av = $("#tramo-aviso");
+  if (enc.tramo !== "medida") { av.textContent = ""; return; }
+  const hoyS = diaMadrid(), fuera = (x) => x < TRAMO_INICIO || x > hoyS;
+  av.textContent = enc.desde === enc.hasta ? "Las dos fechas son la misma. Elige al menos dos días distintos."
+    : enc.desde > enc.hasta ? "La primera fecha era posterior a la segunda, así que se han tomado al revés."
+    : fuera(enc.desde) || fuera(enc.hasta) ? `Solo hay media entre el ${fFechaAnio.format(fechaD(TRAMO_INICIO))} y hoy. Se enseña lo que cae dentro.` : "";
+}
+document.querySelectorAll(".tramos button").forEach((b) => b.addEventListener("click", () => elegirTramo(b.dataset.tramo)));
+for (const id of ["tramo-desde", "tramo-hasta"]) document.getElementById(id)?.addEventListener("change", (e) => {
+  if (!e.target.value) return; // fecha a medio escribir
+  enc[id === "tramo-desde" ? "desde" : "hasta"] = e.target.value;
+  elegirTramo("medida");
+});
 /* La lista de partidos de Encuestas. Va aparte porque también se repinta al elegir partido en el modo partido. */
 function pintarListaPartidos(m, m7, proy) {
   const o = ordenar(m.media).filter((k) => m.media[k] >= 0.5);
@@ -529,7 +580,8 @@ function pintarEncuestas(m, m7, proy) {
     empresas.length > CORTE ? el("button", { type: "button", class: "mas", "aria-expanded": enc.todas ? "true" : "false", onclick: () => { enc.todas = !enc.todas; if (!enc.todas && oculta()) enc.filtro = null; pintarEncuestas(m, m7, proy); } }, enc.todas ? "Ver menos" : `Ver las ${empresas.length}`) : null);
   $("#leyenda-empresas").textContent = `${empresas.length} empresas han publicado encuestas desde 2023. El número es cuántas lleva cada una. Con punto verde, las ${enMedia.size} que cuentan hoy en la media. En gris, las que llevan más de un año sin publicar.`;
   const cf = enc.filtro ? cuenta[enc.filtro] : null;
-  $("#explica-tendencia").textContent = cf ? `Las encuestas de ${cf.empresa}, una a una, desde las últimas elecciones. Cada punto es una encuesta. ${enMedia.has(enc.filtro) ? "Su última encuesta cuenta hoy en la media." : enc.filtro === "cis" ? "El CIS no cuenta en la media." : cf.activa ? `Hoy no cuenta en la media porque su última encuesta, del ${fFecha.format(fechaD(cf.ultima))}, tiene más de ${m.ventana} días.` : "Lleva más de un año sin publicar."}` : "Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.";
+  enc.explica = () => cf ? `Las encuestas de ${cf.empresa}, una a una, ${textoTramo()}. Cada punto es una encuesta. ${enMedia.has(enc.filtro) ? "Su última encuesta cuenta hoy en la media." : enc.filtro === "cis" ? "El CIS no cuenta en la media." : cf.activa ? `Hoy no cuenta en la media porque su última encuesta, del ${fFecha.format(fechaD(cf.ultima))}, tiene más de ${m.ventana} días.` : "Lleva más de un año sin publicar."}` : `Así ha cambiado la media de encuestas ${textoTramo()}.${enc.tramo === "convocatoria" || (enc.tramo === "medida" && rangoTendencia()[1] - rangoTendencia()[0] <= 130 * DIA) ? " Un punto por día." : ""}`;
+  $("#explica-tendencia").textContent = enc.explica();
   // Tarjetas
   const usadas = new Set(m.usadas.map((e) => e.id));
   const lista = (enc.filtro ? todas.filter((e) => e.clave === enc.filtro) : todas).slice(0, enc.filtro ? 30 : 12);
@@ -588,20 +640,25 @@ function pintarTendencia() {
   const m = calcMedia(), o = ordenar(m.media).filter((k) => m.media[k] >= 1.5).slice(0, 7);
   graficoTendencia?.destroy(); graficoTendencia = null;
   if (!hayGraficas($("#grafico-tendencia"))) return;
-  const desde = enc.tramo === "anio" ? new Date(+hoy() - 365 * DIA) : enc.tramo === "tres" ? new Date(+hoy() - 92 * DIA) : fechaD("2023-09-03");
+  avisoTramo();
+  const [desde, hasta] = rangoTendencia(), nDias = Math.round((hasta - desde) / DIA);
+  // Hasta unos cuatro meses, un punto por día y fechas con día. Más largo, cada 3 días o cada semana, y fechas con mes y año.
+  const corto = nDias <= 130, paso = corto ? 1 : nDias <= 500 ? 3 : 7, rotulo = (t) => corto ? fFecha.format(t) : etiquetaFecha(t);
   if (enc.filtro) {
-    const mias = (D.encuestas?.encuestas || []).filter((e) => e.clave === enc.filtro && fechaD(e.fin) >= desde).slice().reverse();
-    graficoTendencia = new Chart($("#grafico-tendencia"), { type: "line", data: { labels: mias.map((e) => enc.tramo === "tres" ? fFecha.format(fechaD(e.fin)) : etiquetaFecha(fechaD(e.fin))),
+    const mias = (D.encuestas?.encuestas || []).filter((e) => e.clave === enc.filtro && fechaD(e.fin) >= desde && fechaD(e.fin) <= hasta).slice().reverse();
+    graficoTendencia = new Chart($("#grafico-tendencia"), { type: "line", data: { labels: mias.map((e) => rotulo(fechaD(e.fin))),
       datasets: o.map((k) => ({ label: nombre(k), data: mias.map((e) => e.pct[k] ?? null), borderColor: color(k), backgroundColor: color(k), borderWidth: 2, pointRadius: 4, tension: .2, spanGaps: true })) }, options: opciones(" %") });
+    if (!mias.length) $("#tramo-aviso").textContent = enc.tramo === "medida" ? "Esta empresa no tiene ninguna encuesta entre esas dos fechas." : "";
     return;
   }
-  const puntos = [], paso = enc.tramo === "tres" ? 1 : enc.tramo === "anio" ? 3 : 7;
-  for (let t = desde; t <= hoy(); t = new Date(+t + paso * DIA)) puntos.push(t);
-  if (puntos[puntos.length - 1] < hoy()) puntos.push(hoy());
+  const puntos = [];
+  for (let t = desde; t <= hasta; t = new Date(+t + paso * DIA)) puntos.push(t);
+  if (puntos[puntos.length - 1] < hasta) puntos.push(hasta);
   const series = {};
   for (const t of puntos) { const mm = calcMedia(t).media; for (const k of o) (series[k] ||= []).push(mm[k] != null ? +mm[k].toFixed(2) : null); }
-  graficoTendencia = new Chart($("#grafico-tendencia"), { type: "line", data: { labels: puntos.map((t) => enc.tramo === "tres" ? fFecha.format(t) : etiquetaFecha(t)),
-    datasets: o.map((k) => ({ label: nombre(k), data: series[k], borderColor: color(k), backgroundColor: color(k), borderWidth: 3, pointRadius: 0, tension: .3, spanGaps: true })) }, options: opciones(" %") });
+  // Con pocos días se marca cada uno con su punto, que si no una línea de cinco tramos no dice dónde está cada día
+  graficoTendencia = new Chart($("#grafico-tendencia"), { type: "line", data: { labels: puntos.map(rotulo),
+    datasets: o.map((k) => ({ label: nombre(k), data: series[k], borderColor: color(k), backgroundColor: color(k), borderWidth: 3, pointRadius: puntos.length <= 31 ? 3 : 0, tension: puntos.length <= 31 ? 0 : .3, spanGaps: true })) }, options: opciones(" %") });
 }
 /* ---------- ¿La ley electoral favorece a alguien? (en ¿Y si…?, con los votos de la situación elegida) ---------- */
 function pintarLey(media, esc2, provincias) {

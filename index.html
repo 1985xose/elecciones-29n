@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=49">
+<link rel="stylesheet" href="assets/style.css?v=50">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
@@ -136,6 +136,13 @@
       <button type="button" data-tramo="legislatura" aria-pressed="true">Toda la legislatura</button>
       <button type="button" data-tramo="anio" aria-pressed="false">Último año</button>
       <button type="button" data-tramo="tres" aria-pressed="false">3 meses</button>
+      <button type="button" data-tramo="convocatoria" aria-pressed="false">Desde la convocatoria</button>
+      <button type="button" data-tramo="medida" aria-pressed="false" aria-expanded="false" aria-controls="tramo-fechas">Elegir fechas</button>
+    </div>
+    <div id="tramo-fechas" class="tramo-fechas" hidden>
+      <label>Desde <input type="date" id="tramo-desde"></label>
+      <label>Hasta <input type="date" id="tramo-hasta"></label>
+      <p id="tramo-aviso" class="fuente" role="status"></p>
     </div>
     <p id="explica-tendencia" class="explica">Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.</p>
     <div class="grafico"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div>
@@ -382,10 +389,10 @@
 <script>/* Quien entra con #no-contar deja de contarse en este dispositivo. Va antes del contador para que ni esa entrada cuente. */
 try { if (location.hash === "#no-contar") localStorage.setItem("skipgc", "t"); } catch (e) {}</script>
 <script data-goatcounter="https://xose.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-<script src="assets/chart.umd.js?v=49"></script>
-<script src="assets/modelo.js?v=49"></script>
-<script src="assets/media.js?v=49"></script>
-<script src="assets/app.js?v=49"></script>
+<script src="assets/chart.umd.js?v=50"></script>
+<script src="assets/modelo.js?v=50"></script>
+<script src="assets/media.js?v=50"></script>
+<script src="assets/app.js?v=50"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;
