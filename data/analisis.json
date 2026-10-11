@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-11T11:01:11.933Z",
+ "actualizado": "2026-10-11T12:01:03.734Z",
  "media_bruta": {
   "PP": 32.40948979044313,
   "PSOE": 26.620864138268335,
@@ -39,16 +39,16 @@
   },
   "electopanel": {
    "empresa": "EM-Analytics",
-   "n": 62,
+   "n": 61,
    "sesgo": {
-    "PP": -0.59,
-    "PSOE": 0.6,
-    "Vox": 1.05,
-    "Sumar": -0.7,
-    "Podemos": 0.51,
+    "PP": -0.53,
+    "PSOE": 0.63,
+    "Vox": 1.04,
+    "Sumar": -0.72,
+    "Podemos": 0.5,
     "ERC": -0.11
    },
-   "sd": 0.72
+   "sd": 0.69
   },
   "40db": {
    "empresa": "40dB",
@@ -71,7 +71,7 @@
     "Vox": 0.51,
     "Sumar": -0.53,
     "Podemos": 0.31,
-    "ERC": -0.15
+    "ERC": -0.14
    },
    "sd": 0.5
   },
@@ -84,7 +84,7 @@
     "Vox": -0.08,
     "Sumar": -0.78,
     "Podemos": -0.04,
-    "ERC": -0.15
+    "ERC": -0.14
    },
    "sd": 0.55
   },
@@ -109,7 +109,7 @@
     "Vox": -0.48,
     "Sumar": -0.74,
     "Podemos": 0.41,
-    "ERC": -0.1
+    "ERC": -0.09
    },
    "sd": 0.5
   },
@@ -122,7 +122,7 @@
     "Vox": -0.73,
     "Sumar": 0,
     "Podemos": -0.4,
-    "ERC": 0.07
+    "ERC": 0.08
    },
    "sd": 0.5
   },
@@ -135,7 +135,7 @@
     "Vox": 0.5,
     "Sumar": -0.45,
     "Podemos": -0.2,
-    "ERC": -0.12
+    "ERC": -0.11
    },
    "sd": 0.74
   },
@@ -186,7 +186,7 @@
     "Vox": 0.39,
     "Sumar": 0.25,
     "Podemos": -0.38,
-    "ERC": 0.23
+    "ERC": 0.24
    },
    "sd": 0.52
   },
@@ -211,7 +211,7 @@
     "Vox": -0.25,
     "Sumar": 0.19,
     "Podemos": 0.19,
-    "ERC": -0.03
+    "ERC": -0.02
    },
    "sd": 0.5
   },
@@ -256,7 +256,7 @@
     "Vox": -0.73,
     "Sumar": 0,
     "Podemos": -0.4,
-    "ERC": 0.07
+    "ERC": 0.08
    }
   },
   {
@@ -266,11 +266,11 @@
    "letra": "B",
    "texto": "error medio de 1,2 puntos en 3 elecciones",
    "sesgo": {
-    "PP": -0.59,
-    "PSOE": 0.6,
-    "Vox": 1.05,
-    "Sumar": -0.7,
-    "Podemos": 0.51,
+    "PP": -0.53,
+    "PSOE": 0.63,
+    "Vox": 1.04,
+    "Sumar": -0.72,
+    "Podemos": 0.5,
     "ERC": -0.11
    }
   },
@@ -301,7 +301,7 @@
     "Vox": -0.25,
     "Sumar": 0.19,
     "Podemos": 0.19,
-    "ERC": -0.03
+    "ERC": -0.02
    }
   },
   {
@@ -393,7 +393,7 @@
     "Vox": -0.48,
     "Sumar": -0.74,
     "Podemos": 0.41,
-    "ERC": -0.1
+    "ERC": -0.09
    }
   },
   {
@@ -408,7 +408,7 @@
     "Vox": 0.51,
     "Sumar": -0.53,
     "Podemos": 0.31,
-    "ERC": -0.15
+    "ERC": -0.14
    }
   },
   {
@@ -423,7 +423,7 @@
     "Vox": -0.08,
     "Sumar": -0.78,
     "Podemos": -0.04,
-    "ERC": -0.15
+    "ERC": -0.14
    }
   },
   {
@@ -446,7 +446,7 @@
     "Vox": 0.39,
     "Sumar": 0.25,
     "Podemos": -0.38,
-    "ERC": 0.23
+    "ERC": 0.24
    }
   },
   {
@@ -476,7 +476,7 @@
     "Vox": 0.5,
     "Sumar": -0.45,
     "Podemos": -0.2,
-    "ERC": -0.12
+    "ERC": -0.11
    }
   },
   {
@@ -610,8 +610,8 @@
     {
      "partido": "PP",
      "dado": 31.5,
-     "esperado": 32.1,
-     "diferencia": -0.6
+     "esperado": 32.2,
+     "diferencia": -0.7
     },
     {
      "partido": "PSOE",
@@ -622,14 +622,14 @@
     {
      "partido": "Vox",
      "dado": 19.1,
-     "esperado": 19.8,
-     "diferencia": -0.7
+     "esperado": 19.7,
+     "diferencia": -0.6
     },
     {
      "partido": "Sumar",
      "dado": 6,
-     "esperado": 5.3,
-     "diferencia": 0.7
+     "esperado": 5.2,
+     "diferencia": 0.8
     },
     {
      "partido": "Podemos",
@@ -927,21 +927,21 @@
    "encargo": "Electomanía",
    "fin": "2026-10-03",
    "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: Sumar sube 0.9 puntos respecto a lo esperado de esta empresa.",
+   "texto": "Algo fuera de lo habitual: Sumar sube 1.0 puntos respecto a lo esperado de esta empresa.",
    "nota": "B",
    "margen": 1.1,
    "detalle": [
     {
      "partido": "PP",
      "dado": 31.3,
-     "esperado": 32.2,
-     "diferencia": -0.9
+     "esperado": 32.3,
+     "diferencia": -1
     },
     {
      "partido": "PSOE",
      "dado": 26.9,
-     "esperado": 26.8,
-     "diferencia": 0.1
+     "esperado": 26.9,
+     "diferencia": 0
     },
     {
      "partido": "Vox",
@@ -952,8 +952,8 @@
     {
      "partido": "Sumar",
      "dado": 6.3,
-     "esperado": 5.4,
-     "diferencia": 0.9
+     "esperado": 5.3,
+     "diferencia": 1
     },
     {
      "partido": "Podemos",
