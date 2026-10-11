@@ -1,39 +1,42 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-10-11T10:01:06+00:00",
-  "mensaje": "507 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-10-11T10:01:06+00:00",
+  "hora": "2026-10-11T11:01:10+00:00",
+  "mensaje": "509 encuestas leídas, 2 nuevas",
+  "ultima_buena": "2026-10-11T11:01:10+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
     "Sigma Dos/Antena 3 2023-11-27"
    ],
    "corregidas": [],
-   "nuevas": []
+   "nuevas": [
+    "EM-Analytics/Electomanía 2026-10-09",
+    "Hamalgama Métrica/Vozpópuli 2026-10-08"
+   ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-10-11T10:01:44.365Z",
+  "hora": "2026-10-11T11:01:48.992Z",
   "mensaje": "10000 repeticiones, faltan 49 días",
-  "ultima_buena": "2026-10-11T10:01:44.365Z",
+  "ultima_buena": "2026-10-11T11:01:48.992Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-10-11T10:02:12+00:00",
-  "mensaje": "10 titulares del día, 87 por partido, 10 polémicas",
-  "ultima_buena": "2026-10-11T10:02:12+00:00",
+  "hora": "2026-10-11T11:02:19+00:00",
+  "mensaje": "10 titulares del día, 86 por partido, 11 polémicas",
+  "ultima_buena": "2026-10-11T11:02:19+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-10-11T10:02:12+00:00"
+  "hora": "2026-10-11T11:02:20+00:00"
  },
  "avisado": {},
  "fiabilidad": {
