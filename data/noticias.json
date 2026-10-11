@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-11T22:02:00+00:00",
+ "actualizado": "2026-10-11T23:01:49+00:00",
  "generales": [
+  {
+   "titulo": "La ley educativa que el PP guardó en el cajón hace seis años: un MIR y tres cursos de Bachillerato",
+   "enlace": "https://www.elmundo.es/espana/2026/10/12/6acbb839fdddffeb618b4581.html",
+   "fuente": "El Mundo",
+   "fecha": "2026-10-12T00:12:17+02:00",
+   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/11/17917361329638.jpg"
+  },
   {
    "titulo": "Elecciones generales del 29-N, en directo | Última hora del adelanto electoral: encuestas, Pedro Sánchez, actos de PP, PSOE y Vox y voto por correo",
    "enlace": "https://www.elespanol.com/espana/20261011/elecciones-generales-directo-ultima-hora-adelanto-electoral-encuestas-pedro-sanchez-actos-pp-psoe-vox-voto-correo/1003744416371_10.html",
@@ -9,25 +16,11 @@
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11375319.jpg?p=w:1706/h:960&h=QxMXxpKd"
   },
   {
-   "titulo": "Abascal se compromete al inicio de la precampaña a \"recuperar el poder para el ciudadano\"",
-   "enlace": "https://www.elconfidencial.com/espana/2026-10-11/abascal-vox-elecciones-generales-1tna-1tps_4443121/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-10-11T21:44:00+02:00",
-   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/3ec/367/3ec36723c7c58043b4f4920c2aabf433/abascal-senala-a-sanchez-como-el-candidato-de-marruecos-y-niega-que-la-derecha-sea-favorita-en-las-elecciones.jpg?mtime=1791188966"
-  },
-  {
    "titulo": "Abascal da comienzo a la precampaña de la «última oportunidad» en Estepona: «Es momento de dejar de soportar injusticias»",
    "enlace": "https://www.abc.es/espana/abascal-comienzo-precampana-ultima-oportunidad-estepona-momento-20261011195837-nt.html",
    "fuente": "ABC",
    "fecha": "2026-10-11T21:32:16+02:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/11/1518621028-RLxPbwakXxxmmanCy9FFigI-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "El PP plantea el 29N para elegir entre las cloacas del PSOE o la reconstrucción",
-   "enlace": "https://www.larazon.es/castilla-y-leon/plantea-29n-elegir-cloacas-psoe-reconstruccion_202610116acbe3c6b79b18452fc236bf.html",
-   "fuente": "La Razón",
-   "fecha": "2026-10-11T21:30:14+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/11/387E6017-586C-4F6C-B285-05FAC178A264/ester-munoz-visita-feria-productos-leon-junto-suarez-quinones-david-fernandez-otros_96.jpg?crop=5707,3210,x0,y500&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
    "titulo": "¿En qué consiste y qué puede incluir el acuerdo que negocian ERC y Podemos para el 29-N?",
@@ -70,16 +63,23 @@
    "fuente": "Nueva Tribuna",
    "fecha": "2026-10-11T16:44:33+02:00",
    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/10/11/2026101116381694541.jpg"
+  },
+  {
+   "titulo": "Mertxe Aizpurua no repetirá como candidata de EH Bildu al Congreso el 29-N",
+   "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-11/mertxe-aizpurua-no-repetira-como-candidata-de-eh-bildu-al-congreso-el-29-n.html",
+   "fuente": "El País",
+   "fecha": "2026-10-11T15:40:30+00:00",
+   "imagen": "https://imagenes.elpais.com/resizer/v2/CP25G42ZJRCNTEHPV5YABCFHCI.jpg?auth=bf472633233fbf01c9637abf0eeda827c3d4f7affcdbe8c8c63d3246febb1329"
   }
  ],
  "partidos": {
   "PP": [
    {
-    "titulo": "Elecciones generales del 29-N, en directo | Última hora del adelanto electoral: encuestas, Pedro Sánchez, actos de PP, PSOE y Vox y voto por correo",
-    "enlace": "https://www.elespanol.com/espana/20261011/elecciones-generales-directo-ultima-hora-adelanto-electoral-encuestas-pedro-sanchez-actos-pp-psoe-vox-voto-correo/1003744416371_10.html",
-    "fuente": "El Español",
-    "fecha": "2026-10-11T22:15:00+02:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11375319.jpg?p=w:1706/h:960&h=QxMXxpKd"
+    "titulo": "La ley educativa que el PP guardó en el cajón hace seis años: un MIR y tres cursos de Bachillerato",
+    "enlace": "https://www.elmundo.es/espana/2026/10/12/6acbb839fdddffeb618b4581.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-12T00:12:17+02:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/11/17917361329638.jpg"
    },
    {
     "titulo": "El PP cree que el rechazo a Sánchez pesará más que el miedo a Vox en las elecciones del 29N",
@@ -115,11 +115,11 @@
   ],
   "PSOE": [
    {
-    "titulo": "Elecciones generales del 29-N, en directo | Última hora del adelanto electoral: encuestas, Pedro Sánchez, actos de PP, PSOE y Vox y voto por correo",
-    "enlace": "https://www.elespanol.com/espana/20261011/elecciones-generales-directo-ultima-hora-adelanto-electoral-encuestas-pedro-sanchez-actos-pp-psoe-vox-voto-correo/1003744416371_10.html",
-    "fuente": "El Español",
-    "fecha": "2026-10-11T22:15:00+02:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11375319.jpg?p=w:1706/h:960&h=QxMXxpKd"
+    "titulo": "Feijóo crece como futuro presidente para el 60% de los españoles y Abascal ya empata con Sánchez y Díaz",
+    "enlace": "https://www.elmundo.es/espana/encuestas/2026/10/12/6acba99dfc6c83803b8b457e.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-12T00:12:16+02:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/11/17917324558911.jpg"
    },
    {
     "titulo": "El PP cree que el rechazo a Sánchez pesará más que el miedo a Vox en las elecciones del 29N",
@@ -156,18 +156,11 @@
   ],
   "Vox": [
    {
-    "titulo": "Elecciones generales del 29-N, en directo | Última hora del adelanto electoral: encuestas, Pedro Sánchez, actos de PP, PSOE y Vox y voto por correo",
-    "enlace": "https://www.elespanol.com/espana/20261011/elecciones-generales-directo-ultima-hora-adelanto-electoral-encuestas-pedro-sanchez-actos-pp-psoe-vox-voto-correo/1003744416371_10.html",
-    "fuente": "El Español",
-    "fecha": "2026-10-11T22:15:00+02:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11375319.jpg?p=w:1706/h:960&h=QxMXxpKd"
-   },
-   {
-    "titulo": "Abascal se compromete al inicio de la precampaña a \"recuperar el poder para el ciudadano\"",
-    "enlace": "https://www.elconfidencial.com/espana/2026-10-11/abascal-vox-elecciones-generales-1tna-1tps_4443121/",
-    "fuente": "El Confidencial",
-    "fecha": "2026-10-11T21:44:00+02:00",
-    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/3ec/367/3ec36723c7c58043b4f4920c2aabf433/abascal-senala-a-sanchez-como-el-candidato-de-marruecos-y-niega-que-la-derecha-sea-favorita-en-las-elecciones.jpg?mtime=1791188966"
+    "titulo": "Feijóo crece como futuro presidente para el 60% de los españoles y Abascal ya empata con Sánchez y Díaz",
+    "enlace": "https://www.elmundo.es/espana/encuestas/2026/10/12/6acba99dfc6c83803b8b457e.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-12T00:12:16+02:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/11/17917324558911.jpg"
    },
    {
     "titulo": "El PP cree que el rechazo a Sánchez pesará más que el miedo a Vox en las elecciones del 29N",
@@ -192,6 +185,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVkNWQ1Zwa1AwNGh4QmpjeWJWWjQwQlpHTHRHM1BIOVZ5UjVQa1pHV0piLTJZYkdMTDZtMm55Tzg1bVRqUzdQck5iSGl6d0gxbjlFcU5ZbGd6S1JfdEZYQko2VW1xWGF2MDBRTnBWcnp1X1poYWQtdHEyaE11WEFLYw?oc=5",
     "fuente": "Enpapel - Tu periódico en Majadahonda",
     "fecha": "2026-10-11T20:13:45+00:00"
+   },
+   {
+    "titulo": "Las encuestas del 29N dan mayoría absoluta a PP y Vox",
+    "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVC1RSlRjbmhYamxKMVJNODdIWlZFTWk1ckNUaXhIVEZDTHJSR1JpWEU1WkpvZFEzWFlqd1NVMXhMcHZ4ZHNNNlcyOVZLZHRWcURseE5rZkZZTWE0dUt4Nkx3bGdGWFVXQ3Nyby1idnR4S2VHMk5pYWpqZEdVM0tIWl83YVRWUVXSAYwBQVVfeXFMUFRoOVpjU3o5X29LTFNZVE1VYjNxemNWY2lmLWhTZVRzMV9ITllFSE14VGJhR295WTV2NGNBSXFSR29CNGlNd00xVHBhMWRIQkV3OXc2SGdqZzc3Uk1nZEh0anBLY3FpNTh1czAtakdhT0xLNWNQa3NvVmM3VFRmcDY4Z1lMODZfVXRZWEs?oc=5",
+    "fuente": "El Boletín",
+    "fecha": "2026-10-11T20:07:26+00:00"
    }
   ],
   "Sumar": [
@@ -257,12 +256,6 @@
     "fecha": "2026-10-11T19:52:57+00:00"
    },
    {
-    "titulo": "El encaje ERC-Rufián-Podemos-Frente Amplio continua sin resolverse",
-    "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWHdtbjVCUjNaVGZiQ2dIY3c1Y2pUYVFmSTBvVmYwQmtyRG9lSmtWVVZvOGVCT0xsVk5wRUp1Rm05QjRaRjhGNzV4c3dkY2oxb2Y2UjJBUWVfTkNyQWVkVzdLczNVOFctYlhpcDJtOTBXVnlJcjVPc2E5Zjl0dWJObFdEVFF2TWVOR2xkclpTWmxxZU9WMzhPTnh0WVBjb3dIN3ZGcTQ2dw?oc=5",
-    "fuente": "El Liberal.cat",
-    "fecha": "2026-10-11T17:47:39+00:00"
-   },
-   {
     "titulo": "Rufián propone meter a Podemos en la lista de ERC y abre conversaciones con IU y Más Madrid",
     "enlace": "https://www.elsaltodiario.com/elecciones/rufian-proponer-meter-podemos-lista-erc-abre-conversaciones-iu-madrid?utm_source=feed",
     "fuente": "El Salto",
@@ -274,6 +267,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRWRiRzR5T2UzWWZTYTNQQ1VZM3F6Q1BvRDBVNGdYU0VDMjV4akpXMXdIZnd2c1VsVjNKMlRWNGpVVXFvZ0VFTzhVcFl6VFJodTdFOWdQOEpqMGJKaVhRNjJlcUtLc2w2UEpTR29ISjVoNnpDeVRWY0xTQXNuUnZEbkd5TGVBME9yTGRSeEJGakpjQQ?oc=5",
     "fuente": "BilbaoHiria",
     "fecha": "2026-10-11T14:50:16+00:00"
+   },
+   {
+    "titulo": "ERC y Podemos perfilan un acuerdo electoral para el 29 de noviembre: Rufián haría campaña con Irene Montero",
+    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRUNDcFRNREFrQ1I2U0ttd3JMNUVTdms1d2FwbTFKQ2swVnJ2aDRyQVRScVl0UTJMOW9wWkhUOW1IRUx6WjMzd0NhckI4OXJtb2xWX3V2d3puOHZRSjBmQ0lwQ3pqYzN0czBwUGRhN0RRaDctQklDSzJUR21yWW1XeVViZ2M1UXZ4VzFnTmZuaDlGdE9yN2ViZFIyRUxwZlM4M1NNT3dVT0xLVm9CRzlrRU5BVlNjT1VabFU4ek1MY1NMOGU2dnpKT3dhU1U5RGRidGfSAdIBQVVfeXFMT0VDQ3BUTURBa0NSNlNLbXdyTDVFU3ZrNXdhcG0xSkNrMFZydmg0ckFUUnFZdFEyTDlvcFpIVDltSEVMelozM3dDYXJCODlybW9sVl91dnd6bjh2UUowZkNJcEN6amMzdHMwcFBkYTdEUWg3LUJJQ0syVEdtclltV3lVYmdjNVF2eFcxZ05mbmg5RnRPcjdlYmRSMkVMcGZTODNTTU93VU9MS1ZvQkc5a0VOQVZTY09VWmxVOHpNTGNTTDhlNnZ6Sk93YVNVOURkYnRn?oc=5",
+    "fuente": "MARCA",
+    "fecha": "2026-10-11T14:34:40+00:00"
    }
   ],
   "SALF": [
@@ -292,6 +291,18 @@
   ],
   "ERC": [
    {
+    "titulo": "Rufián encabezará la lista de ERC al Congreso en las próximas elecciones generales",
+    "enlace": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4wNTlHRXIzdEQ5RkxUY2JsM2FSTTJWLVRFeXYxSm1pMmtSTEZRZ3pZRkoyOWJVcFpDOGNjRVFKREtYRVBtU0g5bDdubjlyVEsyaWtKVw?oc=5",
+    "fuente": "Cadena SER",
+    "fecha": "2026-10-11T22:48:05+00:00"
+   },
+   {
+    "titulo": "Rufián sacude a la izquierda de cara al 29-N: ERC apunta a un pacto con Podemos y Frente Amplio da otro giro",
+    "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYWw5MWFUb2JSX3dfWDJJbHFTVE1YdldXb3VIbU9YRU5wT25HTXFESjVVWGVVR2p2Q1FTbDNEbmVkZU9SdWJtSEpxQ1RPUm1sek4tSmNhWVJyVUgydy1oMDJXR3hjZ3BvZ1lvTkJHcTJ4MlVYdHl0ZkYxQ3E1RHFiRVNsYk9aUVVnZ1drMUxEd21hV29NZnBETUc0ekhLQXNyQjNfb0VkUHhmSHVxcUFkMzFIVnp3aHBzOTZJTDZEVWF6bGE1ZWZtMC1UNEJfYmFySFZJalpLN2FFajFDejBqcGdxZ9IB6AFBVV95cUxNU2pWLUFSOTBjLXN2SFJtLUs2d2VKYmFMQWtPM2pFYnYtN2RDaEVDZmNjODBoYU1ZU3kxdThOS3dmeGhrMWJlZVYzeHdkMXB3OFZhZDhEYVVNcFUyV0RzT2dNc2hYaXNWQ1IzLUg5M2dXWkZHSzZmTnpVVXgyaUE3ejdlUGlsQi1vdm03eV9wOFFkTHJIVDByTHhFSW9id0xPcjl4c0VNNktwRWo3aHkzaHVWdDFCNGlxLWhPVlN1RFY0bFVyQ09Dam9IUENaQXROdXMxWUY5bTFVVmdxcy1LQTFKNDEyaGxM?oc=5",
+    "fuente": "El Progreso de Lugo",
+    "fecha": "2026-10-11T21:56:50+00:00"
+   },
+   {
     "titulo": "Podemos y ERC, «muy cerca» de un pacto en Cataluña al margen del Frente Amplio",
     "enlace": "https://www.abc.es/espana/madrid-propone-emilio-delgado-delante-monica-garcia-20261011140034-nt.html",
     "fuente": "ABC",
@@ -306,12 +317,6 @@
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/04/10/69d8c572e9f72.r_d.2372-1582-0.jpeg"
    },
    {
-    "titulo": "AMP- La decisión de Rufián sacude a la izquierda: opción de pacto inédito ERC-Podemos y nuevo giro en Frente Amplio",
-    "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVHUwVllKdmJSX1BrRktmZWVNb3JqcGZreXBKTFRHbXZuX1ZVeFh4S3lFdzlnbVlzOWEwVC1OMTJIR3RCRWFONHR6RUZwdnlDSkVLUEFYMGZQeE0xQzBwRmU0Qy1GMU5xNDU5WFFpYWdWLVNjbHJzN1R5emtnSEJ0VklwaFo2NXdBOXlOYlFFZG90R0V3OF9ZSmRLWkVyUFFHNFBxcUFyMlZneTVjQ2VPUUJacHotSmdQdGFjSGtvVXJpSmNwQWd0Tk9oOGNHTUdCd2dZTE0zakFna1ZsOEwyMHFsS01oc3dMSTh4YzdmQjk0UERZenpFU9IBkwJBVV95cUxQR2p5a3hPWDdYNXFaNzROVVFvNHVVWUJCLW50QmItNW1jNFRKc3dxQzlBSzFrMDdwRmpBYW1WY2ZzME1OM1ByZGMwazMtNjkzNWk2OUNpNjEtOXd6MzhjLXdLWUdLb2JGQ0lZaUNIWGtHaTNyVm9sNjVjckNUbmdwcl9VbWhWQnNkaFRhYmt0X3lmVFpvMkJFLV9Pei16eVBucy1GYXNCRUEzdTk3eEo0WDlma1EyRFY1ZGdkQVhFVTdKRXJndWZna1lWRzlKMEJCVzJNSE1UWUlwVFVDeXptMFNTQlF2SkpxajNFdGtMVWM3S05vVEw5MExhSlNyd3U3cGxXNEQtT095anpMMWsyRXYtRQ?oc=5",
-    "fuente": "Infobae",
-    "fecha": "2026-10-11T20:43:58+00:00"
-   },
-   {
     "titulo": "Ampliación | Rufián sacude a la izquierda alternativa: ERC explora un pacto inédito con Podemos y complica el plan de Frente Amplio",
     "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPNlk4QXFYMmt2X0hUZFBjV29lWjVtNE5BY0tkOWdJcGZvVURieU5TbHNWMGNhYmNpaXRPRDNJbDltY01BdEc3TWhBZUNIeUdiYmNVYWZlVzd4aUV2eE1JaTJZczdRZXFjMVhvWTFfY21TVndoWlVoeTFxVVlXZDBjLUtTTGZkUGtNTVJfRkkzVE9NeWUybV9UQy0tNXVqNnRHTktEVHNFQ1NvdGpfYlo5TTlQMGhTVzJJcWtZd2RMa054Q1JtdlZCU0ZYYWlDWlJzaTZNMWUzR2hHd0dVeGc3ZzlsUDdOU0tYVWppWndtc0VkREgwS1HSAfsBQVVfeXFMT3JjQVFvY1pHc2JYX1pRUFhoTUhVQjEwa0ZnUlBPdXE5aUJSbU5JNlY1eFlmWUtJYmVLN1VFcTF1X1RyNHBMMHNxVUpZUWJXcVEwcGR2YUJtZjV2SWQtYXFpR2FhTXhycE5Xa3lwb3BKX08zNUJfaWwteVpKeEI5U0VwbG1tekhFVkdvU0xlUHFMLXR1VlZDaFFHV1NQbFJXajcxNkt3RngzcU5OODRWZndIa2lhd1cyUkd5eWFZVVFKazEwVFpRMG1nc3VTbUtDNTRuYlVhOE1ZTHd0RW5jWm5wYmNsT3NfcURsdnJDMmhxN2s2b29yNTE1SEk?oc=5",
     "fuente": "Demócrata",
@@ -322,15 +327,22 @@
     "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNQWUxZ3Jsdll0M2JRaC03ZlY1Nk1BcUUzeW15WTlUcmVpbll5bVZFdkJZd3JpUzBlWVBDS2E4R294T25zUk01WF9xZXRpNUNUSUd5LWNHMW9SRDg5aEtfMjdvTG1HWFk5VnV5cTVHd2ZrWmNiSzljVGg3RUFsaE96dGNMNDN4bVRCVkhNbUNyWEEtWU9jWENaY3AyTE5kcVFZVXNEc1VUa3FLeXFQVU03T0xMeTl1WWtnR25NVERJdTd4eHhEWTZSZW56d3g5UVY4ZWNHX3JJejJtVENTTVQ5N25JdHNSSURfSnltVVctRVJaaGhlRnfSAfsBQVVfeXFMTkNGOE5vV0xnZ0tRTWlnUkhFQ25lUHluYUVpVm90RF9OQnNHa3lnOVRkNTIwYkNlZS1fa1ZHQnBOSl9zclc5OXJuOTAyc0x2SXcyQllJZ0pRdUU2RFBkWG9MYWlWTW80S041R0tXMzdYV0lwTkpKMnRwQzd5YzhWR2xqSENmUHBrczljd0F3OVVWYndvRV9YSHIxbU91RTFGWXpBMUZpWmZxa29iYUVrU0NNTUlYUjVBenJGS0NSd1RUMHFkQmx3WWktMmFqdUNqY3pORDlkVTlMeG9SVUp5RzktamZzNy0zVEZ3TkdtNnJsMnV2QmZNLVFKMkU?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-11T20:06:31+00:00"
-   },
-   {
-    "titulo": "Rufián se queda: liderará la lista de ERC al Congreso tras dejarse querer por el Frente Amplio",
-    "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNHRFajZrQVlYVjN3UU9VVW9IaklBOWhoUG41OXZMUnhoVmpySVRKRmxrWndEaWFKUXpGNlpRVU5uLXh0OUhxOVNtd3J3T19VMC02TlF4LWtzU2pibWtzOF9rN2NIRzRtc09UNUFoUEsxT1J6WlFpNGVQVF9wZkYtUE51d0tiMmUzYVpiRHFnNlltUy1XVTdHYlpCdFRXb0JhQjRVVGduODZtT2s0cE5IZQ?oc=5",
-    "fuente": "Diario Público",
-    "fecha": "2026-10-11T19:56:15+00:00"
    }
   ],
   "Junts": [
+   {
+    "titulo": "Puigdemont asiste al recital de 50 aniversario de María del Mar Bonet en el Olympia",
+    "enlace": "https://www.elmundo.es/espana/2026/10/11/6acbe11421efa083378b456f.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-11T21:18:47+02:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/11/17917460764353.jpg"
+   },
+   {
+    "titulo": "Illa carga contra Junts por no querer pactar con Sánchez: \"¿En qué ha quedado la Cataluña de Jordi Pujol?\"",
+    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVnJ4NjVtVkdJMnNTMFQ2WWRWOGRPejZKak55LXZ5UzMzZ3pSU0RobWlKNW9FTUcxMXJqa3dvV1VvWVlVVXlvTjBHN3UwS3E0bDByLXNBaERZN0duUUpBNjBVaGVoeTVYVDQ2a2tsQy1lT3czemYxeEZvMkJOd1JnSGxjSHpsaF9DTWdWN2IwWGpTZ01MS1N2Y2ZQMnBoZjMxWU5URFNrUjZqd2pxQ29IczdzOUFwX2c2aHM3V1ZBRTg1VS1NZUFJcHFka0fSAcwBQVVfeXFMTVZyeDY1bVZHSTJzUzBUNllkVjhkT3o2SmpOeS12eVMzM2d6UlNEaG1pSjVvRU1HMTFyamt3b1dVb1lZVVV5b04wRzd1MEtxNGwwci1zQWhEWTdHblFKQTYwVWhlaHk1WFQ0NmtrbEMtZU93M3pmMXhGbzJCTndSZ0hsY0h6bGhfQ01nVjdiMFhqU2dNTEtTdmNmUDJwaGYzMVlOVERTa1I2andqcUNvSHM3czlBcF9nNmhzN1dWQUU4NVUtTWVBSXBxZGtH?oc=5",
+    "fuente": "Diari ARA",
+    "fecha": "2026-10-11T20:43:10+00:00"
+   },
    {
     "titulo": "Puigdemont, en París para asistir en el Olympia al 50 aniversario de María del Mar Bonet",
     "enlace": "https://www.lavanguardia.com/politica/20261011/11656650/puigdemont-paris-asistir-olympia-50-aniversario-maria-mar-bonet.html",
@@ -348,7 +360,7 @@
     "titulo": "El PSC encumbra al ministro Hereu como candidato con críticas a Junts: \"¿Para qué sirven?\"",
     "enlace": "https://www.larazon.es/cataluna/psc-encumbra-ministro-hereu-como-candidato-criticas-junts-que-sirven_202610116acb736bcfd4076f0c789ec6.html",
     "fuente": "La Razón",
-    "fecha": "2026-10-11T13:30:51+02:00",
+    "fecha": "2026-10-11T11:30:51+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/11/9D421D7E-7E5B-41F6-8C16-4B8D6DF3003D/96.jpg?crop=1920,1080,x0,y100&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
@@ -357,18 +369,6 @@
     "fuente": "La Vanguardia",
     "fecha": "2026-10-11T10:22:59+00:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/11/6acb6354a3f7c.r_d.2212-1413-0.jpeg"
-   },
-   {
-    "titulo": "Illa proclama a Jordi Hereu candidato del PSC a las elecciones generales y declara la guerra a Junts",
-    "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOUllZHQ4dTdtR1V3bVBDbFRPZjlwcXF4OXlaZlpDNHg1ckM1TXRsOVhSeUtYZmhtSTAxeXRNX3c2SzVCUkJEYXhDeTlZWWFBRDVKNlJremFaN24wdzh2WGVVX2l2aDR4Z2dzSHEtNW9OdXl2SjhFV21WZktXZlBvejhzdDBkeXFSbHV5emExLUM4WDJxemNqbkJFZnpGVGdjMDc1QkVpeFBNR3PSAbABQVVfeXFMTzJ6TUYwaHVpbGtGRUI4M05qUUhPRkRrS2czWjZ0emZHTWEtcUtJeVVvNEpmZFg4SDhYU2w1ZHREWUh2OTlnQ0dHX3pfMGxWUkZQalVDZUZ5bFRfeXVPdDY4QW9sVEZwcG1pUDhYTzRBUUdaWjc0TkhjVHQ1dklFZ3kwMUxaYlhCZGVlYmlCY1JobEZQYTdZbWhlZmlpWUxtSUVMUkpEd0ZVVWJPUTNFMkI?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-10-11T10:08:38+00:00"
-   },
-   {
-    "titulo": "Solo los votantes nacionalistas y los de Sumar aprueban la amnistía a Puigdemont",
-    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUzVDU1ZmSFhqNWM0ZVZFUnpuQXJpSlJoR2tGU1NaZlhaSk0tSXFvOUxlNzZfZ0x6cFA1dE1EWm81ZUNBT3pqU1lWOWpNZkNGZVFUWkJKQkk2QnVvenEzVV9KWXh0dnBOTzRPeDYxdy0zQ0hENUxsLUxPcVlNYm1VSVk3MnVsVVhPY2NJWmN5d2ZHV3FiYW1WRzVwS1VVcEhiem5kU0dNRjNIalc4Y0xMazNudkZMRVVKTmFydkhyTGhhQ1VkaEpiNGV1N0ZtcEHSAdQBQVVfeXFMTzlIMU53RzVoRHFpSXVlYUtzTEhUMVk4UVFENEx3UVdEalNjS296QnhVZzlUMzFSTmRoVFNVaTZTU1k1cFdVNGdfejdaeThwU3UwSGt1cGRyTkwzWUlCcXVWSzZwck9SWGs0MU55enVxQlZGaGttRmZMdkE3dzNTWUxCa01PWUplaWVqZGE5cGNaWWpnLVRLY2c2cS0ybi1HZldhbDJUck1yTGp4bE9rY2x4VWxXV2RrNHZoSlZIWjNWalpyYXBER29WdVdiT2VfczEyQ2M?oc=5",
-    "fuente": "Salamancahoy",
-    "fecha": "2026-10-11T09:26:37+00:00"
    }
   ],
   "Bildu": [
@@ -394,9 +394,10 @@
    },
    {
     "titulo": "Mertxe Aizpurua no repetirá en la candidatura de Bildu después de siete años siendo la portavoz 'abertzale' en el Congreso",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMmRSczJGZk15TEpxOFJzbDNwYk41VXhCNUtDLXREaFpPX2FoWjRhVGE1dFdDU0tsSEUxM3o0SmRmdU5HRXZtd0RJMDVlbm9XckF5LVNKdWl4VFhzS3lodWpXMUdJYzNoTTVXdlNReEV0djU1RVZpRF92cm9QY3gxdlBlNlVYYlUzWEdwbWhuTW5Fa05ON1Fxa2hfWdIBmwFBVV95cUxOMzNJX2RPaE9MSXBkR3JTdlNhWjlOLVJYaW9yRkVseHBxajgzRElFcEppbFVvaTdDMm9JSFJDNlB2V1p4N3ZaRVBkMmhZZTlFU29LQ1FWMXhCNWlxZkpxNVZsckVxSXZnZ3pBak9CNndtYjR1aFdzY3k0cm1FLWtQYnhqaENwSFBQUk0tLW5jLUs2Tm1haEo3TnVvMA?oc=5",
+    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/11/6acba629fdddff20068b457e.html",
     "fuente": "El Mundo",
-    "fecha": "2026-10-11T15:10:36+00:00"
+    "fecha": "2026-10-11T15:10:36+00:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/11/02/17621086951342.jpg"
    },
    {
     "titulo": "Mertxe Aizpurua no repetirá como candidata de EH Bildu al Congreso por decisión propia",
@@ -541,12 +542,6 @@
     "fecha": "2026-10-10T03:25:00+00:00"
    },
    {
-    "titulo": "UPN duplica la cuota a sus afilados para \"fortalecer la autonomía, la actividad y la capacidad de trabajo del partido\"",
-    "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcklVY1dqaF9OSHRiQkZNYnBaZDRNcEw4NHJHdTZNVlIwcXhtRXVKdmxXU2ZTaUpRTVoxQmtnSHluU1RPRzZwTjJrcDJ6Q2pObEhJTkJ2RWdxQ0FEM3pJTnR6TmpWQkdXcWJSYlE2aU5DMnBTcWlsR0R1R3dRd3lzY01VcEstcUt2U1k4dUM3Tjl2VlRwUEZJbTZCblNxWkxveU5FS1hQQVR5ZXFs0gGsAUFVX3lxTFBySVVjV2poX05IdGJCRk1icFpkNE1wTDg0ckd1Nk1WUjBxeG1FdUp2bFdTZlNpSlFNWjFCa2dIeW5TVE9HNnBOMmtwMnpDak5sSElOQnZFZ3FDQUQzeklOdHpOalZCR1dxYlJiUTZpTkMycFNxaWxHRHVHd1F3eXNjTVVwSy1xS3ZTWTh1QzdOOXZWVHBQRkltNkJuU3FaTG95TkVLWFBBVHllcWw?oc=5",
-    "fuente": "Noticias de Navarra",
-    "fecha": "2026-10-09T16:12:30+00:00"
-   },
-   {
     "titulo": "UPN convoca de urgencia a su Consejo Político para ratificar la coalición con el PP si los acuerdos se cierran",
     "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPckdfVHFLV2ZJalh2ZExZbXJNN0I3SXhHUzZjbGRybWhTVEtDR3ZjM0J4VTV4Z05WWXdZaUpoSFozeGpQWWJnajVkOHRuSW9zZHc2bm1lT3BDdEo1YjB0anRwOEQtNEROSmZiMEktQWRYcHUxdTJVTml3bW1sLVRDNUJueEM2V3d4R3Fud3l5dXNvRDYyQjB2Y1dqNXJmTDlLUU95dFVKUE1sSDJiSnF4dDZzMERFVkoxY05yQ2ZKTmNVQ00yZEx5S2N2dFlpaFBlbnhfUjJfbldWbTZXN29RYlBOdFRhbHA1TGfSAe8BQVVfeXFMTTJ5M2llMHpieWNoeEhGR3hyMzdKdlJGNHRZRVpOb2RDVFlCWnE5eDBnRmpqR3hvY2VEV2p3bDRXS19HZm9YN0tLck43ME55ZFFQaGpaQjBZc1NMbk44S2YtcWl4a3pVdEFDeHdudkVJdWctNWtjclFFT19xem54ZWx5MW1Bbkd6OTU0Y2ZkY1ZSUGFoc3VtMi1UOGdqM0NXUml5bElxcFVrX0Vhanc4aWtlb0s3b01GZG1qaC1zYXlMSnVBcng0SmNJLWxUNWZMSXgwN2t0OFFuYjlFTnhxOVB1WnN4cWpMM2JwTG1QM28?oc=5",
     "fuente": "Navarra.com",
@@ -582,6 +577,12 @@
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/09/jose-ignacio-gafa-RtHwgubzKrE7uMp0Ca4jP6K-1200x840@diario_abc.jpg"
    },
    {
+    "titulo": "Adelante Andalucía acusa al PP de \"criminalizar\" la acampada por la vivienda en Granada",
+    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbDhRUDY3RHJ3dDd3SGlCNnZadm44a3lyWUdMUFJ4ZVVCa3Q3ZFFDVkYySndROXBHczlDZWRia1lzY3pkU0g0Smtta2FxaUc3WnhIN0FiaVJHOEtiUVluYWhtMGRLODBac2Q2VnhRLUpRNnZuRkRJR1Naa1NQS0U2LW5QSDlDZGF5d1JkeUI5RHJBY0dEaXhNZHZ6b1E3eFpaS0s4bEluU3dqOFdXQlVPem5fejhHUW5TUWR3Y0djWjllOERU?oc=5",
+    "fuente": "Granada es Noticia",
+    "fecha": "2026-10-11T13:08:29+00:00"
+   },
+   {
     "titulo": "Adelante Andalucía plantea para las municipales candidaturas \"abiertas\" a la ciudadanía y aliarse con propuestas locales",
     "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOGxTSVZpM1pCT1J4RnpMRjhKeUZYcGFBeGJTOFBQSkQydUVScFFvZklDLTg3V0VCYkxoa0ZuSTVXcnoyNHhucnc4eUhDNU1rSzVGNk5oUVRvT25xWThxZnhWYlY1NTVnTWVpY2p4N3NTSkg2R1U2SmVrcTUyd09NVk0xcmlwdUdvSFBYbGNJRlJKa0hYZEE4ZWZaZTdnS18wekQ0TDJkTUU2czNNcG9lYXNjMXMwVHY1ektNR2w4cWlJM09tT25YaTVZMUQyV0NGTktFeEtIUmVJMERQdGV0M1pVNExCYXVackRRSmY5M0dNZFRQSVE?oc=5",
     "fuente": "Europa Press",
@@ -604,12 +605,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRHJ1X2Q2c2l0a2xkU2w5aWNVXzAxdC1adHY2RGVJM1IyM2ZvZUI1VnZlLVpnSkx2LTlhZHRkblZyeXd6ZlI4czJidnFHSndZMlZRR243WUloQVN1M1lnbXEySkxnM1BIMU5qYS1aUmtZMFBzejZlYk92ZUpLRnltam1Bd3JUV2Mtb3RNai1UMXp4V1E5YXhWWXZhRHJQdw?oc=5",
     "fuente": "Diario de Sevilla",
     "fecha": "2026-10-10T10:01:10+00:00"
-   },
-   {
-    "titulo": "Adelante Andalucía se reivindica como el \"voto útil\" en las próximas elecciones",
-    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVnZsLUk2RTJrQk1xRkF3VHExaGt2Znh6S2NMakVBZ2tnTmZuRU5vdl8tZDdHb3BJYWZIeXk2c1NKNEVGVHdob3RUVWNxbFlWYmVMems5cTJrbzlMWGdyZW5wQVh1NEJXYUtKTjRvbC1zeXJ1WXVJdVZ0Wk9MMm9wNGFlRkl2VXIwWFVfekVUWktOVXdtWmhIMEh1cGNnQjFmalprZ19EN0g2WVhRUUNrbEhjdnJQR0RHOElJRlJlaTJHV3NqYlhOdW0wUGhQWDRV0gHkAUFVX3lxTE5BTURMbVdKaVRMaVhJWkUtd1NJbkFMQk1WZEVwMlRjYjlqS3BVUXNrZFpZZFRXcElwUTBETFdsZGd4N3RuLXdSNHk2emFERmdVSGZUaXFEblhCb1o0QjZkWkVMajBYUVBGc2o5UHkyWVl4b3UzN2R6Y2tESkxtYk1KcTN0VzctdHBraVhiQ1JvcGZ3bW1uNTBUY3NnM1RLZU5vWFpzbmhDVlFwNTNNWDFQcXd0Uk5vaUQ3QWh0Vzg4THk2eWZ5VVMzUUtscEdOdzkwal95a2JzVDFpY2M1cGRlbDhoVA?oc=5",
-    "fuente": "La Razón",
-    "fecha": "2026-10-10T09:51:43+00:00"
    }
   ]
  },
@@ -815,6 +810,14 @@
    "fecha": "2026-10-11T19:10:55+00:00",
    "partido": "PSOE",
    "imagen": "https://static.eldiario.es/clip/ce9c6201-b7a6-4002-815d-8c6e6c5f1434_16-9-discover-aspect-ratio_default_0_x446y408.jpg"
+  },
+  {
+   "titulo": "Aizpurua, condenada en su día por apología de ETA, no repetirá como candidata de Bildu al Congreso",
+   "enlace": "https://www.eldebate.com/espana/20261011/mertxe-aizpurua-no-repetira-como-candidata-bildu-congreso-preve-jubilarse-pronto_468501.html",
+   "fuente": "El Debate",
+   "fecha": "2026-10-11T09:15:52+00:00",
+   "partido": "Bildu",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2025/11/12/69146db56dade.r_d.1615-640-0.jpeg"
   },
   {
    "titulo": "Vox no logra cárcel para el tuitero de 'Abascal colgado': la Justicia recuerda el caso Sánchez",
