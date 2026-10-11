@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-11T03:01:08.574Z",
+ "actualizado": "2026-10-11T04:01:15.812Z",
  "media_bruta": {
   "PP": 32.396571392434865,
   "PSOE": 26.737531934460193,
@@ -367,6 +367,21 @@
    "sesgo": null
   },
   {
+   "clave": "cis",
+   "empresa": "CIS",
+   "encuestas": 35,
+   "letra": "C",
+   "texto": "error medio de 2,4 puntos en 4 elecciones",
+   "sesgo": {
+    "PP": -8.65,
+    "PSOE": 5.84,
+    "Vox": -1.04,
+    "Sumar": 0.46,
+    "Podemos": -0.28,
+    "ERC": 0.51
+   }
+  },
+  {
    "clave": "ncreport",
    "empresa": "NC Report",
    "encuestas": 23,
@@ -462,21 +477,6 @@
     "Sumar": -0.45,
     "Podemos": -0.21,
     "ERC": -0.12
-   }
-  },
-  {
-   "clave": "cis",
-   "empresa": "CIS",
-   "encuestas": 35,
-   "letra": "D",
-   "texto": "error medio de 2,6 puntos en 4 elecciones",
-   "sesgo": {
-    "PP": -8.65,
-    "PSOE": 5.84,
-    "Vox": -1.04,
-    "Sumar": 0.46,
-    "Podemos": -0.28,
-    "ERC": 0.51
    }
   },
   {

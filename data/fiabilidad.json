@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-10T04:01:11+00:00",
+ "actualizado": "2026-10-11T04:01:15+00:00",
  "elecciones": [
   {
    "nombre": "23J 2023",
@@ -71,6 +71,18 @@
      }
     },
     {
+     "clave": "cis",
+     "empresa": "CIS",
+     "fin": "2023-07-12",
+     "error_medio": 1.5,
+     "errores": {
+      "PP": -2.3,
+      "PSOE": 0.5,
+      "Vox": -0.6,
+      "Sumar": 2.6
+     }
+    },
+    {
      "clave": "topposition",
      "empresa": "Top Position",
      "fin": "2023-07-06",
@@ -128,18 +140,6 @@
       "PSOE": -2.7,
       "Vox": 0.3,
       "Sumar": 3.2
-     }
-    },
-    {
-     "clave": "cis",
-     "empresa": "CIS",
-     "fin": "2023-07-12",
-     "error_medio": 1.73,
-     "errores": {
-      "PP": -1.0,
-      "PSOE": -2.7,
-      "Vox": 1.7,
-      "Sumar": 1.5
      }
     },
     {
@@ -669,6 +669,18 @@
      }
     },
     {
+     "clave": "cis",
+     "empresa": "CIS",
+     "fin": "2019-03-18",
+     "error_medio": 1.42,
+     "errores": {
+      "PSOE": 1.5,
+      "PP": 0.5,
+      "Cs": -2.3,
+      "UP": -1.4
+     }
+    },
+    {
      "clave": "keydata",
      "empresa": "KeyData",
      "fin": "2019-04-22",
@@ -726,18 +738,6 @@
       "PP": 3.4,
       "Cs": -0.9,
       "UP": -1.1
-     }
-    },
-    {
-     "clave": "cis",
-     "empresa": "CIS",
-     "fin": "2019-03-18",
-     "error_medio": 1.88,
-     "errores": {
-      "PSOE": 1.9,
-      "PP": 3.4,
-      "Cs": -1.2,
-      "UP": -1.0
      }
     },
     {
@@ -1392,6 +1392,12 @@
    "elecciones": 1
   },
   {
+   "clave": "cis",
+   "empresa": "CIS",
+   "error_medio": 2.41,
+   "elecciones": 4
+  },
+  {
    "clave": "netquest",
    "empresa": "Netquest",
    "error_medio": 2.42,
@@ -1414,12 +1420,6 @@
    "empresa": "TNS Demoscopia",
    "error_medio": 2.55,
    "elecciones": 1
-  },
-  {
-   "clave": "cis",
-   "empresa": "CIS",
-   "error_medio": 2.58,
-   "elecciones": 4
   },
   {
    "clave": "advicestrategic",
