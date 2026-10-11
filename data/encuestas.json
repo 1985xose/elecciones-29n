@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-11T15:01:08+00:00",
+ "actualizado": "2026-10-11T16:01:07+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1379693888,
+ "revision": 1379724021,
  "partidos": [
   "PP",
   "PSOE",
@@ -140,7 +140,7 @@
    "inicio": "2026-10-05",
    "fin": "2026-10-08",
    "muestra": 1000,
-   "participacion": null,
+   "participacion": 64.0,
    "pct": {
     "PP": 33.4,
     "PSOE": 25.3,
@@ -153,7 +153,8 @@
     "BNG": 0.8,
     "CCa": 0.5,
     "UPN": 0.2,
-    "Podemos": 3.3
+    "Podemos": 3.3,
+    "SALF": 1.8
    },
    "escanos": {
     "PP": 144.0,
@@ -167,7 +168,8 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
-    "Podemos": 2.0
+    "Podemos": 2.0,
+    "SALF": 0.0
    },
    "empresa_base": "Hamalgama Métrica",
    "clave": "hamalgamametrica",
