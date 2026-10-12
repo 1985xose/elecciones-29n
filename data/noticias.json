@@ -1,6 +1,20 @@
 {
- "actualizado": "2026-10-12T02:01:44+00:00",
+ "actualizado": "2026-10-12T03:01:52+00:00",
  "generales": [
+  {
+   "titulo": "Las otras puñaladas (electorales) que vienen: a algunos partidos les sobran hombres y a otros, mujeres",
+   "enlace": "https://www.elconfidencial.com/espana/2026-10-12/elecciones-generales-punaladas-listas-candidatos-hombre-mujer_4440534/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-10-12T05:00:00+02:00",
+   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1791774020&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+  },
+  {
+   "titulo": "Voto por correo: cómo ejercer mi derecho paso a paso para las elecciones del 29N",
+   "enlace": "https://www.eldebate.com/espana/20261012/voto-correo-como-ejercer-mi-derecho-paso-paso-elecciones-29n-cns_467251.html",
+   "fuente": "El Debate",
+   "fecha": "2026-10-12T04:30:00+02:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/01/20/696f569a28652.r_d.2751-1828-0.jpeg"
+  },
   {
    "titulo": "Segundo mitin de Sánchez: ausencia de Zapatero y del alcalde, críticas al Supremo y promesas (ahora) en vivienda",
    "enlace": "https://www.larazon.es/espana/segundo-mitin-sanchez-ausencia-zapatero-alcalde-criticas-supremo-promesas-ahora-vivienda_202610126acbd55fbafd3d73635da3de.html",
@@ -14,20 +28,6 @@
    "fuente": "El Mundo",
    "fecha": "2026-10-12T02:10:58+02:00",
    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/11/17917216689776.jpg"
-  },
-  {
-   "titulo": "La derecha mantiene su mayoría absoluta pese a la agitación callejera de la izquierda",
-   "enlace": "https://www.abc.es/espana/derecha-mantiene-mayoria-absoluta-pese-agitacion-callejera-20261012015025-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-12T01:54:20+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/12/gad3-oct-votos-1200x840-kNkC-RsHkRYLCUhnsu2GgvivONRO-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "Abascal se compromete al inicio de la precampaña a \"recuperar el poder para el ciudadano\"",
-   "enlace": "https://www.elconfidencial.com/espana/2026-10-11/abascal-vox-elecciones-generales-1tna-1tps_4443121/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-10-11T21:44:00+02:00",
-   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/3ec/367/3ec36723c7c58043b4f4920c2aabf433/abascal-senala-a-sanchez-como-el-candidato-de-marruecos-y-niega-que-la-derecha-sea-favorita-en-las-elecciones.jpg?mtime=1791188966"
   },
   {
    "titulo": "¿En qué consiste y qué puede incluir el acuerdo que negocian ERC y Podemos para el 29-N?",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Los sondeos internos animan al PP: \"Hemos pinchado el globo\"",
-    "enlace": "https://www.larazon.es/espana/sondeos-internos-animan-hemos-pinchado-globo_202610126acc3122b79b18452fc25a11.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-12T03:00:18+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/03/23/1E57B58A-E18D-4316-B5C1-303263EA8F19/ester-munoz-critica-que-iran-coloque-imagen-sanchez-sus-misiles-mayor-deshonor_96.jpg?crop=1900,1069,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Ezcurra subraya que «el derecho a la vida es el derecho más importante y un principio rector» para el PP",
+    "enlace": "https://www.eldebate.com/espana/20261012/ezcurra-subraya-derecho-vida-derecho-importante-principio-rector-pp_468249.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-12T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/09/6ac9395b28ec9.r_d.3144-1882-0.jpeg"
    },
    {
     "titulo": "Los debates televisivos del 29-N: del cara a cara Feijóo-Sánchez a la petición del PP a TVE",
@@ -115,11 +115,11 @@
   ],
   "PSOE": [
    {
-    "titulo": "Segundo mitin de Sánchez: ausencia de Zapatero y del alcalde, críticas al Supremo y promesas (ahora) en vivienda",
-    "enlace": "https://www.larazon.es/espana/segundo-mitin-sanchez-ausencia-zapatero-alcalde-criticas-supremo-promesas-ahora-vivienda_202610126acbd55fbafd3d73635da3de.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-12T03:33:00+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/11/81038282-77EF-4A92-B921-7F97C2AB915D/96.jpg?crop=9000,5063,x0,y469&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Los horribles años Sánchez",
+    "enlace": "https://www.eldebate.com/espana/20261012/horribles-anos-sanchez_468605.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-12T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/06/10/6a290901e590d.r_d.1649-392-0.jpeg"
    },
    {
     "titulo": "El PP cree que el rechazo a Sánchez pesará más que el miedo a Vox en las elecciones del 29N",
@@ -156,18 +156,18 @@
   ],
   "Vox": [
    {
+    "titulo": "Vox plantea «armonizar» leyes para que en todas las regiones rijan las mismas reglas y evitar «17 países distintos»",
+    "enlace": "https://www.eldebate.com/espana/20261012/vox-plantea-armonizar-leyes-todas-regiones-rijan-mismas-reglas-evitar-17-paises-distintos_467800.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-12T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2024/11/08/672e07b65c1e4.r_d.920-332-0.jpeg"
+   },
+   {
     "titulo": "Seis de cada diez españoles creen que PP y Vox gobernarán en coalición tras las elecciones",
     "enlace": "https://www.abc.es/espana/seis-diez-espanoles-creen-pp-vox-gobernaran-20261012015019-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-10-12T01:50:29+02:00",
+    "fecha": "2026-10-11T23:50:19+00:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/12/1507872668-ResjWY5a1JBxrJES64P0v4O-1200x840@diario_abc.jpg"
-   },
-   {
-    "titulo": "Abascal se compromete al inicio de la precampaña a \"recuperar el poder para el ciudadano\"",
-    "enlace": "https://www.elconfidencial.com/espana/2026-10-11/abascal-vox-elecciones-generales-1tna-1tps_4443121/",
-    "fuente": "El Confidencial",
-    "fecha": "2026-10-11T21:44:00+02:00",
-    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/3ec/367/3ec36723c7c58043b4f4920c2aabf433/abascal-senala-a-sanchez-como-el-candidato-de-marruecos-y-niega-que-la-derecha-sea-favorita-en-las-elecciones.jpg?mtime=1791188966"
    },
    {
     "titulo": "Hacia las elecciones generales, en directo | Abascal se instala en la teoría de la conspiración en su primer mitin de precampaña y acusa al Gobierno de \"montar números, mentir y hasta matar\"",
@@ -282,12 +282,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNVHFDTlpZem01NzFubGw0SFlUYjdjS2ZRMWgtQkJDN0s0VDdxbmZEX2JPZ2dYMC1KUmJxc2NUZ2UtQUVIWFBtSnF6VkZ3VzFJczNaQ1VZOFFYU1BnQ0h3RlNkTDNUSl9kRWVma05uVUdpN1dVN3k3REktdWl2blJxQUJ5N2d0Q2xzS1VuRFQtQjNlX1c4YWZDbVF2VmpLTlQ0NmZWRHJvb1ZEQml5QUpGSFJGaHFYaVlzTmc1dkVhdFZ3aUE0YzRuWnk0NnR0UDZBeExTTFhmT1dsMEd2ZE1NUHpoMEw1Y0JzcDdyRWM3OThDaWNwa3ktWk1oR1V2RElDNWdiTVNnSnh3dm10eHpBZncxQ0tvb0V3dk5TdU9PdnNkV1R2WTdR?oc=5",
     "fuente": "Guada News",
     "fecha": "2026-10-11T09:32:00+00:00"
-   },
-   {
-    "titulo": "Se Acabó La Fiesta (SALF) recoge avales en Vargas",
-    "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOallwNkd0R2RJSzZhWUQwR05pQVdpbm40UzBCNjBYd1pUTUwyeUtxSlFPcl9QYmladlhoMkxWTVFsV2N6cnl6WGp3bFFPaVh3MHhnTFIzOXozUElvdzVTMHQ3QWw1WHo0bWd4cDc3QlpJMV8yTzU5ZXFCY2tQVEdlWHc3bnJjLUIxZk42Vw?oc=5",
-    "fuente": "Noticias de Agüimes",
-    "fecha": "2026-10-10T23:18:18+00:00"
    }
   ],
   "ERC": [
@@ -332,6 +326,13 @@
   ],
   "Junts": [
    {
+    "titulo": "Junts sale a empatar el 29-N pese a los negros augurios de los sondeos y repite candidatos al Congreso",
+    "enlace": "https://www.elconfidencial.com/espana/cataluna/2026-10-12/junts-empatar-sondeos-repiten-grueso-candidatos_4442142/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-12T05:00:00+02:00",
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1791774020&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+   },
+   {
     "titulo": "El lamento de los antidisturbios del 1-O con el regreso de Puigdemont: «Se van de rositas después de humillar a España»",
     "enlace": "https://www.abc.es/espana/lamento-antidisturbios-regreso-puigdemont-policias-jubilados-culpa-20261009014534-nt.html",
     "fuente": "ABC",
@@ -343,13 +344,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVnJ4NjVtVkdJMnNTMFQ2WWRWOGRPejZKak55LXZ5UzMzZ3pSU0RobWlKNW9FTUcxMXJqa3dvV1VvWVlVVXlvTjBHN3UwS3E0bDByLXNBaERZN0duUUpBNjBVaGVoeTVYVDQ2a2tsQy1lT3czemYxeEZvMkJOd1JnSGxjSHpsaF9DTWdWN2IwWGpTZ01MS1N2Y2ZQMnBoZjMxWU5URFNrUjZqd2pxQ29IczdzOUFwX2c2aHM3V1ZBRTg1VS1NZUFJcHFka0fSAcwBQVVfeXFMTVZyeDY1bVZHSTJzUzBUNllkVjhkT3o2SmpOeS12eVMzM2d6UlNEaG1pSjVvRU1HMTFyamt3b1dVb1lZVVV5b04wRzd1MEtxNGwwci1zQWhEWTdHblFKQTYwVWhlaHk1WFQ0NmtrbEMtZU93M3pmMXhGbzJCTndSZ0hsY0h6bGhfQ01nVjdiMFhqU2dNTEtTdmNmUDJwaGYzMVlOVERTa1I2andqcUNvSHM3czlBcF9nNmhzN1dWQUU4NVUtTWVBSXBxZGtH?oc=5",
     "fuente": "Diari ARA",
     "fecha": "2026-10-11T20:43:10+00:00"
-   },
-   {
-    "titulo": "Puigdemont, en París para asistir en el Olympia al 50 aniversario de María del Mar Bonet",
-    "enlace": "https://www.lavanguardia.com/politica/20261011/11656650/puigdemont-paris-asistir-olympia-50-aniversario-maria-mar-bonet.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-11T20:17:10+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/11/6acbd2252068d.r_d.558-838-3741.jpeg"
    },
    {
     "titulo": "Junts responde a las críticas de Illa por no querer a Sánchez ni a Feijóo: \"Se está cargando el país\"",
@@ -567,6 +561,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQTDdxUDhEZTIzVG5XRFFqdmk5bVdFZEJFa2FCUHpTbW4yQWQtS2E5czBkX3NNSVJOTGpTMzVMM2pTeDR6TVRfVEhhSm04WmI5bkZacWdFQWFoSzZUMFBpQkpmdWNGT2pBUkZlRGdsUENuZ0JrMHZEQXRtMHVDTE8tMXdZcmQzQ0RfNm0yLUgteUNMWklVR2pzMHBZWDFDSkdxbzhyc0pwRF9Dc0RwT2JJSHJ3N1RRcjV6RFNvY2tIbTY5eTFjQnRMLVF6eW9udmNKRWV3eDk5NGhvcFVNb2ozd2Q5REFVWE43WWFaSzZobkFuUlFOSlRwVjV5a3Z0NTV6UjdJV9IBhAJBVV95cUxQTDdxUDhEZTIzVG5XRFFqdmk5bVdFZEJFa2FCUHpTbW4yQWQtS2E5czBkX3NNSVJOTGpTMzVMM2pTeDR6TVRfVEhhSm04WmI5bkZacWdFQWFoSzZUMFBpQkpmdWNGT2pBUkZlRGdsUENuZ0JrMHZEQXRtMHVDTE8tMXdZcmQzQ0RfNm0yLUgteUNMWklVR2pzMHBZWDFDSkdxbzhyc0pwRF9Dc0RwT2JJSHJ3N1RRcjV6RFNvY2tIbTY5eTFjQnRMLVF6eW9udmNKRWV3eDk5NGhvcFVNb2ozd2Q5REFVWE43WWFaSzZobkFuUlFOSlRwVjV5a3Z0NTV6UjdJVw?oc=5",
     "fuente": "LaSexta",
     "fecha": "2026-10-10T22:11:57+00:00"
+   },
+   {
+    "titulo": "El porqué de la \"vía rápida\" de Orriols en medio de un terremoto político",
+    "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY0M4UklyWktKTmlJQ2lUS3RRUTNNeExLa2Jldkl2Ty16WVY5UDd5NUY4NHRiRjQtWFFYblpUaXZqMWZHdjF6YVBKTmVmbWFNOTdXSGtIYVcyOHFXRGdmNG1FNUg5ZUgydzAtWEhSbUFiTURrc2plaEdSakhWbDhlYkhVcjdlT2FuQTBFbHhuSXctQQ?oc=5",
+    "fuente": "El Món",
+    "fecha": "2026-10-10T19:00:45+00:00"
    }
   ],
   "AA": [
@@ -823,11 +823,10 @@
   },
   {
    "titulo": "Aizpurua, condenada en su día por apología de ETA, no repetirá como candidata de Bildu al Congreso",
-   "enlace": "https://www.eldebate.com/espana/20261011/mertxe-aizpurua-no-repetira-como-candidata-bildu-congreso-preve-jubilarse-pronto_468501.html",
+   "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLTVmNUw5czhZcGlScGlYNnNBVmxvUndqUVNqaERIQ1RBMXpCYkpTeUNTck0xTmlnanlMLXZvZTFTY2RXY0RWUkl5V0w1SkdkMFpONV9HUjBuekhvbFFTOE1oNTNCbHlzVnByeFBRbkM1cWs1d1BmVF9pQnBkVi1kTGFuSWpRTHNQblZIZ0RpV01jbUNTZzNIWGZsU2NRaXlPTUMwTjdnN19fVURQMXRjajVydTdPOVBLSFAtOVdpdFpFVFluSUNoQ28yNFJOUdIB0wFBVV95cUxQRnEwVDluekdINWVrR1c5NXpvQVRkQkl1TkRDRVZnTnpHYllZYzZVRUh1RnhsUTlSQzlQLWRFUXVPN3ZjTjBidm15S2YyREdtN2VWWEIyYlNmdV9VZl9CWWV1QU9MY0ZjRXhneEVieTZpU1ZKZjctN0oxbFE1RTRfVFdyVnBURUNqYUZ1aUVJdXJCRmZ3czNOdmpYM2lEU1BSb1VmN19uempuTWhJZUc3X05VVnBuMzcwNmxhR1pKcEFrcmkwQ3NHVjRRR2VqblpzeGhB?oc=5",
    "fuente": "El Debate",
    "fecha": "2026-10-11T09:15:52+00:00",
-   "partido": "Bildu",
-   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2025/11/12/69146db56dade.r_d.1615-640-0.jpeg"
+   "partido": "Bildu"
   },
   {
    "titulo": "Vox no logra cárcel para el tuitero de 'Abascal colgado': la Justicia recuerda el caso Sánchez",
