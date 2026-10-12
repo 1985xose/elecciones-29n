@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-12T13:01:13+00:00",
+ "actualizado": "2026-10-12T14:01:11+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1379862024,
+ "revision": 1379889564,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,48 +21,6 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
-  {
-   "empresa": "Sigma Dos/El Mundo",
-   "inicio": "2026-10-11",
-   "fin": "2026-10-11",
-   "muestra": null,
-   "participacion": null,
-   "pct": {
-    "PP": 31.9,
-    "PSOE": 25.3,
-    "Vox": 19.1,
-    "Sumar": 7.6,
-    "ERC": 2.6,
-    "Junts": 1.2,
-    "Bildu": 1.1,
-    "PNV": 0.9,
-    "BNG": 0.9,
-    "CCa": 0.5,
-    "UPN": 0.2,
-    "AA": 0.8,
-    "Podemos": 3.1
-   },
-   "escanos": {
-    "PP": 135.0,
-    "PSOE": 103.0,
-    "Vox": 68.0,
-    "Sumar": 9.0,
-    "ERC": 9.0,
-    "Junts": 7.0,
-    "Bildu": 6.0,
-    "PNV": 6.0,
-    "BNG": 2.0,
-    "CCa": 1.0,
-    "UPN": 1.0,
-    "AA": 2.0,
-    "Podemos": 2.0
-   },
-   "empresa_base": "Sigma Dos",
-   "clave": "sigmados",
-   "encargo": "El Mundo",
-   "id": "sigmados-2026-10-11-0",
-   "primera_vez": "2026-10-12T02:01:07+00:00"
-  },
   {
    "empresa": "SocioMétrica/El Español",
    "inicio": "2026-10-10",
@@ -363,6 +321,48 @@
    "encargo": "laSexta",
    "id": "invymark-2026-10-08-0",
    "primera_vez": "2026-10-09T16:01:13+00:00"
+  },
+  {
+   "empresa": "Sigma Dos/El Mundo",
+   "inicio": "2026-10-01",
+   "fin": "2026-10-08",
+   "muestra": 2017,
+   "participacion": null,
+   "pct": {
+    "PP": 31.9,
+    "PSOE": 25.3,
+    "Vox": 19.1,
+    "Sumar": 7.6,
+    "ERC": 2.6,
+    "Junts": 1.2,
+    "Bildu": 1.1,
+    "PNV": 0.9,
+    "BNG": 0.9,
+    "CCa": 0.5,
+    "UPN": 0.2,
+    "AA": 0.8,
+    "Podemos": 3.1
+   },
+   "escanos": {
+    "PP": 135.0,
+    "PSOE": 103.0,
+    "Vox": 68.0,
+    "Sumar": 9.0,
+    "ERC": 9.0,
+    "Junts": 7.0,
+    "Bildu": 6.0,
+    "PNV": 6.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "UPN": 1.0,
+    "AA": 2.0,
+    "Podemos": 2.0
+   },
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "encargo": "El Mundo",
+   "id": "sigmados-2026-10-08-2017",
+   "primera_vez": "2026-10-12T14:01:11+00:00"
   },
   {
    "empresa": "IMOP/El Confidencial",
