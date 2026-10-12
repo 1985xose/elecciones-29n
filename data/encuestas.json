@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-12T08:01:08+00:00",
+ "actualizado": "2026-10-12T09:01:29+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1379806940,
+ "revision": 1379862024,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,30 +21,6 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
-  {
-   "empresa": "GAD3/ABC",
-   "inicio": "2026-10-12",
-   "fin": "2026-10-12",
-   "muestra": null,
-   "participacion": null,
-   "pct": {
-    "PP": 31.4,
-    "PSOE": 26.4,
-    "Vox": 18.2,
-    "Sumar": 7.4
-   },
-   "escanos": {
-    "PP": 133.0,
-    "PSOE": 107.0,
-    "Vox": 65.0,
-    "Sumar": 10.0
-   },
-   "empresa_base": "GAD3",
-   "clave": "gad3",
-   "encargo": "ABC",
-   "id": "gad3-2026-10-12-0",
-   "primera_vez": "2026-10-12T02:01:07+00:00"
-  },
   {
    "empresa": "Sigma Dos/El Mundo",
    "inicio": "2026-10-11",
@@ -97,11 +73,14 @@
     "PP": 32.6,
     "PSOE": 26.2,
     "Vox": 18.8,
-    "Sumar": 4.9,
+    "Sumar": 5.8,
     "ERC": 2.0,
     "Junts": 1.5,
     "Bildu": 1.3,
     "PNV": 0.8,
+    "BNG": 0.9,
+    "CCa": 0.5,
+    "UPN": 0.2,
     "AA": 0.9,
     "Podemos": 2.8,
     "SALF": 2.1
@@ -110,12 +89,14 @@
     "PP": 141.0,
     "PSOE": 104.0,
     "Vox": 64.0,
-    "Sumar": 5.0,
+    "Sumar": 8.0,
     "ERC": 8.0,
     "Junts": 6.0,
     "Bildu": 7.0,
     "PNV": 4.0,
     "BNG": 2.0,
+    "CCa": 1.0,
+    "UPN": 1.0,
     "AA": 1.0,
     "Podemos": 2.0,
     "SALF": 0.0
@@ -239,6 +220,82 @@
    "encargo": "Prisa",
    "id": "40db-2026-10-08-800",
    "primera_vez": "2026-10-09T06:01:11+00:00"
+  },
+  {
+   "empresa": "GESOP/Prensa Ibérica",
+   "inicio": "2026-10-06",
+   "fin": "2026-10-08",
+   "muestra": 1000,
+   "participacion": null,
+   "pct": {
+    "PP": 28.7,
+    "PSOE": 26.1,
+    "Vox": 18.9,
+    "Sumar": 8.0,
+    "ERC": 2.5,
+    "Junts": 1.9,
+    "Podemos": 2.6,
+    "SALF": 2.0
+   },
+   "escanos": {
+    "PP": 123.0,
+    "PSOE": 110.0,
+    "Vox": 70.0,
+    "Sumar": 15.5,
+    "ERC": 10.0,
+    "Junts": 5.0,
+    "Podemos": 2.0,
+    "SALF": 0.5
+   },
+   "empresa_base": "GESOP",
+   "clave": "gesop",
+   "encargo": "Prensa Ibérica",
+   "id": "gesop-2026-10-08-1000",
+   "primera_vez": "2026-10-12T09:01:29+00:00"
+  },
+  {
+   "empresa": "GAD3/Vocento",
+   "inicio": "2026-10-06",
+   "fin": "2026-10-08",
+   "muestra": 1077,
+   "participacion": null,
+   "pct": {
+    "PP": 31.4,
+    "PSOE": 26.4,
+    "Vox": 18.2,
+    "Sumar": 7.4,
+    "ERC": 2.6,
+    "Junts": 1.5,
+    "Bildu": 1.5,
+    "PNV": 1.0,
+    "BNG": 0.9,
+    "CCa": 0.4,
+    "UPN": 0.1,
+    "AA": 1.0,
+    "Podemos": 2.3,
+    "SALF": 1.8
+   },
+   "escanos": {
+    "PP": 133.0,
+    "PSOE": 107.0,
+    "Vox": 65.0,
+    "Sumar": 10.0,
+    "ERC": 10.0,
+    "Junts": 5.0,
+    "Bildu": 8.0,
+    "PNV": 6.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "UPN": 0.0,
+    "AA": 1.0,
+    "Podemos": 2.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "encargo": "Vocento",
+   "id": "gad3-2026-10-08-1077",
+   "primera_vez": "2026-10-12T09:01:29+00:00"
   },
   {
    "empresa": "Hamalgama Métrica/Vozpópuli",
