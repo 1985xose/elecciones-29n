@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-12T01:19:20+00:00",
+ "actualizado": "2026-10-12T02:01:07+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1379724021,
+ "revision": 1379806940,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,111 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "GAD3/ABC",
+   "inicio": "2026-10-12",
+   "fin": "2026-10-12",
+   "muestra": null,
+   "participacion": null,
+   "pct": {
+    "PP": 31.4,
+    "PSOE": 26.4,
+    "Vox": 18.2,
+    "Sumar": 7.4
+   },
+   "escanos": {
+    "PP": 133.0,
+    "PSOE": 107.0,
+    "Vox": 65.0,
+    "Sumar": 10.0
+   },
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "encargo": "ABC",
+   "id": "gad3-2026-10-12-0",
+   "primera_vez": "2026-10-12T02:01:07+00:00"
+  },
+  {
+   "empresa": "Sigma Dos/El Mundo",
+   "inicio": "2026-10-11",
+   "fin": "2026-10-11",
+   "muestra": null,
+   "participacion": null,
+   "pct": {
+    "PP": 31.9,
+    "PSOE": 25.3,
+    "Vox": 19.1,
+    "Sumar": 7.6,
+    "ERC": 2.6,
+    "Junts": 1.2,
+    "Bildu": 1.1,
+    "PNV": 0.9,
+    "BNG": 0.9,
+    "CCa": 0.5,
+    "UPN": 0.2,
+    "AA": 0.8,
+    "Podemos": 3.1
+   },
+   "escanos": {
+    "PP": 135.0,
+    "PSOE": 103.0,
+    "Vox": 68.0,
+    "Sumar": 9.0,
+    "ERC": 9.0,
+    "Junts": 7.0,
+    "Bildu": 6.0,
+    "PNV": 6.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "UPN": 1.0,
+    "AA": 2.0,
+    "Podemos": 2.0
+   },
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "encargo": "El Mundo",
+   "id": "sigmados-2026-10-11-0",
+   "primera_vez": "2026-10-12T02:01:07+00:00"
+  },
+  {
+   "empresa": "SocioMétrica/El Español",
+   "inicio": "2026-10-10",
+   "fin": "2026-10-11",
+   "muestra": 1000,
+   "participacion": null,
+   "pct": {
+    "PP": 32.6,
+    "PSOE": 26.2,
+    "Vox": 18.8,
+    "Sumar": 4.9,
+    "ERC": 2.0,
+    "Junts": 1.5,
+    "Bildu": 1.3,
+    "PNV": 0.8,
+    "AA": 0.9,
+    "Podemos": 2.8,
+    "SALF": 2.1
+   },
+   "escanos": {
+    "PP": 141.0,
+    "PSOE": 104.0,
+    "Vox": 64.0,
+    "Sumar": 5.0,
+    "ERC": 8.0,
+    "Junts": 6.0,
+    "Bildu": 7.0,
+    "PNV": 4.0,
+    "BNG": 2.0,
+    "AA": 1.0,
+    "Podemos": 2.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "encargo": "El Español",
+   "id": "sociometrica-2026-10-11-1000",
+   "primera_vez": "2026-10-12T02:01:07+00:00"
+  },
   {
    "empresa": "Target Point/El Debate",
    "inicio": "2026-10-06",
