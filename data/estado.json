@@ -1,42 +1,39 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-10-12T09:01:29+00:00",
-  "mensaje": "513 encuestas leídas, 2 nuevas",
-  "ultima_buena": "2026-10-12T09:01:29+00:00",
+  "hora": "2026-10-12T09:09:24+00:00",
+  "mensaje": "513 encuestas leídas, 0 nuevas",
+  "ultima_buena": "2026-10-12T09:09:24+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
     "Sigma Dos/Antena 3 2023-11-27"
    ],
    "corregidas": [],
-   "nuevas": [
-    "GESOP/Prensa Ibérica 2026-10-08",
-    "GAD3/Vocento 2026-10-08"
-   ]
+   "nuevas": []
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-10-12T09:02:03.145Z",
+  "hora": "2026-10-12T09:10:13.402Z",
   "mensaje": "10000 repeticiones, faltan 48 días",
-  "ultima_buena": "2026-10-12T09:02:03.145Z",
+  "ultima_buena": "2026-10-12T09:10:13.402Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-10-12T09:02:30+00:00",
-  "mensaje": "10 titulares del día, 79 por partido, 11 polémicas",
-  "ultima_buena": "2026-10-12T09:02:30+00:00",
+  "hora": "2026-10-12T09:11:30+00:00",
+  "mensaje": "10 titulares del día, 70 por partido, 8 polémicas",
+  "ultima_buena": "2026-10-12T09:11:30+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-10-12T09:02:30+00:00"
+  "hora": "2026-10-12T09:11:30+00:00"
  },
  "avisado": {},
  "fiabilidad": {
