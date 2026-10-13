@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-13T02:01:50+00:00",
+ "actualizado": "2026-10-13T03:01:32+00:00",
  "generales": [
+  {
+   "titulo": "Los países que más peso han ganado en el voto exterior desde las generales de 2023",
+   "enlace": "https://www.eldebate.com/espana/20261013/paises-peso-han-ganado-voto-exterior-desde-generales-2023_468777.html",
+   "fuente": "El Debate",
+   "fecha": "2026-10-13T04:30:00+02:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/10/12/6acd0f5ecf1bf.jpeg"
+  },
   {
    "titulo": "Interior detiene nombramientos por el adelanto electoral",
    "enlace": "https://www.larazon.es/espana/nombramientos-tiro-hecho-marlaska-llegan-fin_202610136acd82a0bafd3d73635e6dc9.html",
@@ -14,13 +21,6 @@
    "fuente": "ABC",
    "fecha": "2026-10-13T02:26:06+02:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/13/1517932849-kSkF-U3022003621346kG-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "Vox sacude el mapa electoral: cerca al PSOE en Andalucía, lo supera en Murcia y da el sorpasso al PP en Cataluña",
-   "enlace": "https://www.elmundo.es/espana/encuestas/2026/10/13/6acd12e2e4d4d82d4c8b4592.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-10-13T01:37:08+02:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/12/17918253633700.jpg"
   },
   {
    "titulo": "Frente Amplio propone a Colau como candidata al 29-N y llama a Podemos a incorporarse pese a su pacto con ERC",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Marruecos ya da por amortizado a Sánchez y vigila cada paso de Feijóo",
-    "enlace": "https://www.larazon.es/espana/marruecos-amortizado-sanchez-vigila-cada-paso-feijoo_202610136acd8823fb06971aad01704c.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-13T03:23:47+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2022/08/13/07CD1AC1-2C8F-4484-909D-C28D850EECA4/96.jpg?crop=4960,2790,x0,y260&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "¿Por qué el PSOE habla de «pactos ocultos» entre PP y Vox para acabar con el Estatuto de Castilla-La Mancha?",
+    "enlace": "https://www.eldebate.com/espana/castilla-la-mancha/20261013/psoe-habla-pactos-ocultos-entre-pp-vox-acabar-estatuto-castilla-mancha_468812.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-13T04:25:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/07/07/6a4ce886cb1d6.r_d.715-272-0.jpeg"
    },
    {
     "titulo": "PSOE i PP es barallen en el fang",
@@ -117,11 +117,17 @@
   ],
   "PSOE": [
    {
-    "titulo": "Marruecos ya da por amortizado a Sánchez y vigila cada paso de Feijóo",
-    "enlace": "https://www.larazon.es/espana/marruecos-amortizado-sanchez-vigila-cada-paso-feijoo_202610136acd8823fb06971aad01704c.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-13T03:23:47+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2022/08/13/07CD1AC1-2C8F-4484-909D-C28D850EECA4/96.jpg?crop=4960,2790,x0,y260&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Marlaska usa la ley que Sánchez despreció en la invasión de Ceuta para tapar sus errores mientras veraneaba en La Mareta",
+    "enlace": "https://www.eldebate.com/espana/20261013/marlaska-usa-ley-sanchez-desprecio-invasion-ceuta-tapar-errores-mientras-veraneaba-mareta_468818.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-13T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/10/12/6acd05eeebdeb.jpeg"
+   },
+   {
+    "titulo": "Pedro Sánchez y los escondites del alcalde",
+    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3pXRXFaRXZtZlNoWE5ZTW00WEY2R1Q2anNXR0RYTEZDblduenlsWHF5aGxyS3Z6c3VuTEJvUDZ6Wlh6aTZnSWdabzBJNkNLcVFqTVdxdHVOTGhYS2pxb0dsV0xLR25XMTM2MmNCZG9XQ0NmaXczVDJyZl81VDFBUUsyNk9YckdCZUdlZG0waVJOUTBVUjc3R0d5OFpCd19y?oc=5",
+    "fuente": "Diario de Sevilla",
+    "fecha": "2026-10-13T01:08:30+00:00"
    },
    {
     "titulo": "PSOE i PP es barallen en el fang",
@@ -149,21 +155,15 @@
     "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVDNOLV94QU4zSnVCeUxCci1hM1g4NXFxOXNqR1lRVE9FTmFGbG1RcVctb2prcVVDem5xRnhoVlppc3dkTHFLNU91bDBjRHdmN1pqVm52aHBNdlBsT0hna3Fwd1FGZl9NMEZ6T2ZPdVM2QnExVjBJMTZpMHplem04QzZqLXRSbjlmQ2tSY2lRSnRKLVJoX3c?oc=5",
     "fuente": "MONCLOA.COM",
     "fecha": "2026-10-12T21:24:52+00:00"
-   },
-   {
-    "titulo": "Pilar Bernabé candidata del PSOE por Valencia al Congreso",
-    "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGdTJLc05oQ2p1X1VqdDVkSklLRW5HZXpmZWdDMFh2YzE1Qzk3SVdLd0wwdUhJZDZ1OXJFbnBDeWFocFpyLXBuSzFmQXBBZmJPU2Nsek52RHdZSEM5S2hTYi1xeTBXekdVQzVuOGROeUw5NUVxYzRZ?oc=5",
-    "fuente": "Noticias Ciudadanas",
-    "fecha": "2026-10-12T20:50:58+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "Feijóo, ante la ausencia de Abascal en la Fiesta Nacional: «Con Vox, ni cordón sanitario ni cordón umbilical»",
-    "enlace": "https://www.abc.es/espana/feijoo-ante-ausencia-abascal-vox-cordon-sanitario-20261013014249-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-13T01:42:59+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/13/feijoo-esther-kPZ-ReT0ujTTCCKsiKNGutYUPuO-1200x840@diario_abc.jpg"
+    "titulo": "¿Por qué el PSOE habla de «pactos ocultos» entre PP y Vox para acabar con el Estatuto de Castilla-La Mancha?",
+    "enlace": "https://www.eldebate.com/espana/castilla-la-mancha/20261013/psoe-habla-pactos-ocultos-entre-pp-vox-acabar-estatuto-castilla-mancha_468812.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-13T04:25:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/07/07/6a4ce886cb1d6.r_d.715-272-0.jpeg"
    },
    {
     "titulo": "Buxadé afirma que Vox revisará las nacionalizaciones de la ley de nietos si gobierna",
@@ -200,11 +200,11 @@
   ],
   "Sumar": [
    {
-    "titulo": "Mónica García se protege ante el posible batacazo de Más Madrid en las generales",
-    "enlace": "https://www.abc.es/espana/madrid/monica-garcia-protege-ante-posible-batacazo-madrid-20261012013621-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-13T02:08:51+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/12/mas-madrid2-Ri54irhxesTwGkP8CsbLeOJ-1200x840@diario_abc.jpg"
+    "titulo": "La agónica descomposición de Sumar y Podemos: divididos y con sus figuras fuertes enfrentadas",
+    "enlace": "https://www.eldebate.com/espana/20261013/agonica-descomposicion-sumar-podemos-divididos-figuras-fuertes-enfrentadas_466277.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-13T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2023/06/06/647f361f58769.jpeg"
    },
    {
     "titulo": "Maíllo dice que \"siempre\" ha tenido claro que Rufián \"nunca iba a dar el paso\" e insta a Podemos a decidir",
@@ -240,18 +240,18 @@
   ],
   "Podemos": [
    {
+    "titulo": "La agónica descomposición de Sumar y Podemos: divididos y con sus figuras fuertes enfrentadas",
+    "enlace": "https://www.eldebate.com/espana/20261013/agonica-descomposicion-sumar-podemos-divididos-figuras-fuertes-enfrentadas_466277.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-13T04:30:00+02:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2023/06/06/647f361f58769.jpeg"
+   },
+   {
     "titulo": "Frente Amplio propone a Colau como candidata al 29-N y llama a Podemos a incorporarse pese a su pacto con ERC",
     "enlace": "https://www.elconfidencial.com/espana/2026-10-12/ada-colau-candidata-frente-amplio-elecciones-1tps_4443526/",
     "fuente": "El Confidencial",
     "fecha": "2026-10-12T22:17:00+02:00",
     "imagen": "https://www.ecestaticos.com/imagestatic/clipping/4a9/ccf/4a9ccfac1b50c6a3bd6114b915d1cae1/colau-invita-a-rufian-al-frente-amplio-en-medio-de-la-pugna-por-la-lista-de-madrid.jpg?mtime=1791549882"
-   },
-   {
-    "titulo": "El Frente Amplio nombra a Ada Colau como su candidata a La Moncloa e insiste a Podemos que se sume",
-    "enlace": "https://www.larazon.es/espana/frente-amplio-nombra-ada-colau-como-candidata-moncloa-insiste-podemos-que-sume_202610126acd2d446e8df44596af6f5b.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-12T20:56:04+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/12/2156065C-9089-476A-AAA0-FCF6F0270E29/96.jpg?crop=1920,1080,x0,y100&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "La mayoría de votantes de izquierdas apoyan que Frente Amplio y Podemos vayan juntos a las elecciones",
@@ -281,6 +281,12 @@
    }
   ],
   "SALF": [
+   {
+    "titulo": "Se Acabó La Fiesta se organiza en Baleares: Busca 1.300 firmas para presentarse a las elecciones",
+    "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNHNjM2RNZHJqRlhxal8wQndaV245cExkNXdwbmVSak9pSzBOaGQ0OUtSZHlaUzFTemZYZ0F6YlNmSzBnWERTUENySHNETlFGdDBRREhvRmdnellaWGpIS2ktSnR0dkZGdUZoSDRHR2pReXNVZVM2MV9Cd0FzUThycVljNTZySHFaeUI0X1k4cUZOMzdDT1ZkSjE5ZHdINUh2TTkxcWVRZzJXbVc5cW54MHh0THBabkNxZGliejJZMGRQdmZsMW1zb2NHWnNWTDNlXzZ4NDFsdlFpSGoyRE5hMkxSX1rSAeQBQVVfeXFMUGZiUG52eFZMcWRzZVJHSlZwWV90Y2U1U1F6QVVGVG1Ka3l2S3ZjcmRncEliZjNJcWZOVnhSa2pmeDREdlhubzBBNk1JWXl1LVdMQ0pOLXB6T0RmNENlMjdqYXBkNUhvV0tRVEFhZUZ6b3NETC1lZ3ZwS056X1N3VUNSa24yLUliZnhtUWE3YkNTVmVyMG1RN0F6eVZrNlYxM29lZzJOS2FZSlNMeDhxQklxcmRDTlpJOGpYWW01Qm96TU1Pa1Zxbm1zUnJQMnJWZkNUM1NQOG9tUXZHZ21EZ0pfRlRT?oc=5",
+    "fuente": "Ultima Hora",
+    "fecha": "2026-10-13T01:58:04+00:00"
+   },
    {
     "titulo": "Guadalajara se vuelca en la Plaza de Santo Domingo para que Se Acabó La Fiesta esté en la papeleta del 29-N",
     "enlace": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EVnBEVGhtT2RTdngwdEQ1bXpGUHRkc1llNWpRYVVkTm9wR1BpMlNmWjlzdVl0WlhNY1JidXlHS2d3Nm95aEp5VGVSSmYwS1ZW?oc=5",
@@ -336,17 +342,17 @@
     "imagen": "https://www.elsaltodiario.com/uploads/fotos/h300/d7fc02a9/AMP_3795%20copia.jpg?v=63958506017"
    },
    {
-    "titulo": "Ampliación | Frente Amplio impulsa a Ada Colau para liderar el 29N e insta a Podemos a sumarse pese a su alianza con ERC",
-    "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeG1YZUtlNnVuZk82UnAwN18wcEluQjQxY0lxUllNYl9RVV92NlA4ZGV1dEdDTTExLXd0U1h5d3R4b25LVXdGSjdCSUFrelBXcWtTYUwyVGxMTWNGT2d3dTZDY3RXa0hKZk5VVk53MHcxWDFMUFQwM0FSbWZmVjFGVzYxbFZFUHRGaGZuSHozWUpmNE5GYUVSeTBYSVhWbWtoOWdYQXFUelVjUWlCeFloRTdPZUJtcWlJdFg5Ry1vYmExODhhNW44MTZnTWVwM2xqV3p1cTYxWENYM18yT1BQcjN5OVpmcDJP0gHuAUFVX3lxTE9iWDNfZVM1cTYtOHdTakY2VEFrQTNTaVlqSHBqWV9kWjlPalFmZXdlRFVRUU5tRnlaQUM4ajN0dnNybzZXS3FheDVyZTctMWVRazNkTEtOMHNpMXRMLXFBUUc3akYwLVBsX0hoMXI4LUdtZnotNzBiSTlJOU5wamJGS05WNndBdTg4RmVSRjN5NjNaUDgzNldOcmI5YkgwS2FJeTk3Qk1OR0VzMTMxZnlnLVlTQ3NpemdvU0EwZVZiOVRVc1pLWDlKNG5IZTRRdkJpRUlGRjBCYlVBd1BsaTZsYWVCbHZhLVJTYzUyVEE?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-10-12T18:48:37+00:00"
-   },
-   {
     "titulo": "Frente Amplio confirma a Ada Colau como candidata el 29N y llama a Podemos a sumarse tras su acuerdo con Rufián",
     "enlace": "https://www.20minutos.es/nacional/frente-amplio-propone-ada-colau-como-cabeza-lista-las-elecciones-29n_7047873_0.html",
     "fuente": "20Minutos",
     "fecha": "2026-10-12T18:10:39+00:00",
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2025/06/18/exalcaldesa-ada-colau.jpeg"
+   },
+   {
+    "titulo": "Ada Colau se revuelve contra Rufián y Montero y confirma que los 'comunes' se presentarán con el Frente Amplio en las elecciones generales del 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1kdjBveGdnNThaZ1d3a2IxTXlXX3NRZGpiSWtQYUozdWhQT25SeXlUdm9aTVVfbWVRMnRLa1pfXzgtSXlPX3hwaXViMWtQNjl6UWluQ0wxVjVnR3lKdjlDck5xTmFsc25sUWo1Vk80Wk9TWm1uYTdzWTZLa1nSAXxBVV95cUxQdmxVcTZvVUtaOElCUEJ5amFidFE0MV9zY1djR3V4M3NMZlBVd3BudUctQ1I2ZXRsQW16SVh4cDRyTGlCYXBRU0pwemhCVko3cjdCUDhwVjVzdEI1RDZ5S3IxR3dZenRKN1NVYXZBVGthN1licS1kSFZqZzlj?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-12T17:44:40+00:00"
    }
   ],
   "Junts": [
@@ -527,6 +533,12 @@
    }
   ],
   "UPN": [
+   {
+    "titulo": "Ibarrola (UPN) y Tellado (PP) ultiman un acuerdo para ir juntos a las elecciones generales",
+    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUHcySkU0cU5QLUhJRUFoMVQ1N1VpZ1pPSkdlNFNOQ0xhM3BoTm5ROGxXcGROSHRjY2kwdklKZUowX0s3OWNNN3pPS2x4Z3l4Sms2TW1lSWxzQXJ4RGdOMXo2QXpFeFpCcHlFRE1zNU5pZVpwUmI5ckVOeHVBWjJuWXEyS3QxMEZCUENRYTNmaG1hZTlyWjRRWEFLME5ncjJyM3UtNHphVmpLZ3doM1hBczFxQkk0aVFiSjJjaXdOQUExZVlpREZwMFFtMXdCOE0?oc=5",
+    "fuente": "Diario de Navarra",
+    "fecha": "2026-10-13T03:00:00+00:00"
+   },
    {
     "titulo": "Sayas muestra la \"total voluntad\" del PP por alcanzar un acuerdo con UPN para las generales",
     "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTGxOYlpJLXFGSG4zX2NrdTQtVTVpZk1rSVZpeHgzdmp5YlJVLUFXMHhURy03SEQ4OEVkQjN3SU41eG56Q0hQdUdieHFJYVEzQkh1SlRiVmdLUHJ3WUNpMUU1OUFEUWY4bV9waklhV1dqdHVNM3JTalZoQUM4T2JTQW9LWnQtVnJScjNPa0NpNmJGNU90NmNfVUZNV2V5LXJ1azZ4MlFNQlJYem4xZ1hzZlFBZU1jY25pTHY5ZHNsZTNRMEpJeHlmSmJlejh5azFmcDRZMWFNZlo4REtVQmZJ0gHzAUFVX3lxTE8tUmZ2Y0V2bGF1QlIwdXBBNXREYnJqQnVQc2RPUy1nbVowdmFJdGJ0NDdTbjYtWkVrSExCdWlQa2xvVU1tRHp0bmQ5QV9RdVdhRGp6eC1PdzREOE9sRGw0aW1IajNERmNtZG9EX0lkZ2tweW1ZVjFCN2c2MXBjM1N2UEtMdV9LZE5EbXlkRHZfMWtSMjVKX3VTVldMNzN3VGY4ZEhZSHlGcGtDYWFJVWJabGRZdXc0U3VxNzhpcFdHTW5zUTZSTkRTcU9oVWkwdkRHbUpKMkkzSVJGMnpKY3IyekQ0RmpVSlg2Y2gyVERma1ZDWQ?oc=5",
@@ -838,12 +850,18 @@
  ],
  "polemicas": [
   {
-   "titulo": "El PP de Cádiz pide la dimisión del alcalde de Algeciras tras las denuncias de dos afiliadas por agresión sexual",
-   "enlace": "https://www.eldebate.com/espana/andalucia/cadiz/20261012/pp-cadiz-pide-dimision-alcalde-algeciras-denuncias-dos-afiliadas-agresion-sexual_468853.html",
-   "fuente": "El Debate",
-   "fecha": "2026-10-12T20:46:56+00:00",
-   "partido": "PP",
-   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/12/6acd463479929.r_d.803-411-0.jpeg"
+   "titulo": "Fiscalía avanza la imputación del PSOE: \"No existía control sobre la gestión que Cerdán hacía de las cuentas”",
+   "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQLTE4eFNIbWZ2b25nQ1ZCbTBpU2lrcElZWGdOaVZsVEljWjBRakRaR0NwMkV1SDhWdUlUNWxDMVpxXzQtc0tSQkpfTThyN3dWOWpaYWRRNlUtRXUtRWpra2FyYWxNY2FnTnZDUkRGZW0tUFQxNnhMc0s1ejVYNmtRLW1iQUl2eV9CblNzSzByYk1hM3h4VUl4SGYyV3EzTDhOSGh6VzZIVTZqOVV3RWR0X09fMWgyU1FISDhmMWlDbVFlSTBzUkdOZlhuVWZNS0hxWnBkaklBUW5TY3R2NUFTNkJ30gHnAUFVX3lxTE55SEdPUlo2ZTg1bnZkcFh2eGkyZHFnS3R5c2ZVSUxPbEczem9QcmwwcTQ1NE9ya1o3VHRzMDVyQk9BellyQkhkOExHUldPMGZhdU91Q0NSem1EcnJHNXBXS0luVVdUSlRCcnN6bWdwTU1uMGZUQVNHakJCTDFlYXBjR0d0OEdvdlhPSWtaQkdZLTFFazluYkFVVzlMU3hwbFpobkE4eVZXdTlrT0s3RDRnNXQwZ1ZqTDRaUHR6VFNiNlZ5d1hJOTJSUFhBN0dwNkZ5LWFQTHVFVy1ackprNjYyTWFsLWJubw?oc=5",
+   "fuente": "Vozpopuli",
+   "fecha": "2026-10-13T02:45:00+00:00",
+   "partido": "PSOE"
+  },
+  {
+   "titulo": "El PP de Cádiz urge la dimisión del alcalde de Algeciras tras las denuncias de acoso de dos afiliadas",
+   "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOFJfalE0bnZ6RER4c3hQMGhoU2plQ2FfdFFoYTFmTC0xYVRvZ1pfTVlBVUVjN2J1U2gtTy1IX1h6V3Nra0RsZzZwQzl5enBDN2FsbVpVTU1TcjBlcG5QOU1DbDVDcnhRZU9icUZCaUdYUi1VSjJGT21OZHktVTcwYWpfekwyMlBCV19GOUxaVkZHTEhvbTV0LQ?oc=5",
+   "fuente": "RTVE.es",
+   "fecha": "2026-10-13T01:37:43+00:00",
+   "partido": "PP"
   },
   {
    "titulo": "Pitada histórica a Pedro Sánchez en el desfile del 12-O mientras la UCO intensifica su investigación",
@@ -894,13 +912,6 @@
    "fuente": "Crónica Vasca",
    "fecha": "2026-10-12T03:00:00+00:00",
    "partido": "Bildu"
-  },
-  {
-   "titulo": "Los cabos por atar para imputar al PSOE: las fallas de control, el \"beneficio\" al partido y los \"poderes reales\" de Cerdán",
-   "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSHNBN2I0aF9aM002NndnQ2ZqcUNCMno4d1BBSzJONFpCNEo0eV9xNUtTc2h4SURmNkJQclBwTF9GREV1ZVM3eW1ZbHRQb1FCN0V2SG5FYTBnWENPNzBIRy1taklWRHlNOHRxZW5pNjRCV1VVeThlQURKdGkxb0JJbF9lcnZ5Q3FlTHMyQWhNSEtCWUJpb0dreGVwLTdVQzFTSk9aa0pBVUNwUHE2anpGNmJtcEdTRW5IbjFqa2ZJVTdXZ2R2OHJtY1phQjZMSUhzY0wydERqdTNDM0RheTE4ZTJfamZoZzVwRGJuOFhKdmtRMnZm0gH0AUFVX3lxTE9Ic0E3YjRoX1ozTTY2d2dDZmpxQ0Iyejh3UEFLMk40WkI0SjR5X3E1S1NzaHhJRGY2QlByUHBMX0ZERXVlUzd5bVlsdFBvUUI3RXZIbkVhMGdYQ083MEhHLW1qSVZEeU04dHFlbmk2NEJXVVV5OGVBREp0aTFvQklsX2VydnlDcWVMczJBaE1IS0JZQmlvR2t4ZXAtN1VDMVNKT1prSkFVQ3BQcTZqekY2Ym1wR1NFbkhuMWprZklVN1dnZHY4cm1jWmFCNkxJSHNjTDJ0RGp1M0MzRGF5MThlMl9qZmhnNXBEYm44WEp2a1EydmY?oc=5",
-   "fuente": "Vozpopuli",
-   "fecha": "2026-10-12T02:45:00+00:00",
-   "partido": "PSOE"
   },
   {
    "titulo": "La UCO investiga si el PSOE infló los pagos en publicidad al medio de las cloacas",
