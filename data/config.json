@@ -155,7 +155,7 @@
     {"nombre": "Europa Press", "grupo": "centro", "rss": ["https://www.europapress.es/rss/rss.aspx?ch=00066"]}
   ],
   "grupos_medios": {"izquierda": "progresistas", "derecha": "conservadores", "centro": "generalistas, públicos y agencias"},
-  "polemicas_titular": ["polémica", "escándalo", "imputa", "investig", "Fiscalía", "fiscal general", "Anticorrupción", "juez", "juzgado", "Guardia Civil", "UCO", "corrupción", "dimisión", "dimite", "querella", "denuncia", "cloaca", "trama", "fraude", "malversación", "cohecho", "Supremo", "Audiencia Nacional", "condenad", "sentencia", "detenid", "detención", "sanción", "expediente", "caso"],
+  "polemicas_titular": ["polémica", "escándalo", "imputa", "investig", "Fiscalía", "fiscal general", "Anticorrupción", "juez", "juzgado", "Guardia Civil", "UCO", "corrupción", "dimisión", "dimite", "querella", "denuncia", "cloaca", "trama", "fraude", "malversación", "cohecho", "Supremo", "Audiencia Nacional", "condenad", "sentencia", "detenid", "detención", "sanción", "expediente", "caso", "bronca", "choque", "ruptura", "veto", "guerra interna", "enfrentamiento", "carga contra", "cargan contra", "arremete", "ataca", "pulso", "crisis", "rebelión", "purga", "tensión", "reproch", "responde a", "contesta a", "frente a", "se revuelve"],
   "portada_seguras": ["29N", "29-N", "29 de noviembre", "elecciones generales", "las generales", "electoral", "precampaña", "voto por correo", "urnas"],
   "portada_fuertes": ["elecciones", "campaña", "encuesta", "sondeo", "candidat", "listas", "adelanto", "debate", "mitin", "primarias"],
   "portada_claves": ["investidura", "escaño", "diputad", "ministr", "legislatura"],
@@ -231,7 +231,7 @@
     "derecha": "pp_vox",
     "izquierda": "izq_socios"
   },
-  "polemicas": "polémica OR escándalo OR imputado OR imputada OR investigación OR Fiscalía OR \"Guardia Civil\" OR dimisión",
+  "polemicas": "polémica OR escándalo OR imputado OR imputada OR investigación OR Fiscalía OR \"Guardia Civil\" OR dimisión OR bronca OR choque OR ruptura OR veto OR \"guerra interna\" OR enfrentamiento OR \"carga contra\"",
   "tareas": [
     {
       "id": "censo",

@@ -24,14 +24,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=53">
+<link rel="stylesheet" href="assets/style.css?v=63">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#F5F6F8">
 <link rel="apple-touch-icon" href="assets/icono-192.png">
 </head>
 <body>
 <header class="cabecera">
-  <div><span class="marca">29N</span> <span class="lema">las elecciones, explicadas</span></div>
+  <div><span class="marca">29N</span> <span class="lema">las elecciones, explicadas</span><span class="sello-pruebas">pruebas</span></div>
   <div class="estado"><span id="cuenta" class="cuenta"></span><span id="cuenta-act" class="cuenta-act"></span></div>
 </header>
 
@@ -55,37 +55,36 @@
   <section id="hoy" class="pantalla">
     <div id="foco-hoy" class="foco-caja"></div>
 
+    <article class="portada" id="portada">
+      <div class="portada-txt">
+        <p class="portada-eti" id="portada-fecha"></p>
+        <h2 id="portada-titulo">Cargando…</h2>
+        <div id="portada-cifras" class="cifras"></div>
+        <div id="portada-anillo"></div>
+      </div>
+      <div class="portada-arcos">
+        <p class="portada-eti">Si hoy hubiera elecciones</p>
+        <div id="arcos" class="arcos"></div>
+        <div id="arcos-leyenda" class="arcos-leyenda"></div>
+      </div>
+    </article>
+
+    <div id="tarjetas-hoy" class="tarjetas-hoy"></div>
+
     <article class="pregunta desde" id="desde" hidden></article>
 
-    <article class="pregunta resumen-dia">
-      <h2 id="resumen-titulo">El resumen de hoy</h2>
-      <ul id="resumen" class="resumen"></ul>
-    </article>
-
-    <article class="pregunta">
-      <h2>¿Quién va ganando?</h2>
-      <p id="r-ganando" class="respuesta">Cargando…</p>
-      <div id="g-ganando" class="barras-grandes"></div>
-      <div id="g-resto" class="resto"></div>
-      <details class="como"><summary>¿De qué encuestas sale esto?</summary>
-        <div id="media-hoy" class="media-hoy"></div>
-        <p id="como-ganando" class="fuente"></p>
-        <p class="fuente"><a href="#metodologia">Cómo se hace la media, paso a paso</a></p>
-      </details>
-    </article>
-
-    <article class="pregunta">
-      <h2>¿Quién va a gobernar?</h2>
-      <p id="r-gobernar" class="respuesta">Cargando…</p>
-      <div id="hemiciclo" class="hemi"></div>
-      <div id="hemi-ficha"></div>
-      <p id="hemi-arco" class="arco-txt"></p>
-      <div id="leyenda" class="leyenda"></div>
-      <p class="pie-bloque">Cada punto es un asiento del Congreso. El bloque cuyo arco pasa la raya del centro, 176 de 350, puede gobernar sin depender de nadie. Toca un partido en el dibujo para ver sus datos.</p>
+    <article class="pregunta" id="gobernar-bloque">
+      <h2>¿Quién puede gobernar?</h2>
       <div id="g-medidores" class="medidores"></div>
       <div id="g-medidor-detalle" class="medidor-detalle"></div>
       <button type="button" id="compartir" class="boton compartir" hidden>Compartir esta foto por WhatsApp</button>
       <details class="como"><summary>¿Cómo lo sabemos?</summary>
+        <p id="r-gobernar" class="respuesta">Cargando…</p>
+        <div id="hemiciclo" class="hemi"></div>
+        <div id="hemi-ficha"></div>
+        <p id="hemi-arco" class="arco-txt"></p>
+        <div id="leyenda" class="leyenda"></div>
+        <p class="pie-bloque">Cada punto es un asiento del Congreso. El bloque cuyo arco pasa la raya del centro, 176 de 350, puede gobernar sin depender de nadie. Toca un partido en el dibujo para ver sus datos.</p>
         <p>Las encuestas se equivocan. En 2023 dieron al PSOE tres puntos menos de los que sacó. Por eso, además del reparto con las encuestas de hoy, repetimos las elecciones 10.000 veces en el ordenador. En cada repetición metemos el error que tuvieron las encuestas de verdad en 2016, 2019 y 2023 a esta misma distancia de la votación, y el que tiene cada comunidad y cada provincia al separarse del resultado nacional, medido con lo que pasó entre 2019 y 2023. Luego se reparten los asientos provincia a provincia con la ley electoral.</p>
         <p>La aguja dice en cuántas de esas repeticiones hay mayoría. Muy probable es más del 80 %, probable entre el 60 y el 80 %, en el aire entre el 40 y el 60 %, difícil entre el 20 y el 40 % y muy difícil menos del 20 %. La franja de la barra es donde acaban los asientos el 80 % de las veces.</p>
         <p>Así podría quedar cada partido. La barra es donde cae el 80 % de las veces, la raya, el resultado más probable.</p>
@@ -95,219 +94,412 @@
       </details>
     </article>
 
-    <article class="pregunta">
-      <h2>¿Ha cambiado algo esta semana?</h2>
-      <p id="r-cambios" class="respuesta">Cargando…</p>
+    <article class="pregunta" id="ganando-bloque">
+      <h2>¿Quién va ganando?</h2>
+      <p class="explica-corta">Media de encuestas de hoy. Toca un partido.</p>
+      <div id="g-ganando" class="carrera-votos"></div>
+      <details class="como"><summary>¿De qué encuestas sale esto?</summary>
+        <p id="r-ganando" class="respuesta">Cargando…</p>
+        <div id="media-hoy" class="media-hoy"></div>
+        <p id="como-ganando" class="fuente"></p>
+        <p class="fuente"><a href="#metodologia">Cómo se hace la media, paso a paso</a></p>
+      </details>
+    </article>
+
+    <article class="pregunta" id="semana-bloque">
+      <h2>Esta semana</h2>
       <div id="g-cambios" class="cambios"></div>
       <div class="grafico grafico-bajo"><canvas id="grafico-historial" aria-label="Cómo ha cambiado la probabilidad"></canvas></div>
       <details class="como"><summary>¿Cómo lo sabemos?</summary>
+        <p id="r-cambios" class="respuesta">Cargando…</p>
         <p>Comparamos la media de encuestas de hoy con la de hace siete días, y la probabilidad de gobierno de hoy con la de días anteriores.</p>
       </details>
     </article>
 
-    <article class="pregunta">
+    <article class="pregunta bloque-titulares">
       <h2>¿Qué se dice hoy?</h2>
-      <div id="titulares" class="titulares"></div>
+      <div id="titulares" class="titulares titulares-hoy"></div>
       <p class="fuente"><a href="#noticias">Todas las noticias y polémicas</a></p>
     </article>
   </section>
 
   <section id="mapa" class="pantalla" hidden>
     <div id="foco-mapa" class="foco-caja"></div>
-    <h2>Provincia a provincia</h2>
-    <p class="explica">Cada provincia reparte sus propios asientos. Elige la tuya o toca cualquiera en el mapa para ver cómo quedaría.</p>
-    <label class="selector">Tu provincia <select id="mi-provincia"></select></label>
-    <div class="conmutador" role="group" aria-label="Qué mostrar en el mapa">
-      <button type="button" data-vista="ganador" aria-pressed="true">Quién gana en cada una</button>
-      <button type="button" data-vista="filo" aria-pressed="false">Dónde está reñido</button>
+    <div id="prov-lista" class="prov-vista">
+      <h2>Provincia a provincia</h2>
+      <div class="mandos-grafica">
+        <div class="conmutador subvistas" role="group" aria-label="Qué ver">
+          <button type="button" data-sub="mapa" aria-pressed="true">Mapa</button>
+          <button type="button" data-sub="ultimo" aria-pressed="false">Último asiento</button>
+          <button type="button" data-sub="tabla" aria-pressed="false">Tabla</button>
+        </div>
+        <select id="mi-provincia" class="desplegable" aria-label="Elige una provincia"></select>
+      </div>
+      <div id="prov-mapa" class="subvista">
+        <div id="mapa-svg" class="mapa"><div id="mapa-tip" class="mapa-tip" hidden></div></div>
+        <p id="mapa-pista" class="explica-corta"></p>
+      </div>
+      <div id="prov-ultimo" class="subvista" hidden>
+        <p class="explica-corta">Dónde se decide el último asiento por menos votos, a todo color, con los dos partidos que se lo disputan. Toca una provincia o una fila para abrirla.</p>
+        <div id="ultimo-mapa" class="mapa"></div>
+        <div id="ultimo-tabla" class="tabla-ultimo"></div>
+      </div>
+      <div id="prov-tabla" class="subvista" hidden>
+        <div class="mandos-grafica">
+          <div class="conmutador" role="group" aria-label="Comunidades o provincias">
+            <button type="button" data-terr="ccaa" aria-pressed="true">Comunidades</button>
+            <button type="button" data-terr="prov" aria-pressed="false">Provincias</button>
+          </div>
+          <div class="conmutador" role="group" aria-label="Porcentaje o asientos">
+            <button type="button" data-tmed="pct" aria-pressed="true">% de voto</button>
+            <button type="button" data-tmed="esc" aria-pressed="false">Asientos</button>
+          </div>
+        </div>
+        <div class="tabla-scroll"><table id="tabla-territorio" class="tabla-territorio"></table></div>
+        <p class="fuente">Reparto con la media de encuestas de hoy. El porcentaje de cada comunidad es la media de sus provincias, pesada por los asientos que reparte cada una. En Provincias, toca una fila para abrir su detalle.</p>
+      </div>
     </div>
-    <div id="mapa-svg" class="mapa"></div>
-    <p id="mapa-pista" class="explica"></p>
-    <div id="ficha-provincia"></div>
-    <h2>Las más reñidas</h2>
-    <p class="explica">Las provincias donde el último asiento se decide por muy pocos votos.</p>
-    <div id="ajustadas" class="ajustadas"></div>
+    <div id="prov-detalle" class="prov-vista" hidden>
+      <div class="det-cab">
+        <button type="button" class="boton pequeno" id="det-volver">← Volver</button>
+        <h2 id="det-nombre"></h2>
+        <span id="det-sub" class="det-sub"></span>
+      </div>
+      <div class="det-rejilla">
+        <article class="pregunta">
+          <h2>Reparto de asientos</h2>
+          <div id="det-arcos" class="arcos"></div>
+          <p id="det-lider" class="det-lider"></p>
+          <p id="det-ultimo" class="explica-corta"></p>
+        </article>
+        <article class="pregunta" id="det-disputa-bloque">
+          <h2>El último asiento</h2>
+          <div id="det-disputa" class="disputa"></div>
+        </article>
+        <article class="pregunta">
+          <h2>Partido a partido</h2>
+          <div id="det-tabla" class="det-tabla"></div>
+        </article>
+        <article class="pregunta">
+          <h2>Por bloques</h2>
+          <div id="det-bloques" class="det-tabla"></div>
+        </article>
+        <article class="pregunta">
+          <h2>Cómo se reparten</h2>
+          <div id="det-dhondt"></div>
+        </article>
+      </div>
+      <div id="ficha-provincia" hidden></div>
+    </div>
+    <div id="ajustadas" hidden></div>
   </section>
 
   <section id="encuestas" class="pantalla" hidden>
     <div id="foco-encuestas" class="foco-caja"></div>
     <h2>Lo que dicen las encuestas</h2>
-    <div id="filtro-empresas" class="filtro-empresas"></div>
-    <p id="leyenda-empresas" class="fuente leyenda-empresas"></p>
-    <div class="conmutador tramos" role="group" aria-label="Tramo de la gráfica">
-      <button type="button" data-tramo="legislatura" aria-pressed="true">Toda la legislatura</button>
-      <button type="button" data-tramo="anio" aria-pressed="false">Último año</button>
-      <button type="button" data-tramo="tres" aria-pressed="false">3 meses</button>
-      <button type="button" data-tramo="convocatoria" aria-pressed="false">Desde la convocatoria</button>
-      <button type="button" data-tramo="medida" aria-pressed="false" aria-expanded="false" aria-controls="tramo-fechas">Elegir fechas</button>
+    <div class="mandos-grafica">
+      <div class="conmutador vistas" role="group" aria-label="Qué gráfica ver">
+        <button type="button" data-vista="tendencia" aria-pressed="true">Tendencia</button>
+        <button type="button" data-vista="carrera" aria-pressed="false">Carrera</button>
+      </div>
+      <div class="conmutador quever" role="group" aria-label="Partidos o bloques">
+        <button type="button" data-que="partidos" aria-pressed="true">Partidos</button>
+        <button type="button" data-que="bloques" aria-pressed="false">Bloques</button>
+      </div>
+      <div class="conmutador medida" role="group" aria-label="Porcentaje o asientos">
+        <button type="button" data-medida="pct" aria-pressed="true">% de voto</button>
+        <button type="button" data-medida="esc" aria-pressed="false">Asientos</button>
+      </div>
     </div>
+    <div class="mandos-grafica secundarios">
+      <select id="tramo-sel" class="desplegable" aria-label="Tramo de la gráfica">
+        <option value="legislatura">Toda la legislatura</option>
+        <option value="anio">Último año</option>
+        <option value="tres">Últimos 3 meses</option>
+        <option value="convocatoria">Desde la convocatoria</option>
+        <option value="medida">Elegir fechas…</option>
+      </select>
+      <select id="filtro-empresas" class="desplegable" aria-label="Empresa de encuestas"></select>
+      <label class="interruptor" id="franja-mando"><input type="checkbox" id="puntos"><span class="pista-int"></span>Ver cada encuesta</label>
+    </div>
+    <p id="leyenda-empresas" class="fuente leyenda-empresas"></p>
     <div id="tramo-fechas" class="tramo-fechas" hidden>
       <label>Desde <input type="date" id="tramo-desde"></label>
       <label>Hasta <input type="date" id="tramo-hasta"></label>
       <p id="tramo-aviso" class="fuente" role="status"></p>
     </div>
     <p id="explica-tendencia" class="explica">Así ha cambiado la media de encuestas desde las últimas elecciones, en julio de 2023.</p>
-    <div class="grafico"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div>
-    <h2>Cómo va cada partido</h2>
-    <p class="explica">El porcentaje es la media de hoy. El número pequeño de color es lo que ha cambiado en una semana. Debajo, los asientos entre los que lo normal es que acabe.</p>
-    <div id="lista-partidos" class="lista-partidos"></div>
+    <div class="grafico grafico-grande" id="caja-tendencia"><div class="lienzo"><canvas id="grafico-tendencia" aria-label="Evolución de la media de encuestas"></canvas></div><div id="lectura-tendencia" class="lectura" aria-live="polite"></div></div>
+    <div id="carrera" class="carrera" hidden>
+      <div class="carrera-mandos">
+        <button type="button" id="carrera-play" class="play" aria-label="Reproducir"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
+        <div class="carrera-tiempo">
+          <input type="range" id="carrera-fecha" min="0" max="0" value="0" aria-label="Fecha">
+          <div class="carrera-marcas"><span id="carrera-inicio"></span><span>Hoy</span></div>
+        </div>
+        <div class="carrera-cuando"><b id="carrera-dia"></b><small id="carrera-n"></small></div>
+      </div>
+      <div id="carrera-escala" class="carrera-escala"></div>
+      <div id="carrera-barras" class="carrera-barras"></div>
+    </div>
+    <p id="pie-grafica" class="fuente"></p>
+    <div id="notas-encuestas" class="notas-encuestas"></div>
     <article class="pregunta" id="cis-bloque" hidden>
       <h2>¿Y el CIS?</h2>
       <p id="cis-texto" class="pie-bloque"></p>
       <div id="cis-tabla" class="cis-tabla"></div>
       <p id="cis-nota" class="fuente"></p>
     </article>
-    <h2>Las últimas encuestas, una a una</h2>
-    <p class="explica">Cada empresa tiene sus manías. Aquí te decimos si lo que dice una encuesta es normal en ella o es una novedad de verdad. Toca una encuesta para ver todos sus datos.</p>
-    <div id="tarjetas-encuestas" class="tarjetas"></div>
+    <h2>Encuesta a encuesta</h2>
+    <p class="explica-corta">Las últimas publicadas. Toca una para ver todos sus datos y lo que suele dar esa empresa.</p>
+    <div class="tabla-scroll"><table id="tabla-encuestas" class="tabla-territorio tabla-encuestas"></table></div>
     <p class="fuente" id="fuente-encuestas"></p>
   </section>
 
   <section id="senado" class="pantalla" hidden>
     <div id="foco-senado" class="foco-caja"></div>
-    <article class="pregunta">
-      <h2>¿Quién controlará el Senado?</h2>
-      <p id="r-senado" class="respuesta"></p>
-      <div id="sen-hemiciclo" class="hemi"></div>
-      <div id="sen-hemi-ficha"></div>
-      <p id="sen-hemi-arco" class="arco-txt"></p>
-      <div id="sen-leyenda" class="leyenda"></div>
-      <p id="sen-pie" class="pie-bloque"></p>
-      <div id="sen-medidores" class="medidores"></div>
-      <div id="sen-medidor-detalle" class="medidor-detalle"></div>
-      <p id="sen-nota" class="pie-bloque"></p>
-    </article>
-
-    <article class="pregunta">
-      <h2>¿Cuántos senadores sacaría cada partido?</h2>
-      <div id="g-senado" class="barras-grandes"></div>
-      <p id="sen-designados" class="pie-bloque"></p>
-    </article>
-
-    <article class="pregunta">
-      <h2>Provincia a provincia</h2>
-      <p class="pie-bloque">Cada provincia lleva el color del partido más votado, que se lleva casi todos sus senadores, y el número de senadores que elige. Toca una para ver el reparto.</p>
-      <div id="sen-mapa" class="mapa"></div>
-      <div id="sen-ficha"></div>
-    </article>
-
-    <article class="pregunta texto">
-      <h2>¿Qué pinta el Senado?</h2>
-      <p>El mismo día se eligen 208 senadores, 4 por provincia (3 para el partido más votado y 1 para el segundo), y los suyos en las islas, Ceuta y Melilla. Como casi todo va al primero, el Senado suele tener mayorías mucho más claras que el Congreso. Sirve para frenar leyes y para que el Gobierno no pueda cambiar la Constitución sin acuerdo.</p>
-      <p><b>No todos se eligen el 29N.</b> Además de esos 208, los parlamentos de las comunidades autónomas designan a otros 58 según el resultado de sus propias elecciones, y esos no cambian ahora. En total son 266, así que para controlar el Senado hacen falta 134, contando los elegidos y los designados.</p>
-      <p><b>Cómo se vota.</b> La papeleta del Senado es la de color sepia y lleva los nombres de todos los candidatos. En la mayoría de provincias se pueden marcar hasta 3, del mismo partido o de varios.</p>
-    </article>
+    <div class="mandos-grafica">
+      <div class="conmutador subvistas-sen" role="group" aria-label="Qué ver del Senado">
+        <button type="button" data-sensub="hoy" aria-pressed="true">Hoy</button>
+        <button type="button" data-sensub="mueve" aria-pressed="false">Mueve el voto</button>
+        <button type="button" data-sensub="decide" aria-pressed="false">Dónde se decide</button>
+      </div>
+    </div>
+    <div id="sen-hoy" class="subvista">
+      <div class="sim-rejilla">
+        <article class="pregunta">
+          <h2>¿Quién controlará el Senado?</h2>
+          <p id="sen-titulo" class="portada-titulo"></p>
+          <div id="sen-cifras" class="portada-cifras"></div>
+          <div id="sen-arcos" class="arcos"></div>
+          <div id="sen-arcos-leyenda" class="arcos-leyenda"></div>
+          <p class="fuente">El tramo rayado de cada partido son los senadores que ya tiene designados por las comunidades y no cambian el 29N.</p>
+          <div id="sen-anillo" class="portada-anillo"></div>
+        </article>
+        <article class="pregunta">
+          <h2>Congreso y Senado, lado a lado</h2>
+          <p class="explica-corta">Los mismos votos, dos cámaras distintas. En el Senado casi todo se lo lleva el primero de cada provincia.</p>
+          <div id="sen-doble" class="sen-doble"></div>
+          <p id="sen-doble-frase" class="explica-corta"></p>
+          <h2>Senadores por partido</h2>
+          <div id="sen-lista" class="sen-lista"></div>
+          <p id="sen-designados" class="fuente"></p>
+        </article>
+      </div>
+      <article class="pregunta">
+        <h2>Provincia a provincia</h2>
+        <p class="explica-corta">Cada provincia lleva el color del más votado, que se lleva 3 de sus 4 senadores, y cuántos elige. Pasa el ratón o toca una.</p>
+        <div id="sen-mapa" class="mapa"></div>
+        <div id="sen-ficha"></div>
+      </article>
+      <details class="como">
+        <summary>¿Cómo funciona el Senado?</summary>
+        <p>El 29N se eligen 208 senadores, 4 por provincia (3 para el partido más votado y 1 para el segundo), y los suyos en las islas, Ceuta y Melilla. Como casi todo va al primero, el Senado suele tener mayorías mucho más claras que el Congreso.</p>
+        <p><b>No todos se eligen el 29N.</b> Los parlamentos de las comunidades autónomas designan a otros 58 según sus propias elecciones, y esos no cambian ahora. En total son 266, así que para controlar el Senado hacen falta 134.</p>
+        <p><b>Cómo se vota.</b> La papeleta del Senado es la de color sepia y lleva los nombres de todos los candidatos. En la mayoría de provincias se pueden marcar hasta 3, del mismo partido o de varios.</p>
+      </details>
+    </div>
+    <div id="sen-mueve" class="subvista" hidden>
+      <div class="sim-rejilla">
+        <article class="pregunta">
+          <h2>Arrastra un partido</h2>
+          <p class="explica-corta">Un punto es el 1 % de los votos de toda España. Al subir uno, el resto baja en proporción. En el Senado un punto en una provincia reñida vuelca 2 senadores de golpe.</p>
+          <div id="sen-barras" class="sim-barras"></div>
+          <div id="sen-atajos" class="sim-atajos"></div>
+        </article>
+        <article class="pregunta">
+          <h2>Así quedaría el Senado</h2>
+          <div id="sen-sim-arcos" class="arcos"></div>
+          <div id="sen-sim-leyenda" class="arcos-leyenda"></div>
+          <p id="sen-sim-cifra" class="sim-cifra"></p>
+          <p id="sen-sim-cambios" class="explica-corta"></p>
+        </article>
+      </div>
+      <article class="pregunta">
+        <h2>Qué provincias cambian de manos</h2>
+        <div id="sen-sim-mapa" class="mapa"></div>
+      </article>
+    </div>
+    <div id="sen-decide" class="subvista" hidden>
+      <article class="pregunta">
+        <h2>Dónde se decide el Senado</h2>
+        <p class="explica-corta">Las provincias donde el primero y el segundo van más pegados. Si se cruzan, cambian 2 senadores de manos. A más color, más reñida.</p>
+        <div id="sen-decide-mapa" class="mapa"></div>
+        <div id="sen-decide-lista" class="tabla-ultimo"></div>
+      </article>
+    </div>
   </section>
 
   <section id="simulador" class="pantalla" hidden>
     <div id="foco-simulador" class="foco-caja"></div>
     <h2>¿Y si…?</h2>
-    <p class="explica">Prueba qué pasaría si las cosas cambiaran. Toca una situación o monta la tuya. Un punto es el 1 % de los votos de toda España, y se reparten por provincias según lo fuerte que sea cada partido en cada una.</p>
-    <div id="situaciones" class="situaciones"></div>
-    <div id="caso" class="caso"></div>
-    <p id="r-sim" class="respuesta"></p>
-    <div id="sim-hemiciclo" class="hemi"></div>
-    <div id="sim-hemi-ficha"></div>
-    <p id="sim-hemi-arco" class="arco-txt"></p>
-    <div id="sim-leyenda" class="leyenda"></div>
-    <div id="sim-medidores" class="medidores"></div>
-    <div id="sim-medidor-detalle" class="medidor-detalle"></div>
-    <h2>Así quedaría el mapa</h2>
-    <div id="sim-mapa" class="mapa"></div>
-    <p id="sim-cambios" class="explica"></p>
-    <div id="sim-ficha"></div>
-    <article class="pregunta">
-      <h2>Suma partidos y mira si llegan a 176</h2>
-      <p class="pie-bloque">Toca los partidos que quieras juntar, en el dibujo o en los botones. Se colocan a la izquierda y, si entre todos pasan la raya, tienen mayoría. Cuenta con los asientos de la situación elegida arriba.</p>
-      <div id="pactos-hemi" class="hemi"></div>
-      <p id="pactos-frase" class="arco-txt"></p>
-      <div id="pactos" class="pactos"></div>
-    </article>
-
-    <article class="pregunta">
-      <h2>¿La ley electoral favorece a alguien?</h2>
-      <p id="r-coste" class="respuesta"></p>
-      <p class="pie-bloque">Asientos que tendría cada partido con los votos de la situación elegida arriba, y los que le tocarían si los 350 se repartieran solo por el número de votos en toda España.</p>
-      <div id="g-proporcional" class="pares"></div>
-      <details class="como"><summary>¿Por qué pasa esto?</summary>
-        <p>Porque los asientos no se reparten en toda España a la vez, sino provincia a provincia. En cada provincia, los votos de un partido que no llega a asiento se tiran, no se suman en ningún otro sitio. A los partidos medianos con el voto repartido por todo el país les pasa en casi todas las provincias. A los que concentran su voto en una zona casi nunca. Y los dos grandes salen ganando porque en las provincias pequeñas, que reparten 3 o 4 asientos, casi todo se lo llevan ellos.</p>
-        <div id="g-perdidos" class="perdidos"></div>
-        <p class="fuente">Cálculo aproximado con los votos de la situación elegida.</p>
-      </details>
-    </article>
+    <div class="mandos-grafica">
+      <div class="conmutador subvistas-sim" role="group" aria-label="Qué hacer">
+        <button type="button" data-ssub="mueve" aria-pressed="true">Mueve el voto</button>
+        <button type="button" data-ssub="enjuego" aria-pressed="false">En juego</button>
+        <button type="button" data-ssub="pactos" aria-pressed="false">Pactos</button>
+      </div>
+    </div>
+    <div id="sim-mueve" class="subvista">
+      <div class="sim-rejilla">
+        <article class="pregunta">
+          <h2>Arrastra un partido</h2>
+          <p class="explica-corta">Un punto es el 1 % de los votos de toda España. Al subir uno, el resto baja en proporción.</p>
+          <div id="sim-barras" class="sim-barras"></div>
+          <div id="sim-atajos" class="sim-atajos"></div>
+        </article>
+        <article class="pregunta">
+          <h2>Así quedaría</h2>
+          <div id="sim-arcos" class="arcos"></div>
+          <div id="sim-arcos-leyenda" class="arcos-leyenda"></div>
+          <p id="sim-cifra" class="sim-cifra"></p>
+          <p id="r-sim" class="explica-corta"></p>
+          <div id="sim-medidores" class="medidores"></div>
+          <div id="sim-medidor-detalle" class="medidor-detalle"></div>
+          <p id="sim-prop" class="fuente"></p>
+        </article>
+      </div>
+      <article class="pregunta">
+        <h2>Qué provincias cambian</h2>
+        <div id="sim-mapa" class="mapa"></div>
+        <p id="sim-cambios" class="explica-corta"></p>
+        <div id="sim-ficha"></div>
+      </article>
+    </div>
+    <div id="sim-enjuego" class="subvista" hidden>
+      <article class="pregunta">
+        <h2>Horquillas de asientos</h2>
+        <p class="explica-corta">Si un partido subiera o bajara estos puntos en todas las provincias, cuántos asientos tiene seguros, cuántos podría perder y cuántos podría ganar.</p>
+        <div class="mandos-grafica">
+          <div class="conmutador" role="group" aria-label="Partidos o bloques">
+            <button type="button" data-ej="partidos" aria-pressed="true">Partidos</button>
+            <button type="button" data-ej="bloques" aria-pressed="false">Bloques</button>
+          </div>
+          <label class="ej-desliza">Cambio de voto <input type="range" id="ej-puntos" min="0.5" max="8" step="0.5" value="3"> <b id="ej-valor">±3 puntos</b></label>
+        </div>
+        <p class="explica-corta" id="ej-votos"></p>
+        <div class="mandos-grafica" hidden>
+        </div>
+        <div class="ej-leyenda"><span><i class="seg"></i>Seguros</span><span><i class="perder"></i>Podría perder</span><span><i class="ganar"></i>Podría ganar</span><span><i class="hoy"></i>Hoy</span></div>
+        <div id="ej-filas" class="ej-filas"></div>
+        <div id="ej-detalle"></div>
+      </article>
+    </div>
+    <div id="sim-pactos" class="subvista" hidden>
+      <article class="pregunta">
+        <h2>Suma partidos</h2>
+        <p class="explica-corta">Toca los partidos que quieras juntar y mira si llegan a 176 con los asientos de hoy.</p>
+        <div id="pactos" class="pactos"></div>
+        <div id="pactos-arcos" class="arcos"></div>
+        <p id="pactos-frase" class="sim-cifra"></p>
+      </article>
+    </div>
   </section>
 
   <section id="noticias" class="pantalla" hidden>
     <div id="foco-noticias" class="foco-caja"></div>
-    <h2>Titulares del día</h2>
-    <div id="titulares-todos" class="titulares"></div>
-    <h2>Polémicas</h2>
-    <p class="explica">Lo que los medios publican como polémica, caso o investigación sobre cada partido. Solo entran titulares que nombran al partido. Se recoge, no se valora.</p>
-    <div id="polemicas-todas" class="polemicas"></div>
-    <h2>Bulos y verificaciones</h2>
-    <p class="explica">Lo que han comprobado Newtral y Maldita estos días sobre la campaña.</p>
-    <div id="verificaciones-todas" class="titulares"></div>
-    <h2>Partido a partido</h2>
-    <div id="fichas-partidos" class="fichas"></div>
+    <div class="not-cab">
+      <h2>Noticias</h2>
+      <span id="not-directo" class="directo"><i></i><span></span></span>
+    </div>
+    <div id="not-pulso" class="pulso"></div>
+    <div class="not-rejilla">
+      <div class="not-col">
+        <div id="not-portada" class="not-portada"></div>
+        <div id="not-mosaico" class="not-mosaico"></div>
+      </div>
+      <div class="not-lateral">
+        <article class="pregunta polemicas-bloque">
+          <div class="pol-cab"><span class="pol-rotulo">Polémicas</span><span id="pol-ultima" class="pol-ultima"></span></div>
+          <p class="explica-corta">Casos, investigaciones y líos de los últimos 7 días. Se recoge, no se valora.</p>
+          <div id="pol-reparto" class="pol-tira"></div>
+          <div id="polemicas-todas" class="termometro"></div>
+        </article>
+        <article class="pregunta">
+          <h2>Bulos y verificaciones</h2>
+          <p class="explica-corta">Lo que han comprobado Newtral y Maldita.</p>
+          <div id="verificaciones-todas" class="verificaciones"></div>
+        </article>
+      </div>
+    </div>
+    <div id="titulares-todos" hidden></div><div id="fichas-partidos" hidden></div>
   </section>
 
   <section id="el29n" class="pantalla" hidden>
+    <article class="pregunta cuenta-atras">
+      <div id="cuenta-29n" class="cuenta-29n"></div>
+      <div id="camino-29n" class="camino"></div>
+      <p id="r-fechas" class="explica-corta"></p>
+    </article>
+
     <article class="pregunta" id="tareas-bloque">
       <h2>Qué te toca hacer</h2>
-      <p id="r-tareas" class="respuesta"></p>
+      <p id="r-tareas" class="explica-corta"></p>
+      <div class="mandos-grafica"><div class="conmutador grupos-tarea" role="group" aria-label="Para quién"></div></div>
       <div id="tareas"></div>
-      <p class="pie-bloque">Fechas del INE y de Correos. Si la Junta Electoral amplía algún plazo, se cambia aquí.</p>
+      <p class="fuente">Fechas del INE y de Correos. Si la Junta Electoral amplía algún plazo, se cambia aquí.</p>
     </article>
 
     <article class="pregunta">
-      <h2>¿Qué pasa el 29N?</h2>
-      <p id="r-fechas" class="respuesta"></p>
-      <ol id="agenda" class="agenda"></ol>
-    </article>
-
-    <article class="pregunta texto">
       <h2>Cómo votar</h2>
-      <p><b>En el colegio.</b> El domingo 29 de 9:00 a 20:00, con el DNI, pasaporte o carné de conducir, aunque estén caducados. El colegio que te toca viene en la tarjeta censal que llega a casa, y también se consulta en la web del INE con el DNI.</p>
-      <p><b>Por correo.</b> Se pide hasta el 19 de noviembre, en persona en cualquier oficina de Correos con el DNI, o en su web si tienes certificado digital o DNI electrónico. Te mandan las papeletas a casa y hay que devolverlas certificadas, gratis, en Correos, hasta el miércoles 25 de noviembre. Quien vota por correo ya no puede votar en el colegio.</p>
-      <p><b>Desde el extranjero.</b> Los inscritos en el censo de residentes ausentes reciben la documentación sin tener que pedirla. Votan en urna en el consulado, del 21 al 26 de noviembre, o por correo, hasta el 24.</p>
+      <div class="tres-vias">
+        <details class="via">
+          <summary><span class="via-ico">🏫</span><b>En el colegio</b><small>Domingo 29, de 9:00 a 20:00</small></summary>
+          <p>El domingo 29 de 9:00 a 20:00, con el DNI, pasaporte o carné de conducir, aunque estén caducados. El colegio que te toca viene en la tarjeta censal que llega a casa, y también se consulta en la web del INE con el DNI.</p>
+        </details>
+        <details class="via">
+          <summary><span class="via-ico">✉️</span><b>Por correo</b><small>Se pide hasta el 19 de noviembre</small></summary>
+          <p>Se pide hasta el 19 de noviembre, en persona en cualquier oficina de Correos con el DNI, o en su web si tienes certificado digital o DNI electrónico. Te mandan las papeletas a casa y hay que devolverlas certificadas, gratis, en Correos, hasta el miércoles 25 de noviembre. Quien vota por correo ya no puede votar en el colegio.</p>
+        </details>
+        <details class="via">
+          <summary><span class="via-ico">🌍</span><b>Desde el extranjero</b><small>En urna del 21 al 26, por correo hasta el 24</small></summary>
+          <p>Los inscritos en el censo de residentes ausentes reciben la documentación sin tener que pedirla. Votan en urna en el consulado, del 21 al 26 de noviembre, o por correo, hasta el 24.</p>
+        </details>
+      </div>
     </article>
 
-    <article class="pregunta texto">
+    <article class="pregunta">
       <h2>La noche electoral, hora a hora</h2>
-      <p><b>20:00.</b> Cierran los colegios y las televisiones dan los sondeos a pie de urna, que fallan a menudo.</p>
-      <p><b>21:00.</b> Primeros datos reales, con el 20 o 30 % contado. Los pueblos pequeños cuentan antes que las ciudades, así que suelen favorecer al PP al principio.</p>
-      <p><b>22:00 a 22:30.</b> Con el 90 % contado el resultado ya casi no se mueve.</p>
-      <p><b>23:00.</b> Discursos de los candidatos. El voto de los residentes en el extranjero se cuenta días después y a veces cambia un asiento.</p>
-      <p>Esta app se actualizará esa noche con el recuento oficial del Ministerio del Interior.</p>
+      <ol class="noche">
+        <li><b>20:00</b><span>Cierran los colegios y las televisiones dan los sondeos a pie de urna, que fallan a menudo.</span></li>
+        <li><b>21:00</b><span>Primeros datos reales, con el 20 o 30 % contado. Los pueblos pequeños cuentan antes que las ciudades, así que suelen favorecer al PP al principio.</span></li>
+        <li><b>22:00 a 22:30</b><span>Con el 90 % contado el resultado ya casi no se mueve.</span></li>
+        <li><b>23:00</b><span>Discursos de los candidatos. El voto de los residentes en el extranjero se cuenta días después y a veces cambia un asiento.</span></li>
+      </ol>
+      <p class="fuente">Esta app se actualizará esa noche con el recuento oficial del Ministerio del Interior.</p>
     </article>
 
-    <article class="pregunta texto">
-      <h2>Cómo funciona la votación</h2>
+    <details class="como">
+      <summary>Cómo funciona la votación</summary>
       <p>Se eligen 350 diputados. Cada provincia reparte un número de asientos según su población, Madrid 38 y Soria 2, por ejemplo. Dentro de cada provincia los asientos se reparten entre los partidos que pasan del 3 % con la ley D'Hondt, un método que favorece un poco a los partidos grandes, sobre todo en las provincias pequeñas. Para gobernar sin apoyos hacen falta 176.</p>
-    </article>
+    </details>
 
-    <article class="pregunta texto">
+    <article class="pregunta">
       <h2>Diccionario rápido</h2>
-      <p><b>Escaño o asiento.</b> Cada uno de los 350 puestos de diputado en el Congreso.</p>
-      <p><b>Mayoría absoluta.</b> 176 asientos, la mitad más uno. Permite gobernar sin pactar con nadie.</p>
-      <p><b>Investidura.</b> La votación en la que el Congreso elige al presidente. En la primera hacen falta 176 síes, en la segunda basta con más síes que noes.</p>
-      <p><b>Bloqueo.</b> Cuando ninguna combinación de partidos dispuestos a pactar suma 176. Si dura dos meses desde la primera investidura fallida, se repiten las elecciones.</p>
-      <p><b>Punto.</b> Un punto es el 1 % de los votos, unos 250.000 votantes, más o menos la población de Gijón o de Vigo.</p>
-      <p><b>Ley D'Hondt.</b> La fórmula que convierte votos en asientos en cada provincia. Los asientos se dan de uno en uno al partido con el número más alto, y a quien gana uno se le divide el voto entre 2 para optar al siguiente, luego entre 3, y así.</p>
+      <p class="explica-corta">Toca una palabra.</p>
+      <div class="diccionario">
+        <details><summary>Escaño o asiento</summary><p>Cada uno de los 350 puestos de diputado en el Congreso.</p></details>
+        <details><summary>Mayoría absoluta</summary><p>176 asientos, la mitad más uno. Permite gobernar sin pactar con nadie.</p></details>
+        <details><summary>Investidura</summary><p>La votación en la que el Congreso elige al presidente. En la primera hacen falta 176 síes, en la segunda basta con más síes que noes.</p></details>
+        <details><summary>Bloqueo</summary><p>Cuando ninguna combinación de partidos dispuestos a pactar suma 176. Si dura dos meses desde la primera investidura fallida, se repiten las elecciones.</p></details>
+        <details><summary>Punto</summary><p>Un punto es el 1 % de los votos, unos 250.000 votantes, más o menos la población de Gijón o de Vigo.</p></details>
+        <details><summary>Ley D'Hondt</summary><p>La fórmula que convierte votos en asientos en cada provincia. Los asientos se dan de uno en uno al partido con el número más alto, y a quien gana uno se le divide el voto entre 2 para optar al siguiente, luego entre 3, y así.</p></details>
+      </div>
     </article>
   </section>
 
   <section id="metodologia" class="pantalla" hidden>
     <div id="visitas"></div>
-    <article class="pregunta texto">
+    <article class="pregunta">
       <h2>Cómo se hace esta app</h2>
-      <p class="respuesta">Aquí está todo, sin letra pequeña. De dónde sale cada dato, qué cuentas se hacen con él y dónde puedes comprobarlo tú mismo.</p>
-      <p id="met-resumen"></p>
-      <p>Tres ideas antes de entrar en detalle. Los datos no son nuestros, son encuestas ya publicadas y resultados oficiales. Las cuentas son siempre las mismas para todos los partidos y están a la vista. Y esto es una estimación, no una predicción, porque las encuestas se equivocan y aquí se dice cuánto.</p>
+      <p class="explica-corta">Aquí está todo, sin letra pequeña. De dónde sale cada dato, qué cuentas se hacen con él y dónde puedes comprobarlo tú mismo. Los datos no son nuestros, son encuestas ya publicadas y resultados oficiales. Las cuentas son las mismas para todos los partidos. Y esto es una estimación, no una predicción.</p>
+      <div id="met-flujo" class="met-flujo"></div>
+      <p id="met-resumen" class="fuente"></p>
     </article>
 
-    <article class="pregunta texto">
-      <h2>1. De dónde salen los datos</h2>
+    <details class="pregunta met-paso" id="met-1">
+      <summary><span class="met-num">1</span><h2>De dónde salen los datos</h2></summary>
+      <div class="met-cuerpo texto">
       <p><b>Las encuestas.</b> De la página de Wikipedia en inglés que recopila todas las encuestas publicadas sobre estas elecciones, <a id="met-wiki" href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election" target="_blank" rel="noopener">Opinion polling for the 2026 Spanish general election</a>. La mantienen voluntarios, se actualiza casi a diario y cada encuesta enlaza al medio que la publicó, así que cualquier número se puede comprobar en su origen. La app la lee cada hora y coge solo la tabla de estimación de voto.</p>
       <p><b>Lo que se queda fuera al leerla.</b> Las filas que dan asientos pero no porcentajes, las estimaciones que hacen terceros con los datos del CIS y las encuestas con números imposibles (que no sumen entre 70 y 100). Si un día la tabla sale rara, con muchas menos encuestas o sin PP, PSOE o Vox, no se guarda nada y se sigue con los datos anteriores.</p>
       <p><b>Los resultados de 2023 y 2019, provincia a provincia.</b> Son los oficiales del <a href="https://infoelectoral.interior.gob.es/" target="_blank" rel="noopener">Ministerio del Interior</a>, tomados de las tablas de Wikipedia. Sirven de punto de partida para repartir el voto por provincias.</p>
@@ -315,10 +507,12 @@
       <p><b>Las europeas de 2024.</b> Resultados oficiales por provincia, del Ministerio del Interior vía Wikipedia. Solo se usan para saber en qué provincias es más fuerte cada uno de los partidos que en 2023 no se presentaron por separado (Sumar, Podemos y Se Acabó La Fiesta).</p>
       <p><b>Las encuestas de otras elecciones.</b> Para saber cuánto fallan las encuestas se usan las de 2016, abril de 2019, noviembre de 2019 y 2023, de las páginas equivalentes de Wikipedia (<a href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_2016_Spanish_general_election" target="_blank" rel="noopener">2016</a>, <a href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_April_2019_Spanish_general_election" target="_blank" rel="noopener">abril de 2019</a>, <a href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_November_2019_Spanish_general_election" target="_blank" rel="noopener">noviembre de 2019</a> y <a href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_2023_Spanish_general_election" target="_blank" rel="noopener">2023</a>).</p>
       <p><b>Las noticias.</b> Los titulares del día salen de los canales RSS de <span id="met-medios">varios periódicos de distinta línea editorial</span>. Se cogen por turnos, uno de cada grupo, y no se repite ningún medio hasta que han salido todos, para que no manden ni los que más publican ni los de una sola tendencia. Solo entran noticias, no artículos de opinión ni secciones como deportes o internacional. Además tienen que hablar de las elecciones o nombrar en el propio titular a un partido, a un dirigente o a una institución como el Congreso o el Gobierno. Palabras como encuesta, debate o campaña no bastan solas, porque también se usan para el fútbol o la tele. El reparto en grupos es orientativo y solo sirve para dar los turnos. Los titulares por partido y las polémicas salen de buscar en <a href="https://news.google.com/" target="_blank" rel="noopener">Google News</a>. Las verificaciones son de <a href="https://www.newtral.es/" target="_blank" rel="noopener">Newtral</a> y <a href="https://maldita.es/" target="_blank" rel="noopener">Maldita</a>. De cada noticia solo se enseña el titular, la foto y el enlace al medio.</p>
-    </article>
+</div>
+    </details>
 
-    <article class="pregunta texto">
-      <h2>2. Cómo se hace la media de encuestas</h2>
+    <details class="pregunta met-paso" id="met-2">
+      <summary><span class="met-num">2</span><h2>Cómo se hace la media de encuestas</h2></summary>
+      <div class="met-cuerpo texto">
       <p>No es sumar y dividir. Estas son las reglas, por orden.</p>
       <p><b>Una por empresa.</b> De cada empresa cuenta solo su última encuesta. Así, la que publica cada semana no manda más que la que publica cada mes.</p>
       <p><b>Solo las recientes.</b> <span id="met-ventana">Cuentan las de los últimos 60 días.</span> La fecha de una encuesta es el último día en que preguntó, no el día en que salió en el periódico, que suele ser unos días después.</p>
@@ -330,10 +524,12 @@
       <p><b>Las empresas nuevas.</b> Una empresa que nunca ha pasado por unas elecciones cuenta como una empresa normal, ni mejor ni peor. Está medido, las debutantes de 2019 y 2023 fallaron lo mismo que las veteranas.</p>
       <h3>Las encuestas que cuentan hoy y cuánto pesa cada una</h3>
       <div id="met-media-hoy" class="media-hoy"></div>
-    </article>
+</div>
+    </details>
 
-    <article class="pregunta texto">
-      <h2>3. De los votos a los asientos</h2>
+    <details class="pregunta met-paso" id="met-3">
+      <summary><span class="met-num">3</span><h2>De los votos a los asientos</h2></summary>
+      <div class="met-cuerpo texto">
       <p>Las encuestas dan votos en toda España, pero los asientos se reparten provincia a provincia. El paso se hace así.</p>
       <p><b>Se parte de 2023.</b> Se coge lo que sacó cada partido en cada provincia en las últimas generales.</p>
       <p><b>Se mueve en proporción.</b> Si un partido tiene hoy en las encuestas un 10 % más de voto que en 2023, se le sube un 10 % en todas las provincias. Si tiene menos, se le baja igual.</p>
@@ -341,10 +537,12 @@
       <p><b>Se reparten los asientos.</b> En cada provincia se aplica la ley electoral tal cual. Solo entran los partidos con al menos el 3 % del voto de esa provincia y los asientos se reparten con la fórmula D'Hondt. El reparto de cada provincia, asiento a asiento, se puede ver tocándola en la pestaña Provincias.</p>
       <p>Eso da el número de asientos «con las encuestas de hoy» que sale en el hemiciclo, en el mapa y en ¿Y si…?. Es siempre el mismo cálculo.</p>
       <p><b>Si montas tu caso.</b> En ¿Y si…? puedes plantear que un partido le quite puntos a otro, que lo absorba o que vayan en una sola lista. Puedes encadenar varios cambios, que se aplican en el orden en que los añades. Al juntar partidos se suman sus votos provincia a provincia, cada uno donde los tiene, y después se reparten los asientos con la misma ley. Es una cuenta, no una predicción. Cuando dos partidos se juntan no siempre conservan todos sus votantes, y por eso puedes elegir si les siguen todos, tres cuartos o la mitad. Los que no les siguen cuentan como si se quedaran en casa.</p>
-    </article>
+</div>
+    </details>
 
-    <article class="pregunta texto">
-      <h2>4. Por qué decimos «probable» y no un resultado fijo</h2>
+    <details class="pregunta met-paso" id="met-4">
+      <summary><span class="met-num">4</span><h2>Por qué decimos «probable» y no un resultado fijo</h2></summary>
+      <div class="met-cuerpo texto">
       <p>Porque las encuestas fallan, y se sabe cuánto. <span id="met-error"></span></p>
       <p><b>Las elecciones se repiten 10.000 veces en el ordenador.</b> En cada repetición se le mete a cada partido un error al azar del tamaño del que tuvieron las encuestas de verdad en 2016, 2019 y 2023 a esta misma distancia de la votación. <span id="met-tiempo"></span></p>
       <p><b>El error depende del tamaño del partido.</b> <span id="met-curva">Con un partido grande las encuestas fallan más puntos que con uno pequeño, y con los que solo se presentan en su territorio aciertan más que con los de toda España.</span> A cada partido se le pone un margen que mezcla sus propios fallos de otras elecciones, llevados al tamaño que tiene hoy, con el fallo normal de un partido de su tamaño. Un partido nuevo, sin historial, lleva solo lo segundo.</p>
@@ -354,30 +552,38 @@
       <p><b>Se cuenta cuántas veces pasa cada cosa</b> y se dice con una palabra, siempre con la misma tabla.</p>
       <div class="tabla-palabras"><span><b>Muy probable</b> pasa en más del 80 % de las repeticiones</span><span><b>Probable</b> entre el 60 y el 80 %</span><span><b>En el aire</b> entre el 40 y el 60 %</span><span><b>Difícil</b> entre el 20 y el 40 %</span><span><b>Muy difícil</b> en menos del 20 %</span></div>
       <p><b>«Lo normal es que acabe entre…»</b> es la franja donde cae el resultado el 80 % de las veces. El resto de las veces queda algo por encima o algo por debajo.</p>
-    </article>
+</div>
+    </details>
 
-    <article class="pregunta texto">
-      <h2>5. ¿Y esto acierta?</h2>
+    <details class="pregunta met-paso" id="met-5">
+      <summary><span class="met-num">5</span><h2>¿Y esto acierta?</h2></summary>
+      <div class="met-cuerpo texto">
       <div id="met-backtest"></div>
       <p><b>Lo que esta app no sabe.</b> No sabe qué va a pasar en la campaña. No conoce las listas definitivas hasta que se publiquen, ni las coaliciones de última hora. No usa encuestas de una sola provincia o comunidad. Y si todas las encuestas se equivocan a la vez en la misma dirección, como pasó en 2023, la media se equivoca con ellas. Por eso se enseña siempre la franja y no solo un número.</p>
-    </article>
+</div>
+    </details>
 
-    <article class="pregunta texto">
-      <h2>6. La nota de cada empresa de encuestas</h2>
+    <details class="pregunta met-paso" id="met-6">
+      <summary><span class="met-num">6</span><h2>La nota de cada empresa de encuestas</h2></summary>
+      <div class="met-cuerpo texto">
       <p>La nota mide una sola cosa, cuánto se acercó la última encuesta de esa empresa antes de cada elección al resultado real, en los cuatro partidos principales. Se promedian las elecciones de 2016, las dos de 2019 y 2023 en las que publicó.</p>
       <div class="tabla-palabras"><span><b>A</b> falló de media 1,2 puntos o menos por partido</span><span><b>B</b> hasta 1,8 puntos</span><span><b>C</b> hasta 2,5 puntos</span><span><b>D</b> más de 2,5 puntos</span><span><b>–</b> no publicó en esas elecciones</span></div>
       <p>Debajo de cada empresa salen sus manías, lo que suele dar de más o de menos a cada partido respecto a las demás.</p>
       <div id="fiabilidad" class="fiabilidad"></div>
-    </article>
+</div>
+    </details>
 
-    <article class="pregunta texto">
-      <h2>7. El Senado y las noticias</h2>
+    <details class="pregunta met-paso" id="met-7">
+      <summary><span class="met-num">7</span><h2>El Senado y las noticias</h2></summary>
+      <div class="met-cuerpo texto">
       <p><b>El Senado.</b> Se usa el mismo reparto de voto por provincias. En cada provincia se dan 3 senadores al partido más votado y 1 al segundo, que es lo que pasa casi siempre, con el reparto propio de las islas, Ceuta y Melilla. Es una simplificación, porque al Senado se vota a personas y no a listas.</p>
       <p><b>Las noticias por partido.</b> Un titular solo se le apunta a un partido si lo nombra en el propio titular. Para que entre en Polémicas, además, el titular tiene que llevar una palabra como juez, Fiscalía, imputado, querella o polémica. Es un filtro automático y puede colarse alguna noticia que no toca. No se valora ni se opina, solo se recoge lo publicado.</p>
-    </article>
+</div>
+    </details>
 
-    <article class="pregunta texto">
-      <h2>8. Quién lo hace y cómo comprobarlo</h2>
+    <details class="pregunta met-paso" id="met-8">
+      <summary><span class="met-num">8</span><h2>Quién lo hace y cómo comprobarlo</h2></summary>
+      <div class="met-cuerpo texto">
       <p>Es un proyecto personal, hecho por afición. No lleva publicidad y no depende de ningún partido, medio ni empresa de encuestas.</p>
       <p><b>Cuenta visitas y nada más.</b> Para saber cuánta gente entra, la app usa <a href="https://www.goatcounter.com/" target="_blank" rel="noopener">GoatCounter</a>, un contador que no pone cookies ni guarda datos personales. Solo apunta que alguien ha entrado, desde qué web llega, qué pestañas abre, si usa alguna función (el modo partido, compartir, copiar un enlace) y si la app le ha dado algún fallo de programa. Para no contar dos veces a la misma persona, la app guarda en tu dispositivo dos fechas, la de tu primera visita y la de la última. No llevan ningún número que te identifique y no salen de tu dispositivo. También se guarda ahí cómo estaban las cifras la última vez que entraste, para decirte qué ha cambiado desde entonces. Eso tampoco sale de tu dispositivo ni le llega al contador. Al contador solo le llega si es tu primera vez o si vuelves, y cuántos días hacía de la visita anterior. Si prefieres que tu dispositivo no se cuente, <a href="#no-contar">pulsa aquí</a> y no se volverá a contar.</p>
       <p><b>El código es público.</b> Todas las cuentas que se explican aquí están en <a href="https://github.com/1985xose/elecciones-29n" target="_blank" rel="noopener">github.com/1985xose/elecciones-29n</a>. Cualquiera puede leerlo, copiarlo y rehacer los cálculos.</p>
@@ -393,20 +599,23 @@
         </form>
         <p id="visitas-aviso" class="vis-aviso" role="status"></p>
       </details>
-    </article>
+</div>
+    </details>
   </section>
 
   <p class="pie">Encuestas publicadas, recopiladas en Wikipedia. Noticias de los RSS de los periódicos y de Google News. Verificaciones de Newtral y Maldita. Las probabilidades son una estimación propia, no una predicción. <span id="actualizado"></span> <a href="#metodologia">Cómo se hace todo esto, paso a paso</a></p>
   <div id="porra-instrucciones" hidden></div><div id="porra" hidden></div>
 </main>
 
-<script>/* Quien entra con #no-contar deja de contarse en este dispositivo. Va antes del contador para que ni esa entrada cuente. */
-try { if (location.hash === "#no-contar") localStorage.setItem("skipgc", "t"); } catch (e) {}</script>
+<script>/* Quien entra con #no-contar deja de contarse en este dispositivo. Va antes del contador para que ni esa entrada cuente.
+   Y solo cuenta la web de verdad: la de pruebas (elecciones-29n-pruebas.github.io) y cualquier otra copia se marcan igual. */
+try { if (location.hash === "#no-contar" || location.hostname !== "1985xose.github.io") localStorage.setItem("skipgc", "t"); } catch (e) {}
+if (location.hostname !== "1985xose.github.io") document.documentElement.classList.add("pruebas");</script>
 <script data-goatcounter="https://xose.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-<script src="assets/chart.umd.js?v=53"></script>
-<script src="assets/modelo.js?v=53"></script>
-<script src="assets/media.js?v=53"></script>
-<script src="assets/app.js?v=53"></script>
+<script src="assets/chart.umd.js?v=63"></script>
+<script src="assets/modelo.js?v=63"></script>
+<script src="assets/media.js?v=63"></script>
+<script src="assets/app.js?v=63"></script>
 <script>
 if ("serviceWorker" in navigator) {
   const habia = !!navigator.serviceWorker.controller;

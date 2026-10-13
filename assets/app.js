@@ -183,7 +183,9 @@ function activarPestana(id) {
   const ids = ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias", "el29n", "metodologia"];
   if (!ids.includes(id)) id = "hoy";
   for (const i of ids) document.getElementById(i).hidden = i !== id;
+  if (id !== pestanaActual) { const sec = document.getElementById(id); sec.classList.remove("entra"); void sec.offsetWidth; sec.classList.add("entra"); }
   pestanaActual = id;
+  animarNumeros(document.getElementById(id));
   document.querySelectorAll(".pestanas a").forEach((a) => a.classList.toggle("activa", a.dataset.tab === id));
   // Si la pestaña elegida vive dentro de «Más», se marca ese botón para que se sepa dónde se está. Y la hoja se cierra.
   $(".mas-boton")?.classList.toggle("activa", !!document.querySelector(`.mas-hoja a[data-tab="${id}"]`));
@@ -315,7 +317,7 @@ function barraAsientos(o) {
    ops: [{id, titulo, p, color, partidos, central, p10, p90, verbo}] */
 function medidores(cont, det, ops, sel, alElegir) {
   cont.replaceChildren(...ops.map((o) => el("button", { type: "button", class: "medidor-a", "data-id": o.id, "aria-pressed": sel === o.id ? "true" : "false", onclick: () => alElegir(sel === o.id ? null : o.id) },
-    el("span", { class: "tit" }, o.titulo), el("span", { class: "svg", html: aguja(o.p, o.color) }), el("b", {}, cap(palabra(o.p))))));
+    el("span", { class: "tit" }, o.titulo), el("span", { class: "svg", html: aguja(o.p, o.color) }), el("b", { class: "num-sube" }, `${r100(o.p)} %`), el("small", {}, cap(palabra(o.p))))));
   const o = ops.find((x) => x.id === sel);
   if (!o) { det.replaceChildren(el("p", { class: "pie-bloque" }, "Toca un medidor para ver el detalle.")); return; }
   const M = o.mayoria || 176;
@@ -354,7 +356,11 @@ function hemiciclo(cont, escanos, filas = 12, resaltar = null, etiqueta = "176",
     if (i0 >= 0) { const RA = (1 + rp + 0.04) * E, pt = (f) => { const a = Math.PI * (1 - f); return `${(RA * Math.cos(a)).toFixed(1)} ${(-RA * Math.sin(a)).toFixed(1)}`; };
       svg += `<path class="arco" d="M${pt(i0 / total)} A${RA.toFixed(1)} ${RA.toFixed(1)} 0 0 1 ${pt(i1 / total)}" fill="none" stroke="${resaltar.color}" stroke-width="4" stroke-linecap="round"/>`; }
   }
-  asientos.forEach((s, i) => { svg += `<circle cx="${(s.x * E).toFixed(1)}" cy="${(-s.y * E).toFixed(1)}" r="${(rp * E).toFixed(1)}" fill="${colores[i] || "var(--linea)"}"${(extra.marcado && partidoDe[i] !== extra.marcado) || (extra.apagado && extra.apagado(partidoDe[i])) ? ' fill-opacity=".2"' : ""}/>`; });
+  asientos.forEach((s, i) => { svg += `<circle style="--i:${i}" cx="${(s.x * E).toFixed(1)}" cy="${(-s.y * E).toFixed(1)}" r="${(rp * E).toFixed(1)}" fill="${colores[i] || "var(--linea)"}"${(extra.marcado && partidoDe[i] !== extra.marcado) || (extra.apagado && extra.apagado(partidoDe[i])) ? ' fill-opacity=".2"' : ""}/>`; });
+  // El número de asientos de cada partido grande, dentro de su parte del arco
+  if (!extra.sinNumeros) { let acc = 0; for (const k of claves) { const n = escanos[k], i0 = acc, i1 = acc + n - 1; acc += n;
+    if (n >= 14 && !(solo && k !== solo)) { const a = (asientos[i0].a + asientos[i1].a) / 2, RT = 0.72 * E;
+      svg += `<text class="num-hemi" x="${(RT * Math.cos(a)).toFixed(1)}" y="${(-RT * Math.sin(a) + 5).toFixed(1)}" text-anchor="middle" font-size="14" font-weight="800">${n}</text>`; } } }
   svg += `<line x1="0" y1="-114" x2="0" y2="${-r0 * E + 8}" stroke="var(--tinta)" stroke-width="1.6" stroke-dasharray="3 3"/>`;
   svg += `<text x="0" y="${-r0 * E + 24}" text-anchor="middle" font-size="15" font-weight="800" fill="var(--tinta)">${etiqueta}</text><text x="0" y="${-r0 * E + 37}" text-anchor="middle" font-size="9.5" font-weight="600" fill="var(--gris)">mayoría</text></svg>`;
   cont.innerHTML = svg;
@@ -385,34 +391,13 @@ function pintarHoy(m, m7, proy) {
   const P = D.prob, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
   const o = ordenar(m.media);
 
-  // 0. El resumen de hoy, cada línea lleva a lo que anuncia
-  $("#resumen-titulo").replaceChildren("El resumen de hoy ", el("span", { class: "fecha" }, new Intl.DateTimeFormat("es-ES", { timeZone: "Europe/Madrid", weekday: "long", day: "numeric", month: "long" }).format(new Date())));
-  const ICO = { urna: "M4 10h16v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zM7 4h10l2 4H5zM9 13v2h6v-2z", congreso: "M12 3 2 10h3v9h14v-9h3zm-3 8h2v6H9zm4 0h2v6h-2z", encuesta: "M4 20V9h3v11zm6.5 0V4h3v16zM17 20v-6h3v6z", noticia: "M4 4h13a2 2 0 0 1 2 2v13H5a1 1 0 0 1-1-1zm2 3v2h9V7zm0 4v2h9v-2zm0 4v2h6v-2z", mapa: "M9 3 3 5.5v15L9 18l6 2.5 6-2.5v-15L15 6zM9 5.2v10.6l6 2.4V7.6z", calendario: "M7 2v2H5a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2zM5 10h14v9H5z" };
-  const fila = (ico, texto, sub, accion) => el("li", {}, el(typeof accion === "string" ? "a" : "button", typeof accion === "string" ? { class: "enlace-resumen", href: accion, target: "_blank", rel: "noopener" } : { class: "enlace-resumen", type: "button", onclick: accion },
-    el("svg", { viewBox: "0 0 24 24", html: `<path d="${ICO[ico]}"/>` }), el("span", {}, texto, sub ? el("small", {}, sub) : null), el("svg", { class: "flecha", viewBox: "0 0 24 24", html: '<path d="M9 5l7 7-7 7-1.4-1.4L13.2 12 7.6 6.4z"/>' })));
-  const ir = (sel) => () => { const t = $(sel); t.scrollIntoView({ behavior: "smooth", block: "center" }); t.classList.add("destacada"); setTimeout(() => t.classList.remove("destacada"), 2500); };
-  const resumen = [];
-  if (o.length) resumen.push(fila("urna", `${nombre(o[0])} va primero con el ${fmt1.format(m.media[o[0]])} % de los votos, ${fmt1.format(dif1(m.media[o[0]], m.media[o[1]]))} puntos más que ${nombre(o[1])}.`, "Ver la media de encuestas", ir("#g-ganando")));
-  if (P && der && izq) { const fav = der.p >= izq.p ? der : izq; resumen.push(fila("congreso", `Gobierno de ${nombreEsc(fav)}, ${palabra(fav.p)}. Que nadie sume, ${palabra(P.bloqueo)}.`, "Ver quién gobernaría", ir("#g-medidores"))); }
-  const uu = D.analisis?.ultimas?.[0];
-  if (uu) resumen.push(fila("encuesta", `Última encuesta, ${uu.empresa}${uu.encargo ? ` para ${uu.encargo}` : ""}, del ${fFecha.format(fechaD(uu.fin))}, ${uu.veredicto === "ruido" ? "sin novedades" : uu.veredicto === "leve" ? "con algún movimiento" : "con una novedad de verdad"}.`, uu.texto, () => { location.hash = "#encuestas"; setTimeout(ir(`#enc-${CSS.escape(uu.id)}`), 150); }));
-  const pol0 = D.noticias?.polemicas?.[0];
-  if (pol0) resumen.push(fila("noticia", pol0.titulo, `Polémica del día, ${nombre(pol0.partido)}, ${pol0.fuente}`, pol0.enlace));
-  const aire0 = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => Math.max(a.aspirante.falta, 0) / (10 / (a.n + 1)) - Math.max(b.aspirante.falta, 0) / (10 / (b.n + 1)))[0];
-  if (aire0) resumen.push(fila("mapa", `La provincia más reñida es ${aire0.nombre}. ${nombre(aire0.ultimo.p)} y ${nombre(aire0.aspirante.p)} se disputan el último asiento ${porVotos(Math.max(aire0.aspirante.falta, 0), aire0.n)}.`, "Ver el mapa", () => { quitarDelEnlace("provincia"); mapa.sel = aire0.nombre; mapa.vista = "filo"; document.querySelectorAll("#mapa .conmutador button").forEach((x) => x.setAttribute("aria-pressed", x.dataset.vista === "filo" ? "true" : "false")); pintarMapa(mapa.proy); location.hash = "#mapa"; }));
-  const toca = pintarTareas();
-  if (toca) resumen.push(fila("calendario", toca, "Ver qué te toca hacer y hasta cuándo", () => { location.hash = "#el29n"; }));
-  $("#resumen").replaceChildren(...resumen);
+  // 0. Las tarjetas del día (última encuesta, polémica, provincia reñida, qué te toca hacer)
+  pintarTarjetasHoy(proy);
 
   // 1. ¿Quién va ganando?
   if (o.length) {
     $("#r-ganando").replaceChildren(el("b", {}, `${nombre(o[0])}.`), ` Tiene el ${fmt1.format(m.media[o[0]])} % de los votos ${D.sinEncuestas ? "con el resultado de 2023, que es lo que se enseña mientras no se puedan cargar las encuestas" : "en la media de encuestas"}. Le siguen ${nombre(o[1])} con el ${fmt1.format(m.media[o[1]])} % y ${nombre(o[2])} con el ${fmt1.format(m.media[o[2]])} %.`);
-    const max = m.media[o[0]];
-    $("#g-ganando").replaceChildren(...o.slice(0, 3).map((k) => { const d = m7.media[k] != null ? dif1(m.media[k], m7.media[k]) : 0;
-      return el("div", { class: "bg" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
-        el("div", { class: "num" }, `${fmt1.format(m.media[k])} %`, el("small", { class: d ? (d > 0 ? "sube" : "baja") : null }, d ? `${d > 0 ? "▲" : "▼"} ${fmt1.format(Math.abs(d))} esta semana` : "igual que la semana pasada")),
-        el("div", { class: "pista" }, el("i", { style: { width: `${m.media[k] / max * 100}%`, background: color(k) } }))); }));
-    $("#g-resto").replaceChildren(...o.slice(3).filter((k) => m.media[k] >= 0.5).map((k) => el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} ${fmt1.format(m.media[k])} %`)));
+    pintarBarrasVotos(m, m7, proy);
     // Transparencia: qué encuestas forman la media de hoy y cuánto pesa cada una
     const faseTxt = m.fase === "precampaña" ? "Cuanto más antigua es una encuesta, menos pesa. Una de hace 10 días pesa la mitad que una de hoy y una de hace un mes, ocho veces menos. Desde que empiece la campaña, el 13 de noviembre, las antiguas perderán peso el doble de rápido, para que los cambios se noten antes."
       : m.fase === "campaña" ? "En campaña las encuestas antiguas pierden peso rápido, una de hace 5 días pesa la mitad que una de hoy, para que los cambios se noten antes." : "En la última semana una encuesta de hace 3 o 4 días ya pesa la mitad que una de hoy. Desde el 24 de noviembre la ley prohíbe publicar encuestas nuevas en España.";
@@ -447,6 +432,7 @@ function pintarHoy(m, m7, proy) {
       medidores($("#g-medidores"), $("#g-medidor-detalle"), ops, gob.sel, (id) => { gob.sel = id; pinta(); });
     };
     pinta();
+    pintarPortada(m, m7, proy, { fav, otro, X, Y: sumaEsc(otro), dias });
     $("#compartir").hidden = false;
     const op = Object.keys(P.partidos).sort((a, b) => P.partidos[b].p50 - P.partidos[a].p50).filter((k) => P.partidos[k].p90 > 0).slice(0, 7), MAX = 240;
     $("#abanicos").replaceChildren(...op.map((k) => { const x = P.partidos[k];
@@ -469,6 +455,7 @@ function pintarHoy(m, m7, proy) {
       const psoe = ep.length >= 3 && mas > ep.length / 2 ? ` En ${mas} de las ${ep.length} últimas elecciones el PSOE sacó más voto del que le daban las encuestas. El modelo no empuja a nadie por eso, deja el mismo margen de error hacia arriba que hacia abajo.` : "";
       $("#backtest").replaceChildren(el("p", {}, el("b", {}, "¿Y acierta esto? "), `Lo probamos con 2023. A ${f54.dias} días del 23J, con las encuestas de entonces, este modelo habría dicho que la mayoría de PP y Vox ${era(f54.escenarios.pp_vox.p)} (${r100(f54.escenarios.pp_vox.p)} %). A ${f6.dias} días, que ${era(f6.escenarios.pp_vox.p)} (${r100(f6.escenarios.pp_vox.p)} %). Se quedaron en ${pv} asientos, a ${176 - pv} de la mayoría. ${veredicto}${psoe}`)); }
   } else {
+    pintarPortada(m, m7, proy, { dias });
     hemiciclo($("#hemiciclo"), esc, 10); leyenda($("#leyenda"), esc); fraseArco($("#hemi-arco"), null);
     $("#g-medidores").replaceChildren(); $("#g-medidor-detalle").replaceChildren();
     $("#r-gobernar").textContent = o.length ? `Si se votara hoy, ${nombre(ordenar(esc)[0])} sacaría ${esc[ordenar(esc)[0]]} asientos. Las probabilidades se calculan en la próxima actualización.` : "";
@@ -486,10 +473,8 @@ function pintarHoy(m, m7, proy) {
   pintarHistorial();
 
   // 5. Titulares
-  $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 4).map((n) => noticia(n)), ...(D.noticias?.polemicas || []).slice(0, 2).map((n) => noticia(n)));
-  $("#titulares-todos").replaceChildren(...(D.noticias?.generales || []).slice(0, 12).map((n, i) => noticia(n, { grande: i === 0 })));
-  $("#polemicas-todas").replaceChildren(...((D.noticias?.polemicas || []).length ? D.noticias.polemicas.slice(0, 12).map((n) => noticia(n)) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
-  $("#verificaciones-todas").replaceChildren(...((D.noticias?.verificaciones_generales || []).length ? D.noticias.verificaciones_generales.slice(0, 8).map((n) => noticia(n)) : [el("p", { class: "vacio" }, "Se recogen en la próxima actualización.")]));
+  $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 4).map((n) => noticia(n, { grande: true })), ...(D.noticias?.polemicas || []).slice(0, 2).map((n) => noticia(n)));
+  pintarPortadaNoticias();
 
   // 6. Fechas
   /* Lo siguiente es el hito más cercano que aún no ha pasado: algo que empieza o, en los plazos que lo tienen apuntado
@@ -501,10 +486,232 @@ function pintarHoy(m, m7, proy) {
   const cuando = (y) => { const n = Math.round((y.t - h0) / DIA); return y.empieza && y.x.fin ? `del ${fFecha.format(y.t)} al ${fFecha.format(fechaD(y.x.fin))}${n === 0 ? ", empieza hoy" : n === 1 ? ", empieza mañana" : ""}` : n === 0 ? "hoy" : n === 1 ? "mañana" : `el ${fFechaLarga.format(y.t)}`; };
   const voto = dias > 1 ? `Se vota el domingo 29 de noviembre, dentro de ${dias} días.` : dias === 1 ? "Se vota mañana, domingo 29 de noviembre." : dias === 0 ? "Se vota hoy, domingo 29 de noviembre, de 9:00 a 20:00." : "Se votó el domingo 29 de noviembre.";
   $("#r-fechas").textContent = `${voto}${hito ? ` Lo siguiente en el calendario, ${hito.titulo.charAt(0).toLowerCase() + hito.titulo.slice(1)}, ${cuando(hito)}.` : ""}`;
-  $("#agenda").replaceChildren(...ag.map((x) => { const fin = fechaD(x.fin || x.fecha);
-    return el("li", { class: fin < hoy() ? "pasado" : x === sig ? "siguiente" : null }, el("span", { class: "dia" }, x.fin ? `${fFecha.format(fechaD(x.fecha))} al ${fFecha.format(fin)}` : fFecha.format(fechaD(x.fecha))), el("span", {}, x.titulo, x.detalle ? el("span", { class: "det" }, x.detalle) : null)); }));
+  pintarCamino(ag, sig, dias);
 }
+/* La cuenta atrás en grande y el camino hasta el 29N: una línea con cada hito de la agenda, los pasados apagados, el
+   siguiente latiendo, y al tocar uno se abre su detalle. En móvil la línea va en vertical. */
+const camino = { abierto: null, todo: false };
+function pintarCamino(ag, sig, dias) {
+  const conv = fechaD(D.config.eleccion.fecha), h0 = hoy();
+  $("#cuenta-29n").replaceChildren(el("div", { class: "cuenta-num" }, el("b", { class: "num-sube" }, dias > 0 ? String(dias) : dias === 0 ? "Hoy" : "29N"), el("span", {}, dias > 1 ? "días para el 29N" : dias === 1 ? "día, se vota mañana" : dias === 0 ? "se vota, de 9:00 a 20:00" : "elecciones celebradas")),
+    el("div", { class: "cuenta-txt" }, el("b", {}, "Domingo 29 de noviembre de 2026"), el("span", {}, "Elecciones generales. Congreso y Senado.")));
+  const hitos = ag.map((x) => ({ x, t: fechaD(x.fecha), fin: fechaD(x.fin || x.fecha) })), t0 = Math.min(...hitos.map((h) => +h.t)), t1 = +conv;
+  const pos = (t) => Math.max(0, Math.min(100, (t - t0) / (t1 - t0) * 100));
+  const hoyPos = pos(+h0);
+  $("#camino-29n").replaceChildren(el("div", { class: "camino-linea" }, el("i", { class: "hecho", style: { "--p": `${hoyPos}%` } }), el("i", { class: "hoy", style: { "--p": `${hoyPos}%` }, title: "Hoy" })),
+    el("ol", { class: "camino-hitos" }, ...hitos.map((h, i) => { const pasado = h.fin < h0, siguiente = h.x === sig, abierto = camino.abierto === i;
+      // Plegado: el último pasado, los seis siguientes y el día de la votación. El resto sale con «Ver todo»
+      const iSig = Math.max(0, hitos.findIndex((q) => q.x === sig)), esVoto = h.x.fecha === D.config.eleccion.fecha;
+      if (!camino.todo && !esVoto && (i < iSig - 1 || i > iSig + 5)) return null;
+      return el("li", { class: `hito${pasado ? " pasado" : ""}${siguiente ? " siguiente" : ""}${abierto ? " abierto" : ""}${h.x.fecha === D.config.eleccion.fecha ? " voto" : ""}`, style: { "--p": `${pos(+h.t)}%` } },
+        el("button", { type: "button", "aria-expanded": abierto ? "true" : "false", onclick: () => { camino.abierto = abierto ? null : i; contar("Abre un hito del camino"); pintarCamino(ag, sig, dias); } },
+          el("i", { class: "punto-hito" }), el("span", { class: "dia" }, h.x.fin ? `${fFecha.format(h.t)} al ${fFecha.format(h.fin)}` : fFecha.format(h.t)), el("span", { class: "tit" }, h.x.titulo)),
+        abierto && h.x.detalle ? el("p", { class: "det" }, h.x.detalle) : null); })),
+    hitos.length > 8 ? el("button", { type: "button", class: "atajo volver camino-todo", onclick: () => { camino.todo = !camino.todo; contar("Ver todo el camino"); pintarCamino(ag, sig, dias); } }, camino.todo ? "Ver menos" : `Ver todo el calendario, ${hitos.length} fechas`) : null);
+}
+/* Chispa de cada partido en la fila de arriba: su media de los últimos 90 días, en 10 puntos, cada una a su escala */
+let chispasHechas = null;
+function chispasFoco(partidos) {
+  const dia = diaMadrid();
+  if (chispasHechas?.dia === dia && partidos.every((k) => k in chispasHechas.v)) return chispasHechas.v;
+  const fechas = []; for (let i = 9; i >= 0; i--) fechas.push(new Date(+hoy() - i * 10 * DIA));
+  const medias = fechas.map((t) => calcMedia(t).media), v = {};
+  for (const k of partidos) {
+    const ys = medias.map((m) => m[k]).filter((y) => y != null); if (ys.length < 3) continue;
+    const lo = Math.min(...ys), hi = Math.max(...ys), span = Math.max(hi - lo, 0.6);
+    v[k] = medias.map((m, i) => m[k] == null ? null : `${(i / 9 * 32 + 1).toFixed(1)},${(13 - (m[k] - lo) / span * 11 - 1).toFixed(1)}`).filter(Boolean).join(" ");
+  }
+  chispasHechas = { dia, v };
+  return v;
+}
+
+/* ---------- ¿Quién va ganando?: barras tocables ----------
+   Una barra por partido con al menos un 1 %. Al tocar una se abre debajo su chispa de 90 días, la franja de asientos del
+   modelo y el cambio en una semana. Solo una abierta a la vez. */
+const votos = { abierto: null };
+function pintarBarrasVotos(m, m7, proy) {
+  const o = ordenar(m.media).filter((k) => m.media[k] >= 1), max = Math.max(...o.map((k) => m.media[k]), 1), ch = chispasFoco(o);
+  const fila = (k) => { const d = m7.media[k] != null ? dif1(m.media[k], m7.media[k]) : 0, abierta = votos.abierto === k, pk = D.prob?.partidos?.[k];
+    const b = el("button", { type: "button", class: `fila-v${abierta ? " abierta" : ""}`, "aria-expanded": abierta ? "true" : "false", style: { "--c": color(k) }, onclick: () => { votos.abierto = abierta ? null : k; contar("Toca un partido en Hoy"); pintarBarrasVotos(m, m7, proy); } },
+      el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+      el("span", { class: "pista" }, el("i", { style: { width: `${m.media[k] / max * 100}%` } })),
+      el("span", { class: "num num-sube" }, `${fmt1.format(m.media[k])} %`), el("small", { class: d ? (d > 0 ? "sube" : "baja") : "igual" }, d ? `${d > 0 ? "▲" : "▼"} ${fmt1.format(Math.abs(d))}` : "="));
+    if (!abierta) return b;
+    const det = el("div", { class: "fila-v-detalle", style: { "--c": color(k) } },
+      el("div", { class: "dato" }, el("b", {}, `${proy.total[k] || 0}`), el("span", {}, "asientos hoy")),
+      el("div", { class: "dato" }, el("b", {}, pk ? `${pk.p10}–${pk.p90}` : "–"), el("span", {}, "lo normal, 80 % de las veces")),
+      el("div", { class: "dato" }, el("b", {}, d ? `${d > 0 ? "+" : ""}${fmt1.format(d)}` : "="), el("span", {}, "puntos en una semana")),
+      ch[k] ? el("div", { class: "dato chispa-grande" }, el("svg", { viewBox: "0 0 34 14", "aria-hidden": "true", html: `<polyline points="${ch[k]}"/>` }), el("span", {}, "últimos 90 días")) : null,
+      el("button", { type: "button", class: "boton pequeno", onclick: (ev) => { ev.stopPropagation(); elegirFoco(k); window.scrollTo({ top: 0, behavior: "smooth" }); } }, `Toda la app sobre ${nombre(k)}`));
+    return [b, det];
+  };
+  $("#g-ganando").replaceChildren(...o.flatMap(fila));
+}
+
+const lista2 = (xs) => lista(xs);
+/* ---------- Noticias: portada, pulso del día, polémicas y verificaciones ----------
+   La portada es la última noticia con foto, a toda anchura, y las siguientes en mosaico. El pulso son burbujas por partido
+   según cuántos titulares lo nombran, y al tocar una se filtra todo a ese partido. Las polémicas van por partido, con
+   cuántas lleva cada uno, y las verificaciones con su veredicto si el titular lo dice. */
+const not = { filtro: null };
+function pintarPortadaNoticias() {
+  const N = D.noticias; if (!N) return;
+  const ahora = Date.now(), reciente = (n) => n.fecha && ahora - new Date(n.fecha) < 2 * 3600000;
+  // En directo
+  const ult = (N.generales || [])[0];
+  $("#not-directo").hidden = !ult; if (ult) $("#not-directo").querySelector("span").textContent = `última ${hace(ult.fecha)}`;
+  // El pulso del día: titulares de las últimas 24 h por partido, y en rojo cuántas polémicas lleva. El tamaño junta las dos cosas.
+  const polPor = {}; for (const p of N.polemicas || []) if (p.partido) polPor[p.partido] = (polPor[p.partido] || 0) + 1;
+  const cuenta = Object.entries(N.partidos || {}).map(([k, arr]) => [k, (arr || []).filter((n) => n.fecha && ahora - new Date(n.fecha) < 24 * 3600000).length, polPor[k] || 0])
+    .filter(([k, n, pol]) => (n > 0 || pol > 0) && D.config.partidos[k] && !D.config.partidos[k].no_concurre).sort((a, b) => (b[1] + 2 * b[2]) - (a[1] + 2 * a[2])).slice(0, 10);
+  const maxN = Math.max(...cuenta.map((x) => x[1] + 2 * x[2]), 1);
+  $("#not-pulso").replaceChildren(el("span", { class: "eti" }, "De quién se habla"), el("div", { class: "pulso-fila" }, not.filtro ? el("button", { type: "button", class: "burbuja todo", style: { "--c": "var(--tinta)", "--t": "44px" }, title: "Ver todos los partidos", onclick: () => { not.filtro = null; pintarPortadaNoticias(); } }, el("b", {}, "✕"), el("span", {}, "todos")) : null, ...cuenta.map(([k, n, pol]) => el("button", { type: "button", class: `burbuja${not.filtro === k ? " activa" : ""}`, "aria-pressed": not.filtro === k ? "true" : "false", title: `${n} titulares en 24 h${pol ? `, ${pol} polémica${pol === 1 ? "" : "s"}` : ""}`, style: { "--c": color(k), "--t": `${44 + 30 * (n + 2 * pol) / maxN}px` }, onclick: () => { not.filtro = not.filtro === k ? null : k; contar("Filtra noticias por partido"); pintarPortadaNoticias(); } }, el("b", {}, n), el("span", {}, nombre(k)), pol ? el("i", { class: "pol-n", "aria-label": `${pol} polémicas` }, pol) : null))));
+  // Portada y mosaico (filtradas por partido si se ha tocado una burbuja)
+  const lista = not.filtro ? (N.partidos?.[not.filtro] || []) : (N.generales || []);
+  const iPortada = lista.findIndex((n) => n.imagen), portada = iPortada >= 0 ? lista[iPortada] : null, resto = lista.filter((n, i) => i !== iPortada).slice(0, 8);
+  $("#not-portada").replaceChildren(...(portada ? [el("a", { class: "portada-n", href: portada.enlace, target: "_blank", rel: "noopener" },
+    el("img", { src: portada.imagen, alt: "", referrerpolicy: "no-referrer", onerror: (ev) => { ev.target.closest("a").classList.add("sin-foto"); } }),
+    el("div", { class: "velo" }, reciente(portada) ? el("span", { class: "nuevo" }, "Nuevo") : null, portada.partido && not.filtro ? null : (portada.partido ? el("span", { class: "tag", style: sobre(color(portada.partido)) }, nombre(portada.partido)) : null), el("h3", {}, portada.titulo), el("span", { class: "m" }, `${portada.fuente} · ${hace(portada.fecha)}`)))] : [el("p", { class: "vacio" }, not.filtro ? `Hoy no hay titulares de ${nombre(not.filtro)}.` : "Los titulares llegan en la próxima actualización.")]));
+  $("#not-mosaico").replaceChildren(...resto.map((n) => { const a = noticia(n, { grande: !!n.imagen, sinPartido: !!not.filtro }); if (reciente(n)) a.classList.add("reciente"); return a; }));
+  // Google News pega al final del titular el nombre del medio o de la sección («· La Buloteca · Maldita.es»); se quita para leerlo limpio
+  const limpio = (t) => { let r = String(t || ""); for (let i = 0; i < 3; i++) { const m = r.match(/^(.*\S)\s*[·|–-]\s*([^·|–-]{2,28})$/); if (!m) break; r = m[1]; } return r; };
+  // Polémicas: la tira de partidos con su cuenta (filtra), la primera como tarjeta grande con la foto si el robot la trae
+  // o la marca de agua del partido si no, y el resto numeradas.
+  const porP = {};
+  for (const x of N.polemicas || []) if (x.partido) (porP[x.partido] ||= []).push(x);
+  const ordenP = Object.keys(porP).sort((a, b) => porP[b].length - porP[a].length), nPol = ordenP.reduce((a, k) => a + porP[k].length, 0);
+  const todasP = (N.polemicas || []).slice().sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
+  const todas = todasP.filter((x) => !not.filtro || x.partido === not.filtro);
+  $("#pol-ultima").textContent = todasP.length ? `última ${hace(todasP[0].fecha)} · ${nPol} esta semana` : "";
+  $("#pol-reparto").replaceChildren(el("button", { type: "button", class: `pol-chip todas${not.filtro ? "" : " activa"}`, style: { "--c": "var(--tinta)" }, "aria-pressed": not.filtro ? "false" : "true", onclick: () => { if (!not.filtro) return; not.filtro = null; pintarPortadaNoticias(); } }, "Todas ", el("b", {}, nPol)), ...ordenP.map((k) => el("button", { type: "button", class: `pol-chip${not.filtro === k ? " activa" : ""}`, style: { "--c": color(k) }, "aria-pressed": not.filtro === k ? "true" : "false", onclick: () => { not.filtro = not.filtro === k ? null : k; contar("Filtra polémicas por partido"); pintarPortadaNoticias(); } }, el("i"), `${nombre(k)} `, el("b", {}, porP[k].length))));
+  const sup = (x) => el("span", { class: "pol-sup" }, el("i", { class: "pol-tag" }, nombre(x.partido)), el("time", { class: reciente(x) ? "fresca" : "" }, hace(x.fecha)));
+  const grande = (x) => el("a", { class: `pol-grande${x.imagen ? " con-foto" : ""}`, href: x.enlace, target: "_blank", rel: "noopener", style: { "--c": color(x.partido) } },
+    x.imagen ? el("img", { src: x.imagen, alt: "", loading: "lazy", referrerpolicy: "no-referrer", onerror: (ev) => { ev.target.closest("a").classList.remove("con-foto"); ev.target.remove(); } }) : el("span", { class: "marca", "aria-hidden": "true" }, nombre(x.partido)),
+    el("span", { class: "pol-grande-txt" }, sup(x), el("span", { class: "pol-tit" }, limpio(x.titulo)), el("span", { class: "pol-fuente" }, x.fuente)));
+  const item = (x, i) => el("li", { class: "pol-item", style: { "--c": color(x.partido) } },
+    el("a", { href: x.enlace, target: "_blank", rel: "noopener" }, el("span", { class: "pol-num" }, String(i + 2).padStart(2, "0")),
+      el("span", { class: "pol-cuerpo" }, sup(x), el("span", { class: "pol-tit" }, limpio(x.titulo)), el("span", { class: "pol-fuente" }, x.fuente))));
+  $("#polemicas-todas").replaceChildren(...(todas.length ? [grande(todas[0]), ...(todas.length > 1 ? [el("ol", { class: "pol-lista" }, ...todas.slice(1, 8).map(item))] : [])] : [el("p", { class: "vacio" }, not.filtro ? `Sin polémicas ${deP(not.filtro)} esta semana.` : "Sin polémicas recogidas esta semana.")]));
+  // Verificaciones: el veredicto si el titular lo dice
+  const veredicto = (t) => /\bbulo|falso|falsa|no es cierto|es mentira|desinforma/i.test(t) ? ["Bulo", "bulo"] : /engañoso|engañosa|fuera de contexto|a medias|descontextualiz/i.test(t) ? ["Engañoso", "enganoso"] : /\bverdad|es cierto|confirmad|sí es real/i.test(t) ? ["Verdad", "verdad"] : /\bqué sabemos|explicamos|claves\b|¿/i.test(t) ? ["Explicación", "explica"] : null;
+  const V = N.verificaciones_generales || [];
+  $("#verificaciones-todas").replaceChildren(...(V.length ? V.slice(0, 6).map((x) => { const v = veredicto(x.titulo);
+    return el("a", { class: `verif${v ? " " + v[1] : ""}`, href: x.enlace, target: "_blank", rel: "noopener" }, el("span", { class: "sello-v" }, x.fuente), v ? el("span", { class: "ver-eti" }, v[0]) : null, el("span", { class: "txt" }, limpio(x.titulo)), el("span", { class: "m" }, hace(x.fecha))); }) : [el("p", { class: "vacio" }, "Sin verificaciones recogidas estos días.")]));
+}
+
+/* ---------- La portada de Hoy ----------
+   Quién gobernaría y con cuánta probabilidad, en grande, y a la derecha el hemiciclo de arcos con el reparto de hoy y el
+   cambio en una semana. Los arcos se dibujan uno tras otro al entrar (CSS, stroke-dashoffset). */
+function pintarPortada(m, m7, proy, g) {
+  const P = D.prob, esc = D.resultados?.escanos || proy.total, esc7 = Object.keys(m7.media).length ? Modelo.proyectar(m7.media, D.base).total : null;
+  $("#portada-fecha").textContent = `${new Intl.DateTimeFormat("es-ES", { timeZone: "Europe/Madrid", weekday: "long", day: "numeric", month: "long" }).format(new Date())} · ${g.dias > 1 ? `faltan ${g.dias} días` : g.dias === 1 ? "se vota mañana" : g.dias === 0 ? "se vota hoy" : "elecciones celebradas"}`;
+  if (g.fav && P) {
+    const { fav, otro, X, Y } = g, t = tramo(fav.p), varios = fav.partidos.length > 1, dif = X - 176;
+    $("#portada-titulo").replaceChildren(el("b", {}, cap(nombreEsc(fav))), t >= 3 ? ` ${varios ? "gobernarían" : "gobernaría"}, ${palabra(fav.p)}.` : t === 2 ? ", en el aire." : `, ${palabra(fav.p)}.`);
+    // Tres cifras que se tocan: al tocar un bloque se iluminan sus arcos en el hemiciclo
+    const resalta = (partidos) => { const svg = $("#arcos svg"); if (!svg) return; svg.classList.toggle("resalta", !!partidos); svg.querySelectorAll("path.arco").forEach((pth) => pth.classList.toggle("on", !!partidos && partidos.includes(pth.dataset.k))); };
+    const cifra = (n, texto, c, partidos) => el("button", { type: "button", class: "cifra", style: { "--c": c }, onpointerenter: () => resalta(partidos), onpointerleave: () => resalta(null), onclick: () => { const ya = $("#arcos svg")?.classList.contains("resalta") && $("#arcos svg").querySelector("path.on")?.dataset.k === partidos?.[0]; resalta(ya ? null : partidos); } },
+      el("b", { class: "num-sube" }, String(n)), el("span", {}, texto));
+    $("#portada-cifras").replaceChildren(cifra(X, `${cap(nombreEsc(fav))}${varios ? " suman" : " saca"} hoy`, color(fav.partidos[0]), fav.partidos), cifra(176, "para gobernar", "var(--acento)", null), cifra(Y, cap(nombreEsc(otro)), color(otro.partidos[0]), otro.partidos));
+    const col = color(fav.partidos[0]), R = 36, L = 2 * Math.PI * R, p = Math.max(0, Math.min(1, fav.p));
+    $("#portada-anillo").replaceChildren(el("div", { class: "anillo", style: { "--c": col } },
+      el("svg", { viewBox: "0 0 90 90", role: "img", "aria-label": `${r100(p)} % de probabilidad`, html: `<circle cx="45" cy="45" r="${R}" class="fondo"/><circle cx="45" cy="45" r="${R}" class="valor" style="stroke-dasharray:${L};stroke-dashoffset:${L * (1 - p)}" transform="rotate(-90 45 45)"/>` }),
+      el("div", { class: "anillo-txt" }, el("b", { class: "num-sube" }, `${r100(p)} %`), el("small", {}, "de las 10.000 repeticiones"))),
+      el("p", { class: "anillo-pie" }, `Probabilidad de que ${nombreEsc(fav)} ${varios ? "lleguen" : "llegue"} a 176.`));
+  } else {
+    const o = ordenar(esc);
+    $("#portada-titulo").replaceChildren(el("b", {}, nombre(o[0])), ` va primero con ${esc[o[0]]} asientos.`);
+    $("#portada-cifras").replaceChildren(el("p", { class: "portada-sub" }, "Las probabilidades se calculan en la próxima actualización."));
+    $("#portada-anillo").replaceChildren();
+  }
+  arcos($("#arcos"), esc, esc7);
+  const orden = ordenar(esc).filter((k) => esc[k] > 0);
+  $("#arcos-leyenda").replaceChildren(...orden.map((k) => { const d = esc7 ? esc[k] - (esc7[k] || 0) : 0;
+    return el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} `, el("b", {}, esc[k]), el("small", { class: d > 0 ? "sube" : d < 0 ? "baja" : "" }, d > 0 ? ` ▲${d}` : d < 0 ? ` ▼${-d}` : " =")); }));
+}
+/* El hemiciclo de arcos: un semianillo, cada partido un tramo proporcional a sus asientos, en el orden del hemiciclo.
+   Los de 14 asientos o más llevan nombre, número y cambio dentro. Los pequeños van juntos en «otros» si no caben. */
+function arcos(cont, esc, esc7, op = {}) {
+  const total = Object.values(esc).reduce((a, b) => a + b, 0), minimo = op.minimo ?? 14;
+  if (!total) { cont.replaceChildren(); return; }
+  const orden = op.orden || D.config.orden_hemiciclo, sitio = (k) => orden.indexOf(k) + 1 || 99;
+  const claves = Object.keys(esc).filter((k) => esc[k] > 0).sort((a, b) => sitio(a) - sitio(b));
+  const colorDe = (k) => op.apagar && op.apagar(k) ? "#D7DCE3" : color(k);
+  const CX = 160, CY = 158, R = 108, W = 62, pt = (f, r) => { const a = Math.PI * (1 - f); return [CX + r * Math.cos(a), CY - r * Math.sin(a)]; };
+  let acc = 0, retraso = 0, svg = `<svg viewBox="0 0 320 170" role="img" aria-label="Reparto de ${total} asientos">`;
+  for (const k of claves) {
+    const n = esc[k], f0 = acc / total, f1 = (acc + n) / total, [x0, y0] = pt(f0, R), [x1, y1] = pt(f1, R), largo = Math.PI * R * (f1 - f0);
+    acc += n;
+    // Sobre un semicírculo ningún tramo pasa de 180 grados, así que el arco siempre es el corto. Un tramo que ocupe
+    // más de la mitad se dibuja pasando por su punto medio, que si no el navegador no sabe por dónde ir.
+    const [xm, ym] = pt((f0 + f1) / 2, R);
+    svg += `<path class="arco" data-k="${k}" d="M${x0.toFixed(1)} ${y0.toFixed(1)} A${R} ${R} 0 0 1 ${xm.toFixed(1)} ${ym.toFixed(1)} A${R} ${R} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}" stroke="${colorDe(k)}" stroke-width="${W}" fill="none" style="--l:${largo.toFixed(1)};--r:${retraso}ms"/>`;
+    retraso += Math.max(60, largo * 2.2);
+  }
+  // Tramo ya decidido de cada partido (en el Senado, los designados), rayado encima del color
+  if (op.sombra) { acc = 0; for (const k of claves) { const n = esc[k], f0 = acc / total, d = Math.min(n, op.sombra[k] || 0); acc += n; if (!d) continue; const f1 = f0 + d / total, [x0, y0] = pt(f0, R), [xm, ym] = pt((f0 + f1) / 2, R), [x1, y1] = pt(f1, R);
+    svg += `<path class="arco-sombra" d="M${x0.toFixed(1)} ${y0.toFixed(1)} A${R} ${R} 0 0 1 ${xm.toFixed(1)} ${ym.toFixed(1)} A${R} ${R} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}" stroke="rgba(255,255,255,.55)" stroke-width="${W}" fill="none" stroke-dasharray="3 3"/>`; } }
+  // Etiquetas dentro de los arcos grandes
+  acc = 0;
+  for (const k of claves) {
+    const n = esc[k], fm = (acc + n / 2) / total; acc += n;
+    if (n < minimo || (n / total) < 0.07) continue;
+    const [x, y] = pt(fm, R), d = esc7 ? n - (esc7[k] || 0) : 0, c = sobre(colorDe(k)).color;
+    svg += `<text class="arco-eti" x="${x.toFixed(1)}" y="${(y - 9).toFixed(1)}" text-anchor="middle" fill="${c}" font-size="11" font-weight="700">${esc_(nombre(k))}</text>`;
+    svg += `<text class="arco-eti" x="${x.toFixed(1)}" y="${(y + 9).toFixed(1)}" text-anchor="middle" fill="${c}" font-size="19" font-weight="800">${n}</text>`;
+    if (d) svg += `<text class="arco-eti" x="${x.toFixed(1)}" y="${(y + 22).toFixed(1)}" text-anchor="middle" fill="${c}" font-size="9.5" font-weight="700">${d > 0 ? "▲" : "▼"} ${Math.abs(d)}</text>`;
+  }
+  if (!op.sin176) svg += `<line x1="${CX}" y1="${CY - R - W / 2 - 10}" x2="${CX}" y2="${CY - R - W / 2 + 4}" stroke="var(--tinta)" stroke-width="1.6"/><text x="${CX + 5}" y="${CY - R - W / 2 - 2}" font-size="11" font-weight="700" fill="var(--gris)">176</text>`;
+  else { const M = Math.floor(total / 2) + 1; svg += `<line x1="${CX}" y1="${CY - R - W / 2 - 10}" x2="${CX}" y2="${CY - R - W / 2 + 4}" stroke="var(--tinta)" stroke-width="1.6" stroke-dasharray="3 3"/><text x="${CX + 5}" y="${CY - R - W / 2 - 2}" font-size="11" font-weight="700" fill="var(--gris)">${M}</text>`; }
+  svg += `<text x="${CX}" y="${CY - 10}" text-anchor="middle" font-size="22" font-weight="800" fill="var(--tinta)">${total}</text><text x="${CX}" y="${CY + 4}" text-anchor="middle" font-size="9.5" font-weight="600" fill="var(--gris)">${op.unidad || "asientos"}</text></svg>`;
+  cont.innerHTML = svg;
+}
+const esc_ = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;");
+
+/* ---------- Las tarjetas del día ---------- */
+function pintarTarjetasHoy(proy) {
+  const ir = (sel) => () => { const t = $(sel); t.scrollIntoView({ behavior: "smooth", block: "center" }); t.classList.add("destacada"); setTimeout(() => t.classList.remove("destacada"), 2500); };
+  // Cada tarjeta lleva un dibujo a la izquierda (vis) y el fondo teñido de su color, para que no sean cuatro cajas blancas iguales
+  const tarjeta = (clase, vis, eti, titulo, sub, accion, col) => el(typeof accion === "string" ? "a" : "button", typeof accion === "string" ? { class: `tarjeta-hoy ${clase}`, href: accion, target: "_blank", rel: "noopener", style: { "--c": col || "var(--bronce)" } } : { class: `tarjeta-hoy ${clase}`, type: "button", onclick: accion, style: { "--c": col || "var(--bronce)" } },
+    el("span", { class: "vis" }, vis), el("span", { class: "cuerpo" }, el("span", { class: "eti" }, eti), el("span", { class: "tit" }, titulo), sub ? el("span", { class: "sub" }, sub) : null), el("svg", { class: "flecha", viewBox: "0 0 24 24", html: '<path d="M9 5l7 7-7 7-1.4-1.4L13.2 12 7.6 6.4z"/>' }));
+  const T = [];
+  // 1. Última encuesta: sus tres primeros partidos en barritas, y la nota de la empresa
+  const uu = D.analisis?.ultimas?.[0];
+  if (uu) {
+    const det = (uu.detalle || []).filter((d) => D.config.partidos[d.partido]).sort((x, y) => y.dado - x.dado).slice(0, 3), maxD = Math.max(...det.map((d) => d.dado), 1);
+    const vis = el("span", { class: "mini-barras" }, ...det.map((d) => el("span", { class: "mb", style: { "--c": color(d.partido), "--w": `${Math.round(100 * d.dado / maxD)}%` } }, el("b", {}, d.dado.toFixed(1).replace(".", ",")))));
+    T.push(tarjeta("t-encuesta", vis, `Última encuesta · ${fFecha.format(fechaD(uu.fin))}${uu.nota ? ` · nota ${uu.nota}` : ""}`, `${uu.empresa}${uu.encargo ? ` para ${uu.encargo}` : ""}`, uu.veredicto === "ruido" ? "Sin novedades, dentro de lo que suele dar esta empresa." : uu.veredicto === "leve" ? "Con algún movimiento." : "Con una novedad de verdad.", () => { location.hash = "#encuestas"; setTimeout(ir("#tabla-encuestas"), 60); }, "var(--acento)"));
+  }
+  // 2. Polémica del día: el color del partido manda
+  const pol0 = D.noticias?.polemicas?.[0];
+  if (pol0) T.push(tarjeta("t-polemica", el("span", { class: "sello-p", style: sobre(color(pol0.partido)) }, nombre(pol0.partido)), `Polémica del día · ${hace(pol0.fecha)}`, pol0.titulo, pol0.fuente, pol0.enlace, color(pol0.partido)));
+  // 3. La provincia más reñida: su silueta partida entre los dos que se disputan el último asiento
+  const aire0 = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => Math.max(a.aspirante.falta, 0) / (10 / (a.n + 1)) - Math.max(b.aspirante.falta, 0) / (10 / (b.n + 1)))[0];
+  if (aire0) {
+    const g = D.mapa?.provincias?.[aire0.nombre], c1 = color(aire0.ultimo.p), c2 = color(aire0.aspirante.p);
+    let vis = null;
+    if (g && g.d) {
+      const nums = g.d.match(/-?\d+(?:\.\d+)?/g).map(Number), xs = nums.filter((_, i) => i % 2 === 0), ys = nums.filter((_, i) => i % 2 === 1);
+      const x0 = Math.min(...xs), y0 = Math.min(...ys), w = Math.max(...xs) - x0, h = Math.max(...ys) - y0, m = Math.max(w, h) * 0.08;
+      vis = el("svg", { class: "silueta", viewBox: `${x0 - m} ${y0 - m} ${w + 2 * m} ${h + 2 * m}`, html: `<defs><linearGradient id="grad-renida" x1="0" x2="1"><stop offset="50%" stop-color="${c1}"/><stop offset="50%" stop-color="${c2}"/></linearGradient></defs><path d="${g.d}" fill="url(#grad-renida)" stroke="#fff" stroke-width="${Math.max(w, h) / 60}" stroke-linejoin="round"/>` });
+    } else vis = el("span", { class: "sello-p", style: { background: `linear-gradient(90deg, ${c1} 50%, ${c2} 50%)`, color: "#fff" } }, ABREV[aire0.nombre] || "");
+    T.push(tarjeta("t-renida", el("span", { class: "renida-vis" }, vis, el("span", { class: "votos-vis" }, el("b", {}, aire0.aspirante.falta > 0 ? porVotos(aire0.aspirante.falta, aire0.n).replace(/^por unos |^por /, "") : "empate"))), "La provincia más reñida", aire0.nombre, `${nombre(aire0.ultimo.p)} tiene el último asiento y ${nombre(aire0.aspirante.p)} se lo disputa.`, () => { quitarDelEnlace("provincia"); mapa.sel = aire0.nombre; pintarMapa(mapa.proy); location.hash = "#mapa"; }, c1));
+  }
+  // 4. Qué te toca hacer: cuenta atrás en un anillo
+  const toca = pintarTareas();
+  if (toca) {
+    const ab = listaTareas().filter((t) => t.grupo === "todos" && t.fase === "abierta").sort((x, y) => x.z - y.z)[0];
+    const quedan = ab ? ab.quedan : null, total = ab ? Math.max(1, Math.round((ab.z - ab.a) / DIA)) : 1, f = quedan == null ? 0 : Math.max(0.03, Math.min(1, quedan / total));
+    const R = 26, L = 2 * Math.PI * R;
+    const vis = el("span", { class: "anillo-dias" }, el("svg", { viewBox: "0 0 64 64", html: `<circle cx="32" cy="32" r="${R}" fill="none" stroke="color-mix(in srgb, var(--c) 22%, #fff)" stroke-width="7"/><circle cx="32" cy="32" r="${R}" fill="none" stroke="var(--c)" stroke-width="7" stroke-linecap="round" stroke-dasharray="${L}" stroke-dashoffset="${(L * (1 - f)).toFixed(1)}" transform="rotate(-90 32 32)" class="anillo-tramo"/>` }),
+      el("b", {}, quedan == null ? "·" : quedan === 0 ? "hoy" : quedan), quedan != null && quedan > 0 ? el("small", {}, quedan === 1 ? "día" : "días") : null);
+    T.push(tarjeta("t-toca", vis, "Qué te toca hacer", toca, "Ver todos los plazos", () => { location.hash = "#el29n"; }, "var(--bronce)"));
+  }
+  $("#tarjetas-hoy").replaceChildren(...T);
+}
+
 /* ---------- Qué te toca hacer: los trámites del votante con sus plazos (config.tareas) ---------- */
+const tareasVista = { grupo: null };
 const GRUPOS_TAREA = [["todos", "Para votar el 29"], ["correo", "Si vas a votar por correo"], ["fuera", "Si estás fuera de España"]];
 const fMes = new Intl.DateTimeFormat("es-ES", { month: "long", timeZone: "UTC" });
 const diaLargo = (t) => fFechaLarga.format(t).replace(",", "");
@@ -530,17 +737,23 @@ function pintarTareas() {
   else toca = "Por tu parte ya está todo hecho.";
   // Los otros dos grupos solo suben al titular cuando a un plazo le quedan tres días o menos
   const ojo = T.filter((t) => t.grupo !== "todos" && t.fase === "abierta" && !t.sin_plazo && t.quedan <= 3).sort((x, y) => x.z - y.z)[0];
-  const resto = ojo ? ` Ojo, ${ojo.quedan === 0 ? "hoy" : ojo.quedan === 1 ? "mañana" : `el ${diaLargo(ojo.z)}`} es el último día para ${minus(ojo.que)}.` : " Si votas por correo o estás fuera de España, tus plazos van más abajo.";
+  const resto = ojo ? ` Ojo, ${ojo.quedan === 0 ? "hoy" : ojo.quedan === 1 ? "mañana" : `el ${diaLargo(ojo.z)}`} es el último día para ${minus(ojo.que)}.` : " Si votas por correo o estás fuera de España, toca tu píldora.";
   $("#r-tareas").textContent = toca + resto;
   const estado = (t) => t.fase === "pasada" ? (t.unDia ? "Ya pasó" : t.sin_plazo ? "Ya pasó" : "Plazo cerrado")
     : t.fase === "futura" ? (t.faltan === 1 ? (t.unDia ? "Mañana" : "Empieza mañana") : `Dentro de ${t.faltan} días`)
     : t.unDia ? "Hoy" : t.sin_plazo ? "Estos días" : t.quedan === 0 ? "Último día" : t.quedan === 1 ? "Termina mañana" : `Abierto, quedan ${t.quedan} días`;
   const fechas = (t) => t.cuando || (t.unDia ? fFecha.format(t.a) : `${fFecha.format(t.a)} al ${fFecha.format(t.z)}`);
-  $("#tareas").replaceChildren(...GRUPOS_TAREA.flatMap(([g, titulo]) => { const suyas = T.filter((t) => t.grupo === g).sort((x, y) => x.a - y.a || x.z - y.z);
-    return suyas.length ? [el("h3", { class: "tareas-grupo" }, titulo), el("ul", { class: "tareas" }, ...suyas.map((t) => el("li", { class: `tarea ${t.fase}` },
-      el("div", { class: "cab" }, el("span", { class: "estado" }, estado(t)), el("span", { class: "dias" }, fechas(t))),
+  // Un grupo cada vez, con píldoras. Cada tarea lleva un anillo con los días que quedan.
+  tareasVista.grupo = tareasVista.grupo || "todos";
+  $(".conmutador.grupos-tarea").replaceChildren(...GRUPOS_TAREA.filter(([g]) => T.some((t) => t.grupo === g)).map(([g, titulo]) => el("button", { type: "button", "aria-pressed": tareasVista.grupo === g ? "true" : "false", onclick: () => { tareasVista.grupo = g; contar(`Tareas ${g}`); pintarTareas(); } }, titulo)));
+  const anillo = (t) => { const total = Math.max(1, Math.round((t.z - t.a) / DIA) + 1), f = t.fase === "pasada" ? 0 : t.fase === "futura" ? 1 : Math.max(0.04, Math.min(1, (t.quedan + 1) / total)), R = 26, L = 2 * Math.PI * R;
+    return el("span", { class: "anillo-dias" }, el("svg", { viewBox: "0 0 64 64", html: `<circle cx="32" cy="32" r="${R}" fill="none" stroke="color-mix(in srgb, var(--c) 22%, #fff)" stroke-width="7"/><circle cx="32" cy="32" r="${R}" fill="none" stroke="var(--c)" stroke-width="7" stroke-linecap="round" stroke-dasharray="${L}" stroke-dashoffset="${(L * (1 - f)).toFixed(1)}" transform="rotate(-90 32 32)" class="anillo-tramo"/>` }),
+      el("b", {}, t.fase === "pasada" ? "✓" : t.fase === "futura" ? String(t.faltan) : t.unDia || t.sin_plazo ? "hoy" : t.quedan === 0 ? "hoy" : String(t.quedan)), t.fase === "pasada" || (t.fase === "abierta" && (t.unDia || t.sin_plazo || t.quedan === 0)) ? null : el("small", {}, t.fase === "futura" ? (t.faltan === 1 ? "día" : "días") : (t.quedan === 1 ? "día" : "días"))); };
+  const suyas = T.filter((t) => t.grupo === tareasVista.grupo).sort((x, y) => x.a - y.a || x.z - y.z);
+  $("#tareas").replaceChildren(el("ul", { class: "tareas" }, ...suyas.map((t) => el("li", { class: `tarea ${t.fase}`, style: { "--c": t.fase === "abierta" ? "var(--bronce)" : t.fase === "futura" ? "var(--acento)" : "var(--gris)" } },
+    anillo(t), el("div", { class: "tarea-cuerpo" }, el("div", { class: "cab" }, el("span", { class: "estado" }, estado(t)), el("span", { class: "dias" }, fechas(t))),
       el("b", {}, t.que), el("span", { class: "det" }, t.como),
-      t.enlace?.url ? el("a", { href: t.enlace.url, target: "_blank", rel: "noopener" }, t.enlace.texto || "Más información") : null)))] : []; }));
+      t.enlace?.url ? el("a", { href: t.enlace.url, target: "_blank", rel: "noopener" }, t.enlace.texto || "Más información") : null)))));
   return toca;
 }
 /* ---------- Desde tu última visita ---------- */
@@ -598,7 +811,7 @@ function fraseProvincia(p, conReparto = true) {
 function pintarMiProvincia(proy) {
   const sel = $("#mi-provincia");
   if (!sel.options.length) {
-    sel.append(el("option", { value: "" }, "Elige una"), ...proy.provincias.map((p) => p.nombre).sort((a, b) => a.localeCompare(b, "es")).map((n) => el("option", { value: n }, n)));
+    sel.append(el("option", { value: "" }, "Elige una provincia…"), ...proy.provincias.map((p) => p.nombre).sort((a, b) => a.localeCompare(b, "es")).map((n) => el("option", { value: n }, n)));
     sel.addEventListener("change", () => { quitarDelEnlace("provincia"); try { localStorage.setItem("mi-provincia", sel.value); } catch {} mapa.sel = sel.value || null; if (mapa.proy) pintarMapa(mapa.proy); if (sel.value) $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); });
   }
   sel.value = mapa.sel || "";
@@ -654,7 +867,7 @@ function textoTramo() {
 function elegirTramo(t) {
   enc.tramo = t;
   const caja = $("#tramo-fechas"), d = $("#tramo-desde"), h = $("#tramo-hasta"), hoyS = diaMadrid();
-  document.querySelectorAll(".tramos button").forEach((x) => { x.setAttribute("aria-pressed", x.dataset.tramo === t ? "true" : "false"); if (x.dataset.tramo === "medida") x.setAttribute("aria-expanded", t === "medida" ? "true" : "false"); });
+  if ($("#tramo-sel")) $("#tramo-sel").value = t;
   caja.hidden = t !== "medida";
   if (t === "medida") {
     for (const c of [d, h]) { c.min = TRAMO_INICIO; c.max = hoyS; }
@@ -674,7 +887,7 @@ function avisoTramo() {
     : enc.desde > enc.hasta ? "La primera fecha era posterior a la segunda, así que se han tomado al revés."
     : fuera(enc.desde) || fuera(enc.hasta) ? `Solo hay media entre el ${fFechaAnio.format(fechaD(TRAMO_INICIO))} y hoy. Se enseña lo que cae dentro.` : "";
 }
-document.querySelectorAll(".tramos button").forEach((b) => b.addEventListener("click", () => elegirTramo(b.dataset.tramo)));
+$("#tramo-sel")?.addEventListener("change", (e) => elegirTramo(e.target.value));
 for (const id of ["tramo-desde", "tramo-hasta"]) document.getElementById(id)?.addEventListener("change", (e) => {
   if (!e.target.value) return; // fecha a medio escribir
   enc[id === "tramo-desde" ? "desde" : "hasta"] = e.target.value;
@@ -689,7 +902,7 @@ function pintarListaPartidos(m, m7, proy) {
   const fila = (k) => { const d = m7.media[k] != null ? dif1(m.media[k], m7.media[k]) : 0;
     const marca = D.config.partidos[k]?.aviso?.texto ? el("button", { type: "button", class: "marca-aviso", "aria-label": `Ver el aviso sobre ${nombre(k)}`, onclick: () => { const t = document.getElementById(`aviso-${k}`); if (!t) return; t.scrollIntoView({ behavior: "smooth", block: "center" }); t.classList.add("destacada"); setTimeout(() => t.classList.remove("destacada"), 2500); } }, "aviso") : null;
     return el("div", { class: "fila-p" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k), marca),
-      el("div", { class: "pct" }, `${fmt1.format(m.media[k])} %`, el("small", { class: d ? (d > 0 ? "sube" : "baja") : "" }, d ? signo(d) : "")),
+      el("div", { class: "pct num-sube" }, `${fmt1.format(m.media[k])} %`, el("small", { class: d ? (d > 0 ? "sube" : "baja") : "" }, d ? signo(d) : "")),
       el("div", { class: "barra" }, el("i", { style: { width: `${m.media[k] / max * 100}%`, background: color(k) } })),
       el("div", { class: "esc" }, D.prob?.partidos?.[k] ? (D.prob.partidos[k].p10 === D.prob.partidos[k].p90 ? `${D.prob.partidos[k].p90} ${D.prob.partidos[k].p90 === 1 ? "asiento" : "asientos"}` : `entre ${D.prob.partidos[k].p10} y ${D.prob.partidos[k].p90} asientos`) : `${proy.total[k] || 0} asientos`)); };
   poner($("#lista-partidos"), ...(enc.todos ? o : grandes).map(fila),
@@ -698,7 +911,7 @@ function pintarListaPartidos(m, m7, proy) {
 }
 function pintarEncuestas(m, m7, proy) {
   const o = ordenar(m.media).filter((k) => m.media[k] >= 0.5);
-  pintarListaPartidos(m, m7, proy);
+  poner($("#notas-encuestas"), ...notasAviso(), notaNoConcurren());
   // El CIS no entra en la media. Se enseña al lado lo que dice su última encuesta, para ver cuánto se separa.
   const cis = (D.encuestas?.encuestas || []).filter((e) => e.clave === "cis").sort((x, y) => y.fin.localeCompare(x.fin))[0];
   $("#cis-bloque").hidden = !cis;
@@ -725,40 +938,40 @@ function pintarEncuestas(m, m7, proy) {
   const CORTE = 8;
   const oculta = () => enc.filtro && empresas.findIndex(([k]) => k === enc.filtro) >= CORTE;
   if (oculta()) enc.todas = true;
-  $("#filtro-empresas").replaceChildren(el("button", { type: "button", "aria-pressed": enc.filtro ? "false" : "true", onclick: () => { enc.filtro = null; pintarEncuestas(m, m7, proy); } }, "Media de todas"),
-    ...(enc.todas ? empresas : empresas.slice(0, CORTE)).map(([clave, v]) => el("button", { type: "button", class: `${enMedia.has(clave) ? "en-media" : ""}${v.activa ? "" : " inactiva"}`, "data-clave": clave, "aria-pressed": enc.filtro === clave ? "true" : "false",
-      title: `${v.n} ${v.n === 1 ? "encuesta" : "encuestas"} desde 2023, la última del ${fFecha.format(fechaD(v.ultima))}`, onclick: () => { enc.filtro = clave; pintarEncuestas(m, m7, proy); } }, v.empresa, el("small", {}, ` ${v.n}`))),
-    empresas.length > CORTE ? el("button", { type: "button", class: "mas", "aria-expanded": enc.todas ? "true" : "false", onclick: () => { enc.todas = !enc.todas; if (!enc.todas && oculta()) enc.filtro = null; pintarEncuestas(m, m7, proy); } }, enc.todas ? "Ver menos" : `Ver las ${empresas.length}`) : null);
-  $("#leyenda-empresas").textContent = `${empresas.length} empresas han publicado encuestas desde 2023. El número es cuántas lleva cada una. Con punto verde, las ${enMedia.size} que cuentan hoy en la media. En gris, las que llevan más de un año sin publicar.`;
+  const sel = $("#filtro-empresas");
+  sel.replaceChildren(el("option", { value: "" }, "Media de todas las empresas"),
+    ...empresas.map(([clave, v]) => el("option", { value: clave }, `${v.empresa} (${v.n})${enMedia.has(clave) ? "" : v.activa ? "" : ", sin publicar desde hace un año"}`)));
+  sel.value = enc.filtro || "";
+  sel.onchange = () => { enc.filtro = sel.value || null; contar("Filtra por empresa"); pintarEncuestas(m, m7, proy); };
+  $("#leyenda-empresas").textContent = `${empresas.length} empresas desde 2023, ${enMedia.size} cuentan hoy en la media. El número es cuántas encuestas lleva cada una.`; const _viejo = `${empresas.length} empresas han publicado encuestas desde 2023. El número es cuántas lleva cada una. Con punto verde, las ${enMedia.size} que cuentan hoy en la media. En gris, las que llevan más de un año sin publicar.`;
   const cf = enc.filtro ? cuenta[enc.filtro] : null;
   enc.explica = () => cf ? `Las encuestas de ${cf.empresa}, una a una, ${textoTramo()}. Cada punto es una encuesta. ${enMedia.has(enc.filtro) ? "Su última encuesta cuenta hoy en la media." : enc.filtro === "cis" ? "El CIS no cuenta en la media." : cf.activa ? `Hoy no cuenta en la media porque su última encuesta, del ${fFecha.format(fechaD(cf.ultima))}, tiene más de ${m.ventana} días.` : "Lleva más de un año sin publicar."}` : `Así ha cambiado la media de encuestas ${textoTramo()}.${enc.tramo === "convocatoria" || (enc.tramo === "medida" && rangoTendencia()[1] - rangoTendencia()[0] <= 130 * DIA) ? " Un punto por día." : ""}`;
   $("#explica-tendencia").textContent = enc.explica();
-  // Tarjetas
+  // La tabla encuesta a encuesta: una fila por encuesta, una columna por partido, y al tocar se abre su detalle
   const usadas = new Set(m.usadas.map((e) => e.id));
-  const lista = (enc.filtro ? todas.filter((e) => e.clave === enc.filtro) : todas).slice(0, enc.filtro ? 30 : 12);
-  $("#tarjetas-encuestas").replaceChildren(...lista.map((e) => {
-    const an = D.analisis?.ultimas?.find((x) => x.id === e.id), nota = D.analisis?.notas?.find((x) => x.clave === e.clave), oe = ordenar(e.pct);
-    const dif = e.pct[oe[0]] - e.pct[oe[1]];
-    const dePartido = Media.esDePartido(e);
-    const fiable = dePartido ? "La ha encargado un partido, así que no entra en la media" : nota ? (nota.letra === "A" || nota.letra === "B" ? "Es una empresa que ha acertado bastante en el pasado" : nota.letra === "C" || nota.letra === "D" ? "Es una empresa que ha fallado más de la cuenta en el pasado" : "No sabemos cuánto acierta, no hizo encuestas antes de las últimas elecciones") : "";
-    const ver = an ? (an.veredicto === "ruido" ? "y dice más o menos lo mismo que las demás." : an.veredicto === "leve" ? "y se sale un poco de lo habitual en ella." : "y trae un cambio de verdad respecto a lo que suele dar.") : ".";
-    const abierta = enc.abiertas.has(e.id);
-    const sesgo = D.analisis?.sesgos?.[e.clave]?.sesgo;
-    const tarjeta = el("div", { class: "tarjeta abrible", id: `enc-${e.id}`, tabindex: "0", role: "button", "aria-expanded": abierta ? "true" : "false", style: usadas.has(e.id) || enc.filtro ? null : { opacity: .75 }, onclick: (ev) => { if (ev.target.closest("a, .mini-grafico")) return; abierta ? enc.abiertas.delete(e.id) : enc.abiertas.add(e.id); pintarEncuestas(m, m7, proy); } },
-      el("div", { class: "cab" }, el("b", {}, e.empresa_base, e.encargo ? ` para ${e.encargo}` : "", nota && nota.letra !== "–" ? el("span", { class: "nota", title: nota.texto }, nota.letra) : null,
-        dePartido ? el("span", { class: "veredicto leve" }, "de un partido") : an ? el("span", { class: `veredicto ${an.veredicto}` }, an.veredicto === "ruido" ? "nada nuevo" : an.veredicto === "leve" ? "algo se mueve" : "novedad") : null),
-        el("span", {}, fFecha.format(fechaD(e.fin)))),
-      el("p", { class: "ver" }, `Dice que gana ${nombre(oe[0])} por ${fmt1.format(dif)} puntos. ${fiable}${fiable ? " " : ""}${ver}${e.muestra ? ` Preguntó a ${fmt0.format(e.muestra)} personas, margen de error de ±${fmt1.format(an?.margen ?? 98 / Math.sqrt(e.muestra))} puntos.` : ""}`),
-      el("div", { class: "chips" }, ...oe.slice(0, abierta ? 99 : 6).map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombre(k)} ${fmt1.format(e.pct[k])}`))),
-      abierta ? el("div", { class: "detalle" },
-        el("p", {}, `Trabajo de campo ${e.inicio && e.inicio !== e.fin ? `del ${fFecha.format(fechaD(e.inicio))} al ` : "el "}${fFecha.format(fechaD(e.fin))}.${e.muestra ? ` ${fmt0.format(e.muestra)} entrevistas.` : ""}${Object.keys(e.escanos || {}).length ? ` Asientos que da: ${ordenar(e.escanos).filter((k) => e.escanos[k] > 0).slice(0, 8).map((k) => `${nombre(k)} ${Math.round(e.escanos[k])}`).join(", ")}.` : ""}${nota && nota.letra !== "–" ? ` Nota ${nota.letra}, ${nota.texto}.` : ""}`),
-        graficoDeEmpresa(e, todas),
-        el("table", {}, el("thead", {}, el("tr", {}, el("th", {}, "Partido"), el("th", {}, "Dio"), el("th", {}, "Suele dar"), el("th", {}, "Media de todas"))),
-          el("tbody", {}, ...oe.slice(0, 8).map((k) => { const d = an?.detalle?.find((x) => x.partido === k);
-            return el("tr", {}, el("td", {}, nombre(k)), el("td", {}, fmt1.format(e.pct[k])), el("td", {}, sesgo && sesgo[k] != null ? `${signo(sesgo[k])} que la media` : "–"), el("td", {}, d ? fmt1.format(d.esperado - (sesgo && sesgo[k] != null ? sesgo[k] : 0)) : "–")); }))),
-        el("p", { class: "mas" }, "\"Suele dar\" es lo que esta empresa se separa de la media del momento en sus encuestas de esta legislatura. Toca para cerrar.")) : el("p", { class: "mas" }, "Toca para ver todos los datos"));
-    return tarjeta;
-  }));
+  const lista = (enc.filtro ? todas.filter((e) => e.clave === enc.filtro) : todas).slice(0, enc.filtro ? 30 : 20);
+  const cols = o.filter((k) => m.media[k] >= 1).slice(0, 9);
+  const filaDetalle = (e) => {
+    const an = D.analisis?.ultimas?.find((x) => x.id === e.id), oe = ordenar(e.pct), sesgo = D.analisis?.sesgos?.[e.clave]?.sesgo;
+    return el("tr", { class: "detalle-enc" }, el("td", { colspan: String(cols.length + 4) }, el("div", { class: "detalle" },
+      el("p", {}, `Trabajo de campo ${e.inicio && e.inicio !== e.fin ? `del ${fFecha.format(fechaD(e.inicio))} al ` : "el "}${fFecha.format(fechaD(e.fin))}.${e.muestra ? ` ${fmt0.format(e.muestra)} entrevistas, margen de error de ±${fmt1.format(an?.margen ?? 98 / Math.sqrt(e.muestra))} puntos.` : ""}${Object.keys(e.escanos || {}).length ? ` Asientos que publica, ${lista2(oe.filter((k) => e.escanos[k] != null).slice(0, 6).map((k) => `${nombre(k)} ${Math.round(e.escanos[k])}`))}.` : ""}${an ? ` ${an.texto}` : ""}`),
+      graficoDeEmpresa(e, todas),
+      el("table", {}, el("thead", {}, el("tr", {}, el("th", {}, "Partido"), el("th", {}, "Dio"), el("th", {}, "Suele dar"), el("th", {}, "Media de todas"))),
+        el("tbody", {}, ...oe.slice(0, 8).map((k) => { const d = an?.detalle?.find((x) => x.partido === k);
+          return el("tr", {}, el("td", {}, nombre(k)), el("td", {}, fmt1.format(e.pct[k])), el("td", {}, sesgo && sesgo[k] != null ? `${signo(sesgo[k])} que la media` : "–"), el("td", {}, d ? fmt1.format(d.esperado - (sesgo && sesgo[k] != null ? sesgo[k] : 0)) : (m.media[k] != null ? fmt1.format(m.media[k]) : "–"))); }))),
+      el("p", { class: "fuente" }, "«Suele dar» es lo que esta empresa se separa de la media del momento en sus encuestas de esta legislatura."))));
+  };
+  const filas = lista.flatMap((e) => {
+    const an = D.analisis?.ultimas?.find((x) => x.id === e.id), nota = D.analisis?.notas?.find((x) => x.clave === e.clave), lider = ordenar(e.pct)[0], dePartido = Media.esDePartido(e), abierta = enc.abiertas.has(e.id);
+    const fila = el("tr", { id: `enc-${e.id}`, class: `tocable${usadas.has(e.id) || enc.filtro ? "" : " fuera"}${abierta ? " abierta" : ""}`, onclick: () => { if (abierta) enc.abiertas.delete(e.id); else enc.abiertas.add(e.id); contar("Abre una encuesta"); pintarEncuestas(m, m7, proy); } },
+      el("th", {}, el("span", { class: "emp" }, e.empresa_base, nota && nota.letra !== "–" ? el("span", { class: "nota", title: nota.texto }, nota.letra) : null), e.encargo ? el("small", {}, `para ${e.encargo}`) : null),
+      el("td", { class: "n" }, fFecha.format(fechaD(e.fin))), el("td", { class: "n" }, e.muestra ? fmt0.format(e.muestra) : "–"),
+      ...cols.map((k) => e.pct[k] == null ? el("td", { class: "vacia" }, "–") : el("td", {}, el("span", { class: `celda${k === lider ? " lider" : ""}`, style: k === lider ? sobre(color(k)) : { color: color(k) } }, fmt1.format(e.pct[k])))),
+      el("td", { class: "ver" }, dePartido ? el("span", { class: "veredicto leve" }, "de un partido") : an ? el("span", { class: `veredicto ${an.veredicto}` }, an.veredicto === "ruido" ? "nada nuevo" : an.veredicto === "leve" ? "algo se mueve" : "novedad") : null));
+    return abierta ? [fila, filaDetalle(e)] : [fila];
+  });
+  $("#tabla-encuestas").replaceChildren(el("thead", {}, el("tr", {}, el("th", {}, "Encuesta"), el("th", {}, "Fecha"), el("th", {}, "Muestra"), ...cols.map((k) => el("th", {}, el("i", { class: "punto", style: { background: color(k) } }), el("span", {}, nombre(k)))), el("th", {}, ""))),
+    el("tbody", {}, ...filas, el("tr", { class: "total" }, el("th", {}, "Media de hoy"), el("td", {}), el("td", {}), ...cols.map((k) => el("td", {}, fmt1.format(m.media[k]))), el("td", {}))));
   dibujarGraficosDeEmpresa(todas);
   if (D.encuestas) $("#fuente-encuestas").replaceChildren(enc.filtro ? "" : `Las atenuadas no entran en la media de hoy por tener más de ${m.ventana} días, por haber otra más reciente de la misma empresa o por ser de un partido. La fecha de cada encuesta es la del último día en que preguntó. `, "Fuente ", el("a", { href: D.encuestas.fuente, target: "_blank", rel: "noopener" }, "Wikipedia"), `, actualizado ${hace(D.encuestas.actualizado)}.`);
   graficoTendencia?.destroy(); graficoTendencia = null;
@@ -778,7 +991,7 @@ function graficoDeEmpresa(e, todas) {
 function dibujarGraficosDeEmpresa(todas) {
   graficosEmpresa.splice(0).forEach((g) => g.destroy());
   if (typeof Chart === "undefined") return;
-  document.querySelectorAll("#tarjetas-encuestas canvas[data-enc]").forEach((lienzo) => {
+  document.querySelectorAll("#tabla-encuestas canvas[data-enc]").forEach((lienzo) => {
     const e = todas.find((x) => x.id === lienzo.dataset.enc); if (!e) return;
     const mias = deEmpresa(e, todas), cual = mias.findIndex((x) => x.id === e.id), partidos = ordenar(e.pct).slice(0, 5);
     const op = opciones(" %"); op.plugins.legend.labels.boxWidth = 7; op.plugins.legend.labels.boxHeight = 7; op.scales.y.beginAtZero = false;
@@ -787,30 +1000,261 @@ function dibujarGraficosDeEmpresa(todas) {
         pointRadius: mias.map((_, i) => i === cual ? 6 : 2.5), pointHoverRadius: 6 })) }, options: op }));
   });
 }
-function pintarTendencia() {
-  const m = calcMedia(), o = ordenar(m.media).filter((k) => m.media[k] >= 1.5).slice(0, 7);
-  graficoTendencia?.destroy(); graficoTendencia = null;
-  if (!hayGraficas($("#grafico-tendencia"))) return;
-  avisoTramo();
-  const [desde, hasta] = rangoTendencia(), nDias = Math.round((hasta - desde) / DIA);
-  // Hasta unos cuatro meses, un punto por día y fechas con día. Más largo, cada 3 días o cada semana, y fechas con mes y año.
-  const corto = nDias <= 130, paso = corto ? 1 : nDias <= 500 ? 3 : 7, rotulo = (t) => corto ? fFecha.format(t) : etiquetaFecha(t);
-  if (enc.filtro) {
-    const mias = (D.encuestas?.encuestas || []).filter((e) => e.clave === enc.filtro && fechaD(e.fin) >= desde && fechaD(e.fin) <= hasta).slice().reverse();
-    graficoTendencia = new Chart($("#grafico-tendencia"), { type: "line", data: { labels: mias.map((e) => rotulo(fechaD(e.fin))),
-      datasets: o.map((k) => ({ label: nombre(k), data: mias.map((e) => e.pct[k] ?? null), borderColor: color(k), backgroundColor: color(k), borderWidth: 2, pointRadius: 4, tension: .2, spanGaps: true })) }, options: opciones(" %") });
-    if (!mias.length) $("#tramo-aviso").textContent = enc.tramo === "medida" ? "Esta empresa no tiene ninguna encuesta entre esas dos fechas." : "";
-    return;
-  }
-  const puntos = [];
-  for (let t = desde; t <= hasta; t = new Date(+t + paso * DIA)) puntos.push(t);
-  if (puntos[puntos.length - 1] < hasta) puntos.push(hasta);
-  const series = {};
-  for (const t of puntos) { const mm = calcMedia(t).media; for (const k of o) (series[k] ||= []).push(mm[k] != null ? +mm[k].toFixed(2) : null); }
-  // Con pocos días se marca cada uno con su punto, que si no una línea de cinco tramos no dice dónde está cada día
-  graficoTendencia = new Chart($("#grafico-tendencia"), { type: "line", data: { labels: puntos.map(rotulo),
-    datasets: o.map((k) => ({ label: nombre(k), data: series[k], borderColor: color(k), backgroundColor: color(k), borderWidth: 3, pointRadius: puntos.length <= 31 ? 3 : 0, tension: puntos.length <= 31 ? 0 : .3, spanGaps: true })) }, options: opciones(" %") });
+/* ---------- Movimiento ----------
+   Los números grandes suben contando la primera vez que se ven, las barras crecen al pintarse (CSS, clase crece) y los
+   bloques entran al hacer scroll (observador de abajo). Todo respeta «reducir movimiento» del sistema. */
+const sinMovimiento = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+const animados = new WeakSet();
+function animarNumeros(raiz) {
+  if (!raiz || sinMovimiento()) return;
+  raiz.querySelectorAll(".num-sube").forEach((e) => {
+    if (animados.has(e) || e.closest("[hidden]")) return;
+    animados.add(e);
+    const nodo = [...e.childNodes].find((n) => n.nodeType === 3 && /\d/.test(n.textContent)); if (!nodo) return;
+    const texto = nodo.textContent, m = texto.match(/-?\d+(?:[.,]\d+)?/); if (!m) return;
+    const fin = parseFloat(m[0].replace(/\./g, "").replace(",", ".")), dec = (m[0].split(",")[1] || "").length, t0 = performance.now(), dur = 750;
+    const f = new Intl.NumberFormat("es-ES", { minimumFractionDigits: dec, maximumFractionDigits: dec });
+    const paso = (t) => { const x = Math.min(1, (t - t0) / dur), ease = 1 - Math.pow(1 - x, 3); nodo.textContent = texto.replace(m[0], f.format(fin * ease)); if (x < 1) requestAnimationFrame(paso); else nodo.textContent = texto; };
+    requestAnimationFrame(paso);
+  });
 }
+/* ---------- La gráfica grande de Encuestas ----------
+   Tres vistas (tendencia, barras y carrera), partidos o bloques, porcentaje o asientos, y una franja opcional con lo que
+   difieren las encuestas entre sí. Cada punto es una encuesta tal como la publicó su empresa (en asientos, los que dio
+   esa empresa). La línea y las barras son la media del día, y en asientos el reparto de esa media con la ley electoral,
+   el mismo número que sale en Hoy. Todo se calcula en el dispositivo a partir de encuestas.json. */
+Object.assign(enc, { vista: "tendencia", que: "partidos", medida: "pct", franja: true, puntos: false, carreraI: null, reproduciendo: null });
+const diaDesdeInicio = (t) => Math.round((t - fechaD(TRAMO_INICIO)) / DIA);
+const fechaDesdeDia = (n) => new Date(+fechaD(TRAMO_INICIO) + n * DIA);
+const GRIS_RESTO = "#8A94A6";
+const colorAlfa = (c, a) => { if (!/^#[0-9a-f]{6}$/i.test(c)) return c; const n = parseInt(c.slice(1), 16); return `rgba(${n >> 16 & 255},${n >> 8 & 255},${n & 255},${a})`; };
+/* Los bloques salen de los escenarios principales de config.json. Lo que no está en ninguno de los dos es «resto». */
+function bloques() {
+  const E = Object.fromEntries((D.config.escenarios || []).map((e) => [e.id, e]));
+  const der = E[D.config.principales.derecha], izq = E[D.config.principales.izquierda];
+  const dentro = new Set([...der.partidos, ...izq.partidos]);
+  return [{ k: "der", nombre: der.nombre, partidos: der.partidos, color: color(der.partidos[0]) },
+    { k: "izq", nombre: izq.nombre.replace(/ de 2023$/, ""), partidos: izq.partidos, color: color(izq.partidos[0]) },
+    { k: "resto", nombre: "Resto", partidos: Object.keys(D.config.partidos).filter((k) => !dentro.has(k)), color: GRIS_RESTO }];
+}
+/* Qué series se pintan: los partidos con al menos un 1,5 % de media hoy (siete como mucho), o los tres bloques. */
+function seriesGrafica() {
+  if (enc.que === "bloques") return bloques().map((b) => ({ k: b.k, nombre: b.nombre, color: b.color, partidos: b.partidos }));
+  const m = calcMedia();
+  return ordenar(m.media).filter((k) => m.media[k] >= 1.5).slice(0, 7).map((k) => ({ k, nombre: nombre(k), color: color(k), partidos: [k] }));
+}
+const sumaDe = (obj, partidos) => { let s = null; for (const k of partidos) if (obj?.[k] != null) s = (s || 0) + obj[k]; return s; };
+/* El valor de cada serie en un día: la media (o su reparto en asientos), cuántas encuestas lo forman y lo que difieren entre sí. */
+const cacheDia = new Map();
+function valorDia(t) {
+  const clave = `${enc.medida}|${enc.que}|${diaMadrid(t)}`;
+  if (cacheDia.has(clave)) return cacheDia.get(clave);
+  const m = calcMedia(t), series = seriesGrafica(), hay = Object.keys(m.media).length > 0;
+  const tot = hay && enc.medida === "esc" ? Modelo.proyectar(m.media, D.base).total : null;
+  const v = {}, sd = {}, n = {};
+  for (const s of series) {
+    v[s.k] = hay ? (enc.medida === "pct" ? sumaDe(m.media, s.partidos) : sumaDe(tot, s.partidos) ?? 0) : null;
+    const xs = m.usadas.map((e) => sumaDe(enc.medida === "pct" ? e.pct : e.escanos, s.partidos)).filter((x) => x != null);
+    n[s.k] = xs.length;
+    if (xs.length >= 2) { const med = xs.reduce((a, b) => a + b, 0) / xs.length; sd[s.k] = Math.sqrt(xs.reduce((a, x) => a + (x - med) ** 2, 0) / xs.length); }
+  }
+  const r = { v, sd, n, usadas: m.usadas.length, desde: m.usadas.reduce((a, e) => (!a || e.fin < a ? e.fin : a), null), hasta: m.usadas.reduce((a, e) => (!a || e.fin > a ? e.fin : a), null) };
+  cacheDia.set(clave, r);
+  return r;
+}
+/* Lo que sacó cada partido en 2023, para marcarlo al principio de la gráfica */
+function valor2023(serie) { return enc.medida === "pct" ? sumaDe(D.base.nacional, serie.partidos) : sumaDe(D.base.escanos_reales, serie.partidos); }
+function unidad() { return enc.medida === "pct" ? " %" : " asientos"; }
+function fmtValor(x) { return enc.medida === "pct" ? fmt1.format(x) : fmt0.format(Math.round(x)); }
+
+function pintarTendencia() {
+  cacheDia.clear();
+  graficoTendencia?.destroy(); graficoTendencia = null;
+  pararCarrera();
+  const vista = enc.vista;
+  $("#caja-tendencia").hidden = vista !== "tendencia";
+  $("#carrera").hidden = vista === "tendencia";
+  $("#carrera").classList.toggle("quieta", vista === "barras");
+  $("#franja-mando").hidden = vista !== "tendencia";
+  avisoTramo();
+  pieGrafica();
+  $("#explica-tendencia").textContent = vista === "barras" ? `La media de hoy, ${enc.que === "bloques" ? "bloque a bloque" : "partido a partido"}, en ${enc.medida === "pct" ? "porcentaje de voto" : "asientos"}.` : vista === "carrera" ? `Cómo ha ido cambiando la media ${textoTramo()}.` : enc.explica ? enc.explica() : "";
+  if (vista !== "tendencia") { prepararCarrera(); return; }
+  if (!hayGraficas($("#grafico-tendencia"))) return;
+  const [desde, hasta] = rangoTendencia(), nDias = Math.round((hasta - desde) / DIA);
+  const corto = nDias <= 130, paso = corto ? 1 : nDias <= 500 ? 3 : 7;
+  const series = seriesGrafica(), x0 = diaDesdeInicio(desde), x1 = diaDesdeInicio(hasta);
+  const E = (D.encuestas?.encuestas || []).filter((e) => fechaD(e.fin) >= desde && fechaD(e.fin) <= hasta && (!enc.filtro || e.clave === enc.filtro));
+  const datasets = [];
+  lectura.dias = null; lectura.encuestas = E; lectura.series = series;
+  // Cada encuesta, un punto translúcido (en asientos, solo las que los publican). Solo si se piden o al elegir una empresa.
+  if (enc.puntos || enc.filtro) for (const s of series) {
+    const puntos = E.map((e) => { const y = sumaDe(enc.medida === "pct" ? e.pct : e.escanos, s.partidos); return y == null ? null : { x: diaDesdeInicio(fechaD(e.fin)), y, empresa: e.empresa }; }).filter(Boolean);
+    datasets.push({ type: "scatter", label: s.nombre, data: puntos, backgroundColor: colorAlfa(s.color, enc.filtro ? .9 : .28), borderColor: "transparent", pointRadius: enc.filtro ? 4.5 : 2.6, pointHoverRadius: 5, order: 3, esPunto: true, color: s.color });
+  }
+  // La media, una línea suave. Con una sola empresa elegida no hay media, los puntos van unidos por una línea fina.
+  if (!enc.filtro) {
+    const puntos = [];
+    for (let t = desde; t <= hasta; t = new Date(+t + paso * DIA)) puntos.push(t);
+    if (puntos[puntos.length - 1] < hasta) puntos.push(hasta);
+    const dias = puntos.map(valorDia);
+    lectura.dias = puntos.map((t, i) => ({ x: diaDesdeInicio(t), t, v: dias[i].v }));
+    // La media de cada día da saltos cuando entra o sale una encuesta. Para la línea de tendencia se suaviza con los
+    // vecinos (unas tres semanas en los tramos largos), que es lo que se quiere ver aquí. En los tramos cortos, tal cual.
+    const radio = corto ? 0 : paso >= 7 ? 1 : 3;
+    const suave = (arr) => arr.map((y, i) => { if (y == null) return null; let s = 0, n = 0; for (let j = Math.max(0, i - radio); j <= Math.min(arr.length - 1, i + radio); j++) if (arr[j] != null) { s += arr[j]; n++; } return s / n; });
+    for (const s of series) {
+      const vs = suave(dias.map((d) => d.v[s.k])), sds = suave(dias.map((d) => d.sd[s.k]));
+      const linea = puntos.map((t, i) => ({ x: diaDesdeInicio(t), y: vs[i] == null ? null : +vs[i].toFixed(2) }));
+      if (enc.franja) {
+        const arriba = puntos.map((t, i) => ({ x: diaDesdeInicio(t), y: vs[i] == null || sds[i] == null ? null : vs[i] + sds[i] }));
+        const abajo = puntos.map((t, i) => ({ x: diaDesdeInicio(t), y: vs[i] == null || sds[i] == null ? null : Math.max(0, vs[i] - sds[i]) }));
+        datasets.push({ type: "line", label: `${s.nombre} +`, data: arriba, borderWidth: 0, pointRadius: 0, pointHoverRadius: 0, tension: .35, spanGaps: true, order: 4, auxiliar: true });
+        datasets.push({ type: "line", label: `${s.nombre} −`, data: abajo, borderWidth: 0, pointRadius: 0, pointHoverRadius: 0, tension: .35, spanGaps: true, fill: "-1", backgroundColor: colorAlfa(s.color, .13), order: 4, auxiliar: true });
+      }
+      datasets.push({ type: "line", label: s.nombre, data: linea, borderColor: s.color, backgroundColor: s.color, borderWidth: 4, pointRadius: 0, pointHoverRadius: 5, pointHitRadius: 10, tension: .35, spanGaps: true, order: 1, esMedia: true });
+    }
+  } else {
+    for (const s of series) { const d = datasets.find((x) => x.esPunto && x.label === s.nombre); if (d) { d.showLine = true; d.borderColor = colorAlfa(s.color, .5); d.borderWidth = 1.5; d.data.sort((a, b) => a.x - b.x); } }
+  }
+  // El resultado de 2023, un rombo al principio, y la raya de la mayoría absoluta en asientos
+  const d23 = diaDesdeInicio(fechaD("2023-07-23"));
+  const margenX = Math.max(1, Math.round((x1 - x0) * .012));
+  if (d23 >= x0 - 45) for (const s of series) { const y = valor2023(s); if (y != null) datasets.push({ type: "scatter", label: `${s.nombre} en 2023`, data: [{ x: Math.max(d23, x0), y, empresa: "Resultado de 2023" }], backgroundColor: s.color, borderColor: "#fff", borderWidth: 1.5, pointStyle: "rectRot", pointRadius: 6.5, pointHoverRadius: 8, order: 0, auxiliar: true }); }
+  if (enc.medida === "esc") datasets.push({ type: "line", label: "176, mayoría absoluta", data: [{ x: x0, y: 176 }, { x: x1, y: 176 }], borderColor: colorAlfa(getComputedStyle(document.documentElement).getPropertyValue("--bronce").trim(), .9), borderDash: [6, 5], borderWidth: 1.5, pointRadius: 0, pointHoverRadius: 0, order: 5, auxiliar: true, mayoria: true });
+  const op = opciones(unidad());
+  const css = getComputedStyle(document.documentElement), gris = css.getPropertyValue("--gris").trim(), tinta = css.getPropertyValue("--tinta").trim();
+  const fEje = corto ? new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short" }) : new Intl.DateTimeFormat("es-ES", { month: "short", year: "2-digit" });
+  const ultimos = {}; // para que la leyenda enseñe una entrada por serie y el tooltip no repita
+  graficoTendencia = new Chart($("#grafico-tendencia"), { data: { datasets }, options: { ...op, animation: { duration: 600, easing: "easeOutQuart" }, interaction: { mode: "nearest", axis: "xy", intersect: false }, onHover: (ev, items, chart) => leerTendencia(ev, items, chart), events: ["mousemove", "mouseout", "touchstart", "touchmove", "click"],
+    plugins: { ...op.plugins, legend: { ...op.plugins.legend, labels: { ...op.plugins.legend.labels, color: tinta, pointStyleWidth: 10, boxHeight: 8, filter: (it, data) => { const d = data.datasets[it.datasetIndex]; if (d.auxiliar || d.esPunto && !enc.filtro) return false; if (ultimos[d.label] != null && ultimos[d.label] !== it.datasetIndex) return false; ultimos[d.label] = it.datasetIndex; return true; } } },
+      tooltip: { enabled: false } },
+    scales: { x: { type: "linear", min: x0 - margenX, max: x1 + margenX, ticks: { color: gris, maxRotation: 0, autoSkipPadding: 24, callback: (v) => fEje.format(fechaDesdeDia(v)).replace(" de ", " ") }, grid: { display: false } },
+      y: { min: 0, suggestedMax: enc.medida === "esc" ? 190 : undefined, ticks: { color: gris, callback: (v) => enc.medida === "pct" ? `${v} %` : v }, grid: { color: css.getPropertyValue("--linea").trim() } } } }, plugins: [rayaLectura] });
+  lectura.x = null; pintarLectura(null);
+}
+
+/* ---------- Lectura al pie de la gráfica ----------
+   En vez de un globo sobre la línea, que tapa y solo enseña un partido, al pasar el ratón (o el dedo) se dibuja una raya
+   vertical y debajo de la gráfica salen todos los partidos de ese día. Sin ratón encima, enseña el último día. */
+const lectura = { dias: null, encuestas: [], series: [], x: null };
+const rayaLectura = { id: "rayaLectura", afterDatasetsDraw(chart) {
+  if (lectura.x == null || chart.canvas.id !== "grafico-tendencia") return;
+  const { ctx, chartArea: a, scales } = chart, px = scales.x.getPixelForValue(lectura.x);
+  if (px < a.left || px > a.right) return;
+  ctx.save(); ctx.strokeStyle = "rgba(23,32,46,.45)"; ctx.lineWidth = 1; ctx.setLineDash([4, 4]); ctx.beginPath(); ctx.moveTo(px, a.top); ctx.lineTo(px, a.bottom); ctx.stroke();
+  ctx.setLineDash([]);
+  for (const ds of chart.data.datasets) { if (!ds.esMedia && !(ds.esPunto && enc.filtro)) continue; const p = ds.data.find((q) => q.x === lectura.x); if (!p || p.y == null) continue; const py = scales.y.getPixelForValue(p.y); ctx.beginPath(); ctx.arc(px, py, 5.5, 0, Math.PI * 2); ctx.fillStyle = ds.borderColor === "transparent" ? ds.backgroundColor : ds.borderColor; ctx.fill(); ctx.lineWidth = 2; ctx.strokeStyle = "#fff"; ctx.stroke(); }
+  ctx.restore();
+} };
+function leerTendencia(ev, items, chart) {
+  if (ev.type === "mouseout") { lectura.x = null; pintarLectura(null); chart.draw(); return; }
+  // Un punto de encuesta bajo el ratón manda sobre la media
+  const punto = items.find((it) => chart.data.datasets[it.datasetIndex].esPunto || chart.data.datasets[it.datasetIndex].auxiliar && chart.data.datasets[it.datasetIndex].data[it.index]?.empresa);
+  if (punto) { const ds = chart.data.datasets[punto.datasetIndex], p = ds.data[punto.index]; const e = lectura.encuestas.find((q) => q.empresa === p.empresa && diaDesdeInicio(fechaD(q.fin)) === p.x); if (e) { lectura.x = p.x; pintarLectura({ encuesta: e, x: p.x }); chart.draw(); return; } }
+  if (!lectura.dias || !ev.x) { return; }
+  const xv = chart.scales.x.getValueForPixel(ev.x);
+  let mejor = null; for (const d of lectura.dias) if (!mejor || Math.abs(d.x - xv) < Math.abs(mejor.x - xv)) mejor = d;
+  if (mejor && mejor.x !== lectura.x) { lectura.x = mejor.x; pintarLectura({ dia: mejor }); chart.draw(); }
+}
+function pintarLectura(q) {
+  const cont = $("#lectura-tendencia"); if (!cont) return;
+  const S = lectura.series, u = unidad();
+  let cab, vals;
+  if (q && q.encuesta) { const e = q.encuesta; cab = `${e.empresa}${e.encargo ? ` para ${e.encargo}` : ""} · ${fFechaCompleta.format(fechaD(e.fin))}`; vals = S.map((s) => [s, sumaDe(enc.medida === "pct" ? e.pct : e.escanos, s.partidos)]); }
+  else if (q && q.dia) { cab = `Media del ${fFechaCompleta.format(q.dia.t)}`; vals = S.map((s) => [s, q.dia.v[s.k]]); }
+  else if (lectura.dias && lectura.dias.length) { const d = lectura.dias[lectura.dias.length - 1]; cab = `Media a ${fFechaCompleta.format(d.t)} · pasa el ratón por la gráfica`; vals = S.map((s) => [s, d.v[s.k]]); }
+  else if (lectura.encuestas.length) { const e = lectura.encuestas[lectura.encuestas.length - 1]; cab = `Última, ${e.empresa} · ${fFechaCompleta.format(fechaD(e.fin))}`; vals = S.map((s) => [s, sumaDe(enc.medida === "pct" ? e.pct : e.escanos, s.partidos)]); }
+  else { cont.replaceChildren(); return; }
+  vals = vals.filter(([, v]) => v != null).sort((a, b) => b[1] - a[1]);
+  cont.replaceChildren(el("span", { class: "lf" }, cab), el("span", { class: "lvals" }, ...vals.map(([s, v]) => el("span", { class: "lchip", style: { "--c": s.color } }, el("i"), `${s.nombre} `, el("b", {}, `${fmtValor(v)}${u}`)))));
+}
+const fFechaCompleta = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+function pieGrafica() {
+  const pct = enc.medida === "pct", v = enc.vista;
+  $("#pie-grafica").textContent = v === "tendencia"
+    ? `${enc.filtro ? "Cada punto es una encuesta de esa empresa, y la línea fina las une." : `La línea es la media del día y la franja clara, lo que difieren entre sí las encuestas que cuentan ese día.${enc.puntos ? " Cada punto es una encuesta." : ""}`} ${pct ? "" : "En asientos, la línea es el reparto de la media con la ley electoral, el mismo número que en Hoy, y cada punto lo que publicó esa empresa. "}El rombo es el resultado de 2023.`
+    : v === "barras" ? `La barra es la media de hoy${pct ? "" : " repartida con la ley electoral"}. ${!pct && enc.que === "partidos" && D.prob?.partidos ? "La parte clara es donde lo normal es que acabe, el 80 % de las repeticiones del modelo." : "La parte clara es lo que difieren entre sí las encuestas que cuentan hoy."} La raya fina es lo que sacó en 2023.`
+    : `Mueve el deslizador o dale al play para ver cómo ha cambiado la media desde 2023. La parte clara es lo que difieren entre sí las encuestas de cada momento, y la raya fina, el resultado de 2023.`;
+}
+
+/* ---------- Barras y carrera ---------- */
+const carrera = { puntos: [], max: 1, filas: new Map() };
+function prepararCarrera() {
+  const [desde, hasta] = enc.vista === "barras" ? [hoy(), hoy()] : rangoTendencia();
+  carrera.puntos = [];
+  for (let t = desde; t < hasta; t = new Date(+t + 3 * DIA)) carrera.puntos.push(t);
+  carrera.puntos.push(hasta);
+  const series = seriesGrafica(), hoyV = valorDia(hoy());
+  const topes = series.map((s) => Math.max(hoyV.v[s.k] || 0, valor2023(s) || 0, (hoyV.v[s.k] || 0) + (hoyV.sd[s.k] || 0), enc.medida === "esc" && enc.que === "partidos" ? D.prob?.partidos?.[s.k]?.p90 || 0 : 0));
+  carrera.max = Math.max(...topes, enc.medida === "esc" ? 180 : 10) * 1.08;
+  const r = $("#carrera-fecha");
+  r.max = carrera.puntos.length - 1; r.value = r.max;
+  $("#carrera-inicio").textContent = etiquetaFecha(carrera.puntos[0]);
+  // La escala de arriba
+  const paso = enc.medida === "pct" ? (carrera.max > 30 ? 10 : 5) : 25, marcas = [];
+  for (let x = 0; x <= carrera.max; x += paso) if (!(enc.medida === "esc" && Math.abs(x - 176) < carrera.max * .06)) marcas.push(el("span", { style: { left: `${x / carrera.max * 100}%` } }, enc.medida === "pct" ? `${x} %` : x));
+  if (enc.medida === "esc" && 176 <= carrera.max) marcas.push(el("span", { class: "mayoria", style: { left: `${176 / carrera.max * 100}%` } }, "176"));
+  $("#carrera-escala").replaceChildren(...marcas);
+  carrera.filas.clear();
+  $("#carrera-barras").replaceChildren();
+  pintarCarrera(carrera.puntos.length - 1, true);
+}
+function pintarCarrera(i, primera = false) {
+  enc.carreraI = i;
+  const t = carrera.puntos[i], esHoy = i === carrera.puntos.length - 1 && diaMadrid(t) === diaMadrid();
+  const d = valorDia(t), series = seriesGrafica(), modelo = esHoy && enc.medida === "esc" && enc.que === "partidos" ? D.prob?.partidos : null;
+  $("#carrera-dia").textContent = esHoy ? `Hoy · ${fFecha.format(t)} ${t.getUTCFullYear()}` : fFechaCompleta.format(t);
+  $("#carrera-n").textContent = d.usadas ? `${d.usadas} ${d.usadas === 1 ? "encuesta" : "encuestas"}${d.desde && d.hasta && d.desde !== d.hasta ? ` entre el ${fFecha.format(fechaD(d.desde))} y el ${fFecha.format(fechaD(d.hasta))}` : d.hasta ? `, del ${fFecha.format(fechaD(d.hasta))}` : ""}` : "Sin encuestas en ese momento";
+  const orden = series.slice().sort((a, b) => (d.v[b.k] || 0) - (d.v[a.k] || 0));
+  const ALTO = 54;
+  $("#carrera-barras").style.height = `${orden.length * ALTO}px`;
+  const pos = (x) => `${Math.min(100, Math.max(0, (x || 0) / carrera.max * 100))}%`;
+  orden.forEach((s, idx) => {
+    let f = carrera.filas.get(s.k);
+    if (!f) {
+      f = { el: el("div", { class: "carrera-fila", style: { "--c": s.color } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: s.color } }), s.nombre),
+        el("div", { class: "pista" }, el("i", { class: "banda" }), el("i", { class: "barra" }), el("i", { class: "raya23" }), el("i", { class: "raya" })),
+        el("span", { class: "num" }, el("b", {}), el("small", {}))) };
+      f.banda = f.el.querySelector(".banda"); f.barra = f.el.querySelector(".barra"); f.raya = f.el.querySelector(".raya"); f.raya23 = f.el.querySelector(".raya23"); f.b = f.el.querySelector("b"); f.small = f.el.querySelector("small");
+      carrera.filas.set(s.k, f);
+      $("#carrera-barras").append(f.el);
+      if (!primera) f.el.classList.add("nueva");
+    }
+    const v = d.v[s.k], lo = modelo?.[s.k] ? modelo[s.k].p10 : v != null && d.sd[s.k] != null ? v - d.sd[s.k] : null, hi = modelo?.[s.k] ? modelo[s.k].p90 : v != null && d.sd[s.k] != null ? v + d.sd[s.k] : null;
+    f.el.style.transform = `translateY(${idx * ALTO}px)`;
+    f.barra.style.width = pos(v);
+    f.banda.style.left = pos(lo); f.banda.style.width = lo == null ? "0" : `calc(${pos(hi)} - ${pos(lo)})`;
+    f.raya.style.left = pos(v); f.raya.hidden = v == null;
+    const v23 = valor2023(s); f.raya23.style.left = pos(v23); f.raya23.hidden = v23 == null;
+    f.b.textContent = v == null ? "–" : fmtValor(v);
+    f.small.textContent = lo == null ? "" : `${fmtValor(Math.max(0, lo))}–${fmtValor(hi)}`;
+  });
+  for (const [k, f] of carrera.filas) if (!orden.find((s) => s.k === k)) { f.el.remove(); carrera.filas.delete(k); }
+}
+function pararCarrera() { if (enc.reproduciendo) { clearInterval(enc.reproduciendo); enc.reproduciendo = null; } $("#carrera-play")?.classList.remove("en-marcha"); }
+function alternarCarrera() {
+  if (enc.reproduciendo) { pararCarrera(); return; }
+  const r = $("#carrera-fecha");
+  if (+r.value >= +r.max) r.value = 0;
+  $("#carrera-play").classList.add("en-marcha");
+  contar("Reproduce la carrera");
+  enc.reproduciendo = setInterval(() => { const i = +r.value + 1; if (i > +r.max) { pararCarrera(); return; } r.value = i; pintarCarrera(i); }, 90);
+}
+$("#carrera-play")?.addEventListener("click", alternarCarrera);
+$("#carrera-fecha")?.addEventListener("input", (e) => { pararCarrera(); pintarCarrera(+e.target.value); });
+/* Los mandos de la gráfica */
+function mando(sel, dato, campo) {
+  document.querySelectorAll(`${sel} button`).forEach((b) => b.addEventListener("click", () => {
+    enc[campo] = b.dataset[dato];
+    document.querySelectorAll(`${sel} button`).forEach((x) => x.setAttribute("aria-pressed", x.dataset[dato] === enc[campo] ? "true" : "false"));
+    contar(`Gráfica ${enc[campo]}`);
+    pintarTendencia();
+  }));
+}
+mando(".conmutador.vistas", "vista", "vista"); mando(".conmutador.quever", "que", "que"); mando(".conmutador.medida", "medida", "medida");
+$("#puntos")?.addEventListener("change", (e) => { enc.puntos = e.target.checked; contar("Ve cada encuesta"); pintarTendencia(); });
+
 /* ---------- ¿La ley electoral favorece a alguien? (en ¿Y si…?, con los votos de la situación elegida) ---------- */
 function pintarLey(media, esc2, provincias) {
   const conVoto = ordenar(media).filter((k) => media[k] > 0), sumaV = conVoto.reduce((s, k) => s + media[k], 0);
@@ -850,7 +1294,7 @@ const TESELAS = { "A Coruña": [0, 0], "Lugo": [1, 0], "Asturias": [2, 0], "Cant
   "Ceuta": [2, 8], "Melilla": [4, 8], "Santa Cruz de Tenerife": [8, 8], "Las Palmas": [9, 8] };
 const ABREV = { "A Coruña": "COR", "Lugo": "LUG", "Asturias": "AST", "Cantabria": "CAN", "Bizkaia": "BIZ", "Gipuzkoa": "GIP", "Pontevedra": "PON", "Ourense": "OUR", "León": "LEO", "Palencia": "PAL", "Burgos": "BUR", "Álava": "ALA", "Navarra": "NAV", "Huesca": "HUE", "Lleida": "LLE", "Girona": "GIR", "Zamora": "ZAM", "Valladolid": "VLL", "La Rioja": "RIO", "Soria": "SOR", "Zaragoza": "ZGZ", "Barcelona": "BCN", "Salamanca": "SAL", "Ávila": "AVI", "Segovia": "SEG", "Guadalajara": "GUA", "Teruel": "TER", "Tarragona": "TAR", "Cáceres": "CAC", "Madrid": "MAD", "Cuenca": "CUE", "Castellón": "CAS", "Badajoz": "BAD", "Toledo": "TOL", "Ciudad Real": "CRE", "Albacete": "ALB", "Valencia": "VAL", "Baleares": "BAL", "Huelva": "HUV", "Sevilla": "SEV", "Córdoba": "COR", "Jaén": "JAE", "Murcia": "MUR", "Alicante": "ALI", "Cádiz": "CAD", "Málaga": "MAL", "Granada": "GRA", "Almería": "ALM", "Ceuta": "CEU", "Melilla": "MEL", "Santa Cruz de Tenerife": "TFE", "Las Palmas": "LPA" };
 ABREV["Córdoba"] = "CBA";
-const mapa = { vista: "ganador", sel: null, proy: null };
+const mapa = { vista: "ganador", sel: null, proy: null, sub: "mapa", terr: "ccaa", tmed: "pct" };
 
 function colorProvincia(p) {
   const pp = D.prob?.provincias?.find((x) => x.nombre === p.nombre);
@@ -865,7 +1309,7 @@ function colorProvincia(p) {
     return { fill: dos.length === 2 ? `url(#${id})` : "var(--linea)", op: rel < 0.5 ? 1 : rel < 1 ? 0.75 : rel < 2 ? 0.4 : 0.12, txt: "var(--tinta)", etiqueta: dos.length === 2 && p.n >= 4 ? esc(`${nombre(dos[0])}·${nombre(dos[1])}`) : "", grad, clase: "etq", tam: 21 };
   }
   const empate = gan && ordenar(p.escanos).length > 1 && p.escanos[gan] === p.escanos[ordenar(p.escanos)[1]];
-  return { fill: gan ? color(gan) : "var(--linea)", op: empate ? .6 : 1, txt: gan ? sobre(color(gan), empate ? .6 : 1).color : "var(--tinta)", etiqueta: String(p.n) };
+  return { fill: gan ? color(gan) : "var(--linea)", op: empate ? .6 : 1, txt: gan ? sobre(color(gan), empate ? .6 : 1).color : "var(--tinta)", etiqueta: ABREV[p.nombre] || String(p.n), tam: 17 };
 }
 function dibujarMapa(proy, opciones = {}) {
   // opciones: {vista, sel, resaltar: Set de provincias con borde, colorear: (p)=>{fill,op,...}}
@@ -877,9 +1321,10 @@ function dibujarMapa(proy, opciones = {}) {
   if (G) {
     svg = `<svg viewBox="${G.viewBox}" role="group" aria-label="Mapa de España por provincias"><defs>${cols.map(([, c]) => c.grad || "").join("")}</defs>`;
     const r = G.recuadro_canarias; svg += `<rect class="recuadro" x="${r.x}" y="${r.y}" width="${r.w}" height="${r.h}" rx="8"/>`;
+    const xs = cols.map(([p]) => G.provincias[p.nombre]?.cx).filter((x) => x != null), xMin = Math.min(...xs), xMax = Math.max(...xs);
     for (const [p, c] of cols) {
       const g = G.provincias[p.nombre]; if (!g) continue;
-      svg += `<g class="prov${sel === p.nombre ? " sel" : ""}${resaltar.has(p.nombre) ? " cambia" : ""}" data-p="${p.nombre}" tabindex="0" role="button" aria-label="${esc(p.nombre)}">`;
+      svg += `<g style="--r:${Math.round((g.cx - xMin) / (xMax - xMin || 1) * 650)}ms" class="prov${sel === p.nombre ? " sel" : ""}${resaltar.has(p.nombre) ? " cambia" : ""}" data-p="${p.nombre}" tabindex="0" role="button" aria-label="${esc(p.nombre)}">`;
       svg += g.circulo ? `<circle class="prov" cx="${g.cx}" cy="${g.cy}" r="14" fill="${c.fill}" fill-opacity="${c.op}"/>` : `<path d="${g.d}" fill="${c.fill}" fill-opacity="${c.op}"/>`;
       if (!g.circulo && c.etiqueta) svg += `<text class="${c.clase || ""}" x="${g.cx}" y="${g.cy + 6}" text-anchor="middle" font-size="${c.tam || 22}" font-weight="700" fill="${c.txt}">${c.etiqueta}</text>`;
       else if (g.circulo && vista !== "filo") svg += `<text x="${g.cx}" y="${g.cy + 5}" text-anchor="middle" font-size="14" font-weight="700" fill="${c.txt}">${c.etiqueta}</text>`;
@@ -900,32 +1345,131 @@ function dibujarMapa(proy, opciones = {}) {
 function pintarMapa(proy) {
   mapa.proy = proy;
   pintarMiProvincia(proy);
-  const svg = dibujarMapa(proy);
-  $("#mapa-svg").innerHTML = svg;
-  $("#mapa-svg").querySelectorAll("g.prov").forEach((g) => g.addEventListener("click", () => { quitarDelEnlace("provincia"); mapa.sel = g.dataset.p; try { localStorage.setItem("mi-provincia", mapa.sel); } catch {} pintarMapa(mapa.proy); }));
-  $("#mapa-pista").textContent = mapa.vista === "ganador" ? "Cada provincia lleva el color del partido que más asientos sacaría en ella, y el número de asientos que reparte. Si está más clara es que hay empate. Toca una para ver el detalle." : "Cada provincia lleva los colores de los dos partidos que se disputan su último asiento, primero el que lo tiene y luego el que lo persigue. Cuanto más intenso, más reñido. Las casi blancas están decididas. Toca una para ver el detalle.";
-  const p = proy.provincias.find((x) => x.nombre === mapa.sel);
-  $("#ficha-provincia").replaceChildren(...(p ? [el("div", { class: "ficha" }, el("h3", {}, `${p.nombre}, ${p.n} asientos`),
-    el("div", { class: "chips" }, ...ordenar(p.escanos).map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombre(k)} ${p.escanos[k]}`))),
-    el("p", {}, (p.aspirante ? fraseProvincia(p, false) : "") + antes2023(p)),
-    botonEnlace(`Copiar el enlace a ${p.nombre}`, () => enlaceA({ provincia: p.nombre, pestana: "mapa" })),
-    el("details", { class: "como" }, el("summary", {}, "¿Cómo se reparten estos asientos?"),
-      el("p", {}, `De uno en uno. Cada asiento se lo lleva el partido que tenga el número más alto en ese momento. Todos empiezan con su porcentaje de voto. Cuando un partido gana un asiento, para optar al siguiente su voto se divide entre 2. Si gana otro, entre 3. Así el que ya tiene asientos lo tiene cada vez más difícil y los demás van entrando. Es la ley D'Hondt.`),
-      pasosDhondt(p),
-      el("p", { class: "fuente" }, `Ahí se acaban los ${p.n} asientos de ${p.nombre}. Solo entran en el reparto los partidos con al menos el 3 % del voto de la provincia.`),
-      el("details", { class: "como dentro" }, el("summary", {}, "Ver todas las divisiones en una tabla"),
-        el("p", {}, "Es lo mismo, visto de golpe. El voto de cada partido dividido entre 1, 2, 3… Los números en color son los más altos, y cada uno es un asiento."),
-        el("div", { class: "tabla-scroll" }, tablaDhondt(p)))))] : []));
-  // Ordenadas por lo mismo que dice la etiqueta: lo que le falta al aspirante comparado con lo que cuesta un asiento en esa provincia
-  const relativo = (x) => Math.max(x.aspirante.falta, 0) / (10 / (x.n + 1));
-  const aj = [...proy.provincias].filter((x) => x.aspirante).sort((a, b) => relativo(a) - relativo(b)).slice(0, 5).map((x) => ({ x }));
-  const nivel = (x) => { const f = Math.max(x.aspirante?.falta ?? 99, 0), u = 10 / (x.n + 1); return f < u / 2 ? "Muy reñida" : f < u ? "Reñida" : "Algo reñida"; };
-  $("#ajustadas").replaceChildren(...aj.map(({ x, pp }) => el("button", { class: "ajustada", type: "button", onclick: () => { quitarDelEnlace("provincia"); mapa.sel = x.nombre; pintarMapa(mapa.proy); $("#ficha-provincia").scrollIntoView({ behavior: "smooth", block: "center" }); } },
-    el("b", {}, x.nombre), el("span", { class: "pts" }, nivel(x)),
-    el("span", { class: "m" }, x.aspirante ? `Se lo disputan ${nombre(x.ultimo.p)} y ${nombre(x.aspirante.p)}. Hoy lo tiene ${nombre(x.ultimo.p)} ${porVotos(Math.max(x.aspirante.falta, 0), x.n)}.` : ""))));
+  // Qué se ve: la lista (mapa, último asiento o tabla) o el detalle de una provincia
+  const det = !!mapa.sel && proy.provincias.some((x) => x.nombre === mapa.sel);
+  $("#prov-lista").hidden = det;
+  $("#prov-detalle").hidden = !det;
+  if (det) { pintarDetalleProvincia(proy.provincias.find((x) => x.nombre === mapa.sel), proy); return; }
+  for (const sub of ["mapa", "ultimo", "tabla"]) $(`#prov-${sub}`).hidden = mapa.sub !== sub;
+  document.querySelectorAll(".conmutador.subvistas button").forEach((x) => x.setAttribute("aria-pressed", x.dataset.sub === mapa.sub ? "true" : "false"));
+  if (mapa.sub === "mapa") {
+    const tip = $("#mapa-tip");
+    $("#mapa-svg").innerHTML = dibujarMapa(proy);
+    $("#mapa-svg").prepend(tip);
+    const abrir = (nombre) => { quitarDelEnlace("provincia"); mapa.sel = nombre; try { localStorage.setItem("mi-provincia", nombre); } catch {} contar("Abre una provincia"); pintarMapa(proy); window.scrollTo({ top: 0, behavior: "smooth" }); };
+    $("#mapa-svg").querySelectorAll("g.prov").forEach((g) => {
+      g.addEventListener("click", () => abrir(g.dataset.p));
+      // En ordenador, al pasar el ratón sale la tabla de la provincia. En táctil no hay ratón, se toca y se abre.
+      g.addEventListener("pointerenter", (ev) => { if (ev.pointerType !== "mouse") return; tipProvincia(tip, proy.provincias.find((x) => x.nombre === g.dataset.p)); tip.hidden = false; moverTip(tip, ev); });
+      g.addEventListener("pointermove", (ev) => { if (!tip.hidden) moverTip(tip, ev); });
+      g.addEventListener("pointerleave", () => { tip.hidden = true; });
+    });
+    $("#mapa-pista").textContent = "Cada provincia lleva el color del partido que más asientos sacaría en ella. Pasa el ratón para ver su reparto y tócala para abrirla.";
+  } else if (mapa.sub === "ultimo") pintarUltimoAsiento(proy);
+  else pintarTablaTerritorio(proy);
 }
-/* El reparto contado asiento a asiento, que se entiende mejor que la tabla de divisiones. Es la ley D'Hondt de siempre,
-   en el orden en que se van dando los asientos. En las provincias grandes se enseñan los primeros y los últimos. */
+function moverTip(tip, ev) {
+  const caja = tip.parentElement.getBoundingClientRect(), w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = ev.clientX - caja.left + 14, y = ev.clientY - caja.top + 14;
+  if (x + w > caja.width - 4) x = ev.clientX - caja.left - w - 14;
+  if (y + h > caja.height - 4) y = ev.clientY - caja.top - h - 14;
+  tip.style.left = `${Math.max(0, x)}px`; tip.style.top = `${Math.max(0, y)}px`;
+}
+function tipProvincia(tip, p) {
+  if (!p) return;
+  const o = ordenar(p.cuotas).filter((k) => p.cuotas[k] >= 1).slice(0, 6), max = p.cuotas[o[0]] || 1;
+  tip.replaceChildren(el("b", {}, `${p.nombre}, ${p.n} asientos`),
+    el("div", { class: "cab" }, el("span", {}, "Partido"), el("span", {}, "% votos"), el("span", {}, "Esc.")),
+    ...o.map((k) => el("div", { class: "fila", style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+      el("span", { class: "pct" }, `${fmt1.format(p.cuotas[k])} %`), el("b", { class: p.escanos[k] ? "" : "cero" }, p.escanos[k] || "–"), el("i", { class: "barra", style: { width: `${p.cuotas[k] / max * 100}%` } }))));
+}
+/* El detalle de una provincia: hemiciclo de arcos, tabla de partidos, bloques y el reparto D'Hondt plegado */
+function pintarDetalleProvincia(p, proy) {
+  const b = D.base.provincias.find((x) => x.nombre === p.nombre), r23 = b?.esc_reales_2023 || {};
+  $("#det-nombre").textContent = p.nombre;
+  $("#det-sub").textContent = `${b?.ccaa || ""} · ${p.n} asientos`;
+  arcos($("#det-arcos"), p.escanos, null, { sin176: true, minimo: 1, total: p.n });
+  const o = ordenar(p.escanos), lider = o[0], m = Math.floor(p.n / 2) + 1;
+  $("#det-lider").replaceChildren(el("i", { class: "punto", style: { background: color(lider) } }), el("b", {}, nombre(lider)), ` se lleva ${p.escanos[lider]} de ${p.n}`, p.escanos[lider] >= m ? ", más de la mitad." : ".");
+  $("#det-ultimo").textContent = antes2023(p).trim();
+  pintarDisputa(p);
+  const todos = ordenar(p.cuotas).filter((k) => p.cuotas[k] >= 0.5), max = p.cuotas[todos[0]] || 1;
+  const fila = (k, pct, esc, esc23) => { const d = esc23 == null ? null : esc - esc23;
+    return el("div", { class: "det-fila", style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+      el("span", { class: "pista" }, el("i", { style: { width: `${pct / max * 100}%` } })), el("span", { class: "pct" }, `${fmt1.format(pct)} %`), el("b", { class: esc ? "" : "cero" }, esc || "–"),
+      el("small", { class: d > 0 ? "sube" : d < 0 ? "baja" : "igual" }, d == null ? "" : d > 0 ? `▲${d}` : d < 0 ? `▼${-d}` : "=")); };
+  $("#det-tabla").replaceChildren(el("div", { class: "det-cab-fila" }, el("span", {}, "Partido"), el("span", {}), el("span", {}, "% votos"), el("span", {}, "Esc."), el("span", {}, "vs 2023")),
+    ...todos.map((k) => fila(k, p.cuotas[k], p.escanos[k] || 0, r23[k] ?? (Object.keys(r23).length ? 0 : null))));
+  // Bloques
+  const B = bloques(), maxB = Math.max(...B.map((x) => sumaDe(p.cuotas, x.partidos) || 0), 1);
+  $("#det-bloques").replaceChildren(...B.map((x) => { const pct = sumaDe(p.cuotas, x.partidos) || 0, esc = sumaDe(p.escanos, x.partidos) || 0;
+    return el("div", { class: "det-fila bloque", style: { "--c": x.color } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: x.color } }), x.nombre), el("span", { class: "pista" }, el("i", { style: { width: `${pct / maxB * 100}%` } })), el("span", { class: "pct" }, `${fmt1.format(pct)} %`), el("b", { class: esc ? "" : "cero" }, esc || "–"), el("small", {})); }));
+  // D'Hondt
+  $("#det-dhondt").replaceChildren(el("p", { class: "explica-corta" }, "De uno en uno. Cada asiento se lo lleva el partido con el número más alto, y a quien gana uno se le divide el voto entre 2, luego entre 3, y así."),
+    pasosDhondt(p), el("p", { class: "fuente" }, `Solo entran en el reparto los partidos con al menos el 3 % del voto de la provincia.`),
+    el("details", { class: "como dentro" }, el("summary", {}, "Ver todas las divisiones en una tabla"), el("div", { class: "tabla-scroll" }, tablaDhondt(p))),
+    botonEnlace(`Copiar el enlace a ${p.nombre}`, () => enlaceA({ provincia: p.nombre, pestana: "mapa" })));
+}
+/* La disputa por el último asiento: quién lo tiene, quién lo pelea y por cuántos votos, como un duelo */
+function pintarDisputa(p) {
+  const cont = $("#det-disputa");
+  if (!p.ultimo || !p.aspirante) { cont.replaceChildren(el("p", { class: "vacio" }, "Sin datos del último asiento.")); return; }
+  const t = p.ultimo.p, a = p.aspirante.p, qT = p.ultimo.q, qA = p.cuotas[a] / ((p.escanos[a] || 0) + 1), v = votosDe(Math.max(p.aspirante.falta, 0), p.n);
+  const nivel = v < 100 ? "Empate técnico" : v < 1000 ? "Muy reñido" : v < 3000 ? "Reñido" : v < 8000 ? "Algo reñido" : "Bastante claro";
+  const ancho = (q) => `${Math.max(8, q / Math.max(qT, qA) * 100)}%`;
+  cont.replaceChildren(
+    el("div", { class: "duelo" },
+      el("div", { class: "lado tiene", style: { "--c": color(t) } }, el("span", { class: "eti" }, "Lo tiene"), el("span", { class: "chip", style: sobre(color(t)) }, nombre(t)), el("i", { class: "barra", style: { width: ancho(qT) } }), el("small", {}, `su ${(p.escanos[t] || 0)}.º asiento, ${fmt1.format(p.cuotas[t])} % entre ${p.escanos[t] || 1}`)),
+      el("div", { class: "centro" }, el("b", { class: "num-sube" }, v < 100 ? "±100" : fmt0.format(v)), el("span", {}, "votos"), el("em", { class: v < 1000 ? "mal" : v < 3000 ? "medio" : "bien" }, nivel)),
+      el("div", { class: "lado pelea", style: { "--c": color(a) } }, el("span", { class: "eti" }, "Se lo pelea"), el("span", { class: "chip", style: sobre(color(a)) }, nombre(a)), el("i", { class: "barra", style: { width: ancho(qA) } }), el("small", {}, `iría a por su ${(p.escanos[a] || 0) + 1}.º, ${fmt1.format(p.cuotas[a])} % entre ${(p.escanos[a] || 0) + 1}`))),
+    el("p", { class: "explica-corta" }, v < 100 ? `${nombre(a)} le quitaría el asiento a ${nombre(t)} con un puñado de votos.` : `Si ${nombre(a)} sumara unos ${fmt0.format(v)} votos más en ${p.nombre}, le quitaría el último asiento a ${nombre(t)}.`));
+}
+$("#det-volver")?.addEventListener("click", () => { quitarDelEnlace("provincia"); mapa.sel = null; try { localStorage.removeItem("mi-provincia"); } catch {} pintarMapa(mapa.proy); });
+document.querySelectorAll(".conmutador.subvistas button").forEach((b) => b.addEventListener("click", () => { mapa.sub = b.dataset.sub; contar(`Provincias ${mapa.sub}`); pintarMapa(mapa.proy); }));
+/* Último asiento de cada provincia: cuántos tiene y pelea cada partido, y la lista de más a menos reñida */
+function pintarUltimoAsiento(proy) {
+  const con = proy.provincias.filter((x) => x.ultimo && x.aspirante);
+  // El mapa: cada provincia con el color de quien tiene el último asiento, a más color más reñido
+  const colorear = (p) => { if (!p.ultimo || !p.aspirante) return { fill: "var(--linea)", op: .5, txt: "var(--tinta)", etiqueta: ABREV[p.nombre] || "", tam: 15 };
+    const v = votosDe(Math.max(p.aspirante.falta, 0), p.n), op = v < 1000 ? 1 : v < 3000 ? .7 : v < 8000 ? .45 : .22;
+    return { fill: color(p.ultimo.p), op, txt: op >= .7 ? sobre(color(p.ultimo.p)).color : "var(--tinta)", etiqueta: ABREV[p.nombre] || "", tam: 15 }; };
+  $("#ultimo-mapa").innerHTML = dibujarMapa(proy, { vista: "ganador", sel: null, colorear });
+  const tip = el("div", { class: "mapa-tip", hidden: true }); $("#ultimo-mapa").prepend(tip);
+  $("#ultimo-mapa").querySelectorAll("g.prov").forEach((g) => {
+    g.addEventListener("click", () => { quitarDelEnlace("provincia"); mapa.sel = g.dataset.p; contar("Abre una provincia"); pintarMapa(proy); window.scrollTo({ top: 0, behavior: "smooth" }); });
+    g.addEventListener("pointerenter", (ev) => { if (ev.pointerType !== "mouse") return; const p = proy.provincias.find((x) => x.nombre === g.dataset.p); if (!p?.aspirante) return;
+      const v = votosDe(Math.max(p.aspirante.falta, 0), p.n);
+      tip.replaceChildren(el("b", {}, `${p.nombre}, ${p.n} asientos`), el("div", { class: "fila-ult" }, el("span", { class: "chip", style: sobre(color(p.ultimo.p)) }, nombre(p.ultimo.p)), el("i", {}, "›"), el("span", { class: "chip", style: sobre(color(p.aspirante.p)) }, nombre(p.aspirante.p))), el("span", { class: "m" }, v < 100 ? "Empate técnico" : `Le faltan unos ${fmt0.format(v)} votos`));
+      tip.hidden = false; moverTip(tip, ev); });
+    g.addEventListener("pointermove", (ev) => { if (!tip.hidden) moverTip(tip, ev); });
+    g.addEventListener("pointerleave", () => { tip.hidden = true; });
+  });
+  const orden = con.slice().sort((a, b) => votosDe(Math.max(a.aspirante.falta, 0), a.n) - votosDe(Math.max(b.aspirante.falta, 0), b.n));
+  const chip = (k) => el("span", { class: "chip", style: sobre(color(k)) }, nombre(k));
+  $("#ultimo-tabla").replaceChildren(el("div", { class: "cab" }, el("span", {}, "Provincia"), el("span", {}, "Lo tiene"), el("span", {}, "Siguiente"), el("span", {}, "Le faltan")),
+    ...orden.map((x) => el("button", { type: "button", class: "ultimo-prov", onclick: () => { quitarDelEnlace("provincia"); mapa.sel = x.nombre; pintarMapa(proy); window.scrollTo({ top: 0, behavior: "smooth" }); } },
+      el("span", { class: "prov" }, el("b", {}, x.nombre), el("small", {}, `${x.n} asientos`)), chip(x.ultimo.p), el("span", { class: "sig" }, el("i", {}, "›"), chip(x.aspirante.p)), el("span", { class: "falta" }, (() => { const v = votosDe(Math.max(x.aspirante.falta, 0), x.n); return v < 100 ? "empate" : `${fmt0.format(v)} votos`; })()))));
+}
+/* Tabla por territorio: comunidades o provincias, porcentaje o asientos */
+function pintarTablaTerritorio(proy) {
+  document.querySelectorAll("#prov-tabla .conmutador button").forEach((x) => { if (x.dataset.terr) x.setAttribute("aria-pressed", x.dataset.terr === mapa.terr ? "true" : "false"); if (x.dataset.tmed) x.setAttribute("aria-pressed", x.dataset.tmed === mapa.tmed ? "true" : "false"); });
+  const m = calcMedia().media, cols = ordenar(m).filter((k) => m[k] >= 0.8 || proy.total[k] > 0).slice(0, 12);
+  let filas;
+  if (mapa.terr === "prov") filas = proy.provincias.map((p) => ({ nombre: p.nombre, n: p.n, pct: p.cuotas, esc: p.escanos, abrir: p.nombre }));
+  else {
+    const por = {};
+    for (const p of proy.provincias) { const c = (por[p.ccaa] ||= { nombre: p.ccaa, n: 0, pct: {}, esc: {} }); c.n += p.n; for (const k of Object.keys(p.cuotas)) c.pct[k] = (c.pct[k] || 0) + p.cuotas[k] * p.n; for (const k of Object.keys(p.escanos)) c.esc[k] = (c.esc[k] || 0) + p.escanos[k]; }
+    filas = Object.values(por).map((c) => ({ ...c, pct: Object.fromEntries(Object.entries(c.pct).map(([k, v]) => [k, v / c.n])) }));
+  }
+  filas.sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
+  const pct = mapa.tmed === "pct";
+  const celda = (f, k) => { const v = pct ? f.pct[k] : f.esc[k]; if (!v || (pct && v < 0.5)) return el("td", { class: "vacia" }, "–");
+    const lider = ordenar(pct ? f.pct : f.esc)[0] === k; return el("td", {}, el("span", { class: `celda${lider ? " lider" : ""}`, style: lider ? sobre(color(k)) : { color: color(k) } }, pct ? `${fmt1.format(v)} %` : v)); };
+  const total = el("tr", { class: "total" }, el("th", {}, "España"), el("th", {}), ...cols.map((k) => el("td", {}, pct ? `${fmt1.format(m[k] || 0)} %` : proy.total[k] || "–")));
+  $("#tabla-territorio").replaceChildren(el("thead", {}, el("tr", {}, el("th", {}, mapa.terr === "prov" ? "Provincia" : "Comunidad"), el("th", {}, "Esc."), ...cols.map((k) => el("th", { style: { "--c": color(k) } }, el("i", { class: "punto", style: { background: color(k) } }), el("span", {}, nombre(k)))))),
+    el("tbody", {}, ...filas.map((f) => el("tr", { class: f.abrir ? "tocable" : null, onclick: f.abrir ? () => { quitarDelEnlace("provincia"); mapa.sel = f.abrir; pintarMapa(proy); window.scrollTo({ top: 0, behavior: "smooth" }); } : null }, el("th", {}, f.nombre), el("th", { class: "n" }, f.n), ...cols.map((k) => celda(f, k)))), total));
+}
+document.querySelectorAll("#prov-tabla .conmutador button").forEach((b) => b.addEventListener("click", () => { if (b.dataset.terr) mapa.terr = b.dataset.terr; if (b.dataset.tmed) mapa.tmed = b.dataset.tmed; pintarTablaTerritorio(mapa.proy); }));
 function pasosDhondt(p) {
   const partidos = ordenar(p.cuotas).filter((k) => p.cuotas[k] >= Modelo.UMBRAL), lleva = {}, pasos = [];
   for (let i = 1; i <= p.n && partidos.length; i++) {
@@ -948,11 +1492,7 @@ function tablaDhondt(p) {
     el("tbody", {}, ...partidos.map((k) => el("tr", {}, el("td", {}, nombre(k)), el("td", {}, fmt1.format(p.cuotas[k])),
       ...Array.from({ length: maxDiv }, (_, i) => { const g = gana.has(`${k}/${i + 1}`); return el("td", { class: g ? "gana" : null, style: g ? sobre(color(k)) : null }, fmt1.format(p.cuotas[k] / (i + 1))); })))));
 }
-document.querySelectorAll("#mapa .conmutador button").forEach((b) => b.addEventListener("click", () => {
-  mapa.vista = b.dataset.vista;
-  document.querySelectorAll("#mapa .conmutador button").forEach((x) => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
-  pintarMapa(mapa.proy);
-}));
+
 
 /* ---------- ¿Y si…? ---------- */
 const sim = { valores: {}, seleccion: new Set(), situacion: "media", fusiones: [], cambios: [], caso: { quien: "", verbo: "absorbe", a: new Set(), puntos: 3, sigue: 1 } };
@@ -970,128 +1510,126 @@ function situaciones(base) {
   return s;
 }
 function pintarSimulador(m, proyBase) {
-  sim.base = { ...m.media }; sim.valores = { ...m.media }; sim.proyBase = proyBase; sim.situacion = "media"; sim.fusiones = [];
-  vaciarCaso();
-  const sits = situaciones(sim.base);
-  $("#situaciones").replaceChildren(...sits.map((x) => el("button", { class: "situacion", type: "button", "data-id": x.id, "aria-pressed": sim.situacion === x.id ? "true" : "false", onclick: () => {
-    sim.situacion = x.id; sim.valores = x.f({ ...sim.base }); sim.fusiones = [];
-    vaciarCaso(); pintarCaso();
-    marcarSituacion(); recalcularSim(); probabilidadSim(); } }, x.titulo, el("small", {}, x.detalle))));
-  pintarCaso();
-  recalcularSim();
-  probabilidadSim();
+  sim.base = { ...m.media }; sim.proyBase = proyBase;
+  if (!sim.tocado) { sim.valores = { ...m.media }; sim.situacion = "media"; sim.fusiones = []; }
+  sim.sub = sim.sub || "mueve";
+  pintarSubSim();
 }
-const marcarSituacion = () => document.querySelectorAll(".situacion").forEach((b) => b.setAttribute("aria-pressed", b.dataset.id === sim.situacion ? "true" : "false"));
+function pintarSubSim() {
+  for (const sub of ["mueve", "enjuego", "pactos"]) $(`#sim-${sub}`).hidden = sim.sub !== sub;
+  document.querySelectorAll(".conmutador.subvistas-sim button").forEach((x) => x.setAttribute("aria-pressed", x.dataset.ssub === sim.sub ? "true" : "false"));
+  if (sim.sub === "mueve") { pintarBarrasSim(); recalcularSim(); probabilidadSim(); }
+  else if (sim.sub === "enjuego") pintarEnJuego();
+  else pintarPactos();
+}
+document.querySelectorAll(".conmutador.subvistas-sim button").forEach((b) => b.addEventListener("click", () => { sim.sub = b.dataset.ssub; contar(`Y si ${sim.sub}`); pintarSubSim(); }));
 
-/* Monta tu caso: frases con quién, qué hace y a quién. Se pueden encadenar varias con «Añadir otro cambio».
-   Quitar puntos mueve votos en toda España, como las situaciones fijas. Absorber o ir en una lista junta los votos
-   provincia a provincia (Modelo.fundir), cada partido donde los tiene, y después se reparten los asientos.
-   sim.cambios son los cambios ya guardados y sim.caso el que se está montando. Se aplican en ese orden. */
-const VERBOS = [["absorbe", "absorbe a"], ["lista", "va en una lista con"], ["quita", "le quita puntos a"]];
-const SIGUEN = [[1, "Todos"], [0.75, "Tres cuartos"], [0.5, "La mitad"]];
-const casoNuevo = () => ({ quien: "", verbo: "absorbe", a: new Set(), puntos: 3, sigue: 1 });
-function vaciarCaso() { sim.cambios = []; sim.caso = casoNuevo(); }
-function resolverCaso(cambios) {
-  const v = { ...sim.base }, fusiones = [], fuera = new Set(), hechos = [];
-  // Los partidos que forman hoy la lista k: ella y los que se le han ido juntando
-  const partes = (k) => [k, ...fusiones.filter((f) => f.a === k).flatMap((f) => f.de.flatMap(partes))];
-  cambios.forEach((c, i) => {
-    const otros = [...c.a].filter((k) => k !== c.quien && v[k] > 0 && !fuera.has(k));
-    if (!c.quien || !(v[c.quien] > 0) || fuera.has(c.quien) || !otros.length) return;
-    if (c.verbo === "quita") {
-      // Los puntos salen de cada lista según su tamaño, y dentro de una lista conjunta, de cada partido que la forma
-      const de = otros.flatMap(partes), antes = { ...v }, total = de.reduce((t, k) => t + antes[k], 0), pts = Math.min(c.puntos, total);
-      for (const k of de) v[k] -= pts * antes[k] / total;
-      v[c.quien] += pts; hechos.push({ i, c, otros, pts });
-    } else {
-      // En una lista conjunta manda el nombre del partido con más votos. Si uno absorbe a otros, el suyo.
-      const todos = [c.quien, ...otros], tam = Modelo.fundir(v, fusiones), cabeza = c.verbo === "lista" ? todos.reduce((x, k) => tam[k] > tam[x] ? k : x) : c.quien;
-      const f = { a: cabeza, de: todos.filter((k) => k !== cabeza), sigue: c.sigue };
-      fusiones.push(f); f.de.forEach((k) => fuera.add(k)); hechos.push({ i, c, otros, f });
-    }
-  });
-  return { v, fusiones, fuera, hechos };
+/* ---------- Mueve el voto: una barra por partido que se arrastra ---------- */
+const marcarSituacion = () => document.querySelectorAll("#sim-atajos button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.id === sim.situacion ? "true" : "false"));
+function pintarBarrasSim() {
+  const ks = ordenar(sim.base).filter((k) => sim.base[k] >= 0.8), max = 45;
+  $("#sim-barras").replaceChildren(...ks.map((k) => { const v = sim.valores[k] ?? 0, d = v - sim.base[k];
+    const r = el("input", { type: "range", min: "0", max: String(max), step: "0.1", value: v.toFixed(1), "aria-label": `${nombre(k)}, ${fmt1.format(v)} %`, style: { "--c": color(k), "--p": `${v / max * 100}%` } });
+    r.addEventListener("input", () => { moverVoto(k, +r.value); });
+    r.addEventListener("change", () => contar("Arrastra un partido en Y si"));
+    return el("div", { class: "sim-fila", "data-k": k, style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)), r,
+      el("span", { class: "num" }, `${fmt1.format(v)} %`), el("small", { class: Math.abs(d) >= 0.05 ? (d > 0 ? "sube" : "baja") : "igual" }, Math.abs(d) >= 0.05 ? `${d > 0 ? "+" : "−"}${fmt1.format(Math.abs(d))}` : "="),
+      el("span", { class: "esc" }, el("b", {}, "–"), el("small", {}, ""))); }));
+  const sits = situaciones(sim.base).filter((x) => x.id !== "media");
+  $("#sim-atajos").replaceChildren(...sits.map((x) => el("button", { type: "button", class: "atajo", "data-id": x.id, "aria-pressed": sim.situacion === x.id ? "true" : "false", title: x.detalle, onclick: () => { sim.tocado = true; sim.situacion = x.id; sim.valores = x.f({ ...sim.base }); sim.fusiones = []; contar("Atajo en Y si"); pintarBarrasSim(); recalcularSim(); probabilidadSim(); } }, x.titulo)),
+    el("button", { type: "button", class: "atajo volver", onclick: () => { sim.tocado = false; sim.situacion = "media"; sim.valores = { ...sim.base }; sim.fusiones = []; pintarBarrasSim(); recalcularSim(); probabilidadSim(); } }, "Volver a hoy"));
 }
-function pintarCaso() {
-  const c = sim.caso, cont = $("#caso");
-  if (!cont || !sim.base) return;
-  const guardados = resolverCaso(sim.cambios), todo = resolverCaso([...sim.cambios, c]), actual = todo.hechos.find((h) => h.c === c);
-  const partidos = ordenar(sim.base).filter((k) => sim.base[k] > 0 && !guardados.fuera.has(k));
-  if (c.quien && !partidos.includes(c.quien)) c.quien = "";
-  const cambiar = () => {
-    const r = resolverCaso([...sim.cambios, sim.caso]);
-    if (r.hechos.length) { sim.valores = r.v; sim.fusiones = r.fusiones; sim.situacion = "propio"; contar("Usa monta tu caso"); }
-    else if (sim.situacion === "propio") { sim.situacion = "media"; sim.valores = { ...sim.base }; sim.fusiones = []; }
-    else { pintarCaso(); return; }
-    pintarCaso(); marcarSituacion(); recalcularSim(); probabilidadSim();
-  };
-  const pastillas = (valores, elegido, alElegir) => el("div", { class: "pactos" }, ...valores.map(([val, txt]) =>
-    el("button", { class: "pacto opcion", type: "button", "aria-pressed": val === elegido ? "true" : "false", onclick: () => alElegir(val) }, txt)));
-  const n = (ks) => lista(ks.map(nombre)), puntos = (x) => `${Number.isInteger(x) ? x : fmt1.format(x)} ${x === 1 ? "punto" : "puntos"}`;
-  // Una línea por cambio ya guardado
-  const frase = (h) => h.f
-    ? `${h.c.verbo === "lista" ? `${cap(n([h.f.a, ...h.f.de]))} van en una lista` : `${cap(elP(h.f.a))} absorbe ${lista(h.f.de.map(aP))}`}${h.f.sigue < 1 ? `, y de los que se suman le ${h.f.sigue === 0.5 ? "sigue la mitad" : "siguen tres cuartos"}` : ""}`
-    : `${cap(elP(h.c.quien))} le quita ${puntos(h.pts)} ${lista(h.otros.map(aP))}`;
-  const otros = [...c.a].filter((k) => k !== c.quien && partidos.includes(k)), f = actual?.f;
-  let resumen = sim.cambios.length ? "Puedes dejarlo así o montar otro cambio." : "Elige un partido, qué hace y con quién.";
-  if (c.quien && !otros.length) resumen = c.verbo === "quita" ? "Ahora toca a quién le quita los puntos." : "Ahora toca los partidos con los que se junta.";
-  if (actual && !f) resumen = `${cap(elP(c.quien))} le quita ${puntos(actual.pts)} ${otros.length > 1 ? `entre ${n(otros)}, a cada uno según su tamaño` : aP(otros[0])}. Son ${puntosTexto(actual.pts).replace(/^.*? puntos, /, "")}.`;
-  if (f) resumen = `${c.verbo === "lista" ? `${cap(n([f.a, ...f.de]))} van en una sola lista. En los dibujos sale con el nombre y el color ${deP(f.a)}.` : `${cap(elP(f.a))} se queda con los votos ${lista(f.de.map(deP))}.`} Se suman provincia a provincia, cada uno donde los tiene.${f.sigue < 1 ? ` ${f.sigue === 0.5 ? "La mitad" : "Uno de cada cuatro"} de los votantes ${lista(f.de.map(deP))} no le sigue y se queda en casa.` : ""}`;
-  poner(cont,
-    el("h3", {}, "O monta tu caso"),
-    guardados.hechos.length ? el("ul", { class: "caso-lista" }, ...guardados.hechos.map((h) => el("li", {}, el("span", {}, frase(h)),
-      el("button", { type: "button", "aria-label": `Quitar este cambio, ${frase(h)}`, onclick: () => { sim.cambios.splice(h.i, 1); cambiar(); } }, "×")))) : null,
-    el("div", { class: "caso-frase" }, el("span", {}, sim.cambios.length ? "¿Y si además" : "¿Y si"),
-      el("select", { "aria-label": "Qué partido", onchange: (e) => { c.quien = e.target.value; c.a.delete(c.quien); cambiar(); } },
-        el("option", { value: "" }, "elige partido"), ...partidos.map((k) => el("option", { value: k, selected: k === c.quien ? "" : null }, elP(k)))),
-      el("select", { "aria-label": "Qué hace", onchange: (e) => { c.verbo = e.target.value; cambiar(); } },
-        ...VERBOS.map(([val, txt]) => el("option", { value: val, selected: val === c.verbo ? "" : null }, txt))),
-      el("span", {}, "…?")),
-    el("div", { class: "pactos" }, ...partidos.filter((k) => k !== c.quien).map((k) => el("button", { class: "pacto", type: "button", "aria-pressed": c.a.has(k) ? "true" : "false",
-      onclick: () => { if (c.a.has(k)) c.a.delete(k); else c.a.add(k); cambiar(); } }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)))),
-    c.verbo === "quita"
-      ? el("div", { class: "caso-extra" }, el("span", {}, "¿Cuántos puntos?"), pastillas([[1, "1"], [2, "2"], [3, "3"], [5, "5"]], c.puntos, (val) => { c.puntos = val; cambiar(); }))
-      : el("div", { class: "caso-extra" }, el("span", {}, otros.length ? `¿Cuántos votantes ${lista((f ? f.de : otros).map(deP))} le siguen?` : "¿Cuántos de sus votantes le siguen?"), pastillas(SIGUEN, c.sigue, (val) => { c.sigue = val; cambiar(); })),
-    el("p", { class: "caso-resumen" }, resumen),
-    el("div", { class: "caso-botones" },
-      actual ? el("button", { class: "pacto opcion", type: "button", onclick: () => { sim.cambios.push({ ...c, a: new Set(c.a) }); sim.caso = casoNuevo(); cambiar(); } }, "Añadir otro cambio") : null,
-      sim.situacion === "propio" ? el("button", { class: "pacto limpiar", type: "button", onclick: () => { vaciarCaso(); cambiar(); } }, "Quitar mi caso") : null));
-}
-function pintarHemiSim() {
-  const tot = sim.ultimaProy.total, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda), suma = (e) => e.partidos.reduce((a, k) => a + (tot[k] || 0), 0);
-  const bl = !der || !izq || sim.med === "nadie" ? null : [der, izq].find((e) => e.id === sim.med) || (suma(der) >= suma(izq) ? der : izq);
-  const col = bl ? color(bl === der ? "PP" : "PSOE") : null;
-  if (sim.hemi && !tot[sim.hemi]) sim.hemi = null;
-  const tocar = (k) => { sim.hemi = k && k !== sim.hemi && tot[k] ? k : null; pintarHemiSim(); };
-  hemiciclo($("#sim-hemiciclo"), tot, 10, bl ? { partidos: bl.partidos, color: col } : null, "176", null, { marcado: sim.hemi, alTocar: tocar });
-  fraseArco($("#sim-hemi-arco"), bl ? { titulo: cap(nombreEsc(bl)), central: suma(bl), color: col, plural: bl.partidos.length > 1 } : null);
-  leyenda($("#sim-leyenda"), tot, (k) => { const d = tot[k] - (sim.proyBase.total[k] || 0); return d ? el("small", { class: d > 0 ? "sube" : "baja" }, ` ${d > 0 ? "+" : "−"}${Math.abs(d)}`) : null; }, tocar, sim.hemi);
-  const k = sim.hemi, dif = k ? tot[k] - (sim.proyBase.total[k] || 0) : 0;
-  fichaHemi($("#sim-hemi-ficha"), k, k ? `${tot[k]} ${tot[k] === 1 ? "asiento" : "asientos"} en esta situación, ${dif ? `${Math.abs(dif)} ${dif > 0 ? "más" : "menos"} que con las encuestas de hoy` : "los mismos que con las encuestas de hoy"}.` : "", () => tocar(null));
-}
-/* Suma de partidos: los elegidos se juntan a la izquierda del hemiciclo, a todo color, y el resto se queda a media luz.
-   Si el arco de los elegidos pasa la raya, suman mayoría. Se eligen tocando el dibujo o los botones. */
-function pintarPactos() {
-  const tot = sim.ultimaProy.total, sel = sim.seleccion, base = D.config.orden_hemiciclo;
-  for (const k of [...sel]) if (!tot[k]) sel.delete(k);
-  const con = Object.keys(tot).filter((k) => tot[k] > 0);
-  const orden = [...ordenar(tot).filter((k) => sel.has(k)), ...con.filter((k) => !sel.has(k)).sort((a, b) => (base.indexOf(a) + 1 || 99) - (base.indexOf(b) + 1 || 99))];
-  const alternar = (k) => { if (!k || !tot[k]) return; if (sel.has(k)) sel.delete(k); else sel.add(k); pintarPactos(); };
-  const suma = [...sel].reduce((a, k) => a + (tot[k] || 0), 0);
-  hemiciclo($("#pactos-hemi"), tot, 10, sel.size ? { partidos: [...sel], color: "var(--tinta)" } : null, "176", null, { orden, apagado: (k) => !sel.has(k), alTocar: alternar });
-  $("#pactos-frase").replaceChildren(...(sel.size ? [el("b", {}, `Suman ${suma}.`), suma > 176 ? ` Pasan la raya, les sobran ${suma - 176}.` : suma === 176 ? " Justo los que hacen falta." : ` Les faltan ${176 - suma} para llegar a 176.`] : ["Todavía no has elegido ninguno."]));
-  poner($("#pactos"), ...ordenar(tot).filter((k) => tot[k] > 0).map((k) => el("button", { class: "pacto", type: "button", "aria-pressed": sel.has(k) ? "true" : "false", onclick: () => alternar(k) },
-    el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} ${tot[k]}`)),
-    sel.size ? el("button", { class: "pacto limpiar", type: "button", onclick: () => { sel.clear(); pintarPactos(); } }, "Quitar todos") : null);
+/* Al mover un partido, los demás se ajustan en proporción para que el total no cambie */
+function moverVoto(k, v) {
+  const antes = sim.valores[k] ?? 0, delta = v - antes, otros = Object.keys(sim.valores).filter((x) => x !== k && sim.valores[x] > 0), suma = otros.reduce((a, x) => a + sim.valores[x], 0);
+  if (suma <= 0) return;
+  const f = Math.max(0, (suma - delta) / suma);
+  for (const x of otros) sim.valores[x] = +(sim.valores[x] * f).toFixed(3);
+  sim.valores[k] = v; sim.tocado = true; sim.situacion = "custom";
+  // Solo se actualizan los números de las barras, no se recrean, para no perder el dedo del deslizador
+  document.querySelectorAll("#sim-barras .sim-fila").forEach((fila) => { const kk = fila.querySelector("input").getAttribute("aria-label").split(",")[0], key = Object.keys(sim.valores).find((z) => nombre(z) === kk); if (!key) return; const vv = sim.valores[key], d = vv - sim.base[key], inp = fila.querySelector("input");
+    if (key !== k) inp.value = vv.toFixed(1); inp.style.setProperty("--p", `${vv / 45 * 100}%`); fila.querySelector(".num").textContent = `${fmt1.format(vv)} %`; const sm = fila.querySelector("small"); sm.textContent = Math.abs(d) >= 0.05 ? `${d > 0 ? "+" : "−"}${fmt1.format(Math.abs(d))}` : "="; sm.className = Math.abs(d) >= 0.05 ? (d > 0 ? "sube" : "baja") : "igual"; });
+  marcarSituacion();
+  recalcularSim();
+  clearTimeout(sim.espera); sim.espera = setTimeout(probabilidadSim, 250);
 }
 function recalcularSim() {
   const proy = Modelo.proyectar(sim.valores, D.base, { fusiones: sim.fusiones });
   sim.ultimaProy = proy;
-  pintarHemiSim();
-  pintarLey(Modelo.fundir(sim.valores, sim.fusiones), proy.total, proy.provincias);
-  pintarPactos();
-  sim.ultimaProy = proy;
+  pintarArcosSim();
+  asientosEnFilas("#sim-barras", proy.total, sim.proyBase.total, "asientos");
   pintarMapaSim();
+}
+/* En cada fila de barras, los asientos que saca ese partido y el cambio respecto a hoy */
+function asientosEnFilas(sel, tot, base, unidad) {
+  document.querySelectorAll(`${sel} .sim-fila`).forEach((fila) => { const k = fila.dataset.k, n = tot[k] || 0, d = n - (base[k] || 0), c = fila.querySelector(".esc"); if (!c) return;
+    c.querySelector("b").textContent = String(n); const sm = c.querySelector("small"); sm.textContent = d ? `${d > 0 ? "▲" : "▼"}${Math.abs(d)}` : unidad === "asientos" ? "asientos" : "sen."; sm.className = d > 0 ? "sube" : d < 0 ? "baja" : ""; });
+}
+/* La leyenda bajo un hemiciclo de arcos: todos los partidos con asiento, con el cambio */
+function leyendaArcos(cont, esc, base) {
+  cont.replaceChildren(...ordenar(esc).filter((k) => esc[k] > 0).map((k) => { const d = base ? esc[k] - (base[k] || 0) : 0;
+    return el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} `, el("b", {}, esc[k]), el("small", { class: d > 0 ? "sube" : d < 0 ? "baja" : "" }, d > 0 ? ` ▲${d}` : d < 0 ? ` ▼${-d}` : " =")); }));
+}
+function pintarArcosSim() {
+  const proy = sim.ultimaProy, tot = proy.total, der = escenario(D.config.principales.derecha), izq = escenario(D.config.principales.izquierda);
+  arcos($("#sim-arcos"), tot, sim.proyBase.total, { minimo: 12 });
+  leyendaArcos($("#sim-arcos-leyenda"), tot, sim.proyBase.total);
+  const suma = (e) => e.partidos.reduce((a, k) => a + (tot[k] || 0), 0), sd = der ? suma(der) : 0, si = izq ? suma(izq) : 0;
+  const fav = sd >= si ? der : izq, X = Math.max(sd, si);
+  $("#sim-cifra").replaceChildren(el("b", { style: { color: color(fav.partidos[0]) } }, `${X}`), ` ${nombreEsc(fav)}`, el("span", { class: X >= 176 ? "pasa" : "nopasa" }, X > 176 ? ` · pasan la raya por ${X - 176}` : X === 176 ? " · justo en la raya" : ` · les faltan ${176 - X}`),
+    el("small", {}, ` ${nombreEsc(fav === der ? izq : der)}, ${Math.min(sd, si)}`));
+  // Con un reparto proporcional puro, para ver cuánto pesa la ley electoral
+  const v = sim.valores, claves = Object.keys(v).filter((k) => v[k] > 0), sumV = claves.reduce((a, k) => a + v[k], 0), prop = {};
+  for (const k of claves) prop[k] = Math.round(v[k] / sumV * 350);
+  const sp = fav.partidos.reduce((a, k) => a + (prop[k] || 0), 0);
+  $("#sim-prop").textContent = `Si los 350 asientos se repartieran solo por votos en toda España, ${nombreEsc(fav)} ${fav.partidos.length > 1 ? "tendrían" : "tendría"} ${sp} en vez de ${X}. La diferencia es la ley electoral.`;
+}
+
+/* ---------- En juego: horquillas de asientos si el voto se mueve ±x puntos ---------- */
+const enjuego = { que: "partidos", puntos: 3, abierto: null };
+function proyMovida(partidos, pts) {
+  const v = { ...sim.base }, suma = Object.values(v).reduce((a, b) => a + b, 0);
+  const propios = partidos.reduce((a, k) => a + (v[k] || 0), 0), otros = suma - propios;
+  if (!propios || !otros) return null;
+  // El bloque sube o baja pts en total, repartido entre sus partidos según su tamaño, y el resto compensa en proporción
+  for (const k of partidos) v[k] = Math.max(0, v[k] + pts * v[k] / propios);
+  const f = (otros - pts) / otros;
+  for (const k of Object.keys(v)) if (!partidos.includes(k)) v[k] = Math.max(0, v[k] * f);
+  return Modelo.proyectar(v, D.base);
+}
+function pintarEnJuego() {
+  document.querySelectorAll("#sim-enjuego .conmutador button").forEach((x) => x.setAttribute("aria-pressed", x.dataset.ej === enjuego.que ? "true" : "false"));
+  $("#ej-puntos").value = enjuego.puntos; $("#ej-valor").textContent = `±${fmt1.format(enjuego.puntos)} puntos`; $("#ej-votos").textContent = `${cap(puntosTexto(enjuego.puntos))} en toda España, arriba o abajo.`;
+  const base = sim.proyBase, series = enjuego.que === "bloques" ? bloques().filter((b) => b.k !== "resto") : ordenar(sim.base).filter((k) => sim.base[k] >= 0.8 && (base.total[k] || 0) > 0).map((k) => ({ k, nombre: nombre(k), color: color(k), partidos: [k] }));
+  const filas = series.map((s) => { const hoy = sumaDe(base.total, s.partidos) || 0, baja = proyMovida(s.partidos, -enjuego.puntos), sube = proyMovida(s.partidos, enjuego.puntos);
+    const b = baja ? sumaDe(baja.total, s.partidos) || 0 : hoy, u = sube ? sumaDe(sube.total, s.partidos) || 0 : hoy;
+    return { s, hoy, seguros: Math.min(hoy, b), perder: Math.max(0, hoy - b), ganar: Math.max(0, u - hoy), bajo: Math.min(b, hoy), alto: Math.max(u, hoy), baja, sube }; });
+  const max = Math.max(...filas.map((f) => f.alto), 1), pos = (x) => `${x / max * 100}%`;
+  $("#ej-filas").replaceChildren(...filas.flatMap((f) => {
+    const abierta = enjuego.abierto === f.s.k;
+    const fila = el("button", { type: "button", class: `ej-fila${abierta ? " abierta" : ""}`, style: { "--c": f.s.color }, "aria-expanded": abierta ? "true" : "false", onclick: () => { enjuego.abierto = abierta ? null : f.s.k; contar("Abre una horquilla"); pintarEnJuego(); } },
+      el("span", { class: "nom" }, el("i", { class: "punto", style: { background: f.s.color } }), f.s.nombre, el("small", {}, `${fmt1.format(sumaDe(sim.base, f.s.partidos) || 0)} %`)),
+      el("span", { class: "pista" }, el("i", { class: "seg", style: { width: pos(f.seguros) } }, f.seguros > 3 ? f.seguros : ""), el("i", { class: "perder", style: { left: pos(f.seguros), width: pos(f.perder) } }, f.perder ? f.perder : ""), el("i", { class: "ganar", style: { left: pos(f.hoy), width: pos(f.ganar) } }, f.ganar ? `+${f.ganar}` : ""), el("i", { class: "hoy", style: { left: pos(f.hoy) } })),
+      el("span", { class: "num" }, el("b", {}, f.hoy), el("small", {}, `${f.bajo}–${f.alto}`)));
+    if (!abierta) return [fila];
+    const dif = (p2, signo) => { if (!p2) return []; const out = []; for (let i = 0; i < base.provincias.length; i++) { const a = sumaDe(base.provincias[i].escanos, f.s.partidos) || 0, b = sumaDe(p2.provincias[i].escanos, f.s.partidos) || 0; if (b !== a) out.push({ nombre: base.provincias[i].nombre, d: b - a }); } return out.sort((x, y) => Math.abs(y.d) - Math.abs(x.d)); };
+    const pierde = dif(f.baja), gana = dif(f.sube);
+    const lista = (arr, titulo, clase) => el("div", { class: "ej-col" }, el("span", { class: "cab" }, titulo), ...(arr.length ? arr.map((x) => el("button", { type: "button", class: `ej-prov ${clase}`, onclick: (ev) => { ev.stopPropagation(); quitarDelEnlace("provincia"); mapa.sel = x.nombre; location.hash = "#mapa"; if (mapa.proy) pintarMapa(mapa.proy); } }, el("span", {}, x.nombre), el("b", {}, `${x.d > 0 ? "+" : ""}${x.d}`))) : [el("p", { class: "vacio" }, "Ninguna")]));
+    return [fila, el("div", { class: "ej-detalle", style: { "--c": f.s.color } }, lista(pierde, `Si baja ${fmt1.format(enjuego.puntos)} puntos, pierde en`, "perder"), lista(gana, `Si sube ${fmt1.format(enjuego.puntos)} puntos, gana en`, "ganar"))];
+  }));
+}
+$("#ej-puntos")?.addEventListener("input", (e) => { enjuego.puntos = +e.target.value; $("#ej-valor").textContent = `±${fmt1.format(enjuego.puntos)} puntos`; clearTimeout(enjuego.espera); enjuego.espera = setTimeout(() => { contar("Mueve En juego"); pintarEnJuego(); }, 120); });
+document.querySelectorAll("#sim-enjuego .conmutador button").forEach((b) => b.addEventListener("click", () => { enjuego.que = b.dataset.ej; enjuego.abierto = null; pintarEnJuego(); }));
+
+/* ---------- Pactos: tocar partidos y ver si suman 176 sobre los arcos ---------- */
+function pintarPactos() {
+  const tot = sim.proyBase.total, sel = sim.seleccion;
+  for (const k of [...sel]) if (!tot[k]) sel.delete(k);
+  const suma = [...sel].reduce((a, k) => a + (tot[k] || 0), 0);
+  const alternar = (k) => { if (sel.has(k)) sel.delete(k); else sel.add(k); contar("Suma partidos"); pintarPactos(); };
+  poner($("#pactos"), ...ordenar(tot).filter((k) => tot[k] > 0).map((k) => el("button", { class: "pacto", type: "button", "aria-pressed": sel.has(k) ? "true" : "false", style: sel.has(k) ? { ...sobre(color(k)), borderColor: color(k) } : { "--c": color(k) }, onclick: () => alternar(k) }, el("i", { class: "punto", style: { background: sel.has(k) ? sobre(color(k)).color : color(k) } }), `${nombre(k)} ${tot[k]}`)));
+  arcos($("#pactos-arcos"), tot, null, { minimo: 12, apagar: (k) => sel.size && !sel.has(k), orden: [...sel, ...D.config.orden_hemiciclo.filter((k) => !sel.has(k))] });
+  $("#pactos-frase").replaceChildren(...(sel.size ? [el("b", { class: suma >= 176 ? "pasa" : "nopasa" }, `${suma}`), " de 176", el("span", { class: suma >= 176 ? "pasa" : "nopasa" }, suma > 176 ? ` · llegan, les sobran ${suma - 176}` : suma === 176 ? " · justo los que hacen falta" : ` · les faltan ${176 - suma}`)] : [el("span", { class: "nopasa" }, "Toca partidos para sumarlos")]));
 }
 function pintarMapaSim() {
   const proy = sim.ultimaProy, cambian = new Map();
@@ -1143,7 +1681,7 @@ function probabilidadSim() {
   const tot = sim.ultimaProy.total, suma = (e) => e.partidos.reduce((a, k) => a + (tot[k] || 0), 0);
   const op3 = (e, col, pr, r) => ({ id: e.id, titulo: cap(nombreEsc(e)), p: pr, color: col, partidos: e.partidos, central: suma(e), p10: Math.min(r[0], suma(e)), p90: Math.max(r[1], suma(e)), verbo: e.partidos.length > 1 ? "sumarían" : "sacaría", plural: e.partidos.length > 1, con: intacto ? null : "Con estos votos" });
   const ops = [op3(der, color("PP"), pd, rd), { id: "nadie", titulo: "Nadie suma", p: pb, color: "#8A93A3" }, op3(izq, color("PSOE"), pi, ri)];
-  const pinta = () => medidores($("#sim-medidores"), $("#sim-medidor-detalle"), ops, sim.med, (id) => { sim.med = id; pinta(); pintarHemiSim(); });
+  const pinta = () => medidores($("#sim-medidores"), $("#sim-medidor-detalle"), ops, sim.med, (id) => { sim.med = id; pinta(); });
   pinta();
 }
 
@@ -1170,72 +1708,159 @@ function pintarPartidos(m, proy) {
 }
 
 /* ---------- Senado ---------- */
-const senado = { sel: null, prov: null, hemi: null };
+const senado = { sub: "hoy", prov: null, valores: null, base: null, tocado: false, proy: null, marcado: null };
 /* El Senado tiene más asientos que los 208 que se eligen: los parlamentos de las comunidades designan al resto, y esos no
    cambian con estas elecciones (config.senado.designados). La mayoría absoluta es la de toda la cámara. */
 function datosSenado() {
   const des = D.config.senado?.designados || {}, nDes = Object.values(des).reduce((a, b) => a + b, 0), total = 208 + nDes;
   return { des, nDes, total, M: Math.floor(total / 2) + 1 };
 }
-function pintarSenado(proy) {
-  // Los senadores elegidos de hoy salen del mismo reparto por provincias que el mapa. Las simulaciones ponen la probabilidad y el margen.
+/* Reparto del Senado para una proyección: senadores elegidos por partido (tot), por provincia (porProv), con designados (con). */
+function repartoSenado(proy) {
   const { des, nDes, total, M } = datosSenado(), tot = {}, porProv = {}, primeras = {};
   for (const p of proy.provincias) { const r = Modelo.senadoProvincia(p.cuotas, p.nombre); porProv[p.nombre] = r; const g = ordenar(r)[0]; if (g) primeras[g] = (primeras[g] || 0) + 1; for (const [k, n] of Object.entries(r)) tot[k] = (tot[k] || 0) + n; }
-  // Las probabilidades solo valen si el robot las calculó con la misma mayoría. Tras cambiar los designados tardan una pasada.
-  const S = D.prob?.senado_mayoria === M ? D.prob.senado : null, o = ordenar(tot), k1 = o[0], k2 = o[1];
-  if (!k1) return;
   const con = {}; for (const k of new Set([...Object.keys(tot), ...Object.keys(des)])) con[k] = (tot[k] || 0) + (des[k] || 0);
+  return { des, nDes, total, M, tot, porProv, primeras, con };
+}
+const ORDEN_SEN = () => [...D.config.orden_hemiciclo, "Otros"];
+function pintarSenado(proy, m) {
+  senado.proy = proy; senado.base = { ...m.media };
+  if (!senado.tocado) senado.valores = { ...m.media };
+  pintarSubSen();
+}
+function pintarSubSen() {
+  for (const sub of ["hoy", "mueve", "decide"]) $(`#sen-${sub}`).hidden = senado.sub !== sub;
+  document.querySelectorAll(".conmutador.subvistas-sen button").forEach((x) => x.setAttribute("aria-pressed", x.dataset.sensub === senado.sub ? "true" : "false"));
+  if (senado.sub === "hoy") pintarSenadoHoy(senado.proy);
+  else if (senado.sub === "mueve") { pintarBarrasSen(); recalcularSen(); }
+  else pintarDecideSen(senado.proy);
+}
+document.querySelectorAll(".conmutador.subvistas-sen button").forEach((b) => b.addEventListener("click", () => { senado.sub = b.dataset.sensub; contar(`Senado ${senado.sub}`); pintarSubSen(); }));
+
+function pintarSenadoHoy(proy) {
+  const R = repartoSenado(proy), { des, nDes, total, M, tot, con } = R;
+  // Las probabilidades solo valen si el robot las calculó con la misma mayoría. Tras cambiar los designados tardan una pasada.
+  const S = D.prob?.senado_mayoria === M ? D.prob.senado : null, o = ordenar(con).filter((k) => k !== "Otros"), k1 = o[0], k2 = o[1];
+  if (!k1) return;
   const X = con[k1], p1 = S?.[k1]?.p_mayoria, t = p1 == null ? -1 : tramo(p1);
-  const mas = (k) => des[k] ? `, y con los ${des[k]} que ya tiene designados por las comunidades serían ${con[k]}` : "";
-  $("#r-senado").replaceChildren(el("b", {}, t >= 3 ? `${cap(palabra(p1))}, mayoría absoluta ${deP(k1)}.` : t === 2 ? "En el aire." : t >= 0 ? "Nadie tiene asegurada la mayoría del Senado." : `${cap(elP(k1))}, el que más senadores sacaría.`),
-    ` Con las encuestas de hoy ${elP(k1)} sacaría ${tot[k1]} de los 208 senadores que se eligen${mas(k1)}. El Senado tiene ${total} y hacen falta ${M}, así que ${X > M ? `le sobrarían ${X - M}` : X === M ? "llegaría justo" : `le faltarían ${M - X}`}.`, k2 ? ` ${cap(elP(k2))} sacaría ${tot[k2]}${mas(k2)}.` : "");
-  const franja = (k) => [Math.min(S?.[k]?.p10 ?? tot[k], tot[k]) + (des[k] || 0), Math.max(S?.[k]?.p90 ?? tot[k], tot[k]) + (des[k] || 0)];
-  const op = (k) => ({ id: k, titulo: `Mayoría ${deP(k)}`, arco: nombre(k), p: S[k]?.p_mayoria || 0, color: color(k), partidos: [k], central: con[k], p10: franja(k)[0], p90: franja(k)[1], verbo: "tendría", plural: false, mayoria: M, unidad: "senadores", con: des[k] ? `Con las encuestas de hoy y sus ${des[k]} designados` : null });
-  const juntos = D.prob?.senado_escenarios?.[D.config.principales.derecha], eJ = escenario(D.config.principales.derecha);
-  const ops = S ? [op(k1), { id: "nadie", titulo: "Nadie con mayoría", p: Math.max(0, 1 - Object.values(S).reduce((a, v) => a + (v.p_mayoria || 0), 0)), color: "#8A93A3", texto: `Pasa cuando ningún partido llega solo a ${M} senadores. Tendrían que ponerse de acuerdo varios para sacar adelante las votaciones.`,
-    despues: juntos && eJ && eJ.partidos.length > 1 ? `Eso no es lo mismo que un Senado bloqueado: que ${nombreEsc(eJ)} lleguen a ${M} entre los dos es ${palabra(juntos.p)} (${r100(juntos.p)} %).` : null }, ...(k2 ? [op(k2)] : [])] : [];
-  const pinta = () => {
-    const sel = ops.find((x) => x.id === senado.sel && x.partidos) || (senado.sel === "nadie" ? null : (ops[0] || { partidos: [k1], color: color(k1), arco: nombre(k1), central: X, mayoria: M, unidad: "senadores" }));
-    const tocar = (k) => { senado.hemi = k && k !== senado.hemi && con[k] ? k : null; pinta(); };
-    hemiciclo($("#sen-hemiciclo"), con, 9, sel ? { partidos: sel.partidos, color: sel.color } : null, String(M), null, { marcado: senado.hemi, alTocar: tocar });
-    fraseArco($("#sen-hemi-arco"), sel);
-    leyenda($("#sen-leyenda"), con, null, tocar, senado.hemi);
-    const kh = senado.hemi;
-    fichaHemi($("#sen-hemi-ficha"), kh, kh ? (kh === "Otros" ? `${con[kh]} senadores designados por las comunidades. ${D.config.senado?.otros || ""}.`
-      : `${con[kh]} ${con[kh] === 1 ? "senador" : "senadores"}. ${tot[kh] ? `${tot[kh]} ${tot[kh] === 1 ? "elegido" : "elegidos"} con las encuestas de hoy` : "Ninguno elegido con las encuestas de hoy"}${des[kh] ? ` y ${des[kh]} ${des[kh] === 1 ? "designado" : "designados"} por las comunidades` : ""}.${S?.[kh] ? ` De los que se eligen, lo normal es que se quede ${entreDos(Math.min(S[kh].p10, tot[kh] || 0), Math.max(S[kh].p90, tot[kh] || 0))}.` : ""}`) : "", () => tocar(null));
-    if (ops.length) medidores($("#sen-medidores"), $("#sen-medidor-detalle"), ops, senado.sel, (id) => { senado.sel = id; pinta(); });
-    else { $("#sen-medidores").replaceChildren(); $("#sen-medidor-detalle").replaceChildren(el("p", { class: "pie-bloque" }, "Las probabilidades del Senado se calculan en la próxima actualización.")); }
-  };
-  pinta();
-  $("#sen-pie").textContent = `Cada punto es uno de los ${total} senadores: los 208 que se eligen el 29N y los ${nDes} que designan los parlamentos de las comunidades, que no cambian con estas elecciones. El partido cuyo arco pasa la raya del centro, ${M}, controla el Senado. Toca un partido en el dibujo para ver sus datos.`;
-  // Por qué la franja del primero cae más hacia abajo que hacia arriba
-  const [f10, f90] = S ? franja(k1) : [X, X], n1 = primeras[k1] || 0;
-  $("#sen-nota").textContent = S && X - f10 > 2 * (f90 - X) && n1 > proy.provincias.length / 2 ? `La franja ${deP(k1)} va de ${f10} a ${f90} y hoy está en ${X}, casi arriba del todo. Es porque sería el más votado en ${n1} de las ${proy.provincias.length} provincias: tiene muchas que perder y pocas que ganar, y cada provincia en la que deja de ser primero le cuesta 2 senadores.` : "";
-  const d = D.config.senado;
-  const conNombre = ordenar(des).filter((k) => k !== "Otros");
-  poner($("#sen-designados"), ...(nDes ? [`Además de los que se eligen, las comunidades ya tienen designados ${nDes}. ${lista([...conNombre.map((k) => `${nombre(k)} ${des[k]}`), ...(des.Otros ? [`otros partidos ${des.Otros}`] : [])])}.`, des.Otros && d.otros ? ` Los otros son ${d.otros}.` : null,
+  $("#sen-titulo").replaceChildren(el("b", {}, nombre(k1)), t >= 3 ? ` controlaría el Senado, ${palabra(p1)}.` : t === 2 ? ", mayoría del Senado en el aire." : t >= 0 ? ` sería el primero, pero sin mayoría asegurada.` : ` sería el partido con más senadores.`);
+  // Tres cifras que se tocan, como en Hoy
+  const resalta = (ks) => { const svg = $("#sen-arcos svg"); if (!svg) return; svg.classList.toggle("resalta", !!ks); svg.querySelectorAll("path.arco").forEach((pth) => pth.classList.toggle("on", !!ks && ks.includes(pth.dataset.k))); };
+  const cifra = (n, texto, c, ks) => el("button", { type: "button", class: "cifra", style: { "--c": c }, onpointerenter: () => resalta(ks), onpointerleave: () => resalta(null), onclick: () => { senado.marcado = senado.marcado === (ks && ks[0]) ? null : (ks && ks[0]); resalta(senado.marcado ? [senado.marcado] : null); } }, el("b", { class: "num-sube" }, String(n)), el("span", {}, texto));
+  $("#sen-cifras").replaceChildren(cifra(X, `${nombre(k1)} tendría`, color(k1), [k1]), cifra(M, "para controlarlo", "var(--acento)", null), ...(k2 ? [cifra(con[k2], `${nombre(k2)} tendría`, color(k2), [k2])] : []));
+  arcos($("#sen-arcos"), con, null, { sin176: true, minimo: 10, sombra: des, unidad: "senadores", orden: ORDEN_SEN() });
+  $("#sen-arcos-leyenda").replaceChildren(...ordenar(con).filter((k) => con[k] > 0).map((k) => el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} `, el("b", {}, con[k]), des[k] ? el("small", {}, ` ${tot[k] || 0}+${des[k]}`) : null)));
+  // El anillo con la probabilidad
+  if (S && p1 != null) {
+    const Rr = 36, L = 2 * Math.PI * Rr, p = Math.max(0, Math.min(1, p1));
+    $("#sen-anillo").replaceChildren(el("div", { class: "anillo", style: { "--c": color(k1) } },
+      el("svg", { viewBox: "0 0 90 90", role: "img", "aria-label": `${r100(p)} % de probabilidad`, html: `<circle cx="45" cy="45" r="${Rr}" class="fondo"/><circle cx="45" cy="45" r="${Rr}" class="valor" style="stroke-dasharray:${L};stroke-dashoffset:${L * (1 - p)}" transform="rotate(-90 45 45)"/>` }),
+      el("div", { class: "anillo-txt" }, el("b", { class: "num-sube" }, `${r100(p)} %`), el("small", {}, "de las 10.000 repeticiones"))),
+      el("p", { class: "anillo-pie" }, `Probabilidad de que ${elP(k1)} llegue solo a ${M}.${k2 && S[k2]?.p_mayoria >= 0.005 ? ` ${cap(elP(k2))}, ${r100(S[k2].p_mayoria)} %.` : ""}`));
+  } else $("#sen-anillo").replaceChildren(el("p", { class: "fuente" }, "Las probabilidades del Senado se calculan en la próxima actualización."));
+  // Congreso y Senado lado a lado, con el mismo partido
+  const esc = D.resultados?.escanos || proy.total, cC = esc[k1] || 0, cS = con[k1];
+  const mini = (titulo, e, raya, n, tot_, op) => el("div", { class: "sen-mini" }, el("h3", {}, titulo), el("div", { class: "arcos chico" }), el("p", { class: "sen-mini-cifra", style: { "--c": color(k1) } }, el("b", {}, String(n)), ` de ${tot_}`, el("span", { class: n >= raya ? "pasa" : "nopasa" }, n >= raya ? ` · pasa la raya por ${n - raya}` : ` · se queda a ${raya - n}`)));
+  const mC = mini("Congreso", esc, 176, cC, 350), mS = mini("Senado", con, M, cS, total);
+  $("#sen-doble").replaceChildren(mC, mS);
+  arcos(mC.querySelector(".arcos"), esc, null, { minimo: 999, apagar: (k) => k !== k1 });
+  arcos(mS.querySelector(".arcos"), con, null, { minimo: 999, sin176: true, unidad: "senadores", orden: ORDEN_SEN(), apagar: (k) => k !== k1 });
+  const fC = cC / 350, fS = cS / total;
+  $("#sen-doble-frase").textContent = `Con los mismos votos, ${elP(k1)} tendría el ${r100(fC)} % del Congreso y el ${r100(fS)} % del Senado. ${cC < 176 && cS >= M ? "Puede controlar el Senado sin mayoría en el Congreso, porque el Senado da 3 de 4 al primero de cada provincia." : cC >= 176 && cS >= M ? "Mayoría en las dos cámaras." : "Ni en una ni en otra."}`;
+  // Lista de partidos con su franja
+  const franja = (k) => [Math.min(S?.[k]?.p10 ?? tot[k] ?? 0, tot[k] || 0) + (des[k] || 0), Math.max(S?.[k]?.p90 ?? tot[k] ?? 0, tot[k] || 0) + (des[k] || 0)];
+  const maxL = Math.max(...ordenar(con).map((k) => franja(k)[1]), M) * 1.05;
+  $("#sen-lista").replaceChildren(...ordenar(con).filter((k) => con[k] > 0).map((k) => { const [a, b] = franja(k);
+    return el("button", { type: "button", class: `sen-fila${senado.marcado === k ? " marcada" : ""}`, style: { "--c": color(k) }, "aria-label": `${nombre(k)}, ${con[k]} senadores`, onclick: () => { senado.marcado = senado.marcado === k ? null : k; resalta(senado.marcado ? [k] : null); document.querySelectorAll("#sen-lista .sen-fila").forEach((f) => f.classList.toggle("marcada", f.dataset.k === senado.marcado)); }, "data-k": k },
+      el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+      el("span", { class: "pista" }, el("i", { class: "franja", style: { left: `${a / maxL * 100}%`, width: `${Math.max(0.5, (b - a) / maxL * 100)}%` } }), el("i", { class: "valor", style: { width: `${con[k] / maxL * 100}%` } }), el("i", { class: "raya", style: { left: `${M / maxL * 100}%` } })),
+      el("span", { class: "num" }, String(con[k])), el("small", {}, S?.[k] && b > a ? `${a}–${b}` : des[k] ? `${tot[k] || 0}+${des[k]}` : "")); }));
+  const d = D.config.senado, conNombre = ordenar(des).filter((k) => k !== "Otros");
+  poner($("#sen-designados"), ...(nDes ? [`La franja es lo normal con las encuestas de hoy, y la raya, los ${M} que hacen falta. Las comunidades ya tienen designados ${nDes}, que no cambian el 29N. ${lista([...conNombre.map((k) => `${nombre(k)} ${des[k]}`), ...(des.Otros ? [`otros partidos ${des.Otros}`] : [])])}.`, des.Otros && d.otros ? ` Los otros son ${d.otros}.` : null,
     ...(d.fuente ? [" (", el("a", { href: d.fuente, target: "_blank", rel: "noopener" }, "fuente"), ")"] : [])] : []));
-  const max = Math.max(...o.map((k) => tot[k]));
-  $("#g-senado").replaceChildren(...o.map((k) => el("div", { class: "bg" }, el("div", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
-    el("div", { class: "num" }, tot[k], el("small", {}, S?.[k] ? ` elegidos, lo normal ${entreDos(Math.min(S[k].p10, tot[k]), Math.max(S[k].p90, tot[k]))}` : " elegidos")), el("div", { class: "pista" }, el("i", { style: { width: `${tot[k] / max * 100}%`, background: color(k) } })))));
-  // Mapa: el color es el del partido más votado de la provincia, que es quien se lleva casi todos sus senadores
-  if (senado.prov == null) senado.prov = mapa.sel;
-  const pintaMapa = () => {
-    $("#sen-mapa").innerHTML = dibujarMapa(proy, { vista: "ganador", sel: senado.prov || "", colorear: (p) => { const r = porProv[p.nombre], g = ordenar(r)[0]; return { fill: g ? color(g) : "var(--linea)", op: 1, txt: g ? sobre(color(g)).color : "var(--tinta)", etiqueta: String(Object.values(r).reduce((a, b) => a + b, 0)) }; } });
-    $("#sen-mapa").querySelectorAll("g.prov").forEach((g) => g.addEventListener("click", () => { senado.prov = g.dataset.p; pintaMapa(); }));
-    const r = porProv[senado.prov], q = r ? ordenar(r) : [];
-    $("#sen-ficha").replaceChildren(...(r ? [el("div", { class: "ficha" }, el("h3", {}, `${senado.prov}, ${Object.values(r).reduce((a, b) => a + b, 0)} senadores`),
-      el("div", { class: "chips" }, ...q.map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombre(k)} ${r[k]}`))),
-      el("p", {}, `${cap(elP(q[0]))} sería el partido más votado y se llevaría ${r[q[0]]}${q[1] ? `. ${cap(elP(q[1]))} sería el segundo y se llevaría ${r[q[1]]}` : ""}.`))] : []));
-  };
-  pintaMapa();
+  // Mapa con tooltip y ficha al tocar
+  pintarMapaSen($("#sen-mapa"), proy, R, { sel: () => senado.prov, alTocar: (nom) => { senado.prov = nom; pintarFichaSen(proy, R); pintarMapaSen($("#sen-mapa"), proy, R, { sel: () => senado.prov, alTocar: null, redibuja: true }); } });
+  pintarFichaSen(proy, R);
+}
+function tipSenado(tip, p, R) {
+  const r = R.porProv[p.nombre], q = ordenar(r), n = Object.values(r).reduce((a, b) => a + b, 0), o = ordenar(p.cuotas).slice(0, 3);
+  tip.replaceChildren(el("b", {}, `${p.nombre}, ${n} senadores`), el("div", { class: "fila-ult" }, ...q.map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombre(k)} ${r[k]}`))),
+    el("span", { class: "m" }, o.length > 1 ? `${nombre(o[0])} ${fmt1.format(p.cuotas[o[0]])} %, ${nombre(o[1])} ${fmt1.format(p.cuotas[o[1]])} %${o[2] ? `, ${nombre(o[2])} ${fmt1.format(p.cuotas[o[2]])} %` : ""}` : ""));
+}
+function pintarMapaSen(cont, proy, R, op = {}) {
+  const colorear = (p) => { const r = R.porProv[p.nombre], g = ordenar(r)[0]; return { fill: g ? color(g) : "var(--linea)", op: 1, txt: g ? sobre(color(g)).color : "var(--tinta)", etiqueta: String(Object.values(r).reduce((a, b) => a + b, 0)) }; };
+  cont.innerHTML = dibujarMapa(proy, { vista: "ganador", sel: op.sel ? op.sel() || "" : "", colorear: op.colorear || colorear, resaltar: op.resaltar });
+  const tip = el("div", { class: "mapa-tip", hidden: true }); cont.prepend(tip);
+  cont.querySelectorAll("g.prov").forEach((g) => {
+    const p = proy.provincias.find((x) => x.nombre === g.dataset.p);
+    g.addEventListener("click", () => { if (op.alTocar) op.alTocar(g.dataset.p); else if (op.sel) { senado.prov = g.dataset.p; pintarFichaSen(proy, R); cont.querySelectorAll("g.prov").forEach((h) => h.classList.toggle("sel", h.dataset.p === senado.prov)); } });
+    g.addEventListener("pointerenter", (ev) => { if (ev.pointerType !== "mouse" || !p) return; (op.tip || tipSenado)(tip, p, R); tip.hidden = false; moverTip(tip, ev); });
+    g.addEventListener("pointermove", (ev) => { if (!tip.hidden) moverTip(tip, ev); });
+    g.addEventListener("pointerleave", () => { tip.hidden = true; });
+  });
+}
+function pintarFichaSen(proy, R) {
+  const r = R.porProv[senado.prov], q = r ? ordenar(r) : [], p = proy.provincias.find((x) => x.nombre === senado.prov);
+  $("#sen-ficha").replaceChildren(...(r && p ? [el("div", { class: "ficha sen-ficha" }, el("h3", {}, `${senado.prov}, ${Object.values(r).reduce((a, b) => a + b, 0)} senadores`),
+    el("div", { class: "chips grandes" }, ...q.map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombre(k)} ${r[k]}`))),
+    el("p", {}, `${cap(elP(q[0]))} sería el más votado con el ${fmt1.format(p.cuotas[q[0]])} % y se llevaría ${r[q[0]]}${q[1] ? `. ${cap(elP(q[1]))}, segundo con el ${fmt1.format(p.cuotas[q[1]])} %, se llevaría ${r[q[1]]}` : ""}.`),
+    el("button", { type: "button", class: "enlace-boton", onclick: () => { quitarDelEnlace("provincia"); mapa.sel = senado.prov; pintarMapa(mapa.proy); location.hash = "#mapa"; } }, "Ver la provincia al completo ›"))] : []));
+}
+
+/* Mueve el voto, versión Senado: las mismas barras que en ¿Y si…?, pero lo que cambia es el Senado */
+function pintarBarrasSen() {
+  const ks = ordenar(senado.base).filter((k) => senado.base[k] >= 0.8), max = 45;
+  $("#sen-barras").replaceChildren(...ks.map((k) => { const v = senado.valores[k] ?? 0, d = v - senado.base[k];
+    const r = el("input", { type: "range", min: "0", max: String(max), step: "0.1", value: v.toFixed(1), "aria-label": `${nombre(k)}, ${fmt1.format(v)} %`, style: { "--c": color(k), "--p": `${v / max * 100}%` } });
+    r.addEventListener("input", () => moverVotoSen(k, +r.value));
+    r.addEventListener("change", () => contar("Arrastra un partido en el Senado"));
+    return el("div", { class: "sim-fila", "data-k": k, style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)), r,
+      el("span", { class: "num" }, `${fmt1.format(v)} %`), el("small", { class: Math.abs(d) >= 0.05 ? (d > 0 ? "sube" : "baja") : "igual" }, Math.abs(d) >= 0.05 ? `${d > 0 ? "+" : "−"}${fmt1.format(Math.abs(d))}` : "="),
+      el("span", { class: "esc" }, el("b", {}, "–"), el("small", {}, ""))); }));
+  $("#sen-atajos").replaceChildren(el("button", { type: "button", class: "atajo volver", onclick: () => { senado.tocado = false; senado.valores = { ...senado.base }; pintarBarrasSen(); recalcularSen(); } }, "Volver a hoy"));
+}
+function moverVotoSen(k, v) {
+  const V = senado.valores, antes = V[k] ?? 0, delta = v - antes, otros = Object.keys(V).filter((x) => x !== k && V[x] > 0), suma = otros.reduce((a, x) => a + V[x], 0);
+  if (suma <= 0) return;
+  const f = Math.max(0, (suma - delta) / suma);
+  for (const x of otros) V[x] = +(V[x] * f).toFixed(3);
+  V[k] = v; senado.tocado = true;
+  document.querySelectorAll("#sen-barras .sim-fila").forEach((fila) => { const key = fila.dataset.k, vv = V[key] ?? 0, d = vv - senado.base[key], inp = fila.querySelector("input");
+    if (key !== k) inp.value = vv.toFixed(1); inp.style.setProperty("--p", `${vv / 45 * 100}%`); fila.querySelector(".num").textContent = `${fmt1.format(vv)} %`; const sm = fila.querySelector("small"); sm.textContent = Math.abs(d) >= 0.05 ? `${d > 0 ? "+" : "−"}${fmt1.format(Math.abs(d))}` : "="; sm.className = Math.abs(d) >= 0.05 ? (d > 0 ? "sube" : "baja") : "igual"; });
+  recalcularSen();
+}
+function recalcularSen() {
+  const proy = Modelo.proyectar(senado.valores, D.base), R = repartoSenado(proy), R0 = repartoSenado(senado.proy), { con, M, total } = R;
+  arcos($("#sen-sim-arcos"), con, R0.con, { sin176: true, minimo: 10, sombra: R.des, unidad: "senadores", orden: ORDEN_SEN() });
+  leyendaArcos($("#sen-sim-leyenda"), con, R0.con);
+  asientosEnFilas("#sen-barras", con, R0.con, "senadores");
+  const o = ordenar(con).filter((k) => k !== "Otros"), k1 = o[0], k2 = o[1], X = con[k1] || 0;
+  $("#sen-sim-cifra").replaceChildren(el("b", { style: { color: color(k1) } }, `${X}`), ` ${nombre(k1)}`, el("span", { class: X >= M ? "pasa" : "nopasa" }, X > M ? ` · pasa la raya por ${X - M}` : X === M ? " · justo en la raya" : ` · le faltan ${M - X}`), k2 ? el("small", {}, `${nombre(k2)}, ${con[k2]}`) : null);
+  // Provincias que cambian de primero respecto a hoy
+  const cambian = proy.provincias.filter((p) => ordenar(R.porProv[p.nombre])[0] !== ordenar(R0.porProv[p.nombre])[0]);
+  const frase = cambian.slice(0, 6).map((p) => `${p.nombre} (${nombre(ordenar(R0.porProv[p.nombre])[0])} › ${nombre(ordenar(R.porProv[p.nombre])[0])})`);
+  $("#sen-sim-cambios").textContent = !senado.tocado ? "Mueve una barra y mira qué provincias cambian de primero. Cada una que cambia mueve 2 senadores." : cambian.length ? `${cambian.length === 1 ? "Cambia de primero 1 provincia" : `Cambian de primero ${cambian.length} provincias`}, ${lista(frase)}${cambian.length > 6 ? " y más" : ""}.` : "Con ese movimiento ninguna provincia cambia de primero, así que el Senado se queda casi igual.";
+  pintarMapaSen($("#sen-sim-mapa"), proy, R, { resaltar: new Set(cambian.map((p) => p.nombre)) });
+}
+
+/* Dónde se decide: las provincias ordenadas por lo pegados que van el primero y el segundo */
+function pintarDecideSen(proy) {
+  const R = repartoSenado(proy);
+  const filas = proy.provincias.map((p) => { const o = ordenar(p.cuotas), d = o.length > 1 ? p.cuotas[o[0]] - p.cuotas[o[1]] : 99, s = Modelo.senadoProvincia(p.cuotas, p.nombre), enJuego = (s[o[0]] || 0) - (s[o[1]] || 0); return { p, k1: o[0], k2: o[1], d, votos: votosDe(d, p.n), enJuego }; }).filter((x) => x.k2).sort((a, b) => a.votos - b.votos || a.d - b.d);
+  const colorear = (p) => { const f = filas.find((x) => x.p === p); if (!f) return { fill: "var(--linea)", op: .5, txt: "var(--tinta)", etiqueta: ABREV[p.nombre] || "", tam: 15 };
+    const op = f.d < 2 ? 1 : f.d < 5 ? .7 : f.d < 10 ? .45 : .22; return { fill: color(f.k1), op, txt: op >= .7 ? sobre(color(f.k1)).color : "var(--tinta)", etiqueta: ABREV[p.nombre] || "", tam: 15 }; };
+  pintarMapaSen($("#sen-decide-mapa"), proy, R, { colorear, tip: (tip, p) => { const f = filas.find((x) => x.p === p); if (!f) return; tip.replaceChildren(el("b", {}, `${p.nombre}, ${f.enJuego} senadores en juego`), el("div", { class: "fila-ult" }, el("span", { class: "chip", style: sobre(color(f.k1)) }, nombre(f.k1)), el("i", {}, "›"), el("span", { class: "chip", style: sobre(color(f.k2)) }, nombre(f.k2))), el("span", { class: "m" }, `${fmt1.format(f.d)} puntos, unos ${fmt0.format(f.votos)} votos`)); }, alTocar: (nom) => { quitarDelEnlace("provincia"); mapa.sel = nom; pintarMapa(mapa.proy); location.hash = "#mapa"; } });
+  const chip = (k) => el("span", { class: "chip", style: sobre(color(k)) }, nombre(k));
+  $("#sen-decide-lista").replaceChildren(el("div", { class: "cab" }, el("span", {}, "Provincia"), el("span", {}, "Primero"), el("span", {}, "Segundo"), el("span", {}, "Diferencia")),
+    ...filas.slice(0, 15).map((x) => el("button", { type: "button", class: "ultimo-prov", onclick: () => { quitarDelEnlace("provincia"); mapa.sel = x.p.nombre; pintarMapa(mapa.proy); location.hash = "#mapa"; } },
+      el("span", { class: "prov" }, el("b", {}, x.p.nombre), el("small", {}, `${x.enJuego} senadores en juego`)), chip(x.k1), el("span", { class: "sig" }, el("i", {}, "›"), chip(x.k2)), el("span", { class: "falta" }, x.votos < 100 ? "empate" : `${fmt0.format(x.votos)} votos`))));
 }
 
 /* ---------- Modo partido: se elige uno y cada pestaña abre con su ficha ---------- */
 const foco = { k: null, ctx: null };
 let graficoFoco;
 try { foco.k = localStorage.getItem("partido") || null; } catch {}
-function elegirFoco(k) { quitarDelEnlace("partido"); foco.k = k; if (k) contar("Usa el modo partido"); try { if (k) localStorage.setItem("partido", k); else localStorage.removeItem("partido"); } catch {} pintarFoco(); if (foco.ctx) pintarListaPartidos(foco.ctx.m, foco.ctx.m7, foco.ctx.proy); }
+function elegirFoco(k) { quitarDelEnlace("partido"); foco.k = k; if (k) contar("Usa el modo partido"); try { if (k) localStorage.setItem("partido", k); else localStorage.removeItem("partido"); } catch {} pintarFoco(); }
 const agujaFija = (titulo, p, col) => el("div", { class: "medidor-a fijo" }, el("span", { class: "tit" }, titulo), el("span", { class: "svg", html: aguja(p, col) }), el("b", {}, cap(palabra(p))));
 /* La fila de partidos no cabe entera. Con el dedo se desliza; con ratón hacen falta flechas y poder arrastrarla. */
 function carril(fila, donde = 0) {
@@ -1276,9 +1901,10 @@ function pintarFoco(ctx) {
   if (foco.k && !partidos.includes(foco.k)) foco.k = null;
   const k = foco.k;
   const donde = $("#foco-tira .fila")?.scrollLeft || 0; // al repintar, la fila se queda donde estaba
+  const chispas = chispasFoco(partidos);
   const fila = el("div", { class: "fila" }, el("button", { type: "button", "aria-pressed": k ? "false" : "true", onclick: () => elegirFoco(null) }, "Todos"),
     ...partidos.map((x) => el("button", { type: "button", "data-k": x, "aria-pressed": k === x ? "true" : "false", style: k === x ? { ...sobre(color(x)), borderColor: sobre(color(x)).background } : null, onclick: () => elegirFoco(k === x ? null : x) },
-      el("i", { class: "punto", style: { background: k === x ? sobre(color(x)).color : color(x) } }), nombre(x))));
+      el("i", { class: "punto", style: { background: k === x ? sobre(color(x)).color : color(x) } }), nombre(x), chispas[x] ? el("svg", { class: "chispa", viewBox: "0 0 34 14", "aria-hidden": "true", html: `<polyline points="${chispas[x]}"/>` }) : null)));
   poner($("#foco-tira"), el("div", { class: "eti" }, el("span", {}, k ? `Toda la app, centrada en ${nombre(k)}` : "Céntrate en un partido"),
     k ? botonEnlace("Copiar enlace", () => enlaceA({ partido: k, pestana: pestanaActual })) : null), carril(fila, donde), k ? notaAviso(k, { class: "foco-aviso" }) : null);
   const caja = (id) => $(`#foco-${id}`);
@@ -1383,9 +2009,9 @@ function pintarTodo(opciones) {
   pintarDesde(m, proy, sinDatos);
   pintarEncuestas(m, m7, proy);
   pintarMapa(proy);
-  pintarSenado(proy);
+  pintarSenado(proy, m);
   // En un refresco automático no se le deshace a nadie la situación que esté probando en ¿Y si…?
-  const probando = sim.base && (sim.situacion !== "media" || Object.keys(sim.valores).some((k) => Math.abs((sim.valores[k] || 0) - (sim.base[k] || 0)) > 1e-9));
+  const probando = !!sim.tocado;
   if (!(opciones?.conservarSim && probando)) pintarSimulador(m, proy);
   pintarFiabilidad();
   pintarPorra(proy);
@@ -1399,6 +2025,11 @@ function pintarMetodo(m) {
   const E = D.encuestas?.encuestas || [], P = D.prob;
   if (E.length) {
     const empresas = new Set(E.filter((e) => !Media.esDePartido(e)).map((e) => e.clave)).size, ult = E.reduce((a, e) => (e.fin > a ? e.fin : a), "");
+    // El flujo en cuatro pasos, con las cifras del día. Al tocar uno se abre su apartado.
+    const abre = (id) => () => { const d = $(`#met-${id}`); if (!d) return; d.open = true; d.scrollIntoView({ behavior: "smooth", block: "start" }); };
+    const paso = (n, cifra, texto, id) => el("button", { type: "button", class: "met-pasito", onclick: abre(id) }, el("span", { class: "n" }, String(n)), el("b", { class: "num-sube" }, cifra), el("span", { class: "t" }, texto));
+    const back = P?.backtest, pasos = [paso(1, fmt0.format(E.length), "encuestas publicadas desde 2023", 1), paso(2, String(m.usadas.length), "cuentan hoy, ponderadas", 2), paso(3, "52", "provincias, reparto D'Hondt", 3), paso(4, "10.000", "repeticiones con el error de otras veces", 4)];
+    $("#met-flujo").replaceChildren(...pasos.flatMap((x, i) => i ? [el("span", { class: "flecha-paso", "aria-hidden": "true" }, "›"), x] : [x]));
     $("#met-resumen").textContent = `Ahora mismo hay cargadas ${fmt0.format(E.length)} encuestas de ${empresas} empresas, todas las publicadas desde las elecciones de julio de 2023. La más reciente terminó de preguntar el ${fFecha.format(fechaD(ult))}. La media de hoy sale de ${m.usadas.length} de ellas.`;
     if (D.encuestas.fuente) $("#met-wiki").href = D.encuestas.fuente;
   }
@@ -1487,6 +2118,7 @@ async function refrescar() {
   pintarTodo();
   D.listo = true;
   pintarCabecera();
+  animarNumeros(document.getElementById(pestanaActual));
   // Quien llega con el enlace de una provincia y sin pestaña va directo a su ficha
   activarPestana(location.hash.slice(1) || (enlace.provincia ? "mapa" : ""));
   if (enlace.provincia && pestanaActual === "mapa") requestAnimationFrame(() => $("#ficha-provincia").scrollIntoView({ block: "center" }));
