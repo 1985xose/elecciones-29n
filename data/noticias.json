@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13T22:43:21+00:00",
+ "actualizado": "2026-10-13T23:01:51+00:00",
  "generales": [
   {
    "titulo": "Tudanca se impone entre las agrupaciones del PSOE de Burgos para ser el cabeza de lista al Senado",
@@ -37,18 +37,18 @@
    "imagen": "https://www.elsaltodiario.com/uploads/fotos/h300/4a1ef989/_AMZ1509.jpg?v=63885138972"
   },
   {
+   "titulo": "Feijóo critica a Sánchez por haber dejado al rey \"solo\" en una visita histórica a Ceuta",
+   "enlace": "https://www.elconfidencial.com/espana/2026-10-13/feijoo-sanchez-reyes-ceuta-1tps_4444296/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-10-13T21:11:00+02:00",
+   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/3dd/7ff/3dd7ff2b2c25c6d56dedecb350fc43e2/feijoo-redobla-la-presion-a-la-ue-para-que-se-implique-en-ceuta-frente-a-sanchez-y-marruecos.jpg?mtime=1789636423"
+  },
+  {
    "titulo": "La negociación entre Podemos y el Frente Amplio encalla y apunta a una resolución el viernes en el último minuto",
    "enlace": "https://www.eldiario.es/politica/negociacion-frente-amplio-encalla-apunta-resolucion-viernes-ultimo-minuto_1_13583015.html",
    "fuente": "elDiario.es",
    "fecha": "2026-10-13T20:57:30+00:00",
    "imagen": "https://static.eldiario.es/clip/11e6f8a5-bc2c-4ba3-b475-9457330cef48_16-9-discover-aspect-ratio_default_0_x1306y148.jpg"
-  },
-  {
-   "titulo": "Cinco mitos sobre el adoctrinamiento infantil en los centros escolares, ante el 29N",
-   "enlace": "https://www.nuevatribuna.es/articulo/sociedad/laicismo-cinco-mitos-adoctrinamiento-infantil-centros-escolares-29n/20261013204351255133.html",
-   "fuente": "Nueva Tribuna",
-   "fecha": "2026-10-13T20:43:51+02:00",
-   "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/10/13/2026101320421991178.jpg"
   },
   {
    "titulo": "Feijoo echa en cara a Sánchez que no acompañe a los reyes en Ceuta",
@@ -75,13 +75,6 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Iván Redondo se suma al discurso de la remontada del PSOE: «Sánchez tiene más posibilidades que Feijóo»",
-    "enlace": "https://www.eldebate.com/espana/20261014/ivan-redondo-suma-discurso-remontada-psoe-sanchez-tiene-posibilidades-feijoo_469316.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-14T00:39:41+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/14/6aceb30f0654c.r_d.948-417-0.png"
-   },
-   {
     "titulo": "UPN aprueba el acuerdo con el PP para concurrir en coalición a las elecciones generales",
     "enlace": "https://www.lasexta.com/noticias/nacional/upn-aprueba-acuerdo-concurrir-coalicion-elecciones-generales_202610136ace9da46e8df44596b043b8.html",
     "fuente": "laSexta",
@@ -89,11 +82,25 @@
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/10/13/059BEE73-BF6A-4113-9600-3ECC54064232/presidenta-upn-cristina-ibarrola-presidente-alberto-nunez-feijoo_96.jpg?crop=3264,1836,x0,y84&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
+    "titulo": "El PP carga contra el PSOE tras la citación de Sáenz de Tejada, «el imputado 130 de Sánchez»",
+    "enlace": "https://theobjective.com/espana/politica/2026-10-13/pp-psoe-citacion-saenz-de-tejada-imputado-sanchez/",
+    "fuente": "The Objective",
+    "fecha": "2026-10-13T21:56:53+00:00",
+    "imagen": "https://theobjective.com/wp-content/uploads/2026/10/feijoo-toja.jpg"
+   },
+   {
     "titulo": "Feijóo, orgulloso de ir a las elecciones con UPN «y no de la mano de Bildu como Sánchez»",
     "enlace": "https://theobjective.com/espana/politica/2026-10-13/feijoo-orgulloso-ir-elecciones-upn-mano-bildu-sanchez/",
     "fuente": "The Objective",
     "fecha": "2026-10-13T21:50:28+00:00",
     "imagen": "https://theobjective.com/wp-content/uploads/2026/10/feijoo-huesca-lee-to.jpg"
+   },
+   {
+    "titulo": "Feijóo critica a Sánchez por haber dejado al rey \"solo\" en una visita histórica a Ceuta",
+    "enlace": "https://www.elconfidencial.com/espana/2026-10-13/feijoo-sanchez-reyes-ceuta-1tps_4444296/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-13T21:11:00+02:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/3dd/7ff/3dd7ff2b2c25c6d56dedecb350fc43e2/feijoo-redobla-la-presion-a-la-ue-para-que-se-implique-en-ceuta-frente-a-sanchez-y-marruecos.jpg?mtime=1789636423"
    },
    {
     "titulo": "Feijóo celebra el pacto con UPN para las generales: \"Es una buena noticia, no solo electoral, sino también ética\"",
@@ -107,28 +114,34 @@
     "fuente": "Infobae",
     "fecha": "2026-10-13T20:50:08+00:00",
     "imagen": "https://theobjective.com/wp-content/uploads/2026/10/feijoo-huesca-lee-to.jpg"
-   },
-   {
-    "titulo": "Feijoo echa en cara a Sánchez que no acompañe a los reyes en Ceuta",
-    "enlace": "https://www.lavanguardia.com/politica/20261013/11658182/feijoo-echa-cara-sanchez-acompane-reyes-ceuta.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-13T20:35:57+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/13/6ace78d253365.jpeg"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Iván Redondo se suma al discurso de la remontada del PSOE: «Sánchez tiene más posibilidades que Feijóo»",
+    "titulo": "Iván Redondo se suma al discurso de la remontada: «Hablando desde el conocimiento, el PSOE será primera fuerza»",
     "enlace": "https://www.eldebate.com/espana/20261014/ivan-redondo-suma-discurso-remontada-psoe-sanchez-tiene-posibilidades-feijoo_469316.html",
     "fuente": "El Debate",
     "fecha": "2026-10-14T00:39:41+02:00",
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/14/6aceb30f0654c.r_d.948-417-0.png"
    },
    {
+    "titulo": "Susana Díaz: «Pedro Sánchez es el mejor candidato del PSOE para las próximas elecciones generales. Ha optado por una campaña que va a polarizar»",
+    "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZE5QbkpFSlZDNUhEYjRpX01FdmdTbDZvTmkzTkROYzZYRjdZajd3NGRJcmJpcHdDZkNXWW1STmJkdVY1OS1xc2xwcDVnT2VNYkMzVXA2dFBJRk5BbzBtYm9KMS1IcFlrakk0dERBM1VhZlJrR2xRamRFcWVlSEYxblc4NFJuWjNkeWpvMHB4dlJTQTVhTHlrakJfYnN1dHllRURrbXVPTmdQb1M2TTNzajNkc9IBuAFBVV95cUxPNzRHV0xhZzZ1cUJhcWV3cjdqQXR2djA4THlaV3ExVjRnbWlzcHNJaldqLTA5R2MyUW9XVzhyRHRNNjRxdmtKcExDbkN6dy1KOGJMMklVMlRuZno4ZnRnbVZuajRIQUo1bzJSU1hldEtZdTdzZE0tQ0lZbVVnWFZTajVmMG1hRjNjOFNDZThlNFhwYzNjck5WZHN0ZVJFLUxVMDEwMm9IaTI2NEd2QjkxSlZBNTBhNnVl?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-13T22:52:55+00:00"
+   },
+   {
     "titulo": "El PP arremete contra la corrupción del PSOE tras la citación del exjuez Sáenz de Tejada",
     "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU3QtOG5zUDZfZlRIcDF6VGk0RFNQeHBWdV9JX09jWnctVkZtWjRFOWozYlBydkI2LXIwU2otTWo1aG1MUmpZQmVCTTRIeVRwbldNV19FRXE1S2Z4NmxKTEU2LVpNM3pYaXI0QVNQQlpnekQxRHFwNXFPeFVNUlJYTE1nUHp3dGJnMUxQb1BVaDh1Vk1mYXlUQklVS3BKYmZsajVwOG93LXNkVzRrZU9FRUZScUpoRjlJeHJ2eU5WNFjSAcYBQVVfeXFMTnVpaGRvaVdOZHhsMloxVE5TOWN0Sy1iRGhQS2xwLXNoZGxhaHVRMWNCSXRYN3VFZm9rQXZvYk5iMlBVN280M0ttUUUzVjlRd2g0bnJGa1J4bnUwcXNRUV9XRk1fNDQ4TDNIOWhPZXUzUlZQZmxpekQ0TnFQaF80RXdxbzJ0NWRQTkxIUHVZM3VlaTl0MGhQMDlkZmlHRzAtX1JNcVdoLUJ5V2prVWdOY2l1UEdpSWhEc0Q2VmpNd1VCUlhtRmVB?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-13T21:26:34+00:00"
+   },
+   {
+    "titulo": "Feijóo critica a Sánchez por haber dejado al rey \"solo\" en una visita histórica a Ceuta",
+    "enlace": "https://www.elconfidencial.com/espana/2026-10-13/feijoo-sanchez-reyes-ceuta-1tps_4444296/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-10-13T21:11:00+02:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/3dd/7ff/3dd7ff2b2c25c6d56dedecb350fc43e2/feijoo-redobla-la-presion-a-la-ue-para-que-se-implique-en-ceuta-frente-a-sanchez-y-marruecos.jpg?mtime=1789636423"
    },
    {
     "titulo": "El PSOE de Ponferrada activa su maquinaria electoral con Lorena Valle como apuesta para el Congreso",
@@ -141,19 +154,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNHBUejFSM1JEcFNEd0h4MDZwVjVFMnYwLUZxQ3V6bW9VV18zUUhWWExwOWdaZmhpYXl6QXhTR1RPZlRrcDVlRi10d29rQmFuT0tOam4yQUJUZThEUnJmUUxTWU5vUkhhMjNGdERfMkVYbm9yR2pGcHJOaXBIb2h0NE9fV2NwNGJPVnhKWjZsNHJUVjJWdEdFNi0wNjMwMmJ1d3IzSzNLVdIBrAFBVV95cUxNUG9ETkotVm9oX0w4enh4WUNmZ1hSaldXb2IzeWJzREVHbWZUMWhTUnZyNDdQUThSdE84cGw1MkoxREMzWDBZNU9hdkxDMFh0UDk2aHQ4LTV2ZlpJMzh2aVI2Z3drY193S2hOa19tU1VkQnppVFJmaHdzSjRkRHN2WEtyeVM1N3NlOG0zNmVsMWNMc2FnTTlJZ0NiS0h4c3RQellqOEVsWHdqa1lP?oc=5",
     "fuente": "Diario de Ibiza",
     "fecha": "2026-10-13T20:45:53+00:00"
-   },
-   {
-    "titulo": "Lorena Valle y Eduardo Morán, las propuestas bercianas del PSOE de Ponferrada para las generales",
-    "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQOGRNd0M4TUd5ZWlEQ0h5SzFScUJWbjJmLXE1bEZEUHlneEtNOHdKM214NFY0b2d1SDZEaTNwd3RqeVc2ZU1zZTR0VUdDUFE5VklLanFGcXZBZUxnNjNBbUpFaUY5WHhHQkpVMlBuT09ZWUR6UzZwcG1JRnZEc09Pc1ZqdHZqQ0NyWkFMM196UGtIcnlOVmo1SkhST1VmWWtHeFE4NDRiQ0lURUFRY2x0d3VqY3dQU1NOaUoteWh6OXJxY1BjMnpoQ2pkTXVHLWJCSkVfajR2Z21CZkVseGROeVQ5eDBVOXhWTS1NUm5VblY0R2lMdWZOWXc0V1NUVk45?oc=5",
-    "fuente": "Cadena SER",
-    "fecha": "2026-10-13T20:35:58+00:00"
-   },
-   {
-    "titulo": "Feijoo echa en cara a Sánchez que no acompañe a los reyes en Ceuta",
-    "enlace": "https://www.lavanguardia.com/politica/20261013/11658182/feijoo-echa-cara-sanchez-acompane-reyes-ceuta.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-13T20:35:57+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/13/6ace78d253365.jpeg"
    }
   ],
   "Vox": [
@@ -443,16 +443,16 @@
     "fecha": "2026-10-13T22:10:50+00:00"
    },
    {
-    "titulo": "Txerra Molinuevo Laña, candidato de EAJ-PNV a la Alcaldía de Amurrio para las elecciones municipales de mayo de 2027",
-    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNekpXSWVNWFhnd2tsaFkyR1FNWW9ibnhBQVhUcW1PWHZfRVZ3UjVKV2VBX2N5cWlJRk1SVUVPanZvSHV2bjdiU2xqZXRMU005b0tQRlQxeHI2YW1icWRHMmo3NW1xV0xZR1Q1M2dWbWxPWlVXbnItWWswRHpzYlN4UVBQQTFtUUlNc20xNU03T2NXTDFPS3drSQ?oc=5",
-    "fuente": "EAJ PNV",
-    "fecha": "2026-10-13T20:06:56+00:00"
-   },
-   {
     "titulo": "El PNV apuesta por Txerra Molinuevo como candidato a la reelección a la Alcaldía de Amurrio",
     "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVnd2c2h6a2tVVGdXTnZ1cDBXNGp5bmN1aGJuT3h6ZHloN1djWDJrSURXM2NBR3k2eDRkU004aEJWWWQ3ckdHU21jV1BwNS1Sa2E2RnVZNm54UUtOOHdFYmI3U08tYnN1WGNodHJTQU5XaDA5eDV2Y0pkMG5EbnFnX296ak1Sazl1b2oxYzdiYTdBblNkTThGZ093SlJHOE0za1hoYkdzS1U2aEZmUkHSAbMBQVVfeXFMUElISGt2RVVlV29OZlNkNEVzM1NSQUdQN1lZVFI3dFlERkozRVVpLTRjVy1XWUVUdnJQVzBxQTlqR1ZXNXh5RFFHMU5oNFhLeUtyeU5pbzYtbGVMNTRINGE0cG56TlpQVkxja1AwcEhTSVhuUzlCT04zWGp2MzdfbDY2UDdwRFpJSmNLSWJUSkJia0hFSVgtQjRqZDY0MGgwdFdiaWFEdnBjdHhkb0lFTmhIdHM?oc=5",
     "fuente": "Diario de Noticias de Álava",
     "fecha": "2026-10-13T19:13:47+00:00"
+   },
+   {
+    "titulo": "» Txerra Molinuevo Laña, candidato de EAJ-PNV a la Alcaldía de Amurrio para las elecciones municipales de mayo de 2027",
+    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZEE1RVF2RDRhdTBPR2JQYnhkcjFRY0o4UUxPYVBNM2pRWHpwVGV5N3FibWpIWWdfY2pveDl6eHFEeTl2SjVub1p6NGRoMTNoSm9LcEQ5Z01fTjBfNFIya053RUVTbG9UYmU3Y3h0d3BiMGNtcWp6TmpRbDZDR3ZpbXRYMkU0dEczUHloVU5fdkREZjAzOUVKbi1kUEppQU9DYXM2b2M0RlQzMDVpRV9UVy1JWWRad3I4SEhNMVdLM3o1UmpSa1ZMa2RCaklfaVlVblM4SFdYVFF2dHNEQzNGVG9yd09udw?oc=5",
+    "fuente": "Radio Llodio",
+    "fecha": "2026-10-13T18:44:08+00:00"
    },
    {
     "titulo": "La presidenta de Eudel y Olatz Garamendi se cuelan en el proceso del PNV para generales",
@@ -474,12 +474,6 @@
    }
   ],
   "BNG": [
-   {
-    "titulo": "Pontón llama a concentrar el voto en Galicia en el BNG el 29N para frenar «el bloque reaccionario",
-    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd3B5d1V2TnpKTkhhdjhIN21reTJXbzBBLVpjbC1mTkM3ellndFlYX2lsZ3JBTzFvdnU0Tnc1RlZMOUh4MFpCSklHZkN0ajlMV1JaeUZMNGd0VTVFM3RjbzYzUUZqTkNsTUVDajZGckZOSUw1Q3hMR044NWJQdnFiZzhoTlZ5OXVPdDZZM2FXRDFEaUZ4UmJJc2F4bE5zNWRILU55T1lYRkUySW9TUXRVSjNPY1htNFRYLW4zcXJ3eEJWMm0zaVozaUFialhCc1k?oc=5",
-    "fuente": "GaliciaXa",
-    "fecha": "2026-10-13T18:41:50+00:00"
-   },
    {
     "titulo": "El BNG de Vigo alerta del desempleo y critica a Caballero por apostar por la \"precariedad\" y la \"turistificación\"",
     "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxONVE2aUlvVFVfd3d6WEI3RkJEcmVSOE1pNVdoY3BZS2VKZ0plTGItR2JyOFJqbGR6ZVBJcGo1QjhYWmxiaXdfRHIzRkVlcmMzUHh4Mlo0Q25tQnZtRmtSNHhqeEwxMmwtUFd4eWJjNHczTFlwekN1TFNxaFgzTjlwNlFRTXhwRUF2TEMzVDQyRU9fRzVLVG1rbTFtdi15VzFqNkpoOVJWeUktbU40Vkt1SGpYSjdpNkNCRDZ0Rmtic20yaV84NURUcDNnMHY0NnVTcllRRXYtVDJld3k2QVB1TkhNMEhjMmllM25TQlZR0gHuAUFVX3lxTE41UTZpSW9UVV93d3pYQjdGQkRyZVI4TWk1V2hjcFlLZUpnSmVMYi1HYnI4UmpsZHplUElwajVCOFhabGJpd19EcjNGRWVyYzNQeHgyWjRDbm1Cdm1Ga1I0eGp4TDEybC1QV3h5YmM0dzNMWXB6Q3VMU3FoWDNOOXA2UVFNeHBFQXZMQzNUNDJFT19HNUtUbWttMW12LXlXMWo2Smg5UlZ5SS1tTjRWS3VIalhKN2k2Q0JENnRGa2JzbTJpXzg1RFRwM2cwdjQ2dVNyWVFFdi1UMmV3eTZBUHVOSE0wSGMyaWUzblNCVlE?oc=5",
@@ -509,6 +503,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVmpvOHRRc1oteEFMZE9venh3UGFXd201bktneWZLd3hSMFpkTzY0Q0lmY3RRbU1nTmxmN2ZfWjFycjBKN2lrZkt2TlhfWHcxNlRQZzdxNndxd0FGd1R0M0RCMll1SUxJaWNSYTZkQTJnTEJHTi00QnQwbExLVFVIOWRVSUZLcUxhelFUZG1URk9Zc2d4OXI4Wg?oc=5",
     "fuente": "ABC",
     "fecha": "2026-10-13T11:37:37+00:00"
+   },
+   {
+    "titulo": "Pontón considera clave un BNG con más fuerza en Madrid para frenar al bloque reaccionario",
+    "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWFB3OVh1d1NaeUczZ2RPcHlEanpVMWdTc2ItMkxaTE1GSXh3X2YzSnM1OENzbDVBdDUzRllsek1vRnBEdjVzWFEwU0ZHWUZmdXE2dXVSMXc3VGMycV9SNXJCdHRsTGNnZGY0SWl0R3RDVE4xTGs0WmxZUHZGakU5XzdyNXpHNlljRWE4czFrUGRGcUphQUE0QUpsaGNqMUFwcm8tQmRKejM2ZjdQYUxrRHc2bWp6STV3N283SUFfa3h4QdIBxwFBVV95cUxNbkFwUU1KV2s5eDBfckZ3RGxIZUtBb1FhVVBnZER2Zk5SMmRvZTVZeDB6VTdyckY0U0k3S1lCbndVMEY4UnU3RmpxVHQ3emcyd2dkS1lsLTlsTFFCSHN1cDVxN25EdGRqTGw5NHpMbUFlcWxlNVhvdU5LOGo3VG0zd3BSXzNSNUF3NmtyOTQ2c1JXVEl6WEd3NDMwelIwTnVzbGc4cm9KSldNSlJkdzZQZkZvODVZNkM2VXh5RHRqR2UySjNSTTQ0?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-13T11:36:51+00:00"
    }
   ],
   "CCa": [
@@ -797,14 +797,7 @@
    }
   ],
   "Junts": [],
-  "Bildu": [
-   {
-    "titulo": "¿«Bildu ha coordinado el movimiento de kale borroka de La Puerta del Sol»?",
-    "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZDhjRDZjSVlnaW12MWlyUWVKWEZOMWZCVDR5emhnQUNwVk8wVmt5NDV5ZGNHVzdseFFtcEtmb3N1bzMxcmxNbTdIbEpIWkJ0dEo4d3dvdjdkMloycHhLTndXWEFKRENVS0VrTmdRRHQ5MHh3MGZkZnJOSTZSVEtJZ1Zmd0pBYmZ4dlJ3NWVZNnh0c29kUFM1VDAyRHBtNmZ3dEFfWk9SZw?oc=5",
-    "fuente": "Maldita.es",
-    "fecha": "2026-10-01T12:14:16+00:00"
-   }
-  ],
+  "Bildu": [],
   "PNV": [],
   "BNG": [],
   "CCa": [],
