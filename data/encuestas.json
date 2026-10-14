@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-14T10:01:10+00:00",
+ "actualizado": "2026-10-14T11:01:08+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1380195198,
+ "revision": 1380197011,
  "partidos": [
   "PP",
   "PSOE",
@@ -435,6 +435,34 @@
    "encargo": "Henneo",
    "id": "dym-2026-10-07-1011",
    "primera_vez": "2026-10-09T07:01:12+00:00"
+  },
+  {
+   "empresa": "CIS",
+   "inicio": "2026-10-01",
+   "fin": "2026-10-06",
+   "muestra": 5025,
+   "participacion": null,
+   "pct": {
+    "PP": 22.2,
+    "PSOE": 34.0,
+    "Vox": 17.1,
+    "Sumar": 6.1,
+    "ERC": 3.0,
+    "Junts": 1.1,
+    "Bildu": 1.6,
+    "PNV": 0.6,
+    "BNG": 0.9,
+    "CCa": 0.2,
+    "UPN": 0.1,
+    "Podemos": 3.1,
+    "SALF": 1.8
+   },
+   "escanos": {},
+   "empresa_base": "CIS",
+   "clave": "cis",
+   "encargo": "",
+   "id": "cis-2026-10-06-5025",
+   "primera_vez": "2026-10-14T11:01:08+00:00"
   },
   {
    "empresa": "NC Report/La Razón",

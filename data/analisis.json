@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T10:01:11.200Z",
+ "actualizado": "2026-10-14T11:01:09.126Z",
  "media_bruta": {
   "PP": 32.07457885608243,
   "PSOE": 26.49161174701451,
@@ -152,6 +152,19 @@
    },
    "sd": 0.71
   },
+  "cis": {
+   "empresa": "CIS",
+   "n": 13,
+   "sesgo": {
+    "PP": -8.77,
+    "PSOE": 6,
+    "Vox": -1.07,
+    "Sumar": 0.42,
+    "Podemos": -0.27,
+    "ERC": 0.54
+   },
+   "sd": 1.18
+  },
   "ncreport": {
    "empresa": "NC Report",
    "n": 11,
@@ -189,19 +202,6 @@
     "Podemos": 0.16
    },
    "sd": 0.8
-  },
-  "cis": {
-   "empresa": "CIS",
-   "n": 12,
-   "sesgo": {
-    "PP": -8.64,
-    "PSOE": 5.85,
-    "Vox": -1.02,
-    "Sumar": 0.46,
-    "Podemos": -0.26,
-    "ERC": 0.51
-   },
-   "sd": 1.19
   },
   "moreincommon": {
    "empresa": "More in Common",
@@ -369,16 +369,16 @@
   {
    "clave": "cis",
    "empresa": "CIS",
-   "encuestas": 35,
+   "encuestas": 36,
    "letra": "C",
    "texto": "error medio de 2,4 puntos en 4 elecciones",
    "sesgo": {
-    "PP": -8.64,
-    "PSOE": 5.85,
-    "Vox": -1.02,
-    "Sumar": 0.46,
-    "Podemos": -0.26,
-    "ERC": 0.51
+    "PP": -8.77,
+    "PSOE": 6,
+    "Vox": -1.07,
+    "Sumar": 0.42,
+    "Podemos": -0.27,
+    "ERC": 0.54
    }
   },
   {
@@ -1066,50 +1066,50 @@
    ]
   },
   {
-   "id": "ncreport-2026-10-06-1000",
-   "empresa": "NC Report",
-   "encargo": "La Razón",
+   "id": "cis-2026-10-06-5025",
+   "empresa": "CIS",
+   "encargo": "",
    "fin": "2026-10-06",
-   "veredicto": "ruido",
-   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
+   "veredicto": "leve",
+   "texto": "Algo fuera de lo habitual: PSOE sube 1.7 puntos respecto a lo esperado de esta empresa.",
    "nota": "C",
-   "margen": 3.1,
+   "margen": 1.4,
    "detalle": [
     {
      "partido": "PP",
-     "dado": 34.1,
-     "esperado": 34.3,
-     "diferencia": -0.2
+     "dado": 22.2,
+     "esperado": 23.9,
+     "diferencia": -1.7
     },
     {
      "partido": "PSOE",
-     "dado": 25,
-     "esperado": 25.2,
-     "diferencia": -0.2
+     "dado": 34,
+     "esperado": 32.3,
+     "diferencia": 1.7
     },
     {
      "partido": "Vox",
-     "dado": 18.2,
-     "esperado": 18.3,
-     "diferencia": -0.1
+     "dado": 17.1,
+     "esperado": 17.6,
+     "diferencia": -0.5
     },
     {
      "partido": "Sumar",
-     "dado": 5.3,
-     "esperado": 5.4,
-     "diferencia": -0.1
+     "dado": 6.1,
+     "esperado": 6.5,
+     "diferencia": -0.4
     },
     {
      "partido": "Podemos",
-     "dado": 3.9,
-     "esperado": 3.8,
-     "diferencia": 0.1
+     "dado": 3.1,
+     "esperado": 3.2,
+     "diferencia": -0.1
     },
     {
      "partido": "ERC",
-     "dado": 1.8,
-     "esperado": 2,
-     "diferencia": -0.2
+     "dado": 3,
+     "esperado": 2.6,
+     "diferencia": 0.4
     }
    ]
   }
