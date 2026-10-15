@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-15T21:01:57+00:00",
+ "actualizado": "2026-10-15T21:27:31+00:00",
  "generales": [
+  {
+   "titulo": "El PSOE-A relega al ex número dos de Cerdán en Jaén con el argumento de la paridad",
+   "enlace": "https://www.abc.es/espana/andalucia/psoea-relega-numero-dos-cerdan-jaen-argumento-20261015224653-nts.html",
+   "fuente": "ABC",
+   "fecha": "2026-10-15T22:48:04+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/15/juan-fran-serrano-RODclt5glf45WJKzbeap4LN-1200x840@diario_abc.jpg"
+  },
   {
    "titulo": "Elecciones generales 29N, en directo: última hora de Pedro Sánchez, Feijóo, las candidaturas y los pactos electorales",
    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-pedro-sanchez-feijoo-candidaturas-pactos-electorales_202610156ad050fbfb06971aad0351d5.html",
@@ -14,13 +21,6 @@
    "fuente": "OKdiario",
    "fecha": "2026-10-15T20:42:00+02:00",
    "imagen": "https://okdiario.com/img/2026/09/09/propuesta-directo-espana-gif-interior-2.gif"
-  },
-  {
-   "titulo": "Orozco cuestiona el recuento del PSdeG tras quedarse fuera de la lista al Senado",
-   "enlace": "https://www.abc.es/espana/galicia/orozco-cuestiona-recuento-psdeg-tras-quedarse-candidatura-20261015202838-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-15T20:29:19+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/15/1483125864-R2pvblUorJTrjl3ct83qIaK-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "El futuro de las pensiones irrumpe en la precampaña y Sánchez promete revalorizarlas antes de fin de año",
@@ -119,7 +119,7 @@
     "titulo": "Una asociación fantasma cercana al PSOE se persona en el Supremo contra la suspensión del voto de los nietos",
     "enlace": "https://www.abc.es/espana/asociacion-fantasma-cercana-psoe-persona-supremo-suspension-20261015193605-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-10-15T22:41:33+02:00",
+    "fecha": "2026-10-15T23:11:42+02:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/15/consules-U201712722928IZG-R3r76K0oMakjFHDHzlskvkI-1200x840@diario_abc.jpg"
    },
    {
@@ -127,6 +127,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSmVROHNNSHVYcUhOczN2aV9vNVBTR0ctb3NSOWZHSVBrcEZHNk5jSWJDanRGSzlaZDhLTnFtM1JIRmRxOGhSbmFlcUF1SkNZMEZITW54bVdBM19BTVdDc3JPVGZ2Qm5EQUdoT2pXbmRNYUtUOEJtNUVYd19zWVhkTEE4MG9EM2U3QXlJQk5KOEJUR2ZkN3VxRFBR?oc=5",
     "fuente": "El Pueblo de Ceuta",
     "fecha": "2026-10-15T20:42:00+00:00"
+   },
+   {
+    "titulo": "Dolores Corujo repite por el PSOE al Congreso por Las Palmas y José Antonio Valbuena encabezará la lista por Tenerife",
+    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRjhpa1g2enl6ZG5GRmJxNDh4NkZlOXA0TUV3RTRpOWYxXzRyTnBRcEpuRTM3Tk1peVZGVG9vdl9LNnlfUWVoTU9uUEZYZFowc3NQeXZYQzloWWFyUkdFeE55TmgxOG9LYnN4S3FYNERzQjZSbml6aWJUaVFGRndzUm13RTdTX0tvSlpVZWdoczlnQy1wU3VQSzg2WVVieU1D0gGmAUFVX3lxTE9yLWdNcE0xUmVnMmQ4WE9SMDJoYUhCdFpZRzRoazBYSTFuU25yYWd1blVRQWdaSHRsbWl1a3NwOEM4Y0tpSUl4Sm5YcGUyd2Fkc0xqTFdYSU1UMmt4Z080ajUyT2cwY09qc3JPMFVaVGF6aGlTSWI5VmcwUlFsYzM3YnE3dV8yTUhxa1MtTC1fMV9KSTVxdklrZ1JPYXJ2c3ZtR3RxY1E?oc=5",
+    "fuente": "La Provincia",
+    "fecha": "2026-10-15T20:14:04+00:00"
    },
    {
     "titulo": "El futuro de las pensiones irrumpe en la precampaña y Sánchez promete revalorizarlas antes de fin de año",
@@ -146,12 +152,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVi14bW1xQmJtQ0NXN1JHVy1GRWVJVjBxc0NlVVZxRC0zWGx3T2d0YVFUWGhfVlFmMHZFbkhzay1BZ0ZDT0hwd09TYzJLcFg4TDU5cXdHY2tiX2FpQldVVGRNSjZDMi02SzNFNE1Zb3ZJOGhWa0RtcnRpRVBCbWt6bl9pa2tKUFJpY2NvN1RncmhpZkY4OGF5aks1S2xlQm9fTGM4dVF2MjAzblNLVkhRWjRCekg5bVg0Vk9TcEp2UTFqOG5Ga2pIb0oxSzE4c2lVWjhkcjJyVFFILXVnaXVyU0ZwONIB_wFBVV95cUxOZGJ1Y0dUcFBTQkhSMkZXRWl0cFBDWGRqRWNTOWFVRFFGZnd2LXM2UjNCbXZvQm4yVGJySzV3NmNiWHlfOXlJY29RdUNYSUtPVmdVS3NjaUNrSWFOZVFpZ2wweGJJcEpMejV6LTQ0emNpVGZib1BYOHVKZllYMGxrY1p4TFVNdGdndHVOaXl1ZWdMZF8zVEJjdldKYllCMS1jZEs1NVVMamxyakJnbDJodjRlaFJ3X0dmMGlscFNBWlhEd1RRaTl0cnNrNVlhb0ZKb3Nfa1BCQ3FSWXF2QldlQ3QtQkl1Z2N0SVE0VWtJVWRyR2huTlU0NnIxVnBsUEU?oc=5",
     "fuente": "La Voz de Galicia",
     "fecha": "2026-10-15T19:41:15+00:00"
-   },
-   {
-    "titulo": "El PSOE confirma a Corujo y Valbuena y deja abierto un pacto para el Senado",
-    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaG85UTEwZ2tMRGNxaEJuOFczak93ZTRyRHpFcGh1d2FtcG1iZ2xid2tJUGU2bjRCZENYWi1GSzBvSFh1UWlYVDZVNEM2U1pOZ1ZxVmJraDB2bkdnRUZ3SGM0UklQamg3elc4SUVhQ2M3cjJBbEdiaUZfaGJPMFpPM0tiOGFlTWEzLTJrOUkxMmVvVENpTjVlSUY4Zmx3WmxsWG1ZanZmUHNuUC0zUzltdjNBTWRPQWdo0gG-AUFVX3lxTE5rdXdscTYzeTFaRHRkRWtnVGFSRzliTWNxZTkzOE5OYlpENkNXUVlyT3Q3S2VmSExkcHVrMlZUeDVsNUtQcFBxVFA0RVBDZVJmOXF6bDB4TzJmbzNvUWtjUmcya0dkTzJOSml2RkdjQUhZYklDWnFLVHI2d0lMS2NjUUxhRk9QcUdIeDVCX3gwTFpDLXk2SHpFYlFWYkJlNUt5Yy05NWFUdHEtYzlMbVJkZzhmVU9KVXFuVEtEY0E?oc=5",
-    "fuente": "Canarias7",
-    "fecha": "2026-10-15T19:28:32+00:00"
    }
   ],
   "Vox": [
@@ -290,12 +290,6 @@
     "fecha": "2026-10-15T15:07:23+00:00"
    },
    {
-    "titulo": "Alvise visitará Algeciras en plena crisis política por la situación de Landaluce",
-    "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcVRoYV9jUjRhZHU2VVppNkQ0ZE5ZVTdPLVFPdmxOQXp2NWNaOXhTWWg4MXRfb3o0d1RZdGtRcmo2c1pqblllWlkySnRCV1VwMzlBQVZ0c0NsRnRwdHNjY0JyN0JvQ1pMcjlhVDNockVoVHU5T19mRzJYVzNTb2ZyWUFXZWhFeHZtcTk4MkpNbjU?oc=5",
-    "fuente": "8Directo",
-    "fecha": "2026-10-15T14:50:28+00:00"
-   },
-   {
     "titulo": "La JEC estima las denuncias de PP y Alvise y expedienta a Sánchez por la rueda de prensa en Moncloa donde anunció los decretos de vivienda",
     "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRkhna1VDT2lvNGw3R3ZzakNwUnhpOHZhaUc4SV9MMERkMTZXekZwOEZxekRuZnBtZVRBMXU1bllUNlVfUkstTWJ0dy1ic1puSnI3clJ3QmdIRUhWVWQwTktTMzl4bngweks0YU9vOER4dFpFLVBFYXA0WUFpa3JSQnhTQmdwQm1RaGZiZC1WYTZzNnR6Qk4tMXRIQmZxVmphYk5sb1lCampsTGppTTJzOTNfMXhpejNMYkVkd09ZNXNRSE12WnEzUGpaSmtXdXNCbWpfVXllLU5qLXhzQm1TMXNUMjFTa1Iz0gHuAUFVX3lxTE9VTjBhOXBsSEU2VGwwaG9MYU1KT3ZPZmFpVTR4Nkl2dTRGbU5HV1A2V3MxekVnMjhGUXJiTFlKU0NVMDltXzBjQlVQZmw2eEJhVDVxWWZOc0tqN0w3V3dKd2N4SXJ5WGtGeklkQUVMWXdpc1RqNXU4ajBHYkZfeVVIQWxpOGRHT0JlV2RXM1hhdXFmYmw5alEzRXRIM0FXZEpWQnlRQUczb0RZenEyeHlNMGNNeFgtZmlaZHhsUlZlaUNBYXNIZTE2Ykw4b3Z2aGd4bElZMkZvWjVpNjJuSW5mQUNJTDdoNnZ6UWdwWnc?oc=5",
     "fuente": "Elplural.com",
@@ -312,6 +306,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaXh0c3NWRVNnakNPZ3hLMlQ5Nm5OdzZQOTRtN2V4czVLODd6cnFVRjFtNzJXSUJqakhvc1lMM040VU9IS3VZaXk1YXBqb1FsWHp5eVQwby1tSGNmNHA2bXFwZEt6b2QwUzU0cjJGendnUVhRXzJGRWFVdFhaQWRPQ2wtNmZaYUNPSWZPWkhrUlpVRG5faEozZmZrX2g5TTU0djBjNWxmVGQxSXdONW5ucWJVUVdtdjFVanl3UW1mek05RUh5SzlZaFpYWHo?oc=5",
     "fuente": "Guada News",
     "fecha": "2026-10-15T10:52:00+00:00"
+   },
+   {
+    "titulo": "Alvise Pérez estará este domingo en Toledo para reunir apoyos a la candidatura de SALF",
+    "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc0hsLW5jc0szaGlWUFg1azlibUwtUl9UWTVqNTNDbFlZVnBWejVUWnJwUW1pNWhqek5SdU9WeHV4MXFqZE9sNG1EaDFzZVlwc3IwSW02ajhjVmZZRVRTTlhpdkh6bXkwYW9GVExKRTZVTGlEaHJRXzFOLTUyRHpVOF96Wk1MbENSR0cyV1Q4QVhiX1ZCd2NfS1JiZFh6WFh2V2lKWTNyclVxTDVSWXoybg?oc=5",
+    "fuente": "Toledodiario",
+    "fecha": "2026-10-15T09:10:47+00:00"
    }
   ],
   "ERC": [
@@ -356,11 +356,11 @@
   ],
   "Junts": [
    {
-    "titulo": "Puigdemont solicita a Llarena que “sin más demora” aplique la amnistía",
-    "enlace": "https://www.lavanguardia.com/politica/20261015/11659815/puigdemont-solicita-llarena-mas-demora-aplique-amnistia.html",
+    "titulo": "Puigdemont confirma que no será jefe de la oposición en el Parlament cuando regrese a Catalunya",
+    "enlace": "https://www.lavanguardia.com/politica/20261015/11660068/puigdemont-confirma-sera-jefe-oposicion-parlament-regrese-catalunya.html",
     "fuente": "La Vanguardia",
-    "fecha": "2026-10-15T15:01:36+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/09/6ac9333081547.r_d.3438-1693-0.jpeg"
+    "fecha": "2026-10-15T23:00:00+02:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/15/6ad116bfa00a5.jpeg"
    },
    {
     "titulo": "De Puigdemont a los delegados de la Generalitat: los 35 amnistiados por el Tribunal de Cuentas",
@@ -368,6 +368,12 @@
     "fuente": "La Vanguardia",
     "fecha": "2026-10-15T10:57:43+00:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2024/04/15/661e9e2b3340e.jpeg"
+   },
+   {
+    "titulo": "El homenaje a Companys se convierte en un acto contra la extrema derecha y en un pulso entre Junts y ERC",
+    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeGtYYzMwQ0Q1YkQ3Wk9WbzB2THBqQ0ZWZklYeVEwbkJGYUZsRlQ4Unh5MTFaZUhKTTBKd2c5Um1ZVGJVdjFZdnhFRlkxZ2llTVRGREZfcHExbnBDLUs5ZkhXSF9ZMXdyQUR5SVRwZE8yU2RXT1BKaUVld25yN2VFN2tDSjJxcXU3NTFvcVBsMjIwei01QnBKRmVDMWM1OGxUZ1BBdy1BME5MbW1Ucmp6bzJ5U0VrSjlMTHhaYTQ4VGh5ZTZOa1I00gHMAUFVX3lxTE4xUFlrUExnSGFDQmtLVDFjMkRPVVk4ZGJ1T2xSWFhKSGFqeVN6bHFxMzNLUER4QnBCdkpYMUxySXJneVc5ZkZjTUlnMXNDUVU0NFh3a3c5bElQYlgwOUU1ZmQzVVdaQ2dzdmlxRGprWmlBSzF2cUxjalNxMUphbnV0X0ZmbUF0VUt1UXJoZjlMaU5FNGZUUXNlR3h6SldCQzNMb3Y0QUZ6R1hIcmJ6ZXQ1UngwLUw2cmR3V3NmTVloXzlFTU0yT2ZBazZWTw?oc=5",
+    "fuente": "Crónica Global",
+    "fecha": "2026-10-15T10:54:52+00:00"
    },
    {
     "titulo": "Conde-Pumpido insta al Supremo a que aplique la amnistía a Puigdemont y cree que PP y Vox no podrán anularla",
@@ -380,12 +386,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPQnViUGFWSnVuQ242aWRta2FoSnlnMS1UM2FSRU1hbXlrekVYUXhhQ1BneWJPX0FBdFgzSWRoSm5BT1VCaE04MzlJT0J2UTl3SzlTOWRyS2NIaF9OYzV0TWxYbkp3dmdnWnl6TUVzdmZMZVA4OUxWazRQdDJiLXhoRGNlSGY4Qk9zYVNVQUFXTEpPVWYwSDB5TndtRHpiTFprNEhRQU9obl9jQ2VvZkFndUtYbG5MOXNwRGk3ODAwbmFTNzYzS1dpQS1wOGs4QWtSeEpqQzFRUHVkZm9wX0dnQ2ZsN1NuWUJjcHgza3FzLW5hcE92TEZkTw?oc=5",
     "fuente": "CatalunyaPress",
     "fecha": "2026-10-15T07:40:00+00:00"
-   },
-   {
-    "titulo": "Turull (Junts) evoca a Companys y acusa al Estado de querer apagar el alma de Cataluña",
-    "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZ2M2cERWSFhaY0pidXp1MjFrbk54Vy1GV3pJY2o2bjlPdlFUVWxLM3N2UFdvc1BHX3hZTlJqSlA4MFl5T09MdDR2aTF5THZyclFJbGFSVjg3RktTazlVeHVHVVVqQ2hnSlhKVWhDOGJGQzFQYnpEMVowQ3I4RG9jN1BmaHB4Sk9ldUYtSER2REFoSDJ0U1hka3FaOVhPaC1fVV9BVXlSRTV2aXU2Q0FDVWpHS3E4dkRuLVE00gHAAUFVX3lxTE56RmlHM1dNZWlvdV9rZElMREE3cTRNcmRzdG40RGU0dEc0SVJ0WndvLU1maGxERkpBMkJYdTNZYzd3eW9EUkRlX2x6cTExNW1NYzc3cHduOXdWamUtZERTa0xFYThLTXVwZ0hlZW1mczAybzFzMFF6Q1VyOFUxSjQ0cVBPTFJLcDdNTHJQV2I2QWYzMXItajNBQzVUeDZZRmtSYnd3ZlotLWJ0aUVPWTJuR3FERHhYZjBtYVY1d3A5ag?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-10-15T06:12:44+00:00"
    },
    {
     "titulo": "Nueve años que valen todo un reinado de \"unidad y permanencia\": Felipe VI contra el golpe de Puigdemont y contra la 'invasión' de Mohamed VI",
