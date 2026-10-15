@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-15T04:01:58+00:00",
+ "actualizado": "2026-10-15T05:01:43+00:00",
  "generales": [
+  {
+   "titulo": "Elecciones generales 29N, en directo: última hora de Pedro Sánchez, Feijóo, las candidaturas y los pactos electorales",
+   "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-pedro-sanchez-feijoo-candidaturas-pactos-electorales_202610156ad050fbfb06971aad0351d5.html",
+   "fuente": "La Razón",
+   "fecha": "2026-10-15T07:00:33+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/07/17/896F58D6-98CD-44FF-8EEA-8DFBD0BB9197/pedro-sanchez_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
   {
    "titulo": "Ferraz acapara las listas al Congreso por Valencia y deja sin margen al rival de Morant",
    "enlace": "https://www.abc.es/espana/comunidad-valenciana/psoe-listas-congreso-senado-valencia-20261015014015-nt.html",
@@ -23,11 +30,11 @@
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11377839.jpg?p=c:1097:617:nowe:0:0/w:1706/h:960&h=ps8aOfTp"
   },
   {
-   "titulo": "La carrera electoral del 29-N en C-LM: de Page y «las cloacas de Sánchez» a la «falta de argumentos de Núñez»",
-   "enlace": "https://www.eldebate.com/espana/castilla-la-mancha/20261015/carrera-electoral-29n-clm-page-cloacas-sanchez-falta-argumentos-nunez_469651.html",
-   "fuente": "El Debate",
-   "fecha": "2026-10-15T04:30:00+02:00",
-   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/05/19/6a0c40e39a4b8.r_d.1196-284-0.jpeg"
+   "titulo": "La Junta Electoral se inclina por que sea el Supremo quien aclare el tijeretazo al censo por la ‘ley de nietos’",
+   "enlace": "https://www.infolibre.es/politica/junta-electoral-inclina-sea-supremo-aclare-tijeretazo-censo-ley-nietos_1_2237977.html",
+   "fuente": "infoLibre",
+   "fecha": "2026-10-15T04:01:17+00:00",
+   "imagen": "https://static.infolibre.es/clip/41b7bf5e-c2ef-4e61-8a19-06425e6cfb32_16-9-aspect-ratio_default_0.jpg"
   },
   {
    "titulo": "El adelanto electoral pasa factura a la agenda verde",
@@ -58,13 +65,6 @@
    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2023/12/03/2023120312120757501.jpg"
   },
   {
-   "titulo": "El PP patina con las pensiones en la precampaña del 29N",
-   "enlace": "https://www.eldiario.es/politica/pp-patina-pensiones-precampana-29n_1_13586089.html",
-   "fuente": "elDiario.es",
-   "fecha": "2026-10-14T20:32:56+00:00",
-   "imagen": "https://static.eldiario.es/clip/2b9b8125-4378-492c-bdce-2d2fb610e799_16-9-discover-aspect-ratio_default_0_x1017y288.jpg"
-  },
-  {
    "titulo": "Segunda denuncia de Junts ante la Junta Electoral por actos del gobierno Collboni",
    "enlace": "https://www.lavanguardia.com/local/barcelona/20261014/11659015/segunda-denuncia-junts-junta-electoral-actos-gobierno-collboni.html",
    "fuente": "La Vanguardia",
@@ -75,11 +75,17 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "El PP exige a Page que explique por qué el PSOE votó 'no' a su moción para defender la españolidad de Ceuta y Melilla",
-    "enlace": "https://www.eldebate.com/espana/20261015/pp-exige-page-explique-psoe-voto-no-mocion-defender-espanolidad-ceuta-melilla_469722.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-15T05:26:33+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/14/6acfb73f87912.r_d.2835-1382-0.jpeg"
+    "titulo": "Elecciones generales 29N, en directo: última hora de Pedro Sánchez, Feijóo, las candidaturas y los pactos electorales",
+    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-pedro-sanchez-feijoo-candidaturas-pactos-electorales_202610156ad050fbfb06971aad0351d5.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-15T07:00:33+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/07/17/896F58D6-98CD-44FF-8EEA-8DFBD0BB9197/pedro-sanchez_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "\"Feijóo va a acabar con el castigo a la Región de Murcia de los últimos años\"",
+    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVm5menNJR3ZkUHRFWDRibmpuS0k0aUtjWl82YlZLanpGeklVa2kwQkFaemJidHNtWXgwLTdVMzFIS1dFcVQycGJVQWJLMDhfSllONmhQNE85SFU4Sm14MVRseG1CZG9NaWNEcEtKZ01HYnZpYm42X2ozdG1tYWt1TmhEX2RtVUVDXzhmb2lSZnJMMkR6M2dJZkJvVFBTbWdGU0EtNlUxSXBXWUdEc1HSAbMBQVVfeXFMTkV4RllIQU96X1ZxV1hibGJrcU53bHJsWFF6YjlhM0tLbFZVTmlfYkdMbWlfa2hiZmV1OGhZMUhtSFQ2VlNyRHdpaWZDNl9KTzBBbUZkTDQ1M3lxbnprRVhleHl0Nl8wVEYwajJrSHdjcERud3Z0clJVb0tuMHBIVHR2NTBjRHhSSXBjY0JYUGxmTkJLZk9VRjUzWTRnYTFZcHprQlpwWEUxWm9QZ2p5dEotWEE?oc=5",
+    "fuente": "La Opinión de Murcia",
+    "fecha": "2026-10-15T04:01:05+00:00"
    },
    {
     "titulo": "El PSOE y el PP encienden la batalla por el futuro de las pensiones",
@@ -87,6 +93,12 @@
     "fuente": "El País",
     "fecha": "2026-10-15T03:30:01+00:00",
     "imagen": "https://imagenes.elpais.com/resizer/v2/UTT5PBARRZAR5JBXA52PUG5K5M.jpg?auth=03c65e106d6adf76c3ed3ede86575b72865c313752a904cbf8828ce8bb29032f"
+   },
+   {
+    "titulo": "Flavia de Hohenlohe, la nieta de Mimí Medinaceli, profetiza que Feijóo gana el 29-N: su discreto encuentro con el \"presidente\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdjktaDZNVmJPVlZTajRnLU5YN0dpU3dvaWlYWlBpS0JIbXlCUG9oSUNYMi1YaXEwajFKRjRZVkRxSlNwa19LUy1xSGkwVTFTZ09ZMjZqbnQtc0N0bHBtenphbGd2Y1pkc09ya1RwRnZpZElYQjlBSDBpMXlfeTBfZDdXWTJfT2tTLWtYeHA5Y2lDSWlia0xES3NLNF9wWVNIMW5uQ0JCZ3Z6ald0cFl3aHVjdGRldllNV2toZW9hWlJnYXNkeFo0U2NDb1llTzdFQUVRY2lBUE5XeEhyQkhmaEVLQlJuMWlOamNFWlVwaUVIWGYyaHlLbExn0gH6AUFVX3lxTE92OS1oNk1WYk9WVlNqNGctTlg3R2lTd29paVhaUGlLQkhteUJQb2hJQ1gyLVhpcTBqMUpGNFlWRHFKU3BrX0tTLXFIaTBVMVNnT1kyNmpudC1zQ3RscG16emFsZ3ZjWmRzT3JrVHBGdmlkSVhCOUFIMGkxeV95MF9kN1dZMl9Pa1Mta1h4cDljaUNJaWJrTERLc0s0X3BZU0gxbm5DQkJndnpqV3RwWXdodWN0ZGV2WU1Xa2hlb2FaUmdhc2R4WjRTY0NvWWVPN0VBRVFjaUFQTld4SHJCSGZoRUtCUm4xaU5qY0VaVXBpRUhYZjJoeUtsTGc?oc=5",
+    "fuente": "El Español",
+    "fecha": "2026-10-15T03:00:00+00:00"
    },
    {
     "titulo": "Feijóo ultima las listas del PP con Cayetana Álvarez de Toledo y Albiol como arietes y caras nuevas en provincias clave",
@@ -99,35 +111,41 @@
     "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUlU2U0ZwNHRPdDZCWVZpakVSZ3k3LUFud1RSakRjbzBqdUpzMmNsWTJGOE5BeEZaQzNpZ3JLeVFDcTQyV2JubEVBZ0JxajdsOFVaVE0wVjdwallxcjFIQktPSzNEcGlFLWtXRDkxeXF4d3ZjTjVHMklBT0w4RXpZNXBLbnVOQkp3YmJEWE9Bd05rb2R0azRKQVpMdU5jVDc1d0k4RVhLbjJfUHR5am1DVlh0ZjdDeGc2LWY2eEJNSjFzenQycFQ00gHMAUFVX3lxTE84OE4yN1pKU2ZsYVBQM1VqSFRHVE94UU5TS0JBNG9jUkQ3bXRBQlpkbHMyZUZSQnRucHpsUlhHeVVPdmxTQ0tuY1QzY19IYjFkODhKX0M0N0JvTkhuOXJEVGlwT0lxTi1fZTFiV2ZuRVlKZkRuZGlKR1lnRE13OFVBRjM3Y0xJNksxanFsYXNjSTZOdXlVUzNiWTlma3pKSF8wUnp4U01wc0xhOWlBRUFuWWpUXzhvSk0xNjg5V0NTMzVTNnhlbkZwNVI0Mw?oc=5",
     "fuente": "ESdiario",
     "fecha": "2026-10-14T19:53:09+00:00"
-   },
-   {
-    "titulo": "Buruaga llama al PP de Cantabria a no confiarse: \"las elecciones no las ganan las encuestas\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTm1DNk1GUm55Y0Z3SGZHZ2xyTzJxV0EzamVyTF84Ml83R0txNmdFVVoxMU9hMmlKX3VXYlJvRWRnWk9XS0g0aUtpdE9IWmdrcHhMUThNRGF6UUZ1bUplY2tjTzdqZ2k0VFhkeW1nWlI2V0ZLNDdrYjkxX0RsNDVMTzZzbGFkZ3l1SXN6N1dnVDZUN1dfTERvbnNrcV81cWNpTUlBREl4cXdSb2hacU9Od1cxSGtzQ3d4NWJ5QkVpNFFkNGVoVEVsMW5WenJkVF82UmdEVXdn?oc=5",
-    "fuente": "PP de Cantabria",
-    "fecha": "2026-10-14T19:20:39+00:00"
-   },
-   {
-    "titulo": "Sánchez cree que si PP y Vox llegan al Gobierno de España \"firman la carta de defunción del Estado del Bienestar\"",
-    "enlace": "https://www.europapress.es/aragon/noticia-sanchez-cree-si-pp-vox-llegan-gobierno-espana-firman-carta-defuncion-estado-bienestar-20261014203519.html",
-    "fuente": "Europa Press",
-    "fecha": "2026-10-14T18:35:19+00:00",
-    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261014203519_120.jpg"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Ferraz acapara las listas al Congreso por Valencia y deja sin margen al rival de Morant",
-    "enlace": "https://www.abc.es/espana/comunidad-valenciana/psoe-listas-congreso-senado-valencia-20261015014015-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-15T05:30:09+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/15/acto-pspv-Rq2Rs59rA3iopE6tl587hiJ-1200x840@diario_abc.jpg"
+    "titulo": "Elecciones generales 29N, en directo: última hora de Pedro Sánchez, Feijóo, las candidaturas y los pactos electorales",
+    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-pedro-sanchez-feijoo-candidaturas-pactos-electorales_202610156ad050fbfb06971aad0351d5.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-15T07:00:33+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/07/17/896F58D6-98CD-44FF-8EEA-8DFBD0BB9197/pedro-sanchez_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
-    "titulo": "¿Cuántos votos hay a la izquierda del PSOE en la Comunidad Valenciana?",
-    "enlace": "https://www.lavanguardia.com/local/valencia/20261015/11658722/votos-hay-izquierda-psoe-comunidad-valenciana.html",
+    "titulo": "Sánchez, preparado para un choque con Meloni en el Consejo Europeo",
+    "enlace": "https://www.lavanguardia.com/politica/20261015/11659107/sanchez-preparado-choque-meloni-consejo-europeo.html",
     "fuente": "La Vanguardia",
-    "fecha": "2026-10-15T05:30:00+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2023/06/28/649c1e465cfc0.r_d.2481-2424-905.jpeg"
+    "fecha": "2026-10-15T06:00:00+02:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/14/6acfc3d8936dc.r_d.1939-1484-1174.jpeg"
+   },
+   {
+    "titulo": "ELECCIONES | El Comité Insular del PSOE de Tenerife propone a Pedro Martín y Alicia Álvarez para el Senado",
+    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPX2xucDJCTm8waHM3YS03d1JnWjVmYnRSRkdJV3ZjZFJZdEpLSVZ0N0w0RlBKRDJlaTNWMmxBY3JXb2d6UWNBSUk5cFRZaXA5elYwem5rbHhsREJCZ3piR1FUU0tNLWlQTjVuRU1lVVJTWFRMeklJMFZvb2R3bXhFOUFvOWNXMFRCRS1pb1VWbHhxMm5kRjA4UlBLMVp6R1RVcHY3NzFWNm5kRlZFNFh5NXc5eHQ1UnI4UVdWYzVrUTZvN19TeTU4Nmd6V1pKaDN6QzQtTlRmZ1RTWndiSkE?oc=5",
+    "fuente": "Elblogoferoz",
+    "fecha": "2026-10-15T04:29:00+00:00"
+   },
+   {
+    "titulo": "Yolanda Lanza será la tercera en la lista del PSOE de Valladolid al Senado para las elecciones del 29 de noviembre",
+    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMVI3T2FILVhKMzVTM29XUEstcVM1T2NEeTRvOW5EbkV6ZXhtMFFCOUxSTUpmNDA5clZQS2FVNm1UMzUyckUxazkyNDRBV3k1WURmWGVzUzcxdV80b0w1eS1wemVHS24yVEo3UFYwMHBEM2I5TVRnYVIzNDBnSWNCZG4xdVdBR1RfVl9lY0ZTWnNua0g4QXV2NEtoenVseXFWZDVZM2hiRklkSlJqRGVjVDBqWGZiUDNaaGFRNTlQSW55Skc2cThsNUhqdndJU3dCZlhyakp3?oc=5",
+    "fuente": "Laguna al día",
+    "fecha": "2026-10-15T04:05:41+00:00"
+   },
+   {
+    "titulo": "Montero blinda a los líderes provinciales del PSOE andaluz en las listas al Senado",
+    "enlace": "https://theobjective.com/espana/andalucia/2026-10-15/montero-lideres-psoe-andaluz-listas-senado/",
+    "fuente": "The Objective",
+    "fecha": "2026-10-15T03:40:41+00:00",
+    "imagen": "https://theobjective.com/wp-content/uploads/2026/10/europapress-1142041078-1-1.jpg"
    },
    {
     "titulo": "El PSOE y el PP encienden la batalla por el futuro de las pensiones",
@@ -135,25 +153,6 @@
     "fuente": "El País",
     "fecha": "2026-10-15T03:30:01+00:00",
     "imagen": "https://imagenes.elpais.com/resizer/v2/UTT5PBARRZAR5JBXA52PUG5K5M.jpg?auth=03c65e106d6adf76c3ed3ede86575b72865c313752a904cbf8828ce8bb29032f"
-   },
-   {
-    "titulo": "Encuestas elecciones en Galicia: resultados de PP, PSOE, Vox, Sumar y BNG y ganador según los sondeos",
-    "enlace": "https://www.abc.es/espana/galicia/encuestas-elecciones-galicia-resultados-pp-psoe-vox-20261015050000-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-15T03:00:14+00:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/15/elecciones-galicia-Rgn3uZLbA79mOMIg6dD2T8I-1200x840@diario_abc.jpg"
-   },
-   {
-    "titulo": "La campaña marroquí para que 250.000 nacionalizados voten al PSOE el 29-N: \"Si Sánchez desaparece, será nuestro final\"",
-    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSElwUWc2Tl91dFUzODRneXhDZ1VXU2h5clJ6UDR4TGRVZjFZUXZPNTgxLVpBdlZvMmV5S0xMNWF2amhXZ3dBMVc4TWZjWlVlTUFvVlVGMGRNTlhHcDByaDhCdFlpbFVuUWpRb0RuUWgtZTFiRjFJQVd4Z3FMYWNTVjhsYkVQSXdaYmVPdFNYNDBGQkNiYVVUeERkU2dIall0eVc4SmV1WmhLYm9vbkxCZldFbk1taDh3SDVDdXJ0R0tfWF9sWU1mZkNJUUpIM0nSAdQBQVVfeXFMUHZOM216ZkV4V2I2Nmh2WjZSSWEwZG1EV3lsWXNLaGR4a3FYNVlISUlpUkxPR3lQYXpheWZEbmY0RVlOXzJmVlJKYTBZZkc3MzhwdFJOUWZRQjEtNmhuaEpGSG1HRm04RjNnNGw3RlNQTlF4aTBMUHpJdUk2bkFodFZwWXlUVTJGc1k3MWpjVWtEM0c3R1N2cUFCc0M2WXBrVUZZNk9WY3E1d0JZRTI5Q3JhTWxoX0xrcDhQM2xFdExsQU5IQnRpQ3pGOWtkTEhGR09GWGM?oc=5",
-    "fuente": "El Español",
-    "fecha": "2026-10-15T03:00:00+00:00"
-   },
-   {
-    "titulo": "El muro ideológico rompe al CGPJ antes las elecciones: parálisis en la cobertura de vacantes y apoyo a la ‘cloaca’ del PSOE",
-    "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNckRpZXBfaFNDM08yRlgtX3F4ZC05RG1vZWl6cURPcHBPaklhamhjMEZOLWQ1RDBGVTZaajhjQXFyQXRLcy1YV212LXBfUExXRi05eGFRYy03MDBwal9aM0hzQkNiaVFJN1JFQmZkdWVCLWd2RXpsUm1IRkJqbFUtZzdMSk5KazdNa21IZDU5a0t2NGUtcUZzMklQU2lTMWVKV3Q5ajhRbGthR3dXQzFYeTVyUFQ4S0lYaHEybmJsdUVXMkNqRk9CZmtSNDdaYl9qNWJ1WUpxaXlQTDYwMmUtblFXQmpVMy01TFRwczVNa3NLNGk1N0HSAfsBQVVfeXFMTjkzRWhqdWVtZFp5SEVnaTVRVl9yRWkwTWNfbWV2RldOMlpGLTYxb0V2cnpPdklRcVVTbXJuT2xRRmVGTkpoYzJmTWE3VFpoam0zZkE3UTF6b1hGeW13MVAxNHpiN21wLUt5UWt5R24xRzgydk91WVhuNTF3RDBtYjFGbVpmdm9BcjRydTM2VUMyX1hsd1lKdEtUV3NGbkFBMW4xeTByNVZ2UHZDb3hUTUxnbGUtQzRPRS1LUkVrc0JmSjRvQTRxOE1QaEl2b0ZfVzMzcnZZTVYtYXJNZW03UHlZSGxGcmIxUGZ0d3JLcG1adWpvZ2ZKOHlTZEU?oc=5",
-    "fuente": "Vozpopuli",
-    "fecha": "2026-10-15T02:45:00+00:00"
    }
   ],
   "Vox": [
@@ -163,6 +162,18 @@
     "fuente": "ABC",
     "fecha": "2026-10-15T05:00:14+02:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/15/elecciones-galicia-Rgn3uZLbA79mOMIg6dD2T8I-1200x840@diario_abc.jpg"
+   },
+   {
+    "titulo": "Lourdes Méndez no repetirá en las listas de Vox al Congreso de los Diputados",
+    "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQjhZRGpXTzk1Q3NjYTF1NGxiRFpqUE5JQS1KclN1TlFhdkEzQTdHNVU4SjQ0a0NKQ01Ea0JGWnYtakh3TXNSQVFQdldQTnd3V3djeGR4dy1CWmZrbkl1VkctbEpLU3lTclgyNHBrY0NXU1M2dWpNMzVwclNFX195OGJGeWpHZ0JFUllCQ3RDMVlYbzZkMHc0SDZFeUhQSjRmN21IRNIBqgFBVV95cUxPU1N0eGxHZHoyR0FQTWhpNFpoVURKUmh0THFGcm05amstYmhsSGVaYjNGam5PYWdGQlVRRHFnM3ZsWGg2emo4TnhxSUFlZEpCRVgyUFM1bU9PWm8zYjVoVUFIN3BKUXF6anhySk8zRVhzVkJUSlgyWnFIa29RNHdGY2QyYUhmZ21mNHQxSk9ONHBiOV9Xc2N0UkJncmxwOXdjSkFmRjJpalNVUQ?oc=5",
+    "fuente": "La Opinión de Murcia",
+    "fecha": "2026-10-15T04:01:12+00:00"
+   },
+   {
+    "titulo": "Vox apunta a los dos diputados por Baleares con sondeos internos que superan el 20% de los votos",
+    "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX2VKeWk5cnhSVkVWYTJyOEx5VWFXV2NRLVZ2cENPTlB1ckNfamRkMFRkcklvN095cW9NRFVGV3B1VGRDbEx3TjJvR0t4SXVfSUtGeTlneTVpNHNiYzUyUU5qZEt2c3NlX3BGMTBtSzZDOXdOVThxV2pEYVBTdmRUUldxa1dham1NaVlPQUhyMU1Uelh2dk9vME1SZEEtbUlRY2pCb2J2UdIBrAFBVV95cUxOelYyakJLclgtVjRadF9pcjFrMURyRS1VeVBJMEdZUmlKNkVmaDlRbHNtMUpSRTdtSmg2b3hiN2FoRW9FOHNaNFRuR3MtNGJSSGZoNmlUdm96M05jbDM2cU9UTkpWVjY2ZzI0Q0xHQWV2LVUyWFVTMWNuNEpBZ3BDR3BOQkkxY3V5Nk9tWXJNaWpWczRzVU05ZkIyZnQ1elFHb2ZFVnNnWVF3TGR3?oc=5",
+    "fuente": "Diario de Mallorca",
+    "fecha": "2026-10-15T04:01:06+00:00"
    },
    {
     "titulo": "¿Cuánto ganarías con Vox? La rebaja fiscal que dispara las nóminas más altas",
@@ -177,22 +188,11 @@
     "fecha": "2026-10-15T03:35:28+00:00"
    },
    {
-    "titulo": "PP y Vox podrían arrebatar hasta 15 senadores a la izquierda con listas conjuntas en 12 circunscripciones",
-    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNd0xFNWZUNGtWbExBcGlVZnBhMWpZbHpCRXZIbEF2cVhsYmhLNE9ORlFpMjNiRndUZGthVWZueXFXMjRITWpZWWxvdGJJUmFqVnlJOF9TLVEycVlOZTlIWERBUDlxODRHOTNhMzExNWY1Z3J0dno2emRmeDJ2NWdJaUowLW1VN0o4ZGRvck5EbU03dmExVF9YVEVQWnIwNXJTMEoyTzVwYW1WaTlJV3ozZjZpUGNZS2dxNWRXbkwzSHlwLWxGVW1TYjJPbnpBaTVUa1p2NVZZVk9wQ1RGUzdYbnkxWm14Wk0?oc=5",
-    "fuente": "Vozpopuli",
-    "fecha": "2026-10-15T02:45:00+00:00"
-   },
-   {
-    "titulo": "Vox, ¿un partido o un desahogo?",
-    "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSDgyd2w3ZlVHOFhObUFuSWZfS3VRVmUwSk4wdTlLREU1QkxxODRnNlh0TUFVclljUnVkVTF0UmhuWXpXWE5wSW56YWFOa2ZnUGxSanN5OVdoeFhpSHluTWZaOXdMOVhuR1JGalNsTzBxRUVhTlM3aUpKbzc5U1lIcUdWd1hGLTZoU1V0MGxnVUw?oc=5",
-    "fuente": "Diario de Sevilla",
-    "fecha": "2026-10-15T01:13:56+00:00"
-   },
-   {
-    "titulo": "Abascal mantiene en Bruselas un encuentro con Orbán y Le Pen, que le desea “todo el éxito que merece” el 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDBlN2pMckVzaTk4NmhGUEVvWkFSRTgwbDNoRXN0T2h3am45enI2RnNUSlZCVTJ6cEo4NGNOeHpqdnZxSWZoNjM4WS1hdkNSbS1WTlAtM29KX2FwaWZYTmg4VVk5aWd0dHFJVmVDNGo2ZU8wbHZxRUFlTlM1OUJvN3JBc3djSkNXcmdGVXVrZTNSNGw1d0szMmhjRlFDQ3hXWUJWcmpNUkF4TlhaOXNXLUJZUUd2cDVOSzY2Mmg1aFR4TmJZa2pIWS1Ra25CZzBUZ29ZZ1N2ONIB3AFBVV95cUxOMTNLa1JVYnQ4aDE3cDNzU0lxbnItb2k2YTRLMHloQVRnbUtXTDJJRlhJaWo1Z3BzVElTQlpFM19nSnpzb0RZcTRUSFZoa3JIdVFRcVc5dFU4MWhyTFFKakg0WFZpZ0dTYmRxaDlJSGZTTVNhM294VXFycGdnSk1MS0NBN0hDSGZ1Y1hnbTdYLV8yYlFXZ0VpVVJQWHJQZ1AxbzFna2pqX0hRdUk1YlBkajFzSDhpaTB2TG1NbFhsU0kyeGtuVUVYT3IwYjJSMm9QUHBULVRKMnl0V1pk?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-10-14T21:10:35+00:00"
+    "titulo": "Andalucía cumple 100 días de un gobierno PP-Vox \"sin roces\" que sirve de banco de pruebas para el día después del 29-N",
+    "enlace": "https://www.elespanol.com/espana/andalucia/20261015/andalucia-cumple-dias-gobierno-pp-vox-sin-roces-sirve-banco-pruebas-dia-despues/1003744419923_0.html",
+    "fuente": "El Español",
+    "fecha": "2026-10-15T03:00:00+00:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11377623.jpg?p=c:1920:1081:nowe:0:0/w:1706/h:960&h=Tbz4cYaF"
    }
   ],
   "Sumar": [
@@ -310,6 +310,12 @@
   ],
   "ERC": [
    {
+    "titulo": "¿Cómo van Rufián y Colau en las encuestas? ¿Quién va mejor en los sondeos de las elecciones generales?",
+    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLTBHSWpJTXBtNW41cHkxSXJhUWNhSkFwY3FOMzdXNDFBM2pPdWNLbm5Fbm9QQjhOMmpFQ3BlTnFia0sxeVREWEJycl9BUWpJZnQwT01uTTJQS2NYY3lidVRHXzc4ajFJa1pwXzZPY3VjQlFYbl9XQU8ta2d1S0YwUUNGUXVtVmxqVm55VEV5ZG95Ukx6RXY2T2piYWdKazVVM3lBZmhacU5ZVU5BQ0s40gGvAUFVX3lxTE4zTzdjcTh0ckZiSVI2aGlNRVotdzBEMFlqMjVPdVEyWlBSeTluMjVJLURQS0VwUjRmSkxPXzZwSzM3cmx0LWZSa3Rkb1ZRRjZwSHpYYmpRYW9iTXllNkpsLXloWTl4TW4yN0NYUFVYdGc4b1dIajBxUFVpVmRwb0o4Z2tNbkFIUzZtWXpBYWFoZERFRjc5RnlOOXEyNFozTVFJTjgxcFc1Qk5uVGZ0Nlk?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-10-15T04:01:07+00:00"
+   },
+   {
     "titulo": "La alianza de Rufián y Podemos pone en apuros a Comuns en Cataluña",
     "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVTdiZllseTAxMGRzZDRrQkJhaVotWVZwM2xDSWVzb19LRlNPS2NkWlJMX0pORzVGejlTOEdTNzViS1lZWlFENE5CbGtMVFdRbVJyOGFUS05LM3I0MktQVW9HVWFTYzY5NHpfSllFRXBqS0FIcmFZcjlQNndUU2FqbldkMjF2NnhYdXRiZE1aZmMxQU96UjZJMGRjZHpqbEFfTGp5OGlOT1JrWS1BOFpyMU90YnpUYzBPMnBfaEFaR2FGZFBTUlZGWNIB3AFBVV95cUxOMEcxQzJhSEM3VFJFZ0JGaXU5dGNuUm1pOVNaQUtIaldRUkJ6Yl9NNTNGZjV3QWhmbU1NZjlnbkNaT1JZTXlsek9jSDZveUM0ZzJKREdHWEpwOHBZamxEZ21WdU9EWXAzQVpTQXZyQXByOE5lcUpDVm9qbWpTdi1ISWxSNjNTSFkybEU4dThtSUlPTUFJRExKS1FWVFBYZmdZU2pHR2h5NU53WXQtZUtlVEU0cW9tTUVXVU4zd05rZDdVdkZCQ1dmYllLTEtjR1l2VTNLNkZTWk9yM3FM?oc=5",
     "fuente": "EL PAÍS",
@@ -341,12 +347,6 @@
     "fuente": "elDiario.es",
     "fecha": "2026-10-14T20:32:56+00:00",
     "imagen": "https://static.eldiario.es/clip/f4c0e35c-8528-4f3d-8eee-5b82fdbe52b4_16-9-discover-aspect-ratio_default_0_x760y455.jpg"
-   },
-   {
-    "titulo": "Eva Granados será la número 2 del PSC y Mireia Ingla la de ERC en las elecciones del 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNlFmNE5DeVNHNmt2N0dzQ3FULUZXN1o2VkhUWmZmYi1Oa0dQX1NNYnlFc3lOeGxPRWdUYmxnQ1VCV0ZUbXg0VVBPSUpSVE80aE40UHZ1ZGtUbGZpUTVHUlBYalNNd1hncDEwNmdCbmR3UjJDS3M4TWVVczdvZUl0ZF95VDRSVHhDUkVMaWdHakV6bXRKRnRfc1Z4Y1dONUp5RlZtTHBsVTJQS2c1OXBBRDdSMDYydTdwMmxjMHhR?oc=5",
-    "fuente": "El Nacional.cat",
-    "fecha": "2026-10-14T19:23:17+00:00"
    }
   ],
   "Junts": [
