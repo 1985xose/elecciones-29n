@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T22:25:41+00:00",
+ "actualizado": "2026-10-16T22:29:30+00:00",
  "generales": [
   {
    "titulo": "El PSOE y Frente Amplio acuerdan ir juntos al Senado el 29-N: la coalición se llamará Senado de Progreso",
@@ -9,18 +9,18 @@
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379874.jpg?p=w:1706/h:960&h=KTwK9EQo"
   },
   {
-   "titulo": "Elecciones generales 29N, en directo: última hora de los pactos electorales, Sánchez, Feijóo y el futuro de las pensiones",
-   "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-pactos-electorales-sanchez-feijoo-futuro-pensiones_202610166ad1a27acfd4076f0c7ca049.html",
-   "fuente": "La Razón",
-   "fecha": "2026-10-17T00:20:24+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/14/32CB1688-E529-436A-96E3-16A2708D8AE5/96.jpg?crop=1920,1080,x0,y100&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
    "titulo": "Podemos y Frente Amplio irán por separado el 29-N, lo que complica las opciones de la izquierda",
    "enlace": "https://www.eldebate.com/espana/20261017/podemos-frente-amplio-iran-separado-29n-complica-opciones-izquierda_470619.html",
    "fuente": "El Debate",
    "fecha": "2026-10-17T00:16:57+02:00",
    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/15/6ad100941b0ab.r_d.1009-510-0.jpeg"
+  },
+  {
+   "titulo": "El PSOE alcanza un acuerdo con su izquierda para concurrir juntos en las listas del Senado",
+   "enlace": "https://www.larazon.es/espana/psoe-alcanza-acuerdo-sus-socios-frente-amplio-concurrir-sus-socios-senado_202610176ad2a2086e8df44596b32998.html",
+   "fuente": "La Razón",
+   "fecha": "2026-10-17T00:15:36+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/09/22/269C9E0F-0F23-4BEA-A70C-92DCA252017E/96.jpg?crop=7008,3942,x0,y365&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
    "titulo": "La dulce derrota que no evitó el ocaso de Felipe González",
@@ -30,11 +30,11 @@
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/16/6ad281f78ca63.r_d.483-253-5778.jpeg"
   },
   {
-   "titulo": "La izquierda alternativa no alcanza un acuerdo estatal y Podemos solo firma pactos en dos comunidades para el 29N",
-   "enlace": "https://www.infolibre.es/politica/izquierda-alternativa-no-alcanza-acuerdo-estatal-firma-pactos-comunidades_1_2238584.html",
+   "titulo": "PSOE y Frente Amplio llegan a un acuerdo para concurrir en bloque al Senado el 29N",
+   "enlace": "https://www.infolibre.es/economia/psoe-frente-amplio-llegan-acuerdo-concurrir-bloque-senado-29n_1_2238540.html",
    "fuente": "infoLibre",
-   "fecha": "2026-10-16T22:02:17+00:00",
-   "imagen": "https://static.infolibre.es/clip/3b8cc41d-303f-4943-8368-264d8be72721_16-9-aspect-ratio_default_0.jpg"
+   "fecha": "2026-10-16T22:17:14+00:00",
+   "imagen": "https://static.infolibre.es/clip/559143e2-3d50-467c-ab5e-5fd559f3adf6_16-9-aspect-ratio_default_0.jpg"
   },
   {
    "titulo": "Frente Amplio y Podemos consuman su desacuerdo y concurrirán en dos listas en la mayoría del territorio",
@@ -75,11 +75,18 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "Histórico acuerdo de la izquierda para el Senado: PSOE y Frente Amplio pactan una lista única para desafiar la mayoría del PP",
+    "enlace": "https://www.elmundo.es/espana/2026/10/16/6ad23f39e85eced3738b45a2.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-16T23:55:47+02:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/09/06/17887105436277.jpg"
+   },
+   {
     "titulo": "Elecciones generales 29N, en directo: última hora de los pactos electorales, Sánchez, Feijóo y el futuro de las pensiones",
-    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-pactos-electorales-sanchez-feijoo-futuro-pensiones_202610166ad1a27acfd4076f0c7ca049.html",
+    "enlace": "https://www.elespanol.com/espana/20261016/elecciones-generales-directo-ultima-hora-pedro-sanchez-actos-pp-psoe-vox-encuestas-cierre-plazo-electoral-espana-sondeos-voto-por-correo-partidos-2026-29n/1003744422218_10.html",
     "fuente": "La Razón",
-    "fecha": "2026-10-17T00:20:24+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/14/32CB1688-E529-436A-96E3-16A2708D8AE5/96.jpg?crop=1920,1080,x0,y100&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "fecha": "2026-10-16T22:20:24+00:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379801.jpg?p=c:4000:2253:nowe:0:416/w:1706/h:960&h=tWC864AT"
    },
    {
     "titulo": "Rueda sitúa a Galicia como clave para que Feijóo gane las elecciones generales del 29 de noviembre",
@@ -106,12 +113,6 @@
     "fuente": "laSexta",
     "fecha": "2026-10-16T19:28:45+02:00",
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/01/10/DF9CD6AD-02BF-46B6-A56C-B8481D6A4C5E/miguel-tellado_96.jpg?crop=2672,1503,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Una jornada sobre mujer rural financiada con dinero público acaba convertida en escaparate electoral de Feijóo",
-    "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY0o2OExrenVRWjAxNDA5X0tLU05OcjR1OEVPdU1FVUt3V0FSTnRQclRTSVc3R2JLUFZJREtPRHJyXzVPZXNjOVVUampDTS1iZG5RdklqM0ZrcXYyVVh0U09EQnRPVGltbVplVERKYXVaYlVvMlBpc3Z2SWJxWnVONTNYMUdGT3NKWkNSRjhnRW1ZQS1oR00wMzQ4dUhMazhOcExYRVN2ZDdjdTNrNnBRRnJXYkY2UE4zcHViSDd3VUs5MDlYMDFKMklEc3kzTU9SV2x0QURUU1N3T3FZZE45QVB5aTVWaDlQN2t30gHwAUFVX3lxTFBuZEpZbEhhaXZ5ME1RVDNUbVMxZlRJRmpHbThQNmNPYlV5NkI1SVJRZmg0SVg1clpUN2l4SW16RG9XblQ4TW5ia3ZNYXJqRkdKM3o5SloyaXl4Zk8tUnpyM2VKdEhpWjZaM1dtMnQyN0V3WG83b2ROVmhwazR1akVvelBiZ0NnQTFLanE0b3VObG9WYkk4Z1FOem9YUmJuVUlSN2s1WGNlQ2FfVERKMzlEWXEzbjlqSjhEUmNIQk9wbFh4NDRuTGxCVnpyN3BNY2RCcVlEa1gzMkZ2NWgzTVowVGVtRG1RSVJEejR3c09DNw?oc=5",
-    "fuente": "Elplural.com",
-    "fecha": "2026-10-16T18:47:22+00:00"
    }
   ],
   "PSOE": [
@@ -131,10 +132,17 @@
    },
    {
     "titulo": "Elecciones generales 29N, en directo: última hora de los pactos electorales, Sánchez, Feijóo y el futuro de las pensiones",
-    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-pactos-electorales-sanchez-feijoo-futuro-pensiones_202610166ad1a27acfd4076f0c7ca049.html",
+    "enlace": "https://www.elespanol.com/espana/20261016/elecciones-generales-directo-ultima-hora-pedro-sanchez-actos-pp-psoe-vox-encuestas-cierre-plazo-electoral-espana-sondeos-voto-por-correo-partidos-2026-29n/1003744422218_10.html",
     "fuente": "La Razón",
     "fecha": "2026-10-16T22:20:24+00:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/14/32CB1688-E529-436A-96E3-16A2708D8AE5/96.jpg?crop=1920,1080,x0,y100&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379801.jpg?p=c:4000:2253:nowe:0:416/w:1706/h:960&h=tWC864AT"
+   },
+   {
+    "titulo": "PSOE y Frente Amplio llegan a un acuerdo para concurrir en bloque al Senado el 29N",
+    "enlace": "https://www.infolibre.es/economia/psoe-frente-amplio-llegan-acuerdo-concurrir-bloque-senado-29n_1_2238540.html",
+    "fuente": "infoLibre",
+    "fecha": "2026-10-16T22:17:14+00:00",
+    "imagen": "https://static.infolibre.es/clip/559143e2-3d50-467c-ab5e-5fd559f3adf6_16-9-aspect-ratio_default_0.jpg"
    },
    {
     "titulo": "El PSOE alcanza un acuerdo con su izquierda para concurrir juntos en las listas del Senado",
@@ -148,12 +156,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQLTlpbzMtel9BdWtSMVlQQXBMVl80Yjh4ZUFKc2NTX0lWdTBZTzRNUllFWUxPZnhvUmdnSHJ4anZhYlRsMTNjU3ZGdlFmeXlDZXVWSHZ3cWVsSEp3OHROUl9mX0dFQjNGNzByMlRnaEFJZG5YV3FxNHZDLWtrNUhjWWhkZkloU1lnQ2JXS0JlX2dZcXlsTDFaQlpSX3ltcU1sV2hodGxmSkdOQjV5bUxGR2RPc29ZMU5wc2I4T28wdS1hM0VQenhLbVJXRXVYZGZlRm9hR01lbkREZG9WcEJj0gHkAUFVX3lxTE8yQko0WC0xOTJPTncwbzc2UzNxbGhuZ3NIdG8xMkpSaHpINTE0WmRZaWdEM0Y3NklPbHZzakFoalhkc3hLTmxJUmdLcVNEdk9PNlNMbHJyMVRTamdISkU2LWZzdnlIVEhRbjBkQklFN1ZSYng4SlVuekN5OHlQSEE0SjRjeF8xWXJuZDdreVVxMnRBbHJmdHk3N0dPUERGTU9SMTNlTE5HQU9MYnRnczgzR1QzTDdPR3hFY092VEs4c21ldUN5NjVrQ3Jva2wwQ0stVjlmR1J4QkJXUE9HX2VPSloxQQ?oc=5",
     "fuente": "Vozpopuli",
     "fecha": "2026-10-16T22:08:46+00:00"
-   },
-   {
-    "titulo": "PSOE y Frente Amplio registran al borde del plazo límite su lista conjunta para el Senado",
-    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUkdFVWlRQTlBbnNkRUVmNmNTMG9qUTdhTFo4ci1pd2dRckktVU5OVGtUTHFYZGFsMkRxQWp0UG9zaGphOEpaZVlFWnBTekdqX2EyS1loS0ZVYWZUYUc4RWc4bTEyaWJHY2hRcEdSb2IyZ2dYY1c4SmxfUEJDMGFhQVhQNmZEMnVaVzNvTVlyWEd0bXByZlJPdjNuejNrZ3A2dUltU2lwejZyaXBfR09jUEtpQ3B4QWgxMDVUMg?oc=5",
-    "fuente": "Servimedia",
-    "fecha": "2026-10-16T22:08:10+00:00"
    }
   ],
   "Vox": [
@@ -184,16 +186,16 @@
     "fecha": "2026-10-16T18:47:19+00:00"
    },
    {
+    "titulo": "Illa asegura que las elecciones son o Sánchez o PP y Vox: \"No hay tres, hay dos opciones\"",
+    "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVEZNYVpnUUdxYzd0T245NGVIZDdGVFFfbkxxWVBZSmVYRHFLV0tJbFdTeEV5QVEwQkdheC1tU216UWFiN2JrejY5cjFubFJHaEJIUzhiVExZbkhzNF9udmZTcWFYZmVjMGtieHJhY1licnRZMDhQTUlBMUxUTFJBYzlGMktTWDNwZENMLXlWaGxtSGJMRHlV?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-16T18:27:31+00:00"
+   },
+   {
     "titulo": "El político más viral del día | Irene Montero lidera las redes explicando la \"calculadora de Vox\"",
     "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUlJiTTZjNml0aXhPVTNNaXp0Y0ZDWGFwU0R1LXpSdGNjeUtmUVpVSnBZSXhUVjhvUGxFQ0xoSUczSVlXWXJlUGZBSlZUS1EyZUZfcWdtT0ZJUWNNRU5RMXdYS2hvOGJnd2h4ODNENnE5Q0tmVVRVbGsyRnl5cHV0STZ1SXE3WjgxMU9MZVYza3UyazNDSHFfNC1sRktDR0Q00gGmAUFVX3lxTE41bHptbzBPOVp0Q3dMUzdJY2JpR1NOaUw5QXpmYUpCU1dENUc3cG1WOTlKYXZhMnNsTnZ0NVJITjAtTE9adG51U29pOGY0ZWpqMmNJcjdZVVcxdjh3MlJpYWxleWNEc2t0NHRqVzlrZlFTdXl6VjZLOHRnS2ZENFREemMzSHF3YVVablhMaFNkbzE3cmNOdjRIRnZRc2VjZVdlRG0tR1E?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-16T18:21:17+00:00"
-   },
-   {
-    "titulo": "Illa asegura que las elecciones son o Sánchez o PP y Vox: \"No hay tres, hay dos opciones\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbnBwTmMxSllqd3ozeFlqZUFJWEQ0ZnZoOEFEZ2l6RUNBTHB6NUU5V09WNU9OaTdXTHZKdlFEdk5saHZuWjNuM1JHM0kwVnFNb0E1bjRiRGY1SGJYMDh2V1Z0ZlBqTWpIeXBqWVRBTnVQNE9kU251QVZhV2NtYU1kV1AyVFM1TFhPMjI1TkZsTVNLVkhmZVNWWVo0UlRMM1Z3cDhMVUlNTUtFMEJsUFlzUFVxTjY5SFEtTlRvQlQ3UDE3TUdYbVEySmh4dFhMV0hVdGc?oc=5",
-    "fuente": "Europa Press",
-    "fecha": "2026-10-16T18:05:40+00:00"
    }
   ],
   "Sumar": [
@@ -280,12 +282,6 @@
   ],
   "SALF": [
    {
-    "titulo": "La evolución de Alvise Pérez: de asesor de Toni Cantó en Ciudadanos a líder de las conspiraciones de la ultraderecha",
-    "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNZ2xEZ3ZGN2ZjbUtORTc2cjNJYzBfUU8yQ01PdmdQUzQwVlF2dFF4ZHpVYW9NX0JCV05zWDVjRXVZYmYyaHNvazR2aDZ3eVRtNXYxdFI3Rmlob0tld1BwcUlFbHJrV0ZwSzVRcjBvVHNhYUtJU1h2S1czbFFoXzZnQlV1VnJzU05EakNlWVZfUnhYMklRN1cwbWZObHZPZGM0WkVfZi14bmJocmpoeE43NFZqazlnWUU3VXVMcW9uYkhMNjdhSjdBV1AxVFhDd2hEWUI2azlMRE12bnR0T3ZXZ29YdXNSNG1RZ3pqU2ZqTk1PT1BXaXRUcmVLVXhJUldE0gGAAkFVX3lxTE1zMHdIN29iZXRMNThEdmwwWWRYWlB3V1ZmODBNZEV3Vy1wUXhyc1dtZXR4Qnk5S1ZYMXAzcXNXTkVDWTdzbE0zZlJlbWI4bzBlS3k3S2Q5MENrbWZsUFZ3OTNCcW51XzRBay01NWdYdVZ6TlZvUUJsV2l4MjFMa0pJR2ZhNnNwUFpQa01JSWZBb3BzR2VGN05Ed3ZySmxxNXZBTVpuMzlaVHlDSENCM0VnWjZXZHVhSmVQUGpmRkpwRTZCZmxXV0h2LWhKYmN5Y1V3RnhtNjJoeHlzekxXbi14UDgtOHVhWEFsQTFkOExLNkZrejJ2djdOWFlZNGx4Zm0?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-10-16T20:19:57+00:00"
-   },
-   {
     "titulo": "Alvise Pérez dice contar con avales necesarios para concurrir a las generales en Guadalajara, Cuenca y Ciudad Real",
     "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdEFfTldmcTJnOWxUUWtxRFBVeEVPN1R0R25ILUZfQnd1Si1IVUlGeDNvT3NrS2dJMlBoNXkyV2hiV2tCcWxOOFZDbkVOS3c4TjV4U1lfQjdtd0lfLU1PT1c4OUpRUlVqYmoxbk82azZaLUdCSnFFUFpKNGJQdFFRXzY2TlMwdVltdC1ZT193X2g1amlfdUdYMUx2WVkxdlNIQnlCV2dhS2FUMEFyRjFlNks0bFFuNHM5LUh3SDlQdW1hLVpnNnV2V3VlVHoxSnI0eDJtLWRBV2VFQm5qY0Z3ekt2VXBENzcwZnc1eFgzTWtGaVdEQWxoYtIB-AFBVV95cUxQdEFfTldmcTJnOWxUUWtxRFBVeEVPN1R0R25ILUZfQnd1Si1IVUlGeDNvT3NrS2dJMlBoNXkyV2hiV2tCcWxOOFZDbkVOS3c4TjV4U1lfQjdtd0lfLU1PT1c4OUpRUlVqYmoxbk82azZaLUdCSnFFUFpKNGJQdFFRXzY2TlMwdVltdC1ZT193X2g1amlfdUdYMUx2WVkxdlNIQnlCV2dhS2FUMEFyRjFlNks0bFFuNHM5LUh3SDlQdW1hLVpnNnV2V3VlVHoxSnI0eDJtLWRBV2VFQm5qY0Z3ekt2VXBENzcwZnc1eFgzTWtGaVdEQWxoYg?oc=5",
     "fuente": "elDiario.es",
@@ -314,6 +310,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLXNYd3BaTXFNNGlQS2Q1VjRtYkdOOTV0WmhEZVUtczc5UWpBZDREWktOQ0JkSVA0dWNlZDM2SHpyMkt6d0ZHNEtaVW9ZSWJFTFpJcGE4NVVudUdvdjlaejlYTkdlak0teUZGLVFhUjVMbTU3YmZPdVdoNjFidW1MTHh2RHR2bERRWm1aRTgwT2FuQnZLeTBMMTkzMURJbGI3UlBObjctanVJVzFwT3VIcnVQTTNDZk1COGtNTkVrWnJzTWRMRW9zbXdfTQ?oc=5",
     "fuente": "elDiario.es",
     "fecha": "2026-10-16T09:45:20+00:00"
+   },
+   {
+    "titulo": "Alvise Pérez llega el martes a la Región de Murcia en busca de avales para presentar candidatura para el 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbEswb19sdXdteURrdVVKTGZGYU1LWjBfSWo0Ry0yT3hpTXIzTExWWU45WmNPMUplRDBPcXZLYlVQT0ZqSDFRV3lZX1NuT3k4ZThMUE5CRnBPMXowWm9CTExncG1MM0xhX0l5UWFyMXdENERDLU5DUXlfUTdURGh1UGlFT0RiOTdFd3dHaERNemtRa1A3bkMySzJqOEpaVVo40gGmAUFVX3lxTFA3ZHlibU04TkxleFRWdDNvQXhzYld0dnBtbTB3V3g5ZXR2eWdHR1ZBYnNiOHRFanI4SlZVTHhTVy02dHFDMS1mYld6MTYyZXhMNm5ya0ZXRUpyM2pxb1FiOWRsQWs2OE9XSUdOM1pvUFZ0LV9nVm83Mm5lVmVoeG9WYTZkZDh3a1hWZ0VPVnpHczczUHRXTnVOejNiUXpWLWZPVnVSb1E?oc=5",
+    "fuente": "La Verdad",
+    "fecha": "2026-10-16T09:11:23+00:00"
    }
   ],
   "ERC": [
@@ -825,6 +827,13 @@
    "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVkhjQ3V6NHRlV09mTHhIdDAyT3ZaYWI3S0hCMTNlbUhGYWhremR4dUlxN1RWcU1yQ20yTFNaaEp0X3lEc0hnbFZIdnRXcXpmN0Y4cVAxOWUxbXlhU3NPN0VvU2UyNmJSV1VXYTRydkhaakU2NGRnY2htRHd6dks3R1ZYTTdyQzluTmlvT0g1MkwwR0xrLUo5ZkRTUUtEQTlYd2dWd2tlR3BqdXhBc1RxdnlfUXJEbERsc09YYS1aeGo0Snp1NDN1WFd6VzUtVWVBX1NmZG1PWTl1NkxWTFA2VEhlN2JqNVdlQnNhdNIBiAJBVV95cUxPWEFESFpGZ2pfN09VamtXOHlNWEFXZlRsa0ZxTElKU09nQlp6S2RKeHpJVEU1Uy1NTXpkQkJ5Q25JaF9NcXcyaUhNaUhLTnQycVZpZE1pMF92M0N5cWRmR2g5MkM5STFoS09Nems5RlNlelFnNlkya2hEem1KVkxsOGpCaDV6T014aklRRzhFa2V2bGZqcFd0Q3A2NTZoZGl6ZmZ0bUg0ckpzbk5rOU1Ec2RTbjhCNWRnSHlSbnRFTmE0QTFNMUZwRGNJcHI1a3NIX2FqWlRua0RHX0MybXhQUFRvNFg5dTZPN3k2R1liTlhncnVnUG1wY2Q1eG9Da05vUnZTM1RjOG4?oc=5",
    "fuente": "La Voz de Galicia",
    "fecha": "2026-10-16T19:47:53+00:00",
+   "partido": "PSOE"
+  },
+  {
+   "titulo": "Malas noticias para Pedro Sánchez: renuncia la vocera del PSOE tras el escándalo por los 30 propiedades de su marido",
+   "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcmdudnFsZ0FQR0phQlVIa05CSGh6SHdDTDBYS1hqdmFtZ0VUQ3BVWTNXT3dNelprVmg5RDctOURYazR5SXBTYnczZVZHa0pCU3lzeFl0UWFQRUZrQnpFSGU1Qm5md3RKcldsZG56c0NxcHVTZHp4ZVBHVk1mTzFfUG5IUHZuVEc3b2t5YUVMVFFFd1RhOGJZWFVEMHJKSUJmNkdMMHJ0TUZkbVFaXy1FT1p0WDJjVUFfUGp5Q21ZWHRpVVVZYkJJem41MWlwYlZiRmdVWjczVExnSTgzMk13T3ZxXzh4dk4yNHM0R2F30gHzAUFVX3lxTE5Ndkx4RnNKTlh1WEN6UWlVS1I5czhpekc4UnlRVzQwZGRXblN0dFhienpxM0pSRGdJTzVFdVgtcGlHaHpqWjdrZ3kyME9hbktPdUVZWEJKWWZzTy15OFhPNGR3SXBoa2llQ2NnQkFpOVhtaXFONF9PbVZ2bHZ6dmpjeWptMG1xLXNjX0Y0OWJUWEdsdFdRM0pZNm45OFFaajE3aHh5RWV1dWFWNWtVZFZRNXFHYUE1RTJ0VElVWWtzSFBpM2YtcFNUQUdWZkQ1WGpGSnJ4Vkg5cldkYlN6bnZtdWZWN2duSXQyTy12WU9ZSE9YRQ?oc=5",
+   "fuente": "El Observador",
+   "fecha": "2026-10-16T19:35:00+00:00",
    "partido": "PSOE"
   },
   {
