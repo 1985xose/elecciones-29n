@@ -99,13 +99,20 @@
   /* Senado: 4 por provincia (3 al partido más votado y 1 al segundo), islas y ciudades autónomas con su reparto propio. 208 electos.
      Devuelve los senadores de una provincia, {partido: n}, a partir de sus cuotas de voto. */
   const SENADO_ESPECIAL = { Baleares: [4, 1], "Las Palmas": [4, 1], "Santa Cruz de Tenerife": [5, 1], Ceuta: [2, 0], Melilla: [2, 0] };
-  function senadoProvincia(cuotas, nombre) {
+  /* Coaliciones solo para el Senado (base.coaliciones_senado): listas conjuntas al Senado que al Congreso van separadas,
+     como Senado de Progreso (PSOE con Frente Amplio) en 2026. Valen en todas las provincias menos las de «excepto». */
+  function cuotasSenado(cuotas, nombre, base) {
+    const cs = (base && base.coaliciones_senado || []).filter((c) => !(c.excepto || []).includes(nombre));
+    return cs.length ? fundir(cuotas, cs.map((c) => ({ a: c.a, de: c.de, sigue: c.sigue }))) : cuotas;
+  }
+  function senadoProvincia(cuotasCongreso, nombre, base) {
+    const cuotas = cuotasSenado(cuotasCongreso, nombre, base);
     const o = Object.keys(cuotas).sort((x, y) => cuotas[y] - cuotas[x]), [s1, s2] = SENADO_ESPECIAL[nombre] || [3, 1], r = {};
     if (o[0]) r[o[0]] = s1;
     if (o[1] && s2) r[o[1]] = s2;
     return r;
   }
 
-  const api = { proyectar, proyectarProvincia, dhondt, grupos, fundir, fundirTerritorial, senadoProvincia, mediaDesdeBase: (b) => ({ ...b.nacional }), UMBRAL };
+  const api = { proyectar, proyectarProvincia, dhondt, grupos, fundir, fundirTerritorial, senadoProvincia, cuotasSenado, mediaDesdeBase: (b) => ({ ...b.nacional }), UMBRAL };
   if (typeof module !== "undefined" && module.exports) module.exports = api; else root.Modelo = api;
 })(typeof window !== "undefined" ? window : globalThis);

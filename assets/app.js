@@ -23,6 +23,10 @@ const nombre = (k) => D.config.partidos[k]?.nombre || k;
 /* El nombre de una lista en una provincia: si en esa comunidad va en coalición con otros (config.coaliciones), el de la coalición */
 const coalicionEn = (ccaa, k) => (D.config?.coaliciones || []).find((c) => c.ccaa === ccaa && c.a === k);
 const nombreEn = (k, ccaa) => coalicionEn(ccaa, k)?.nombre || nombre(k);
+/* El nombre de una lista al Senado en una provincia: la coalición solo de Senado si la hay ahí, si no el de Congreso */
+const coalicionSen = (prov, k) => (D.config?.coaliciones_senado || []).find((c) => c.a === k && !(c.excepto || []).includes(prov));
+const elPSen = (k, prov) => coalicionSen(prov, k) ? coalicionSen(prov, k).nombre : elP(k);
+const nombreSen = (k, prov) => coalicionSen(prov, k)?.nombre || nombreEn(k, ccaaDe(prov));
 const ccaaDe = (nombreProv) => D.base?.provincias.find((x) => x.nombre === nombreProv)?.ccaa;
 /* Para meter un texto dentro de una cadena que se pinta como HTML o SVG. Un nombre de partido que no esté en la
    configuración sale tal cual viene de la tabla de encuestas, así que nunca se pega sin pasar por aquí. */
@@ -1723,7 +1727,7 @@ function datosSenado() {
 /* Reparto del Senado para una proyección: senadores elegidos por partido (tot), por provincia (porProv), con designados (con). */
 function repartoSenado(proy) {
   const { des, nDes, total, M } = datosSenado(), tot = {}, porProv = {}, primeras = {};
-  for (const p of proy.provincias) { const r = Modelo.senadoProvincia(p.cuotas, p.nombre); porProv[p.nombre] = r; const g = ordenar(r)[0]; if (g) primeras[g] = (primeras[g] || 0) + 1; for (const [k, n] of Object.entries(r)) tot[k] = (tot[k] || 0) + n; }
+  for (const p of proy.provincias) { const r = Modelo.senadoProvincia(p.cuotas, p.nombre, D.base); porProv[p.nombre] = r; const g = ordenar(r)[0]; if (g) primeras[g] = (primeras[g] || 0) + 1; for (const [k, n] of Object.entries(r)) tot[k] = (tot[k] || 0) + n; }
   const con = {}; for (const k of new Set([...Object.keys(tot), ...Object.keys(des)])) con[k] = (tot[k] || 0) + (des[k] || 0);
   return { des, nDes, total, M, tot, porProv, primeras, con };
 }
@@ -1754,6 +1758,9 @@ function pintarSenadoHoy(proy) {
   const cifra = (n, texto, c, ks) => el("button", { type: "button", class: "cifra", style: { "--c": c }, onpointerenter: () => resalta(ks), onpointerleave: () => resalta(null), onclick: () => { senado.marcado = senado.marcado === (ks && ks[0]) ? null : (ks && ks[0]); resalta(senado.marcado ? [senado.marcado] : null); } }, el("b", { class: "num-sube" }, String(n)), el("span", {}, texto));
   $("#sen-cifras").replaceChildren(cifra(X, `${nombre(k1)} tendría`, color(k1), [k1]), cifra(M, "para controlarlo", "var(--acento)", null), ...(k2 ? [cifra(con[k2], `${nombre(k2)} tendría`, color(k2), [k2])] : []));
   arcos($("#sen-arcos"), con, null, { sin176: true, minimo: 10, sombra: des, unidad: "senadores", orden: ORDEN_SEN() });
+  // Listas conjuntas solo al Senado: aquí cuentan dentro del partido que encabeza
+  const csn = D.config.coaliciones_senado || [];
+  $("#sen-nota-coalicion").textContent = csn.map((c) => `${c.nombre}, la lista conjunta de ${lista([c.a, ...c.de].map(nombre))}, cuenta aquí dentro de ${nombre(c.a)}. ${c.nota || ""}`).join(" ");
   $("#sen-arcos-leyenda").replaceChildren(...ordenar(con).filter((k) => con[k] > 0).map((k) => el("span", {}, el("i", { class: "punto", style: { background: color(k) } }), `${nombre(k)} `, el("b", {}, con[k]), des[k] ? el("small", {}, ` ${tot[k] || 0}+${des[k]}`) : null)));
   // El anillo con la probabilidad
   if (S && p1 != null) {
@@ -1788,9 +1795,9 @@ function pintarSenadoHoy(proy) {
   pintarFichaSen(proy, R);
 }
 function tipSenado(tip, p, R) {
-  const r = R.porProv[p.nombre], q = ordenar(r), n = Object.values(r).reduce((a, b) => a + b, 0), o = ordenar(p.cuotas).slice(0, 3);
-  tip.replaceChildren(el("b", {}, `${p.nombre}, ${n} senadores`), el("div", { class: "fila-ult" }, ...q.map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombreEn(k, p.ccaa)} ${r[k]}`))),
-    el("span", { class: "m" }, o.length > 1 ? `${nombreEn(o[0], p.ccaa)} ${fmt1.format(p.cuotas[o[0]])} %, ${nombreEn(o[1], p.ccaa)} ${fmt1.format(p.cuotas[o[1]])} %${o[2] ? `, ${nombreEn(o[2], p.ccaa)} ${fmt1.format(p.cuotas[o[2]])} %` : ""}` : ""));
+  const cs = Modelo.cuotasSenado(p.cuotas, p.nombre, D.base), r = R.porProv[p.nombre], q = ordenar(r), n = Object.values(r).reduce((a, b) => a + b, 0), o = ordenar(cs).slice(0, 3);
+  tip.replaceChildren(el("b", {}, `${p.nombre}, ${n} senadores`), el("div", { class: "fila-ult" }, ...q.map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombreSen(k, p.nombre)} ${r[k]}`))),
+    el("span", { class: "m" }, o.length > 1 ? `${nombreSen(o[0], p.nombre)} ${fmt1.format(cs[o[0]])} %, ${nombreSen(o[1], p.nombre)} ${fmt1.format(cs[o[1]])} %${o[2] ? `, ${nombreSen(o[2], p.nombre)} ${fmt1.format(cs[o[2]])} %` : ""}` : ""));
 }
 function pintarMapaSen(cont, proy, R, op = {}) {
   const colorear = (p) => { const r = R.porProv[p.nombre], g = ordenar(r)[0]; return { fill: g ? color(g) : "var(--linea)", op: 1, txt: g ? sobre(color(g)).color : "var(--tinta)", etiqueta: String(Object.values(r).reduce((a, b) => a + b, 0)) }; };
@@ -1805,10 +1812,10 @@ function pintarMapaSen(cont, proy, R, op = {}) {
   });
 }
 function pintarFichaSen(proy, R) {
-  const r = R.porProv[senado.prov], q = r ? ordenar(r) : [], p = proy.provincias.find((x) => x.nombre === senado.prov);
+  const r = R.porProv[senado.prov], q = r ? ordenar(r) : [], p = proy.provincias.find((x) => x.nombre === senado.prov), cs = p ? Modelo.cuotasSenado(p.cuotas, p.nombre, D.base) : {};
   $("#sen-ficha").replaceChildren(...(r && p ? [el("div", { class: "ficha sen-ficha" }, el("h3", {}, `${senado.prov}, ${Object.values(r).reduce((a, b) => a + b, 0)} senadores`),
-    el("div", { class: "chips grandes" }, ...q.map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombreEn(k, p?.ccaa)} ${r[k]}`))),
-    el("p", {}, `${cap(elP(q[0]))} sería el más votado con el ${fmt1.format(p.cuotas[q[0]])} % y se llevaría ${r[q[0]]}${q[1] ? `. ${cap(elP(q[1]))}, segundo con el ${fmt1.format(p.cuotas[q[1]])} %, se llevaría ${r[q[1]]}` : ""}.`),
+    el("div", { class: "chips grandes" }, ...q.map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombreSen(k, senado.prov)} ${r[k]}`))),
+    el("p", {}, `${cap(elPSen(q[0], senado.prov))} sería el más votado con el ${fmt1.format(cs[q[0]])} % y se llevaría ${r[q[0]]}${q[1] ? `. ${cap(elPSen(q[1], senado.prov))}, segundo con el ${fmt1.format(cs[q[1]])} %, se llevaría ${r[q[1]]}` : ""}.`),
     el("button", { type: "button", class: "enlace-boton", onclick: () => { quitarDelEnlace("provincia"); mapa.sel = senado.prov; pintarMapa(mapa.proy); location.hash = "#mapa"; } }, "Ver la provincia al completo ›"))] : []));
 }
 
@@ -1851,14 +1858,14 @@ function recalcularSen() {
 /* Dónde se decide: las provincias ordenadas por lo pegados que van el primero y el segundo */
 function pintarDecideSen(proy) {
   const R = repartoSenado(proy);
-  const filas = proy.provincias.map((p) => { const o = ordenar(p.cuotas), d = o.length > 1 ? p.cuotas[o[0]] - p.cuotas[o[1]] : 99, s = Modelo.senadoProvincia(p.cuotas, p.nombre), enJuego = (s[o[0]] || 0) - (s[o[1]] || 0); return { p, k1: o[0], k2: o[1], d, votos: votosDe(d, p.n), enJuego }; }).filter((x) => x.k2).sort((a, b) => a.votos - b.votos || a.d - b.d);
+  const filas = proy.provincias.map((p) => { const cs = Modelo.cuotasSenado(p.cuotas, p.nombre, D.base), o = ordenar(cs), d = o.length > 1 ? cs[o[0]] - cs[o[1]] : 99, s = Modelo.senadoProvincia(p.cuotas, p.nombre, D.base), enJuego = (s[o[0]] || 0) - (s[o[1]] || 0); return { p, k1: o[0], k2: o[1], d, votos: votosDe(d, p.n), enJuego }; }).filter((x) => x.k2).sort((a, b) => a.votos - b.votos || a.d - b.d);
   const colorear = (p) => { const f = filas.find((x) => x.p === p); if (!f) return { fill: "var(--linea)", op: .5, txt: "var(--tinta)", etiqueta: ABREV[p.nombre] || "", tam: 15 };
     const op = f.d < 2 ? 1 : f.d < 5 ? .7 : f.d < 10 ? .45 : .22; return { fill: color(f.k1), op, txt: op >= .7 ? sobre(color(f.k1)).color : "var(--tinta)", etiqueta: ABREV[p.nombre] || "", tam: 15 }; };
-  pintarMapaSen($("#sen-decide-mapa"), proy, R, { colorear, tip: (tip, p) => { const f = filas.find((x) => x.p === p); if (!f) return; tip.replaceChildren(el("b", {}, `${p.nombre}, ${f.enJuego} senadores en juego`), el("div", { class: "fila-ult" }, el("span", { class: "chip", style: sobre(color(f.k1)) }, nombre(f.k1)), el("i", {}, "›"), el("span", { class: "chip", style: sobre(color(f.k2)) }, nombre(f.k2))), el("span", { class: "m" }, `${fmt1.format(f.d)} puntos, unos ${fmt0.format(f.votos)} votos`)); }, alTocar: (nom) => { quitarDelEnlace("provincia"); mapa.sel = nom; pintarMapa(mapa.proy); location.hash = "#mapa"; } });
-  const chip = (k) => el("span", { class: "chip", style: sobre(color(k)) }, nombre(k));
+  pintarMapaSen($("#sen-decide-mapa"), proy, R, { colorear, tip: (tip, p) => { const f = filas.find((x) => x.p === p); if (!f) return; tip.replaceChildren(el("b", {}, `${p.nombre}, ${f.enJuego} senadores en juego`), el("div", { class: "fila-ult" }, el("span", { class: "chip", style: sobre(color(f.k1)) }, nombreSen(f.k1, p.nombre)), el("i", {}, "›"), el("span", { class: "chip", style: sobre(color(f.k2)) }, nombreSen(f.k2, p.nombre))), el("span", { class: "m" }, `${fmt1.format(f.d)} puntos, unos ${fmt0.format(f.votos)} votos`)); }, alTocar: (nom) => { quitarDelEnlace("provincia"); mapa.sel = nom; pintarMapa(mapa.proy); location.hash = "#mapa"; } });
+  const chip = (k, prov) => el("span", { class: "chip", style: sobre(color(k)) }, nombreSen(k, prov));
   $("#sen-decide-lista").replaceChildren(el("div", { class: "cab" }, el("span", {}, "Provincia"), el("span", {}, "Primero"), el("span", {}, "Segundo"), el("span", {}, "Diferencia")),
     ...filas.slice(0, 15).map((x) => el("button", { type: "button", class: "ultimo-prov", onclick: () => { quitarDelEnlace("provincia"); mapa.sel = x.p.nombre; pintarMapa(mapa.proy); location.hash = "#mapa"; } },
-      el("span", { class: "prov" }, el("b", {}, x.p.nombre), el("small", {}, `${x.enJuego} senadores en juego`)), chip(x.k1), el("span", { class: "sig" }, el("i", {}, "›"), chip(x.k2)), el("span", { class: "falta" }, x.votos < 100 ? "empate" : `${fmt0.format(x.votos)} votos`))));
+      el("span", { class: "prov" }, el("b", {}, x.p.nombre), el("small", {}, `${x.enJuego} senadores en juego`)), chip(x.k1, x.p.nombre), el("span", { class: "sig" }, el("i", {}, "›"), chip(x.k2, x.p.nombre)), el("span", { class: "falta" }, x.votos < 100 ? "empate" : `${fmt0.format(x.votos)} votos`))));
 }
 
 /* ---------- Modo partido: se elige uno y cada pestaña abre con su ficha ---------- */
@@ -1965,7 +1972,7 @@ function pintarFoco(ctx) {
 
   // Senado
   const sen = {}, primeras = [], segundas = [];
-  for (const p of proy.provincias) { const r = Modelo.senadoProvincia(p.cuotas, p.nombre), o = ordenar(r); for (const [x, n] of Object.entries(r)) sen[x] = (sen[x] || 0) + n; if (o[0] === k) primeras.push(p.nombre); else if (r[k]) segundas.push(p.nombre); }
+  for (const p of proy.provincias) { const r = Modelo.senadoProvincia(p.cuotas, p.nombre, D.base), o = ordenar(r); for (const [x, n] of Object.entries(r)) sen[x] = (sen[x] || 0) + n; if (o[0] === k) primeras.push(p.nombre); else if (r[k]) segundas.push(p.nombre); }
   const dS = datosSenado(), XS = sen[k] || 0, S = P?.senado_mayoria === dS.M ? P.senado?.[k] : null, misDes = dS.des[k] || 0;
   caja("senado").append(art(`${nombre(k)} en el Senado`,
     el("p", { class: "respuesta" }, XS ? `${cap(elP(k))} sacaría ${XS} de los 208 senadores que se eligen${S ? `, y lo normal es que acabe ${entreDos(Math.min(S.p10, XS), Math.max(S.p90, XS))}` : ""}. Sería el partido más votado en ${primeras.length} ${primeras.length === 1 ? "provincia" : "provincias"}${primeras.length && primeras.length <= 6 ? ` (${lista(primeras)})` : ""} y el segundo en ${segundas.length}.` : `Con las encuestas de hoy ${elP(k)} no sacaría senadores. Para sacarlos hay que ser el primero o el segundo partido de una provincia.`, misDes ? ` Tiene ${misDes} ${misDes === 1 ? "designado" : "designados"} por las comunidades, que no ${misDes === 1 ? "cambia" : "cambian"} con estas elecciones. La mayoría del Senado son ${dS.M} de ${dS.total}.` : null),
@@ -2090,6 +2097,7 @@ async function cargarDatos() {
   NOMBRES.forEach((n, i) => { const k = n === "base2023" ? "base" : n === "probabilidades" ? "prob" : n === "probabilidades_historial" ? "historial" : n; if (datos[i] != null || D[k] == null) D[k] = datos[i]; });
   if (D.europeas2024 && D.base) D.base.europeas = D.europeas2024;
   if (D.base) D.base.coaliciones = D.config?.coaliciones || []; // uniones que solo valen en una comunidad (modelo.js, fundirTerritorial)
+  if (D.base) D.base.coaliciones_senado = D.config?.coaliciones_senado || []; // listas conjuntas solo al Senado (modelo.js, cuotasSenado)
   // Los resultados no existen hasta que cierran las urnas. Pedirlos antes solo deja un error 404 en la consola del navegador.
   if (D.config && Date.now() >= new Date(D.config.eleccion.cierre_urnas).getTime()) { const r = await cargar("resultados"); if (r != null || D.resultados == null) D.resultados = r; }
 }

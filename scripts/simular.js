@@ -168,7 +168,7 @@ function simular(media, base, sig, n, semilla, opciones = {}) {
 /* Senado: el reparto por provincia vive en modelo.js (senadoProvincia) para que el navegador use el mismo. 208 electos */
 function senadoDe(provincias, base) {
   const total = {};
-  provincias.forEach((p, i) => { for (const [k, n] of Object.entries(M.senadoProvincia(p.cuotas, base.provincias[i].nombre))) total[k] = (total[k] || 0) + n; });
+  provincias.forEach((p, i) => { for (const [k, n] of Object.entries(M.senadoProvincia(p.cuotas, base.provincias[i].nombre, base))) total[k] = (total[k] || 0) + n; });
   return total;
 }
 
@@ -336,6 +336,7 @@ function analizar(encuestas, ranking, mediaHoy) {
 function main() {
   const config = leer("config.json"), base = leer("base2023.json"), enc = leer("encuestas.json"), fiab = leer("fiabilidad.json");
   base.coaliciones = config.coaliciones || []; // uniones por comunidad, las aplica modelo.js en cada provincia
+  base.coaliciones_senado = config.coaliciones_senado || []; // listas conjuntas solo al Senado
   base.europeas = leer("europeas2024.json");
   const historicos = [leer("historico_2023.json"), leer("historico_2019.json"), leer("historico_2019a.json"), leer("historico_2016.json")].filter(Boolean);
   // En 2023 Podemos acabó dentro de Sumar, pero hasta junio muchas encuestas los daban por separado. Sin juntarlos, la

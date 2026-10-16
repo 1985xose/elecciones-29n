@@ -51,7 +51,7 @@
       "consulta": "\"Yolanda Díaz\" OR \"de Sumar\" OR \"Movimiento Sumar\" OR \"Sumar y Podemos\" OR \"Podemos y Sumar\" OR \"coalición Sumar\" OR \"Antonio Maíllo\" OR \"Más Madrid\"",
    "nombres": ["Sumar", "Yolanda Díaz", "Maíllo", "Más Madrid"],
       "lider": "Yolanda_Díaz",
-      "aviso": { "texto": "Frente Amplio es el nombre con el que se presenta el espacio de Sumar, con IU, Más Madrid y Comuns. Va con Podemos en la Comunidad Valenciana (Compromís-Front Valencià) y en Canarias (Unidad del Pueblo Canario), y en Cataluña Podemos va dentro de las listas de ERC. En el resto de España van por separado. Las cuentas de esta app ya lo tienen en cuenta. Las encuestas lo siguen llamando Sumar.", "fecha": "2026-10-17", "fuente": "https://www.publico.es/politica/acuerdo-frente-amplio-elecciones-29n-directo-ultima-hora-negociaciones-reacciones.html" }
+      "aviso": { "texto": "Frente Amplio es el nombre con el que se presenta el espacio de Sumar, con IU, Más Madrid y Comuns. Va con Podemos en la Comunidad Valenciana (Compromís-Front Valencià) y en Canarias (Unidad del Pueblo Canario), y en Cataluña Podemos va dentro de las listas de ERC. En el resto de España van por separado. Al Senado, PSOE y Frente Amplio van juntos como Senado de Progreso en casi toda España. Las cuentas de esta app ya lo tienen en cuenta. Las encuestas lo siguen llamando Sumar.", "fecha": "2026-10-17", "fuente": "https://www.publico.es/politica/acuerdo-frente-amplio-elecciones-29n-directo-ultima-hora-negociaciones-reacciones.html" }
     },
     "Podemos": {
       "nombre": "Podemos",
@@ -167,6 +167,9 @@
     { "ccaa": "Cataluña", "a": "ERC", "de": ["Podemos"], "nombre": "ERC (con Podemos)", "desde": "2026-10-16", "nota": "Podemos no presenta lista propia en Cataluña y va dentro de las listas de ERC." },
     { "ccaa": "C. Valenciana", "a": "Sumar", "de": ["Podemos"], "nombre": "Compromís-Front Valencià", "desde": "2026-10-16", "nota": "Compromís, Podemos y Esquerra Unida van en una sola papeleta. Aquí se suman los votos de Frente Amplio y Podemos." },
     { "ccaa": "Canarias", "a": "Sumar", "de": ["Podemos"], "nombre": "Unidad del Pueblo Canario", "desde": "2026-10-16", "nota": "Nueva Canarias, Podemos, IU y Sumar van en una sola papeleta. Aquí se suman los votos de Frente Amplio y Podemos." }
+  ],
+  "coaliciones_senado": [
+    { "a": "PSOE", "de": ["Sumar"], "nombre": "Senado de Progreso", "excepto": ["Barcelona", "Girona", "Lleida", "Tarragona", "Sevilla", "Badajoz", "Cáceres"], "desde": "2026-10-16", "nota": "PSOE y Frente Amplio (con Compromís, Chunta y Batzarre) van juntos al Senado como Senado de Progreso, sin Podemos. No va en Cataluña, Sevilla ni Extremadura. Las listas se presentan del 21 al 26 de octubre y entonces se ajustará provincia a provincia.", "fuente": "https://www.elespanol.com/espana/politica/20261017/psoe-frente-amplio-acuerdan-ir-juntos-senado-coalicion-llamara-progreso/1003744423896_0.html" }
   ],
   "escenarios": [
     {
