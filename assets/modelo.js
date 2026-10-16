@@ -43,7 +43,15 @@
         }
       }
     }
-    return out;
+    return fundirTerritorial(out, prov, base);
+  }
+
+  /* Coaliciones que solo valen en una comunidad (base.coaliciones, viene de config.json): en esas provincias los votos
+     de «de» pasan a «a» antes del reparto, como una lista única. Por ejemplo Podemos dentro de ERC en Cataluña, o
+     Podemos con Frente Amplio en la Comunidad Valenciana y Canarias. Fuera de esa comunidad no cambia nada. */
+  function fundirTerritorial(cuotas, prov, base) {
+    const cs = (base.coaliciones || []).filter((c) => c.ccaa === prov.ccaa);
+    return cs.length ? fundir(cuotas, cs.map((c) => ({ a: c.a, de: c.de, sigue: c.sigue }))) : cuotas;
   }
 
   function dhondt(cuotas, escanos) {
@@ -98,6 +106,6 @@
     return r;
   }
 
-  const api = { proyectar, proyectarProvincia, dhondt, grupos, fundir, senadoProvincia, mediaDesdeBase: (b) => ({ ...b.nacional }), UMBRAL };
+  const api = { proyectar, proyectarProvincia, dhondt, grupos, fundir, fundirTerritorial, senadoProvincia, mediaDesdeBase: (b) => ({ ...b.nacional }), UMBRAL };
   if (typeof module !== "undefined" && module.exports) module.exports = api; else root.Modelo = api;
 })(typeof window !== "undefined" ? window : globalThis);

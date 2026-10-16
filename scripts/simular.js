@@ -335,6 +335,7 @@ function analizar(encuestas, ranking, mediaHoy) {
 /* ---------- Principal ---------- */
 function main() {
   const config = leer("config.json"), base = leer("base2023.json"), enc = leer("encuestas.json"), fiab = leer("fiabilidad.json");
+  base.coaliciones = config.coaliciones || []; // uniones por comunidad, las aplica modelo.js en cada provincia
   base.europeas = leer("europeas2024.json");
   const historicos = [leer("historico_2023.json"), leer("historico_2019.json"), leer("historico_2019a.json"), leer("historico_2016.json")].filter(Boolean);
   // En 2023 Podemos acabó dentro de Sumar, pero hasta junio muchas encuestas los daban por separado. Sin juntarlos, la

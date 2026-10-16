@@ -20,6 +20,10 @@ function el(tag, attrs = {}, ...hijos) {
 }
 const color = (k) => D.config.partidos[k]?.color || "#8A93A3";
 const nombre = (k) => D.config.partidos[k]?.nombre || k;
+/* El nombre de una lista en una provincia: si en esa comunidad va en coalición con otros (config.coaliciones), el de la coalición */
+const coalicionEn = (ccaa, k) => (D.config?.coaliciones || []).find((c) => c.ccaa === ccaa && c.a === k);
+const nombreEn = (k, ccaa) => coalicionEn(ccaa, k)?.nombre || nombre(k);
+const ccaaDe = (nombreProv) => D.base?.provincias.find((x) => x.nombre === nombreProv)?.ccaa;
 /* Para meter un texto dentro de una cadena que se pinta como HTML o SVG. Un nombre de partido que no esté en la
    configuración sale tal cual viene de la tabla de encuestas, así que nunca se pega sin pasar por aquí. */
 const esc = (t) => String(t ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -1380,22 +1384,23 @@ function tipProvincia(tip, p) {
   const o = ordenar(p.cuotas).filter((k) => p.cuotas[k] >= 1).slice(0, 6), max = p.cuotas[o[0]] || 1;
   tip.replaceChildren(el("b", {}, `${p.nombre}, ${p.n} asientos`),
     el("div", { class: "cab" }, el("span", {}, "Partido"), el("span", {}, "% votos"), el("span", {}, "Esc.")),
-    ...o.map((k) => el("div", { class: "fila", style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+    ...o.map((k) => el("div", { class: "fila", style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombreEn(k, p.ccaa)),
       el("span", { class: "pct" }, `${fmt1.format(p.cuotas[k])} %`), el("b", { class: p.escanos[k] ? "" : "cero" }, p.escanos[k] || "–"), el("i", { class: "barra", style: { width: `${p.cuotas[k] / max * 100}%` } }))));
 }
 /* El detalle de una provincia: hemiciclo de arcos, tabla de partidos, bloques y el reparto D'Hondt plegado */
 function pintarDetalleProvincia(p, proy) {
   const b = D.base.provincias.find((x) => x.nombre === p.nombre), r23 = b?.esc_reales_2023 || {};
   $("#det-nombre").textContent = p.nombre;
-  $("#det-sub").textContent = `${b?.ccaa || ""} · ${p.n} asientos`;
+  const coas = (D.config.coaliciones || []).filter((c) => c.ccaa === p.ccaa);
+  $("#det-sub").replaceChildren(`${b?.ccaa || ""} · ${p.n} asientos`, ...coas.map((c) => el("span", { class: "det-coalicion" }, ` · ${c.nombre}. ${c.nota}`)));
   arcos($("#det-arcos"), p.escanos, null, { sin176: true, minimo: 1, total: p.n });
   const o = ordenar(p.escanos), lider = o[0], m = Math.floor(p.n / 2) + 1;
-  $("#det-lider").replaceChildren(el("i", { class: "punto", style: { background: color(lider) } }), el("b", {}, nombre(lider)), ` se lleva ${p.escanos[lider]} de ${p.n}`, p.escanos[lider] >= m ? ", más de la mitad." : ".");
+  $("#det-lider").replaceChildren(el("i", { class: "punto", style: { background: color(lider) } }), el("b", {}, nombreEn(lider, p.ccaa)), ` se lleva ${p.escanos[lider]} de ${p.n}`, p.escanos[lider] >= m ? ", más de la mitad." : ".");
   $("#det-ultimo").textContent = antes2023(p).trim();
   pintarDisputa(p);
   const todos = ordenar(p.cuotas).filter((k) => p.cuotas[k] >= 0.5), max = p.cuotas[todos[0]] || 1;
   const fila = (k, pct, esc, esc23) => { const d = esc23 == null ? null : esc - esc23;
-    return el("div", { class: "det-fila", style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombre(k)),
+    return el("div", { class: "det-fila", style: { "--c": color(k) } }, el("span", { class: "nom" }, el("i", { class: "punto", style: { background: color(k) } }), nombreEn(k, p.ccaa)),
       el("span", { class: "pista" }, el("i", { style: { width: `${pct / max * 100}%` } })), el("span", { class: "pct" }, `${fmt1.format(pct)} %`), el("b", { class: esc ? "" : "cero" }, esc || "–"),
       el("small", { class: d > 0 ? "sube" : d < 0 ? "baja" : "igual" }, d == null ? "" : d > 0 ? `▲${d}` : d < 0 ? `▼${-d}` : "=")); };
   $("#det-tabla").replaceChildren(el("div", { class: "det-cab-fila" }, el("span", {}, "Partido"), el("span", {}), el("span", {}, "% votos"), el("span", {}, "Esc."), el("span", {}, "vs 2023")),
@@ -1419,10 +1424,10 @@ function pintarDisputa(p) {
   const ancho = (q) => `${Math.max(8, q / Math.max(qT, qA) * 100)}%`;
   cont.replaceChildren(
     el("div", { class: "duelo" },
-      el("div", { class: "lado tiene", style: { "--c": color(t) } }, el("span", { class: "eti" }, "Lo tiene"), el("span", { class: "chip", style: sobre(color(t)) }, nombre(t)), el("i", { class: "barra", style: { width: ancho(qT) } }), el("small", {}, `su ${(p.escanos[t] || 0)}.º asiento, ${fmt1.format(p.cuotas[t])} % entre ${p.escanos[t] || 1}`)),
+      el("div", { class: "lado tiene", style: { "--c": color(t) } }, el("span", { class: "eti" }, "Lo tiene"), el("span", { class: "chip", style: sobre(color(t)) }, nombreEn(t, p.ccaa)), el("i", { class: "barra", style: { width: ancho(qT) } }), el("small", {}, `su ${(p.escanos[t] || 0)}.º asiento, ${fmt1.format(p.cuotas[t])} % entre ${p.escanos[t] || 1}`)),
       el("div", { class: "centro" }, el("b", { class: "num-sube" }, v < 100 ? "±100" : fmt0.format(v)), el("span", {}, "votos"), el("em", { class: v < 1000 ? "mal" : v < 3000 ? "medio" : "bien" }, nivel)),
-      el("div", { class: "lado pelea", style: { "--c": color(a) } }, el("span", { class: "eti" }, "Se lo pelea"), el("span", { class: "chip", style: sobre(color(a)) }, nombre(a)), el("i", { class: "barra", style: { width: ancho(qA) } }), el("small", {}, `iría a por su ${(p.escanos[a] || 0) + 1}.º, ${fmt1.format(p.cuotas[a])} % entre ${(p.escanos[a] || 0) + 1}`))),
-    el("p", { class: "explica-corta" }, v < 100 ? `${nombre(a)} le quitaría el asiento a ${nombre(t)} con un puñado de votos.` : `Si ${nombre(a)} sumara unos ${fmt0.format(v)} votos más en ${p.nombre}, le quitaría el último asiento a ${nombre(t)}.`));
+      el("div", { class: "lado pelea", style: { "--c": color(a) } }, el("span", { class: "eti" }, "Se lo pelea"), el("span", { class: "chip", style: sobre(color(a)) }, nombreEn(a, p.ccaa)), el("i", { class: "barra", style: { width: ancho(qA) } }), el("small", {}, `iría a por su ${(p.escanos[a] || 0) + 1}.º, ${fmt1.format(p.cuotas[a])} % entre ${(p.escanos[a] || 0) + 1}`))),
+    el("p", { class: "explica-corta" }, v < 100 ? `${nombreEn(a, p.ccaa)} le quitaría el asiento a ${nombreEn(t, p.ccaa)} con un puñado de votos.` : `Si ${nombreEn(a, p.ccaa)} sumara unos ${fmt0.format(v)} votos más en ${p.nombre}, le quitaría el último asiento a ${nombreEn(t, p.ccaa)}.`));
 }
 $("#det-volver")?.addEventListener("click", () => { quitarDelEnlace("provincia"); mapa.sel = null; try { localStorage.removeItem("mi-provincia"); } catch {} pintarMapa(mapa.proy); });
 document.querySelectorAll(".conmutador.subvistas button").forEach((b) => b.addEventListener("click", () => { mapa.sub = b.dataset.sub; contar(`Provincias ${mapa.sub}`); pintarMapa(mapa.proy); }));
@@ -1784,8 +1789,8 @@ function pintarSenadoHoy(proy) {
 }
 function tipSenado(tip, p, R) {
   const r = R.porProv[p.nombre], q = ordenar(r), n = Object.values(r).reduce((a, b) => a + b, 0), o = ordenar(p.cuotas).slice(0, 3);
-  tip.replaceChildren(el("b", {}, `${p.nombre}, ${n} senadores`), el("div", { class: "fila-ult" }, ...q.map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombre(k)} ${r[k]}`))),
-    el("span", { class: "m" }, o.length > 1 ? `${nombre(o[0])} ${fmt1.format(p.cuotas[o[0]])} %, ${nombre(o[1])} ${fmt1.format(p.cuotas[o[1]])} %${o[2] ? `, ${nombre(o[2])} ${fmt1.format(p.cuotas[o[2]])} %` : ""}` : ""));
+  tip.replaceChildren(el("b", {}, `${p.nombre}, ${n} senadores`), el("div", { class: "fila-ult" }, ...q.map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombreEn(k, p.ccaa)} ${r[k]}`))),
+    el("span", { class: "m" }, o.length > 1 ? `${nombreEn(o[0], p.ccaa)} ${fmt1.format(p.cuotas[o[0]])} %, ${nombreEn(o[1], p.ccaa)} ${fmt1.format(p.cuotas[o[1]])} %${o[2] ? `, ${nombreEn(o[2], p.ccaa)} ${fmt1.format(p.cuotas[o[2]])} %` : ""}` : ""));
 }
 function pintarMapaSen(cont, proy, R, op = {}) {
   const colorear = (p) => { const r = R.porProv[p.nombre], g = ordenar(r)[0]; return { fill: g ? color(g) : "var(--linea)", op: 1, txt: g ? sobre(color(g)).color : "var(--tinta)", etiqueta: String(Object.values(r).reduce((a, b) => a + b, 0)) }; };
@@ -1802,7 +1807,7 @@ function pintarMapaSen(cont, proy, R, op = {}) {
 function pintarFichaSen(proy, R) {
   const r = R.porProv[senado.prov], q = r ? ordenar(r) : [], p = proy.provincias.find((x) => x.nombre === senado.prov);
   $("#sen-ficha").replaceChildren(...(r && p ? [el("div", { class: "ficha sen-ficha" }, el("h3", {}, `${senado.prov}, ${Object.values(r).reduce((a, b) => a + b, 0)} senadores`),
-    el("div", { class: "chips grandes" }, ...q.map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombre(k)} ${r[k]}`))),
+    el("div", { class: "chips grandes" }, ...q.map((k) => el("span", { class: "chip", style: sobre(color(k)) }, `${nombreEn(k, p?.ccaa)} ${r[k]}`))),
     el("p", {}, `${cap(elP(q[0]))} sería el más votado con el ${fmt1.format(p.cuotas[q[0]])} % y se llevaría ${r[q[0]]}${q[1] ? `. ${cap(elP(q[1]))}, segundo con el ${fmt1.format(p.cuotas[q[1]])} %, se llevaría ${r[q[1]]}` : ""}.`),
     el("button", { type: "button", class: "enlace-boton", onclick: () => { quitarDelEnlace("provincia"); mapa.sel = senado.prov; pintarMapa(mapa.proy); location.hash = "#mapa"; } }, "Ver la provincia al completo ›"))] : []));
 }
@@ -2084,6 +2089,7 @@ async function cargarDatos() {
   // Si falla la red en un refresco se conserva lo que ya había
   NOMBRES.forEach((n, i) => { const k = n === "base2023" ? "base" : n === "probabilidades" ? "prob" : n === "probabilidades_historial" ? "historial" : n; if (datos[i] != null || D[k] == null) D[k] = datos[i]; });
   if (D.europeas2024 && D.base) D.base.europeas = D.europeas2024;
+  if (D.base) D.base.coaliciones = D.config?.coaliciones || []; // uniones que solo valen en una comunidad (modelo.js, fundirTerritorial)
   // Los resultados no existen hasta que cierran las urnas. Pedirlos antes solo deja un error 404 en la consola del navegador.
   if (D.config && Date.now() >= new Date(D.config.eleccion.cierre_urnas).getTime()) { const r = await cargar("resultados"); if (r != null || D.resultados == null) D.resultados = r; }
 }
@@ -2147,7 +2153,12 @@ const VIS_ERROR = {
 };
 const VIS_PERIODOS = [["hoy", "Hoy"], ["semana", "Últimos 7 días"], ["todo", null]];
 const VIS_USOS = [...Object.values(NOMBRE_PESTANA).map((n) => `Pestaña ${n}`), "Usa el modo partido", "Usa monta tu caso", "Comparte la foto", "Abre el menú Más"];
-const visUso = (n) => ({ "Pestaña Hoy": "Vuelven a Hoy", "Usa el modo partido": "Modo partido", "Usa monta tu caso": "Monta tu caso", "Comparte la foto": "Compartir la foto", "Abre el menú Más": "Menú Más" })[n] || n.replace(/^Pestaña /, "");
+/* Nombres legibles para el panel. Lo que la app cuenta con clave corta (Y si enjuego, Provincias ultimo…) sale con su nombre de pantalla. */
+const VIS_NOMBRES = { "Pestaña Hoy": "Vuelven a Hoy", "Usa el modo partido": "Modo partido", "Usa monta tu caso": "Monta tu caso", "Comparte la foto": "Compartir la foto", "Abre el menú Más": "Menú Más",
+  "Y si mueve": "¿Y si…?, mueve el voto", "Y si enjuego": "¿Y si…?, en juego", "Y si pactos": "¿Y si…?, pactos", "Provincias mapa": "Provincias, mapa", "Provincias ultimo": "Provincias, último asiento", "Provincias tabla": "Provincias, tabla por territorio",
+  "Senado hoy": "Senado, hoy", "Senado mueve": "Senado, mueve el voto", "Senado decide": "Senado, dónde se decide", "Tareas todos": "Trámites, para votar", "Tareas correo": "Trámites, por correo", "Tareas fuera": "Trámites, fuera de España",
+  "Gráfica tendencia": "Gráfica, tendencia", "Gráfica carrera": "Gráfica, carrera", "Gráfica pct": "Gráfica, en votos", "Gráfica esc": "Gráfica, en asientos", "Gráfica partidos": "Gráfica, partidos", "Gráfica bloques": "Gráfica, bloques" };
+const visUso = (n) => VIS_NOMBRES[n] || n.replace(/^Pestaña /, "");
 /* De dónde llega una visita, dicho con nombre conocido. Vale tanto para la página de la que viene como para la
    etiqueta que se le ponga al enlace (…/elecciones-29n/?ref=instagram). Lo que no se reconoce se enseña tal cual. */
 function visOrigen(n) {

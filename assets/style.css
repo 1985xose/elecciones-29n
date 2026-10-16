@@ -1132,3 +1132,4 @@ html.pruebas .sello-pruebas { display: inline-block; }
 .sim-fila .esc small { font-size: .66rem; font-weight: 700; color: var(--gris); text-align: right; }
 .sim-fila .esc small.sube { color: var(--bien); } .sim-fila .esc small.baja { color: var(--mal); }
 @media (max-width: 480px) { .sim-fila { grid-template-columns: 68px 1fr 50px 32px 44px; gap: 5px; } .sim-fila .esc { padding-left: 5px; } .sim-fila .esc b { font-size: .95rem; } .sim-fila small { font-size: .68rem; } }
+.det-coalicion { display: block; font-weight: 500; font-size: .86rem; color: var(--gris); margin-top: 2px; }

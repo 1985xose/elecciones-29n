@@ -46,12 +46,12 @@
       "lider": "Santiago_Abascal"
     },
     "Sumar": {
-      "nombre": "Sumar",
+      "nombre": "Frente Amplio",
       "color": "#E5326E",
       "consulta": "\"Yolanda Díaz\" OR \"de Sumar\" OR \"Movimiento Sumar\" OR \"Sumar y Podemos\" OR \"Podemos y Sumar\" OR \"coalición Sumar\" OR \"Antonio Maíllo\" OR \"Más Madrid\"",
    "nombres": ["Sumar", "Yolanda Díaz", "Maíllo", "Más Madrid"],
       "lider": "Yolanda_Díaz",
-      "aviso": { "texto": "El espacio de Sumar ha anunciado que se presentará con el nombre de Frente Amplio, junto a IU, Más Madrid y Comuns. Aquí sigue saliendo como Sumar, que es como lo llaman todavía las encuestas, hasta que haya candidatura oficial, con candidato y listas.", "fecha": "2026-10-05", "fuente": "https://www.eldiario.es/politica/frente-amplio-deberan-decidir-proximos-10-dias-si-separados-elecciones_1_13561882.html" }
+      "aviso": { "texto": "Frente Amplio es el nombre con el que se presenta el espacio de Sumar, con IU, Más Madrid y Comuns. Va con Podemos en la Comunidad Valenciana (Compromís-Front Valencià) y en Canarias (Unidad del Pueblo Canario), y en Cataluña Podemos va dentro de las listas de ERC. En el resto de España van por separado. Las cuentas de esta app ya lo tienen en cuenta. Las encuestas lo siguen llamando Sumar.", "fecha": "2026-10-17", "fuente": "https://www.publico.es/politica/acuerdo-frente-amplio-elecciones-29n-directo-ultima-hora-negociaciones-reacciones.html" }
     },
     "Podemos": {
       "nombre": "Podemos",
@@ -163,6 +163,11 @@
   "secciones_fuera": ["deportes", "deporte", "futbol", "baloncesto", "motor", "horoscopo", "curiosidades", "mascotas", "naturaleza", "techy", "tecnologia", "ciencia", "salud", "bienestar", "gente", "famosos", "corazon", "celebrities", "television", "tv", "series", "cine", "musica", "ocio", "viajes", "gastronomia", "recetas", "cocina", "loteria", "loterias", "sorteos", "estilo", "moda", "belleza", "lifestyle", "juegos", "videojuegos", "tiempo", "el-tiempo", "meteorologia", "internacional", "mundo", "opinion", "opiniones", "editorial", "editoriales", "columnas", "blogs", "podcast", "humor", "promociones"],
   "titulos_fuera": ["vota en nuestra encuesta", "vota en la encuesta", "vota en esta encuesta", "participa en nuestra encuesta"],
   "verificadores": "(site:newtral.es OR site:maldita.es)",
+  "coaliciones": [
+    { "ccaa": "Cataluña", "a": "ERC", "de": ["Podemos"], "nombre": "ERC (con Podemos)", "desde": "2026-10-16", "nota": "Podemos no presenta lista propia en Cataluña y va dentro de las listas de ERC." },
+    { "ccaa": "C. Valenciana", "a": "Sumar", "de": ["Podemos"], "nombre": "Compromís-Front Valencià", "desde": "2026-10-16", "nota": "Compromís, Podemos y Esquerra Unida van en una sola papeleta. Aquí se suman los votos de Frente Amplio y Podemos." },
+    { "ccaa": "Canarias", "a": "Sumar", "de": ["Podemos"], "nombre": "Unidad del Pueblo Canario", "desde": "2026-10-16", "nota": "Nueva Canarias, Podemos, IU y Sumar van en una sola papeleta. Aquí se suman los votos de Frente Amplio y Podemos." }
+  ],
   "escenarios": [
     {
       "id": "pp",
@@ -185,7 +190,7 @@
     },
     {
       "id": "izq_socios",
-      "nombre": "PSOE, Sumar, Podemos y socios de 2023",
+      "nombre": "PSOE, Frente Amplio, Podemos y socios de 2023",
       "partidos": [
         "PSOE",
         "Sumar",

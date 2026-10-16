@@ -64,6 +64,13 @@ Senado: `data/config.json` > `senado` lleva los senadores que designan las comun
 
 Polémicas (`ordenar_polemicas()` en `scripts/noticias.py`): solo las de los últimos 7 días (Google News cuela cosas de hace meses aunque se le pida la última semana), apuntadas al partido al que afectan y no al que las denuncia (`papeles()` mira si el partido va detrás de «investigar a», «condena a», «pide a»… o si es el que denuncia, pide o ejerce la acusación popular), sin titulares repetidos, con una sola por historia y partido (dos titulares del mismo partido que comparten dos palabras propias) y como mucho 4 por partido. El log dice cuántas se quedan fuera y por qué.
 
+Versión 64, las coaliciones del 29N:
+- El espacio de Sumar pasa a llamarse **Frente Amplio** en toda la app (`config.json` > `partidos.Sumar.nombre`, la clave sigue siendo `Sumar` porque así lo llaman las encuestas y Wikipedia, y `wikitabla.py` ya traduce «Frente Amplio»). El aviso cuenta con quién va en cada sitio.
+- **Coaliciones que solo valen en una comunidad** (`config.json` > `coaliciones`, cada una con `ccaa`, `a`, `de`, `nombre` y `nota`). `modelo.js` las aplica en cada provincia de esa comunidad antes del reparto (`fundirTerritorial()`, dentro de `proyectarProvincia()`), así que valen igual para la app, para el simulador del robot y para el Senado. Registradas el 16 de octubre: en Cataluña Podemos va dentro de ERC, y en la Comunidad Valenciana (Compromís-Front Valencià) y Canarias (Unidad del Pueblo Canario) Podemos va con Frente Amplio. Compromís y Nueva Canarias no tienen dato propio ni en 2023 ni en las encuestas, así que ahí se suman los votos de Frente Amplio y Podemos y se avisa en el detalle de la provincia.
+- En las vistas de provincia (tooltip del mapa, detalle, último asiento, Senado) la lista sale con el nombre de la coalición (`nombreEn()`), y el detalle lleva una línea con la nota.
+- Con la media del 17 de octubre el cambio es de un asiento en Barcelona (ERC 5 › 6, Podemos 1 › 0) y uno en Valencia (Frente Amplio 1 › 2, PSOE 5 › 4). En Canarias no cambia nada. PP y Vox siguen en 200 y la izquierda y sus socios en 144.
+- El panel de visitas enseña los usos nuevos con su nombre («¿Y si…?, pactos», «Senado, dónde se decide»…) en vez de la clave corta.
+
 Versión 63, asientos en las barras de ¿Y si…? y del Senado:
 - En «Mueve el voto» (Congreso y Senado) cada fila lleva, además del porcentaje y su cambio, los asientos o senadores que saca ese partido con el cambio respecto a hoy (`asientosEnFilas()`), y bajo el hemiciclo va la leyenda con todos los partidos (`leyendaArcos()`), que los pequeños no caben dentro de los arcos.
 
