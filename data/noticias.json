@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-17T22:01:53+00:00",
+ "actualizado": "2026-10-17T23:01:54+00:00",
  "generales": [
+  {
+   "titulo": "Un 'procés' para el 29-N",
+   "enlace": "https://www.elmundo.es/espana/2026/10/18/6ad3a4b1fdddff6d168b45ab.html",
+   "fuente": "El Mundo",
+   "fecha": "2026-10-18T00:07:06+02:00",
+   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/17/17922551290303.jpg"
+  },
   {
    "titulo": "Elecciones generales del 29-N, en directo | Pedro Sánchez está convencido de que van a ganar \"con una mayoría más amplia que en el 19 o en el 23\"",
    "enlace": "https://www.elespanol.com/espana/20261017/elecciones-generales-directo-ultima-hora-pedro-sanchez-voto-correo-actos-precampana-pp-psoe-vox-frente-amplio-encuestas-espana-2026-partidos-sondeos/1003744423839_10.html",
@@ -14,13 +21,6 @@
    "fuente": "ABC",
    "fecha": "2026-10-17T22:23:37+02:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/fotonoticia_20261017183647_1920-RU5GecIqhhziNtwLFSYvixM-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "Las Cortes de Castilla y León despejarán de plenos la campaña electoral y fijarán para el 10 de noviembre el debate de totalidad de los Presupuestos",
-   "enlace": "https://www.larazon.es/castilla-y-leon/cortes-castilla-leon-despejaran-plenos-campana-electoral-fijaran-10-noviembre-debate-totalidad-presupuestos_202610176ad3c5bd6e8df44596b45d4d.html",
-   "fuente": "La Razón",
-   "fecha": "2026-10-17T21:00:13+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/17/70DA2B7C-8FC5-4021-85D3-309D6000DB77/ultimo-pleno-celebrado-cortes-castilla-leon_96.jpg?crop=6000,3375,x0,y265&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
    "titulo": "Rufián se disculpa por el \"ridículo\" de la izquierda y pide el voto \"aunque sea desilusionado o cabreado\" el 29N",
@@ -116,11 +116,17 @@
   ],
   "PSOE": [
    {
-    "titulo": "Sánchez presume de pacifismo, pero ha solicitado ya a Estados Unidos armamento por más de 7.100 millones",
-    "enlace": "https://www.abc.es/espana/sanchez-presume-pacifismo-solicitado-estados-unidos-armamento-20261017202206-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-17T22:38:44+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/1501854170-kZQF-U302290685045S3B-1200x840@diario_abc.jpg"
+    "titulo": "Una notaria sobre los préstamos de 50.000 euros que promete Sánchez: «Sólo se concederá a personas que compren su casa mediante hipoteca»",
+    "enlace": "https://okdiario.com/economia/notaria-habla-claro-sobre-prestamos-50-000-euros-que-promete-sanchez-solo-concedera-personas-que-compren-casa-mediante-hipoteca-20523531",
+    "fuente": "OKdiario",
+    "fecha": "2026-10-18T00:20:09+02:00",
+    "imagen": "https://okdiario.com/img/2026/10/12/pedro-sanchez.-imagen-de-europa-press..jpg"
+   },
+   {
+    "titulo": "Fracasa la unión a la izquierda del PSOE",
+    "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZk5CQ2NRdVFFRVc1THRkcmd1RmNrZW9KVGZSNkhBOHpIVlZFLU1OdVpoSnY3WE5DSmtheHNpNFBpREtZX0VybS1JOURDZnVoWFRZcmtCY2hsYllPS3kwTkstSzhSVk1Zc09ramhwTWtycjZxX1JnZVFhWF8zOXlJQ3M5VXB6cmNaaTdRZ21yc2FzUdIBlwFBVV95cUxNeGE0enJ4Z2lxRnJQekZ0RDYwdDRndUdrY2Nrak5XQzlmajRTSXBjdGpxelk4WXU0dXMtZ0xEYUJrdzZ2eFc1VWU0SlkyVEtLbm03QzlWeTBPMzhJWUMzY0xXWXRjYnFISG5hYmpHbVlCdk9CQ2stR1ExRkREYk9fa1pxazk0Wld2REZ0Rzh4UmZsbXZnaTJ3?oc=5",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-10-17T22:05:00+00:00"
    },
    {
     "titulo": "Sánchez pone al PSOE a bailar al ritmo de Begoña Gómez para voltear la campaña",
@@ -147,12 +153,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdDMxN0hpQlZzUThXSzdubmxxUnF1a2N5czgxS2plNkFzOHBMSG9VbTVjcnBHUTFoUEpSN2MxNlFQZ3prWEFvaFJXNHVuYUh1YmZiRHcwYUo0UWFaNkpaaWh3VEh3ejhCbTlqQmRaQ3A3Z0JhaUloSFBQMGVzUGlaR0MwZGpHRlhnVy1MdHFGYjZhbzBwY3ZlT1pWWXJFVVNrT0F0UGhKc2VFSnhzTjVMY0pFTUlUT3Uxa1hIc1EtamxKSjFuSkNaV21HakpKd0U?oc=5",
     "fuente": "101TV",
     "fecha": "2026-10-17T18:03:00+00:00"
-   },
-   {
-    "titulo": "El Comité Federal del PSOE ratifica la lista de Castellón al Congreso",
-    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcWlZV0F1VTdkUUtJMXNzbWRzMFVsa3hpTThVZG5xaTZDUlBJZWRLbU9rRHRwcndMaFpuRzVybnByTkJFQlE1SjU2WWlFanhBQ0l0bkNUMWgwSTFLa2JQRDZYdVRuRXMxcmhZWkxWdzRubkM2TzVtRWpVcW40RWo0ekxfUHd0UzlDdWZJQVoyb1pYOE1YM01lUE5NRmMyNm9oRFFDMVRRTWl4UnBuQ2R2VDdhNFl0d3kwNzNWQnV6T1dqSWpVdmxEeGZqVjNzMXNralBqRXIwNU1IUERtN3fSAeMBQVVfeXFMTXBIOGhERnRXS0lmVEtZcmVEU2VvUEpCdTVmR1ZrLVF1SnJMMUJZYnRIM2NwRXRrcjdHbE1DNGRJWTBIbWxqYzFtUmRMejBYMmpaXzJERndWV0ZmWGw1MXprYklEYXVmMGl3anF5dGdoUGVFQXRScGowaVotUERKaEUwTU1kZ0xoTG1xTDdleDY1VVQzZFpUVEFSbjBKNENwS2t6bm1vcjBOTWNtNEJ0YXJPcF9lek5KTzY4OC1UM09jODRJYUYtV25fdXhYSjZBd1llRXVneEN5TXNkLXQ0ZnJBQVU?oc=5",
-    "fuente": "El Periódico Mediterráneo",
-    "fecha": "2026-10-17T17:39:07+00:00"
    }
   ],
   "Vox": [
@@ -161,12 +161,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQmhicGlFVTA4ckJ2UzFLZW1FOEF0VGdxZU1Xc21BMDRiVnhQTkNWVjhtcXdpY0t1MmNsa0w4ZmFUbm91YzJYYjJHazlCbFV4NlVEemM5dXhCUmZJU0RUN3NvWThnbU84NHd5UnotU2l2NGswdWttRUlRX3F3VnVyX0ExcFVRUGtiMk1ZcnpQdURzU0pMWC02SEFNU1NRX05HMVpkTElkazZGelVrbGdkaE13TFFENDJZb09hYmU3aEgyVnJpTlJoMl9uTEJJR1NGSkhHeG8zRmZpT3hsZGxB?oc=5",
     "fuente": "PressDigital",
     "fecha": "2026-10-17T19:49:00+00:00"
-   },
-   {
-    "titulo": "Asturies Antifascista convoca una concentración en Avilés contra la visita de Abascal",
-    "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOTFHZG8ybjFYVUlpcTBkbHRLQlFFSHBIemtPVnF0LWNaTzJCcDBXQmIzbmU5QkI5cTZFRTdha0dFelNVVUdRNXktUV9FaGNXLXVwRWZaS0x3ZkNXNG9tQmFiM25xVHVKSWdoTno5ZHVsRHIwSkkwdnpqRE5RRi1HUDZ4OGMwZklDVlRlOXhMR0VudmtMTldRdDByRmFjQ3pDSktiMDF2OXBPa3VjMGhMcXpnS3NjUFhjWUsw?oc=5",
-    "fuente": "Nortes",
-    "fecha": "2026-10-17T19:45:22+00:00"
    },
    {
     "titulo": "Abascal anuncia que Vox «actuará con altura de miras» tras la coalición del PSOE con toda la izquierda para el Senado",
@@ -183,16 +177,23 @@
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/17/6ad3accb82d3b.jpeg"
    },
    {
-    "titulo": "Abascal desafía a Sánchez ante el 29N: «Haremos lo necesario para que España sea libre»",
-    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaGw1SDY0Z2lOdDFwT3c0ZC1IeXoxQTU1UF9rWElFcjJYeEJCcmhZU25MN1ZjVWo5VkRSNEF3Y19JbzBYc2RxVkduWko2eUcwZnJOeE1rd0VTMHdLWThLLV82VVlnR3d5NDV2R05nRFBVcFdWaHN6cmxUaXlQLV9KaWpGbjE2aGxaUmpGaFFlYnFELUFsU2Z6UXlWR1J0SVhKRGxTVUJPcF92VFlUaUF0TnJtaWM1U0FfWE5yRmotUmdoa2hhMUxjLVllcnk?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-10-17T17:32:00+00:00"
-   },
-   {
     "titulo": "Las matemáticas del Senado: el reparto de puestos entre PSOE y Frente Amplio y la incógnita de PP y Vox",
     "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNajlwWTBmTFpocDJqV3QtR0k4V0pjV3Fwa2tVaEFVbmwzT0M3MWNPWlM4alZNNDMtZEhKZFA2YjBTSmF5NTNWdHRqSmpxY1dQXzdjeXZ4ZXF6TF96TjhjX0FBVnpuVlpYa3ZPcU5kZWlZUW5haDJVMk5wTk0tRjJ0VzhFRk5DZXJycXRITUVBQjQzWFJ6MTU1Qm9oNF9lbUM1dFJNZU5QMHpmMlFqZmFtVUV3RkREZ2dUVERScjlqeUcwUzRSbno2RkVn0gHPAUFVX3lxTE1PZ2VRMG9nSUYxRHJ2ckZEUVhXUThXb2xwMjR5cnBGQkZXNkRIbF9lQm1RNmg0Y05wcE9WTl9FM3o2TDNVdUVpNldOUjhqSmZ1dEoxQ2pkVUNfa0hnbGRZZTBzNFpTYnNSZkZrbnAzUHhkSGcwVXpxX0M1d1hROGpid0lNU1EwRkhZSm5KV0ZMSHpHTnE4azF1RXlWd1lLc0lDQVNrQktXWjdtTDVTRzlySzJOMWMtTVVmbFEzNWpjcEt4R083VUhva1dQTmxpQQ?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-17T16:57:37+00:00"
+   },
+   {
+    "titulo": "Abascal visitará Palma el sábado 24 de octubre por la precampaña electoral",
+    "enlace": "https://www.eldebate.com/espana/baleares/20261017/abascal-visitara-palma-sabado-24-octubre-precampana-electoral_470804.html",
+    "fuente": "El Debate",
+    "fecha": "2026-10-17T16:44:34+00:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2023/07/14/64b1b935c5a17.r_d.803-294-0.jpeg"
+   },
+   {
+    "titulo": "Vox baraja dejar vía libre al PP en algunas provincias tras el pacto de la izquierda para el Senado",
+    "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaEFkVXZFdjlId3FZU0pmOUoxS0x3Z0VsSXBWWi1SYlFUeVJmRHdjd1NmOVdRVXpmdFJnWVZiVkdPZ1ZmbXlFX0trMkdIdWU3ZEZKRWRpRldCVUltNVRxdFBfeWRsTml1Y3dyRFFFangtN3QxaEE2RTd3dzJfMjRTNkNXb29LS0ZCUk4xaWR4VGdKS3l5NnM0VUZOQTRTUHcxanlEQ1BUR1RNRGZEQlFIRFZLWWJ2c0l5VHFFZ3JrQdIBxAFBVV95cUxPY2Q2c05pZkotVU12LXBEbk9sTTR2U29najdMX05QWHZFdXVfanBrX1g2OVlSRlhzX09aY2hFZndqY0dqM0lMRm82dkExRUtqWHpjeGVQUEZoUlpsSjY3WWFFXy11T0JjN0VYUm9rdUthNmJ2VkROdmZpVG50enR4VFFOUHJoWnhJMDdUcEpEMkYxVlNzVmhfVFJMMi1McENGVTFEbTczM2VDUjctLXFGN2dock5LaXJ5Tld6TWdjSE1SLTRv?oc=5",
+    "fuente": "Elplural.com",
+    "fecha": "2026-10-17T15:47:00+00:00"
    }
   ],
   "Sumar": [
@@ -364,7 +365,7 @@
     "fecha": "2026-10-17T17:22:00+00:00"
    },
    {
-    "titulo": "Convergents decide concurrir el 29N y rompe el acuerdo con Junts para las elecciones municipales",
+    "titulo": "Convergents, de Germà Gordó, rompe el acuerdo con Junts para las municipales al no repetirlo el 29N",
     "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMmEyeHlhMnY1RWk1dEQ3UjNzcl9BYmdCNTZsQ0RNaExGNi02ZFNQeGNkaVdHcFR1ek5jVFBoV3o3VU1adVY2TmNOMmNwV2VYeWJlRGJ2UTM1RFVGNjJGWHF4S1B0NVVJckt3azJiUzJaeElpQUo4VE00V3RUTWhETmRuODZpMzRHUGpsMVIzYXVWbHJYejFHYklCRmo1RHFnZTZyZXVyeFdxSzJqTXdocmdpYjhINkxXTm9RdHpTX1AtRHBfZi1rVXpoM2JHYkF4?oc=5",
     "fuente": "El Nacional.cat",
     "fecha": "2026-10-17T16:54:00+00:00"
@@ -514,16 +515,22 @@
   ],
   "CCa": [
    {
+    "titulo": "Yaiza Siempre, MRT y Compromiso por Haría se unen a la alianza de CC y Primero Canarias",
+    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOczNLX1BjUnZqQkFrM2JkQnY4UUw4VXNxd2pJVGEzV0d6MWtvUkctQ3hEN1I3b0gwNl9YcTd1dTdTLVJkNmlWZlY0RldBc3FuQ1ZQYWE4UU1uWnhJT0pZNTBUaVIyaWI3OTd1c3dPaXJlR21LalhmU3dlNzFsSVdMZkl4Q0hkSHlIVWVPOU5BaFFCZ3ZSeFlpNDNWa2p6Mmp5azd5VUUwdkJwQTNQZmRBd1RZTFhidERYYzNpNW5Kczg1UGxnUWM3bEhCMVdtWjhMLXhpRDN1UTRmUlnSAeABQVVfeXFMTnJfM0dzeVA2RlBvSEgzTkdFeWRvSEVQVW4wT0NPTmdLOU1QQ3ZCV2NlOHh4WnNaeTdvd3B3blVybXNfc05BcTNXaC1HZlBZb1Y5LWlhT1JJVGd1WGpZcG1ZOUxLT1U2QUp2YzZIMElNZlNmSkFfMW4wZmMzejItM2w1cU9wTFk2VlhIQTA0VnJUb0p2S2ItWExkV1ZtNURKalFQd1VjZENJZlJBZkhUM0VzcDJMTFd2RVlieTdldHpWdHc0bTFyblF6elRFOHZOSmZ6T1I3VHF1MWdwaXY2MXo?oc=5",
+    "fuente": "La Voz de Lanzarote",
+    "fecha": "2026-10-17T21:25:36+00:00"
+   },
+   {
     "titulo": "CC y Primero Canarias sellan una candidatura unitaria para las elecciones generales",
     "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPWjJZT0JDbk5CaEhzbEtKdi1jZlREbWpibFlXTkV5cWlOck1YRVJfclJLY3YyWURETkJzUzNQMjZadndud2RZRXlsRjRFSGJpUDROamQ5Q0FKN2d0b09JU3Rwc3hjdmpwdGROMTRWd3d2VGptT0R0aWU4d29OejYxeWsxSTBVY2tiUjhBT18zX1FoNndoNGlwalpmLTdOU1FaOS1XdXAzRVNWRUFWVDZBb3RZRTl5RlNFQzZ4YTg3V1poVE9NdlJPeEZvTzk1X2l2M3BuSXNpdTNDaW9vbXNhYW8zZ0k4aFVzYjlENnBxRFVIZFU?oc=5",
     "fuente": "SOLACTUALIDAD.COM - Maspalomas",
     "fecha": "2026-10-17T18:55:34+00:00"
    },
    {
-    "titulo": "Yaiza Siempre, MRT y Compromiso por Haría se unen a la alianza de CC y Primero Canarias",
-    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOczNLX1BjUnZqQkFrM2JkQnY4UUw4VXNxd2pJVGEzV0d6MWtvUkctQ3hEN1I3b0gwNl9YcTd1dTdTLVJkNmlWZlY0RldBc3FuQ1ZQYWE4UU1uWnhJT0pZNTBUaVIyaWI3OTd1c3dPaXJlR21LalhmU3dlNzFsSVdMZkl4Q0hkSHlIVWVPOU5BaFFCZ3ZSeFlpNDNWa2p6Mmp5azd5VUUwdkJwQTNQZmRBd1RZTFhidERYYzNpNW5Kczg1UGxnUWM3bEhCMVdtWjhMLXhpRDN1UTRmUlnSAeABQVVfeXFMTnJfM0dzeVA2RlBvSEgzTkdFeWRvSEVQVW4wT0NPTmdLOU1QQ3ZCV2NlOHh4WnNaeTdvd3B3blVybXNfc05BcTNXaC1HZlBZb1Y5LWlhT1JJVGd1WGpZcG1ZOUxLT1U2QUp2YzZIMElNZlNmSkFfMW4wZmMzejItM2w1cU9wTFk2VlhIQTA0VnJUb0p2S2ItWExkV1ZtNURKalFQd1VjZENJZlJBZkhUM0VzcDJMTFd2RVlieTdldHpWdHc0bTFyblF6elRFOHZOSmZ6T1I3VHF1MWdwaXY2MXo?oc=5",
-    "fuente": "La Voz de Lanzarote",
-    "fecha": "2026-10-17T18:33:30+00:00"
+    "titulo": "Coalición Canaria, Primero Canarias y una veintena de fuerzas sellan la unidad para defender Canarias en Madrid",
+    "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPRWdxZnRHMDdWcVl1aTh6UDB4Ri1pN1d4MFBKN2tEOVJHWTJIRVlwdjR2WXFIWDBKVjgzcGNqSjl3T2RUMlFBQndMSTAwb1o0NzBPSF85UmdjR3V5cmJyaEl6RVU3TGU5VHFZc2p0UF9GdmxtS0c3ZjlhTFFuelFkQUVxVWJkOHVKZ3FBdXZQR2pTd1R6dlNJalRkVU44WGw2Ym1IN201OHBNWmRfazNRQjZwVWZBcktjeW1jLW55dWt5a3FTYlFXYlhoSVVWZmJIUkZpWUF5UDEzRE5DcDlPY1I0RmZjYzAtUjQ4YmdyaTRNTEQwc21xU2x2RVE?oc=5",
+    "fuente": "Digital Faro Canarias",
+    "fecha": "2026-10-17T18:35:08+00:00"
    },
    {
     "titulo": "El PP canario frena el plan de Coalición Canaria de vetar la venta de casas a no residentes",
@@ -542,12 +549,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT0cyTVhDWjJGbWU0Zl90V0lQenVjbnJJYm5KSEVGY3Z1RlRXNmVpWDBSQ0d4VlBxbldpT2JqZ2ZBcWwwbXJCUU1FX29MekFaNEJ3ejBYUnNxZ3pjYkhjcUp3ZjNfMEFNOHJkMGtCX2ctYU1oZzJYV2FjY3ZFX1AtdE1mR0d2OFd6YUI3N2xyR0JwRy1IMTQwVDcwTkluanVYQmpwZUNaTXd6WTY2TmtEQjhpakZrV3Q1YnFKX2VCZTlHTXEwbFB2Wk0yLUVIbUZkNmtITA?oc=5",
     "fuente": "Biosferadigital",
     "fecha": "2026-10-17T15:50:59+00:00"
-   },
-   {
-    "titulo": "Coalición Canaria, Primero Canarias y una veintena de fuerzas sellan la unidad para defender a las islas en Madrid",
-    "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZU5kNDNmcTk2X1hRVU12bjdxSzRjNzIwMm5XR0FlSHViU0s5LXZmSWFsRnRweHFST2p2RnJVbnVSdUlGU1NzOG0zeWFCenVVNTFCWjRDelNrbnlUSmtnWDBncVJnLTEwU0JxeDdHWGlsM0R4VnhLZUJkSEwzQmxBUkNjV2MzV0poUk1TSkN5bFoyelZuSU9BaW1WUXhJTTZzOWNGRENDcG5Db19YLXlrM004bGtDc0lxS0ZoZ084dWxKRmtHZm1LSnh4dFlpVmgxNVVlWHFvNjNGdEJFN1dwNmdYSHdkMlRnWmI1MEdWNTNhaUtFc280MUJn0gH_AUFVX3lxTE5mc2ZJZHZ1OFAyNzd5TlZBU1BSd0pNbWJuS2FnMmstTjNXUVRHTXpqc1BGdlFXYWpjWnNjZTJDb0JUc3pYRFpQa1dOa2NMUDNfT2VVenFZX1RYUDlUMVlORjRGamhLTkFWTUExZ0YxV1d1ZjUtUzU3SXlQTi1HeVRmb0M4QzI3ZDUxNi1ScUJZZjFwbF9SMmljMlZDQ0VXOEdNV2VIWlR5eTF5YlFOa0dxeWlpVFlOYVRNQ184c1hDMkl1aFYwSE9zNERnVHoxWl9ObDN1Y1dMT0YtUm5VLWFrclF2WjNqY3JZWDM2amd2WGRyWXlZVXlaTlRWeUhDNA?oc=5",
-    "fuente": "Crónicas de Lanzarote",
-    "fecha": "2026-10-17T15:18:50+00:00"
    }
   ],
   "UPN": [
