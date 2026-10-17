@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-17T18:02:01+00:00",
+ "actualizado": "2026-10-17T18:30:02+00:00",
  "generales": [
+  {
+   "titulo": "Perder o ganar",
+   "enlace": "https://www.abc.es/espana/castilla-leon/perder-ganar-20261016200641-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-10-17T20:06:41+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/16/JAIME-GARCIA-RfYHObmeaQKbd8AjSIgjDmJ-1200x840@diario_abc.jpg"
+  },
   {
    "titulo": "Albiol encabezará la lista del PP por Barcelona para el Congreso el 29-N",
    "enlace": "https://okdiario.com/espana/albiol-encabezara-lista-del-pp-barcelona-congreso-29-n-20572766",
@@ -14,13 +21,6 @@
    "fuente": "El Español",
    "fecha": "2026-10-17T19:30:00+02:00",
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379939.jpg?p=w:1706/h:960&h=7gMZNTiG"
-  },
-  {
-   "titulo": "Iustitia Europa pide al TC que no admita el recurso del Defensor del Pueblo por la 'ley de nietos'",
-   "enlace": "https://www.abc.es/espana/iustitia-europa-pide-tc-admita-recurso-defensor-20261017185730-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-17T19:27:41+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/TribunalConstitucional-RetlTAlKoVv6dHVQiHwBf0I-1200x840@diario_abc.JPG"
   },
   {
    "titulo": "Las diez píldoras del día de la campaña electoral",
@@ -136,6 +136,12 @@
     "fecha": "2026-10-17T17:39:07+00:00"
    },
    {
+    "titulo": "Rebeca Torró sustituye a Montse Mínguez tras su dimisión como portavoz del PSOE",
+    "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbjUwTEx3dXVpV1g0WXdFVmd1aFJkRWZXaVh6QVRIbzRURUVpUzloNzRhS1doZElkYk41QUNyVU9qeDZDTkVZUkdkajNhbmE0cVdlUk5wR01QbGcxTFlWdlRYZ3JRTzU5ei1tSHVXdTNSVmZUUVd6eHpHZDUzQ002dFgtOUdIVEpCa0dMdEJ5RlJ2ckN6WWlfbC1zUVdBcFB5VWRlT1c0ZlppQVNhcnlfckowY1h4d01aZlVqNUtXRE1wZkExTWdnS2NpY3JmMlRDdEd1LU9ycFlyUW00SzlVQ25n?oc=5",
+    "fuente": "Onda Cero",
+    "fecha": "2026-10-17T17:28:15+00:00"
+   },
+   {
     "titulo": "PSOE y Frente Amplio presentarán lista conjunta al Senado por Granada",
     "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSVFDZ01zY1M0UUtCQlBRajloWUI3VXNYX1FEbjRBWGdKZ2l4NGFXbFFLOXQyaWRJaGhZZkZOaEVoVW9vb2dwdEdTZmx1aV9YM09ra3ZQSG9OV0R5cXYxNU1hVnpwUy1EVVlwNHVBWS1tY2NkWXN4bHpncW50d2pvUW9yNXpIb09GR1lUalN4VnUwekJCRm1SOGhLQ2NtZFI1dGhmWDMteEp0YVBEdHV1RXdn0gG3AUFVX3lxTFA3ZGxnMTZ2Z1Foa0s1QS1TTEx0UEZidlVlQ0JxMjd6SDhQRXh1NjlkcTRqZjloOUF4dFBYOUozVWpRN0tuc2djZDUwT1hvdkptd0h5dzU2MjhhOWtVc0JzSG1mc3pXU1FBSWhDOGxKUDh2QnNkUmZxaUltQXk1SlVFWm8yODJYWmNUUFJlTjlNNUwwZUJXZTFRajZhbTNBWnVwV3l4Y1lzUVZrNF9abkRBS0VqaEtrdw?oc=5",
     "fuente": "Granada Hoy",
@@ -147,12 +153,6 @@
     "fuente": "La Razón",
     "fecha": "2026-10-17T17:10:08+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/08/28/90D3D165-81DD-48D5-AA7A-636766C15EC0/96.jpg?crop=1920,1080,x0,y97&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "El PSOE de Badajoz avala los cambios de Ferraz en las listas: \"El proyecto va más allá de las personas\"",
-    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRDV4RllBNFNuQ0ltYTFnUlhBaWxWc2lmMmFoQVJTVENfRG04TXkzVEJTX3RWYjA1RjJKQkRLYUs1eExsTmRpaXc4MTM1ZkxLSDZjVmlOMmRyMUhhZnlDNWFRWU1LTFdDemZlVFZWcGl2NjZRTHh3eDZJcG1WSlhOczI3SVVmR2Z6Q1ZlUC12YUk3TXB3djg1M3R3aldva2pObDYyVzREeFRXM2VWak5r0gG0AUFVX3lxTE1XTnFIc1F5YUZVS2pWOXBBb1Y1bXJNVkktN0xIZEFqV1lJX0dhS0owR0tVZjBWRkVHVWZqNGVpTmVNelNpLXB4ek5HN3NPYVNiQ1pRTGNGcV9Db3R4TzVNNHREeFhRZnp5c0N5TXR5SWhtaXRZTUpRMEk5eHhLSVF6eHl0em1rVVY3MnFBdDFVUUpfZUVENUVWMHFjX3hmZ3JoS281TFhFVEtTUmZZUzFUVE5LbQ?oc=5",
-    "fuente": "El Periódico Extremadura",
-    "fecha": "2026-10-17T16:58:52+00:00"
    }
   ],
   "Vox": [
@@ -591,10 +591,9 @@
   "AC": [
    {
     "titulo": "PP y Vox se disputan en Cataluña el voto de Aliança en las generales",
-    "enlace": "https://www.abc.es/espana/pp-vox-disputan-cataluna-voto-alianca-catalana-20261018165803-nt.html",
+    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOGhyVFZhN3VTZ2tweE9ZSFI3OHFIblhZaktjaG0xdzl5RDBsbHVoSF9sMlhnRDUzUDB0Y2otczFYSnEzX1hDaWx3clEtdElDM1hOWUx5eGhhcWhOUjU3Q3lzUVh3VUxZamNnM0s3T28wOUxEYVpmaHcwWWRESjY2UFlJcndpb0Q4LW9LX1QwVWZLeXo1bGhnSG9yWdIBoAFBVV95cUxPSHBYbXNTRndESkY3QjZZbjJnbnYwLUhTNDRjN25HdnRGbjc2VTlSNmxseFRlNngta2szcF9WbUkwV3RjOUdqVWVyT09PTWs5NnZvWTMxRHA1Mzl3QlFOZlUtcURKOUtFSGlCaXlKblo5bURsdF9IRDdJV0pVVFFCZkd4QVp2Y2VWTWNGaG5MTGN2el82elFKTUw2cHU5V3Q4?oc=5",
     "fuente": "ABC",
-    "fecha": "2026-10-17T18:13:23+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/18/1467321996-Rbs5ZEhVYygibWGijB2OppO-1200x840@diario_abc.jpg"
+    "fecha": "2026-10-17T14:58:03+00:00"
    },
    {
     "titulo": "Conversación con Jordi Aragonès, de Aliança Catalana: «Soy un facha»",
@@ -833,10 +832,10 @@
    "partido": "ERC"
   },
   {
-   "titulo": "La ruptura entre el BNG y el PSOE en A Coruña llega a la Valedora do Pobo por falta de transparencia",
-   "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbWRKNmlrdzhVZ1I5a2luMFZybFBqalAwRkN6WllqN19OcnNmTXRXSk95ZmpKVFlUWndfVWVidWNRYTh5ZUtjWWVHeUFxQWg2V2xQY2xxVmpGbHh6TEw0eEM1SzBudU9JdlVxbTZRU0hqdlFNdmVVNUpSQlJQVGJ2T003SzhOcGZYVnNKMmdLMWM2RGRrY0plemJsMEJOdGQxNHBWTE1leEpvUHhJeUkzVXFKSS1YbVlBelRDVTNfNnhrdkN4N0V5ZEI4NkNXREVwMHA2Ql930gHyAUFVX3lxTFA2WGFrbVpQaGxKYVNHdzJhTnNjZklwaGRITkNkZUthUldjNkVTbzRxM3h4NG1PVGRRRFg1a1FERWdVOWtJdjJ2R2Vkbk92R2h5eExLUjZKSTlTQnlTbGRaWWhuZkRkQVRLcjBIaHpTVkNIZmNvaXdsT2V4eG5BQ1lFc3dCMmxMMHJTLWN4bWRUaDNDdkd3NllON0l5TzliNzlfcmppeVhLOEFiVmRocnlrdHZNYndsRzJRUUkwMnNtTkJmTG9sTUhHZ1dleUt0ZTFmSVQ1TDBrcDRiS2JSUWVCS0hLZm5seFZXcUlZMTBUYnB3?oc=5",
-   "fuente": "La Voz de Galicia",
-   "fecha": "2026-10-17T03:01:12+00:00",
+   "titulo": "RDC: en España renunció la portavoz del PSOE y crece la polémica por la acampada en la Puerta del Sol",
+   "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcjlSUUJiajNwbmRSNnpnaDlGX3Y2eFI3clpyenpZVkkzX09TLVk1ZlZ4b3d3UzR5bDBueDVhUm1PSzlWdkZGQ3J1aFBQbS1acVF5eHpVcUp4LXhuT0tFVjFYdVBHQS1Qem9zbzZ6MWpCYktkcmRuQVVkQU9XcFhTTW5RVXd0NGdZOWRoLWE5c3pUYXZlb1FrMTRNMFNEUXpPWm9PZzMySmVNM3hHNW5TMmt3OGFVT1BxTTFMYXp4S1hIUkJhT2wtUWJaSWc3emtfSmZveVprNENfM1o0MUdlNVZR0gHnAUFVX3lxTE5VRl9aSkpyOUdWdU5Wa08zNlpmVldUVHVqUVc0UlJVNk10bmNTT2YteVZBa1otaFNGNWNieUotcGlCNnJyOUJLbkI1bTJHVXQyTGF1WDdZOXZhMXJJcWRONF9tOFBfNHlRcDFSTXZNUDFIdDVFYVdCU2JPdXpnNmJtTU8xT2FOZUtEcnFJdndUZzE2TDNtTWptOUJFNEdTZDJNR0RzUnllMXdpa3YydHk3RzQ1U0hqT09KMnJPanNfV09RYkVPRmpRUXdsWWFUZmtqNjlWMHY5RU0zcVo0S1doc1NUbGFpNA?oc=5",
+   "fuente": "Perfil",
+   "fecha": "2026-10-16T22:03:42+00:00",
    "partido": "PSOE"
   },
   {
@@ -908,13 +907,6 @@
    "fuente": "Diario Público",
    "fecha": "2026-10-13T09:02:53+00:00",
    "partido": "PP"
-  },
-  {
-   "titulo": "Alvise, condenado a pagar 10.000 euros al jefe de la Policía de Canarias por intromisión ilegítima a su intimidad y a su imagen",
-   "enlace": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPSFRJTmN6WW9GQWFsaGhFalBEaTdzeEhBZW5XUHltZmVTV0drLVRzSldXcm5iTk1DaFR3ZXBpMncyVnMxc0xlMlNqTGtCRWMyOXhZVDcySVJBN1laZE5HSjJISEczN0ltZC1LLUJmMTRYYl81Q25oUVp6ZXlZbWxERHpLejBNNldqMDlWN0FCemJMMEpMYnQ4ZTEtVGs4SURrcnNkT2J3SGk5Zy0xLWZacWd4SDdMTGwzSVllZG5iRDk2ZkktdFN1N1RjU0ZLNEdlRmpsQklsQ2lGdUpOemtiWVNxaFFPc0g2cF82VlNqLUlmWlhQdENOcXhpUHdHeld1VlNrNUVEdF9DT3NXUEdQMlNR0gGSAkFVX3lxTFBxa1E2YmlDRjhBZV8tRWxCYklPeU4wMDVPa0hwQXV6LUxuaEtJaVdoYTAwRC1UbDdjWVBZbV85bERfMW1PYmd0eWYtUDJMdDJyMW9RU0VQM29LaUZ2aFZKVzBWbmw3QlptNE12TTdCNWNmMmFGOFdIN2NzcjlmNUVFMlhqbFJhYl84cHVkSnRhU1VCbFNYMmJyenlYdVAzLVZEdmhxQzkzcWthekdJNUpBbDE1YlRFaVBIVmI3NXgwVVdjbjVsVDZoSjJqejUwQ09OdnhKcVNNd0Z5WFhFMl9hVFp2bFliQmZsYXNvYUliSlJOYlNnejZjWWNzODlwaW1PU2F0N3lTZTM2Q0twcUVOVmc?oc=5",
-   "fuente": "LaSexta",
-   "fecha": "2026-10-10T18:15:32+00:00",
-   "partido": "SALF"
   }
  ],
  "medios": [
