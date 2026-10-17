@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T21:01:58+00:00",
+ "actualizado": "2026-10-17T21:27:37+00:00",
  "generales": [
   {
    "titulo": "Elecciones generales del 29-N, en directo | Pedro Sánchez está convencido de que van a ganar \"con una mayoría más amplia que en el 19 o en el 23\"",
@@ -21,6 +21,13 @@
    "fuente": "La Razón",
    "fecha": "2026-10-17T21:00:13+02:00",
    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/17/70DA2B7C-8FC5-4021-85D3-309D6000DB77/ultimo-pleno-celebrado-cortes-castilla-leon_96.jpg?crop=6000,3375,x0,y265&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
+  {
+   "titulo": "Rufián se disculpa por el \"ridículo\" de la izquierda y pide el voto \"aunque sea desilusionado o cabreado\" el 29N",
+   "enlace": "https://www.europapress.es/nacional/noticia-rufian-disculpa-ridiculo-izquierda-pide-voto-sea-desilusionado-cabreado-29n-20261017225757.html",
+   "fuente": "Europa Press",
+   "fecha": "2026-10-17T20:57:57+00:00",
+   "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261017225757_120.jpg"
   },
   {
    "titulo": "El PP arranca con tropiezos la precampaña hacia las elecciones del 29N",
@@ -63,13 +70,6 @@
    "fuente": "El Salto",
    "fecha": "2026-10-17T14:44:00+00:00",
    "imagen": "https://www.elsaltodiario.com/uploads/fotos/h300/f4829a99/1000244432.jpg?v=63911340068"
-  },
-  {
-   "titulo": "Sánchez lanza la precampaña apelando a la movilización y alertando contra \"la motosierra\" a las pensiones",
-   "enlace": "https://www.europapress.es/nacional/noticia-sanchez-lanza-precampana-apelando-movilizacion-alertando-contra-motosierra-pensiones-20261017133128.html",
-   "fuente": "Europa Press",
-   "fecha": "2026-10-17T11:31:28+00:00",
-   "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261017133128_120.jpg"
   }
  ],
  "partidos": {
@@ -324,9 +324,10 @@
    },
    {
     "titulo": "Rufián se disculpa por el \"ridículo\" de la izquierda y pide el voto \"aunque sea desilusionado o cabreado\" el 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMFdvMlY5ZVlrbnpnTHQtZ0xkS3I2X0ZDZHE5RDZFd3I3M3VSRU9LcE5KRll5eTY2M01VR3JNZVFQNllFSm1OQ18tM19TWGtWMHdZcl9ha2UxOHNzUVFYZDNnV19OUGZqVVN6cU9CUVh0TVRyU1RuQnlSUjBoWWNyUW5qMV9vTkhMekFjdzR5Y2RsVDFXSXZWVDRBcUYwb25MNUZWQTNXTVBLcDdacnN1MXFJSF9BR2JmSHFrRzRPVkJDNG9qRm1CREtZZFdpazVQbHdTVElMeXAtQkhVRGcwQw?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-10-17T20:58:00+00:00"
+    "enlace": "https://www.europapress.es/nacional/noticia-rufian-disculpa-ridiculo-izquierda-pide-voto-sea-desilusionado-cabreado-29n-20261017225757.html",
+    "fuente": "Europa Press",
+    "fecha": "2026-10-17T20:57:57+00:00",
+    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261017225757_120.jpg"
    },
    {
     "titulo": "Podemos entra en las listas de ERC: una concejal de Sabadell, en la sexta plaza por Barcelona para las generales del 29N",
@@ -382,17 +383,17 @@
     "fecha": "2026-10-17T16:03:17+00:00"
    },
    {
+    "titulo": "Convergents rompe el acuerdo para las municipales con Junts después de no llegar a un acuerdo para las generales",
+    "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMVE1c2lMOU1lUTJCN0tKdHVMeFlGeHBrdjN5MGhHS1Uwb2tQZ1NBMWVERzhodDFSbmQtUVBqQnFqald5d1FnSXQ5cE5tNVlxTU5TanRLVDM0RjZISVN6ME4weUMzRU5UN05mMDZzSzNvRFV3LVU5MzZGQk4tcU5NdThIYWxtejlneE81S1BULUJQeGt3OXRia05aSjl4aFJSZmE5cGQwNXJFS1NnZ0ZzTWZTVlVsdlVvM2J5NzhRUzI?oc=5",
+    "fuente": "Diari ARA",
+    "fecha": "2026-10-17T16:02:45+00:00"
+   },
+   {
     "titulo": "Nogueras reivindica la \"centralidad\" de Junts y llama a frenar \"los dos bloques españoles\"",
     "enlace": "https://www.elconfidencial.com/espana/2026-10-17/junts-nogueras-elecciones-cataluna-1tps_4447159/",
     "fuente": "El Confidencial",
     "fecha": "2026-10-17T14:43:00+02:00",
     "imagen": "https://www.ecestaticos.com/imagestatic/clipping/a45/bdd/a45bddba66917481f2d6b505534b348d/junts-asegura-que-se-opondra-a-investir-tanto-a-nunez-feijoo-como-a-pedro-sanchez.jpg?mtime=1791283138"
-   },
-   {
-    "titulo": "Nogueras reivindica a Junts como el \"punto de encuentro\" para frenar a los \"dos bloques españoles\"",
-    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUTczdDNaaW51T1NUM2RsZ2xEV3NoLXhvZFVhcmxtTHJ5MVJoNHBoQlBHdVktY2kzNE5Lby1ZTk9wOGIxa05BZUUyNE1xcXhZcG16ZUNBVDl4SlNCaE5obXdweVdkZkRZS0tRUDd5T2RTaE5JV21VejFoV21iTkFQQWNRTW5uaXhjRTFSVHBtX0Z6cFV2Zk1KNWZwR1NNT1RPWDloU1hFcHoyR0hPQ2xZ?oc=5",
-    "fuente": "Diari ARA",
-    "fecha": "2026-10-17T13:06:29+00:00"
    }
   ],
   "Bildu": [
@@ -422,16 +423,16 @@
     "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379641.jpg?p=w:1706/h:960&h=56Bj1tph"
    },
    {
-    "titulo": "Xabier Lertxundi no repetirá como candidato de EH Bildu en las municipale­s de mayo",
-    "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMjhyR3hHWG1hT1N4M2U5Q194VzZBaWtLT1lUazQwUndTZjJfN3h6ZXVnQ3duRUlZS2JOSDVxbTRIMzNRdmpvMFRZM0V3SThEXzdUYW1lOGRhNTloMzN5SlN1VGk3VXJjOEdNTF9jbzBVTzgzS1NLT0pwTlpxT0Y3ZnVzRFl0MDc5ZHpmbA?oc=5",
-    "fuente": "PressReader",
-    "fecha": "2026-10-16T23:14:46+00:00"
-   },
-   {
     "titulo": "EH Bildu se sitúa a Oskar Matute como referencia al Congreso y renueva su grupo para el 29N",
     "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMi1WLS1lYy05dzZIdG9tbEV6ZEpkWE10MHBZN29kRlQzR29sLWZKSF82OGROVlJMVmxjTmtUMm9HR1gxWHhzUTE4X1Jvc295X3FkOGtfQzVUSC1KUWtQNnRCRUg0NjRPRnN6ZXhEZXhacXQ4NHZtZDB0WEd3OGgxTzF6WQ?oc=5",
     "fuente": "MONCLOA.COM",
     "fecha": "2026-10-16T18:47:45+00:00"
+   },
+   {
+    "titulo": "Bildu incluye como candidato al 29N a Floren Aoiz, líder de HB que amenazó al Estado tras la liberación de Ortega Lara",
+    "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPWFpYYjlnb0xfZlJuMXdSVTR3T2x2d1V1M3R2LXdNSGdodmpUR0NveTZzRWl3M0pZRlhTdHVaRS1wQU9weE04YjI0cFh6Vno5TzJuVjlOTjhUNzZ6Q1VhUmVfR01WSmQ0OG9PY2xpbVlkbUcxbkR4Uzhjc0pvc1BpUUlTbmJjQkpxNTJCR3FGTEthUVhqRm1seklXVzRmekE2dmNsbEc4M3dfWXlvUk1KM2pYNW5nMHJGclVjQTNBMzh4MmZWUlk4SHA5Vi1OQ0hqZmJ6VFdYLVpBb2pZSmRKLWgzODlnOUJLNGdDWkpHUEV3eU90WTJMeDNRZ1lvTVJwdWdTbTkxZ9IBkgJBVV95cUxObnFhY0ZjbHNVRXFBUk9pUjdrXzFmWmJreHdNSXV4RE9ObTR6akNwV1pMV0ZNWFR5Qnc5cnRsRms5aWlrLTZXdEJwd3R1ZWE5UHQ2WWJKMjhYMm0xSFZ1TmM1cy05ZHZFV2ZEQzB5TzJxV3BXZFpkWUkwWXMtdTJNN3l1MWhOUjR3UTI3YWhjR1ZmS292ZGVCbEFsc2F3UDF2eHB2QS1kZUJodTJVRk95dUtzTUowcmVfNklJXzJJYzBHR3NKR09YbzNuZl9sMmRBem5XUXRBajR1RGU0SVZYbzlqNVlTRjlQSXEySDJPQnlyTlVEQjRacEtLbVpCYWhkeWwwNV9oLURVQmhldmpCZGdB?oc=5",
+    "fuente": "Libertad Digital",
+    "fecha": "2026-10-16T16:46:36+00:00"
    }
   ],
   "PNV": [
@@ -443,7 +444,7 @@
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/01/16/33B12133-B51C-4B44-AFD5-290EE2FEB9FE/96.jpg?crop=1920,1080,x0,y54&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
-    "titulo": "PNV, tras la detención de los proetarras en Irún: «ni un paso atrás» para preservar la paz",
+    "titulo": "PNV, tras la detención de los proetarras en Irún: «Ni un paso atrás» para preservar la paz",
     "enlace": "https://theobjective.com/espana/pais-vasco/2026-10-17/pnv-detencion-proetarras-irun/",
     "fuente": "The Objective",
     "fecha": "2026-10-17T20:16:47+00:00",
@@ -520,6 +521,12 @@
     "fecha": "2026-10-17T18:55:34+00:00"
    },
    {
+    "titulo": "Yaiza Siempre, MRT y Compromiso por Haría se unen a la alianza de CC y Primero Canarias",
+    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOczNLX1BjUnZqQkFrM2JkQnY4UUw4VXNxd2pJVGEzV0d6MWtvUkctQ3hEN1I3b0gwNl9YcTd1dTdTLVJkNmlWZlY0RldBc3FuQ1ZQYWE4UU1uWnhJT0pZNTBUaVIyaWI3OTd1c3dPaXJlR21LalhmU3dlNzFsSVdMZkl4Q0hkSHlIVWVPOU5BaFFCZ3ZSeFlpNDNWa2p6Mmp5azd5VUUwdkJwQTNQZmRBd1RZTFhidERYYzNpNW5Kczg1UGxnUWM3bEhCMVdtWjhMLXhpRDN1UTRmUlk?oc=5",
+    "fuente": "La Voz de Lanzarote",
+    "fecha": "2026-10-17T18:33:30+00:00"
+   },
+   {
     "titulo": "El PP canario frena el plan de Coalición Canaria de vetar la venta de casas a no residentes",
     "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxONnJkMWY1Z1Y5ZFlrVFc0R0hkaGc3NDZadHp3Nk9YVjI2eWwyX1QtUW84cU5IVWxwYkt6OFotel9FZ0NmWUljX0xNaFBqd3FyRzROc3BoTHN4VVgydlBsNDFhYV9TbnhDd05xbXhadWtWQTExX2J6dzEzV3JncmE4QVBmc2JUYVF2WUZrWm9SaGhFUEpTWXRNQV9YUHljZ1ZCcDE2WGxCTEdJemJwMFNuX3JEaC1uajlJZVRiS3VPVG1OeWFQZDNZTV9TMjc5QnBfYnhwZXo5TjVDbDduT0RSdktiekZ5aE3SAfIBQVVfeXFMT1I3V2s5TkNMcnRJUGZTeFpEam9QdXc3b1oza1RMVkRONmdSb3VSLTEtRTJDdHFwellUQ0RiTnQtM3NlZW93anMxMlZWWFFSV1lxR2dZZHEtU1dnSjJMR2V6Q2lSWDdpY0NvUmxEdWdDMDdIZ2EwVHlGX3lnY1ZySzhjR2tyU2czTW5fNFg1b1pwZXBsOS1DOUVvY19hZ3l3ck1wWm9XMkJmaDlESWFsX1JOMGU2Y2tOVGRUVHE5SUUtOVdDYnVmLTBoODJnUHhkd01RRnJiWVVzR3l4NW9EQmVuWGlfcWg3clJSMkVIT1JTZnc?oc=5",
     "fuente": "Libertad Digital",
@@ -532,22 +539,16 @@
     "fecha": "2026-10-17T16:54:07+00:00"
    },
    {
+    "titulo": "CC, Compromiso por Haría, Yaiza Siempre y MR de Tinajo se unen a la Mesa de Unidad Canaria",
+    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT0cyTVhDWjJGbWU0Zl90V0lQenVjbnJJYm5KSEVGY3Z1RlRXNmVpWDBSQ0d4VlBxbldpT2JqZ2ZBcWwwbXJCUU1FX29MekFaNEJ3ejBYUnNxZ3pjYkhjcUp3ZjNfMEFNOHJkMGtCX2ctYU1oZzJYV2FjY3ZFX1AtdE1mR0d2OFd6YUI3N2xyR0JwRy1IMTQwVDcwTkluanVYQmpwZUNaTXd6WTY2TmtEQjhpakZrV3Q1YnFKX2VCZTlHTXEwbFB2Wk0yLUVIbUZkNmtITA?oc=5",
+    "fuente": "Biosferadigital",
+    "fecha": "2026-10-17T15:50:59+00:00"
+   },
+   {
     "titulo": "Coalición Canaria, Primero Canarias y una veintena de fuerzas sellan la unidad para defender a las islas en Madrid",
     "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZU5kNDNmcTk2X1hRVU12bjdxSzRjNzIwMm5XR0FlSHViU0s5LXZmSWFsRnRweHFST2p2RnJVbnVSdUlGU1NzOG0zeWFCenVVNTFCWjRDelNrbnlUSmtnWDBncVJnLTEwU0JxeDdHWGlsM0R4VnhLZUJkSEwzQmxBUkNjV2MzV0poUk1TSkN5bFoyelZuSU9BaW1WUXhJTTZzOWNGRENDcG5Db19YLXlrM004bGtDc0lxS0ZoZ084dWxKRmtHZm1LSnh4dFlpVmgxNVVlWHFvNjNGdEJFN1dwNmdYSHdkMlRnWmI1MEdWNTNhaUtFc280MUJn0gH_AUFVX3lxTE5mc2ZJZHZ1OFAyNzd5TlZBU1BSd0pNbWJuS2FnMmstTjNXUVRHTXpqc1BGdlFXYWpjWnNjZTJDb0JUc3pYRFpQa1dOa2NMUDNfT2VVenFZX1RYUDlUMVlORjRGamhLTkFWTUExZ0YxV1d1ZjUtUzU3SXlQTi1HeVRmb0M4QzI3ZDUxNi1ScUJZZjFwbF9SMmljMlZDQ0VXOEdNV2VIWlR5eTF5YlFOa0dxeWlpVFlOYVRNQ184c1hDMkl1aFYwSE9zNERnVHoxWl9ObDN1Y1dMT0YtUm5VLWFrclF2WjNqY3JZWDM2amd2WGRyWXlZVXlaTlRWeUhDNA?oc=5",
     "fuente": "Crónicas de Lanzarote",
     "fecha": "2026-10-17T15:18:50+00:00"
-   },
-   {
-    "titulo": "Coalición Canaria y Primero Canarias sellan la unidad para defender Canarias en Madrid",
-    "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObm9BYm9hNndENV9JQnQyY3UwSHh2c1dXMFhzTGFvRXdqQ2s3UXdESUdWZFJUWmZ5MmJ0MjhPanhaSkE3QXRyRnlUcWJtQklvSXVNWXk0OFEtNC1CZm9teGFlc0o1a2ZnRnRNb19NNzZLQlZ3Ymxqd1RaMjBWWkpmZXI1elp0QjN4Z28xa3BHZVF1Nm9oSGhScmpPQlJ6YkJBRkh2V0lkVVZQd1pESW51d21CdjFEdTczUVBIbWNmMFdkQU9icENKU0ZySHZadUgzcTF3MGJRNmlYZG5VaDZJaGdkc0VET05JOHhlZ0JOY2NMT3d2cWdj0gH3AUFVX3lxTE5ub0Fib2E2d0Q1X0lCdDJjdTBIeHZzV1cwWHNMYW9Fd2pDazdRd0RJR1ZkUlRaZnkyYnQyOE9qeFpKQTdBdHJGeVRxYm1CSW9JdU1ZeTQ4US00LUJmb214YWVzSjVrZmdGdE1vX003NktCVndibGp3VFoyMFZaSmZlcjV6WnRCM3hnbzFrcEdlUXU2b2hIaFJyak9CUnpiQkFGSHZXSWRVVlB3WkRJbnV3bUJ2MUR1NzNRUEhtY2YwV2RBT2JwQ0pTRnJIdlp1SDNxMXcwYlE2aVhkblVoNkloZ2RzRURPTkk4eGVnQk5jY0xPd3ZxZ2M?oc=5",
-    "fuente": "Cadena SER",
-    "fecha": "2026-10-17T14:48:17+00:00"
-   },
-   {
-    "titulo": "Clavijo y Hernández firman la alianza canaria para el 29N: qué pide el documento que presentarán en Madrid",
-    "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVXNiZGg2eGNiRnNTUi1WS24xQVdhR3M3UmQ5SDRvWm8yeFNrNURwXzVIQVVoVXFzT3dadENwUHdhN3Etbl9xSm1hQjVveVh3ZTBEd3lXX1RfQUZ5Z0JKWW16UmxmRGFLeVpUTDZTS1pRSHBmc0gzYnFlVnJZTFd1dXRkYmE4NHc?oc=5",
-    "fuente": "estenerife.com",
-    "fecha": "2026-10-17T14:46:40+00:00"
    }
   ],
   "UPN": [
@@ -622,6 +623,18 @@
   ],
   "AA": [
    {
+    "titulo": "Adelante Andalucía sitúa a Ana Jiménez al frente de su lista al Congreso por Málaga para el 29N",
+    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeXRQY2hNM0RRaFNJZzZiZ0VucjRla01GNDZOcGVfb2tYbV9IYTRWeHhkQXh5ZVpqdENoaTdhenBxTVE4TXBNcmhYcjE4Qm1wUUxZZ0o1WS1FeGhreU4tSlpVRlF1TFEwdjBhRU4yOXVpRmc3UmVPdHh4MDBvMmxhOE1NM0ZXeHN5ZXIwRDRNMWxSbWNYc3BzcXh0dWpkNEpJUE1EdUZucTBSVm1YZ0RDWGR5QXM5cHYtbi1MZHhEUWp2bHpHRlBmTThISDc1cU0?oc=5",
+    "fuente": "PressDigital",
+    "fecha": "2026-10-17T21:04:00+00:00"
+   },
+   {
+    "titulo": "Adelante Andalucía elige a Ana Jiménez para liderar su lista al Congreso por Málaga el 29N",
+    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNenFaeWxnR0NrUkRXcnR4eGhxR0JEb0kyaVZaY0VWd0tOVEZNM1BrQkhyUHRXOFkwUmt2bGlsdDNQcFd1Zkh1VkNfdmIwSkt1cHM5dmhreXBNSFFPbjZqYXZNN2J5WTREdk5Zb2N1NHdsSWd4TjNCY0J0Nm9tdGFIYU16VzZia3BQLVMtZ1pEY1BMc3QyQnF0WU5UcWNyM0NsYk83X1RsTkJwamwyak5qTXBXNkEzVEd0akI1Z2ZVakNPcGvSAcgBQVVfeXFMUDZTS3h5TWJzS3N0ZzV5RDdXM2paSnlFbjhZN3pkMjdFdkpFWXZZUUlhUzZTVHp2SWphSTBKdHlvTGVrYWhXNmYyVEN4U1c5aFhGVHJ0Zzh6clJwb2JZNXRoY2Y0QUFveGRIcjA5UmhXSVVPSXNWTE5UZ0ZjSHJQRU5MZXJiX0o5MnRoYm9jSjlvVDVoV3RXZ3R5NWIzN1AwanZzY0ZhREZOODJoZnlsMXA1bExId2hsbUNVWUQyVEpIbWJiTllUbVI?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-17T21:00:28+00:00"
+   },
+   {
     "titulo": "Adelante Andalucía supera las 1.500 firmas en Jerez para presentarse a las elecciones generales del 29 de noviembre",
     "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeFhvMUpBVWNid0JfLWpTUi0wbHViQnc1bnV4NElGa1NOSGRzVFNoQ1UxUV9UV1hFR3FOTzVFcm43SjRRWlVPbHB4OWZxbzdjRnItUGxkSm1JOXk1SU9hUUNySFFDeGdNb1Zlck00WUdqQ21FMktobC1CSXNBb1RoZWNZcEtEaE5wYXhlbHVfQTBkai1PcU1GeWVxUmJ0aWpTOFpTbVBtX2wzLWxRaEItb0dZbUtZbDZnM0Y5WFlkaTBOX0R6OVU3dHVTNU5HN0tJakNDeDZEcEV3Mlg4QjA0WE1TeWNpT28?oc=5",
     "fuente": "El MIRA",
@@ -644,18 +657,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPekllQm9veVVIUlkwWHFOa1F3ZHpqT0Y3MlpuUzNXMk5TWFB6ajlGTV8zR3hGdDdjQlFLU2FkaXZyTkl0QXQxdDJVU2MycnVHaFpIT0hUZGhzeGJILTBQSE45Ui1vbXE2OXhoZmVOWWtCWEE2SENadlIxVVE4Ym5yWTVRNzVVMGJmRmVLS19LeDg2VzFf?oc=5",
     "fuente": "Lacontradejaén",
     "fecha": "2026-10-17T02:00:04+00:00"
-   },
-   {
-    "titulo": "María Sánchez encabezará la candidatura de Adelante Andalucía por Cádiz al Congreso",
-    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSlZRRGROOXVHa1RKQmNjdUF2cHhHdld4UElMcUxTdG12cmNGejlneTFGZEEtOTlDeUhRSmVYWkU4aHBzQXZ2TjI5Ui05cmFWd0FyR1Vtdk9OdlRQSmJ0VjVIWFV3TWdKQkctMkVNRUVKLWNoYkI5VXg3MG5uT05vNGpaMUh4X0tZTDRMVHc3QS10ZW1PMzNnYjlIa1MzdjdrSkVCNk1BZWlFaWlpVEE?oc=5",
-    "fuente": "Cadiznoticias",
-    "fecha": "2026-10-17T00:46:42+00:00"
-   },
-   {
-    "titulo": "Carmen Martín será la candidata de Huelva por Adelante Andalucía para las elecciones generales",
-    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcjlKdlJMZU5pN3l2UFFWSWVDVjZaOENUY1BSSEF2TFpGbjRoMlFaeENMUWs1S2dULUxFbkJibkRxM2tVZE5kUEJ6XzhwT3lxVDN2VGMzRlFjY0hqaWlqUFF3Z0l3OTJESFVkTmVjTWgtQWR5dDg1VF9EWldOaWNhQkktdVBKTWpwM0RCY0JLVmx4ZG0yYlI2MtIBngFBVV95cUxNSWxOT0lNbXFBSlNkTGhLTnFkbnVRU0U1c2NRVWFEdk9aeXhhc2dmOTVVWnBQSG9id1pNYl91WDhxUEVCVFFMVVZCTlJTV0RVblE5RV9qd2FLRmxrRkxmeW93YmJLQ1RxWUNZdUE1eWpqVXN3ZFE3eWdRbmMzejRzeGQtMG0zSC1tQlR2bk1RT0M4WUJQRnpENFRuZDFjZw?oc=5",
-    "fuente": "Huelva Información",
-    "fecha": "2026-10-16T16:00:43+00:00"
    }
   ]
  },
