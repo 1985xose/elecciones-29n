@@ -1,20 +1,20 @@
 {
- "actualizado": "2026-10-18T15:01:09.108Z",
+ "actualizado": "2026-10-18T15:36:00.315Z",
  "media_bruta": {
-  "PP": 32.07457885608245,
-  "PSOE": 26.49161174701452,
-  "Vox": 18.8427248336812,
-  "Sumar": 6.277851283344783,
-  "ERC": 2.137362388613189,
-  "Junts": 1.447136871300969,
-  "Bildu": 1.3470105566885302,
-  "PNV": 0.9593273980330983,
-  "BNG": 0.9280769277988956,
-  "CCa": 0.42864641226149086,
-  "UPN": 0.19080467003390825,
-  "AA": 0.9445277189375794,
-  "Podemos": 3.1227553187116226,
-  "SALF": 1.6952824751877555
+  "PP": 32.097581229156475,
+  "PSOE": 26.57298871885834,
+  "Vox": 18.816894378778326,
+  "Sumar": 6.3019647569627955,
+  "ERC": 2.1535343410023566,
+  "Junts": 1.4400807112194,
+  "Bildu": 1.3532780854677688,
+  "PNV": 0.9424443192955043,
+  "BNG": 0.9372473866699148,
+  "CCa": 0.4122435168283053,
+  "AA": 0.9681469098354104,
+  "Podemos": 2.814797999907787,
+  "SALF": 1.6957690342963732,
+  "UPN": 0.1874375142894592
  },
  "principales": [
   "PP",
@@ -25,6 +25,19 @@
   "ERC"
  ],
  "sesgos": {
+  "electopanel": {
+   "empresa": "EM-Analytics",
+   "n": 61,
+   "sesgo": {
+    "PP": -0.45,
+    "PSOE": 0.66,
+    "Vox": 1.02,
+    "Sumar": -0.73,
+    "Podemos": 0.47,
+    "ERC": -0.11
+   },
+   "sd": 0.64
+  },
   "sociometrica": {
    "empresa": "SocioMétrica",
    "n": 14,
@@ -49,19 +62,6 @@
     "Podemos": -0.31
    },
    "sd": 0.69
-  },
-  "electopanel": {
-   "empresa": "EM-Analytics",
-   "n": 60,
-   "sesgo": {
-    "PP": -0.45,
-    "PSOE": 0.66,
-    "Vox": 1.03,
-    "Sumar": -0.73,
-    "Podemos": 0.49,
-    "ERC": -0.11
-   },
-   "sd": 0.64
   },
   "40db": {
    "empresa": "40dB",
@@ -262,15 +262,15 @@
   {
    "clave": "electopanel",
    "empresa": "EM-Analytics",
-   "encuestas": 167,
+   "encuestas": 168,
    "letra": "B",
    "texto": "error medio de 1,2 puntos en 3 elecciones",
    "sesgo": {
     "PP": -0.45,
     "PSOE": 0.66,
-    "Vox": 1.03,
+    "Vox": 1.02,
     "Sumar": -0.73,
-    "Podemos": 0.49,
+    "Podemos": 0.47,
     "ERC": -0.11
    }
   },
@@ -555,6 +555,54 @@
   }
  ],
  "ultimas": [
+  {
+   "id": "electopanel-2026-10-17-3141",
+   "empresa": "EM-Analytics",
+   "encargo": "Electomanía",
+   "fin": "2026-10-17",
+   "veredicto": "movimiento",
+   "texto": "Movimiento real: Podemos sale 1.6 puntos por debajo de lo que cabía esperar de esta empresa.",
+   "nota": "B",
+   "margen": 1.7,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 31.8,
+     "esperado": 31.8,
+     "diferencia": 0
+    },
+    {
+     "partido": "PSOE",
+     "dado": 27.1,
+     "esperado": 27,
+     "diferencia": 0.1
+    },
+    {
+     "partido": "Vox",
+     "dado": 18.9,
+     "esperado": 19.8,
+     "diferencia": -0.9
+    },
+    {
+     "partido": "Sumar",
+     "dado": 6.2,
+     "esperado": 5.6,
+     "diferencia": 0.6
+    },
+    {
+     "partido": "Podemos",
+     "dado": 2,
+     "esperado": 3.6,
+     "diferencia": -1.6
+    },
+    {
+     "partido": "ERC",
+     "dado": 2.1,
+     "esperado": 2.1,
+     "diferencia": 0
+    }
+   ]
+  },
   {
    "id": "sociometrica-2026-10-11-1000",
    "empresa": "SocioMétrica",
@@ -1062,54 +1110,6 @@
      "dado": 3.6,
      "esperado": 3.7,
      "diferencia": -0.1
-    }
-   ]
-  },
-  {
-   "id": "cis-2026-10-06-5025",
-   "empresa": "CIS",
-   "encargo": "",
-   "fin": "2026-10-06",
-   "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: PSOE sube 1.7 puntos respecto a lo esperado de esta empresa.",
-   "nota": "C",
-   "margen": 1.4,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 22.2,
-     "esperado": 23.8,
-     "diferencia": -1.6
-    },
-    {
-     "partido": "PSOE",
-     "dado": 34,
-     "esperado": 32.3,
-     "diferencia": 1.7
-    },
-    {
-     "partido": "Vox",
-     "dado": 17.1,
-     "esperado": 17.6,
-     "diferencia": -0.5
-    },
-    {
-     "partido": "Sumar",
-     "dado": 6.1,
-     "esperado": 6.5,
-     "diferencia": -0.4
-    },
-    {
-     "partido": "Podemos",
-     "dado": 3.1,
-     "esperado": 3.2,
-     "diferencia": -0.1
-    },
-    {
-     "partido": "ERC",
-     "dado": 3,
-     "esperado": 2.6,
-     "diferencia": 0.4
     }
    ]
   }
