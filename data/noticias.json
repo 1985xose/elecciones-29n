@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-18T22:01:58+00:00",
+ "actualizado": "2026-10-18T23:01:55+00:00",
  "generales": [
+  {
+   "titulo": "Feijóo marca Catalunya como un territorio clave para llegar a la Moncloa tras las elecciones del 29-N",
+   "enlace": "https://www.lavanguardia.com/politica/20261019/11662138/feijoo-marca-catalunya-territorio-clave-llegar-moncloa-elecciones-29-n.html",
+   "fuente": "La Vanguardia",
+   "fecha": "2026-10-19T00:05:00+02:00",
+   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/18/6ad5154f98abf.r_d.1275-924-1817.jpeg"
+  },
   {
    "titulo": "Suspendido el acto de precampaña de Pedro Sánchez previsto en Toledo para este miércoles",
    "enlace": "https://www.abc.es/espana/castilla-la-mancha/toledo/suspendido-acto-precampana-pedro-sanchez-previsto-toledo-20261018232159-nt.html",
@@ -44,13 +51,6 @@
    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/07/30/2026073010492462809.jpg"
   },
   {
-   "titulo": "Trias receta a Junts ser “hábil” y hablar con PSOE y PP si beneficia a Catalunya",
-   "enlace": "https://www.lavanguardia.com/politica/20261018/11661987/trias-receta-junts-habil-hablar-psoe-pp-beneficia-catalunya.html",
-   "fuente": "La Vanguardia",
-   "fecha": "2026-10-18T12:56:32+02:00",
-   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2025/05/19/682b552fc56a5.jpeg"
-  },
-  {
    "titulo": "Albert Rivera, sobre las elecciones del 29-N: \"No creo que sorprenda a nadie si digo que no voy a votar a Pedro Sánchez\"",
    "enlace": "https://www.elconfidencial.com/espana/2026-10-18/albert-rivera-elecciones-sorprenda-nadie-votar-pedro-sanchez_4447426/",
    "fuente": "El Confidencial",
@@ -74,6 +74,13 @@
  ],
  "partidos": {
   "PP": [
+   {
+    "titulo": "Feijóo marca Catalunya como un territorio clave para llegar a la Moncloa tras las elecciones del 29-N",
+    "enlace": "https://www.lavanguardia.com/politica/20261019/11662138/feijoo-marca-catalunya-territorio-clave-llegar-moncloa-elecciones-29-n.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-10-19T00:05:00+02:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/18/6ad5154f98abf.r_d.1275-924-1817.jpeg"
+   },
    {
     "titulo": "El PP apuesta por el joven ‘influencer’ Jon Echeverría en Guipúzcoa como cabeza de lista",
     "enlace": "https://theobjective.com/espana/politica/2026-10-18/pp-influencer-jon-echeverria-guipuzcoa-cabeza-lista/",
@@ -104,21 +111,21 @@
     "enlace": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTkl1UUlnMmhlblp5azFIRi1FbDBrQUdTYnFkNDhmblY2RnFtdXJlZ2NiSHJvVHdxRzhJSUtNS2E5Y1lvT1ltVFJ6UXIzUXR1Q2MzRWE2eElWQkNxaTIxZzNYQlVoN0taVzJ2ci11NUh6RjNDYjQ1ekQ1dWdjeHFNek5sa0pMQzBJZUHSAYoBQVVfeXFMT05JdVFJZzJoZW5aeWsxSEYtRWwwa0FHU2JxZDQ4Zm5WNkZxbXVyZWdjYkhyb1R3cUc4SUlLTUthOWNZb09ZbVRSelFyM1F0dUNjM0VhNnhJVkJDcWkyMWczWEJVaDdLWlcydnItdTVIekYzQ2I0NXpENXVnY3hxTXpObGtKTEMwSWVB?oc=5",
     "fuente": "El Boletín",
     "fecha": "2026-10-18T19:36:06+00:00"
-   },
-   {
-    "titulo": "Feijóo ante la demagogia de Sánchez: «Pensiones, sí. Joyas en cajas fuertes, no. Sanidad pública, sí. Chistorras, no»",
-    "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxONUxGUmtUdkItWUVqU1RnYTlIeFEzdVppRFJxZzBuQ25kbWh3ME5zd0J1bnJuUFlBTTJFZ1BfUUpqSFc4VkJnNlBhVXFjcjhzTXhqMVlXdHNLMXZZMzNCYXp3QmY5RUZVbzZtc0h5Z0l1eEh5SnhRRFVnbFZ6OVc1WmhPVTBjc1RrZG9fSTkxX3JYU3VSTTRlMWtZMHZZdHJpaEE3QUU3R0hSWnk5bGpUdE9BeFJjRGk1Vk1NVlBxMjhTSm5ER3gzN2tTQnNSaUlWM2RnUFZvZDJEQTVnS3lpckhoNVhXZlI2MGZxbFZ2UXEzZ3RIbjAyMTRVNTl6d9IB_gFBVV95cUxONUxGUmtUdkItWUVqU1RnYTlIeFEzdVppRFJxZzBuQ25kbWh3ME5zd0J1bnJuUFlBTTJFZ1BfUUpqSFc4VkJnNlBhVXFjcjhzTXhqMVlXdHNLMXZZMzNCYXp3QmY5RUZVbzZtc0h5Z0l1eEh5SnhRRFVnbFZ6OVc1WmhPVTBjc1RrZG9fSTkxX3JYU3VSTTRlMWtZMHZZdHJpaEE3QUU3R0hSWnk5bGpUdE9BeFJjRGk1Vk1NVlBxMjhTSm5ER3gzN2tTQnNSaUlWM2RnUFZvZDJEQTVnS3lpckhoNVhXZlI2MGZxbFZ2UXEzZ3RIbjAyMTRVNTl6dw?oc=5",
-    "fuente": "ALERTA El Diario de Cantabria",
-    "fecha": "2026-10-18T18:34:30+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Suspendido el acto de precampaña de Pedro Sánchez previsto en Toledo para este miércoles",
-    "enlace": "https://www.abc.es/espana/castilla-la-mancha/toledo/suspendido-acto-precampana-pedro-sanchez-previsto-toledo-20261018232159-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-18T23:22:00+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/18/Sanchez-RT4uotJiQrgt82k9DC5xOwL-1200x840@diario_abc.jpg"
+    "titulo": "Vox se encamina a empatar al PSOE en la mitad de la geografía: 'sorpasso' en Almería y Murcia y posible estreno en Galicia",
+    "enlace": "https://www.elmundo.es/espana/encuestas/2026/10/19/6ad4f320fc6c8374648b4583.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-19T00:03:35+02:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/18/17923407917450.jpg"
+   },
+   {
+    "titulo": "¿Puede Pedro Sánchez ganar las elecciones?",
+    "enlace": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORGM2NE5WR0lJcTZrWEtTNEFlQWF0NlkwNlB3cDdsQmpNTEFOSVNYYXR5LXg0dFkyblViMVpPeS11TDg5X0dBSzhrcWo5M2MyY2VkUGl2SktWcnJITFVCVnhIMUJpZTJULV9jT21UajZ6MHJZS1lqa0piUG1Cc0EwY3gyUXZUYkIxQ05F0gGLAUFVX3lxTE1zemFyb1pYQTRVUUpIbm56RnZ4MUxaZzg2NHpWUmRxZXFTNkJjZE9wcHkwUG0tRENsR2tSR2s2WmNPLUtlX2pDamYtQVVnczZiWFU4RUZXeVlXLWJPenBfQ0ZyY3BCcERTcUtYVVI3MHZRNXJTcjR5WWVjUnpGZTBnUTV0bUNobFVrSlE?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-18T22:04:00+00:00"
    },
    {
     "titulo": "Elecciones generales 29N, en directo | Feijóo afirma que el 29N se elige entre \"vender y defender España\" y apunta al \"clan Sánchez\": \"Todo se va a saber\"",
@@ -144,28 +151,22 @@
     "fuente": "elDiario.es",
     "fecha": "2026-10-18T19:47:28+00:00",
     "imagen": "https://static.eldiario.es/clip/f182895e-36c2-4db7-ab35-de3885bc8a67_16-9-discover-aspect-ratio_default_1153455.jpg"
-   },
-   {
-    "titulo": "El PSOE ama a Begoña",
-    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdUd2SzZpV3B0N19nOUJweUJIZ2xBOWlTaTVqOGRvOVUxb3M4NWJRdWVPSWxOT05ZcEZHRnV1RUZVNHFvSnd1ZjdKb3dxT0dIVkZ1Vnk0OV9EVEI4cUJwRUd1b25Iak9jTDQ3SnRRYkRkeTd3eEhtcURCWXE3eTlMaEhqY3RTcGZZckNwWmxVQlF6TTB1aUUybzNaVWtkb03SAaoBQVVfeXFMTk1JUUE5X2lmMm1ZOUt2WTU4bzdEVkFaZ0xoNGYtQWRyc3J2N05fTDFiczctUThnNUJSb19BOVhwRl9MU0NkT0FITTk3Q1FlemMxeUZMVGlsY2JkMGs1aE1zcDJNbXd1UkFLZkhua2lhdlhBTWlmUlRsNTlyUjBteTdyQkFwbmk3WnQwbWZ4NzdiT3B2eS1wczJuenRhNXExbjFDMEFMR1JsbFE?oc=5",
-    "fuente": "Libertad Digital",
-    "fecha": "2026-10-18T19:11:36+00:00"
    }
   ],
   "Vox": [
+   {
+    "titulo": "Vox se encamina a empatar al PSOE en la mitad de la geografía: 'sorpasso' en Almería y Murcia y posible estreno en Galicia",
+    "enlace": "https://www.elmundo.es/espana/encuestas/2026/10/19/6ad4f320fc6c8374648b4583.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-19T00:03:35+02:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/18/17923407917450.jpg"
+   },
    {
     "titulo": "Punto Ciego | Albert Rivera: \"La equidistancia entre Vox y Bildu no es posible, hay que concentrar el voto\"",
     "enlace": "https://www.elconfidencial.com/espana/2026-10-19/punto-ciego-rivera-bildu-vox-cbtr_4446847/",
     "fuente": "El Confidencial",
     "fecha": "2026-10-19T00:00:00+02:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1792360820&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
-   },
-   {
-    "titulo": "Elecciones generales del 29-N, en directo | Vox pide al TC que inadmita el recurso del Defensor del Pueblo por la 'ley de nietos'",
-    "enlace": "https://www.elespanol.com/espana/20261018/elecciones-generales-directo-ultima-hora-pedro-sanchez-feijoo-actos-pp-psoe-vox-encuestas-voto-correo-sondeos-espana-2026-partidos/1003744424471_10.html",
-    "fuente": "El Español",
-    "fecha": "2026-10-18T21:15:00+02:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11370485.jpg?p=w:1706/h:960&h=OZTrVipG"
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1792364241&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
    },
    {
     "titulo": "Vox pide al TC que inadmita el recurso de Gabilondo sobre la 'ley de nietos': \"Es prematuro y se limita a discrepar\"",
@@ -241,12 +242,6 @@
     "fecha": "2026-10-18T21:15:12+00:00"
    },
    {
-    "titulo": "Irene Montero y Rufián exhiben su alianza con un primer acto conjunto en Barcelona",
-    "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRVFySmN5STBUdTRQeThiMDJTbnM5aDNOSXlsWVRyMHlCREc4UU50c2pwRVMtSVFmV280TjItRUVQbERMMTFsQ3FBTHBhU3QtWGNvMXIyT0VNWjRBdm9mQW9Ra3k2U3h0RGQ5WkdFV2FRTk1HV0xfNGFEa3o5NnlRVTdWY2xjQUdta0wxU2VJUGx3VHFhV0Nrd3kzZlZPQ2o1WlRfNXpKc0VJTkl6dlNJODdWRG13c2xoUmRUUWJnZkh1SnBhdWtSajhHR0hHTXkwdnRZTjhTQ0x3RndSX0w0NHJDT29TR0Vmc1VwV3FkTTU?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-10-18T16:45:00+00:00"
-   },
-   {
     "titulo": "Irene Montero y Gabriel Rufián celebrarán un acto de precampaña conjunto en Barcelona",
     "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdGh0a0Fid2N6b3NsbmlFRmFRWDVBa2h3UkdRV2xBYVUxcmFPWTdSWlpaQnMxQ21jczNBbzVDOUZLQk9OT0RPX0cydkxrLW9rSmd2OUE0cGs2MEZuVHVObmFSQjdwLVZLQkRtb1RkbkxVYnF1eUZIalpyUm43YmpKeEJ3czRmTDBjMmlUd3hSWkszUmZkSFdSQTZQUGN6alRFblRVNDR3bDdkSkdaWHllQ2xPWFhDVkpNeTV4WWdGdkIzei1VMURGYjdLNlrSAcwBQVVfeXFMUHRodGtBYndjem9zbG5pRUZhUVg1QWtod1JHUVdsQWFVMXJhT1k3UlpaWkJzMUNtY3MzQW81QzlGS0JPTk9ET19HMnZMay1va0pndjlBNHBrNjBGblR1Tm5hUkI3cC1WS0JEbW9UZG5MVWJxdXlGSGpaclJuN2JqSnhCd3M0ZkwwYzJpVHd4UlpLM1JmZEhXUkE2UFBjempURW5UVTQ0d2w3ZEpHWlh5ZUNsT1hYQ1ZKTXk1eFlnRnZCM3otVTFERmI3SzZa?oc=5",
     "fuente": "MARCA",
@@ -269,6 +264,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaE5BbWpURVd6Z2lFbTVCc2dacHJ2VW1CTHpNZFUtOVRXeWh1d1U1TXNoMkcwT2gtSEhWbC1tLVpROTB0TVR0ZkN3cmR3TlpuU2hZYXA0ZDVjbkdEMXB2aklCc2pQV21TelBCc0hHbm1RQTRsaDNQTWRBcFY2bDVjRlVyUGd0cmVidEc3YmU1ZkJLRDN6MWpYbUVDUGNsLVlpazZTcHMyNktkbW9zTnhlZUluRy1aa19NRzVuVVREd0JNb0JsMWRRWVpXU0FQUdIB0wFBVV95cUxOODhVNUxKdUFUN1pneVo2NUNxY3dnNHctN0ZzckpfcHpFSWw2elZja0VyNmIxOUdjMTRWUU84UDZYNnVrWElEN2VBZVA2STc1VldBVG5CSlJuYVBuTXN3WkRVNjhrNFUzeVdhejlwdm80Nnp6Zjk3Q1ZQcl9ZREdnWXZTbUh2TmVyREMwaXQwUGNMS1dyeHh4ajdfU0h3YmViNDdzUmt4YWZURFF4VktsUGdmdFM4ckc3QkRWRVRCYnNrc0Q1Sk9JWE0td1pRU1BWMXBv?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-18T10:44:29+00:00"
+   },
+   {
+    "titulo": "Irene Montero y Rufián exhiben su alianza con un primer acto conjunto en Barcelona",
+    "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRVFySmN5STBUdTRQeThiMDJTbnM5aDNOSXlsWVRyMHlCREc4UU50c2pwRVMtSVFmV280TjItRUVQbERMMTFsQ3FBTHBhU3QtWGNvMXIyT0VNWjRBdm9mQW9Ra3k2U3h0RGQ5WkdFV2FRTk1HV0xfNGFEa3o5NnlRVTdWY2xjQUdta0wxU2VJUGx3VHFhV0Nrd3kzZlZPQ2o1WlRfNXpKc0VJTkl6dlNJODdWRG13c2xoUmRUUWJnZkh1SnBhdWtSajhHR0hHTXkwdnRZTjhTQ0x3RndSX0w0NHJDT29TR0Vmc1VwV3FkTTU?oc=5",
+    "fuente": "PressDigital",
+    "fecha": "2026-10-18T10:43:00+00:00"
    }
   ],
   "SALF": [
@@ -311,12 +312,6 @@
   ],
   "ERC": [
    {
-    "titulo": "Irene Montero y Rufián exhiben su alianza con un primer acto conjunto en Barcelona",
-    "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRVFySmN5STBUdTRQeThiMDJTbnM5aDNOSXlsWVRyMHlCREc4UU50c2pwRVMtSVFmV280TjItRUVQbERMMTFsQ3FBTHBhU3QtWGNvMXIyT0VNWjRBdm9mQW9Ra3k2U3h0RGQ5WkdFV2FRTk1HV0xfNGFEa3o5NnlRVTdWY2xjQUdta0wxU2VJUGx3VHFhV0Nrd3kzZlZPQ2o1WlRfNXpKc0VJTkl6dlNJODdWRG13c2xoUmRUUWJnZkh1SnBhdWtSajhHR0hHTXkwdnRZTjhTQ0x3RndSX0w0NHJDT29TR0Vmc1VwV3FkTTU?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-10-18T16:45:00+00:00"
-   },
-   {
     "titulo": "Irene Montero y Rufián estrenan alianza con su primer acto de precampaña conjunto el próximo sábado en Barcelona",
     "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNVMxNDNTalV6VDB3QTRYVmxPbklCdVpvYk1ZWC1DLUgxMEdzTGNsVG1qRk9MamU2b2lJQmFyVW1qbFU2QXh1cnlRV3N5OUFxenRhQndWQU5TYW9qZUpOMnI2bXRTLW9fWk5wNEFWcU9majV4OTlDLUhBU2wtQmowVk9yOHFUYVp3QWNKNEtuQ0FNcUtfWF9RcVY4ejU4YUZ4SmFUSmRSN0g0TGRHaEZ3UGZ4YThOdHowWFJLVDRueDlQZHdYUW1acXlablRDNFd1T3lTakNuZVdlTW1JbkxvRjhMTFlieG1tMzFqN2VMYUZHQkE?oc=5",
     "fuente": "Valencia Plaza",
@@ -346,6 +341,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPMUY5YW5RcTE0X0xTY09JRzhUeHpDdjZtSEJQLVY0MTJnc3VkYkVnc2xJMzRZc2p1NTU1YTFYRHBRcUw4cVc4ajhJOE15Y1NwalNvNzdrM01kdllWcnJfYUpNRC12WDZNMGFoZXh1Y0dYWlBXRm9vUlNmeGc5VkgweE5DbElqeUZJYXA0YnM3QVdqeUVVQjdOWFQyX2pSN2pXdy1uV0FtSzhSNXhKakFDekdRUk45ZTVrWWM5TDZxMVpsWEdPaUNPNmJXSWZ6VVRoaGQ1bjl0d0RjazVTbVhpT2pKUlZtWHhnVDc0cURNTzhCeVBjcThob1V30gH_AUFVX3lxTE43S09NY1pfVHFaeFF3dEM2TlBGZDFUUmFHUUdqNmluVzJEVFdXcDFtYkRDYkRISVpmVXdqSWlMcmk4eWkxWVY2ZjhqR3kzUjY3OEk5b0wyX0RydUpjNEVZQkdGMkpfdFBoaHhBMi1fOUhweXQ4dGxYMFdUUHhCeTdrRzRHcVJacnNQUHZSOEkyT0otVGxQYy0waFVOLWpaVHQxc2RVek43QkJKbnhxcjEtclExNlk0Si1JUElkV185TkQ5WFdYeFJHb3lrVkpCbnZnUThORWE2WWJjbGF2blN4N0tzcHAxcHhTVk1qVjdpMXVvd1R5VXlDSzhrYzRmQQ?oc=5",
     "fuente": "Diario en Positivo",
     "fecha": "2026-10-18T10:58:30+00:00"
+   },
+   {
+    "titulo": "Irene Montero y Rufián refuerzan su alianza con un primer acto conjunto de precampaña en Barcelona",
+    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaE5BbWpURVd6Z2lFbTVCc2dacHJ2VW1CTHpNZFUtOVRXeWh1d1U1TXNoMkcwT2gtSEhWbC1tLVpROTB0TVR0ZkN3cmR3TlpuU2hZYXA0ZDVjbkdEMXB2aklCc2pQV21TelBCc0hHbm1RQTRsaDNQTWRBcFY2bDVjRlVyUGd0cmVidEc3YmU1ZkJLRDN6MWpYbUVDUGNsLVlpazZTcHMyNktkbW9zTnhlZUluRy1aa19NRzVuVVREd0JNb0JsMWRRWVpXU0FQUdIB0wFBVV95cUxOODhVNUxKdUFUN1pneVo2NUNxY3dnNHctN0ZzckpfcHpFSWw2elZja0VyNmIxOUdjMTRWUU84UDZYNnVrWElEN2VBZVA2STc1VldBVG5CSlJuYVBuTXN3WkRVNjhrNFUzeVdhejlwdm80Nnp6Zjk3Q1ZQcl9ZREdnWXZTbUh2TmVyREMwaXQwUGNMS1dyeHh4ajdfU0h3YmViNDdzUmt4YWZURFF4VktsUGdmdFM4ckc3QkRWRVRCYnNrc0Q1Sk9JWE0td1pRU1BWMXBv?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-18T10:44:29+00:00"
    }
   ],
   "Junts": [
@@ -393,7 +394,7 @@
     "enlace": "https://www.elconfidencial.com/espana/2026-10-19/punto-ciego-rivera-bildu-vox-cbtr_4446847/",
     "fuente": "El Confidencial",
     "fecha": "2026-10-19T00:00:00+02:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1792360820&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1792364241&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
    },
    {
     "titulo": "EH Bildu dice que Declaración de Aiete sirvió para la resolución del «conflicto político»",
@@ -467,6 +468,12 @@
   ],
   "BNG": [
    {
+    "titulo": "Luisa Sánchez PPdeVigo celebra el adelanto electoral y Xabier P. Igrexas BNG, reivindica el peso de Vigo ante las generales del 29N",
+    "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUm5OemgzTzdGUUUyLUd2eVAxa2lHSG9FeWY5U2Z0OGx4Tk1hZVJJTWFfWW05U3JrQmVKTmNJM0lZcTJrcUJ1NWhfTE5WdlNkRC1Hemh0TDU4aDZQQ0VDMEFUWk4xbDJCRWp0S2RHMWRsVU9Rc3VnUXB6RmJrc0VZN1p0cXVhcDE4V1RJeVVkMnFUTUFkOU9TcXZWazVXMTdPODJvQUZWalFoN1diS2xENVZ1WTFublh0Y01MRS0zbnVHUDItc2pxc0l6eHlWX3dWZTZ6bEtaLU9xbUlFZXI3c2tHZVhnekUz?oc=5",
+    "fuente": "HERMES TV VIGO",
+    "fecha": "2026-10-18T19:10:41+00:00"
+   },
+   {
     "titulo": "Ana Pontón reclama a Alfonso Rueda que adelante las elecciones gallegas",
     "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM09jTGVqUHZJUjdGaGlLdkR1WmtEbnRLY0t2clQ0VHlFN0JqMTZyS3d5bUdfOUNJZUEtV01CUDZRaTlWT2NwUUdORThBWDZKUXYyU19oaGc4RTZaYWcxZHBybzh3MWpKZmxGU2ZxZGRDS1FsejFHNmxjcmpZZHYtaDlKQWZKUlN5OWZNamFCUjBxeW1BM2ZjNHowcmRjajd1TlR1Snc2UkxaQ2hBNnRtQUhENldPRE5tT1lzY2hUSGkwUElMbFZBZEs4bWt4QQ?oc=5",
     "fuente": "El Ideal Gallego",
@@ -495,12 +502,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOZ1ZFQ1FFNnh4a1ZER2xSNlVHNWxSQVZBMEowT2VRSUlqZEVFTWlUcEVQbnFoTkh2VVliMFdqWG1pd2haTzlOQ0pPS0t6WHRIWFNiU1FSeUh0anEycEM1NE5vRjFfTjZzSzByN1o4emhJTTdEXzloNWRRcHlVQmMtQUhvZXhUY0ZHaEF5MVZ1NXotcVNxTGNYTWtqWEtheGJWcnJvelFMdzBBYmlCQ25tdnhhMDh5SWprMDZQa01kUDBpNGlmc3EzdG9kc1JId3JsVm5zVE13Zi1tdWpBcU1fQW4yaU0wVEVDSk1sLU5ORUg5enJZZTBkWGlMOHTSAZACQVVfeXFMTkM1aDRUYUVrSFVKdkRZaWtJQWxLZzZmSHRGWFdJdHlfanpmeGxVdEtmVWRORFBDVGxLal9QenprVlBIcFNCcG1vTm12LXZtMWNnY3hERi1MT1dDMG1GYWRCWVpZU2pwS052eXo0VFFJWTUtQzRReG42YzVfVE5GcWdOLTl3T1ZNQTNsejU3a3Z1QXpkOUNTTWMzNnRDT3ZRQ3d3NTlzS3VFZnR0M0hPOWNxMHdYdzR4OTBGaHNReFFZa0lyV2pEMzlmdnJsSWVzNWF2S1BrdUNsNFpqREpyVjVOSUpMa2lWRzh2RjA5NTZ1aGpGN0xCT2tqc1E1M0dNTFBMbmhkYTRuUnpKWkRXNzk?oc=5",
     "fuente": "Cadena SER",
     "fecha": "2026-10-18T12:41:54+00:00"
-   },
-   {
-    "titulo": "BNG llama a movilizarse el 29N en defensa del Ulla y alerta de la posible reactivación de Altri si gobierna la derecha",
-    "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPc3c3a2RuU2ZoelpNN0xHRnF3NDVHMFdYWks0LVg4NWF0MGlNT3ZxZFYwdGtfamNvN2xaWEdWc0NzRGZCUXhVcEVmYXVGcUdnNzgxR3FPbGhEUHo3UXljUVdDd3Q0UDNVRW1NR2tPWVJ1U191OXVfc2JuUjVtOVduS1RLWGJ6LW9XVjhHb0RTU1JJa1liRFlKYy0taTNkOURhd1VMV2RheTREQmVpNXBQYmpEN0hZeGJNdHNTTFBjSmIxNFI5NnFDYmV0cVEzUXlRRGZKUDF2cDlCRTV5NDdaZ2lLUlQ2bmpiLUc4?oc=5",
-    "fuente": "Europa Press",
-    "fecha": "2026-10-18T10:55:30+00:00"
    }
   ],
   "CCa": [
@@ -511,7 +512,7 @@
     "fecha": "2026-10-18T20:40:55+00:00"
    },
    {
-    "titulo": "A la caza del diputado en Las Palmas: Primero Canarias y CC van unidas el 29-N",
+    "titulo": "A la caza del diputado por Las Palmas: Primero Canarias y Coalición Canaria van unidas el 29-N",
     "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQkN4akdid0hYVE9wSzRCdDB0UkY4R2Fud2ItaUFQZGFPVDhTR0Jkck9vVU5ob3VzdzFjckRDVmxtSVFSVjQ0blNONFAyeFVTRUFvSW5BTXFWdU0tcHUyX1MxRlQwY2FJV01BWl9jWWJ1aUlOQ0xOeHlzWXFjOXU5YjlFYUx6SXJQRHFuNFc1UXhadDl0b3cyQjlRbG5BS1N2SzRvckFyektJZUVkSF8yVmREcTMzUW43WVNDLUhOTHRHVVNydkw0NU1wSndNcWdLazZDODFHcVNyc2PSAeABQVVfeXFMTzdfcldFTWJ1N3pwWHR3SWlqMEtjSU1ZVG1OeWpxbEZ2T21KeXhILVpBVGUtWTczNS00S05LTFNpbTRNbVBkQkVpOGpHZWZXM0JQR3dDbERlM0FaUVBzNWhiMFZwbUFOaDZENTFYZjJ5TWdUOGhCRnd3Wk5DaHkwWmVXbGNPTGl0YW04bXVvQ2YwakxUSDNfM0lqMGhZQm5ZYWxRT1ZTQkQtLWRBbFllajV4SGlRa0ZMcGJZLWVTV3VPcXBiY2kwYkQ4Mkk2WTdfT1h4cTk2aDZVMVRXRWl5OGw?oc=5",
     "fuente": "Fuerteventura Digital",
     "fecha": "2026-10-18T10:28:26+00:00"
@@ -711,6 +712,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoTERyUXdUcHN4Wl9SRW1GMTNhV2w0SG1jejBNemFvTXd1dDFqWW1Hd3dJT3ZQNllFQ29zRHJnUjdIZW9OMG9EdUNpT3p3NUdVUnE0ZzdSamo0N3N5dHllbDlRbDdMNWl0Q1lwYmRRUQ?oc=5",
     "fuente": "Newtral",
     "fecha": "2026-10-15T15:33:24+00:00"
+   },
+   {
+    "titulo": "El PSOE se abstuvo en la propuesta de Sumar de “prohibir comprar viviendas a fondos buitre”, no “votó en contra”",
+    "enlace": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeWtQaE8xODcwTXQwVktCUHE0dGJRc2xXcGo2QWhQdVR6QkJGVGhfYTVnR2pkaTVveEdKQzNTU1B6TDc2cTNMbkZ6M2dSdWdjVmxsa0hGclhVcFhwY3VUR1NtMmhlejFkLUJ2Zzc4clU2NlRET3hMSkhrRmFrNzBSWg?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-10-08T13:49:17+00:00"
    }
   ],
   "Podemos": [
@@ -801,10 +808,10 @@
    "fecha": "2026-10-16T12:51:06+00:00"
   },
   {
-   "titulo": "¿El responsable de Hacienda del PP condiciona subir las pensiones según el IPC a tener “la economía adecuada”?",
-   "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWjI0YTFNdUR0b1NDZUJvSXg4bXpGWjUxQjRKZUNKQnNxT1RlVWlDMEZtT3pOZUlTR0lZTVRXTTYwRnlBQ1NtMDJtNnd6cVI0X0w3ZXBVM3gtTjFDVzR0eFRtLThrYXBkaGhUWEhobUJBbEUzX1pXLUlad0hSczdJaE9qWEp1N29ROUZGMFI0SUV3OXM4MDhPdThNT3c4NGhZMUtza2g5UEdzRGQ0MFhTaHhFQUUxSldsSS1iLVoxTHpRU2YtNnZ0RXBSWlVjbGY4U2lTS1F2WQ?oc=5",
-   "fuente": "Maldita.es",
-   "fecha": "2026-10-16T11:55:49+00:00"
+   "titulo": "Las diferencias entre el escrutinio provisional y general en unas elecciones generales",
+   "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWjVadWdvYlBxa09iSWIwMTZ1b29JYzFXSzRZWE13Mlh3Q1JrU05nM3Zmb3I4akQxWm1XbWRXNFg0OFFvelJFWjVjb1RhZ3VfMjJEY0hwMldUbXVkc1hJYzcyLWpVNlY3MzQwVVhjS2Vpb19IWHdFV2hzM3ljcEtxSWJ5QUVrOWlsdlhXOEdnbw?oc=5",
+   "fuente": "Newtral",
+   "fecha": "2026-10-16T11:25:15+00:00"
   }
  ],
  "polemicas": [
