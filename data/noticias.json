@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-18T05:01:49+00:00",
+ "actualizado": "2026-10-18T06:01:59+00:00",
  "generales": [
+  {
+   "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y Feijóo, actos de PP, PSOE y Vox, encuestas, voto por correo y sondeos",
+   "enlace": "https://www.elespanol.com/espana/20261018/elecciones-generales-directo-ultima-hora-pedro-sanchez-feijoo-actos-pp-psoe-vox-encuestas-voto-correo-sondeos-espana-2026-partidos/1003744424471_10.html",
+   "fuente": "El Español",
+   "fecha": "2026-10-18T07:07:39+02:00",
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11380255.jpg?p=w:1706/h:960&h=BJ1O0Wra"
+  },
   {
    "titulo": "Cuatro escaños gallegos en el aire en las elecciones del 29-N",
    "enlace": "https://www.abc.es/espana/galicia/jose-luis-jimenez-cuatro-escanos-gallegos-aire-elecciones-29n-20261015061500-nt.html",
@@ -21,13 +28,6 @@
    "fuente": "La Vanguardia",
    "fecha": "2026-10-18T06:00:00+02:00",
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/17/6ad3e9526cfee.r_d.2120-1734-1080.jpeg"
-  },
-  {
-   "titulo": "Miguel López-Valverde: «Feijóo derogará el decreto de centro de datos si Sánchez lo aprueba antes del 29-N»",
-   "enlace": "https://okdiario.com/espana/miguel-lopez-valverde-feijoo-derogara-decreto-centro-datos-si-sanchez-lo-aprueba-antes-del-29-n-20569296",
-   "fuente": "OKdiario",
-   "fecha": "2026-10-18T05:45:03+02:00",
-   "imagen": "https://okdiario.com/img/2026/10/17/entrevista-lopez-valverde-interior-1.jpg"
   },
   {
    "titulo": "El Gobierno garantiza que la ley de pacientes “saldrá adelante” en la próxima legislatura",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Miguel López-Valverde: «Feijóo derogará el decreto de centro de datos si Sánchez lo aprueba antes del 29-N»",
-    "enlace": "https://okdiario.com/espana/miguel-lopez-valverde-feijoo-derogara-decreto-centro-datos-si-sanchez-lo-aprueba-antes-del-29-n-20569296",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-18T05:45:03+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/17/entrevista-lopez-valverde-interior-1.jpg"
+    "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y Feijóo, actos de PP, PSOE y Vox, encuestas, voto por correo y sondeos",
+    "enlace": "https://www.elespanol.com/espana/20261018/elecciones-generales-directo-ultima-hora-pedro-sanchez-feijoo-actos-pp-psoe-vox-encuestas-voto-correo-sondeos-espana-2026-partidos/1003744424471_10.html",
+    "fuente": "El Español",
+    "fecha": "2026-10-18T07:07:39+02:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11380255.jpg?p=w:1706/h:960&h=BJ1O0Wra"
    },
    {
     "titulo": "Feijóo regresa por tercera vez a Cataluña en plena batalla por el voto de Vox",
@@ -114,11 +114,24 @@
   ],
   "PSOE": [
    {
-    "titulo": "Page puso diez medidas de vivienda sobre la mesa de Sánchez, éste las ignoró y la crisis acabó estallando en la calle",
-    "enlace": "https://www.abc.es/espana/castilla-la-mancha/page-puso-diez-medidas-vivienda-sobre-mesa-20261011060012-nt.html",
+    "titulo": "Pedro Sánchez, con un sueldo de 95.943 euros en 2025 y dos viviendas en Madrid: así es su patrimonio",
+    "enlace": "https://www.larazon.es/espana/pedro-sanchez-sueldo-95943-euros-2025-dos-viviendas-madrid-asi-patrimonio_202610186ad45965bafd3d736363dcf8.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-18T07:30:13+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/14/C183F012-473D-49E7-9D10-817E9B6869D7/96.jpg?crop=3043,1712,x0,y162&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
+    "enlace": "https://www.abc.es/espana/canarias/encuestas-elecciones-generales-29n-canarias-resultados-psoe-20261017051500-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-10-18T06:00:12+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/11/page%20santander-RgMVtV2tnBQPos3EK62Di3H-1200x840@diario_abc.jpg"
+    "fecha": "2026-10-18T05:37:45+00:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-feijoo-RhBPdB047C5hAAa0ETfq3bJ-1200x840@diario_abc.jpg"
+   },
+   {
+    "titulo": "Sánchez y el 29-N: las 3 claves de la remontada del PSOE",
+    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONTBmT2dNeV9Pakh5RmhaV2p1ZXBPQzY1bmFGbGJhZGFmeFdxZXlCb1hzMVhLNl84ZndIR2phYjlDakxSb3ROWjFYM2cyNzVoLWtOWWNnVUxZYTJidTNPbG5lc3ByUnNCVjI4OUQ5blcydm1DdDQyMFlOaU5mZGtqYVJ1b2xpYzhEY2R4TW42NWdveFRBZHdOdllYeUk5NHlDQjFITU1hSE1MX2x2S0NfMHBkQVgtV19ZeHhKclB2TmZ2dlRUa0RnX1pn0gHKAUFVX3lxTE41MGZPZ015X09qSHlGaFpXanVlcE9DNjVuYUZsYmFkYWZ4V3FleUJvWHMxWEs2Xzhmd0hHamFiOUNqTFJvdE5aMVgzZzI3NWgta05ZY2dVTFlhMmJ1M09sbmVzcHJSc0JWMjg5RDluVzJ2bUN0NDIwWU5pTmZka2phUnVvbGljOERjZHhNbjY1Z294VEFkd052WVh5STk0eUNCMUhNTWFITUxfbHZLQ18wcGRBWC1XX1l4eEpyUHZOZnZ2VFRrRGdfWmc?oc=5",
+    "fuente": "MUNDIARIO",
+    "fecha": "2026-10-18T04:12:27+00:00"
    },
    {
     "titulo": "El regreso de María González y la salida de Inma Sánchez: cambio de cromos en las listas del PSRM del 9N",
@@ -127,39 +140,25 @@
     "fecha": "2026-10-18T04:01:39+00:00"
    },
    {
-    "titulo": "Elecciones en España: Pedro Sánchez y el poder de lo pendiente",
-    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQVE4VGM2aFRWQmlZbzJHUTNCajdMVWlsS05sdlBxNXlXTnVKektJYVVWeXZ3a0Y5R083N1l6ZlZSRm9yQ09aYVNNUThWS1V4dWJVdXlYSkdOMW5BVURUaHp3ekJyb3ZBMXdaTU0tOHBCZW4zcFlfaGs2ZE5IQXZTUEVZU0QzSUFNNkxuT09OS21tSTBUeURHXzZSUzZYR2JJaDVtWGpVc040VHNDdDJZMGNLOVMyMzVMeGdlVjVDY2RTc09f?oc=5",
-    "fuente": "El Mostrador",
-    "fecha": "2026-10-18T03:50:32+00:00"
+    "titulo": "El PSOE se refugia en sus bastiones para buscar el impulso que necesita Sánchez",
+    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRnlQeXdBcTJtQnVQZER4Y1YwXzRfdUtoQmVZeTl5cE5QcFZUaFZSM05OWVpmcDZBMnE2aEx5TFZpWmtEQjlZaFk3dHFGZTc1Yi13dllCU0ZuLUlPSWxSSDkxWnBybkkyeUw3YW1ZNjZjOEw3NkFJTGNpQ1ZUd3kxa3BlUVBmYlpzVmM2Nk5OMGM4N1NzWkdhWnNfbzZweVEtUGVMbmNrQ18yckp4UXfSAa4BQVVfeXFMUEZ5UHl3QXEybUJ1UGREeGNWMF80X3VLaEJlWXk5eXBOUHBWVGhWUjNOTllaZnA2QTJxNmhMeUxWaVprREI5WWhZN3RxRmU3NWItd3ZZQlNGbi1JT0lsUkg5MVpwcm5JMnlMN2FtWTY2YzhMNzZBSUxjaUNWVHd5MWtwZVFQZmJac1ZjNjZOTjBjODdTc1pHYVpzX282cHlRLVBlTG5ja0NfMnJKeFF3?oc=5",
+    "fuente": "Elplural.com",
+    "fecha": "2026-10-18T04:00:00+00:00"
    },
    {
-    "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
-    "enlace": "https://www.abc.es/espana/canarias/encuestas-elecciones-generales-29n-canarias-resultados-psoe-20261017051500-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-18T02:36:03+00:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-feijoo-RhBPdB047C5hAAa0ETfq3bJ-1200x840@diario_abc.jpg"
-   },
-   {
-    "titulo": "La desunión de la izquierda anima al equipo de Sánchez: \"El voto útil vendrá al PSOE de forma natural\"",
-    "enlace": "https://www.elmundo.es/espana/2026/10/18/6ad39ef7e4d4d80d4b8b456d.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-10-17T22:07:00+00:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/17/17922579365510.jpg"
-   },
-   {
-    "titulo": "Fracasa la unión a la izquierda del PSOE",
-    "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZk5CQ2NRdVFFRVc1THRkcmd1RmNrZW9KVGZSNkhBOHpIVlZFLU1OdVpoSnY3WE5DSmtheHNpNFBpREtZX0VybS1JOURDZnVoWFRZcmtCY2hsYllPS3kwTkstSzhSVk1Zc09ramhwTWtycjZxX1JnZVFhWF8zOXlJQ3M5VXB6cmNaaTdRZ21yc2FzUdIBlwFBVV95cUxNeGE0enJ4Z2lxRnJQekZ0RDYwdDRndUdrY2Nrak5XQzlmajRTSXBjdGpxelk4WXU0dXMtZ0xEYUJrdzZ2eFc1VWU0SlkyVEtLbm03QzlWeTBPMzhJWUMzY0xXWXRjYnFISG5hYmpHbVlCdk9CQ2stR1ExRkREYk9fa1pxazk0Wld2REZ0Rzh4UmZsbXZnaTJ3?oc=5",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-17T22:05:00+00:00"
+    "titulo": "Sánchez convierte en protagonista de la campaña a su relación conyugal con Begoña Gómez: \"Que lo escuchen alto y claro, te quiero\"",
+    "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOdV9LMDQwdTF4eUtrazlKSGhLSndKS0J5Y1poM0FjeF9QandVYjZBR1lERElvdF93cGthRG1hb2kxVndmX2lXdWVGUi1rUFhHa0s0Y1JMYnJibjJNYjQxU1ZFSUtOUVp3amY2VzJDOHh3WHpQbkNaaDZfXy1WOVBTbmNCM0xzMklvaEkweWd3czlpT0RCZ2NNdDg5bVFuNUdNNXprajdvcTA3Q3p4UDIxd1FHeUQxaVVBajBDVnNCVmFsWi00TWoxNW1oVVlYaHlDRWdNVkNub0NnRXE4ek5UYm96aDdTa05nLXI4VnZMcDAyaEZobjBfdlZ6VWFsSEIyeVVV0gGDAkFVX3lxTE51X0swNDB1MXh5S2trOUpIaEtKd0pLQnljWmgzQWN4X1Bqd1ViNkFHWURESW90X3dwa2FEbWFvaTFWd2ZfaVd1ZUZSLWtQWEdrSzRjUkxicmJuMk1iNDFTVkVJS05RWndqZjZXMkM4eHdYelBuQ1poNl9fLVY5UFNuY0IzTHMySW9oSTB5Z3dzOWlPREJnY010ODltUW41R001emtqN29xMDdDenhQMjF3UUd5RDFpVUFqMENWc0JWYWxaLTRNajE1bWhVWVhoeUNFZ01WQ25vQ2dFcTh6TlRib3poN1NrTmctcjhWdkxwMDJoRmhuMF92VnpVYWxIQjJ5VVU?oc=5",
+    "fuente": "Diario Red",
+    "fecha": "2026-10-18T04:00:00+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "Encuestas elecciones generales del 29N en Cataluña: resultados de PSC, ERC, PP y Vox y ganador según el CEO",
-    "enlace": "https://www.abc.es/espana/cataluna/encuestas-elecciones-generales-29n-cataluna-resultados-psc-20261018215550-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-18T05:30:14+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/18/DAMBin_20261017230032-R5UshnzYgk5nh1M3ZgBDzEM-1200x840@diario_abc.jpg"
+    "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y Feijóo, actos de PP, PSOE y Vox, encuestas, voto por correo y sondeos",
+    "enlace": "https://www.elespanol.com/espana/20261018/elecciones-generales-directo-ultima-hora-pedro-sanchez-feijoo-actos-pp-psoe-vox-encuestas-voto-correo-sondeos-espana-2026-partidos/1003744424471_10.html",
+    "fuente": "El Español",
+    "fecha": "2026-10-18T07:07:39+02:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11380255.jpg?p=w:1706/h:960&h=BJ1O0Wra"
    },
    {
     "titulo": "Abascal se enfrenta a una decisión estratégica que puede cambiar la campaña al Senado",
@@ -174,23 +173,24 @@
     "fecha": "2026-10-18T04:00:00+00:00"
    },
    {
+    "titulo": "Albiol será el candidato del PP por Barcelona en las generales para robar votos a Vox",
+    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZXhEbGJGb09EVW9IWnlhR0lTMEFNV2pCVkxncGpwVGZwVDJUbGZkTFBOTk9LMzQxZ1lvM1BqVEZUNEtmWWh0MG13X3pvdVJmYVNybTBEWVJCSnNKNWFSSFFrc0xueTFzNTdxeDNpMThVeVRrN2dtNkRMQXNHLVhURW5pVGlXZWJKSWpyWFdyX1ZvS0ZTRW9wMmlEMHMzcWlWOVlqQmM4eUcwUjVSMUgwODNLYnFZT1otWEN4UkJuZTZlRnVnX2FmdtIBzgFBVV95cUxOcWJ0dmJrcmNKbzItcjFjZE9VNHpVWmRwdHpxWWtKQzNzc2g1SWs5X0U1YTNrTEtJdHROMlBnRFFMeGhKSUVULUtPZ3FoRWRwejVtRWljWHBLb1VkNUcxUjVsbUNzb1gyNFJweHFoVkM5d0ZOZmY2S2NkWHpoaGJEY0lPRy1PVURvRTZVSHpIU3hKeGpJTGJhMW9ZMUZtUnJoNVIxXzljdUpSbTVLMEpwZkxwOXZBbHhsaTVVNWdwS3VBX2cyLXJsb2ZvMWc4QQ?oc=5",
+    "fuente": "Diario Red",
+    "fecha": "2026-10-18T04:00:00+00:00"
+   },
+   {
+    "titulo": "Encuestas elecciones generales del 29N en Cataluña: resultados de PSC, ERC, PP y Vox y ganador según el CEO",
+    "enlace": "https://www.abc.es/espana/cataluna/encuestas-elecciones-generales-29n-cataluna-resultados-psc-20261018215550-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-18T03:30:14+00:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/18/DAMBin_20261017230032-R5UshnzYgk5nh1M3ZgBDzEM-1200x840@diario_abc.jpg"
+   },
+   {
     "titulo": "Aitor Esteban: “Nadie ha demostrado más con hechos que no queremos a Vox”",
     "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-18/aitor-esteban-nadie-ha-demostrado-mas-con-hechos-que-no-queremos-a-vox.html",
     "fuente": "El País",
     "fecha": "2026-10-18T03:30:01+00:00",
     "imagen": "https://imagenes.elpais.com/resizer/v2/6YQ3ITW2GNBZZODODMWMAGT67U.jpg?auth=1499b70ca75082a356d2e60079fcadda715673498c6df34ad83e304953a3442c"
-   },
-   {
-    "titulo": "Abascal abre la puerta a integrar candidatos de Vox en las listas del PP para conservar el Senado",
-    "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUHp5QnZqeC04TDVzcktPNFM1TU9Xd2cxUVM1aTZvb1hnWl9RdmR0VXg1OU1BaTlNUkRoS2Juckl5eWNMWk9McHVQQzFUY0FMZmg4aExSSndJSkV0N21pYVk5WjBRMml6WTBUMm16U1p0M3AtTHRmdzN3WlBLQ1Y4aHNBX1RVZ1BPWjZaWFJZYzBzMWVpQ0tFQUxLajFmb2FuTlktcy1lTktGNzNSb2p2M3FWYWs?oc=5",
-    "fuente": "heraldo.es",
-    "fecha": "2026-10-18T03:00:00+00:00"
-   },
-   {
-    "titulo": "Abascal: \"Estoy muy preocupado por las elecciones: Sánchez usará a sus milicias, no van a ser limpias\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeE9fRUgzR3d3RWNMb09SdmJiNG1Yc0c1SVR0OFo0RjJJdW1XMFFHUkJzdVFlNHJkbTRXLWhRckx5SG1lejZ0NFMzUmc2NWo4UHhsTWoyTU5pMFpqYmRqZTA4ODBzWHJteWFSN1c4c1VHN0tXVmlLQ1V2QzhEWmVNS0lqUWNjbUM2QWRXWUdPWWZ1QnRtX1oteUdCOHVLTV84OVV2cXZEZ21SN2RlWUJWcEhyT3JpaEcydjRjdE1KM3ZpcEU2a3FDZnJzeFkwTmxNeGZ3Ri1MX09RdF9zdFJzT0JJWF_SAfgBQVVfeXFMUDZWN1VUYktEX0htdnh3VzJGRWRWZTctYjNjaWpTRUtjYWRKR29iVDFvSjRsSlFBZnZQS0txY3BIeGEwdmlGbWk2RURWMXhwcmhGR1JfRWFvV0ZKamk5eTl2eFo4d2N5M2xOT0x5S19DdU9pMHZFTzdmenB4OWJBVl9MSlZod2hZZEVWQU9OX2R2OEdOU2hfcVNVb1U4Nlk3dWxwT2dnMlFSdFpGNnBKMDVLbHpEcl94Z0EwVGtRY3M1SWMwWGc5UlhURU42Zzl4clV2U1o4VWREeTZIN0paZndYMThCMEwzcUV3YXFSMUVIeWhMSUxaUjI?oc=5",
-    "fuente": "La Razón",
-    "fecha": "2026-10-18T02:33:01+00:00"
    }
   ],
   "Sumar": [
@@ -263,10 +263,9 @@
    },
    {
     "titulo": "Irene Montero y su canto de cisne político divide a la izquierda",
-    "enlace": "https://www.nuevatribuna.es/articulo/actualidad/irene-montero-canto-cisne-politico-divide-izquierda/20261017152834255313.html",
+    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNX3RrWXd6YnNfS2dsZ3J2Zm9sbUhnVVE4UTZDY0V6ZEFMSk9nRHF6bGJ3aXRHeXBvWUk1UTlJMWs2UTJBRGlLa2RJUWU2S0s4U0F3Q2dBTG1CQmdRM0RpaFF6NU1ucW5udFFVYnJkNG9TNWtpbUFodTdZQS1WYzU2MWpObDdfWEp0dWVZRVZxbHJsUFFITlVhbXB1MldjcE5tZk1sMTAyYTdGTDZrMERCc3hmLXFPZkJmckVaeV9hcUtFY1HSAcgBQVVfeXFMT1I2ZVlQR0NNVEpiNDRnc1ZqN3kwd3pTbkd6UWVaYUJjMHNlUl9pN1ltRnNQaWhQQ01nRzZJeFhYdDNCTFJzWVFrV2VOTU5kY2Z1MDZ0ZG5oYXJ0a0tYdGpwY0p1WVNLWVZScUpvY2xmLXRqLWhYeTIzV3U2RDVndEZaZkVtZ2ZLcE1DTzZFR2laVVVkcjhzaTRORnNOM3Nqb3VITExJMWFyblpVS3RheWNvX2ZhU0F4THJ4R2VSRm0xMF9vZndMS1Y?oc=5",
     "fuente": "Diario digital Nueva Tribuna",
-    "fecha": "2026-10-17T13:28:34+00:00",
-    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2023/03/03/2023030314022889351.jpg"
+    "fecha": "2026-10-17T13:28:34+00:00"
    },
    {
     "titulo": "Irene Montero presenta su candidatura al 29N cargando contra el Frente Amplio por su \"cercanía\" al PSOE",
@@ -323,7 +322,7 @@
    },
    {
     "titulo": "La izquierda llega dividida al 29-N tras el fracaso de la alianza que impulsaba Rufián",
-    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRG9DZ1NIU3BfNHg0eE1CeVVOZmU3LWlNWXpPckFmOWd1UmNBYkw4MXFlWDhoNklUV3hzWmVEQWdkZWlpZ05Nakt0U1FFNzQxTkFLRXhBWDJneW1KemFDT190WVVFUlV1bEVGQ0k2QUVtMloxUVViZlJwc0ROeEhuQ0dwTk51Z1NCc2JGYThMYS1PY3pxYXlLdzQwMmtLZ2RUc1JWVmk5NHZKZC1mSzhEenRWaEk4ZGJLbXpWUzNpa1RKaW03eElwVkRtdkFLM1Z6YWfSAdcBQVVfeXFMTkVIVk1RNGR4bFZTNW1FcDRyc1d0bFVZZFRWaVhPQ3NGR0Q0cE4yc3BDV2cxVzhlcENRWDBqMTdiZjB1S0s2WGduTUw4NWpwM0FOcVM5RWdWQmlxMU1Fdmo5bExfYWhTajNSWVFFSE8xb1lkM1VWZmZRcHZSQVQ3ZmlwZTlwQWJQbXJFZlJ6Z3IzbVRuX05KdHBxbTVsY1pqNXY4TmVIZG5LU01LN0JoQnV3MUc4Y3JiYnJIMWYtOXQ4ZUVZVVhJY0xRNVcxeExrWFRTLUZNd2s?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORUhWTVE0ZHhsVlM1bUVwNHJzV3RsVVlkVFZpWE9Dc0ZHRDRwTjJzcENXZzFXOGVwQ1FYMGoxN2JmMHVLSzZYZ25NTDg1anAzQU5xUzlFZ1ZCaXExTUV2ajlsTF9haFNqM1JZUUVITzFvWWQzVVZmZlFwdlJBVDdmaXBlOXBBYlBtckVmUnpncjNtVG5fTkp0cHFtNWxjWmo1djhOZUhkbktTTUs3QmhCdXcxRzhjcmJickgxZi05dDhlRVlVWEljTFE1VzF4TGtYVFMtRk13a9IB1wFBVV95cUxORUhWTVE0ZHhsVlM1bUVwNHJzV3RsVVlkVFZpWE9Dc0ZHRDRwTjJzcENXZzFXOGVwQ1FYMGoxN2JmMHVLSzZYZ25NTDg1anAzQU5xUzlFZ1ZCaXExTUV2ajlsTF9haFNqM1JZUUVITzFvWWQzVVZmZlFwdlJBVDdmaXBlOXBBYlBtckVmUnpncjNtVG5fTkp0cHFtNWxjWmo1djhOZUhkbktTTUs3QmhCdXcxRzhjcmJickgxZi05dDhlRVlVWEljTFE1VzF4TGtYVFMtRk13aw?oc=5",
     "fuente": "MUNDIARIO",
     "fecha": "2026-10-18T04:01:16+00:00"
    },
@@ -435,6 +434,12 @@
   ],
   "PNV": [
    {
+    "titulo": "“El PNV no va a hacer seguidismo ni va a ser muleta de nadie tras las elecciones; Bildu sí lo hace con Sánchez”",
+    "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYTh6cTBOVjVOMTdCa1g4MFdnQTMwdGJiOG1MOHJJbnI0dXJlVXp2cThvRUM5b05qLVJPUGo1eE5Cb1pWS0ExOTEyR0l3cE1EYVREZHR2cmZPOElGb092N0NRcnllRzZiVGRyblRzaUQwS0ViNFQ4Tks3cFNRdHU2d25TdEtKdmttZFc4LVIybVBGZXh0UnlLaWxjRnA0ZFlObmpyeHFQTll3TzDSAbABQVVfeXFMT2RhUjg3S0N1TlJwN0dOc1p3WER0LVpYLVZ2dGlOV0dFN1BrUTViRmFVbUdrd25TT2IxQ2puMHU4eTRmVDlBdGktM2JJSHVpUnF5SkNpcjRlTEd2bDBicURlbG5CM0FTbmhYdVQyRUxuWkRwLUlyM0dZRjVRMWVodkN4dHg4X1FTcG5ZMEtHbVVRTXRjQmVDTkJmcm9uMTJXYXVtaDFFNHNZWXhGNVQtYlk?oc=5",
+    "fuente": "Deia",
+    "fecha": "2026-10-18T05:01:12+00:00"
+   },
+   {
     "titulo": "Aitor Esteban: “Nadie ha demostrado más con hechos que no queremos a Vox”",
     "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-18/aitor-esteban-nadie-ha-demostrado-mas-con-hechos-que-no-queremos-a-vox.html",
     "fuente": "El País",
@@ -465,12 +470,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPaWxLcXpSTkRqV2NrcHR5YXZzbjA4bmVKOW5Oby1pU093bE1UMXpOaS14YkpZc013QjE5UXhWaEI0eTRJVzVhdncxSW1DSHBYRmpQanRaNndRNFZFaVdlZk9kNXdoNks3YThONTR1Wnl0c1ZnSlMwUDZUaUxubGs3RGNLbDdSZl95NGhXZUp2TDR6bVBKYV9lWW41UnRWdy1RTWo4X2JLVW91dUk4bWN5SU1Hb2dFenRCWkhfdkgwZjFJQ1JLUXlZZ1FRNGdEVHpNT1I5ZUZuMmljNTdjNHVDQnV3?oc=5",
     "fuente": "CatalunyaPress",
     "fecha": "2026-10-17T16:50:00+00:00"
-   },
-   {
-    "titulo": "El PNV ratifica por unanimidad a Maribel Vaquero, Idoia Sagastizabal y Gorka Urtaran como candidatos al Congreso",
-    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNODM0MFoxX2JMdlpBd0laQzZRNnhoYTRiaElOeGZNRXg2ZTlKdFVXYmpwNEFEakNKcmtyNFVnTWI2WXRzdTI3MEc5VXU5UHRyVVpQcDBwREltVFFzZ09BS3pFQjdzTWdVRTF5aUlkXzhWbGN2dW11WW5XbEpHdWFUVnZSZ2U1VEpLV3oyb3BBLTJCYXBfWm0xbWs4UGN2YmxDdWFaTDhPcHptRExRdlpJeVpjcDU1dktuUlZLbmhVSnpULWpnekkwQWtyLWxPQjhPeFRtaWhjQQ?oc=5",
-    "fuente": "ORAIN",
-    "fecha": "2026-10-17T15:47:37+00:00"
    }
   ],
   "BNG": [
