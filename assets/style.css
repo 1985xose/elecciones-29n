@@ -681,7 +681,7 @@ html.pruebas .sello-pruebas { display: inline-block; }
 .arcos svg.resalta path.arco:not(.on) { opacity: .18; transition: opacity .2s; }
 .arcos svg path.arco { transition: opacity .2s; }
 .carrera-votos { display: grid; gap: 4px; }
-.fila-v { display: grid; grid-template-columns: 96px 1fr 62px 44px; align-items: center; gap: 8px; background: var(--superficie); border: 2px solid transparent; border-radius: 12px; padding: 8px 10px; font: inherit; color: inherit; text-align: left; cursor: pointer; transition: border-color .15s; }
+.fila-v { display: grid; grid-template-columns: 124px 1fr 62px 44px; align-items: center; gap: 8px; background: var(--superficie); border: 2px solid transparent; border-radius: 12px; padding: 8px 10px; font: inherit; color: inherit; text-align: left; cursor: pointer; transition: border-color .15s; }
 .fila-v:hover { border-color: var(--linea); }
 .fila-v.abierta { border-color: var(--c); border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 .fila-v .nom { font-weight: 700; font-size: .9rem; display: flex; align-items: center; gap: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -696,7 +696,7 @@ html.pruebas .sello-pruebas { display: inline-block; }
 .fila-v-detalle .chispa-grande svg { width: 100%; max-width: 120px; height: 36px; }
 .fila-v-detalle .chispa-grande polyline { fill: none; stroke: var(--c); stroke-width: 1.6; stroke-linejoin: round; stroke-linecap: round; }
 .fila-v-detalle .boton { grid-column: 1 / -1; justify-self: start; }
-@media (max-width: 480px) { .fila-v { grid-template-columns: 74px 1fr 60px 36px; gap: 6px; padding: 8px 8px; } .fila-v .nom { font-size: .84rem; } .fila-v .num { font-size: .95rem; } .fila-v small { font-size: .7rem; } .cifra b { font-size: 1.6rem; } }
+@media (max-width: 480px) { .fila-v { grid-template-columns: 96px 1fr 60px 36px; gap: 6px; padding: 8px 8px; } .fila-v .nom { font-size: .84rem; } .fila-v .num { font-size: .95rem; } .fila-v small { font-size: .7rem; } .cifra b { font-size: 1.6rem; } }
 .titulares-hoy { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 @media (max-width: 600px) { .titulares-hoy { grid-template-columns: 1fr; } }
 .titulares-hoy .titular-n:not(.grande) { grid-column: 1 / -1; }
@@ -943,7 +943,8 @@ html.pruebas .sello-pruebas { display: inline-block; }
 .lectura { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; padding: 8px 8px 4px; border-top: 1px solid var(--linea); min-height: 44px; }
 .lectura .lf { font-size: .78rem; font-weight: 700; color: var(--gris); flex-basis: 100%; }
 .lectura .lvals { display: flex; flex-wrap: wrap; gap: 6px 8px; }
-.lchip { display: inline-flex; align-items: center; gap: 6px; font-size: .86rem; padding: 3px 10px 3px 7px; border-radius: 999px; background: color-mix(in srgb, var(--c) 12%, #fff); border: 1px solid color-mix(in srgb, var(--c) 35%, #fff); white-space: nowrap; }
+.lchip { display: inline-flex; align-items: center; gap: 6px; font-size: .86rem; padding: 3px 10px 3px 7px; border-radius: 999px; background: color-mix(in srgb, var(--c) 12%, #fff); border: 1px solid color-mix(in srgb, var(--c) 35%, #fff); max-width: 100%; }
+.lchip b { white-space: nowrap; }
 .lchip i { width: 10px; height: 10px; border-radius: 50%; background: var(--c); }
 .lchip b { font-weight: 800; }
 /* Tarjetas de Hoy, con dibujo y fondo de color */
@@ -1028,7 +1029,7 @@ html.pruebas .sello-pruebas { display: inline-block; }
 .sen-mini-cifra .pasa { color: var(--bien); font-weight: 700; display: block; font-size: .8rem; }
 .sen-mini-cifra .nopasa { color: var(--gris); font-weight: 700; display: block; font-size: .8rem; }
 .sen-lista { display: grid; gap: 6px; }
-.sen-fila { display: grid; grid-template-columns: 96px 1fr 50px 56px; align-items: center; gap: 8px; background: var(--superficie); border: 2px solid transparent; border-radius: 12px; padding: 7px 10px; font: inherit; color: inherit; text-align: left; cursor: pointer; transition: border-color .15s; }
+.sen-fila { display: grid; grid-template-columns: 124px 1fr 50px 56px; align-items: center; gap: 8px; background: var(--superficie); border: 2px solid transparent; border-radius: 12px; padding: 7px 10px; font: inherit; color: inherit; text-align: left; cursor: pointer; transition: border-color .15s; }
 .sen-fila:hover, .sen-fila.marcada { border-color: var(--c); }
 .sen-fila .nom { font-weight: 700; font-size: .9rem; display: flex; align-items: center; gap: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .sen-fila .pista { position: relative; height: 16px; background: var(--papel); border-radius: 8px; overflow: visible; }
@@ -1037,12 +1038,13 @@ html.pruebas .sello-pruebas { display: inline-block; }
 .sen-fila .pista .raya { position: absolute; top: -5px; width: 2px; height: calc(100% + 10px); background: var(--tinta); opacity: .7; }
 .sen-fila .num { font-weight: 800; font-size: 1.05rem; text-align: right; font-variant-numeric: tabular-nums; }
 .sen-fila small { font-size: .72rem; font-weight: 700; color: var(--gris); text-align: right; white-space: nowrap; }
-@media (max-width: 480px) { .sen-fila { grid-template-columns: 74px 1fr 40px 48px; gap: 6px; padding: 7px 8px; } .sen-fila .nom { font-size: .84rem; } .sen-doble { gap: 6px; } }
+@media (max-width: 480px) { .sen-fila { grid-template-columns: 96px 1fr 40px 48px; gap: 6px; padding: 7px 8px; } .sen-fila .nom { font-size: .84rem; } .sen-doble { gap: 6px; } }
 .sen-ficha .enlace-boton { margin-top: 8px; }
 .enlace-boton { background: none; border: 0; padding: 0; font: inherit; font-weight: 700; color: var(--acento); cursor: pointer; }
 .enlace-boton:hover { text-decoration: underline; }
 #sen-anillo { display: flex; align-items: center; gap: 14px; margin-top: 12px; }
-@media (min-width: 700px) { .tabla-ultimo .cab, .ultimo-prov { grid-template-columns: 1fr 110px 140px 110px; } .tabla-ultimo .ultimo-prov .falta { white-space: nowrap; } }
+@media (min-width: 700px) { .tabla-ultimo .cab, .ultimo-prov { grid-template-columns: 1fr 170px 200px 110px; } .tabla-ultimo .ultimo-prov .falta { white-space: nowrap; } }
+.ultimo-prov .chip.con-insignia { white-space: normal; line-height: 1.15; }
 .pol-chip.todas { border-style: dashed; } .pol-chip.todas.activa { border-style: solid; }
 .burbuja.todo { border-style: dashed; background: #fff; } .burbuja.todo b { font-size: .95rem; }
 
@@ -1126,10 +1128,41 @@ html.pruebas .sello-pruebas { display: inline-block; }
 .met-cuerpo a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .camino-todo { margin: 8px 0 0 28px; }
 /* Asientos en cada fila del simulador */
-.sim-fila { grid-template-columns: 96px 1fr 62px 40px 56px; }
+.sim-fila { grid-template-columns: 124px 1fr 62px 40px 56px; }
 .sim-fila .esc { display: flex; flex-direction: column; align-items: flex-end; line-height: 1.05; border-left: 1px solid var(--linea); padding-left: 8px; }
 .sim-fila .esc b { font-size: 1.05rem; font-weight: 800; font-variant-numeric: tabular-nums; }
 .sim-fila .esc small { font-size: .66rem; font-weight: 700; color: var(--gris); text-align: right; }
 .sim-fila .esc small.sube { color: var(--bien); } .sim-fila .esc small.baja { color: var(--mal); }
-@media (max-width: 480px) { .sim-fila { grid-template-columns: 68px 1fr 50px 32px 44px; gap: 5px; } .sim-fila .esc { padding-left: 5px; } .sim-fila .esc b { font-size: .95rem; } .sim-fila small { font-size: .68rem; } }
+@media (max-width: 480px) { .sim-fila { grid-template-columns: 92px 1fr 50px 32px 44px; gap: 5px; } .sim-fila .esc { padding-left: 5px; } .sim-fila .esc b { font-size: .95rem; } .sim-fila small { font-size: .68rem; } }
 .det-coalicion { display: block; font-weight: 500; font-size: .86rem; color: var(--gris); margin-top: 2px; }
+
+/* Insignias: el logo del partido (alto fijo, ancho el que pida) o una chapa con sus siglas. En todos los sitios igual */
+.insignia { flex: none; display: inline-flex; align-items: center; justify-content: center; height: 22px; min-width: 22px; max-width: 54px; border-radius: 5px; vertical-align: middle; box-sizing: border-box; }
+.insignia.chapa { background: var(--c); color: #fff; font-size: .6rem; font-weight: 800; letter-spacing: -.01em; line-height: 1; padding: 0 6px; font-stretch: 85%; }
+.insignia.logo { background: #fff; border: 1px solid var(--linea); object-fit: contain; padding: 2px 3px; width: auto; }
+.insignia.mini { height: 18px; min-width: 18px; max-width: 44px; border-radius: 4px; } .insignia.mini.chapa { font-size: .5rem; padding: 0 4px; } .insignia.mini.logo { padding: 1px 2px; }
+.foco-tira .fila button .insignia { margin-left: -4px; }
+.fila-v .nom, .sim-fila .nom, .sen-fila .nom, .fila-p .nom { gap: 7px; }
+.chip.con-insignia { display: inline-flex; align-items: center; gap: 5px; padding-left: 3px; }
+.chip.con-insignia .insignia.logo { border: 0; }
+.mapa-tip .fila .nom .insignia { margin-right: 0; }
+.tabla-territorio thead th .insignia, .tabla-encuestas thead th .insignia { display: inline-flex; margin: 0 auto 3px; }
+.pacto .insignia { margin-right: 4px; }
+.lchip .insignia { margin-left: -4px; }
+.logo-tira { height: 22px; width: auto; max-width: 72px; min-width: 22px; object-fit: contain; display: inline-block; vertical-align: middle; margin-left: -6px; background: #fff; border-radius: 5px; padding: 2px 3px; box-sizing: border-box; }
+.logo-ficha { height: 44px; width: auto; max-width: 140px; object-fit: contain; vertical-align: middle; margin-right: 10px; background: #fff; border-radius: 6px; padding: 2px 4px; }
+h2.con-logo { display: flex; align-items: center; flex-wrap: wrap; gap: 4px; }
+h2.con-logo::before { display: none; }
+/* Noticias: logos en etiquetas, polémicas y burbujas */
+.tag.con-insignia { display: inline-flex; align-items: center; gap: 4px; padding-left: 2px; }
+.tag.con-insignia .insignia.logo { border: 0; }
+.pol-chip .insignia.logo { border: 0; }
+.pol-sup .insignia { margin-right: 2px; }
+.burbuja .insignia.burbuja-logo { height: calc(var(--t) * .3); max-width: 80%; border: 0; background: transparent; padding: 0; }
+.burbuja.activa .insignia.burbuja-logo { background: #fff; border-radius: 4px; padding: 1px 3px; }
+.leyenda-grafica { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 6px; padding: 6px 8px 2px; }
+.ley-serie { display: inline-flex; align-items: center; gap: 5px; border: 1.5px solid transparent; background: transparent; border-radius: 999px; padding: 2px 9px 2px 3px; font: inherit; font-size: .84rem; font-weight: 700; color: var(--tinta); cursor: pointer; }
+.ley-serie:hover { border-color: var(--linea); }
+.ley-serie.apagada { opacity: .4; text-decoration: line-through; }
+.ley-serie .punto { width: 12px; height: 12px; }
+#caja-tendencia .lienzo { height: 350px; }

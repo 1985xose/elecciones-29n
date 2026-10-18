@@ -26,6 +26,7 @@
   "partidos": {
     "PP": {
       "nombre": "PP",
+      "logo": "assets/logos/pp.png",
       "color": "#1D84CE",
       "consulta": "\"Partido Popular\" OR Feijóo",
    "nombres": ["PP", "Partido Popular", "Feijóo", "Génova"],
@@ -33,6 +34,7 @@
     },
     "PSOE": {
       "nombre": "PSOE",
+      "logo": "assets/logos/psoe.png",
       "color": "#E30613",
       "consulta": "PSOE OR \"Pedro Sánchez\"",
    "nombres": ["PSOE", "Pedro Sánchez", "Sánchez", "Ferraz"],
@@ -40,6 +42,7 @@
     },
     "Vox": {
       "nombre": "Vox",
+      "logo": "assets/logos/vox.png",
       "color": "#5FB22A",
       "consulta": "Vox OR Abascal",
    "nombres": ["Vox", "Abascal"],
@@ -47,6 +50,7 @@
     },
     "Sumar": {
       "nombre": "Frente Amplio",
+      "logo": "assets/logos/sumar.png",
       "color": "#E5326E",
       "consulta": "\"Yolanda Díaz\" OR \"de Sumar\" OR \"Movimiento Sumar\" OR \"Sumar y Podemos\" OR \"Podemos y Sumar\" OR \"coalición Sumar\" OR \"Antonio Maíllo\" OR \"Más Madrid\"",
    "nombres": ["Sumar", "Yolanda Díaz", "Maíllo", "Más Madrid"],
@@ -55,6 +59,7 @@
     },
     "Podemos": {
       "nombre": "Podemos",
+      "logo": "assets/logos/podemos.png",
       "color": "#6C3483",
       "consulta": "\"Ione Belarra\" OR \"Irene Montero\" OR \"de Podemos\" OR \"Podemos y Sumar\" OR \"Sumar y Podemos\" OR \"partido morado\"",
    "nombres": ["Podemos", "Belarra", "Irene Montero"],
@@ -62,6 +67,7 @@
     },
     "SALF": {
       "nombre": "SALF",
+      "logo": "assets/logos/salf.png",
       "color": "#7A5C3E",
       "consulta": "\"Se Acabó La Fiesta\" OR Alvise",
    "nombres": ["Se Acabó La Fiesta", "Alvise", "SALF"],
@@ -69,6 +75,7 @@
     },
     "ERC": {
       "nombre": "ERC",
+      "logo": "assets/logos/erc.png",
       "color": "#F2A900",
       "consulta": "ERC OR Rufián",
    "nombres": ["ERC", "Esquerra", "Rufián", "Junqueras"],
@@ -77,6 +84,7 @@
     },
     "Junts": {
       "nombre": "Junts",
+      "logo": "assets/logos/junts.png",
       "color": "#20B5A6",
       "consulta": "Junts OR Puigdemont",
    "nombres": ["Junts", "Puigdemont"],
@@ -84,6 +92,7 @@
     },
     "Bildu": {
       "nombre": "EH Bildu",
+      "logo": "assets/logos/bildu.png",
       "color": "#9DBB1E",
       "consulta": "\"EH Bildu\"",
    "nombres": ["Bildu", "Otegi", "Otxandiano"],
@@ -91,6 +100,7 @@
     },
     "PNV": {
       "nombre": "PNV",
+      "logo": "assets/logos/pnv.png",
       "color": "#2E7D4F",
       "consulta": "PNV",
    "nombres": ["PNV", "Aitor Esteban", "Pradales"],
@@ -98,6 +108,7 @@
     },
     "BNG": {
       "nombre": "BNG",
+      "logo": "assets/logos/bng.png",
       "color": "#79B4DE",
       "consulta": "BNG",
    "nombres": ["BNG", "Pontón"],
@@ -105,6 +116,7 @@
     },
     "CCa": {
       "nombre": "CC",
+      "logo": "assets/logos/cca.png",
       "color": "#E9C21B",
       "consulta": "\"Coalición Canaria\"",
    "nombres": ["Coalición Canaria", "CC", "Clavijo"], "no": ["CC.OO", "CC OO", "CC. OO"],
@@ -112,6 +124,7 @@
     },
     "UPN": {
       "nombre": "UPN",
+      "logo": "assets/logos/upn.png",
       "color": "#2C4F9E",
       "consulta": "UPN",
    "nombres": ["UPN", "Ibarrola"],

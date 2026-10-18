@@ -64,6 +64,21 @@ Senado: `data/config.json` > `senado` lleva los senadores que designan las comun
 
 Polémicas (`ordenar_polemicas()` en `scripts/noticias.py`): solo las de los últimos 7 días (Google News cuela cosas de hace meses aunque se le pida la última semana), apuntadas al partido al que afectan y no al que las denuncia (`papeles()` mira si el partido va detrás de «investigar a», «condena a», «pide a»… o si es el que denuncia, pide o ejerce la acusación popular), sin titulares repetidos, con una sola por historia y partido (dos titulares del mismo partido que comparten dos palabras propias) y como mucho 4 por partido. El log dice cuántas se quedan fuera y por qué.
 
+Versión 70, la leyenda de la gráfica con logos:
+- La leyenda de la gráfica de Encuestas deja de dibujarla Chart.js y pasa a HTML (`#leyenda-tendencia`, `pintarLeyendaTendencia()`), con el logo de cada partido. Tocar un partido lo oculta o lo enseña, con su línea, su franja, sus puntos y su rombo de 2023, igual que hacía la leyenda de antes. En la vista por bloques sale el punto de color del bloque.
+
+Versión 69, logos también en Noticias:
+- Las burbujas de «De quién se habla» llevan el logo debajo del número en vez del nombre (la chapa si no hay logo), las etiquetas de partido de las noticias y de la portada llevan el logo delante del nombre, y en Polémicas van en los chips de la tira y delante del sello de cada polémica.
+
+Versión 68, logos en todas partes:
+- La insignia (`insignia()`) ya es el logo del partido en todos los sitios, no solo en la tira y la ficha: filas de Hoy, barras de ¿Y si…? y del Senado, leyendas de los hemiciclos, tooltip del mapa, detalle de provincia (líder y tabla), ficha de ¿Y si…? al tocar una provincia, pactos, lectura al pie de la gráfica, carrera, cambios de la semana, cabeceras de las tablas por territorio y de encuestas, y los chips de último asiento y del Senado. Alto fijo (22 px, 18 en los chips y leyendas) sobre fondo blanco y ancho el que pida el logo, con tope. Sin logo, la chapa con siglas. Los bloques (derecha, izquierda) siguen con su punto de color porque no son un partido.
+- La tabla de «Dónde se decide» del Senado ensancha sus columnas en ordenador para que quepa «Senado de Progreso» con logo.
+
+Versión 67, logos e insignias:
+- Cada partido lleva una **insignia** (`insignia()`): una chapa redonda de 24 px con sus siglas en su color (`SIGLAS` en `app.js`, o `config.partidos.X.siglas`), en las filas de Hoy, en las barras de ¿Y si…? y del Senado, en la lista de senadores y en las leyendas de los hemiciclos. Sustituye al punto de color en esos sitios, el punto sigue en tablas y tooltips.
+- Donde hay sitio para el logo entero va el logo (`logoTira()`): la tira de partidos de arriba (22 px de alto sobre fondo blanco, ancho el que sea) y el título de la ficha del modo partido (44 px). `config.partidos.X.logo` apunta al fichero en `assets/logos/`, PNG de 128 px de alto recortado. Si el fichero falla, sale la chapa. Los logos vienen de Wikimedia Commons, PSOE, Vox, Podemos, Junts, UPN y SALF de dominio público por ser texto o formas simples, PP y PNV con CC BY-SA 4.0, ERC, EH Bildu, BNG y CC con la licencia de Commons, y el de Frente Amplio el que presentó la coalición. Metodología lo explica y deja claro que se usan solo para identificar a cada partido.
+- La columna del nombre en esas filas pasa de 96 a 124 px (96 en móvil) para que quepa «Frente Amplio» con la insignia.
+
 Versión 66, las columnas nuevas de Wikipedia:
 - Desde las coaliciones del 16 de octubre, Wikipedia da en las encuestas nuevas una columna **FA** (Frente Amplio) y otra **FV** (Compromís-Front Valencià), y ERC sale como ERC-Podemos. El robot se paraba con razón («no trae Sumar y sí una columna desconocida»). `wikitabla.py` traduce FA, FV, Compromís y UPC (Unidad del Pueblo Canario) a la clave `Sumar`, y ERC-Podemos a `ERC`, y cuando dos columnas caen en la misma clave se suman en vez de pisarse. FA y FV se suman porque en 2023 Compromís iba dentro de Sumar y así está en la base con la que se reparte por provincias (la coalición valenciana ya se cuenta aparte en `coaliciones`). Probado con una tabla de ejemplo, el ElectoPanel del 17 de octubre entra como Sumar 6,2 (4,9 más 1,3) y 10 asientos.
 - El aviso de Frente Amplio lo explica.
