@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-17T23:01:54+00:00",
+ "actualizado": "2026-10-18T00:01:55+00:00",
  "generales": [
+  {
+   "titulo": "Una tele y un puente aéreo al Caribe: los que no duermen por el 29-N",
+   "enlace": "https://www.abc.es/espana/jose-a-perez-tele-puente-aereo-caribe-duermen-29n-20261018012641-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-10-18T01:43:27+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/18/1200x840%20WEB%20encuestas-RvQnOX7Er9QrzLYoaVz10LJ-1200x840@diario_abc.jpg"
+  },
   {
    "titulo": "Un 'procés' para el 29-N",
    "enlace": "https://www.elmundo.es/espana/2026/10/18/6ad3a4b1fdddff6d168b45ab.html",
@@ -14,13 +21,6 @@
    "fuente": "El Español",
    "fecha": "2026-10-17T22:25:00+02:00",
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379939.jpg?p=w:1706/h:960&h=7gMZNTiG"
-  },
-  {
-   "titulo": "Bellido, «satisfecho» con el acuerdo con Ferraz tras los cambios en las listas de Guadalajara",
-   "enlace": "https://www.abc.es/espana/castilla-la-mancha/bellido-satisfecho-acuerdo-ferraz-tras-cambios-listas-20261017210626-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-17T22:23:37+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/fotonoticia_20261017183647_1920-RU5GecIqhhziNtwLFSYvixM-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Rufián se disculpa por el \"ridículo\" de la izquierda y pide el voto \"aunque sea desilusionado o cabreado\" el 29N",
@@ -75,6 +75,13 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
+    "enlace": "https://www.abc.es/espana/canarias/encuestas-elecciones-generales-29n-canarias-resultados-psoe-20261017051500-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-18T01:39:59+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-feijoo-RhBPdB047C5hAAa0ETfq3bJ-1200x840@diario_abc.jpg"
+   },
+   {
     "titulo": "Feijóo elige Pozuelo para comprometerse a garantizar el voto secreto de las personas ciegas en todas las elecciones",
     "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNc01ma05FMWF3Zy1CdlRkd05tWlR1UFhEYzBNOE5DcUltc2tjX2FvUHA0Y3kzQVgwbTlBSlVvYXBJYW5lekxleUJTdFBFU2hZaXhXY3FIM1hxVTJsaWNCY1RQRzRNRGdPSlpwRU1WdUc3bzUxdFVTaEpxUGkzQ3I5RFJnWXI2NDZjajJwT1NkZ3RsLW1fSDJEZ3Z4TXNraGRBckpRZFh0Z2pyNnhobWZNZHhkcTdTQWdfdXktMVNqWFNoWnMyREZUMEFfWFFHb2pheU1nWkpBaFp5elEyUmp0TGp3dmMyMTlIeVE?oc=5",
     "fuente": "Pozuelo IN",
@@ -88,13 +95,6 @@
     "imagen": "https://static.eldiario.es/clip/2b28605f-8b01-4acd-9a85-1221a517c673_16-9-discover-aspect-ratio_default_1153483.jpg"
    },
    {
-    "titulo": "Albiol encabezará la lista del PP por Barcelona para el Congreso el 29-N",
-    "enlace": "https://okdiario.com/espana/albiol-encabezara-lista-del-pp-barcelona-congreso-29-n-20572766",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-17T19:31:36+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/17/xavier-garcia-albiol-junto-a-alberto-nunez-feijoo.-ep.jpg"
-   },
-   {
     "titulo": "Vox estudiará opciones para no hurtar senadores al PP en favor de la izquierda",
     "enlace": "https://www.lavanguardia.com/politica/20261017/11661547/vox-estudiara-opciones-hurtar-senadores-pp-favor-izquierda.html",
     "fuente": "La Vanguardia",
@@ -102,31 +102,37 @@
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/17/6ad3accb82d3b.jpeg"
    },
    {
-    "titulo": "Foro Asturias brindará su apoyo al PP en las próximas elecciones generales",
-    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZE12bDJhbXBDTTNGbUJ2T0lrWlVPdzEtT3d6dWJxR3hJUTZEVExoR2FxbFJiaVZFeXNPNmVrUFN2ODNYT3lGMHJSUk80bGFFUG1VUXVxQzUxeGtGOUgySGZ0eUhnNXpqdW5tUTdPOUM2V0x4S2E1TU5tdDJkbTRhZzE2UlBGUUlJTlZlN3NMdmZIbXh1amNaZk1NRDN1aE5PQV9fUVZoVWstVWk1QUJ4Zl9nWjl1bEFVRVZzWmpzZEl4WXFr?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-10-17T17:23:00+00:00"
+    "titulo": "Vox baraja dejar vía libre al PP en algunas provincias tras el pacto de la izquierda para el Senado",
+    "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaEFkVXZFdjlId3FZU0pmOUoxS0x3Z0VsSXBWWi1SYlFUeVJmRHdjd1NmOVdRVXpmdFJnWVZiVkdPZ1ZmbXlFX0trMkdIdWU3ZEZKRWRpRldCVUltNVRxdFBfeWRsTml1Y3dyRFFFangtN3QxaEE2RTd3dzJfMjRTNkNXb29LS0ZCUk4xaWR4VGdKS3l5NnM0VUZOQTRTUHcxanlEQ1BUR1RNRGZEQlFIRFZLWWJ2c0l5VHFFZ3JrQdIBxAFBVV95cUxPY2Q2c05pZkotVU12LXBEbk9sTTR2U29najdMX05QWHZFdXVfanBrX1g2OVlSRlhzX09aY2hFZndqY0dqM0lMRm82dkExRUtqWHpjeGVQUEZoUlpsSjY3WWFFXy11T0JjN0VYUm9rdUthNmJ2VkROdmZpVG50enR4VFFOUHJoWnhJMDdUcEpEMkYxVlNzVmhfVFJMMi1McENGVTFEbTczM2VDUjctLXFGN2dock5LaXJ5Tld6TWdjSE1SLTRv?oc=5",
+    "fuente": "Elplural.com",
+    "fecha": "2026-10-17T15:47:00+00:00"
    },
    {
-    "titulo": "Feijóo arremete contra el pacto del PSOE con el Frente Amplio y promete reforzar el bienestar",
-    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUU9raFFxMEJRZDQzOUtPSURnbU1lRzM5eDl0YWtBemx4Vnk3eWRndGxHREpKV2dxSURBekZ6NC1vWVFldTFJOWFjRHZQQWc5aHpKTjRwcUVOQVNiakNWWHlPVmRJWGZhcExhbk5MRVp6eVlna0g4VDloTnhfOElIdkJKSXNDVGxoTVY0MGhKX0Q4Umpqa3BJQ184WVlscDI5RUZ2N3ZkcmxYeV9FWFQ2cWI1YUY1U1VUYVFMTHpqUHNmekJkbWVnUWVJazIxLWxlMXRqN213?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-10-17T17:08:00+00:00"
+    "titulo": "Las polémicas que amenazan con desviar los planes de Sánchez y Feijóo antes de las elecciones",
+    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMkJVWkZUa2JnclB2eE4tdElRbjZ2ckhRMlYzQ1YzNmExTlpKWkFkY1IxX2JwbTUzOHU2V3U4TnBCMWV1a0hldEtfcHphWlJjS0puLW9LUUVXVVpaenpzclJNaGNvdDdGRFpGUzNJWkF2S1dFLTdBSzBGOC16MG84Y0hOVzVIbE9jVE9MdkFjbzNYdC1TVDFTaXdVdW5uYzZvUzR4WkZFTzNXVFM0bzUzWVhRcElqaVZ2SmpQQkttRXpELWV4SGdkV2RyUUpUTWFVc2ZCQ1VR0gHbAUFVX3lxTE5mcThRTW9leWQtYUVPWDBDdEo1WGMxMmhadFE5cVd6SmdoamkyRHdQRkZ4NnRxQVRETlZOektLNld6MnZPM2pPSElobFM5NWlLczNuRmpYckVDZXNRajlQQUZfYWVIbUFvdjRZR1U1aTRoeUZZb1BraVpNLUdXYWt3SmJoY1ZObDRlNGo2V3RESllSbno1Z1lJN0R1c0xUS1BnQWhTb2c2TEsxSFpCZlZBc0RsaENVSkY1Q2lzemRMLWNVdzFCOWVsbkpIOWVaTEdhZWsxbjBOREo5UQ?oc=5",
+    "fuente": "MUNDIARIO",
+    "fecha": "2026-10-17T14:59:01+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Una notaria sobre los préstamos de 50.000 euros que promete Sánchez: «Sólo se concederá a personas que compren su casa mediante hipoteca»",
-    "enlace": "https://okdiario.com/economia/notaria-habla-claro-sobre-prestamos-50-000-euros-que-promete-sanchez-solo-concedera-personas-que-compren-casa-mediante-hipoteca-20523531",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-18T00:20:09+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/12/pedro-sanchez.-imagen-de-europa-press..jpg"
+    "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
+    "enlace": "https://www.abc.es/espana/canarias/encuestas-elecciones-generales-29n-canarias-resultados-psoe-20261017051500-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-18T01:39:59+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-feijoo-RhBPdB047C5hAAa0ETfq3bJ-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Fracasa la unión a la izquierda del PSOE",
     "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZk5CQ2NRdVFFRVc1THRkcmd1RmNrZW9KVGZSNkhBOHpIVlZFLU1OdVpoSnY3WE5DSmtheHNpNFBpREtZX0VybS1JOURDZnVoWFRZcmtCY2hsYllPS3kwTkstSzhSVk1Zc09ramhwTWtycjZxX1JnZVFhWF8zOXlJQ3M5VXB6cmNaaTdRZ21yc2FzUdIBlwFBVV95cUxNeGE0enJ4Z2lxRnJQekZ0RDYwdDRndUdrY2Nrak5XQzlmajRTSXBjdGpxelk4WXU0dXMtZ0xEYUJrdzZ2eFc1VWU0SlkyVEtLbm03QzlWeTBPMzhJWUMzY0xXWXRjYnFISG5hYmpHbVlCdk9CQ2stR1ExRkREYk9fa1pxazk0Wld2REZ0Rzh4UmZsbXZnaTJ3?oc=5",
     "fuente": "La Vanguardia",
     "fecha": "2026-10-17T22:05:00+00:00"
+   },
+   {
+    "titulo": "Revilla predice que el PSOE va a ganar las elecciones pero no gobernará: \"Vamos a tener un cambio de ciclo, un Gobierno del PP con Vox\"",
+    "enlace": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQb1pHZV96Vml3OVNUTW1ONVlqV25WdmxzWWczQmRYLVRMSVV0TDZhNWNtMWpsM0hCNGl6UE1IeEdHclFUTF9EWFFNM3RHNnYxeFhPMGFhMENJWWNadXFUT2c0MlFBNEF4bHJIZ25uVXBCMUJYRDVZME0wR3hoaXl0QjNQQW52R2FKblFBTGVITV9XdHRMQ0k4X0JFaGRHU0tad3Y5eGw5aHVUamVYcExfNlg1UkdIcHhRT2wweklSWTZ6dTJ1U2p0QmZGa0tTNmg2OGFSWkFvbmVvdzF4dEVxNG15T3RRbzRBWW90Wmg2UlNLY0p5NndpNnhrdlM0MWtkTDRuTEFfeDZkQdIBigJBVV95cUxQb1pHZV96Vml3OVNUTW1ONVlqV25WdmxzWWczQmRYLVRMSVV0TDZhNWNtMWpsM0hCNGl6UE1IeEdHclFUTF9EWFFNM3RHNnYxeFhPMGFhMENJWWNadXFUT2c0MlFBNEF4bHJIZ25uVXBCMUJYRDVZME0wR3hoaXl0QjNQQW52R2FKblFBTGVITV9XdHRMQ0k4X0JFaGRHU0tad3Y5eGw5aHVUamVYcExfNlg1UkdIcHhRT2wweklSWTZ6dTJ1U2p0QmZGa0tTNmg2OGFSWkFvbmVvdzF4dEVxNG15T3RRbzRBWW90Wmg2UlNLY0p5NndpNnhrdlM0MWtkTDRuTEFfeDZkQQ?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-10-17T21:50:14+00:00"
    },
    {
     "titulo": "Sánchez pone al PSOE a bailar al ritmo de Begoña Gómez para voltear la campaña",
@@ -147,15 +153,34 @@
     "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONEhOQTRvLXJTcDBFR0pONGtjWDJBdXdnRzRabm5BMElhTXgtSm91RGpkVEUxaHZQYVhSU1RPS2ZMN0FZTXRwaFkwSFdnVW1qaDRQNG1rSzVmOFRNNndPTElfLUxINTF2RlgyVkJ5UUJsWklmY1Exam83cmdZSmFaRlVVemNsblBMamdpTGVJZ29xR0p1R0l2OWtQYUJaekMxWHNZbXI0X3JRazV2Snlz?oc=5",
     "fuente": "Estrella Digital",
     "fecha": "2026-10-17T18:47:25+00:00"
-   },
-   {
-    "titulo": "El show de María Jesús Montero en el mitin del PSOE junto a Sánchez y Begoña Gómez al ritmo de Rusowski",
-    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdDMxN0hpQlZzUThXSzdubmxxUnF1a2N5czgxS2plNkFzOHBMSG9VbTVjcnBHUTFoUEpSN2MxNlFQZ3prWEFvaFJXNHVuYUh1YmZiRHcwYUo0UWFaNkpaaWh3VEh3ejhCbTlqQmRaQ3A3Z0JhaUloSFBQMGVzUGlaR0MwZGpHRlhnVy1MdHFGYjZhbzBwY3ZlT1pWWXJFVVNrT0F0UGhKc2VFSnhzTjVMY0pFTUlUT3Uxa1hIc1EtamxKSjFuSkNaV21HakpKd0U?oc=5",
-    "fuente": "101TV",
-    "fecha": "2026-10-17T18:03:00+00:00"
    }
   ],
   "Vox": [
+   {
+    "titulo": "\"Pacto de no agresión\" de Feijóo y Abascal con la mirada en el Senado",
+    "enlace": "https://www.elmundo.es/espana/2026/10/18/6ad3a436fdddfffb408b459c.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-18T01:25:00+02:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/17/17922641933428.jpg"
+   },
+   {
+    "titulo": "Vox sopesa ceder el paso al PP en el Senado en varias provincias para blindar la mayoría del centroderecha",
+    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRWFXcS1LZXl1VWdrYXNoSjA1THA0TG03dFM0LXZuOFdZS0VmeWoxSHBpSm1tSzl0SWtCUXY0ZmpHX0F3T2JTbHlyeHNUX0FGb094VmpXWG13emxjSzBsMDF1LUtFd2hvcXJ6V2dlOHd0LUE0WWdRVUtYaUI3OFRZSm5wck9aY2psZmc3Y1Z6dXBWaGh4MjRHOHA1b0hGM1QzTXV0X0p1YmRNZkIxdzIyQlp6SUE2ZGVlcXVQcXNMVmprSWJpZ2llaE1aVlBEOTg1ZXRTc3FfVHlnazM1?oc=5",
+    "fuente": "MurciaEconomía.com",
+    "fecha": "2026-10-17T23:28:09+00:00"
+   },
+   {
+    "titulo": "El Gobierno exprime el debate sobre las pensiones tras la caída de Mínguez: a por 9 millones de votos donde se resiente Vox",
+    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaG1CQ3hCeUxJaURTWlFyOXRtWVRoanMyTzZkVm43X0dwcEt0Vl9Va0dTVXZJX1kySldzeEhocW9VS0k3bFNpSG9Mdm5fSmhUWUc0NUpyNEZEOUZpUGdYTlBVSU5QMi0zTC1TeEd0RGx3VGg4SHFnTXlpZ0NkSTE5YldocnVMMXRpSERLNTk5OUVLT2J1bW01UmlDMNIBmwFBVV95cUxOR1ZoU0prT3paMDRaaml4el8tb0wyZGZsclFLVDBwOXljTkFvbDhCRnkyYWRzWDBtV3BHYzFCZ0ZtQzkyLVhrbEUxbTdiWG5lR1BQRmZZUzk4dWVNVTRyZmdXZ09Kd0NvT1BKT2hOMHZzaThnNEhIR1F1eFVsdGtQejZkNGM2ejlScndKNnFiMGdJX3V1VjctR01Mcw?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-17T23:24:00+00:00"
+   },
+   {
+    "titulo": "Revilla predice que el PSOE va a ganar las elecciones pero no gobernará: \"Vamos a tener un cambio de ciclo, un Gobierno del PP con Vox\"",
+    "enlace": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQb1pHZV96Vml3OVNUTW1ONVlqV25WdmxzWWczQmRYLVRMSVV0TDZhNWNtMWpsM0hCNGl6UE1IeEdHclFUTF9EWFFNM3RHNnYxeFhPMGFhMENJWWNadXFUT2c0MlFBNEF4bHJIZ25uVXBCMUJYRDVZME0wR3hoaXl0QjNQQW52R2FKblFBTGVITV9XdHRMQ0k4X0JFaGRHU0tad3Y5eGw5aHVUamVYcExfNlg1UkdIcHhRT2wweklSWTZ6dTJ1U2p0QmZGa0tTNmg2OGFSWkFvbmVvdzF4dEVxNG15T3RRbzRBWW90Wmg2UlNLY0p5NndpNnhrdlM0MWtkTDRuTEFfeDZkQdIBigJBVV95cUxQb1pHZV96Vml3OVNUTW1ONVlqV25WdmxzWWczQmRYLVRMSVV0TDZhNWNtMWpsM0hCNGl6UE1IeEdHclFUTF9EWFFNM3RHNnYxeFhPMGFhMENJWWNadXFUT2c0MlFBNEF4bHJIZ25uVXBCMUJYRDVZME0wR3hoaXl0QjNQQW52R2FKblFBTGVITV9XdHRMQ0k4X0JFaGRHU0tad3Y5eGw5aHVUamVYcExfNlg1UkdIcHhRT2wweklSWTZ6dTJ1U2p0QmZGa0tTNmg2OGFSWkFvbmVvdzF4dEVxNG15T3RRbzRBWW90Wmg2UlNLY0p5NndpNnhrdlM0MWtkTDRuTEFfeDZkQQ?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-10-17T21:50:14+00:00"
+   },
    {
     "titulo": "Vox ve \"insultante\" que Sánchez proclame que quiere a su mujer y \"no dé respuesta\" a los problemas ciudadanos",
     "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQmhicGlFVTA4ckJ2UzFLZW1FOEF0VGdxZU1Xc21BMDRiVnhQTkNWVjhtcXdpY0t1MmNsa0w4ZmFUbm91YzJYYjJHazlCbFV4NlVEemM5dXhCUmZJU0RUN3NvWThnbU84NHd5UnotU2l2NGswdWttRUlRX3F3VnVyX0ExcFVRUGtiMk1ZcnpQdURzU0pMWC02SEFNU1NRX05HMVpkTElkazZGelVrbGdkaE13TFFENDJZb09hYmU3aEgyVnJpTlJoMl9uTEJJR1NGSkhHeG8zRmZpT3hsZGxB?oc=5",
@@ -163,37 +188,11 @@
     "fecha": "2026-10-17T19:49:00+00:00"
    },
    {
-    "titulo": "Abascal anuncia que Vox «actuará con altura de miras» tras la coalición del PSOE con toda la izquierda para el Senado",
-    "enlace": "https://okdiario.com/espana/abascal-anuncia-que-vox-actuara-altura-miras-coalicion-del-psoe-toda-izquierda-senado-20572829",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-17T19:38:27+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/17/abascal.jpg"
-   },
-   {
     "titulo": "Vox estudiará opciones para no hurtar senadores al PP en favor de la izquierda",
     "enlace": "https://www.lavanguardia.com/politica/20261017/11661547/vox-estudiara-opciones-hurtar-senadores-pp-favor-izquierda.html",
     "fuente": "La Vanguardia",
     "fecha": "2026-10-17T19:14:57+02:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/17/6ad3accb82d3b.jpeg"
-   },
-   {
-    "titulo": "Las matemáticas del Senado: el reparto de puestos entre PSOE y Frente Amplio y la incógnita de PP y Vox",
-    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNajlwWTBmTFpocDJqV3QtR0k4V0pjV3Fwa2tVaEFVbmwzT0M3MWNPWlM4alZNNDMtZEhKZFA2YjBTSmF5NTNWdHRqSmpxY1dQXzdjeXZ4ZXF6TF96TjhjX0FBVnpuVlpYa3ZPcU5kZWlZUW5haDJVMk5wTk0tRjJ0VzhFRk5DZXJycXRITUVBQjQzWFJ6MTU1Qm9oNF9lbUM1dFJNZU5QMHpmMlFqZmFtVUV3RkREZ2dUVERScjlqeUcwUzRSbno2RkVn0gHPAUFVX3lxTE1PZ2VRMG9nSUYxRHJ2ckZEUVhXUThXb2xwMjR5cnBGQkZXNkRIbF9lQm1RNmg0Y05wcE9WTl9FM3o2TDNVdUVpNldOUjhqSmZ1dEoxQ2pkVUNfa0hnbGRZZTBzNFpTYnNSZkZrbnAzUHhkSGcwVXpxX0M1d1hROGpid0lNU1EwRkhZSm5KV0ZMSHpHTnE4azF1RXlWd1lLc0lDQVNrQktXWjdtTDVTRzlySzJOMWMtTVVmbFEzNWpjcEt4R083VUhva1dQTmxpQQ?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-10-17T16:57:37+00:00"
-   },
-   {
-    "titulo": "Abascal visitará Palma el sábado 24 de octubre por la precampaña electoral",
-    "enlace": "https://www.eldebate.com/espana/baleares/20261017/abascal-visitara-palma-sabado-24-octubre-precampana-electoral_470804.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-17T16:44:34+00:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2023/07/14/64b1b935c5a17.r_d.803-294-0.jpeg"
-   },
-   {
-    "titulo": "Vox baraja dejar vía libre al PP en algunas provincias tras el pacto de la izquierda para el Senado",
-    "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaEFkVXZFdjlId3FZU0pmOUoxS0x3Z0VsSXBWWi1SYlFUeVJmRHdjd1NmOVdRVXpmdFJnWVZiVkdPZ1ZmbXlFX0trMkdIdWU3ZEZKRWRpRldCVUltNVRxdFBfeWRsTml1Y3dyRFFFangtN3QxaEE2RTd3dzJfMjRTNkNXb29LS0ZCUk4xaWR4VGdKS3l5NnM0VUZOQTRTUHcxanlEQ1BUR1RNRGZEQlFIRFZLWWJ2c0l5VHFFZ3JrQdIBxAFBVV95cUxPY2Q2c05pZkotVU12LXBEbk9sTTR2U29najdMX05QWHZFdXVfanBrX1g2OVlSRlhzX09aY2hFZndqY0dqM0lMRm82dkExRUtqWHpjeGVQUEZoUlpsSjY3WWFFXy11T0JjN0VYUm9rdUthNmJ2VkROdmZpVG50enR4VFFOUHJoWnhJMDdUcEpEMkYxVlNzVmhfVFJMMi1McENGVTFEbTczM2VDUjctLXFGN2dock5LaXJ5Tld6TWdjSE1SLTRv?oc=5",
-    "fuente": "Elplural.com",
-    "fecha": "2026-10-17T15:47:00+00:00"
    }
   ],
   "Sumar": [
@@ -241,7 +240,7 @@
     "titulo": "Irene Montero, dispuesta a dar un paso atrás para ceder el liderazgo a Pablo Iglesias “si eso facilita las cosas con el Frente Amplio”",
     "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQdlU3Z2RtVlMwUzBlNE5CdE1Iai13MWFSUFYtS3ZpTjd3OTJFSEpHOHR1OVRDY0w1d0pHd0NIaU9SbDJrMUplbTVGU0p5R3gxT1hsY2ZXRklkcDBkLThtSHExZDBqNVZacFc0MDlTUXJYV1IzeVR5NkpEaGpWWmlaNTRlemp0dlRKUUxqZDZLY0trVnh3ckJpZnFnWTZieEVHTFI3VnZoaS1FUFY4U20xMmRmNEJOelhsQVJjTXdRT1Zyd1lGT3hzbzBmRTUyNW1aQXlNRms4U1FhRzktMkxpd3dmdG5SSXdsel9WUWVuM0lWVFpPOXV3RzhGeWZkQQ?oc=5",
     "fuente": "El Mundo Today",
-    "fecha": "2026-10-17T20:54:28+00:00"
+    "fecha": "2026-10-17T23:57:12+00:00"
    },
    {
     "titulo": "El Frente Amplio y Podemos intentan zanjar el debate de las siglas y llaman a “frenar al fascismo”",
@@ -272,10 +271,10 @@
     "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2023/03/03/2023030314022889351.jpg"
    },
    {
-    "titulo": "Irene Montero presenta su candidatura al 29N cargando contra el Frente Amplio por su \"cercanía\" al PSOE",
-    "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPQTlxQ1A2OXRoVzUxS2Y1U2tab09rWURoVndSemoxd1FFb3FNR1hSU2g0R2NYT2xQcElnenRoQmtiYnBjc0prX2FTT3JKUm5OSEdWUE5QeFBGOHJIZ0VtWTV0LXBfWU42eE53UGNNOUVhWGt6Q09Fc1RiV3UzeWhsaWlpUUozazZTRC1pQ1lheFlTajhVM3AxT0UtZVM2dXpIWkhVNzJfQ2JmYk5uSVl3ZXVGVmVWNWVSVDlqaWpkOFpKc0F0aTctMU1oLUM4MHFzbEpkMWdDSGZGVjBkcXRhb3dNN05JX0dNM0FhM2JQbzV5cVdDVWcwX0NpUVNkQdIBiAJBVV95cUxPR2NRYXpSdmw1Z0lOaFFTSkFSQTVaQVVuTWh2Vkl4a0VhQW1HVFNiWDZFdXFPZVdrdWJmWFNSTklSQy1UV0lLaVZfZ18tRkdiN0NlWkNFMDNTU0hYRW5CX0IwTnYtOTB4bkNSU0FDRk12c1dvb25BYnlFM19YUzVPaTZzc3FRVnU0QzVsdXBZVUU2QXdUTFhGMVZJTTVxUUJqV09YOW1PWU9ZVWp0eDNVQThfOVNzZzRPR2t3aER1MWpPZVBaY01sc2RzdHhfemlYVy04VWM1WWx0WTVNNjhEdExlWUEyRTE0WTM1RXFhUFl1azVWRTlzRjlubWRCcG9CQ3ZVTEIwcTE?oc=5",
-    "fuente": "Libertad Digital",
-    "fecha": "2026-10-17T12:57:25+00:00"
+    "titulo": "Irene Montero carga contra el Frente Amplio tras su pacto con el PSOE: “Llegamos a tener acuerdos avanzados o incluso hechos, pero fueron bloqueados”",
+    "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWEFiQlh5STBQOG5aTnpKdTNVa3JfSHNueFVJQ25CYWxySzJnaXNqOWh6anZrSER4bzU2SFBTOHhXekZJaDF1X2d6d0JhZmR2WHBhSjV0X244N2FfTFFRa1k3QlFKaTJ3bEwtLUZTSG5WMThuY013Mm1sc2otT0JnYUx1WmVrSDBYN1NNNzBkZllMSmh4ZlV4RzU0TVdLWG45XzZVeDlNSUdVZzRUSFR0UG1IdW5wTGxhS1lQdXJvYzdOZ0lGT1p1U0diUmJtN1FPQzhQUGY1TzdHclZGZFU5ZDlB0gHiAUFVX3lxTFBYQWJCWHlJMFA4blpOekp1M1Vrcl9Ic254VUlDbkJhbHJLMmdpc2o5aHpqdmtIRHhvNTZIUFM4eFd6RkloMXVfZ3p3QmFmZHZYcGFKNXRfbjg3YV9MUVFrWTdCUUppMndsTC0tRlNIblYxOG5jTXcybWxzai1PQmdhTHVaZWtIMFg3U003MGRmWUxKaHhmVXhHNTRNV0tYbjlfNlV4OU1JR1VnNFRIVHRQbUh1bnBMbGFLWVB1cm9jN05nSUZPWnVTR2JSYm03UU9DOFBQZjVPN0dyVkZkVTlkOUE?oc=5",
+    "fuente": "MARCA",
+    "fecha": "2026-10-17T12:51:41+00:00"
    }
   ],
   "SALF": [
@@ -515,6 +514,13 @@
   ],
   "CCa": [
    {
+    "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
+    "enlace": "https://www.abc.es/espana/canarias/encuestas-elecciones-generales-29n-canarias-resultados-psoe-20261017051500-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-18T01:39:59+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-feijoo-RhBPdB047C5hAAa0ETfq3bJ-1200x840@diario_abc.jpg"
+   },
+   {
     "titulo": "Yaiza Siempre, MRT y Compromiso por Haría se unen a la alianza de CC y Primero Canarias",
     "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOczNLX1BjUnZqQkFrM2JkQnY4UUw4VXNxd2pJVGEzV0d6MWtvUkctQ3hEN1I3b0gwNl9YcTd1dTdTLVJkNmlWZlY0RldBc3FuQ1ZQYWE4UU1uWnhJT0pZNTBUaVIyaWI3OTd1c3dPaXJlR21LalhmU3dlNzFsSVdMZkl4Q0hkSHlIVWVPOU5BaFFCZ3ZSeFlpNDNWa2p6Mmp5azd5VUUwdkJwQTNQZmRBd1RZTFhidERYYzNpNW5Kczg1UGxnUWM3bEhCMVdtWjhMLXhpRDN1UTRmUlnSAeABQVVfeXFMTnJfM0dzeVA2RlBvSEgzTkdFeWRvSEVQVW4wT0NPTmdLOU1QQ3ZCV2NlOHh4WnNaeTdvd3B3blVybXNfc05BcTNXaC1HZlBZb1Y5LWlhT1JJVGd1WGpZcG1ZOUxLT1U2QUp2YzZIMElNZlNmSkFfMW4wZmMzejItM2w1cU9wTFk2VlhIQTA0VnJUb0p2S2ItWExkV1ZtNURKalFQd1VjZENJZlJBZkhUM0VzcDJMTFd2RVlieTdldHpWdHc0bTFyblF6elRFOHZOSmZ6T1I3VHF1MWdwaXY2MXo?oc=5",
     "fuente": "La Voz de Lanzarote",
@@ -543,12 +549,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeF9zbzh5WVo0SGhfUjJYTnFxRkhFOWE0RV8wdXllV0xLZU5FVW4xU0h5VjBuV0J5Q09hckR5UkhRTXhlRkNpMVd3RWlzMnVBVmxqa1RRYVQ5MTAzSHRsamVFVDZoYmZtN3lNRnRHX2JTZWs4a21vWE1xNkJQSHNtcHRsOFFRa180VXVzMlhrOXRmSFFaLURSSkxFY0U0N0haazNtS2N2N1ZPRXZxZEZCeWxGTS1qRFd6Rzk0Z0p5cjZ1LURIR0ZxLVFRd09zNEN2Um9Udmt4ZkxuNmVrNnRZbFpuVUJvYVXSAecBQVVfeXFMTnhfc284eVlaNEhoX1IyWE5xcUZIRTlhNEVfMHV5ZVdMS2VORVVuMVNIeVYwbldCeUNPYXJEeVJIUU14ZUZDaTFXd0VpczJ1QVZsamtUUWFUOTEwM0h0bGplRVQ2aGJmbTd5TUZ0R19iU2VrOGttb1hNcTZCUEhzbXB0bDhRUWtfNFV1czJYazl0ZkhRWi1EUkpMRWNFNDdIWmszbUtjdjdWT0V2cWRGQnlsRk0takRXekc5NGdKeXI2dS1ESEdGcS1RUXdPczRDdlJvVHZreGZMbjZlazZ0WWxablVCb2FV?oc=5",
     "fuente": "Libertad Digital",
     "fecha": "2026-10-17T16:54:07+00:00"
-   },
-   {
-    "titulo": "CC, Compromiso por Haría, Yaiza Siempre y MR de Tinajo se unen a la Mesa de Unidad Canaria",
-    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT0cyTVhDWjJGbWU0Zl90V0lQenVjbnJJYm5KSEVGY3Z1RlRXNmVpWDBSQ0d4VlBxbldpT2JqZ2ZBcWwwbXJCUU1FX29MekFaNEJ3ejBYUnNxZ3pjYkhjcUp3ZjNfMEFNOHJkMGtCX2ctYU1oZzJYV2FjY3ZFX1AtdE1mR0d2OFd6YUI3N2xyR0JwRy1IMTQwVDcwTkluanVYQmpwZUNaTXd6WTY2TmtEQjhpakZrV3Q1YnFKX2VCZTlHTXEwbFB2Wk0yLUVIbUZkNmtITA?oc=5",
-    "fuente": "Biosferadigital",
-    "fecha": "2026-10-17T15:50:59+00:00"
    }
   ],
   "UPN": [
