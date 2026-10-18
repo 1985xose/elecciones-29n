@@ -6,9 +6,13 @@ from comun import get
 
 API = "https://en.wikipedia.org/w/api.php"
 MESES = {m: i + 1 for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"])}
-# «Frente Amplio» es el nombre con el que se presentará el espacio de Sumar. Mientras la app lo siga llamando Sumar, la
-# columna entra con la clave de siempre para que las encuestas no se queden sin ese partido el día que Wikipedia la renombre.
-CANON = {"pp": "PP", "psoe": "PSOE", "vox": "Vox", "sumar": "Sumar", "frenteamplio": "Sumar", "erc": "ERC", "junts": "Junts",
+# «Frente Amplio» (FA) es el nombre con el que se presenta el espacio de Sumar, y la app lo sigue llamando Sumar por dentro.
+# Desde las coaliciones del 16 de octubre de 2026 las encuestas dan aparte Compromís-Front Valencià (FV), que en 2023 iba
+# dentro de Sumar y así está en la base de la app, por eso FA y FV se suman en la clave Sumar (dos columnas con la misma
+# clave se suman, no se pisan). Lo mismo con Unidad del Pueblo Canario (UPC). ERC-Podemos es la columna de ERC.
+CANON = {"pp": "PP", "psoe": "PSOE", "vox": "Vox", "sumar": "Sumar", "frenteamplio": "Sumar", "fa": "Sumar",
+         "fv": "Sumar", "frontvalencia": "Sumar", "compromisfrontvalencia": "Sumar", "compromis": "Sumar",
+         "upc": "Sumar", "unidaddelpueblocanario": "Sumar", "ercpodemos": "ERC", "erc": "ERC", "junts": "Junts",
          "ehbildu": "Bildu", "bildu": "Bildu", "pnv": "PNV", "eajpnv": "PNV", "bng": "BNG", "cca": "CCa",
          "upn": "UPN", "podemos": "Podemos", "salf": "SALF", "aliancacat": "AC", "alianca": "AC",
          "up": "UP", "unidaspodemos": "UP", "unidospodemos": "UP", "podemosiu": "UP", "ercsobiranistes": "ERC", "ercsob": "ERC", "ercsobiranistes": "ERC", "ercsob": "ERC", "jxcat": "Junts", "jxcatjunts": "Junts", "ccnca": "CCa", "ccapncnc": "CCa", "adelanteandalucia": "AA", "adelanteandalucia2021": "AA", "cs": "Cs", "maspais": "MP"}
@@ -232,10 +236,11 @@ def parsear_tablas(html, anio_defecto=None):
                 if i >= len(f):
                     continue
                 pct, esc = pct_y_escanos(celda_texto(f[i]))
+                # Dos columnas con la misma clave (FA y FV en Sumar) se suman: es el mismo espacio de la base de 2023
                 if pct is not None:
-                    reg["pct"][p] = pct
+                    reg["pct"][p] = round(reg["pct"].get(p, 0) + pct, 2) if p in reg["pct"] else pct
                 if esc is not None:
-                    reg["escanos"][p] = esc
+                    reg["escanos"][p] = reg["escanos"].get(p, 0) + esc
             if reg["pct"]:
                 reg["es_resultado"] = "election" in empresa.lower()
                 resultado.append(reg)

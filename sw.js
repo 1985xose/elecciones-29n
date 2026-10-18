@@ -3,7 +3,7 @@
    La copia se guarda por fichero, sin lo que va detrás de «?». Los datos se piden cada vez con una marca de hora distinta
    y los enlaces directos llevan partido y provincia: guardando la dirección entera se acumulaba una copia nueva de cada
    fichero en cada visita. */
-const CACHE = "29n-v65";
+const CACHE = "29n-v66";
 const CARCASA = ["./", "./index.html", "./assets/style.css", "./assets/app.js", "./assets/modelo.js", "./assets/media.js", "./assets/chart.umd.js", "./manifest.json", "./assets/icono-192.png"];
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CARCASA.map((u) => new Request(u, { cache: "reload" })))).then(() => self.skipWaiting())); });
 self.addEventListener("activate", (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
