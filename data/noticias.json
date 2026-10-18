@@ -1,6 +1,20 @@
 {
- "actualizado": "2026-10-18T07:01:56+00:00",
+ "actualizado": "2026-10-18T08:01:46+00:00",
  "generales": [
+  {
+   "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y Feijóo, actos de PP, PSOE y Vox, encuestas, voto por correo y sondeos",
+   "enlace": "https://www.elespanol.com/espana/20261018/elecciones-generales-directo-ultima-hora-pedro-sanchez-feijoo-actos-pp-psoe-vox-encuestas-voto-correo-sondeos-espana-2026-partidos/1003744424471_10.html",
+   "fuente": "El Español",
+   "fecha": "2026-10-18T09:31:00+02:00",
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379939.jpg?p=w:1706/h:960&h=7gMZNTiG"
+  },
+  {
+   "titulo": "Rufián se disculpa por el \"ridículo\" de la izquierda para el 29-N: \"Es una irresponsabilidad\"",
+   "enlace": "https://www.larazon.es/espana/rufian-disculpa-ridiculo-izquierda-29n-irresponsabilidad_202610186ad470d5cfd4076f0c7f2158.html",
+   "fuente": "La Razón",
+   "fecha": "2026-10-18T09:10:13+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/16/56EF0E74-5C84-4D0C-8D9A-5CCF5440EB0D/96.jpg?crop=1920,1080,x0,y100&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
   {
    "titulo": "El PSOE diseña una campaña de fechas clave para explotar banderas de la izquierda, pero tropieza con sus contradicciones en vivienda",
    "enlace": "https://www.20minutos.es/nacional/psoe-disena-una-campana-fechas-clave-para-explotar-banderas-izquierda-pero-tropieza-con-sus-contradicciones-vivienda_7049827_0.html",
@@ -9,25 +23,11 @@
    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/05/6ac337eb9a4893-21907529.jpeg"
   },
   {
-   "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y Feijóo, actos de PP, PSOE y Vox, encuestas, voto por correo y sondeos",
-   "enlace": "https://www.elespanol.com/espana/20261018/elecciones-generales-directo-ultima-hora-pedro-sanchez-feijoo-actos-pp-psoe-vox-encuestas-voto-correo-sondeos-espana-2026-partidos/1003744424471_10.html",
-   "fuente": "El Español",
-   "fecha": "2026-10-18T07:07:39+02:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11380255.jpg?p=w:1706/h:960&h=BJ1O0Wra"
-  },
-  {
    "titulo": "Cuatro escaños gallegos en el aire en las elecciones del 29-N",
    "enlace": "https://www.abc.es/espana/galicia/jose-luis-jimenez-cuatro-escanos-gallegos-aire-elecciones-29n-20261015061500-nt.html",
    "fuente": "ABC",
    "fecha": "2026-10-18T06:15:00+02:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/15/20548638-RhXjYDLDSgO2Ks0SekEormJ-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "Cádiz pierde un diputado en el Congreso: menos peso político frente a Madrid y una incógnita electoral",
-   "enlace": "https://www.larazon.es/andalucia/cadiz/cadiz-pierde-diputado-congreso-menos-peso-politico-frente-madrid-incognita-electoral_202610186ad4446bbafd3d736363ccbd.html",
-   "fuente": "La Razón",
-   "fecha": "2026-10-18T06:00:43+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2025/12/20/54E85D7A-3BD2-4B07-B849-3583A368EE35/vista-panoramica-ciudad-cadiz_96.jpg?crop=1530,861,x0,y80&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
    "titulo": "Francia en llamas, Italia en tensión, España abre la válvula electoral",
@@ -75,6 +75,13 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y Feijóo, actos de PP, PSOE y Vox, encuestas, voto por correo y sondeos",
+    "enlace": "https://www.elespanol.com/espana/20261018/elecciones-generales-directo-ultima-hora-pedro-sanchez-feijoo-actos-pp-psoe-vox-encuestas-voto-correo-sondeos-espana-2026-partidos/1003744424471_10.html",
+    "fuente": "El Español",
+    "fecha": "2026-10-18T09:31:00+02:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379939.jpg?p=w:1706/h:960&h=7gMZNTiG"
+   },
+   {
     "titulo": "Feijóo redobla su apuesta por Cataluña para hacerse con los escaños que le faltaron en 2023: \"Hay capacidad de crecer\"",
     "enlace": "https://www.20minutos.es/nacional/feijoo-redobla-su-apuesta-por-cataluna-para-hacerse-con-los-escanos-que-le-faltaron-2023-hay-capacidad-crecer_7049345_0.html",
     "fuente": "20minutos",
@@ -82,11 +89,16 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/15/6ad102b44906e0-63944851.jpeg"
    },
    {
-    "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y Feijóo, actos de PP, PSOE y Vox, encuestas, voto por correo y sondeos",
-    "enlace": "https://www.elespanol.com/espana/20261018/elecciones-generales-directo-ultima-hora-pedro-sanchez-feijoo-actos-pp-psoe-vox-encuestas-voto-correo-sondeos-espana-2026-partidos/1003744424471_10.html",
-    "fuente": "El Español",
-    "fecha": "2026-10-18T07:07:39+02:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11380255.jpg?p=w:1706/h:960&h=BJ1O0Wra"
+    "titulo": "Feijóo proclama a Albiol como candidato a las elecciones generales en un acto en Barcelona",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQREYtclNRQk16QzJuamxreXFZU29FOG1aMEdHTU8xVEdmYkwwLUFLQkVuSV8zVzhJUC1zSjRPckFneUp2UGtVZHQ0Y0FicXFqSUF1Y0Mxd3dFalJEX19zVy1ieV9GRmNhRk5TeWYxaHRReHNLVmVlNGFSdFdpLVdNYjMyUy1qeWJ3VmZaWUY0MzByNXFkSzFJUDdOaUFxOTZ3bmZSbTFn0gGmAUFVX3lxTE5ZSjFmTDAwQXl3WVg4b3I5REM2RFNBZ1g0aFBlcVJhbjczOWYzOEdYWW1rTjlRLXlraTY0WnBHdVYzRXFmUG1VUFFJamVRYl9ZTWJYS19XX01pMEpfLVY2VnJLX3dQQXhERzF4RkVpeGlJTktqOGUxUnNScGVRbXN6RG44RDY5N0NIUFQySTRSRUd5NmlWekdQWDE5RDlNWWlnUVl5V1E?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-10-18T07:37:19+00:00"
+   },
+   {
+    "titulo": "Feijóo quiere \"pasar página\" en Catalunya y abre la puerta a gobernar con Vox: \"Puede funcionar\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOENlN1FHVzhpanFFUDVKcEJacDdzQzQwMXJpQUUyc2ZkWHhHQnptRFRLSXBsU003T1VlblFFYWNuc181LUozckEwZlRkUVBuM2pzc2ZyT2dFdUhUbHV5M0ZCSTlxbnhBZHJ2aGR5eUpnQmJoWTNpX2dwRElSMmEtcV9CNU5fakpjQ3NKYlktV2JWSjVKYmxHSm1XR3lQYjQ4ZGN1ZWc2LTNzemlkNXFWOVV2cGpEVW5HdkZ0VlQtLUtmNUFiYk5yYlAyWkotdkRUU2xDNWtXRQ?oc=5",
+    "fuente": "El Nacional.cat",
+    "fecha": "2026-10-18T07:28:38+00:00"
    },
    {
     "titulo": "Las caras del 29-N: Feijóo y Sánchez se juegan su última bala y solo Frente Amplio cambia de líder",
@@ -99,27 +111,15 @@
     "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNU01XTnBfc2FtMEp5UjFOVDFrTm1MRDFFOWpkRjgwa1Iwd3N5UlZYWGpGYjJmem90dm5taHl4VEZTVnpCckVfWXBFanZISTVFUW9mQlNzY2hJT1FEMld5YVYxU25hYXJWYnNtYVNicEk1OXFtY0dtc3RBQ1N2bHlDb0NnR281ZDNhN0ZXZUVwcUhnWUZLc0NzRFJuWUdEZDY2VFpfVGg2a1dLQVlmb09ibXBR0gG3AUFVX3lxTFB2M3dIa0dNbFc5TDFuUXQ1djN0akR5LXowRXRtblBSY2tkUXpRVllDOV9fTHJPVDBBd2FmUGtOYTlnT0k1ZHN5WVRraWZadzdRek1FVkFJa291M2xNNkhaOWZkVDRDN1pORXphZHZ4cHVMTi00NXBWTzVLV1pLWERXUTZwM0d1WVNWeUNEdnVfbXBkT2oxdVBnVmNNUmpFYmloOFhJVm04VXNMb3E5aGNqLTlzYWNUdw?oc=5",
     "fuente": "Elplural.com",
     "fecha": "2026-10-18T04:00:00+00:00"
-   },
-   {
-    "titulo": "Feijóo reivindica la receta electoral de Meloni para reforzar a la lista más votada",
-    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTVdJLXU4MERXa2Z2TXVrS3V1ekgzWHM0SXAwbVRyRDJ6TUU0QWR2R2hvSTBtanBMeFdTTEdEVE1aQngzYklCS3BhTXhQbkZEckM0QVhKOVlVX0hMSV9DSUxoTThzYzZyM1FFclVMNFBxYWs3NUxZZUpHWVFWZnFkX1R0em1fQlhsQi1Td01GSmRXV1BuZzd5TVFDdENBLXpONklrMUZ3UGJxOFhiNUN2NmxBV2xkT05oYnfSAb8BQVVfeXFMTTRzSlpVNm9KcjUxeXVmYVpWVkhuOUtPRmFTUVViWk5lSjhTQkhBQVpBMjdJblNRVlM4N1Bvemt6d1E1VGFENlhLU3RTSGJ3a25RdnRwRTlNRDlqQW5uVWU1TEZWSWhhb24zSXQ4TmVjREFseFRmLUpxaG9ZM0ZfVUs1NjVtelNIWW9QVjFyQ2ZpY0dpc1VVUkJmWmxuZGFvc2kwX05JdEozTlc3RGktbG9ULWlMbm9YRVJOSHp2eWM?oc=5",
-    "fuente": "Elplural.com",
-    "fecha": "2026-10-18T04:00:00+00:00"
-   },
-   {
-    "titulo": "Feijóo regresa por tercera vez a Cataluña en plena batalla por el voto de Vox",
-    "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkFhamlwMmM0ZGR5NEhvam1PbUhMUTBjLUpsdjF0eno5clZKdGl0R01BZU9OczdBbmFjUEtDLTBMQjVUZFNBS0tBb3ptSWEtQXoxR0NucmdCMnNyaG55QkhhYUdHYll0OWtNNVpNRFpSalM4Y0UtVFhjTF9mbkZUcnJIM19jWVZoYWZZU3VkRGNDZ0hUcjNxckR2eU5jZUtZblk5eEFMcERBU0N3Mm94QU43b9IBswFBVV95cUxPSkFhamlwMmM0ZGR5NEhvam1PbUhMUTBjLUpsdjF0eno5clZKdGl0R01BZU9OczdBbmFjUEtDLTBMQjVUZFNBS0tBb3ptSWEtQXoxR0NucmdCMnNyaG55QkhhYUdHYll0OWtNNVpNRFpSalM4Y0UtVFhjTF9mbkZUcnJIM19jWVZoYWZZU3VkRGNDZ0hUcjNxckR2eU5jZUtZblk5eEFMcERBU0N3Mm94QU43bw?oc=5",
-    "fuente": "Elplural.com",
-    "fecha": "2026-10-18T04:00:00+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Por qué hay que botar a Sánchez, quedan 42 días: los desplantes al Rey",
-    "enlace": "https://okdiario.com/espana/que-hay-que-botar-sanchez-quedan-43-dias-desplantes-rey-20566299",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-18T09:00:08+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/16/images-1.jpeg"
+    "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y Feijóo, actos de PP, PSOE y Vox, encuestas, voto por correo y sondeos",
+    "enlace": "https://www.elespanol.com/espana/20261018/elecciones-generales-directo-ultima-hora-pedro-sanchez-feijoo-actos-pp-psoe-vox-encuestas-voto-correo-sondeos-espana-2026-partidos/1003744424471_10.html",
+    "fuente": "El Español",
+    "fecha": "2026-10-18T09:31:00+02:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379939.jpg?p=w:1706/h:960&h=7gMZNTiG"
    },
    {
     "titulo": "El PSOE diseña una campaña de fechas clave para explotar banderas de la izquierda, pero tropieza con sus contradicciones en vivienda",
@@ -129,29 +129,29 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/05/6ac337eb9a4893-21907529.jpeg"
    },
    {
+    "titulo": "El alcalde de Leganés augura que los españoles no tolerarán la corrupción del PSOE el 29N",
+    "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdF9IZ1A1d0Q4ZGpDT21uQWc2aFM1QUVkdG44ZFR0Skk2YjZKM2l1RnNEbkZaaXJLUWh4TXJaRklQVEpGdWQ0ZDh0WWZqdGZzdmswdFNuYnVGVnVMdzc3Nm9qeXY5aGlSejAzZ25lamJpVVBpTWJzZGE2VU1mZ3RDTWliYVBzOTR1Y252T0RKb0h5VWpBdGgyUXpObG5uUnA1TlB6aVpSN0ZGTjU0WUJrMWJMQ1NFNHY1QmF5dWIwM0VpQdIBxwFBVV95cUxNVFJtLVNKaVhLSF82eVRabmM2V3VmcVlOTnZ3REx0UmhBLWZpOWM3UmdRN2lramg5VnRvUVQzTmdvT19FejJkVzhPSDVHS01id2RlZktodVZOaDRTZDhmTGVtcElVcDM1dGxHak5veFBvYWhoa3Z1cGJpWDRFdHhwTFZoYlFqWXRtazc5eUVhMTZJTl9sN1d6ZTF1RmR2cE5WLTExZ0Q1Nk9qQTNKSWwxZlFWWlpzUjl6SVhWLWFtR2xVQUdkVlA0?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-18T07:24:34+00:00"
+   },
+   {
+    "titulo": "El alcalde de Leganés cree que los españoles \"no pasarán por alto la corrupción\" del PSOE en el 29N",
+    "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY1htYTYzQjk5di1tX0M4dWdxMzlzendUNUlkLXUxbk9hRDJiVWsxYlRfYkljVEc2d2daeHV0RFFBcHZ4OVFZWHJnWmxJbE1IN2xKWFBxY2dsNEZzMXpaamJIdk9meFU3MUVQNm82ZGRESDFGYTVvQjczZ3FGcDBtQi1ud2FqQ3djdFdFeTdzLTdHOTRDZVVMY084WHJvZC1KRVVnOElTaHh2a0VRVFMzMkhGS0JVWDc2VnZDUngzZGpsQmhyZ2ljX0Mtcw?oc=5",
+    "fuente": "PressDigital",
+    "fecha": "2026-10-18T07:24:00+00:00"
+   },
+   {
+    "titulo": "La entrevista completa a Gabriel Rufián en laSexta Xplica: \"El PSOE me ha llamado y me ha dicho \"ponte tú\"",
+    "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPMk1oSlFNcUl2Sy1wWkdwcjhSZ2YtUVlvbFVUYmQwS2JkZVcwNlBhbXBuYVk5cTN5aEhPRS1nSTdCdzB1Zl9yb1V2MDNna3AzZ0s3SzZwVkRCTWZiQ2E2bUZjVzVUM3lMMEdCVE9MelpMTjJzQlhWRkh2eWJTVmtqSUhNeHJzLV96V0E4Rm5CRHI2TDh5S0QzLWVrMS1aQXZUUkk1RC1EbXBBTmZzS2xyT3FBaEE4ZU05QjdlR2Z0NnM5Vlh4dnlyeThza2VaLTdhOFpIbG93TzkzQnc3TjkzT0ExUE5VQ1lTWkM0MGd4clAzcHNtUXBHbER3dUROMXpKbVJiTFVmbXZ3WjAxR05vMTgwOUJ6VTVheXfSAZoCQVVfeXFMTk5YbVNLN3NTUGhoZ25DM0NYXzZkZ2RhNkNoem91LWEtb1dfalZGVk5GME1LNjRPSzZtQnlXWHMxeGxEbkJPWkhMOTUtbGs5ZHdaN3pqVC1lQ3hGV1ZhLTg5Y1JFV3M2bXVjVTM0ZmlLb1lWcVhGbVFNa0c0UzVESFc4RmJ0UFg1TXJwS0VnUkFBUlE4Szl5WnRzbm1sUTNiZlF5cWR5RVQ1MWZ0cTQyS1FVN3djTGNMd09qaHZvSURnVzRBZFZ4NnRkalNDNDE1bFZ2M1F4T3NYbzJIQ1VKSFdrQURsUHBRbmxJbGFzamRwajVPRU1pN2J3U1ltREVXMTQtVDFBT0ttcHM3ZTVQUElKN0VrOTVHM0x3?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-10-18T07:19:12+00:00"
+   },
+   {
     "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
     "enlace": "https://www.abc.es/espana/canarias/encuestas-elecciones-generales-29n-canarias-resultados-psoe-20261017051500-nt.html",
     "fuente": "ABC",
     "fecha": "2026-10-18T05:37:45+00:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/17/sanchez-feijoo-RhBPdB047C5hAAa0ETfq3bJ-1200x840@diario_abc.jpg"
-   },
-   {
-    "titulo": "Sánchez y el 29-N: las 3 claves de la remontada del PSOE",
-    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONTBmT2dNeV9Pakh5RmhaV2p1ZXBPQzY1bmFGbGJhZGFmeFdxZXlCb1hzMVhLNl84ZndIR2phYjlDakxSb3ROWjFYM2cyNzVoLWtOWWNnVUxZYTJidTNPbG5lc3ByUnNCVjI4OUQ5blcydm1DdDQyMFlOaU5mZGtqYVJ1b2xpYzhEY2R4TW42NWdveFRBZHdOdllYeUk5NHlDQjFITU1hSE1MX2x2S0NfMHBkQVgtV19ZeHhKclB2TmZ2dlRUa0RnX1pn0gHKAUFVX3lxTE41MGZPZ015X09qSHlGaFpXanVlcE9DNjVuYUZsYmFkYWZ4V3FleUJvWHMxWEs2Xzhmd0hHamFiOUNqTFJvdE5aMVgzZzI3NWgta05ZY2dVTFlhMmJ1M09sbmVzcHJSc0JWMjg5RDluVzJ2bUN0NDIwWU5pTmZka2phUnVvbGljOERjZHhNbjY1Z294VEFkd052WVh5STk0eUNCMUhNTWFITUxfbHZLQ18wcGRBWC1XX1l4eEpyUHZOZnZ2VFRrRGdfWmc?oc=5",
-    "fuente": "MUNDIARIO",
-    "fecha": "2026-10-18T04:12:27+00:00"
-   },
-   {
-    "titulo": "El regreso de María González y la salida de Inma Sánchez: cambio de cromos en las listas del PSRM del 9N",
-    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSTdEd281V1Znd2phX1VLbjZUMnZHWkt2aGR2ZWpGa29KT3ZITUpxRFVmcktGNTg2R3hVN2Rqa2ZqWFBkUkdhTU1reEp4MWFWUGM1bnJIVmxiLVY5dkFDcVBtSHdlamo1OHB5ZDFBVmpPZmpxWExGdnUtSWg5dW0tZE1CQjVwLVN4VThqY3UwWUcxcVhodWhvMXhkUjlWQVFp0gGmAUFVX3lxTE5WeWpWaW1HdFMtdlNUbi1uOWctR3VSWlFIMThNVGpDbXFYemR5bkowYk9Oc3pLU1ZGNDYxd0JDdWY0R0dGRUVWc1pYRlJTYW42VjNEM1NlcEJHV3hLYTg4bGtkeGVnSHgtTkxnYk5IbFRLNndHUjNfb0l5Nm9xNzJVbU9BV2l2SHRSd2Q0RUJ5ZUVPX2ktaG5NX0lfSm9Hbk9hNnViYWc?oc=5",
-    "fuente": "La Opinión de Murcia",
-    "fecha": "2026-10-18T04:01:39+00:00"
-   },
-   {
-    "titulo": "El PSOE se refugia en sus bastiones para buscar el impulso que necesita Sánchez",
-    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRnlQeXdBcTJtQnVQZER4Y1YwXzRfdUtoQmVZeTl5cE5QcFZUaFZSM05OWVpmcDZBMnE2aEx5TFZpWmtEQjlZaFk3dHFGZTc1Yi13dllCU0ZuLUlPSWxSSDkxWnBybkkyeUw3YW1ZNjZjOEw3NkFJTGNpQ1ZUd3kxa3BlUVBmYlpzVmM2Nk5OMGM4N1NzWkdhWnNfbzZweVEtUGVMbmNrQ18yckp4UXfSAa4BQVVfeXFMUEZ5UHl3QXEybUJ1UGREeGNWMF80X3VLaEJlWXk5eXBOUHBWVGhWUjNOTllaZnA2QTJxNmhMeUxWaVprREI5WWhZN3RxRmU3NWItd3ZZQlNGbi1JT0lsUkg5MVpwcm5JMnlMN2FtWTY2YzhMNzZBSUxjaUNWVHd5MWtwZVFQZmJac1ZjNjZOTjBjODdTc1pHYVpzX282cHlRLVBlTG5ja0NfMnJKeFF3?oc=5",
-    "fuente": "Elplural.com",
-    "fecha": "2026-10-18T04:00:00+00:00"
    }
   ],
   "Vox": [
@@ -159,14 +159,20 @@
     "titulo": "Elecciones generales del 29-N, en directo | Última hora de Pedro Sánchez y Feijóo, actos de PP, PSOE y Vox, encuestas, voto por correo y sondeos",
     "enlace": "https://www.elespanol.com/espana/20261018/elecciones-generales-directo-ultima-hora-pedro-sanchez-feijoo-actos-pp-psoe-vox-encuestas-voto-correo-sondeos-espana-2026-partidos/1003744424471_10.html",
     "fuente": "El Español",
-    "fecha": "2026-10-18T07:07:39+02:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11380255.jpg?p=w:1706/h:960&h=BJ1O0Wra"
+    "fecha": "2026-10-18T09:31:00+02:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379939.jpg?p=w:1706/h:960&h=7gMZNTiG"
    },
    {
     "titulo": "Dos frentes se disputan el Senado el 29N: qué pueden ganar Sánchez y Feijóo y qué arriesga Abascal",
     "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVEIxLXc0ZUdwbWFxVmdxMUgxQ3NqT203aHdqdzNaMFJOMlNMZkN5bGZLdEpUTE5fOTVwWEE4ZFA5VWFVNFNrV0xPemhVS3N5bnhPeFNMWmY5d3U1SkRvN01PYll3aUhXeHM5ZWQ2MDZLX0VUVTYzdnVpaUctTUJoTkxGeEc3aHNtbkt0aUFtbUVjN2FVWFNDemZTVmVpdm85Uy1KRUtteEwwWlF4OUtFOXdSVnhsUkM0WFFwMmY1LU15QlIzWkVJS3NtamRYZ9IB0wFBVV95cUxQbzAybnZvYjloN1ctNFY5d2FGN3VDbUp4LXlRX3VRVjVZS2huZzhzd2liUzNGZTRvdmJDWk5iQlhIZC0tdW5GYm1yQ3NzY1c5RDg4QnNTZzJwYkx1WV9YQzB0NDEzS2lnMTlRVDJzbHg0Z1ZiNEhiUUpNa0hUSmIyQ0o0NmliSlFfRjR2Mk9TaUVhOVVBeFBLUWZ3eDYwVXk0STlYbnFhcFZGVFI0MTFKQUtPYldQYUFTZDNkQmVQMUZpZmpYRDU1STI2amJQRXZvSG9R?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-18T06:10:00+00:00"
+   },
+   {
+    "titulo": "La izquierda se une para conquistar el Senado y Vox estudia retirarse para ayudar al PP",
+    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZGpCTHZRTzFGNVNzZFVEUFNoYjVRVWp5aGJxWDZMa3RHRzRiZlh1U042cF9JQndFNWdTc2dQeWNZOXFFN3BJYVJDUFRvTy1YeHR6OHVFckJPR1FZYVkxZWdIa3k3Ql9qU1MzYjRSNmJhRlpucUItWWxDYWNPbUJKazhmR3h2a21zSml5SjZnX3ZmNGJxZFdDTzBSaVBhbjhoLVBhWTZGYjYxTWpRZk9JMmRFamxKNjZpM2E1VThkYjNkRUlpT2JWeA?oc=5",
+    "fuente": "EL PAÍS",
+    "fecha": "2026-10-18T04:55:00+00:00"
    },
    {
     "titulo": "Abascal se enfrenta a una decisión estratégica que puede cambiar la campaña al Senado",
@@ -182,16 +188,9 @@
    },
    {
     "titulo": "Albiol será el candidato del PP por Barcelona en las generales para robar votos a Vox",
-    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcWJ0dmJrcmNKbzItcjFjZE9VNHpVWmRwdHpxWWtKQzNzc2g1SWs5X0U1YTNrTEtJdHROMlBnRFFMeGhKSUVULUtPZ3FoRWRwejVtRWljWHBLb1VkNUcxUjVsbUNzb1gyNFJweHFoVkM5d0ZOZmY2S2NkWHpoaGJEY0lPRy1PVURvRTZVSHpIU3hKeGpJTGJhMW9ZMUZtUnJoNVIxXzljdUpSbTVLMEpwZkxwOXZBbHhsaTVVNWdwS3VBX2cyLXJsb2ZvMWc4QdIBzgFBVV95cUxOcWJ0dmJrcmNKbzItcjFjZE9VNHpVWmRwdHpxWWtKQzNzc2g1SWs5X0U1YTNrTEtJdHROMlBnRFFMeGhKSUVULUtPZ3FoRWRwejVtRWljWHBLb1VkNUcxUjVsbUNzb1gyNFJweHFoVkM5d0ZOZmY2S2NkWHpoaGJEY0lPRy1PVURvRTZVSHpIU3hKeGpJTGJhMW9ZMUZtUnJoNVIxXzljdUpSbTVLMEpwZkxwOXZBbHhsaTVVNWdwS3VBX2cyLXJsb2ZvMWc4QQ?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZXhEbGJGb09EVW9IWnlhR0lTMEFNV2pCVkxncGpwVGZwVDJUbGZkTFBOTk9LMzQxZ1lvM1BqVEZUNEtmWWh0MG13X3pvdVJmYVNybTBEWVJCSnNKNWFSSFFrc0xueTFzNTdxeDNpMThVeVRrN2dtNkRMQXNHLVhURW5pVGlXZWJKSWpyWFdyX1ZvS0ZTRW9wMmlEMHMzcWlWOVlqQmM4eUcwUjVSMUgwODNLYnFZT1otWEN4UkJuZTZlRnVnX2FmdtIBzgFBVV95cUxOcWJ0dmJrcmNKbzItcjFjZE9VNHpVWmRwdHpxWWtKQzNzc2g1SWs5X0U1YTNrTEtJdHROMlBnRFFMeGhKSUVULUtPZ3FoRWRwejVtRWljWHBLb1VkNUcxUjVsbUNzb1gyNFJweHFoVkM5d0ZOZmY2S2NkWHpoaGJEY0lPRy1PVURvRTZVSHpIU3hKeGpJTGJhMW9ZMUZtUnJoNVIxXzljdUpSbTVLMEpwZkxwOXZBbHhsaTVVNWdwS3VBX2cyLXJsb2ZvMWc4QQ?oc=5",
     "fuente": "Diario Red",
     "fecha": "2026-10-18T04:00:00+00:00"
-   },
-   {
-    "titulo": "Encuestas elecciones generales del 29N en Cataluña: resultados de PSC, ERC, PP y Vox y ganador según el CEO",
-    "enlace": "https://www.abc.es/espana/cataluna/encuestas-elecciones-generales-29n-cataluna-resultados-psc-20261018215550-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-18T03:30:14+00:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/18/DAMBin_20261017230032-R5UshnzYgk5nh1M3ZgBDzEM-1200x840@diario_abc.jpg"
    }
   ],
   "Sumar": [
@@ -315,17 +314,23 @@
   ],
   "ERC": [
    {
+    "titulo": "Rufián se disculpa por el \"ridículo\" de la izquierda para el 29-N: \"Es una irresponsabilidad\"",
+    "enlace": "https://www.larazon.es/espana/rufian-disculpa-ridiculo-izquierda-29n-irresponsabilidad_202610186ad470d5cfd4076f0c7f2158.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-18T09:10:13+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/16/56EF0E74-5C84-4D0C-8D9A-5CCF5440EB0D/96.jpg?crop=1920,1080,x0,y100&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "La entrevista completa a Gabriel Rufián en laSexta Xplica: \"El PSOE me ha llamado y me ha dicho \"ponte tú\"",
+    "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPMk1oSlFNcUl2Sy1wWkdwcjhSZ2YtUVlvbFVUYmQwS2JkZVcwNlBhbXBuYVk5cTN5aEhPRS1nSTdCdzB1Zl9yb1V2MDNna3AzZ0s3SzZwVkRCTWZiQ2E2bUZjVzVUM3lMMEdCVE9MelpMTjJzQlhWRkh2eWJTVmtqSUhNeHJzLV96V0E4Rm5CRHI2TDh5S0QzLWVrMS1aQXZUUkk1RC1EbXBBTmZzS2xyT3FBaEE4ZU05QjdlR2Z0NnM5Vlh4dnlyeThza2VaLTdhOFpIbG93TzkzQnc3TjkzT0ExUE5VQ1lTWkM0MGd4clAzcHNtUXBHbER3dUROMXpKbVJiTFVmbXZ3WjAxR05vMTgwOUJ6VTVheXfSAZoCQVVfeXFMTk5YbVNLN3NTUGhoZ25DM0NYXzZkZ2RhNkNoem91LWEtb1dfalZGVk5GME1LNjRPSzZtQnlXWHMxeGxEbkJPWkhMOTUtbGs5ZHdaN3pqVC1lQ3hGV1ZhLTg5Y1JFV3M2bXVjVTM0ZmlLb1lWcVhGbVFNa0c0UzVESFc4RmJ0UFg1TXJwS0VnUkFBUlE4Szl5WnRzbm1sUTNiZlF5cWR5RVQ1MWZ0cTQyS1FVN3djTGNMd09qaHZvSURnVzRBZFZ4NnRkalNDNDE1bFZ2M1F4T3NYbzJIQ1VKSFdrQURsUHBRbmxJbGFzamRwajVPRU1pN2J3U1ltREVXMTQtVDFBT0ttcHM3ZTVQUElKN0VrOTVHM0x3?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-10-18T07:19:12+00:00"
+   },
+   {
     "titulo": "Rufián reconoce el \"ridículo\" de la izquierda de cara al 29N y califica el adelanto electoral de \"irresponsable\"",
     "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUlRZTG1rdmI4aElUaFc5VlBSbkpYcHhWZHRoSWJuV3pKeFdyNER0QjQwWW10NDNBMm4tZWZtOGhMOHA2dThMUEVvY2o4VXJNZlNfT3NmZ09QdWtOcEljWDFlZlhEVzRtS1o5Zmhia0J3anplMzkxck1MOWIyeTJUdVFOQUhlZ09ZYUFiS2UzTV83VWNIYzVrZzRKLU4teVhRUWJhNWxsbEFFN3pTbGRoamFxbGcxZF9tWS10bEt5enhQeTU0SldicEpLNVJGbC1ucUdPUkZPbjBpZVdJVjRxQXNxWFROYkhyVUpfODN5UzJ2LWltZFdHOWQ3MXZpaXJ3MGp0NmxHQdIBkgJBVV95cUxOamE2R3JCSldQeE5WdllPTkloQ1BxVTBlZFRsTjQtTTRuRTR4Z1d6cmFvOGU3NzU0QWlFWUJWVUhFOGVuTnFYYnh3X3gyZC1LaThVTjB1bWFmQjNkUWU3R2x0a1RSZXY1TnF0S0tqMDJEZ3RRWUI1S19kU1RkUDV2VFpqeGxkbEVPVzZpVHViZjQ1OGhJM19rTy1Oc2NKejV3cFQ5a2tnSWVjRlZNSnNUUURjT1hqRElZVzV2c1JIaUZ2Wnh4Wk5KSUxyNVViMHJXNm9ZcmMwY0NCWUp4WWxCT2ViUlp6eWdJQWRySkxxM0VCUmVkNnF1eXVJNTIwTWdYVWpXdFlCOTFBSkhBSEFSeWVn?oc=5",
     "fuente": "Libertad Digital",
     "fecha": "2026-10-18T06:45:10+00:00"
-   },
-   {
-    "titulo": "Encuestas elecciones generales del 29N en Cataluña: resultados de PSC, ERC, PP y Vox y ganador según el CEO",
-    "enlace": "https://www.abc.es/espana/cataluna/encuestas-elecciones-generales-29n-cataluna-resultados-psc-20261018215550-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-18T05:30:14+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/18/DAMBin_20261017230032-R5UshnzYgk5nh1M3ZgBDzEM-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "La izquierda llega dividida al 29-N tras el fracaso de la alianza que impulsaba Rufián",
@@ -334,31 +339,31 @@
     "fecha": "2026-10-18T04:01:16+00:00"
    },
    {
+    "titulo": "Encuestas elecciones generales del 29N en Cataluña: resultados de PSC, ERC, PP y Vox y ganador según el CEO",
+    "enlace": "https://www.abc.es/espana/cataluna/encuestas-elecciones-generales-29n-cataluna-resultados-psc-20261018215550-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-18T03:30:14+00:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/18/DAMBin_20261017230032-R5UshnzYgk5nh1M3ZgBDzEM-1200x840@diario_abc.jpg"
+   },
+   {
     "titulo": "Rufián, el gran prestidigitador",
     "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMmhMems0V3hYeVIwOFY4eGdDWlhEWktaY3BQNFZtdVhqaHRFeExpeE5sZTlNV0FBcVBpTEVnT3lFcDVSWktfckRQU1R1OVJ6WlE2Y25pME9qSXFGWkt0SFphZzlRTkxMOElCTUZWcVBqdEJPbjhYOXlpWi1pYUJxU3lEY0R4eU1ieDlUSnlidHBKS1Z0OUhIRtIBrAFBVV95cUxOOVNVQTI0ZFV3anhqWmE5VzJKU25STV9XSVUzYzVocUd0WDVDdGJOMXEzaHdxcVM0M1F3Rnh3UGMtUEtzOXVreC01VmtONUkwWkphMW5COEw5RndnQVVZekxhbWJSdHV2QmVMX1RYcURxQmZINkFzS3Z3TFByYWNfZFNsV09GcDVLdnk3S3pvbnBNZmUyb2FXdmg1MnN0alBaS3BIdTVQTGtzUExU?oc=5",
     "fuente": "EL PAÍS",
     "fecha": "2026-10-18T03:30:01+00:00"
-   },
-   {
-    "titulo": "Consecuencias del pacto de Rufián",
-    "enlace": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdldjSGdpRlJ0cU1ZSElGUlAwaWxlRnZCSVFsX2JwWHA0dElTUmx6Z3lmZzNUYnZnNmxhcmZkY3gtWEZwV3ZCT3Npa3Y2VnNuNWF4N211LUNIVVZLMlZOU1lQQ05Ca2xHeW0welg0YkNOUU02UXBmWUQxNTIwTWtSSnY5WnZZOFE2S3c?oc=5",
-    "fuente": "La Región",
-    "fecha": "2026-10-18T00:50:00+00:00"
-   },
-   {
-    "titulo": "Rufián pide perdón por el “ridículo” de la izquierda y llama a votar “aunque sea desilusionado o cabreado” el 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQjdVcXlXWWRBNG5DbXNIb3pfdnFYNTlrUEdYSmxCYTBUMm0xTWFJMFk3LURJX3l5Zk9XdGplV3BXc3YtaXg3azQzMU92NUsyNXpBYXBfSWxENnVETHVaZG1KWE1KZ3FYaFhKYUJvN2U4OUtuZ05adXh4TUR3OG1vRzBsaTZzX29ZYy11b3dSR0RLRWpoUDd2Q2E4bDREbXhjbjJzZWY2YU1naGpZQTRyZEpYdkJhVGZYZ210ZmFtN09NTFdMbXJCNlVDaFNJeWMxa2lCVEI2N0dfNktj0gHiAUFVX3lxTFBzM1JRZUtEdDdYNjE4YloyN0ktTm8wWnhhVlpJMmpuT21INGxsYVZZeVhUTExfaWlnUnpyXzJUQVVGcGhqLUt2UVMzR3Q1LTgtMlpvYzdWVDliTW1udlVHSUhKS1N1NmdDYU1ETHF3RERVdzRIRklhb21ubjB6dFNRcFdQTG1SY2NLenZZdnRWaDJqbUFqMFlsTTRRaUxOUXJ1cmdIeXN5NG1nLWRNWnRyTHdyZlBNaklXS0ZVZU9nQjBIRnJ6Q3A1TFNIeEVTVWJWX0FUSWZsdUhya0k3NmxTX3c?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-10-17T20:58:25+00:00"
    }
   ],
   "Junts": [
    {
-    "titulo": "Puigdemont, el ganso gordo del sanchismo",
-    "enlace": "https://www.larazon.es/cataluna/puigdemont-ganso-gordo-sanchismo_202610186ad46aa5bafd3d736363e875.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-18T08:43:49+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2023/09/08/29198433-9086-4505-9517-1A577F14897D/96.jpg?crop=7360,4140,x0,y386&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Trias receta a Junts ser \"hábil\" y hablar con PSOE y PP si beneficia a Catalunya",
+    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZFM0dGJQell1aUROTGl0YTJXZ3VrNkJvMzhfdGtocTR2OUtQcFVLSkZMZVRHQTY5YnZ6N2Zuenk2NjhGY2FBRG9iOUJHMHFuRk1jWGcxRE1hN0N3b1dydzRkMWZjMXZOX3ZpZ2RvMVNmTEVTdFJ3a2gwdkZ2VGdXemxxRVZwYzhNWFdwZ3FlWXBOallDUVpPUmJyRW5WM3JXYmV1Tk1VX2tVUWFuTENpc2R1elk1LVFDQ2FWNHdlR2wyUXBMTExBOTl3?oc=5",
+    "fuente": "Notimérica",
+    "fecha": "2026-10-18T07:51:08+00:00"
+   },
+   {
+    "titulo": "Trias urge a Junts a negociar solo si gana Catalunya",
+    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORGhqeTNvd0NFWm14OHppdnlSV292T2tyZi1RYzF1Wm9rdDJxMFZmaG80a1E5NVE4SW1hLU1SRmxVZmZWU3RCUDhCaFZpR3RSdmtrbkZxTWJITk8xZW5JaXJadUVSX0VaVmdoaHpTWEVLLWw2VzlNN1VZMW1aTFJfWWNHWk5QWVlTX3p0TTk4TkxPYVc5UHp3dXp1UWpqZTEwUzZKZjFCWnNKYmJkV3A3R08tYlc4VnFw?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-18T07:50:35+00:00"
    },
    {
     "titulo": "Puigdemont deja vía libre para buscar jefe de la oposición en el Parlament",
@@ -371,7 +376,7 @@
     "titulo": "Puigdemont retrasa su regreso hasta después de las elecciones para no ensombrecer a Miriam Nogueras",
     "enlace": "https://www.eldebate.com/espana/cataluna/20261018/puigdemont-retrasa-regreso-hasta-despues-elecciones-no-ensombrecer-miriam-nogueras_470542.html",
     "fuente": "El Debate",
-    "fecha": "2026-10-18T02:30:00+00:00",
+    "fecha": "2026-10-18T04:30:00+02:00",
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/01/28/6979de865ceb9.jpeg"
    },
    {
@@ -385,12 +390,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMmEyeHlhMnY1RWk1dEQ3UjNzcl9BYmdCNTZsQ0RNaExGNi02ZFNQeGNkaVdHcFR1ek5jVFBoV3o3VU1adVY2TmNOMmNwV2VYeWJlRGJ2UTM1RFVGNjJGWHF4S1B0NVVJckt3azJiUzJaeElpQUo4VE00V3RUTWhETmRuODZpMzRHUGpsMVIzYXVWbHJYejFHYklCRmo1RHFnZTZyZXVyeFdxSzJqTXdocmdpYjhINkxXTm9RdHpTX1AtRHBfZi1rVXpoM2JHYkF4?oc=5",
     "fuente": "El Nacional.cat",
     "fecha": "2026-10-17T16:54:00+00:00"
-   },
-   {
-    "titulo": "Junts aprueba las listas del 29-N y reivindica ser “el punto de encuentro de los que están cansados de los extremos”",
-    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZjlGYUhMT1NGbUVRTC1OTFBFVzlBZ3pwOTF5Q09UQTVnbXl0U1YyZmVQQmE0aUZvcGtiWjFFblJ5UFZaelRCSGhpU1FfSFl6SXI4VTFZeXJ2UV9IS0xSSHNvNTByVFpZWTk3emFZM1VuUEZ1amVqdnA0bWRoQVpNOENoZ0dnZHRpaldVT2FmVDNXRHRoUlB4QS1MOWlhem5DelUzSFFQMHNTZkYxdGdvUld0M2ZQNUhxazBhYWdvUnUzZU1KVVBjOTBkdDfSAdIBQVVfeXFMTjFGTmdibkdIb2l0UEZFN0hPdG9BY050U2o0aENPYzByRnUtdk5raEozQWZTODRWSDRqR2ZVeVV5VnVsOEpUOXJrcjJvZWxuNmpYUGtlNVJleGRTVG0zdE5yZ1hITGFsY3VVcFN1ZXlpTXh1RGhVTHBMRGpybDZQWTVNaHRESklmb2toYWVUajgteUExc3h4OEUzdmhPaUlEbS12STBnS2VkRnZlekdldzVsSThLbEw1cTgwdm9uR0ZDVW1CaUZZZW9EZGVydlVCeEtn?oc=5",
-    "fuente": "La Ciutat",
-    "fecha": "2026-10-17T16:17:03+00:00"
    }
   ],
   "Bildu": [
@@ -420,16 +419,16 @@
     "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11379641.jpg?p=w:1706/h:960&h=56Bj1tph"
    },
    {
-    "titulo": "Xabier Lertxundi no repetirá como candidato de EH Bildu en las municipale­s de mayo",
-    "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMjhyR3hHWG1hT1N4M2U5Q194VzZBaWtLT1lUazQwUndTZjJfN3h6ZXVnQ3duRUlZS2JOSDVxbTRIMzNRdmpvMFRZM0V3SThEXzdUYW1lOGRhNTloMzN5SlN1VGk3VXJjOEdNTF9jbzBVTzgzS1NLT0pwTlpxT0Y3ZnVzRFl0MDc5ZHpmbA?oc=5",
-    "fuente": "PressReader",
-    "fecha": "2026-10-16T23:14:46+00:00"
-   },
-   {
     "titulo": "EH Bildu se sitúa a Oskar Matute como referencia al Congreso y renueva su grupo para el 29N",
     "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMi1WLS1lYy05dzZIdG9tbEV6ZEpkWE10MHBZN29kRlQzR29sLWZKSF82OGROVlJMVmxjTmtUMm9HR1gxWHhzUTE4X1Jvc295X3FkOGtfQzVUSC1KUWtQNnRCRUg0NjRPRnN6ZXhEZXhacXQ4NHZtZDB0WEd3OGgxTzF6WQ?oc=5",
     "fuente": "MONCLOA.COM",
     "fecha": "2026-10-16T18:47:45+00:00"
+   },
+   {
+    "titulo": "Bildu incluye como candidato al 29N a Floren Aoiz, líder de HB que amenazó al Estado tras la liberación de Ortega Lara",
+    "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPWFpYYjlnb0xfZlJuMXdSVTR3T2x2d1V1M3R2LXdNSGdodmpUR0NveTZzRWl3M0pZRlhTdHVaRS1wQU9weE04YjI0cFh6Vno5TzJuVjlOTjhUNzZ6Q1VhUmVfR01WSmQ0OG9PY2xpbVlkbUcxbkR4Uzhjc0pvc1BpUUlTbmJjQkpxNTJCR3FGTEthUVhqRm1seklXVzRmekE2dmNsbEc4M3dfWXlvUk1KM2pYNW5nMHJGclVjQTNBMzh4MmZWUlk4SHA5Vi1OQ0hqZmJ6VFdYLVpBb2pZSmRKLWgzODlnOUJLNGdDWkpHUEV3eU90WTJMeDNRZ1lvTVJwdWdTbTkxZ9IBkgJBVV95cUxObnFhY0ZjbHNVRXFBUk9pUjdrXzFmWmJreHdNSXV4RE9ObTR6akNwV1pMV0ZNWFR5Qnc5cnRsRms5aWlrLTZXdEJwd3R1ZWE5UHQ2WWJKMjhYMm0xSFZ1TmM1cy05ZHZFV2ZEQzB5TzJxV3BXZFpkWUkwWXMtdTJNN3l1MWhOUjR3UTI3YWhjR1ZmS292ZGVCbEFsc2F3UDF2eHB2QS1kZUJodTJVRk95dUtzTUowcmVfNklJXzJJYzBHR3NKR09YbzNuZl9sMmRBem5XUXRBajR1RGU0SVZYbzlqNVlTRjlQSXEySDJPQnlyTlVEQjRacEtLbVpCYWhkeWwwNV9oLURVQmhldmpCZGdB?oc=5",
+    "fuente": "Libertad Digital",
+    "fecha": "2026-10-16T16:46:36+00:00"
    }
   ],
   "PNV": [
@@ -672,6 +671,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZLUpjYWRCWUJnVFlfRmxGX01nSzFhMHRaNUtXSnZ6T2N4OTdLaGRLbXJxcENrMGxDcURjTlJmQWgxeXY2XzV5Z0xVQURZT3dickdLNUhaX3FKdUx6WkdiaS1MQW00QldFZ28yblZweFQ?oc=5",
     "fuente": "Newtral",
     "fecha": "2026-10-14T14:51:50+00:00"
+   },
+   {
+    "titulo": "¿«Una periodista gallega ha afirmado en la televisión pública que Alberto Núñez Feijóo comió con el presidente del TSJ, militante del PP, el día antes de la resolución sobre la ley de nietos»? · La Buloteca · Maldita.es",
+    "enlace": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNVnpETlNQRGhUNnZrYVg2SEszMDBYeDhKbGYtbERNNWZrTFlfX0VGVjNEc3dPV0kwQW1ZOVBKb0I5d082SUZyNkFSVGhUR1dERXlaWEluSVdJa3FmbXFaR0FNaS12dHBWTEpWb2VnV09XZ3UzRk9VZnVyVW52ODV0SlA1eDdpNVhONF9PV3BkbG1LbWZCUFNnOXFtRzJNWU50VUxNX0lXM0pGY2steEw3RXBOUWJaS2FqeUNRekhaa0c1MEdXREx0RUl1U2pybWJONHhpYUVPVHRRUjZvRVYxMmY3OHhXbWZjSTI5T1RUWFFRaVNubmZRcXZFNU1VZWQ3ZUZRMkQzSm5IS0E2UFl3bUZsRzRrZnQxRkFJRzJ1OXRyaHdGR3NFNktrRGVZbkZaa1JBNTBDTFFncnhkelhCRzZR?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-14T08:09:23+00:00"
    }
   ],
   "PSOE": [
@@ -869,7 +874,7 @@
   },
   {
    "titulo": "Imputado un alto cargo de Más Madrid por presunto pucherazo en las primarias que encumbraron a Mónica García",
-   "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUTVYclE0emFOck52QjlsWkM3ZEx2bnBjYjJfamF5TENnbUYwS3p4amFDbnN1dW1pS3FwSlB1c0Y0elpoTDJVODFWaUVINVJXR1RaNUQ4TDN3U1ZZVllDX3VfakktSmw0RnlJVTFybVEyVzF2Ymx5ZUVUSzdHMlRPVHN3RFB6VmljQ1VFZW52cmRiM0tDT2hiR2dSMHhvSWJBUk84SkEtdmdLNHRZX2NVNUJrZTh2WEFUVEFmbGY0eVptX2g5S2ptUWpFbXVUbnRoMDh4Mjh4cjhsS3FoelHSAd4BQVVfeXFMUFE1WHJRNHphTnJOdkI5bFpDN2RMdm5wY2IyX2pheUxDZ21GMEt6eGphQ25zdXVtaUtxcEpQdXNGNHpaaEwyVTgxVmlFSDVSV0dUWjVEOEwzd1NWWVZZQ191X2pJLUpsNEZ5SVUxcm1RMlcxdmJseWVFVEs3RzJUT1Rzd0RQelZpY0NVRWVudnJkYjNLQ09oYkdnUjB4b0liQVJPOEpBLXZnSzR0WV9jVTVCa2U4dlhBVFRBZmxmNHlabV9oOUtqbVFqRW11VG50aDA4eDI4eHI4bEtxaHpR?oc=5",
+   "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRGlCcDViSU9hb3lBeFU0VVNpTTBtdmp4aG8yQjNyVUYxdnpLSHVsU3hKZWJsZU1kcnFEN2Q1UWJkal9KUmw3c2hJV1NzbElKOXhQVUJNSHVLV19kc2FSZFFETzFYM3lnWHhQNWwxYjNmakplcExOZkFvOE1UU2djRGJhZ0JGTW9SZDFpSGFQTV9BeDVkNTNvcFJWeU9qRkpwUVhVRVJ3T25vbFlQeVhiY0hMWm94OHF5UVZKakdXV3FlcUdYakdaOTU0dzk5NXVXR2tJTEdQZzjSAd4BQVVfeXFMUFE1WHJRNHphTnJOdkI5bFpDN2RMdm5wY2IyX2pheUxDZ21GMEt6eGphQ25zdXVtaUtxcEpQdXNGNHpaaEwyVTgxVmlFSDVSV0dUWjVEOEwzd1NWWVZZQ191X2pJLUpsNEZ5SVUxcm1RMlcxdmJseWVFVEs3RzJUT1Rzd0RQelZpY0NVRWVudnJkYjNLQ09oYkdnUjB4b0liQVJPOEpBLXZnSzR0WV9jVTVCa2U4dlhBVFRBZmxmNHlabV9oOUtqbVFqRW11VG50aDA4eDI4eHI4bEtxaHpR?oc=5",
    "fuente": "El Debate",
    "fecha": "2026-10-15T11:20:11+00:00",
    "partido": "Sumar"
