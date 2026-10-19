@@ -1,6 +1,20 @@
 {
- "actualizado": "2026-10-18T23:10:46+00:00",
+ "actualizado": "2026-10-19T00:01:42+00:00",
  "generales": [
+  {
+   "titulo": "El adiós de Pumpido al TC y la otra aritmética del 29N",
+   "enlace": "https://www.larazon.es/espana/adios-pumpido-otra-aritmetica-29n_202610196ad4ef41cfd4076f0c7f9585.html",
+   "fuente": "La Razón",
+   "fecha": "2026-10-19T02:00:13+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/02/17/74D0C104-E714-484F-8AC7-7740570B4C9B/96.jpg?crop=1920,1080,x0,y437&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
+  {
+   "titulo": "Génova desarrolla un sistema paralelo de recuento de votos para las mesas electorales",
+   "enlace": "https://www.abc.es/espana/genova-desarrolla-sistema-paralelo-recuento-votos-mesas-20261019014048-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-10-19T01:42:19+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/19/1469372168-RRRSV7EwwZCMWVQSND8grRK-1200x840@diario_abc.jpg"
+  },
   {
    "titulo": "Feijóo marca Catalunya como un territorio clave para llegar a la Moncloa tras las elecciones del 29-N",
    "enlace": "https://www.lavanguardia.com/politica/20261019/11662138/feijoo-marca-catalunya-territorio-clave-llegar-moncloa-elecciones-29-n.html",
@@ -9,25 +23,11 @@
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/18/6ad5154f98abf.r_d.1275-924-1817.jpeg"
   },
   {
-   "titulo": "Suspendido el acto de precampaña de Pedro Sánchez previsto en Toledo para este miércoles",
-   "enlace": "https://www.abc.es/espana/castilla-la-mancha/toledo/suspendido-acto-precampana-pedro-sanchez-previsto-toledo-20261018232159-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-18T23:22:00+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/18/Sanchez-RT4uotJiQrgt82k9DC5xOwL-1200x840@diario_abc.jpg"
-  },
-  {
    "titulo": "El PP apuesta por el joven ‘influencer’ Jon Echeverría en Guipúzcoa como cabeza de lista",
    "enlace": "https://theobjective.com/espana/politica/2026-10-18/pp-influencer-jon-echeverria-guipuzcoa-cabeza-lista/",
    "fuente": "The Objective",
    "fecha": "2026-10-18T21:53:58+00:00",
    "imagen": "https://theobjective.com/wp-content/uploads/2026/10/jon-echevarria.jpg"
-  },
-  {
-   "titulo": "Elecciones generales del 29-N, en directo | Vox pide al TC que inadmita el recurso del Defensor del Pueblo por la 'ley de nietos'",
-   "enlace": "https://www.elespanol.com/espana/20261018/elecciones-generales-directo-ultima-hora-pedro-sanchez-feijoo-actos-pp-psoe-vox-encuestas-voto-correo-sondeos-espana-2026-partidos/1003744424471_10.html",
-   "fuente": "El Español",
-   "fecha": "2026-10-18T21:15:00+02:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11370485.jpg?p=w:1706/h:960&h=OZTrVipG"
   },
   {
    "titulo": "Perro serás, mas Perro enamorado",
@@ -75,6 +75,13 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "Génova desarrolla un sistema paralelo de recuento de votos para las mesas electorales",
+    "enlace": "https://www.abc.es/espana/genova-desarrolla-sistema-paralelo-recuento-votos-mesas-20261019014048-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-19T01:42:19+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/19/1469372168-RRRSV7EwwZCMWVQSND8grRK-1200x840@diario_abc.jpg"
+   },
+   {
     "titulo": "Feijóo marca Catalunya como un territorio clave para llegar a la Moncloa tras las elecciones del 29-N",
     "enlace": "https://www.lavanguardia.com/politica/20261019/11662138/feijoo-marca-catalunya-territorio-clave-llegar-moncloa-elecciones-29-n.html",
     "fuente": "La Vanguardia",
@@ -82,11 +89,10 @@
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/18/6ad5154f98abf.r_d.1275-924-1817.jpeg"
    },
    {
-    "titulo": "El PP apuesta por el joven ‘influencer’ Jon Echeverría en Guipúzcoa como cabeza de lista",
-    "enlace": "https://theobjective.com/espana/politica/2026-10-18/pp-influencer-jon-echeverria-guipuzcoa-cabeza-lista/",
-    "fuente": "The Objective",
-    "fecha": "2026-10-18T21:53:58+00:00",
-    "imagen": "https://theobjective.com/wp-content/uploads/2026/10/jon-echevarria.jpg"
+    "titulo": "Feijóo presenta su Contrato con España para \"blindar\" el Estado y que nunca pueda haber otro presidente como Sánchez",
+    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeUNCT2J3YmJpeXFEeEM2cVR2T0k0MEp2Rkg0T2hoNmRITTJkM2MtaXZWMGxERjNyODVfUDhLWjFxUW0wR0VnanFabmY0X2JtVVIwSXdtdEpYMklWcGJVNjd0TEFEUGRmNWgzOHoyNkEtU2ZZdzB0UEI4TXZzRDB3Q0ExVmNtWXN4Yk5fUVJKd2ZSeVB6bXdsVFFzZ9IBmwFBVV95cUxPLUFBQlhaNDZINHZ2SmRoX2hkSVVfZ1Q4OXBWekkzZTdjMkZmQjZVT2RUTnRfSnhodjFuX0Izb3JFV3ZlM1lIRXEwakl5MElxR1NSNWU2d2UxTHNhTE5Eb1FPb29XVUxrWjVRSG1sX29yU202cXBkT0V1ZXRtT19ybHppMm5jSmRWb3VCTnAwZkZ5VUVvWUFub2ppdw?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-18T23:19:00+00:00"
    },
    {
     "titulo": "Feijóo promete ley para desalojar okupas en 48h",
@@ -105,21 +111,21 @@
     "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQd2NReUdLTVBEeTNkT3Z0NWJmT3VBSkNBXy1nRU9UNnBoMFdVQ0M4NGhkNDZVTGVadGRLV01HTWhTQlFXMnFzalNjZFV4WXhDWXhIM0hFU1M2N3BxZXZZM1lvZUswWVFHUWc2ZDFGNE9IaVQ2Zk5qdXJLN1JvNXZRdndWMkV3dUZVNGlCbUF3S1ZYck92MHJYbkJaWG9ZMjRTMUxIWXU3cTLSAa4BQVVfeXFMTzd6X1ppZ0tXS19mNDZMaDJhRE1qNkN4UDJTd1l6Z1FfWTdieEY4cVJjdTVtUzg0UE1QNm1GSElBMFJlaGpILVVuaHBzRVRpTWh5Q2F3STJUM3BDeXVGSjROcHg2NjFoNXBWYjk3UGg5VTBBM3BJbzZJVUdZdlhZWnlJaDVYR0pEaHBnb0o1ZGRqMUF2MlZIRjdxdmdTbDJkWmtZU2ViT2xiaVJlcmx3?oc=5",
     "fuente": "MUNDIARIO",
     "fecha": "2026-10-18T20:07:56+00:00"
-   },
-   {
-    "titulo": "Feijóo presentará este lunes su ‘Contrato con España’",
-    "enlace": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTkl1UUlnMmhlblp5azFIRi1FbDBrQUdTYnFkNDhmblY2RnFtdXJlZ2NiSHJvVHdxRzhJSUtNS2E5Y1lvT1ltVFJ6UXIzUXR1Q2MzRWE2eElWQkNxaTIxZzNYQlVoN0taVzJ2ci11NUh6RjNDYjQ1ekQ1dWdjeHFNek5sa0pMQzBJZUHSAYoBQVVfeXFMT05JdVFJZzJoZW5aeWsxSEYtRWwwa0FHU2JxZDQ4Zm5WNkZxbXVyZWdjYkhyb1R3cUc4SUlLTUthOWNZb09ZbVRSelFyM1F0dUNjM0VhNnhJVkJDcWkyMWczWEJVaDdLWlcydnItdTVIekYzQ2I0NXpENXVnY3hxTXpObGtKTEMwSWVB?oc=5",
-    "fuente": "El Boletín",
-    "fecha": "2026-10-18T19:36:06+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Vox se encamina a empatar al PSOE en la mitad de la geografía: 'sorpasso' en Almería y Murcia y posible estreno en Galicia",
-    "enlace": "https://www.elmundo.es/espana/encuestas/2026/10/19/6ad4f320fc6c8374648b4583.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-10-19T00:03:35+02:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/18/17923407917450.jpg"
+    "titulo": "756 altos cargos y 959 asesores a dedo: la herencia que deja Sánchez si sale del Gobierno",
+    "enlace": "https://www.abc.es/espana/756-altos-cargos-959-asesores-dedo-herencia-20261016014144-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-19T01:41:45+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/16/1514114398-RpQnTbapLaxWfPle2LdioYM-1200x840@diario_abc.jpg"
+   },
+   {
+    "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
+    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNDZ1eUEydlpmWmxicmZTWlVQSzJsX3N5RTFDSXI0TS16QW92anRqTVRXSmw5ejhMd2gwcnQxYV9STW8yNHlURGk3T1YwRUgtVFBjMU1ZZHB4QWlwWDRlR25iM1B1QzNTbk52RkhuNjRrMFZpVmlqTjRXUmlMSmtSRU1GcXBpX0FLc3ZCU2p0ZlkwM1VNcXpibnNWVldXYlc0M1Nsb3p3M0I0VDNRRlhvYUVveTdSQXpf0gG-AUFVX3lxTE4taWdIRGJfN2tJS1FPbVFhdDRwOE1NelBEd3I2ZVVqSHExMkxUMFAwZ2pxdzZsLXc4SE1uZmxwU0Y2VVo5eFdVSWpXTlBSVTFvdmhPTWR4dXdnZGZEb3o1aS1XWm1ZTGZtLWdMOHRxNnhubHpvUFdaX3dodkVBTjZ1TDRhZl9mbVVwUnFqUHFzUzV2Y252SGctMjFrQVY2RzBDQmI0UTQ5ZzFOTWNTX1BoR2wtMVYtS2xhTUhCQ3c?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-18T23:42:15+00:00"
    },
    {
     "titulo": "¿Puede Pedro Sánchez ganar las elecciones?",
@@ -132,12 +138,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTTEtNXpYbHBzQXlwZFhGQnhtTTdfVmxkTVBIN01LNFNsMmtRU1BJWmNhVk5wYVFqQ2tQU2xTeXZsX0hGRndOanI2TkpkVHJtbDVxUWZTVjJuLUc5VEZYOG9haWNqX1NnRlVTQS1YdHRmSVRPYlBDZk1DcDNVT3hGS0NGOXJxbHk3YW4wY3U1U1MzZ3IxVlhLV05ldlNLNWkyc3RocElLN3pUcW5fSXFqeFlRLTBaM2FVN1BwYTBuSjByRFpoc21TdHY2MVROb1ZUcEx4eUhTTnRtM095aGY1RjNCTDF0amlQLTRMMmRrWnA5aUlHblZMR28xbnUzZGxrU3V4WQ?oc=5",
     "fuente": "LaSexta",
     "fecha": "2026-10-18T20:46:03+00:00"
-   },
-   {
-    "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
-    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNDZ1eUEydlpmWmxicmZTWlVQSzJsX3N5RTFDSXI0TS16QW92anRqTVRXSmw5ejhMd2gwcnQxYV9STW8yNHlURGk3T1YwRUgtVFBjMU1ZZHB4QWlwWDRlR25iM1B1QzNTbk52RkhuNjRrMFZpVmlqTjRXUmlMSmtSRU1GcXBpX0FLc3ZCU2p0ZlkwM1VNcXpibnNWVldXYlc0M1Nsb3p3M0I0VDNRRlhvYUVveTdSQXpf0gG-AUFVX3lxTE4taWdIRGJfN2tJS1FPbVFhdDRwOE1NelBEd3I2ZVVqSHExMkxUMFAwZ2pxdzZsLXc4SE1uZmxwU0Y2VVo5eFdVSWpXTlBSVTFvdmhPTWR4dXdnZGZEb3o1aS1XWm1ZTGZtLWdMOHRxNnhubHpvUFdaX3dodkVBTjZ1TDRhZl9mbVVwUnFqUHFzUzV2Y252SGctMjFrQVY2RzBDQmI0UTQ5ZzFOTWNTX1BoR2wtMVYtS2xhTUhCQ3c?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-10-18T20:40:55+00:00"
    },
    {
     "titulo": "El PSOE cancela el acto de Sánchez en Toledo sin explicar los motivos ni anunciar nueva fecha",
@@ -155,18 +155,25 @@
   ],
   "Vox": [
    {
-    "titulo": "Vox se encamina a empatar al PSOE en la mitad de la geografía: 'sorpasso' en Almería y Murcia y posible estreno en Galicia",
-    "enlace": "https://www.elmundo.es/espana/encuestas/2026/10/19/6ad4f320fc6c8374648b4583.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-10-19T00:03:35+02:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/18/17923407917450.jpg"
+    "titulo": "Vox convierte sus alianzas internacionales en una de sus principales bazas electorales",
+    "enlace": "https://www.abc.es/espana/vox-convierte-alianzas-internacionales-principales-bazas-electorales-20261018013208-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-19T01:32:48+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/18/1518809763-RkPSqfjR3omzkZbzUGwJiUN-1200x840@diario_abc.JPG"
    },
    {
     "titulo": "Punto Ciego | Albert Rivera: \"La equidistancia entre Vox y Bildu no es posible, hay que concentrar el voto\"",
     "enlace": "https://www.elconfidencial.com/espana/2026-10-19/punto-ciego-rivera-bildu-vox-cbtr_4446847/",
     "fuente": "El Confidencial",
     "fecha": "2026-10-19T00:00:00+02:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1792364241&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1792367931&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+   },
+   {
+    "titulo": "Vox se encamina a empatar al PSOE en la mitad de la geografía: 'sorpasso' en Almería y Murcia y posible estreno en Galicia",
+    "enlace": "https://www.elmundo.es/espana/encuestas/2026/10/19/6ad4f320fc6c8374648b4583.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-18T22:03:00+00:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/18/17923407917450.jpg"
    },
    {
     "titulo": "Vox pide al TC que inadmita el recurso de Gabilondo sobre la 'ley de nietos': \"Es prematuro y se limita a discrepar\"",
@@ -186,12 +193,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOXcwYlAwSGduM0lvSDZaRTFKVVZxMDZaV2xLVEhBNFJWdHMyVVEyRm5aMDNmamNUdTVoQzlES0VHTV9wVVptdFdka3h2ZlNxbzlnYTRab3U2djVEMUZXdl92UkVoVEZqcTJ5Q3lXZGdWLU9sRFhaZnNIVWpBUUJ0eVlJU2E4LUNlLUR1ejkyd1hhNkJpWk9vcUp0NlJiV2RuN2JaRGxWRWVtdUE2dkE?oc=5",
     "fuente": "El Confidencial",
     "fecha": "2026-10-18T16:28:00+00:00"
-   },
-   {
-    "titulo": "Feijóo, Illa y Abascal elevan el tono de la precampaña",
-    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZWkyU2FCeHc1aGV4RnpEOC1QOTV3NGh5Ql9sZ1FjQk5jRjg2d25hblpVek9HQWRTS1AwS01kUnZjWm5OMEotWmtmdUtsWVVGdXBCQlJpS0JlNEJ5bTRuRUFncTdiTjl1MURhQXJaWFg1ekRVZFdNQkd6emVRRjNGY2hhVEhhWmlVb3Z1c0RqMXJwREF1eWpzZEFRVDd5ZmE3Tm5hR2xn?oc=5",
-    "fuente": "Canal Extremadura",
-    "fecha": "2026-10-18T15:51:36+00:00"
    }
   ],
   "Sumar": [
@@ -394,7 +395,7 @@
     "enlace": "https://www.elconfidencial.com/espana/2026-10-19/punto-ciego-rivera-bildu-vox-cbtr_4446847/",
     "fuente": "El Confidencial",
     "fecha": "2026-10-19T00:00:00+02:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1792364241&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1792367931&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
    },
    {
     "titulo": "EH Bildu dice que Declaración de Aiete sirvió para la resolución del «conflicto político»",
@@ -430,6 +431,13 @@
   ],
   "PNV": [
    {
+    "titulo": "Fieles a Ortuzar ponen contra las cuerdas al PNV de Esteban en plena precampaña",
+    "enlace": "https://www.abc.es/espana/pais-vasco/fieles-ortuzar-ponen-cuerdas-pnv-esteban-plena-20261019013232-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-19T01:32:32+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/19/1494173967-RLQIwV09SAiraNCVSc562sI-1200x840@diario_abc.JPG"
+   },
+   {
     "titulo": "Quiénes encabezarán las listas del PNV al Congreso: los nombres con los que Aitor Esteban afronta el 29N",
     "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVFVxNE14YnJ3OXU0T20tbFhPWnZmR1N4UG5vek52WHBjQ2xtV0RLbmtob09wclpoYm9EbmRXQlUtRl9uUGEzRmZGRzlxdHBZZjNLSVNfSFZFTWMxRW1JZjZxTFotT2tDMVdxd3VnRUZhcDZSSzN5RTBQdDVMeV9zeUZqSEM1WkNoc2hobUNZUmNUMkw5Y3hUWTEyY1pocEpldm1xMzVoM3M3UlJiMmN0U2NyRERmUXUtQVZ4dHY3TVc4ZnVDUG9RR3NDONIB0AFBVV95cUxOZk9jYmJBQ2Q1U1ZydjNSTEYtdUVTUDI2X1g4ZHpIQlgtUHZqZndLUkhYZ1QwTGRHbjNzREtYN2dUTVBRdmxYT0d2dzhFWmhGX2JreWR1SXBYdm51bzFmbTVWMUN4ZU55NDhGcU5BQjB6M3c0bkJoXzhsQVJRT29ZOUIxeWViOUktdS1VdVFwclFuVmJBX25rSkNrTFBWeloyYTlzenBPM0ltRnA4a3B3NktVeVFDSDZVSkY2LWU1cDcwVEdLVGNXMXlpSW00bWlR?oc=5",
     "fuente": "Demócrata",
@@ -458,12 +466,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOSnlweUdzZjZRXzlyRTFYU01hOVduRUY0T3ZWbmNRMmtIRF9XTkg4T3VwZjhqSl9hMW14N1dIX3NWSVdKZ3hJSmZSMU1aZzMxUUtJOTFwR0RCNV9kOTVQbW1kLTdTSXNsdS15T0ZyUzEycTIwOVJEOVE2dkRvYTBDZEMtSktOeXFJOER3NDRpaHlaY0EyZlpJeWtjR1FlOEJqdlZlT1RvZzV3YjV2WHBGQUVCaGxoc3ZtZHVSZWUzUzFkc3d3bVRaVWk0ZjR6UzhIOXQtWnBmWmJuWk9MNkR0TGx0Q3NPd2FOYzNyRUZvaEdxMTlGTHFWZXVfQQ?oc=5",
     "fuente": "CatalunyaPress",
     "fecha": "2026-10-18T10:44:00+00:00"
-   },
-   {
-    "titulo": "“El PNV no va a hacer seguidismo ni va a ser muleta de nadie tras las elecciones; Bildu sí lo hace con Sánchez”",
-    "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYTh6cTBOVjVOMTdCa1g4MFdnQTMwdGJiOG1MOHJJbnI0dXJlVXp2cThvRUM5b05qLVJPUGo1eE5Cb1pWS0ExOTEyR0l3cE1EYVREZHR2cmZPOElGb092N0NRcnllRzZiVGRyblRzaUQwS0ViNFQ4Tks3cFNRdHU2d25TdEtKdmttZFc4LVIybVBGZXh0UnlLaWxjRnA0ZFlObmpyeHFQTll3TzDSAbABQVVfeXFMT2RhUjg3S0N1TlJwN0dOc1p3WER0LVpYLVZ2dGlOV0dFN1BrUTViRmFVbUdrd25TT2IxQ2puMHU4eTRmVDlBdGktM2JJSHVpUnF5SkNpcjRlTEd2bDBicURlbG5CM0FTbmhYdVQyRUxuWkRwLUlyM0dZRjVRMWVodkN4dHg4X1FTcG5ZMEtHbVVRTXRjQmVDTkJmcm9uMTJXYXVtaDFFNHNZWXhGNVQtYlk?oc=5",
-    "fuente": "Deia",
-    "fecha": "2026-10-18T05:01:12+00:00"
    }
   ],
   "BNG": [
@@ -509,7 +511,7 @@
     "titulo": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
     "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNDZ1eUEydlpmWmxicmZTWlVQSzJsX3N5RTFDSXI0TS16QW92anRqTVRXSmw5ejhMd2gwcnQxYV9STW8yNHlURGk3T1YwRUgtVFBjMU1ZZHB4QWlwWDRlR25iM1B1QzNTbk52RkhuNjRrMFZpVmlqTjRXUmlMSmtSRU1GcXBpX0FLc3ZCU2p0ZlkwM1VNcXpibnNWVldXYlc0M1Nsb3p3M0I0VDNRRlhvYUVveTdSQXpf0gG-AUFVX3lxTE4taWdIRGJfN2tJS1FPbVFhdDRwOE1NelBEd3I2ZVVqSHExMkxUMFAwZ2pxdzZsLXc4SE1uZmxwU0Y2VVo5eFdVSWpXTlBSVTFvdmhPTWR4dXdnZGZEb3o1aS1XWm1ZTGZtLWdMOHRxNnhubHpvUFdaX3dodkVBTjZ1TDRhZl9mbVVwUnFqUHFzUzV2Y252SGctMjFrQVY2RzBDQmI0UTQ5ZzFOTWNTX1BoR2wtMVYtS2xhTUhCQ3c?oc=5",
     "fuente": "ABC",
-    "fecha": "2026-10-18T20:40:55+00:00"
+    "fecha": "2026-10-18T23:42:15+00:00"
    },
    {
     "titulo": "A la caza del diputado por Las Palmas: Primero Canarias y Coalición Canaria van unidas el 29-N",
@@ -601,7 +603,7 @@
    },
    {
     "titulo": "Los paralelismos entre los votantes de Vox y Aliança aventuran un posible 'efecto rebote' en las generales",
-    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOHg5Qk5nZXZzNV9vZEJHWUZoendhd0JkYndDWTVnekdET3A2c3ZlczVCbjRWQllDS0pDTGhsaXFfaEc4VDk5bjM2X0tOMmZhZDV2YzZxU3N1Wi02MkxsYVVVTGNFQkowR19nWVc2by1WaHpYTmFxNDVvTmtROXlRMTFmTU9yMkpuTW8tS253VDcwdUlfbGtzS3BkVnRhWVp6bUdDX1BNU2hIWFo5REJueWxvTGR6T0pheUxTaHVLbUpIQkRScXJPMGxFZ1dxNHRHLUHSAdcBQVVfeXFMTUR5X2R4dU5hR3lINmhfd0lMYkV0M1N5MWpnc0NRaUQ3RFQyWDlWeGVnNVY2MVE2N3RveHNoS2U3ZkU4TDR6WHJjQjc2SWVaOEkwT0J2S3d1Qkc1OUdzT1pLbDZSYkE5SEluSnBSUkgtc3R5ZnRNQ2YyRWVHWGlXdVktZS1WcmZyR0xZZFVXZGVPOUFnQnNXS2xhQlluS1F0em1tUHZyVFAxeG9uVVhENDQ1NC1vM3VtN2huMHpKTWx4SEJ0aXN2cl9pWmhNWklzRnlITndpMkU?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRHlfZHh1TmFHeUg2aF93SUxiRXQzU3kxamdzQ1FpRDdEVDJYOVZ4ZWc1VjYxUTY3dG94c2hLZTdmRThMNHpYcmNCNzZJZVo4STBPQnZLd3VCRzU5R3NPWktsNlJiQTlISW5KcFJSSC1zdHlmdE1DZjJFZUdYaVd1WS1lLVZyZnJHTFlkVVdkZU85QWdCc1dLbGFCWW5LUXR6bW1QdnJUUDF4b25VWEQ0NDU0LW8zdW03aG4wekpNbHhIQnRpc3ZyX2laaE1aSXNGeUhOd2kyRdIB1wFBVV95cUxNRHlfZHh1TmFHeUg2aF93SUxiRXQzU3kxamdzQ1FpRDdEVDJYOVZ4ZWc1VjYxUTY3dG94c2hLZTdmRThMNHpYcmNCNzZJZVo4STBPQnZLd3VCRzU5R3NPWktsNlJiQTlISW5KcFJSSC1zdHlmdE1DZjJFZUdYaVd1WS1lLVZyZnJHTFlkVVdkZU85QWdCc1dLbGFCWW5LUXR6bW1QdnJUUDF4b25VWEQ0NDU0LW8zdW03aG4wekpNbHhIQnRpc3ZyX2laaE1aSXNGeUhOd2kyRQ?oc=5",
     "fuente": "Elplural.com",
     "fecha": "2026-10-16T04:00:00+00:00"
    }
@@ -808,10 +810,10 @@
    "fecha": "2026-10-16T12:51:06+00:00"
   },
   {
-   "titulo": "¿El responsable de Hacienda del PP condiciona subir las pensiones según el IPC a tener “la economía adecuada”?",
-   "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWjI0YTFNdUR0b1NDZUJvSXg4bXpGWjUxQjRKZUNKQnNxT1RlVWlDMEZtT3pOZUlTR0lZTVRXTTYwRnlBQ1NtMDJtNnd6cVI0X0w3ZXBVM3gtTjFDVzR0eFRtLThrYXBkaGhUWEhobUJBbEUzX1pXLUlad0hSczdJaE9qWEp1N29ROUZGMFI0SUV3OXM4MDhPdThNT3c4NGhZMUtza2g5UEdzRGQ0MFhTaHhFQUUxSldsSS1iLVoxTHpRU2YtNnZ0RXBSWlVjbGY4U2lTS1F2WQ?oc=5",
-   "fuente": "Maldita.es",
-   "fecha": "2026-10-16T11:55:49+00:00"
+   "titulo": "Las diferencias entre el escrutinio provisional y general en unas elecciones generales",
+   "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWjVadWdvYlBxa09iSWIwMTZ1b29JYzFXSzRZWE13Mlh3Q1JrU05nM3Zmb3I4akQxWm1XbWRXNFg0OFFvelJFWjVjb1RhZ3VfMjJEY0hwMldUbXVkc1hJYzcyLWpVNlY3MzQwVVhjS2Vpb19IWHdFV2hzM3ljcEtxSWJ5QUVrOWlsdlhXOEdnbw?oc=5",
+   "fuente": "Newtral",
+   "fecha": "2026-10-16T11:25:15+00:00"
   }
  ],
  "polemicas": [
@@ -828,13 +830,6 @@
    "fuente": "Ultima Hora",
    "fecha": "2026-10-18T02:48:00+00:00",
    "partido": "Vox"
-  },
-  {
-   "titulo": "El PP urge al PSOE a forzar la dimisión de Joaquín Martínez Salmerón",
-   "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY0w4SWtKQmZCSF91d2pSR09JVUU3QlVabGFrbEd5X09sWGJNUndKUHVDN093THBZdklBRF93VXplN0VkcEVEZE9xWnpuUzJvb0RUcy1pRDM3cTJCZnU2S2RZYXZJZmItNDlNWjZGLU1SaFNwRlphUGxXa3lFeklncDdKRnlYT1ZqZmtWVUl2a29WNVRxWEVCWk9kaDRCeG5JLWNxOEJlNlpaSjFuYmJFNTNVWdIBuAFBVV95cUxPUlpuaDdJUW1qYVQ1TGVLTktjLTl0ZHdrQVlBYTdmT0ZTNTZCNUc4eVk4cWFDSkNhMzdZZWxzdC0zak5pWW5IUVhDVm5QUF9UQzFURW03YjZ1Q0I0QnFaYnQ3VFQwdG5aNE1qU2ZORlU0NGktNXhhWkxQLVV6LVVOb2dLdWw2dkdLWjN6S1hnSG5fa09wM2JXQzktNWZHaXNyeDRCZXlxWXBvZlg0TkVtTHl6Z0preFha?oc=5",
-   "fuente": "La Verdad",
-   "fecha": "2026-10-17T18:05:35+00:00",
-   "partido": "PSOE"
   },
   {
    "titulo": "La polémica frase de Gabriel Rufián (44 años) sobre la cultura: «Prefiero llenar tiktoks que bibliotecas»",
