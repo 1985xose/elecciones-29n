@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-19T19:02:01+00:00",
+ "actualizado": "2026-10-19T19:21:35+00:00",
  "generales": [
   {
    "titulo": "El podcast de Carmen Morodo: Las movimientos que no se ven",
@@ -7,6 +7,13 @@
    "fuente": "La Razón",
    "fecha": "2026-10-19T20:57:54+02:00",
    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/19/316A7B4C-AFF9-47D0-BA33-27A91E752A4E/morodo-19-10-2026_96.jpg?crop=1900,1069,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
+  {
+   "titulo": "Ester Muñoz encabezará la lista del PP de León al Congreso y Alicia García la de Ávila al Senado",
+   "enlace": "https://www.abc.es/espana/castilla-leon/ester-munoz-encabezara-nuevo-lista-pp-leon-20261019193657-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-10-19T20:43:58+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/19/_03MAX202610753945-RCIYtiRmFVnxM6Ayn7W93DO-1200x840@diario_abc.jpeg"
   },
   {
    "titulo": "Sánchez, obsesionado con Inda, manipula sus palabras sobre las pensiones: «Pide que no se hable de ellas, ¡serán caraduras!»",
@@ -21,13 +28,6 @@
    "fuente": "La Vanguardia",
    "fecha": "2026-10-19T20:35:11+02:00",
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/19/6ad662a0595a8.jpeg"
-  },
-  {
-   "titulo": "El PSOE se queda en Palencia sin lista al Congreso tras la renuncia de sus candidatos por la imposición de Ferraz",
-   "enlace": "https://www.abc.es/espana/castilla-leon/psoe-queda-candidatos-congreso-palencia-tras-imponer-20261019193046-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-19T20:31:25+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/19/Dimitidos3-RCS5v3Xe8b4JisYx97NhO2J-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Las diez píldoras del día de la campaña electoral",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Suárez-Quiñones espera recuperar \"proyectos olvidados para León\" si gobierna el PP",
-    "enlace": "https://www.larazon.es/castilla-y-leon/suarezquinones-espera-recuperar-proyectos-olvidados-leon-gobierna_202610196ad6653abafd3d7363659369.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-19T20:45:14+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/19/81EB047F-9C9D-491E-96F9-31B30412C58B/suarez-quinones-preside-comision-gestora-provincial-leon-junto-ricardo-gavilanes-eduardo-diego_96.jpg?crop=5611,3156,x0,y291&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "El PP afea al PSOE de Toledo su legado en vivienda: venta de suelo público y ni un piso en 16 años",
+    "enlace": "https://www.abc.es/espana/castilla-la-mancha/toledo/pp-afea-psoe-toledo-legado-vivienda-venta-20261019205048-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-19T20:50:48+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/19/1511396049-RnnMCcQW0xbW2JNleG1cynL-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Sánchez alerta ante nueva la visita de Milei: “PP y Vox planean gobernar con el de la motosierra”",
@@ -87,6 +87,13 @@
     "fuente": "La Vanguardia",
     "fecha": "2026-10-19T20:35:11+02:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/19/6ad662a0595a8.jpeg"
+   },
+   {
+    "titulo": "Sánchez apela al voto útil de la izquierda al PSOE como garante del Estado del Bienestar frente al modelo “que deja a la intemperie” de PP y Vox",
+    "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-19/sanchez-apela-al-voto-util-de-la-izquierda-al-psoe-como-garante-del-estado-del-bienestar-frente-al-modelo-que-deja-a-la-intemperie-de-pp-y-vox.html",
+    "fuente": "El País",
+    "fecha": "2026-10-19T19:02:31+00:00",
+    "imagen": "https://imagenes.elpais.com/resizer/v2/4DH7E4CTUFCRLNS53LVVR3CMXE.jpg?auth=82e81055fcf6ddca719130a18102b186fc8f06b2163a5b9392e76f79660c9211"
    },
    {
     "titulo": "Los tropiezos de la precampaña: del \"menos democracia\" de Feijóo a \"los gallegos no sabes por dónde van\" de Albiol",
@@ -105,28 +112,29 @@
     "enlace": "https://news.google.com/rss/articles/CBMilAJBVV95cUxONllZOXl6ZGhvbTNwT18yZU1heHZLYmphcUl2aU14REhuendQVjZTV05OOUxHcTRwLUJjQWNlVngzWTNpUEFyWHZFR1lTZkoxbjYzMkFiWEU1Tl8tbGl4a3kzcjFqaldTRl9vZGNyNEdtWXNtXzF5aGVuMmpPRVR0c1dlM1lISVhrV21RcjBYWWVDb18yMW85cmtCQ2hVUGNQTURpTUZCSTAyaE5EMVJmeXptLWhpSkczaWJsR3Z5SlpicnJLWjg3QnE1RUZQMFd4aGJIWEZtUUh3aGs3YktXdjRLaEtuWmFXSXZzbHliZ1NPSVVweGxtb284eGdMYlpneGZfRVdPRm1US3hxenRpY1ZaeGM?oc=5",
     "fuente": "TomellosoHOY.com",
     "fecha": "2026-10-19T18:13:01+00:00"
-   },
-   {
-    "titulo": "Los memes de las elecciones generales 29-N, de este 19 de octubre: el último lapsus de Feijóo con “menos democracia” y el tuit de Abascal con una imagen hecha con IA",
-    "enlace": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNOFc0S210V09KRVkwb0s3NURZVWp5TUp3enpHbTN0NjNKaThpaVlBU1dKbEEwcmxZNVJoeHE5MDRIclZuVXpDR3dpWTlROWVybUJtUUhRVE9ZOFB6S3NQTlRvLTlSWnItTWdIU01paWNIbURHZk1wRlVtUEJ4anYxRDlQSzVxTUxGa3d4YnY0dkk1c0NYNkM0RExaMUNaaEtaZ2lRV0JhRWFoSE5xWEd6eW1pN05EX211bUVYbWVaM3FZMDF4b0hiVXJFcXl5UFRtRUZSMEVBZmtESHd0enBMZGRjc0FLLXZKUDQ4bnRzN0tldGVuRkFEUG5VN0hlUUNPUVFWSFRsdUM4d2NDZ1BISWp5a3RPR1R2bTNZM1AwMEtJWWgyWWFPYS1tRjfSAccCQVVfeXFMTzBCYVBzZUtWdFJ2M0dGeFVtQUNhMUlZQWdQNDM2b2xNbjQ1a0ZEUGRVbGh6WFlvOV9CM2UzWEIzVjZ3d0IzSENPVEFxcE5aX3Jva1NMQm9jMXhJVUwwcGJKaGZHUFNqNG53Q05IMUJUR3Y3SUFuLTdXN3BhUXFJT3JfS3dMalZ6dk5jbjBjQ3QwZ1Fvd1R3ZngtZzBHcFZVSWtGeFMtRlFpcHlWRTRBOUxqODc3WWxPVkh0MWFfSkl5bTZ0b0xwTUptY1VFak5HWlprMW81YWszZm1ZUUtycXlNWlRlczVtMmcyYTBKa3Z2NHVpTGJRZHpxNDdpTV91TkNZdHBFcGFxUTA0bmxsd1dZN1UxMDBBMDJRdjU1Nk94SVFDRzNhSXE2VlJsM0hDT0RMZ1NMc2tXM1ZESklfUHZkdDRaUFFJ?oc=5",
-    "fuente": "Infobae",
-    "fecha": "2026-10-19T18:11:39+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Sánchez, obsesionado con Inda, manipula sus palabras sobre las pensiones: «Pide que no se hable de ellas, ¡serán caraduras!»",
-    "enlace": "https://okdiario.com/espana/sanchez-obsesionado-inda-manipula-sus-palabras-sobre-pensiones-pide-que-no-hable-ellas-seran-caraduras-20584611",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-19T20:39:49+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/19/sanchez-ok-1.jpg"
+    "titulo": "Sánchez se compromete a subir el salario mínimo cada año si gobierna y pide una mayoría más amplia que la de 2023",
+    "enlace": "https://www.20minutos.es/nacional/sanchez-se-compromete-subir-salario-minimo-cada-ano-si-gobierna-pide-una-mayoria-mas-amplia-que-2023_7050735_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-10-19T21:15:49+02:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/10/19/6ad655c8c8b085-99996249.r_d.996-329.jpeg"
    },
    {
-    "titulo": "Sánchez alerta ante nueva la visita de Milei: “PP y Vox planean gobernar con el de la motosierra”",
-    "enlace": "https://www.lavanguardia.com/politica/20261019/11663052/sanchez-alerta-nueva-visita-milei-pp-vox-planean-gobernar-motosierra.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-19T20:35:11+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/19/6ad662a0595a8.jpeg"
+    "titulo": "El PP afea al PSOE de Toledo su legado en vivienda: venta de suelo público y ni un piso en 16 años",
+    "enlace": "https://www.abc.es/espana/castilla-la-mancha/toledo/pp-afea-psoe-toledo-legado-vivienda-venta-20261019205048-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-19T20:50:48+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/19/1511396049-RnnMCcQW0xbW2JNleG1cynL-1200x840@diario_abc.jpg"
+   },
+   {
+    "titulo": "Sánchez apela al voto útil de la izquierda al PSOE como garante del Estado del Bienestar frente al modelo “que deja a la intemperie” de PP y Vox",
+    "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-19/sanchez-apela-al-voto-util-de-la-izquierda-al-psoe-como-garante-del-estado-del-bienestar-frente-al-modelo-que-deja-a-la-intemperie-de-pp-y-vox.html",
+    "fuente": "El País",
+    "fecha": "2026-10-19T19:02:31+00:00",
+    "imagen": "https://imagenes.elpais.com/resizer/v2/4DH7E4CTUFCRLNS53LVVR3CMXE.jpg?auth=82e81055fcf6ddca719130a18102b186fc8f06b2163a5b9392e76f79660c9211"
    },
    {
     "titulo": "Sánchez apela a la concentración del voto en el PSOE ante la fragmentación de la izquierda: \"Todo al rojo\"",
@@ -141,16 +149,10 @@
     "fecha": "2026-10-19T18:56:42+00:00"
    },
    {
-    "titulo": "Sánchez pide concentrar el voto en el PSOE ante la división de la izquierda: “Todo al rojo”",
-    "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOGpHTWE2ZmNDOVVnTVNFdTdGa0t6WVJjT0VCczc4RUt1TVk5ZUZIVEZDRjVDblpSUWh4ejNWSDFpaWhGWm9oVzI4d3BYNTItQ3djUFM4em1pTGpTWjBjOTY2VE8yQ2JpdnRTVmxPZ2dsaXVRel9yY28yYnN0dW5TS0hkdC1Ea1NKQlZvWG5lRlVrZXMtaFRyaVlBWTY3RmZtQ2U3aDU5YzBrWFVrTWZWN2djUjhoNXg2enE4VndvZjXSAcYBQVVfeXFMT1EtbkRVTGVHQ1ZrV0dpZEV4UlFycVIyNGN3X0FxOHJySWtrVEpMcERLTTNwUVc3enVVM1JvYXg4LW9XRi1vMk8tRmlFSEZPMVpWRkRyajAyWGZaUFZRVEswNnJZUFR5R2JwNURYWHhsQ1JPcEVua2l5M1pDQVU1UktrN3YzMG5qUm9ySlZKYTBIcm9PaFFUbS02MUFVZ0NidkRFT2pFM2VnZHVrMS0zMldpaFBZNlhYM1JLeGFZNHNQZ1ZiNm5R?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-10-19T18:30:46+00:00"
-   },
-   {
-    "titulo": "Dimite toda la lista del PSOE de Palencia como protesta ante la imposición de Ferraz de otra candidata",
-    "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQkhibkNzX3dtMU1IZkJqUy0ySkU5cG1KUjdzRjF4OXJXX09wR2hjYURIWlM5MThfSGlESlYxOHdBR0E0ZGktT1QxaFBiVkhTQ2tnUjVic1didU1GU1IyNkVhZWk5dGlPQzF6ZllucEwzU0FuQzhZQTBsaWg2N3lkam9DX2JGRXpDekY0ZTVn0gGOAUFVX3lxTE1Xb0gzUWZZaG13TlhQVXJJNHdnV2Z0UVJJTHlBQmpMclZOdGxsY0NfX2k4bE1CZjNCUUVfWlhsUmt1aGwzZ1l6d2hvZnNHZ1l2Q2JrMUs0RVdWSm5lcVhIb3NPSDdKeFZpb1JiY3QyUnJSUW5BbW44SGg5SFhtcjJzUUtpYlhVNnRpbUlFVXc?oc=5",
-    "fuente": "El Periódico",
-    "fecha": "2026-10-19T18:29:15+00:00"
+    "titulo": "Elecciones generales 29N, en directo | Renuncia en bloque la lista del PSOE por Palencia al Congreso tras imponerles Ferraz su candidato",
+    "enlace": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTTEtNXpYbHBzQXlwZFhGQnhtTTdfVmxkTVBIN01LNFNsMmtRU1BJWmNhVk5wYVFqQ2tQU2xTeXZsX0hGRndOanI2TkpkVHJtbDVxUWZTVjJuLUc5VEZYOG9haWNqX1NnRlVTQS1YdHRmSVRPYlBDZk1DcDNVT3hGS0NGOXJxbHk3YW4wY3U1U1MzZ3IxVlhLV05ldlNLNWkyc3RocElLN3pUcW5fSXFqeFlRLTBaM2FVN1BwYTBuSjByRFpoc21TdHY2MVROb1ZUcEx4eUhTTnRtM095aGY1RjNCTDF0amlQLTRMMmRrWnA5aUlHblZMR28xbnUzZGxrU3V4WQ?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-10-19T18:53:42+00:00"
    }
   ],
   "Vox": [
@@ -169,6 +171,13 @@
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/19/6ad6635bde04a.r_d.2949-1427-0.jpeg"
    },
    {
+    "titulo": "Sánchez apela al voto útil de la izquierda al PSOE como garante del Estado del Bienestar frente al modelo “que deja a la intemperie” de PP y Vox",
+    "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-19/sanchez-apela-al-voto-util-de-la-izquierda-al-psoe-como-garante-del-estado-del-bienestar-frente-al-modelo-que-deja-a-la-intemperie-de-pp-y-vox.html",
+    "fuente": "El País",
+    "fecha": "2026-10-19T19:02:31+00:00",
+    "imagen": "https://imagenes.elpais.com/resizer/v2/4DH7E4CTUFCRLNS53LVVR3CMXE.jpg?auth=82e81055fcf6ddca719130a18102b186fc8f06b2163a5b9392e76f79660c9211"
+   },
+   {
     "titulo": "Abascal busca un entendimiento con el PP para que la izquierda no controle el Senado",
     "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOU04UWwyZzVVUzZvS0xSOG03M0JKamd3Y1lwdlFrWVZuS0tWZWcxOFlFdXh4a1NieFRJTDZncjVkMWJjaUpsX191cUhVV3hseHNKSmFyMWxuYWdhWHdrcmJiNEQ4bzlYcnhrNjBsVGNVUW84SUJxVmJqMUNwRWN2aERXSjJJNEtPZWppZExYcnYtNHdYRUNzM3pJZ05hVlV4S2lHbmFlM19WV09oTHVEdVFMaVVLRXE5a2FHNFhOakt3X2tTeDlHem54Q1I4Nnc1M0hTQVkwNA?oc=5",
     "fuente": "El Imparcial - Diario liberal e independiente",
@@ -185,12 +194,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPTGt3S0NWb1JMNU5TcWllT2ZPRjZBcG5KWFBUck5SLWYtV3ViR2ZvNHlFRUIwNl9TRFd3ZVJDQkVtbHpVYjYtUEpDQ01SSGlfWE1YOE0wTElTYkFhNnp6UW1qYnEzdkFYMmkzUUU2bnFVcDNpT2VkMUxHeFBzNW5QekZqeEIzaUlSMXRjSFA1Sy1EUkNyQ0o4WHNVV0d6NlJvTTl1YmRlVzJUUEsxWHdJTlZGQ1VWOVUtdUJlaS1ZYndZNmN1SmRBeUgwQ2FTOVJldktsZWhXaG9ZZDBrdEF6ZkpBbTFkMndEbFNNSEVYYUF0Y2RUemlJWlU3TEdFdw?oc=5",
     "fuente": "El Constitucional",
     "fecha": "2026-10-19T18:28:48+00:00"
-   },
-   {
-    "titulo": "Vox ratifica que Cristian Toro, campeón de piragüismo en Río 2016 y criado en Viveiro, irá de quinto por Madrid",
-    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbzNBZWNfWmdRa2otMC1aRWRseG1JdE56anduNDNLTFlWVDFKWXN5RnRjVVZ2cDJOVUxDNl9LNVU1cGJFN2R5al9iOHRKMFhEUmVsUUVVNWk4MFo5SjA4Y2JKdkdfVDI0ck9nRnF0bVBVUWlfa2pmODFlcGU2dFhiamhsSGVDRXQ4YXdnYXExZW1xb0lKU2wzRk9yeHpOd3o5YTZWZi01ekprVDVwRF9Mc1VCOFY3NFEzZzg2Z1ltZi1nazQ5VHhuVGQwOW1UcW1SQkMtNFg0bS1VaGltb3J2dEhRUl9LZ00?oc=5",
-    "fuente": "GaliciaPress",
-    "fecha": "2026-10-19T18:19:00+00:00"
    }
   ],
   "Sumar": [
@@ -362,6 +365,12 @@
   ],
   "Bildu": [
    {
+    "titulo": "Vox acusa a PSOE, PNV y EH Bildu de que \"la escoria criminal de medio mundo asalte las fronteras\" de España",
+    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxON1pMVWV4R3FVemp4bGdZVmo4UWVRMFYxTFlsbEo0X29aOVZUQ0VYVjFOUjRQakJMZzVPLVF0Qm9jbTcwZkFYVGo2SFBlUkNYcmRvMWVGRDZFeXZ4YnRweGc3R0lVQnFsX0Rfb3lhejdnWEFORExCV2RST1hiMTVtakFGUC1jVjE3WFBNYkNmcUM1WnZtV0xKOS1hSU1ZUmI5QjNISHUyZU9XdEFpejQzc3pBQnhUYlk2cWpWS1RyQ01CNnp5c1c1SmNBdWJWcEpuMVR5U2FvSWRpSC1xSmc?oc=5",
+    "fuente": "PressDigital",
+    "fecha": "2026-10-19T19:15:00+00:00"
+   },
+   {
     "titulo": "EH Bildu escenifica en Bilbao su candidatura a las elecciones generales del 29N con Otegi y Matute al Congreso",
     "enlace": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbmVsM2lpN2QxY1pkanFQbTBmcDdtNFZTQ1I5NjR0ZlRqaUJsbFVjUHBnZkx5Qng3ME1FZzMyVUN2em1WVWgzWVVFODhWOVFlUkk1Y1d0cy1rS1RZbGRSRFh1ZzA4LUhOQjhadkFtSmI0b1luRkRuUkM4Sm1zVjlicUhQcC10dw?oc=5",
     "fuente": "MONCLOA.COM",
@@ -373,12 +382,6 @@
     "fuente": "El Debate",
     "fecha": "2026-10-19T16:11:13+02:00",
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/10/19/6ad624595ad73.jpeg"
-   },
-   {
-    "titulo": "Vox acusa a PSOE, PNV y EH Bildu de que \"la escoria criminal de medio mundo asalte las fronteras\" de España",
-    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxON1pMVWV4R3FVemp4bGdZVmo4UWVRMFYxTFlsbEo0X29aOVZUQ0VYVjFOUjRQakJMZzVPLVF0Qm9jbTcwZkFYVGo2SFBlUkNYcmRvMWVGRDZFeXZ4YnRweGc3R0lVQnFsX0Rfb3lhejdnWEFORExCV2RST1hiMTVtakFGUC1jVjE3WFBNYkNmcUM1WnZtV0xKOS1hSU1ZUmI5QjNISHUyZU9XdEFpejQzc3pBQnhUYlk2cWpWS1RyQ01CNnp5c1c1SmNBdWJWcEpuMVR5U2FvSWRpSC1xSmc?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-10-19T13:15:00+00:00"
    },
    {
     "titulo": "Otegi, sobre las generales: \"EH Bildu es la izquierda que ha aprendido a sumar y a multiplicar y no a dividir y a restar\"",
@@ -401,10 +404,10 @@
   ],
   "PNV": [
    {
-    "titulo": "Vox acusa a Sánchez, PNV y EH Bildu de que \"la escoria criminal de medio mundo asalte las fronteras\" de España",
-    "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQLWJKbGctTWNMSFdNS3d3aXFNQnNsSEUwdkx0dTJKWWhYemhESUt1OXFLOXNpVDJjOUFoeVJLazl6c09oanRjV2xnS1RwQ19veFE4YWZWVkMzd1lhRFJyT2o4anFtME1LZzlQS3VjN3BhWkVvTG5qdWI2Q2I4MjZwVV9qbVdXeWlxRWFtSEFBbWE4S2FQeXhibVpiUFF0cTZlbDRMMzA3anF5YWhqNkVzdE5veElhUW1kUmFIR18xOGE0d1FlOHVSMVVmcVFoZ0I2RjBtcThNbjVjT0lLbncxUEJn?oc=5",
+    "titulo": "Vox acusa a PSOE, PNV y EH Bildu de que \"la escoria criminal de medio mundo asalte las fronteras\" de España",
+    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxON1pMVWV4R3FVemp4bGdZVmo4UWVRMFYxTFlsbEo0X29aOVZUQ0VYVjFOUjRQakJMZzVPLVF0Qm9jbTcwZkFYVGo2SFBlUkNYcmRvMWVGRDZFeXZ4YnRweGc3R0lVQnFsX0Rfb3lhejdnWEFORExCV2RST1hiMTVtakFGUC1jVjE3WFBNYkNmcUM1WnZtV0xKOS1hSU1ZUmI5QjNISHUyZU9XdEFpejQzc3pBQnhUYlk2cWpWS1RyQ01CNnp5c1c1SmNBdWJWcEpuMVR5U2FvSWRpSC1xSmc?oc=5",
     "fuente": "PressDigital",
-    "fecha": "2026-10-19T17:40:00+00:00"
+    "fecha": "2026-10-19T19:15:00+00:00"
    },
    {
     "titulo": "PNV critica el \"oportunismo político\" con la vivienda, usada \"por unos y por otros para no llegar a acuerdos\"",
