@@ -12,7 +12,7 @@
   "Bildu": 1.0,
   "CCa": 0.5,
   "Vox": 10.3,
-  "Compromís": 0.7,
+  "Sumar": 0.7,
   "Junts": 1.9,
   "NA+": 0.4
  },
@@ -27,7 +27,7 @@
   "Bildu": 4.0,
   "CCa": 2.0,
   "Vox": 24.0,
-  "Compromís": 1.0,
+  "Sumar": 1.0,
   "Junts": 7.0,
   "NA+": 2.0
  },
@@ -51,7 +51,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 13.0,
-    "Compromís": 1.2,
+    "Sumar": 1.2,
     "Junts": 1.4,
     "NA+": 0.3
    }
@@ -74,7 +74,7 @@
     "Bildu": 0.9,
     "CCa": 0.3,
     "Vox": 11.0,
-    "Compromís": 0.5,
+    "Sumar": 0.5,
     "Junts": 1.6,
     "NA+": 0.3
    }
@@ -97,7 +97,7 @@
     "Bildu": 0.9,
     "CCa": 0.3,
     "Vox": 12.7,
-    "Compromís": 0.6,
+    "Sumar": 0.6,
     "Junts": 1.3,
     "NA+": 0.2
    }
@@ -120,7 +120,7 @@
     "Bildu": 0.7,
     "CCa": 0.3,
     "Vox": 12.4,
-    "Compromís": 0.5,
+    "Sumar": 0.5,
     "Junts": 1.6,
     "NA+": 0.5
    }
@@ -206,7 +206,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 12.3,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.3,
     "NA+": 0.3
    }
@@ -230,7 +230,7 @@
     "Bildu": 0.8,
     "CCa": 0.2,
     "Vox": 12.4,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.3,
     "NA+": 0.3
    }
@@ -254,7 +254,7 @@
     "Bildu": 0.8,
     "CCa": 0.2,
     "Vox": 12.4,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.3,
     "NA+": 0.3
    }
@@ -278,7 +278,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 10.1,
-    "Compromís": 0.9,
+    "Sumar": 0.9,
     "Junts": 1.4,
     "NA+": 0.1
    }
@@ -340,7 +340,7 @@
     "Bildu": 0.9,
     "CCa": 0.3,
     "Vox": 12.7,
-    "Compromís": 1.1,
+    "Sumar": 1.1,
     "Junts": 1.3
    }
   },
@@ -363,7 +363,7 @@
     "Bildu": 0.8,
     "CCa": 0.2,
     "Vox": 12.4,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.3,
     "NA+": 0.3
    }
@@ -387,7 +387,7 @@
     "Bildu": 0.9,
     "CCa": 0.2,
     "Vox": 12.6,
-    "Compromís": 1.1,
+    "Sumar": 1.1,
     "Junts": 1.3,
     "NA+": 0.3
    }
@@ -411,7 +411,7 @@
     "Bildu": 0.8,
     "CCa": 0.2,
     "Vox": 12.5,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.3,
     "NA+": 0.3
    }
@@ -435,7 +435,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 7.9,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.5,
     "NA+": 0.4
    }
@@ -459,7 +459,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 10.0,
-    "Compromís": 0.8,
+    "Sumar": 0.8,
     "Junts": 1.2,
     "NA+": 0.3
    }
@@ -483,7 +483,7 @@
     "Bildu": 1.0,
     "CCa": 0.2,
     "Vox": 11.8,
-    "Compromís": 1.0,
+    "Sumar": 1.0,
     "Junts": 1.4,
     "NA+": 0.3
    }
@@ -507,7 +507,7 @@
     "Bildu": 0.8,
     "CCa": 0.2,
     "Vox": 12.5,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.3,
     "NA+": 0.3
    }
@@ -549,7 +549,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 9.0,
-    "Compromís": 1.5,
+    "Sumar": 1.5,
     "Junts": 1.4,
     "NA+": 0.4
    }
@@ -573,7 +573,7 @@
     "Bildu": 1.1,
     "CCa": 0.2,
     "Vox": 10.9,
-    "Compromís": 0.8,
+    "Sumar": 0.8,
     "Junts": 1.5,
     "NA+": 0.2
    }
@@ -597,7 +597,7 @@
     "Bildu": 0.9,
     "CCa": 0.3,
     "Vox": 11.4,
-    "Compromís": 0.4,
+    "Sumar": 0.4,
     "Junts": 1.2,
     "NA+": 0.5
    }
@@ -621,7 +621,7 @@
     "Bildu": 0.8,
     "CCa": 0.2,
     "Vox": 12.5,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.3,
     "NA+": 0.4
    }
@@ -644,7 +644,7 @@
     "Bildu": 0.9,
     "CCa": 0.3,
     "Vox": 12.4,
-    "Compromís": 1.2,
+    "Sumar": 1.2,
     "Junts": 1.2
    }
   },
@@ -667,7 +667,7 @@
     "Bildu": 1.0,
     "CCa": 0.4,
     "Vox": 12.5,
-    "Compromís": 0.9,
+    "Sumar": 0.9,
     "Junts": 1.9
    }
   },
@@ -712,7 +712,7 @@
     "Bildu": 1.0,
     "CCa": 0.2,
     "Vox": 11.0,
-    "Compromís": 0.6,
+    "Sumar": 0.6,
     "Junts": 1.4,
     "NA+": 0.2
    }
@@ -736,7 +736,7 @@
     "Bildu": 0.9,
     "CCa": 0.2,
     "Vox": 12.4,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.3,
     "NA+": 0.4
    }
@@ -792,7 +792,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 7.7,
-    "Compromís": 1.4,
+    "Sumar": 1.4,
     "Junts": 1.4,
     "NA+": 0.4
    }
@@ -816,7 +816,7 @@
     "Bildu": 1.1,
     "CCa": 0.2,
     "Vox": 10.6,
-    "Compromís": 0.7,
+    "Sumar": 0.7,
     "Junts": 1.3,
     "NA+": 0.3
    }
@@ -859,7 +859,7 @@
     "Bildu": 0.8,
     "CCa": 0.2,
     "Vox": 12.0,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.3,
     "NA+": 0.4
    }
@@ -882,7 +882,7 @@
     "Bildu": 0.7,
     "CCa": 0.3,
     "Vox": 11.1,
-    "Compromís": 1.1,
+    "Sumar": 1.1,
     "Junts": 1.4,
     "NA+": 0.3
    }
@@ -906,7 +906,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 9.6,
-    "Compromís": 0.8,
+    "Sumar": 0.8,
     "Junts": 1.4,
     "NA+": 0.3
    }
@@ -930,7 +930,7 @@
     "Bildu": 1.0,
     "CCa": 0.2,
     "Vox": 10.9,
-    "Compromís": 0.8,
+    "Sumar": 0.8,
     "Junts": 1.3,
     "NA+": 0.3
    }
@@ -954,7 +954,7 @@
     "Bildu": 0.8,
     "CCa": 0.2,
     "Vox": 11.5,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.3,
     "NA+": 0.4
    }
@@ -1033,7 +1033,7 @@
     "Bildu": 0.9,
     "CCa": 0.2,
     "Vox": 11.0,
-    "Compromís": 0.9,
+    "Sumar": 0.9,
     "Junts": 1.2,
     "NA+": 0.3
    }
@@ -1057,7 +1057,7 @@
     "Bildu": 0.9,
     "CCa": 0.2,
     "Vox": 11.5,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.3,
     "NA+": 0.4
    }
@@ -1102,7 +1102,7 @@
     "Bildu": 0.8,
     "CCa": 0.2,
     "Vox": 11.1,
-    "Compromís": 1.3,
+    "Sumar": 1.3,
     "Junts": 1.3,
     "NA+": 0.4
    }
@@ -1125,7 +1125,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 9.1,
-    "Compromís": 1.8,
+    "Sumar": 1.8,
     "Junts": 1.3,
     "NA+": 0.4
    }
@@ -1149,7 +1149,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 9.5,
-    "Compromís": 0.9,
+    "Sumar": 0.9,
     "Junts": 1.3,
     "NA+": 0.3
    }
@@ -1173,7 +1173,7 @@
     "Bildu": 1.0,
     "CCa": 0.3,
     "Vox": 11.2,
-    "Compromís": 0.8,
+    "Sumar": 0.8,
     "Junts": 1.4,
     "NA+": 0.4
    }
@@ -1197,7 +1197,7 @@
     "Bildu": 0.7,
     "CCa": 0.3,
     "Vox": 11.2,
-    "Compromís": 0.5,
+    "Sumar": 0.5,
     "Junts": 1.2
    }
   },
@@ -1219,7 +1219,7 @@
     "Bildu": 1.1,
     "CCa": 0.2,
     "Vox": 11.7,
-    "Compromís": 1.0,
+    "Sumar": 1.0,
     "Junts": 1.2
    }
   },
@@ -1258,7 +1258,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 7.8,
-    "Compromís": 1.5,
+    "Sumar": 1.5,
     "Junts": 1.6,
     "NA+": 0.5
    }
@@ -1297,7 +1297,7 @@
     "PACMA": 1.5,
     "Bildu": 0.8,
     "Vox": 9.8,
-    "Compromís": 0.8,
+    "Sumar": 0.8,
     "Junts": 1.3
    }
   },
@@ -1320,7 +1320,7 @@
     "Bildu": 0.9,
     "CCa": 0.3,
     "Vox": 10.6,
-    "Compromís": 1.5,
+    "Sumar": 1.5,
     "Junts": 1.3,
     "NA+": 0.4
    }
@@ -1343,7 +1343,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 9.4,
-    "Compromís": 1.7,
+    "Sumar": 1.7,
     "Junts": 1.3,
     "NA+": 0.4
    }
@@ -1366,7 +1366,7 @@
     "PACMA": 1.2,
     "Bildu": 0.9,
     "Vox": 9.3,
-    "Compromís": 0.6,
+    "Sumar": 0.6,
     "Junts": 1.2
    }
   },
@@ -1421,7 +1421,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 10.6,
-    "Compromís": 1.0,
+    "Sumar": 1.0,
     "Junts": 1.3,
     "NA+": 0.5
    }
@@ -1461,7 +1461,7 @@
     "Bildu": 0.7,
     "CCa": 0.3,
     "Vox": 8.7,
-    "Compromís": 1.6,
+    "Sumar": 1.6,
     "Junts": 1.6,
     "NA+": 0.5
    }
@@ -1505,7 +1505,7 @@
     "PACMA": 1.5,
     "Bildu": 1.0,
     "Vox": 9.6,
-    "Compromís": 0.5,
+    "Sumar": 0.5,
     "Junts": 1.1
    }
   },
@@ -1528,7 +1528,7 @@
     "Bildu": 0.9,
     "CCa": 0.2,
     "Vox": 10.7,
-    "Compromís": 1.8,
+    "Sumar": 1.8,
     "Junts": 1.3
    }
   },
@@ -1550,7 +1550,7 @@
     "PACMA": 1.8,
     "Bildu": 1.0,
     "Vox": 9.5,
-    "Compromís": 0.5,
+    "Sumar": 0.5,
     "Junts": 1.1
    }
   },
@@ -1593,7 +1593,7 @@
     "Bildu": 0.9,
     "CCa": 0.3,
     "Vox": 11.9,
-    "Compromís": 0.5,
+    "Sumar": 0.5,
     "Junts": 1.3,
     "NA+": 0.3
    }
@@ -1631,7 +1631,7 @@
     "PNV": 1.5,
     "Bildu": 1.0,
     "Vox": 11.2,
-    "Compromís": 1.4,
+    "Sumar": 1.4,
     "Junts": 1.4
    }
   },
@@ -1654,7 +1654,7 @@
     "Bildu": 0.7,
     "CCa": 0.3,
     "Vox": 9.1,
-    "Compromís": 1.6,
+    "Sumar": 1.6,
     "Junts": 1.7,
     "NA+": 0.5
    }
@@ -1677,7 +1677,7 @@
     "PACMA": 2.0,
     "Bildu": 1.1,
     "Vox": 10.1,
-    "Compromís": 0.7,
+    "Sumar": 0.7,
     "Junts": 1.3
    }
   },
@@ -1716,7 +1716,7 @@
     "Bildu": 0.9,
     "CCa": 0.2,
     "Vox": 10.5,
-    "Compromís": 1.8,
+    "Sumar": 1.8,
     "Junts": 1.3
    }
   },
@@ -1758,7 +1758,7 @@
     "PNV": 1.3,
     "Bildu": 0.7,
     "Vox": 10.7,
-    "Compromís": 1.5,
+    "Sumar": 1.5,
     "Junts": 1.2
    }
   },
@@ -1780,7 +1780,7 @@
     "Bildu": 0.7,
     "CCa": 0.3,
     "Vox": 11.5,
-    "Compromís": 0.5,
+    "Sumar": 0.5,
     "Junts": 1.5
    }
   },
@@ -1840,7 +1840,7 @@
     "Bildu": 1.1,
     "CCa": 0.4,
     "Vox": 11.9,
-    "Compromís": 0.9,
+    "Sumar": 0.9,
     "Junts": 1.2,
     "NA+": 0.1
    }
@@ -1865,7 +1865,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 12.5,
-    "Compromís": 1.7
+    "Sumar": 1.7
    }
   },
   {
@@ -1946,7 +1946,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 12.3,
-    "Compromís": 1.8
+    "Sumar": 1.8
    }
   },
   {
@@ -2049,7 +2049,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 12.1,
-    "Compromís": 1.8
+    "Sumar": 1.8
    }
   },
   {
@@ -2169,7 +2169,7 @@
     "Bildu": 0.8,
     "CCa": 0.3,
     "Vox": 11.8,
-    "Compromís": 2.3
+    "Sumar": 2.3
    }
   },
   {
