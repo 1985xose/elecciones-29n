@@ -330,14 +330,14 @@
  {
   "fecha": "2026-10-19",
   "escenarios": {
-   "pp": 0.0022,
-   "pp_vox": 0.9107,
-   "izq_socios": 0.0666
+   "pp": 0.0018,
+   "pp_vox": 0.9128,
+   "izq_socios": 0.0657
   },
-  "bloqueo": 0.0227,
+  "bloqueo": 0.0215,
   "p50": {
    "PP": 132,
-   "PSOE": 106,
+   "PSOE": 105,
    "Bildu": 7,
    "PNV": 5,
    "Vox": 67,
