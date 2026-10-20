@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-10-19T23:39:23+00:00",
+ "actualizado": "2026-10-20T00:02:03+00:00",
  "generales": [
+  {
+   "titulo": "Sánchez bate ya el récord de decretos ley en democracia",
+   "enlace": "https://www.elmundo.es/espana/2026/10/20/6ad66133fdddff9f5d8b45cb.html",
+   "fuente": "El Mundo",
+   "fecha": "2026-10-20T01:50:09+02:00",
+   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/19/17924345338134.jpg"
+  },
+  {
+   "titulo": "Los privilegios que tendrá Puigdemont al volver a España: 70.385 de sueldo, chófer, escolta y un despacho con tres asesores",
+   "enlace": "https://www.abc.es/espana/11730867-sueldo-chofer-escolta-despacho-tres-asesores-20261027012912-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-10-20T01:29:49+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/27/puigdemont-p-k1BG-RKCTasdYrmooYPrm2f9hyqL-1200x840@diario_abc.jpg"
+  },
   {
    "titulo": "Se cierra el censo del 29-N y los 163.020 ‘nietos del exilio’ que tienen el voto suspendido siguen inscritos",
    "enlace": "https://okdiario.com/espana/cierra-censo-del-29-n-163-020-nietos-del-exilio-que-tienen-voto-suspendido-siguen-inscritos-20585553",
    "fuente": "OKdiario",
    "fecha": "2026-10-20T00:01:08+02:00",
    "imagen": "https://okdiario.com/img/2026/09/07/sanchez-ley-nietos.jpg"
-  },
-  {
-   "titulo": "Podemos explora la dulcificación de Irene Montero: de regañar a la sonrisa",
-   "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/20/6ad656d7fc6c8351798b4580.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-10-20T00:00:07+02:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/19/17924322649929.jpg"
-  },
-  {
-   "titulo": "La web electoral de Irene Montero: ni rastro de Podemos y solo con su cara y su nombre",
-   "enlace": "https://www.abc.es/espana/web-electoral-irene-montero-rastro-podemos-solo-20261019220211-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-19T22:02:30+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/19/irene-montero-kYaH-U302321908774ngF-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Sánchez alerta ante nueva la visita de Milei: “PP y Vox planean gobernar con el de la motosierra”",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "PP y Vox se quedan a 6 escaños del control total del Senado tras el frente de izquierdas",
-    "enlace": "https://www.elmundo.es/espana/encuestas/2026/10/19/6ad65700fc6c837b168b4590.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-10-19T22:55:39+02:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/09/29/17907048182063.jpg"
+    "titulo": "El PP propone a Vox que no se presente en todas las circunscripciones y le garantiza senadores autonómicos",
+    "enlace": "https://www.abc.es/espana/negociacion-quirurgica-pp-vox-evitar-izquierda-haga-20261020012626-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-20T01:28:14+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/20/1512888267-REGOPtpqKL4PKvnFmBcId8L-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Sánchez alerta ante nueva la visita de Milei: “PP y Vox planean gobernar con el de la motosierra”",
@@ -116,11 +116,11 @@
   ],
   "PSOE": [
    {
-    "titulo": "Sánchez exhibe su indiferencia en redes al confesarse «cautivado» por una canción el día que la DANA deja 4 muertos",
-    "enlace": "https://okdiario.com/espana/sanchez-exhibe-indiferencia-redes-confesarse-cautivado-cancion-dia-que-dana-deja-4-muertos-20585803",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-19T23:41:37+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/19/imagen_recortada-41.jpg"
+    "titulo": "Sánchez bate ya el récord de decretos ley en democracia",
+    "enlace": "https://www.elmundo.es/espana/2026/10/20/6ad66133fdddff9f5d8b45cb.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-20T01:50:09+02:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/19/17924345338134.jpg"
    },
    {
     "titulo": "Sánchez se compromete a subir el salario mínimo cada año si gobierna y pide una mayoría más amplia que la de 2023",
@@ -156,11 +156,17 @@
   ],
   "Vox": [
    {
-    "titulo": "PP y Vox se quedan a 6 escaños del control total del Senado tras el frente de izquierdas",
-    "enlace": "https://www.elmundo.es/espana/encuestas/2026/10/19/6ad65700fc6c837b168b4590.html",
+    "titulo": "El PP propone a Vox que no se presente en todas las circunscripciones y le garantiza senadores autonómicos",
+    "enlace": "https://www.abc.es/espana/negociacion-quirurgica-pp-vox-evitar-izquierda-haga-20261020012626-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-20T01:28:14+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/20/1512888267-REGOPtpqKL4PKvnFmBcId8L-1200x840@diario_abc.jpg"
+   },
+   {
+    "titulo": "Vox se abre a facilitar la mayoría en el Senado si el PP le cede senadores",
+    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOekNCT2NmalUyaDdRNnZST0w0ZDNEeFNjckJNSllRbWZQanFXS3ZFMEg5MXVOeFJfN1UzWHhpSW1SVVNsWFAwN05DOWVtX2Jyay1XOFFyOW9wYmNsQ0pjRmsyU3NSRnREbnJMRW1tQ08yLTBYZGhBSmZtYXB1MWd4NDlCMVY1a19fcWNpbURnRE5BR2tReFc5NS1oc9IBmwFBVV95cUxQd21QTm5PWnlwZm1ZeklOWE5FcFA4X3ByOGJyYWplcWxkMDEtNFpWVWF5VmwwSFQ4d0wzQk4yREdmR01URHpSTzdpNXVoQXRLUnhnNzd2UDFtV2ZVcEJOM0ljWmp1TlJZZWtndUtWWTFBMGR1X3lwNmdud1pUSnBJTS1jZloxazFvYW9XMDMwNEJRckVxQ0JTY0w0RQ?oc=5",
     "fuente": "El Mundo",
-    "fecha": "2026-10-19T22:55:39+02:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/09/29/17907048182063.jpg"
+    "fecha": "2026-10-19T23:50:00+00:00"
    },
    {
     "titulo": "Samuel Vázquez, cabeza lista de Vox por Ávila para el 29-N",
@@ -175,23 +181,17 @@
     "fecha": "2026-10-19T21:58:58+00:00"
    },
    {
+    "titulo": "PP y Vox se quedan a 6 escaños del control total del Senado tras el frente de izquierdas",
+    "enlace": "https://www.elmundo.es/espana/encuestas/2026/10/19/6ad65700fc6c837b168b4590.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-10-19T20:55:39+00:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/09/29/17907048182063.jpg"
+   },
+   {
     "titulo": "Malestar en Génova por alentar Vox la unidad en el Senado el mismo día que Feijóo presenta su \"Contrato con España\"",
     "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOdTRVTC10a1AxSGZLN3JMZHFlV3E5WlNqaTZobHh6Ym1TZGowYmU1UDJ2NjhIVGlhMTJkcy1iLWdza0M2aF9KNmNPZHhkQ0ZhTnJLb0JHMmp5TU5Kck9GdjlrT2Y1eFoyR2MzQnc1N3l0ZFljc0pzcGpETThkV0x3SFkxaXA5aUNNZnQzRDM0REZDNWVpZVE5LXVDZmNIRzQ1R0g1WkY4Ni1WbUh1SEp5Y251ZUQwZTBPcmNQT0FlQ2NIWnV3X0tyWTZWdlYwd09xRXFXQUx0dFVaS25FaGRuZjlvZkU5N193cTNMWHI3QmhvdEtxNi1B?oc=5",
     "fuente": "El Independiente",
     "fecha": "2026-10-19T20:51:31+00:00"
-   },
-   {
-    "titulo": "Abascal responsabiliza a Sánchez y sus aliados del desorden en Francia y llama a la movilización electoral",
-    "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSEVFZU1JQTAwNUxCR0hSaGxJa29HSndiY0lXOTZ1R2x3RURZYXUtQ2NYelVBVDUwSjUwNmFycmN3N2V3YWZzUi01Y0tCZVA2dkNGWVVRRlhPX00xVy1KUmVWWEhnZW1FNWE0RFN0cE1KVnI4b3NOcDNHYXo3eUxKdnpxQkZIVE5UVXBmRGFwVWNTT18xNnhDelRwTEFlMDljNmhDTURoZFdwME9tX3M5dHdsdFdUakx6Rm42cXNDY3g3eng1Q2Ezd3IwYVlTNGtHRzE3TlFEVVRscmROXzdFUzFqdHltREVDaFHSAe8BQVVfeXFMTl8wWUFFYm9XNUhCcWRxTHBRNmdlMTlyVEpiTEY5NE1ibE9YLUtXTWFCd2xnc3ZjRHR6aHhsQTJwY1BYMWdvckhsb2ktRndVMndCek9sbm93Z1QyeVdXR3hHMHdpUGpJV0hHQkpOSUk4SXVKc0toaGNUVWNfOHhOcldwRVRBVXlVRGg4N0pqaWJTRnI2YkpreFVfeHpHWmtpN2ZKWm0xTExnVVNodjBCMjkycmRpU0l1c0RNRXVRMThQNkc4VXZGLUZJb2tIMG9iWVVxb29IY2JESDljMnZ5Y0hTdWZHSk1DSTg4Umxldlk?oc=5",
-    "fuente": "Negocios.com",
-    "fecha": "2026-10-19T20:36:18+00:00"
-   },
-   {
-    "titulo": "Sánchez alerta ante nueva la visita de Milei: “PP y Vox planean gobernar con el de la motosierra”",
-    "enlace": "https://www.lavanguardia.com/politica/20261019/11663052/sanchez-alerta-nueva-visita-milei-pp-vox-planean-gobernar-motosierra.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-19T20:35:11+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/19/6ad662a0595a8.r_d.3222-1466-0.jpeg"
    }
   ],
   "Sumar": [
@@ -322,11 +322,11 @@
   ],
   "Junts": [
    {
-    "titulo": "Rufián admite el fracaso de la izquierda mientras exige «someter al PSOE» y arremete contra Junts",
-    "enlace": "https://www.eldebate.com/espana/cataluna/20261019/rufian-admite-fracaso-izquierda-mientras-exige-someter-psoe-arremete-contra-junts_471246.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-19T15:25:12+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/10/13/6ace3978b9f5e.jpeg"
+    "titulo": "Los privilegios que tendrá Puigdemont al volver a España: 70.385 de sueldo, chófer, escolta y un despacho con tres asesores",
+    "enlace": "https://www.abc.es/espana/11730867-sueldo-chofer-escolta-despacho-tres-asesores-20261027012912-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-20T01:29:49+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/27/puigdemont-p-k1BG-RKCTasdYrmooYPrm2f9hyqL-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "La Junta Electoral desestima dos denuncias de Junts a Collboni por posibles vulneraciones de la normativa",
@@ -451,6 +451,12 @@
     "fecha": "2026-10-19T16:29:51+00:00"
    },
    {
+    "titulo": "BNG y PSdeG creen que las cuentas de la Xunta \"ignoran\" los problemas de los gallegos y \"benefician a una minoría\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTVPQWxaRmhjcHlkWEVtcEFKa2ZYQjhvTEZUQkJqNDNyWjBESHd3WVlGelRsOHlFbDJWdlR2eUZ0NWpmSTRXaFA5VGlHWldWckc5VnNNNlBudHFrck9LSmxKV3pxSFdZRFV0NVRQc1ZHanAwcFNRd3VpMDBDUmRzT2Z0dGttQzdGc3QybU1uS084cFlrQzcwV1JYNUJJX0FPczJtaEwyYUw3ZldXTEVMVjRSTmpWSy1VLV9BQ21HVlFLTGZFcEpsLWNSZVNPWVIzWGtSQTlVZw?oc=5",
+    "fuente": "GaliciaPress",
+    "fecha": "2026-10-19T13:12:00+00:00"
+   },
+   {
     "titulo": "PSOE y BNG critican la inversión de la Xunta prevista en Vigo para 2027: \"Insisten en el abandono\"",
     "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQblR0MExZU0d0Vzc2ZUZBamV6TFNzMGxuUjdlbmdfREN6ZXFUYUFGVEhYUjBpTlp4X09sQTJCemZkTldobnZtZ1FQZEdXMENteHo5SGFvaExBSmxRWVlEQlFSMnNTQWtDdFN1SFRHdS15a3dZZFk4cHVESnNqdklPaUtlYVhQRkVPXy1fQ0prTFJud19jd3lFR3dZeklSd2RxVEptbW9sdllDaWoteVBfY3ZxdXVwaTN0WmNyM0U1OHFTS0ZNM2JvVFZuTm9NcTRpN0VFZ0pHN1lRdDTSAdsBQVVfeXFMUG5UdDBMWVNHdFc3NmVGQWplekxTczBsblI3ZW5nX0RDemVxVGFBRlRIWFIwaU5aeF9PbEEyQnpmZE5XaG52bWdRUGRHVzBDbXh6OUhhb2hMQUpsUVlZREJRUjJzU0FrQ3RTdUhUR3UteWt3WWRZOHB1REpzanZJT2lLZWFYUEZFT18tX0NKa0xSbndfY3d5RUd3WXpJUndkcVRKbW1vbHZZQ2lqLXlQX2N2cXV1cGkzdFpjcjNFNThxU0tGTTNib1RWbk5vTXE0aTdFRWdKRzdZUXQ0?oc=5",
     "fuente": "El Español",
@@ -467,12 +473,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPX3NsaHpjSjljTW82NUpvanBlZnJ6QUxJVmxZQS11VTl2TVNiTW1feGM2cmhxdVY0SGRRSzhzaUM1UE14b0tBTVAzc3dpNGFRN0hHY0ZxYjRQejFBWjQ5b01zemswOG1FUGxVajh1MTZpMW1iODBuaWxkcE9kX1VOOV90R0ZZbFNSLXQ3a1diYnNEcFlhbHZrdDcwdkRMdXM1b0Jza2NuTWdwYzI1Tzl6R1pHV2tSU1ZjVW9pOHdVTWdNYXpJSTA2OVV30gHPAUFVX3lxTE1tUWJsRXBSMFY0cU9XR2VaVHNtbGg1bW9EWk9sN1FveHhHamp4SHoxRTRVTVByeWRDTGtTVE4tRU1lRUdJOXhMMFFqbVZtTEs1NFFLeGJ3X0VMN2d0VS1HWkpBeHVCTmthcHpZbURoYUpWbzNaR2JaS3Z4RWQ5bWp3NERVSlVYRFREQ2VCTXF1LVVQNkloT1htd1phZUNMU1NTM3V1bzJSM2hJYVNiRTRTZWxhTGo5UU5QTnJYdnpLcWZhSU9Qam53ZWs1by05UQ?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-19T11:40:34+00:00"
-   },
-   {
-    "titulo": "El BNG apela a la concentración de voto en Galicia y aprobará sus listas el próximo sábado",
-    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUXh4UHhqV1VldUM4VGItWktQUFR4Z0V0M1RTZjR2c0NUdWRmMVlWU0tWaFBXUG95UDFUSF9rNnR3bTZlM0M4N2N1RlBCOWpNdmRPZkVvWTNWNk5wTTI2M3ZIV3hFNi1LZHdLTnpQd3ZLWVdya1QyMzJKVlFweFVkYkJXWk9BTDI1QlRhcGtRelZockQyQzFsZFM4djN2b1lSR3RzNHlBbEhpUmFJd0F2UW5QZTVWT1U3OFNTb1ZrYU4zNlcxWTIxYnE5bzFjWjViRGV2eS1fZmNxdFpPZmFjZ19hU0phNUHSAewBQVVfeXFMTXZfdWdJWXFUMXJzMzd1ZG9nbjc3WXlFNUNyOUJiTngzUU9nUFBTeXVrUmQ1T3FpMERjWWZMaDdWMFV6WGxoS0FOOEI4N2R1NkdGNHhDczdrZzhTNFpMQXhxOXdrbERPbC1kNWpkbllidkxKMVgzYmVpWEdwMHhRNnZ3R3N2VVE4V3JEWTd4T21RUVd3bE8wQ2tFS1FwNURsWTI1dWZ1c2FlcTM3MHlnMldoSDFoZm1XOXdfN19lWEFQM2U4cmFrZ2MwRWNOMWdzWEJXeXVKS2cwbnBCd2NjdXVhZ0JhMlNuRjg0X04?oc=5",
-    "fuente": "El Español",
-    "fecha": "2026-10-19T10:35:06+00:00"
    }
   ],
   "CCa": [
@@ -521,12 +521,6 @@
     "fecha": "2026-10-19T20:01:18+00:00"
    },
    {
-    "titulo": "Unzu: “UPN presume de foralidad y autonomía, pero acaba escondiéndose detrás de las siglas del PP ante el miedo al mordisco de VOX” — Partido Socialista de Navarra",
-    "enlace": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT005djNaYWxnT1dLalRLbHhVVm1tQlBMNnVvdkZ1R3JxcjNTMm55RG43WjE4eVFiZ3c4OGZzUWhXT0MwbWVyUWp4d1VXQ0ZlOHJYckIwT2ZLajhOeFR3OFcyaGJyNlJjazF3MWl2RENGNVlTQXVkYllESnBXU0U0SjJIMzFRMHhHSHlR?oc=5",
-    "fuente": "PSN-PSOE",
-    "fecha": "2026-10-19T12:17:10+00:00"
-   },
-   {
     "titulo": "El PSN critica el \"pánico electoral\" en UPN",
     "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcFVkd1ZKTzk0aEk1SnhKNnhMSjJLZ3ZPMlZiT3lPa0lmcndubTZDLU9wanE3R1VNTVBPYzYxWDh6VkRKSkxsVXBtMUgteVBXd1pYV09OZlNVOHl1LXFZaUEyNkNsdi1kZkd0ZURkaktsdHZidXAwRXY4T2hzRGh4RTdJRzBYb3Bvd1pzS2thM19Bcm1HcHpDd3ZUZnRMSlZyTkJRZXF2dmlyTHAtX2ctTTU1THNZdHV2b3UzR3lDYlhvZVpM?oc=5",
     "fuente": "navarratelevision.es",
@@ -539,25 +533,25 @@
     "fecha": "2026-10-19T11:15:09+00:00"
    },
    {
-    "titulo": "Ibarrola (UPN) advierte tras las detenciones por terrorismo proetarra en Irún: \"Los violentos están envalentonados\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMjVQTWVUWXVOSXNaMlNpR1lhcXcza1NEQ2VvTDFrTlRJcGtOWTBiYTBOQm1rRk5SR3JpbE1vckpOa1NVT0Z5ZTVyVmVDX3dzVUZuMzJpZ04yQUJTWEhiTkJiQmFjNDNEcFNGWVlwci11MnRKUzdTcWNDUVdrRkl0OEtqWEdQcExpRENWUjk3dmRTX0dmX3MzZnltMGhRRXNiNGd6T3ZCY1NlUERiVTFKRFJlY2d5VnA3c2EzbURkeWxabk1VaE5HbjlWaXdwZmJPNVlIb1E5QW1IbWgyZWk5UVZrVFlqcTRERC1MbWsxeFphQVpuTmfSAfYBQVVfeXFMTzI1UE1lVFl1TklzWjJTaUdZYXF3M2tTRENlb0wxa05USXBrTlkwYmEwTkJta0ZOUkdyaWxNb3JKTmtTVU9GeWU1clZlQ193c1VGbjMyaWdOMkFCU1hIYk5CYkJhYzQzRHBTRllZcHItdTJ0SlM3U3FjQ1FXa0ZJdDhLalhHUHBMaURDVlI5N3ZkU19HZl9zM2Z5bTBoUUVzYjRnek92QmNTZVBEYlUxSkRSZWNneVZwN3NhM21EZHlsWm5NVWhOR245Vml3cGZiTzVZSG9ROUFtSG1oMmVpOVFWa1RZanE0REQtTG1rMXhaYUFabk5n?oc=5",
-    "fuente": "Navarra.com",
-    "fecha": "2026-10-18T14:05:48+00:00"
-   },
-   {
     "titulo": "29-N: Sayas número dos en la candidatura de la coalición UPN-PP al Congreso",
     "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVWdTRkhvVXZIYWgwbU9wTGRDbzJINlViYWZVaUJITWU3dGIxeWZ1OHlDanI5R0dIeFpDTWE0Q0Y1RUdYdXlORVRMZ1hWVVRBMW80N2I3WVhUanVrZTZVcTYxenlYT3VFUkxZNXMxeFBadjBLZkRsQTZGSmhUOXBFc2xPcWtJQklBekQwSmJrNFg1WkJMbDRDWmVrVmJSbVNLb0Z4b1RkM3dOWUdLdVQzcFFJVkx5V3AxeUc1MQ?oc=5",
     "fuente": "navarra información",
     "fecha": "2026-10-18T07:09:02+00:00"
+   },
+   {
+    "titulo": "María Caballero, candidata de UPN para la alcaldía de Pamplona: \"UPN es la fuerza que necesita la ciudad para acabar con Asiron\"",
+    "enlace": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQVZPdFVLWFhWRUYtQ2s2WG5oUDZEM05fYmpRMTVMYmNDTGJJZGVOWERFMzE0Qm5BUWpjemM3MU9GbXRhV1RRanFDXzg3OXJxOXZaRmZ1eWhVTUE0OHAyQ0FqcnNIanVKMG9xY2NFeE9kR0RRc0dHSlYtR2JlX1FkTEt2V0lVcjFJVS1hamVjVFYweTRub2sxMTNVZTZLM1RzS1dBT1FUUkpaQ0xlTFNWNEZPb3NlS21GanRxNUoxX2lVYUFyNXdKX3lvblJMeUJoZTdCWnpjS0VaTEpIbVZyOTFsdS05VEFUSlViMUJHWnBGLUhYRzg5RWNBRHpPc01XMU9SeEltdjZrV1E?oc=5",
+    "fuente": "Diario de Navarra",
+    "fecha": "2026-10-18T03:00:00+00:00"
+   },
+   {
+    "titulo": "La senadora María Caballero será la candidata de UPN a la Alcaldía de Pamplona",
+    "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeHZHeERlM2U3OXNoeWZqRkEySE5RRnQ3ei1FcFZwdndOTWNtcTZZbGZGbElmaF8zTVkzdW5TVERhUlVqczBIREljbGd5N0liMjlrZE1oRVJsUmpfNlV4Y0xNTC1zeTFNSDlPR0NLNHdsWXlfVGtEdjFTdXF4WV95WkxGRzBWZFMtWFViRFNzQVBweGRHY1NaYXd2U2Q0eVB0ODFIdWR2anYxVU95ZGktRNIBsAFBVV95cUxNeHZHeERlM2U3OXNoeWZqRkEySE5RRnQ3ei1FcFZwdndOTWNtcTZZbGZGbElmaF8zTVkzdW5TVERhUlVqczBIREljbGd5N0liMjlrZE1oRVJsUmpfNlV4Y0xNTC1zeTFNSDlPR0NLNHdsWXlfVGtEdjFTdXF4WV95WkxGRzBWZFMtWFViRFNzQVBweGRHY1NaYXd2U2Q0eVB0ODFIdWR2anYxVU95ZGktRA?oc=5",
+    "fuente": "Noticias de Navarra",
+    "fecha": "2026-10-17T16:05:52+00:00"
    }
   ],
   "AC": [
-   {
-    "titulo": "Un tránsfuga entre Illa y Orriols",
-    "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTZOUE1WR1FoTFFKN0l0bC1sbDdnODV2Q2NfemhDd3RwMmpOTEYtVWVvdjg4czdiY1htTUk0d2p1U0oySzhoQ2NKb1VzTEhfRkthQXpYTE5TNzB3UXhLeERtMW56OEhnbUJpQlZQRC1Sampla2pCQV9NWDV0aWwzcS1peGZQQ01aZjRCZWttcmRIVlFSTHJ3OTBZYUZKcURLU0xDREZxbDJ4ZW_SAbYBQVVfeXFMTjlEU3VIOW55WFhxYXJGLWpFRHdHTGhldWFiazJjT3VCOG1wbnJNd2xFWUpodE1OaU9ZXzdsblByazJ0dXZXRU1NMEZNWGZ6bFhfSnFQX1UxZmozMV9faG5RSEdDc2FuaVdEcS1EQmlwbXpncC1tQVphVDZ4UGdiTElsR0twQ0tMWjRtVVZ1eF9DRDRQbEM2cE95MEFkckRWTENJazVZZUZlNW4zNmJRT0R6bHRQWWc?oc=5",
-    "fuente": "Libertad Digital",
-    "fecha": "2026-10-19T19:38:54+00:00"
-   },
    {
     "titulo": "Sílvia Orriols acusa a Junts de copiar su discurso ante el desplome electoral: \"Su credibilidad es cero\"",
     "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMXZscWRWMXR1Ykg3RjlVajJVaXBtODJCVG8tYjhib1lJNWVNZWlob0duQ21paUpmZFFTUzRNcTQ3UTI1QUgzb1dpZXJqcHRBVkdmZ0lVQ3Ixb0lqSk43c0hIc3kyTmF5UU1pckFvcFVPaTM3ZjIzTUc0THhyT1pEcXBGeE9jOXA0UTgydXZuaXYwdXEteTNueUktU2VsV1VEVjFPYzlzX181cGxuUjM4STlpVkg4QmhRVVhpbVlCbU9ibmFLaXZBUjROY2rSAdIBQVVfeXFMTl92a1kzV0d3UEdCTlk4cUJjbVdZWHNjT1FndHdaR0R0em5MdGlBN2hTZDJjbGJRb3lodkRfX1RaSnBhaXh4SjRYZFB4eDdWbDJxcnhuZmZXZHo1U1BpMTB2M1ZqaVdod1h6dFZlRmtEek9oS1Z0QkxaR3IydXZBYmNMTWZxRG1UXzNvcXl2OUkyOE1ibTYtaEgzWl9LUUVuT252QnY3eFlLS3NqMFBrVkpCcTZTX3pKcFRWVG9mWTFpR1lQZ05mRU1xNlc0RmVwR0F3?oc=5",
@@ -571,12 +565,6 @@
     "fecha": "2026-10-19T15:08:56+00:00"
    },
    {
-    "titulo": "Silvia Orriols, lider de Aliança, ve los disturbios en Francia y es clara: «¿Esto es lo que queréis para Cataluña y para vuestros hijos?",
-    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRHRPOEdnbm5nVFlRVlgwM1l6NXBCVFcyb0hPU25XaGNkaTJWdGxEc0VicUp2VkpKMTNpN182cFZFUVpNdmY2Ty1jOGxyamlVLXVucUpMNzYwandNeEszczg5dGtnSUY3MXVMR3hkbVJ4X0hlNGppVlQ0UTNzRjFHZ1pNdEFJYkVrbEhCdVNFdzNMMHllSDh0dDA3OF9QNkt6NDRxVDVXbGo2MmdXT28tVVg5N3o5Z9IBtgFBVV95cUxQRHRPOEdnbm5nVFlRVlgwM1l6NXBCVFcyb0hPU25XaGNkaTJWdGxEc0VicUp2VkpKMTNpN182cFZFUVpNdmY2Ty1jOGxyamlVLXVucUpMNzYwandNeEszczg5dGtnSUY3MXVMR3hkbVJ4X0hlNGppVlQ0UTNzRjFHZ1pNdEFJYkVrbEhCdVNFdzNMMHllSDh0dDA3OF9QNkt6NDRxVDVXbGo2MmdXT28tVVg5N3o5Zw?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-10-19T14:22:04+00:00"
-   },
-   {
     "titulo": "Sílvia Orriols, de Aliança Catalana: \"No somos españoles; no participamos en las elecciones de un país que no es el nuestro\"",
     "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONXRNSzJsVy1lcEpHUU5rdm1TdUxPbndMSEZBdW1aN1RsUGo1Zzg5NEEzVVowbjdQbG9rd1l2aEp5MmZTZVRZOGxwS3dOZkI4aXJJMkllU1pPbEJOU1VpeWtfSUlhZHZYOTI5d3l0aHVQdF96Z1h0ZExDNnZNbTlJTTlodnF3aWxwYXg3SFRuekpRSUpXVk9DMkVKSXFBcnIzSWhvOS1VVDJEa3daTDNiVnpSN21fd0p5ekJsa2R0VUVuM3JfN1ZUa2JLTWwtLXNiVlHSAdIBQVVfeXFMUEZtSE55TE1mRk5XREdXQmJHLUxwTVp5eTlQZ2pCUk5tV0pSb20tOWFQNW1wbDBlUEpQalE1alBpUUNGUWRRWnc3R3pWVzNuTWt6cTZGWUNyeXN4TW1XTkVZTVdPd0J3ejJfS1hTRFJhdU5CRFhTMzQ2WjJQY3U4eS1EY3FDUWh3eXRyVTlWTElJaEcwSFR1Zk9LLUxTaV9mMGVQTkNqenp6clRSR1BxeVpsQnpKR0lfOGtDZzl4dHRqT2VuMDhJaE4zdXhGSWhxb2VR?oc=5",
     "fuente": "MARCA",
@@ -587,6 +575,18 @@
     "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcVIxZlQyVXVBWWpiZDNaM1c5RXpXZ3VEbTlONnZXM3NEZWc2SjRTQVVMR0xycWFwRjJjVFNmUlJ6Y2JfRkVjVVYtQXNaTllzVWMzN0ZXbTNZQ21uaDFiSmtLX2lSS2dZQjlybS1tWkxBbG4xeS0wQ1ZUVXZra0JWaUQzeklBMWFNOXd6Q2c3OTd1ZkkxQ2dXYXA3dEMxc0x2TnJ5bFZFQ2JZaFlHWlc0a2d6OUVZWE8xb1ZzQWEzbGZvQlFIaXRVY0N5N2hQVTNXMkRzYmVIeVJnUXkyM3lJV0prZEJ5Z9IB6wFBVV95cUxPQnlZNTN1Rk00bG9ZSTN4VEl1WkZmRUlrMFU2QW5FV3BBQ1d3MktoR0VxUUJtN1puTjB5a3BDU0JFRnhvOVo2S1UxMHlTeFZUbDJSN0l2a05COUYzZDNFb3B1XzN6NDNqMjE4N3E2TE1ZM1lRU3loY2F2bDdLMzlqZ1diZnQ3ZGxFZjVpSGZKWkxmVjJNa1doN21WVVdWZ2h4bDFCSm5jWjQxZG01OW5YdlN2aTRKM3JnUWZteFdGbERoQ3lKNTU5S1IxWnNLTFU1aEpHRW5kaUQxMHdFVFcwTVlpbkxycGtXY0h3?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-19T07:56:30+00:00"
+   },
+   {
+    "titulo": "Orriols ataca a Junts por \"plagiar\" su discurso y plantará las elecciones del 29-N: \"No somos españoles\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOR0JmeXJXYm12bnhwRlB3Smd0bUtsQWNIVTR1UFpWNGczTVNpeXYzamVacHBhUEM4d0Z0dHJxeUNCN0hqMzByV01VOS1TZGh1cXN4WDRlLUgzNGFqdHpRMWpSaVJiMF9ucVNwdGxVM3I3NWdwanQ1ZXlMdjNmaEM5WExUaFVLYk5rajhwaGMzOFE2WEZaOTdSRXpPNkZ5TU1BTWFaNlRVdVBGQ0paaUNSeFFvVG5VS0Jsb2VkWVQwT3JTcF90b2pWMjJmQXVLSlp4T3Rnbzg2c1V4eElSeDlFdnR1TFVNbEdTYVlKdjl3?oc=5",
+    "fuente": "CatalunyaPress",
+    "fecha": "2026-10-19T07:40:00+00:00"
+   },
+   {
+    "titulo": "Orriols cree que Junts intenta \"plagiar en parte\" el discurso de Alianza Catalana (AC) pero sin credibilidad",
+    "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOeVZsVXVHVkVCQnJzLVVqMk5jakdXQkRNNmludEhQVFhfQ1cyX3B4WTJBREpjT2tEb0R5TWJYaXJMTmVDZ3FiUVBMZDZOUThLR1dBNl9XR2IwM284bGtmYlk3ZWZacENGdktyUWNkamwxVjA2WnA1aE9nSTdwdEtLeHAxcWZNWHhibllCVk1DZFlBUkJuWUJpVlpUZ0FBekNmQkpXQ19icm81MmZIbS1BSkpETlpnMVd3MzZGV1FsaE9OdS1Pdkh3ODhFd3NKV1hBMEZ4ZmJnVE1lY2hzcXFBTmtVWTdrbHFVN3lMNnlxUExHYlo3MVhzUHhxMlBFay1yaW5Fcjg1SdIBhwJBVV95cUxOeVZsVXVHVkVCQnJzLVVqMk5jakdXQkRNNmludEhQVFhfQ1cyX3B4WTJBREpjT2tEb0R5TWJYaXJMTmVDZ3FiUVBMZDZOUThLR1dBNl9XR2IwM284bGtmYlk3ZWZacENGdktyUWNkamwxVjA2WnA1aE9nSTdwdEtLeHAxcWZNWHhibllCVk1DZFlBUkJuWUJpVlpUZ0FBekNmQkpXQ19icm81MmZIbS1BSkpETlpnMVd3MzZGV1FsaE9OdS1Pdkh3ODhFd3NKV1hBMEZ4ZmJnVE1lY2hzcXFBTmtVWTdrbHFVN3lMNnlxUExHYlo3MVhzUHhxMlBFay1yaW5Fcjg1SQ?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-10-19T06:37:02+00:00"
    }
   ],
   "AA": [
