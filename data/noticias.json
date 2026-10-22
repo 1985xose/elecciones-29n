@@ -1,12 +1,19 @@
 {
- "actualizado": "2026-10-21T23:01:52+00:00",
+ "actualizado": "2026-10-22T00:01:56+00:00",
  "generales": [
   {
-   "titulo": "Diplomáticos cuestionan el uso de Sánchez de la política exterior en su operación frente a Milei",
-   "enlace": "https://www.elmundo.es/espana/2026/10/22/6ad8fe2bfdddff715f8b456e.html",
+   "titulo": "El censo cierra mañana con decenas de miles de electores del exterior que no saben si su voto será válido",
+   "enlace": "https://www.elmundo.es/espana/2026/10/22/6ad8f815e85ece97028b45a4.html",
    "fuente": "El Mundo",
-   "fecha": "2026-10-22T00:00:53+02:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/21/17926044881081.jpg"
+   "fecha": "2026-10-22T01:43:11+02:00",
+   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/21/17926122913261.jpg"
+  },
+  {
+   "titulo": "Feijóo se compromete a aprobar una ley anti okupas en los primeros cien días de Gobierno",
+   "enlace": "https://www.abc.es/espana/feijoo-compromete-aprobar-ley-anti-okupas-primeros-20261022013754-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-10-22T01:38:28+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/22/1519073637-Rs38qM5cT72xLpzTiYG34UK-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Pedro Sánchez será entrevistado este jueves en 'La Revuelta' por David Broncano",
@@ -21,13 +28,6 @@
    "fuente": "El Debate",
    "fecha": "2026-10-21T22:16:07+02:00",
    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/10/21/6ad91d28ae343.jpeg"
-  },
-  {
-   "titulo": "Elecciones generales 29N, en directo: el Constitucional rechaza el recurso sobre el voto de los nietos y Feijóo anuncia nuevas medidas de vivienda",
-   "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-listas-psoe-pactos-vox-candidaturas_202610216ad839f92beea101da2f5788.html",
-   "fuente": "La Razón",
-   "fecha": "2026-10-21T22:05:17+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/19/440AC904-7034-4858-8348-0C4547F11A12/beso-begona-gomez-pedro-sanchez_96.jpg?crop=1920,1080,x0,y21&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
    "titulo": "La reflexión de Joan Manuel Serrat sobre la situación de España: \"Lo que está ocurriendo es el resultado de muchos años de desgaste\"",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Elecciones generales 29N, en directo: el Constitucional rechaza el recurso sobre el voto de los nietos y Feijóo anuncia nuevas medidas de vivienda",
-    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-listas-psoe-pactos-vox-candidaturas_202610216ad839f92beea101da2f5788.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-21T22:05:17+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/19/440AC904-7034-4858-8348-0C4547F11A12/beso-begona-gomez-pedro-sanchez_96.jpg?crop=1920,1080,x0,y21&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Feijóo se compromete a aprobar una ley anti okupas en los primeros cien días de Gobierno",
+    "enlace": "https://www.abc.es/espana/feijoo-compromete-aprobar-ley-anti-okupas-primeros-20261022013754-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-22T01:38:28+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/22/1519073637-Rs38qM5cT72xLpzTiYG34UK-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Sánchez exprime la visita de Milei para alertar contra PP y Vox: \"No proponen alternancia, es una involución\"",
@@ -116,11 +116,23 @@
   ],
   "PSOE": [
    {
-    "titulo": "Diplomáticos cuestionan el uso de Sánchez de la política exterior en su operación frente a Milei",
-    "enlace": "https://www.elmundo.es/espana/2026/10/22/6ad8fe2bfdddff715f8b456e.html",
+    "titulo": "Sánchez arma un ejército de fieles para resistir desde el Congreso tras el 29-N",
+    "enlace": "https://www.abc.es/espana/sanchez-arma-ejercito-fieles-resistir-congreso-tras-20261022013249-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-22T01:35:43+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/22/1519002847-RncIEe27j3F2jzliy1wBUVP-1200x840@diario_abc.jpg"
+   },
+   {
+    "titulo": "La falta de voluntarios entre la militancia del PSOE obliga a Ferraz a rellenar la lista electoral en Palencia",
+    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbXBhMklQZ0hCZV9NLUhMRXhFcUwzbHF6SUR1SXVzNE9ibDVBZFBrZjR5N2JqWk4yanh3XzRqZC1DZkZRYmI1aG1KU29ibDJfcDgxUW9KbHYtX09SRmxGeWtYYWpMaW13UmI0czhnZXFYNkpFNHRlV2VkYXRpei14cUhZeFlPajV1WTNMYkI5YlRaamNXYmxyWVBrUdIBmwFBVV95cUxQaFlzd3lhVWJQNVlia2VCc1FaaXRNT1FzUjJBblFEMllEQVJwazVZUlpwNmtHZmN3QnFjcnFMOGlJbE5aSUVwTkw2aHVpeW1JN2xSQXFlOWlzR29FT3NfdWRNSXo0RTlZdTVOSW9XMlp4a3BhbTBtLWNIYnZERlhtVlV4SUNkRjRKdXM3U1hEOUVRLU9ES05TS0gtaw?oc=5",
     "fuente": "El Mundo",
-    "fecha": "2026-10-22T00:00:53+02:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/21/17926044881081.jpg"
+    "fecha": "2026-10-21T23:43:00+00:00"
+   },
+   {
+    "titulo": "Óscar Puente intenta convencer a Marc Giró de votar a Pedro Sánchez y su respuesta no puede ser más clara",
+    "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQV2x6bV9qWkxHWGNrc2lWbXNGa0VRbElJMEYzVWp0aXFoVW5CMW5mVy1ma3NqM19TTWExUWMzYjcwWWhoRXdfUzRsNmNyblJuSVNDalMxOGJ6MlhZTXBnR1NDN2ZGTXRWcGt6MUNsdFNpZjV3YU9ZSHlteDFCSldFSnRNS28xOVc4Uzl5MldRdjV2NXlnanhWYVJoX2VkOEZTQlk2OVJuQ1Q0OUYyU2Y3YlJrdnM5RnJHTlo0Znd3NjFUZEI2LVp2OWI1b9IB3wFBVV95cUxQSGRsWXl1UHJGR3NOZlV0VDU0VVpMMVpVcV83UjZyQUpmY19iVWx0eUxiTmFRM3M2M28wSnNEcG1OckxmNUN5ZkJoaE5zYm5VVmtNN0MxZnZLZVhsQ3dMQk1pTmpobWo3LThGN3lxRTE5aVJDUlVGRTV0ZnJ6emlLWENhQ1ZZVUJyWVRQb1FkQmhxSDlJUkhPdmctSUFLanpfaFR3dmZYRTdDdjJGaVllYnI4RFZWeEhTbVNTU2pHYVF3bkZZSGNmdTNSYTNMeXp3dk1FM1RCZXdFVms4TW1r?oc=5",
+    "fuente": "El HuffPost",
+    "fecha": "2026-10-21T23:08:29+00:00"
    },
    {
     "titulo": "Pedro Sánchez se sienta con Broncano en ‘La Revuelta’ a cuatro días de las elecciones del 29N",
@@ -140,18 +152,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV2N4VGtrbWFfY1NoZ19tT3NBX21OT3U0MVp5V29OSS14QVBxc1dnbmJCcFdfV190YlZJQlZfVnliQVphQ2dOWlFESDJydFo0T3BNdVlpMkRZLTNqUTd2MF9pT28xLVZ6ckdZMklCZlJqOGFzTjhxUDVFclFoSnNFQVBudUc0VWUza05NNnhidGNMejJZZFNhMUxRLWFEMDl6SUZ3UWJfOEMxYnRRcko4TzdwOUtqNVJKTEFBYmNQNVhuZw?oc=5",
     "fuente": "CanariasNoticias.es",
     "fecha": "2026-10-21T22:29:14+00:00"
-   },
-   {
-    "titulo": "Miguel Ángel Revilla, convencido sobre el resultado de las elecciones: «Hay un hecho que va a ser una realidad y es un cambio de ciclo. Quedar por detrás del PSOE es un palo»",
-    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQU09GcW1XMy1LN0ZyOHVXOVphNnB0WFRMRVhWWkYyZGZ0c1Z2UGFhVG5wNEVFSFhRVWJRZWxQRWYwaGNNV1hjakh5T0NRNGhkY1BreVVEdU9WV0hORFRRWDdxN3Q0S1YxcXF0RVl5RENsRkdmRTBOYWNSUGlQbUJPZm1xVjY1LXd5VHQxRkFWNzV6UE5hbzE5ZGc2SUdVaXBhd3NUcXRYX2JHdmF3UWFQOWY0Y2lweklFQm1ZYlpIUHZYUlHSAcgBQVVfeXFMT1kzbGtfQll2U2dPcC1FaFJkOC1qdTNUVExxUmNQNTcxazlUWUhvWEhIZFlEMjMzZ21EVElIZ3pYOUl1bmNaYzhrNWw1bGEwa1pnNTNMWVhWYVk1YWtFTVJTaEdwRENaVGVabFZoazBlelB6cTM0WHF6VUFtd0hWaTdxemVsVWNLa290dk9CVGlSRUhlazRjQ3NZWlQ4bDBZUVlwUGNuS25wSXFaYy1EMlJ5czR0enlmVWZxOTVDNUNlRVhUOURrQkk?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-10-21T22:17:10+00:00"
-   },
-   {
-    "titulo": "Susanna Griso, sobre el futuro de Pedro Sánchez tras las elecciones: «Estaría legitimado para encabezar la oposición»",
-    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSTBLZk5QQXFRTDZqTnlnWEhPRGlwXzQ4VlE3VlBWeDRZQ19DT1ppOUx3dkdfZkt2REFYazkzXzQyMXpaQ0xLVk1wOHFPZXNRSXJDZkFTdmRsZDJSSWRvS0E3bl9QUXpkdXNkLWs2RHRxM1d3R0QxNFpNa0N4cTZtNzVlS2FMM29jTjdoc3RGaDgtOHlNNUxzZ2ptdGQ3ZGUxV3JkWkZxU2IzUGRrQ1R6cFhHQmNQZ1XSAbcBQVVfeXFMTUkwS2ZOUEFxUUw2ak55Z1hIT0RpcF80OFZRN1ZQVng0WUNfQ09aaTlMd3ZHX2ZLdkRBWGs5M180MjF6WkNMS1ZNcDhxT2VzUUlyQ2ZBU3ZkbGQyUklkb0tBN25fUFF6ZHVzZC1rNkR0cTNXd0dEMTRaTWtDeHE2bTc1ZUthTDNvY043aHN0Rmg4LTh5TTVMc2dqbXRkN2RlMVdyZFpGcVNiM1Bka0NUenBYR0JjUGdV?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-10-21T20:58:33+00:00"
    }
   ],
   "Vox": [
@@ -187,14 +187,19 @@
     "fecha": "2026-10-21T21:13:29+00:00"
    },
    {
-    "titulo": "Sánchez exprime la visita de Milei para alertar contra PP y Vox: \"No proponen alternancia, es una involución\"",
-    "enlace": "https://www.20minutos.es/nacional/sanchez-exprime-visita-milei-para-alertar-contra-pp-vox-no-proponen-alternancia-es-una-involucion_7051777_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-10-21T20:56:23+02:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/21/6ad8fc90310927-66085065.jpeg"
+    "titulo": "Francisco José Alcaraz vuelve a encabezar la lista de Vox al Congreso por la provincia de Jaén",
+    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOGF0ZWlIZU9lZUphbVg1a2dDc1FHM3c4T2c4N01Jdldob1dhdktlakl4N0tRNW1OX2RyTDQzdWdOMUVGV3FUX2xTQ1I5SGgzVWxBb1Q3ZmE4a19ZS3BuYXF5cUxzVmhyWVluOGROcHlEREVMUnNKZDMzcU1SWThlUkhfRXM1d0dnZTZtNTlhSWZrVzVkLWU1dG1EUU1ob2YzeGR4QWNCaGx2U3kwVkRSZ1lJZ3hHeUtDYUtPSjAxcDFSMlFFYmVYM2VHV3otbUNmN0lUNw?oc=5",
+    "fuente": "PressDigital",
+    "fecha": "2026-10-21T21:05:00+00:00"
    }
   ],
   "Sumar": [
+   {
+    "titulo": "Yolanda Díaz busca un golpe de efecto ante la OIT con una subida del SMI del entorno del 5%",
+    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVnRfR2tCYmxyMlJvVmlNQmpuS0s2OVR3bUdvSlVSNngxY3hGaDkwbDlrR01XZUVXQ2d2S2Q4UVJUUEp5b0h4dWNqRzRoQXZXMm56YjFmRTVMdWZKOTl0VE5ybEdvQ1hLMkNCcUNWS0lySEpHNVRBWHRhb180bVhsZjZNVVhjbW5SZGFMeVo2SjhzQnp2dm81bkMxczNGQdIBowFBVV95cUxPT09EYUNwRXJWZGZud2JReXhFSm9wTXZ4amZlTkN6bnA4RWRlYUJCeVVhNFZjSF9Pd01KZ0lRMnVBQnpLWnBpMTJYQl9Dd3VtM0NhX0VrWWlTdFlQUXRBZHZ6VmhvZS1rQmFJaUNXQ2ZBVGY4OGlJc1N6VENsZEFELS1WNy1BN2dKMVF6b2VGbmN4VkY5ZkpzanRqZ2Uzb0ZVNXdr?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-10-21T23:30:22+00:00"
+   },
    {
     "titulo": "PSOE y Movimiento Sumar reprochan al alcalde de Toledo mirar al Congreso mientras la ciudad \"espera soluciones\"",
     "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQTU1hb0dLNU5IczhjcUl5bldEZnVmT3NwNnRjWWppRWc4WUpDMzdCbW9fT0VpX0x1Q09fRTU2RldRSkF5UVBuNklNZDloenNQdTZ1czVkYzFiaFBoZGlXV00zLXJWS3VVT2hrbF9XTFVfb0xseXV5LTBCVW9pZlIyeXhzSjdxLWJ4Vk02VmpjUXU3ZDJ2MFpmaUItV2xkamJTUlJRRnVlMXJLNzZaRVM2VEdCUTVGM1JUMTZTYXBORnpOSlhBX0NXdEVBTmJWcjVtZmtGMXFHV21kV1ZlMmEtS0pERjlVVHhsc2FNZzZoZ9IB7wFBVV95cUxQTU1hb0dLNU5IczhjcUl5bldEZnVmT3NwNnRjWWppRWc4WUpDMzdCbW9fT0VpX0x1Q09fRTU2RldRSkF5UVBuNklNZDloenNQdTZ1czVkYzFiaFBoZGlXV00zLXJWS3VVT2hrbF9XTFVfb0xseXV5LTBCVW9pZlIyeXhzSjdxLWJ4Vk02VmpjUXU3ZDJ2MFpmaUItV2xkamJTUlJRRnVlMXJLNzZaRVM2VEdCUTVGM1JUMTZTYXBORnpOSlhBX0NXdEVBTmJWcjVtZmtGMXFHV21kV1ZlMmEtS0pERjlVVHhsc2FNZzZoZw?oc=5",
@@ -224,12 +229,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVkRfNGlRcmlBSU9zYXpsd1B5LUJuM0huQi1Md0FvbENQSzlBbFA3dEpYVUExSFd5Y0Ezb3RLb0Q3ODdkeWZtS3ZGYTRNRldZRGtDMnZRb0FYb29FeWR4MWJzRHMyb1hjVzZiRVlydHA2ejk1WnJmbXJvc1RtSUhZUy1QV3RlbmI4dFFjckNlZHROUFZYd2lWVTc5bkE3d2hXel8zMk9pUzBIdTZIZThEY1lmeWZhdnllZWJ6ODE0Tld6eE1Fa0g5UQ?oc=5",
     "fuente": "PressDigital",
     "fecha": "2026-10-20T19:03:00+00:00"
-   },
-   {
-    "titulo": "Jon Echeverría (PP) insiste en comparar a Yolanda Díaz y Sira Rego con Franco: \"Si nos parece mal el franquismo, debería parecernos igual el comunismo\"",
-    "enlace": "https://news.google.com/rss/articles/CBMirgJBVV95cUxORERCdzhFS3dMRGZqeS04NXBOa1p1dFllQjNyT09tTDlxNUhpanQ4VVl5S1RtR3hfa052dmM4WlNwRnV0RzZSYW1CbWhVbXV4UUd5RkpDRl9wcFdhYXJXNll2WGdiZ3ZpMGExNFBRMUp1RXBoRGYtbHZmSE1PTjRNa1BQbGtfcFpDdmdpWkxQTmQ1QWNhTXFTVFlxdE9DU3IwcThFaGVDeGYtVFhCWWtHdHN3c2pPRmRiUlVqdFhZZUpxajJoSnVkNUl6aGRrSnRzaHdieUhHTGZCRkdJUE41bzlFTjF1al9CV2JCLXRWZE5pZjdwTnA5VzdkQkhYNVZvdTUxekYwY0VON1dlSTMzU1JhQWpfRGZZVnN1WHFlemJITnIySm1MU3J0RVlod9IBrgJBVV95cUxORERCdzhFS3dMRGZqeS04NXBOa1p1dFllQjNyT09tTDlxNUhpanQ4VVl5S1RtR3hfa052dmM4WlNwRnV0RzZSYW1CbWhVbXV4UUd5RkpDRl9wcFdhYXJXNll2WGdiZ3ZpMGExNFBRMUp1RXBoRGYtbHZmSE1PTjRNa1BQbGtfcFpDdmdpWkxQTmQ1QWNhTXFTVFlxdE9DU3IwcThFaGVDeGYtVFhCWWtHdHN3c2pPRmRiUlVqdFhZZUpxajJoSnVkNUl6aGRrSnRzaHdieUhHTGZCRkdJUE41bzlFTjF1al9CV2JCLXRWZE5pZjdwTnA5VzdkQkhYNVZvdTUxekYwY0VON1dlSTMzU1JhQWpfRGZZVnN1WHFlemJITnIySm1MU3J0RVlodw?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-10-20T17:36:16+00:00"
    }
   ],
   "Podemos": [
@@ -245,6 +244,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUU94bmVUc2tzbVRpNVJzZ1d5TDV5MDVpeGg1SWltZTR4SWR1SFBwVlRjdm9HWFYxaUlFQ3MxTFo2U2dhNVhJX3NFb21iYzB0TndtcFBRWVVRbDEtTnllNkJ4R3VibGYzUEw0YTFSVUVhVmxEd2hrVWQtUlNrZ0EyVUQwTWEyZGJxMzlNajlLbU5yTzZuZVhNZjJCNHFBNURpNEJzSkRHSTBGOURB?oc=5",
     "fuente": "PressDigital",
     "fecha": "2026-10-21T19:44:00+00:00"
+   },
+   {
+    "titulo": "Irene Montero consideró que votar en el Congreso contra la suspensión de Junqueras y los diputados presos era el \"peor escenario\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbEVJSl9BVFlvdXBqRVN5MzI5YkYyMWItMVZsRzVhaWp1REVxRHhUQW11VTNZQ2t5dG5Fb21iX1RZaGVZU3c4Y2d2R3VWdUs0MTJwU04yTEU4bG5vaFFqTWpPOTA1QnZDZGxfclN3bmNBNlpVOEI5S004TUVqa0MwUGFqZm1GREhvb2t4T0Vfb3NOUHVDenYwbjlDWWNERFNsUUNrRTlIVnJaZTFVbTlkNExHejRhTHhEZFdjU29Yd3h1eEJyOUExUERFZWF3YXR5aHFIZUxqWTBTQdIB2gFBVV95cUxOSmpOSmw2aGw2WFFVYXlwdDhLVVlqX0NGb1pWc1FzUUw3RENDekNkLTczblRZNjhtMk1hUWFzdGVDVlN2Snp2emVKOTRwbzEtT2FVMFdTNm9qODBGc085Z1BCMmY4TjBFNGlITFRRdGkwTzBUNXFxNDV3WUFoc0dYQnBoMGRYVlMtMzIxUWpsSWtxQUtCdXo5emNNSzZGcDdhTF95NGRVSW9VY3VIOFBnZDlTOG11VW1sRUo0S0FrV2syNGFwZXhfSFJORW4tdWIxU3FBazNKMEd6QQ?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-10-21T19:16:29+00:00"
    },
    {
     "titulo": "Rosario Peña será la candidata de Podemos a la Alcaldía de Leganés en las elecciones de 2027",
@@ -264,12 +269,6 @@
     "fuente": "20minutos",
     "fecha": "2026-10-21T05:00:00+02:00",
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/17/6ad38153b31b81-89479015.jpeg"
-   },
-   {
-    "titulo": "Irene Montero lanza la web de su campaña del 29N y llama a organizar voluntarios en barrios y municipios",
-    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOaVFOYjd0RmxGdFVJQkJzUzRJZ3VqSGY3UXBZTlFaYjJWZENSN1dSSmY1WkJZODdiUXlNRTVRT092V0dLOUJ4T0lWN1hpZkc4OGh6ZTAwSXhySDNSVC1mbmctVU9YWU5oMnhfMExqMERXcUFaVFRhREJPUldUTlFlNzUzWXROX2NteGwtRHlJZDk0WnpPMlROcXF0Qy1uTUtvdXhrQUY2ck1hOE9Nb0dyMzF1UDdTSmtUSWtROXJpb3RMZEw3LTlkbE10WEZZVEoyMm5wenhIbXpYbnR3R1VqZlZJNXNHd9IB6wFBVV95cUxQaWJGdDFXNHlNcGR3c09xcnRlZWNWN1dQR1doMUU2Q3p6UTFiUWc1VV9lOFBUUENHRE5pdUVOMDhaa3N3ZWNTN0Q3MWVmQjUxZXhZdHVZdWtpdGhrc0JadjlaMTYtaXN0UW1wRTVZbkNLTWFfZWM0TE51M3Y4eGY3WHllTHNBbW55ZjJHaHhSQjNBWHUyQlJzOVhaYXV6dGdQOFZ4QzhyZ0pVQVUwc1RHaW82aWlYc3JUa0F3UHpkSVk0aEg3Nm9RX0ltbkw5Q0NyUGhWczZTZnF0U0Z4M3hzS29jc0JKbk1pSlJR?oc=5",
-    "fuente": "Diario Red",
-    "fecha": "2026-10-21T04:00:00+00:00"
    }
   ],
   "SALF": [
@@ -506,6 +505,13 @@
   ],
   "CCa": [
    {
+    "titulo": "Ruy González de Clavijo",
+    "enlace": "https://www.abc.es/espana/madrid/ruy-gonzalez-clavijo-20261021011130-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-22T01:11:30+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/21/Ruy_Gonzalez_de_Clavijo-RrO6aiKnRdKFCoGICeVPmrL-1200x840@diario_abc.jpg"
+   },
+   {
     "titulo": "Coalición Canaria de Santa Cruz elige por unanimidad a José Manuel Bermúdez candidato a la Alcaldía para las elecciones de 2027",
     "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPVVNCaHpfenJkQ29UOVNWdkdZRkc3dDQ4RUhCRnRBUWMwMXZNMlY4NnRDTHNLcFJqLTR5T0owRTlHS21nbnZBZ0ZtVWt4eWtRdmE3dnFzSzFndUg4S005Z2tzbFE3aVdDREV5UzBQUXQ3S1B5bmhScDJhQ2ZQX2xyOVdpaUtHN0c3QjJtR1c3Sm43ZlFKcUhwTHplZmR4OTVYVmp3aGVDb0xnZTFXNXljVk82ZTREOWY1RFl4c3Yzai1HNmpkTW5qWTVQX1hzbEJzR3ZBXzhDNk1fb1pGZktIUGhENTJUS0UyNHMwY3FLNA?oc=5",
     "fuente": "Canal 4 Tenerife",
@@ -534,12 +540,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTMzhNVThUMl9sYkVSb29jNTBjcTRUMXg4d3hjQzdRb1VPd1pOczdwemZkRE9FcHQ5eWg3TWN6eXhaUTk1ZUtjdzVOc0pYSnAtYmtpenhCQzZtbWh5SG9qaldTV29xZTBTcEhxa3doUk8?oc=5",
     "fuente": "Canarias en Pleno",
     "fecha": "2026-10-21T12:55:29+00:00"
-   },
-   {
-    "titulo": "Lío entre Coalición Canaria y Vox por el 75% de descuento en los billetes aéreos: unos hablan de 'papelón' y otros de 'nos tienen miedo'",
-    "enlace": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQTEtGTHBUemFyUWctbld6dUJXMngySVh3WTA2SmdPNUtsYzhldUNzQ1JPUU15R2R6NlRHZDhuSVpIczE0bkFBNVBaaEJZME8xZjVtZkx5eVUwMTJBb0txV0ppRHoxOTlYdmtIcmlCNGF1QmEyWXZMdnNqNzMxblZGT204aklHSkg1TnA4WThMVWJWU0FWVWpUTFVlVXpqeDBKMGRCYVpPWUhieVpMUnQ3b0Z6RVJ5SzlaZW1hR19IRDNpNmpNajBRQ1ZvLXZXaWxhOE1za0NnUUlVNHN4U0pILWRINmdLYTVjVTM1dzBIOUVkVmhXRkJkazh6SFRwcF8tMUY0YU0tRnBlcTBjR0ZR0gGUAkFVX3lxTE5JNHBFNUNWaENYc20wYUIzOHFTWFNDSkVoZUg2S1Fwa1lrWjc4Um5PWWxkc0FyNFJsTW9nRHRDZ1RrYzVNd25DZzlpOC1aUHA5bENTOGhYZFROQ29OUHpWakUxczFPMXdacnNxVllRblg0b2l3dlJwM0ZVbmsyVlgwUUxwc0MtWUI2OVY1VFU5TlR4Qk5BQW9NVkhJM3pHcHFYaDVBWXpKeGljb1BVcVMxY01aTVhhVl9FTlg0MlZHVWpHNEJqd2Q0d0xMN2pSYVRoeUhKUVpaMEh2U09RM1ZCUVlrcEx4RW1Zb2JLTm1sNDRuZktCM2FzQWtPVTZqQ2hUbGc5UzhuTlFyTGJDNmNwTkZMQw?oc=5",
-    "fuente": "COPE",
-    "fecha": "2026-10-21T12:43:32+00:00"
    }
   ],
   "UPN": [
@@ -850,13 +850,6 @@
    "partido": "Vox"
   },
   {
-   "titulo": "El doctor Cabrera anuncia a Abascal que votará a Vox en plena polémica por la violencia contra sus actos",
-   "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdnA1N2RhVVZEYXE3c1o3R0lWT0lJQUxYa0FmNnB3a3NkSmwzR3pYV180Mkc4aU40YjZpZ3RCX3M5ZDF6MjNEYlU0RUpwcWkzbTQtNEp4RXNBcGZjYms5dFgwYlF1bVhhZlpwd1ZwLUYwRGVpQlJIbURXM0xaVmsycHQxckE4R3UyYTBDQS1GN0tMeTZuQk5uLXprNEIzUEoyUlBkdEJERnRrQlJQQ2tNdXluR21qT1ZvWkhBblc4ZHVFSmVv?oc=5",
-   "fuente": "La Bandera",
-   "fecha": "2026-10-21T20:09:00+00:00",
-   "partido": "Vox"
-  },
-  {
    "titulo": "Bronca a Vox en el Parlamento de Canarias por vincular la falta de vivienda a los migrantes",
    "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbXdsNWFFNVBaR3pzemE0WHdTU0pXaUFOc0Nic0JiZmh4YVlJUy1pR1czQmF4M05fb05QWll3anNEWm95ZDk4THlrZDFGcG41NHlyT003NWd1Wm5zM1JCblZJXzcwOUV1NENMVXhTRkdKSHB3THJSbjlrcHlrVXdGMlF5RHNTNEpZM2xEWTJWendUNUMwZjdLa1YySHF2WnVUdy130gGoAUFVX3lxTFBxR0trWkZhYjBaMHhINTctUXRLWnZ3VU5IVUdyeHZOMXBraV81Z0VUNHZ3bkh6NGI0Zm45LTFJR2JNMkpYUS1vT0wwb3VXdVl2Q09XMUhDc3plWDNiLVlxeDRITEFJR3F0ZVlSN3p4R1YtWXR6NjM2OTY2ZFJ5akhRWnZxcDRUX3hVc29WT1BGNnNXeGV0MUQyT0V4MDBGNG9xMGx0T1hlUw?oc=5",
    "fuente": "La Provincia",
@@ -870,6 +863,13 @@
    "fecha": "2026-10-21T17:45:38+00:00",
    "partido": "PP",
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/21/6ad8f99712e1e.r_d.2348-1545-1051.jpeg"
+  },
+  {
+   "titulo": "Las cargas policiales por la visita de Abascal a A Coruña desatan la polémica: piden la dimisión del delegado del Gobierno",
+   "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPcWtXNE1adkV2czNTVmZRQy0zTGdtcEFPQTlVTk5kYzNUQ2hzQnBOUU1iZkkwMVJITHNZZ21ZX3ppVlJkTndReGs0bkdiaURiRF9aX2Y0QlpVVVJCMzhpVU85ZXFsNEh5WVcxRnV2STNHQjVjbmI3ZXVYQk9ueVJtZFY1Tm03eUFxNU9seDR1NFZ6R0dnN0xMUGdOQVNKNmdaSVRLWHdqMDQzWFpqNHd3NjlFMlc3WkpZdDE0bTBLWDdJdk9BSFkxX0VkT1ZZLU9hMUdJVDUtNGh1X1V5aE9BMmFReUh3UGI1T2E1X1FlUkdwSExBUTlydDNET0xHZFpRSXE2QUVhQdIBmwJBVV95cUxQMi03cy1DUGg4ZzNOandaSTNZbS0xTEx6R3dPcWFwLXZmeTNxT3p4Nk5VdlFsZUFPbzhKcjREZEhPaF9yOXFxR1hmbjlQdHZ5WU9nV21mNUdDU2RRaktjdEozOUFkZGFkcy11bXZwT2M0MktjZ0VhaXFDa2NwTk5XR2ZVMzZwQlFxcHFqOVRYVnlycUN0eXdqWG1EN0xXcVBma21NLWZ4Mk5LWGZGczdqbWt4cWFGQjBhZkxSOXpVLXNRN3Zha0stSndsR2MxcHk2ZmVFMC1Ka0RtZzlCY3ZkRk1JMlR3X0lNN1NzMDlqaDBTOUJjUjl4VUJJYkRrVTN6ZnpJemxpOEhFOFlaWG4tVkR6NjhDMjcwWUQ4?oc=5",
+   "fuente": "Cadena SER",
+   "fecha": "2026-10-21T15:47:01+00:00",
+   "partido": "Vox"
   },
   {
    "titulo": "Nuevo choque entre PSOE y PP por el spa de Ranillas: de la \"vulneración del derecho a la información\" a la \"hipocresía y manipulación\"",
@@ -912,13 +912,6 @@
    "fuente": "La Razón",
    "fecha": "2026-10-19T17:42:36+00:00",
    "partido": "PSOE"
-  },
-  {
-   "titulo": "El PNV alude a riesgo de «terrorismo» tras dos detenciones de la Ertzaintza rumbo a la AN",
-   "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORW1LemcyYmRfR1hjZkNuaU8yWDhqcG42MXVKYzV5OEJua2t4ckJlZk9YQkNJWEdIV0NVVWtOYVY5bDVhOGE0YnluYnNxZnVVeU9weUxsdk1LMUllRi0xZjVRLUFzXzV4NlhCVGc3NmlhMXVaV1RxdmxPLTVaR0kwOVBiejdFVS13cWJaVC1NSEJCNFNOcWpmM0ZSZXNLbjk0ZFRYTzdiQ1o3b3FRNW9tS2JFRVJyTVBGTU15YkhqM1FtRHJBRjNZaldR?oc=5",
-   "fuente": "naiz:",
-   "fecha": "2026-10-17T21:55:00+00:00",
-   "partido": "PNV"
   },
   {
    "titulo": "La polémica frase de Gabriel Rufián (44 años) sobre la cultura: «Prefiero llenar tiktoks que bibliotecas»",
