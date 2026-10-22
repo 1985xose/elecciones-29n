@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-22T01:02:00+00:00",
+ "actualizado": "2026-10-22T01:30:07+00:00",
  "generales": [
+  {
+   "titulo": "El Gobierno no revisará los expedientes de los «nietos»",
+   "enlace": "https://www.larazon.es/espana/gobierno-revisara-expedientes-nietos_202610226ad96020658beb674b22c66c.html",
+   "fuente": "La Razón",
+   "fecha": "2026-10-22T03:00:16+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/20/10EAB857-B629-4C81-B66D-BAA46B6E9E85/96.jpg?crop=4000,2250,x0,y208&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
   {
    "titulo": "Los 172 diputados que votaron a favor de los decretos suman 242 viviendas",
    "enlace": "https://www.abc.es/espana/172-diputados-votaron-favor-decretos-suman-242-20261022013145-nt.html",
@@ -21,13 +28,6 @@
    "fuente": "La Vanguardia",
    "fecha": "2026-10-21T22:37:28+02:00",
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/21/6ad921f10e145.jpeg"
-  },
-  {
-   "titulo": "Abascal culpa a Sánchez de la violencia sufrida en sus mítines de La Coruña y Avilés: «Quieren que ocurra»",
-   "enlace": "https://www.eldebate.com/espana/20261021/abascal-culpa-sanchez-violencia-sufrida-mitines-coruna-aviles-quieren-ocurra_472417.html",
-   "fuente": "El Debate",
-   "fecha": "2026-10-21T22:16:07+02:00",
-   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/10/21/6ad91d28ae343.jpeg"
   },
   {
    "titulo": "La reflexión de Joan Manuel Serrat sobre la situación de España: \"Lo que está ocurriendo es el resultado de muchos años de desgaste\"",
@@ -58,28 +58,28 @@
    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/10/20/6ad74195d2a148-05200652.r_d.921-1111.jpeg"
   },
   {
+   "titulo": "Las diez píldoras del día de la campaña electoral",
+   "enlace": "https://www.nuevatribuna.es/articulo/actualidad/29n-elecciones-milei-diez-pildoras-dia-campana-electoral/20261021183258255418.html",
+   "fuente": "Nueva Tribuna",
+   "fecha": "2026-10-21T18:32:58+02:00",
+   "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/10/21/2026102118223296365.jpg"
+  },
+  {
    "titulo": "Sánchez advierte de que si Feijóo y Abascal ganan las elecciones harán lo mismo que Milei en Argentina",
    "enlace": "https://www.europapress.es/nacional/noticia-sanchez-advierte-si-gobiernan-feijoo-abascal-haran-mismo-milei-argentina-20261021201653.html",
    "fuente": "Europa Press",
    "fecha": "2026-10-21T18:16:53+00:00",
    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261021201653_120.jpg"
-  },
-  {
-   "titulo": "Feijóo propone el silencio administrativo positivo en 90 días para conceder licencias de construcción",
-   "enlace": "https://elpais.com/espana/2026-10-21/feijoo-propone-el-silencio-administrativo-positivo-en-90-dias-para-conceder-licencias-de-construccion.html",
-   "fuente": "El País",
-   "fecha": "2026-10-21T10:25:57+00:00",
-   "imagen": "https://imagenes.elpais.com/resizer/v2/WIBMNV6YPNBJPKBOZHTTHNYYR4.jpg?auth=e08e69832a0715de1c57489800c5ce15838d257648dd3cf8d9f30a5d0020f921"
   }
  ],
  "partidos": {
   "PP": [
    {
-    "titulo": "Feijóo se compromete a aprobar una ley anti okupas en los primeros cien días de Gobierno",
-    "enlace": "https://www.abc.es/espana/feijoo-compromete-aprobar-ley-anti-okupas-primeros-20261022013754-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-22T01:38:28+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/22/1519073637-Rs38qM5cT72xLpzTiYG34UK-1200x840@diario_abc.jpg"
+    "titulo": "Feijóo sitúa a Gabriel Elorriaga, referente del «aznarismo», al frente del 'think tank' del PP que diseña el programa de gobierno",
+    "enlace": "https://www.larazon.es/espana/feijoo-situa-gabriel-elorriaga-referente-aznarismo-frente-think-tank-que-disena-programa-gobierno_202610226ad8e68a83ad1f356c0f555d.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-22T03:00:20+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/21/4D6F63AF-620E-4DE1-9346-CA1492734F7E/diputado-gabriel-elorriega-interviene-sesion-plenaria-congreso-diputados_96.jpg?crop=3500,1969,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "Sánchez exprime la visita de Milei para alertar contra PP y Vox: \"No proponen alternancia, es una involución\"",
@@ -102,38 +102,31 @@
     "imagen": "https://static.eldiario.es/clip/7f0f469a-4e90-440f-afa4-30f1f06e6e5b_16-9-discover-aspect-ratio_default_0_x964y407.jpg"
    },
    {
+    "titulo": "¿El ticket de una pizza impide desalojar a los okupas como dice Feijóo?",
+    "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ0xHVTJrdG5tX0FXbVpFT3BxZmFKXzV0WDd6Q3dyV1V3RWRiMW1xdTdrcHJDZHFlaVpkV21ocXMwTlJ3NlJUOVFYZUNKYlRCYzF1UzFjWVJmck5PSk1DV1hTSlk4TVB3S3RaWnV4a21Wd0lMMUZGSVNZd3g1STUzaXpZZGhrM0tsVlJNNVA4SmpaSjhfVjQ4UTYwci04WTVPaE5aVFhmVmNMMzNvb2tybkh0aUdmbFJ4R09vMWdn?oc=5",
+    "fuente": "Diari ARA",
+    "fecha": "2026-10-21T19:39:32+00:00"
+   },
+   {
     "titulo": "Pedro Sánchez acusa a Milei, Feijóo y Abascal de ser \"la misma peña\" de los recortes ante las elecciones generales del 29N: \"Os tenemos muy calados\"",
     "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOU1pGY3VtdnVDck9hcFpGVFQwZXFzSURvdHpVLWJuYTRHMjFsY2xqcEhPWXROa2x3ZUJqNWpBMGhpeWxrZlY0OC1XS0RNajAzNzVnQnVqYVhmM1ZJTTZtUmt1RFFKaTJNZGMwbzc3S3FvQ3Z0MXdrUi0zellSZXNGRlljMWFmWFh1N3dOSnA5T3hseUM5QU5WeG9MM3lhWXA0bHYyWVAwUUMzM0kzVVZ5bkxVMHZBbjc2cTUySXF0TGpfRzM4M2RXc08wVGNuVzlWR3RuaHZjalgyQjZoUFY3YlBNVVcwQWstdlRjaFdkVVFrVXZVbEdJTktVTQ?oc=5",
     "fuente": "El Constitucional",
     "fecha": "2026-10-21T19:23:55+00:00"
-   },
-   {
-    "titulo": "Sánchez azuza el miedo a la motosierra de Milei: “Si Feijóo y Abascal gobiernan, van a hacer en España lo mismo que en Argentina”",
-    "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-21/sanchez-azuza-el-miedo-a-la-motosierra-de-milei-si-feijoo-y-abascal-gobiernan-van-a-hacer-en-espana-lo-mismo-que-en-argentina.html",
-    "fuente": "EL PAÍS",
-    "fecha": "2026-10-21T19:01:06+00:00",
-    "imagen": "https://imagenes.elpais.com/resizer/v2/2SXDOB3JUNI3NIIG6UV4GNBZZY.jpg?auth=49461d7fb274ce5fbaec92003c9fafc084d6148dae0c74a7fc53b9de476d6118"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Sánchez arma un ejército de fieles para resistir desde el Congreso tras el 29-N",
-    "enlace": "https://www.abc.es/espana/sanchez-arma-ejercito-fieles-resistir-congreso-tras-20261022013249-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-22T01:35:43+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/22/1519002847-RncIEe27j3F2jzliy1wBUVP-1200x840@diario_abc.jpg"
+    "titulo": "Anticorrupción rechaza devolver el móvil al exjefe de Gabinete de Sánchez: \"Es potencialmente relevante\"",
+    "enlace": "https://www.larazon.es/espana/anticorrupcion-rechaza-devolver-movil-exjefe-gabinete-sanchez-potencialmente-relevante_202610226ad96022658beb674b22c673.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-22T03:00:18+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/07/12/8B323E83-3230-4095-AF25-458CC823BF51/96.jpg?crop=1920,1080,x0,y99&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "La falta de voluntarios entre la militancia del PSOE obliga a Ferraz a rellenar la lista electoral en Palencia",
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbXBhMklQZ0hCZV9NLUhMRXhFcUwzbHF6SUR1SXVzNE9ibDVBZFBrZjR5N2JqWk4yanh3XzRqZC1DZkZRYmI1aG1KU29ibDJfcDgxUW9KbHYtX09SRmxGeWtYYWpMaW13UmI0czhnZXFYNkpFNHRlV2VkYXRpei14cUhZeFlPajV1WTNMYkI5YlRaamNXYmxyWVBrUdIBmwFBVV95cUxQaFlzd3lhVWJQNVlia2VCc1FaaXRNT1FzUjJBblFEMllEQVJwazVZUlpwNmtHZmN3QnFjcnFMOGlJbE5aSUVwTkw2aHVpeW1JN2xSQXFlOWlzR29FT3NfdWRNSXo0RTlZdTVOSW9XMlp4a3BhbTBtLWNIYnZERlhtVlV4SUNkRjRKdXM3U1hEOUVRLU9ES05TS0gtaw?oc=5",
     "fuente": "El Mundo",
     "fecha": "2026-10-21T23:43:00+00:00"
-   },
-   {
-    "titulo": "El PSOE de León registra su candidatura al Congreso para las elecciones generales del 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTnNlTVNHbm9RMlA2LWo3dDYwVVBRMDdHUnI2U0tiWUFQX1pPaVFFUFhSekZWNnluNlhXSlFFVzdoSTlmcGRjcUJTcUp2WDBQTFRKeTQ5ZmxtVXg4NWlUNWl5c2c3OHhkTWhFMWpzdlFOTF9uUm5GaGhKNzdNSG1aM1BVX255Q0pESHAyOWljdHlfSHZRWl9nYlR5S1FhNGNtby1oVVFfUGJlTndqT2FTYTdZVVNaQUpyazFvUA?oc=5",
-    "fuente": "LaBaneza.Net",
-    "fecha": "2026-10-21T23:37:30+00:00"
    },
    {
     "titulo": "Óscar Puente intenta convencer a Marc Giró de votar a Pedro Sánchez y su respuesta no puede ser más clara",
@@ -153,6 +146,12 @@
     "fuente": "La Vanguardia",
     "fecha": "2026-10-21T22:37:28+02:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/21/6ad921f10e145.jpeg"
+   },
+   {
+    "titulo": "El PSOE presenta sus candidaturas al Congreso y al Senado p…",
+    "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV2N4VGtrbWFfY1NoZ19tT3NBX21OT3U0MVp5V29OSS14QVBxc1dnbmJCcFdfV190YlZJQlZfVnliQVphQ2dOWlFESDJydFo0T3BNdVlpMkRZLTNqUTd2MF9pT28xLVZ6ckdZMklCZlJqOGFzTjhxUDVFclFoSnNFQVBudUc0VWUza05NNnhidGNMejJZZFNhMUxRLWFEMDl6SUZ3UWJfOEMxYnRRcko4TzdwOUtqNVJKTEFBYmNQNVhuZw?oc=5",
+    "fuente": "CanariasNoticias.es",
+    "fecha": "2026-10-21T22:29:14+00:00"
    }
   ],
   "Vox": [
@@ -281,7 +280,7 @@
    },
    {
     "titulo": "Galería de fotos | Alvise, en León",
-    "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMGRydzVEekdtb1lpMlNueEdLSl9BQ0xVVi1kc2x3MUFzd3ZmSjdBSWpKdUxPZFZQQTBHbTlPcnR5TnRIZkUwRTJUdHJuY0dYdTkzMURxZ1BnVUltT3ppQWFiS3ZUMFE0cHRGSVlxa2RoTGw3bVZkNktJVnVhc09IOGVlUDRoY1FXeVVsOHRoTmtwWEHSAZMBQVVfeXFMTjBkcnc1RHpHbW9ZaTJTbnhHS0pfQUNMVVYtZHNsdzFBc3d2Zko3QUlqSnVMT2RWUEEwR205T3J0eU50SGZFMEUyVHRybmNHWHU5MzFEcWdQZ1VJbU96aUFhYkt2VDBRNHB0RklZcWtkaExsN21WZDZLSVZ1YXNPSDhlZVA0aGNRV3lVbDh0aE5rcFhB?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYmRJMkJpQXVtaXBid0VOUUtNRVFZaHdtbnV1MFh4N3dLRFJjWHFuc2lrR2g4TnI0aGF2U1NfbFlNM3YxSVpJd01PMVZCekFQamI5UmJkckZyZWpOMllRb19wcmotU2UzX19BM0tPVUlmdEIyOFdaMkJvNHRJT0tBUlp6OE0tNDJKYmxoYm1B0gGTAUFVX3lxTE4wZHJ3NUR6R21vWWkyU254R0tKX0FDTFVWLWRzbHcxQXN3dmZKN0FJakp1TE9kVlBBMEdtOU9ydHlOdEhmRTBFMlR0cm5jR1h1OTMxRHFnUGdVSW1PemlBYWJLdlQwUTRwdEZJWXFrZGhMbDdtVmQ2S0lWdWFzT0g4ZWVQNGhjUVd5VWw4dGhOa3BYQQ?oc=5",
     "fuente": "Heraldo de León",
     "fecha": "2026-10-21T17:04:47+00:00"
    },
@@ -669,12 +668,6 @@
   ],
   "PSOE": [
    {
-    "titulo": "Qué ha dicho el juez Pedraz sobre el supuesto vínculo entre el PSOE y las amenazas que denuncia Biedma",
-    "enlace": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhTnBnNG5wODFSZDg0SkNKSnRRb08tQWlZSkpVQWI5RTZKajJidzJXSVE0aEdFWkdZclR5ZVFQYk51dHlSRkNtc3ZFLUZkaUF1dXRoWk9rdWpzdzVnNUtn?oc=5",
-    "fuente": "Newtral",
-    "fecha": "2026-10-21T16:39:43+00:00"
-   },
-   {
     "titulo": "El voto ante la revalorización de las pensiones con el IPC: de lo que dicen PP y PSOE a lo que hicieron",
     "enlace": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96NmR2d21weTQ3WGlFUHRuc2hwY3lTT2dnVVo2S21QaEdlSXp4b19RbmhRTEUwMHExNnZwR0gxOUd3TVNDTnhUSUlVR0lvbkRNY1dwOC04X3ZWY1ZuVkgyUnBjS1c?oc=5",
     "fuente": "Newtral",
@@ -685,6 +678,18 @@
     "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOOGZPdC1tNHdtZS02V0hla21wczF6T1pURzdrQzNBXzJZWVRUek9JM1Z5TEhxcUZ6OTVXeUpEcXRabk84TG9mbFpZV0tXbzNNWjlXd1BNUmRRYmJwd1BlYzFRZGpkX0RGZ3BPb1psbGNQRzBpN2VrVWlCS1pmYzQ1ZWJkSmhvX3ZJMXFSRVNJem1aMkJjREpVTU1qT29aY0tVdV8yNHAtUTNKVlZzY1NhbW1CdmFCOVNhanV0TXlOQmNNWTdELWp6ZWp1OHhUSUNFRzhCQjhxQ3k1ZFhPSndTWG5PTDFGUmMwdHRqaWRZSEMycGpkcVlINzVLVzYxTFVWUnZhSlBn?oc=5",
     "fuente": "Maldita.es",
     "fecha": "2026-10-21T08:59:29+00:00"
+   },
+   {
+    "titulo": "¿«La UCO descubre que el PSOE se reunió con el fiscal que permitió la excarcelación de 13 etarras tras investir Bildu a Pedro Sánchez en 2023»? · La Buloteca · Maldita.es",
+    "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQRl96a1ZJNTMzV2kzcFU5Q2R1cjVOVU9tdlJKWk9aQVZ5blBPZmRXR2Y1bEs5RDg4ZGlncll3enFzY2pBbGtGZ2lQX3Q3WFNXeFdFamRHX3ZqX1FlSWtOV3Z4MWhnZjF3WEpxaXg3Vm9BT3AzalhDRVhfNmtzcjEwb0sxQi16OXkyZXRwQkZRQWE5Q3JyVzBOeHBqcDVkbE9PTU1URlhtRzV3NmFJTVRWYjYxNE5sVHdOckpKOVhoT2h6bUVWdjJWMlMxV20yck9jR253Y0pwRXZ2bzdTTkkwZG1YQmJQT2RWd2VITmZMN0lTejFyOVlZTC1vVmI2RElZbzBz?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-20T15:25:43+00:00"
+   },
+   {
+    "titulo": "¿Albert Castellón denuncia que Pedro Sánchez negoció con Marruecos la soberanía de Ceuta y Melilla?",
+    "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPc0Ewb19nVmtndDYyakk0MnJMRjU5RWFqT241OHE5dW84SkI2MVBhSGlqdHJuRXE4RXY1ZWRoQ1d6RG9zbU02Yk5tQUxaVkRJeDBpTlhyNHNWaGROVE1LN0M0eHB5ZnFTQ2QtbjFVSkRpU2QycjVxNzdQNHN0Uk5tLUpsLUpMTThHQ1RySVZmNURURG52b3p4TE95MnAtdEFVWlVYUUtIWFlvUGItTUUyVG9mQkJHV1M4UHl4V1JPRmw0UzNDb1I5R3JpUQ?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-20T13:28:30+00:00"
    }
   ],
   "Vox": [
@@ -943,13 +948,6 @@
    "partido": "Sumar"
   },
   {
-   "titulo": "Feijóo anuncia una investigación sobre Ceuta si llega a Moncloa: “Al final, todo se sabrá”",
-   "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMHVmdC1oZEZCQnlTUlBBVW1YUTNzcUd2SjA2dHFTMGlpNk5RN1BRR0xRa3E2ZHdDXzlCX0FLZlFZUXF5T0RvVERKTjdUUVhNc1NxX1d1UUFvYjRreXVsdWM2Mi1VcUgwSUh5MHBtcWVmbmJOd3BhbFAxUVNpS2xMd3JoNFR2SmhGUXRfbmdMWDFtaG4xVVVradIBmAFBVV95cUxOUU1heF85a3dvOEJaVENVS0RZeDFja3RBWFZGRnpIMHFCbXRfU2RhV295NTh3MllaQzZwYTJ1S01NY0VtRFItcER2RUdDN3htTG1HTVphemlWM3ZGRzIzckxOdEk2dUQ1QlBJSmpnanUtdEtFUHV2SW4zdzBicmo5NzZ4ejhlLTkxWWZ1VVpmeVB2WUVOZ2VlOQ?oc=5",
-   "fuente": "El Periódico",
-   "fecha": "2026-10-15T10:15:41+00:00",
-   "partido": "PP"
-  },
-  {
    "titulo": "Feijóo promete una investigación sobre la \"invasión\" de Ceuta",
    "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQXzh5LTFCdFRTZ0t3ZWFkeXVpRGdnc2VHMWJLajRFcEFPRVdTaUx4NWNZRGlKTHlIdGxEVk85SzRTS2gweDNZNGZteUstVGZtSmFTcDdIRHlGRDM3eFQyQVk0Z0JZM0hYalFwR0hPSURmbnRsczdmTWFUUjJTZnRmSXp4TmtxSTd2bXY3bE4xeFVDN2F5N0dtQUtHckZFZ0p3SEpYNkxBUWtRbGRTeE9FbEJLSXBUeDRxZ0JkZmZKVV82eWw1NTJXXzdxUG5MLS12YXd1R2pqTVY?oc=5",
    "fuente": "Diario de Burgos",
@@ -980,6 +978,10 @@
   },
   {
    "nombre": "El Salto",
+   "grupo": "izquierda"
+  },
+  {
+   "nombre": "Nueva Tribuna",
    "grupo": "izquierda"
   },
   {
