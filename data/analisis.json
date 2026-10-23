@@ -1,20 +1,20 @@
 {
- "actualizado": "2026-10-23T06:01:17.744Z",
+ "actualizado": "2026-10-23T07:01:10.513Z",
  "media_bruta": {
-  "PP": 32.03176134863171,
-  "PSOE": 26.493575480810883,
-  "Vox": 18.88804955317122,
-  "Sumar": 6.449808118974646,
-  "ERC": 2.1723627095124414,
-  "Junts": 1.4206040043237573,
-  "Bildu": 1.3499255521083882,
-  "PNV": 0.938786452274502,
-  "BNG": 0.9140271236613192,
-  "CCa": 0.4203418210430825,
-  "AA": 0.9499798056012806,
-  "Podemos": 2.792469258573377,
-  "SALF": 1.6957690342963723,
-  "UPN": 0.18464106336371086
+  "PP": 31.741709214106425,
+  "PSOE": 26.557952327665173,
+  "Vox": 19.00075961947991,
+  "Sumar": 6.650068663469219,
+  "ERC": 2.1742547104972547,
+  "Junts": 1.4123150541752945,
+  "Bildu": 1.3463102022039197,
+  "PNV": 0.9504262086437261,
+  "BNG": 0.9283741805093914,
+  "CCa": 0.4342017244734189,
+  "AA": 0.9445816956507306,
+  "Podemos": 2.7234390593609783,
+  "SALF": 1.6130971616162195,
+  "UPN": 0.18137265246802692
  },
  "principales": [
   "PP",
@@ -31,7 +31,7 @@
    "sesgo": {
     "PP": -0.44,
     "PSOE": 0.67,
-    "Vox": 1.01,
+    "Vox": 1,
     "Sumar": -0.73,
     "Podemos": 0.47,
     "ERC": -0.12
@@ -268,7 +268,7 @@
    "sesgo": {
     "PP": -0.44,
     "PSOE": 0.67,
-    "Vox": 1.01,
+    "Vox": 1,
     "Sumar": -0.73,
     "Podemos": 0.47,
     "ERC": -0.12
@@ -335,6 +335,14 @@
    "sesgo": null
   },
   {
+   "clave": "imop",
+   "empresa": "IMOP",
+   "encuestas": 2,
+   "letra": "B",
+   "texto": "error medio de 1,3 puntos en 3 elecciones",
+   "sesgo": null
+  },
+  {
    "clave": "cluster17",
    "empresa": "Cluster17",
    "encuestas": 2,
@@ -348,14 +356,6 @@
    "encuestas": 2,
    "letra": "B",
    "texto": "error medio de 1,7 puntos en 4 elecciones",
-   "sesgo": null
-  },
-  {
-   "clave": "imop",
-   "empresa": "IMOP",
-   "encuestas": 1,
-   "letra": "B",
-   "texto": "error medio de 1,3 puntos en 3 elecciones",
    "sesgo": null
   },
   {
@@ -561,44 +561,92 @@
    "encargo": "Electomanía",
    "fin": "2026-10-17",
    "veredicto": "movimiento",
-   "texto": "Movimiento real: Podemos sale 1.5 puntos por debajo de lo que cabía esperar de esta empresa.",
+   "texto": "Movimiento real: Podemos sale 1.4 puntos por debajo de lo que cabía esperar de esta empresa.",
    "nota": "B",
    "margen": 1.7,
    "detalle": [
     {
      "partido": "PP",
      "dado": 31.8,
-     "esperado": 31.7,
-     "diferencia": 0.1
+     "esperado": 31.4,
+     "diferencia": 0.4
     },
     {
      "partido": "PSOE",
      "dado": 27.1,
-     "esperado": 26.9,
-     "diferencia": 0.2
+     "esperado": 27,
+     "diferencia": 0.1
     },
     {
      "partido": "Vox",
      "dado": 18.9,
-     "esperado": 19.9,
-     "diferencia": -1
+     "esperado": 20,
+     "diferencia": -1.1
     },
     {
      "partido": "Sumar",
      "dado": 6.2,
-     "esperado": 5.8,
-     "diferencia": 0.4
+     "esperado": 6,
+     "diferencia": 0.2
     },
     {
      "partido": "Podemos",
      "dado": 2,
-     "esperado": 3.5,
-     "diferencia": -1.5
+     "esperado": 3.4,
+     "diferencia": -1.4
     },
     {
      "partido": "ERC",
      "dado": 2.1,
      "esperado": 2.1,
+     "diferencia": 0
+    }
+   ]
+  },
+  {
+   "id": "imop-2026-10-16-1000",
+   "empresa": "IMOP",
+   "encargo": "El Confidencial",
+   "fin": "2026-10-16",
+   "veredicto": "leve",
+   "texto": "Algo fuera de lo habitual: PP baja 3.6 puntos respecto a lo esperado de esta empresa.",
+   "nota": "B",
+   "margen": 3.1,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 28.5,
+     "esperado": 32.1,
+     "diferencia": -3.6
+    },
+    {
+     "partido": "PSOE",
+     "dado": 27.1,
+     "esperado": 26.3,
+     "diferencia": 0.8
+    },
+    {
+     "partido": "Vox",
+     "dado": 20,
+     "esperado": 18.9,
+     "diferencia": 1.1
+    },
+    {
+     "partido": "Sumar",
+     "dado": 8.9,
+     "esperado": 6.4,
+     "diferencia": 2.5
+    },
+    {
+     "partido": "Podemos",
+     "dado": 1.9,
+     "esperado": 3.1,
+     "diferencia": -1.2
+    },
+    {
+     "partido": "ERC",
+     "dado": 2.2,
+     "esperado": 2.2,
      "diferencia": 0
     }
    ]
@@ -766,8 +814,8 @@
     {
      "partido": "Vox",
      "dado": 19.1,
-     "esperado": 19.8,
-     "diferencia": -0.7
+     "esperado": 19.7,
+     "diferencia": -0.6
     },
     {
      "partido": "Sumar",
@@ -1068,54 +1116,6 @@
      "dado": 2.6,
      "esperado": 2.2,
      "diferencia": 0.4
-    }
-   ]
-  },
-  {
-   "id": "imop-2026-10-07-900",
-   "empresa": "IMOP",
-   "encargo": "El Confidencial",
-   "fin": "2026-10-07",
-   "veredicto": "ruido",
-   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
-   "nota": "B",
-   "margen": 3.3,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 30.4,
-     "esperado": 32.7,
-     "diferencia": -2.3
-    },
-    {
-     "partido": "PSOE",
-     "dado": 26.5,
-     "esperado": 26.5,
-     "diferencia": 0
-    },
-    {
-     "partido": "Vox",
-     "dado": 19,
-     "esperado": 18.7,
-     "diferencia": 0.3
-    },
-    {
-     "partido": "Sumar",
-     "dado": 7.6,
-     "esperado": 5.8,
-     "diferencia": 1.8
-    },
-    {
-     "partido": "Podemos",
-     "dado": 2.3,
-     "esperado": 3.5,
-     "diferencia": -1.2
-    },
-    {
-     "partido": "ERC",
-     "dado": 2.2,
-     "esperado": 2.1,
-     "diferencia": 0.1
     }
    ]
   }
