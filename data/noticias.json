@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-23T01:29:47+00:00",
+ "actualizado": "2026-10-23T02:01:55+00:00",
  "generales": [
+  {
+   "titulo": "Qué hay detrás de tanto «¡que vienen los fascistas!»",
+   "enlace": "https://okdiario.com/baleares/que-hay-detras-tanto-que-vienen-fascistas-20610004",
+   "fuente": "OKdiario",
+   "fecha": "2026-10-23T04:00:17+02:00",
+   "imagen": "https://okdiario.com/img/2026/10/22/imagen_final-2.jpg"
+  },
   {
    "titulo": "Feijóo y Abascal ultiman el pacto para el Senado con un cruce de sondeos",
    "enlace": "https://www.larazon.es/espana/feijoo-abascal-ultiman-pacto-senado-cruce-sondeos_202610236adab2d41e66613d9f19b5c0.html",
@@ -14,13 +21,6 @@
    "fuente": "ABC",
    "fecha": "2026-10-23T02:51:35+02:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/23/1515149174-RcWTAFaX8LaiqJ6UVHDwghN-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "\"¿Será un psicópata?\": Candela Peña pregunta a Sánchez, entre elogios a \"Bego\", si se presenta porque \"mola\" estar en Moncloa",
-   "enlace": "https://www.elespanol.com/espana/politica/20261023/psicopata-candela-pena-pregunta-sanchez-elogios-bego-presenta-mola-moncloa/1003744431855_0.html",
-   "fuente": "El Español",
-   "fecha": "2026-10-23T01:06:56+02:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11385069.jpg?p=c:1599:899:nowe:0:54/w:1706/h:960&h=3o5yKbnd"
   },
   {
    "titulo": "Sánchez es un toro muy toreado hasta para Broncano",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "El pacto PP-Vox en el Senado: los 3/5 de la Cámara y una factura política desigual",
-    "enlace": "https://www.larazon.es/espana/pacto-ppvox-senado-35-camara-factura-politica-desigual_202610236adab52cf655b65cc38564d5.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-23T03:15:24+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/05/FA87AF96-25D2-4E86-BC60-FF386AFFA270/lider-alberto-nunez-feijoo_96.jpg?crop=1242,699,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "El gobierno de PP y Vox recupera en Mallorca la caza tradicional de zorzales con redes en la finca pública de Tossals Verds",
+    "enlace": "https://okdiario.com/baleares/gobierno-pp-vox-recupera-mallorca-caza-tradicional-zorzales-redes-finca-publica-tossals-verds-20608865",
+    "fuente": "OKdiario",
+    "fecha": "2026-10-23T04:00:50+02:00",
+    "imagen": "https://okdiario.com/img/2026/10/22/imagen_recortada-90-1.jpg"
    },
    {
     "titulo": "Feijóo y Abascal ultiman el pacto para el Senado con un cruce de sondeos",
@@ -137,12 +137,6 @@
     "fecha": "2026-10-22T23:54:21+00:00"
    },
    {
-    "titulo": "Pedro Sánchez ha recomendado desde 'La Revuelta' que apagues el móvil cinco minutos al día por tu seguridad y esto no es una idea tan descabellada",
-    "enlace": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQU050UHRQbGI5US13dkp6VnBmNmlJZmtkRldjdjZxYjdZVURnUlZhU0Vjd1FoYkNFWmVKcE5tNjZ3RzgxV0RhSkhJaWplMXU2U1RlMGpnQUVfYnhRVlpEV0l6LVVWZXh4Sy1MX3c2QlhHRjBreDRjSUhTaldGZ1M1WGRpOERoNjlmQjdaMTh2NVhQczdYNzlzdFhpS18wUFNwYnNsOEx1N1NnbWJHUGdCMGZBQmdlbG1BX2FXTjZxSGFOOE5zYUNkZElqWnJRcFV6aUtzdzd5Z3NkbVgzN2dsRVdMZko3SXl2WVhJZGxkUG5WOHRqeE9UNHJZX0t6UHlLVTJjRGx1LU9HS1QwM29jRVV3MXdsSWNxMFZlZ1ljYjdpRU9RTkJYcUFoeUEwbzQ?oc=5",
-    "fuente": "La Razón",
-    "fecha": "2026-10-22T23:29:00+00:00"
-   },
-   {
     "titulo": "Sánchez es un toro muy toreado hasta para Broncano",
     "enlace": "https://www.eldiario.es/politica/sanchez-toro-toreado-broncano_129_13608282.html",
     "fuente": "elDiario.es",
@@ -154,15 +148,21 @@
     "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVUdScnRGUGh6ckZvdWstWFdQTzhLN19qclp5U3NCQW9EYWtmbmFBMEUzQ2pRcFIwZGNOanplU0dhWVJUSFNaWXJZQ1hZNXR5UFBsRnBjWmxTeDRXRkNGRHF4MGVtcFhYejhlVVBRVHZKTWpUd3RsOXltb0dJdTcyOFpzY1NaYkU5QW0xcXB4MVB3SkRjbk8zNEVDVzViRklyOHZSN1VMNjJndHFkS210OGJ2Rm1XYmpjSDJmdHZxYWpqOTJLQkJZVXNpNnd6dDhfNzB1VEgybWpIclNBOENtY3JpWWNMdFZzcm5nWlZaTjc4VzjSAfMBQVVfeXFMTm5pOU8ya1ZLUEJjQ096Y0d0cXFRaFFuVGNJQU9VMVZaczdHbnV3M0pLUGlaVkNsVmFNaTItYTZSbm5Qay1mVTFLMnBOdVVTMThfT1A4QmlIVERZWm93YlNwZW5raW5sbEdMeFN0M2RONnBsRmY4eFB4NmdPbjdOeV9UUklBYW5RSmNFR2lkaUM0MDhhZmNHNHVFdFhKM3VEWVk0WmEzUHppTkhVUkNaYTFmWVBkcnZGQ1FodjJTOVlNSlRDcmtxRzlwQmtWdTdneUZLMkluYWFhS0FUZDY1SkE3RHJLUG5fdXlJcEJRZ0tTNnYw?oc=5",
     "fuente": "MARCA",
     "fecha": "2026-10-22T22:53:23+00:00"
+   },
+   {
+    "titulo": "Pedro Sánchez lanza un dardo a Pablo Motos desde ‘La Revuelta’ y desvela una anécdota de su visita a ‘El Hormiguero’: “¿Esto es una broma?”",
+    "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNcHgyMzNFOXdIdHNEd1N1a0JVcWlIUTA0a0Y0Qi0zUmNDSTFEX2NfeUZ6WG1tTUpwTk9MUTBpZi1TZFpBNThwMFA5Y0oybGpxNGVvejNidzVjSkJRUUVGOWFIMjlMakZPR0VTNzExd2NrVXRlSGl3eFR1d0tMX1NhUWdYU2ZCX3EyZ0VYNWhNUDV4ZEVkSXdDdktHSFFlYkJfOEhqY1hSRmYteUlOTUhWXzBxMVpXSmFQRWtpYkl0bWlJYW1pNDZEeUJuejctbHpQTTlKSGtuMjZiQVhLajYzcXhhVlNUN0ZFa2pYSGhmb2NwbmpEOGxXU3h5Wm9Pa3VBZVhv0gGeAkFVX3lxTE93aE5wTGl1TjBibnR1QndHeW9nVnprMjdibFhPZHl6cWgyWmFaTDdmZF9CVUxCdERBRWVvcDZZUnR3NjV4UC1pQUxVdjdReHVfejlublpwaXpzYWdWLWd1OW84WGVOZTBQQ1lZd3RwWFBmbWRmNEFWbTBxVkR4cVAyczFSdW5taDRUNk82Qm5IajVvVzQwVVNMTEdpQ2ZXMmdhaExQaThWZDUtM0c1ZWR4RElPZHJBQzhLd3h3N1NYTnY1MWF2ZW9wQzFKQTVmVzFDaDFDZUxSR0ZXdkVWNlRiaGpIWWdyMUxKWUZIRER4eXZ1S0g2UWsyVEVrNVZFcFRtU3ZRQW9NZTlEV04zOXdTVHM4VVJPQUdrVVNmN0E?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-10-22T22:21:00+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "El pacto PP-Vox en el Senado: los 3/5 de la Cámara y una factura política desigual",
-    "enlace": "https://www.larazon.es/espana/pacto-ppvox-senado-35-camara-factura-politica-desigual_202610236adab52cf655b65cc38564d5.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-23T03:15:24+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/05/FA87AF96-25D2-4E86-BC60-FF386AFFA270/lider-alberto-nunez-feijoo_96.jpg?crop=1242,699,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "El gobierno de PP y Vox recupera en Mallorca la caza tradicional de zorzales con redes en la finca pública de Tossals Verds",
+    "enlace": "https://okdiario.com/baleares/gobierno-pp-vox-recupera-mallorca-caza-tradicional-zorzales-redes-finca-publica-tossals-verds-20608865",
+    "fuente": "OKdiario",
+    "fecha": "2026-10-23T04:00:50+02:00",
+    "imagen": "https://okdiario.com/img/2026/10/22/imagen_recortada-90-1.jpg"
    },
    {
     "titulo": "Feijóo y Abascal ultiman el pacto para el Senado con un cruce de sondeos",
@@ -342,16 +342,16 @@
     "fecha": "2026-10-22T07:56:00+00:00"
    },
    {
-    "titulo": "Gabriel Rufián rinde cuentas sobre su patrimonio: una hipoteca de 200.000 euros y un salario bruto anual de 99.148 €",
-    "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc1B0NEd4WnpFVWtBWk9JU0lMR0hOVEdJbEVBUmtscXd6ZVdtZWFwM21sZW1ScUh6QWdmZlNhVWtrU2tQY1hGMHhNVTA5eEl3R19JcEFfazZvQlUwdVB5RmlubEVCZjZ4eVpWSkZuQXo2WEJYUmlZZm4yT2JobWtkdDZRUHZvcF9iU2hTbjBHblIxRDlhN25XNGdVTkthNlhMZW1zb2ZmbzlMZ3JvZF9hdkxlNGF4Z3VHNFV1aUpIaHVzaFlDcW1PeDJYZmd5SGtBN1d3Rms5YWxEWVNEcEZra9IB4AFBVV95cUxQc1B0NEd4WnpFVWtBWk9JU0lMR0hOVEdJbEVBUmtscXd6ZVdtZWFwM21sZW1ScUh6QWdmZlNhVWtrU2tQY1hGMHhNVTA5eEl3R19JcEFfazZvQlUwdVB5RmlubEVCZjZ4eVpWSkZuQXo2WEJYUmlZZm4yT2JobWtkdDZRUHZvcF9iU2hTbjBHblIxRDlhN25XNGdVTkthNlhMZW1zb2ZmbzlMZ3JvZF9hdkxlNGF4Z3VHNFV1aUpIaHVzaFlDcW1PeDJYZmd5SGtBN1d3Rms5YWxEWVNEcEZraw?oc=5",
-    "fuente": "El Español",
-    "fecha": "2026-10-22T05:09:04+00:00"
-   },
-   {
     "titulo": "Encuesta de las elecciones generales en Lleida: Empate técnico entre Junts, ERC y PSC en la provincia",
     "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYUtpb3F2TXpnR2lVNVNmNTJBZXpIM2N1LUU5N3FqMlI0RTR1QnJCeV9hTms5cHVZbDh6SmlQX2xjNmJSV0ZoX253Ym5oX3hjUWhXa1RfdDJNSm9iaE9qdjc3RGpsTVdjVDVvX0IwcEJQZjBmczYxNng1OUUtMENLNVp5UXM0Vm16eUY1OVpEZkY1dXFIZlp3RXdMY1ZxN2FHcXFwdtIBpAFBVV95cUxNYUtpb3F2TXpnR2lVNVNmNTJBZXpIM2N1LUU5N3FqMlI0RTR1QnJCeV9hTms5cHVZbDh6SmlQX2xjNmJSV0ZoX253Ym5oX3hjUWhXa1RfdDJNSm9iaE9qdjc3RGpsTVdjVDVvX0IwcEJQZjBmczYxNng1OUUtMENLNVp5UXM0Vm16eUY1OVpEZkY1dXFIZlp3RXdMY1ZxN2FHcXFwdg?oc=5",
     "fuente": "El Periódico",
     "fecha": "2026-10-22T04:00:55+00:00"
+   },
+   {
+    "titulo": "El submarino: Rufián, vigilado",
+    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSnhSWmJEblN0MzhUbWVZQVg4SzJOS3Bia0tnY0llenFnY1lQcmtHdjBndHU1V3FGYkZIR3AzZXMzVWNGc1VRUUM0X2tnOF9TQzRITHY4a0NsMjBDWGlySXlrSHhMSkY4NHBCN1RkQkk0RkdfQmhfTkRURGZfZ1VKZElrMElxS3V3QWNsZEhWeE9PRXN6TGUxdVZzM3p6OXfSAbMBQVVfeXFMTU83bVJwZlpTTXc5dVkzRUZXNmRWS21kYTkyOWdXZ2pBYnZDU3I4aDRaal90TFV2UWc5aHEtdEtfQ3ZoUm1CRDZQZ1ViR1Q4QW1TNW1vY2NBbWlZY3ZTdVBOQjJoNHRQSzVjUjA4dWhuVnYtRzNCV2FSazRLWDZhMzFndGgzU3NWYm1PT2pHSElmZjRlR043bnRxRDRhenpKN0tkQWU1Q3FORkhqbThNYTlaMk0?oc=5",
+    "fuente": "La Razón",
+    "fecha": "2026-10-21T22:20:15+00:00"
    }
   ],
   "Junts": [
@@ -382,16 +382,16 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/22/6ada2713101ef6-16743162.jpeg"
    },
    {
-    "titulo": "Toni Comín (Junts) recoge en la Junta Electoral Central su acta de eurodiputado tras acatar la Constitución",
-    "enlace": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNSFozWEJadnpfWnVvc0VSVkhDbkljNktJVUpvSjhkLTJnTGJVbDhvckMtaXBHMldnTHh4TjdIdlI3LWt1eW81SXdBbVpNMERWS0FQRnRYWVF0anR1Q2VNeVFKczB3N1hGUjE2ajZfMTFEUE9rTHdqVjY2S0stVkpRV3R4dTJCbjFQTHI3ZVRSYVR4cktGbHVkaDh5QTNwek41MDh3c3ZTVExUMEc1SmpUaFNKYzR4TVl0d1lpQU5EelFjR2FaWWRZWVc4T2RBVGxodVFFWEdxWmxLdHU4eGgzVjM5V1BvWXhfQ3Jpa3RMOHhyWjRNTllvVncxdnJjTkRVSWctMWI3SE7SAYgCQVVfeXFMTUhaM1hCWnZ6X1p1b3NFUlZIQ25JYzZLSVVKb0o4ZC0yZ0xiVWw4b3JDLWlwRzJXZ0x4eE43SHZSNy1rdXlvNUl3QW1aTTBEVktBUEZ0WFlRdGp0dUNlTXlRSnMwdzdYRlIxNmo2XzExRFBPa0x3alY2NktLLVZKUVd0eHUyQm4xUExyN2VUUmFUeHJLRmx1ZGg4eUEzcHpONTA4d3N2U1RMVDBHNUpqVGhTSmM0eE1ZdHdZaUFORHpRY0dhWllkWVlXOE9kQVRsaHVRRVhHcVpsS3R1OHhoM1YzOVdQb1l4X0NyaWt0TDh4clo0TU5Zb1Z3MXZyY05EVUlnLTFiN0hO?oc=5",
-    "fuente": "Infobae",
-    "fecha": "2026-10-22T12:36:46+00:00"
-   },
-   {
     "titulo": "Toni Comín formaliza en la JEC su acta de eurodiputado de Junts tras acatar la Constitución",
     "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZHlEMzJYQXhEQU1pMjlTNURPVzF4RE0tOHE0STFrVXpYNy0tS3VYMm5TTVNYMEY0R1B6YlNFOW1lM2ZqbGN0S0pscFVvRTh3QnE2eVFGR1VNQ3dSVXRwUkhidnhPMWprZzlSbXktdGlCYkk5YlJUenNqeUdxeVdjMHI4RTJfVW1aU29qQy0tYzRENF9Nd0NPN3NwaTBlRHlRRGM2Y2lDX1h2R1hPVXUzZXVPRTg2ckVadE5Tb011U2FER0lWbk5wa1JmSDRoYk96eUd0U2dreWRFdkVK0gHiAUFVX3lxTE83cDVOeDdVbnBNZlREWU92NnRRbVR3Y2pyR2g5RkFxU3dBSUlheGc5MnFhRE5tV3c0Vnk3X05VRFd1bTNjVEY0MnUwSlZQT2RSQVdaMk5mYzVNeXJ0ZU5NSE5TM0pQaEp1UXkyZS1MdlRoREtCQnpDSW84WFRJZW9oejBRNzlJcm9RTGNwZGJtNzhMMVdTLWhibW50ZHR4SzFpOW5xQmN2R1oxLWFlSlExNDR1YVA2NWVYOUVZTmNaNnp0MlVZd01salJKdzQyc0h0YVYyTnJqYkIyN3hzRkZ5dkE?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-22T11:49:05+00:00"
+   },
+   {
+    "titulo": "Toni Comín (Junts) recoge en la Junta Electoral Central su acta de eurodiputado tras acatar la Constitución",
+    "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQR0d2RlZmWE5LTks5ejVYQlF3enhjZl9QZ3JrTFhXbm1uZER1MHRBd093Uy1iY3pJMzB6YjRMaDNOYk1fMnYwSFp2MkJuUk84RU5uUGxQT2ZEcUUtSTNWR0YwUmhBVEdhLUJKRXF2YmN4aWx0ajJSSjN2cF9hWmUtSVBIbGJjWWVGdXJhYVh3LTdKVnVEOUZLZkhIYU1mTWZXT01vSUFHMmNWS2dZM1B0NGVVczdURFRid1ZCTHk5T1phNVVXTmlqc3JTYmJVcTloYlFXQ2ozNUctSkx1bnA3OERn?oc=5",
+    "fuente": "Diario Siglo XXI",
+    "fecha": "2026-10-22T11:47:00+00:00"
    }
   ],
   "Bildu": [
@@ -512,6 +512,12 @@
   ],
   "CCa": [
    {
+    "titulo": "Coalición Canaria cierra la puerta a un Gobierno PP-Vox y teme la “motosierra” sobre los derechos del archipiélago",
+    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd04xbktmT05uZUtYWGQ3S3hScVpoZjR1eEpEYmllMy1ZSWg5R01CblhsV2xXUXE3WVo0cWJheTlwSTFkZnhMblNGdGtCYXREcEpUaFhsNXdxTE5MWjFrRndWZzJOX290VjdHQWlfclhJam9UQTdqc1NRY0JNNGRJMlV4ODBZeFhNdi16dUtZcjkySEFaQlRLRHQ4MXlxZndfNHRoMFkzS1BrREVfVUdvbE9BZjdBc3lVaVBUcm5qNnFVcHVxREQxZlZicmhITVdi?oc=5",
+    "fuente": "El Burgado Digital",
+    "fecha": "2026-10-22T23:01:42+00:00"
+   },
+   {
     "titulo": "Coalición Canaria niega su apoyo a un Gobierno del PP con Vox tras el 29N por el choque de sus propuestas con los intereses canarios",
     "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNSlh6V1ROSmdpWHByMjlWOWFMOTlYamY0YVNqcmp0NzdsLWxMb2hRTU1Lc3d2dHo2d2hYZzNQVTdMWnlPb0V6OGlzU2p6VUlYbzNCV3kxN2FudENKMG8xM3B2WE9mWGZPTUVHRDd3NDcwaVJkcU80cW1fSFNwUXM4aFZobHpaNWl5dVhkbzBGWWtSckI1b3daRjg1QXBub0ZMNFpFLXFmc1pXM3hSaVJLeGpTbEJWMmxCdEpRU3B0dlBxQ2pESmt1bXgzYW5QenpUcUdJVDlOR0l2bVIxTXJJY282bzRJdGRjN3Z1S29KUndIcmk2OTYtTElGZ1VuNzE2eG5uRWN3?oc=5",
     "fuente": "El Constitucional",
@@ -540,12 +546,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQnVjN3lfejh4blRHVXRYQ2NHZjNGby14WXprcGhsRG9JTDl2TU95el9lT2RZcXNES2JjQTFEb3dYaEJlbE9DVXlfazZmTlBya0tNYU1IdEdEOW0ya0tlMkRhQ2ZWekxyZ1ppc2JIY1lXQ18xYmhkSTdxVWdRVXA5cEtfcE1KQTRoMlByUmREYW9CNUJRYXVONVhR0gGfAUFVX3lxTE4yWEp0MUVyVVNYQUtQd0FKWG1Nc0FraEswU1VQeHpUV0QxQk1iNEpuakplZ3pGc0ItY0dodDR6d0Y5d1RwNjItV2YtYXNvSXRBOHJVV2ZpUmJaaGlzbmNDSnNWYlZ3QnpvVHF6VlpDaDc3c2RkU2hTOERNeHFHSHRHSzR6NzhqYjEtTEJoaGtfNkFZSTRoMVJIbS1qM0lZYw?oc=5",
     "fuente": "Diario Córdoba",
     "fecha": "2026-10-22T12:08:25+00:00"
-   },
-   {
-    "titulo": "Víctor Chinea al Senado por La Gomera y Libertad Ramos al Congreso por Coalición Canaria",
-    "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX2l2SnlFMU9vM2ZxQ2hPcEVoR2w1ZkhvRDB1dDByZE9DbDhZckRBTWMxbFhnUUI0c1kzOTJTVVFyQ252LTgyaEZFcU12UE1fNElaM2N0QVhRM1BiMXJyc2V6VG5ONDNFbVBjeERlZTE3ZXZ5cFp4NXgtWm9oRzliWlAyTkdNRGU4Mi1Femc2UndEUXlmaU5UeGd5X190cmhsbWdSeFVERmN5MHh6WGM3ZVdQZnJuQVhISkFDdTBBc0VvaUZoLXpsb0lYQdIB0AFBVV95cUxOS3p4cnVfYnIzRS1qVHF5Q1VsRnVmQlhVRWVwc2VmX0t5QnA0WEY2Skd2UXk2MzV6b2MzTlFYZmdjOXFrWVNMdmdUMUt6ZUJ1alhaZUVId1R3dlNRVGVCa3c2Q2ctekE4VDFjQnBROTM2a29XcW5LUVFGZ2dFT1pmZkZyb0M3djN3NDZLZjRGUVNScUdQemZMNlJ4RFNYYVFwY0RVVEJJLTd0WmhWbU9KNVF1YmZYSVVaeVVkQTBYMU9MX2ZkcGZUdlBOa2ctLVNC?oc=5",
-    "fuente": "Gomera Noticias",
-    "fecha": "2026-10-22T07:43:44+00:00"
    }
   ],
   "UPN": [
@@ -554,12 +554,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZjEwZ3dwMy1SNmY2NkJZZ3paNV81eUczZWI3R0Z1ZTRFQnlXZTVmeW9fRFlCMkNPZWxrT3lpa3JHZFFlM0F6NlVPQ1ZsTzRWSW1DNzUwa0RpaDlmZGpRcEF1QzBNNGdWb3dTcEZUV05RNXN3cmg4MXpOT2VXUjVXQ0xZNWZHTV96WDQ1WUJGUlktcGpZWWM5RktISkJiYUo2R1ZmT0VDWdIBrAFBVV95cUxQNFpSbUNza0RTQ216eTMyQTI4RF9xNENjNUEwNGFtU3E4ZVdXSDBBWGdUcmFGd3dmajJjZWc1TmpkTkNqRjNQNktrTWUxUkRRMW5BSU0xY29sekRGRnBxZUdXNmlCRmhWSUR3blJUVEd0dV9aWmdVTkhRcGhodHRBdy1KaTVuUF9iYmR3VXFCcXBpVkJNN2FneGl2R0s3MlNockdsUlQ2T0VjRFF4?oc=5",
     "fuente": "Noticias de Navarra",
     "fecha": "2026-10-22T14:16:41+00:00"
-   },
-   {
-    "titulo": "La Junta Electoral desestima la petición de UPN para que Chivite suspenda un viaje a Perú y Argentina",
-    "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMEVVZHkwbFg4Wmo0V3JIbk5WSFAwY0FHQjlrUEpEVG94Q0pCZmJEYUsyMDQtRk54T1N4SW1DTHRHdEFZOEZDYjI3YmYyU29KbTdLMTZVeGs5dU5qZzFqdnlORWZNekF5aG1YcjU4WjV1VGN4UmZBT0pVeWhvc3o2cnp4NHp4ZHQ5a3Z5b0J1MjVOUHFqYWRkVHB4Zy1YZXBFblViUThLZVozYkdDb3JJN3NKd3ZIQXVmb0ZDTWtsZ3R6Z9IBxwFBVV95cUxPc2VIaWtFUW00ZVpBQ0ZEWWdtNzgwSlNqdU11Z0pYYjNITjZaUXB0V0NJanp5SE5pQV9VbkUtNU9yOUlHZUUtSnhUb3Z5YUowVm41SVcwUXVZcW5tc2NxRklsYkpCRExfNmtsbDNxTms4V3hPV0x5bzVRRTJCSG9fODJYcGNDVGVIa3ZMWTh4d0FuU3NZYThyUmVGNko5ZVZJZ3llV01mQktjWExBZzVpdml5NXczN1JDY2xBbWc4d0pPWDNBLVo0?oc=5",
-    "fuente": "elDiario.es",
-    "fecha": "2026-10-22T14:16:31+00:00"
    },
    {
     "titulo": "Chivite realizará un viaje a Perú y Argentina tras desestimar la Junta Electoral una petición de UPN de que se suspenda",
@@ -580,10 +574,16 @@
     "fecha": "2026-10-22T07:02:02+00:00"
    },
    {
-    "titulo": "Acusan a director de la UPN Ixtepec de violar derechos y de desvío de recursos – Zona Roja",
-    "enlace": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE52djVBN2YtN3lxUWxDbm1hU1FYQlJuQTJ3LTkwTWpxRzlKbmtpcTcwU1R0N2dndDJFbmZV?oc=5",
-    "fuente": "Howl.link",
-    "fecha": "2026-10-22T01:27:03+00:00"
+    "titulo": "UPN promete bajar los impuestos a los ricos en Navarra: \"Bajaremos el impuesto de patrimonio, sucesiones y sociedades\"",
+    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQ2w3ai1tTG1PZkhoTEFsMlpYMzdEQXVUYXEydEhteGNLNGtBY0Eyd2plRjk3SU5pRmZ0T2tBdnFWWXBBeVRyeFdTNnE1Q0lYUF8zdkFIUl9NaUdzM3djTFlmcm5faEhOaXphdGctaFZsbVRNUHFQb1dFMTRnX1E5OGJUX2I3aEdMOVpYb0pZakVsZDBaaFRZQzZYXzBYQ0hsdzNWMnZqWVhJVXI2Y3MyaWh5Z2JiUWVtdTZkRE5zRFVCcUtKQ2lMRjN30gHPAUFVX3lxTE1FU2hzYno4Q1dSRDh1cmVtdUlOUlRyT2ZHOUhpV2Q4SS1uQWJ4cmVrdk80cEhQbnlNTzZYTWhsdVMtM3pGaVNoVXZzVE9DcWZha1F5Q2FULU1tcEdpVmhIaHF4ZWVnR1VNdUNMRC05ZFFJaGYxc0JhQVRkdnJnZ1NNU2o5UUViVXdHZmVxUlcxSTE2a0FTZFhkdVB6elRTenBuem1YUUIzazFvclpTT0g1a2xlNUFpdzAxU0hhclMtaDF2V0Ffd3pnU1BHM2NPMA?oc=5",
+    "fuente": "Noticias de Navarra",
+    "fecha": "2026-10-21T18:01:44+00:00"
+   },
+   {
+    "titulo": "Dime con quién andas, UPN",
+    "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWDhQRmMtaFFiWUs3TUpFcEUwTmNnMGdTbDBUY1RnRXQwWUtlTGxXS0Z2RkxKUVVMRkVOSk9Zb1dnRjA4ekJ6SlBCZDBfZnp4eTFkZllMMUJsczJaZjQ2ZXRvd2FheURWRmZBWktTWGM5V0xqQnRjMjBNTm0zZE1TNGxoS2ZmWXdo0gGOAUFVX3lxTE9xRFR5cHhURkw1NFZJTUpxOW44WGJaaENHOVB3X0x6SkVobjJmRWM1Ukp3SW1GMjJoSXVKV09CUTFzRU5NWkd5UkVSZDdORmY4dHhUNGRnblpjVDlESVR6ODhGRkxja08zU2dZeDRFNF9URHdLQ0M3U2hCMkpQRnk3bGRzZ052ODl5aVJHVGc?oc=5",
+    "fuente": "Noticias de Navarra",
+    "fecha": "2026-10-21T18:00:41+00:00"
    }
   ],
   "AC": [
@@ -821,7 +821,7 @@
    "titulo": "Bronca en el Partido Popular, Vox y la Corona con el fiasco de Milei en España",
    "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVWdUWkVubE9yZmwxNUM5SmlPeEcwX3R1dHFjNmV6QnpNc05Kb1Z6ZUoyTTVUaW5vY1ZxSkE3QTcxc09pWU5PeC1oYS1md0xUUWZpNk9weDR0RmkyNVN4VVJjTTdYeXZHeU1jbmlJb204NXJvMUpwN0tJOXBVMG8zYnRMb3ZabUFzamd6RjRQcVg3RVpwb0ROeXFTTzRVa09kSF94dUFuSU5qc3dyZkRmYUhEZ1Y1RUtuTGdHVHo4Vl82dF83c3JnWHBBY1EydXB2MHU4?oc=5",
    "fuente": "La Política Online",
-   "fecha": "2026-10-22T21:47:28+00:00",
+   "fecha": "2026-10-23T01:39:24+00:00",
    "partido": "Vox"
   },
   {
@@ -888,11 +888,18 @@
    "partido": "ERC"
   },
   {
-   "titulo": "Dimisión en bloque y rebelión en el PSOE de Palencia",
-   "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNS1A0bzVmS1hvSXY4TkRkZzYxbTFRd3RQc3RNZlZMUFVZckp3YUxEdWZpWG1kTThtVklKcDdXYUp1R0lURC1yelB2VWJsWTlhMkQ5bkc3dVJ3Qmt0RkJ5TTY5NURGSVpXSU5aSHEwU0JNSmo1a3UyX0RRVlpJeVFfWjRNc2EydC1RLUZLeXRkWmd1MGdMb2VtNnRzTWx6Ul9ITU5hVm5nT3M3bkNPUzlqS0s5LW9ZY1hRSTNOTEVsWWh5QmxLcWJOY2M1R25HWGc1Tjl6cWdBSE5zNm0zdk92LW90RdIB9wFBVV95cUxQMlFjTGNETXRCbDVpRWU2ejZhMER2YlBoTE5QZnVySEY1am9xNWlLQ21jVm03OTZET0tsY0tiNWY2MmxFRE9EQUw1QzhxdzZWeGVEUmcwVWdON0JfUzJlUDlPRm5QQ015SVNoMVp3eVptUEkxN3VqZWFRVGJzUHlaRTJMYlhZQjB3WFNib0V3MUJSeEJZb2IxNVpkS1Z6ZTVUSnBXdGJCMFBrM2ZUeWQtdlhCX1p4X1dVcjdCZUh5YnhCY2wtMjJmb3lLNEhxYlBQZHdxMmxWU2tOaUpOZlV0d1Q3VGxVM0czck9FRktfYWxNNGcyUVpZ?oc=5",
-   "fuente": "La Razón",
-   "fecha": "2026-10-19T17:42:36+00:00",
+   "titulo": "Malas noticias para Pedro Sánchez: renuncia la vocera del PSOE tras el escándalo por los 30 propiedades de su marido",
+   "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcmdudnFsZ0FQR0phQlVIa05CSGh6SHdDTDBYS1hqdmFtZ0VUQ3BVWTNXT3dNelprVmg5RDctOURYazR5SXBTYnczZVZHa0pCU3lzeFl0UWFQRUZrQnpFSGU1Qm5md3RKcldsZG56c0NxcHVTZHp4ZVBHVk1mTzFfUG5IUHZuVEc3b2t5YUVMVFFFd1RhOGJZWFVEMHJKSUJmNkdMMHJ0TUZkbVFaXy1FT1p0WDJjVUFfUGp5Q21ZWHRpVVVZYkJJem41MWlwYlZiRmdVWjczVExnSTgzMk13T3ZxXzh4dk4yNHM0R2F30gHzAUFVX3lxTE5Ndkx4RnNKTlh1WEN6UWlVS1I5czhpekc4UnlRVzQwZGRXblN0dFhienpxM0pSRGdJTzVFdVgtcGlHaHpqWjdrZ3kyME9hbktPdUVZWEJKWWZzTy15OFhPNGR3SXBoa2llQ2NnQkFpOVhtaXFONF9PbVZ2bHZ6dmpjeWptMG1xLXNjX0Y0OWJUWEdsdFdRM0pZNm45OFFaajE3aHh5RWV1dWFWNWtVZFZRNXFHYUE1RTJ0VElVWWtzSFBpM2YtcFNUQUdWZkQ1WGpGSnJ4Vkg5cldkYlN6bnZtdWZWN2duSXQyTy12WU9ZSE9YRQ?oc=5",
+   "fuente": "El Observador",
+   "fecha": "2026-10-18T13:58:00+00:00",
    "partido": "PSOE"
+  },
+  {
+   "titulo": "El PNV alude a riesgo de «terrorismo» tras dos detenciones de la Ertzaintza rumbo a la AN",
+   "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORW1LemcyYmRfR1hjZkNuaU8yWDhqcG42MXVKYzV5OEJua2t4ckJlZk9YQkNJWEdIV0NVVWtOYVY5bDVhOGE0YnluYnNxZnVVeU9weUxsdk1LMUllRi0xZjVRLUFzXzV4NlhCVGc3NmlhMXVaV1RxdmxPLTVaR0kwOVBiejdFVS13cWJaVC1NSEJCNFNOcWpmM0ZSZXNLbjk0ZFRYTzdiQ1o3b3FRNW9tS2JFRVJyTVBGTU15YkhqM1FtRHJBRjNZaldR?oc=5",
+   "fuente": "naiz:",
+   "fecha": "2026-10-17T21:55:00+00:00",
+   "partido": "PNV"
   },
   {
    "titulo": "La polémica frase de Gabriel Rufián (44 años) sobre la cultura: «Prefiero llenar tiktoks que bibliotecas»",
