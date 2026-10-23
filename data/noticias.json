@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-10-23T01:01:33+00:00",
+ "actualizado": "2026-10-23T01:29:47+00:00",
  "generales": [
+  {
+   "titulo": "Feijóo y Abascal ultiman el pacto para el Senado con un cruce de sondeos",
+   "enlace": "https://www.larazon.es/espana/feijoo-abascal-ultiman-pacto-senado-cruce-sondeos_202610236adab2d41e66613d9f19b5c0.html",
+   "fuente": "La Razón",
+   "fecha": "2026-10-23T03:05:24+02:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/15/71590313-8317-4F38-8735-C06EAE9606FB/alberto-nunez-feijoo_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
   {
    "titulo": "Génova cierra una «renovación silenciosa» más profunda de lo esperado para el 29N",
    "enlace": "https://www.abc.es/espana/genova-cierra-renovacion-silenciosa-profunda-esperado-29n-20261023025045-nt.html",
    "fuente": "ABC",
    "fecha": "2026-10-23T02:51:35+02:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/23/1515149174-RcWTAFaX8LaiqJ6UVHDwghN-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "El 29N aviva el choque por la financiación y la vivienda en Andalucía",
-   "enlace": "https://www.larazon.es/andalucia/29n-aviva-choque-financiacion-vivienda-andalucia_202610236adaa3941e53586bfbb8ebb3.html",
-   "fuente": "La Razón",
-   "fecha": "2026-10-23T02:00:20+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/22/B294B2A4-1A6E-49A4-A703-DA96071F40A8/96.jpg?crop=4181,2352,x0,y254&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
    "titulo": "\"¿Será un psicópata?\": Candela Peña pregunta a Sánchez, entre elogios a \"Bego\", si se presenta porque \"mola\" estar en Moncloa",
@@ -75,11 +75,18 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Génova cierra una «renovación silenciosa» más profunda de lo esperado para el 29N",
-    "enlace": "https://www.abc.es/espana/genova-cierra-renovacion-silenciosa-profunda-esperado-29n-20261023025045-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-23T02:51:35+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/23/1515149174-RcWTAFaX8LaiqJ6UVHDwghN-1200x840@diario_abc.jpg"
+    "titulo": "El pacto PP-Vox en el Senado: los 3/5 de la Cámara y una factura política desigual",
+    "enlace": "https://www.larazon.es/espana/pacto-ppvox-senado-35-camara-factura-politica-desigual_202610236adab52cf655b65cc38564d5.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-23T03:15:24+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/05/FA87AF96-25D2-4E86-BC60-FF386AFFA270/lider-alberto-nunez-feijoo_96.jpg?crop=1242,699,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Feijóo y Abascal ultiman el pacto para el Senado con un cruce de sondeos",
+    "enlace": "https://www.larazon.es/espana/feijoo-abascal-ultiman-pacto-senado-cruce-sondeos_202610236adab2d41e66613d9f19b5c0.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-23T01:05:24+00:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/15/71590313-8317-4F38-8735-C06EAE9606FB/alberto-nunez-feijoo_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "La lista ganadora de Feijóo",
@@ -106,21 +113,15 @@
     "fuente": "20minutos",
     "fecha": "2026-10-22T18:54:17+02:00",
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/22/6ada3b40485d80-42209046.png"
-   },
-   {
-    "titulo": "Feijóo acusa a Sánchez de \"agitar el miedo\" para ocultar los escándalos del Gobierno y buscar la \"impunidad\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcF9Udk1KLTRqT25nRlRhQjYyaDNlWmcwY1hkc0RrQzAzUFpOejZoNnJCZlpIaFlUYzRMeU0yOVhqclZSTUJEN2R3aG0zYXVSVGhRd0xNbUF3RjZGV0ZFcVpXS0lRcU1rYURCY2hmRjhPLUw2RXB6eWpfLXpINVQ0NUZzVFpYbFlhMWxVUVRMQVFoaXBfbFRENXg0MV9kRGhoOGZ6d3hVY0FkX3FzTTBXb2dGdTA0S3FKMkJKZG1DNDAteF82WGJhUFZXbEhpSjg1eldQMXNuRE93TG1vWWpCTUhn0gHnAUFVX3lxTE5VbjhBei0xcHE0UGdGbUpnQkNiemhXZVFUcThxb2VBc25yck9uOGRDTzB1dWhZUXhFbVZzcjRMMDZuVEFuZDd3eFREYmViZ2Q5NW1nNWttT1ZOTUpDWW9UUktEeXY5OFJhVlJIRGdlMS1xa2g1RjczYkxSSllkd0dvQzM1SWFXdk1SUENmVlFHYWxKNzZnSHFjUkh1N2Y0SnVkSHRSczJVanZXUFhYS2F1VFlwYzBpWS1XeG9xdVd2eE9CWnAyQzNTV0VWU2ZKc0JwVnRNaXZHT1kxWVFUblFqYVdkVy1xVQ?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-10-22T18:42:00+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Diputados y altos cargos del PSOE se convierten en falsos periodistas en redes",
-    "enlace": "https://www.abc.es/espana/psoe-pasar-altos-cargos-periodistas-neutrales-pseudomedios-20261023025033-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-10-23T02:51:13+02:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/23/1507558366-RvNFXxuAQeRUEMTVz6Sh4mO-1200x840@diario_abc.jpg"
+    "titulo": "¿Dónde están las 260.000 viviendas prometidas por Sánchez?",
+    "enlace": "https://www.larazon.es/economia/donde-estan-260000-viviendas-prometidas-sanchez_202610236acf8093bafd3d73635fb3d3.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-23T03:17:51+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/06/96383F5C-9873-4256-8F65-19C722245C61/ambiente-acampada-sol-pidiendo-vivienda-digna-declaracion-pedro-sanchez-convocar-elecciones_96.jpg?crop=4896,2754,x0,y254&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "Sánchez apela al voto útil y dice que sabía que la apuesta de Rufián \"no iba a volar\"",
@@ -136,6 +137,12 @@
     "fecha": "2026-10-22T23:54:21+00:00"
    },
    {
+    "titulo": "Pedro Sánchez ha recomendado desde 'La Revuelta' que apagues el móvil cinco minutos al día por tu seguridad y esto no es una idea tan descabellada",
+    "enlace": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQU050UHRQbGI5US13dkp6VnBmNmlJZmtkRldjdjZxYjdZVURnUlZhU0Vjd1FoYkNFWmVKcE5tNjZ3RzgxV0RhSkhJaWplMXU2U1RlMGpnQUVfYnhRVlpEV0l6LVVWZXh4Sy1MX3c2QlhHRjBreDRjSUhTaldGZ1M1WGRpOERoNjlmQjdaMTh2NVhQczdYNzlzdFhpS18wUFNwYnNsOEx1N1NnbWJHUGdCMGZBQmdlbG1BX2FXTjZxSGFOOE5zYUNkZElqWnJRcFV6aUtzdzd5Z3NkbVgzN2dsRVdMZko3SXl2WVhJZGxkUG5WOHRqeE9UNHJZX0t6UHlLVTJjRGx1LU9HS1QwM29jRVV3MXdsSWNxMFZlZ1ljYjdpRU9RTkJYcUFoeUEwbzQ?oc=5",
+    "fuente": "La Razón",
+    "fecha": "2026-10-22T23:29:00+00:00"
+   },
+   {
     "titulo": "Sánchez es un toro muy toreado hasta para Broncano",
     "enlace": "https://www.eldiario.es/politica/sanchez-toro-toreado-broncano_129_13608282.html",
     "fuente": "elDiario.es",
@@ -147,16 +154,23 @@
     "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVUdScnRGUGh6ckZvdWstWFdQTzhLN19qclp5U3NCQW9EYWtmbmFBMEUzQ2pRcFIwZGNOanplU0dhWVJUSFNaWXJZQ1hZNXR5UFBsRnBjWmxTeDRXRkNGRHF4MGVtcFhYejhlVVBRVHZKTWpUd3RsOXltb0dJdTcyOFpzY1NaYkU5QW0xcXB4MVB3SkRjbk8zNEVDVzViRklyOHZSN1VMNjJndHFkS210OGJ2Rm1XYmpjSDJmdHZxYWpqOTJLQkJZVXNpNnd6dDhfNzB1VEgybWpIclNBOENtY3JpWWNMdFZzcm5nWlZaTjc4VzjSAfMBQVVfeXFMTm5pOU8ya1ZLUEJjQ096Y0d0cXFRaFFuVGNJQU9VMVZaczdHbnV3M0pLUGlaVkNsVmFNaTItYTZSbm5Qay1mVTFLMnBOdVVTMThfT1A4QmlIVERZWm93YlNwZW5raW5sbEdMeFN0M2RONnBsRmY4eFB4NmdPbjdOeV9UUklBYW5RSmNFR2lkaUM0MDhhZmNHNHVFdFhKM3VEWVk0WmEzUHppTkhVUkNaYTFmWVBkcnZGQ1FodjJTOVlNSlRDcmtxRzlwQmtWdTdneUZLMkluYWFhS0FUZDY1SkE3RHJLUG5fdXlJcEJRZ0tTNnYw?oc=5",
     "fuente": "MARCA",
     "fecha": "2026-10-22T22:53:23+00:00"
-   },
-   {
-    "titulo": "Elecciones generales 29N, en directo: el PSOE estudia acciones legales contra el PP y los partidos aceleran el cierre de sus listas",
-    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-candidaturas-psoe-vox-decision-constitucional-voto-nietos_202610226ad98b7c658beb674b22d843.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-22T21:30:23+00:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/21/77E8D7D2-2B27-4845-9922-C6EB9B336768/presidente-gobierno-pedro-sanchez-acto-politico-precampana_96.jpg?crop=5485,3085,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    }
   ],
   "Vox": [
+   {
+    "titulo": "El pacto PP-Vox en el Senado: los 3/5 de la Cámara y una factura política desigual",
+    "enlace": "https://www.larazon.es/espana/pacto-ppvox-senado-35-camara-factura-politica-desigual_202610236adab52cf655b65cc38564d5.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-23T03:15:24+02:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/05/FA87AF96-25D2-4E86-BC60-FF386AFFA270/lider-alberto-nunez-feijoo_96.jpg?crop=1242,699,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Feijóo y Abascal ultiman el pacto para el Senado con un cruce de sondeos",
+    "enlace": "https://www.larazon.es/espana/feijoo-abascal-ultiman-pacto-senado-cruce-sondeos_202610236adab2d41e66613d9f19b5c0.html",
+    "fuente": "La Razón",
+    "fecha": "2026-10-23T01:05:24+00:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/15/71590313-8317-4F38-8735-C06EAE9606FB/alberto-nunez-feijoo_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
    {
     "titulo": "Sánchez garantiza la continuidad de La Revuelta en TVE y avisa de que PP y Vox traerán censura",
     "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSUlGTmI1aGxmWGJyOEJzdnN3eEt3cUxrSVVyZERTUC1CQVMwYTdKc2RmazQtMU9ZWkNmY0FNV05tcXR0LUpCN1ZZVElIOEhhNC1tWUJ3NDdweVZIcFN6eUtscTF3Qzl6YXJoUnZTQkZVS1NhMVVCVktSZGR5VEY4cHJvWmNnU1dLUkg5MGhGM09pNkpoSVFEVEw4NHp2VzhjMXFMZHZETV9aMHhQMFBKWGtvRlF4dmd1TzNfeVFfa2IwZ1U2QmlEatIBzgFBVV95cUxNUXBIa2k4ZGh6UExrbXhtb1BMQkRTUHRvYVotZngzLXNfazg0QjhBVzlybUJVWGRwdU1Dc2JYZ0w0eTV6bVA0TF8zTUpxTU02Um90eUwzX19kbnlFRzR3WGlYbFRSZEVpLVBKN2NuTmpfVF96QWN5SnRtbXd0UmRHU2IxTVJpNl9PdXFpY1ZiTlZNRTRDbF9NcEp3NzdwLTVDQzJDb3JnQXdYWnczNE8xajl5YUs3UV9pVmZ6dTFMZkFfOTVhYzZ4MENmVThvQQ?oc=5",
@@ -171,13 +185,6 @@
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/10/22/569BDAD0-7001-4217-B58A-2FD9484605DE/manuel-gavira-vox-vicepresidente-andalucia-juanma-moreno-sesion-control_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
-    "titulo": "Abascal critica al PP por condenar Albiol y Moreno las palabras de Milei: «Así difícilmente acabamos con este Gobierno»",
-    "enlace": "https://www.eldebate.com/espana/castilla-y-leon/20261022/abascal-critica-pp-condenar-albiol-moreno-palabras-milei-asi-dificilmente-acabamos-este-gobierno_472670.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-22T21:08:40+02:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/10/22/6ada5c90ca107.r_d.472-263-0.png"
-   },
-   {
     "titulo": "Vox pide al PP que se aparte en dos provincias a cambio de su retirada en circunscripciones clave para el Senado",
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa1kyemx4V0RxOUtER3piU2NiR2VqODVfLXBIY1JhQ3BxYWFCNzJvWGQyQlhMM1BMZlNDR0UzQmxSczhzY29FUnNWX0dGcHFtVDlRN1lzQ3d6eThadldpU3M2a0RMbUNaRi1BTFhqTlRzbzFLQVZteGpUSlVFMWQ5eGZTbDBsN1J6NjVrd0dULTRtVngycnNhZWxxUdIBmwFBVV95cUxOVVpMYU1zUm41R08yTzNaU2wxTndCeDBsd2x6Ri1sNFVuaFRrNUNkODhMbTlxSzFqdW9uaXM1WExmck1hSmctak5QWDBSWHFKQ3VJUG0ySEJOUkwwei12Z0JkbGVHR0NRbi1yVEJYTW81dGMxX1BIem00YWc2VzVaRVVHZ2R0dFVDV3QwanNpMk5OemRhcGVjS1dfSQ?oc=5",
     "fuente": "El Mundo",
@@ -189,28 +196,22 @@
     "fuente": "La Vanguardia",
     "fecha": "2026-10-22T19:55:34+02:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/22/6ada4cebca7c1.jpeg"
-   },
-   {
-    "titulo": "Abascal: \"Así, difícilmente, vamos a acabar con Sánchez\"",
-    "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMUoxS3hwNnZVRlZyM0M5QWlzN0Y2bjFyNHNqS21TSldueWdGTkI2cDF6Q1BKck9kR3Bsck50OFlxVjdiV3l0Ul9wQnMzZkMtam13UTMwVnc5SDJEdnNXTkVfZTZqTVZMSGRwM253N1ZkS2NPaTl0cm1TNXRrbjJmSzNmQzB5N0NzdV9TZGJLaXJ2eU5EbEh1d2xR?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-10-22T19:31:11+00:00"
    }
   ],
   "Sumar": [
+   {
+    "titulo": "Más Madrid pregunta a Ayuso si prefiere que la gente «prenda fuego» a la Real Casa de Correos",
+    "enlace": "https://www.abc.es/espana/madrid/madrid-pregunta-ayuso-prefiere-gente-prenda-fuego-20261022164956-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-23T03:00:35+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/22/mas-madrid-RsJwg3Fpnk7G0UhxbDCriDP-1200x840@diario_abc.jpg"
+   },
    {
     "titulo": "Una diputada de Más Madrid amenaza con la \"vía francesa\" a Ayuso: alude a \"prender fuego\" a la Real Casa de Correos",
     "enlace": "https://www.larazon.es/madrid/diputada-mas-madrid-amenaza-via-francesa-ayuso-alude-prender-fuego-real-casa-correos_202610226ada4bcef655b65cc3852f19.html",
     "fuente": "La Razón",
     "fecha": "2026-10-22T19:45:50+02:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/22/AADE9DD9-1C82-46B4-A2B7-D0A6EFA6E680/96.jpg?crop=3744,2106,x0,y195&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Jimena González, diputada de Más Madrid: «Quizá Ayuso prefiere que la gente use la vía francesa y prenda fuego a la Real Casa de Correos»",
-    "enlace": "https://theobjective.com/videos/espana/madrid/2026-10-22/jimena-gonzalez-mas-madrid-ayuso-francesa-fuego/",
-    "fuente": "The Objective",
-    "fecha": "2026-10-22T15:32:02+00:00",
-    "imagen": "https://theobjective.com/wp-content/uploads/2026/10/jimena-gonza-lez-mas-madrrid.png"
    },
    {
     "titulo": "¿Cuáles son los partidos políticos que integran Frente Amplio? Más de \"los quince\" del sucesor de Sumar que lidera Ada Colau",
@@ -290,6 +291,12 @@
     "fecha": "2026-10-22T19:46:06+00:00"
    },
    {
+    "titulo": "Se Acabó La Fiesta presentará candidatura al Congreso por Baleares el 29 de noviembre",
+    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ0pwREFxUkYxQzk3eFhfTVVxOEM0T2Y3b2pRNzZ3eHk3R3ItLWo1MVNYNFBZQWtDUzZjN3dOVmloUDZzM000YnRMRnhYc2tjRWQyOVIxbnFKRng5Q2Z3ZVVfcmVlaFhDd09uTmhCZTVTSDBJVmcyMEp4aF9hRDZPMC1odkdCVHFfdW50a2VGMnNOakhnSGJZV2tRLTFlakxjS2hPR3ljVkRzWGkzNmVOY3BoRTA0VUNSZU8xd3hjU0lVU0JpUXR2ZHN1VHJRU05n?oc=5",
+    "fuente": "Crónica Balear",
+    "fecha": "2026-10-22T19:45:00+00:00"
+   },
+   {
     "titulo": "Se Acabó La Fiesta cuadruplica los avales exigidos en Illes Balears y confirma que presentará candidatura al Congreso",
     "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOd2tuQ24yYVJ6OXB4NU5VVmhzZFBwb01SQ0FTbzFIYVZvejNVUnlLbVp6YWJnZ0I0Tkp3REJPZV9oXzI4SnRrZGV4UHRmSzBiSU04Zkh1Rl9YWk1tbnFLQ093c1QyYVh5ZnQtSzNLZXRWWG1oSENLUFFRNkpVbVM5czg5c0tXSGlZbEJXcWN5cEpzbHJoZE1PZGR6b1BjZmlrUERsMnJ2RGsySnJSb3VmX2hBU3Nvd0ZMd01KbUM1XzN2VUpRcFFoRU5UWmZzNENweUhYZzFHSDBmUjd2OEhHVjFsUmpSMzlVUmZkOUtGWWU3eTFPN1BLOGNWc25VUdIB_gFBVV95cUxNMUZ4WkpoUGI2Ym8zS3JiZGhKLVpJdmZaX3d2TFVVaVNqYWc5RU4tSDUtZDlxbEZDR2plVUYyeUd1Z3Z2dkp6bG12OF9ZWnVMNXFNUzI2RXJJNERIaUhFT1Y2VVc5VkNQczE4ZkJjOWt5cU43VXBEN09WbVlqRU5mUW9NeUxCZkFlLUdHcXI1NWNMa2d3TjRQeUdKZ09tRm5hd0duS0dCRnBpMXlWWkswZXJwYVVSdFdlTDdHY1VkT0w2Rmsxb3JhWnI3WTlmNVJsXzF5bWhzOGV3b0J6MWl5d29OWGVXOUhqLXFUSUEtS0s2Y1N0YVhuNmpIZGJOUQ?oc=5",
     "fuente": "Periódico de Ibiza y Formentera",
@@ -306,12 +313,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPM0ptcG90SmpQVWVfMmFaYVFoNXpVRXpZWS1qUllhSXRyd0NqQmdjeU9PM1N1SFBjQjlVTFBlV2pFVk5WbTNfaVBLY1pBRHdIa1RLLWtOMm11ZmJuSFhEdHFic19zOEtMbjJQWVUybzdUVXl6aENXdDBHMEhWRFNqdTI2bWxLQUFydEtzekl6VTYyTGQ3NEJnSzFmOHBLbkNOY0J1bmV0bW41a3VPUFAwZUotZmVGdmVBcmpTX1g4VjgyZ0VOcGRZalRWaEItd1ZKZWpHVWhaeTZFdVcxMnc5d0p3?oc=5",
     "fuente": "Diariocrítico.com",
     "fecha": "2026-10-22T13:48:18+00:00"
-   },
-   {
-    "titulo": "Alvise Pérez, sobre su alquiler en pleno centro de Madrid: \"Es una pasta\"",
-    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmxWdElCdGpUd3hpVlJybXlqQXFlWG10LTc3QkppSHEtLXZnQkZnU0lPR3p1Q2c2R0pWckhkcVlWU2RLdDNrbmVxdXliRWVFZ3JOb2N0THZjUEhVU3d3a19oYVUzUkhKNGF4bzFOSDFBZ3FPWkJHU0Z1QUktN1JnVjFpQWNCcmVzRlV3cGRMU3RQdVBpQzZHakxnbnY1ZTjSAZ8BQVVfeXFMUGZsVnRJQnRqVHd4aVZScm15akFxZVhtdC03N0JKaUhxLS12Z0JGZ1NJT0d6dUNnNkdKVnJIZHFZVlNkS3Qza25lcXV5YkVlRWdyTm9jdEx2Y1BIVVN3d2tfaGFVM1JISjRheG8xTkgxQWdxT1pCR1NGdUFJLTdSZ1YxaUFjQnJlc0ZVd3BkTFN0UHVQaUM2R2pMZ252NWU4?oc=5",
-    "fuente": "El Periódico de España",
-    "fecha": "2026-10-22T10:01:18+00:00"
    }
   ],
   "ERC": [
@@ -511,12 +512,6 @@
   ],
   "CCa": [
    {
-    "titulo": "Coalición Canaria cierra la puerta a un Gobierno PP-Vox y teme la “motosierra” sobre los derechos del archipiélago",
-    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd04xbktmT05uZUtYWGQ3S3hScVpoZjR1eEpEYmllMy1ZSWg5R01CblhsV2xXUXE3WVo0cWJheTlwSTFkZnhMblNGdGtCYXREcEpUaFhsNXdxTE5MWjFrRndWZzJOX290VjdHQWlfclhJam9UQTdqc1NRY0JNNGRJMlV4ODBZeFhNdi16dUtZcjkySEFaQlRLRHQ4MXlxZndfNHRoMFkzS1BrREVfVUdvbE9BZjdBc3lVaVBUcm5qNnFVcHVxREQxZlZicmhITVdi?oc=5",
-    "fuente": "El Burgado Digital",
-    "fecha": "2026-10-22T23:01:42+00:00"
-   },
-   {
     "titulo": "Coalición Canaria niega su apoyo a un Gobierno del PP con Vox tras el 29N por el choque de sus propuestas con los intereses canarios",
     "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNSlh6V1ROSmdpWHByMjlWOWFMOTlYamY0YVNqcmp0NzdsLWxMb2hRTU1Lc3d2dHo2d2hYZzNQVTdMWnlPb0V6OGlzU2p6VUlYbzNCV3kxN2FudENKMG8xM3B2WE9mWGZPTUVHRDd3NDcwaVJkcU80cW1fSFNwUXM4aFZobHpaNWl5dVhkbzBGWWtSckI1b3daRjg1QXBub0ZMNFpFLXFmc1pXM3hSaVJLeGpTbEJWMmxCdEpRU3B0dlBxQ2pESmt1bXgzYW5QenpUcUdJVDlOR0l2bVIxTXJJY282bzRJdGRjN3Z1S29KUndIcmk2OTYtTElGZ1VuNzE2eG5uRWN3?oc=5",
     "fuente": "El Constitucional",
@@ -545,6 +540,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQnVjN3lfejh4blRHVXRYQ2NHZjNGby14WXprcGhsRG9JTDl2TU95el9lT2RZcXNES2JjQTFEb3dYaEJlbE9DVXlfazZmTlBya0tNYU1IdEdEOW0ya0tlMkRhQ2ZWekxyZ1ppc2JIY1lXQ18xYmhkSTdxVWdRVXA5cEtfcE1KQTRoMlByUmREYW9CNUJRYXVONVhR0gGfAUFVX3lxTE4yWEp0MUVyVVNYQUtQd0FKWG1Nc0FraEswU1VQeHpUV0QxQk1iNEpuakplZ3pGc0ItY0dodDR6d0Y5d1RwNjItV2YtYXNvSXRBOHJVV2ZpUmJaaGlzbmNDSnNWYlZ3QnpvVHF6VlpDaDc3c2RkU2hTOERNeHFHSHRHSzR6NzhqYjEtTEJoaGtfNkFZSTRoMVJIbS1qM0lZYw?oc=5",
     "fuente": "Diario Córdoba",
     "fecha": "2026-10-22T12:08:25+00:00"
+   },
+   {
+    "titulo": "Víctor Chinea al Senado por La Gomera y Libertad Ramos al Congreso por Coalición Canaria",
+    "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX2l2SnlFMU9vM2ZxQ2hPcEVoR2w1ZkhvRDB1dDByZE9DbDhZckRBTWMxbFhnUUI0c1kzOTJTVVFyQ252LTgyaEZFcU12UE1fNElaM2N0QVhRM1BiMXJyc2V6VG5ONDNFbVBjeERlZTE3ZXZ5cFp4NXgtWm9oRzliWlAyTkdNRGU4Mi1Femc2UndEUXlmaU5UeGd5X190cmhsbWdSeFVERmN5MHh6WGM3ZVdQZnJuQVhISkFDdTBBc0VvaUZoLXpsb0lYQdIB0AFBVV95cUxOS3p4cnVfYnIzRS1qVHF5Q1VsRnVmQlhVRWVwc2VmX0t5QnA0WEY2Skd2UXk2MzV6b2MzTlFYZmdjOXFrWVNMdmdUMUt6ZUJ1alhaZUVId1R3dlNRVGVCa3c2Q2ctekE4VDFjQnBROTM2a29XcW5LUVFGZ2dFT1pmZkZyb0M3djN3NDZLZjRGUVNScUdQemZMNlJ4RFNYYVFwY0RVVEJJLTd0WmhWbU9KNVF1YmZYSVVaeVVkQTBYMU9MX2ZkcGZUdlBOa2ctLVNC?oc=5",
+    "fuente": "Gomera Noticias",
+    "fecha": "2026-10-22T07:43:44+00:00"
    }
   ],
   "UPN": [
@@ -817,6 +818,13 @@
  ],
  "polemicas": [
   {
+   "titulo": "Bronca en el Partido Popular, Vox y la Corona con el fiasco de Milei en España",
+   "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVWdUWkVubE9yZmwxNUM5SmlPeEcwX3R1dHFjNmV6QnpNc05Kb1Z6ZUoyTTVUaW5vY1ZxSkE3QTcxc09pWU5PeC1oYS1md0xUUWZpNk9weDR0RmkyNVN4VVJjTTdYeXZHeU1jbmlJb204NXJvMUpwN0tJOXBVMG8zYnRMb3ZabUFzamd6RjRQcVg3RVpwb0ROeXFTTzRVa09kSF94dUFuSU5qc3dyZkRmYUhEZ1Y1RUtuTGdHVHo4Vl82dF83c3JnWHBBY1EydXB2MHU4?oc=5",
+   "fuente": "La Política Online",
+   "fecha": "2026-10-22T21:47:28+00:00",
+   "partido": "Vox"
+  },
+  {
    "titulo": "Abascal ordena vetar la investigación por la crisis de los cribados en Andalucía un año después de pedir la dimisión de Moreno",
    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbTJQTEZnblpJRXZUMXlUNmtnTGNxYVJpMG5ibGpZMlpLY05PQnE2UVJoUHRkRC1IT1ZzRllZNnc2b1VvekJCQjdQZXMxVUNycEo4YWF1QUVNc2tGOEVUX0JmMjRtUEM2aktaTGJYZjRDZWlUbllHa3dFZFVpTGN0cWtNaFlTbGIyZGc4TjllR3lQbUVleVlUT1RQQ0pEUFVfYkZDM0h4QWZuMkVJSXo5ZVBWNDBMOG9qcWVZZkd4a3lOYk5IZE5fUmxxZDBEOU02S1pfczNsOHRxVGR00gHiAUFVX3lxTE9QWl9ZY3Z5dndCc2JSRmRBUi1DMi1CVlpNUzBfTjZBclBqMzMwT1Zac3NpQzVBSmt0MEQ3VnY0eW90SkpiQjFBVVdTQVVrU0N1QzZGVk1FV2pGWDJTZGY0NFJWTE5sRDJXR3NudDZkUGVaejFiYmV1MVBHaFQ1WnZTVGFFTzl3QzF2dmtRcTNpVlhxN0JGUm10UzB1ZGE4T2dha2lZVG5HV3hQOWYwNlU2OGpQYmFRYWwtTUM1MzB1RkZxRVRacHNJNDB6aU4yUXVpbW0xNEl6NmlKNjBDdHo0aGc?oc=5",
    "fuente": "elDiario.es",
@@ -835,13 +843,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNFctcTJ1ZlQ1d2l2dlZ4ZFBkd2tpOWFjb2xtbFU5ZFRZWVJkbDcxUnRRZVRtcmlRNUc4dVJMMnlwQnNKZ2owaVdxS2VsOGd2NXRiZUZuRWNZZTdmXzA4ZGtwN2dRMTJ2STNxYVVnX3hzR0MwQWpwY3BFcUZzTUhjNVdlOFdnN0w5cDVNMG5kS3dpbzctSkZhWGowbnhlZURWaEdSSmY5ZFI4X3RWTnd2NmlKakQ0NFM2d0FuN2JiSGZNWnBDOVd3Yktqamc3b3N6UV81dklVZk1laG50M01RYktaSld2cExpbnpxSlNKUlNaSlhna1lDaDVDSklTc3BWQy1RcFZHb0ZrMjBDX3Fv0gGPAkFVX3lxTE00Vy1xMnVmVDV3aXZ2VnhkUGR3a2k5YWNvbG1sVTlkVFlZUmRsNzFSdFFlVG1yaVE1Rzh1UkwyeXBCc0pnajBpV3FLZWw4Z3Y1dGJlRm5FY1llN2ZfMDhka3A3Z1ExMnZJM3FhVWdfeHNHQzBBanBjcEVxRnNNSGM1V2U4V2c3TDlwNU0wbmRLd2lvNy1KRmFYajBueGVlRFZoR1JKZjlkUjhfdFZOd3Y2aUpqRDQ0UzZ3QW43YmJIZk1acEM5V3diS2pqZzdvc3pRXzV2SVVmTWVobnQzTVFiS1pKV3ZwTGluenFKU0pSU1pKWGdrWUNoNUNKSVNzcFZDLVFwVkdvRmsyMENfcW8?oc=5",
    "fuente": "LaSexta",
    "fecha": "2026-10-22T15:31:24+00:00",
-   "partido": "Vox"
-  },
-  {
-   "titulo": "Vox, tras la operación de la Guardia Civil: “Ceuta está infestada de activistas, invasores y agentes",
-   "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbnN6eWlIQ1F4Z0FYdGVfV2RjalZiUUhvclJTUk1GZ2REQmRfRWVYcDl4T1k4YWkzem1Fd05vN291c1B5SURkRU1ELUZtMzNqLUxpc0Rxc3ZMcmVITGR3Uko2OEllNEZ6OUxKSWFwdXdJNnBTVlhtckMxSlFGRlJ2clJtU0hnT0pYc01lNUE2MVBQajVLdnN3YnNHclpmQVROUTVwZGk3azV4Q0o2X2fSAbMBQVVfeXFMTkdCdTQ2MEFHekJMX0ExZjlib2FXd3B3czUtaGZEN0c1aGhlUV9YWWhjcFRQelozMEhwRlE4RTUxemZhdnUxeVRLT1RYVFdhUTQ0WmMwTjlHYXBXTk02eHNfUnBsRmlPSFR4VmVZR240T0hxMElvdDQyZHV0YmhTZmdycWlvbDB4enlNWWlmcnFZMkVJbDBjUUVqdEt4MVdUeHE3bjdROXVGM3JiSWxwU1hTa28?oc=5",
-   "fuente": "El Faro de Ceuta",
-   "fecha": "2026-10-22T11:20:40+00:00",
    "partido": "Vox"
   },
   {
@@ -892,13 +893,6 @@
    "fuente": "La Razón",
    "fecha": "2026-10-19T17:42:36+00:00",
    "partido": "PSOE"
-  },
-  {
-   "titulo": "El PNV alude a riesgo de «terrorismo» tras dos detenciones de la Ertzaintza rumbo a la AN",
-   "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORW1LemcyYmRfR1hjZkNuaU8yWDhqcG42MXVKYzV5OEJua2t4ckJlZk9YQkNJWEdIV0NVVWtOYVY5bDVhOGE0YnluYnNxZnVVeU9weUxsdk1LMUllRi0xZjVRLUFzXzV4NlhCVGc3NmlhMXVaV1RxdmxPLTVaR0kwOVBiejdFVS13cWJaVC1NSEJCNFNOcWpmM0ZSZXNLbjk0ZFRYTzdiQ1o3b3FRNW9tS2JFRVJyTVBGTU15YkhqM1FtRHJBRjNZaldR?oc=5",
-   "fuente": "naiz:",
-   "fecha": "2026-10-17T21:55:00+00:00",
-   "partido": "PNV"
   },
   {
    "titulo": "La polémica frase de Gabriel Rufián (44 años) sobre la cultura: «Prefiero llenar tiktoks que bibliotecas»",
