@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-23T00:02:04+00:00",
+ "actualizado": "2026-10-23T01:01:33+00:00",
  "generales": [
+  {
+   "titulo": "Génova cierra una «renovación silenciosa» más profunda de lo esperado para el 29N",
+   "enlace": "https://www.abc.es/espana/genova-cierra-renovacion-silenciosa-profunda-esperado-29n-20261023025045-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-10-23T02:51:35+02:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/23/1515149174-RcWTAFaX8LaiqJ6UVHDwghN-1200x840@diario_abc.jpg"
+  },
   {
    "titulo": "El 29N aviva el choque por la financiación y la vivienda en Andalucía",
    "enlace": "https://www.larazon.es/andalucia/29n-aviva-choque-financiacion-vivienda-andalucia_202610236adaa3941e53586bfbb8ebb3.html",
@@ -21,13 +28,6 @@
    "fuente": "elDiario.es",
    "fecha": "2026-10-22T23:07:03+00:00",
    "imagen": "https://static.eldiario.es/clip/db140d06-15d3-4e73-81b4-e492de41aca3_16-9-discover-aspect-ratio_default_0_x702y293.jpg"
-  },
-  {
-   "titulo": "Benjamín Prieto será el número dos del PP de Cuenca al Congreso",
-   "enlace": "https://www.abc.es/espana/castilla-la-mancha/benjamin-prieto-numero-dos-pp-cuenca-congreso-20261022222108-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-22T22:24:39+02:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/22/47846438-RpRfjZo8VK9giZnres4ebBI-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "La promesa de Sánchez a Broncano si gana las elecciones: \"Cuatro años más de 'La Revuelta' si el programa quiere\"",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Elecciones generales 29N, en directo: el PSOE estudia acciones legales contra el PP y los partidos aceleran el cierre de sus listas",
-    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-candidaturas-psoe-vox-decision-constitucional-voto-nietos_202610226ad98b7c658beb674b22d843.html",
-    "fuente": "La Razón",
-    "fecha": "2026-10-22T23:30:23+02:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/21/77E8D7D2-2B27-4845-9922-C6EB9B336768/presidente-gobierno-pedro-sanchez-acto-politico-precampana_96.jpg?crop=5485,3085,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Génova cierra una «renovación silenciosa» más profunda de lo esperado para el 29N",
+    "enlace": "https://www.abc.es/espana/genova-cierra-renovacion-silenciosa-profunda-esperado-29n-20261023025045-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-23T02:51:35+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/23/1515149174-RcWTAFaX8LaiqJ6UVHDwghN-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "La lista ganadora de Feijóo",
@@ -116,11 +116,11 @@
   ],
   "PSOE": [
    {
-    "titulo": "Irene Tabera en la presentación de ‘El hombre que susurraba al presidente’: «Zapatero es el gran consejero en la sombra de Sánchez»",
-    "enlace": "https://okdiario.com/espana/irene-tabera-presentacion-hombre-que-susurraba-presidente-zapatero-gran-consejero-sombra-sanchez-20612158",
-    "fuente": "OKdiario",
-    "fecha": "2026-10-23T01:37:44+02:00",
-    "imagen": "https://okdiario.com/img/2026/10/22/irene.jpg"
+    "titulo": "Diputados y altos cargos del PSOE se convierten en falsos periodistas en redes",
+    "enlace": "https://www.abc.es/espana/psoe-pasar-altos-cargos-periodistas-neutrales-pseudomedios-20261023025033-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-23T02:51:13+02:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/23/1507558366-RvNFXxuAQeRUEMTVz6Sh4mO-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Sánchez apela al voto útil y dice que sabía que la apuesta de Rufián \"no iba a volar\"",
@@ -128,6 +128,12 @@
     "fuente": "20minutos",
     "fecha": "2026-10-23T00:00:33+02:00",
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/22/6ada71f6384887-36247628.jpeg"
+   },
+   {
+    "titulo": "Sánchez regala un ajedrez a Broncano y el presentador responde: “No tenemos nada para ti, que así empezó lo de Zapatero”",
+    "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWnQ3WER6SFp4ckpLY3JLM2lOSm4yaEVKVXEtc2xiazNrQWFjMUxibjgwZm5zYjVSc2NBcEdkTlRMUklCbUc1Zld0QTM1UC1vR1dJMW02bTdGV2owbzJXcmxFQUo5Wm1BdU1yQVl2SGppMGN6LTNiLS1uQzAycTR2YXNvX3V0cHBmbmFWSFNOZk82bmloT1FxWUduSzdmTU5NOTB4bjg2a0FpWHZZOU91THpmT2Y5STlYR0gzV2Q0bGwzdWNKUXI0OWFjWjF5LS1IeFpQeFR0bVlWRHMza21ic09wUTcwZXV5ZHdrTktXMWzSAYsCQVVfeXFMTWw0QlVOQ05oNFJpQXlVbVpEek80TDd4U3o1S2s1WmF0QVJ5TXNRMkx0b0VLVGZkZW1WbHVuUXcyTWNWSjE2ak9WQXQzNWV1SFBoNlJzUnBoVEdOM2llV2hXS0hrY294MjNRekJUQWhkeV9FQUtxdjk5a0s3VnJZT1A0bHJiUkt2TmZVUmlOLUpwbzZnZjdlcHpOR01HOFRXWVM2TG4zUUNWQnZ1WS1jLVdtNFMycG13WUI4N1ZkRUQ0QTFUSTVkaE1BZ0N2dU1nNFBHQXhRTzJNN1dKbUFGaVNTeDJIODNiX05rRlpETElHYm0zWUVfS3RVbEgzWEdOX0lUbzhXZ0FRT3RR?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-10-22T23:54:21+00:00"
    },
    {
     "titulo": "Sánchez es un toro muy toreado hasta para Broncano",
@@ -143,16 +149,11 @@
     "fecha": "2026-10-22T22:53:23+00:00"
    },
    {
-    "titulo": "Los toros cornean a Pedro Sánchez",
-    "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRnlubURLTUJ1MTRlMVFPOXI5R3RLdlJqVUFEOGprZm1RZmUxQXZhYkNPdmF6bmRzMDlVUFFuRkZDZ3U0YktKcmxLcTNjUURCR3RKWDU1UEVmNDBPUXlQQzBiQlIzemlOLXczc25VTnNmLWduaUFaTjVGdl9NQVZJSU5aZmItSkMwZUVGY2Npak1UMlNWdG03WUJWcU7SAbABQVVfeXFMTTB2RFZMTS1SbzdRcVlkLTM3WkhuQnVDd1RYSENPQ3ZOMVhWUS01SXh5d0hMYjlUdlR1YW9RQmp1eGtfV1dQLS1RbWp3R2twSEU1ZXJTd3lid2ROdUJZbFc2VDhyNFhyRC0yVDA2Q2gxSWJYdGhRWmVoN1FVQWsyVXRoVG8yOGpVLV9WNnl5ZFNSbnQ1Y1RtZlRUaUN2ZUhXTzZ1SkdfV1JWTGpRRV9FRXk?oc=5",
+    "titulo": "Elecciones generales 29N, en directo: el PSOE estudia acciones legales contra el PP y los partidos aceleran el cierre de sus listas",
+    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-candidaturas-psoe-vox-decision-constitucional-voto-nietos_202610226ad98b7c658beb674b22d843.html",
     "fuente": "La Razón",
-    "fecha": "2026-10-22T22:30:20+00:00"
-   },
-   {
-    "titulo": "Sánchez regala un ajedrez a Broncano y el presentador responde: “No tenemos nada para ti, que así empezó lo de Zapatero”",
-    "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWnQ3WER6SFp4ckpLY3JLM2lOSm4yaEVKVXEtc2xiazNrQWFjMUxibjgwZm5zYjVSc2NBcEdkTlRMUklCbUc1Zld0QTM1UC1vR1dJMW02bTdGV2owbzJXcmxFQUo5Wm1BdU1yQVl2SGppMGN6LTNiLS1uQzAycTR2YXNvX3V0cHBmbmFWSFNOZk82bmloT1FxWUduSzdmTU5NOTB4bjg2a0FpWHZZOU91THpmT2Y5STlYR0gzV2Q0bGwzdWNKUXI0OWFjWjF5LS1IeFpQeFR0bVlWRHMza21ic09wUTcwZXV5ZHdrTktXMWzSAYsCQVVfeXFMTWw0QlVOQ05oNFJpQXlVbVpEek80TDd4U3o1S2s1WmF0QVJ5TXNRMkx0b0VLVGZkZW1WbHVuUXcyTWNWSjE2ak9WQXQzNWV1SFBoNlJzUnBoVEdOM2llV2hXS0hrY294MjNRekJUQWhkeV9FQUtxdjk5a0s3VnJZT1A0bHJiUkt2TmZVUmlOLUpwbzZnZjdlcHpOR01HOFRXWVM2TG4zUUNWQnZ1WS1jLVdtNFMycG13WUI4N1ZkRUQ0QTFUSTVkaE1BZ0N2dU1nNFBHQXhRTzJNN1dKbUFGaVNTeDJIODNiX05rRlpETElHYm0zWUVfS3RVbEgzWEdOX0lUbzhXZ0FRT3RR?oc=5",
-    "fuente": "Infobae",
-    "fecha": "2026-10-22T21:32:00+00:00"
+    "fecha": "2026-10-22T21:30:23+00:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/21/77E8D7D2-2B27-4845-9922-C6EB9B336768/presidente-gobierno-pedro-sanchez-acto-politico-precampana_96.jpg?crop=5485,3085,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    }
   ],
   "Vox": [
@@ -277,10 +278,22 @@
   ],
   "SALF": [
    {
+    "titulo": "Se Acabó La Fiesta reúne 340 avales en Ávila y anuncia que presentará candidatura a las generales",
+    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUGdWWmlhbHZmYUljSFJhOVdUS21HM2xuWk1PRFlSMEh2c3BkWGJhSWFQcnNUVTFnOTV5R2NqdGtmXzFXYjZuUno3TmQwRVpGclpuZzQ5TGVDY29USlg5VlJLQzFPa3Fta1VVQ3pXQmhYaG1iRE5TZ3NnTzBRU0hSS1lraGd2WlN2UEZTX180Sld2OGtYMmQ2YWZBZUkxM3VrZHBjLThhb2p2Y0pUQ1JPTXRlNG1Kd01DTl9USlFvZ3ZlLU9faEJr?oc=5",
+    "fuente": "Tribuna de Ávila.",
+    "fecha": "2026-10-22T20:12:00+00:00"
+   },
+   {
     "titulo": "Se Acabó La Fiesta presentará candidatura al Congreso por Baleares",
-    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbmNCZzhIY25vaW9LNE9COVdoWi1ES2pXaVlhY2Vidll6Z29Wc0toRm1DQkJ5ekowcF8xeTdPakE2TGVtdUI0Y0dyZHVxZVcybEtDUzBOcDN4cFI3ZWJWb0x5ZU5FRjNoQUhyZlBLT3o5aGxGM0FUSFVIRnYxNm1BSUVkSExFZGMtbWVua1ZPVDlHcmdqTDQyNVBPTENXUdIBowFBVV95cUxQUHM2N2I1X2dTTk51YjdfenhfZzVXQTNiWWNCUUViNUpRRlU0SFlWTW9uaWkyRFhCZndQc3o5cGV4aXljSWh6Zmt2SWFYTm9tbDRLMWEzQ01sRTdFUFRnVEszWmNqVjgzRDJkWGxvVy16WTVVbzlaNmNIVjFjdmZtRk9La21MOVNZeFVzcmhJVlp0VnZmR1BybDU0OElNRzNZTjFN?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUHM2N2I1X2dTTk51YjdfenhfZzVXQTNiWWNCUUViNUpRRlU0SFlWTW9uaWkyRFhCZndQc3o5cGV4aXljSWh6Zmt2SWFYTm9tbDRLMWEzQ01sRTdFUFRnVEszWmNqVjgzRDJkWGxvVy16WTVVbzlaNmNIVjFjdmZtRk9La21MOVNZeFVzcmhJVlp0VnZmR1BybDU0OElNRzNZTjFN0gGjAUFVX3lxTFBQczY3YjVfZ1NOTnViN196eF9nNVdBM2JZY0JRRWI1SlFGVTRIWVZNb25paTJEWEJmd1BzejlwZXhpeWNJaHpma3ZJYVhOb21sNEsxYTNDTWxFN0VQVGdUSzNaY2pWODNEMmRYbG9XLXpZNVVvOVo2Y0hWMWN2Zm1GT0trbUw5U1l4VXNyaElWWnRWdmZHUHJsNTQ4SU1HM1lOMU0?oc=5",
     "fuente": "Mallorcadiario.com",
-    "fecha": "2026-10-22T19:46:21+00:00"
+    "fecha": "2026-10-22T19:46:06+00:00"
+   },
+   {
+    "titulo": "Se Acabó La Fiesta cuadruplica los avales exigidos en Illes Balears y confirma que presentará candidatura al Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOd2tuQ24yYVJ6OXB4NU5VVmhzZFBwb01SQ0FTbzFIYVZvejNVUnlLbVp6YWJnZ0I0Tkp3REJPZV9oXzI4SnRrZGV4UHRmSzBiSU04Zkh1Rl9YWk1tbnFLQ093c1QyYVh5ZnQtSzNLZXRWWG1oSENLUFFRNkpVbVM5czg5c0tXSGlZbEJXcWN5cEpzbHJoZE1PZGR6b1BjZmlrUERsMnJ2RGsySnJSb3VmX2hBU3Nvd0ZMd01KbUM1XzN2VUpRcFFoRU5UWmZzNENweUhYZzFHSDBmUjd2OEhHVjFsUmpSMzlVUmZkOUtGWWU3eTFPN1BLOGNWc25VUdIB_gFBVV95cUxNMUZ4WkpoUGI2Ym8zS3JiZGhKLVpJdmZaX3d2TFVVaVNqYWc5RU4tSDUtZDlxbEZDR2plVUYyeUd1Z3Z2dkp6bG12OF9ZWnVMNXFNUzI2RXJJNERIaUhFT1Y2VVc5VkNQczE4ZkJjOWt5cU43VXBEN09WbVlqRU5mUW9NeUxCZkFlLUdHcXI1NWNMa2d3TjRQeUdKZ09tRm5hd0duS0dCRnBpMXlWWkswZXJwYVVSdFdlTDdHY1VkT0w2Rmsxb3JhWnI3WTlmNVJsXzF5bWhzOGV3b0J6MWl5d29OWGVXOUhqLXFUSUEtS0s2Y1N0YVhuNmpIZGJOUQ?oc=5",
+    "fuente": "Periódico de Ibiza y Formentera",
+    "fecha": "2026-10-22T18:36:35+00:00"
    },
    {
     "titulo": "SALF presentará lista en Granada para las elecciones generales del 29-N",
@@ -289,28 +302,16 @@
     "fecha": "2026-10-22T14:40:22+00:00"
    },
    {
-    "titulo": "Se Acabó La Fiesta logra los avales para presentar candidatura al Congreso y el Senado por Baleares",
-    "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPLXVSbXY3X3lyT3FvRkJZRDQ4UlZmM2hCQXhHSkVHQXRBYjktajBnSFoxUTBvOFlaVlZ0V0JFUDI3c3J3ME10a1JpbERfVHN3STB0VnQtbUE3UEh1dWUwVFMyclVYVjlxc0I4S1pYaDI1YjducFluM2FXbE5ndXBQTDlQenFhUnMwY2ZuTkxobkJMZ3NzeTA3YWU3Uk9URTdyNGk3WkxRLUdzSUpUamZMN1dtSjJSYTljSzQ4cTdybzdldmM5TFI4ZWFPRzlxbW8xUzllOW55dDk0MElma0Fwb3JqNnBxYVZWMmt30gHrAUFVX3lxTE03OFlrOGxFenNJZWlIM3FHb3J0VV9saFd2TUMtT281dWx3R1lGQ1k0dnZTU0dYRl9NclQ1Y2d4aHlHdnFLN0xwT3FyaE5PMzkydE94NFAxVlNQMWJzLVp2VjNYanRWN011VDhENy1MaWRaMG9wdkd0YWNETHdzclRtQmRwdXJHRHQ5NXY2Tm10aGJuT2NCX1VSQmlNS0xtWEF6NE84SkVwSWRFRkNZa01FQ2I5YThaYl9WZGcwQlc5aGc3Vm84WG5kak91Q1lETUJLeE5YUkZLVHdSREFWYU9rNEtZX1d5cHMtcEU?oc=5",
-    "fuente": "Ultima Hora",
-    "fecha": "2026-10-22T09:50:00+00:00"
+    "titulo": "La gran encuesta: Alvise se dispara al 4% en intención de voto y el PSOE sigue arriba",
+    "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPM0ptcG90SmpQVWVfMmFaYVFoNXpVRXpZWS1qUllhSXRyd0NqQmdjeU9PM1N1SFBjQjlVTFBlV2pFVk5WbTNfaVBLY1pBRHdIa1RLLWtOMm11ZmJuSFhEdHFic19zOEtMbjJQWVUybzdUVXl6aENXdDBHMEhWRFNqdTI2bWxLQUFydEtzekl6VTYyTGQ3NEJnSzFmOHBLbkNOY0J1bmV0bW41a3VPUFAwZUotZmVGdmVBcmpTX1g4VjgyZ0VOcGRZalRWaEItd1ZKZWpHVWhaeTZFdVcxMnc5d0p3?oc=5",
+    "fuente": "Diariocrítico.com",
+    "fecha": "2026-10-22T13:48:18+00:00"
    },
    {
-    "titulo": "Se Acabó La Fiesta, el partido de Alvise Pérez, cuadriplica los avales necesarios para concurrir al Congreso por Balears el 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTG42UW55RHBzUDZRMjNCT3d0SXpTOXhHQU1LcXN3Y1YwelR2WVNxVmFwNEVQV1I4T01yc0dkMkRfOHJROHNLbWlHYVJrYnYwV2d1cUkzZE45d2UwbkFjdXI4VHQwOW1zSlZVOTRiVWxOejZGdTM0RlZqN3NtVllINkdIY1lpM2NLSFNQQmJyNkFJZWJLMThLeGVqSm11NHM5djl0Vkk4aU00OVpEd0lycHlObW04WFRLc2g5VHZxcWs3V3k0NDRxbHFCZHRRMGNJUkt0cmhhQ0dpSFNSX1NoUHRKU0s1d3RhYk1pREFpdmZZamNFTW9fYW13?oc=5",
-    "fuente": "Canal 4 Diario",
-    "fecha": "2026-10-22T09:47:03+00:00"
-   },
-   {
-    "titulo": "Alvise Pérez busca avales en León y cita a numerosos seguidores y curiosos",
-    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbDhZZ2dCaGtsVkMzTkRPeEdtdXlyTXRwcTExYVNScWxhSDRHY2NYME5jTEhFeDEyU0xINl9FTUJvZzZ1a3dIdlpGU0dUdlFINm5sb0c3QlRfRmNsSmI3S2IxOE1EcGtCazY5MEpDd2ppTnpMNE5keDI5RHdkSzFBbG9DZ1RuMW9NbmV0YklvVWdlY0szVGZhYlo4b0pqcWxhQ2FRaTQ4UW1tVGtpM1cweDFYUWRGOVlIajFBX2kxemtEQ3I00gHKAUFVX3lxTE9McnV6Z3M4ajExYzdJS3FzUXFZMjlldVZKZUFkVFdZZUw4SHR4UHVqNzZmVW9TV3Q5WFdFUE8wQzNNY2ZvQ0ZtZUZZVFBqZTJVUC1iYzlpTTFWTjhfLWtILWk3SnRBcm1HV2pIZ0pBTlJUT1JoaTR4amhYOExON3dUM3lmUzVubWdqQmxLa3BUUExVNEpQRExGRjA2Y2VpeS02cWtQa2xSS29pdHV2Q0loSkgtY21iYWFraWI1WjIwMUd6amhORU4xcVE?oc=5",
-    "fuente": "Heraldo de León",
-    "fecha": "2026-10-21T17:14:08+00:00"
-   },
-   {
-    "titulo": "Galería de fotos | Alvise, en León",
-    "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYmRJMkJpQXVtaXBid0VOUUtNRVFZaHdtbnV1MFh4N3dLRFJjWHFuc2lrR2g4TnI0aGF2U1NfbFlNM3YxSVpJd01PMVZCekFQamI5UmJkckZyZWpOMllRb19wcmotU2UzX19BM0tPVUlmdEIyOFdaMkJvNHRJT0tBUlp6OE0tNDJKYmxoYm1B0gGTAUFVX3lxTE4wZHJ3NUR6R21vWWkyU254R0tKX0FDTFVWLWRzbHcxQXN3dmZKN0FJakp1TE9kVlBBMEdtOU9ydHlOdEhmRTBFMlR0cm5jR1h1OTMxRHFnUGdVSW1PemlBYWJLdlQwUTRwdEZJWXFrZGhMbDdtVmQ2S0lWdWFzT0g4ZWVQNGhjUVd5VWw4dGhOa3BYQQ?oc=5",
-    "fuente": "Heraldo de León",
-    "fecha": "2026-10-21T17:04:47+00:00"
+    "titulo": "Alvise Pérez, sobre su alquiler en pleno centro de Madrid: \"Es una pasta\"",
+    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmxWdElCdGpUd3hpVlJybXlqQXFlWG10LTc3QkppSHEtLXZnQkZnU0lPR3p1Q2c2R0pWckhkcVlWU2RLdDNrbmVxdXliRWVFZ3JOb2N0THZjUEhVU3d3a19oYVUzUkhKNGF4bzFOSDFBZ3FPWkJHU0Z1QUktN1JnVjFpQWNCcmVzRlV3cGRMU3RQdVBpQzZHakxnbnY1ZTjSAZ8BQVVfeXFMUGZsVnRJQnRqVHd4aVZScm15akFxZVhtdC03N0JKaUhxLS12Z0JGZ1NJT0d6dUNnNkdKVnJIZHFZVlNkS3Qza25lcXV5YkVlRWdyTm9jdEx2Y1BIVVN3d2tfaGFVM1JISjRheG8xTkgxQWdxT1pCR1NGdUFJLTdSZ1YxaUFjQnJlc0ZVd3BkTFN0UHVQaUM2R2pMZ252NWU4?oc=5",
+    "fuente": "El Periódico de España",
+    "fecha": "2026-10-22T10:01:18+00:00"
    }
   ],
   "ERC": [
@@ -560,16 +561,16 @@
     "fecha": "2026-10-22T14:16:31+00:00"
    },
    {
+    "titulo": "Chivite realizará un viaje a Perú y Argentina tras desestimar la Junta Electoral una petición de UPN de que se suspenda",
+    "enlace": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPYlZtZElVN2dteUsyenV3YUdxU0p5TDJ4QUxFQmF0YTFPbUZ0cFVsNWFiZFQ3a1ZPTDNCMXpROHU3WUtJRE9sUnV2RFNuR2RZN3RLbjFWdFhaUUVvTTNQcEtqNEVLbDV0Q290aWdJenhndnJmUGxKUnM1bGIwSU0yVGE4UHl4ZjBZdnZoRlYwQnZsRlY3eGVjejJDMlBZVzBJa0R1T21YZGlDNXRWUU1Wc1JPeFRyeEVodHU1Y0tNMHZTU19VOU1SYkQ0d3laSEh2eC1KN1M1bTBMcmNaN1NONTJzODBhR2VGaGtVdHhkeEFGbl9xSXNZVERkQnpLUkU1bXNUTkkzRlhpU04ySGlGZHpRbHJ3LTZzZ3lyN9IBnAJBVV95cUxPYlZtZElVN2dteUsyenV3YUdxU0p5TDJ4QUxFQmF0YTFPbUZ0cFVsNWFiZFQ3a1ZPTDNCMXpROHU3WUtJRE9sUnV2RFNuR2RZN3RLbjFWdFhaUUVvTTNQcEtqNEVLbDV0Q290aWdJenhndnJmUGxKUnM1bGIwSU0yVGE4UHl4ZjBZdnZoRlYwQnZsRlY3eGVjejJDMlBZVzBJa0R1T21YZGlDNXRWUU1Wc1JPeFRyeEVodHU1Y0tNMHZTU19VOU1SYkQ0d3laSEh2eC1KN1M1bTBMcmNaN1NONTJzODBhR2VGaGtVdHhkeEFGbl9xSXNZVERkQnpLUkU1bXNUTkkzRlhpU04ySGlGZHpRbHJ3LTZzZ3lyNw?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-10-22T13:36:30+00:00"
+   },
+   {
     "titulo": "Ibarrola cita a más de 200 miembros de UPN para votar las listas electorales que mantendrá ocultas hasta empezar la reunión",
     "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQQ1pPQmU2QVJWVURDWGl1OERvSFExY0dOZkUxSW1kR2E4TjhlYVhudzhsaUdPYWlBQmxWeVdZbzFCWDZFU3N0QVlsck1vRUkxanF6b0NjRVdtbEYzUVktNHotMmswb3VQWXp0eFNGc1gwU2dGdlNzZmNHN2xQeF9tTTduMWt6RWlwNjdmQU9YV09kVXd2eDZVc1gxTEQwb3BvWGs1UVYtUS13cmgzTWk2aGY4bkpIQ1AzN3RCd2lSbHFjaUs5dkJkTkVnUUJFX0xMMW9xZkFFVHhRTmdLT3NROHVIRmtvT0JOYWdzT3puTk5tX2FZMVhlcGQwXzFoNkNXckHSAYcCQVVfeXFMUHRuRFZjZ0YtcHpLTV9jNWdSbWtWZlVRUkRpcHVBUTBlM1JyLTBsckVjSDZ1djNOYkpxY09BVGd5NWNjeUtqSFk3cER4RnNEQjZQSUFOY1NmdjVmdlZyaDVpdkRKcXQzRmxDRzBYR3ZWaXpNaWhBdnUxdWk2UVNXQWY2cW9rcmg5NHZEZWt1UHhuWENsZDBkMGFVODFwaUpJei1LWWxNUXBiaXZ6dlR1SEFfczBHQ0J3clFUcE1hNE4xRFNxY0Z5WXIzUDFBaHpWenN5SHpSN1E1elB5eFAwUkd0QkFkQ3lGNnBEZF90X0c1eHR6aGFWN2E3R3dkZFFXaS1Pb1U0cW8?oc=5",
     "fuente": "Navarra.com",
     "fecha": "2026-10-22T13:08:33+00:00"
-   },
-   {
-    "titulo": "Chivite realizará un viaje a Perú y Argentina tras desestimar la Junta Electoral una petición de UPN de que se suspenda",
-    "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNblpBWlFEdzQ1MG04ZzI0em44NWNtV0hFVzVibHp5cmlBUkxCMU5tRWNGNjkyUlV5MDVOOVFQZy1TbXQtWGdkRTdJLXE2TjBLdjVtNEFrb2JVZW04WVBlZzBjcHp2V2YxMzMwYUc5Sy1EckZ0SXUyU0wtOXlMR2N5SVpBV3I4TjBualNxMUY1cF9HdFlvb0U2OW4yZ2RXOGxyMTMybkFpRnl1M0F3Yy1rNVhaekYwSmpvS3N0bkIzUkhIdjFLMTVBd3dTYVN5RHhkeGtIY283N1UzM0tvUnJkUnJ0Y0Q?oc=5",
-    "fuente": "Europa Press",
-    "fecha": "2026-10-22T12:47:00+00:00"
    },
    {
     "titulo": "Ibarrola plantea cinco 'motores' para Navarra: menos burocracia, rebaja fiscal y garantizar energía y agua a las empresas",
@@ -816,13 +817,6 @@
  ],
  "polemicas": [
   {
-   "titulo": "Bronca en el Partido Popular, Vox y la Corona con el fiasco de Milei en España",
-   "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVWdUWkVubE9yZmwxNUM5SmlPeEcwX3R1dHFjNmV6QnpNc05Kb1Z6ZUoyTTVUaW5vY1ZxSkE3QTcxc09pWU5PeC1oYS1md0xUUWZpNk9weDR0RmkyNVN4VVJjTTdYeXZHeU1jbmlJb204NXJvMUpwN0tJOXBVMG8zYnRMb3ZabUFzamd6RjRQcVg3RVpwb0ROeXFTTzRVa09kSF94dUFuSU5qc3dyZkRmYUhEZ1Y1RUtuTGdHVHo4Vl82dF83c3JnWHBBY1EydXB2MHU4?oc=5",
-   "fuente": "La Política Online",
-   "fecha": "2026-10-22T21:47:28+00:00",
-   "partido": "Vox"
-  },
-  {
    "titulo": "Abascal ordena vetar la investigación por la crisis de los cribados en Andalucía un año después de pedir la dimisión de Moreno",
    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbTJQTEZnblpJRXZUMXlUNmtnTGNxYVJpMG5ibGpZMlpLY05PQnE2UVJoUHRkRC1IT1ZzRllZNnc2b1VvekJCQjdQZXMxVUNycEo4YWF1QUVNc2tGOEVUX0JmMjRtUEM2aktaTGJYZjRDZWlUbllHa3dFZFVpTGN0cWtNaFlTbGIyZGc4TjllR3lQbUVleVlUT1RQQ0pEUFVfYkZDM0h4QWZuMkVJSXo5ZVBWNDBMOG9qcWVZZkd4a3lOYk5IZE5fUmxxZDBEOU02S1pfczNsOHRxVGR00gHiAUFVX3lxTE9QWl9ZY3Z5dndCc2JSRmRBUi1DMi1CVlpNUzBfTjZBclBqMzMwT1Zac3NpQzVBSmt0MEQ3VnY0eW90SkpiQjFBVVdTQVVrU0N1QzZGVk1FV2pGWDJTZGY0NFJWTE5sRDJXR3NudDZkUGVaejFiYmV1MVBHaFQ1WnZTVGFFTzl3QzF2dmtRcTNpVlhxN0JGUm10UzB1ZGE4T2dha2lZVG5HV3hQOWYwNlU2OGpQYmFRYWwtTUM1MzB1RkZxRVRacHNJNDB6aU4yUXVpbW0xNEl6NmlKNjBDdHo0aGc?oc=5",
    "fuente": "elDiario.es",
@@ -841,6 +835,13 @@
    "enlace": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNFctcTJ1ZlQ1d2l2dlZ4ZFBkd2tpOWFjb2xtbFU5ZFRZWVJkbDcxUnRRZVRtcmlRNUc4dVJMMnlwQnNKZ2owaVdxS2VsOGd2NXRiZUZuRWNZZTdmXzA4ZGtwN2dRMTJ2STNxYVVnX3hzR0MwQWpwY3BFcUZzTUhjNVdlOFdnN0w5cDVNMG5kS3dpbzctSkZhWGowbnhlZURWaEdSSmY5ZFI4X3RWTnd2NmlKakQ0NFM2d0FuN2JiSGZNWnBDOVd3Yktqamc3b3N6UV81dklVZk1laG50M01RYktaSld2cExpbnpxSlNKUlNaSlhna1lDaDVDSklTc3BWQy1RcFZHb0ZrMjBDX3Fv0gGPAkFVX3lxTE00Vy1xMnVmVDV3aXZ2VnhkUGR3a2k5YWNvbG1sVTlkVFlZUmRsNzFSdFFlVG1yaVE1Rzh1UkwyeXBCc0pnajBpV3FLZWw4Z3Y1dGJlRm5FY1llN2ZfMDhka3A3Z1ExMnZJM3FhVWdfeHNHQzBBanBjcEVxRnNNSGM1V2U4V2c3TDlwNU0wbmRLd2lvNy1KRmFYajBueGVlRFZoR1JKZjlkUjhfdFZOd3Y2aUpqRDQ0UzZ3QW43YmJIZk1acEM5V3diS2pqZzdvc3pRXzV2SVVmTWVobnQzTVFiS1pKV3ZwTGluenFKU0pSU1pKWGdrWUNoNUNKSVNzcFZDLVFwVkdvRmsyMENfcW8?oc=5",
    "fuente": "LaSexta",
    "fecha": "2026-10-22T15:31:24+00:00",
+   "partido": "Vox"
+  },
+  {
+   "titulo": "Vox, tras la operación de la Guardia Civil: “Ceuta está infestada de activistas, invasores y agentes",
+   "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbnN6eWlIQ1F4Z0FYdGVfV2RjalZiUUhvclJTUk1GZ2REQmRfRWVYcDl4T1k4YWkzem1Fd05vN291c1B5SURkRU1ELUZtMzNqLUxpc0Rxc3ZMcmVITGR3Uko2OEllNEZ6OUxKSWFwdXdJNnBTVlhtckMxSlFGRlJ2clJtU0hnT0pYc01lNUE2MVBQajVLdnN3YnNHclpmQVROUTVwZGk3azV4Q0o2X2fSAbMBQVVfeXFMTkdCdTQ2MEFHekJMX0ExZjlib2FXd3B3czUtaGZEN0c1aGhlUV9YWWhjcFRQelozMEhwRlE4RTUxemZhdnUxeVRLT1RYVFdhUTQ0WmMwTjlHYXBXTk02eHNfUnBsRmlPSFR4VmVZR240T0hxMElvdDQyZHV0YmhTZmdycWlvbDB4enlNWWlmcnFZMkVJbDBjUUVqdEt4MVdUeHE3bjdROXVGM3JiSWxwU1hTa28?oc=5",
+   "fuente": "El Faro de Ceuta",
+   "fecha": "2026-10-22T11:20:40+00:00",
    "partido": "Vox"
   },
   {
