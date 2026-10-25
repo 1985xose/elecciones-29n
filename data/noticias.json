@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-25T11:01:59+00:00",
+ "actualizado": "2026-10-25T11:23:41+00:00",
  "generales": [
+  {
+   "titulo": "Elecciones generales del 29N en España, en directo | Alberto Núñez Feijóo y Alfonso Fernández Mañueco participan en un acto en Salamanca",
+   "enlace": "https://www.elespanol.com/espana/20261025/elecciones-generales-directo-ultima-hora-pedro-sanchez-adelanto-electoral-espana-encuestas-sondeos-voto-correo-2026-partidos/1003744433832_10.html",
+   "fuente": "El Español",
+   "fecha": "2026-10-25T12:18:00+01:00",
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11386126.jpg?p=w:1706/h:960&h=8ZPvWCVd"
+  },
   {
    "titulo": "Los políticos condenan los actos vandálicos de Barcelona: \"Las diferencias se defienden con argumentos, no con violencia\"",
    "enlace": "https://www.lasexta.com/noticias/nacional/politicos-condenan-actos-vandalicos-barcelona-diferencias-defienden-argumentos-violencia_202610256adddef31e53586bfbbd00c8.html",
@@ -21,13 +28,6 @@
    "fuente": "ABC",
    "fecha": "2026-10-25T11:12:52+01:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/25/pleno-parla-andalucia-RRdaQI0FGSlZ3Q9e6YHBu0K-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "Así criticó Pedro Sánchez el cambio de hora que nunca eliminó: «Cambiar la hora dos veces al año ya no tiene sentido. Apenas ayuda a ahorrar energía»",
-   "enlace": "https://okdiario.com/espana/asi-critico-pedro-sanchez-cambio-hora-que-nunca-elimino-cambiar-hora-dos-veces-ano-ya-no-tiene-sentido-%e2%80%afapenas-ayuda-ahorrar-energia-20608116",
-   "fuente": "OKdiario",
-   "fecha": "2026-10-25T10:55:45+01:00",
-   "imagen": "https://okdiario.com/img/2026/10/23/circular-flag-image-design-11.jpg"
   },
   {
    "titulo": "Podemos no presentará listas al Senado en la Comunidad Valenciana tras su pacto con Compromís y EU",
@@ -55,7 +55,7 @@
    "enlace": "https://www.elconfidencial.com/espana/cataluna/2026-10-25/plan-puigdemont-diluye-exilio-catalan-sin-foto_4450967/",
    "fuente": "El Confidencial",
    "fecha": "2026-10-25T05:00:00+01:00",
-   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1792926048&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1792927232&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
   },
   {
    "titulo": "Pedro Sánchez: “Un Gobierno del PP con Vox no es alternancia, es retroceder 50 años”",
@@ -75,11 +75,18 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Encuestas electorales para el 29N: resultados de PP, PSOE, Vox y Compromís por municipios",
-    "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261025/encuestas-electorales-29n-resultados-pp-psoe-vox-compromis-municipios_473483.html",
-    "fuente": "El Debate",
-    "fecha": "2026-10-25T11:46:45+01:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/07/06/6a4c0a534468b.r_d.1347-527-0.jpeg"
+    "titulo": "Elecciones generales del 29N en España, en directo | Alberto Núñez Feijóo y Alfonso Fernández Mañueco participan en un acto en Salamanca",
+    "enlace": "https://www.elespanol.com/espana/20261025/elecciones-generales-directo-ultima-hora-pedro-sanchez-adelanto-electoral-espana-encuestas-sondeos-voto-correo-2026-partidos/1003744433832_10.html",
+    "fuente": "El Español",
+    "fecha": "2026-10-25T12:18:00+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11386126.jpg?p=w:1706/h:960&h=8ZPvWCVd"
+   },
+   {
+    "titulo": "Feijóo, tras los graves disturbios en Barcelona: \"España necesita un cambio\"",
+    "enlace": "https://www.20minutos.es/nacional/feijoo-tras-los-graves-disturbios-barcelona-espana-necesita-un-cambio_7053068_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-10-25T11:32:49+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/25/6addc99b9c08a5-29027129.jpeg"
    },
    {
     "titulo": "Juan del Val: «Según todas las encuestas de las elecciones, Feijóo sacará mayoría absoluta, pero la proporción es importante. Se juega la partida en el trasvase que pueda suceder entre PP y Vox»",
@@ -88,38 +95,40 @@
     "fecha": "2026-10-25T10:45:36+00:00"
    },
    {
-    "titulo": "Villarroya pasa el bisturí a la precampaña de Feijóo: \"Igual el 29N se llevan una sorpresa\"",
-    "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaXdNNldGeVl5cXFtLTdjRWlNZXNTdmZScnR2MHNpRFdtR1l6LXAxSXp5cmE5SzVJU240N2t1d0VJZTg4NE1meFhacFFmaXB6TFZZcENRS2E5NjNxMUhuSFdNN21FM0lRcVNndUZqeU9fY3FDQTNCVnFoVWJCUlZUT2x0emg5c1R1dHpjMGp4eHpfT2d2a01UQ2thVFBac19laDhYWnJZOG1sTjVEbGZwalpn0gG3AUFVX3lxTE9CYjB4NWNFS1M5dzJwZGNWRE8yVmY4bjd6MG9wbmVnS21UcGxfczRuZXZLdGpUZEh6cDhXQ21iNHJXaGUyUXZHVmZWT29BQy1IaXY5cHJIX3BVX1ZELU5uSEUxdm9Nei12dGdPdkhSNGx4aHFIYk1XYlhsWHR1MS11OXRheUl6a3BjV2huY2d3ekkyeXZHOXJBa3VoXzdUT3RCSkUtZTdwTDRtV0dncjhqV1prSXlEcw?oc=5",
-    "fuente": "Elplural.com",
-    "fecha": "2026-10-25T09:31:18+00:00"
-   },
-   {
     "titulo": "Elecciones generales del 29-N, en directo: Feijóo y Frente Amplio protagonizan los actos de campaña este domingo",
     "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSlhYVlA1Q2kza1VEa0ktSllKb2lUdHRuT3ZXbWhYaW5LTU14MXVLc3RFczczY19IS3hMSVIzeV9MWENyN3NwQ0dwWnl1RlRBUS1yTHZ1WFNUaC00Vm1WSDJQbmNUWlcteldUN0RQd3k0WG1IR2RsZURvWnJ5SmY5b3BFN1R6ZHR4bWxkX1NVV2tDWmFKYkUxQ1N3Q2JmNFBpc29qWW5WRVhydlRKeHNJYnJ6UjFpTVM0YWpfWXpkbGRFWndoWVRtbjNTczRVb3ZsQlQ1WVkwQ2tNM1pFc1cxUzV2OXZyODTSAecBQVVfeXFMTUpYWFZQNUNpM2tVRGtJLUpZSm9pVHR0bk92V21oWGluS01NeDF1S3N0RXM3M2NfSEt4TElSM3lfTFhDcjdzcENHcFp5dUZUQVEtckx2dVhTVGgtNFZtVkgyUG5jVFpXLXpXVDdEUHd5NFhtSEdkbGVEb1pyeUpmOW9wRTdUemR0eG1sZF9TVVdrQ1phSmJFMUNTd0NiZjRQaXNvalluVkVYcnZUSnhzSWJyelIxaU1TNGFqX1l6ZGxkRVp3aFlUbW4zU3M0VW92bEJUNVlZMENrTTNaRXNXMVM1djl2cjg0?oc=5",
     "fuente": "Vozpopuli",
     "fecha": "2026-10-25T09:25:25+00:00"
    },
    {
-    "titulo": "Sánchez: \"Un Gobierno del PP con Vox no es alternancia, es retroceder 50 años\"",
-    "enlace": "https://www.europapress.es/nacional/noticia-sanchez-gobierno-pp-vox-no-alternancia-retroceder-50-anos-20261025102254.html",
-    "fuente": "Europa Press",
-    "fecha": "2026-10-25T09:22:54+00:00",
-    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261025102254_120.jpg"
+    "titulo": "El descenso del PP a los infiernos de su origen",
+    "enlace": "https://www.infolibre.es/del-ayer-y-del-hoy/descenso-pp-infiernos-origen_129_2238710.html",
+    "fuente": "infoLibre",
+    "fecha": "2026-10-25T05:00:50+00:00",
+    "imagen": "https://static.infolibre.es/clip/f45af4de-1813-4f9f-8cd6-cbd5576b6c97_16-9-discover-aspect-ratio_default_0.jpg"
    },
    {
-    "titulo": "Iván Redondo anticipa el resultado de las elecciones en España: «Se va a ver cómo el PSOE supera al PP. La campaña no ha hecho más que empezar»",
-    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZF9iTTA2dnZ0d0NYaUdreENua3gyUXhtUHh5TDNIOUVSS3QyUTRTWVpOckM1dS1nRnpzSWxmbHJJSW1uUHRzSG80Q3h1TUU1emNncndyamZYblpkLVVCZXBsajRKSExOSlk2ZVpkTWtpV3c2RjFUc0RLaHJBRHBZMWw4UGZoRFhRQWVqX2wtNV9mYUk5SERDUW02VmlRVWFCbGRzOWRXZE83b25NaHpIa01PcG5pVDBTZ2JfatIBwgFBVV95cUxPUTM1dmZSNms4Y3ZNZ3JFTUZualVLY2RpdG5CaG9TNkN5UXBnYm8yRV9QX1BPRE96SWFMcGpIZGhpa3F3U1d3Z3lHaVJHekczeEFsdDVPSldkX3BZdnJLMHBVd2pGZmtIaFdXVGZ3emRWUGtxNFJRTXhQc28tX3BpeFdMYkItVDFJU3RVdGNLQkRjeF9CMnNGbG4xTG1wYUZFZVQtTUgzLVFRRFJIV1UxTm1CWVRTZlhhSlRMYU1BMERVQQ?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-10-25T08:01:59+00:00"
+    "titulo": "Sánchez y Feijóo, por carriles paralelos",
+    "enlace": "https://elpais.com/espana/elecciones-generales/2026-10-25/sanchez-y-feijoo-por-carriles-paralelos.html",
+    "fuente": "EL PAÍS",
+    "fecha": "2026-10-25T04:30:01+00:00",
+    "imagen": "https://imagenes.elpais.com/resizer/v2/IKGK2P3PEFHH3AKOEIRKLWBTB4.jpg?auth=d46d600835f8ff641cc9fa3e88b0dd401fc7f3615b04c9b573433b4063750466"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Encuestas electorales para el 29N: resultados de PP, PSOE, Vox y Compromís por municipios",
-    "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261025/encuestas-electorales-29n-resultados-pp-psoe-vox-compromis-municipios_473483.html",
+    "titulo": "Sánchez se graba corriendo con Carlos Cuerpo: «Llevamos ocho y a buen ritmo, además»",
+    "enlace": "https://www.eldebate.com/espana/20261025/sanchez-graba-corriendo-carlos-cuerpo-llevamos-ocho-buen-ritmo-ademas_473574.html",
     "fuente": "El Debate",
-    "fecha": "2026-10-25T11:46:45+01:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/07/06/6a4c0a534468b.r_d.1347-527-0.jpeg"
+    "fecha": "2026-10-25T12:19:17+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/10/25/6adde4fe5283e.jpeg"
+   },
+   {
+    "titulo": "Sánchez corre junto a Cuerpo en un vídeo cargado de mensajes sobre su mandato: \"Llevamos ocho, ¿hacemos cuatro más?\"",
+    "enlace": "https://www.20minutos.es/nacional/sanchez-corre-junto-carlos-cuerpo-video-cargado-mensajes-sobre-mandato-llevamos-ocho-hacemos-cuatro-mas_7053086_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-10-25T12:16:38+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/25/6adde0facaa490-16610627.jpeg"
    },
    {
     "titulo": "Muere a los 85 años el cineasta José Luis García Sánchez, ganador del Oso de Oro por 'Las Truchas'",
@@ -146,12 +155,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOWGlaR0R3LXJBX3JQRGFvem1CVWdJVnlwUnpVZWRpeG1mVHlMalRnYnl3cFRtMGxmQ1JqS1o3blc5MTFKYWhBUndYM3dtdm9qZmJkQ2VPel94aFlsZ1FnY05EOHA3cTBZenp1WlQwSDc4WHRvNnUwbm1HMjBmY01kNU8xdzdvVnlYNGd6Uld6b0FXa1BmeF9Mb2JSdFN1bEZsdWhWVVNRUkFlQnVjUVBKSWF6VXJlR00zeU5mdGJnNC1wNEl2MDQtQ3dEU1dMVFVrVTRCZHk1V29DYnlIVUVaUVRFaGdhWHFmSVNlaURXS0VSQTFqWWxTTHJtOXg1MTIwLUdzUkhR?oc=5",
     "fuente": "El Constitucional",
     "fecha": "2026-10-25T10:27:00+00:00"
-   },
-   {
-    "titulo": "Moncloa detecta una fuga de hasta el 12% de los votantes del PSOE hacia PP y Vox: la mayoría de derechas se mantiene en las encuestas",
-    "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVjhESVRKT0xBTmlqODFQWnJlQnpHQlVkNEVwNXR1eVZsU2dSQy1pVS1aQmU1UG03dG95VjFUZ010QXkxRHhpWHZjTXF1V2tTaTM4MGVJWUhiYkMzVDZXcndsRVdaYlJsTkprNHVZdk5BeWlNV19wQVdhUzl3UlQ3d0Vzc3pXZGN1TWFqZXFHYTYtM1U3Z2dYVjA2eUdVOUYwbjZHN0ZDRk5PRFdJZ0pyd2tmZnpkOXhxbUNpSHB0cGNMbG1VM1FCN0hKeTAwa25NdHZ2U2U5R2l5SDc1ZnNZUGhENW1NTTV5OVdHWNIB7AFBVV95cUxOVjhESVRKT0xBTmlqODFQWnJlQnpHQlVkNEVwNXR1eVZsU2dSQy1pVS1aQmU1UG03dG95VjFUZ010QXkxRHhpWHZjTXF1V2tTaTM4MGVJWUhiYkMzVDZXcndsRVdaYlJsTkprNHVZdk5BeWlNV19wQVdhUzl3UlQ3d0Vzc3pXZGN1TWFqZXFHYTYtM1U3Z2dYVjA2eUdVOUYwbjZHN0ZDRk5PRFdJZ0pyd2tmZnpkOXhxbUNpSHB0cGNMbG1VM1FCN0hKeTAwa25NdHZ2U2U5R2l5SDc1ZnNZUGhENW1NTTV5OVdHWA?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-10-25T10:03:37+00:00"
    }
   ],
   "Vox": [
@@ -161,6 +164,12 @@
     "fuente": "El Debate",
     "fecha": "2026-10-25T11:46:45+01:00",
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/07/06/6a4c0a534468b.r_d.1347-527-0.jpeg"
+   },
+   {
+    "titulo": "Abascal presenta mañana en un acto en Talavera (Toledo) a los cabezas de lista de Vox para las elecciones del 29N",
+    "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdzhfNGRvM3pMMV9CYzBVNWxSSHVjZWtEZkprTGlHSzc4emh2ZFlzNHV1MGZDMDZVQldBSE9zdlhMU0hETlZGUVhhWmR3VldIN2JoVlFESFZOTThoX1lFZUFPTEloSHRCUENlSUNkYTlrUVJfVGpSckVZY3hlclJlNS1TeDdoWU9hR004UVdmeVZ3RVNRSFJTbHVfazdpQVN5T0Q3eHJvbzVQS09tTHg3SGNoS25rWERLUF9qZ3EwOEtoOXdGYWk5NEN3YmJyRUVUTHhCWlBZZG4?oc=5",
+    "fuente": "Europa Press",
+    "fecha": "2026-10-25T11:14:49+00:00"
    },
    {
     "titulo": "Abascal afirma que la identidad catalana está \"amenazada por el islamismo\" y llama a defenderla",
@@ -187,12 +196,6 @@
     "fuente": "La Razón",
     "fecha": "2026-10-25T10:29:08+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/24/9FC4061F-EAC8-44C0-8781-AB59E95A491B/96.jpg?crop=5561,3128,x0,y289&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "El PSOE capta a los indecisos mientras Vox 'roba' hasta uno de cada cinco votantes del PP: Sigma Dos da las claves de las elecciones del 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOWGlaR0R3LXJBX3JQRGFvem1CVWdJVnlwUnpVZWRpeG1mVHlMalRnYnl3cFRtMGxmQ1JqS1o3blc5MTFKYWhBUndYM3dtdm9qZmJkQ2VPel94aFlsZ1FnY05EOHA3cTBZenp1WlQwSDc4WHRvNnUwbm1HMjBmY01kNU8xdzdvVnlYNGd6Uld6b0FXa1BmeF9Mb2JSdFN1bEZsdWhWVVNRUkFlQnVjUVBKSWF6VXJlR00zeU5mdGJnNC1wNEl2MDQtQ3dEU1dMVFVrVTRCZHk1V29DYnlIVUVaUVRFaGdhWHFmSVNlaURXS0VSQTFqWWxTTHJtOXg1MTIwLUdzUkhR?oc=5",
-    "fuente": "El Constitucional",
-    "fecha": "2026-10-25T10:27:00+00:00"
    }
   ],
   "Sumar": [
@@ -390,7 +393,7 @@
     "enlace": "https://www.elconfidencial.com/espana/cataluna/2026-10-25/plan-puigdemont-diluye-exilio-catalan-sin-foto_4450967/",
     "fuente": "El Confidencial",
     "fecha": "2026-10-25T05:00:00+01:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1792926048&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1792927232&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
    }
   ],
   "Bildu": [
@@ -400,6 +403,12 @@
     "fuente": "La Razón",
     "fecha": "2026-10-25T11:28:03+01:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/19/33576114-4F64-40E2-A7D7-75F15F841A01/96.jpg?crop=5718,3216,x0,y188&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Pello Otxandiano: «El Estatuto de Gernika es un estatuto sistemáticamente incumplido»",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQelhWR2hyM0JvNVJUM1Q1N01YRmp1Ym1ocElRaHRnS2dpUTNBRTlFRGZWbnBDdUsyVV8ybGdJUEZrdTFaV2xZdF8wYnVUSEZSZkoyVmhiREs4QUVzbmtqVUl4bHRnM2RSU041cGVKT2pkQjNhdG9mVDMzdlFrYUk2REptdks2QnJRdTlOR0xKX2hzZXlCXy00UXotQTZaakdoOGJTYU9R?oc=5",
+    "fuente": "BilbaoHiria",
+    "fecha": "2026-10-25T09:30:00+00:00"
    },
    {
     "titulo": "EH Bildu reivindica las políticas de vivienda frente a la ultraderecha en Pamplona",
@@ -420,22 +429,16 @@
     "fecha": "2026-10-24T09:49:13+00:00"
    },
    {
-    "titulo": "EH Bildu recibe a concejala de Nueva York en encuentro previo a elecciones",
-    "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbDBJa2p2elNjUko5d0RHeVd4Z3lxbjQzNFJnRHl4cXBYSjF6LUZCTDh2RzdJU0NDNFhFdjdFVnh3Y2l4Z29Jc1NhMWdDSlJaejBrT3VBckh3REFLNnQ2Z1VHbnpvTzh0c3JfaWFzOXRxZVJPcVo2bGljTGk5Y21zNVI5VFhQNFFQajIzc3V1cW9rX3U1V3N0N2RnQ2hMelB5QjJF?oc=5",
-    "fuente": "Espacio Diario",
-    "fecha": "2026-10-24T07:12:53+00:00"
-   },
-   {
-    "titulo": "Encuestas elecciones generales del 29N País Vasco: resultados de PSOE, PP, Bildu y PNV y ganador según los sondeos",
-    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjNzMFJKUVhHVkFIV0E0Y0U5ZnFrZXk0amYyc3gxaXJSaEtnalNaYlpWeVZPM09qakE2LWxZcGNnNnRhLTBHeEoyV1dMQXlxRHVXRzE4Y2I0aEFQOHA1X0hUdnk0V3dJTy01blA1bktrOEJfZGQ1MjVtUzY4NWgzU05JM3Mxa2t0Yy1menYwWGZmNFJxUF9VaGgyRGhMSllGOVpXWUxhYWdpTmI4VEZ1UEgwSGZINDjSAbwBQVVfeXFMUEFRbWNza3NKNmJGMC1ydVJVY0VCNjJjNjloeEZEb3NtamtGbGg5anZhd2lnM2VTX0MxSlBDU0VLdGhVbkRTYVJxNHNmT1NOaDRFc09vTF82V29xM1V2ZXRvUTY2QXRncHg2VFZKVVEwd1NHamJzcmxBXzFoQlNCUkJxbndDQkhnVnNjaGs2WGhVV0ZUYVFGU0ZuNmg3UUQ4OXJiY3NwbkFSTlhCSHVIMVpUeWxta1lpN09fRHg?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-10-24T06:00:46+00:00"
+    "titulo": "EH Bildu defiende las políticas públicas como «el mejor antídoto» frente a la ultraderecha",
+    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVS1aOGRMZk5uaVRzdWg5SFJyaHRoanN6N0RmT2RiZzN6bW83ZXVkNlNqclhhZzVJNHByZzJaWVh0TG5jZVBzNUt6Q0Nlb1ZDRmJ5YlBUc1BNbGUzMjdfaFNTYTRnUTlfdDloZEFBQkJ0V1NMS1N1WmpNMDJ3aHZCTmRVNDRoMXpsZF9sMlRqZTFDazJ0cjNieEc2UVZMU0FxUUw0VWFGbWtNbElwamk4MWg5a0l5Tld5T1g0RV9fTnZJeVoxVFFYSVVYeWhLZTJN0gHQAUFVX3lxTE5VLVo4ZExmTm5pVHN1aDlIUnJodGhqc3o3RGZPZGJnM3ptbzdldWQ2U2pyWGFnNUk0cHJnMlpZWHRMbmNlUHM1S3pDQ2VvVkNGYnliUFRzUE1sZTMyN19oU1NhNGdROV90OWhkQUFCQnRXU0xLU3Vaak0wMndodkJOZFU0NGgxemxkX2wyVGplMUNrMnRyM2J4RzZRVkxTQXFRTDRVYUZta01sSXBqaTgxaDlrSXlOV3lPWDRFX19Odkl5WjFUUVhJVVh5aEtlMk0?oc=5",
+    "fuente": "naiz:",
+    "fecha": "2026-10-24T09:05:00+00:00"
    }
   ],
   "PNV": [
    {
     "titulo": "«El PNV es el refugio de los que no quieren a PP-Vox y están decepcionados con Sánchez»",
-    "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMGY4ZEdvNEhGVTNaMnRTRFc4OWhTVUtzdzZfbm1ZNG80TEJZajdkQm1LbWZMZElBdW9WTy1JbFBmSEpzbzJJdC01cVMwTzZEWnFHdUh3TlhNU29nV01relRNS3NHSkpVZG9LYTZpZFRZZWIxQXZSMEgxRzdFakRobTNLWklPU200MDd4dmdUem55dy0tWWtyMkl4b2lVWjZNWHpZdUJ1aUhmdkZK0gGsAUFVX3lxTFAwZjhkR280SEZVM1oydFNEVzg5aFNVS3N3Nl9ubVk0bzRMQllqN2RCbUttZkxkSUF1b1ZPLUlsUGZISnNvMkl0LTVxUzBPNkRacUd1SHdOWE1Tb2dXTWt6VE1Lc0dKSlVkb0thNmlkVFllYjFBdlIwSDFHN0VqRGhtM0taSU9TbTQwN3h2Z1R6bnl3LS1Za3IySXhvaVVaNk1Yell1QnVpSGZ2Rko?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYjFYdXY1eXEydXl6bVl5OEhIaHBkdEFmMDZmQ3hNMTZYdkFEeFEySVlGUV9DYU5fWkMwNGJGYjlidFlkaF9VWnhFU3ppZ29yZ2VwVzlWa3pQQmx2d2ZyN0VXZ0tsRXJqOFBOcGJ5Umh5OUU5REtLVlFwTkxGVk5sQ3Y3cTFRcnZZTjdJRHVEZm1ZeHFtSnBHQXBSZzF4NktvUkRjNzBmRdIBrAFBVV95cUxQMGY4ZEdvNEhGVTNaMnRTRFc4OWhTVUtzdzZfbm1ZNG80TEJZajdkQm1LbWZMZElBdW9WTy1JbFBmSEpzbzJJdC01cVMwTzZEWnFHdUh3TlhNU29nV01relRNS3NHSkpVZG9LYTZpZFRZZWIxQXZSMEgxRzdFakRobTNLWklPU200MDd4dmdUem55dy0tWWtyMkl4b2lVWjZNWHpZdUJ1aUhmdkZK?oc=5",
     "fuente": "El Correo",
     "fecha": "2026-10-24T22:50:30+00:00"
    },
@@ -510,28 +513,10 @@
   ],
   "CCa": [
    {
-    "titulo": "Clavijo, Sosa y el barco rumbo a La Graciosa",
-    "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLVRIZkVydFU0MDZuOUtqcDJndkFjSEFlRlpJOHJ6US16MVdHYUFfREJJQk1ybGtuTVFta2R6RFZqOGNPUUw1THBWb2Jfb082RklxMEk5RFl3YW84bFh3dDlaOGZrZG5DYmxHbUM1dlFaakhmbF9Gd05tSGNvM05nTlVQcHFBUUlrS0tIRnpnREo?oc=5",
-    "fuente": "Atlántico Hoy",
-    "fecha": "2026-10-24T11:26:00+00:00"
-   },
-   {
     "titulo": "Coalición Canaria registra a sus candidatos al Congreso y al Senado por Tenerife",
     "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQUQ1X29QRmdleko0TWUyNjl2WG4yeGxKTDFBb29zZHNCOFlGSXVoYmtJWmJ1cFVLMW1IUzBmSEVtYzlNQjRqMG1RU0NaczgxZjFIOTBuY0huVE9CMDhCeVc5QU1TZXFINVRqMHJNVEpsd0ZxdHJkQXB4S3Q2MHN6OWxNRGFJa0kxTGVILUVNdWRWaHdSalpj?oc=5",
     "fuente": "El Digital Sur",
     "fecha": "2026-10-24T08:05:28+00:00"
-   },
-   {
-    "titulo": "Sosa y Clavijo reivindican una voz propia en Madrid para Lanzarote y La Graciosa",
-    "enlace": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNMElrVkx2RlFCdWIyYl8xZkozOE5uUmY3ejFBRW9TUEg2bEhBTDlpQ19Tcl9VdXduM3hWX2owTUF0VVhfMHpUTER6VWszcEE4R2huU2tIRURsT2U1dFhFZW0tT2lpVXRCb3R2VTUzRV91djlXcGtHYnVXMFJLc2tIZWNVdjVEZU1zQ1dDdFVjbXhETzN1c2R0bmVnWXZfdy0ybzZjZlNYQ3VIejdUR1VWRm9xVEloOUc1OGZWb2oxZEwwMHNZMU5MNWhDQ01IWVpHLTNOc2JlakxKY0sxam5KMVhXa3hUMmN3TnZPc2pKTW9tUi1fN0VtYXhfN1UyTXhlaUFKc2t1RnJDZw?oc=5",
-    "fuente": "Biosferadigital",
-    "fecha": "2026-10-24T08:03:58+00:00"
-   },
-   {
-    "titulo": "El PP avisa: Coalición Canaria no servirá para \"acabar con el sanchismo\" tras su veto a Vox",
-    "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbkQ0OHBCbFVRRG1aeVFQT2hUUGtWQzZ1Ui1BVmRJQzFHckZ2ZVlrSVo5YVUySHNsdWN6ZlNEblVwR015OHlNT0ZxMlBJVjd4dTdSUU9maFVidHpsTGhBdXROczVuSWZsU1NjalMxNlpMLXFBZGlDcVE1Q3NFaG9nTmpFNjM0WnJFeEpFVGlPWVJDb0tjT3E2THNDWXA1dzExZm8teUJYQk5HWXBobm42TjBKdTFXbkplX0l4TTdGRS1YLUkzRTV0aUdwcGZaVjEyU2sxQ2g2STRNSFFJeDZDZTM3b1huaGNvS1M1QnRB0gHuAUFVX3lxTE1uRDQ4cEJsVVFEbVp5UVBPaFRQa1ZDNnVSLUFWZElDMUdyRnZlWWtJWjlhVTJIc2x1Y3pmU0RuVXBHTXk4eU1PRnEyUElWN3h1N1JRT2ZoVWJ0emxMaEF1dE5zNW5JZmxTU2NqUzE2WkwtcUFkaUNxUTVDc0Vob2dOakU2MzRackV4SkVUaU9ZUkNvS2NPcTZMc0NZcDV3MTFmby15QlhCTkdZcGhubjZOMEp1MVduSmVfSXhNN0ZFLVgtSTNFNXRpR3BwZlpWMTJTazFDaDZJNE1IUUl4NkNlMzdvWG5oY29LUzVCdEE?oc=5",
-    "fuente": "Libertad Digital",
-    "fecha": "2026-10-24T07:55:15+00:00"
    },
    {
     "titulo": "29-N | CC y PP discrepan sobre la restricción del aborto y la eutanasia",
@@ -540,10 +525,28 @@
     "fecha": "2026-10-23T20:08:36+00:00"
    },
    {
-    "titulo": "Coalición Canaria registra sus candidaturas a las Cortes con la promesa de centrarse en las islas",
-    "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxObXViakNjX3hDbUEyalExODRGODZKdk1DY2NYR21hZVY1U3hscWFJVzNUTTZfTWFrbU9Id2xPQkx1MGNFZTY2eE4xSlpkSEw5c2NMczRFQ0lBbklnTjVvSkJWMTFrdUt3SnVPZXhZVWczeV91LU11dlNnOVNhMGk0RzJzSkEtUUlmdlc4YkkyRWc3YmFNbUNRWXVJMTVTSHA1N1Qzb3k2a3JMWHlBaWV0RHBsQVNyLUJ2LXljVHZ5VF9jUnV2QjhCa3NDNVA2bHVhU1FQU2d1cFEyUjFFWmRoSW9BUDc5T0JWZzl2ckFOQdIB-gFBVV95cUxORDI0VVRkdmFoRWNUS2lBNDJSSkJyQlh4ZWVWN004NWs0Wnp2LXBZNV9FV3I4YmV6YXFmZUhUNzB0a2pUR0I1cHhHN05ReTNqcjZlemZtTWNsTTFaRUhsWjVWR2xRUnNFT2pya25EaWhZZmtPcFpqV1AwbnpfU1R5NjhpcGdtQVc2QjhSdTQzQWVOUHZPZ2k5aHpTWVBMWE4wcThWYlN4djNmSXE2anVhd1drWWtROWVSTVNDM2lzeHRLQV9LTWtaQVZ3am5HTU5CZS10cUNEbUZ5YjJLQklBQ0E4N3F0Y1BDSkY5R1BadXRwTnpBaFVTQVFR?oc=5",
-    "fuente": "Libertad Digital",
-    "fecha": "2026-10-23T16:53:25+00:00"
+    "titulo": "Valido: «Para CC la única misión y nuestra única causa es Canarias, ni la izquierda ni la derecha»",
+    "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZkJaOFNuS1QxM3Q1OE00RnZHQjRKbEpreFN4cTBZQ0MtOTF3cGZyS19zejc0ZVJEZmF4eDFEajFIZURPTmxyS211YlRTaUVsQ1IxUnJlV3NUc3FaOUltYzhOM1NuWjdTemlrZmFIc1FLS3JmVkFYaFFibWhDV09MQU5XTnFZazFKa3FoNXRSLU05MEpPcmpLMkxEcDE1RnNsWEVacWk0TU1NOEswZU5lY040S1JZUXZJWGlRRHFkbjjSAcABQVVfeXFMTmZCWjhTbktUMTN0NThNNEZ2R0I0SmxKa3hTeHEwWUNDLTkxd3Bmcktfc3o3NGVSRGZheHgxRGoxSGVET05sckttdWJUU2lFbENSMVJyZVdzVHNxWjlJbWM4TjNTblo3U3ppa2ZhSHNRS0tyZlZBWGhRYm1oQ1dPTEFOV05xWWsxSmtxaDV0Ui1NOTBKT3JqSzJMRHAxNUZzbFhFWnFpNE1NTThLMGVOZWNONEtSWVF2SVhpUURxZG44?oc=5",
+    "fuente": "Canarias7",
+    "fecha": "2026-10-23T16:06:35+00:00"
+   },
+   {
+    "titulo": "Valido (CC) defiende la fuerza nacionalista canaria en Madrid: \"Ni la izquierda ni la derecha\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRUpYQ0J2NURMYnRDelV1WWl5RFpJSk1GT1lJOHp0LW9vbXQzQ0x5bEJHQkltb0NFS3I3NmNqYlJjTjNWQkRNdGwxRTFSWjd4cUdpYldLMlpBM1Fwa1VFbkRTTHlMTUh2UW5JLUN2ekxCWVRHUmVnUUF2czNFREliTWhfcTVSX0JKRmR2V05ySEo4dVJaVkh6OE1QeE5CeWEycTlmTTNaa2NBT2FsWW9vSDJoZGZqTVB5MFFPVWRtZ0Q1VkhEQWZ2MUJmN3Q0eGtiYkM0VV9BRQ?oc=5",
+    "fuente": "Diario Siglo XXI",
+    "fecha": "2026-10-23T14:57:00+00:00"
+   },
+   {
+    "titulo": "Coalición Canaria-Primero Canarias registra sus candidaturas por Santa Cruz de Tenerife",
+    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc21tVHhDX2RZendIeXVKYWhHQUtVTzd0clh3dHVtYmVlRGhocnhaZGlQUHBleHFSUXRZRFJ5X3U4SHdwcm1zVkVZRlhCcDA0R3pTenlDWExneEl2VkpyUjJ3WFJVTkNmWk9CdE1RNmxyUGJNVEJ0ZnhXY0g4SEZTNGhfNVp4YXlIZGRJVEluN1k5WHRzaU5Udg?oc=5",
+    "fuente": "Radio Televisión Canaria",
+    "fecha": "2026-10-23T13:54:58+00:00"
+   },
+   {
+    "titulo": "Valido asegura que la única misión y la única causa de Coalición Canaria es Canarias",
+    "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQVo3REJOSUpMNGdUV2x1UFBWOHVEQi1od2piMGtyRFo2cUxwYmNoRDBkVDJGM2pLTHRwWmx0YXhia25KWlhmd1E2RDUyMDdXOGFSQm9IMk9GR1REeFpscXdJdnA1Uk5DMGRvWHF1X2VqTDVUTHUyc1pEeU5xWGNHbVNDaVlFZGNNSVlMbFhzcw?oc=5",
+    "fuente": "NOTICIAS 8 ISLAS",
+    "fecha": "2026-10-23T12:55:57+00:00"
    }
   ],
   "UPN": [
@@ -599,6 +602,12 @@
     "fecha": "2026-10-25T09:53:55+00:00"
    },
    {
+    "titulo": "Vox ve posible colaborar con Aliança para «defender la identidad catalana de la invasión migratoria»",
+    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNVY5cUs2dDVpT1dtSzJfMkl2UEdrSS1Iemx1LXBsclEwemxVWFhjRUxCSGw3OXkxMnNWdU90dUZKRU5YQkJKTW5UWGRZaFFPbXhnMTg1cXBNX0J0bTNuUDMwX1ppeS1zNFhYSXk0Q09vQ1JuNEtLQXZNX1hoaEZjTmp5Rk9WcEdYVDJpZ3Npa0RNbEZxWnlBSTZlQ2JTRlJTSVRoNWlKUWFKdkpNRWZSS2wzYmFhZTJDTVNTbEU2YVA4WWZIOHFCdTItcmxVQUNmTmJ1MWZB0gHWAUFVX3lxTE81VjlxSzZ0NWlPV21LMl8ySXZQR2tJLUh6bHUtcGxyUTB6bFVYWGNFTEJIbDc5eTEyc1Z1T3R1RkpFTlhCQkpNblRYZFloUU9teGcxODVxcE1fQnRtM25QMzBfWml5LXM0WFhJeTRDT29DUm40S0tBdk1fWGhoRmNOanlGT1ZwR1hUMmlnc2lrRE1sRnFaeUFJNmVDYlNGUlNJVGg1aUpRYUp2Sk1FZlJLbDNiYWFlMkNNU1NsRTZhUDhZZkg4cUJ1Mi1ybFVBQ2ZOYnUxZkE?oc=5",
+    "fuente": "Diari de Tarragona",
+    "fecha": "2026-10-25T09:37:05+00:00"
+   },
+   {
     "titulo": "Vox y Aliança Catalana vinculan los actos vandálicos en Barcelona con la inmigración",
     "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaWJxWFFWay1RaXkteHo2N3FjS0FTZWNQREVkVDlxLXFYQTlOQWdtdzktMTAzMTV1Slo4UzMzOGw2bWdNcVdLYkFCLVVodk8zcVc5eFZWMlY2NkIzcDcxLUhzaFAtQlN6OHZXdGdxS29zN0lIMzBpemt2QzhwV3g0T25yYXZHTjVoLXByNkVEbjN2QVkwOEhzdDNGTXZ1Sm9LdUd4enQtRElQZlMzeXNtX1lwTHpYQm5XWXFpTm8zZzA3bVY2dDdDbTBWSW5hZDN6SXfSAewBQVVfeXFMTzdocXhfWkotbmdVc21ua3l1R0tZWDBnWndxQ0Z6NzB0Tko3OEJpZGk1UW1aRlVrbFN4YlNwV2pZc2ZtWGhNQVZsa2gtTTV5M254ZXVvbk9Ld1I1QUpkUjdncW5ZRjRNSGltRm5ZY1lrLUpGaTZBM2RaTFlyTS0tckpUVUwxNWFJWUhQUE9OdzhBdHUwSXQzeFBkLTJoeGItemxMN1pXNXJJMmg5Ni1IUVN6OFIySUl2WVNxaFRvbzA3RkU5dVh2V1dFbnp0cFJ1Z2J3SlV5T1JKcXJMOGVEOU14dEw3VHVzRVV5eDk?oc=5",
     "fuente": "Infobae",
@@ -615,13 +624,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRXo2NmZPMDFGRWhSbWo1YjFoRTg5ZzZfX2ZKaHZrRDFYZUVmZFVESlJINEZfdDYyMURxQlZhaG5UemJEQnNDLU54b2ZqYi1Ub1RzU0VzSVhBNnZxZGdjTkpIT2ZvaFBmYTNxYjJkV0g2WklEbFZwUjBTQ3RsY2NxejFMcXBSRU5GR0VUel9Db0w1YzBiSVo3WVM1WWRKS1pkOTNybUEyWdIBrAFBVV95cUxOa1VyZ2tVUzdHZ1ZyQ3FIYzFja2p4bXJqYWtUdi1pWHNXd0VRczlyZDZCRVZBVldSTUVsMV9CX0xIdkhhMzVmTG5WZERyM0FFVkxfLWxXOTRmSmVObXZuZWxuN0drcDZDZVIyYlpoVzd4cUs4c2txZ1pUZ0h3WURvMU1LWmxlTUlTZTE2NVBpalBPX0pCM3JadjVyWk9OREJfYTh0d0wzbzFJMWdY?oc=5",
     "fuente": "Diario Público",
     "fecha": "2026-10-24T17:35:00+00:00"
-   },
-   {
-    "titulo": "Sílvia Orriols no ve contradicción en votar a Aliança en Catalunya y Vox en las generales",
-    "enlace": "https://www.lavanguardia.com/politica/20261024/11667229/silvia-orriols-ve-contradiccion-votar-alianca-catalunya-vox-generales.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-10-24T16:51:24+02:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/19/6ad544917eeb8.r_d.2095-1520-1055.jpeg"
    }
   ],
   "AA": [
@@ -903,14 +905,6 @@
    "partido": "Sumar"
   },
   {
-   "titulo": "La UCO detecta la desaparición de facturas en la contabilidad del PSOE al rastrear la financiación ilegal",
-   "enlace": "https://www.elmundo.es/espana/2026/10/22/6ada535cfdddff545b8b45a9.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-10-22T21:31:21+00:00",
-   "partido": "PSOE",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/22/17926932014604.jpg"
-  },
-  {
    "titulo": "Choque entre PSOE y PP por un vídeo generado con IA en el que dirigentes socialistas admiten delitos de corrupción",
    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZ1NVWFRYT1pfNTVZTDF4S3VzNGM4MG1wWnJjSmJzaVl5bE1zckJnOXNZS3JVWU5jWVlONUZudnVmM1J5a05sZlJybDFPN2hHdzNaSWpNeWRjSnVFUU1Da2ZzSnVBSzJZb3c3VHFkUWszcGFPcDFOWjhfSUpxYUFLSXEtdDBXM3hZenBWWERlY2VyU2FjU2o5OUpMd1Y2QkhOMzlwel93aE1kdGpHS2tNNzY1dnFmSWstdHBQamp6R0l1ZEJkNm5aQU5qRm1kM01NSVpVcGZENGRWWHFpYWh1UFJscXV4UTg?oc=5",
    "fuente": "20Minutos",
@@ -939,11 +933,25 @@
    "partido": "PSOE"
   },
   {
-   "titulo": "Artur Mas compara a Rufián con Vinícius: «Viven de la provocación y la bronca»",
-   "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVmRpNWxBT3VDcWZDeGhTRG1kaEZsb0k0NkJHbTFtejRiZmpiWDBHeVlaNUFfUmFQOFdvQU9ycmh4eHJRSnlvT1BQX2c5Ti1GYnRaOEVPOUZ4WlNTc21xQlpZcWI1R2JXdXhJeFJjNVV0OVMxSC1Bb21ZUENqNWFUNnhPdHdrNlk1ZXlqWlo1REU4cU9UZV9Zci1aeVhINlp4UTV3TW4tZEs1bUdiQTZ4VFY0SkVXLV96Z1c1Y0RmUFR2b2dwaHpwMjdWanRRdUdmbHBZZtIB8AFBVV95cUxPNDZDR0ZoY1dCYjlmcDVvcUhjbzhTTzU2Z2hzOWhmNG5abDZ1LTNMQW50czhDVFJMR2QzcXFkcUV1X2NXWS1iSDFLcWN3Yk95NVdDS0NCOG1sbDNoTjV3d19vTWxyTjdIY3dadXlxeVUyWlNYbVpkRWVVOWpVMlJLVzdGQWY3S2NOeTRzVktaWUFqOXJKYWU1LW0xUFE3Q2dzSC1pM1QyNDRSYXRvNVdNNm5oM0p6WUpjVGFXZkVzLVFhV3hmZm5vRWlJY2k1cVV0d2VmcE9GZXZhVmg3bmx0SXQ1enZDbXpfbENhTXd4Rk8?oc=5",
-   "fuente": "La Voz de Galicia",
-   "fecha": "2026-10-20T09:51:09+00:00",
+   "titulo": "Artur Mas compara a Rufián con Vinícius: «Vive de la provocación y de la bronca»",
+   "enlace": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOWJGZnhvV0U1Rkw0ZnhnRmM2WkxvNjF1RnBCMTBOd3lCcUY0bDV0SUVlZmQ3c2szMC01Uzh2bmR0THFPTFdqVUw5MnNUVzd6TnZoMkdyZlFGbEx2eTkzU1g4SkpJdXBkZ21rUGdyMG5ITTZRVHF3bElFenpqbmVBSw?oc=5",
+   "fuente": "BilbaoHiria",
+   "fecha": "2026-10-20T14:36:00+00:00",
    "partido": "ERC"
+  },
+  {
+   "titulo": "ERC replica a Mas que la \"bronca\" la generó él con los recortes: \"Menos leccioncitas\"",
+   "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTGNTVGFEd2gtYlh3TDhZdWNKdHFNMzVZXzY0N0JpSDBlNlFIbXRvOXZHT1gxY1RMOVljMWdGSW9MMHhQMlc5QmhWTEhnQXBzcUxhdWVvMUhkZk50UkVUakpKRzMtS1I3UEJZajJWekpEN0FmX2I2ZC1OT1Jtd0c3Z0FzWTRQQldjMF84VW0tVnlqSm5RNDFCZjJad19CWjEzdFVraGlzc2pzQUZUbTVDS1dMVW41Y0VH?oc=5",
+   "fuente": "El Nacional.cat",
+   "fecha": "2026-10-20T10:28:01+00:00",
+   "partido": "ERC"
+  },
+  {
+   "titulo": "Malas noticias para Pedro Sánchez: renuncia la vocera del PSOE tras el escándalo por los 30 propiedades de su marido",
+   "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcmdudnFsZ0FQR0phQlVIa05CSGh6SHdDTDBYS1hqdmFtZ0VUQ3BVWTNXT3dNelprVmg5RDctOURYazR5SXBTYnczZVZHa0pCU3lzeFl0UWFQRUZrQnpFSGU1Qm5md3RKcldsZG56c0NxcHVTZHp4ZVBHVk1mTzFfUG5IUHZuVEc3b2t5YUVMVFFFd1RhOGJZWFVEMHJKSUJmNkdMMHJ0TUZkbVFaXy1FT1p0WDJjVUFfUGp5Q21ZWHRpVVVZYkJJem41MWlwYlZiRmdVWjczVExnSTgzMk13T3ZxXzh4dk4yNHM0R2F30gHzAUFVX3lxTE5Ndkx4RnNKTlh1WEN6UWlVS1I5czhpekc4UnlRVzQwZGRXblN0dFhienpxM0pSRGdJTzVFdVgtcGlHaHpqWjdrZ3kyME9hbktPdUVZWEJKWWZzTy15OFhPNGR3SXBoa2llQ2NnQkFpOVhtaXFONF9PbVZ2bHZ6dmpjeWptMG1xLXNjX0Y0OWJUWEdsdFdRM0pZNm45OFFaajE3aHh5RWV1dWFWNWtVZFZRNXFHYUE1RTJ0VElVWWtzSFBpM2YtcFNUQUdWZkQ1WGpGSnJ4Vkg5cldkYlN6bnZtdWZWN2duSXQyTy12WU9ZSE9YRQ?oc=5",
+   "fuente": "El Observador",
+   "fecha": "2026-10-18T13:58:00+00:00",
+   "partido": "PSOE"
   }
  ],
  "medios": [
