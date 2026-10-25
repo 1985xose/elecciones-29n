@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-10-25T01:01:52+00:00",
+ "actualizado": "2026-10-25T01:09:03+00:00",
  "generales": [
+  {
+   "titulo": "Sánchez se inventa una treintena de medidas sociales en su búsqueda desesperada del voto",
+   "enlace": "https://www.abc.es/espana/sanchez-inventa-treintena-medidas-sociales-busqueda-desesperada-20261023024126-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-10-25T02:41:49+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/23/1519095414-RCYIYjLfjjw63fD5KY3mYOM-1200x840@diario_abc.jpg"
+  },
   {
    "titulo": "El equipo de Sánchez ya le ve \"ganador\" pero sectores del PSOE fuera de Madrid rebajan la euforia: \"En la calle no se aprecia entusiasmo\"",
    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/25/6adcd6f0e9cf4a3f028b4579.html",
@@ -14,13 +21,6 @@
    "fuente": "El Español",
    "fecha": "2026-10-24T22:24:00+02:00",
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11384928.jpg?p=c:1643:925:nowe:0:26/w:1706/h:960&h=VvMis5lT"
-  },
-  {
-   "titulo": "29N: El PP se conjura para conseguir el tercer diputado en Valladolid",
-   "enlace": "https://www.larazon.es/castilla-y-leon/29n-conjura-conseguir-tercer-diputado-valladolid_202610246add0e4d1e53586bfbbb87c2.html",
-   "fuente": "La Razón",
-   "fecha": "2026-10-24T22:00:13+02:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/24/2788AAC4-CD80-48DE-96A9-EF0E05445B51/tellado-conversa-isabel-blanco-conrado-iscar-jesus-julio-carnero-maria-pardo-eduardo-carazo-jose-angel-alonso_96.jpg?crop=5724,3220,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
    "titulo": "En manos de políticos desquiciados y descerebrados",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Un gamberro en Génova, 13",
-    "enlace": "https://www.elmundo.es/elecciones/2026/10/25/6adcd73fe9cf4a01208b4594.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-10-25T00:04:44+02:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/24/17928642141870.png"
+    "titulo": "La izquierda quiere copiar la estrategia del PP en el Senado y que le estalle a Feijóo",
+    "enlace": "https://www.abc.es/espana/izquierda-quiere-copiar-estrategia-pp-senado-estalle-20261025024153-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-10-25T02:42:33+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/25/1500852391-RGOu4bJ6pZvaDHR2644AcAL-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Iván Redondo anticipa el resultado de las elecciones en España: «Se va a ver cómo el PSOE supera al PP. La campaña no ha hecho más que empezar»",
@@ -197,7 +197,7 @@
     "titulo": "Las amenazas de Más Madrid extreman la tensión en la recta final de la legislatura de Ayuso",
     "enlace": "https://www.abc.es/espana/madrid/amenazas-madrid-extreman-tension-recta-final-legislatura-20261023015257-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-10-25T01:52:57+02:00",
+    "fecha": "2026-10-25T01:52:57+01:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/23/asamblea-madrid-RQYXaYGxSt6YrcTdaFckSxJ-1200x840@diario_abc.jpg"
    },
    {
@@ -392,12 +392,6 @@
   ],
   "Bildu": [
    {
-    "titulo": "EH Bildu asegura que el 29-N se juegan derechos y vida",
-    "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRkpFT09xVDVMY1ZDcnFyLXBCcWhncUktc2k2MVdDRU12SDJlSzlxUXRYeXhuY1FDZU5UcVk2dFYxYmd0TkRJZ3djV1NXV2pCckN0QzdBME94Yzl2UXc5cDRseEdtLWpPdENQOEVqOHNPSWxXbWxxMzNVbjAya3JjS2hUbkMtdm9aTFM4WFZkTmg?oc=5",
-    "fuente": "Espacio Diario",
-    "fecha": "2026-10-24T16:52:24+00:00"
-   },
-   {
     "titulo": "EH Bildu reivindica las políticas de vivienda frente a la ultraderecha en Pamplona",
     "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUlVQNGhTclUwZmp6SE1fdTZCLXZDbzFCU0QwcVlfSGlrWHB5TVZvaldGUXVIOTNuZWZmcXVHdUQ3VmxDeDU1UjhHbEpxNTZTMGpzQjVRRzRQWkxMZWtGNldYTTh2aDIybTU2bTg4Nl9WcHZ0aWtDZU9XQWxsYzVaMGp2VGFENWJ3bU03ejdtb3ZMQ2g0S0NjRkg5Wk1LeEk2cndvNkJ1U1NNN1dmTmtYSEVtaFVueGZCQzExcThEaGt0dUFK?oc=5",
     "fuente": "Pamplona Actual",
@@ -426,6 +420,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjNzMFJKUVhHVkFIV0E0Y0U5ZnFrZXk0amYyc3gxaXJSaEtnalNaYlpWeVZPM09qakE2LWxZcGNnNnRhLTBHeEoyV1dMQXlxRHVXRzE4Y2I0aEFQOHA1X0hUdnk0V3dJTy01blA1bktrOEJfZGQ1MjVtUzY4NWgzU05JM3Mxa2t0Yy1menYwWGZmNFJxUF9VaGgyRGhMSllGOVpXWUxhYWdpTmI4VEZ1UEgwSGZINDjSAbwBQVVfeXFMUEFRbWNza3NKNmJGMC1ydVJVY0VCNjJjNjloeEZEb3NtamtGbGg5anZhd2lnM2VTX0MxSlBDU0VLdGhVbkRTYVJxNHNmT1NOaDRFc09vTF82V29xM1V2ZXRvUTY2QXRncHg2VFZKVVEwd1NHamJzcmxBXzFoQlNCUkJxbndDQkhnVnNjaGs2WGhVV0ZUYVFGU0ZuNmg3UUQ4OXJiY3NwbkFSTlhCSHVIMVpUeWxta1lpN09fRHg?oc=5",
     "fuente": "ABC",
     "fecha": "2026-10-24T06:00:46+00:00"
+   },
+   {
+    "titulo": "EH Bildu lleva a Osakidetza al Parlamento por el médico acusado de acoso sexual",
+    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNmVVR05tY1Fjd21KbkxWbk5SbnQyUEt2OWlvU0tUaVR0b1Jxc0V3YnI0RWdLNEZfcndDS3F2QUJjNXJNNDRNX1NSRGdLc01iOE85dWhfNkJnRTR4OHdnWkFKYmhabHlla2R0dDNtU2R5MVFPbENoRzQ2WTF4Q19YS2p2SnNSd2wwNjhScDNkZHRHNU41dlVTM3g3WUlLeDlOcnVYSTFXbGY2LTBZaXU0?oc=5",
+    "fuente": "BilbaoHiria",
+    "fecha": "2026-10-23T17:42:21+00:00"
    }
   ],
   "PNV": [
@@ -788,6 +788,12 @@
  },
  "verificaciones_generales": [
   {
+   "titulo": "De la renovación del Tribunal Constitucional a la aplicación del artículo 155: cuáles son las funciones del Senado",
+   "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13MWJpR3E1eXdzVEo5QmQ0S2ctZEdtQUJpQnJsbERBc0dBMmlZZUhvd3E3b3kyblBweDA0cDRoVGUwT1o4SWhIMVA2VDVHSEJsWVEwR2ktR0lMNXlBdC1qaEN5YmZfVHROMFZVV2RyRUE2bld4MHMw?oc=5",
+   "fuente": "Newtral",
+   "fecha": "2026-10-24T05:33:11+00:00"
+  },
+  {
    "titulo": "¿«José Manuel Albares, ministro de Exteriores, llama a consultas a la embajadora española en Buenos Aires después de las gravísimas palabras sobre Pedro Sánchez pronunciadas por Milei en su visita a España en octubre de 2026»? · La Buloteca · Maldit",
    "enlace": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxQdUxjWmpSWWtQVS1EMmVZc2U5VE9xc0hEdDhNU2pIWDZLNWRON1ZsRXR5Y2FpenRqSFZBVUgwek5KUlh4MVZwZjBFMG14SDRQSjJob0xwczlMcnVRV0FUdmliM3RYaURwYjlFQkF4SmtXRFRBSGd6RXoxWS14NF8weDlDQXZydnY1bEpfYmNSNDR5akNzQUs5NFdQcmRqUFlRODFCNzFjM1VXTmk3SENHN0FTQzBBZHItYXpfSnNGVFMtcDVQOUJUVm1Jb2IzdGw5Z2tzQVJ3VkhqN2xMNk1pczhSYXR6bTJacGt6ZEYza3BlLVg1SjEyeW5tZFBfdnZ1NUo1YzBNR0o3dmlmWUhHLWRtTEhnaDl2NzBpRU0xenJFektvQy1GUEdjcGpFNG0weWhVblBUcGQ2QzdkbzZRYnBudTF5dDQzYnlyeXREMzlzYXNVRGtpVjV1M3I1SGVyWTgtV1hMYkZmekRsNDEw?oc=5",
    "fuente": "Maldita.es",
@@ -828,12 +834,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNWUdTXzBvSDJSRU40ZFdFQl9OVlZyc3ZfOTJ6LVZzRmZ1cjdweGo4TVNoVFBMWkZCY1NFX3FkdjJibHNCbUFVcy1lN3pzdk9TbXVsZDVPQVpPem5reFl3amlrb0hfY1IzeDVZ?oc=5",
    "fuente": "Newtral",
    "fecha": "2026-10-23T13:46:56+00:00"
-  },
-  {
-   "titulo": "Cuál es el papel de la Junta Electoral Central en unas elecciones generales",
-   "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSVhZWksyNWdkczZVcEpjZ2xFR1lyWkYyLVF1NU5mZUZMY0Jfa2J4ZUFUVFBfTTdnNnByNWNzeDRqLWFiU3g4WmJ6QzFtdDFsNTVhd2ZqTVZ1U3pDbzRMeUpUbjA5WGR4d001MXliWDBmRlIzWjE1azREQjM0NmVHRmdtRllCU2x5?oc=5",
-   "fuente": "Newtral",
-   "fecha": "2026-10-23T13:16:54+00:00"
   }
  ],
  "polemicas": [
@@ -887,6 +887,13 @@
    "partido": "PP"
   },
   {
+   "titulo": "Polémica por el insulto de verdulera de Alfonso Serrano del PP a Manuela Bergerot de Más Madrid",
+   "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc25SN2N4a190VTk2dkdyMU1vbG5wM19GMDlnRG1UallfYnFhc3B2enNnN2RoRThwZFNZdmlDckx1b2JrSVFtX3Zzek9FNXlQTC05ZWQtOTROXzZGSUEtSUhtT1FsYXNUcGJGQlRRQzZDVDl3bHROZU41Z1hQOGJtQ3hGLW9NTFU?oc=5",
+   "fuente": "Diariocrítico.com",
+   "fecha": "2026-10-23T06:26:35+00:00",
+   "partido": "Sumar"
+  },
+  {
    "titulo": "Choque entre PSOE y PP por un vídeo generado con IA en el que dirigentes socialistas admiten delitos de corrupción",
    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZ1NVWFRYT1pfNTVZTDF4S3VzNGM4MG1wWnJjSmJzaVl5bE1zckJnOXNZS3JVWU5jWVlONUZudnVmM1J5a05sZlJybDFPN2hHdzNaSWpNeWRjSnVFUU1Da2ZzSnVBSzJZb3c3VHFkUWszcGFPcDFOWjhfSUpxYUFLSXEtdDBXM3hZenBWWERlY2VyU2FjU2o5OUpMd1Y2QkhOMzlwel93aE1kdGpHS2tNNzY1dnFmSWstdHBQamp6R0l1ZEJkNm5aQU5qRm1kM01NSVpVcGZENGRWWHFpYWh1UFJscXV4UTg?oc=5",
    "fuente": "20Minutos",
@@ -913,6 +920,13 @@
    "fuente": "Aragón Digital",
    "fecha": "2026-10-21T16:18:56+00:00",
    "partido": "PSOE"
+  },
+  {
+   "titulo": "Aitor Esteban (PNV) carga contra los 'martes sociales' del Gobierno: \"No es nada estético hacer campaña desde el Consejo de Ministros\"",
+   "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVThUbFdLSkZnRk91S05CN0RzZFdJcWJud2ptcGNSdlVOWjg1RVhCXy1kOGpQaFhpRzc4dTVtNjFmNFYwQlNYNzJQd3hfMXVDQjlUQVhKcjNCR0QzTEZEN1Jfa0Q1NWx6RU5qYWhSdWZUSUktVkJGMXJmTVZXUzdPWkY5d08xV1pZbVJIbG5qSWY2THVfdnZtMjNabC1xdG1M?oc=5",
+   "fuente": "El Confidencial",
+   "fecha": "2026-10-21T08:07:00+00:00",
+   "partido": "PNV"
   },
   {
    "titulo": "Artur Mas compara a Rufián con Vinícius: «Vive de la provocación y de la bronca»",
