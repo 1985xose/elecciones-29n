@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-25T09:01:06+00:00",
+ "actualizado": "2026-10-25T10:01:05+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1381729529,
+ "revision": 1381873959,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,24 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "PSOE",
+   "inicio": "2026-10-25",
+   "fin": "2026-10-25",
+   "muestra": null,
+   "participacion": null,
+   "pct": {
+    "PP": 29.0,
+    "PSOE": 30.0,
+    "Vox": 20.0
+   },
+   "escanos": {},
+   "empresa_base": "PSOE",
+   "clave": "psoe",
+   "encargo": "",
+   "id": "psoe-2026-10-25-0",
+   "primera_vez": "2026-10-25T10:01:05+00:00"
+  },
   {
    "empresa": "EM-Analytics/Electomanía",
    "inicio": "2026-10-15",

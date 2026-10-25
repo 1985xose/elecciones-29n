@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T09:01:06.358Z",
+ "actualizado": "2026-10-25T10:01:09.125Z",
  "media_bruta": {
   "PP": 31.746604940582532,
   "PSOE": 26.553325233127246,
@@ -480,6 +480,14 @@
    }
   },
   {
+   "clave": "psoe",
+   "empresa": "PSOE",
+   "encuestas": 1,
+   "letra": "C",
+   "texto": "error medio de 2,2 puntos en una elección",
+   "sesgo": null
+  },
+  {
    "clave": "targetpoint",
    "empresa": "Target Point",
    "encuestas": 25,
@@ -555,6 +563,36 @@
   }
  ],
  "ultimas": [
+  {
+   "id": "psoe-2026-10-25-0",
+   "empresa": "PSOE",
+   "encargo": "",
+   "fin": "2026-10-25",
+   "veredicto": "leve",
+   "texto": "Algo fuera de lo habitual: PSOE sube 3.5 puntos respecto a lo esperado de esta empresa.",
+   "nota": "C",
+   "margen": 3.1,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 29,
+     "esperado": 31.8,
+     "diferencia": -2.8
+    },
+    {
+     "partido": "PSOE",
+     "dado": 30,
+     "esperado": 26.5,
+     "diferencia": 3.5
+    },
+    {
+     "partido": "Vox",
+     "dado": 20,
+     "esperado": 19,
+     "diferencia": 1
+    }
+   ]
+  },
   {
    "id": "electopanel-2026-10-17-3141",
    "empresa": "EM-Analytics",
@@ -1068,54 +1106,6 @@
      "dado": 1.9,
      "esperado": 2,
      "diferencia": -0.1
-    }
-   ]
-  },
-  {
-   "id": "sigmados-2026-10-08-2017",
-   "empresa": "Sigma Dos",
-   "encargo": "El Mundo",
-   "fin": "2026-10-08",
-   "veredicto": "ruido",
-   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
-   "nota": "B",
-   "margen": 2.2,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 31.9,
-     "esperado": 32.7,
-     "diferencia": -0.8
-    },
-    {
-     "partido": "PSOE",
-     "dado": 25.3,
-     "esperado": 26.1,
-     "diferencia": -0.8
-    },
-    {
-     "partido": "Vox",
-     "dado": 19.1,
-     "esperado": 18,
-     "diferencia": 1.1
-    },
-    {
-     "partido": "Sumar",
-     "dado": 7.6,
-     "esperado": 7.6,
-     "diferencia": 0
-    },
-    {
-     "partido": "Podemos",
-     "dado": 3.1,
-     "esperado": 3.3,
-     "diferencia": -0.2
-    },
-    {
-     "partido": "ERC",
-     "dado": 2.6,
-     "esperado": 2.2,
-     "diferencia": 0.4
     }
    ]
   }
