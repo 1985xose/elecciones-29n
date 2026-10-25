@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-25T21:01:07+00:00",
+ "actualizado": "2026-10-25T21:45:41+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1381885827,
+ "revision": 1381969574,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,32 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "Ateneo del Dato/elDiario.es",
+   "inicio": "2026-10-25",
+   "fin": "2026-10-25",
+   "muestra": null,
+   "participacion": null,
+   "pct": {
+    "PP": 31.1,
+    "PSOE": 27.6,
+    "Vox": 19.8,
+    "Sumar": 6.8,
+    "Podemos": 2.7
+   },
+   "escanos": {
+    "PP": 126.5,
+    "PSOE": 109.5,
+    "Vox": 70.5,
+    "Sumar": 14.0,
+    "Podemos": 1.5
+   },
+   "empresa_base": "Ateneo del Dato",
+   "clave": "ateneodeldato",
+   "encargo": "elDiario.es",
+   "id": "ateneodeldato-2026-10-25-0",
+   "primera_vez": "2026-10-25T21:45:41+00:00"
+  },
   {
    "empresa": "PSOE",
    "inicio": "2026-10-25",
