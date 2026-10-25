@@ -481,13 +481,13 @@
   "fecha": "2026-10-25",
   "escenarios": {
    "pp": 0.0009,
-   "pp_vox": 0.9219,
-   "izq_socios": 0.0577
+   "pp_vox": 0.9167,
+   "izq_socios": 0.0616
   },
-  "bloqueo": 0.0204,
+  "bloqueo": 0.0217,
   "p50": {
-   "PP": 131,
-   "PSOE": 106,
+   "PP": 130,
+   "PSOE": 105,
    "Bildu": 7,
    "PNV": 5,
    "Vox": 68,
@@ -497,8 +497,8 @@
    "BNG": 2,
    "Podemos": 1,
    "SALF": 0,
-   "UPN": 1,
    "AA": 0,
+   "UPN": 1,
    "CCa": 1
   }
  }

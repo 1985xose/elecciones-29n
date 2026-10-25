@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-10-25T12:01:09.287Z",
+ "actualizado": "2026-10-25T13:01:10.260Z",
  "media_bruta": {
-  "PP": 31.746604940582532,
-  "PSOE": 26.553325233127246,
-  "Vox": 19.009535075132646,
-  "Sumar": 6.651676560598801,
-  "ERC": 2.1749344051199735,
-  "Junts": 1.4115829738310777,
-  "Bildu": 1.3465013219084863,
-  "PNV": 0.9498089256811291,
-  "BNG": 0.9283741805093916,
-  "CCa": 0.434201724473419,
-  "AA": 0.9445816956507307,
-  "Podemos": 2.7205262242570982,
-  "SALF": 1.6127405993698338,
+  "PP": 31.52427130906324,
+  "PSOE": 26.480624320037006,
+  "Vox": 19.02906526434767,
+  "Sumar": 6.8291213624625655,
+  "ERC": 2.201781283801136,
+  "Junts": 1.4298120810185029,
+  "Bildu": 1.350058010519977,
+  "PNV": 0.953145718828112,
+  "BNG": 0.9334058619435773,
+  "CCa": 0.42477411400737514,
+  "AA": 0.9595028192622371,
+  "Podemos": 2.6095455841970385,
+  "SALF": 1.6183096182173018,
   "UPN": 0.18137265246802692
  },
  "principales": [
@@ -27,16 +27,16 @@
  "sesgos": {
   "electopanel": {
    "empresa": "EM-Analytics",
-   "n": 60,
+   "n": 61,
    "sesgo": {
-    "PP": -0.38,
+    "PP": -0.39,
     "PSOE": 0.69,
-    "Vox": 0.99,
-    "Sumar": -0.74,
-    "Podemos": 0.45,
+    "Vox": 0.97,
+    "Sumar": -0.72,
+    "Podemos": 0.42,
     "ERC": -0.12
    },
-   "sd": 0.59
+   "sd": 0.6
   },
   "sigmados": {
    "empresa": "Sigma Dos",
@@ -262,15 +262,15 @@
   {
    "clave": "electopanel",
    "empresa": "EM-Analytics",
-   "encuestas": 168,
+   "encuestas": 169,
    "letra": "B",
    "texto": "error medio de 1,2 puntos en 3 elecciones",
    "sesgo": {
-    "PP": -0.38,
+    "PP": -0.39,
     "PSOE": 0.69,
-    "Vox": 0.99,
-    "Sumar": -0.74,
-    "Podemos": 0.45,
+    "Vox": 0.97,
+    "Sumar": -0.72,
+    "Podemos": 0.42,
     "ERC": -0.12
    }
   },
@@ -569,27 +569,75 @@
    "encargo": "",
    "fin": "2026-10-25",
    "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: PSOE sube 3.5 puntos respecto a lo esperado de esta empresa.",
+   "texto": "Algo fuera de lo habitual: PSOE sube 3.6 puntos respecto a lo esperado de esta empresa.",
    "nota": "C",
    "margen": 3.1,
    "detalle": [
     {
      "partido": "PP",
      "dado": 29,
-     "esperado": 31.8,
-     "diferencia": -2.8
+     "esperado": 31.6,
+     "diferencia": -2.6
     },
     {
      "partido": "PSOE",
      "dado": 30,
-     "esperado": 26.5,
-     "diferencia": 3.5
+     "esperado": 26.4,
+     "diferencia": 3.6
     },
     {
      "partido": "Vox",
      "dado": 20,
      "esperado": 19,
      "diferencia": 1
+    }
+   ]
+  },
+  {
+   "id": "electopanel-2026-10-23-4309",
+   "empresa": "EM-Analytics",
+   "encargo": "Electomanía",
+   "fin": "2026-10-23",
+   "veredicto": "movimiento",
+   "texto": "Movimiento real: Podemos sale 1.7 puntos por debajo de lo que cabía esperar de esta empresa.",
+   "nota": "B",
+   "margen": 1.5,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 30.9,
+     "esperado": 31.4,
+     "diferencia": -0.5
+    },
+    {
+     "partido": "PSOE",
+     "dado": 26.7,
+     "esperado": 27,
+     "diferencia": -0.3
+    },
+    {
+     "partido": "Vox",
+     "dado": 19,
+     "esperado": 20,
+     "diferencia": -1
+    },
+    {
+     "partido": "Sumar",
+     "dado": 7,
+     "esperado": 6,
+     "diferencia": 1
+    },
+    {
+     "partido": "Podemos",
+     "dado": 1.7,
+     "esperado": 3.4,
+     "diferencia": -1.7
+    },
+    {
+     "partido": "ERC",
+     "dado": 2.2,
+     "esperado": 2.1,
+     "diferencia": 0.1
     }
    ]
   },
@@ -1052,54 +1100,6 @@
      "dado": 3.3,
      "esperado": 3.5,
      "diferencia": -0.2
-    },
-    {
-     "partido": "ERC",
-     "dado": 1.9,
-     "esperado": 2,
-     "diferencia": -0.1
-    }
-   ]
-  },
-  {
-   "id": "invymark-2026-10-08-0",
-   "empresa": "InvyMark",
-   "encargo": "laSexta",
-   "fin": "2026-10-08",
-   "veredicto": "ruido",
-   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
-   "nota": "C",
-   "margen": 3.1,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 32.8,
-     "esperado": 33.3,
-     "diferencia": -0.5
-    },
-    {
-     "partido": "PSOE",
-     "dado": 28,
-     "esperado": 27.2,
-     "diferencia": 0.8
-    },
-    {
-     "partido": "Vox",
-     "dado": 18.8,
-     "esperado": 18.8,
-     "diferencia": 0
-    },
-    {
-     "partido": "Sumar",
-     "dado": 6.3,
-     "esperado": 5.5,
-     "diferencia": 0.8
-    },
-    {
-     "partido": "Podemos",
-     "dado": 3.2,
-     "esperado": 3.2,
-     "diferencia": 0
     },
     {
      "partido": "ERC",
