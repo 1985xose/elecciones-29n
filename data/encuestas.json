@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-26T17:01:20+00:00",
+ "actualizado": "2026-10-26T18:01:20+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1382072861,
+ "revision": 1382113578,
  "partidos": [
   "PP",
   "PSOE",
@@ -91,7 +91,7 @@
     "PP": 33.1,
     "PSOE": 25.8,
     "Vox": 19.0,
-    "Sumar": 6.6,
+    "Sumar": 13.2,
     "ERC": 2.0,
     "Junts": 1.8,
     "Bildu": 1.4,
@@ -104,7 +104,7 @@
     "PP": 143.0,
     "PSOE": 101.0,
     "Vox": 65.0,
-    "Sumar": 8.5,
+    "Sumar": 17.0,
     "ERC": 7.5,
     "Junts": 8.5,
     "Bildu": 6.5,
@@ -204,14 +204,14 @@
     "PP": 31.1,
     "PSOE": 27.6,
     "Vox": 19.8,
-    "Sumar": 6.8,
+    "Sumar": 13.6,
     "Podemos": 2.7
    },
    "escanos": {
     "PP": 126.5,
     "PSOE": 109.5,
     "Vox": 70.5,
-    "Sumar": 14.0,
+    "Sumar": 28.0,
     "Podemos": 1.5
    },
    "empresa_base": "Ateneo del Dato",
@@ -301,47 +301,6 @@
    "encargo": "Electomanía",
    "id": "electopanel-2026-10-17-3141",
    "primera_vez": "2026-10-18T15:35:59+00:00"
-  },
-  {
-   "empresa": "IMOP/El Confidencial",
-   "inicio": "2026-10-13",
-   "fin": "2026-10-16",
-   "muestra": 1000,
-   "participacion": 72.9,
-   "pct": {
-    "PP": 28.5,
-    "PSOE": 27.1,
-    "Vox": 20.0,
-    "Sumar": 8.9,
-    "ERC": 2.2,
-    "Junts": 1.2,
-    "Bildu": 1.3,
-    "PNV": 1.0,
-    "BNG": 1.1,
-    "CCa": 0.6,
-    "Podemos": 1.9,
-    "SALF": 1.2
-   },
-   "escanos": {
-    "PP": 123.0,
-    "PSOE": 113.0,
-    "Vox": 72.0,
-    "Sumar": 14.0,
-    "ERC": 8.0,
-    "Junts": 4.0,
-    "Bildu": 6.0,
-    "PNV": 5.0,
-    "BNG": 2.0,
-    "CCa": 1.0,
-    "AA": 1.0,
-    "Podemos": 1.0,
-    "SALF": 0.0
-   },
-   "empresa_base": "IMOP",
-   "clave": "imop",
-   "encargo": "El Confidencial",
-   "id": "imop-2026-10-16-1000",
-   "primera_vez": "2026-10-23T07:01:08+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
