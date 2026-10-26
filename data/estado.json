@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-10-26T09:01:15+00:00",
-  "mensaje": "522 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-10-26T09:01:15+00:00",
+  "hora": "2026-10-26T10:01:23+00:00",
+  "mensaje": "523 encuestas leídas, 1 nuevas",
+  "ultima_buena": "2026-10-26T10:01:23+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -11,30 +11,32 @@
     "Sigma Dos/Antena 3 2023-11-27"
    ],
    "corregidas": [],
-   "nuevas": []
+   "nuevas": [
+    "NC Report/La Razón 2026-10-24"
+   ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-10-26T09:01:43.788Z",
+  "hora": "2026-10-26T10:02:17.176Z",
   "mensaje": "10000 repeticiones, faltan 34 días",
-  "ultima_buena": "2026-10-26T09:01:43.788Z",
+  "ultima_buena": "2026-10-26T10:02:17.176Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-10-26T09:02:10+00:00",
-  "mensaje": "10 titulares del día, 89 por partido, 16 polémicas",
-  "ultima_buena": "2026-10-26T09:02:10+00:00",
+  "hora": "2026-10-26T10:02:42+00:00",
+  "mensaje": "10 titulares del día, 88 por partido, 15 polémicas",
+  "ultima_buena": "2026-10-26T10:02:42+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-10-26T09:02:10+00:00"
+  "hora": "2026-10-26T10:02:43+00:00"
  },
  "avisado": {},
  "fiabilidad": {
