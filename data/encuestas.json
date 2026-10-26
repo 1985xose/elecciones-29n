@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-26T06:10:23+00:00",
+ "actualizado": "2026-10-26T07:01:12+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1381976557,
+ "revision": 1382046667,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,28 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "SocioMétrica/El Español",
+   "inicio": "2026-10-26",
+   "fin": "2026-10-26",
+   "muestra": 3223,
+   "participacion": null,
+   "pct": {
+    "PP": 32.0,
+    "PSOE": 27.0,
+    "Vox": 18.6
+   },
+   "escanos": {
+    "PP": 135.0,
+    "PSOE": 108.0,
+    "Vox": 63.0
+   },
+   "empresa_base": "SocioMétrica",
+   "clave": "sociometrica",
+   "encargo": "El Español",
+   "id": "sociometrica-2026-10-26-3223",
+   "primera_vez": "2026-10-26T07:01:12+00:00"
+  },
   {
    "empresa": "PSOE",
    "inicio": "2026-10-25",
@@ -85,7 +107,7 @@
    "empresa": "Ateneo del Dato/elDiario.es",
    "inicio": "2026-10-20",
    "fin": "2026-10-22",
-   "muestra": null,
+   "muestra": 2000,
    "participacion": null,
    "pct": {
     "PP": 31.1,
@@ -104,8 +126,48 @@
    "empresa_base": "Ateneo del Dato",
    "clave": "ateneodeldato",
    "encargo": "elDiario.es",
-   "id": "ateneodeldato-2026-10-22-0",
-   "primera_vez": "2026-10-25T22:01:07+00:00"
+   "id": "ateneodeldato-2026-10-22-2000",
+   "primera_vez": "2026-10-26T07:01:12+00:00"
+  },
+  {
+   "empresa": "Sigma Dos/El Mundo",
+   "inicio": "2026-10-08",
+   "fin": "2026-10-22",
+   "muestra": 3122,
+   "participacion": null,
+   "pct": {
+    "PP": 30.6,
+    "PSOE": 26.1,
+    "Vox": 19.9,
+    "Sumar": 8.2,
+    "ERC": 2.5,
+    "Junts": 1.2,
+    "Bildu": 1.2,
+    "PNV": 0.9,
+    "BNG": 0.9,
+    "CCa": 0.4,
+    "AA": 1.0,
+    "Podemos": 2.8
+   },
+   "escanos": {
+    "PP": 128.0,
+    "PSOE": 106.0,
+    "Vox": 67.5,
+    "Sumar": 13.5,
+    "ERC": 8.5,
+    "Junts": 6.5,
+    "Bildu": 7.5,
+    "PNV": 4.5,
+    "BNG": 2.0,
+    "CCa": 0.5,
+    "AA": 2.5,
+    "Podemos": 1.0
+   },
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "encargo": "El Mundo",
+   "id": "sigmados-2026-10-22-3122",
+   "primera_vez": "2026-10-26T07:01:12+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",

@@ -1,39 +1,43 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-10-26T06:10:23+00:00",
-  "mensaje": "520 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-10-26T06:10:23+00:00",
+  "hora": "2026-10-26T07:01:12+00:00",
+  "mensaje": "522 encuestas leídas, 3 nuevas",
+  "ultima_buena": "2026-10-26T07:01:12+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
     "Sigma Dos/Antena 3 2023-11-27"
    ],
    "corregidas": [],
-   "nuevas": []
+   "nuevas": [
+    "SocioMétrica/El Español 2026-10-26",
+    "Ateneo del Dato/elDiario.es 2026-10-22",
+    "Sigma Dos/El Mundo 2026-10-22"
+   ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-10-26T06:11:15.459Z",
+  "hora": "2026-10-26T07:01:45.950Z",
   "mensaje": "10000 repeticiones, faltan 34 días",
-  "ultima_buena": "2026-10-26T06:11:15.459Z",
+  "ultima_buena": "2026-10-26T07:01:45.950Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-10-26T06:11:41+00:00",
-  "mensaje": "10 titulares del día, 89 por partido, 14 polémicas",
-  "ultima_buena": "2026-10-26T06:11:41+00:00",
+  "hora": "2026-10-26T07:02:12+00:00",
+  "mensaje": "10 titulares del día, 88 por partido, 14 polémicas",
+  "ultima_buena": "2026-10-26T07:02:12+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-10-26T06:11:41+00:00"
+  "hora": "2026-10-26T07:02:12+00:00"
  },
  "avisado": {},
  "fiabilidad": {
