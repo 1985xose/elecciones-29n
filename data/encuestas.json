@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-26T07:01:12+00:00",
+ "actualizado": "2026-10-26T08:01:12+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1382046667,
+ "revision": 1382049920,
  "partidos": [
   "PP",
   "PSOE",
@@ -30,12 +30,20 @@
    "pct": {
     "PP": 32.0,
     "PSOE": 27.0,
-    "Vox": 18.6
+    "Vox": 18.6,
+    "Sumar": 5.4,
+    "ERC": 2.6,
+    "Junts": 1.7,
+    "SALF": 2.4
    },
    "escanos": {
     "PP": 135.0,
     "PSOE": 108.0,
-    "Vox": 63.0
+    "Vox": 63.0,
+    "Sumar": 13.0,
+    "ERC": 9.0,
+    "Junts": 7.0,
+    "SALF": 0.0
    },
    "empresa_base": "SocioMétrica",
    "clave": "sociometrica",
