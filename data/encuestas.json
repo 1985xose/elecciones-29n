@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-26T11:01:09+00:00",
+ "actualizado": "2026-10-26T12:01:10+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1382062660,
+ "revision": 1382070738,
  "partidos": [
   "PP",
   "PSOE",
@@ -22,9 +22,27 @@
  "columnas_ignoradas": [],
  "encuestas": [
   {
+   "empresa": "PSOE",
+   "inicio": "2026-10-25",
+   "fin": "2026-10-25",
+   "muestra": null,
+   "participacion": null,
+   "pct": {
+    "PP": 29.0,
+    "PSOE": 30.0,
+    "Vox": 20.0
+   },
+   "escanos": {},
+   "empresa_base": "PSOE",
+   "clave": "psoe",
+   "encargo": "",
+   "id": "psoe-2026-10-25-0",
+   "primera_vez": "2026-10-25T10:01:05+00:00"
+  },
+  {
    "empresa": "SocioMétrica/El Español",
-   "inicio": "2026-10-26",
-   "fin": "2026-10-26",
+   "inicio": "2026-09-01",
+   "fin": "2026-10-25",
    "muestra": 3223,
    "participacion": null,
    "pct": {
@@ -60,26 +78,8 @@
    "empresa_base": "SocioMétrica",
    "clave": "sociometrica",
    "encargo": "El Español",
-   "id": "sociometrica-2026-10-26-3223",
-   "primera_vez": "2026-10-26T07:01:12+00:00"
-  },
-  {
-   "empresa": "PSOE",
-   "inicio": "2026-10-25",
-   "fin": "2026-10-25",
-   "muestra": null,
-   "participacion": null,
-   "pct": {
-    "PP": 29.0,
-    "PSOE": 30.0,
-    "Vox": 20.0
-   },
-   "escanos": {},
-   "empresa_base": "PSOE",
-   "clave": "psoe",
-   "encargo": "",
-   "id": "psoe-2026-10-25-0",
-   "primera_vez": "2026-10-25T10:01:05+00:00"
+   "id": "sociometrica-2026-10-25-3223",
+   "primera_vez": "2026-10-26T12:01:10+00:00"
   },
   {
    "empresa": "NC Report/La Razón",
@@ -118,6 +118,39 @@
    "encargo": "La Razón",
    "id": "ncreport-2026-10-24-1000",
    "primera_vez": "2026-10-26T10:01:23+00:00"
+  },
+  {
+   "empresa": "Winston/Artículo14",
+   "inicio": "2026-10-21",
+   "fin": "2026-10-23",
+   "muestra": 1200,
+   "participacion": null,
+   "pct": {
+    "PP": 29.4,
+    "PSOE": 27.1,
+    "Vox": 19.2,
+    "Sumar": 5.6
+   },
+   "escanos": {
+    "PP": 122.0,
+    "PSOE": 115.0,
+    "Vox": 69.0,
+    "Sumar": 12.0,
+    "ERC": 11.0,
+    "Junts": 4.0,
+    "Bildu": 7.0,
+    "PNV": 3.0,
+    "BNG": 1.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 2.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "Winston",
+   "clave": "winston",
+   "encargo": "Artículo14",
+   "id": "winston-2026-10-23-1200",
+   "primera_vez": "2026-10-26T12:01:10+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
