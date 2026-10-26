@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-26T22:01:09+00:00",
+ "actualizado": "2026-10-26T23:01:22+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1382113578,
+ "revision": 1382150924,
  "partidos": [
   "PP",
   "PSOE",
@@ -80,44 +80,6 @@
    "encargo": "El Español",
    "id": "sociometrica-2026-10-25-3223",
    "primera_vez": "2026-10-26T12:01:10+00:00"
-  },
-  {
-   "empresa": "NC Report/La Razón",
-   "inicio": "2026-10-22",
-   "fin": "2026-10-24",
-   "muestra": 1000,
-   "participacion": 63.5,
-   "pct": {
-    "PP": 33.1,
-    "PSOE": 25.8,
-    "Vox": 19.0,
-    "Sumar": 13.2,
-    "ERC": 2.0,
-    "Junts": 1.8,
-    "Bildu": 1.4,
-    "PNV": 0.9,
-    "BNG": 0.8,
-    "CCa": 0.4,
-    "Podemos": 2.6
-   },
-   "escanos": {
-    "PP": 143.0,
-    "PSOE": 101.0,
-    "Vox": 65.0,
-    "Sumar": 17.0,
-    "ERC": 7.5,
-    "Junts": 8.5,
-    "Bildu": 6.5,
-    "PNV": 4.5,
-    "BNG": 1.5,
-    "CCa": 1.0,
-    "Podemos": 1.0
-   },
-   "empresa_base": "NC Report",
-   "clave": "ncreport",
-   "encargo": "La Razón",
-   "id": "ncreport-2026-10-24-1000",
-   "primera_vez": "2026-10-26T10:01:23+00:00"
   },
   {
    "empresa": "Winston/Artículo14",

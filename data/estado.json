@@ -1,12 +1,13 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-10-26T22:01:09+00:00",
-  "mensaje": "523 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-10-26T22:01:09+00:00",
+  "hora": "2026-10-26T23:01:22+00:00",
+  "mensaje": "522 encuestas leídas, 0 nuevas",
+  "ultima_buena": "2026-10-26T23:01:22+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
+    "NC Report/La Razón 2026-10-24",
     "IMOP/El Confidencial 2026-10-16",
     "Sigma Dos/Antena 3 2023-11-27"
    ],
@@ -16,25 +17,25 @@
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-10-26T22:02:01.081Z",
-  "mensaje": "10000 repeticiones, faltan 34 días",
-  "ultima_buena": "2026-10-26T22:02:01.081Z",
+  "hora": "2026-10-26T23:02:09.512Z",
+  "mensaje": "10000 repeticiones, faltan 33 días",
+  "ultima_buena": "2026-10-26T23:02:09.512Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-10-26T22:02:27+00:00",
-  "mensaje": "10 titulares del día, 87 por partido, 13 polémicas",
-  "ultima_buena": "2026-10-26T22:02:27+00:00",
+  "hora": "2026-10-26T23:02:39+00:00",
+  "mensaje": "10 titulares del día, 87 por partido, 16 polémicas",
+  "ultima_buena": "2026-10-26T23:02:39+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-10-26T22:02:27+00:00"
+  "hora": "2026-10-26T23:02:39+00:00"
  },
  "avisado": {},
  "fiabilidad": {
