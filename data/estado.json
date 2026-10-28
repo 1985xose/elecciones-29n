@@ -1,44 +1,48 @@
 {
  "encuestas": {
-  "ok": false,
-  "hora": "2026-10-28T03:01:19+00:00",
-  "mensaje": "HTTPError: 503 Server Error: Service Unavailable for url: https://en.wikipedia.org/w/api.php?action=parse&page=Opinion+polling+for+the+next+Spanish+general+election&prop=text%7Crevid&format=json&redirects=1&formatversion=2",
-  "ultima_buena": "2026-10-28T02:01:06+00:00",
-  "detalle": {}
+  "ok": true,
+  "hora": "2026-10-28T04:01:07+00:00",
+  "mensaje": "522 encuestas leídas, 0 nuevas",
+  "ultima_buena": "2026-10-28T04:01:07+00:00",
+  "detalle": {
+   "ignoradas": [],
+   "apartadas": [
+    "NC Report/La Razón 2026-10-24",
+    "IMOP/El Confidencial 2026-10-16",
+    "Sigma Dos/Antena 3 2023-11-27"
+   ],
+   "corregidas": [],
+   "nuevas": []
+  }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-10-28T03:02:06.517Z",
+  "hora": "2026-10-28T04:01:45.220Z",
   "mensaje": "10000 repeticiones, faltan 32 días",
-  "ultima_buena": "2026-10-28T03:02:06.517Z",
+  "ultima_buena": "2026-10-28T04:01:45.220Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-10-28T03:02:31+00:00",
-  "mensaje": "10 titulares del día, 89 por partido, 8 polémicas",
-  "ultima_buena": "2026-10-28T03:02:31+00:00",
+  "hora": "2026-10-28T04:02:11+00:00",
+  "mensaje": "10 titulares del día, 89 por partido, 11 polémicas",
+  "ultima_buena": "2026-10-28T04:02:11+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-10-28T03:02:31+00:00"
+  "hora": "2026-10-28T04:02:11+00:00"
  },
- "avisado": {
-  "encuestas": {
-   "desde": "2026-10-28T03:02:31+00:00",
-   "ultimo": "2026-10-28T03:02:31+00:00"
-  }
- },
+ "avisado": {},
  "fiabilidad": {
   "ok": true,
-  "hora": "2026-10-27T04:01:17+00:00",
+  "hora": "2026-10-28T04:01:17+00:00",
   "mensaje": "43 empresas con nota, 4 elecciones pasadas",
-  "ultima_buena": "2026-10-27T04:01:17+00:00",
+  "ultima_buena": "2026-10-28T04:01:17+00:00",
   "detalle": {}
  }
 }
