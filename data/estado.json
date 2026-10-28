@@ -1,43 +1,39 @@
 {
  "encuestas": {
-  "ok": true,
-  "hora": "2026-10-28T02:01:06+00:00",
-  "mensaje": "522 encuestas leídas, 0 nuevas",
+  "ok": false,
+  "hora": "2026-10-28T03:01:19+00:00",
+  "mensaje": "HTTPError: 503 Server Error: Service Unavailable for url: https://en.wikipedia.org/w/api.php?action=parse&page=Opinion+polling+for+the+next+Spanish+general+election&prop=text%7Crevid&format=json&redirects=1&formatversion=2",
   "ultima_buena": "2026-10-28T02:01:06+00:00",
-  "detalle": {
-   "ignoradas": [],
-   "apartadas": [
-    "NC Report/La Razón 2026-10-24",
-    "IMOP/El Confidencial 2026-10-16",
-    "Sigma Dos/Antena 3 2023-11-27"
-   ],
-   "corregidas": [],
-   "nuevas": []
-  }
+  "detalle": {}
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-10-28T02:01:32.648Z",
+  "hora": "2026-10-28T03:02:06.517Z",
   "mensaje": "10000 repeticiones, faltan 32 días",
-  "ultima_buena": "2026-10-28T02:01:32.648Z",
+  "ultima_buena": "2026-10-28T03:02:06.517Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-10-28T02:02:01+00:00",
-  "mensaje": "10 titulares del día, 88 por partido, 8 polémicas",
-  "ultima_buena": "2026-10-28T02:02:01+00:00",
+  "hora": "2026-10-28T03:02:31+00:00",
+  "mensaje": "10 titulares del día, 89 por partido, 8 polémicas",
+  "ultima_buena": "2026-10-28T03:02:31+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-10-28T02:02:01+00:00"
+  "hora": "2026-10-28T03:02:31+00:00"
  },
- "avisado": {},
+ "avisado": {
+  "encuestas": {
+   "desde": "2026-10-28T03:02:31+00:00",
+   "ultimo": "2026-10-28T03:02:31+00:00"
+  }
+ },
  "fiabilidad": {
   "ok": true,
   "hora": "2026-10-27T04:01:17+00:00",
