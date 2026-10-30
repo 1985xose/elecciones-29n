@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T11:01:16.295Z",
+ "actualizado": "2026-10-30T12:01:15.917Z",
  "media_bruta": {
   "PP": 31.41762832403609,
   "PSOE": 26.78982692465929,
@@ -30,7 +30,7 @@
    "n": 14,
    "sesgo": {
     "PP": 0.91,
-    "PSOE": -0.63,
+    "PSOE": -0.64,
     "Vox": -0.74,
     "Sumar": -0.27,
     "Podemos": -0.38,
@@ -40,23 +40,23 @@
   },
   "electopanel": {
    "empresa": "EM-Analytics",
-   "n": 61,
+   "n": 60,
    "sesgo": {
-    "PP": -0.38,
-    "PSOE": 0.67,
+    "PP": -0.35,
+    "PSOE": 0.69,
     "Vox": 0.97,
     "Sumar": -0.84,
-    "Podemos": 0.42,
+    "Podemos": 0.39,
     "ERC": -0.12
    },
-   "sd": 0.6
+   "sd": 0.59
   },
   "ateneodeldato": {
    "empresa": "Ateneo del Dato",
    "n": 4,
    "sesgo": {
     "PP": -0.65,
-    "PSOE": 0.92,
+    "PSOE": 0.91,
     "Vox": 0.8,
     "Sumar": 1.74,
     "Podemos": 0.1
@@ -68,7 +68,7 @@
    "n": 15,
    "sesgo": {
     "PP": 0.44,
-    "PSOE": -0.53,
+    "PSOE": -0.54,
     "Vox": -0.65,
     "Sumar": 1.25,
     "Podemos": 0.12,
@@ -81,7 +81,7 @@
    "n": 10,
    "sesgo": {
     "PP": -1.32,
-    "PSOE": -0.4,
+    "PSOE": -0.41,
     "Vox": 0.6,
     "Sumar": 0.29,
     "Podemos": -0.31
@@ -93,7 +93,7 @@
    "n": 13,
    "sesgo": {
     "PP": -1.05,
-    "PSOE": 1.23,
+    "PSOE": 1.22,
     "Vox": -0.29,
     "Sumar": -0.48,
     "Podemos": -0.74
@@ -105,7 +105,7 @@
    "n": 4,
    "sesgo": {
     "PP": -3.05,
-    "PSOE": 0.02,
+    "PSOE": 0.01,
     "Vox": 0.08,
     "Sumar": 1.5,
     "Podemos": 0.07,
@@ -118,7 +118,7 @@
    "n": 4,
    "sesgo": {
     "PP": -0.78,
-    "PSOE": 0.1,
+    "PSOE": 0.09,
     "Vox": 0.12,
     "Sumar": 0.37,
     "Podemos": -0.49,
@@ -131,7 +131,7 @@
    "n": 5,
    "sesgo": {
     "PP": 1.5,
-    "PSOE": -0.98,
+    "PSOE": -0.99,
     "Vox": 0.53,
     "Sumar": -0.71,
     "Podemos": 0.36,
@@ -144,7 +144,7 @@
    "n": 8,
    "sesgo": {
     "PP": 1.24,
-    "PSOE": 0.84,
+    "PSOE": 0.83,
     "Vox": -0.07,
     "Sumar": -0.94,
     "Podemos": 0.01,
@@ -157,7 +157,7 @@
    "n": 9,
    "sesgo": {
     "PP": 2.25,
-    "PSOE": 0.56,
+    "PSOE": 0.55,
     "Vox": -1.62,
     "Sumar": -1.7,
     "Podemos": 0.4
@@ -169,7 +169,7 @@
    "n": 13,
    "sesgo": {
     "PP": -8.78,
-    "PSOE": 6.01,
+    "PSOE": 6,
     "Vox": -1.07,
     "Sumar": 0.32,
     "Podemos": -0.26,
@@ -182,7 +182,7 @@
    "n": 11,
    "sesgo": {
     "PP": 1.79,
-    "PSOE": -1.22,
+    "PSOE": -1.23,
     "Vox": -0.46,
     "Sumar": -0.84,
     "Podemos": 0.43,
@@ -195,7 +195,7 @@
    "n": 3,
    "sesgo": {
     "PP": 1.04,
-    "PSOE": -0.53,
+    "PSOE": -0.54,
     "Vox": 0.52,
     "Sumar": -0.55,
     "Podemos": -0.18,
@@ -208,7 +208,7 @@
    "n": 3,
    "sesgo": {
     "PP": -2.22,
-    "PSOE": 0.16,
+    "PSOE": 0.15,
     "Vox": 0.37,
     "Sumar": 1.07,
     "Podemos": -0.05
@@ -220,7 +220,7 @@
    "n": 4,
    "sesgo": {
     "PP": 0.31,
-    "PSOE": -0.14,
+    "PSOE": -0.15,
     "Vox": -0.23,
     "Sumar": 0.09,
     "Podemos": 0.21,
@@ -238,7 +238,7 @@
    "texto": "error medio de 1,1 puntos en 3 elecciones",
    "sesgo": {
     "PP": 0.91,
-    "PSOE": -0.63,
+    "PSOE": -0.64,
     "Vox": -0.74,
     "Sumar": -0.27,
     "Podemos": -0.38,
@@ -253,7 +253,7 @@
    "texto": "error medio de 1,1 puntos en 3 elecciones",
    "sesgo": {
     "PP": -1.05,
-    "PSOE": 1.23,
+    "PSOE": 1.22,
     "Vox": -0.29,
     "Sumar": -0.48,
     "Podemos": -0.74
@@ -266,11 +266,11 @@
    "letra": "B",
    "texto": "error medio de 1,2 puntos en 3 elecciones",
    "sesgo": {
-    "PP": -0.38,
-    "PSOE": 0.67,
+    "PP": -0.35,
+    "PSOE": 0.69,
     "Vox": 0.97,
     "Sumar": -0.84,
-    "Podemos": 0.42,
+    "Podemos": 0.39,
     "ERC": -0.12
    }
   },
@@ -282,7 +282,7 @@
    "texto": "error medio de 1,8 puntos en 4 elecciones",
    "sesgo": {
     "PP": 0.44,
-    "PSOE": -0.53,
+    "PSOE": -0.54,
     "Vox": -0.65,
     "Sumar": 1.25,
     "Podemos": 0.12,
@@ -297,7 +297,7 @@
    "texto": "error medio de 1,4 puntos en 3 elecciones",
    "sesgo": {
     "PP": 0.31,
-    "PSOE": -0.14,
+    "PSOE": -0.15,
     "Vox": -0.23,
     "Sumar": 0.09,
     "Podemos": 0.21,
@@ -312,7 +312,7 @@
    "texto": "error medio de 1,8 puntos en 4 elecciones",
    "sesgo": {
     "PP": 2.25,
-    "PSOE": 0.56,
+    "PSOE": 0.55,
     "Vox": -1.62,
     "Sumar": -1.7,
     "Podemos": 0.4
@@ -374,7 +374,7 @@
    "texto": "error medio de 2,4 puntos en 4 elecciones",
    "sesgo": {
     "PP": -8.78,
-    "PSOE": 6.01,
+    "PSOE": 6,
     "Vox": -1.07,
     "Sumar": 0.32,
     "Podemos": -0.26,
@@ -389,7 +389,7 @@
    "texto": "error medio de 2,1 puntos en 4 elecciones",
    "sesgo": {
     "PP": 1.79,
-    "PSOE": -1.22,
+    "PSOE": -1.23,
     "Vox": -0.46,
     "Sumar": -0.84,
     "Podemos": 0.43,
@@ -404,7 +404,7 @@
    "texto": "error medio de 2,2 puntos en 4 elecciones",
    "sesgo": {
     "PP": 1.5,
-    "PSOE": -0.98,
+    "PSOE": -0.99,
     "Vox": 0.53,
     "Sumar": -0.71,
     "Podemos": 0.36,
@@ -419,7 +419,7 @@
    "texto": "error medio de 2,1 puntos en 4 elecciones",
    "sesgo": {
     "PP": 1.24,
-    "PSOE": 0.84,
+    "PSOE": 0.83,
     "Vox": -0.07,
     "Sumar": -0.94,
     "Podemos": 0.01,
@@ -442,7 +442,7 @@
    "texto": "error medio de 1,9 puntos en 4 elecciones",
    "sesgo": {
     "PP": -0.78,
-    "PSOE": 0.1,
+    "PSOE": 0.09,
     "Vox": 0.12,
     "Sumar": 0.37,
     "Podemos": -0.49,
@@ -457,7 +457,7 @@
    "texto": "error medio de 2,0 puntos en 4 elecciones",
    "sesgo": {
     "PP": -3.05,
-    "PSOE": 0.02,
+    "PSOE": 0.01,
     "Vox": 0.08,
     "Sumar": 1.5,
     "Podemos": 0.07,
@@ -472,7 +472,7 @@
    "texto": "error medio de 1,9 puntos en una elección",
    "sesgo": {
     "PP": 1.04,
-    "PSOE": -0.53,
+    "PSOE": -0.54,
     "Vox": 0.52,
     "Sumar": -0.55,
     "Podemos": -0.18,
@@ -495,7 +495,7 @@
    "texto": "error medio de 3,1 puntos en 2 elecciones",
    "sesgo": {
     "PP": -1.32,
-    "PSOE": -0.4,
+    "PSOE": -0.41,
     "Vox": 0.6,
     "Sumar": 0.29,
     "Podemos": -0.31
@@ -509,7 +509,7 @@
    "texto": "sin historial en elecciones anteriores",
    "sesgo": {
     "PP": -0.65,
-    "PSOE": 0.92,
+    "PSOE": 0.91,
     "Vox": 0.8,
     "Sumar": 1.74,
     "Podemos": 0.1
@@ -523,7 +523,7 @@
    "texto": "sin historial en elecciones anteriores",
    "sesgo": {
     "PP": -2.22,
-    "PSOE": 0.16,
+    "PSOE": 0.15,
     "Vox": 0.37,
     "Sumar": 1.07,
     "Podemos": -0.05
@@ -690,8 +690,8 @@
     {
      "partido": "PP",
      "dado": 30.9,
-     "esperado": 30.9,
-     "diferencia": 0
+     "esperado": 31,
+     "diferencia": -0.1
     },
     {
      "partido": "PSOE",
@@ -828,14 +828,14 @@
     {
      "partido": "PP",
      "dado": 31.8,
-     "esperado": 31.7,
-     "diferencia": 0.1
+     "esperado": 31.8,
+     "diferencia": 0
     },
     {
      "partido": "PSOE",
      "dado": 27.1,
-     "esperado": 26.9,
-     "diferencia": 0.2
+     "esperado": 27,
+     "diferencia": 0.1
     },
     {
      "partido": "Vox",
@@ -1020,8 +1020,8 @@
     {
      "partido": "PSOE",
      "dado": 26.9,
-     "esperado": 27,
-     "diferencia": -0.1
+     "esperado": 27.1,
+     "diferencia": -0.2
     },
     {
      "partido": "Vox",
@@ -1038,8 +1038,8 @@
     {
      "partido": "Podemos",
      "dado": 3.4,
-     "esperado": 3.6,
-     "diferencia": -0.2
+     "esperado": 3.5,
+     "diferencia": -0.1
     },
     {
      "partido": "ERC",

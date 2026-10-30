@@ -606,10 +606,10 @@
   "fecha": "2026-10-30",
   "escenarios": {
    "pp": 0.0003,
-   "pp_vox": 0.9055,
-   "izq_socios": 0.0661
+   "pp_vox": 0.9049,
+   "izq_socios": 0.0663
   },
-  "bloqueo": 0.0284,
+  "bloqueo": 0.0288,
   "p50": {
    "PP": 128,
    "PSOE": 106,
