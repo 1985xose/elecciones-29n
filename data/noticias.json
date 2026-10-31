@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T00:47:26+00:00",
+ "actualizado": "2026-10-31T01:01:43+00:00",
  "generales": [
   {
    "titulo": "Quién se presenta en tu provincia y quién lograría escaño si se repiten los resultados: las listas al Congreso, nombre a nombre",
@@ -14,13 +14,6 @@
    "fuente": "El Mundo",
    "fecha": "2026-10-30T20:55:22+01:00",
    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/30/17933546854688.jpg"
-  },
-  {
-   "titulo": "El Supremo rechaza suspender el censo de los hijos de los 163.000 'nietos' sin oír antes a las partes",
-   "enlace": "https://www.abc.es/espana/supremo-rechaza-suspender-censo-hijos-nietos-oir-20261030161416-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-10-30T19:23:36+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/30/4158995-RUnFvFgOHkUXgpfDeXLEITP-1200x840@diario_abc.JPG"
   },
   {
    "titulo": "La victoria brasileña: unidad de la izquierda y autonomía digital",
@@ -51,6 +44,13 @@
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2024/04/12/6619820c7fe62.r_d.3301-3188-0.jpeg"
   },
   {
+   "titulo": "Reunión con el Círculo de Economía: Vox busca el apoyo del empresariado catalán de cara al 29N",
+   "enlace": "https://www.larazon.es/cataluna/reunion-circulo-economia-vox-busca-apoyo-empresariado-catalan-cara-29n_202610306ae4b4c4a5f83c2fb8e9b629.html",
+   "fuente": "La Razón",
+   "fecha": "2026-10-30T16:16:21+01:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/30/2DA3A182-56B4-4E05-80C5-F788B98A5241/96.jpg?crop=4908,2761,x0,y258&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
+  {
    "titulo": "El Gobierno estudia cortar el AVE Madrid-Barcelona durante su modernización",
    "enlace": "https://www.elconfidencial.com/espana/2026-10-30/corte-servicio-obras-madrid-barcelona-1tna-1tps_4456414/",
    "fuente": "El Confidencial",
@@ -75,6 +75,12 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "Feijóo se da un baño de masas en Vigo y avisa al PSOE, \"no indultaré a los corruptos, pagarán por todo\"",
+    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQURrUVdqLUhKaXkxSzgzbExJMmFFcFppOUUtb1lhZWlXLTNXMVF5QU1xZzFXZjFUU3dTcHM5T2ZCMUVGZ24weG5DMFdVM1RLdHJRS0F3NVFnRThYTUlDTHdOeW5ybVlJVXBhV2xNd0htbWJXa08yQndxVzJXRXVqbHExNUo5NF9NYXN2cUxfVzVwQ2RNbnlzSnp3c2stTFduMG5OR0lIajJ0R254aUpxSUlvTzRLamxhM2ZnemVVSmdVNXNDdnFDQkJiM0pqeFnSAdQBQVVfeXFMUEs0Wi1qYVRMX1dHRUxKOWxvdGtUZDFFU0hiNF9uUDExR1d6REozd3ZiYjdCa2FVc090NVlEWEZWbzJTNkZpSXdrLUFrWEw0MjhLd253dDVHUURsVy1yM0xCU2NIdDBDTDFLMC1lUm9VYWdIR3FpVnFIZFhUUDlSMlo5NHM2WlEzQUpHMnJBVkZWZy13NWc2dVVRMEhuLXEtZTRyTWFrVjQxZEl0Vi1VaEV0Z1NNZXdSSU9MdlRQa2pBTXRURXExLWQxV3k2ZExlQVhBYmQ?oc=5",
+    "fuente": "Metropolitano.gal",
+    "fecha": "2026-10-30T22:23:00+00:00"
+   },
+   {
     "titulo": "Óscar Puente critica la \"doble vara de medir\" de Feijóo con el accidente ferroviario de Urda",
     "enlace": "https://www.20minutos.es/nacional/oscar-puente-critica-doble-vara-medir-feijoo-con-accidente-ferroviario-urda_7055708_0.html",
     "fuente": "20minutos",
@@ -89,29 +95,22 @@
     "imagen": "https://theobjective.com/wp-content/uploads/2026/10/oscar-puente-no-dimite-el-30-de-octubre.jpg"
    },
    {
+    "titulo": "Puente afea la “doble vara de medir” de Feijóo por el accidente ferroviario de Urda",
+    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbVBrNHMzdUw0TEozcGNGeTNuNVlWc0NCM3I2b19KR1BwTmlkaUtqMHFwd2c2Rk9NTDRKd0hZUUM0eGZnc0JEdXBUUFVTbGQtQUNQWVd3dVNGajlBZVB2TzJZSmJxUXRHNHdFM1JYZTBiT3ZHQ0h5VHdWeFUtV1dxNDRkSW1XT2x0dnR5RzUzNk5iLXB2M0hkLUNPZi1WWUZzN2R2UG9OS2FlMVVrVEdtek82MXJwVW_SAbwBQVVfeXFMUGRZLVVmUlVxTG5mX2NPcy1veHdONnNFMDR1Zy1iVVVLWUFIa1lEbVZGSEZDOEhFYTFjb0dRblcybEpGbXhfVDFYSGlPcTZ0ZFlTcGVKRXV1d2RjMUNubUZ6aU9LYmREUkRiYkpFSEJPcXQ5RExLaHpqZ0tDejhzUWR4V0xoeWpoTGRQcE83Y0JFU25BUzhVbnctOEpNWHJZNVdLcGFDMUN0bDlTemkwNGd1a1pfZUVZYXhLRkg?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-10-30T19:18:36+00:00"
+   },
+   {
     "titulo": "LA FOTO DEL DÍA | Feijóo abandera la \"gestión, rigor y experiencia\" en un mensaje de alternativa a Sánchez",
     "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOajJzY2gzZmUwTFBxUnF1NklnZFRzZWRVbXN1RE5GcWhBUGUzRjY0RkMwOTJFUUhDSk5qQ09wWFYwZU9RQl9QY0hWT0VOMmxrVzZkYjFiYUNHTldjM3dnRUJIenZyQmJEV1h0ZjBqNFQzdGtzR2ZZR1EyX3pCYXI1OTgzaFA0bkNubmdjeUZKZUVybXlVcHFWaGd5bXJMTXVpZUNpRi0tS3I3MTFUemtld1JsRkgwZC1xVUVCUHI3S1FjZUZKVXR6UXBCbHhxbnhq0gHWAUFVX3lxTFBnTElBbVUtcGJoNGlRZWlBRlhTNkpuTy10Xy1FdDBIRXAySHFaMWRTWU1QeDFuem1RZlJvOEZXemdOVWR1dEtiY3R6Vm1xaFFoTjZ2WnZPYjlaYjVOMUxZaTNwMFNmT1A2WUpiMUJmRi10bnNWcmJGd0lydUVuRHNCajBtMW1pNU1feTVsUGVPSl9Cc1dDZTV4OWtNOUR5VXhHUzNKRU01V1VJSE1abng3U01nR05hNUhlZ2dQSy1qUFVTUWpwOVFUQThveXFvVFhsOUI5d3c?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-30T18:45:00+00:00"
    },
    {
-    "titulo": "Dolor y emoción en la despedida de familiares, vecinos y dirigentes del PP a Fátima Báñez en San Juan del Puerto",
-    "enlace": "https://elpais.com/espana/2026-10-30/dolor-y-emocion-en-la-despedida-de-familiares-vecinos-y-dirigentes-del-pp-a-fatima-banez-en-san-juan-del-puerto.html",
-    "fuente": "El País",
-    "fecha": "2026-10-30T18:30:09+00:00",
-    "imagen": "https://imagenes.elpais.com/resizer/v2/QM4RNNZR6ZBV5A7HRHUGU5E4T4.jpg?auth=0465a8ef095c33f8cd3bed40b7917ff75ca2bbfee6d2e7b47326604050532b74"
-   },
-   {
-    "titulo": "¿Por qué Feijóo pide la dimisión de Sánchez si las elecciones son dentro de un mes?",
-    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZS1BbEM2SHhsVzFoN0k1SGxtZjROdXFWMUJXcGhScTRfSHNLRXBLWWNzcks2cmtBT1pOemEtYWpaQnhQZ3ExT1RjZkJsX3g1VWYxZ1NGWHpnRGd0dkdpUzVpNFM1Y3NyNEhEd1NGejNqazZPZ0N0UmFNMW9jUUpEcVpQNFBjSHhHdlhwcmg0S3p5NWVYYXc5cnBLMnZxY2M2YjYtNDdHaUJoY3E5VG43M0JqSDVuUdIBuwFBVV95cUxOSjhuYXdrS2h5S2s3ZWp4dFBFOTdFUnZfUmNfWWxMRHZYeWZ2eDJvVjFQaVRSZUhMZjJGd3preV9ZNDM2UVE1RkVxQXlUY096U1N1YjRuaUdKQ3kwQmY2YkhpSElXaDByTGt1TldWT0FDeDlBWUJOYjR1Y2FyaHEyWkpiWng5V2hLMmx0dTI5d1dqZFVrVld4S01zNzROYnp5WFVxcHR5UC0wa1lCalVYbmRRWmpNSmlhVEFF?oc=5",
+    "titulo": "\"Gestión, rigor y experiencia\": la escenografía con la que Feijóo busca proyectar una alternativa a Sánchez tras Urda",
+    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSEdmSWs1V21nV0szLWwtb0FFQkNqMHlQTkdWQUFOVnhjejhJWW1aRmJ0dlp2RjI0T1RZejNSQW1sbVVOQW42ejBlXzRZeE81VXhFM0hESGxhUlZlcUwxQjVuaTB0aWd6VEJZYjRDZGhZZDd5WUx6cmNlNDIwdzRmX1dpTGh4NXRLVXZNNVlCV2lodEpnNU94elFLWGFjd2hWVHcwdU9OekVJaEMyYnJr0gG0AUFVX3lxTFA3SzJXeEhBOHJoaEVEbG4xbGtETjdIaW1UNVZLbGJPTUNzZ2Y3dGREeW1MT3dETzRTNWxMN1BQaVdFcDBma2Q1WndxVkFOVGlKUkt5TDBpZkRpNGlFMjJyU25TLXpnMnVUYmZSNTBMYVJ5QU41bnR0SXZJemVCblAyTUNDNlZMMnJJSVktTFg1dHZrV1ZfcVloUXlpWFlRbnBIZHNlZW82aXI2azkzVkxHbzNaWA?oc=5",
     "fuente": "Demócrata",
-    "fecha": "2026-10-30T17:28:00+00:00"
-   },
-   {
-    "titulo": "Así es Alberto Núñez Feijóo: estudios, patrimonio y a qué se dedicaba antes de la política",
-    "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSjJSLTJGNEpzd05odHdpdE03VWVDaWpPUHJ1X3g4TjdWMGJSSU9Bb0FtRkNTTVlIMC0zMGxZOXQyYmFRT2tpTWdTMEIzdnpRQU5VUWo0UFd5UEM0TDRtaHR2S0dJcU5MNXNjcDVTV2lrZllDSXFkZ1dxZ0ExZDd2Sk91eHhvc0gzQnVEdS1iZjJDVTBPQnMybW1KeEJOSVM2SDdRZE5Kb3NLOGdnQlNvWFYzOWFSandCdHItSTNvYzFhQlhmaWhwMTF4RGtfOGd5NjZrTm9MSFB5eGJuNDk0VVZyQ1IyczhaNUpKRkJR0gHuAUFVX3lxTFBKMlItMkY0SnN3Tmh0d2l0TTdVZUNpak9QcnVfeDhON1YwYlJJT0FvQW1GQ1NNWUgwLTMwbFk5dDJiYVFPa2lNZ1MwQjN2elFBTlVRajRQV3lQQzRMNG1odHZLR0lxTkw1c2NwNVNXaWtmWUNJcWRnV3FnQTFkN3ZKT3V4eG9zSDNCdUR1LWJmMkNVME9CczJtbUp4Qk5JUzZIN1FkTkpvc0s4Z2dCU29YVjM5YVJqd0J0ci1JM29jMWFCWGZpaHAxMXhEa184Z3k2NmtOb0xIUHl4Ym40OTRVVnJDUjJzOFo1SkpGQlE?oc=5",
-    "fuente": "Cadena SER",
-    "fecha": "2026-10-30T15:26:19+00:00"
+    "fecha": "2026-10-30T18:37:00+00:00"
    }
   ],
   "PSOE": [
@@ -136,12 +135,6 @@
     "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/30/17933892494765.jpg"
    },
    {
-    "titulo": "El choque de trenes en España se mete en la campaña para las elecciones y complica los planes de Pedro Sánchez",
-    "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQkEwcFVacE9WQzdzVUNQRTdmTmJzU0dES3VNR1IxRHF6UHlDVUlWaTJVT3F3eExsLVF6dmZXM0lCN3FTcG02WlZfWW1hLURwcDE3WWxRdGFJdUQ0Zlp4X2E5M0d1TmpDQTc0LXptZlViVzhOYVkzVzlxUDhVd1FUQno4R3d5YjVIQWp0UG9pQkxRMERHQkhfR1dqeEtWdW9KZFRDN0V1ZzFxS1dpTXY4NzgxdEVpMXQ5QjJKbXRR?oc=5",
-    "fuente": "Clarin.com",
-    "fecha": "2026-10-30T21:57:57+00:00"
-   },
-   {
     "titulo": "El Frente Amplio eleva la presión sobre Puente y tensa su relación con el PSOE a dos semanas de la campaña",
     "enlace": "https://www.eldiario.es/politica/frente-amplio-eleva-presion-puente-tensa-relacion-psoe-semanas-campana_1_13627803.html",
     "fuente": "elDiario.es",
@@ -150,9 +143,15 @@
    },
    {
     "titulo": "Puente dice que \"no ve esencial\" participar en la campaña del PSOE aunque dependerá de \"su estado de ánimo\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNc2ZGb240cGgwVWRsdDlPSzVzV3Y2WkJzSE1XWmZsNjlHaXQ1bDU3VnpXYlJCWTItR2pPWk9QN2h5eHA2b3hUdDAtQWtNVGRYZVBXSDBobUl5MXhTbVZCUVNXbFVNMHY4SllycWR3Wl9rM2tjb2V4NXZZc2ItajJtci1EUnBPZEQySjMtS01FYWlpbXZBMWk1R3Rmc0UzRzloSkI5bncxeVEzbUVFS2lueXlwRktabW1rWUkzT3NPQ0J3UWJKYllZV1kwaVloeG9BOVZmOU4xUUh4ckRTUUVfMGx4S2ZMMzNVU2FaNXAwRE80OEHSAfMBQVVfeXFMTXNmRm9uNHBoMFVkbHQ5T0s1c1d2NlpCc0hNV1pmbDY5R2l0NWw1N1Z6V2JSQlkyLUdqT1pPUDdoeXhwNm94VHQwLUFrTVRkWGVQV0gwaG1JeTF4U21WQlFTV2xVTTB2OEpZcnFkd1pfazNrY29leDV2WXNiLWoybXItRFJwT2REMkozLUtNRWFpaW12QTFpNUd0ZnNFM0c5aEpCOW53MXlRM21FRUtpbnl5cEZLWm1ta1lJM09zT0NCd1FiSmJZWVdZMGlZaHhvQTlWZjlOMVFIeHJEU1FFXzBseEtmTDMzVVNhWjVwMERPNDhB?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQckYtckozdmlLVldmMmVKMGlWcU83S0lLckxxcEZhVUk2N25Tc0o1N1RTZkpvekVyVnk5NS1IS3E3REtXZGdDN2U0Ujdtc21fWXVRem83RXc4UDZ6UU11N3FiY1RCOW1WZ1Z3X0FlbGdQcERrTVJZQXhFWVlURFRXeFVkMDVKeGRybmwyWVhJTl9iTUFpN2RzT0NnNVRQRUNVSWxqVTJHWW1zdTZIdUhvelJzMEF5SlpDSnFtS19jYVhCeHpYekFNcGd0a0txR2xFWjdhZ2M1ZWRieURnQ1dia3FHc3JrZHhGTjY3SlZ1U3dvMDTSAfMBQVVfeXFMTXNmRm9uNHBoMFVkbHQ5T0s1c1d2NlpCc0hNV1pmbDY5R2l0NWw1N1Z6V2JSQlkyLUdqT1pPUDdoeXhwNm94VHQwLUFrTVRkWGVQV0gwaG1JeTF4U21WQlFTV2xVTTB2OEpZcnFkd1pfazNrY29leDV2WXNiLWoybXItRFJwT2REMkozLUtNRWFpaW12QTFpNUd0ZnNFM0c5aEpCOW53MXlRM21FRUtpbnl5cEZLWm1ta1lJM09zT0NCd1FiSmJZWVdZMGlZaHhvQTlWZjlOMVFIeHJEU1FFXzBseEtmTDMzVVNhWjVwMERPNDhB?oc=5",
     "fuente": "LaSexta",
     "fecha": "2026-10-30T19:29:43+00:00"
+   },
+   {
+    "titulo": "El PSOE impugna la candidatura del PP al 29N y los populares les responden: \"Han perdido el norte\"",
+    "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPczNKang4bWJyOWNLVXlxMzR6ZUl3eTJySlR6OGxJLTRDMEE1YWd5SF9TeERaVG95RW1hTHNhY3NQYTRWVUx2VmJJOUh1YVY2N1JVQWJtQUJXNTN3OFktaWxTOWh2TW5qMlZ1WFk5dFJ6ZHpsTmFMZFptN1BIVm5oemZ1UXVPMjJZR0Q5Q2NMYUVGdkNMTG1iMVZzajMtVm1melZIMkJxTHNTUdIBrwFBVV95cUxNTjl4ejBqdjBXRGtQZExqajN6SUlMMlJUaURPQ0NMNTdHTWFhNUNlOFh0Y2hOUER1emNDQ0xHMGZDQVQtaWZpeExaaVY5ZHZKeU1xSEhoOWlBYlB2Z1hUTGtlOW10WmtiTUgyNG5RbXpxNk1oMVM2MUExYTNHQlhkQXJTWUIzWnJvT3N0azZGOGVsV3UyRmJsYWlIZVhTeHRDbGhwMzdkc1BNbGxVaDln?oc=5",
+    "fuente": "El Faro de Ceuta",
+    "fecha": "2026-10-30T18:30:13+00:00"
    }
   ],
   "Vox": [
@@ -208,8 +207,8 @@
     "fecha": "2026-10-30T13:52:43+00:00"
    },
    {
-    "titulo": "Choque por los Presupuestos madrileños entre Más Madrid, Vox y PP",
-    "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOaWpKT1NPcjUxVG5RWTJRNEVkVm81UUNGN3JZWDV2ZU5QZzVVcVVONTBVdnFBS1U4Um1ZYUhhUGpmVm9qRVpRdjRDZXk0bTRNc1c4QnN5U1BmanJseDViX3ZlcEQ0R2FxZmpQZWJpN0MwRml1U1BCa1lUbmVaaUhnZkM5cU1ZcFphRW9vbW5NRUNnME54aTdvNlpGRUVFSkxHWFh2WV9uak10LWRwNlNQYWJtV1V0V1lWUVl4WUdXZE5ILV82VUZwbGljd1d3M0dQM2REekdRRTc4YmFMR19tVEhFV1lEYmgtcVgzeU5JNDFpczNEb1p2YUFsdw?oc=5",
+    "titulo": "Más Madrid tacha las Cuentas de “electoralistas” y Vox reclama incluir la “prioridad nacional” en los Presupuestos madrileños",
+    "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOaWpKT1NPcjUxVG5RWTJRNEVkVm81UUNGN3JZWDV2ZU5QZzVVcVVONTBVdnFBS1U4Um1ZYUhhUGpmVm9qRVpRdjRDZXk0bTRNc1c4QnN5U1BmanJseDViX3ZlcEQ0R2FxZmpQZWJpN0MwRml1U1BCa1lUbmVaaUhnZkM5cU1ZcFphRW9vbW5NRUNnME54aTdvNlpGRUVFSkxHWFh2WV9uak10LWRwNlNQYWJtV1V0V1lWUVl4WUdXZE5ILV82VUZwbGljd1d3M0dQM2REekdRRTc4YmFMR19tVEhFV1lEYmgtcVgzeU5JNDFpczNEb1p2YUFsd9IBgAJBVV95cUxOSzVKSjIxc1NFVTlILXZrZC1KaVNFSUliaXF4cm8wS0tiR0k5M2ViRDR0bk9MdzNoMTZiTk9vZlpxQnQyb216RzU3b0ZDMmZjQXlTSzZGWDF3NlV3czFRZnZZaUp0aUNWMHFNeHlubzdyMTRidkxOV29wT3hCNFR4aUl1MXFrSDdGWlNoRUlydWNweDhGZjZFd2pkcXFCQkpKNUpSZ3huU3FxYWVaaDgycmNhN2Y0d184dmZPaml0RUszQ2o2Q0k4a056OGpBdnE3UlFyWV9uQ2M1VmJMRU1fVDNnNXkweTIxYklLYmpZMXcyUXBBem9Ma2hFZGFFT05j?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-10-30T13:21:05+00:00"
    },
@@ -387,7 +386,7 @@
   "Bildu": [
    {
     "titulo": "EH Bildu sería la primera fuerza en la CAV y también ganaría en Bizkaia",
-    "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNThGcTAtR284SW12NEZXdFdzX1dsVTJEWU8zR3dFU0k0dWpfd3VraUVkbE1QVk4ta3lZUXVLQmJnXzh2TDFkYU1Ib1dIUkhYUTMxVXhPWG0zUjlCT3FLb3hhbHl2N2JNVURKMlRjRVU4aGFHQUVLb2p0djZSOUdRNGJHczlmU1pVTjZPZmxUUnJlYTRTTGFuaVk0aXZUZ0FsMUFkXzlWTU9IbVp4Z3dFaUEtQlhrTHNpSmJleEtNU2VmU25WUnNtV3JBbXA2bW9nczgwZlRENVhyRk44LVpUQ096WlJzc1pDNHNB0gHrAUFVX3lxTE81OEZxMC1HbzhJbXY0Rld0V3NfV2xVMkRZTzNHd0VTSTR1al93dWtpRWRsTVBWTi1reVlRdUtCYmdfOHZMMWRhTUhvV0hSSFhRMzFVeE9YbTNSOUJPcUtveGFseXY3Yk1VREoyVGNFVThoYUdBRUtvanR2NlI5R1E0YkdzOWZTWlVONk9mbFRScmVhNFNMYW5pWTRpdlRnQWwxQWRfOVZNT0htWnhnd0VpQS1CWGtMc2lKYmV4S01TZWZTblZSc21XckFtcDZtb2dzODBmVEQ1WHJGTjgtWlRDT3paUnNzWkM0c0E?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNX0RlXzhkbkJZb1NKSkc1Z0FNWkpQOGNsQkd4VF8xV1ZHRHZDa1FXOXdBRy1SZTNqSWdScWFINmZNNjdCbmZVN1hGU1lhS1VGbmhnakIyVUdjWVd0TDY0NGdMVUZqQnFoLXUwVTNlNHotNlhVYzF6S0hpS3RRamRmQjJSYWJZaWJqRTNBeG83WW9UcXRlYzFEUU9kRzJoUFNZeXdrZkxmZ3V3cGRxU0pNUUVRVklCeGxhZ3puUGl5dUs2VXlLNnlOUjBCdVBBZjhib1pzRld0SFpLdjZEdmRHY3RjZE5rQdIB6wFBVV95cUxPNThGcTAtR284SW12NEZXdFdzX1dsVTJEWU8zR3dFU0k0dWpfd3VraUVkbE1QVk4ta3lZUXVLQmJnXzh2TDFkYU1Ib1dIUkhYUTMxVXhPWG0zUjlCT3FLb3hhbHl2N2JNVURKMlRjRVU4aGFHQUVLb2p0djZSOUdRNGJHczlmU1pVTjZPZmxUUnJlYTRTTGFuaVk0aXZUZ0FsMUFkXzlWTU9IbVp4Z3dFaUEtQlhrTHNpSmJleEtNU2VmU25WUnNtV3JBbXA2bW9nczgwZlRENVhyRk44LVpUQ096WlJzc1pDNHNB?oc=5",
     "fuente": "naiz:",
     "fecha": "2026-10-30T23:00:00+00:00"
    },
@@ -496,9 +495,9 @@
    },
    {
     "titulo": "El BNG acusa a la Xunta de usar la ley de acompañamiento para eludir la sentencia sobre protección de terrenos de Altri",
-    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQb0pwRE5lV2FxaTRyRmhzWmRsUldZakEtaW9hODNCQ3c3TXhoMTZ2SHNzREwyeDlpWDNnY3pzeGYyM282UnBtVHRPallZR0hKeG11bXJjUUE5MTNmVG1mMmpMZUY4blQzOFllX3hCU3gyUEtudHBTdS0wbkxKWG1EcHhROGJ6S2I3SzBSajNtWEUyZE1sNkhmcTFELU4xVWNKRE5VdEx2YVJzV0lZVE1HdG9xdHlDSVBVWUp6OVRYZWN4Ukw4TnFtWk85OEpTR01yVlFiaVNTTXpVRTdtS0E?oc=5",
-    "fuente": "Europa Press",
-    "fecha": "2026-10-30T13:21:20+00:00"
+    "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbkxkdmtGZXlfWDFFeUw4a1dBWkJMWktLUDlvcVR3cjZEVTNsaVUzUUtRSnhuXzBsTEFQTTU1YTV6TkZrOUNGcVNaVnozQW81aFVKQjZuRjBrYmV1WEtCQk00cmR4TlVSd0N2bEdnVUJreGJ3ME9wN3ZxRTlmbkZ0WXM1MzZtdjNoOUxxUGNPYmJoM01NQWFTSW03eEFCUmhYR0dUbFFqYkJXMnJmcjg1UjNPN3ZmLUl2Wi1PWEVWOGlUbExlSHd1N0NMN193Y3hNcHZteTVWd2ZuSmI4QmNVeUhJYnVwdzFqa2lJOQ?oc=5",
+    "fuente": "GaliciaPress",
+    "fecha": "2026-10-30T13:22:00+00:00"
    }
   ],
   "CCa": [
@@ -547,6 +546,12 @@
     "fecha": "2026-10-30T12:09:55+00:00"
    },
    {
+    "titulo": "UPN pregunta al Gobierno de Navarra por un incidente ferroviario en Cortes en 2025 que reveló \"incumplimientos\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNaHlDc2ZtSzc0NmZjZmJBWVQ0OEpCcXpnUEVWa21GNGVxM1RRUUJjak1RNXRzMEctMEdOX29RRWJ3eWtVU01KOWx0aUo5ajJfNzh6M01OWGVUeFVZYjgxWFZrTEFJMDF2WjRDOTRsOHQxZUVzUVFLWkwzZjRldXI0WEVITGlxdHVzaWRyZ0o1NGZSNFcwbUg1enJEaVhtR2Q3dUVSZFJSdDlLNjAyazBHWFlYUWRvalY0UjFJeWVJV1RMc21xMnNOaWZsYS11QjJ0b1RzSnc4RGpUdWw0TzJ6WVMzNA?oc=5",
+    "fuente": "Europa Press",
+    "fecha": "2026-10-30T11:18:47+00:00"
+   },
+   {
     "titulo": "Ampliación | El Parlamento de Navarra tumba otra vez las propuestas de UPN y PP para cambiar la renta garantizada",
     "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWU9wb09vejR3RDNRNExlWElGaEVzMk5PR0o4S1dfc2FCYnM1X2puX1IteDVFVnFKc3dmZEFIX0F4THJmWkhrR25BcnlhRmRZcTFGclgyVXJjZ3lxYVJkOXFHMjZhVWxTeWQtR096eTlKVzVmb2k0bS1RRjhZcXVCYVYxRVBwRzVIOXlIQlJ1Z1Q3Yy1tOVJUSWItZEJqcWtZc1FEYmZHVU5XZWk2dUhpamNIM0M0RzRiRDA5SUxBY2QyRmJqM3RKRFlVOFl6OThuS2ZMNnJUYzNld2pjVlk1VWhCaXhKOHZ0X0J0ZjRObHJRUkJEN1o40gH8AUFVX3lxTE45djl4b1hFWXlFNUNqdGJ5aDZULUh4SG4wbk1fUVJCOHBUd0FiX19xMjMzZTVHQkx4TTBKSTJiNUlZamw4NGFNLWpNUzZCZTFoUW40VGZPZVQ1ek9FV2M5UVYxU3Q3WXZuenR3Vk01dkZzcWM3RFdXR0lsWHNONzBjbjM3aS1lWGNVN1kwOW9tanBIRXY0TnVVcWUydTY0bkhudU5LbVE3ajBMc3pQYVV1cF9Db0pIU292dThvNVFPQmhrNjhlWjdvRExEVUJYeG1qZ3AxQjllN2EwdTI0RU42MDhRVjVvQVY1eTJyTVViMF8wRUllVmZvTGZ4Sw?oc=5",
     "fuente": "Demócrata",
@@ -554,12 +559,6 @@
    }
   ],
   "AC": [
-   {
-    "titulo": "Orriols castiga la disidencia interna con 6 expedientes de expulsión en Aliança Catalana",
-    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPREY4enlFdWN0ZzN4RDQ1UVFVNGdTc3BqTVFFUGVhZzNxV1NvY3d1TTQ2U3ZycTQ4WlFrTFVZRE5sakUza2xLQ0swaWRNQm1FLURUclk5NHNaaUZ5RVdLRW5BNXo3Y0IyNm9yU0o2Z0Q4dGVWV0EyMHh3a0lvRGNPSWcwOGxGMlNWSHBkcWljSWVoMXhtbVp4N21NZEpyR3dJeG5LOXBpbDRvcmYzcHJZWFFMQ3A5YTREeFlxUXZ2cEV3enRqWEgzUUR6SDbSAdIBQVVfeXFMTWFmRkVTb1VjY2ItcUhPV1Q2VTlHdUFPZDJaenBDT2FCQzY0TzZxV1RMMUxreU5hVVhERUhmbWpNMGdOU2RVNXphZm1vOGRCd1daN2ZBcFBYWmt6ejlrdGFvVFJ2cW1ZdEZIUGdIOUdva2pZRGJOZVZfWWZRV0M2eXVZU1FudVd3LUowS3l0OHdrWW45ZEczZ082NEtJMTQ4dFF6TkF5UkVSSTNmRWlOS3hGTzBUZUVMbE92SUpuR0thc0xTZXNWT25yeFQwRHZGRlJB?oc=5",
-    "fuente": "El Triangle",
-    "fecha": "2026-10-30T18:26:21+00:00"
-   },
    {
     "titulo": "¿Una Aliança Catalana en el País Vasco? Así es el partido que se dará a conocer en enero y mira al BSW alemán",
     "enlace": "https://www.lavanguardia.com/local/paisvasco/20261030/11672260/alianca-catalana-pais-vasco-asi-partido-dara-conocer-enero-mira-bsw.html",
@@ -736,6 +735,12 @@
    "fecha": "2026-10-30T18:25:55+00:00"
   },
   {
+   "titulo": "¿«Audio de un sobreviviente del accidente de tren en Toledo dice que está harto del Gobierno y que se está replanteando la vida»? · La Buloteca · Maldita.es",
+   "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbmNtUUFMZEJXamlIN2NEQjFONHVFc1pkMnhjOTJlM3hDODU3QmhFOUJSYVhrelM1TEpVNTNNNG0xQWVmSXN3T3NGNUstcGZIQ2lrd1pYTGlkY3VFQ1hLMUZoWVJ1dzBRdUp4LVhpTTZVOGI1eG1sNzI5cEpneFdmQTQ5a3VQVGpTMS0zU1ZHdk0xSVFBWXg0XzYtSUFEcmFtMVlPUUJJeDRIcElGSVNKakZVLU5HZF9KREpKTHdNY2NJWExfOWhiRTVidFNNNXdKYjZuSW96bzdkWVIwNmVPMWhsQVNzLVZrTnlfeUhGdnc?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-10-30T15:16:43+00:00"
+  },
+  {
    "titulo": "¿«El PSOE aumentó 128,29% la inversión ferroviaria, mientras que durante el gobierno de Rajoy la inversión cayó 55,8%»? · La Buloteca · Maldita.es",
    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWktMeUpGMUllb2ducWdhZ3AydWlZcEpqOXJtWmZrbnVCS0FscWlsQXplNzJuNlpJdHhNWDFaWnNHZjdOdnpNQjRfM1ZuV3NUb1dpSXdLU09ZMjQxRC1xeXphR3VlWldVRmlMSWNqd1hrS0hDSmpPYjJPU3lONjdRY1MzUmlzY1piemRQV2dHTUVuTE5WSjhxSWQ2SEh4a3BuLTRJbko4RjhneWRLeFVjeW5hOXp1VU9oT2lhcWZpMjhGRV8wZEdvNUlfT0hVa21iXzBkQXlHdExrX2ZuekpF?oc=5",
    "fuente": "Maldita.es",
@@ -770,12 +775,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObW15QkVIanFrOGx6VjFzUXdSNEV6SWthWnlWeWU5UnJKZjVwSnZ5RU1DYUw4VmNzdnI1M0VVZmFZelRmWGUtaVNTeElBLXIxWHVDUkJQMi00NXczYWc1cUVxQ1lSWGFpMFFLTGFlZTdiajhleVNZOTJpXzdvb2Roall6eWdnYTVhSTM0dXNRcHBBcjBWQ28xeUVHTUJNdzdmOWM3aU13?oc=5",
    "fuente": "Maldita.es",
    "fecha": "2026-10-28T16:07:10+00:00"
-  },
-  {
-   "titulo": "Las declaraciones de bienes de los miembros de la Diputación Permanente del Congreso",
-   "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1fb1NhV2V1V1F6VV9qNXRNeUx0OFlhdGlfeTNPcGZscVM2cmJBV0p2U01sRHQzcHZobDJwV3B3RlV3Q3RxOV9RT3h5NTk2SEdjR1FBZ0s2OGdDV2sxazFnZFBEVVZIUFQzSkpBUGpORzJlbkZLelJYSWl3NDZ2QQ?oc=5",
-   "fuente": "Newtral",
-   "fecha": "2026-10-28T13:43:59+00:00"
   }
  ],
  "polemicas": [
@@ -817,10 +816,10 @@
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11390978.jpg?p=w:1706/h:960&h=AAz3Somf"
   },
   {
-   "titulo": "Choque por los Presupuestos madrileños entre Más Madrid, Vox y PP",
-   "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOaWpKT1NPcjUxVG5RWTJRNEVkVm81UUNGN3JZWDV2ZU5QZzVVcVVONTBVdnFBS1U4Um1ZYUhhUGpmVm9qRVpRdjRDZXk0bTRNc1c4QnN5U1BmanJseDViX3ZlcEQ0R2FxZmpQZWJpN0MwRml1U1BCa1lUbmVaaUhnZkM5cU1ZcFphRW9vbW5NRUNnME54aTdvNlpGRUVFSkxHWFh2WV9uak10LWRwNlNQYWJtV1V0V1lWUVl4WUdXZE5ILV82VUZwbGljd1d3M0dQM2REekdRRTc4YmFMR19tVEhFV1lEYmgtcVgzeU5JNDFpczNEb1p2YUFsdw?oc=5",
-   "fuente": "Demócrata",
-   "fecha": "2026-10-30T13:21:05+00:00",
+   "titulo": "Una nueva dimisión en Vox agrava la crisis política en el Ayuntamiento de Las Torres de Cotillas",
+   "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSGJua0hFak1LRUJGX2U2V0RJdHFVUHItb29vMm4wRkNIS0pvZ3pnMVNWcHNUREVxUGZ2Y3FUVFRpTHpxZ2NHUi0zNkRqSHk3NktXOUVfTUZkWEVuTnhld2ZGNmt4ZVNzTEFCX1pzWExTZmtMaEpOS3hRR2VMOHdHa21YQ25BclhodTVQZHI3Q2xhSFhCMURiTXBBX1N2T2lESGhWYW5xSTdfZi1EaF9aS2lGSFlpb3laN1A2enhyUk9aUk5vcmM2cg?oc=5",
+   "fuente": "Onda Regional de Murcia | ORM",
+   "fecha": "2026-10-30T12:54:13+00:00",
    "partido": "Vox"
   },
   {
