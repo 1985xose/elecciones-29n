@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-01T03:01:11+00:00",
+  "hora": "2026-11-01T04:01:09+00:00",
   "mensaje": "522 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-11-01T03:01:11+00:00",
+  "ultima_buena": "2026-11-01T04:01:09+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -17,32 +17,32 @@
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-01T03:01:59.582Z",
+  "hora": "2026-11-01T04:01:41.969Z",
   "mensaje": "10000 repeticiones, faltan 28 días",
-  "ultima_buena": "2026-11-01T03:01:59.582Z",
+  "ultima_buena": "2026-11-01T04:01:41.969Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-01T03:02:24+00:00",
-  "mensaje": "10 titulares del día, 80 por partido, 13 polémicas",
-  "ultima_buena": "2026-11-01T03:02:24+00:00",
+  "hora": "2026-11-01T04:02:07+00:00",
+  "mensaje": "10 titulares del día, 83 por partido, 13 polémicas",
+  "ultima_buena": "2026-11-01T04:02:07+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-01T03:02:24+00:00"
+  "hora": "2026-11-01T04:02:07+00:00"
  },
  "avisado": {},
  "fiabilidad": {
   "ok": true,
-  "hora": "2026-10-31T04:02:01+00:00",
+  "hora": "2026-11-01T04:01:14+00:00",
   "mensaje": "43 empresas con nota, 4 elecciones pasadas",
-  "ultima_buena": "2026-10-31T04:02:01+00:00",
+  "ultima_buena": "2026-11-01T04:01:14+00:00",
   "detalle": {}
  }
 }
