@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-01T13:01:09+00:00",
+ "actualizado": "2026-11-01T14:01:16+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1383185892,
+ "revision": 1383194971,
  "partidos": [
   "PP",
   "PSOE",
@@ -64,7 +64,7 @@
    "primera_vez": "2026-11-01T13:01:09+00:00"
   },
   {
-   "empresa": "Vox",
+   "empresa": "The Objective",
    "inicio": "2026-10-27",
    "fin": "2026-10-27",
    "muestra": 1500,
@@ -92,11 +92,11 @@
     "Podemos": 1.0,
     "SALF": 0.0
    },
-   "empresa_base": "Vox",
-   "clave": "vox",
+   "empresa_base": "The Objective",
+   "clave": "theobjective",
    "encargo": "",
-   "id": "vox-2026-10-27-1500",
-   "primera_vez": "2026-11-01T10:01:10+00:00"
+   "id": "theobjective-2026-10-27-1500",
+   "primera_vez": "2026-11-01T14:01:16+00:00"
   },
   {
    "empresa": "PSOE",
