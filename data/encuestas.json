@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-01T08:01:06+00:00",
+ "actualizado": "2026-11-01T09:01:11+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1382150924,
+ "revision": 1383163456,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,24 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "Vox / The Objetive",
+   "inicio": "2026-10-25",
+   "fin": "2026-10-25",
+   "muestra": null,
+   "participacion": null,
+   "pct": {
+    "PP": 29.0,
+    "PSOE": 30.0,
+    "Vox": 20.0
+   },
+   "escanos": {},
+   "empresa_base": "Vox",
+   "clave": "vox",
+   "encargo": "The Objetive",
+   "id": "vox-2026-10-25-0",
+   "primera_vez": "2026-11-01T09:01:11+00:00"
+  },
   {
    "empresa": "PSOE",
    "inicio": "2026-10-25",

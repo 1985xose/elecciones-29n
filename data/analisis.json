@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T08:01:06.493Z",
+ "actualizado": "2026-11-01T09:01:13.424Z",
  "media_bruta": {
   "PP": 31.417628324036098,
   "PSOE": 26.789826924659295,
@@ -546,6 +546,14 @@
    "sesgo": null
   },
   {
+   "clave": "vox",
+   "empresa": "Vox",
+   "encuestas": 1,
+   "letra": "–",
+   "texto": "sin historial en elecciones anteriores",
+   "sesgo": null
+  },
+  {
    "clave": "odec",
    "empresa": "ODEC",
    "encuestas": 1,
@@ -563,6 +571,36 @@
   }
  ],
  "ultimas": [
+  {
+   "id": "vox-2026-10-25-0",
+   "empresa": "Vox",
+   "encargo": "The Objetive",
+   "fin": "2026-10-25",
+   "veredicto": "leve",
+   "texto": "Algo fuera de lo habitual: PSOE sube 3.2 puntos respecto a lo esperado de esta empresa.",
+   "nota": "–",
+   "margen": 3.1,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 29,
+     "esperado": 31.4,
+     "diferencia": -2.4
+    },
+    {
+     "partido": "PSOE",
+     "dado": 30,
+     "esperado": 26.8,
+     "diferencia": 3.2
+    },
+    {
+     "partido": "Vox",
+     "dado": 20,
+     "esperado": 19.1,
+     "diferencia": 0.9
+    }
+   ]
+  },
   {
    "id": "psoe-2026-10-25-0",
    "empresa": "PSOE",
@@ -1046,48 +1084,6 @@
      "dado": 2,
      "esperado": 2.1,
      "diferencia": -0.1
-    }
-   ]
-  },
-  {
-   "id": "40db-2026-10-08-800",
-   "empresa": "40dB",
-   "encargo": "Prisa",
-   "fin": "2026-10-08",
-   "veredicto": "ruido",
-   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
-   "nota": "A",
-   "margen": 3.5,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 31.9,
-     "esperado": 31.1,
-     "diferencia": 0.8
-    },
-    {
-     "partido": "PSOE",
-     "dado": 28.1,
-     "esperado": 27.6,
-     "diferencia": 0.5
-    },
-    {
-     "partido": "Vox",
-     "dado": 18.9,
-     "esperado": 18.5,
-     "diferencia": 0.4
-    },
-    {
-     "partido": "Sumar",
-     "dado": 5.3,
-     "esperado": 5.9,
-     "diferencia": -0.6
-    },
-    {
-     "partido": "Podemos",
-     "dado": 2.3,
-     "esperado": 2.5,
-     "diferencia": -0.2
     }
    ]
   }
