@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T09:14:54.222Z",
+ "actualizado": "2026-11-01T10:01:13.190Z",
  "media_bruta": {
   "PP": 31.417628324036098,
   "PSOE": 26.789826924659295,
@@ -572,32 +572,44 @@
  ],
  "ultimas": [
   {
-   "id": "vox-2026-10-25-0",
+   "id": "vox-2026-10-27-1500",
    "empresa": "Vox",
-   "encargo": "The Objetive",
-   "fin": "2026-10-25",
-   "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: PSOE sube 3.2 puntos respecto a lo esperado de esta empresa.",
+   "encargo": "",
+   "fin": "2026-10-27",
+   "veredicto": "movimiento",
+   "texto": "Movimiento real: Sumar sale 5.0 puntos por encima de lo que cabía esperar de esta empresa.",
    "nota": "–",
-   "margen": 3.1,
+   "margen": 2.5,
    "detalle": [
     {
      "partido": "PP",
-     "dado": 29,
+     "dado": 28.1,
      "esperado": 31.4,
-     "diferencia": -2.4
+     "diferencia": -3.3
     },
     {
      "partido": "PSOE",
-     "dado": 30,
+     "dado": 29.6,
      "esperado": 26.8,
-     "diferencia": 3.2
+     "diferencia": 2.8
     },
     {
      "partido": "Vox",
-     "dado": 20,
+     "dado": 20.2,
      "esperado": 19.1,
-     "diferencia": 0.9
+     "diferencia": 1.1
+    },
+    {
+     "partido": "Sumar",
+     "dado": 12.4,
+     "esperado": 7.4,
+     "diferencia": 5
+    },
+    {
+     "partido": "Podemos",
+     "dado": 1.9,
+     "esperado": 2.5,
+     "diferencia": -0.6
     }
    ]
   },
