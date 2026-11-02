@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-02T14:01:16+00:00",
+  "hora": "2026-11-02T15:01:15+00:00",
   "mensaje": "527 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-11-02T14:01:16+00:00",
+  "ultima_buena": "2026-11-02T15:01:15+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -20,25 +20,25 @@
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-02T14:02:06.519Z",
+  "hora": "2026-11-02T15:01:43.709Z",
   "mensaje": "10000 repeticiones, faltan 27 días",
-  "ultima_buena": "2026-11-02T14:02:06.519Z",
+  "ultima_buena": "2026-11-02T15:01:43.709Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-02T14:02:32+00:00",
-  "mensaje": "10 titulares del día, 78 por partido, 13 polémicas",
-  "ultima_buena": "2026-11-02T14:02:32+00:00",
+  "hora": "2026-11-02T15:02:10+00:00",
+  "mensaje": "10 titulares del día, 76 por partido, 15 polémicas",
+  "ultima_buena": "2026-11-02T15:02:10+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-02T14:02:32+00:00"
+  "hora": "2026-11-02T15:02:10+00:00"
  },
  "avisado": {},
  "fiabilidad": {
