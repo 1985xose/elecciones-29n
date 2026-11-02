@@ -1,10 +1,10 @@
 {
- "actualizado": "2026-11-02T13:01:14.395Z",
+ "actualizado": "2026-11-02T14:01:18.522Z",
  "media_bruta": {
   "PP": 31.43596333487692,
   "PSOE": 26.481982192757307,
   "Vox": 19.293549511935158,
-  "Sumar": 8.211656793688682,
+  "Sumar": 8.268980040126928,
   "ERC": 2.4743880108355674,
   "Junts": 1.3347771240209776,
   "Bildu": 1.3773676849131025,
@@ -36,7 +36,7 @@
     "ERC": 0.09,
     "Podemos": -0.38
    },
-   "sd": 0.58
+   "sd": 0.59
   },
   "sigmados": {
    "empresa": "Sigma Dos",
@@ -45,11 +45,11 @@
     "PP": 0.38,
     "PSOE": -0.64,
     "Vox": -0.61,
-    "Sumar": 1.11,
+    "Sumar": 1.13,
     "ERC": 0.18,
     "Podemos": 0.1
    },
-   "sd": 0.68
+   "sd": 0.67
   },
   "targetpoint": {
    "empresa": "Target Point",
@@ -284,7 +284,7 @@
     "PP": 0.38,
     "PSOE": -0.64,
     "Vox": -0.61,
-    "Sumar": 1.11,
+    "Sumar": 1.13,
     "ERC": 0.18,
     "Podemos": 0.1
    }
@@ -577,7 +577,7 @@
    "encargo": "El Español",
    "fin": "2026-11-01",
    "veredicto": "movimiento",
-   "texto": "Movimiento real: Sumar sale 2.5 puntos por debajo de lo que cabía esperar de esta empresa.",
+   "texto": "Movimiento real: Sumar sale 2.6 puntos por debajo de lo que cabía esperar de esta empresa.",
    "nota": "A",
    "margen": 1.4,
    "detalle": [
@@ -602,8 +602,8 @@
     {
      "partido": "Sumar",
      "dado": 6.1,
-     "esperado": 8.6,
-     "diferencia": -2.5
+     "esperado": 8.7,
+     "diferencia": -2.6
     },
     {
      "partido": "ERC",
@@ -624,8 +624,8 @@
    "empresa": "Sigma Dos",
    "encargo": "El Mundo",
    "fin": "2026-10-30",
-   "veredicto": "movimiento",
-   "texto": "Movimiento real: Sumar sale 1.9 puntos por debajo de lo que cabía esperar de esta empresa.",
+   "veredicto": "leve",
+   "texto": "Algo fuera de lo habitual: Sumar baja 1.5 puntos respecto a lo esperado de esta empresa.",
    "nota": "B",
    "margen": 2,
    "detalle": [
@@ -649,9 +649,9 @@
     },
     {
      "partido": "Sumar",
-     "dado": 8,
+     "dado": 8.4,
      "esperado": 9.9,
-     "diferencia": -1.9
+     "diferencia": -1.5
     },
     {
      "partido": "ERC",
@@ -673,7 +673,7 @@
    "encargo": "El Debate",
    "fin": "2026-10-30",
    "veredicto": "movimiento",
-   "texto": "Movimiento real: Sumar sale 4.4 puntos por encima de lo que cabía esperar de esta empresa.",
+   "texto": "Movimiento real: Sumar sale 4.3 puntos por encima de lo que cabía esperar de esta empresa.",
    "nota": "D",
    "margen": 3.1,
    "detalle": [
@@ -698,8 +698,8 @@
     {
      "partido": "Sumar",
      "dado": 13.2,
-     "esperado": 8.8,
-     "diferencia": 4.4
+     "esperado": 8.9,
+     "diferencia": 4.3
     },
     {
      "partido": "Podemos",
