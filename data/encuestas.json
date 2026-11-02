@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-02T09:01:14+00:00",
+ "actualizado": "2026-11-02T10:01:22+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1383321165,
+ "revision": 1383368955,
  "partidos": [
   "PP",
   "PSOE",
@@ -102,6 +102,34 @@
    "encargo": "El Mundo",
    "id": "sigmados-2026-10-30-2505",
    "primera_vez": "2026-11-02T03:01:14+00:00"
+  },
+  {
+   "empresa": "Target Point/El Debate",
+   "inicio": "2026-10-28",
+   "fin": "2026-10-30",
+   "muestra": 1024,
+   "participacion": null,
+   "pct": {
+    "PP": 31.8,
+    "PSOE": 25.5,
+    "Vox": 19.9,
+    "Sumar": 13.2,
+    "Podemos": 2.4,
+    "SALF": 2.6
+   },
+   "escanos": {
+    "PP": 133.0,
+    "PSOE": 101.0,
+    "Vox": 70.0,
+    "Sumar": 20.0,
+    "Podemos": 1.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "Target Point",
+   "clave": "targetpoint",
+   "encargo": "El Debate",
+   "id": "targetpoint-2026-10-30-1024",
+   "primera_vez": "2026-11-02T10:01:22+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
