@@ -1,13 +1,6 @@
 {
- "actualizado": "2026-11-03T01:34:48+00:00",
+ "actualizado": "2026-11-03T02:01:50+00:00",
  "generales": [
-  {
-   "titulo": "Hoyo de Manzanares recuerda su pasado visigodo",
-   "enlace": "https://www.larazon.es/madrid/hoyo-manzanares-recuerda-pasado-visigodo_202611036ae9321da5f83c2fb8ed378e.html",
-   "fuente": "La Razón",
-   "fecha": "2026-11-03T02:00:13+01:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2022/09/25/66BC5512-2136-44EF-BAF1-4A21FC758D5D/96.jpg?crop=299,168,x1,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
   {
    "titulo": "El PP impondrá criterios técnicos para elegir a los gestores de Adif y despolitizar su cúpula",
    "enlace": "https://www.abc.es/espana/pp-impondra-criterios-tecnicos-elegir-gestores-adif-20261102011035-nt.html",
@@ -44,6 +37,20 @@
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/30/6ae49a1abc858.r_d.3833-1871-0.jpeg"
   },
   {
+   "titulo": "¿Le tocará en una mesa electoral? El Ayuntamiento de Córdoba empieza a despejar la incógnita este martes",
+   "enlace": "https://www.eldebate.com/espana/la-voz-de-cordoba/actualidad/20261102/le-tocara-mesa-electoral-ayuntamiento-cordoba-empieza-despejar-incognita-este-martes_476457.html",
+   "fuente": "El Debate",
+   "fecha": "2026-11-02T19:07:31+01:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/09/22/6ab2ad6851841.jpeg"
+  },
+  {
+   "titulo": "Te ha tocado mesa electoral en las elecciones del 29-N: cuánto te pagan, qué permiso tienes y qué pasa si trabajas en domingo o de noche",
+   "enlace": "https://www.elconfidencial.com/espana/2026-11-02/mesa-electoral-elecciones-29n-cuanto-pagan-permiso-trabajas-noche-1qrt_4457501/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-11-02T15:07:00+01:00",
+   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/64d/7be/64d7be39f2598a13d83d31cbf9cab7e5/que-es-el-voto-en-blanco-y-a-quien-beneficia-diferencias-con-el-voto-nulo-y-como-cuenta-en-el-reparto-de-escanos.jpg?mtime=1792744948"
+  },
+  {
    "titulo": "Alfonso Rueda se suma a Caballero y Jácome y elimina las ruedas de prensa de la Xunta",
    "enlace": "https://www.elsaltodiario.com/galicia/alfonso-rueda-se-suma-caballero-jacome-elimina-ruedas-prensa-xunta?utm_source=feed",
    "fuente": "El Salto",
@@ -56,13 +63,6 @@
    "fuente": "Europa Press",
    "fecha": "2026-11-02T12:22:27+00:00",
    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261102132227_120.jpg"
-  },
-  {
-   "titulo": "Feijóo acusa al Gobierno de reducir a \"un trabajador\" la responsabilidad de la tragedia de Urda: \"Dudo que sean buena gente\"",
-   "enlace": "https://www.eldiario.es/politica/feijoo-acusa-gobierno-reducir-trabajador-responsabilidad-tragedia-urda-dudo-sean-buena-gente_1_13631683.html",
-   "fuente": "elDiario.es",
-   "fecha": "2026-11-02T12:15:45+00:00",
-   "imagen": "https://static.eldiario.es/clip/8278a2b8-1a55-4d8e-acfb-786b833e94a2_16-9-discover-aspect-ratio_default_0_x981y384.jpg"
   },
   {
    "titulo": "Así fueron los resultados de las elecciones generales de 2023",
@@ -95,6 +95,12 @@
     "imagen": "https://static.eldiario.es/clip/47b5604b-44a2-4d51-8ce1-c300eafb13ef_16-9-discover-aspect-ratio_default_0_x674y348.jpg"
    },
    {
+    "titulo": "El Partido Popular de Teruel ha presentado este lunes su candidatura para las elecciones (Video)",
+    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZlluNHN1NF9QdkZ6VVJEaHk1Q2NRUGNPRnRCY0VYNjhnR1VETWZBWThLQWFGVmJQREp1eDRyU3YtMGZyTlZXekwtYmh1MFV1TlpaT3luRjJGa0RGTUZTZTIySldIUFpkaThaRVY1QkVYVFNPbklpRkpZd3I3OGpkeU1YbHRjaGRFOXJtQWxqSlFYdWthSC1md0FremNadjhfRjV6d2pKaUtqMlE4WEttZjFSTnM2OVpYc0xvZg?oc=5",
+    "fuente": "Eco de Zaragoza",
+    "fecha": "2026-11-02T18:56:15+00:00"
+   },
+   {
     "titulo": "La Junta Electoral avala la lista del PP al Congreso y tumba la denuncia del PSOE",
     "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLVFXc3c2OWdWaGZWeWVFYUxGNjB3MDFvQmt5ZzQybUlJT2s0SER4NllxSU5jOU9HNkg5R3lrTEtnQ0xNYXJweVJUcHJobEVoSW5LVFJXblFXU1o2Zndwb0FJeV9aT0VBUndUb0Zlb3B3b1dsRjM5VlItLXJTcm5UVFRUMjVVSzhZRVNtRkhLM01PZDVLeXZzVkFGNlN6RHdEVGlHUTdaZnNpMEY5ZTJ3TWNKMEI3ME4zdV9JSGY1bXQyelhJQkHSAcsBQVVfeXFMTmlkWFdsR0FHZklwLTJxMmM2UTlYWUJLQ201a1dzckZ2NnQ0dlZwNEF5clZHbndRZ0xCSWVYa1pVVmR3NEZxWnhNQThKWDFlOXN4WFFndmY2UGNHcUZ1TUZxbDdSdTg4WFdtU2VyemU2QlVlb2pPZ3FkVEJocHozU2lZT3V4MkhYVWc4RU9iOEhFSDctU1htZTVabkVWekw1T2hyYVdCTzVNR2R4OHhLbGozczNwVUhxaXljbEp1NVpMTmk5NFdSWC1MWkE?oc=5",
     "fuente": "Ceuta al Día",
@@ -105,13 +111,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS0E1dW5jTXp1aEp4dzZJa09pYjVaUmkwN3pvUXRES1Y4R1N3VnJQa0tPbzZUdUhmQlZfbEt5bHNtcFFYMmdQVy1WRzU2SzY3a1NLaE42MlZObUp3N1AxcnJQVkx3RHZ5OWNPWTdEaUpiWllIMThsUEtrdzFBbWY4VHJnajlnZ2RTSVphSzJkZlhfRFgtZ001eWpkbV85T3dSdHN3TmRUZUwtU2FtSUFRVVJOdWR6alcy0gG-AUFVX3lxTE5BbWZLcUhwa1B4aUtjS3Jydm43VklEVV8tTHJOdlJTSjlHT1lTSk1KWVRvOUx0OXBlQURSNjAybXE5VVpEZjdOWUZBbzllQ2d2UVFMQ19xQmJaQ3BkRFFYbmxnUE1JMXFCdXd5Nk9XY19rX3V3VE9GcGxxYzliRDRaSHpPQmNOS3Iyd2VBMXNJM2haQWR6dnJNVEpFME5KT1NnX09qWll3UDNjaVV4RTU3NmdMS0NISGthVVdUSEE?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-02T15:20:35+00:00"
-   },
-   {
-    "titulo": "ERC culpa a PSOE y PP del “colapso” ferroviario, pero espera para pedir el cese de Puente",
-    "enlace": "https://www.lavanguardia.com/politica/20261102/11674219/erc-culpa-psoe-pp-colapso-ferroviario-espera-pedir-cese-puente.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-11-02T14:24:58+01:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/19/6ad5fa8835822.r_d.3610-1568-776.jpeg"
    }
   ],
   "PSOE": [
@@ -127,12 +126,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOekQyaXBPeUZQenVsaEMwZUFrQl9Jay1Va29hd0hWUGNIT0pZM3RSbGlSU3RVMnFyQkp4UERmSmdveWtOVTlzSFF5N1VvajNaaTdkR2I1WFd4QlpFLTJ0U2ZfbkJ2MzExMzdWRlM3XzBtaEI2ejJPVlYwRE5fM2NvaHBkdVNmSGYzQ2F3YUpRMmloc1laVi03Uzh4MDJDRS1oU184TGdGZTVzMGZvRFZZU1FQYWhSZUlHYl9YUF9TUUNEQVRGdDFwS3RyWmd2eXMyYnRWeWU1bGVPd1daUHM0UtIB_AFBVV95cUxQVnY5TmRiZHdZN3Z0SkphaUpKS2xrdjJlSERoWkh4bkhPdXl3M3N1Yy1feWJLd0VEVHNnLWNPVUdIbHpRY0lXMUV5bW9xUGJMZGhOSTVuSmh5Qlc0aU5CcG9WRjRRcEgzcW90Q19iWWY5Nk90dElzbWRhNmR1WU1MRDV2WWNpRTBmaGVvZ29UbGNGRThZUjJkZS05bW9kbnoxRTV2cTdIamdlaDlJdVhmMlB6QlpHQ1luUGxpdmxNeWxReEplcUhjMi0zZGMyZG9FaU9XRzBGZzFXXzVTQXgxVW5NWXZzT3ozcXVscjN0U0IzVUpfdG9XOWZyTDI?oc=5",
     "fuente": "La Voz de Galicia",
     "fecha": "2026-11-02T20:02:16+00:00"
-   },
-   {
-    "titulo": "Arcadi España asegura que el PSOE seguirá con una fiscalidad \"progresiva\" y progresista",
-    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdERsZjAzNHBqQUZYUWRzNTBMbHVJaDd1Xzg5ZC1xRDJoZWxOazJ6bE1kenhvQlM4NFpONGJxUmQzemhyOVMtZzZZSXJIb0VTUkxDMG51a19YYUxKd0s4SXJnY19vSjExVEFBX284RXAySE1wTXF1V3o4ay1kN3Z5NTRqclZVSlVqNzVqQk92bVVHLWNoTnBQMUZIeFotSWNydXpmR1UxaGc3MDZuNVBsZE02UExQQdIBtgFBVV95cUxPdERsZjAzNHBqQUZYUWRzNTBMbHVJaDd1Xzg5ZC1xRDJoZWxOazJ6bE1kenhvQlM4NFpONGJxUmQzemhyOVMtZzZZSXJIb0VTUkxDMG51a19YYUxKd0s4SXJnY19vSjExVEFBX284RXAySE1wTXF1V3o4ay1kN3Z5NTRqclZVSlVqNzVqQk92bVVHLWNoTnBQMUZIeFotSWNydXpmR1UxaGc3MDZuNVBsZE02UExQQQ?oc=5",
-    "fuente": "Canarias7",
-    "fecha": "2026-11-02T18:35:19+00:00"
    },
    {
     "titulo": "El PSOE presenta a sus candidatos con el aval de la depuradora de A Illa y el cuartel de Cambados",
@@ -152,6 +145,13 @@
     "fuente": "La Vanguardia",
     "fecha": "2026-11-02T18:09:37+01:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/26/6adfa372c2a03.r_d.2958-1723-0.jpeg"
+   },
+   {
+    "titulo": "Encuestas electorales para el 29N: el PSOE se desploma, Compromís cae y el PP y Vox amarran su mayoría en la Comunidad Valenciana",
+    "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261102/encuestas-electorales-29n-psoe-desploma-compromis-cae-pp-vox-amarran-mayoria-comunidad-valenciana_476456.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-02T17:57:08+00:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/02/6ae8cd28f00d5.jpeg"
    }
   ],
   "Vox": [
@@ -170,30 +170,29 @@
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/11/02/30F8217E-4B10-4E92-BA9F-8DABE7F6710B/vicepresidente-segundo-conseller-insular-medio-ambiente-medio-rural-deportes-pedro-bestard_96.jpg?crop=1920,1080,x0,y101&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
+    "titulo": "Abascal se reúne con el presidente chileno, a quien llama \"amigo y aliado\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbUUydEVsVWhGenl4NFZxUVdQODhHWXpZOEI4MFlabEVqdDVLWk1ybUhDRU4yc040a05iSWVQb3Y5dXYzRjdtZk81c01kekh3TmplYlpVR0Jjd1JUNS1ESUdGLXkwS1NzMWxpY3ZBellsQWc1Z2taZlBZdTNnMVhZV3RwUy1ib0hjTWdSQWJoalpkSzdnem5ndFdHTW40MV85UGJDTEM3ck9wUzFyRHpxQk9aNF9YWmNfdUUwak0zc1lWOUhmUnJBNHY0Sk1vNVZvV0dic3R0ajBpaFBnMFHSAeMBQVVfeXFMT1A0TUIxM2FQTk5hRFlPR1dsRU42bmotR0tiZUlzUWlXNk5ITlZONkRxMUhQNjYxTEhnWnVjUWpCNW1XT2ZIcS1DQjlXOUpZYXE2QkppZU5STE1lNkJCX1dGa0dkVi1nOFpIazAtMEEzSjZkODZ1ODIzMERZR2NKZzRjaWxZR3B3VWVTaHFVdjZOUmd6VmFGTDJOVllVUHpsbEw0enR3bTlwRmdTQkUzWkI4blhrX3VHMHRQWS1VZmZGeTVpbmQxb015eDZ3U0VuTmZZVlF6YWZwTmprUXdWZHhRcm8?oc=5",
+    "fuente": "Diario en Positivo",
+    "fecha": "2026-11-02T20:59:09+00:00"
+   },
+   {
+    "titulo": "Tras la tragedia de Urda, PP y Vox tienen hoy un 72% de opciones de lograr la mayoría de tres quintos en el Senado",
+    "enlace": "https://www.elespanol.com/espana/politica/20261102/tragedia-urda-pp-vox-hoy-opciones-lograr-mayoria-quintos-senado/1003744443526_0.html",
+    "fuente": "El Español",
+    "fecha": "2026-11-02T20:30:10+00:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11392379.png?p=w:1706/h:960&h=R1LiC5yD"
+   },
+   {
+    "titulo": "Abascal se reúne este lunes con el presidente chileno, a quien define como \"amigo y aliado desde hace años\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZ3JoNzlRRHNrNVhLNDVJVk9oUXc3cU5OOU9GcldWUWtMcjUzMTRiLW0zM0JzeklrajZJWWhFQmR3WlU4OEt2RVdhVW9STWhDSW1vQzNWR1A4dzdTMVVmSW54MTBiSnc3U2xuV01uZl9lSmVIZFRZWGx4UjE2R3U0NmpZVF8weERPNWVLQ1ZETXJIYk1hRlppTlBrc2h5dlRhZllNQ29sdGFBV3hvUS0ycE9wYWxZQjlmVFRaWVpIMUpNZGllVXFNejR5bHM4TWdqSjNKOWd3WDQxb0Iwb24ya1ZMNGItRFJjT2IydEdB0gGIAkFVX3lxTE9nT1d1RU9sY2hHbnRrdHJHYnJ6NkljTUFMY0ozU2Y2MkNjUkFxR1B2Z05jX0hJTE5PY0hkV05DR2tGRzNFTUhtOFZVekVibVA5c2JvTDZYZW1hUXl0dWpYTTJTNkgxU1M0MWJJbG5IZjd4a29mQS1KUWNPbDRhOU1oeWhVdUJsMU5vNEZVWWE5YURZc01BeVlObjFwSHJ5WjdNdGFfZm9QSmJ1aExVcnBvdFdFOThkRVJDRXl4Um0yenM1Q3Z0aU5NR2M3MkQ2YVY1STZjZ2FyQXRyVE95Z0xRa3JtYWxiLTVnS2RGT2d0MlJLQXFyZnlHNjZBR2xrNFN3cFdXdkxWMw?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-11-02T20:00:00+00:00"
+   },
+   {
     "titulo": "Abascal recibe en Madrid al presidente chileno, al que considera amigo y aliado desde hace años",
     "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNam5vUC1yNUxJcW5xTjhjSi1jY09YUDY2ZVJBak5MSWdZWUdiVURFSmt5eE1SLVV3QjJtVHo4MFYyWmtlMnRxcWQwaXF2dU5qVTdSQ3pIcmEwVUtPUlBZSndlVXBITXRYQ0RpVEQ4SHB6WlhYYUluRGp2UGFjTE9nX25CcTlYclpsNl9qWVRzMEtNNHpPbDVUWGNwRHdjOUVtWEdOOHlxMk9jM203eEFkVThQTTM3ZHN2RjFjdjJreVhLd1JRSTBWctIBzgFBVV95cUxQOGIzVEp4X1VrZF9kb0piRDVESk1ndDRhU0dja1ppU1FxUkJ4OU9CQkdmZUhMNjM2QjhPRjh4d1dMSXFsdGNwR2oxNXZIVk4wU1ZKZnJ4dV9YMUNPT3k3MS1xMnU5Tk1ZWm5OaUtkN2VoOGUwbzFLVDhBdlVOZUpfdTQxdlVwOFFqNlQtUTIzcEpxcVEzNDdyQjVRMzZrNW9CY2EwWnZGZGJRVEhFM1FpN1VzeXhWcGN1ZHZqdGZTX3dmR1FlMFJ5VVhXZXBZdw?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-02T19:42:26+00:00"
-   },
-   {
-    "titulo": "Vox persevera en su mensaje de dureza contra el Gobierno: “Subirse al tren es una ruleta rusa”",
-    "enlace": "https://www.lavanguardia.com/politica/20261102/11674435/vox-persevera-mensaje-dureza-gobierno-subirse-tren-ruleta-rusa.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-11-02T19:32:26+01:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/30/6ae49a1abc858.r_d.3833-1871-0.jpeg"
-   },
-   {
-    "titulo": "Vox sigue la estela del PSOE y pide a sus seguidores microcréditos para su campaña: \"¡Invierte dinero para echar a Sánchez!\"",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQN0RvZTlqY21GazVleGFsa25QVFpCbTVHQll0bVo4Tm5ZeXU0ajFkYlNZYzF2cm9uemhsSEJWSy1OWXpBMG5vd1NiczZ2NkszVGZUUWFnM2NVN0sxcFo2dlJTQ3BMM1dHMTlGV3F5TnZaYzhVS2RvaE1ubWxFRmNIbUNJaXZSeVJXSmJpbl8yQ1ZhTXoyeEpPb1p1QdIBmwFBVV95cUxOSjJxZTQ4STNxMHJnQWlsX09jaUhxWWs2X1J4Y1RWb3JpNHI0RkM5SmRyUUZwYmxtbDJXc3dpbmUtNjFHc21pOGMtbkk2ZTdMYmFZaTNFaUxHSWwxbmZoVHR0bGhWeTBWSVIzTTdVOVVZRy16dURpUDIyOWdYdkxfRzJVU2NrTlQ2bVBMc3pjZnU4UmNBQXNlVWpDOA?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-02T16:58:28+00:00"
-   },
-   {
-    "titulo": "Vox se une a PSOE y Podemos y pide microcréditos para las elecciones del 29-N con el interés más alto",
-    "enlace": "https://www.lavanguardia.com/politica/20261102/11674296/vox-une-psoe-pide-microcreditos-elecciones-29-n-interes-mas-alto.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-11-02T15:19:02+00:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/02/6ae8a96d21466.r_d.489-698-4259.jpeg"
    }
   ],
   "Sumar": [
@@ -211,28 +210,29 @@
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/02/renfe-1200x672.jpg"
    },
    {
-    "titulo": "Yolanda Díaz: \"Mi madre era de familia de militares, católica, era moderna, divertidísima y guapa. Yo me parezco a mi padre. Nací en una casa que rezumaba política, tuve esa suerte\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPeXRoRkxlTjAzR0VucUtFcXJfOXl1aGRjOEU1aTRGNFdZRV9rRmFDenVjOXZ6QWJCUUtSa0d3ci1Sd1l6M2F4aV9KT2llZDRXMmd2cHlpSzRzdHlnU0hzQlFhaGZfN21ab3pWM0t3V25Sb3AwdFVqaW02THp1RnlxcHhMN3h1Z19fMXAxUlpTQ3lqTFVZWTVWb3dMSGFNR2V6TldYeHk1d1BmZ2JzcWZKTG5xWjdpMGpCVnlZM0JqTXI5VnVxemVNNVlBN1VEdDcxOXZsZDh4VnQtSTFJYXVWQkk5dkZUT0JzUEgzQVJ5SjBZQlh4QVE?oc=5",
-    "fuente": "Semana",
-    "fecha": "2026-11-02T17:03:00+00:00"
-   },
-   {
-    "titulo": "Movimiento Sumar incorpora a dos candidatos en la lista de Frente Amplio al Congreso por Granada",
-    "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTEhQa295RXdudDgxWVpQUGltcHc5cmtQXzdhdFloUnJaa2paRnVkaFpFWXRpTndOcFBoYWtnNF90S2ZIbndnY0VXbk1kQWp1NVVUMktITVVla3FHZFpXUGlqS1lZSWVFV3RFM1ZvWTg0OVJqQkRHUG1ZSkYyMjdWb3UyOXlaalBhRzkyckIzeF9SU0o4NGEtV2N3RjFyeDNmYWlCU2l5VW9tTmE0QW92Ri10bm11NlVSZ1NxaUN3eEJtbWx0cHplUEpnR20xR0VPcmZv?oc=5",
-    "fuente": "Granada es Noticia",
-    "fecha": "2026-11-02T13:32:50+00:00"
-   },
-   {
-    "titulo": "Sumar aporta dos candidatos a la lista del Frente Amplio por Granada para las elecciones del 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWkYxSzhwcEl0SThmaGZnLXJPeVdYd2h5R1NaLTJkOXJrc3dTUzUyTlM0dFZTbzR6dE5mZFJSR2psMFZEd0d1aExOSGI3SEgyeXhaVjFZVi1PMzk4a0ZxMllTWDZHVlVQYlRpQUtQS25lQlFQTUFKNG1lenE3TVBDVmRKUFNwTHFXQmQ5Y0EwdXdHcldTUXZBYTM1R1pkTHV1MEFJRFFSSUlGX1F2YTF2RzlkaGpzeGdTX09Pc9IBwgFBVV95cUxQNzF0WEFUZW8ybE1NMndPcXpPNHBBcmR2ZURfUzdwOTFDVXVjaGlVQ0JldTNjYnBGWm5KemktcUdYcFBfWmxvT3ZhSDE0Ri1LcVAwaWtrNEkxNnFEdWVGd2lnNkVVMUNERDZGekNBU3p3alRYQkRQUnNTLTkxQ0J6dklSOFBGOGdaQVFFMU1XQW1hRDRXRllwQXh3ZFdlcUZsbnpFN0ZFcjJOcmRPcTgwczhnbzhNeUMwRm1UejA4QkV2dw?oc=5",
-    "fuente": "Granada Hoy",
-    "fecha": "2026-11-02T12:16:16+00:00"
-   },
-   {
     "titulo": "Más Madrid convoca primarias en Arganda para elegir a su candidato a las elecciones municipales de 2027",
     "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNejBGWFp3YkJnTnBvWF9ST2NNNENjUzJfbWNBRkM1b3B6cHRZQmhJMk5GTmpDQVBTZmhkUFNDcTZJd2ZaS0Z1LXpWa2FVbXE5YkhlYndRZ1Nqd0lOd0t1NW1pSjNkcGpCalJxX3B0aGRLVFYxZFJ2WUVaOHBTbURCQktrbEJpMXZHYnFCZXVETEt5Rm5XbnJ1eXhnM2JSTFZ5c2dFc0wweFlPZnktM1Q1WEd3RmtsNHQxRS1vUG5pQVlJUDBoTXFXcDBR?oc=5",
     "fuente": "Arganda Actual",
     "fecha": "2026-11-02T11:28:20+00:00"
+   },
+   {
+    "titulo": "Sánchez se ha comido ya medio millón de los votantes de Sumar pero pierde casi el doble en favor del PP y Vox",
+    "enlace": "https://www.elespanol.com/espana/politica/20261102/sanchez-comido-medio-millon-votantes-sumar-pierde-doble-favor-pp-vox/1003744443006_0.html",
+    "fuente": "El Español",
+    "fecha": "2026-11-02T05:00:00+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11392056.png?p=c:639:481:nowe:22:1/w:1706/h:1280&h=sDwMd7aQ"
+   },
+   {
+    "titulo": "Frente Amplio y Podemos pelean en la Junta Electoral por la herencia de Sumar en el reparto de tiempos en RTVE",
+    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ051Zkg0dEFyS3p4ZFVfVmJZdmVleHgtX3luTEVreHZpTy1tdWxJVS1hR0hsVEdvWFItei1UOF9KMjdQWk0zNm50NVMwbVVVYXctcnJHb2xRYlJ5dk1CUWVBQ2VpN0NXWWVodVAtUTZtSFlqZFlJM2lmSzhXQjBXajR0Ql9LOGQwandCVWpLVHMtZlZJTHBtektIZ05NbVljT2xtb0NWQXhZR3VVaVhQYVU5OFcySWdkVkJVMHVwRjJrRjFpdzZhVXNNR3hsUdIB0wFBVV95cUxNeUhHSWlOMG5MYWk5NHRGVVptaDAtbXBsRXd4OEt6QTNyazlqc3U1ekZlUENUWlN2aWtadHExWVhBUzl1MFJKOU1GbXVET082Ylh4ZExuNEkxTkN1Y3cwYlV6LVpFRG1ySEVIeGVRZDU0UjcwdndHNkVhTk5kNXMzOWt0UVEzdjBWMWZvcVBfcU9lSG5QbldWSDNKNTZTT2pudnBhY2ZSdTlpMWNXN1pXbTM2VDhoQjhoU2l4Tzc1TEFNZDJ3ZGx6RkY1dUFEMW9TNVBv?oc=5",
+    "fuente": "El Debate",
+    "fecha": "2026-11-01T10:27:28+00:00"
+   },
+   {
+    "titulo": "El Frente Amplio se aleja de la estrategia de Sumar tras el accidente de Urda: la formación endurece el tono con el PSOE de cara al 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQNGVTNnFPYUVQR2FSd25kM3ZWeWNkcTlfdnN6OG81YnJ4RFp3NU8ybmh0UXJiUWRSdVdwVFJIejlpMUFmODhTNGJtbjZOU2VNWTd1WS1FQ1FWVU1CMHZNSUotWnByNUZPaVF2LU9Rdjl2TWVnaVF6NnhlTlIzVDRKeXBZMWQwcUw1Nmt0SXJmLWEyZmJVTXdFcjRiMDQ2SlI2RXk1UDRLNWdLbVBEcFpIRDQwWVdPalJTdnlPR0NDSXBSOVpUMEhyZ0VFSC1ab2FnY0xsMmlFS3FYS2JZLWFXbzEtZVVZeWZfUEZPYjhPd0dXWHlUNGVlM2wzTDI3VmhBV3lHU3dHQy1iTzB3eG9nNFVBZ25KdElEZWZmRGwyckNjdl9Vbm1GLXpqTlfSAawCQVVfeXFMUDRlUzZxT2FFUEdhUnduZDN2VnljZHE5X3ZzejhvNWJyeERadzVPMm5odFFyYlFkUnVXcFRSSHo5aTFBZjg4UzRibW42TlNlTVk3dVktRUNRVlVNQjB2TUlKLVpwcjVGT2lRdi1PUXY5dk1lZ2lRejZ4ZU5SM1Q0SnlwWTFkMHFMNTZrdElyZi1hMmZiVU13RXI0YjA0NkpSNkV5NVA0SzVnS21QRHBaSEQ0MFlXT2pSU3Z5T0dDQ0lwUjlaVDBIcmdFRUgtWm9hZ2NMbDJpRUtxWEtiWS1hV28xLWVVWXlmX1BGT2I4T3dHV1h5VDRlZTNsM0wyN1ZoQVd5R1N3R0MtYk8wd3hvZzRVQWduSnRJRGVmZkRsMnJDY3ZfVW5tRi16ak5X?oc=5",
+    "fuente": "Cadena SER",
+    "fecha": "2026-11-01T10:11:04+00:00"
    }
   ],
   "Podemos": [
@@ -243,19 +243,6 @@
     "fecha": "2026-11-02T23:06:00+00:00"
    },
    {
-    "titulo": "Irene Montero pide aplicar el artículo 128 de la Constitución para renacionalizar el sector ferroviario",
-    "enlace": "https://www.europapress.es/nacional/noticia-irene-montero-pide-aplicar-articulo-128-constitucion-renacionalizar-sector-ferroviario-20261102132227.html",
-    "fuente": "Diario Red",
-    "fecha": "2026-11-02T23:06:00+00:00",
-    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261102132227_120.jpg"
-   },
-   {
-    "titulo": "Irene Montero y el artículo 128: renacionalizar el ferrocarril",
-    "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdkhaZnJUNVdZR21zRGVGc3dNUXI1SmtOdGV5VmU0cGZLYXB2SjNGd3FIVlU1amduQmkxRnJVTTkwcldGc19iZU1tNG9Ram9jS3NzUEI5Y1o0cDFha3QyWGRfb1V0MVZCcnNOV1hSVDNHUzZzbXpKaldkalU2ZC0yallTOXJoeWNlMzhFS3d0Y1Z3eWM?oc=5",
-    "fuente": "Hoy Aragón",
-    "fecha": "2026-11-02T21:53:33+00:00"
-   },
-   {
     "titulo": "Podemos reclama la dimisión de Óscar Puente y aboga por renacionalizar el sistema ferroviario",
     "enlace": "https://www.20minutos.es/nacional/podemos-reclama-dimision-oscar-puente-aboga-por-renacionalizar-sistema-ferroviario_7056294_0.html",
     "fuente": "20minutos",
@@ -263,20 +250,39 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/02/6ae8bf37c54eb9-45869601.png"
    },
    {
-    "titulo": "Podemos pide renacionalizar el sistema ferroviario y exige la dimisión de Puente",
-    "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUHVaTDdyN1AzOVZWQ2x6dDUyMy1JS2hDWkI0WDVQSWxDZFRGOVFScVFFcjNVVURZX2M1VXo2anBUSzIzV1JZcVJHZzJZcF85M0l5c2pvTk5nZDhOZWhCek5RYXpYenN6NDh0T0xCek1xeVZmMnVydFJVZ1hWQS1GUS16MXNLU2k5ZTRGWWZYQTVXREQ5b2JaQnhjdU5McEpiOWtNc2N6VnZVSThPU2wzadIBsAFBVV95cUxPUHVaTDdyN1AzOVZWQ2x6dDUyMy1JS2hDWkI0WDVQSWxDZFRGOVFScVFFcjNVVURZX2M1VXo2anBUSzIzV1JZcVJHZzJZcF85M0l5c2pvTk5nZDhOZWhCek5RYXpYenN6NDh0T0xCek1xeVZmMnVydFJVZ1hWQS1GUS16MXNLU2k5ZTRGWWZYQTVXREQ5b2JaQnhjdU5McEpiOWtNc2N6VnZVSThPU2wzaQ?oc=5",
-    "fuente": "Onda Vasca",
-    "fecha": "2026-11-02T16:29:54+00:00"
-   },
-   {
     "titulo": "Vox se une a PSOE y Podemos y pide microcréditos para las elecciones del 29-N con el interés más alto",
     "enlace": "https://www.lavanguardia.com/politica/20261102/11674296/vox-une-psoe-pide-microcreditos-elecciones-29-n-interes-mas-alto.html",
     "fuente": "La Vanguardia",
     "fecha": "2026-11-02T16:19:02+01:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/02/6ae8a96d21466.r_d.489-698-4259.jpeg"
+   },
+   {
+    "titulo": "Irene Montero pide renacionalizar el ferrocarril con el artículo 128 y reclama la dimisión de Puente",
+    "enlace": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZ3hsZEJuWW5IZ05CY1ZvNEk0QmxLM0R2aUhZWWdnVkZDdkdWaU1nSWhWN3N3TVM3ek9mc1pZQzIxN1VBZlczTVQwQTh5VHY1YktrMGo0WWo1Tkw4bGRPdXNaaW96MHhFZ3p2dmhSNU1UN1RCWUk3d3BjanV1THBwWlFB0gGCAUFVX3lxTE1neGxkQm5ZbkhnTkJjVm80STRCbEszRHZpSFlZZ2dWRkN2R1ZpTWdJaFY3c3dNUzd6T2ZzWllDMjE3VUFmVzNNVDBBOHlUdjViS2swajRZajVOTDhsZE91c1ppb3oweEVnenZ2aFI1TVQ3VEJZSTd3cGNqdXVMcHBaUUE?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-02T15:34:33+00:00"
+   },
+   {
+    "titulo": "Pablo Fernández (Podemos) reitera sus acusaciones al exjuez García-Castellón tras la demanda: \"Operador político\"",
+    "enlace": "https://www.larazon.es/espana/pablo-fernandez-podemos-reitera-sus-acusaciones-exjuez-garciacastellon-demanda-operador-politico_202611026ae887c6b55c427e2ebc2aae.html",
+    "fuente": "La Razón",
+    "fecha": "2026-11-02T13:53:33+01:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/09/28/F9F1086B-E37C-43EF-817C-3EDBC510794D/96.jpg?crop=4836,2720,x0,y504&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Irene Montero pide aplicar el artículo 128 para renacionalizar el sector ferroviario",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZmI2ZzBhNGFmeXNpZk8yaXBzdmk5NGI0b29xaTBXN3Q3R3U0dUVXQzJYeWRseGtGZ2QwRS1Hci1YMHp6MVE1VVhDMzZRRlRvdzZ3UzdwWG02cld6STlyWF9DSXRDNTAwTjlZdDRCaGhJOHpFZWYweE5VR1otakQ4bnVsdllqUndSMlRiUEl0SzktUnI0V3NRTEZTU1BhbElka1J6Mk53?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-11-02T12:57:49+00:00"
    }
   ],
   "SALF": [
+   {
+    "titulo": "SALF elige a Carlos José Pavón Fumadó como cabeza de lista por Ceuta para las generales del 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVEFkdU9rcjlXX2lPRFo2MF85bmZWd0JWWWVIVGpZUFQ3cDF6UUhkb2pPMWFJMHRXcHlLNUExOFA5VjdMTm1oUDhjcWdhcWtUZUJnaTdudlM2dDJwOTJiZmVoN1lJTTQ3NWM3RTVwdjhvb0FLWUpOdXlpN3paWmdZMVNjV2Mxb0oxZ2NpZ21Ub0RBNUlUa3h3M2M2TEUzTjgxZDFYZWI4bDVMOFlGeTZXa20wWTdoS25LUUpvVmViMnRBeWhLV2FuZHQ5bw?oc=5",
+    "fuente": "El Periódico de Ceuta",
+    "fecha": "2026-11-02T18:49:12+00:00"
+   },
    {
     "titulo": "Alvise Pérez confía en un empresario de Torrevieja para encabezar su lista al Congreso por Alicante",
     "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOb1lsZG44eHJZQV9wNm5fY1lfS1R2Q0dsczJJSEkxVmNLelZjQjVTZ1VqaUdTR2lFRHR0WkxleWpoeWtZbnMxNmozNE8xcWdmSE54ZG0ybmN4d2JUc2hFMEVhRFRFQ1JjNkVjeHhiRzVpYlNDcjlhUGlvbDlON0x6bGdGUnkzTUIxc29hd3dlazJHdVVuRTVLLTJ2eDE4OUt3MEtCZWNuSlZMT0hGRHBEbk40SFY3QzU4cmdEVlUzNUozaEdpbkNLdEVHWENfMDg4ZlFnMTBHZjN0TWR4MWliWDQzQdIB6AFBVV95cUxPc2JEWTAxaEI0NHNUMnl4eFZSMUxXNERjR1NlOXFIcWtwVkRxa21HUVVIaGQ2ZjVMVlBVMjJVUkd2c1NkM25rSUYtVF9YRDZEbDhVblJpNmZCajdFbDFkLXIwTjd4Njd1c2cySlJXRUlISlFEUDZ0RWtRQU9YbUkwSjFkNGtkU2lhOWJac2xpYW9GLWh4MHIteGdwbGNDcGd4bkxTZjM1TWRLZlBaSWk0MzJwRVFuV0pMWDRGbjJZLThTdTNRbXdjYmEwNFVucEM4bS1CTWZMbHVOUU1aVG9jd291RHF4OE1J?oc=5",
@@ -290,31 +296,31 @@
     "fecha": "2026-11-02T17:00:10+00:00"
    },
    {
+    "titulo": "Se Acabó La Fiesta se estrena en las calles de Ávila con su primera mesa informativa",
+    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX3pHZ0JiMXFoRTJfRkREdVJMRUhBdGdYQ2tUcVZUTTJIekhkdWdHTWdXSkVOVy1RQWZvajFHbTNUeG44SEU0T2VsUGVNaUszM1FQUXp0aGstT2xJQ3liTXRBREV5WU10OV9EcEYzVmZGQ09XZGFuODFGNEplVEdPcWc5MWpQRDhnaDlOcExJeW1RU0xnVUR5SHZkVWRmOHZXeDhoWmlyZnJvTmh1aEJJbHZsQ2hWaldzdDNWa05MN1Nkc3ByeHl3Qw?oc=5",
+    "fuente": "Tribuna de Ávila.",
+    "fecha": "2026-11-02T16:40:11+00:00"
+   },
+   {
+    "titulo": "Elecciones 29N / Las lucentinas María Araceli Espejo y Beatriz Cobos, candidatas de SALF al Congreso por Córdoba",
+    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNel9GdjlOV0lOYlZERjZ5WW9kcUd6cHNzT042UDBfSk94M2w2UU5jdTg2cjBSUU5oRlNXblJHbHkzZDY2MDRMMDM3dm8tZUZxUXVRaURDMHFXb0NySXJPelBhUGJ1N2h0SWJOUFNuMk81SE5HckxPajlTR2IxWmRuRWM4V3pFaWNHVW82OE84TWdqVXdYZmhUZEhIS0x6aVJ6YVVHeXIzdHk5SmZvQ2N2OEUxVE1sZC1wc3NFVmZRcnZSRF9RWGFkc1dSbGhzRy14NjJLVDdmSWNKeXN6SFRCdDE4NzJ2dGvSAecBQVVfeXFMTXpfRnY5TldJTmJWREY2eVlvZHFHenBzc09ONlAwX0pPeDNsNlFOY3U4NnIwUlFOaEZTV25SR2x5M2Q2NjA0TDAzN3ZvLWVGcVF1UWlEQzBxV29DcklyT3pQYVBidTdodEliTlBTbjJPNUhOR3JMT2o5U0diMVpkbkVjOFd6RWljR1VvNjhPOE1nalV3WGZoVGRISEtMemlSemFVR3lyM3R5OUpmb0NjdjhFMVRNbGQtcHNzRVZmUXJ2UkRfUVhhZHNXUmxoc0cteDYyS1Q3ZkljSnlzekhUQnQxODcydnRr?oc=5",
+    "fuente": "Lucena Hoy",
+    "fecha": "2026-11-02T12:48:41+00:00"
+   },
+   {
     "titulo": "Eladio Barrada, candidato por Córdoba de Se Acabó La Fiesta al Congreso de los Diputados",
     "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQm5DczJKd0xJNVFDYlRLNjB6bGx1UnJYNnhfdjFGc2ZBNVUtOVp5VVVLSWZtd21pcjg2R3g3OVJoRjdWbFdGckdzdEZWTjB1NjFJX3Fvd0Nqa0h3c0M0ZWI1Sk1NQUhfS2Q4cFVudkJzS0l5RmMyemN4QnZKSUlWVDJqWlBWenpvVmI2ZzhMSklDVTRWNWk2Q20yWHA3LVg4Z210bzhOampuR1NYQmfSAbMBQVVfeXFMT28zOG5zemhudU5nNEZ3OXRneFNkMC1lMTJpTEZod3VuQ1VycDl5RlFBaTZicHI5RW1pN09rclJiUlc1aXJOZGxWVC1ZM1V2WEE2NDNpT3hialFJeUUwTkU4aFB2UmlTdjNJYUNTQW1rdUtQM1lYQ0R4dlRtVFE1cGxlSjFyeTRxZ3ZIdWpOclZ3SHJpa3Z4NEdQeXJXMjltdmlsQ3luWnRHWHdoQnFwZEpqeXM?oc=5",
     "fuente": "Diario Córdoba",
     "fecha": "2026-11-02T10:57:35+00:00"
-   },
-   {
-    "titulo": "El partido de Alvise presenta a un funcionario de Hacienda y teniente reservista como candidato de Córdoba al Congreso",
-    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORTBUR051bE1lTE1JQTZNa2xxZEhsWk1JTGMwZkVUYVo3a0FJcEpzd05CbElXS3QtQlRKR1hOVkZhblVTOEpCNndhZWlfcnZDcmlCZUlaLXNHeDZZLV93cElJYWRxa3lPMktEVkFGMThWNWF6Z3R1YjJzZnYwR1FUSXdaQXNCVUNvZ1hGSU9XVzRYLXc3Skhxa2kyTjJYenFpVXFCNS1jekM3dGRPZk56OXdLVjBwRHc4bmF1VWV3Y0JxaEFaNzAxb29SNXVPVEFQeXQzY3RyY2kxdHN5SHVsZVJtQWYxQQ?oc=5",
-    "fuente": "elDiario.es",
-    "fecha": "2026-11-02T09:06:22+00:00"
-   },
-   {
-    "titulo": "Isidoro Aguilera se incorpora a la candidatura de Se Acabó La Fiesta (SALF) al Congreso por Córdoba",
-    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdHN4RkpqU0U1TExheVhOX3JZZjNsYl9iQ01sTEUxWGhGc215RjFQQXAzT0cwQ01uVHdKR0FGWXRORXpaS3J4Q1FGSkdDX3BVMzZ6RWR4WEdTZ3l0NGJMbjNRcGJZMjRRRjdCdlFwUUsyWlZ5cXF6RDlqdmh4STQ4R0FZd3BtUDAwelFhT1lWaFE4S2haZTNlV3ZzS3RQZVpTSFpxQ1Azdzd1NHBNSk9Wb3J1NFJhNzkxcGFmaXhwQUI1T3B4anVwVC1EU3VnWlk?oc=5",
-    "fuente": "Periódico Adarve",
-    "fecha": "2026-11-01T17:14:57+00:00"
-   },
-   {
-    "titulo": "Alvise Pérez lleva Tenerife al debate nacional de SALF",
-    "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5WU94dGVYWVVMQzgzNVdXVjYtQjRQYk82azhSWW1FSjZnMExZQUk5NW9yWUxpb08wSUgwVHN2NU1yVlF6V0F4RFE2TDdMemxsOGtTVC05dmRlQ0pZS001eWhBbWtrRFRQX3gw?oc=5",
-    "fuente": "Canarias en Pleno",
-    "fecha": "2026-11-01T08:47:12+00:00"
    }
   ],
   "ERC": [
+   {
+    "titulo": "ERC culpa a PSOE y PP del \"colapso\" del sistema y critica la falta de mantenimiento",
+    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQVV2bFNqWFo1RnhuUTRFN1FZTUU3WGV3emwwTFBzZHVHYVgtZTlzTkN4c3ZCN2IxenJ5OEFHT2llOGd3NmJQSlN2Q0hRYVk0QzdpRV9XanNWMmI4NXp5ajlhSktBSzZ5U192eTFwYzBMVDkteFVoM0UzSm1URDBwV1lmaGE3YTZPU3JwVXpHM2NiRUM2MC1CemRFazlQRUVGb2ZlcGpqR1BLRElVbFNoUUdmeGM2UdIBtgFBVV95cUxOQVV2bFNqWFo1RnhuUTRFN1FZTUU3WGV3emwwTFBzZHVHYVgtZTlzTkN4c3ZCN2IxenJ5OEFHT2llOGd3NmJQSlN2Q0hRYVk0QzdpRV9XanNWMmI4NXp5ajlhSktBSzZ5U192eTFwYzBMVDkteFVoM0UzSm1URDBwV1lmaGE3YTZPU3JwVXpHM2NiRUM2MC1CemRFazlQRUVGb2ZlcGpqR1BLRElVbFNoUUdmeGM2UQ?oc=5",
+    "fuente": "Canarias7",
+    "fecha": "2026-11-02T15:05:55+00:00"
+   },
    {
     "titulo": "ERC culpa a PSOE y PP del “colapso” ferroviario, pero espera para pedir el cese de Puente",
     "enlace": "https://www.lavanguardia.com/politica/20261102/11674219/erc-culpa-psoe-pp-colapso-ferroviario-espera-pedir-cese-puente.html",
@@ -346,12 +352,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPQnYyaHNveHZZa1VHd0N1R1llTDJmSEs5MVdYYnZDZGFhX1ZuVzVRVkdqRTZDREtLYUZ3cXFKRGdJbGZFU3hGS3hsbFZwYU5CODgyMkdXNGE3NUpzUTJVNThLZ1MtWmZpVHFJc2xFemEzTGdXTkpZaDJOTUpjN0cyX0huRGlzSUJzS2tYak1pWllrSTRxczB4YXJCc1lIZndJTG1fWEVsQktqV1RIbDIyd01sOFdCQWxDREZGMkROeWpxMUVEQlk5aWt4d1JQV3dVWFRpb1NGdExndnJPYzFUa1JhOEhCMjdpYjVkLWlGQlFNRTN2OF83cUh3dnhyZ3J2cmxNVDhjSm9fSUJZSTVzOUxnNWdnOXdxb0RUSjBaTFM1aU9UTThZQw?oc=5",
     "fuente": "Defensa Central",
     "fecha": "2026-11-02T06:00:00+00:00"
-   },
-   {
-    "titulo": "Montero y Rufián: sexo recreativo y pedagogía feminista en TVE",
-    "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYnVuZnd5dVRWRWNKYllQdU94UFlKeFlVRHhXb1BBcDl2V0dYeW52RHVqVnJXWjI5TlMtWThPYVhBZzdLNmFHdU9WdlZmQlZiajZRR1R4alR5V3BrNzVBWUR1T2pEOFA5VGg5Zk5oSWdUNmV4MjNUNGtZM1VGaFZWa2RBRERVcVktQmFlemRoNFhVaDVkRk1uMjBCdXZvNG0za1E?oc=5",
-    "fuente": "El Confidencial",
-    "fecha": "2026-11-02T04:00:00+00:00"
    }
   ],
   "Junts": [
@@ -442,6 +442,18 @@
     "fecha": "2026-11-02T23:00:00+00:00"
    },
    {
+    "titulo": "Frente Amplio se presenta como alternativa al PNV en una disyuntiva entre «vivienda o rentismo»",
+    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRHN4dGdDSXpVN3RoR1RVX0Q2SmNEcVVmMDluX1ZLbEFEZHZpMXphRjNrSG9hWVFKcWtHRWIzYmI4MWVhUnV6eWRsdXdqRUQ3UzhIMVhVVE1BM1NYc0Zwb2dJczVpLV9Cbi1NOGZoX0NvZGRDajRfcEJzeVpsXzFNY2IxbHlNUU1aM2JLTVRESUZqTnU5NnpSM1ZIVC1ITVhmTURIVlF4X2U1Qmp0Yk1KbWMxOEJqM3R5X0x6UWNjbHV5LXpMUHU2Z2pXTWlBdVlKVHdsNXp5WdIB1wFBVV95cUxQRHN4dGdDSXpVN3RoR1RVX0Q2SmNEcVVmMDluX1ZLbEFEZHZpMXphRjNrSG9hWVFKcWtHRWIzYmI4MWVhUnV6eWRsdXdqRUQ3UzhIMVhVVE1BM1NYc0Zwb2dJczVpLV9Cbi1NOGZoX0NvZGRDajRfcEJzeVpsXzFNY2IxbHlNUU1aM2JLTVRESUZqTnU5NnpSM1ZIVC1ITVhmTURIVlF4X2U1Qmp0Yk1KbWMxOEJqM3R5X0x6UWNjbHV5LXpMUHU2Z2pXTWlBdVlKVHdsNXp5WQ?oc=5",
+    "fuente": "naiz:",
+    "fecha": "2026-11-02T18:40:00+00:00"
+   },
+   {
+    "titulo": "Aitor Esteban, portavoz del PNV, eleva la presión sobre Sánchez y exige el cese de Óscar Puente",
+    "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ2p0cnFpMldmdkhyQmNXc2VUV05UTEU2WkJvdGpZa0pmelBTUDdMVUZjOGxqaGloSzJsX0lDem05bTdNMkstOS1KYmFRTzVKZk81aWVURnFWSTZxc2hjTUM0RnFudWNUTzNxU3VXR3M4YUkxUkt1WVh5dG1sdzFBVXJreUJnTDNSSGtIRg?oc=5",
+    "fuente": "MONCLOA.COM",
+    "fecha": "2026-11-02T17:32:34+00:00"
+   },
+   {
     "titulo": "El PNV exige a la SEPI que deje de bloquear el futuro de Tubos Reunidos",
     "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQXlVaURyVEJCeklwMThpdnVLdDUtMUdWdTY1UUlPTjV2ZUlZc1NMZHhnb0RNOXBXdTlNaWh6NDJFV05nTk56LV9qUkhxcFJMV3JCVHd3WnJVVXRpcjc2bTZqWXpkRTdEdXduZjNLSmlGUFVVQ3VaSHZ5Vzc0YVptQ1VCRnBsTzktMmlnTlRnaXp1OC1HTDdaTkpZYkVDMXdUOWJ4cDh2Z2U1UdIBrwFBVV95cUxOanpiTWdNUjNtS0pyT3RnWHJhMDJ0NTIxekU1eE5wLTF3WTBnZ0VFU0FzU1l3dGhsTS1EbFNHd2JHd0JNQVNRdU1zWlJmQ08yUDhzZGNheFN0eVRXVVB6dzdaSHpMU2h6dlIwc3RLbGFKR3JfTlVUYThUZDBVVDdoNWphSmJBSHU3enptbHg1bFRnbFp0WThKNklud3ZGa3NQRmpMV3hfaEc1OENTMmFJ?oc=5",
     "fuente": "Demócrata",
@@ -454,23 +466,10 @@
     "fecha": "2026-11-02T15:35:02+00:00"
    },
    {
-    "titulo": "Esteban cree que lograrán grupo aunque sean unos comicios «complejos» para el PNV",
-    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYnNIZ1JPNUFJRVVTaGpCREg3dVRiS2RJblUyXy03djFRU3VZUENnbngtOWV3WkIxYTBpRl9DaEVWR0MxblBsMjM0Z3g2VXk2UklYSGZHazUzRkRscDBwNm5uOGd4aV9zNUJ6a2t4YVowalhjTkpTN2VoYkxjSWgyRVduOW5nSU5xd0tjUHJxdEZXMGRkeFN1Q280S2tjT0szMGw3NnZyWjNmeDRYMDlfTEFkZTJXbWFkZy1reFVnM3VsdmdT0gHEAUFVX3lxTFBic0hnUk81QUlFVVNoakJESDd1VGJLZEluVTJfLTd2MVFTdVlQQ2dueC05ZXdaQjFhMGlGX0NoRVZHQzFuUGwyMzRneDZVeTZSSVhIZkdrNTNGRGxwMHA2bm44Z3hpX3M1Qnpra3hhWjBqWGNOSlM3ZWhiTGNJaDJFV245bmdJTnF3S2NQcnF0RlcwZGR4U3VDbzRLa2NPSzMwbDc2dnJaM2Z4NFgwOV9MQWRlMldtYWRnLWt4VWczdWx2Z1M?oc=5",
-    "fuente": "naiz:",
-    "fecha": "2026-11-02T14:42:00+00:00"
-   },
-   {
-    "titulo": "El PNV confía en mantener grupo propio, pese a que reconoce que son “elecciones complejas”",
-    "enlace": "https://www.lavanguardia.com/local/paisvasco/20261102/11674191/pnv-confian-mantener-grupo-propio-pese-reconoce-son-elecciones-complejas.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-11-02T14:03:32+01:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/02/6ae88934d7988.jpeg"
-   },
-   {
-    "titulo": "Alcaldía (PNV) sigue pese al periodo electoral con las votaciones de \"presupuestos participativos\"",
-    "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRFdiWXFJS2hYcDdyU1lWNTc5VXhUSmJ2bGtxb2Z4aHRGb0dVcDZqZnRaYWhTN0xiNWhjcDVITDllTDdnbkNRNU56NmFVcjh1S2FPYld0VHFTVzBLNUFYX0pmWDBLSzZQT0EwbVpRR21QZC12c2lqZXc0dHdmUHh1b01yV3VYeHM?oc=5",
-    "fuente": "Barakaldo Digital",
-    "fecha": "2026-11-02T12:26:00+00:00"
+    "titulo": "El PNV pide a EH Bildu que dimitan dos alcaldes por las prácticas de tiro de policías en Intxaurrondo",
+    "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdk9ZMVNaa2VjVUQwck1obFN2blUzWW9HOERTXzQ2Y2NwcDFUR2pHcm9PMzl1Q0NOMWxSR0pjeW1pNlJPOFA5LXdPcHRLMllGdl9Ta3g1MENlMDNjNW1QeXA5dE5GX3A1SjVhUzlXLUNhZG15SWdXT1E1ZjZPSjZzUThKamNkdU9GLUU0bUprT3RaekVqWWh3N1dyWHJwZ2NsVGh1NzV2TFhscWhsUGo1aXlhZEtCWEs2eTJIWmQwbW9BcU5NSmFhdXVsSDZWUElRTG1qaFRUX3lySEFGejNKN1gtY9IB6AFBVV95cUxPSWFDbC1GcEN2OGlzN05Uc0dDaExrR3lxQ0I3UEg5Mk9KRUpUSFg2M0FOUENOdlBfQjVQcjVCZXh0Wng3eGhZX1hWU09VckZFQ2dGdzZSM3k4NkdKYVRZWnRpWE11RjVfYXlKdzRtcGNUN1ZNcmlBUXI5bVNUQ2l3bDNKWnJUcmRjSUpObldGRzRCTWxoT3gxLXNQT09pOFFvc0RtWmlJUnBCU2Rkd1dnc1g0Mk82YmJucWVnRnlIX3JvbnFhSjdBTTJRV0RiSUhEZkctd29Hc0J6UDRvRWQta3BZSFVLdFY2?oc=5",
+    "fuente": "El Diario Vasco",
+    "fecha": "2026-11-02T15:04:36+00:00"
    }
   ],
   "BNG": [
@@ -615,14 +614,7 @@
     "fecha": "2026-10-30T15:04:53+00:00"
    }
   ],
-  "Vox": [
-   {
-    "titulo": "¿«PP y Vox votaron juntos en contra de determinadas medidas relacionadas con Renfe y con la protección de los precios del transporte»? · La Buloteca · Maldita.es",
-    "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNy14a2plaEhHeHZlR3V6NDJhOU9hd0FySHpwWW12MHh1ZHBLS2xKMVhnaTJfNDgzVUd4LWJUZEphZk4wY3RMVjM2M0UwcFpXdlp5dy1OajhNUDNfdzVkS2Z3N3E4N041UXRlNG5TV2pfTXFuZDhKMHhneFBTRXVtcy1oczV3YVlOeE1KemNNdWRfYWFBNDdSNlRtaW8wWlhTTUcyUkV1d2U0Z1plR2RsQ251ZDE2WFVTUUdyRkp1Slk0d0ZFYmtxeGs4QUU0bUFaRlZ1WjluYmFpR29FbjltOC10ZUJaYzJ2OUxISWFla1FNeXh0QUxR?oc=5",
-    "fuente": "Maldita.es",
-    "fecha": "2026-10-30T15:04:53+00:00"
-   }
-  ],
+  "Vox": [],
   "Sumar": [
    {
     "titulo": "Desde que Yolanda Díaz es ministra el SMI ha subido un 28,5%, 37 puntos menos de lo que dice Urtasun",
@@ -715,6 +707,12 @@
  },
  "verificaciones_generales": [
   {
+   "titulo": "¿Te ha tocado mesa el 29N y no puedes ir? Descubre en este juego online qué causas están justificadas",
+   "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91ZGZWNWo3dWgwZV9JdVZDSGV6b1BKLXdJVDlTY1NKWjdrNVVDTUt1WEM0ZnIxcHUzckdBbjB1RkJpSjQ5bjVCOTRMVkJtMWVsMlcxZUFUTTN0T1k4SkhxeEZySVpPRzJtMkg0eFVxZFBpUldYTFE?oc=5",
+   "fuente": "Newtral",
+   "fecha": "2026-11-01T06:08:48+00:00"
+  },
+  {
    "titulo": "La renovación (o no) en las listas al Congreso: estos son los candidatos de cara a las elecciones del 29N",
    "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mcWtCTGN0cTgwNHNYcXdXdUNGbERPR2Q2bGRoWUx3N2JsUjJ2V3RGdS1SVEx6Z1p0bDBBcVNoZWdZR3BHUm9KY1ZUM2JLbGVXYURfQTNvYWprQnhCZ2NzQndKZk9FelVMZGpoMHBOZnN1UTJJNUNuWDl0SWVwZnM?oc=5",
    "fuente": "Newtral",
@@ -727,14 +725,14 @@
    "fecha": "2026-10-30T18:25:55+00:00"
   },
   {
-   "titulo": "¿«El PSOE aumentó 128,29% la inversión ferroviaria, mientras que durante el gobierno de Rajoy la inversión cayó 55,8%»? · La Buloteca · Maldita.es",
-   "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWktMeUpGMUllb2ducWdhZ3AydWlZcEpqOXJtWmZrbnVCS0FscWlsQXplNzJuNlpJdHhNWDFaWnNHZjdOdnpNQjRfM1ZuV3NUb1dpSXdLU09ZMjQxRC1xeXphR3VlWldVRmlMSWNqd1hrS0hDSmpPYjJPU3lONjdRY1MzUmlzY1piemRQV2dHTUVuTE5WSjhxSWQ2SEh4a3BuLTRJbko4RjhneWRLeFVjeW5hOXp1VU9oT2lhcWZpMjhGRV8wZEdvNUlfT0hVa21iXzBkQXlHdExrX2ZuekpF?oc=5",
+   "titulo": "Qué sabemos de la comunicación del Gobierno de España a Bruselas sobre la sustitución del sistema LZB en la línea Madrid-Sevilla",
+   "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTXBBcnhkODZ4Wi1NVlZJS2dNRmwwNTZ6Ri1WUTdWWnBOUG1kRENfWHI2X0tzNGNqVmE5TDhBSFpWVFo2UTE1T3RHMzFJcXFJZnl5MHpRcDhPa2Itbml6RjVUbHY4UkdaOGpteHFiMnRkTHJBM0NVQW5pQlg1dUUzbV84Z2dvMldnS0FPYjhwUGRlY0NubVZEbjBWN0dYQ2xvdkRMUDRtOTRFNGpTOWF4REhHRnFLMGdkUVU1a0JOSEF0ak5EZlVEYUZhTUdfdFFOcUNZUERmcHlpalRoOWNxUndFRmFXVUNPNWVqZWFtTm1IcEZxTW5HbQ?oc=5",
    "fuente": "Maldita.es",
-   "fecha": "2026-10-30T15:04:53+00:00"
+   "fecha": "2026-10-30T16:13:13+00:00"
   },
   {
-   "titulo": "¿«PP y Vox votaron juntos en contra de determinadas medidas relacionadas con Renfe y con la protección de los precios del transporte»? · La Buloteca · Maldita.es",
-   "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNy14a2plaEhHeHZlR3V6NDJhOU9hd0FySHpwWW12MHh1ZHBLS2xKMVhnaTJfNDgzVUd4LWJUZEphZk4wY3RMVjM2M0UwcFpXdlp5dy1OajhNUDNfdzVkS2Z3N3E4N041UXRlNG5TV2pfTXFuZDhKMHhneFBTRXVtcy1oczV3YVlOeE1KemNNdWRfYWFBNDdSNlRtaW8wWlhTTUcyUkV1d2U0Z1plR2RsQ251ZDE2WFVTUUdyRkp1Slk0d0ZFYmtxeGs4QUU0bUFaRlZ1WjluYmFpR29FbjltOC10ZUJaYzJ2OUxISWFla1FNeXh0QUxR?oc=5",
+   "titulo": "¿«El PSOE aumentó 128,29% la inversión ferroviaria, mientras que durante el gobierno de Rajoy la inversión cayó 55,8%»? · La Buloteca · Maldita.es",
+   "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWktMeUpGMUllb2ducWdhZ3AydWlZcEpqOXJtWmZrbnVCS0FscWlsQXplNzJuNlpJdHhNWDFaWnNHZjdOdnpNQjRfM1ZuV3NUb1dpSXdLU09ZMjQxRC1xeXphR3VlWldVRmlMSWNqd1hrS0hDSmpPYjJPU3lONjdRY1MzUmlzY1piemRQV2dHTUVuTE5WSjhxSWQ2SEh4a3BuLTRJbko4RjhneWRLeFVjeW5hOXp1VU9oT2lhcWZpMjhGRV8wZEdvNUlfT0hVa21iXzBkQXlHdExrX2ZuekpF?oc=5",
    "fuente": "Maldita.es",
    "fecha": "2026-10-30T15:04:53+00:00"
   },
@@ -755,12 +753,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZ0pSWXZfellmcHF6c0FWTm1kelc2NWV3emZYODVkam9GMUd2UVhCOWlMUnZ2QUxGSmVpS3VIVjBUMWZQYlRJVzlleG11WXlOeGNDUVVTTzhDVi1nY0stcXRITy1RZEMwYnBCN2NfaUJLOGVKUEpFbE9YOGlOTDM5RWdlcHFyTVNUSnhvbXdZMExLQWhidUs2bTJtX3BvdkszaXp6TF9zZVliY1VRSlE2dmpic3loZlhPSmZPcl9DcHNDZlk3dG5QY2dnYWkyNG9hejRnN0lWSENDWHlFZTBkaWNyMHVzbzMxV3FPQ1JYSUc0UDg?oc=5",
    "fuente": "Maldita.es",
    "fecha": "2026-10-29T12:56:00+00:00"
-  },
-  {
-   "titulo": "Por qué hay más votantes que habitantes en algunas ciudades de Brasil y por qué no indica que haya habido fraude electoral",
-   "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVU5uZ016NUZDUVZZQ25ERS16eUZXQWRlNTVZTkhGMFZIT3RKTmtWUERDYk1MdlE0MEtuSVB2SFRBUGtVOE0telgwMUZXRmM3RlRkalZNU0ZrN19xVFNaSGtwQXBEX01xUmVacGJVbEZ4YVZiWTFwOFhiTzhIWUxyTTBtcTJRaWxkM2lFdHo1LW00czFqOWduLXhvVTRVbnJPM01ERVB4RzJ2a2UxbGk5MlVIQm5QRlhJWEN0cGEtVm5yVFJlMDVzRXB1dlctMGZXOHpmY2ZYQlAxWHV4Q3BOU0FrRUY1VDdvMS13T0xXenA?oc=5",
-   "fuente": "Maldita.es",
-   "fecha": "2026-10-29T11:17:08+00:00"
   }
  ],
  "polemicas": [
