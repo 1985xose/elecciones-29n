@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-03T18:01:46+00:00",
+ "actualizado": "2026-11-03T19:01:13+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1383431757,
+ "revision": 1383615793,
  "partidos": [
   "PP",
   "PSOE",
@@ -225,6 +225,27 @@
    "encargo": "",
    "id": "psoe-2026-10-25-0",
    "primera_vez": "2026-10-25T10:01:05+00:00"
+  },
+  {
+   "empresa": "More in Common",
+   "inicio": "2026-10-21",
+   "fin": "2026-10-25",
+   "muestra": 2210,
+   "participacion": 70.0,
+   "pct": {
+    "PP": 28.3,
+    "PSOE": 27.6,
+    "Vox": 20.8,
+    "Sumar": 15.6,
+    "Podemos": 2.6,
+    "SALF": 2.4
+   },
+   "escanos": {},
+   "empresa_base": "More in Common",
+   "clave": "moreincommon",
+   "encargo": "",
+   "id": "moreincommon-2026-10-25-2210",
+   "primera_vez": "2026-11-03T19:01:13+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
