@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-11-04T02:02:10+00:00",
+ "actualizado": "2026-11-04T03:02:03+00:00",
  "generales": [
+  {
+   "titulo": "Sánchez 2.500-Feijóo 14.000: la 'encuesta' para el 29N con el aforo de los mítines electorales en Valencia",
+   "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261104/sanchez-2500feijoo-14000-encuesta-29n-aforo-mitines-electorales-valencia_476666.html",
+   "fuente": "El Debate",
+   "fecha": "2026-11-04T04:00:00+01:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/03/6ae9f11db04dd.png"
+  },
   {
    "titulo": "El «fuego amigo» contra Óscar Puente alentó su dimisión",
    "enlace": "https://www.larazon.es/espana/fuego-amigo-oscar-puente-alento-dimision_202611046aea91b0b55c427e2ebe1ab7.html",
@@ -14,13 +21,6 @@
    "fuente": "ABC",
    "fecha": "2026-11-04T02:05:35+01:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/04/1519714454-RYnNaF4uznNkiMpAUcia2PO-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "El plantón de Lula y Sheinbaum deja a Sánchez sin un balón de oxígeno cuando más lo necesita",
-   "enlace": "https://www.elmundo.es/espana/2026/11/04/6aea2359fdddff40058b45c0.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-11-04T00:44:14+01:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/03/17937298490888.jpg"
   },
   {
    "titulo": "Puente figurará como número uno de la papeleta del PSOE por Valladolid pese a haber renunciado a ello",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "El PP aprieta en el Tribunal de Cuentas para que el hermano de Sánchez reintegre más de 340.000 euros",
-    "enlace": "https://www.larazon.es/espana/aprieta-tribunal-cuentas-que-hermano-sanchez-reintegre-mas-340000-euros_202611046aea91ae6973466c29e84e4d.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-04T03:00:14+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/07/14/DD461167-1643-4D50-A06A-887064BB403A/hermano-pedro-sanchez-david-sanchez_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Sánchez 2.500-Feijóo 14.000: la 'encuesta' para el 29N con el aforo de los mítines electorales en Valencia",
+    "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261104/sanchez-2500feijoo-14000-encuesta-29n-aforo-mitines-electorales-valencia_476666.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-04T04:00:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/03/6ae9f11db04dd.png"
    },
    {
     "titulo": "PP y Vox abren otro frente con los sindicatos por la huelga de la vivienda",
@@ -103,37 +103,44 @@
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/03/6aea32a9531ef.jpeg"
    },
    {
+    "titulo": "Garamendi celebra muy positivamente la petición de Feijóo de frenar la huelga general",
+    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRllIbmF1MVN5VjRPMUJHdHlQRmpIMk5jckRQcDEyREVWVFpIYmYxRVd6ejNUS19QaXBCcXdsLTRQWHZtQ1JTYXpVUGZYQ2RlaWJDTVZ2NHNxZEpyeGJtS2FLT09Nb1VtV1FyZm1aTjdHemd6N2tUSGhOdGlDaHNOd0dyNkJ0ajlvMERjU19lRllQODVHdVpHLXdBcy1tbW1iYnN0b096V0R1amJpSFFoYzhKR05DeUJCVFJZM9IBwgFBVV95cUxNVEh6M040WF82MGtEN1JrY1VxODRZck1DLV9Od2tubTh0c1plOGM1ZkdVRkhtdzYySG9pY1BJRnRSRGhRR0NiYkVfUWdNSVZOc1RaeS1HODROemdmUWp1SXhyQ3pNU0JmQmdIZDZqVjRaVTFSSXpxVXJlU1JneVdqZnVxUEstNFQzSHdTck5jcXJ6Qi1VLWNSMElfV08xd1Z5MU1nUFZ6U25VUlJTSmFVckZGbG0wVlJaNDRsWWVFYTVqUQ?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-03T18:04:43+00:00"
+   },
+   {
     "titulo": "Cayetana Álvarez de Toledo: “Deseo ver a Feijóo en la Moncloa y a María Corina presidenta de Venezuela”",
     "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQkZnclZ0NDN4TXRpLXM5OFJ1SFlhM3pldG1BclNZNGNGaHlNT1V3c2IteUVDaFhxQXhwMUkzZmMwNjRjdENLeHZLbDhGRXFJSE1LMGhxM2YzeDBDa184bkdSRm1GbVVXU2Fra2Y3a2YwdXU3S2dHTXM4aFNnalplTDlpT2piTFJoeUJESmJ4b3NaQXE3eWJ3bUw3Smt3Z1Zrb2NZQUd1eTlpNlFqb0dhT0hsVmQyVkpoY1lEX0RWYndXVnN4d2stZjVJMnlBQ3YtNnfSAdcBQVVfeXFMT1k1UXljd3BjdUdVSlppSzB2R01xRk9KQzBKNU1VLXc3Rlpjb0J6SWpjR1B0ZHhycFNoVEVYbi1qZWhqb2RqajljeW9vQ0QzRzNwQURnMUVhcVAwTWZYOUZSdlFvQzFjT0x6Um1MOGw2X2dVUnR2ZzNPYy03LUNOU3FPdUdFRzBYcEJGeHVjY0x3UGFrc0doaERVWmVpYUFHNzlCZUh2VU9HZjUyUUxGa3gyQU8tRDFISFNWZG1WdW5pSmh2NW1iMHlOYlhQWHY1bE9IRl9UVnM?oc=5",
     "fuente": "Diario Las Américas",
     "fecha": "2026-11-03T17:43:00+00:00"
-   },
-   {
-    "titulo": "El PP de Almería presenta las candidaturas al Congreso y Senado para el próximo 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTENvbzRicFVjUTVpUnVXV1djazROV2ctT2RNMjd5UkdpYjgwLWNQX2hSbDdfRFVKVEVleVQ4S2xxRkxOTklfZWY5ejhjNHZlSzFiV3FPc0VIOEtGV1BFWnFLNkUwQ3FJYzhuNkp4QWdUNmdULTVDdnZkNVdmajdXemRRZW9FMjM1cVUzZWIxeEhCMkRIN3BfMl8xLWYwejJK0gGmAUFVX3lxTE5kTXoybURUcjBpekdTWkhvUVFpQ2tmazkyZDdzMlA3QjA3N3pZWi1tMXNaY1ZnTy05OTAxdnl4S0tBY1dRYi1JSld5c2VoTUtQTkFwUGVNdUVlNTZpc0pDYTBneDVYUy1LRkxrTWxxOHdOT0pMcjlNSFY0dUpZUE5FYkZQOW1aVFlxUm82NmxpMlZsam5LYWJjdjFyMnR5Y1N2SXZUcWc?oc=5",
-    "fuente": "Andalucía Información",
-    "fecha": "2026-11-03T17:16:25+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "El PP aprieta en el Tribunal de Cuentas para que el hermano de Sánchez reintegre más de 340.000 euros",
-    "enlace": "https://www.larazon.es/espana/aprieta-tribunal-cuentas-que-hermano-sanchez-reintegre-mas-340000-euros_202611046aea91ae6973466c29e84e4d.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-04T03:00:14+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/07/14/DD461167-1643-4D50-A06A-887064BB403A/hermano-pedro-sanchez-david-sanchez_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "El PSOE sigue su cruzada contra los cruceros: exige limitar su llegada a Ibiza pese a caer en 40.000 el número de pasajeros en 2025",
+    "enlace": "https://okdiario.com/baleares/psoe-sigue-cruzada-contra-cruceros-exige-limitar-llegada-ibiza-pese-caer-40-000-numero-pasajeros-2025-20689660",
+    "fuente": "OKdiario",
+    "fecha": "2026-11-04T04:00:23+01:00",
+    "imagen": "https://okdiario.com/img/2026/11/03/el-psoe-sigue-su-cruzada-contra-los-cruceros-interior-1.jpg"
+   },
+   {
+    "titulo": "Pilar Sánchez Acera: «La verdadera encuesta es el día de las elecciones»",
+    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa1p3dTcwZzlZSjZ3YWFnbG9LTkstRW9RYXh4VUFMbGtZdFNxOXltcTBIbk1BMlBpV0tXX3FHVlNyS2hPUExIblU0Njd3UTF3dlMweGp0YUVGTXJpNEtyMlVuTTJybGtZcURhVUxCVHM3WEtrU0pZMmtKdVZ1dEt6emd2SWF5SGtNMjY0QWstTTZhWXBJLWNwNENQMV9MTDg?oc=5",
+    "fuente": "La Mirada Norte",
+    "fecha": "2026-11-04T02:31:38+00:00"
+   },
+   {
+    "titulo": "Encuestas elecciones generales en Madrid: resultados de PSOE, PP y Vox y ganador según los sondeos el 29N",
+    "enlace": "https://www.abc.es/espana/madrid/encuestas-elecciones-generales-madrid-resultados-psoe-pp-20261103051500-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-04T00:25:13+00:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/03/ps-anf-sa--kFqH-U40100356088S0H-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Tomás Gómez, exsecretario del PSOE de Madrid, convencido sobre quiénes serán los sucesores de Pedro Sánchez en el PSOE: «Tienen intereses en que pierda las elecciones»",
     "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMUJRc1RsWFRQa2NkR3B4ZG9MZDhUQnltU0Z0VVk3MmgwTzNhU19VdG1EeTF2NzRtb2ZjbVhUTF8xUGZyUElzeUJhaENNMHZOYS10Q1NTU2tBWWg0WUEyblhuVk16RmdJQllOejc0azBPSUFSUFpodlo1NDFXNkRlT1FGdHg5VDRDSGZ3dnhXVUU3MC1oUDRTaUVVRFozMUpCeU5IbUt6ZzBSWjFVc1Jhb2lfcmJMazhkSHZTVk1YV1HSAcYBQVVfeXFMT2pqaEFRV2JNYXktYVFGcXRGVDBSbVBtVW5YdFdlTWNyWndEbFdwZUIyTzNGZG9wTlE2VWNWSE5ZYUo1MlFZZlFiVWtqODRScjZZQk91THJINGNkVkRldlJDdVgyXzdyRzYxczdrcmdUOGZTTUJVVEFTbjJzV2x2WDhMMy1ZMER2UWE3R25JVW9jenBoemRqR0oxbW5sRkFtOXZYa1BXc1p5UGMyajNHZTRZTDNkOXlwbnVlajNYVzc2NWZEZzR3?oc=5",
     "fuente": "ABC",
     "fecha": "2026-11-04T00:01:50+00:00"
-   },
-   {
-    "titulo": "El PSOE ve en la dimisión de Puente una \"lección de dignidad\" y asegura que \"no todos somos iguales\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUHJldks2dVIwMWtvSHdOQzhIQXE0bnIwQ0lMdVpYNk9sNzhnbUpFR19RcC04aE9jUXp0X1diTTlsZXNUZzMzQkhSYnFZZUJWeV9rMjRRM1lHU1dOWkllWUNFdVBKcUhSS2QtSTlVTFZDdmZGNFhSekQtbU00SmpQSGo3WXo1cjl4SGdDOEhJZDZUTzRjejhCanJsakdhTEJpY2lnT3d6TTExZFdDNEVWYjhEdzRqZmJkejF5T3JJbmlKb0I5UDU4YUpyTVJCQ1RYbUctTjF4cUZDeVJQZXdfejNNR2lESk5GMXdYaEN2cTIzTWNyNFM0ejRrYWFIZ9IB_gFBVV95cUxNUHJldks2dVIwMWtvSHdOQzhIQXE0bnIwQ0lMdVpYNk9sNzhnbUpFR19RcC04aE9jUXp0X1diTTlsZXNUZzMzQkhSYnFZZUJWeV9rMjRRM1lHU1dOWkllWUNFdVBKcUhSS2QtSTlVTFZDdmZGNFhSekQtbU00SmpQSGo3WXo1cjl4SGdDOEhJZDZUTzRjejhCanJsakdhTEJpY2lnT3d6TTExZFdDNEVWYjhEdzRqZmJkejF5T3JJbmlKb0I5UDU4YUpyTVJCQ1RYbUctTjF4cUZDeVJQZXdfejNNR2lESk5GMXdYaEN2cTIzTWNyNFM0ejRrYWFIZw?oc=5",
-    "fuente": "Infobae",
-    "fecha": "2026-11-03T23:30:00+00:00"
    },
    {
     "titulo": "Puente figurará como número uno de la papeleta del PSOE por Valladolid pese a haber renunciado a ello",
@@ -148,12 +155,6 @@
     "fuente": "elDiario.es",
     "fecha": "2026-11-03T23:18:33+00:00",
     "imagen": "https://static.eldiario.es/clip/51c2e6db-6b92-46c4-96b5-53bc322c155e_16-9-discover-aspect-ratio_default_0_x1032y414.jpg"
-   },
-   {
-    "titulo": "El PSOE califica la renuncia de Puente como una lección de dignidad y reivindica que no todos son iguales",
-    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb0NWLVNrRFdYdk93SlhJQ011Z1pxMGVSQmJXNlVWNUdjTVlZci1vQm10cXliQWRtVU9DR3BSVU1ZTHN6a0U3dXB6WGFTLWxHV2pReDloV2FjWl9wTk11M2h4UktyNTVkWmVXR0FqMTNGRFI4elY2N2pFMFQ4bjFoYTN0WDBZS3RTeU1BcUFONFR6WFh0MzJQZ2xrRHpPRGItRkZOQ1RuSW95YzQtWkowUlBaLThPRFBLcVZPR1BoN05NWC1JQVlRbEczV1d3MnkyOUpNUWhTd9IB3AFBVV95cUxNR0FHcmJpRFhMQmVUVWo2bndXSG5BMndva29QdW1mTDZrVnVhMGE4THh6MTdQSU1LVlNEM3ZNcHZsM0NDNGZESjNvT3UyMk5NdjY4azFVTlBMLTlQZjBXbU5NZlNobUwzWmRQcExXQVpJQmNwOHRWSXRKdmRZOW1XVkVNcVdYYWRXMVZ5dVNCM2Nzb0ZXcG41cU1kZEZTNlp3WkdCTnhuQjBZaUJSemY0aXA4M3FOMi1ScEVHTXBqQmRiYnFsUFlMbEh1NU1ET3lYQ3ZGR2JRemFaSjNJ?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-03T23:04:32+00:00"
    }
   ],
   "Vox": [
@@ -207,17 +208,17 @@
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/03/184ABE25-152D-4932-8679-FC662393B8B8/96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
+    "titulo": "Paco Miranda, concejal de Más Madrid Alpedrete, ocupará el puesto número 7 en la candidatura del Frente Amplio por Madrid",
+    "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQTkptT0JtUWJ4YzRnRHEza29udldWVDBmdU1HenR5dVltZDI0X09DMVpMT3pabVFzZzF4QjB4MHN0S2QwU2JaS1NzSnA5MzI5LTlENVd3X0k4TVlzOUtYa0lZY3p1ZDFjNndKUnlIYldFYUFSXzdTZUZKMGFRTldHSnAwRTZGa1Y2NkZiSVozT1dLbnh0TzVGanBwWXhDSFRSQWF6Q2VYUVY1U0ZLcUhoZDFNR2YyVUpaYTZieG15MTZ3QVR3NGIycWUycS1NSmo3eV9iemxNM29KeEdfVVlIeU5WdF9LMnJwVk9PQUFBZG4?oc=5",
+    "fuente": "Noroeste Madrid",
+    "fecha": "2026-11-04T02:53:12+00:00"
+   },
+   {
     "titulo": "Óscar Puente presume del respaldo de los ministros de Sumar mientras Colau y Frente Amplio exigen su dimisión",
     "enlace": "https://www.elespanol.com/espana/politica/20261103/oscar-puente-presume-respaldo-ministros-sumar-colau-frente-amplio-exigen-dimision/1003744444642_0.html",
     "fuente": "El Español",
     "fecha": "2026-11-03T16:04:26+01:00",
     "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11393033.jpg?p=w:1706/h:960&h=IL-Qz7m7"
-   },
-   {
-    "titulo": "Paco Miranda, concejal de Más Madrid Alpedrete, ocupará el puesto número 7 en la candidatura del Frente Amplio por Madrid",
-    "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSnRCcUFMM0tzTlVBUG94R1RjQnFjdnlaSDhZc0NmRXBHVEowY3A3eGIySFEwMVNfWkt1bFdPZWJEel9QbEs5eFNiTS11dVMtdFBEcDZvQ3BQZTBweHZHTF9Hc0lIMlhNTVpIUURvWkZlcmxvMWZqNDlERnNhal9ydFItdHU0RWlxdnBDcTVxb3d4TEZQOWxiYTR4Sl9BRVRCeWVlSjdMbzJlVnJYZThRSU5DQ3ZqYWRpTkgzNEZxZmNWNnVWR1JNeVM2YzJfaFJCSC0zTDM1dmxDVHAyODdoc1lKVHpFdWlUMHQw?oc=5",
-    "fuente": "Aquí en la Sierra",
-    "fecha": "2026-11-03T15:59:24+00:00"
    },
    {
     "titulo": "Más Madrid inadmite la denuncia contra Tesh Sidi por presunto acoso laboral al no identificarse los denunciantes",
@@ -283,6 +284,24 @@
     "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxON2ctQ1lOUGpsRzU3SUJDeFA0aEVOdzJtRUtMcDRsQ1lvLWg5QlBCcDBvT3YzZ1FYYzdDR1pvZXczeTFYcEtFWGNqTzVtd3lwd1hwUHlsYVdYVFQzbDNwOUFRQnhMbi1GTEdyVEVTU3FzaXV5LUJSc0pWaDhtNkNXNDNMVjljb1dNWndZaEtmLTNJMWlNSEk4NjFXWUJWRDFINGpsLWJES2xRdGZOdzBvbUlMdk9fZ3pFdGhtSHh5ejRyOVprWHFRaDhPWUVpWDFNZnM3QTBR0gHbAUFVX3lxTE8zMjlUZm9CWThBN09BdEVtRlB3T2ZDWERXdTdIVUhsVUljS0tqTVQ5eFZkN1JzYjdXVHl2dXZxNk1uNkZjdmhrTG1BSG15VzhvWGs1ZnNYTDRZM09qWjlBLU1PUHJSYzNpVXoyajVCRmQ1WWZEWElsQTIyNk1zakk5TlJsaUZwMm5rbTBaWUh5N29TZlJvb0t3SWdObS0yYmtfNk1FYkdvNFJQeDFtM1ZpYnJqTFZFZDRGOVRtYWNBU0U2SWVxWjRfcXVNSUc4dlhSZ203Z0g5cnFsbw?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-03T16:39:00+00:00"
+   },
+   {
+    "titulo": "Alvise publica su certificado de penales y de Hacienda para hacer frente a los bulos",
+    "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMWVjdldaMktXTG1GLUV3RTBtaDdNbTlfVDRKMmNEZFNaTmdKaHY4S21mZzVYQy1OQW5PX05wQVJqTVBZWjVYeXhmbG5jQzRiT3VjcFh6eUNsdHJpUk9uOHBpajJlRm9UQmE2LThKdkcxanZSNDJPVUVVLXZ3eldBem9iMldYODhMZmZIaGdYaks1TFNMWm5DM3R2WjJoak1vaW5ZMA?oc=5",
+    "fuente": "Diariocrítico.com",
+    "fecha": "2026-11-03T12:51:36+00:00"
+   },
+   {
+    "titulo": "Alvise Pérez confía en un empresario de Torrevieja para encabezar su lista al Congreso por Alicante",
+    "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOb1lsZG44eHJZQV9wNm5fY1lfS1R2Q0dsczJJSEkxVmNLelZjQjVTZ1VqaUdTR2lFRHR0WkxleWpoeWtZbnMxNmozNE8xcWdmSE54ZG0ybmN4d2JUc2hFMEVhRFRFQ1JjNkVjeHhiRzVpYlNDcjlhUGlvbDlON0x6bGdGUnkzTUIxc29hd3dlazJHdVVuRTVLLTJ2eDE4OUt3MEtCZWNuSlZMT0hGRHBEbk40SFY3QzU4cmdEVlUzNUozaEdpbkNLdEVHWENfMDg4ZlFnMTBHZjN0TWR4MWliWDQzQdIB6AFBVV95cUxPc2JEWTAxaEI0NHNUMnl4eFZSMUxXNERjR1NlOXFIcWtwVkRxa21HUVVIaGQ2ZjVMVlBVMjJVUkd2c1NkM25rSUYtVF9YRDZEbDhVblJpNmZCajdFbDFkLXIwTjd4Njd1c2cySlJXRUlISlFEUDZ0RWtRQU9YbUkwSjFkNGtkU2lhOWJac2xpYW9GLWh4MHIteGdwbGNDcGd4bkxTZjM1TWRLZlBaSWk0MzJwRVFuV0pMWDRGbjJZLThTdTNRbXdjYmEwNFVucEM4bS1CTWZMbHVOUU1aVG9jd291RHF4OE1J?oc=5",
+    "fuente": "ESdiario",
+    "fecha": "2026-11-02T17:12:31+00:00"
+   },
+   {
+    "titulo": "Se Acabó La Fiesta se presenta en una mesa informativa",
+    "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcUplelhSZ0JqcVpvd1R1UHVtS20tclByZU1Pa2RXdWV1MXRhMXRTeDItR2dpZjJJVlZ1cXB6OXNCOXYtRGl5eVR4dWp6QkZKS3Z2SFZCaGg3emlVZTRROXRFNThuUjdsTk9WV2NncjI4XzVCZkZyaHJkRGFKUUNZSGw1Z3ZfREVYekc3NkdjR1VnY09K?oc=5",
+    "fuente": "Avilared",
+    "fecha": "2026-11-02T17:00:10+00:00"
    }
   ],
   "ERC": [
@@ -301,7 +320,7 @@
    },
    {
     "titulo": "El gesto de Gabriel Rufián con Óscar Puente tras anunciar su dimisión: “Has sido un gran ministro”",
-    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZlViWV90MFBVcjRWc0x2ZDNESXBTdElxUkpodGpfTk1aMW5WME1sRUpDamV5bmZMOG9LN0swVUVCOVNRT29ZOHc2Y3RHUFdIOGhEOWNwTnV6c2tPYWdiV0tyRGJmcU1FRUpJbkhBVUI4OEZvLTdZUjh0dDZrOXBQNF9rM1MtcTdOeHlUNktoR0pQajYyanU5WGNyUkpmOEJDcTRGblQ0Qm9VSko2Q2sxSE1tZ3NoQ0o3QlBJWVV0aEhZUGFRdWNnakpLRWMzZw?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOHJjOXhKUFk1MHQ4djFfSWoxMnpEa3QxVThtajlQaUxCcVVFcGdockdVRUpwVkhwU0NaaV9XcVVUdTRhOU5tMFZ2NzM3MVp3cUJuaExodWlaY0xHVVRXOHYzV014WTJfbVlJS2N2dkxxTmxtdENMc1BnY2tqU0N2MzBaeVEzbW1KM2M5WWQ3dk9VV0tZY19FSFFyTWFEdE03Zm9FS0l1cmRTQm1QOWl0VEVwWnVvMl9WdzJzUDZOdVlBeVZIc2tUeUdBbVdRM3NpR3J1WWVqX3daZw?oc=5",
     "fuente": "Telecinco",
     "fecha": "2026-11-03T22:41:06+00:00"
    },
@@ -426,12 +445,6 @@
     "fecha": "2026-11-03T14:23:39+00:00"
    },
    {
-    "titulo": "El PNV despliega su lona electoral gigante con el lema 'Defendemos Euskadi' en la fachada de Sabin Etxea",
-    "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVFpHXzdjb2FGSmxhQ3QzUTRISlJ5Zm05UmdzS0Q5dkxQQkFUTVJ2TGhabThlWDVRRzZhSGNORms1YlVsZk5ua0RRZHA0bzUyTF9UMmJXMEw4N1NTYm9XeGt3OHhmeHMxeE5Vbjl5bVUzLWpaSW9KOVpzbi1aNDVWX29EbzhEUTVSUTcybzNvdDB4X00zeGZiZjFKVE1sUkJQeFA1MFU5U1NrNnJBNGFZeWl30gG3AUFVX3lxTE03TkJXTnZ1YUJMUTlGSVZXbUY4WkJnbWViUWN0LURLQnpOWDdqTzRXR1ZBZzlLeXN1VlFVTXpzUTM0WW9udFZfQnlaZFhXTnZoS016X182dFFUcS1OR0xjYmFsbkxOVWk0Vml1MTNDaUdLaEREWEdUZDFBMDNQRnJyd1VoMml0VG5FM3cybGFfQXVhV3o3SzlrVTUtS3ptNDhkRFAyc1UyMlZvcGNSS2xxYmtGV1dhZw?oc=5",
-    "fuente": "El Diario Vasco",
-    "fecha": "2026-11-03T12:54:40+00:00"
-   },
-   {
     "titulo": "El PNV despliega su cartel electoral para el 29N en la fachada de Sabin Etxea",
     "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQmgxLUpqcFk1Z0FwcjdBOXlTbXpHMHdCTWVmejhGd2xHSS1pcjFJUGM5Wm9XU2s1T0FFQ2xfVFNqVDdNSEs1SXJmV3FZUGNYTnVsUHljNVh3WFNRU2xEN3ZQcEt0ajBzQlNrU2FwSkNIbWxrMUViYXNYSVFrM2haMjY4WTV0Z0VnVW5MXzBHRHdQQzZRTXFMQXZBSDJEOGZDYkNnM3JHSE96R1VuQmowdi1UUTFrVzBuMGxFYTBoNVBfZ0NRMUJR0gHHAUFVX3lxTE9CaDEtSmpwWTVnQXByN0E5eVNtekcwd0JNZWZ6OEZ3bEdJLWlyMUlQYzlab1dTazVPQUVDbF9UU2pUN01ISzVJcmZXcVlQY1hOdWxQeWM1WHdYU1FTbEQ3dlBwS3RqMHNCU2tTYXBKQ0htbGsxRWJhc1hJUWszaFoyNjhZNXRnRWdVbkxfMEdEd1BDNlFNcUxBdkFIMkQ4ZkNiQ2czckdIT3pHVW5CajB2LVRRMWtXMG4wbEVhMGg1UF9nQ1ExQlE?oc=5",
     "fuente": "Crónica Vasca",
@@ -442,6 +455,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbERjRk45UzQtZnBIUmNROEZiZExoSXRqZjlVZWVuQ2Y0dHBWOGhjTmZEdHgtWGJNSXBqRmx3VXAwSEltWDVYSXhUNU1pclM4QTFoZWxLYWhoWXRpNjVLQUtIYWtVaElqVVB6eHlFVjVkZXBIdm1lREVSdFhQdVlEZ0dzTTNHbGNpVmtTSFVZdzRzeDZJbGN6RzgtZ2dNd1VkMlZjTXFGMzhFdGtoeERJNVZXQ3gzQVJlcm9tTGpUWTR5SU9kX0lB?oc=5",
     "fuente": "https://euskadinoticias.es/",
     "fecha": "2026-11-03T12:18:14+00:00"
+   },
+   {
+    "titulo": "EAJ-PNV instala la lona que ocupará la fachada de Sabin Etxea hasta las Elecciones Generales",
+    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTDN6QUsxSnVtc2xsNW1RTXBUTkpSenJDYVR5QXg1R2RVQ2k4dlZHNXZOZHdteDlsTDNtMVRFeHFXVVVTSW9EZkpjYTZyR1ppRUFKa1BGSnhxNjctd3oyLVI5NUlaWTNDMzMtdjBNSWJCTHZEMmxsUWtoYVN6cktOQ0gwVnM5TVpCcVRLUHVOSjI5N3dULXFnVw?oc=5",
+    "fuente": "EAJ PNV",
+    "fecha": "2026-11-03T11:33:56+00:00"
    }
   ],
   "BNG": [
@@ -456,12 +475,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNDdYb2dNUjFvSENlZ1QxQlRkTFBhRVBodEd2S2NmSDBoanVlVWdlMGdpaDNrVFBqN1Jva3pZdnhDQzBsbjBhTUNMTExWNlpjbG1UaGxwTGR0N1Y3NEM3c2xLeTI3VzFxeDU0bVBYUXplS1phQlZId09kLS1BN3VLQnRJY09kc3N0bUFnNkQ3MUhLUW9pSmw3X0k2WXZhalJhUGdQd2xMR0U1cTRpVEl2azc4b3hXOW4tMG9SMTc5aFVIdGVXdDluaHoyX196ZTVfOXc3MVBlSWJGeUpO?oc=5",
     "fuente": "Forbes España",
     "fecha": "2026-11-03T21:02:55+00:00"
-   },
-   {
-    "titulo": "El BNG acusa a Feijóo de \"indecencia política y moral\" por usar una tragedia para pedir la suspensión de la huelga",
-    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSlRBWmpjY1FLTWtRWS1UQjhPcWlobVFDeDRxNVlVQzFCeGFiVS1teTU0ajFxaHVaLXJRdGpsUW5sejFYN0lDUTlwNjF5NjNOUE42enVPUGpGRmRSSXU0M19MTkN0YTV0YnJEMkp4SDN6aU11blJMNUJyeWdQYjhrQWxHTFRuOTk5clNEdTVEYzZGOVBuZjBOX2JqVHh1Wm82aExLd3FrTFBRbjJFUHFWS1Y2eXVhVE1vQ0o4QnNSWXZzM3dqQ0REUG1OZ1h4OWRrSEMxYWJmMDc1YnNPVWc?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-11-03T20:38:00+00:00"
    },
    {
     "titulo": "O BNG presenta a candidatura para a eleccións xerais en Vigo",
@@ -480,9 +493,21 @@
     "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcWdOQ05fUjJFNjRGTTBmd3I1OTFNZWJsSjlSU2dVRGtJYUVkbU8tUUtiTGRXaGdfTTAxNUhYMFNWN283UXFFeWJWNWMxUVVqZGFUSkpxSmxlX2tWWEtWY054Q2M5T2pyN0hHZ2NVU0cyVXB6N1ZhbFB0U09RTG02ekpDMU54VExrUHo2NXk4VEFTbHZRQ1ZOT3JfMXpkQVZhcUl0a2NMMGhmcU53YWR0QnRiVXFZYlMwRlZhUlBSX2tDdw?oc=5",
     "fuente": "ValmiñorTV",
     "fecha": "2026-11-03T15:49:55+00:00"
+   },
+   {
+    "titulo": "El BNG acusa a Feijóo de \"indecencia política y moral\" por usar una tragedia para pedir la suspensión de la huelga",
+    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSlRBWmpjY1FLTWtRWS1UQjhPcWlobVFDeDRxNVlVQzFCeGFiVS1teTU0ajFxaHVaLXJRdGpsUW5sejFYN0lDUTlwNjF5NjNOUE42enVPUGpGRmRSSXU0M19MTkN0YTV0YnJEMkp4SDN6aU11blJMNUJyeWdQYjhrQWxHTFRuOTk5clNEdTVEYzZGOVBuZjBOX2JqVHh1Wm82aExLd3FrTFBRbjJFUHFWS1Y2eXVhVE1vQ0o4QnNSWXZzM3dqQ0REUG1OZ1h4OWRrSEMxYWJmMDc1YnNPVWc?oc=5",
+    "fuente": "PressDigital",
+    "fecha": "2026-11-03T14:35:00+00:00"
    }
   ],
   "CCa": [
+   {
+    "titulo": "Coalición Canaria destaca que los Presupuestos de 2027 refuerzan la Justicia, la seguridad y la modernización de la Administración canaria",
+    "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPdlhNWURxSUxMblMwTENpLTQyS1ZwVEE2LVQyVTMzREVaaWZBd2hGT2pMcDYtN09kNjc3cENicEZVNHBKSHB3QWRQbnUzTmZURlIybl9EUl9aMmhKblNQNlVDRko2WTM0WUxOM2thbkJfRVRfMEFaN0ZIREpyTkhlVERUdmJzbE16VGZWYnQ5anNiWDg3UGRCczNLT0p3SkU3VU8xRmhsV1p5M2JwbGxiNkE2eHM1M3lpZk9zOERnZUxLLUZtbnlRb0l5VkthbzFIMk01ZU8yZ2hkZVU2N1dLVXZyUmt6cTY5TUk5aEZjeXZMTld4TUQ2bW1NMTY?oc=5",
+    "fuente": "Canal 4 Tenerife",
+    "fecha": "2026-11-03T22:44:11+00:00"
+   },
    {
     "titulo": "Coalición Canaria destaca que los Presupuestos de 2027 refuerzan la vivienda pública y las oportunidades de acceso a un hogar en Canarias",
     "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQTBWMGNWc0ZpdUMtemVraVh1ZEJrTnRXRklXN2QyblJBU1dHekdNMjh1WGtxVS00UXcxSFFNbEt4ZVhpM0JqWUpUUVRWX2N3YlNWdWN1dHpGNVNUeTBmcmZ5WDNXd1l4RlVtRTQ0NnFoMmlYTGM4Z1JUNnFLRzdMTHJyYXVseHVPZjI1Q19FUUJNMHF1SklKSHdCYnhaVjZ5ZjlMbVpwcnVOeWFURTdibHN3Vk5PdC1HcnRSYU8yOXRqRmdBcVhldTBNQUZhaEk4MWRxd01KODJTWHFOOTFfRmsySUtXeEZleThFX2ZtSlVuTU5MSVBwQXdtNXQ?oc=5",
@@ -512,12 +537,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNHU5S3ZGQ2hkX290blRybEkwUHZDSHVNMzhpcnhwR1hodHNTWFZkakJvb2F1TENQY2JMTVB4c1JkejhxZ2NqV3lJalBsdnhKS1NzUkxwOUFuOFZ5bThydWFqcGVOT1VoOUQwcml1R2kzSWQ5b2g3S3JGYnRncjNNZGQ3VW11YmRxSzNVc1Y5VlNZTXpwVlVDWTd1eFY1cWYwTmZlUjZHbGFmVVlVb0tJc2tVcm9QUFdibVJYbGNrVQ?oc=5",
     "fuente": "Atlántico Hoy",
     "fecha": "2026-11-03T05:02:39+00:00"
-   },
-   {
-    "titulo": "Elecciones del 29N: Clavijo y Teodoro Sosa abren este martes 'CANARIAS7 pregunta'",
-    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPblN3b0JOb05sSWdBNkNBV1RiTDdWN29NT2NPNHYtRUtWdGMtbS1OaEVENGlub0pVNGVjbmREZXhvVWVPeHlZcFF1OWtvNVNSdXk2dmRVbXNORjJfNTgwTC1lTUFZbVpyS0Z5bUd5Smt2V01iekJoM1lRRm5VN1NzYmtLNnZRUjF0VWxSVDB1NWdsbXZDYjA1a0Q0LWhkMFlwb185QXJDT1E4WE9QXy1HTTc4RF80cEQw0gG-AUFVX3lxTFBwYkpCUkd2WVZDaU1LSjhRZnY1dzlVSVI4cXF6eUZFZldIT3JtbEljcUJOb3gxVmNHWDNjLVZac3FEWndSc3E0Mm80M3lyaTd5dHJQa3hiaFEwR1lXVGRzMlR2dko0X1lWNmtxVFV3SWpIdEtPLWloRDA5QUFIQnNrTDVCSTlBQUdFUjFaSlFfWkVSZmJoci1MZDFIdTNBNGFldVc5YUV0SjZGUkF5TDJPSDB5LUgwZG1sYXFRMUE?oc=5",
-    "fuente": "Canarias7",
-    "fecha": "2026-11-02T11:34:19+00:00"
    }
   ],
   "UPN": [
@@ -634,12 +653,6 @@
   ],
   "PSOE": [
    {
-    "titulo": "Esta portada de ‘El País’ en la que dirigentes del PSOE señalan a un trabajador por el accidente de Urda es falsa",
-    "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fM3BsN2MxTWpSVnJNNTVaQnYwdXpoaVlxTnFTZnhDelRVSlRYWEdaYTNYdFB1RXVCMlRRZHhWNkJKR1N1VlBvUEpPQUt0RGhHdWRHMWZvLU12V1lxdC1DSWM0aw?oc=5",
-    "fuente": "Newtral",
-    "fecha": "2026-11-03T17:17:07+00:00"
-   },
-   {
     "titulo": "No, el podcast ‘Keep it Cutre’ no publicó una entrevista a Pedro Sánchez después del accidente de trenes en Toledo: se grabó el 27 de octubre y se publicó antes del accidente",
     "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRUUtdjl3ai1udmh1ZnVOVzloeExNellBbW9xLUNRSldESEFhOUhIUEg0bDJwcFlPS1dIbEhtQUVhU29WYVowaXdNTVZIMGxsUDZoSmF6OTlMSURtMl92S1M1QjlzUlFQcjUtZlBkZUJtNkpUYWNmXzhnS2FpVm1URVVsTl9UVHV4VkVCLXJjdEtKbkxfdVN1U0JEbmRHUHhLLWFOTHJhdTEyY3h2aEVYakYxUm9oTm9nMEloVA?oc=5",
     "fuente": "Maldita.es",
@@ -752,24 +765,6 @@
    "fecha": "2026-11-03T16:43:27+00:00"
   },
   {
-   "titulo": "¿Las hijas de Pedro Sánchez han estudiado en universidades privadas mientras defiende lo público?",
-   "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMG4zZ0ZxdW1NYjB2c3RzOXZzVndBWWowMEVWTnNueFZsWVRORWxSLWY2eXA4Y0xWNW1WNVFYUHRPVDZFSmxJZ2dad3FvZklZVXhFMGY0alhDYy1VMnNjT1RHU2tZTjktU3hWT3NRSGlJeGFsRnpjdzhjLUxFQlRjX01TV3RIQWlrb3loUl9vd3JTd1AwZWNMOFYzaVVCM2g3aVJzZzJCd1hQdVNRakk5cC1sZTZLZ0RZS0NHN0NfdW93d0NPdjZ6cw?oc=5",
-   "fuente": "Maldita.es",
-   "fecha": "2026-11-03T15:36:21+00:00"
-  },
-  {
-   "titulo": "¿Exdirigentes cuentan la verdad sobre el sometimiento de Vox y Santiago Abascal hacia una potencia extranjera?",
-   "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTmw4Vnd1SWhUSmVUanBqb2Z0TlZqSmVGNEdpdWxYejBZLTU1dnU1c0FtWFFfaUxJTjlEb0F0WXdPYlFiY2NlcDIwdmZidEo2Z2NRR2dvNnZxMzNhUzcxbldnTmVFOEkwckI5WnEtSXVxUmpkTG1kQnQ0akdZUVVVOWZPZTFqMFpaVnFKUUZpOG9fanVRSVZVbmRMTzYwXzdneDR4b1BlMnNzc2lYX1JIUmVSbkwwdlR5NVVNY2FoS0dDbzh5UktVMnpDakJJS3R1aUtFLUZFck9hUQ?oc=5",
-   "fuente": "Maldita.es",
-   "fecha": "2026-11-03T15:36:20+00:00"
-  },
-  {
-   "titulo": "¿«Keep it cutre publicó una entrevista de Pedro Sánchez después del accidente de Urda»?",
-   "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQjVqUE1jamY0QndESENZcWFUSW01cHBOeTdfZ0RfSXUwdFVJcFJmVnNjNEZ2b1k4Ukl4c0dIQklsVGFtRmRVTWFPZnkwdUp6X1BpV0M1V3BTNW43NVpfMXpYT2Yzei1EZndkLU9Mekk4bk0za2NsVTROcnhuY0lVaU5IZmczLXBzSDhIR2lxcjJUUko0MUtUN2JnZlBNaUl6SFM2WHAwSWhib3lTWUtJUXRJR1BSQmot?oc=5",
-   "fuente": "Maldita.es",
-   "fecha": "2026-11-03T15:36:19+00:00"
-  },
-  {
    "titulo": "¿Prestar dinero a un partido para pagar la campaña electoral? Qué son los microcréditos y cómo se controlan",
    "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZU1OUjVHVVpESy11VmVCTG1TanhXZjVoQ0VYcGM5MkZZTjMxNnJsb0dmbHgwVl9SZDBQOTFzdkg0c0JkejZoeHIxRUt3akhBc2xFQkVOaUIwZ0dFeU1yRlpPZk56NTBUYkJITDBLVXlZTXZPb2xrVnI4NFJ2UHFocUxTRUVJWXd6NDJNcWZB?oc=5",
    "fuente": "Maldita.es",
@@ -786,6 +781,24 @@
    "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRHJVVjhyT0hJMmxxMjdZandjRS00U0ZURHdNNnd0alk1Uzd6NXoxek5GRjZwNDg3SGZ5SGM4MEtLUG5wM3NmR0dlbU9FeXVKTUtIbE02OHFwaDY1ZktBLVRXR0N0TUdPVGU5VEk1bDZFRVAtazJscnZIdldCamxuWnh5U0dlX1Y5bWpERVhVQU90VDRKS0E?oc=5",
    "fuente": "Newtral",
    "fecha": "2026-11-03T14:22:30+00:00"
+  },
+  {
+   "titulo": "¿Una mujer musulmana pide el voto al PSOE para poder seguir cobrando paguitas y vivir de España?",
+   "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUWZ4VmQxd0FPRDBDOGNLdmpRdXRUeWh3OTUyUEhQazhCaGI3cjQwb1Npd1NXeU9RLVVzZ004czN1Z0NxTkRVOHBlZmcxWDIwNkpiZWJKb2ZOZTd3QmNHR0FRcnlCazVzR1hnU1BNUk90eUlTampWeWdwWnhLdFVBQ1l2SFAzREhVakRxYXdEWDJoYmdfMTByUWx4ZGRWeFJrX0hUaDVxSjAxRjJVSWdpaEtOeExZQ3NnLVBaaDNNOUpFRHJjeG9v?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-11-03T13:38:58+00:00"
+  },
+  {
+   "titulo": "¿«Irene Montero se presentará a las elecciones del 29 de noviembre sin renunciar a su sueldo y escaño como eurodiputada»? · La Buloteca · Maldita.es",
+   "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSDBRbkZjaDlUcVpQaVQzY2kwUEYtR0NpN1FxTGctM3ZqVW5MLXhRZVRCbmRGVWRUdHJyZGljWVBZc3VZemQ1MWozOFd2MWFxMlEyWnJydkZ4RWtqTENRWENfNFRQQUJGQ0FkeE0wUFlaZ0JNQlpUZkh6R0VCRUUzNFNfVkFDNHhGaHoxMThkcmd5TldDdHVoWlBJZUQzaUFOLWVuMHFoVEZMTG9Ec2phUVZnUTRWaU43LXFQUnJyTGhmUmJ5a1VrZ3JQVlA0b0JMeHc2dWlkeU5IS1RFRkZMdndKakQ1dw?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-11-03T12:40:36+00:00"
+  },
+  {
+   "titulo": "¿Este vídeo muestra a Pedro Sánchez en un debate diciendo que es falso que ha pactado con los independentistas?",
+   "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTUJ4NHpORlpFVkRRQ1A4aGdVTEQxbU9kVUlFY3dZV1VFUWNiTm1UQVdxSGZNWXlTTGtsUWM3eFZrS3diM3BwbkhRYUVEMjlNZkFWdlNPSlZ4M2pKWWNNQXlfZEdXbTc5XzdWeEF6SjJSUExRTmF3aHdzZTRUNnNaMGtBSk50RTRrOWlaMzNJOG4wWFo4WWpaM09fRUtNWGJ1QnRhS3JEVjJsRHFCaGhQYmpCc2tBUEZaRnptenp6WHhudjFCN1NTeDN0WmplWWRLQ0pjMlpabWRQZzQ?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-11-03T12:40:35+00:00"
   }
  ],
  "polemicas": [
@@ -879,13 +892,6 @@
    "fuente": "Demócrata",
    "fecha": "2026-10-30T17:28:00+00:00",
    "partido": "PSOE"
-  },
-  {
-   "titulo": "Ana Pontón (BNG) le recuerda a Feijóo que fue él quien vetó investigar el accidente de Angrois: \"Galiza también merecía saber\"",
-   "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbFVaV1Y4UWIzOWpPbjVKZ3U0WWRTOVVjNTZ1aFFQTXI2aWM2X1BDOEhpSGJQR2VQMGRLTjMyT3JtQkloczlFTXpSVF9UVWM4Y1VWNjJvbVlQMzFHdEJRVlpjVHU2ZFpwM2tqV3o4YkNKUUZaVnFCZVNaWEdqVnBWN3liX2xLMFlmckRrZkp3V3p2aTBITHNGWTFvY3dHMk9fNjAyNm8xNWlQSVNDc2ZYNlMzcFdIaXhXdXkwRWtvQllhRjhZbWtqMWZtQmFEWV9EY2lJ0gHnAUFVX3lxTE1XVFJhX3hKUm5pTFBFSms1emoyQlFBRmg5ajRrMkZHTEFQWlpDSjBGbExkaEZGbS1aNWRTdE1ScHVvRFpiMkxlbGRwSmpBNTFrRUM1ekpUbmpHVmphTTRkYlFBdFhQTVpyVEoxTHotVF9CMTJJT19Qa3FROW1OQXRyYjBFQThsZkRzLVVxb3p3czhmakpteUl5U0hvbE5UOHNmcDRMVEsyMEhna2t6eDZYQ2NUTEF2d3lLMlR1MHFiMmNiZFhvM2ozbUludk5XUnRONzNkaFhsVXF4MmwyR1g5VjE3NjhIZw?oc=5",
-   "fuente": "El HuffPost",
-   "fecha": "2026-10-29T13:40:11+00:00",
-   "partido": "PP"
   },
   {
    "titulo": "Feijóo evita pedir la dimisión de Óscar Puente pero la deja entrever: \"Yo sé lo que haría, con esta forma de gestionar no se puede continuar\"",
