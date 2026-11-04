@@ -751,5 +751,30 @@
    "UPN": 1,
    "CCa": 1
   }
+ },
+ {
+  "fecha": "2026-11-05",
+  "escenarios": {
+   "pp": 0,
+   "pp_vox": 0.8892,
+   "izq_socios": 0.0729
+  },
+  "bloqueo": 0.0379,
+  "p50": {
+   "PP": 125,
+   "PSOE": 104,
+   "Vox": 69,
+   "Bildu": 7,
+   "PNV": 4,
+   "Sumar": 17,
+   "ERC": 12,
+   "Junts": 5,
+   "BNG": 2,
+   "AA": 1,
+   "Podemos": 0,
+   "SALF": 0,
+   "UPN": 1,
+   "CCa": 1
+  }
  }
 ]
