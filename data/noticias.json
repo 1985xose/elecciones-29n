@@ -1,12 +1,19 @@
 {
- "actualizado": "2026-11-04T06:01:59+00:00",
+ "actualizado": "2026-11-04T06:15:55+00:00",
  "generales": [
   {
-   "titulo": "'Paz sindical', 2.500 sanitarios más y un comité de expertos: la Junta apuntala para 2027 la reforma integral del SAS",
-   "enlace": "https://www.elespanol.com/espana/andalucia/20261104/paz-sindical-sanitarios-comite-expertos-junta-apuntala-reforma-integral-sas/1003744444753_0.html",
+   "titulo": "Elecciones generales del 29N, en directo | Última hora de la dimisión de Óscar Puente y su renuncia a las listas del PSOE",
+   "enlace": "https://www.elespanol.com/espana/20261104/elecciones-generales-directo-ultima-hora-dimision-oscar-puente-renuncia-listas-psoe/1003744445175_10.html",
    "fuente": "El Español",
-   "fecha": "2026-11-04T06:50:00+01:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11393131.jpg?p=c:1824:1027:nowe:0:96/w:1706/h:960&h=9bGsabNe"
+   "fecha": "2026-11-04T07:09:47+01:00",
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11393190.jpg?p=c:1441:810:nowe:101:0/w:1706/h:960&h=OEQUn0hi"
+  },
+  {
+   "titulo": "Quién es quién en las listas del PP de Córdoba al Congreso y al Senado para las elecciones del 29N",
+   "enlace": "https://www.abc.es/espana/andalucia/cordoba/listas-pp-cordoba-congreso-senado-elecciones-29n-20261104065859-nts.html",
+   "fuente": "ABC",
+   "fecha": "2026-11-04T07:03:05+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/03/listas-ppcordoba-elecciones-kiUB-U40148220101TLD-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Ayuso vendrá el sábado a Valencia a hacer campaña",
@@ -14,13 +21,6 @@
    "fuente": "La Razón",
    "fecha": "2026-11-04T06:00:37+01:00",
    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/03/3E0FD496-D994-4733-B6CD-B93E61F8F21C/ayuso-vendra-sabado-valencia-hacer-campana_96.jpg?crop=5066,2850,x0,y747&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "Ex ministros y ex dirigentes del PSOE negocian un manifiesto público para pedir que no se vote a Sánchez",
-   "enlace": "https://okdiario.com/espana/ex-ministros-ex-dirigentes-psoe-negocian-manifiesto-publico-pedir-que-no-vote-sanchez-20692311",
-   "fuente": "OKdiario",
-   "fecha": "2026-11-04T05:49:08+01:00",
-   "imagen": "https://okdiario.com/img/2022/10/29/gonza1.jpg"
   },
   {
    "titulo": "Cómo saber si te ha tocado mesa electoral: hay diferentes formas en cada ayuntamiento",
@@ -37,18 +37,18 @@
    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/e78/263/e78263237b4b4f4c4f5b2a04890df0f3/lo-que-queda-de-los-ere-117-causas-abiertas-y-170-millones-por-recuperar.jpg?mtime=1720720493"
   },
   {
+   "titulo": "Batacazo de Trump en las elecciones de medio mandato",
+   "enlace": "https://www.elsaltodiario.com/estados-unidos/batacazo-trump-elecciones-medio-mandato?utm_source=feed",
+   "fuente": "El Salto",
+   "fecha": "2026-11-04T04:52:00+00:00",
+   "imagen": "https://www.elsaltodiario.com/uploads/fotos/h300/ce96c031/Trump-derrota.jpg?v=63960991873"
+  },
+  {
    "titulo": "Puente se aparta para intentar salvar la campaña del PSOE pese al respaldo de Sánchez a su gestión",
    "enlace": "https://elpais.com/espana/2026-11-04/puente-se-aparta-para-intentar-salvar-la-campana-del-psoe-pese-al-respaldo-de-sanchez-a-su-gestion.html",
    "fuente": "El País",
    "fecha": "2026-11-04T04:30:01+00:00",
    "imagen": "https://imagenes.elpais.com/resizer/v2/65ITZQ6NZBBSLKKUYGQK726YMA.jpg?auth=ce96d40e5ce161bf198ef66f2bd536b099b9d9fa0f9c261d7f797f6d9954a345"
-  },
-  {
-   "titulo": "¿Qué pasaría si el 29N sólo votaran policías y militares?: mayoría absoluta de derechas, con Vox a la cabeza",
-   "enlace": "https://www.elsaltodiario.com/elecciones/pasaria-29n-solo-votaran-policias-militares-mayoria-absoluta-derechas-vox-cabeza?utm_source=feed",
-   "fuente": "El Salto",
-   "fecha": "2026-11-04T03:00:00+00:00",
-   "imagen": "https://www.elsaltodiario.com/uploads/fotos/h300/23630da8/IMG_0501.jpg?v=63959633524"
   },
   {
    "titulo": "Óscar Puente: \"No podía seguir, ni el país ni yo podemos soportar 100 muertos en menos de un año\"",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "José Manuel Soto: \"¿Alguien me podría explicar qué derechos se han recortado en las comunidades gobernadas por PP y VOX? Es que no paran de decir que habrá un retroceso de 50 años en derechos y libertades…\"",
-    "enlace": "https://www.larazon.es/actualidad/jose-manuel-soto-alguien-podria-explicar-que-derechos-han-recortado-comunidades-gobernadas-vox-que-paran-decir-que-habra-retroceso-50-anos-derechos_202611046ae9e2baa5f83c2fb8ede28a.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-04T06:30:21+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/03/FE7F7049-24AC-4ECD-9BEE-61C861F70E8A/jose-manuel-soto-alguien-podria-explicar-que-derechos-han-recortado-comunidades-gobernadas-vox-que-paran-decir-que-gobiernan-derechas-habra-retroceso-_96.jpg?crop=719,404,x0,y113&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Quién es quién en las listas del PP de Córdoba al Congreso y al Senado para las elecciones del 29N",
+    "enlace": "https://www.abc.es/espana/andalucia/cordoba/listas-pp-cordoba-congreso-senado-elecciones-29n-20261104065859-nts.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-04T07:03:05+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/03/listas-ppcordoba-elecciones-kiUB-U40148220101TLD-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "El PP reclama poder convertir en vivienda pública el suelo privado para equipamientos",
@@ -117,11 +117,17 @@
   ],
   "PSOE": [
    {
-    "titulo": "Ex ministros y ex dirigentes del PSOE negocian un manifiesto público para pedir que no se vote a Sánchez",
-    "enlace": "https://okdiario.com/espana/ex-ministros-ex-dirigentes-psoe-negocian-manifiesto-publico-pedir-que-no-vote-sanchez-20692311",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-04T05:49:08+01:00",
-    "imagen": "https://okdiario.com/img/2022/10/29/gonza1.jpg"
+    "titulo": "Elecciones generales del 29N, en directo | Última hora de la dimisión de Óscar Puente y su renuncia a las listas del PSOE",
+    "enlace": "https://www.elespanol.com/espana/20261104/elecciones-generales-directo-ultima-hora-dimision-oscar-puente-renuncia-listas-psoe/1003744445175_10.html",
+    "fuente": "El Español",
+    "fecha": "2026-11-04T07:09:47+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11393190.jpg?p=c:1441:810:nowe:101:0/w:1706/h:960&h=OEQUn0hi"
+   },
+   {
+    "titulo": "Tomás Gómez, exsecretario del PSOE de Madrid, convencido sobre quiénes serán los sucesores de Pedro Sánchez en el PSOE: «Tienen intereses en que pierda las elecciones»",
+    "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMUJRc1RsWFRQa2NkR3B4ZG9MZDhUQnltU0Z0VVk3MmgwTzNhU19VdG1EeTF2NzRtb2ZjbVhUTF8xUGZyUElzeUJhaENNMHZOYS10Q1NTU2tBWWg0WUEyblhuVk16RmdJQllOejc0azBPSUFSUFpodlo1NDFXNkRlT1FGdHg5VDRDSGZ3dnhXVUU3MC1oUDRTaUVVRFozMUpCeU5IbUt6ZzBSWjFVc1Jhb2lfcmJMazhkSHZTVk1YV1HSAcYBQVVfeXFMT2pqaEFRV2JNYXktYVFGcXRGVDBSbVBtVW5YdFdlTWNyWndEbFdwZUIyTzNGZG9wTlE2VWNWSE5ZYUo1MlFZZlFiVWtqODRScjZZQk91THJINGNkVkRldlJDdVgyXzdyRzYxczdrcmdUOGZTTUJVVEFTbjJzV2x2WDhMMy1ZMER2UWE3R25JVW9jenBoemRqR0oxbW5sRkFtOXZYa1BXc1p5UGMyajNHZTRZTDNkOXlwbnVlajNYVzc2NWZEZzR3?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-11-04T06:06:53+00:00"
    },
    {
     "titulo": "Covid, dana, Adamuz y Urda: todos los actos por las víctimas que se ha saltado el presidente Sánchez",
@@ -149,12 +155,6 @@
     "fuente": "ABC",
     "fecha": "2026-11-04T04:15:01+00:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/04/sanchez-feijoo-abascal-RnZF27hxEORwo0lET5GiXfK-1200x840@diario_abc.jpg"
-   },
-   {
-    "titulo": "Tomás Gómez, exsecretario del PSOE de Madrid, convencido sobre quiénes serán los sucesores de Pedro Sánchez en el PSOE: «Tienen intereses en que pierda las elecciones»",
-    "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMUJRc1RsWFRQa2NkR3B4ZG9MZDhUQnltU0Z0VVk3MmgwTzNhU19VdG1EeTF2NzRtb2ZjbVhUTF8xUGZyUElzeUJhaENNMHZOYS10Q1NTU2tBWWg0WUEyblhuVk16RmdJQllOejc0azBPSUFSUFpodlo1NDFXNkRlT1FGdHg5VDRDSGZ3dnhXVUU3MC1oUDRTaUVVRFozMUpCeU5IbUt6ZzBSWjFVc1Jhb2lfcmJMazhkSHZTVk1YV1HSAcYBQVVfeXFMT2pqaEFRV2JNYXktYVFGcXRGVDBSbVBtVW5YdFdlTWNyWndEbFdwZUIyTzNGZG9wTlE2VWNWSE5ZYUo1MlFZZlFiVWtqODRScjZZQk91THJINGNkVkRldlJDdVgyXzdyRzYxczdrcmdUOGZTTUJVVEFTbjJzV2x2WDhMMy1ZMER2UWE3R25JVW9jenBoemRqR0oxbW5sRkFtOXZYa1BXc1p5UGMyajNHZTRZTDNkOXlwbnVlajNYVzc2NWZEZzR3?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-11-04T03:04:08+00:00"
    }
   ],
   "Vox": [
@@ -194,10 +194,10 @@
     "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/20/17924920432195.jpg"
    },
    {
-    "titulo": "Abascal reclama la dimisión de Sánchez y le acusa de ocultarse tras sus colaboradores",
-    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSjFaX202V1UxYWx6RlMwZnNTX3RDUHNUeVlkRktvZ1hPU2tFd0ZQSFExODJya0t3Q3ZiYTRtcUY1aVI1NFhfX3NzckltcEs4QVlKUDFvWmxNUFB3X1lUUmVJdHhhQVptTy0xWXB3ejJYWUFkNlNBOC1YYVhrYm1KdUdSSWE3c3FRcmx1QzFjS0RpLVFQQmhKM0M1NVQtRVc4ZmNBSUFXTGIwWFlnR1J4UUFrSVZJSThPN3BFSdIBwgFBVV95cUxNMHlGWjB5S0k3d3YxeXRudnVCYS1JX0d4b0ZWVmtFS2t0NGt1dlI1aFY4M2xFNm9yc0JzekFWc2p0dEdEZ0JBSDJDb2d5YTVna0hhTW1UdFZrM0dqcWVpQ0wwU043WTUwZ1cwaWxhSVB2NmQyRnkxR1BJSnJpRXNWNGtxd1YtSm15QXpvRUlGdGx3MHdNcktJX2toQWZVOEdaRkM0MHpJREFqNVBWXzhGTzRoc1Rwb1JLMnR6a2ZTS1ViZw?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-03T21:42:30+00:00"
+    "titulo": "Iván Vélez (VOX) presenta las propuestas económicas de Vox a empresarios y autónomos de Tarancón",
+    "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdUk0VWZHZ1Q1UmVzSUdvdFpnZXlwamdJdno4UmpNTXJRSEFsOFpNdGpUczlUV1BHUm85b0M4bDUyaFM4aHJRaFV4Z1F6bkRDR0pYS1A1akNDV1ljMGloby1jZ2tPWHZ2eHQ4UUxwcV9UTmFST3l0WkplV2hCS204NWxOY0NXMndxTExNT1BkN3V4TjRwVEVCbU9abDFwSnVNaG93R050dzFTUTF3RW1jSm1Md3NGWUpQLThpc1ZOdUhycEprQTJWVEtkb0Y3dVcwd1UxaDZXSk4tSVRZQ2UwQVlJUFo?oc=5",
+    "fuente": "Cuenca News",
+    "fecha": "2026-11-03T22:20:00+00:00"
    }
   ],
   "Sumar": [
@@ -243,6 +243,12 @@
   ],
   "Podemos": [
    {
+    "titulo": "Irene Montero replica a Feijóo que huelga es \"un derecho fundamental\" y apela a movilización \"masiva\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSDhpSHBXTXJjTmlJaFA2cXc0ZzBiVnhjLWdtSFVnSld0Um9iMUwzLXI4RGphY0hqVzRtWFlhY1FZd3hmbllQOU1yZkVEamlmMXFhdW1mVHRmTTdTdWJIbTlwQUFkbHYwcDM3VzJjRFl3dV85YXdIRF8tUHNvVGI3LWlObHk0XzJxaDFnZ0VyVlhxNXk1NnlzbVVvdmFDVHUtZTc3Z2pzcmp3YjNTSUpocmE5dk0tcDhFYkFqQmgwMWZISU5uRzg0aXA3ekVTZDkwYXQ3YTRTcUhxbGpfcDBtYTdn0gHnAUFVX3lxTE96Wkg3SWExbUc4RXRvSVhybHpZellQWXJKanIxMjRVTVRTU2U4YzZ5enE0OFE4YXZucUdYSDBLdWJxVkdLeGNpVFdKQzBlaElsNDREem0yeVR0QTdNcDVtSks1R25jb29XZnhnLW9KZW1sMldlUkJzeTJwQ1YyUmZ5YlpIbTU1ZFB0ekxPd182cXBnQk9IdUNpSUpzc3BFMkxSTjdWZzFUMmhYcHp6aTdBZzR5bXZJM1BtRFdCbHJfaGJKOE5WdEozQmVJLWRuSkpWeUlsYV9NV3dEbnRlMDJvT0VKOGpIYw?oc=5",
+    "fuente": "Diario Red",
+    "fecha": "2026-11-04T05:00:00+00:00"
+   },
+   {
     "titulo": "Ada Colau copia ahora a Podemos con la crítica a la liberalización del sector ferroviario",
     "enlace": "https://theobjective.com/espana/politica/2026-11-04/ada-colau-copia-podemos-liberalizacion-ferroviario/",
     "fuente": "The Objective",
@@ -272,12 +278,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZjQ4M1k0Wnk5U3I3Q25HbWJlc1FOUEdvem9QU3gtdnpOd0Mxc2tSWkk1NEJDVm1yX2VKT1lnQ2ZpWEpXeUVCbFBvVU13YzI5OTRHZERVMzVnc2p1dXhVTU15bExZSDVvbU9iUG5ES0JnUWFRLW1qbEFsQnoydVJHdWRxQkxtOGxTRFU1ZVpaLXlhSWZmVlRWWEgzdElRRl92azg5bzBZV1Bud9IBqgFBVV95cUxOZjQ4M1k0Wnk5U3I3Q25HbWJlc1FOUEdvem9QU3gtdnpOd0Mxc2tSWkk1NEJDVm1yX2VKT1lnQ2ZpWEpXeUVCbFBvVU13YzI5OTRHZERVMzVnc2p1dXhVTU15bExZSDVvbU9iUG5ES0JnUWFRLW1qbEFsQnoydVJHdWRxQkxtOGxTRFU1ZVpaLXlhSWZmVlRWWEgzdElRRl92azg5bzBZV1Budw?oc=5",
     "fuente": "Faro de Vigo",
     "fecha": "2026-11-03T18:02:16+00:00"
-   },
-   {
-    "titulo": "La «modificación» en el DNI de una suplente de Podemos en León excluye su lista al Senado",
-    "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYlRKOWRzSlA2WFQyek5CUUxjemxRLWFhU2ZWUGJFVnZTZGVqcF9KdHB3Vk1NdmoxZ2E0TDJpN2t5UHYyeGtSaWJYTjFOV0Q0Vk9BRXpFTW5uRHFZZXJzM2Y4VGtPNXRKejQ2UFgxM1VtUTc2TjY2SkJxNjVTRHljQ3BKcXd5WXZmazNHb1V2dkJvM0xYcU16V0tTTTBJYUhMcWJvX0thZm1xV3hpd1c2aHRmTW43MGlGS1UyZExzd05MQdIBxwFBVV95cUxPeHNZTE9VVFhIOWhEQU84cW9IY3JoZzVJSE5ENVc0aHhaVEZuMDVFX0RfTkVITm9NUDhwdm53N3ptbk9xMnJLemVwWWx6aFB5bmFIT1lSa1p5cHNPQWdfSFZSVHNpSEVWdU5rVFFnOTZIbVIyQ00tTHhUbWI2MFBzUWJDZUxRTDFtT1YxOTZkdHRvaEQ3UGEyampoVmhfS2ZZVWp2dzF2a2NFLXk0THhYMm9wX09YNXQ1VW1ldkJac3JGRU9BZTVF?oc=5",
-    "fuente": "Leonoticias",
-    "fecha": "2026-11-03T16:43:40+00:00"
    }
   ],
   "SALF": [
@@ -303,32 +303,38 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/03/6aea4babbb7823-12903028.png"
    },
    {
+    "titulo": "Hoy, en Cara al Show, Marc Giró recibe a a Gabriel Rufián, Pablo López y Manuel Jabois",
+    "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdFpHYnFITXhydE5BQUlPbVBsVkdITjFHYnozaUlqRE82SlEzbDF5dnBDVElfSW0wNExVNTFfbV9BY0NOSnhjNTJ4cFlWTlIyUEFkNHF5eGgzLUctOGItWGp5WmJOeDNjZm1fVmwtMDNnMm9uQWdBcHhuWmxhRnh5eHY2Mm1KRF8tS2RWTVpjQ1NjcENtcEJTV2xSYjVqdGJNc2FFQmtTZXpqNFdNTXUyUUhRY18zS0xNQ21mSW8yNU5yS3lIN2hRSUlvWExYZTdCZWhzeWxGZm9WVEdzbG5MaE4ydDl3VmdWdTBXOC1nYkdPb245UGfSAfYBQVVfeXFMTmlTS0dubG9DdlZDcTlOWi12d2xmdGpjckZPS0t6WHBjVEE5eXZVR2JPRHVGaTdYX28xdWVTQklkY05KaHNTbkJ3MGlFby1mbUlmTUNaTlUtMDR4Vk9KWk1mM0NqQjFqUmtnQTN5aHd2SWMxM0NRVTBkMG5xd2ExU1FrYmEwMmJQazlXU0Fuakp6OVpEam1xLU1QM1k2WFRhSXhxY19HdVd3X1VGSml6MWRKTl9ZMkY3ajNsZldjdnJSZ2RreEZ3NlIwSWdnQXh2TEdqUC1FV09xcUppU09za2kzRkRneHZQZE9SS1Bad1hsSC1oR2FB?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-11-03T23:05:15+00:00"
+   },
+   {
+    "titulo": "El gesto de Gabriel Rufián con Óscar Puente tras anunciar su dimisión: “Has sido un gran ministro”",
+    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZlViWV90MFBVcjRWc0x2ZDNESXBTdElxUkpodGpfTk1aMW5WME1sRUpDamV5bmZMOG9LN0swVUVCOVNRT29ZOHc2Y3RHUFdIOGhEOWNwTnV6c2tPYWdiV0tyRGJmcU1FRUpJbkhBVUI4OEZvLTdZUjh0dDZrOXBQNF9rM1MtcTdOeHlUNktoR0pQajYyanU5WGNyUkpmOEJDcTRGblQ0Qm9VSko2Q2sxSE1tZ3NoQ0o3QlBJWVV0aEhZUGFRdWNnakpLRWMzZw?oc=5",
+    "fuente": "Telecinco",
+    "fecha": "2026-11-03T22:41:06+00:00"
+   },
+   {
+    "titulo": "Gabriel Rufián se acerca a Óscar Puente tras anunciar su dimisión y le dice al oído que ha sido \"un gran ministro\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYXpSeWJvTThPdTVUN3YteWhPdmJSRFg0YURqTmowMVNwTlNVZ0tPSlRNVTRZRENpa1pPQ1gtbkNYTnZzell0TlpFcW9hdVVqYlFxR2hFaVhkb2d0SGNQbm1aUDcyN2xneWh3dW9ya0dhdk8xTEo0cWY0M1VSMFZDWm9sY0lHN1lZX3cyamNHNGY5ZWIyMHdmMlFtMm15UzJibDJtUEVjRVhCU09LS1FoVlBjRVRjWjR5bDFyTEJSck5QZngzMV9RNGZIUTFscnFKS0tnMjlYZzV2T0hWT2VUT1hlRno1Y2pLYUxjWU9td9IB7wFBVV95cUxOYXpSeWJvTThPdTVUN3YteWhPdmJSRFg0YURqTmowMVNwTlNVZ0tPSlRNVTRZRENpa1pPQ1gtbkNYTnZzell0TlpFcW9hdVVqYlFxR2hFaVhkb2d0SGNQbm1aUDcyN2xneWh3dW9ya0dhdk8xTEo0cWY0M1VSMFZDWm9sY0lHN1lZX3cyamNHNGY5ZWIyMHdmMlFtMm15UzJibDJtUEVjRVhCU09LS1FoVlBjRVRjWjR5bDFyTEJSck5QZngzMV9RNGZIUTFscnFKS0tnMjlYZzV2T0hWT2VUT1hlRno1Y2pLYUxjWU9tdw?oc=5",
+    "fuente": "20Minutos",
+    "fecha": "2026-11-03T22:07:39+00:00"
+   },
+   {
     "titulo": "Rufián, tras la dimisión de Puente: \"Lo que importa saber si es seguro o no es seguro coger un tren en este país\"",
     "enlace": "https://www.lasexta.com/noticias/nacional/rufian-dimision-puente-que-importa-saber-seguro-seguro-coger-tren-este-pais_202611036aea4868025012321572cb9a.html",
     "fuente": "laSexta",
     "fecha": "2026-11-03T21:47:36+01:00",
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/11/03/EA235A5F-DFEE-409D-989F-9ED0C8D4EDF5/rufian-dimision-puente-que-importa-saber-seguro-seguro-coger-tren-este-pais_96.jpg?crop=4200,2363,x0,y218&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Los micrófonos captan lo que Rufián le dice a Óscar Puente tras su dimisión: \"Has sido un gran ministro\"",
-    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPY05HZ1BGT2FLQ29iSkU3cU42TTVWbEh3eTV5ZUdvcC1iakU4MXRpN2hacVVSQ2RqaDNyT004S2VKeDY2cmdvTkF1YUhIQmNIYnlqb0FsYjlGRldZeEt5LURxRjhmRVdneVhFRDFjWnJWZ293VXJMRzFnTDRKZkw1ME9OY3RRbk5CckItYnYwNUVWMEk5ck9zTVZMM1JmTU41dTRud0k4RGtHX2psOUdyNkZOTDFqSlBWb3RQOXR5OUkweXBvODN1SWhNZURmcTDSAdQBQVVfeXFMTmlpSGFTRHk0ZjNUOWx0ZldUMGUtc0JsTmJkOHpTbFJkdWNwZFZoYzFBSVVsU2xzZktJbFJYM2NYM3RnNFJnVjhqcVZnZ3lxcnBhekJZX29NbDdOTE5wcElKTDVuUXhmNDloczVQdFNWeDk5YjZIVlR2VGxOVWRmQzJ6aFRNbGlhZGNreUlKUEZjQnYwdS1USUFHLTRJNXNmb0lhSWVfYjJieXZLeXJLcE9Zd3k1cjVlOElBZWpXcHdMdi1uX1FFaE40SXpGZUpYbVhaZ1M?oc=5",
-    "fuente": "El Periódico Mediterráneo",
-    "fecha": "2026-11-03T21:13:22+00:00"
-   },
-   {
-    "titulo": "Las palabras de Rufián a Puente tras su dimisión: “Has sido un gran ministro”",
-    "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZFdRenhSSnZBYU9JWHh3S1pzUFVXZzBQWEs3bFgweDBJQ0xUZHVlUTc4SkdPYUlYTVROeXNseU1uVTdBRkgxY09pSmc3MHBLOExad0NKVEdzY20xdDRvVkNXd1ppeXZ4Sm1NZUdFaTZnLWpmM0QxajRTOEt1c2U4VW5zSGdNUXc5VXdfSkdaRGJLQQ?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-03T20:51:00+00:00"
-   },
-   {
-    "titulo": "Reacciones políticas a la dimisión de Puente: Abascal, Muñoz, Rufián y Colau, los primeros en pronunciarse tras la caída del ministro",
-    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMjJma1B5SEt6ZTJDR1FOV1d3VzVUUFJWU1pXTnRaTjhlN0pZQkNwbVVlRlUxWXo3OXFiY3ZESHNnX0o4WW1Mc2hwZjZtd3FsZGlRdGY3M25ZT1ZJOGR0dTl1YWlHRl9JV2V4QmZyODhIX1ZnWGhOQ2tNdVhIOFpvUFA4NTlURnViSXU1bjQ0aXJDSzBZY3hmUjVTeFQzSG_SAaQBQVVfeXFMT1NhNDBXRmc4THEtU3VaUkVfWDhucGpiVW5TOUlBc3dCc2liYzd3SndZMlZTdklyNHFxRWR4dWUtWExIb0F3MlNWQTJsMENobVV4eFZ5WE8tV0lJdkhMRVhMZXNpbWNUXzZJUWhKV3NBVmlSQlZ2NDZzUGhJaXNzeHowZzhUVm9ObC1sMU0zUExfeU5KTjJBWVJsUXdQQnZzenNnSUI?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-03T20:51:00+00:00"
    }
   ],
   "Junts": [
+   {
+    "titulo": "Puigdemont fantasea ahora con Mas como candidato a la alcaldía de Barcelona",
+    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZWZlWWxIOVZpMmVURWVUZFI4MTBKQzdsT1F6ZmcwUFpNU3B5NFY4UUJjYVFZa3g2VGdQMjNCUUFxZmRaZ3hXNV9FUDMyeHJnV3FqYTRQZmc1MHlfTTZJdnR1dkgzMnVfSTdMVGE5T3NEODJNd2ZsclJOTnhJTW5kQi1hb2RWY1dGbDNmbzZ6b1g3WDBtbDlXMmhLNXJzVmdnWUljYlRKbGFpdTlNb19OZmh2UWNzbWlJN3F2VkFfNU1jdXNqdE1Fc1ZIdW0yd9IBzgFBVV95cUxQZWZlWWxIOVZpMmVURWVUZFI4MTBKQzdsT1F6ZmcwUFpNU3B5NFY4UUJjYVFZa3g2VGdQMjNCUUFxZmRaZ3hXNV9FUDMyeHJnV3FqYTRQZmc1MHlfTTZJdnR1dkgzMnVfSTdMVGE5T3NEODJNd2ZsclJOTnhJTW5kQi1hb2RWY1dGbDNmbzZ6b1g3WDBtbDlXMmhLNXJzVmdnWUljYlRKbGFpdTlNb19OZmh2UWNzbWlJN3F2VkFfNU1jdXNqdE1Fc1ZIdW0ydw?oc=5",
+    "fuente": "Crónica Global",
+    "fecha": "2026-11-03T19:16:49+00:00"
+   },
    {
     "titulo": "Llarena se ve obligado a asumir la doctrina del Constitucional y cierra la causa para Puigdemont",
     "enlace": "https://www.eldebate.com/espana/cataluna/20261103/llarena-ve-obligado-asumir-doctrina-constitucional-cierra-causa-puigdemont_476863.html",
@@ -338,8 +344,8 @@
    },
    {
     "titulo": "Junts exige a Marchena que aplique \"de forma inmediata\" la amnistía a Puigdemont",
-    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxPelI2WnU0ZkIwbUdLTjJ6emwxUGttNUtHM2wtTzBJeGVvUzlFZm44Q0pFeUozOG0zeFZOM0ktbzhPMDdsNFJyaFpkVmJ6RWlNdWYtQm9GcjBIbTgxZFNWRWN3Y2N3RmZfUmxJQ0JuOUFsV0c0MFE5eDYtcHo0b3FtS2U5dzNaV1F6QUdwX2JfeC1PdjJyRllGRDNQTm1hZ9IBowFBVV95cUxPZnJZS2k1X2JBOTNDOXpRZFNGSF85RFdBNnEtM20wc1pQUnZNbVkybW9DOWRmMFhpUGZ3Zk5kOWdqRkd4eXluRDZSRnpvU2ZiRmgzWlktUEJzd0FaVGk5dkNKUERGc2lBVUZRamRMdUk2SnJReXRwb0htTWFEeGhWWFlab2NmS1I5d0hTNTVxTXhsVzlXWlVxa1VKNlcyU3dTZV9n?oc=5",
-    "fuente": "La Nueva España",
+    "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFZOWEtaaW1mNG1oRDQtekJCeVFTd0VpNzBDdTRKZUZEYVdxTDRLVXgtYkN0QnNEaXJmTXdfSFJMei1md1Q0U2xxQ21GRUVXeVByYjNUUDcxMjE1Y2pnemhlRDlHWnVJeC1teF9DLW50Zm1qU0JvX3Q3dWN0SGp0a3Rxa3FqZUtFVGR1N2UtWEtvNW15OHpvelBiZTAySDVfb3NobVVQVjdNN1A5Nkc3NVFR0gGyAUFVX3lxTE4wVk5YS1ppbWY0bWhENC16QkJ5UVN3RWk3MEN1NEplRkRhV3FMNEtVeC1iQ3RCc0RpcmZNd19IUkx6LWZ3VDRTbHFDbUZFRVd5UHJiM1RQNzEyMTVjamd6aGVEOUdadUl4LW14X0MtbnRmbWpTQm9fdDd1Y3RIanRrdHFrcWplS0VUZHU3ZS1YS281bXk4em96UGJlMDJINV9vc2htVVBWN003UDk2Rzc1UVE?oc=5",
+    "fuente": "Diario Córdoba",
     "fecha": "2026-11-03T17:42:17+00:00"
    },
    {
@@ -360,13 +366,6 @@
     "fuente": "La Vanguardia",
     "fecha": "2026-11-03T15:04:17+01:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac54242f24b5.r_d.2373-1861-0.jpeg"
-   },
-   {
-    "titulo": "El juez Llarena aplica la amnistía a Puigdemont",
-    "enlace": "https://www.20minutos.es/nacional/juez-llarena-aplica-amnistia-puigdemont_7056658_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-03T15:03:08+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/03/6aea156fa5a9a7-87116636.jpeg"
    }
   ],
   "Bildu": [
@@ -448,6 +447,12 @@
   ],
   "BNG": [
    {
+    "titulo": "Ana Pontón pide concentrar el voto gallego en el BNG",
+    "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOakFUUXdOczBFNlpITnhwNGNxaUpoclRrS3dLWUdwV2RtWkl6TkRoLUR1eG1KMkx4LTlkcDc2UlJpVjZwdW00dElVdmhzTDRrU0s3cVl3Nm4wMU5fWG5fcFZiaVJVNjRmN3QwanhjZE9DeklPVkloSnR6cnFXTzYxTmdJU3BhdXNmSzB1VF9zSzRDX1AwSnFfYWdQY0VsaHl3ejNNYtIBwAFBVV95cUxNS0M4MldxWEExc2NITlZDVEtZMERrQUxWNzZmTG1YMmpheFFoTzZSTC1iMzVacW1HeGpaeVBoVE5sSXViUkNBWmRqcV9GWnEwWUFGVzI4c00zNzlqa0Y0RUtMeVdmeFFhTHRtUGQxUlFGZWt0RjBxVzk4dlhtRno3ZFBSR2c1bjFVQmJfTkFVamc5UHluX0xRSEhtSEFWd1BuVzFUc19MSkZYM3VXOVgtTm5QVzYtbTFkRXBGVHNCQ3Q?oc=5",
+    "fuente": "La Voz de Galicia",
+    "fecha": "2026-11-04T04:00:55+00:00"
+   },
+   {
     "titulo": "El BNG califica la marcha de Puente como la única salida y reclama más seguridad ferroviaria",
     "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTXhPUEVtMUp3azFxN2dmVFphdUtPQnNNd0djZTB1bUc3ODFNRmlMdXV4ekljWlhtT0NwV0p5elFiUWZYR2VKY1dVTklwR3BFajhnVzUzNmcyZzZMc2VmcHUzWWNTRUpXU0JMNXd5VlRBZXR1SkNYLTBlamhEM0tVTlZIOHlQWDYxU04tYVJyZFlsU0hzcUNQV0JUM2hDazJZWHlOSFhyMU12TE1ETlhBS3NNbUd0X3pQR2poWWhsQ0JjYVFsV1HSAcsBQVVfeXFMTnhva3FVTGFCQU1lMm1ERUY1eU9KREk1Wm9LLVg3b0trY2FuMFRvbVJVXzFCckpNY2plUjM5RVlkZnNuVjBHRzBUcHhKUXNJNTluRkdhQVoycUcwU0FvdkNiRUowY1l2ajdUTGIzOUdCaEp4WG56ZmJEYTdtNEUtZFVac2NidUY0X2FXZUV2eUM4aEV5c1gzSnNZX21sMTFzYlJibnIwNUVuREVWc09fTG5XaVlXTjc3Rm5QNzJpNzRLLVFfN2Z1MnVwTWM?oc=5",
     "fuente": "Demócrata",
@@ -460,6 +465,12 @@
     "fecha": "2026-11-03T21:02:55+00:00"
    },
    {
+    "titulo": "El BNG reclama al ministro Puente una investigación independiente sobre Urda: \"Justo la que no hubo en Angrois\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQXFLQmFvM1JUVVgybTVHb094ajVZTFBoTl9sSjJkb3NlSGhNRExkNE1pZ1p6WFltU2l0MUswVDFOU2JqZjVxLTRkTGdNSzRxNFdEdTdoQ1Q0bXVxT3ZWMjlORnFaZnFDS1JhQlltMWZWT1UtVzI0N3NheE1RQ085clFXQ21WMGM2RGpuU2QxM0txWi1VLWRRNEowNFcySXA4aElLNktFSWluaDJCa3l1eFlsUkV6XzYxa21Ia3FUNVAzU3pkblRlaVozT1NvNGdUd3lVU2dyU1JHdGczR19FcUxSZTZlY2w2?oc=5",
+    "fuente": "GaliciaPress",
+    "fecha": "2026-11-03T19:39:00+00:00"
+   },
+   {
     "titulo": "O BNG presenta a candidatura para a eleccións xerais en Vigo",
     "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOT0pqeUxDZ0kxZXR3LVAxaDBTTlRIMURFai1BQmtkMmN3TGVUbGFIMW5RSU8wak9WbXp4cVEyRVlzc0c0eDBnWmFPR3VkcFpDWmJxU3dSMHlWYlEzMzRVV1VuVVBzSGRKUWZOWWFjd0VIUWtTSWZWcEkzeDRKT0tIMWFjOF9BWlZ0d00tamJUb1NaSGxyYVYta09Vd0I1MG1xeU1RLWhyaWnSAa4BQVVfeXFMUHl4Tjgzc2k3ZkxQWjduclhBX3Z5c1FlemxUNFh1Z0o2U1JGaUM1RlpMMkxJU2l6TmN6WFB4dHQ1Tm1MNmhWek9pUHVPVThQbWl0Vjk0RllNazZtOW5WeTEwU3ZnRHFFQUtvRy1uZ1Q2MXJudTJpOXFfTW0tUHFJNmJKX1l4c0szLUJqbFRIdlBBRnExMndmVHN4NmFpZy1uTVRXb09zbGM1TjZWQkdB?oc=5",
     "fuente": "Faro de Vigo",
@@ -470,18 +481,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTzZXaHFYdm5ILV9icFMyWEFFandFSW9qMGVMcFJjZ3N6a3o1Ujk0b2h4cktZM0ZQRVpCR2IzOUQtbDdFR0dKWnlHcjFMMUZ1cHZlSmZabHVqMWRpQ2JGVXZ3TVlvUDBUcFFPVlhEeGc2QXRDSGRHem92aVdJYTFYMHNQMUphWjBSdHNmNE43eW16R3JmSlRTZGZPYkxwN3BEV0Y4SnlnWUVIbDNWNHBXMGRFTldLcC1mSFpDREdjTVJFRkFRSEZoSU9JYmYzS29nX2lyLUFBWVZuRmdaN3JCaw?oc=5",
     "fuente": "Diario de Santiago",
     "fecha": "2026-11-03T16:06:42+00:00"
-   },
-   {
-    "titulo": "Pontón pide en Vigo unir en el BNG el voto gallego el 29N para darle más fuerza a Galicia",
-    "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcWdOQ05fUjJFNjRGTTBmd3I1OTFNZWJsSjlSU2dVRGtJYUVkbU8tUUtiTGRXaGdfTTAxNUhYMFNWN283UXFFeWJWNWMxUVVqZGFUSkpxSmxlX2tWWEtWY054Q2M5T2pyN0hHZ2NVU0cyVXB6N1ZhbFB0U09RTG02ekpDMU54VExrUHo2NXk4VEFTbHZRQ1ZOT3JfMXpkQVZhcUl0a2NMMGhmcU53YWR0QnRiVXFZYlMwRlZhUlBSX2tDdw?oc=5",
-    "fuente": "ValmiñorTV",
-    "fecha": "2026-11-03T15:49:55+00:00"
-   },
-   {
-    "titulo": "El BNG acusa a Feijóo de \"indecencia política y moral\" por usar una tragedia para pedir la suspensión de la huelga",
-    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSlRBWmpjY1FLTWtRWS1UQjhPcWlobVFDeDRxNVlVQzFCeGFiVS1teTU0ajFxaHVaLXJRdGpsUW5sejFYN0lDUTlwNjF5NjNOUE42enVPUGpGRmRSSXU0M19MTkN0YTV0YnJEMkp4SDN6aU11blJMNUJyeWdQYjhrQWxHTFRuOTk5clNEdTVEYzZGOVBuZjBOX2JqVHh1Wm82aExLd3FrTFBRbjJFUHFWS1Y2eXVhVE1vQ0o4QnNSWXZzM3dqQ0REUG1OZ1h4OWRrSEMxYWJmMDc1YnNPVWc?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-11-03T14:35:00+00:00"
    }
   ],
   "CCa": [
@@ -534,12 +533,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOa3pUbnVOV2ctdGhhVGpzSUh4MkRJMHBZTFd4azFQSlZIalgyMnh0dmtQZUg1M3gzMXZ1MGIzbzhMZHNmSnB0UVBXT3NjaVV0eG1uc0hTUXJjeVVDdlBxRFU5WDRQbGtNMVRPQWZFT0N3RFREMnIwSWtRbzJnZlhCbG41YXpBbkpVTUZfY0M3ZEU3S0xXRmlWQzNYaklQLUIwOFYxYl9tNnhkVDhZb2Ftb084Wk5kMG9mc3N3dVVDc3AwRWtITTZ1Ti1SWGtuZEJZYm1iM1lNdEp3d193WkJSU1hBMEZ6bG5jMWkwaDJ0NA?oc=5",
     "fuente": "Pamplona Actual",
     "fecha": "2026-11-03T13:00:02+00:00"
-   },
-   {
-    "titulo": "¿Supervivencia o cesión? UPN es el único partido regionalista subordinado a una gran marca estatal para el 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYzBSSFNnLXEwcHdfR1g2UzkwR0tPbzUxSlUxQVJTRTVfMDZ2dlg1Z2tFOW0yZEdOb1RFSjU3SnpOa3A5QnMyM1pLWEtsX0tPMzgxaTZXMlZMOFZZaWo3T3B1aUUxZG9xd2ZacXI5bDd0OHR1ZUFpblpWcWJOSDBDTG5lbEZVOF9PbnR3eGxOTURFR29lQ3pNZkFfZFNZcDNEeHfSAacBQVVfeXFMTzE2NXVYdzVoUXRWSi1Pc0RfUTVsV2x6eXBXZm9meTV0NnVRQUtNSFJxQkhoR0FzVmxMRl9PNzZucEp6NWhLdkRFMjNhVWdTdzFKNnVqMXk4ZzNCeVZMYi13TkE1NU1VcUhfUjYyQ3N3OW56NFk5Z2V4VGVvZWt2YmxiMVhlcmN0ZXd0LXhCRTNZbXZLUW94V2pfUE8zYk1KWkd0M1RvMDQ?oc=5",
-    "fuente": "Noticias de Navarra",
-    "fecha": "2026-11-01T18:01:28+00:00"
    }
   ],
   "AC": [
@@ -793,18 +786,19 @@
  ],
  "polemicas": [
   {
+   "titulo": "Alivio en el PSOE por la dimisión de Puente: «Despeja la campaña del 29-N»",
+   "enlace": "https://theobjective.com/espana/politica/2026-11-04/alivio-psoe-dimision-puente-campana/",
+   "fuente": "The Objective",
+   "fecha": "2026-11-04T04:25:00+00:00",
+   "partido": "PSOE",
+   "imagen": "https://theobjective.com/wp-content/uploads/2026/11/puente-dimite-psoe.jpg"
+  },
+  {
    "titulo": "Rufián sobre la dimisión de Puente: Lo que importa es saber si es seguro coger un tren",
    "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ScW5wZVBPYTc3S1JLc0w5eTFYbE1NcmxXa0dLQk9PcUUzX3pJd2ZJOXZWY0prUTA4Mm85S1dqZkxhc09LVm9NNTUwdm5yMll2WENiSHAwck1oUW5ld185QlYwVTlueXQzcUZzYU9qOFpsY2lDN3ZR?oc=5",
    "fuente": "EFE - Agencia de noticias",
    "fecha": "2026-11-04T00:19:35+00:00",
    "partido": "ERC"
-  },
-  {
-   "titulo": "PP y Vox ven insuficiente la dimisión de Puente tras Urda y apuntan a Sánchez",
-   "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQ1hzWVZWdnNaamV3MXRxTVNyNmI5MElpeUZhbmcycGRUVThHZWw3YmxfNFZyYXlreUozcWRhLWNVbFoxV25tRFBzQ0hnTDNodEdsQXV5SjREWTk5dzRCdEY1aWxwMnBfOXExXzNkQWNmZkRQY1ctSnU2RkFRbHFCTi01SWtiVm8xNUJHSnY5eHBNWjNUQy01S2lHWkRCUm05VUFCc2htY3pJcHpkc1RlZVlpajlWMS00UEpNVmVFbnBLQW5RR0NTR2pnOFBqTkk3V2dGQlAwT3YwWERFU0HSAeMBQVVfeXFMT1B6U0QtRklrcDJrUm1mSkFBWmR4TjN0bC1jSGpXS2lhZ3M0U0psY3Y4RkhiQWJPdFowQU5NbWZIUWtfV004QUdwOXo4dWNPOXBCV2xTcTc0Vjl6MERXeW90SktxOFZYVDJORDZpd25TdUh2aktKbzRZNC1HSVZiNVZ2b2xDcjRjcXBxNHluaGlzUUpPdEhWblF1R0c2ejluV2pVTHZCWldwZzJQSXlEV0YxdFo2X0V4eksxdGQzVWVWMWkyZzNxSE9FN19LRERUazJoVnlUWjhKclhSZjMtQjZ5T2c?oc=5",
-   "fuente": "MUNDIARIO",
-   "fecha": "2026-11-04T00:15:40+00:00",
-   "partido": "PSOE"
   },
   {
    "titulo": "Del \"capo de la mafia\" de Abascal al \"gran ministro\" de Rufián: las reacciones a la dimisión de Óscar Puente",
