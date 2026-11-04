@@ -1,12 +1,19 @@
 {
- "actualizado": "2026-11-04T20:01:31+00:00",
+ "actualizado": "2026-11-04T21:01:43+00:00",
  "generales": [
   {
-   "titulo": "Sánchez se va a grabar un ‘podcast’ electoral una semana después de la tragedia de Urda que dejó 69 muertos",
-   "enlace": "https://okdiario.com/espana/sanchez-va-grabar-podcast-electoral-semana-despues-tragedia-urda-que-dejo-69-muertos-20702419",
-   "fuente": "OKdiario",
-   "fecha": "2026-11-04T21:00:35+01:00",
-   "imagen": "https://okdiario.com/img/2026/11/04/sanchez-grabar-podcast-interior-1.jpg"
+   "titulo": "El PSOE pide a la Junta Electoral que Puente salga de la lista al Congreso",
+   "enlace": "https://www.abc.es/espana/castilla-leon/puente-presentado-junta-electoral-renuncia-candidato-congreso-20261104215347-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-11-04T21:53:47+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/04/puente-redondo-RTHxddHXIYVmkQO2YbdjtdK-1200x840@diario_abc.jpg"
+  },
+  {
+   "titulo": "Elecciones generales del 29-N, en directo | Las víctimas de Adamuz creen \"tardía\" la dimisión de Puente y exigen ampliar las responsabilidades",
+   "enlace": "https://www.elespanol.com/espana/20261104/elecciones-generales-directo-ultima-hora-dimision-oscar-puente-renuncia-listas-psoe/1003744445175_10.html",
+   "fuente": "El Español",
+   "fecha": "2026-11-04T21:30:00+01:00",
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11183690.jpg?p=c:454:256:nowe:23:3/w:1706/h:960&h=8EWkexO9"
   },
   {
    "titulo": "Dimisión de Óscar Puente por el accidente de tren en Toledo, en directo hoy: nombramiento de Carlos Cuerpo, reacciones y última hora de las elecciones generales 29N",
@@ -14,13 +21,6 @@
    "fuente": "La Razón",
    "fecha": "2026-11-04T21:00:25+01:00",
    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/03/38A9DE60-1799-446D-9BDA-1CA57B390BC1/96.jpg?crop=4585,2579,x0,y238&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "La papeleta al Congreso por Valladolid incluirá a Puente, que aún no ha presentado su renuncia",
-   "enlace": "https://www.abc.es/espana/castilla-leon/papeleta-congreso-valladolid-incluira-puente-presentado-renuncia-20261104192812-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-04T20:33:22+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/04/Mitin-RFCzcVXE6nThRGGA4wxPIWN-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Sánchez olvida su discurso de investidura y llama a derribar los \"muros\": \"Debemos convertirnos en sembradores de paz\"",
@@ -75,11 +75,18 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "29N: El PP se compromete con las mujeres, el emprendimiento y el desarrollo económico",
-    "enlace": "https://www.larazon.es/castilla-y-leon/29n-compromete-mujeres-emprendimiento-desarrollo-economico_202611046aeb8ed24196933d7ed0b3f4.html",
+    "titulo": "Feijóo: «Hay que sacar del congelador la ley antiocupación»",
+    "enlace": "https://www.larazon.es/espana/feijoo-hay-que-sacar-congelador-ley-antiocupacion_202611046aeb914f4196933d7ed0b5d0.html",
     "fuente": "La Razón",
-    "fecha": "2026-11-04T21:00:18+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/04/76CACEE9-7F6D-47E8-9823-FDCA0240CDED/dolors-monserrat-vsita-segovia-imagen-junto-pablo-perez-mazarias-paloma-sanz-sanz-vitorio-vicente-otros_96.jpg?crop=5120,2880,x0,y673&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "fecha": "2026-11-04T21:10:55+01:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/04/6A65E15E-3E1F-4222-863E-5CEC95853C46/razon-alberto-nunez-feijoo_96.jpg?crop=1600,900,x0,y83&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Feijóo: \"Si gobierno, recuperaré una relación normal con el PSOE\"",
+    "enlace": "https://www.larazon.es/espana/feijoo-gobierno-recuperare-relacion-normal-psoe_202611046aeb8d0d4196933d7ed0b31c.html",
+    "fuente": "La Razón",
+    "fecha": "2026-11-04T19:52:45+00:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/04/ACD696A3-47B9-47AD-A65E-402216738CF3/feijoo-razon_96.jpg?crop=5184,2916,x0,y489&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "Feijóo responde a quienes le llaman “aburrido” y no publican listas en Spotify: “No me presento para entretener”",
@@ -106,22 +113,15 @@
     "fuente": "La Razón",
     "fecha": "2026-11-04T19:09:30+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/04/E2CCFB1D-8AC5-4A98-847C-8BBCFABBBC4D/feijoo-presenta-servir-espana-miento-robo-voy-vacaciones_96.jpg?crop=1600,900,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "El PP califica de \"teatro\" los mensajes entre Puente y Sánchez sobre la dimisión del ministro: \"El respeto a las víctimas no es esto\"",
-    "enlace": "https://www.lasexta.com/noticias/nacional/califica-teatro-mensajes-puente-sanchez-dimision-ministro-respeto-victimas-esto_202611046aeb6aafd3bddc0868a50271.html",
-    "fuente": "laSexta",
-    "fecha": "2026-11-04T18:26:07+01:00",
-    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/10/04/8A3820F6-1693-4DAE-94BC-7657C81E4E01/ester-munoz-dice-creerse-elecciones-29n-tilda-sanchez-cobarde-aguantara-que-quede-mas-remedio_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Sánchez se va a grabar un ‘podcast’ electoral una semana después de la tragedia de Urda que dejó 69 muertos",
-    "enlace": "https://okdiario.com/espana/sanchez-va-grabar-podcast-electoral-semana-despues-tragedia-urda-que-dejo-69-muertos-20702419",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-04T21:00:35+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/04/sanchez-grabar-podcast-interior-1.jpg"
+    "titulo": "El PSOE pide a la Junta Electoral que Puente salga de la lista al Congreso",
+    "enlace": "https://www.abc.es/espana/castilla-leon/puente-presentado-junta-electoral-renuncia-candidato-congreso-20261104215347-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-04T21:53:47+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/04/puente-redondo-RTHxddHXIYVmkQO2YbdjtdK-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Sánchez olvida su discurso de investidura y llama a derribar los \"muros\": \"Debemos convertirnos en sembradores de paz\"",
@@ -138,23 +138,23 @@
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/11/04/BD3E862B-F103-45CB-ABEE-4468DEA5B7DE/chicote-puente_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
-    "titulo": "Marta García Aller señala el cambio de postura del PSOE respecto a Puente: \"En cinco minutos, pasaron de defender su continuidad a aplaudir su dimisión\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxQLWtXT3gtMFVkSHNjTzFYMW5MRWItdFRzMjY3Z25jQlBjTFdfelBWbG1qNTRMWmtoeV83bU9BU1pYRTM0YTg0bkdzMDdyVnJKNzZVNFNYVjJwZ2c1ZTdHYjJMNkVwaEJRbEZuNFZfeXJ3QTFkUjlhcGFzOWpmeDFjN2VtZEVab3JTYWw1aHF5eTYxZGd3WERxNEZNRkcyVEFnVVBKZEJpN2NHdzdtbnU4Q3JMcHEwLU15aUhDSXR2UEdYNnFBZzgwUnQtbnhPODN0bm1aSENndmhfNjVIMjRic0VxV2FxdmNYRDQ4U2lYcGZ1WVpyT2RBTzBRVlNWcGd0b2hSa3dLZ3Q5RFdsWmhoRk9tMWlEanlZdEo0Y2YwQ2pUVlF6WkZ0VzBWSmktWE9DTDNkajRUMFg2cERua0cxQVl4NWR0ZW5jNzhDaWpQZGhLazRHbzNpTVh6MjVtMUo3SzZuR0JRVdIB5wJBVV95cUxOVTRvVnoyY2JDeHZUbkZjZlF6RU5jRHhjS1lrQUJWOFNnaXpzcGZjZHI1TXpMVUlubzVBNGhXdEFySmM3OGQwQVRxYnBNdXNQVGZqY1dKbDZNUDVJWmxMNlpBWUNCYXgyeVFZakZxeW9CRnZNSW5WOW81N19oM2V2ZVo0XzV3OEExNHlsT0daNTFOMGpwZFVxdlJ3Yjc0MzgxLW95aWhsUWtUWFhXMkxPdnNEaklfNGYwUnF0SC1aUTJEek4wOTJXeUgzSS1GYy1VMWduSnFWaTVKYml1R1FQWTBpRTF2UUJ0aElOUTJCZm5MN2RqLTVWRkdsMVJIcFEwRnJKWXk0RnJEcVhvVVZHU2w0alBORkl2c0plWlRkTGVpTC1UeVNlSmk3X0hwR1JFRVhZRkJBblBtdElqRW1sbU5ObkRxWWYtX0ludmZFUFZMcFF1SXhHSERnRjZQUXZyZjF6cU8xbw?oc=5",
-    "fuente": "Onda Cero",
-    "fecha": "2026-11-04T19:34:42+00:00"
+    "titulo": "El concejal Raúl Ruiz coordinará la campaña del PSOE en Alicante para las elecciones del 29N",
+    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZS1tVkxRaUMyMHdFRkxxQ0tubEh0a05yUkdoQXM2N09JVWp0T2Z0cEZNM21KaW44c2ZJTW00UTJIcWJ5VUtwclFKeTQwXy1HQk1nb05lOEJsbmdBOVI5YXdpZlFwc2NEdWRJMVhQRWxWNHJUVEhqWDl5bi1IOVBKVWJkV2d3bDJVa0xkNkYyOUpPMldFUWJLeg?oc=5",
+    "fuente": "Información",
+    "fecha": "2026-11-04T20:22:39+00:00"
    },
    {
-    "titulo": "Se filtra el mensaje de Óscar Puente a Pedro Sánchez justo antes de dimitir",
-    "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMTBYcmZDSVI4bjFmbEJmVTlkZnBFQld1QjFUWnlEV1JiOUxtX3AzN25ZZ0RkLU1taU1IUFYyMmFWOXdhNmxJa21vSXQ1S2ZwZ1RVRUJOVFgxSTVMYlRqSWh2bE9UUFpXcjJ3TWpEeWhQbXgtRHI0aVlmWjF0OUdrYkg1SGpjOUZYN3NyUW5TYU1UTDgzb2dMbXRkWGVNRExvcVJyVU5IVEpJbUpkN05VX0NQVTBPSmlweVk0dUdR0gHSAUFVX3lxTE1QVi1jSjdXX0Rfd2MxSUNxcGJHeWVaNW1hYXF1TWNjSTV2MzFpNGRnbUNyTnhrUEV0bWRXNEJ1WXhvSjRZMGRpczFDMHhvZU1OcWJTb3dySWRXVE1pY2JPUHZ2QXRoRG1Ga191OVBuOXkyVkhJN0hvVEM0LUpOdVJuOWZjeW9PQjN4XzRjcnc1MkVzMWhjR3BqRDhOcW5TRzF3TjFNLUF3a3VadTd3TFVFWWk0bV9HV1dXSzdFM1pzQkw2UGhVR0Z2V1c2RTBuUkdfQQ?oc=5",
-    "fuente": "Diario AS",
-    "fecha": "2026-11-04T18:36:31+00:00"
+    "titulo": "El PSOE utiliza la dimisión de Puente para lanzar su lema: \"No todos somos iguales\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNczRQV1o0dU5FTlBqb2NRaWMxSHozS2tYVkZFSkttRl9JQ2ZfbTg3ZUU2WlE5X1o1aHR5WFUtdWhQMHUwN2M1ajVPOGpuNUQ3aDdOYzNEdkVrR05kYUx4amQyZGhnZUtMdlNxR1MyS2FqVFNJS1gzalBLckZpOGNZcVh1aXgtMjBDSlN5NUUwbjd1MFRJeDRhdkh1SThsamJJZWxrUG5xMDNXTTB1R1loYjhZaHRlUXlPVjN1MTFzQUlZdVBOT2U1MHVVSExJa3VNRktfQ9IB1AFBVV95cUxQNmhObHhrckU0ejVUWG1hX0lLQUpOM3pkU1Q5Wm56cG95Wm1yb0R6ejhrd1oyVTBhM0ItaXA2WnRmR0VUWVl2Q2loSEhDZndzZXdMM21XT0ttcnZoSnVWME94QVBWUGRYMWwzM1R5UE1PUlc4V2RVdDNWR0kxbW1SRHlXTm9La0NwSTVMQXZMNGk5YzBqRVN4Z2NoU25yM25zeXZXYzJmYk13dnFrNzVMdVgwX1pheGpiWHRCODhJZUNIcnRGcFdtZHBkWHdDOFRXNVA0dg?oc=5",
+    "fuente": "Antena 3 Noticias",
+    "fecha": "2026-11-04T20:22:29+00:00"
    },
    {
-    "titulo": "El PSOE no se cree a Puente: \"Volverá a lo Sánchez\"",
-    "enlace": "https://www.larazon.es/espana/mensaje-oscar-puente-pedro-sanchez-espero-que-tomes-esto-como-traicion_202611046aeb70194196933d7ed09b1d.html",
+    "titulo": "Feijóo: \"Si gobierno, recuperaré una relación normal con el PSOE\"",
+    "enlace": "https://www.larazon.es/espana/feijoo-gobierno-recuperare-relacion-normal-psoe_202611046aeb8d0d4196933d7ed0b31c.html",
     "fuente": "La Razón",
-    "fecha": "2026-11-04T17:49:13+00:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/03/0B8065A2-7ADC-4BD8-8417-430D7FD915FD/96.jpg?crop=4200,2363,x0,y219&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "fecha": "2026-11-04T19:52:45+00:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/04/ACD696A3-47B9-47AD-A65E-402216738CF3/feijoo-razon_96.jpg?crop=5184,2916,x0,y489&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    }
   ],
   "Vox": [
@@ -164,6 +164,12 @@
     "fuente": "laSexta",
     "fecha": "2026-11-04T20:54:35+01:00",
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/11/04/3A5DB128-B359-4964-B882-619FE2F01025/monrosi-responde-abascal-profundamente-irresponsable-que-politicos-este-pais-manden-mensaje-miedo-tren_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Abascal, visita Ciudad Real ante una Plaza Mayor abarrotada de gente",
+    "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZmpINTJWazR6UlBaXzJfNnEyUDREQnIwc2VWZ3NCcmZsQU5JV09ZRVZzMGpUQzVJbGRKTU9Ca1ZPeHVlOUQwZThkMXhZOEFHN2s4aTZacVFieDl4REFNcFNNcVFDbzZpZjJ1NWdLZGo1TGVUUHExWnRhMmRJNUFqbnZLSWtySkRtRkxrUmJ1c1RtZFpPY2Y0aGxsN0QwcWFQYjF2NWUtSEJoOXlPQlFJdjJMdUliSUVnMUJDZkp0blhnNUZlczloX3BuMA?oc=5",
+    "fuente": "La Tribuna de Ciudad Real",
+    "fecha": "2026-11-04T20:20:50+00:00"
    },
    {
     "titulo": "Vox exige el pago inmediato de la carrera profesional sanitaria en Castilla-La Mancha",
@@ -191,12 +197,6 @@
     "fuente": "El Debate",
     "fecha": "2026-11-04T17:48:51+00:00",
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/04/6aeb43c5e56cb.r_d.3025-2480-0.jpeg"
-   },
-   {
-    "titulo": "Vox lanza una campaña digital para movilizar el voto de los españoles en el exterior tras el 'frenazo' a la 'ley de nietos'",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQN0pBdXZVVEdlTXdJalVPMjQ3dGF0azB6ZnlTOXM4aEpyTDdYc3lfR1FMb2VnZFdSUmRlSlBDMzhLQ3R3LVRXQllxZVUxSVAwUWlYZUY3SndaQTlhQ25uM1l2LXpUUGJGNFRxQmgxaGxZYlBkYjQ2UnZYRVlhcGV3dlVneGxhOC1aeDhFYU53WDVsYm4xNVZueU9DUdIBmwFBVV95cUxOWFREeUdKX0ZTNHFnNW9FaHhENG54SnRObzM3QWZsQjE1MzhtNVNpMlpHcUluUnFKS1R5VXNWb3JSTHpLMlVTejZaSVAzWVQtcXpoVkZfNE9BTlBGRldHRV9YZUlSOTl3YUVSS2xzdkQ0ZkZSTGdoZzAyT2Y0bWdyelpDdGdhVzlaRllWV096T1J4cS1SY0trc3lFUQ?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-04T17:47:58+00:00"
    }
   ],
   "Sumar": [
@@ -443,9 +443,9 @@
    },
    {
     "titulo": "Esteban (PNV) cree que era \"absolutamente necesario y obligado\" que Puente dimitiera, \"y más para el PSOE\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOFNZbjVXdzhmREhOVXd0aEZaOUI4UjltVTNiRDhMdXJzR1FKMkRRUGsxYnk2TDUyUXFBY3M5LXFxeGFIdVUzZkVoTEl0dzBmejViMGs0Y19TT09Rb2d1cllRb3ZROHpma1hydzUxZEx5WWlFby1QRGMzT195aFVhWjdqRnVsUjdKb3JYbkxiZm1xbE1UZmNLNWQtRElPcTNSYXV1aFBiRG55WHNiejdFR05BWXloRTdFZ1dadHZnTmpyWHpIb1NJMlUwVDFQclFlTHc?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-11-04T19:00:00+00:00"
+    "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZnloX0ZiQ0pveW1SZ0s2YTUxdnhEWG9fR1lYNmlGb2FpcFlyYUxJTzBDbk4xb0pFdjA0LWlDdEg2enlENHJYanNENkZCRWg1QzFwaDBjVndCbnVuNkEwMjRObXlFWUQ0ZW9IS3ZmS2pPQjVwdGRrZEc4aEgwdW00NF9IbmVEWW56Z3RQbmFRdGlrdDdYdFJENVRRN1J4WV85WHhhMHh2V1hKU2V5Ym9LaG9sajJkZE9KeXZWeWFDSlFILXNHYzRaMXk4QWVET0ZuM1FuaWo0YXRZVE1GVUxDT0N4cG1jZzJSc0Rr?oc=5",
+    "fuente": "Ultima Hora",
+    "fecha": "2026-11-04T19:07:47+00:00"
    },
    {
     "titulo": "EH Bildu insta al PNV a apoyar la prórroga de alquileres y exige a Pradales que aclare la postura del Gobierno Vasco",
@@ -569,10 +569,10 @@
     "fecha": "2026-11-04T10:17:42+00:00"
    },
    {
-    "titulo": "UPN acusa al Gobierno municipal de querer aprobar \"de prisa y corriendo\" un PEAU del Ensanche \"plagado de errores\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRnF0MS13Q2tQYzhYQmNGRGx6WnJfMDBuUXllWGJ0NFlQTEhzc3ZndnFSSkpiQzFjekVTRkl3UkZ5bXZtX09RVlhubG9maHpUMVNEZ3FzTlJ5Y2l3dUdDZWgyNHlNY0RwOC1rZGNaMkxOZ0tnOTh4Znl0THlFMWZsUE96Z2JLNktidkNsWDZQTGhRd3hUaDZuM1p3VmV2WEMtdFBpSl93X2tGem1WVFdDTlFFMzBjR1lrNjZtR0pWNk00eXZtNkVUNnVlQm81Zm1oOWx0dFpJa2JCMnVWWi1NYmlaRzVSNlE?oc=5",
-    "fuente": "Europa Press",
-    "fecha": "2026-11-04T09:25:19+00:00"
+    "titulo": "UPN dice que el PEAU del Ensanche está \"plagado de errores\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYXNqQWRtc1RBNXpadVZqTjBrT25XWnlTV3FsS1BHekpwTzVmRC1DdjVpZUVJVzV0RUJ3RDZISndFT25WX3hBeS1TRUZaTF9leFMwUzJMZ3JzczEwMElWRlFaM2dvU0otck9aaTg5R0hHbTE2VzcxU0s2dFJ4Wl9uMlNDM0xkQlhrZ005NW5fOHZsN2I1TnJlV3ZTNjJMZUV0QXNlRGxpRnRDSmJua2pXV2hqMWRyaWhvMGRpXzlmYzg1Wl9UVjB6NkJJSGtJTEVKWGtmcFJ3aHBhQQ?oc=5",
+    "fuente": "navarratelevision.es",
+    "fecha": "2026-11-04T10:13:00+00:00"
    },
    {
     "titulo": "El plan de UPN con la Junta Electoral para entorpecer el día a día de las instituciones navarras",
@@ -622,7 +622,7 @@
   "AA": [
    {
     "titulo": "Elecciones 29N: Amplia presencia lucentina en las candidaturas de Adelante Andalucía por Córdoba, con Carmen Solís, Pedro Navarro y Juan Moreno",
-    "enlace": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPOEhMVUZBMl8zd3dkWGxvMXBVQ1JUbDA5LVdyMkJMVHRCYmRjTFBSbDZtTERuelNxWUUyajlkRHpLTnJELTJoc0s1eTI3SFlVdmp2MFFDUzdsM1FZTWplanVOTmVhYmRRR0FxaHpJR0FqNUdYQWxaUTRIeXUwS2ctWU9NUzBHVmRHVVAzTnNibHp4T2loTFBvbEoybVhvZjAydmx5NTg2QU5lT29fRURYWk1JTkg5LXA4LUtMNTU0WlQtMU40RERqWnIxbXdOWXFPYnpVMkViR3A4cGxjNjFyVFN0bnZieHV3TG1sWFRoRUVHN1lGaTZ5UEFqcUlGVWl2b0xkeWFNOGhRRXBaNWlLMHhLbXFSLWPSAZwCQVVfeXFMTV9rZE5MUlp4cHlrSG82Z3ZZSTRDdWpqNE9QRUtBYWp0d3Vvdi1CQ01lTUZyUzloYWlDOUcxa1ltdnBrbGoxSnQyRVBmZDc4QmttVlhkZWxZSG9iREdxT094amNSUzh2ejlUZTVuUFdZdkR1V082bjIzOXNxMXBXWkVXQXRJdE5GUVF2RG54Yzcybm1zZ1lRWm5ZMjg4R2ZjN3UybEg5emRqRjVKZUtnMFFrTEVEalVfMmhHY1FudmlELVFZMFZ6U1FDY0JLTG90WUw1VzRJTGNRMGt6M2NWTFRwemI5MlZkdkFJcUY1UDNSNXBvUWdDOVo4bjZvLXBiMVRWRWUxN0hYUVk4eUJCLTl4ODU2bVJUejVQRUc?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNX2tkTkxSWnhweWtIbzZndllJNEN1amo0T1BFS0FhanR3dW92LUJDTWVNRnJTOWhhaUM5RzFrWW12cGtsajFKdDJFUGZkNzhCa21WWGRlbFlIb2JER3FPT3hqY1JTOHZ6OVRlNW5QV1l2RHVXTzZuMjM5c3ExcFdaRVdBdEl0TkZRUXZEbnhjNzJubXNnWVFablkyODhHZmM3dTJsSDl6ZGpGNUplS2cwUWtMRURqVV8yaEdjUW52aUQtUVkwVnpTUUNjQktMb3RZTDVXNElMY1Ewa3ozY1ZMVHB6YjkyVmR2QUlxRjVQM1I1cG9RZ0M5WjhuNm8tcGIxVFZFZTE3SFhRWTh5QkItOXg4NTZtUlR6NVBFR9IBnAJBVV95cUxNX2tkTkxSWnhweWtIbzZndllJNEN1amo0T1BFS0FhanR3dW92LUJDTWVNRnJTOWhhaUM5RzFrWW12cGtsajFKdDJFUGZkNzhCa21WWGRlbFlIb2JER3FPT3hqY1JTOHZ6OVRlNW5QV1l2RHVXTzZuMjM5c3ExcFdaRVdBdEl0TkZRUXZEbnhjNzJubXNnWVFablkyODhHZmM3dTJsSDl6ZGpGNUplS2cwUWtMRURqVV8yaEdjUW52aUQtUVkwVnpTUUNjQktMb3RZTDVXNElMY1Ewa3ozY1ZMVHB6YjkyVmR2QUlxRjVQM1I1cG9RZ0M5WjhuNm8tcGIxVFZFZTE3SFhRWTh5QkItOXg4NTZtUlR6NVBFRw?oc=5",
     "fuente": "Lucena Hoy",
     "fecha": "2026-11-04T17:20:00+00:00"
    },
@@ -874,6 +874,14 @@
  ],
  "polemicas": [
   {
+   "titulo": "Cargos del PSOE reciben con alivio la dimisión de Puente y esperan que sirva para \"remontar\" en la campaña electoral",
+   "enlace": "https://www.europapress.es/nacional/noticia-cargos-psoe-reciben-alivio-dimision-puente-esperan-sirva-remontar-campana-electoral-20261104195339.html",
+   "fuente": "Europa Press",
+   "fecha": "2026-11-04T18:53:39+00:00",
+   "partido": "PSOE",
+   "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261104195339_120.jpg"
+  },
+  {
    "titulo": "Críticas a Bildu por no pedir la dimisión de Puente",
    "enlace": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc0xhV1FJSlRfUk15R3B3T2FtSnRieGFpYkpJY09FaDBncS1EV01GbS0zSkxhZjBGbE02TGJ4aDZCbThHdGpiWTVmelhkZmcyYU45QWZMcXozWUFfTTJwdGxkajJoRlMzUzN6cEpPWFJHR1V2Qy1KTS1zUHRMc05QZw?oc=5",
    "fuente": "Norte Exprés",
@@ -899,13 +907,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSlQ5UE9yWWQyeFVlbi1XU3JxVlNScmRNS1VDaWl5S2xPMFZmcmM2bzR6UXRQTmtKMXlLdmJDVlFPVEJqZVA0WWk4V1B1RUZWQ3gzdkZwQm95STZyVjJ0MmZXMi1sQ2tGUzh5d2hPTFhHdHB3VlFLT1BPaEkxVUtnMFdnY0RZSUp5eGpGUDFTMVBmdWcwVWFSbHVGbjlOQTRWNktTUWxFZnV2SVRvUHNQUEhKNDdtSGdPdnVTSkFR?oc=5",
    "fuente": "elDiario.es",
    "fecha": "2026-11-04T17:12:20+00:00",
-   "partido": "PSOE"
-  },
-  {
-   "titulo": "El mensaje de dimisión de Óscar Puente a Pedro Sánchez: “Espero que no lo consideres una traición”",
-   "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSHo1Z3hiYUZqc0gyc2VWVUxtVkNOQ3VING00VEF2Y1l4Ym45MEtCT0dzaWdsWk9xdVFJZlNuenNGTHRYdHBfaDl1WFE1SWh3OWZpelQwZTlkRnNXUmdqLWVQLUU3T2U1bDBRdjgtMTBzTWZ5aWVGclNOQ18zd1VhVXBtc2hqSW15QkVZQ21hNmp0akQ3aFNUOGRZNFdxenFRM3NGVmNpWjN3cTNPS3NHcVFRYklleDVZQzZvNFhnUnZiaHJkMmQ2dHBMRkgzTXBPV1JuTldMNERQWVpv?oc=5",
-   "fuente": "Artículo 14",
-   "fecha": "2026-11-04T16:53:00+00:00",
    "partido": "PSOE"
   },
   {
