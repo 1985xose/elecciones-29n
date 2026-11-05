@@ -1,26 +1,33 @@
 {
- "actualizado": "2026-11-05T18:44:39+00:00",
+ "actualizado": "2026-11-05T19:01:51+00:00",
  "generales": [
   {
    "titulo": "Elecciones generales del 29N, en directo hoy: registros de la UCO, encuestas y ultima hora de la precampaña",
    "enlace": "https://www.larazon.es/espana/elecciones-generales-29n-directo-hoy-encuestas-pre-campana-ultima-hora-dimision-oscar-puente_202611056aec2d9b9a31a65adcd048cd.html",
    "fuente": "La Razón",
-   "fecha": "2026-11-05T19:40:16+01:00",
+   "fecha": "2026-11-05T20:00:28+01:00",
    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/06/25/1FF86774-4488-4A1C-A876-08FE76DCC835/96.jpg?crop=1920,1080,x0,y103&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
-   "titulo": "Elecciones generales del 29-N, en directo | Pedro Sánchez, sobre sus discrepancias con Milei: \"El insulto no forma parte de mi forma de hacer política\"",
-   "enlace": "https://www.elespanol.com/espana/20261105/elecciones-generales-directo-ultima-hora-adelanto-electoral-encuestas-pedro-sanchez-actos-pp-psoe-vox-voto-correo/1003744446770_10.html",
-   "fuente": "El Español",
-   "fecha": "2026-11-05T19:33:00+01:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11394932.jpg?p=w:1706/h:960&h=hYq0ZTTO"
+   "titulo": "Última hora de la política y las elecciones del 29-N, en directo: la UCO registra la vivienda de Ábalos, detiene a un ex chófer de Sánchez y estalla una nueva crisis en el Gobierno",
+   "enlace": "https://okdiario.com/espana/ultima-hora-actualidad-politica-elecciones-11-n-espana-directo-sanchez-reestructura-gobierno-crisis-urda-marcha-puente-20704510",
+   "fuente": "OKdiario",
+   "fecha": "2026-11-05T19:57:26+01:00",
+   "imagen": "https://okdiario.com/img/2026/09/09/propuesta-directo-espana-gif-interior-2.gif"
   },
   {
-   "titulo": "El cara a cara entre Sánchez y Feijóo, en el aire",
-   "enlace": "https://www.abc.es/espana/cara-cara-feijoo-sanchez-aire-20261105191926-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-05T19:30:11+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/05/1468848632-RT3vkKWuGm16upaUbobpdKI-1200x840@diario_abc.jpg"
+   "titulo": "Feijóo defiende poner fecha a la celebración de elecciones en Venezuela durante una videoconferencia con María Corina Machado",
+   "enlace": "https://www.elmundo.es/espana/2026/11/05/6aecc228fc6c83f6498b4577.html",
+   "fuente": "El Mundo",
+   "fecha": "2026-11-05T19:53:33+01:00",
+   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/05/17939011080092.jpg"
+  },
+  {
+   "titulo": "La Junta Electoral vuelve a permitir el uso del DNI digital para votar en las elecciones generales del 29 de noviembre",
+   "enlace": "https://www.20minutos.es/nacional/junta-electoral-vuelve-permitir-uso-dni-digital-para-votar-las-elecciones-generales-29-noviembre_7057881_0.html",
+   "fuente": "20minutos",
+   "fecha": "2026-11-05T19:41:51+01:00",
+   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2025/09/23/68d27f5b3f06c.jpeg"
   },
   {
    "titulo": "Las diez píldoras del día de la campaña electoral",
@@ -42,13 +49,6 @@
    "fuente": "elDiario.es",
    "fecha": "2026-11-05T18:15:12+00:00",
    "imagen": "https://static.eldiario.es/clip/39b62097-9dbb-43ec-80d1-94262c12b862_16-9-discover-aspect-ratio_default_0.jpg"
-  },
-  {
-   "titulo": "Las víctimas de Adamuz urgen un pacto de estado por la seguridad ferroviaria: \"La seguridad no puede esperar a las urnas\"",
-   "enlace": "https://www.20minutos.es/nacional/las-victimas-adamuz-urgen-un-pacto-estado-por-seguridad-ferroviaria-seguridad-no-puede-esperar-las-urnas_7057738_0.html",
-   "fuente": "20minutos",
-   "fecha": "2026-11-05T16:10:07+01:00",
-   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/09/06/6a9d7d7476d8a8-59112572.jpeg"
   },
   {
    "titulo": "La Junta Electoral permite tachar el nombre de Puente de la papeleta del PSOE en Valladolid para el 29-N",
@@ -75,11 +75,17 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "El cara a cara entre Sánchez y Feijóo, en el aire",
-    "enlace": "https://www.abc.es/espana/cara-cara-feijoo-sanchez-aire-20261105191926-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-05T19:30:11+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/05/1468848632-RT3vkKWuGm16upaUbobpdKI-1200x840@diario_abc.jpg"
+    "titulo": "Feijóo defiende poner fecha a la celebración de elecciones en Venezuela durante una videoconferencia con María Corina Machado",
+    "enlace": "https://www.elmundo.es/espana/2026/11/05/6aecc228fc6c83f6498b4577.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-05T19:53:33+01:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/05/17939011080092.jpg"
+   },
+   {
+    "titulo": "Albiol pide a Feijóo que mejore las carreteras catalanas si gobierna: 'Va a tener mucho trabajo'",
+    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSkl6NS1CQmx6RnZTRlVCRFFmM3NSb09fREVFOF8xQXdxQzlleHJPUDNPNEplNUdDYkdxeGNVTmNZRk5VMXhIbDRNT0R2UWk4OGpMN0dYcTYyMzBGTC1CV0p4U0c0RnhoV21BTlJOdFlwdEtPVlU1ZE8tc0JZSVJVZ0hBekN1djFFT19Kb2N1RGdVTUV0dlJmWkl0Mm1rTmt6bGttcnJBZVdPTmxWVVVXcUhWc1hFeDc0Tm1aMTdnYkVMbWVkNUE?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-11-05T18:44:58+00:00"
    },
    {
     "titulo": "Sánchez reclama explicaciones a Feijóo por el presunto intento de soborno a Koldo para obtener información contra el Gobierno",
@@ -95,13 +101,6 @@
     "fecha": "2026-11-05T17:55:28+00:00"
    },
    {
-    "titulo": "Feijóo defiende poner fecha a la celebración de elecciones en Venezuela durante una videoconferencia con María Corina Machado",
-    "enlace": "https://www.elmundo.es/espana/2026/11/05/6aecc228fc6c83f6498b4577.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-05T17:52:20+00:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/05/17939011080092.jpg"
-   },
-   {
     "titulo": "PP y Vox cambian el guion de las Corts para debatir la ley del suelo el día de la huelga general",
     "enlace": "https://www.lavanguardia.com/local/valencia/20261105/11677027/pp-vox-cambian-guion-corts-debatir-ley-suelo-dia-huelga-general.html",
     "fuente": "La Vanguardia",
@@ -109,19 +108,26 @@
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/05/6aec99eeef6f4.jpeg"
    },
    {
-    "titulo": "Feijóo refuerza ante María Corina Machado su apoyo a unas elecciones presidenciales en Venezuela en 2027",
-    "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOWVGUFpnQldVYWdPQXRJMnVFc1B3SW9JczBPeXF3NW14NmRUVzFZZmVWNjJ3WXlkM2RIQlYzY1VDRGJoZjRNcS0xQm5WcUV6bFdtdU8yclBRbm5OamtlVnE5U2h1d0Z6emY2dlNWXzFubl9uaVktVFQtb19zSEhUTXk3ZE9FbU1oVHU4anU0SmFrNWo5TXJhQlBURXBzeU9BaGd5SWY5QlBYLUxLdHFyS0ozU1ZVbVBTdlpsckV1cFd2c2NyMDZ6ZVhRb2dEY2NlYWxGY1o1TzFyQm81aGxRNw?oc=5",
-    "fuente": "Vente Venezuela",
-    "fecha": "2026-11-05T15:35:24+00:00"
+    "titulo": "Feijóo y el tsunami azul",
+    "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMWc4dlZIcFprWVZmRlZvUlExc2NzZWhKbW5mMFB5cFB2V0V3OTNsV0tNeVdlcjJnNG5HNnM3T3RmaWhrQ2RVQzl4OWhScHZoREZnbDRYNFpGeVY2T2tXWGRtbXB2bGNzMzRpOU1HQ3UtM0xEQU5qbzlxQ1BhQm1nMk1WN1dGZUpWazFrTDdkSl9zZVlIUGUxbnMxSXZVd3FMYmczVkxhcDJ1bUFxb0FZeNIBsAFBVV95cUxPM1c3M2dFN3ZfN0l5UndwQ3VfYmpwYjNPMDd6UUZFalBhdjFCMm9rV201aFZlNzdBc0lFNWI2TS1KWGFiZWxHejhRT0dJQzVyVW0yc1ktNGtjeFhGRWFGcVo3WnM1M0NMQl9OaG9YXzZ3TnAxS1E0dW1abVhQYnhiNnNDaDZYa3lqUmtTSWpOclFmQ0x2UnRsOFQ0Tkl4RERuVVRZeFl2WkFTQ0o2c2htaA?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-11-05T15:46:32+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Sánchez evita finalmente asistir al funeral por las víctimas de Urda y envía a Cuerpo y Tolón",
-    "enlace": "https://www.eldebate.com/espana/20261105/sanchez-evita-finalmente-asistir-funeral-victimas-urda-envia-cuerpo-tolon_477849.html",
-    "fuente": "El Debate",
-    "fecha": "2026-11-05T19:37:34+01:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/04/6aeb81ffaed5b.r_d.1251-687-0.jpeg"
+    "titulo": "Última hora de la política y las elecciones del 29-N, en directo: la UCO registra la vivienda de Ábalos, detiene a un ex chófer de Sánchez y estalla una nueva crisis en el Gobierno",
+    "enlace": "https://okdiario.com/espana/ultima-hora-actualidad-politica-elecciones-11-n-espana-directo-sanchez-reestructura-gobierno-crisis-urda-marcha-puente-20704510",
+    "fuente": "OKdiario",
+    "fecha": "2026-11-05T19:57:26+01:00",
+    "imagen": "https://okdiario.com/img/2026/09/09/propuesta-directo-espana-gif-interior-2.gif"
+   },
+   {
+    "titulo": "Sánchez, a Milei: \"Los presidentes estamos para unir y el insulto no forma parte de mi forma de entender la política\"",
+    "enlace": "https://www.20minutos.es/nacional/sanchez-milei-los-presidentes-estamos-para-unir-insulto-no-forma-parte-mi-forma-entender-politica_7057871_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-11-05T19:20:49+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/11/05/6aec4252bfa1a8-80794271.r_d.872-641-10001.jpeg"
    },
    {
     "titulo": "Sánchez, sobre la dimisión de Puente: \"Fue por empatía y para restablecer la confianza en el sistema\"",
@@ -129,13 +135,6 @@
     "fuente": "laSexta",
     "fecha": "2026-11-05T19:01:36+01:00",
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/11/05/89AA054A-8856-459E-8F73-DBDC3E690351/presidente-gobierno-pedro-sanchez-rueda-prensa-posterior-xxx-cumbre-iberoamericana-jefes-estado-gobierno-galeria-colecciones-reales-5-noviembre-2026-m_96.jpg?crop=3744,2106,x0,y194&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Sánchez se desvincula de los detenidos por el caso Koldo: “Ninguno tiene nada que ver conmigo”",
-    "enlace": "https://www.lavanguardia.com/politica/20261105/11677162/sanchez-desvincula-detenidos-caso-koldo-ninguno-ver.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-11-05T18:22:44+01:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/05/6aecc1fc09415.jpeg"
    },
    {
     "titulo": "Ibarra propone a Josep Borrell y Cándido Méndez para liderar el PSOE si Sánchez logra un mal resultado",
@@ -165,6 +164,12 @@
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/05/6aeca8ba7307b.r_d.1762-842-0.jpeg"
    },
    {
+    "titulo": "Abascal llega a Teruel en la precampaña del 29N y Vox se lanza a 'llevar la prioridad nacional al Consejo de Ministros'",
+    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOekFaWTI5UzIwN3RJbEtVaGlNSXVocVM0OXJYeUhXeHBMNUFFbWltYkFKajZoamFwNkJRLTBxU1RiS09ETVVSLWtRODVNbnI1a3M0UkQxVnhYd18xNTJkM0dncUpEZVpsWVhyN2x4aFk4U3FNX0NyOGZ2dTgwU1NEczcxeWI3TFpQejZMSkF2U283RmlDN25jNEJpUFhKTENxSDBvN3YzYXNRVUpNY3JCbVFCclRZQVJaSnZYTkFTQVFzWlZWUlpxYU45dTM1MmRP?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-11-05T18:43:49+00:00"
+   },
+   {
     "titulo": "Las elecciones del 29N llegan al encendido navideño de Castelló: Esto es lo que ha pasado entre Vox y Compromís-Front Valencià",
     "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPRmRqdGcyOEtrYk5nZXRRXzN4OEpwQi02dWNieTkwaGpVdTZRUDRvWFVvSEZoVjVkNmhac0dXb1BpdU9hcWpUeFNUVXh5SVBWUGkybmxoXzhxdTVOY0dRSUxVV0RpZl9mWXJUdVVKSzBUSzJLdW1SM0w5TkhNV2ZmdV9qbUdqRlRrNVFZR0VteXktRFIxVmZwOVBVR1lJX1FKS002S0sycURHUF9xNHFfMWRsanFTV0VRUHZNVkFaamdob3g4TW9Zc2c3VW95MlJRTkpFTWVmLUh6dWFZTHlqem85c0pEWlA1LXV1YS1fTEFVRjJoNjNlUlNlb9IBgAJBVV95cUxPNlh5NVVBRGJ6cTVkV3NnVld1cnU4Nk9PMGZ3d2JWeW9CemRmZlVfV1hjT0ZHMVM2MFdHOVRmeW8yMzJFOWltSlptT21kUDlBR0FGbHF6QmlxRnhtTklTalVKRlp6WE5YUmNIU0VjeGgtU1g4Yk1YN3JJUVpKeG9CTExUTjZ3ODVZQ3o2QURnazhwYng4T2pzQ18zOXJ4dEFLaVd6cHVfbGtlLVRNNkp4MVVqaHpYci0wc0Y0Uk5raFU3VmdEZWdhWmxYVW9TM2g0UHREZ0dFUXU4aF9aaC1tTHdOb2p1NVd6dU1RNHItdmpWMXhGaThZeDFUcktEMk1y?oc=5",
     "fuente": "El Periódico Mediterráneo",
@@ -188,12 +193,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTVRMQ05UdUpSMlVaeVY1c25MeEF5VGtJVmlkYUlmZW1aTFFNaHJ5aHAzOThFTGg2NXhsQkZHLXJDcDQyTDZGN05fblVNS0QyblB3bnExTWF0MlNDdVBwUklEZGh0aDVCd2dnR1Q0MVJSekFEX01menNKNkpZT0J2YnliZ1NIZXA2UC0zbTZnZ0JLUVBCaXVPbWJNQ0gwcmZkX08zOUNKZ3hBS2dXa3FWbldUay1uRHc2aEZWa2FLczB5Z9IBxwFBVV95cUxPUFJMcVpqdTNtb1psRVlRWkE1TXdNa1FGVVgydl9ERmdKXzU5Y2t1WEpYZlNTVlhRSjZJTjRxb2JHYTUyNjVNa290TEhodUFGNnhGaXdOOUNlRW9WZDJuX0l4aUJRZGg0Q25UT25qLXBiN08zeUh5MXF2TV9Malg4a1RKbHZ6UmVWN2kybjA4N3VtYjFnZjk2cTNYMXV1X3FqeXpVQ2R6YllqNFBQZm91QjZESTJ3b2VoVnc5RHM1b0JwdEFHSFNJ?oc=5",
     "fuente": "El Independiente",
     "fecha": "2026-11-05T15:53:16+00:00"
-   },
-   {
-    "titulo": "Santiago Abascal protagonizará este viernes un acto de precampaña de Vox en Granada",
-    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRjBjalh3ZXRWbzEwR3MxLUs4ZDFHbUdoSGRwSFFxc3Jad3p3Y1RDSkxzclMzS3Zyd1o5Wm9WUDZ2WFZlZGFHLTNfMWVSekZSRTZjQl9KUlR2WU1wU0N3OG9HZU14bTg2bnR4RGQtUTVpc1lVQl9DclA1dFFKcWY0QVVMeHcySGd5bjhCWGpTcVJYZm9GRmNfUlRLNUxCT3Axa2N0a2owRmVCTVRoczFDUG9kZ21pSDVZMThrZlBJbzh5OEk?oc=5",
-    "fuente": "Granada es Noticia",
-    "fecha": "2026-11-05T15:30:06+00:00"
    }
   ],
   "Sumar": [
@@ -236,13 +235,6 @@
   ],
   "Podemos": [
    {
-    "titulo": "Contra Ayuso, Rufián, Belarra o Almeida: los escandalosos tuits del exchófer y \"amigo\" de Sánchez",
-    "enlace": "https://www.larazon.es/espana/ayuso-rufian-belarra-almeida-escandalosos-tuits-exchofer-amigo-sanchez_202611056aec8fbfea8d8979977a3551.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-05T15:25:47+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/05/0BD3364F-4A8B-444D-9F49-7FB4CFE68D62/publicacion-cristian-corvillo-jose-luis-martinez-almeida_96.jpg?crop=742,417,x0,y257&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
     "titulo": "Irene Montero ataca la subida del SMI de Yolanda Díaz y exige 1.800 euros: \"Con 1.286 euros no se puede vivir\"",
     "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOcjhqSjhBMUVsZmItSThOZ0dvRjFRYUZKeG93RGRfT1BmdXZRU1Jua0ZBYmh3OEVTOVR6SV9Ka1VPTjJ4amtZTjBHOHBYZ2pySUxxdkxKemN1SVpqV05odWRZT3FEaGRMNjVoaDJ3NUg4djFvdm5PeExZaGlzNnVkU01UaUhwZ1ktVTJmMTgzMjF0RDdNYzNTbUpEMmFPRk5FRUIwM0lyNmk0cjZncDhYQzc2eWR3Z0ltNDhjZWo0S2dnaS1SR2QtLW1yYVNmemVEYTZYUXk1Z3k1QlRLbmszaXVYTkxuN2dxLVBZUnlkcFpQMkhVLTBYbVFUY1ZoZ2xldmc?oc=5",
     "fuente": "Libertad Digital",
@@ -273,6 +265,12 @@
     "fuente": "El País",
     "fecha": "2026-11-05T13:36:02+00:00",
     "imagen": "https://imagenes.elpais.com/resizer/v2/VGVDHQ7F65LDDK5Y4BM436AFVQ.jpg?auth=aae1e01bfde78323a0ac2736b8d832e54029d73288daaf4c5bbfadc35d17c3ab"
+   },
+   {
+    "titulo": "Irene Montero considera insuficiente la subida del SMI y exige elevarlo a 1.800 euros",
+    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU2hfdDAxWExOVVdWVU82R3p3aHBxbVBBNEU0Yk52a2QyN01kYVd6SGdyNUw0cy14TEszTHo0QVpuMms1NGFoSl9lUTgyaXkwbTdMRW5zbml4NnA5VDd5WjdPMkdHWVo4WWR6R294ZDR5MW9UQmM1WDRZYzUtelByUkg0UzQ3Z080UVdHMmJSSUJjWUpMSTJnODhneVRGdTRh0gGmAUFVX3lxTFBjeTF6YXpsMjl0SFhJMTdId01uREtwaEg4aFVyaHZ6SkdTMWdTN3A3VGZ6bnJjYjlnZ1hqUHBkWG1naVR6OTk3dW5TcEdDSEpsNlhZdnAxTWZ2VlFpY24tZUk0emJnZFY0Q1Y5VUh5ZnNiZHd0VjZyeVFaRklWU3FDQnRwdFBINTNXX2ltU0tic1NIVHRvbkkyYXhicDQ3V3VCSDlTRWc?oc=5",
+    "fuente": "The Objective",
+    "fecha": "2026-11-05T13:12:07+00:00"
    }
   ],
   "SALF": [
@@ -331,6 +329,12 @@
     "imagen": "https://theobjective.com/wp-content/uploads/2026/11/rufian-en-la-septima.jpg"
    },
    {
+    "titulo": "Rufián acusa al PP de mantener vivo el entramado",
+    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR1kzc3NxdG9ZNUE1V0Z6VHNEd2dSRW5VWDRZUm5Fc2lCYkV3ZUVWU2NBMkVnYWhRbVZTcFJKcHlyN2RMOXNMd1pxZTlxWHpfNmZjM1RrSjJ3cmVNR2pvXzlEOURkZkJEVUI1bWZRWmxZV251NU1iNnJBaHVCZF8zaFF3M21QZjdCb2NhcVlPN1dlV1J5WUozc2ZnUzFORXZDQ25seGJLLVlwNGZobnkxcVFfT2pBQmFjREp0ajdFdDFBbEliNjRQUm1tMVlfQmRo?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-05T16:34:00+00:00"
+   },
+   {
     "titulo": "Rufián espera el 29-N “repetir la misma aritmética parlamentaria” de la última legislatura, pero “con más fuerza”",
     "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTThJS04xb0puNDVHc2lBWEhHZi1XcmlJcmpJTkYxS1FIcVBMRW9vcHY1eDAyaHNZdktqY2JFd1VyaXVTV21iNktLNmtGak90Ri03VDFwTlc5Y2gzVXBrWEVOcUNXcl9FZ2dBREtCb1Y4TU5xam1ndW1jSHFiRUVOaUNJcmtxeGFBemtGbzlxWWJuZ1YtU0VmdS10VGk1ZkNJVm9BNlBIQVgzMDJMVmVwSml4OUNBZGNQVDlXVnMxTDNWeHVVNUNSS3l2QUhrWEdqbXk3RA?oc=5",
     "fuente": "Servimedia",
@@ -347,12 +351,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWUIwdWI3MTVPQWZCcWlSUzg1Nk5VRDM2Rkt4MWJtM1hwR0gyanYxNGZrT1JMZmF5WVdWcGdNVzNOdllrLTM1bGs4T3QxdUo0cExDcGpIVU1DdTYzSFlKcC1qSHFkMEJiQldYemtGYnpEZF9PdmF6WHZUMGpVQW1JYWlBZVp3TTlFSXBNVENtTDV5dW50QnlQLVVDR0xYTHFjcjdQMWtSQ0pJRHl3V2hnaUhfZjlETURYbTNPS1pLWnJoa2tKMGlGVUo4bHBwaHRIRUgwNjY0MWR5d28?oc=5",
     "fuente": "PressDigital",
     "fecha": "2026-11-05T15:42:00+00:00"
-   },
-   {
-    "titulo": "Rufián ve la continuidad de Puente como ministro insostenible pese a valorar su gestión",
-    "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdU9jb2xUdzg1UDFBcWNLRkNDQUVmdXVGd1ZBN1NtXzNrS0NjSmdxd0dGY3kyUEVRZXhLSnZRc0k2cTBONzMwdDBDNmhPd0dhd1ExZm1fRTNsT3RVYzIzbjJjOFlyOTFqY3FidFNlcllvX2F3TG4wdExpNms0a3V1R25zcWtWZXJQVFlXekdfMENuY2RCS1RZNkRYU091dDBKZ3gwdmphWnhCWUJvbDJLaVJEd3NDR3RMai04ZTA4NNIBxAFBVV95cUxPdzFPX0dCd19fdENlRVBSSlA2X2J0NkdxLU82V0tuWjRMUFVMdzgzQlgwOTJUT2Fzd2xmQTlHOHFuczZQS3dDbUEtclpIUlBsYTdmcTRTYlRLRVJzYVN5QktNSEVEcjdNemQyNGJZMlhEZFFZN0RyWS1od0w1MTNnMnBraG9EUzRZNGY4ZXRwTnJ1NXF4ODQ4a2QzNGs1NXNqM2FPOUZwTVZoQ0lUTFN5elFQamRIOFhtQzRfMVNCWEFNVmpq?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-05T15:41:04+00:00"
    }
   ],
   "Junts": [
@@ -509,12 +507,6 @@
   ],
   "CCa": [
    {
-    "titulo": "CC-1ºCan reclama al Estado más ayudas al sector primario",
-    "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMEM0TkhJR1Qwbl82cjJ5THV4TWZhTDJQaVpJM2s4OVdwWjc2OFhfUEF4N3NZTnNKRUVFYWYtM190bV9zSHNmc2FZWlVhUzQxYzBTVnpBWjJ0b1dfZVh6SmxDcjZMc1YtU3p0TW0tb0NTM0ZfdWVGbDBadVpQNDV2NlJQXzEtcjRpZnZEam1wNXNZem54cEhlWWpVVHV2cm1aeG1YbtIBqgFBVV95cUxQT3J1MmpSTklkcXVybFlndk9acWJUTzFzZXFJZUsxM3hhYy11MFdmVG9qdGtocmJPNTk1ZTgxWGpxMndSQ21CRlhSODhVc3NtQUJ6Zkp3UWYwb29iNEJ0ZGNlTUZKaGtfNTMtYWVyMDNqR1dvSU5SN2t2dU5fbDEzSWl6a2VfaTNVSVh6LWNOd3p2Sl9EcE53VXg1T3BKRHYtQXZ1Nkk1RlNsUQ?oc=5",
-    "fuente": "Canarias7",
-    "fecha": "2026-11-05T17:32:30+00:00"
-   },
-   {
     "titulo": "Coalición Canaria reclama más ayudas al campo para reducir la dependencia exterior de las islas",
     "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOV3F2Z25iN2JndG1YbWdMOVlEdnhUMVY0YWRVbUtxZC03V0EtOVZnall3VmVqSC12U1lTLTA0cERoMlJENTJJQkh4YTd3TTc1NUtNVWM0VDJVbDdUNHFXcUMwbDFTMFdqaVVqRGZBQzRfdVJiZ2JOcmdqNUpRZWd2WXVDUHk3ME9lVl9paDZBVHFKdlRJamUzWHpCd1Z5U3FFRlVwYktWZkhyWVk1THN3Xzc4aThDMEVLeUpodEx0OUxvUUdPZmxydklaT2s?oc=5",
     "fuente": "Atlántico Hoy",
@@ -543,6 +535,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUE9VU2FwUGktal95UmdhcXZNQzRXSUlHVmo5enRTY1ZXNkdHUWE4N3hvLTlCNlZWdDhyb0tlOW92M19naFFfMXlJaEE2UWw5VzE4R3RZSFZmUVFXMHhtOUw1enE3LXdfc3JWdktXMXZwbzF2ZWprZG9MYmQ2MlAwWldGT0dGRndSSENBa1FpNHBTU3l4WnFnRlQ4cE9XZTZZcDctVnhqb3IxY1VMWjRnY0oxUEVvS2FOT3dCZi10MEVBUzhUeU5UVjkyMXZtaHFaVG9mbkRhX1RUOXhhQ1JOTw?oc=5",
     "fuente": "Atlántico Hoy",
     "fecha": "2026-11-04T14:38:00+00:00"
+   },
+   {
+    "titulo": "Francisco Castellano se suma a Coalición Canaria para las elecciones del 29 de noviembre",
+    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcVZpVzA0UFFVOExObDdQdGZqZnJSOFFsS2NoME5fMUN2U1RBU2VxeTZkMGJnZGozNmZxOVNwU1lEaXRYdVllWFNBdlFqQnk2dk0wdzdYc185LVJyQmRaWXRpQVk1VGxEUXlrZWxVM0hnR1JmTHNZU0lNQ2IwdnhoTGVvNmJ3OVAxYm9QejVFRi13NDVtMzdPZnc1a3h6REJYVGtSbGtUMkRQZjI2aU1rZ1J5UDJnT3FJRldLcFlwQkdvamRQeXRvTnQ3Vjlmd9IB0wFBVV95cUxOblNzT01XYzgzMEdVYmhjazdEU295Qm1CbzF0WW1CTm43ZHBWNFp1dlBwWUdodVYzY2ZhQWFyOC1McEFGbktKUDBHd1JGTlQ5V2JrdWNfN21kUWhYMi1WUnNWUHg3VHZVWVZhTTZYQ0FVZzlyeWQzNDNUQ3VZLUNXQVZQNGo0YjFwcEtEQzYtSDkxT1pwUWd4eHNMUGpaNXZKcXlkNlFKclVEZkoyN3gzM2t5TlppdkVMeDJQV1NnUGpGbzAxMlVqS0FDclVGYkFvTDNz?oc=5",
+    "fuente": "Canarias7",
+    "fecha": "2026-11-04T12:55:50+00:00"
    }
   ],
   "UPN": [
@@ -557,12 +555,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSnhrN0wwdFg0VkZ3TDRHbzUtaC10cm9YR0RKU09qdE5aUzY3UU83dVVVNTVpYVJ6VU1SeUdsMW43UjlNVTVtWUJmdlRQbDBkT2dnMUEzS3ozUmRuLV9wZmtvaGpveXBVdzhXaXViVy1uTExEVXFUMkJMcV9rZUF0Y2QzX3ExUDRKb0h4Qk8xU2lYWG16ODhnUkRjMmJXV2Q1WDVmaklFd1Z6RVFXdUVKNnB3ZTd1YTVrOUY4SEl3bXV5cTdrRERtRDhUWDc4SGY1ckpEM0tYekl3czMwOGwzUUp2NUZ0VEwzWDJyaUJVTUc2T1JHZTNj0gH8AUFVX3lxTE4zY0Z3UVpfa2RWTGZxODRQTWJTSFZ5b2dSc0hoU3k5dHlxbVpiZGMxYlU4ZDV2a2oyUG9HVmdlOGpwMnZ3UmxPRThrcEs1b2hPSW1pai1HWWMxaFhxYldOamswUjY0TjlCU3QxOW55N29nZ3lESzRRY3ppMnZGekprTmlaTElQUVZJYWZOS25ENEVHNGhDQ29QQlhlOWg2d3JXZmhKTzV0aXhKbTRHVzZZZE50VUpnbVRxMHU5a3I2Y3M1RnVyZnNoMHBxdG43Mlg0SXNXTmtfU0lFYlJYSTVqUDg5NnA3NzlrbmoxRVA2TWFFaXFMNkZXVVFRUg?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-05T09:54:38+00:00"
-   },
-   {
-    "titulo": "Los Servicios Jurídicos del Ayuntamiento de Pamplona consideran ilegal la comisión de investigación de Asiron contra UPN",
-    "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNDZpRHpmM1hvZW93dUVtMVRMZnpDNXVNUlZwMVY2bzFGR2lfTU9xaC1aeC1zNDRuUFdiZE5RX2hpX3h5bDd2eTVaU0dwSUZaUl9XUU1nZ3dUcTlkWnJ3RHpaMjB0UC1SV1NieElfNHN3ZlBlTWlYLWtlTXVJMzlVejhiN1RzX1VYUVhMTnJtTTRaRTBPN0NoUG1RUGptOWRrVGFac1BwWlN4UElxNlJxcnZwb1RMNWNoQ25KOVJiZmlXZkVwWTBOZ1VMbzd1U0dXeUMxaVZKNTZUNkVyc2s4UWNCZDhQYUdNbDFLQlVSWXrSAfYBQVVfeXFMT3d6NHpsLW1RWTBFblZsQktFdUt3elBGMGxqeWN1YnpGRGVZbldhUndwMWMyNEZwakJUUGZsa0gzZkdxYS1sa3N6VDZGOEE2eXdVZ2tiTFZSWFJBWUotc3pCYzVHVGVPMmQxeUh6RDQwejhpT2NhOXZ6N1hFSC04TmNlTHEwcTdqcFB0VGh6NFdaaV91UmwxaF81SkgxTWVqYll6Q0V3NnFBM1ZiTGFtWlpaRTk5eXBjcGg3V3ZkSmMyOU4tVVdORUU2WlZCdTQyYWNqWk8wMkYxbkJ4SGlpQW1jaVlXelRGeldrU0pOMGdQRkN5UDRR?oc=5",
-    "fuente": "Navarra.com",
-    "fecha": "2026-11-05T09:49:35+00:00"
    },
    {
     "titulo": "Ranking QS 2027: UPN destaca entre las universidades peruanas con mejor reputación ante empleadores",
@@ -581,6 +573,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZXVudVRWVTUyNHhMWm5lb0ZPTDZyU1BhenpLbTRqREZITlBSeVR5RTZlcnI1VjFlVFV3XzN0Yjk4NWI4b3RCWGpUUEQyM28yaXYtWXM5c2NkMkE3RmtSYVFKMThVTHVzVDJQVEx2VUlyNWdwSTRfcFlJZE1xa291UFdGcDVXbl9kWWt3djc1dnp3bFJGYzFldXA1Rkw4S0JZWmoyZUI0NVpwaVZWR2tzOF9WOU9qUG5mS3R0LUtXN3MwcWdFT0RaN0dQd3JRME10Nk9rNGlIbnhHT1hvcWRJ?oc=5",
     "fuente": "Pamplona Actual",
     "fecha": "2026-11-04T11:35:05+00:00"
+   },
+   {
+    "titulo": "UPN pide retirar el expediente del PEAU del Segundo Ensanche que considera \"un despropósito\" con decenas de errores",
+    "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOeDBHeFQxRWQtRUkybUJzREpDY01tZllzaHJTcXZhaVNGbmF2UGU2RnZQRzdFUGU2VlpwSHk0UGN3MXNNQ3pzMjlkTkJQU1pHdUtYMV9iQWFINTZwb3hLbl9EaWNhV2cxS2RFdzB6b3FURnppV0ozSUpTcG5sbHZyWVgzNVJ0NXhMaG1fSFVGVHpwcW9saGllTGFmaHNfUGZCR2wzempza1pqclJ0bFFBeWJ5TUFDV2FQd2xwS0N3OXpVNUR2b1RWd2o2LW9ULWEwLWExaVl1VkgyYklMMmJiZktmbHJpQTN3MVZfNDBR?oc=5",
+    "fuente": "Pamplona Actual",
+    "fecha": "2026-11-04T11:15:26+00:00"
    }
   ],
   "AC": [
@@ -890,6 +888,13 @@
  ],
  "polemicas": [
   {
+   "titulo": "Abascal exige responsabilidades tras la dimisión de Óscar Puente \"Sánchez tiene que ir al banquillo\"",
+   "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdDNLQ3VOczFXREdOdzZpNlhKcGs5TFdjVS1Gdkl1cVBEdkQxM2JpNHhwMnY0RGtGMmNXek5ucDVRQjhhaUt0QnE0aXJROE0xNEl1WHBka0hRV1hCYzlpdFB6WkF3a3Q0R01BV3YxOEZndUdaek9zZ2laRnVrTTcyempBZjdpZXdzdzh2TFQ0YXdmY1l3dEVUbWVScGU2OFQyclFaaWQxOA?oc=5",
+   "fuente": "Yahoo",
+   "fecha": "2026-11-05T18:30:02+00:00",
+   "partido": "PSOE"
+  },
+  {
    "titulo": "Estalla la polémica con el acuerdo de PP y Vox para dejar en mínimos la Zona de Bajas Emisiones en Zaragoza: \"Lo miraremos con lupa y se actuará en consecuencia\"",
    "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZWR3M09seVI5Q1d1eVRicjRvb2tRb2o2V29ra1RSVGxyWDhuSnNVUU9ENl95LUd0U0dXVG5rSXlpbXpkRzc3NFkxZ2FubHZuQlI2TlJXLTlvMEJYMGNVbDVpR0NKYVIyZURfT2lZcGhFQzYya0h3ZXN4Z1ZHTXk2LW5DQ3Q0MUVRdG5QTTRxWkNfSzFNdzFtb2hXZWQ0dUJpMk4waNIBqgFBVV95cUxQWTlVZGVyU3lzX1FyZlFSQ2c1c0NTd281bUlLaGZ0Z2NhZW1JVEt3UFJ3eG1pY3p1WHA2eGZqVXFRNHFyZmdXNEozc1NQQTRwaDJlV21sVVpBRU5pTmV2RjBjY1U0YW16NlYzWFcyOUdYZnpnZkRtY0JWRzRkVnQ2U2xYcVVPWU1vUm1vT3dxMXBtUU5ReUNIa3FJeUhGazVDbWF4MVc2T1U5Zw?oc=5",
    "fuente": "El Periódico de Aragón",
@@ -932,24 +937,10 @@
    "partido": "SALF"
   },
   {
-   "titulo": "Abascal exige en Albacete la dimisión de Sánchez tras las nuevas actuaciones judiciales del 'caso",
-   "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcllNcnhVbTN1TlFVTm8xWnRuUWlzcmY5Y0ZHTVdpV0o0V2pzcUJxMlBNOVdkTjgySnJBZGlyRHY1S19pUGs2NWV0dEM3RFpYYTFKYjlZS0xYTWMwU3YxdjFmalZmbkJqREJJdDg5UW45VG5fNE1PNVJSajhrMVEydll0bWNrekdGOGl5dFc2TTFxemViSDMwSmFabFlqb0tLemN5YlVGbXRlaGpiZjgtcHYxODlhVnJMM3B3TVZEcknSAcYBQVVfeXFMUFl1ZzJueGJkRVN0ZWJiNzJRMUVoZ09fcWt2U01XUVkzSUZOQlJiMDc4NnBpNkI4VU5RZEtqdHBUN2JsaEk1X21Oa1ZiWU4wS3FTSEs4UlhEN1VyX2xzaWZmRTZ2cVY1aU5Vel8wZUtrdk9Idy10Tmt6SlNuQ1JSQVVxZnc1cmJaLWdncThGVTdaYzdUdEZKQkY2a2NhdDR3MnU1eFdSQ19PUmU1NU4xRllXWHhmU3ItQzc1amhQdjMxVUNrNlJn?oc=5",
-   "fuente": "LaCerca.com",
-   "fecha": "2026-11-05T13:39:00+00:00",
-   "partido": "PSOE"
-  },
-  {
    "titulo": "Polémica en Zaragoza: acusan a un concejal del PSOE de falsificar acreditaciones para las Fiestas del Pilar",
    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOSkcxNmJQSThzbXBkU0I0RDBYWDlFdHVfVHVpVmg2Z3NFbVZjRDlpVGo4cktnOVZUWDhxeXo4VFZ2MVpWQ0RsZlBCREprNmRaaVo2ZWlaZXFJdE1URnFBZnh5ODZUcDltLXc5WlU1NXJSci1SV2Q3YTJsa2NrOXJXVUR3cUgxbjk5T2pZVjNfY1gzdk1BMlhMZDlBemIwampQRWJBX1BCUFpVYjB3LTViclhreWNidDlrQjdpdkJISXUyb1VsUHhLUGNDVm5SRlQzeTR0czd0NTFLZWYyTG1fb1djS0J2XzTSAewBQVVfeXFMTWZ0dXgwSkVBNll6TzhBOTNsa2VmVVlaXzJjemphZDFMU3gzMUlVenhsOHE0YTJvUDNfdVVqdmRXaTFfdTRKbTd0dUxJUjJQZ01hSmNpbk9FT0ZJZnhub0RMeURNS2ZINmZ5NGlPZ3FOLVdqVWNxbzdweVhMdVN4XzJDcGxPOGVxeGdwcUtPTk9UZ0hBSi1RWWJoSFRUYWh5WEt6UjI3V0pZdGNQMHRoVjJWQWp0Wlh4MXZnY0xXSml3b1hHbF9EQmNRSjNTRFlfVWh1X0JUam5jVk9zZlpfU2lyc0d3QktBQ2psWXk?oc=5",
    "fuente": "Aragón Digital",
    "fecha": "2026-11-05T12:03:06+00:00",
-   "partido": "PSOE"
-  },
-  {
-   "titulo": "Lamet, sobre Sánchez y el PSOE tras la dimisión de Puente: \"Le da un argumento para taponar un poco la herida, pero no taponará la hemorragia\"",
-   "enlace": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQYTZHaEJwbkxyY1BaSUota0wwdWpqeXQ4RGsyQXZEeU9lNHNnM0V4WDRNYVlZaVJrMlp3aThWUUlUc1JXTXVuMGtsYkJUQ3l1cE9kdjM5MDNTYXpMMm9abXNQTE9jX1pfb1k5c3E2WTZLS3lENDhzZFpqRlFoNWtJc1B1SFFZaXcyQ2gyTGFjWnp5MVRtcHdpRlpOeC1tNzdLc0pJZzRQRjdpN1c2R3FQeVlHSHFsWjN0Q2lHaVhrMFNCZmQzSHBjcDB1U1BjME1RamtLZmFlWmRCZE1ld3BwbHItanM1RzVvallWeTBhd3V0bHhrd3U4ZGViM210bDVQaVNUZ9IBhAJBVV95cUxOUDBLNFRFYkxZamQyeXZZbGh1cFM5WmNtcEtENlhMUFZ6YUtTUDB1c0RDTG9lQUdKUE9Uc2dDRWpzZi1qcjJHaU12em1acmVEVm9MdHBxMS1CXy1iWE5GYnM3YldVdW5POEFPcUFOdEZ4T3BEcjNhRDlJOUhVbGVzdTBQblIteXVzVlBUcG5RRGJZRFlQYVNWNWpNSmpQOFc5cklVMGhXT29hbEtKcXg0Y19veEtkeFc1S2JqblVlWFEtUEhQYmIxeG9sbFZINFUweWJ5V29VRTdVYi1NaXpCVDVpajJMM0Q1eGVyaVE3LUpRUUFBdmVGVGFhRE1DVTBYbGhlVw?oc=5",
-   "fuente": "LaSexta",
-   "fecha": "2026-11-05T11:45:57+00:00",
    "partido": "PSOE"
   },
   {
