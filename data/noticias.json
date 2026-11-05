@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-11-05T02:26:11+00:00",
+ "actualizado": "2026-11-05T03:01:58+00:00",
  "generales": [
+  {
+   "titulo": "Madrid aporta una treintena de cargos a las listas del 29-N",
+   "enlace": "https://www.larazon.es/madrid/madrid-aporta-treintena-cargos-listas-29n_202611056aebeb94ea8d89799779691d.html",
+   "fuente": "La Razón",
+   "fecha": "2026-11-05T03:36:04+01:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/04/4B661DC2-53C3-4360-8510-9D2A2E1B66AF/madrid-aporta-menos-27-cargos-listas-29_96.jpg?crop=4400,2475,x0,y432&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
   {
    "titulo": "Puente no descarta volver a la política si se debate el relevo de Sánchez",
    "enlace": "https://www.abc.es/espana/puente-descarta-volver-politica-debate-relevo-sanchez-20261105012747-nt.html",
@@ -14,13 +21,6 @@
    "fuente": "El Debate",
    "fecha": "2026-11-05T00:02:16+01:00",
    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/04/6aebb6a7a7446.r_d.690-290-0.jpeg"
-  },
-  {
-   "titulo": "El PSOE necesita una derrota dura de Pedro Sánchez",
-   "enlace": "https://www.elmundo.es/espana/2026/11/05/6aeb73cbe85ecedd468b4581.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-11-05T00:00:21+01:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/04/17938156679714.jpg"
   },
   {
    "titulo": "La dimisión de Puente vuelve a cambiar el paso de la campaña",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "El PP recordará el abandono del Gobierno con Adamuz para combatir la nueva estrategia de Sánchez",
-    "enlace": "https://www.abc.es/espana/pp-recordara-abandono-gobierno-adamuz-combatir-nueva-20261104012742-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-05T01:28:08+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/04/1519533108-RO9wQ2LXgqZQxCK8ZKOM0pJ-1200x840@diario_abc.jpg"
+    "titulo": "El gobierno de PP y Vox en Mallorca sanciona con 22 millones de euros el alquiler vacacional ilegal en tres años: «Tolerancia cero»",
+    "enlace": "https://okdiario.com/baleares/gobierno-pp-vox-mallorca-sanciona-22-millones-euros-alquiler-vacacional-ilegal-tres-anos-tolerancia-cero-20701421",
+    "fuente": "OKdiario",
+    "fecha": "2026-11-05T04:00:30+01:00",
+    "imagen": "https://okdiario.com/img/2026/11/04/imagen_recortada-24.jpg"
    },
    {
     "titulo": "Miguel Ángel Revilla, tajante sobre el resultado de las elecciones: «Feijóo no se consolida como líder, va a sacar menos votos que la última vez»",
@@ -114,11 +114,11 @@
   ],
   "PSOE": [
    {
-    "titulo": "Radicales lanzan huevos contra Abascal en Ciudad Real: «Ya están aquí las milicias de Pedro Sánchez»",
-    "enlace": "https://okdiario.com/espana/radicales-lanzan-huevos-contra-abascal-ciudad-real-ya-estan-aqui-milicias-pedro-sanchez-20703634",
+    "titulo": "Mallorca recupera uno de sus centenarios molinos mientras Sánchez tiene en ruinas y abandonados todos los del entorno del aeropuerto de Palma",
+    "enlace": "https://okdiario.com/baleares/mallorca-recupera-uno-sus-centenarios-molinos-mientras-sanchez-tiene-ruinas-abandonados-todos-del-entorno-del-aeropuerto-palma-20699906",
     "fuente": "OKdiario",
-    "fecha": "2026-11-05T02:26:54+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/05/abascal-fu-atacado-con-huevos-en-ciudad-real.-ep.jpg"
+    "fecha": "2026-11-05T04:00:57+01:00",
+    "imagen": "https://okdiario.com/img/2026/11/04/mallorca-recupera-uno-de-sus-centenarios-molinos-mientras-interior.jpg"
    },
    {
     "titulo": "\"La ola ultra se desmorona\": Pedro Sánchez celebró el triunfo Demócrata en las elecciones intermedias de EU",
@@ -154,11 +154,11 @@
   ],
   "Vox": [
    {
-    "titulo": "Radicales lanzan huevos contra Abascal en Ciudad Real: «Ya están aquí las milicias de Pedro Sánchez»",
-    "enlace": "https://okdiario.com/espana/radicales-lanzan-huevos-contra-abascal-ciudad-real-ya-estan-aqui-milicias-pedro-sanchez-20703634",
+    "titulo": "El gobierno de PP y Vox en Mallorca sanciona con 22 millones de euros el alquiler vacacional ilegal en tres años: «Tolerancia cero»",
+    "enlace": "https://okdiario.com/baleares/gobierno-pp-vox-mallorca-sanciona-22-millones-euros-alquiler-vacacional-ilegal-tres-anos-tolerancia-cero-20701421",
     "fuente": "OKdiario",
-    "fecha": "2026-11-05T02:26:54+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/05/abascal-fu-atacado-con-huevos-en-ciudad-real.-ep.jpg"
+    "fecha": "2026-11-05T04:00:30+01:00",
+    "imagen": "https://okdiario.com/img/2026/11/04/imagen_recortada-24.jpg"
    },
    {
     "titulo": "Encuentro entre Santiago Abascal y Javier Milei en Madrid: \"Me he reunido con mi amigo y aliado\"",
@@ -311,6 +311,12 @@
     "fecha": "2026-11-05T01:54:01+00:00"
    },
    {
+    "titulo": "Rufián desvela los entresijos de los partidos políticos: \"Los que deciden no dan la cara, y los que nos rompemos la cara no tenemos tanto poder\"",
+    "enlace": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQQ0JDMENwcHJWRmRPQUw0T05lNlhONWI5clI3UVlvaV94YW5pajNBOW9BQ3J5WXQtTUVSdVZnajN5MlB6YVBrYmtxSnlVQjNwZW5QaHlVMnFzRmhNMzZOTFBINUJ4c2hVN0hZY2xXTHk2eDNBakpVdEtLdGsweGlTY1hiNzY0SVVwT3pBZkdzZW1oSklkNWZEeUhJTEVqUkJwLXhfUGxNQkJyZTlMZW9xYmFXSTdGYmtITUFSSkRKYy1WNzAtRU5nbWszamgxT2o0bFBod0ZZMEk0SEVIc1Bja19sR3hfRWgzWmFJSGF0cTRSbnZjTlkzUW11Ujg2OFZlR2sydlFybHhub28xMndQWVFiYV9xRFBkbnNpWUx6S1RpWFRuMWfSAaYCQVVfeXFMUENCQzBDcHByVkZkT0FMNE9OZTZYTjViOXJSN1FZb2lfeGFuaWozQTlvQUNyeVl0LU1FUnVWZ2ozeTJQemFQa2JrcUp5VUIzcGVuUGh5VTJxc0ZoTTM2TkxQSDVCeHNoVTdIWWNsV0x5NngzQWpKVXRLS3RrMHhpU2NYYjc2NElVcE96QWZHc2VtaEpJZDVmRHlISUxFalJCcC14X1BsTUJCcmU5TGVvcWJhV0k3RmJrSE1BUkpESmMtVjcwLUVOZ21rM2poMU9qNGxQaHdGWTBJNEhFSHNQY2tfbEd4X0VoM1phSUhhdHE0Um52Y05ZM1FtdVI4NjhWZUdrMnZRcmx4bm9vMTJ3UFlRYmFfcURQZG5zaVlMektUaVhUbjFn?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-11-04T23:45:13+00:00"
+   },
+   {
     "titulo": "Rufián pide que no gane el \"hijoputismo\": \"Feijóo, Abascal, Ayuso... son el abusador que se mete con el débil y muchos callan\"",
     "enlace": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNXzgycFFfaUxocUJJMUU3aVRfV3oxVGh1VTJ6SWJ3TFgxTGQtWVBCd3A1bkdWLXY0MnNUZkVVcEVkYk1IY2kxZVRyc3lsRDVFdTBBeGlFcWwzeTBnZjV3alNSNGdOM2ZzaFFQZXp6OHQ0MktNVG5Pck1sVlJkdWZyb3JNbFpJZ3Vkb2IzRW5EUDQ2bERReWpUM1JpN05ab080emxib19YWUhfQUROSHo0Nkh6X2JDMlJrNzdQMFpDckR0d19OUnVHQ19XNy1oeE9ydkFZX1VPVEJKZERGSFlWRzAyU3BKcFp0RF9WbFhiNFhYUENRenAwc3ZSZS1jdDRqaV9NOC1mSHpDN3Azb0U0a0RsS1lad9IBlgJBVV95cUxNXzgycFFfaUxocUJJMUU3aVRfV3oxVGh1VTJ6SWJ3TFgxTGQtWVBCd3A1bkdWLXY0MnNUZkVVcEVkYk1IY2kxZVRyc3lsRDVFdTBBeGlFcWwzeTBnZjV3alNSNGdOM2ZzaFFQZXp6OHQ0MktNVG5Pck1sVlJkdWZyb3JNbFpJZ3Vkb2IzRW5EUDQ2bERReWpUM1JpN05ab080emxib19YWUhfQUROSHo0Nkh6X2JDMlJrNzdQMFpDckR0d19OUnVHQ19XNy1oeE9ydkFZX1VPVEJKZERGSFlWRzAyU3BKcFp0RF9WbFhiNFhYUENRenAwc3ZSZS1jdDRqaV9NOC1mSHpDN3Azb0U0a0RsS1ladw?oc=5",
     "fuente": "LaSexta",
@@ -321,12 +327,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOVkFuUDc2SWs2RFl6d21QcUxKb0VGZHNIMVk0VFZMZnpGcHNhdlROcERlMjVhZVA0ZVRESmNzZktTWFQ0VW5uVXBzTmprZTJyZ3Y3SkpYNWlKM09pQ1BfdnkzQmRRWk5vc3lVZjRMVFF0X0FPcVhEU1hQdmhaVVgtdmFkNjF3dGc2eWI4TU9NX3pOTktpaXhaRkdlSWMwZU4ycE0ySmt4a1JsLVNqdm1qelpYV2JXZGdxTDdvbWJwcTdFUnNSOUpVZkhFRHBSTF85bXZPSk5EYk1MUWw2cE1KM19WWHVjM1dJRktEbTcyMnBkVjFJZkxuOVprbjh6T3BKRk1yX18xTThNbVRtbW5ORUdXTzBhbk3SAZcCQVVfeXFMTlZBblA3NklrNkRZendtUHFMSm9FRmRzSDFZNFRWTGZ6RnBzYXZUTnBEZTI1YWVQNGVUREpjc2ZLU1hUNFVublVwc05qa2Uycmd2N0pKWDVpSjNPaUNQX3Z5M0JkUVpOb3N5VWY0TFRRdF9BT3FYRFNYUHZoWlVYLXZhZDYxd3RnNnliOE1PTV96Tk5LaWl4WkZHZUljMGVOMnBNMkpreGtSbC1TanZtanpaWFdiV2RncUw3b21icHE3RVJzUjlKVWZIRURwUkxfOW12T0pORGJNTFFsNnBNSjNfVlh1YzNXSUZLRG03MjJwZFYxSWZMbjlaa244ek9wSkZNcl9fMU04TW1UbW1uTkVHV08wYW5N?oc=5",
     "fuente": "LaSexta",
     "fecha": "2026-11-04T23:15:13+00:00"
-   },
-   {
-    "titulo": "Rufián, sobre que ahora \"Sánchez sea el Che Guevara de la vivienda\": \"Monstruo, que llevas años gobernando\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPYWI4dTR1b3YwN0tRcGdmenEwbmNtQ2I4YjI1TnFSQzVVeW8zZGxYNXB6ZGZic01Ud1lFbkNiRGZ2cDNoenRDZFIybVExWGpOalVJUEdKUnZpN2FiSUZBc1RLaVVqTDdOc04ySlhZeFFYU0ttOUNhT1c4YWpIZUpoWnloZ1V1SmtYaC0wNy0xY1lMVHFWaFRaTGR0MGdlcWhjSDZib1BUWUxaU01Jb0VTeWc2a0o1ZmE4Z1J3NXRNa2ZaOVlnT0lST3hUd3F3c2wwRkVsQkpQUUYwdTJsenh3cV9jX19NWFR2dWNvYURyVWtYN05jRU05NGJfeWVHcm1QUnF1YWFXdTnSAYgCQVVfeXFMT2FiOHU0dW92MDdLUXBnZnpxMG5jbUNiOGIyNU5xUkM1VXlvM2RsWDVwemRmYnNNVHdZRW5DYkRmdnAzaHp0Q2RSMm1RMVhqTmpVSVBHSlJ2aTdhYklGQXNUS2lVakw3TnNOMkpYWXhRWFNLbTlDYU9XOGFqSGVKaFp5aGdVdUprWGgtMDctMWNZTFRxVmhUWkxkdDBnZXFoY0g2Ym9QVFlMWlNNSW9FU3lnNmtKNWZhOGdSdzV0TWtmWjlZZ09JUk94VHdxd3NsMEZFbEJKUFFGMHUybHp4d3FfY19fTVhUdnVjb2FEclVrWDdOY0VNOTRiX3llR3JtUFJxdWFhV3U5?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-11-04T23:10:13+00:00"
    },
    {
     "titulo": "Rufián confiesa que la unión de izquierdas no salió por \"ajustes de cuentas\": \"ERC no pactó con Comuns porque Colau en su momento pactó con Cs\"",
@@ -387,6 +387,12 @@
     "fecha": "2026-11-04T18:02:57+00:00"
    },
    {
+    "titulo": "EH Bildu asegura que el bloque reaccionario retrocede en Estados Unidos",
+    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON1ZRa1AxZkJ1TElCX2tDem1pYlBXLWJVQlQydTdybGljSi16QV9JRjVNWTdYY0Q3QnBqaThqY1lpbW1rQkpNYnJmVjRPT3g1ZHc0MEdLNWp4MkIwUmxuYkFxd011ME8zaWVlSGZoWGxabDNJcFlzTU1GaGJJYVZZakdLQnBDZ3NXNWxpVXNpbkx6U0Q3NGV1bzFNYlllWXM?oc=5",
+    "fuente": "Espacio Diario",
+    "fecha": "2026-11-04T15:33:20+00:00"
+   },
+   {
     "titulo": "PNV critica el \"seguidismo\" de EH Bildu en el accidente de Urda",
     "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcXZmYmNtVXkyNnNMMk1KQks1UWs1emVZd3pJQ3hpcG5NRmlITGZBSXJPQ250ejJHRGhFS01yT1VJdVlwMGkxbmNQZHNnMHBwOWhNeEpacDAzUFZrMHFFZDRUeDBuMjI2ZG9Hd3o1c0xISXNLczJFUUtTRC1WQUhpaXJHSEJhQTdkVFctd1NlSk43czdLZG90YmFzNEjSAaIBQVVfeXFMT2x4c3o1UG54dDExSTdNRVUxVVJWRlFYUWRYYXRoemFkcUp2dkwzbWlPckg2TGFuZFRWRmVvRDkzSW9TZ2NVNUw0UVhMTGNzY2dSNkJ5ZHg5YjExVVd0cjNxbXpnUjJFMWpuRjhEWFdtN29fQVM2YUF4WDZ5ZHJMSWFncWNtOHpHLWktcFhESkJUT1gzX05vYi1vUHpBN2JfR1Rn?oc=5",
     "fuente": "Canarias7",
@@ -409,12 +415,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSngxMXF5Y0NQVDFpamhFN0l4dGNER01GYkdINXdndnpic2ZtWUFzYUkzQzc1ZUNqaDRVbnA5VTluaHFNdzhLaFNtV01pY3BySDdNbEozVkRRT0tKWXNTSjRFbF84X1FILUczOVc3WEVVUFlheGpBTkhHR2NId3YwaXg2eUZRRW1BcklsLTZzUlVLb1ZWeGxlOG0wZjRtWXB3RUZyQ0F1cndMWnBLR3JXbnM5ZWVVV3M5X2JUZg?oc=5",
     "fuente": "Servimedia",
     "fecha": "2026-11-04T11:11:00+00:00"
-   },
-   {
-    "titulo": "Por su parte, EH Bildu ve que “el bloque reaccionario pierde terreno y retrocede posiciones también en Estados Unidos”.",
-    "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPbXRYdnJQZVVjNkwwLWVSU0R1R0FodEpINF9na1otVHVaaXF0eGozYlByUFNXbHRMeFMtcTRXcUh6WVhGakg5UGp2YWlLZ0wyQ1I1NTZvZXI3ek1EMUhDMzVuVFBQYW41a0JGZUp6YzhyNjY2cUh3ZGlZMWw1TlNlVHBSMVpSN1RZcDdMR0VQYkxQbFB4OXdlb0ZmT1VweFZCQ0tKTEN0dVZxZjBtZUZWMGJXdUVzaFlYVjV6XzE4Y19jYW1ZVEtjSl9oRE5nQWNUeGtva2tFTVBZN0d5SjJEa1BaTEZ1NURQQjBsbk84Qmxvb2dQVXc?oc=5",
-    "fuente": "ORAIN",
-    "fecha": "2026-11-04T11:07:27+00:00"
    }
   ],
   "PNV": [
