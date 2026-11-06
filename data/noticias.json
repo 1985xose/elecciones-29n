@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-11-06T00:14:43+00:00",
+ "actualizado": "2026-11-06T01:02:05+00:00",
  "generales": [
+  {
+   "titulo": "Corvillo confesó a Aldama que Sánchez durmió en su casa en la campaña de las primarias del PSOE",
+   "enlace": "https://www.abc.es/espana/sanchez-alojo-casa-corvillo-primarias-2016-20261106214520-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-11-06T01:25:23+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/06/010_1519830013-U40197593003Vl-1200x840@diario_abc.jpg"
+  },
   {
    "titulo": "Pedro Sánchez vuelve a los mítines en Valencia para exprimir la \"indignidad\" de Mazón en la dana mientras le explota más corrupción con Ábalos",
    "enlace": "https://www.elmundo.es/comunidad-valenciana/2026/11/06/6aece16efdddff59198b457b.html",
@@ -21,13 +28,6 @@
    "fuente": "elDiario.es",
    "fecha": "2026-11-05T22:43:35+00:00",
    "imagen": "https://static.eldiario.es/clip/fc9755aa-bd36-4d28-9e02-1363d9e722a7_16-9-discover-aspect-ratio_default_0.jpg"
-  },
-  {
-   "titulo": "Corvillo confesó a Aldama que Sánchez durmió en su casa en la campaña de las primarias del PSOE",
-   "enlace": "https://www.abc.es/espana/sanchez-alojo-casa-corvillo-primarias-2016-20261106214520-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-05T21:47:21+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/06/010_1519830013-U40197593003Vl-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "La Junta Electoral autoriza el uso del DNI electrónico para votar en los comicios del 29-N",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Feijóo irrumpe en la Cumbre Iberoamericana apoyando a María Corina y se acerca a Kast y Zelenski",
-    "enlace": "https://www.abc.es/espana/feijoo-irrumpe-cumbre-iberoamericana-apoyando-maria-corina-20261105142203-nt.html",
+    "titulo": "El PP de Ayuso y Vox vuelven a unirse para aprobar la nueva ley de la Abogacía General",
+    "enlace": "https://www.abc.es/espana/madrid/pp-ayuso-vox-vuelven-unirse-aprobar-nueva-20261105172442-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-11-05T22:44:56+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/05/WhatsApp%20Image%202026-11-05%20at%2019.31.16%20(1)-RsIXXU1ELYVhBFn1ZEKHyBJ-1200x840@diario_abc.jpeg"
+    "fecha": "2026-11-06T01:06:36+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/05/asamblea-madrid-RsGXdQ2sIPVQgoAJ1yFHhCI-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Fernando Garea, sobre la supuesta oferta de un millón de euros del PP a Koldo por información contra Sánchez: \"No entiendo por qué no lo contó en el juicio\"",
@@ -116,11 +116,11 @@
   ],
   "PSOE": [
    {
-    "titulo": "Pedro Sánchez vuelve a los mítines en Valencia para exprimir la \"indignidad\" de Mazón en la dana mientras le explota más corrupción con Ábalos",
-    "enlace": "https://www.elmundo.es/comunidad-valenciana/2026/11/06/6aece16efdddff59198b457b.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-06T00:06:48+01:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/05/17939097465204.jpg"
+    "titulo": "El exchófer de Sánchez, investigado por blanquear dinero de obra pública",
+    "enlace": "https://www.abc.es/espana/miembros-clan-primarias-sanchez-investigando-blanquear-dinero-20261106012254-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-06T01:41:44+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/06/009_1201354527-U2011613063456D-U40197523546eAH-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "A qué hora y dónde es el mitin de Pedro Sánchez en Valencia: ubicación y cómo llegar",
@@ -157,6 +157,13 @@
   ],
   "Vox": [
    {
+    "titulo": "El PP de Ayuso y Vox vuelven a unirse para aprobar la nueva ley de la Abogacía General",
+    "enlace": "https://www.abc.es/espana/madrid/pp-ayuso-vox-vuelven-unirse-aprobar-nueva-20261105172442-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-06T01:06:36+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/05/asamblea-madrid-RsGXdQ2sIPVQgoAJ1yFHhCI-1200x840@diario_abc.jpg"
+   },
+   {
     "titulo": "Abascal clama contra el olvido de Teruel y avisa de que aspira a la presidencia",
     "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPY3NhbkZVYjdJVWdIM2xxZ0QzZ21ES0lwa3lFeUFaelQ4V3Z3SFlSZlBoZi1zYjctOXl2U1loRHlMSDM0WlV6aHRoU3RLZnRzU0xoR1NIcGE3N0xlaDBCMlRYR3ZmaGJBaG1vbU9GTVJpbEZFVU9DdTYtdm55VGdnSkNPeF9pbjNWckJHeGJYSTNHWUk5UGc5ZGpQbVRBdzd6ZHRjZUdKeDlYTjhwUi13U1ZhaElzNXdsT0ZyM0RBOHpjSU9uM2NOLThORFppLWlwVXloM0hfblRRa3NXYzJ1cHNuVzBxWl9DcGs4RTRFdXluTTdwWGc?oc=5",
     "fuente": "heraldo.es",
@@ -169,11 +176,10 @@
     "fecha": "2026-11-05T21:57:38+00:00"
    },
    {
-    "titulo": "Radicales de extrema izquierda hacen una encerrona a Abascal en Cuenca y Vox responde: «Los ciudadanos saben quiénes son los violentos»",
-    "enlace": "https://okdiario.com/espana/radicales-extrema-izquierda-hacen-encerrona-abascal-cuenca-vox-responde-ciudadanos-saben-quienes-son-violentos-20710806",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-05T21:43:32+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/05/cake3-2.jpg"
+    "titulo": "Las provincias pequeñas pueden derrotar a PP y Vox",
+    "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONGlGT3IzbEJpc0hOaXdrOWkwRUpGTEgyZFlHT2ZiZ20wc2o4aEpDcFN6bGZQRVZ1YU9vYTAtV0xWYlhqQkpvNUhVY3lyb1liT3I1bFVsMTYxRURoQURjSC1EaGNGXzV4MzVYSEFpRW1WeEYxQ0xGZVlvM0VKckx6M2NjeU04dXN6S1htYWNIbw?oc=5",
+    "fuente": "BilbaoHiria",
+    "fecha": "2026-11-05T21:34:37+00:00"
    },
    {
     "titulo": "Abascal dice que Sánchez \"debería estar en el banquillo en vez de en un proceso electoral\"",
@@ -187,12 +193,6 @@
     "fuente": "La Vanguardia",
     "fecha": "2026-11-05T21:06:38+01:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/05/6aece0f5b62aa.jpeg"
-   },
-   {
-    "titulo": "La primera encuesta de La Séptima para el 29-N sitúa al PSOE por delante del PP y muestra el retroceso de la ultraderecha Vox: Sánchez tiene partido por delante",
-    "enlace": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPTVFPVnMxandQNS1vNkM3TnZhN0ZyNU9mNF9JT3NyTDNna3pFTllQYi1PNkp1SEswQzZzaDZEbkFzYjJSTzg1ZUxHQlJudC0xQjMyU2p6V1ZrY01NYmYyRTQ4TW5sM3U5Zm53c1RqLXhqZy0yQ092MHRuTWwwQ2pkV0g1d3BUc2dFQXRRaE5RdXBwQ1BKbVJWWEstOG5DRG96a3pFZzBXU3VIYzkyQXpXcGxGcUpPTmtGeVhUYlQybDUwWmo0WU1UU3drWDh4UEFjZ3l0ZmdPZXZza0h3alZ5ZTJBdU5EbkZra2QyOVNsYlFCel9kOUZ0U1M3LXZMY2dPdWJXeU9DaGNKXzk0WDlHQy1ZWXdWUFRzNVU0?oc=5",
-    "fuente": "El Constitucional",
-    "fecha": "2026-11-05T20:47:21+00:00"
    }
   ],
   "Sumar": [
@@ -395,6 +395,12 @@
   ],
   "Bildu": [
    {
+    "titulo": "Sánchez, el líder nacional mejor valorado por los votantes de EH Bildu",
+    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSFVPcVIxQmpqU3hYbm9WTktrVk9QWTdMN0RGR241UG9nbTd4cjVPUnZEY3N4eGJUVHc2b3VxbVpjejhyMUNScW5XaEdHM0pjTlp3Unp5SEZFX1NkQXhFMmQtVktCQWNHMEltTk5HOHdCVmUyWVRYZHpaSkVQNFUtbWRvSXhiM0lYelJUc2dYblRnQkJBa3BmYURid252UVZud1VIankxaHhsZU5oUlHSAbMBQVVfeXFMUEpvRFhJMHRvQ3ZQTGllcWxGdkl3d01jYjNOMU5SbEVTSkVSTm85dngzNVhSNWl0VDloOWlhZ1F0Q05LaGRDVEtBem5VQnlpQW1Bby03NzZ5aDE3ck9ySjhwaFVkMzhiYlhVWVhVV20yU1ltTjltY04xTzNDVlZONnlLSzdZTU1CR3Axd2IyM3Z4UV9oRWpZZVVFZGVBektNek5ZejNyMWlxek02WGlJV2luSkk?oc=5",
+    "fuente": "El Correo",
+    "fecha": "2026-11-05T23:35:19+00:00"
+   },
+   {
     "titulo": "EH Bildu defiende en Pamplona ampliar derechos y reforzar la soberanía de Navarra ante el 29N",
     "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVXduN3d3TktQcTQzTmxGd0Z6NC1iS0ozUVBwZDIxcHZWeXZITTl5eUZMamtqNDMwWEdfekU4d2c4Z0xLV0FjMHpsVE1PUnkzZ2gwY2hwT3NmZWhBdGtGeV83bFBPSlIwcExqeHZaVzRXWjVTU1IxcFN6ZXp1NVM2WG5yZVFyT1FFRFlmWUk2dDlPV25iZ2ZreHRFT1N6c3JqRTRWMHhCeFh2LUN5dGhNZnlrQU8tZUVLajBFTW5QNWF0cWZOTXFUVEhUQWIwT2JWZHhR?oc=5",
     "fuente": "Pamplona Actual",
@@ -423,12 +429,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYVhYMWszX1cxT0VMTVJpem0xc2dUbTIzNG5Jd2tpM3ZsMzdTNWR2UU9WaVFxSW4yUTZSZFRNbGNQbF84X1F6UzJYbi05U3llRG1ESWEycUJfV1BHeFVvdUtic0hDN20wYk5wOEdjbnVzX3dQbVAyVzRvUGxXd1NTMVdMSG1vREZ3WE0xNjdNWll1UVFJUm5kMjlmVXB5aGhVX3MwQkRacXdJM3AyS3RlNEhOVFZxWXdiNERidWUwdnhNM1BobHl0TUFPaVZrSE1pandadUFnZkfSAd4BQVVfeXFMTUJhU21EUl9NUnZlclAxSDJSbW44bS1CMW1GbG9rOURjUDEzRDRxdTZUUEtXV0VGMWFVNW1KRWs4SUdwY2tYaUZrR0RuLW8yNS1oeUVWQm1LQ3JFczNNR0Qxc1ZXUWlQVWVFRzdJMkFOVTdoa1FGN3hBSXRxVFcxWE42N0lXdjJNNFVnd2k3T2E1U0F6bzQ1b3UxOUtJei1KODBBemFFcEt4bERaXzRjX2FaZmZ0U0h5OE5yck5IamQ2WXRkVEpJNVljSEZOeU9iYmVfbC1BOWR6VjVQYUJn?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-05T12:54:42+00:00"
-   },
-   {
-    "titulo": "El PSE supera a EH Bildu en simpatía en Álava",
-    "enlace": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORkFmS1ZIZnh3RU96alQtbGNyWENtTFJ0SkJ3Nkl2anhwdmJydGNsenJFR00zZmJ4ekpJbWxfeU1sell3SGhTX0pfTFNEczRoQTl5ZTNSUTllTHFSUUhhX1VRaHpNejZzVDk4X1Y4VHVnMHNEMXBkeW1URnU1S2FzSENFSk9Mdw?oc=5",
-    "fuente": "GasteizBerri.com",
-    "fecha": "2026-11-05T12:37:49+00:00"
    }
   ],
   "PNV": [
@@ -437,12 +437,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOazZWZVIyZEo2dy1kLVJxUmVPU243M093RWZTYTJtZTBTZUNIMXF6V1JtQi12TWlkalo5c2NsMDNfMFdKTmVjOEN0c0NvdFlZNURjUEJqV1B4STFEeVVBaEtHdXpEVEVKRjZ1SDZ1cUhYVWFXd180eERnT0NTZFVmeUJIZXVhY2tQQlpnRVpQNk5Bd2JCOHNmejBKU2pqSzBQX21GS1BkLURSc29qcGc?oc=5",
     "fuente": "BilbaoHiria",
     "fecha": "2026-11-05T20:24:08+00:00"
-   },
-   {
-    "titulo": "EAJ-PNV inaugura su nuevo Batzoki en Astigarraga con la mirada puesta en el futuro del municipio",
-    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTHNHN3BsT1ZBbFRlT3BtYmJNcHdxNVVDWEJwMmV5djF2NkxkY1BUaGNNNWFNcjdNcWlyVnJCdjVMZkMwWWNwdHRIZlNIc2Y0cVRmZzVwekxxOEctOW9zbDhHUjNWQTBvNGdJek9UWTdUcGsxTDZybTUyUVBCWEY4eGtiVUt0dDA3aHE1UHpNQ09WOHMtR0NHaQ?oc=5",
-    "fuente": "Gipuzko Buru Batzarra",
-    "fecha": "2026-11-05T19:13:40+00:00"
    },
    {
     "titulo": "El PNV advierte de que no estará «nunca» en una mayoría parlamentaria con Vox",
@@ -467,6 +461,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRlZ4Tzh6SHNjSE5aNU5WU29QQjFaaVJ6clNnZ2N3VHNaTjZUZFBtYWdjUXF6aWpaTnRnQi14eV9HOUJqVXJkVi1CVDhNaGp3cGs4RF9pekIyZHdON24wOG5EaTJZSmtONkNGc2RYOXlSWWt1cHVoYkVhUEpPaTNPdVg2THFEcHhDTE9nbnczNGp5R1pZLXVycUctcXRBRnRlOWxVU0FPbVdSYlpqcURyeDVHR1BCRGpzS2RxX09mWGtXSkdmWVNTetIBzgFBVV95cUxNcHoxYlFkTUVwTEZZUU0zdU5Lb203bF85SVRkenN1T2NSa19JSEtDb3VwSE9GSXFRRzRXX3VvaXA4c0pqQ2F4TktBUnM2SWR1UUwyVldSUWxxREQ5SWVuVjVGYW1OXzQzcU5PeVF0bExxNlZ0cy1JcjFqcUNoTUZXNGNRQl95R1RIRVJBUEFhZUI1eW94cGgzUUpUQ1NLMTJGYWFGSVg5NFR3LXk0Zm9NcWh0M1c1VzJ6Rzl4X2tUWkhqWm1VdU9SRDRVcHV3dw?oc=5",
     "fuente": "Crónica Vasca",
     "fecha": "2026-11-05T10:00:08+00:00"
+   },
+   {
+    "titulo": "Esteban (PNV) ve “absolutamente necesario y obligado” que Puente dimitiera, “y más para el PSOE”",
+    "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTzd2RktTZ19SdGZ0d0EtTVRQd2dRRUpaT2tkQ1UxcEJjLUlaYWlZbTZYRnQwT2tQTHQzZ0c2bWVxdzIwSHc4QVFuQWhaZFhDVXAxM0IxcWo0MmkyRVhDYU9DU1JzMnhGazBMdlE0MWRzQTVReU8wY3VQSGRjRGp5NzRyZUpXV1pfTXRSQXByejFmaW1EbXFrREEtVnZiQUtKa3JpZk9PdG11VFN6UzNCZVBCd3JPRnNFOGhkN0VtU1pWUdIBxwFBVV95cUxNdnpONnVuNFNETjdBUTdLY3oxbkdKREFjeHdTdTU0MndUTHpJWlhrYTRKM0FwRmJ2bGY3OWFjYnZ3YjNzZkJNT0MydkdIZjhyR0xxVl9BQ0VVNzdOSVBUVDhvUFc2UnVXekNiZi1KQXpvb3UxUW9rdHpCX0I5VHVlOWlNMmNOaV9EOHdoX0x2TmxNZDZpb1dQdGlGUl9kazZiR2NtRm9kLWZYeHE5WmZXSHlRci1Mcl9fNUVpYk9fc29pLUh0bUU4?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-04T19:32:57+00:00"
    }
   ],
   "BNG": [
@@ -533,16 +533,16 @@
     "fecha": "2026-11-04T19:14:36+00:00"
    },
    {
+    "titulo": "Francisco Castellano se incorpora a la campaña de Coalición Canaria para las elecciones generales",
+    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSWdIZkcydWZyRWNwTkFUalpFekNHbzdwZVYxb0FkbGVSZTB2QlRZbWdVa0F5MmFkNGlYMC05SVNka29IMXR3YnR4b2xRYUVtY0FkZW5xTFFUMmQ4cXRyNDUxY05qTG1BT1hYc2s2TXFGdnRuYlN6UF9raFFlRlFwcHNhZFJKMExQX29ZY25JdnJFNkdhaF9iRVdENi05a0paR3VOMF84cFBFMnNSQU51SnVUUTdCNGFkS1BtM0RQb3NkZFlEWGZmSHU0bVktdw?oc=5",
+    "fuente": "El Sur Digital Gran Canaria",
+    "fecha": "2026-11-04T17:59:58+00:00"
+   },
+   {
     "titulo": "CC ficha al exconsejero del PSOE Francisco Castellano para impulsar su campaña electoral en Canarias",
     "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUE9VU2FwUGktal95UmdhcXZNQzRXSUlHVmo5enRTY1ZXNkdHUWE4N3hvLTlCNlZWdDhyb0tlOW92M19naFFfMXlJaEE2UWw5VzE4R3RZSFZmUVFXMHhtOUw1enE3LXdfc3JWdktXMXZwbzF2ZWprZG9MYmQ2MlAwWldGT0dGRndSSENBa1FpNHBTU3l4WnFnRlQ4cE9XZTZZcDctVnhqb3IxY1VMWjRnY0oxUEVvS2FOT3dCZi10MEVBUzhUeU5UVjkyMXZtaHFaVG9mbkRhX1RUOXhhQ1JOTw?oc=5",
     "fuente": "Atlántico Hoy",
     "fecha": "2026-11-04T14:38:00+00:00"
-   },
-   {
-    "titulo": "Francisco Castellano se suma a Coalición Canaria para las elecciones del 29 de noviembre",
-    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcVZpVzA0UFFVOExObDdQdGZqZnJSOFFsS2NoME5fMUN2U1RBU2VxeTZkMGJnZGozNmZxOVNwU1lEaXRYdVllWFNBdlFqQnk2dk0wdzdYc185LVJyQmRaWXRpQVk1VGxEUXlrZWxVM0hnR1JmTHNZU0lNQ2IwdnhoTGVvNmJ3OVAxYm9QejVFRi13NDVtMzdPZnc1a3h6REJYVGtSbGtUMkRQZjI2aU1rZ1J5UDJnT3FJRldLcFlwQkdvamRQeXRvTnQ3Vjlmd9IB0wFBVV95cUxOblNzT01XYzgzMEdVYmhjazdEU295Qm1CbzF0WW1CTm43ZHBWNFp1dlBwWUdodVYzY2ZhQWFyOC1McEFGbktKUDBHd1JGTlQ5V2JrdWNfN21kUWhYMi1WUnNWUHg3VHZVWVZhTTZYQ0FVZzlyeWQzNDNUQ3VZLUNXQVZQNGo0YjFwcEtEQzYtSDkxT1pwUWd4eHNMUGpaNXZKcXlkNlFKclVEZkoyN3gzM2t5TlppdkVMeDJQV1NnUGpGbzAxMlVqS0FDclVGYkFvTDNz?oc=5",
-    "fuente": "Canarias7",
-    "fecha": "2026-11-04T12:55:50+00:00"
    }
   ],
   "UPN": [
@@ -779,6 +779,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSDBRbkZjaDlUcVpQaVQzY2kwUEYtR0NpN1FxTGctM3ZqVW5MLXhRZVRCbmRGVWRUdHJyZGljWVBZc3VZemQ1MWozOFd2MWFxMlEyWnJydkZ4RWtqTENRWENfNFRQQUJGQ0FkeE0wUFlaZ0JNQlpUZkh6R0VCRUUzNFNfVkFDNHhGaHoxMThkcmd5TldDdHVoWlBJZUQzaUFOLWVuMHFoVEZMTG9Ec2phUVZnUTRWaU43LXFQUnJyTGhmUmJ5a1VrZ3JQVlA0b0JMeHc2dWlkeU5IS1RFRkZMdndKakQ1dw?oc=5",
     "fuente": "Maldita.es",
     "fecha": "2026-11-03T12:40:36+00:00"
+   },
+   {
+    "titulo": "¿«Irene Montero y Gabriel Rufián asisten a La Revuelta y hablan de sexo»?",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObW15QkVIanFrOGx6VjFzUXdSNEV6SWthWnlWeWU5UnJKZjVwSnZ5RU1DYUw4VmNzdnI1M0VVZmFZelRmWGUtaVNTeElBLXIxWHVDUkJQMi00NXczYWc1cUVxQ1lSWGFpMFFLTGFlZTdiajhleVNZOTJpXzdvb2Roall6eWdnYTVhSTM0dXNRcHBBcjBWQ28xeUVHTUJNdzdmOWM3aU13?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-28T16:07:10+00:00"
    },
    {
     "titulo": "¿«Emilio Delgado se llevó 6.000 euros de Impulsa de Podemos a su plataforma de Móstoles y no entregó el acta para irse del partido cuando se lo pidieron»? · La Buloteca · Maldita.es",
