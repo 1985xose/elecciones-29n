@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-06T15:00:05+00:00",
-  "mensaje": "529 encuestas leídas, 1 nuevas",
-  "ultima_buena": "2026-11-06T15:00:05+00:00",
+  "hora": "2026-11-06T15:07:33+00:00",
+  "mensaje": "529 encuestas leídas, 0 nuevas",
+  "ultima_buena": "2026-11-06T15:07:33+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -16,32 +16,30 @@
     "Sigma Dos/Antena 3 2023-11-27"
    ],
    "corregidas": [],
-   "nuevas": [
-    "Celeste-Tel/Onda Cero 2026-11-03"
-   ]
+   "nuevas": []
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-06T15:00:58.750Z",
+  "hora": "2026-11-06T15:08:04.385Z",
   "mensaje": "10000 repeticiones, faltan 23 días",
-  "ultima_buena": "2026-11-06T15:00:58.750Z",
+  "ultima_buena": "2026-11-06T15:08:04.385Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-06T15:01:34+00:00",
+  "hora": "2026-11-06T15:08:31+00:00",
   "mensaje": "10 titulares del día, 90 por partido, 21 polémicas",
-  "ultima_buena": "2026-11-06T15:01:34+00:00",
+  "ultima_buena": "2026-11-06T15:08:31+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-06T15:01:34+00:00"
+  "hora": "2026-11-06T15:08:31+00:00"
  },
  "avisado": {},
  "fiabilidad": {
