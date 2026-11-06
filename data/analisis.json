@@ -1,20 +1,20 @@
 {
- "actualizado": "2026-11-06T14:01:11.938Z",
+ "actualizado": "2026-11-06T15:00:06.194Z",
  "media_bruta": {
-  "PP": 31.44099535929561,
-  "PSOE": 26.31437343143107,
-  "Vox": 19.351906600872645,
-  "Sumar": 8.575333441828521,
-  "ERC": 2.4744464585202364,
-  "Junts": 1.3349259654898682,
-  "Bildu": 1.3774206823049728,
-  "PNV": 0.8690441007079588,
-  "BNG": 0.9464373440058882,
-  "CCa": 0.4250478166921318,
-  "AA": 1.256468478737319,
-  "Podemos": 2.172937897891252,
-  "SALF": 2.139580843380917,
-  "UPN": 0.17911743042843906
+  "PP": 31.509388351366102,
+  "PSOE": 26.26336826521953,
+  "Vox": 19.33494227311317,
+  "Sumar": 8.441632543925184,
+  "ERC": 2.437718459599184,
+  "Junts": 1.361699312565461,
+  "Bildu": 1.3818271833898284,
+  "PNV": 0.8687835048572675,
+  "BNG": 0.9222341780379605,
+  "CCa": 0.4399862209129201,
+  "AA": 1.2546987336885553,
+  "Podemos": 2.1198667629571966,
+  "SALF": 2.0826692405100795,
+  "UPN": 0.17767223156991963
  },
  "principales": [
   "PP",
@@ -429,7 +429,7 @@
   {
    "clave": "celestetel",
    "empresa": "Celeste-Tel",
-   "encuestas": 13,
+   "encuestas": 14,
    "letra": "C",
    "texto": "error medio de 1,8 puntos en 4 elecciones",
    "sesgo": null
@@ -571,6 +571,54 @@
   }
  ],
  "ultimas": [
+  {
+   "id": "celestetel-2026-11-03-1100",
+   "empresa": "Celeste-Tel",
+   "encargo": "Onda Cero",
+   "fin": "2026-11-03",
+   "veredicto": "ruido",
+   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
+   "nota": "C",
+   "margen": 3,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 31.8,
+     "esperado": 31.4,
+     "diferencia": 0.4
+    },
+    {
+     "partido": "PSOE",
+     "dado": 25.7,
+     "esperado": 26.3,
+     "diferencia": -0.6
+    },
+    {
+     "partido": "Vox",
+     "dado": 19.2,
+     "esperado": 19.4,
+     "diferencia": -0.2
+    },
+    {
+     "partido": "Sumar",
+     "dado": 8,
+     "esperado": 8.8,
+     "diferencia": -0.8
+    },
+    {
+     "partido": "ERC",
+     "dado": 2.2,
+     "esperado": 2.5,
+     "diferencia": -0.3
+    },
+    {
+     "partido": "Podemos",
+     "dado": 1.9,
+     "esperado": 2.2,
+     "diferencia": -0.3
+    }
+   ]
+  },
   {
    "id": "sociometrica-2026-11-01-4893",
    "empresa": "SocioMétrica",
@@ -1042,54 +1090,6 @@
      "dado": 2.7,
      "esperado": 2.9,
      "diferencia": -0.2
-    }
-   ]
-  },
-  {
-   "id": "sigmados-2026-10-22-3122",
-   "empresa": "Sigma Dos",
-   "encargo": "El Mundo",
-   "fin": "2026-10-22",
-   "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: Vox sube 1.6 puntos respecto a lo esperado de esta empresa.",
-   "nota": "B",
-   "margen": 1.8,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 30.6,
-     "esperado": 32.3,
-     "diferencia": -1.7
-    },
-    {
-     "partido": "PSOE",
-     "dado": 26.1,
-     "esperado": 26.2,
-     "diferencia": -0.1
-    },
-    {
-     "partido": "Vox",
-     "dado": 19.9,
-     "esperado": 18.3,
-     "diferencia": 1.6
-    },
-    {
-     "partido": "Sumar",
-     "dado": 8.2,
-     "esperado": 8.7,
-     "diferencia": -0.5
-    },
-    {
-     "partido": "ERC",
-     "dado": 2.5,
-     "esperado": 2.3,
-     "diferencia": 0.2
-    },
-    {
-     "partido": "Podemos",
-     "dado": 2.8,
-     "esperado": 2.9,
-     "diferencia": -0.1
     }
    ]
   }

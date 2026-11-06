@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-06T14:01:11+00:00",
+ "actualizado": "2026-11-06T15:00:05+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1384080657,
+ "revision": 1384089445,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,48 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "Celeste-Tel/Onda Cero",
+   "inicio": "2026-10-29",
+   "fin": "2026-11-03",
+   "muestra": 1100,
+   "participacion": 65.5,
+   "pct": {
+    "PP": 31.8,
+    "PSOE": 25.7,
+    "Vox": 19.2,
+    "Sumar": 8.0,
+    "ERC": 2.2,
+    "Junts": 1.5,
+    "Bildu": 1.4,
+    "PNV": 0.9,
+    "BNG": 0.8,
+    "CCa": 0.5,
+    "AA": 1.2,
+    "Podemos": 1.9,
+    "SALF": 1.6
+   },
+   "escanos": {
+    "PP": 138.0,
+    "PSOE": 101.0,
+    "Vox": 66.0,
+    "Sumar": 13.0,
+    "ERC": 8.0,
+    "Junts": 6.0,
+    "Bildu": 7.0,
+    "PNV": 4.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 1.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "Celeste-Tel",
+   "clave": "celestetel",
+   "encargo": "Onda Cero",
+   "id": "celestetel-2026-11-03-1100",
+   "primera_vez": "2026-11-06T15:00:05+00:00"
+  },
   {
    "empresa": "SocioMétrica/El Español",
    "inicio": "2026-09-01",

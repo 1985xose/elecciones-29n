@@ -781,12 +781,12 @@
   "fecha": "2026-11-06",
   "escenarios": {
    "pp": 0.0002,
-   "pp_vox": 0.911,
-   "izq_socios": 0.0572
+   "pp_vox": 0.915,
+   "izq_socios": 0.0549
   },
-  "bloqueo": 0.0318,
+  "bloqueo": 0.0301,
   "p50": {
-   "PP": 127,
+   "PP": 128,
    "PSOE": 103,
    "Vox": 68,
    "Bildu": 7,
