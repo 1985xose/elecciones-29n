@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-06T20:01:06+00:00",
+ "actualizado": "2026-11-06T20:52:42+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1384110358,
+ "revision": 1384139779,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,40 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "SW Demoscopia/La Séptima",
+   "inicio": "2026-10-27",
+   "fin": "2026-11-05",
+   "muestra": 3500,
+   "participacion": null,
+   "pct": {
+    "PP": 28.5,
+    "PSOE": 31.0,
+    "Vox": 17.2,
+    "Sumar": 15.2,
+    "Podemos": 1.2
+   },
+   "escanos": {
+    "PP": 116.0,
+    "PSOE": 127.0,
+    "Vox": 63.0,
+    "Sumar": 26.0,
+    "ERC": 11.0,
+    "Junts": 4.0,
+    "Bildu": 7.0,
+    "PNV": 3.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 0.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "SW Demoscopia",
+   "clave": "swdemoscopia",
+   "encargo": "La Séptima",
+   "id": "swdemoscopia-2026-11-05-3500",
+   "primera_vez": "2026-11-06T20:52:42+00:00"
+  },
   {
    "empresa": "Celeste-Tel/Onda Cero",
    "inicio": "2026-10-29",
