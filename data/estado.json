@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-05T23:01:05+00:00",
-  "mensaje": "535 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-11-05T23:01:05+00:00",
+  "hora": "2026-11-06T00:01:02+00:00",
+  "mensaje": "535 encuestas leídas, 6 nuevas",
+  "ultima_buena": "2026-11-06T00:01:02+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -15,30 +15,37 @@
     "Sigma Dos/Antena 3 2023-11-27"
    ],
    "corregidas": [],
-   "nuevas": []
+   "nuevas": [
+    "SW Demoscopia/La Séptima 2026-11-03",
+    "SW Demoscopia/La Séptima 2026-11-02",
+    "SW Demoscopia/La Séptima 2026-11-01",
+    "SW Demoscopia/La Séptima 2026-10-31",
+    "SW Demoscopia/La Séptima 2026-10-30",
+    "SW Demoscopia/La Séptima 2026-10-29"
+   ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-05T23:01:40.152Z",
+  "hora": "2026-11-06T00:01:51.789Z",
   "mensaje": "10000 repeticiones, faltan 23 días",
-  "ultima_buena": "2026-11-05T23:01:40.152Z",
+  "ultima_buena": "2026-11-06T00:01:51.789Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-05T23:02:04+00:00",
+  "hora": "2026-11-06T00:02:13+00:00",
   "mensaje": "10 titulares del día, 90 por partido, 21 polémicas",
-  "ultima_buena": "2026-11-05T23:02:04+00:00",
+  "ultima_buena": "2026-11-06T00:02:13+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-05T23:02:04+00:00"
+  "hora": "2026-11-06T00:02:13+00:00"
  },
  "avisado": {},
  "fiabilidad": {
