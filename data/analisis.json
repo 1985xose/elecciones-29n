@@ -1,20 +1,20 @@
 {
- "actualizado": "2026-11-06T12:01:05.814Z",
+ "actualizado": "2026-11-06T13:01:05.846Z",
  "media_bruta": {
-  "PP": 30.910262633201896,
-  "PSOE": 27.199157583967043,
-  "Vox": 18.503220113612837,
-  "Sumar": 8.824244417319875,
-  "Podemos": 1.9237309076825526,
-  "ERC": 2.476669271084495,
-  "Junts": 1.3405865265369814,
-  "Bildu": 1.3794315251902234,
-  "PNV": 0.8628952506606539,
-  "BNG": 0.9422019823949997,
-  "CCa": 0.4318839010253386,
-  "AA": 1.27029640338947,
-  "SALF": 2.1687851016123916,
-  "UPN": 0.17911743042843908
+  "PP": 31.44099535929561,
+  "PSOE": 26.31437343143107,
+  "Vox": 19.351906600872645,
+  "Sumar": 8.575333441828521,
+  "ERC": 2.4744464585202364,
+  "Junts": 1.3349259654898682,
+  "Bildu": 1.3774206823049728,
+  "PNV": 0.8690441007079588,
+  "BNG": 0.9464373440058882,
+  "CCa": 0.4250478166921318,
+  "AA": 1.256468478737319,
+  "Podemos": 2.172937897891252,
+  "SALF": 2.139580843380917,
+  "UPN": 0.17911743042843906
  },
  "principales": [
   "PP",
@@ -22,29 +22,19 @@
   "Vox",
   "Sumar",
   "ERC",
-  "SALF"
+  "Podemos"
  ],
  "sesgos": {
-  "swdemoscopia": {
-   "empresa": "SW Demoscopia",
-   "n": 7,
-   "sesgo": {
-    "PP": -2.46,
-    "PSOE": 1.36,
-    "Vox": -1.01
-   },
-   "sd": 2.18
-  },
   "sociometrica": {
    "empresa": "SocioMétrica",
    "n": 15,
    "sesgo": {
-    "PP": 1.13,
-    "PSOE": -0.62,
-    "Vox": -0.69,
+    "PP": 0.96,
+    "PSOE": -0.55,
+    "Vox": -0.76,
     "Sumar": -0.69,
     "ERC": 0.09,
-    "SALF": 0.56
+    "Podemos": -0.4
    },
    "sd": 0.65
   },
@@ -52,49 +42,49 @@
    "empresa": "Sigma Dos",
    "n": 16,
    "sesgo": {
-    "PP": 0.54,
-    "PSOE": -0.72,
-    "Vox": -0.55,
+    "PP": 0.37,
+    "PSOE": -0.61,
+    "Vox": -0.64,
     "Sumar": 0.99,
     "ERC": 0.18,
-    "SALF": -0.39
+    "Podemos": 0.07
    },
-   "sd": 0.71
+   "sd": 0.67
   },
   "targetpoint": {
    "empresa": "Target Point",
    "n": 10,
    "sesgo": {
-    "PP": -0.92,
-    "PSOE": -0.65,
-    "Vox": 0.68,
+    "PP": -1.1,
+    "PSOE": -0.53,
+    "Vox": 0.59,
     "Sumar": 0.52,
-    "SALF": 0.44
+    "Podemos": -0.25
    },
-   "sd": 0.93
+   "sd": 0.91
   },
   "electopanel": {
    "empresa": "EM-Analytics",
    "n": 60,
    "sesgo": {
-    "PP": -0.19,
-    "PSOE": 0.6,
-    "Vox": 1,
+    "PP": -0.35,
+    "PSOE": 0.69,
+    "Vox": 0.93,
     "Sumar": -0.98,
     "ERC": -0.13,
-    "SALF": 0.02
+    "Podemos": 0.34
    },
-   "sd": 0.56
+   "sd": 0.59
   },
   "moreincommon": {
    "empresa": "More in Common",
    "n": 4,
    "sesgo": {
-    "PP": -2.32,
-    "PSOE": 0.27,
-    "Vox": 0.74,
+    "PP": -2.47,
+    "PSOE": 0.36,
+    "Vox": 0.67,
     "Sumar": 2.69,
-    "SALF": 0.33
+    "Podemos": 0
    },
    "sd": 1.64
   },
@@ -102,48 +92,49 @@
    "empresa": "Ateneo del Dato",
    "n": 4,
    "sesgo": {
-    "PP": -0.53,
-    "PSOE": 0.84,
-    "Vox": 0.85,
-    "Sumar": 1.62
+    "PP": -0.68,
+    "PSOE": 0.93,
+    "Vox": 0.78,
+    "Sumar": 1.62,
+    "Podemos": 0.09
    },
-   "sd": 1.65
+   "sd": 1.48
   },
   "40db": {
    "empresa": "40dB",
    "n": 13,
    "sesgo": {
-    "PP": -0.93,
-    "PSOE": 1.15,
-    "Vox": -0.24,
+    "PP": -1.08,
+    "PSOE": 1.24,
+    "Vox": -0.31,
     "Sumar": -0.6,
-    "SALF": 0.24
+    "Podemos": -0.75
    },
-   "sd": 0.61
+   "sd": 0.63
   },
   "gesop": {
    "empresa": "GESOP",
    "n": 4,
    "sesgo": {
-    "PP": -2.93,
-    "PSOE": -0.06,
-    "Vox": 0.13,
+    "PP": -3.08,
+    "PSOE": 0.03,
+    "Vox": 0.06,
     "Sumar": 1.38,
     "ERC": 0.25,
-    "SALF": 0.23
+    "Podemos": 0.06
    },
-   "sd": 0.5
+   "sd": 0.51
   },
   "gad3": {
    "empresa": "GAD3",
    "n": 3,
    "sesgo": {
-    "PP": -0.45,
-    "PSOE": -0.09,
-    "Vox": -0.22,
+    "PP": -0.6,
+    "PSOE": 0,
+    "Vox": -0.29,
     "Sumar": 0.36,
     "ERC": 0.27,
-    "SALF": -0.2
+    "Podemos": -0.45
    },
    "sd": 0.5
   },
@@ -151,12 +142,12 @@
    "empresa": "Hamalgama Métrica",
    "n": 4,
    "sesgo": {
-    "PP": 1.79,
-    "PSOE": -1.13,
-    "Vox": 0.84,
+    "PP": 1.64,
+    "PSOE": -1.04,
+    "Vox": 0.77,
     "Sumar": -0.89,
     "ERC": -0.23,
-    "SALF": -0.07
+    "Podemos": 0.46
    },
    "sd": 0.5
   },
@@ -164,37 +155,37 @@
    "empresa": "InvyMark",
    "n": 8,
    "sesgo": {
-    "PP": 1.36,
-    "PSOE": 0.76,
-    "Vox": -0.02,
+    "PP": 1.21,
+    "PSOE": 0.85,
+    "Vox": -0.09,
     "Sumar": -1.06,
     "ERC": -0.2,
-    "SALF": -0.06
+    "Podemos": 0
    },
-   "sd": 0.51
+   "sd": 0.52
   },
   "dym": {
    "empresa": "DYM",
    "n": 9,
    "sesgo": {
-    "PP": 2.37,
-    "PSOE": 0.48,
-    "Vox": -1.57,
+    "PP": 2.22,
+    "PSOE": 0.57,
+    "Vox": -1.64,
     "Sumar": -1.82,
-    "SALF": -1
+    "Podemos": 0.39
    },
-   "sd": 0.68
+   "sd": 0.71
   },
   "cis": {
    "empresa": "CIS",
    "n": 12,
    "sesgo": {
-    "PP": -8.57,
-    "PSOE": 5.92,
-    "Vox": -1.17,
+    "PP": -8.72,
+    "PSOE": 6.01,
+    "Vox": -1.24,
     "Sumar": 0.11,
     "ERC": 0.54,
-    "SALF": 0.19
+    "Podemos": -0.25
    },
    "sd": 1.19
   },
@@ -202,11 +193,12 @@
    "empresa": "NC Report",
    "n": 10,
    "sesgo": {
-    "PP": 1.89,
-    "PSOE": -1.33,
-    "Vox": -0.32,
+    "PP": 1.74,
+    "PSOE": -1.24,
+    "Vox": -0.39,
     "Sumar": -0.86,
-    "ERC": -0.1
+    "ERC": -0.1,
+    "Podemos": 0.41
    },
    "sd": 0.5
   },
@@ -214,24 +206,25 @@
    "empresa": "Data10",
    "n": 3,
    "sesgo": {
-    "PP": 1.16,
-    "PSOE": -0.61,
-    "Vox": 0.57,
+    "PP": 1.01,
+    "PSOE": -0.52,
+    "Vox": 0.5,
     "Sumar": -0.67,
-    "ERC": -0.12
+    "ERC": -0.12,
+    "Podemos": -0.19
    },
-   "sd": 0.6
+   "sd": 0.74
   },
   "keydata": {
    "empresa": "KeyData",
    "n": 4,
    "sesgo": {
-    "PP": 0.43,
-    "PSOE": -0.22,
-    "Vox": -0.18,
+    "PP": 0.28,
+    "PSOE": -0.13,
+    "Vox": -0.25,
     "Sumar": -0.03,
     "ERC": -0.03,
-    "SALF": -0.07
+    "Podemos": 0.2
    },
    "sd": 0.5
   }
@@ -244,12 +237,12 @@
    "letra": "A",
    "texto": "error medio de 1,1 puntos en 3 elecciones",
    "sesgo": {
-    "PP": 1.13,
-    "PSOE": -0.62,
-    "Vox": -0.69,
+    "PP": 0.96,
+    "PSOE": -0.55,
+    "Vox": -0.76,
     "Sumar": -0.69,
     "ERC": 0.09,
-    "SALF": 0.56
+    "Podemos": -0.4
    }
   },
   {
@@ -259,23 +252,11 @@
    "letra": "A",
    "texto": "error medio de 1,1 puntos en 3 elecciones",
    "sesgo": {
-    "PP": -0.93,
-    "PSOE": 1.15,
-    "Vox": -0.24,
+    "PP": -1.08,
+    "PSOE": 1.24,
+    "Vox": -0.31,
     "Sumar": -0.6,
-    "SALF": 0.24
-   }
-  },
-  {
-   "clave": "swdemoscopia",
-   "empresa": "SW Demoscopia",
-   "encuestas": 7,
-   "letra": "A",
-   "texto": "error medio de 0,8 puntos en una elección",
-   "sesgo": {
-    "PP": -2.46,
-    "PSOE": 1.36,
-    "Vox": -1.01
+    "Podemos": -0.75
    }
   },
   {
@@ -285,12 +266,12 @@
    "letra": "B",
    "texto": "error medio de 1,2 puntos en 3 elecciones",
    "sesgo": {
-    "PP": -0.19,
-    "PSOE": 0.6,
-    "Vox": 1,
+    "PP": -0.35,
+    "PSOE": 0.69,
+    "Vox": 0.93,
     "Sumar": -0.98,
     "ERC": -0.13,
-    "SALF": 0.02
+    "Podemos": 0.34
    }
   },
   {
@@ -300,12 +281,12 @@
    "letra": "B",
    "texto": "error medio de 1,8 puntos en 4 elecciones",
    "sesgo": {
-    "PP": 0.54,
-    "PSOE": -0.72,
-    "Vox": -0.55,
+    "PP": 0.37,
+    "PSOE": -0.61,
+    "Vox": -0.64,
     "Sumar": 0.99,
     "ERC": 0.18,
-    "SALF": -0.39
+    "Podemos": 0.07
    }
   },
   {
@@ -315,12 +296,12 @@
    "letra": "B",
    "texto": "error medio de 1,4 puntos en 3 elecciones",
    "sesgo": {
-    "PP": 0.43,
-    "PSOE": -0.22,
-    "Vox": -0.18,
+    "PP": 0.28,
+    "PSOE": -0.13,
+    "Vox": -0.25,
     "Sumar": -0.03,
     "ERC": -0.03,
-    "SALF": -0.07
+    "Podemos": 0.2
    }
   },
   {
@@ -330,11 +311,11 @@
    "letra": "B",
    "texto": "error medio de 1,8 puntos en 4 elecciones",
    "sesgo": {
-    "PP": 2.37,
-    "PSOE": 0.48,
-    "Vox": -1.57,
+    "PP": 2.22,
+    "PSOE": 0.57,
+    "Vox": -1.64,
     "Sumar": -1.82,
-    "SALF": -1
+    "Podemos": 0.39
    }
   },
   {
@@ -392,12 +373,12 @@
    "letra": "C",
    "texto": "error medio de 2,4 puntos en 4 elecciones",
    "sesgo": {
-    "PP": -8.57,
-    "PSOE": 5.92,
-    "Vox": -1.17,
+    "PP": -8.72,
+    "PSOE": 6.01,
+    "Vox": -1.24,
     "Sumar": 0.11,
     "ERC": 0.54,
-    "SALF": 0.19
+    "Podemos": -0.25
    }
   },
   {
@@ -407,11 +388,12 @@
    "letra": "C",
    "texto": "error medio de 2,1 puntos en 4 elecciones",
    "sesgo": {
-    "PP": 1.89,
-    "PSOE": -1.33,
-    "Vox": -0.32,
+    "PP": 1.74,
+    "PSOE": -1.24,
+    "Vox": -0.39,
     "Sumar": -0.86,
-    "ERC": -0.1
+    "ERC": -0.1,
+    "Podemos": 0.41
    }
   },
   {
@@ -421,12 +403,12 @@
    "letra": "C",
    "texto": "error medio de 2,2 puntos en 4 elecciones",
    "sesgo": {
-    "PP": 1.79,
-    "PSOE": -1.13,
-    "Vox": 0.84,
+    "PP": 1.64,
+    "PSOE": -1.04,
+    "Vox": 0.77,
     "Sumar": -0.89,
     "ERC": -0.23,
-    "SALF": -0.07
+    "Podemos": 0.46
    }
   },
   {
@@ -436,12 +418,12 @@
    "letra": "C",
    "texto": "error medio de 2,1 puntos en 4 elecciones",
    "sesgo": {
-    "PP": 1.36,
-    "PSOE": 0.76,
-    "Vox": -0.02,
+    "PP": 1.21,
+    "PSOE": 0.85,
+    "Vox": -0.09,
     "Sumar": -1.06,
     "ERC": -0.2,
-    "SALF": -0.06
+    "Podemos": 0
    }
   },
   {
@@ -459,12 +441,12 @@
    "letra": "C",
    "texto": "error medio de 1,9 puntos en 4 elecciones",
    "sesgo": {
-    "PP": -0.45,
-    "PSOE": -0.09,
-    "Vox": -0.22,
+    "PP": -0.6,
+    "PSOE": 0,
+    "Vox": -0.29,
     "Sumar": 0.36,
     "ERC": 0.27,
-    "SALF": -0.2
+    "Podemos": -0.45
    }
   },
   {
@@ -474,12 +456,12 @@
    "letra": "C",
    "texto": "error medio de 2,0 puntos en 4 elecciones",
    "sesgo": {
-    "PP": -2.93,
-    "PSOE": -0.06,
-    "Vox": 0.13,
+    "PP": -3.08,
+    "PSOE": 0.03,
+    "Vox": 0.06,
     "Sumar": 1.38,
     "ERC": 0.25,
-    "SALF": 0.23
+    "Podemos": 0.06
    }
   },
   {
@@ -489,11 +471,12 @@
    "letra": "C",
    "texto": "error medio de 1,9 puntos en una elección",
    "sesgo": {
-    "PP": 1.16,
-    "PSOE": -0.61,
-    "Vox": 0.57,
+    "PP": 1.01,
+    "PSOE": -0.52,
+    "Vox": 0.5,
     "Sumar": -0.67,
-    "ERC": -0.12
+    "ERC": -0.12,
+    "Podemos": -0.19
    }
   },
   {
@@ -511,11 +494,11 @@
    "letra": "D",
    "texto": "error medio de 3,1 puntos en 2 elecciones",
    "sesgo": {
-    "PP": -0.92,
-    "PSOE": -0.65,
-    "Vox": 0.68,
+    "PP": -1.1,
+    "PSOE": -0.53,
+    "Vox": 0.59,
     "Sumar": 0.52,
-    "SALF": 0.44
+    "Podemos": -0.25
    }
   },
   {
@@ -525,11 +508,11 @@
    "letra": "–",
    "texto": "sin historial en elecciones anteriores",
    "sesgo": {
-    "PP": -2.32,
-    "PSOE": 0.27,
-    "Vox": 0.74,
+    "PP": -2.47,
+    "PSOE": 0.36,
+    "Vox": 0.67,
     "Sumar": 2.69,
-    "SALF": 0.33
+    "Podemos": 0
    }
   },
   {
@@ -539,10 +522,11 @@
    "letra": "–",
    "texto": "sin historial en elecciones anteriores",
    "sesgo": {
-    "PP": -0.53,
-    "PSOE": 0.84,
-    "Vox": 0.85,
-    "Sumar": 1.62
+    "PP": -0.68,
+    "PSOE": 0.93,
+    "Vox": 0.78,
+    "Sumar": 1.62,
+    "Podemos": 0.09
    }
   },
   {
@@ -588,132 +572,6 @@
  ],
  "ultimas": [
   {
-   "id": "swdemoscopia-2026-11-04-3500",
-   "empresa": "SW Demoscopia",
-   "encargo": "La Séptima",
-   "fin": "2026-11-04",
-   "veredicto": "ruido",
-   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
-   "nota": "A",
-   "margen": 1.7,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 29.1,
-     "esperado": 29,
-     "diferencia": 0.1
-    },
-    {
-     "partido": "PSOE",
-     "dado": 29.8,
-     "esperado": 27.7,
-     "diferencia": 2.1
-    },
-    {
-     "partido": "Vox",
-     "dado": 16,
-     "esperado": 18.4,
-     "diferencia": -2.4
-    },
-    {
-     "partido": "Sumar",
-     "dado": 10,
-     "esperado": 8.7,
-     "diferencia": 1.3
-    }
-   ]
-  },
-  {
-   "id": "swdemoscopia-2026-11-03-0",
-   "empresa": "SW Demoscopia",
-   "encargo": "La Séptima",
-   "fin": "2026-11-03",
-   "veredicto": "ruido",
-   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
-   "nota": "A",
-   "margen": 3.1,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 30.6,
-     "esperado": 29,
-     "diferencia": 1.6
-    },
-    {
-     "partido": "PSOE",
-     "dado": 27.6,
-     "esperado": 27.7,
-     "diferencia": -0.1
-    },
-    {
-     "partido": "Vox",
-     "dado": 17.1,
-     "esperado": 18.4,
-     "diferencia": -1.3
-    }
-   ]
-  },
-  {
-   "id": "swdemoscopia-2026-11-02-0",
-   "empresa": "SW Demoscopia",
-   "encargo": "La Séptima",
-   "fin": "2026-11-02",
-   "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: PP baja 3.9 puntos respecto a lo esperado de esta empresa.",
-   "nota": "A",
-   "margen": 3.1,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 25.1,
-     "esperado": 29,
-     "diferencia": -3.9
-    },
-    {
-     "partido": "PSOE",
-     "dado": 28.6,
-     "esperado": 27.7,
-     "diferencia": 0.9
-    },
-    {
-     "partido": "Vox",
-     "dado": 18.5,
-     "esperado": 18.4,
-     "diferencia": 0.1
-    }
-   ]
-  },
-  {
-   "id": "swdemoscopia-2026-11-01-0",
-   "empresa": "SW Demoscopia",
-   "encargo": "La Séptima",
-   "fin": "2026-11-01",
-   "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: PSOE baja 3.9 puntos respecto a lo esperado de esta empresa.",
-   "nota": "A",
-   "margen": 3.1,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 27.7,
-     "esperado": 29,
-     "diferencia": -1.3
-    },
-    {
-     "partido": "PSOE",
-     "dado": 23.8,
-     "esperado": 27.7,
-     "diferencia": -3.9
-    },
-    {
-     "partido": "Vox",
-     "dado": 20.2,
-     "esperado": 18.4,
-     "diferencia": 1.8
-    }
-   ]
-  },
-  {
    "id": "sociometrica-2026-11-01-4893",
    "empresa": "SocioMétrica",
    "encargo": "El Español",
@@ -726,20 +584,20 @@
     {
      "partido": "PP",
      "dado": 32.7,
-     "esperado": 31.7,
-     "diferencia": 1
+     "esperado": 32,
+     "diferencia": 0.7
     },
     {
      "partido": "PSOE",
      "dado": 26.6,
-     "esperado": 25.3,
-     "diferencia": 1.3
+     "esperado": 25.7,
+     "diferencia": 0.9
     },
     {
      "partido": "Vox",
      "dado": 19.1,
-     "esperado": 18.9,
-     "diferencia": 0.2
+     "esperado": 18.7,
+     "diferencia": 0.4
     },
     {
      "partido": "Sumar",
@@ -754,70 +612,10 @@
      "diferencia": -0.1
     },
     {
-     "partido": "SALF",
-     "dado": 2.5,
-     "esperado": 2.6,
-     "diferencia": -0.1
-    }
-   ]
-  },
-  {
-   "id": "swdemoscopia-2026-10-31-0",
-   "empresa": "SW Demoscopia",
-   "encargo": "La Séptima",
-   "fin": "2026-10-31",
-   "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: Vox sube 3.8 puntos respecto a lo esperado de esta empresa.",
-   "nota": "A",
-   "margen": 3.1,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 26.9,
-     "esperado": 28.7,
-     "diferencia": -1.8
-    },
-    {
-     "partido": "PSOE",
-     "dado": 28.9,
-     "esperado": 27.7,
-     "diferencia": 1.2
-    },
-    {
-     "partido": "Vox",
-     "dado": 22.1,
-     "esperado": 18.3,
-     "diferencia": 3.8
-    }
-   ]
-  },
-  {
-   "id": "swdemoscopia-2026-10-30-0",
-   "empresa": "SW Demoscopia",
-   "encargo": "La Séptima",
-   "fin": "2026-10-30",
-   "veredicto": "ruido",
-   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
-   "nota": "A",
-   "margen": 3.1,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 28.4,
-     "esperado": 28.7,
+     "partido": "Podemos",
+     "dado": 1.7,
+     "esperado": 2,
      "diferencia": -0.3
-    },
-    {
-     "partido": "PSOE",
-     "dado": 28.9,
-     "esperado": 27.7,
-     "diferencia": 1.2
-    },
-    {
-     "partido": "Vox",
-     "dado": 16.5,
-     "esperado": 18.3,
-     "diferencia": -1.8
     }
    ]
   },
@@ -834,20 +632,20 @@
     {
      "partido": "PP",
      "dado": 31.1,
-     "esperado": 31.4,
-     "diferencia": -0.3
+     "esperado": 31.6,
+     "diferencia": -0.5
     },
     {
      "partido": "PSOE",
      "dado": 24.6,
-     "esperado": 26.2,
-     "diferencia": -1.6
+     "esperado": 26.1,
+     "diferencia": -1.5
     },
     {
      "partido": "Vox",
      "dado": 19.3,
-     "esperado": 18.5,
-     "diferencia": 0.8
+     "esperado": 18.7,
+     "diferencia": 0.6
     },
     {
      "partido": "Sumar",
@@ -860,6 +658,12 @@
      "dado": 3,
      "esperado": 2.5,
      "diferencia": 0.5
+    },
+    {
+     "partido": "Podemos",
+     "dado": 1.9,
+     "esperado": 2.5,
+     "diferencia": -0.6
     }
    ]
   },
@@ -876,20 +680,20 @@
     {
      "partido": "PP",
      "dado": 31.8,
-     "esperado": 29.9,
-     "diferencia": 1.9
+     "esperado": 30,
+     "diferencia": 1.8
     },
     {
      "partido": "PSOE",
      "dado": 25.5,
-     "esperado": 26,
-     "diferencia": -0.5
+     "esperado": 25.9,
+     "diferencia": -0.4
     },
     {
      "partido": "Vox",
      "dado": 19.9,
-     "esperado": 19.7,
-     "diferencia": 0.2
+     "esperado": 19.9,
+     "diferencia": 0
     },
     {
      "partido": "Sumar",
@@ -898,10 +702,10 @@
      "diferencia": 4.1
     },
     {
-     "partido": "SALF",
-     "dado": 2.6,
-     "esperado": 2.4,
-     "diferencia": 0.2
+     "partido": "Podemos",
+     "dado": 2.4,
+     "esperado": 2,
+     "diferencia": 0.4
     }
    ]
   },
@@ -910,28 +714,28 @@
    "empresa": "EM-Analytics",
    "encargo": "Electomanía",
    "fin": "2026-10-30",
-   "veredicto": "ruido",
-   "texto": "Dentro de lo que suele dar esta empresa. No cambia nada.",
+   "veredicto": "leve",
+   "texto": "Algo fuera de lo habitual: Podemos baja 1.0 puntos respecto a lo esperado de esta empresa.",
    "nota": "B",
    "margen": 2.5,
    "detalle": [
     {
      "partido": "PP",
      "dado": 31.5,
-     "esperado": 30.7,
-     "diferencia": 0.8
+     "esperado": 30.8,
+     "diferencia": 0.7
     },
     {
      "partido": "PSOE",
      "dado": 25.8,
-     "esperado": 27.3,
-     "diferencia": -1.5
+     "esperado": 27.1,
+     "diferencia": -1.3
     },
     {
      "partido": "Vox",
      "dado": 19.2,
-     "esperado": 20.1,
-     "diferencia": -0.9
+     "esperado": 20.3,
+     "diferencia": -1.1
     },
     {
      "partido": "Sumar",
@@ -946,40 +750,10 @@
      "diferencia": -0.3
     },
     {
-     "partido": "SALF",
-     "dado": 1.6,
-     "esperado": 2.2,
-     "diferencia": -0.6
-    }
-   ]
-  },
-  {
-   "id": "swdemoscopia-2026-10-29-0",
-   "empresa": "SW Demoscopia",
-   "encargo": "La Séptima",
-   "fin": "2026-10-29",
-   "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: PP sube 4.8 puntos respecto a lo esperado de esta empresa.",
-   "nota": "A",
-   "margen": 3.1,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 33.3,
-     "esperado": 28.5,
-     "diferencia": 4.8
-    },
-    {
-     "partido": "PSOE",
-     "dado": 26.6,
-     "esperado": 28.2,
-     "diferencia": -1.6
-    },
-    {
-     "partido": "Vox",
-     "dado": 18.2,
-     "esperado": 18.3,
-     "diferencia": -0.1
+     "partido": "Podemos",
+     "dado": 1.7,
+     "esperado": 2.7,
+     "diferencia": -1
     }
    ]
   },
@@ -1018,10 +792,304 @@
      "diferencia": 3.9
     },
     {
-     "partido": "SALF",
-     "dado": 1.1,
-     "esperado": 2,
-     "diferencia": -0.9
+     "partido": "Podemos",
+     "dado": 1.9,
+     "esperado": 2.5,
+     "diferencia": -0.6
+    }
+   ]
+  },
+  {
+   "id": "psoe-2026-10-25-0",
+   "empresa": "PSOE",
+   "encargo": "",
+   "fin": "2026-10-25",
+   "veredicto": "leve",
+   "texto": "Algo fuera de lo habitual: PSOE sube 3.1 puntos respecto a lo esperado de esta empresa.",
+   "nota": "C",
+   "margen": 3.1,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 29,
+     "esperado": 31,
+     "diferencia": -2
+    },
+    {
+     "partido": "PSOE",
+     "dado": 30,
+     "esperado": 26.9,
+     "diferencia": 3.1
+    },
+    {
+     "partido": "Vox",
+     "dado": 20,
+     "esperado": 19.3,
+     "diferencia": 0.7
+    }
+   ]
+  },
+  {
+   "id": "moreincommon-2026-10-25-2210",
+   "empresa": "More in Common",
+   "encargo": "",
+   "fin": "2026-10-25",
+   "veredicto": "movimiento",
+   "texto": "Movimiento real: Sumar sale 5.5 puntos por encima de lo que cabía esperar de esta empresa.",
+   "nota": "–",
+   "margen": 2.1,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 28.3,
+     "esperado": 28.9,
+     "diferencia": -0.6
+    },
+    {
+     "partido": "PSOE",
+     "dado": 27.6,
+     "esperado": 27.1,
+     "diferencia": 0.5
+    },
+    {
+     "partido": "Vox",
+     "dado": 20.8,
+     "esperado": 19.7,
+     "diferencia": 1.1
+    },
+    {
+     "partido": "Sumar",
+     "dado": 15.6,
+     "esperado": 10.1,
+     "diferencia": 5.5
+    },
+    {
+     "partido": "Podemos",
+     "dado": 2.6,
+     "esperado": 2.5,
+     "diferencia": 0.1
+    }
+   ]
+  },
+  {
+   "id": "sociometrica-2026-10-25-3223",
+   "empresa": "SocioMétrica",
+   "encargo": "El Español",
+   "fin": "2026-10-25",
+   "veredicto": "movimiento",
+   "texto": "Movimiento real: Sumar sale 2.1 puntos por debajo de lo que cabía esperar de esta empresa.",
+   "nota": "A",
+   "margen": 1.7,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 32.4,
+     "esperado": 31.7,
+     "diferencia": 0.7
+    },
+    {
+     "partido": "PSOE",
+     "dado": 27,
+     "esperado": 26.3,
+     "diferencia": 0.7
+    },
+    {
+     "partido": "Vox",
+     "dado": 18.6,
+     "esperado": 18.7,
+     "diferencia": -0.1
+    },
+    {
+     "partido": "Sumar",
+     "dado": 6.1,
+     "esperado": 8.2,
+     "diferencia": -2.1
+    },
+    {
+     "partido": "ERC",
+     "dado": 2.6,
+     "esperado": 2.3,
+     "diferencia": 0.3
+    },
+    {
+     "partido": "Podemos",
+     "dado": 1.8,
+     "esperado": 2.2,
+     "diferencia": -0.4
+    }
+   ]
+  },
+  {
+   "id": "winston-2026-10-23-1200",
+   "empresa": "Winston",
+   "encargo": "Artículo14",
+   "fin": "2026-10-23",
+   "veredicto": "leve",
+   "texto": "Algo fuera de lo habitual: Sumar baja 2.2 puntos respecto a lo esperado de esta empresa.",
+   "nota": "–",
+   "margen": 2.8,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 29.4,
+     "esperado": 31.5,
+     "diferencia": -2.1
+    },
+    {
+     "partido": "PSOE",
+     "dado": 27.1,
+     "esperado": 26.6,
+     "diferencia": 0.5
+    },
+    {
+     "partido": "Vox",
+     "dado": 19.2,
+     "esperado": 19.2,
+     "diferencia": 0
+    },
+    {
+     "partido": "Sumar",
+     "dado": 5.6,
+     "esperado": 7.8,
+     "diferencia": -2.2
+    }
+   ]
+  },
+  {
+   "id": "electopanel-2026-10-23-4309",
+   "empresa": "EM-Analytics",
+   "encargo": "Electomanía",
+   "fin": "2026-10-23",
+   "veredicto": "movimiento",
+   "texto": "Movimiento real: Podemos sale 1.6 puntos por debajo de lo que cabía esperar de esta empresa.",
+   "nota": "B",
+   "margen": 1.5,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 30.9,
+     "esperado": 31,
+     "diferencia": -0.1
+    },
+    {
+     "partido": "PSOE",
+     "dado": 26.7,
+     "esperado": 27.4,
+     "diferencia": -0.7
+    },
+    {
+     "partido": "Vox",
+     "dado": 19,
+     "esperado": 20.1,
+     "diferencia": -1.1
+    },
+    {
+     "partido": "Sumar",
+     "dado": 7,
+     "esperado": 6.8,
+     "diferencia": 0.2
+    },
+    {
+     "partido": "ERC",
+     "dado": 2.2,
+     "esperado": 2.1,
+     "diferencia": 0.1
+    },
+    {
+     "partido": "Podemos",
+     "dado": 1.7,
+     "esperado": 3.3,
+     "diferencia": -1.6
+    }
+   ]
+  },
+  {
+   "id": "ateneodeldato-2026-10-22-2000",
+   "empresa": "Ateneo del Dato",
+   "encargo": "elDiario.es",
+   "fin": "2026-10-22",
+   "veredicto": "movimiento",
+   "texto": "Movimiento real: Sumar sale 5.3 puntos por encima de lo que cabía esperar de esta empresa.",
+   "nota": "–",
+   "margen": 2.2,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 31.1,
+     "esperado": 31.1,
+     "diferencia": 0
+    },
+    {
+     "partido": "PSOE",
+     "dado": 27.6,
+     "esperado": 27.4,
+     "diferencia": 0.2
+    },
+    {
+     "partido": "Vox",
+     "dado": 19.8,
+     "esperado": 19.8,
+     "diferencia": 0
+    },
+    {
+     "partido": "Sumar",
+     "dado": 13.6,
+     "esperado": 8.3,
+     "diferencia": 5.3
+    },
+    {
+     "partido": "Podemos",
+     "dado": 2.7,
+     "esperado": 2.9,
+     "diferencia": -0.2
+    }
+   ]
+  },
+  {
+   "id": "sigmados-2026-10-22-3122",
+   "empresa": "Sigma Dos",
+   "encargo": "El Mundo",
+   "fin": "2026-10-22",
+   "veredicto": "leve",
+   "texto": "Algo fuera de lo habitual: Vox sube 1.6 puntos respecto a lo esperado de esta empresa.",
+   "nota": "B",
+   "margen": 1.8,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 30.6,
+     "esperado": 32.3,
+     "diferencia": -1.7
+    },
+    {
+     "partido": "PSOE",
+     "dado": 26.1,
+     "esperado": 26.2,
+     "diferencia": -0.1
+    },
+    {
+     "partido": "Vox",
+     "dado": 19.9,
+     "esperado": 18.3,
+     "diferencia": 1.6
+    },
+    {
+     "partido": "Sumar",
+     "dado": 8.2,
+     "esperado": 8.7,
+     "diferencia": -0.5
+    },
+    {
+     "partido": "ERC",
+     "dado": 2.5,
+     "esperado": 2.3,
+     "diferencia": 0.2
+    },
+    {
+     "partido": "Podemos",
+     "dado": 2.8,
+     "esperado": 2.9,
+     "diferencia": -0.1
     }
    ]
   }
