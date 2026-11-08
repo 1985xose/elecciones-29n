@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-11-07T23:01:45+00:00",
+ "actualizado": "2026-11-08T00:01:53+00:00",
  "generales": [
+  {
+   "titulo": "\"Un diputado más\" en Valladolid: Feijóo eleva la meta contra la papeleta de Puente y \"la ministra de las pulseras\"",
+   "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef7e3afdddffa90e8b457e.html",
+   "fuente": "El Mundo",
+   "fecha": "2026-11-08T00:01:40+01:00",
+   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/07/17940801914084.jpg"
+  },
   {
    "titulo": "Elecciones generales del 29-N, en directo | Pedro Sánchez convoca la Comisión Interministerial de Inmigración para abordar la crisis migratoria de Canarias",
    "enlace": "https://www.elespanol.com/espana/20261107/elecciones-generales-directo-ultima-hora-adelanto-electoral-pedro-sanchez-sondeos-encuestas-voto-correo-espana-2026-partidos/1003744449830_10.html",
@@ -21,13 +28,6 @@
    "fuente": "elDiario.es",
    "fecha": "2026-11-07T21:41:34+00:00",
    "imagen": "https://static.eldiario.es/clip/b23b9a2e-46e9-4193-9e73-5d43858327ba_16-9-discover-aspect-ratio_default_0.jpg"
-  },
-  {
-   "titulo": "Encuestas electorales para el 29N: primer y único sondeo que da ganador al PSOE en la Comunidad Valenciana",
-   "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261107/encuestas-electorales-29n-primer-unico-sondeo-da-ganador-psoe-comunidad-valenciana_478541.html",
-   "fuente": "El Debate",
-   "fecha": "2026-11-07T20:22:57+01:00",
-   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/07/6aef799c5ed41.jpeg"
   },
   {
    "titulo": "Las diez píldoras del día de la campaña electoral",
@@ -75,17 +75,17 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "\"Un diputado más\" en Valladolid: Feijóo eleva la meta contra la papeleta de Puente y \"la ministra de las pulseras\"",
+    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef7e3afdddffa90e8b457e.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-08T00:01:40+01:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/07/17940801914084.jpg"
+   },
+   {
     "titulo": "Carnero reclama \"diálogo\" a Feijóo para llevar a cabo el soterramiento: \"Es irrenunciable para los vallisoletanos\"",
     "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMVpDclJuNjhuX2VlNERXTmZZTTlJQVRPbVhWTzdhby1ZQkd1VmxNakRfUGFvemdldDNrRExjcmlaenZsVXgxMWY2b1hXYlRYTUp0cGlZODJabG42MTZIZWgxSWx1SnZCMGlqR3RQSzJrd21KRVFKSGEtVmFYOFIyLTVMM3p2a3A0bGYyTkpNY1dUanZVeDNTT2lVbXM5SmNfVmkxR1h2d1d2ZzgxRmRKU1l2S2NldHhEby1Rbl9DajdmbGtmdU1kN2gzRlpSZW5HX2pMTV9hRlJoMnMxYldIZ2RLSDB6OXJMTFNCN9IB8gFBVV95cUxNMjIzSjJXU0lhQzJkcEl5dUt5UXNWTjdqR09EMWJ0ZmNUaVVaczZ6bUZQeXlfWVhGVFJBX055Mk5nclF0RzdxSDJGVjIyc0NSYjZYUk5tcTRNbHZZZDhTNEg4RlVLZGVXNnFncl9lUG9RUU4xMmg5YTZEZTlrUHB3Z0xNa3N1Unh2WmQ2MXY4eFJaTzJXSWF6UGIyTUx1WG1YZEMtVk1EbWlMU0w1aDY3MDFiWGlDTEk2SWlRazhZSzUyMlNJUGhTU2hGS19vbmNwNjB4VUdjQS1mMGhGTkFKUTVObC0zS2dRNE5uQk05TEtiUQ?oc=5",
     "fuente": "Valladolid Plural",
     "fecha": "2026-11-07T22:07:51+00:00"
-   },
-   {
-    "titulo": "Feijóo encarga al PP el tercer diputado por Valladolid para demostrar que la provincia «no es Óscar Puente»",
-    "enlace": "https://www.abc.es/espana/castilla-leon/feijoo-encarga-pp-tercer-diputado-valladolid-demostrar-20261107160910-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-07T21:58:51+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/07/feijoo-valladolid-RueekOdgjFcraigEc1nJK4H-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Salvador Illa: “Es una bajeza moral que Feijóo utilice a las 69 víctimas de Urda para que no se convoque la huelga general”",
@@ -110,24 +110,31 @@
    {
     "titulo": "Pelayo: \"Feijóo va a mejorar la vida de los españoles y los gaditanos; podéis confiar en él, porque es de fiar, como Juanma Moreno\"",
     "enlace": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPdjNKdHRPdk5mVGdJcDRHVm1uTmIzc2I5WFo5TEs1OGo5NWJsQXNpYVkzU3lQNFZuRnlaekIxVUhWNnJiSzRIa3duUUhlNlZQMS1HbHFCQ2dLdkJzTExfQnZ3ZUhUS205S0tSMW9OZTUwWVZsWDlpTkR2dldMckJVWm4wQW5raV9VczUxNkxyRjY1UTVmMzRmYmtxNDZzTi1Da0dYTEgxcGZPWk1TbkRTNEVCUGVYejFpV0tRZElFRnZKTXYwZFpXbXk1UFRZdkJUY3BhTlNFajlxZXlKUmJMZVpYa2Y1ZTk2Z05aTmpKcm9OdW1kNjlCcUVJeW9KU0ttR1lGd2pUME10MndhWFdmUkNuQ2U4WXVq?oc=5",
-    "fuente": "lavozdelsur.es",
+    "fuente": "La Voz del Sur",
     "fecha": "2026-11-07T17:10:19+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Elecciones generales del 29-N, en directo | Pedro Sánchez convoca la Comisión Interministerial de Inmigración para abordar la crisis migratoria de Canarias",
-    "enlace": "https://www.elespanol.com/espana/20261107/elecciones-generales-directo-ultima-hora-adelanto-electoral-pedro-sanchez-sondeos-encuestas-voto-correo-espana-2026-partidos/1003744449830_10.html",
-    "fuente": "El Español",
-    "fecha": "2026-11-07T22:18:00+01:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11396206.jpg?p=c:1101:620:nowe:300:253/w:1706/h:960&h=WAjRJgPr"
+    "titulo": "Abascal denuncia «otra invasión» en Canarias y lamenta de nuevo la gestión migratoria de Sánchez",
+    "enlace": "https://www.eldebate.com/espana/20261108/abascal-denuncia-otra-invasion-canarias-lamenta-nuevo-gestion-migratoria-sanchez_478554.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-08T00:34:24+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/08/6aefb518b437c.jpeg"
+   },
+   {
+    "titulo": "Puente, una dimisión que rompe algo en el PSOE",
+    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef6a30e85eced81a8b4598.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-07T23:01:00+00:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/07/17940694481365.png"
    },
    {
     "titulo": "La creciente presión migratoria en Canarias empuja a Sánchez a convocar una Comisión Interministerial",
     "enlace": "https://www.elconfidencial.com/espana/2026-11-07/canarias-inmigracion-comision-interministerial-clavijo-sanchez-1tps_4461084/",
     "fuente": "El Confidencial",
     "fecha": "2026-11-07T22:04:00+01:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794091892&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794095268&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
    },
    {
     "titulo": "Encuestas elecciones generales: Así es la encuesta de La Séptima que da ganador al PSOE, pero con PP y Vox con mayoría absolut",
@@ -146,15 +153,23 @@
     "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSDltT2FFYl9kODBISmRoRTk1enNBazV6NXAtRmJjeTRuQndQN0x4VGlJaDR0dmFNV3RZY01uNWZmQnRiOFhZaXRsVFJRM05fVzRSMWhHWVRmVUc3d2psbHhGYm16U0tUSURCUnhQUkF1QzF4RjgtQ1B5eEVMTXpEQWRub2RVRHNSR3hWNnl6TFJvX01JVzZsR1B3Szh2QUxGcTNpTmI3VnlTcEZzdWpqeGJBU1lGbUJ5ZWREV3lWejVxaWI1WUdGWjNqdXVraGlnMXpaRVF1c09YZG5GYXFCWk1HWGRIQl9Bc0pVMlYwXzhMQnB0MEZRSNIB-AFBVV95cUxOdjNNUDljYTg2eTRHNGJWV3hBR25Db2VLallIeFA3WUtiaXR1OFM1WEZGZ1NKT2Y0dUR6RlNXMTVvWHlLN3ljaUFwaFdabjdyeVd5TzYyZktldXNKa3hhNDRXbW9yZE5oVkdZZnc2QThhWDAycVZjaWJXRGN4QklrZkxONDNRUXhDZnNfODRkbUlBenowclA2ZktERlJoSEMzQkVRMVRlZGZwQm9LcGVvY1pnRURtYjNHdHJ0NzhvTWJZWDJZcGFBalM4QUFHWFU3OGN0RW9sUHpxMk5YRjJwZFItUUxLbUZVQVVQNkY0TmhKdWlGVlFBUA?oc=5",
     "fuente": "LaSexta",
     "fecha": "2026-11-07T19:27:57+00:00"
-   },
-   {
-    "titulo": "Crespín destaca que las pensiones han crecido \"más del 45%\" con Sánchez frente al \"0,25% del PP\"",
-    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeWlsWW5sMGNON0E4MWZPZ3NkVkVFblNteUR5bERFQTc3Rm0zWloyZXdpeTY0S25TNHJjXzZWQzN4YWd1WEQ5UF95alhwOXNSRldObmc2WERaM1NNdDdMYm1XeXNlQVBObDNjWnZhdWw4TExWR3ZvTVFQUUstMmdzUE1tb2taSWpZTndQYjhTNlZpOWc5dWg4QWk0dnRtT05PMDJuc3VUVlpJaFFyQXBjTEI5UWg5RldkdXVOR0k4Qmk5S0JwMWVOdXFQaTbSAdIBQVVfeXFMTklMM3FMQTNGMGJmQ3hvRlQtY1I0VHEwTUp4eGVhbkItdUlITm5KZFI0dGdhRVNCU0lxd1BhWnE2QzhuRnFKT0w1U3kzTjI1MzNQY0V1TWVwU1VGWVNJbmRZbER5Uy1sRXcwZDhIVUpqU29CZVpPQWh3eUNKNWdOUXhoR2MtZnhpM3BtMUhLOVlWQ0hfb1R2dHBWQU5qWjRPTUVvNEFEY1NYbzlfNFV6dDh4VE9rdi1MeWw5VnlwbnZQTVc3TXBIblpwRklNSnRoQkRR?oc=5",
-    "fuente": "Cordoba Hoy",
-    "fecha": "2026-11-07T18:53:49+00:00"
    }
   ],
   "Vox": [
+   {
+    "titulo": "Abascal denuncia «otra invasión» en Canarias y lamenta de nuevo la gestión migratoria de Sánchez",
+    "enlace": "https://www.eldebate.com/espana/20261108/abascal-denuncia-otra-invasion-canarias-lamenta-nuevo-gestion-migratoria-sanchez_478554.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-08T00:34:24+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/08/6aefb518b437c.jpeg"
+   },
+   {
+    "titulo": "Abascal dice que El Hierro vive otra invasión: \"Han llegado 8.000 a una isla de 12.000\"",
+    "enlace": "https://www.20minutos.es/nacional/abascal-dice-hierro-vive-otra-invasion_7058602_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-11-07T23:36:05+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/23/6adba65e6a4328-90774408.jpeg"
+   },
    {
     "titulo": "Polémica por la elección del público para la visita de Abascal a «La revuelta»",
     "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNODRPMkRHLW9xVDM3OGotTlBGa09wNE9LV04tblBnTWJhdnJhWmRUMjBNb1RxYzRScThKN3J2enZFMkE3OUNJY25zTEVzWWVIeXhPWmY5REY5aTFXcC15U0FuZ0VYcGFQQlJYUXk0NXRjMUE4Y3hBWTlhSGd2ckctcVpfaHpmRXYzRVJ5cUpHaVdVMWp0ODhwRDBOUF8waW14LXRfdkxqMFdZVDB0Y1F1N3VFa3NBU1JkT2xUREtrYl9SNDBBQkVnN29NV2J4eWlU0gHsAUFVX3lxTE94cHd0YXVXem44UnNVNUg0N09xR2ZHLVFINXMyWkxTSTBQc2JZWFZ1MzNtbUpNa3hnUjg0ekJZLUNVdkxWdk5GdjN4eGNUMWszVWwtNjZjaTlXWXQwNVN1djE5LTdGWmVwNXduTlRnQnNfVnYzNmNxb3puUmhuNVR2UUVqX21MXzRZQW5VREZHczR2VjltNDN2alhBSXdGangtVGcxN1E4NUxGVDhRX3BDVXZIYmdqTjNwMUZjR3RGclhIZDdfbXl0YnZoWXl5RVR4U1h0c0ttd0Yya0F0OGVjNU1PZGh0MmFfMW9l?oc=5",
@@ -174,22 +189,10 @@
     "fecha": "2026-11-07T20:03:26+00:00"
    },
    {
-    "titulo": "Rouco (Vox) acusa a Sánchez de ser el capo que ha destrozado los servicios públicos, la sanidad y la educación",
-    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX2t1NFQzNFpPNEY2LWRJRFhDOXZWbTFfY3ZvNkswbXNuWC11bUR3R2Zob3JFX3JFY3JKdkRFeXBhZ2FtOXpOUFk4by1nRWcxNmVSajM4VkxLTVBEcl93TWJhb3ZSMGpoaUd0UjBVU1BLY2dUV2xyYUw4TUZqclVCZ3pIM2gyZEFTWW5Vbzc1cnFxOTVodXdMVWFPX3dkckZ2dnFITWlHSHVvODdrQlk4dkNyZFZhYVN0dmdHYi1rTGEyd0ZZTUpPSkYxQXJ0NUZKSXlfV0NQUdIB3AFBVV95cUxPMkVCQnBMcXdybFVDc05yVFRJN1Q0b1RIQndqMkJYcGFzNlZnQjlxNHJNV1pQRDhYWXVYLWNKWExSR1R6RU9WS2dWRjB6ZVR6VTdQVmRNbXY4TUp3X2t3N3FfVWxJVTl6Xzg2SEVsaWEyNnVEYzViTGQyVEcxeDdfVHozemczZzRtMG9IZkctRVh0QjNaT3E4ZU96ZXU0WnprbE9Xa0N0NXBDYmZ0bDVVWXA0cEhDOVhxVTRXNEpiTUFQdDNlaS1BWFBoSV9wTTNRQ1BTVVpyT2tTSjNO?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-07T19:02:26+00:00"
-   },
-   {
-    "titulo": "Rouco (Vox) acusa a Sánchez de \"ser el capo que ha destrozado los servicios públicos, la sanidad y la educación\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNLUFtak9xaVVMaXZUTHRJVE1pbEQtWGVLSVVEcmVkTW90di1kTWktWWlXQV9qWXktZi15Y3ByeVZxdXZtQWZiYXQzaDZSTWRKeWJGMW1SZl9TNlgxaWhJaWhVa010UzdRMERJeENTUUN3ekhpZ3IyNWUwRFZDN09DQ2dCeklvT3dob1pUYVlkTkEwR1pucjdXX3J4ZTRwam5QQXJwX3dQUzFiUDlEZ2Z2TlJ6bUwxa3NlZ2FyS3BWbVhpU3BVNDBuZFFIYmg0OG5jaUNJUWRHTmFHeHhPNm9lTENrYzJJdw?oc=5",
-    "fuente": "Ultima Hora",
-    "fecha": "2026-11-07T19:01:12+00:00"
-   },
-   {
-    "titulo": "Vox reclama una política migratoria que proteja los servicios públicos y la seguridad de los cordobeses",
+    "titulo": "Vox reclama una política migratoria que \"proteja los servicios públicos y seguridad de los cordobeses\"",
     "enlace": "https://www.eldebate.com/espana/la-voz-de-cordoba/actualidad/20261107/voxreclama-politica-migratoria-proteja-servicios-publicos-seguridad-cordobeses_478524.html",
-    "fuente": "El Debate",
-    "fecha": "2026-11-07T18:28:48+01:00",
+    "fuente": "Cordoba Hoy",
+    "fecha": "2026-11-07T19:21:59+00:00",
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/10/21/6ad8f0c156773.jpeg"
    }
   ],
@@ -213,16 +216,16 @@
     "fecha": "2026-11-07T10:16:15+00:00"
    },
    {
+    "titulo": "Qué partidos forman Frente Amplio: integrantes, acuerdos y diferencias con Sumar",
+    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcTMyOUNtYXJXYzEwbXpRTFhpa1gyd1diVUV3dWVkRlFWU09xdUJxejVKRE5LT0NLcG9PVlVEb1pPTG5lT2JuUTVDckhvXzJod1pxdVBFa3FkbUpObkl4M19WZmpGVlY5Qi14RDZsaTJjcWYyQnV0UDlEVzFveWh4UEtHZUJwOC1fUzI4Nm15ZFRHVXNxM3phVDFaNkFQYmxaSHU4c3IzdU9fdWZ6VUVNOHF1QXlJNDZ3Mko4Vnk2cWUyWF9waXc?oc=5",
+    "fuente": "Artículo 14",
+    "fecha": "2026-11-07T09:00:00+00:00"
+   },
+   {
     "titulo": "La Asamblea abre expediente a Más Madrid",
     "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ0ZjejhGbU5mb2pJdG5HeGRveEdaVUR3Y3Bpc3B3RzNjMkZqOWRqRkFXS2p6R0tYRk9TZkJYN3FzRklib2RxRDV5d3BXTG5VakJ2TW1zcFV5ZTM0Sm1YM2JJUk1uMDBOc0prcHBwcjY3d19rZkEyWHdhR1Zuc3E5RTNUbG5VSzJJaUNjU3NpSUh2MlliekFJM3N4cjIwd1FmTE92Y3dhaFV5MF8zajdHR2s0UExnUjBHTUHSAboBQVVfeXFMTUNGY3o4Rm1OZm9qSXRuR3hkb3hHWlVEd2NwaXNwd0czYzJGajlkakZBV0tqekdLWEZPU2ZCWDdxc0ZJYm9kcUQ1eXdwV0xuVWpCdk1tc3BVeWUzNEptWDNiSVJNbjAwTnNKa3BwcHI2N3dfa2ZBMlh3YUdWbnNxOUUzVGxuVUsySWlDY1NzaUlIdjJZYnpBSTNzeHIyMHdRZkxPdmN3YWhVeTBfM2o3R0drNFBMZ1IwR01B?oc=5",
     "fuente": "La Razón",
     "fecha": "2026-11-06T18:39:38+00:00"
-   },
-   {
-    "titulo": "Yolanda Díaz: un significativo silencio",
-    "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNEh2WXhCNTFTSHpTa2VqbklRbFFmbkJCS19LRUE5NHMtb2NaRHFVTnV3a2UzWkdEWDJhREFrQ05hMmlraDNJdGNUd0ZfcV8tTzZVVUpUM1RMQXNkaC13LXB6ZDMxeGJuRkhMWUdKVEpQUkhVbFpDQVZkZ1Bob3NCWjUtZTdXZnRYRlhiMEI3ODY0MEViMURxXzBXQmdjc2U5dnNWNG16V1Y3UGVGd3FwZ2dKZ9IBswFBVV95cUxNQWp1MGh3Y2pWR0JNMGlkTFNsNWlsYVpCaElnN0d2bzZlUnNFcjNHbDZZRTBvTUFfUFVWY3FHS2pjd3FIaHJ2NzQ0NlhnRnpvMjJaeXE3TXpHUzg2TEFPU1R2R2lYNWs3ZG54OF9hTS1zX1dUQ21ORlJERHJUaGpFYlJ5N21CaDZUaDVxSUc4VGVXUmt6YTdpNjNXTGZnRGV6MlZLTm5yVGtnaFRfN0ttUTFxRQ?oc=5",
-    "fuente": "El Periódico",
-    "fecha": "2026-11-06T16:29:32+00:00"
    },
    {
     "titulo": "Yolanda Díaz reclama un sistema ferroviario \"100% público\" y se muestra partidaria de investigar todo lo necesario",
@@ -233,11 +236,11 @@
   ],
   "Podemos": [
    {
-    "titulo": "Rufián e Irene Montero piden el voto para «someter al PSOE» con insultos a Ayuso: «Es la mafia»",
-    "enlace": "https://okdiario.com/espana/rufian-irene-montero-piden-voto-someter-psoe-insultos-ayuso-mafia-20723244",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-07T18:47:17+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/07/imagen_recortada-2026-11-07t184514.566.jpg"
+    "titulo": "Montero y Rufián abogan por un Gobierno del PSOE «sometido» a Podemos y a independentistas",
+    "enlace": "https://www.eldebate.com/espana/madrid/20261107/montero-rufian-abogan-gobierno-psoe-sometido-podemos-independentistas_478460.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-07T15:00:47+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/07/6aef26c74612d.r_d.1418-753-0.jpeg"
    },
    {
     "titulo": "Irene Montero arremete contra Ayuso: \"Mafia es comprarte un ático de 6 millones de euros\"",
@@ -253,13 +256,6 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/07/6aef1f0f0e17b7-19383879.jpeg"
    },
    {
-    "titulo": "Montero y Rufián abogan por un Gobierno del PSOE «sometido» a Podemos y a independentistas",
-    "enlace": "https://www.eldebate.com/espana/madrid/20261107/montero-rufian-abogan-gobierno-psoe-sometido-podemos-independentistas_478460.html",
-    "fuente": "El Debate",
-    "fecha": "2026-11-07T14:00:47+00:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/07/6aef26c74612d.r_d.1418-753-0.jpeg"
-   },
-   {
     "titulo": "Irene Montero arremete contra Ayuso: «Mafia es comprarte un ático de 6 millones de euros»",
     "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4wV0N6ZUNqNE5pcVRQRkNjWmduV3JmMngxNGFDNmZnZDg2RmlZRFNQSWZzMmd6WXlhZ3FjN0VkQWo4T3EtbGZLQlhJX3haTnFLcDVhUGJ3WUF2dU16Z09Nb3RkcWFzSldXQ18tUTQ0WWx0eGNtal9zWHBWeGI?oc=5",
     "fuente": "EFE - Agencia de noticias",
@@ -270,6 +266,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNWEpLTVVhZFpLeGZ1Z2gyV1ZBWk83STlkc0Qtd3hfa3JDYTlmX3NQQkVjbmFtOFpRWDNEVXZqWmpoZU9uMFhTNlJTb1FVWUVXeXJJRHJHajZpMWVvb204TUZHN3B5VTBnUHRfWEE0RjVPWkoxbVliVzdIN2pLd2FxVTh1bW5taElKd3lRbkJxUEl4VXB2eDB4bmhwemJFaXRWdFVHT0lfTDNsOEFWUVN3SGNpQllfUjdwTG1UdEZmTmlERU5tWWdrQXVwQXcyRlN2NEJfMU5uX3Nkc19kNVEzemNIbXdmZkJBb1ZTY0tfSVVBX09kRjUxbk9qZjBZYWc1OFAwaHVmSG9xaWxx?oc=5",
     "fuente": "El Constitucional",
     "fecha": "2026-11-07T13:15:13+00:00"
+   },
+   {
+    "titulo": "Rufián e Irene Montero confluyen en su crítica al Frente Amplio por meterse en listas del PSOE",
+    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWFVUeTdhYVBDTlo0SHlqSHV6RG1JNUVSVGUxa3VMT0UzckZiQVJUSnFoMDhHSEVpbWFUYmtZOHQ0NnE5ZkJjdERZWnRIdC1kRmpHUzhiRmNtZmJRSTlUN1luVWVfbGRDM054eHlJUGZYMGRhVExkNnZzdURiaVY3Y21ISWhOT1VqQ0h2dEhDalo2QTZHdFpYb2MtRmxmaWQ4ZnhfTGcwZmF1bjVQYUhqZjNXMGhJX0IyNXlhZg?oc=5",
+    "fuente": "Servimedia",
+    "fecha": "2026-11-07T13:11:00+00:00"
    }
   ],
   "SALF": [
@@ -313,13 +315,6 @@
   ],
   "ERC": [
    {
-    "titulo": "Rufián e Irene Montero piden el voto para «someter al PSOE» con insultos a Ayuso: «Es la mafia»",
-    "enlace": "https://okdiario.com/espana/rufian-irene-montero-piden-voto-someter-psoe-insultos-ayuso-mafia-20723244",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-07T18:47:17+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/07/imagen_recortada-2026-11-07t184514.566.jpg"
-   },
-   {
     "titulo": "Montero y Rufián hacen campaña antiSánchez: huelga \"contra el Gobierno\" y la corrupción de Ábalos, por ser \"cercano\" al presidente",
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOE9SV0Q4SlViaW1saFQwMjR3a21uUHkxVkJoZmhiX0UwdXBHamJ5cEpmVFRwNXI3cFFkRi1SUnJjVmlsYUx5Y016a000bGN5czhZanBPZjdhVlJZSGJtNWl0cDh6QUJkNEFDbExGNUxIUVZTVUpYeDdUQUFndk9iRnNNajhtVGJOazJUeEdPcEZQTmRyRGduLWRRSdIBmwFBVV95cUxQWW5jNE5BbEVaRzU4amRReEcyZWpOMUhJanZPSURmZ3NnYTBsNHBsRW5JdHcxdEFRRjhyUnlWRTZTNzAzN1NxRi1uSVA1RHNOZXlkMVhMcmxzMWo3QllNSkxDNDE5MEExRk5NS25CeUJNSTYxelktbzJzY21zVGkzWTg0UTZkM2pEUm1zUkxVSV9CQXdjZy1rVGE1cw?oc=5",
     "fuente": "El Mundo",
@@ -332,6 +327,13 @@
     "fecha": "2026-11-07T15:20:56+00:00"
    },
    {
+    "titulo": "Montero y Rufián abogan por un Gobierno del PSOE «sometido» a Podemos y a independentistas",
+    "enlace": "https://www.eldebate.com/espana/madrid/20261107/montero-rufian-abogan-gobierno-psoe-sometido-podemos-independentistas_478460.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-07T15:00:47+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/07/6aef26c74612d.r_d.1418-753-0.jpeg"
+   },
+   {
     "titulo": "Irene Montero y Rufián animan a votar con \"memoria\" y obviando el voto útil: \"El PSOE, si puede, te come\"",
     "enlace": "https://www.20minutos.es/nacional/irene-montero-rufian-animan-votar-con-memoria-obviando-voto-util-psoe-si-puede-te-come_7058511_0.html",
     "fuente": "20minutos",
@@ -339,18 +341,18 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/07/6aef1f0f0e17b7-19383879.jpeg"
    },
    {
-    "titulo": "Montero y Rufián abogan por un Gobierno del PSOE «sometido» a Podemos y a independentistas",
-    "enlace": "https://www.eldebate.com/espana/madrid/20261107/montero-rufian-abogan-gobierno-psoe-sometido-podemos-independentistas_478460.html",
-    "fuente": "El Debate",
-    "fecha": "2026-11-07T14:00:47+00:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/07/6aef26c74612d.r_d.1418-753-0.jpeg"
-   },
-   {
     "titulo": "Montero y Rufián, tándem en Madrid: \"El voto útil es la manera del PSOE de obligarte a votar lo que no quieres\"",
     "enlace": "https://www.infolibre.es/politica/montero-rufian-tandem-madrid-voto-util-manera-psoe-obligarte-votar-no-quieres_1_2239683.html",
     "fuente": "infoLibre",
     "fecha": "2026-11-07T13:56:25+00:00",
     "imagen": "https://static.infolibre.es/clip/3f338612-b187-4496-835b-885f241883cf_16-9-aspect-ratio_default_0.jpg"
+   },
+   {
+    "titulo": "Rufián afirma que \"Bildu es más patriota que todos esos patriotas de pandereta que llevan la pulserita de su país\"",
+    "enlace": "https://www.elespanol.com/espana/politica/20261107/rufian-afirma-bildu-patriota-patriotas-pandereta-llevan-pulserita-pais/1003744449986_0.html",
+    "fuente": "El Español",
+    "fecha": "2026-11-07T13:56:06+00:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11396310.jpg?p=w:1706/h:960&h=R3_j7ije"
    }
   ],
   "Junts": [
@@ -359,6 +361,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLTRzcnFNcjBUY3NhV0drLVB3ZlFXS1l4T2p1anBhY2dpZVN2S1RiVHdQWWdaXzRzRGYtV0pzTWJFZ254N2M3dWZDX2xNbDZRcEZSVTNjT0NRLU1rQVJhOFpGV0xVUXRNR1lsREt3U3prYUVfOUZFdHpJelFyM0ZoV05lOTNsS2xNcTZIcEZpeGlMQmFUb05YNlRCUUl0MWNTSmxWMHZmMG5jd2PSAbABQVVfeXFMUENvUWxIelYydHZLQ0hrRDFheDhLZHZ1NktuZlNXMFpVMFVldm42dnZYejhzVVhidEdaTTJJSVZ6SmxRb2xtYzFCMEhlTDNvVUxmek9ybUxpRllWXzA2amFhN2pJVzFFTHVmd2hsWVVKUDFZM3BCcmxyRUNvVl9QNTBEYldSWFdqUHhwNXRVdHRoYWNrRG4wTnpMNzVLSVVIQjRPRTRHOGxEOGN0LXhoaU0?oc=5",
     "fuente": "Diario de Noticias de Álava",
     "fecha": "2026-11-07T16:16:04+00:00"
+   },
+   {
+    "titulo": "Illa, contra la equidistancia de Junts ante el 29N: \"Cataluña será decisiva, los que estéis en medio, apartaos\"",
+    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQem9iaERZa1kza2JXOWhWWWlkSjE3NXBWVjUxaDFIbGNOSXhzVDFpS3dNNHEtZmg3clF3YlMxaXozVDMzWWNmUTkwLVJGLU9LaF9aVFExdmU2VFhKdFVWRjlzV2hRLUZLdGdWWUxsRGo5VW1pRWNMOWs2V2sxdWo0M3M3Q2M0YWZZZVNrRTlxSjR3dmNDc1VaemhIOE1lcW9tbVM0WVhqd2RZZ2d3c1NkTmFuVUpEY25aNTBMZzFhMnhKNjRZNFZ1bWQ1eEvSAdIBQVVfeXFMTmdyNVNOM1BXUWtLZmQ3a3lmZC1VT0JwWGE2eEV0ZVViNEljOU9DLVViRHdhTjR5Q1ZJQzdzUTlHMmx0S0ZWMDg5ZGYwV2VDQ0NhSmdYSkVzcFpmNWRtNXlJOWR2NC1vLXZLNzh3V3UxQVhEdkktWG1MdXpSRFdtYVNPdFo1aDhFdnBHNXNGNnE1MWo2RUhSVkhfamdJd2R5T3AyWHprRW5wVV9tZFdGR3hSZzEwckRBdURmU1dnbHlEY0M5aVpUNlpUZlVoOFlIcTF3?oc=5",
+    "fuente": "Crónica Global",
+    "fecha": "2026-11-07T12:56:36+00:00"
    },
    {
     "titulo": "Sánchez avisa de que España no obedecerá a Washington e Illa exige a Junts que \"se aparte del medio\"",
@@ -383,12 +391,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdDQ0VVpUMmJfMUhVOEpmWlc3OFJMb1NLb1BvRFRGaTFrZ3ZVV2VvejRiZlB2aUp3WEpIYmNyMVdJR28zUnc3a2k4LU9WLXI4TExOVXpRQTRwVDJnanQ3UG1jYTNVcnExclFReFhvMGMwM2FPMmQ0MnBRTHpYblA2emdlYkRsTklhYVVqSWQtYVVsTGVaYVduTWtJbUtCLVpLWFJlTGVSWXRsTjl4eHQ4YXdEQ1BLQnRGejZtdndYNVlKR3EzZkp2cFhTS0dKTUdPRFhmb0VqWExyajlMZmt1Rw?oc=5",
     "fuente": "El Nacional.cat",
     "fecha": "2026-11-07T12:20:00+00:00"
-   },
-   {
-    "titulo": "Junts se vuelve a echar en las manos del PSOE",
-    "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91UFVhdTNRUU1qSHNwTThtS3d6RkRuaFQxcWlIRVZNQzlvSXl6ZEVWaUJDMUVBTklSa3BZZjQ4eXBiLW4zZ3A2TVZDbXVfZF92QV9aMUNEUnptdzh3Q1pVbXkxM243cjZiSlFsNklPVU1idzZ1N0tMaVBB?oc=5",
-    "fuente": "El Catalán",
-    "fecha": "2026-11-06T23:06:57+00:00"
    }
   ],
   "Bildu": [
@@ -528,6 +530,12 @@
     "fecha": "2026-11-07T16:33:48+00:00"
    },
    {
+    "titulo": "Primero Canarias y CC celebran la unidad del nacionalismo canario «20 años después» y se conjuran para conquistar Madrid",
+    "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYmo3a3VoV3ZjZFpWSlpYSkVrR2J4NmlydDJCMVJWT3pVTU5KQ216Sy1rM3JFbXFpalBvM05KQjRJaEhDNE1jeWczY0dLZ2Z6WFZvX3pEdWt5WkRsYkpza1VwU0J4YXkzWEpYdThob0IyelRlUUtzY1JGam5IMHMzanh5dmF6dlJRLWZkLTk5eUk0ZGI3ZDhaRjd0cC1tNDBLRnBicXNDam_SAa4BQVVfeXFMTXd2ZGIyNGY1aDBRUkJlZHpxeHdxM0lINEN1THRXX3V2NnZ1Z2x4YlZrdkU2NHJZWVJvT1l0bndTOHJvZXBCY05QWE12NEhZcUtkNkVaRE1udzg3S0pEdkNlS1hHVHFLcDBIQlNwT0N2UFFUR1hGOHgxcDN0NFE5eFBxZXNpYzI1V1JqeldHZWZyUENnS3FyV2ZibHpaLU9OUjJsdXVwcTBadGJGMWVn?oc=5",
+    "fuente": "La Provincia",
+    "fecha": "2026-11-07T16:00:41+00:00"
+   },
+   {
     "titulo": "Primero Canarias-CC presenta sus candidaturas",
     "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMHBWN0ZFUTZHSTFVd1hXVnZFeEctX1lCNXJYa1pkeTJlZnBuN1ZjeVMwV1dJSFRNQTQzS0pyTFNlQ01QdlNhRW45SzRWM0FMNFhZUW9aNHlVeDQ3RUF2T091Q2U2dFVOXzl1QWZKZ19ZMVA4eW5VbmFBNTdJcnlNWl9BaDd2OXVtSGNLOV90QkNVYWRneE0zVGFTSXFyWEd2UGc?oc=5",
     "fuente": "Canariasdiario.com",
@@ -538,12 +546,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa2YwTHZPemcyd016QUZnLVR5V3dfVTBPWHRmZExXem1FWmg1QURlSE9GTVVQaUFVSzB5SkI0UHUta0NmdmtkMl91MFVFR0hzaW1KWXBISVNYcjBnMHNjQTR2TTRxbnBWOHp3ZUw3ckJDNVNEem1WWndYQkdUdjRSLWdraE9pNElCQTJWcFBDaWlPZmtEVEQzZ2lmbkVKaElFZUpyZ21fdFE?oc=5",
     "fuente": "Lancelot Digital",
     "fecha": "2026-11-07T14:11:05+00:00"
-   },
-   {
-    "titulo": "Telde arropa con fuerza la candidatura de Primero Canarias-CC al 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUF91RTYyT1NvLWsxMllEcnludkFjbGx2NmFhODNzbmJtN1hvVUhrZkR3NFBIQ0RBbEI1TzhKaGFzcnY4RHFDblBlVkdNM09FdUZCbFVLRmJqZmd0LVNVZ3pGaGpjM0ZBU1ZSczRPeGR2WDNIdDlJY3ZiRW5VV2hMTlpsTjZVYmxWWER2U3gzX1hNeERPaHNGdHROUW1sdw?oc=5",
-    "fuente": "Telde Actualidad",
-    "fecha": "2026-11-07T13:53:42+00:00"
    }
   ],
   "UPN": [
@@ -665,16 +667,16 @@
  "verificaciones": {
   "PP": [
    {
-    "titulo": "¿«Feijóo pretende quitar dinero a las personas que están en situación de baja médica por cáncer, infarto de miocardio, ictus, entre otras enfermedades»? · La Buloteca · Maldita.es",
-    "enlace": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPRVdXT1VORFFSRzJDeU5pczJqeFF4R19wZU1tdXVwQzBlUGZFOERodC12eDUyT0FVb2xMWGFLYmFBa2NSdGhVaDViZGoxenduVzJkTEQ4VFdnRmtoeHlRV2wwaFE2My1wTXhEZmdkdmotcDJMVXhJaXQwUUo4Q0s1OTVuQmJnWlQ0N0NGaktsd2k5N3VfUFlTakVmdEJYcnFLdng3T2JtZ281ZnBIWmFYeFVVdXk0Y2pVRVpCVFduTi0tTzBPQmJZNFBMNmVTY2xNTi0yVHlqdGVEQUZ1N2FlUlhtZmpoN3BDSHY2VkticDdvRDVZRkZlSnV5MkNma3pkeGRMWmI5RFozdEE?oc=5",
+    "titulo": "¿Al menos 19 personas que tenían que declarar en contra de la corrupción del PP han terminado muertas?",
+    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZTl5Z09YYXRoR1JvOGJjN1pON1JGQWZUNXhMcXBabkpuaHZ0MmRmM1lvS0MwWXFIRjYtOUtQVi1wTXFfVVJPTU95STYyTnNoYS1pNHlIVjdrckJqd1Z3d1pEdWM2NHMySGxFTks0c0xvcWZpR2lwYkwyX3lwU09tQl9PSVoydk84ZjlWZTJYaHZISXlSdkp5ZTZHalBkbS1jRVRVVUF3WE8wNW5vWU9McnV2UzBxcGN3ejJCX1Z5aVlzOFRKNzdpWXdaLTNZNE0?oc=5",
     "fuente": "Maldita.es",
-    "fecha": "2026-11-07T09:57:49+00:00"
+    "fecha": "2026-11-07T08:30:18+00:00"
    },
    {
-    "titulo": "¿Fotografía de Luis de la Fuente, Feijóo y Ayuso juntos durante la corrida de toros de la Hispanidad?",
-    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWTFqMi1vM01aRnFzQ2U0V2dCcTI0SDFMS05lYTM1eUx1bUN6WDZMTEpNLW1VNWpWdFNvSVd2cjdQbnhwWHo2aVB2dWYwNTJwSWY3ekZMWTRPS3dGSzdDNmJITEEtcWtuM1ZoN284NlUxWXN0YUpSTG4xdzZfOWJjNkpZcFc1NXRhQ01XZWs1RjlWWGc5dzdOcGMtVncxRlJaOHlzOUd5eFdVNnd0emJLR3A3anp6MUxaVEZpbjVhdmMyMGp3RGFIbDFVSm0?oc=5",
+    "titulo": "¿«PP, Vox y Junts se alían para exigir la dimisión de Pedro Sánchez»? · La Buloteca",
+    "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzRXpndmFudXdDY0F5elJGZlRpam9qSlZ5QmhhUU1FWDBnMFFTVDViYXJfOFVqa1FMRGZLN1AxN0JTTzFHWmxKVFZGaUpDRUNweEdxOHhVUnNLTXZMLTZHdnlrWWpDMm9PSXAwTEg5ZGQ?oc=5",
     "fuente": "Maldita.es",
-    "fecha": "2026-11-07T06:54:53+00:00"
+    "fecha": "2026-11-07T05:10:53+00:00"
    },
    {
     "titulo": "Cuerpo no ha dicho que “habrá que ampliar la edad de jubilación o subir las cotizaciones” como asegura Feijóo",
@@ -691,10 +693,10 @@
     "fecha": "2026-11-07T09:26:12+00:00"
    },
    {
-    "titulo": "¿«La cesta de la compra se dispara un 38% con Pedro Sánchez»?",
-    "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSUhwZmVjcXp5MFhSU19oMHN2bUkxNkVLTm5zY3l6cVNCcFdESVlpYzhqOFZQM19IbHdBTlp0c3dTeDUzMGVnUGttMmY1LXpsamdVSUZVYnlIMmRGN1I5Qkc1NnZmbzVkcXZlbDktVUhVNzFmZnl6akQ5TV8tMS1TR29UZkFQMm5VNm5CNnZ2b3V5SW92?oc=5",
+    "titulo": "¿«El Gobierno de Pedro Sánchez pretende vender los terrenos de Carraclaca (Lorca), donde se ubican las ruinas de un antiguo campamento militar, a un fondo buitre»? · La Buloteca · Maldita.es",
+    "enlace": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNdFVMVkdONnZmdy1SRHNZMHpLQU5QLUs1VkFEbmNEUVBRamJxdi04c1gzbV9fRy00UXB1VUtiV1RRZklRRmlQUzlrNG5LU2VvdHlucVI5YXF4RjZfZ1ZvYUlHMEtPcDJsWV9HSlVXZVdZU056QVBLa3lQMzRqdjdSb3ZxcVVCaDZTWVJrLTg0QVlMTWx3eDlpREVCNDYtTGlVT2hoaXlRd3FWWGotUDRacGJjRHNXRlg4Mk1GZlhHS0NaR3h6TGg1N3d2QXVraTJOQURVM2g2a1JmUGRmU3g3amxIdGRDYVF0M1BtUU01aVhGQzRxWnYxalpsRmp2amd6X0hBZnN3azBwYmp0T1dWdDlES01sUVdx?oc=5",
     "fuente": "Maldita.es",
-    "fecha": "2026-11-07T08:30:37+00:00"
+    "fecha": "2026-11-07T08:35:19+00:00"
    },
    {
     "titulo": "¿«Pedro Sánchez recibió el mensaje: \"Asalto por valla y mar mañana a las 20 horas\" el 29 de julio de 2026 y decidió no hacer nada»? · La Buloteca · Maldita.es",
@@ -723,16 +725,16 @@
     "fecha": "2026-11-07T06:24:57+00:00"
    },
    {
-    "titulo": "¿Vox propone vetar de las ayudas al cine en Castilla y León a películas que impliquen adoctrinamiento ideológico?",
-    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWHpsNVZMRnhENlNPSVAyYVVKZHhjcGdYNDNmcEt6ZWJlRDg5ZmlFTlRWbVp5eS01QjFQYkQ2SXBsWDBaLWxrVERnZlVKOE44TllSb25BOHFlbkRyc2NwN2RDdmVwRHJzQlNsbjl3b2RqSmJWNmNDX09xUF8wVWQ2YWxZSlJROEJxUTVXZXBZc19XaGRkRHFTVWUydW9kbmszamx0cGhzZGtOSGxpM2NWMEpCSE9aSFdFbGd3TUNfZWl5Y2hr?oc=5",
-    "fuente": "Maldita.es",
-    "fecha": "2026-11-07T04:33:30+00:00"
-   },
-   {
     "titulo": "¿«Vox disfrutará de casas gratis en Andalucía gracias a su pacto con Moreno Bonilla»?",
     "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaS1XNzJoV2RsR2VYQk9peWZxbVBVWGw5QkQ2MTRUaTBSWnFKX1JUOVBvN0M4LVUwa3NORDlGa1FzcFNxNV9vRm5xa21Db0NKR0JiaTJfQzUtUmpRdi1Vc0x0d1p4XzVtdXVDRmtveWpGNmc2RnUzTXBvbWU4RFEwNlFGVGl6aVhMZGt3aUROUno3RXNnTVlKdHdLazlWLTRqaFhkT2hFWWpKc1RkelRKZ1B4UkEtUQ?oc=5",
     "fuente": "Maldita.es",
     "fecha": "2026-11-07T04:22:41+00:00"
+   },
+   {
+    "titulo": "¿Vox afirma que se llega al gobierno va a \"borrar de un plumazo\" todo lo que ha aplicado la izquierda?",
+    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR0VDaXBId01RdWNzMFdDNlRNZmtxaVZYNXJtWHpydGZ3R0pMUjBBdWZJTFplVDkxaGJQQ19zcGJlelBTdElzUDN1YzFsMDdZdE5WRzlUVzJUQTNxSzJFRENMdDNuUDI3MnlrRjBJLW1hdklWZzNtUjRZbVRsQjZWWVd0TEZvRXI4X3ZfLThPUGRseHNZTDJHeHQ0VXJxN21VNmwxTV9VdWhIZGxJVnJxOFNTWXVrUlg4U2tfWUpBRzJscDUzcEJhR2NwMjg?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-11-07T04:06:38+00:00"
    }
   ],
   "Sumar": [
@@ -783,12 +785,6 @@
   ],
   "SALF": [
    {
-    "titulo": "¿Alvise Pérez dice que inmigrantes con pasamontañas y cuchillos lo amenazaron en Ceuta?",
-    "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZmFSTGZXWUVORWxfWGxFS1FlWnIxcVVYWUppTUlDSlhCM0g3WkxPVUdlS0JkcEljalVxX250UHNDN3pLX1VQV0ZwSWM3aWc4TDAwV3ZVTnZ0Sm9RaFlZbFN0MjFRZGo5OGhZdDRKSF9yaWFzZU5fcmFiaVZ4cXg4TW5wSzNjOEVoV1hGWHhEQjJRSFQyaFU5N1I1N3Q3a2RqaW9hR1pLS0N5VmVpbklOTFN0bWNGMF90Sk5B?oc=5",
-    "fuente": "Maldita.es",
-    "fecha": "2026-11-06T08:00:00+00:00"
-   },
-   {
     "titulo": "¿«Alvise ha compartido su certificado digital de antecedentes penales y su certificado oficial de no deudas con Hacienda para desmentir bulos sobre su persona»? · La Buloteca · Maldita.es",
     "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNQ2hEcGJLclhGMVpXbm1GVEtJWlVvOWFFWkVRdEV2amZHand5bU9TSkszczlnTmhNbnQ3WmhMUGdqeVVGMW1TYjhuNFVOTkhvUW4wUUI5ZmJ4Wmt2NGx1UlcxUnNnQkFUTFpKdGcyZXpnYWNlMmpPMURqclhCY2tUTnhjbEdGOVJrcE13M1FVcE1aUEdVdjlHekRVbURxXzBaYjdGMkg5ZUsxYzJsVkJKOXZYM2lWSjV5TnYtNURvbm9kSVpmNDl6WnZUMVdjOWhBRVZiU0RMX3pmWnVVZU16MHVmN1lUalFENnVuOW53WTNiMzRHcUlKYWY0WExQSU9tY3RBNjc2dlZ5dmtnRmNsZ200d1hqR2tjZ2c?oc=5",
     "fuente": "Maldita.es",
@@ -816,6 +812,12 @@
    }
   ],
   "Junts": [
+   {
+    "titulo": "¿«PP, Vox y Junts se alían para exigir la dimisión de Pedro Sánchez»?",
+    "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzRXpndmFudXdDY0F5elJGZlRpam9qSlZ5QmhhUU1FWDBnMFFTVDViYXJfOFVqa1FMRGZLN1AxN0JTTzFHWmxKVFZGaUpDRUNweEdxOHhVUnNLTXZMLTZHdnlrWWpDMm9PSXAwTEg5ZGQ?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-11-07T05:10:53+00:00"
+   },
    {
     "titulo": "¿«Esta portada de La Vanguardia dice que Puigdemont se nacionaliza marroquí para poder entrar a España cuando le dé la gana»? · La Buloteca · Maldita.es",
     "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZWVjRnEtODU0VFpqWm5QZ2NoWHRNa0pUdHNtV3RnRUxSS2RLTzBNanBVLVRoMXF3cTIzZEZBRzFHVjItVG9IcGN5azJSTElyb1JrWW8yMDN1aENyYXlpZTFheF9sVEdTWkdxNTB0a1VSelJndWZxaldSWjdrc2JTeHkwRjdybkVub3paNllfdjdNX1lydmFybGl5YWkwY2JJRVc4QnJISDdNUW5LRVc5bFpfQlBycFBTQmE0cjZ2TGI0Zm1TSU03VWR4eG14YVZncTcwNmozTG9uMWhEVFNLc1BpMHgtNlZ1TnJV?oc=5",
@@ -858,22 +860,22 @@
    "fecha": "2026-11-07T10:16:15+00:00"
   },
   {
-   "titulo": "¿«Feijóo pretende quitar dinero a las personas que están en situación de baja médica por cáncer, infarto de miocardio, ictus, entre otras enfermedades»? · La Buloteca · Maldita.es",
-   "enlace": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPRVdXT1VORFFSRzJDeU5pczJqeFF4R19wZU1tdXVwQzBlUGZFOERodC12eDUyT0FVb2xMWGFLYmFBa2NSdGhVaDViZGoxenduVzJkTEQ4VFdnRmtoeHlRV2wwaFE2My1wTXhEZmdkdmotcDJMVXhJaXQwUUo4Q0s1OTVuQmJnWlQ0N0NGaktsd2k5N3VfUFlTakVmdEJYcnFLdng3T2JtZ281ZnBIWmFYeFVVdXk0Y2pVRVpCVFduTi0tTzBPQmJZNFBMNmVTY2xNTi0yVHlqdGVEQUZ1N2FlUlhtZmpoN3BDSHY2VkticDdvRDVZRkZlSnV5MkNma3pkeGRMWmI5RFozdEE?oc=5",
-   "fuente": "Maldita.es",
-   "fecha": "2026-11-07T09:57:49+00:00"
-  },
-  {
    "titulo": "¿«Maricarmen Abascal escribió el año pasado una carta a Pedro Sánchez pidiéndole ayuda directa para evitar su desahucio y no respondió ni tomó medidas al respecto»? · La Buloteca · Maldita.es",
    "enlace": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOVi04MVhoMnBTTEpsenkwMGNWTnRPdnl6WS1uSkp6Q2Z2Q1lCR0ZURmNHRnpkWmE5X2pHRVdHYUZjMWt6UjFlQjlSOXUzZTNielJaY3BCYUZVWV8wX18zNmxjVDlzTkoyX2pQUGtiZE1jRHZpWTAxaFdZNnhMT0N4U3NKeERoWjQ3Y0dLakZIaHJJZHRUeFBob2QydEpidHlvUXFrQWtESFhqX0ZBa2dLenlHY0d6bXdMSmhFbVlEUTNiY3VfZlJJZzFGMUE4cG1SM0x1YzF4N1AzbzVhdmotbVN2TFU4YVAyOERhZmppeWt3M0dIU1JLYWY0OXVxcDh3bzR6UVBlZVB3UFB3YkxuQjZZSGV4bk9UQkNFRmR6MA?oc=5",
    "fuente": "Maldita.es",
    "fecha": "2026-11-07T09:26:12+00:00"
   },
   {
-   "titulo": "¿«La cesta de la compra se dispara un 38% con Pedro Sánchez»?",
-   "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSUhwZmVjcXp5MFhSU19oMHN2bUkxNkVLTm5zY3l6cVNCcFdESVlpYzhqOFZQM19IbHdBTlp0c3dTeDUzMGVnUGttMmY1LXpsamdVSUZVYnlIMmRGN1I5Qkc1NnZmbzVkcXZlbDktVUhVNzFmZnl6akQ5TV8tMS1TR29UZkFQMm5VNm5CNnZ2b3V5SW92?oc=5",
+   "titulo": "¿«El Gobierno de Pedro Sánchez pretende vender los terrenos de Carraclaca (Lorca), donde se ubican las ruinas de un antiguo campamento militar, a un fondo buitre»? · La Buloteca · Maldita.es",
+   "enlace": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNdFVMVkdONnZmdy1SRHNZMHpLQU5QLUs1VkFEbmNEUVBRamJxdi04c1gzbV9fRy00UXB1VUtiV1RRZklRRmlQUzlrNG5LU2VvdHlucVI5YXF4RjZfZ1ZvYUlHMEtPcDJsWV9HSlVXZVdZU056QVBLa3lQMzRqdjdSb3ZxcVVCaDZTWVJrLTg0QVlMTWx3eDlpREVCNDYtTGlVT2hoaXlRd3FWWGotUDRacGJjRHNXRlg4Mk1GZlhHS0NaR3h6TGg1N3d2QXVraTJOQURVM2g2a1JmUGRmU3g3amxIdGRDYVF0M1BtUU01aVhGQzRxWnYxalpsRmp2amd6X0hBZnN3azBwYmp0T1dWdDlES01sUVdx?oc=5",
    "fuente": "Maldita.es",
-   "fecha": "2026-11-07T08:30:37+00:00"
+   "fecha": "2026-11-07T08:35:19+00:00"
+  },
+  {
+   "titulo": "¿Al menos 19 personas que tenían que declarar en contra de la corrupción del PP han terminado muertas?",
+   "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZTl5Z09YYXRoR1JvOGJjN1pON1JGQWZUNXhMcXBabkpuaHZ0MmRmM1lvS0MwWXFIRjYtOUtQVi1wTXFfVVJPTU95STYyTnNoYS1pNHlIVjdrckJqd1Z3d1pEdWM2NHMySGxFTks0c0xvcWZpR2lwYkwyX3lwU09tQl9PSVoydk84ZjlWZTJYaHZISXlSdkp5ZTZHalBkbS1jRVRVVUF3WE8wNW5vWU9McnV2UzBxcGN3ejJCX1Z5aVlzOFRKNzdpWXdaLTNZNE0?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-11-07T08:30:18+00:00"
   },
   {
    "titulo": "¿«Pedro Sánchez recibió el mensaje: \"Asalto por valla y mar mañana a las 20 horas\" el 29 de julio de 2026 y decidió no hacer nada»? · La Buloteca · Maldita.es",
@@ -888,19 +890,27 @@
    "fecha": "2026-11-07T08:02:56+00:00"
   },
   {
-   "titulo": "¿Fotografía de Luis de la Fuente, Feijóo y Ayuso juntos durante la corrida de toros de la Hispanidad?",
-   "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWTFqMi1vM01aRnFzQ2U0V2dCcTI0SDFMS05lYTM1eUx1bUN6WDZMTEpNLW1VNWpWdFNvSVd2cjdQbnhwWHo2aVB2dWYwNTJwSWY3ekZMWTRPS3dGSzdDNmJITEEtcWtuM1ZoN284NlUxWXN0YUpSTG4xdzZfOWJjNkpZcFc1NXRhQ01XZWs1RjlWWGc5dzdOcGMtVncxRlJaOHlzOUd5eFdVNnd0emJLR3A3anp6MUxaVEZpbjVhdmMyMGp3RGFIbDFVSm0?oc=5",
-   "fuente": "Maldita.es",
-   "fecha": "2026-11-07T06:54:53+00:00"
-  },
-  {
    "titulo": "¿«El proetarra que quiso atentar contra Abascal se llama Josep Sancho i Masip»?",
    "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM3F1MHRLQXhaWVk4anZ3RGVCNkl3OVk4THM2anhzel9JNWtlWm0zZ0lKTGRkc3R0SnVocDhBbTM5Mml1OXhqeGNUTy1ydlh3ODVFN3RWMlR0Y1Fjek1BTk5wbU9wQTRYb1hyLWt1N0lhaDFJWnVMNHlFVFZIanFRREpyLVBBOEo4c05RT1ZsV2pSYWoyVngtVVFXdVo4bnM3TGRSLTlkclhiWGs4?oc=5",
    "fuente": "Maldita.es",
    "fecha": "2026-11-07T06:24:57+00:00"
+  },
+  {
+   "titulo": "¿Esta encuesta electoral es falsa o está manipulada? Cómo identificarlas de cara al 29N",
+   "enlace": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxVlJFeFBDSzFIZkNBUzdZcUZtS3NZaHZfeGdqemZUazJfWnpMdjM4YmJQTzZ5bUMtRzRUVF9WejBHenN0MjdJZUZiSWlISkh4LWF1Ym1HY0U0aTVZdlR6eUt1RVBjVjRL?oc=5",
+   "fuente": "Newtral",
+   "fecha": "2026-11-07T05:32:49+00:00"
   }
  ],
  "polemicas": [
+  {
+   "titulo": "Puente, una dimisión que rompe algo en el PSOE",
+   "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef6a30e85eced81a8b4598.html",
+   "fuente": "El Mundo",
+   "fecha": "2026-11-07T23:01:00+00:00",
+   "partido": "PSOE",
+   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/07/17940694481365.png"
+  },
   {
    "titulo": "Polémica por la elección del público para la visita de Abascal a «La revuelta»",
    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNODRPMkRHLW9xVDM3OGotTlBGa09wNE9LV04tblBnTWJhdnJhWmRUMjBNb1RxYzRScThKN3J2enZFMkE3OUNJY25zTEVzWWVIeXhPWmY5REY5aTFXcC15U0FuZ0VYcGFQQlJYUXk0NXRjMUE4Y3hBWTlhSGd2ckctcVpfaHpmRXYzRVJ5cUpHaVdVMWp0ODhwRDBOUF8waW14LXRfdkxqMFdZVDB0Y1F1N3VFa3NBU1JkT2xUREtrYl9SNDBBQkVnN29NV2J4eWlU0gHsAUFVX3lxTE94cHd0YXVXem44UnNVNUg0N09xR2ZHLVFINXMyWkxTSTBQc2JZWFZ1MzNtbUpNa3hnUjg0ekJZLUNVdkxWdk5GdjN4eGNUMWszVWwtNjZjaTlXWXQwNVN1djE5LTdGWmVwNXduTlRnQnNfVnYzNmNxb3puUmhuNVR2UUVqX21MXzRZQW5VREZHczR2VjltNDN2alhBSXdGangtVGcxN1E4NUxGVDhRX3BDVXZIYmdqTjNwMUZjR3RGclhIZDdfbXl0YnZoWXl5RVR4U1h0c0ttd0Yya0F0OGVjNU1PZGh0MmFfMW9l?oc=5",
@@ -913,13 +923,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOaUdnUVRTcDZTUzlzOXIwUVJFR0VrM3g5Nmk2V0FJU1hHTDRkLURqWm1nX3Z3QzdZcHIyWTRGWVVGWDRXcG9xY2Q3enU0aFpCX04xNXN2ODVQbGszNGl0TDdHdW04SkxwVUxWZ1ZrNmdHbkw2bXFDWGprV1JuSVpaTExfY3Itc195dThENmlRZ1Q0NWxGQWZDaDZ6RTlBWjBOZDlzZ0FrbHN4Y1BMbFhCT2RFZVlxU2luNmg3XzVEQXF6TVM2aU1HOTNXNnlTOTc1ZE5sMTRUNldXVFdKX2lWVjN6NmFkN3JlQ1HSAeoBQVVfeXFMUHFDMDdVQlJJYlB3ZmVBbTlqU1gwMWdNTWo4eDZtYkFCTzhSYUszS2g5TmRpeExvYjZzbTV6Y0VTOHJYOUgtZ0xhUjBxMVU5MGpBU0dvWFpaOGx3MFExWDV4M2hvVXk3ZjRYRC00WnU4ZXV0ZFI0ck5YTXBfWlRXUmZTRWxJX2dENGxuSUdYdU9VbWFEaDJFWE1haW9EZXBfeW5BU2Y1ZG5tWnFjRmJsQXY5X241ZjZyTEN5Smlod3hsR3Q0aVlnRXc1WERkd3YzWWdxQnBnNUJfcmxWRVpmRlFKX3owcmZZeWRR?oc=5",
    "fuente": "Antena 3 Noticias",
    "fecha": "2026-11-07T13:41:53+00:00",
-   "partido": "PSOE"
-  },
-  {
-   "titulo": "Feijóo dice que no le vale con la dimisión de Puente y culpa a Sánchez del accidente de Urda",
-   "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQek5MNzFOYWNRX2FsdFhFVURwamFFVkl2b0pzWnNXbUZyTXlCNVdEdXA1MHR6ZFR6NWlZYjVmWk12dnBCWXJRenpSd3RqcTNKTFkyQk9Ud1lEcE8yLU8tMHpPZWduUUdmZkNJWnVLV1NTbmY4SmFwbW95XzJveUo1eEdUaGJnRmxkeDBZeWdBYnRCMVpvN3fSAZYBQVVfeXFMUFpCSVo1ZklSSGVIeXJldmhKR0lkaHpCRnp0Y2JTYVV1aFVONGpsU0tLcktDUVp2OGdNZTVaRXp0dUhBakRVRGptdDhTVUd5U1ZkRmxfc1JQS2FuTGdiSlI2cDdSekFzdElyVGxFUElveF9QQk1HajZubkYtdDJmdm5RQllkcUphWTdtTWZ3R0FFbWd4RHZR?oc=5",
-   "fuente": "El Periódico",
-   "fecha": "2026-11-07T13:38:28+00:00",
    "partido": "PSOE"
   },
   {
