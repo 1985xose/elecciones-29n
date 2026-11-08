@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-11-08T00:01:53+00:00",
+ "actualizado": "2026-11-08T01:01:55+00:00",
  "generales": [
+  {
+   "titulo": "Sánchez recluta al cerebro de la remontada de Lula en redes para repetir la hazaña en España",
+   "enlace": "https://www.abc.es/espana/sanchez-confia-colaborador-lula-creacion-ejercito-activistas-20261105011940-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-11-08T01:38:51+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/05/1519356304-RCwFseHZGMzHmmBqZ6sGU1J-1200x840@diario_abc.jpg"
+  },
   {
    "titulo": "\"Un diputado más\" en Valladolid: Feijóo eleva la meta contra la papeleta de Puente y \"la ministra de las pulseras\"",
    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef7e3afdddffa90e8b457e.html",
@@ -14,13 +21,6 @@
    "fuente": "El Español",
    "fecha": "2026-11-07T22:18:00+01:00",
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11396206.jpg?p=c:1101:620:nowe:300:253/w:1706/h:960&h=WAjRJgPr"
-  },
-  {
-   "titulo": "Feijóo encarga al PP el tercer diputado por Valladolid para demostrar que la provincia «no es Óscar Puente»",
-   "enlace": "https://www.abc.es/espana/castilla-leon/feijoo-encarga-pp-tercer-diputado-valladolid-demostrar-20261107160910-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-07T21:58:51+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/07/feijoo-valladolid-RueekOdgjFcraigEc1nJK4H-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Salvador Illa: “Es una bajeza moral que Feijóo utilice a las 69 víctimas de Urda para que no se convoque la huelga general”",
@@ -75,10 +75,23 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "Génova baja al barro del algoritmo y se centra en las redes sociales",
+    "enlace": "https://www.abc.es/espana/genova-baja-barro-algoritmo-centra-redes-sociales-20261027011946-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-08T01:26:51+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/27/Disen%cc%83o%20sin%20ti%cc%81tulo%20(1)%20(1)-U308943829230DH-R73ntaNPbARTw0qa9kjDu7K-1200x840@diario_abc.png"
+   },
+   {
+    "titulo": "Feijóo propone fijar una fecha para las elecciones en Venezuela en reunión virtual con María Corina Machado",
+    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZThkdmwxRHhvZkdsQjJPT3VpVkZTY2hRbk1Sem5LSHpmYkZDNVBrZjVBam9Ydnh0RzF4Q2JBanVXOVhsYlhVN2JJNmtmRDc5cHd0eld2Z09XeC1QcHhvdHdUbDRCc1FjZXZiam1NeDFTaU9VU0gxalFLcmJLR2NEWFhUQzRuRG0tUXFUV3l0MGdJRnJubmtMWUN1bXhoTUJwYnc1TkpONWFBdko2NkpfYUxiU296V1dpN0gzS1pRaUE0OVpwMnY5c1dOTl9fSXlYejRyaVRadWh3LUE4TVNZ?oc=5",
+    "fuente": "Nuevaradio",
+    "fecha": "2026-11-08T00:09:16+00:00"
+   },
+   {
     "titulo": "\"Un diputado más\" en Valladolid: Feijóo eleva la meta contra la papeleta de Puente y \"la ministra de las pulseras\"",
     "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef7e3afdddffa90e8b457e.html",
     "fuente": "El Mundo",
-    "fecha": "2026-11-08T00:01:40+01:00",
+    "fecha": "2026-11-07T23:01:00+00:00",
     "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/07/17940801914084.jpg"
    },
    {
@@ -100,27 +113,21 @@
     "fuente": "20minutos",
     "fecha": "2026-11-07T19:19:41+01:00",
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/07/6aef6778a64a09-04201092.jpeg"
-   },
-   {
-    "titulo": "Los candidatos del PP de Zamora arropan a Feijóo en Valladolid ante unas 5.000 personas, según el partido",
-    "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS2t6NnBBdkRZd2dRN0trNnpHUUN4NWoxelRmRU9XaGd6UTEtTW9USE5WWGR1Z2JVcGxEYWNmdWtFTkt1XzVrc2ZFM29DWmhlZFBuYmsxdU5UXzJRMDZJMWZyQU9BS2RvYjk1SWNydktYS2JkUGl2aTdaSG5fTGdMRnVRVXg0YV9IZ0FoZVVYUkE1UnFuZ1EwR0FlbWh5UjJLSUs3cmZUMnI?oc=5",
-    "fuente": "Benavente Digital",
-    "fecha": "2026-11-07T17:25:29+00:00"
-   },
-   {
-    "titulo": "Pelayo: \"Feijóo va a mejorar la vida de los españoles y los gaditanos; podéis confiar en él, porque es de fiar, como Juanma Moreno\"",
-    "enlace": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPdjNKdHRPdk5mVGdJcDRHVm1uTmIzc2I5WFo5TEs1OGo5NWJsQXNpYVkzU3lQNFZuRnlaekIxVUhWNnJiSzRIa3duUUhlNlZQMS1HbHFCQ2dLdkJzTExfQnZ3ZUhUS205S0tSMW9OZTUwWVZsWDlpTkR2dldMckJVWm4wQW5raV9VczUxNkxyRjY1UTVmMzRmYmtxNDZzTi1Da0dYTEgxcGZPWk1TbkRTNEVCUGVYejFpV0tRZElFRnZKTXYwZFpXbXk1UFRZdkJUY3BhTlNFajlxZXlKUmJMZVpYa2Y1ZTk2Z05aTmpKcm9OdW1kNjlCcUVJeW9KU0ttR1lGd2pUME10MndhWFdmUkNuQ2U4WXVq?oc=5",
-    "fuente": "La Voz del Sur",
-    "fecha": "2026-11-07T17:10:19+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Abascal denuncia «otra invasión» en Canarias y lamenta de nuevo la gestión migratoria de Sánchez",
-    "enlace": "https://www.eldebate.com/espana/20261108/abascal-denuncia-otra-invasion-canarias-lamenta-nuevo-gestion-migratoria-sanchez_478554.html",
-    "fuente": "El Debate",
-    "fecha": "2026-11-08T00:34:24+01:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/08/6aefb518b437c.jpeg"
+    "titulo": "Sánchez recluta al cerebro de la remontada de Lula en redes para repetir la hazaña en España",
+    "enlace": "https://www.abc.es/espana/sanchez-confia-colaborador-lula-creacion-ejercito-activistas-20261105011940-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-08T01:38:51+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/05/1519356304-RCwFseHZGMzHmmBqZ6sGU1J-1200x840@diario_abc.jpg"
+   },
+   {
+    "titulo": "PSOE Guadalajara comparte un encuentro con la Casa Regional de Extremadura de Azuqueca de Henares",
+    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc1ZvNWF1bEZBVlgzUmc1LXc5NVo0S20zZWtXVG1MdGQ1ak5xQmlXNDNiQkVjMlBDQWlERlh1UncwSnc0SGFFZmFPQ2dzZTVlMEtPVlJtZUIwb2xlUG54dk9hQ1haYkd3MTRLU29kUXZPWUNYa2t1VzF4SDR6VDVNd2ZTcWlIcU5VSm9sNlhWMDE2czIwWHZsdXVIblJUcW1sSENRZDZfZms3ZGxsZGs0VVl3M0F5LWQ2ZnNsVVBwNXpWNkpYT2dTQw?oc=5",
+    "fuente": "CLMPress",
+    "fecha": "2026-11-08T00:11:43+00:00"
    },
    {
     "titulo": "Puente, una dimisión que rompe algo en el PSOE",
@@ -134,34 +141,28 @@
     "enlace": "https://www.elconfidencial.com/espana/2026-11-07/canarias-inmigracion-comision-interministerial-clavijo-sanchez-1tps_4461084/",
     "fuente": "El Confidencial",
     "fecha": "2026-11-07T22:04:00+01:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794095268&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794098703&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
    },
    {
-    "titulo": "Encuestas elecciones generales: Así es la encuesta de La Séptima que da ganador al PSOE, pero con PP y Vox con mayoría absolut",
+    "titulo": "Rufián, sobre el PSOE: \"Si hace dos o tres años se hubiera movido como se mueve ahora con la vivienda, seguramente Maricarmen estaría viva\"",
+    "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPQzdRN3BTNllNN1ZjRUZQVTEwbG00UWlQWldyaWd2WE9TaERxc1E1TEZGcVlIU3FWdk1HNFdyUTRGRGhZT2xIQ1NrbG42Y3NZNDl0bjQ2QjhDaE5IT2JuaHFHLTZaZWM2Q2FfTXFhak02dlhUaVdGSTR2Q1dxYjNzNV94aDdlSjl0VWZ0R3RhcUNSdVM1X1ZkTVEwREJ2aGNFcXRuNmVFWXUzN3l2WWphbHM4SHZ5SjQxNGtZSkpCc2JlOWhMbXBnTXVQelNnNUFKSkNZZEVxajZvUFVzak4tdFllZ3hVcUIwTmQ2QnUzMmNGNHM4UUcxRUwwRnZPeFNVNWNtUXJmV3RFYkpqUUZKVnVURkEzZ3VQcnfSAZoCQVVfeXFMUHpUMGdpUjJ5VWNPaGJSQmJReGtFRzdqbU1HOGVOUWpjNTZIbEZpNFA5ZmlwZHI4SENXTWxNT0MyQk8yZzhNTi1tY1VlUVpnLXVNWGxkN1pHclVkbHpuN01WaDhEZ0EzRVgtMGVBVlNZeXVSQXJxc3R2ODg0R2UwbFBQOHVDOFZXMExINGtxeXQyeWQyU1NINjFZOUdxSFNxQ2NkMUZoMlVlZmp2aldiU2VfTGs4d1FzVjhSSmV0X1lSVHBHbFNyTHA2X3ZjNnlteHd2eDVvNVRENlBzVGRFeXEzOXN2NnVnMWgzSmwwaEQ4MFV3d29pSFVHalNpcTB1TXM2N2ZBcGZIcDBJcDhWTUwxQVFtaDRVRHVB?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-11-07T21:34:37+00:00"
+   },
+   {
+    "titulo": "Encuestas elecciones generales: Así es la encuesta de La Séptima que da ganador al PSOE, pero con PP y Vox con mayoría absoluta",
     "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU0ZXTkVEYUFLcHdTWnE3NEthSlZPWVQ5VTN6ZF8zUVJaZk9xaWlwLWJvTngwU3pxVDNUd3FUVnpGdG9naUtscWxZQUNBeGw1R3RKa3ZhejVrMFBnOXV2b0lHdGZvV3FnY3BURkxNaG9vQzd4V3VWVVo3bVdKc3dZWFJseHgtRW1fOVkwVlpqYnpHVWdxTjk1cDEzWUJpSW13bFl0dE13cWxVYTkwMmxj?oc=5",
     "fuente": "Demócrata",
-    "fecha": "2026-11-07T21:19:39+00:00"
-   },
-   {
-    "titulo": "El PSOE avisa de que el 29N se juega la protección de 85.000 cordobeses que reciben Ingreso Mínimo Vital",
-    "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRF9sN3UtV2ZTRmFoQjZ1OXFzMTZPX1kxdlpZbWUxM2lXTnFOTnNBTXZhSmQ5OGkzYTkxdE9VRjlxcm13YTEzUTJNSjhtUU1QQk81bG8xdVhwMGRiWXBkYTBJZERkNGR6bE0xZDdGSmRERzBkeEdxN1gyRHdiWkE5VWJUcTY5Qk40WXVsUnV5WXJZTEU4UjFNVnVWdVlVbWRVRFJkbzhCSTlLNTZnTV9XRGU2M2ZzNGVCczE5eDVHblFoeFduMjJfbTE4ZnlVUVRLcDh4dHl0ck1hc2xER2JfRXotbEQwTWkybGFn0gHwAUFVX3lxTE03ZlRkVEJMcDZ5YTgyV3JfMUd0eTVmc2FLQmtlRGUteTZsaDRfOEZrMHdGZXFRMG1jZTBMTmF5Vk1scGtfQzhwMkpSQ0JXWFV1UXhwZWRTdHJrM0hQQVVaSzZwMjd6aGsyeV9NalZhSE9sWlRiQjY4T2loMGRYSW1WQm4xUE90Y3RZdU4yc0RwbEVlNmpzTWtsSDBaUTh0Zzk3b3ZCaXV2Yk02RHNBbUotYlF5cnR3ZEFGUEtJUk54YkdJcUlWeV9mcmJDT0R0cEVSdnNRSllycUF0UE1PNGRuUi1EMURscktnY0RKZVNmRw?oc=5",
-    "fuente": "Cordoba Hoy",
-    "fecha": "2026-11-07T19:33:24+00:00"
-   },
-   {
-    "titulo": "Las primeras imágenes del plató de laSexta para el primer debate electoral del 29N entre PSOE, PP, Frente Amplio y Vox",
-    "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSDltT2FFYl9kODBISmRoRTk1enNBazV6NXAtRmJjeTRuQndQN0x4VGlJaDR0dmFNV3RZY01uNWZmQnRiOFhZaXRsVFJRM05fVzRSMWhHWVRmVUc3d2psbHhGYm16U0tUSURCUnhQUkF1QzF4RjgtQ1B5eEVMTXpEQWRub2RVRHNSR3hWNnl6TFJvX01JVzZsR1B3Szh2QUxGcTNpTmI3VnlTcEZzdWpqeGJBU1lGbUJ5ZWREV3lWejVxaWI1WUdGWjNqdXVraGlnMXpaRVF1c09YZG5GYXFCWk1HWGRIQl9Bc0pVMlYwXzhMQnB0MEZRSNIB-AFBVV95cUxOdjNNUDljYTg2eTRHNGJWV3hBR25Db2VLallIeFA3WUtiaXR1OFM1WEZGZ1NKT2Y0dUR6RlNXMTVvWHlLN3ljaUFwaFdabjdyeVd5TzYyZktldXNKa3hhNDRXbW9yZE5oVkdZZnc2QThhWDAycVZjaWJXRGN4QklrZkxONDNRUXhDZnNfODRkbUlBenowclA2ZktERlJoSEMzQkVRMVRlZGZwQm9LcGVvY1pnRURtYjNHdHJ0NzhvTWJZWDJZcGFBalM4QUFHWFU3OGN0RW9sUHpxMk5YRjJwZFItUUxLbUZVQVVQNkY0TmhKdWlGVlFBUA?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-11-07T19:27:57+00:00"
+    "fecha": "2026-11-07T21:19:00+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "Abascal denuncia «otra invasión» en Canarias y lamenta de nuevo la gestión migratoria de Sánchez",
-    "enlace": "https://www.eldebate.com/espana/20261108/abascal-denuncia-otra-invasion-canarias-lamenta-nuevo-gestion-migratoria-sanchez_478554.html",
-    "fuente": "El Debate",
-    "fecha": "2026-11-08T00:34:24+01:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/08/6aefb518b437c.jpeg"
+    "titulo": "El perfil del nuevo votante de Vox: exabstencionistas y jóvenes que se estrenan en el 29N",
+    "enlace": "https://www.abc.es/espana/perfil-nuevo-votante-vox-exabstencionista-jovenes-estrenan-20261023011935-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-08T01:19:58+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/23/1519132630-RtOIezc9U7Zqq1RLSeyDGzH-1200x840@diario_abc.JPG"
    },
    {
     "titulo": "Abascal dice que El Hierro vive otra invasión: \"Han llegado 8.000 a una isla de 12.000\"",
@@ -177,10 +178,10 @@
     "fecha": "2026-11-07T22:10:32+00:00"
    },
    {
-    "titulo": "Encuestas elecciones generales: Así es la encuesta de La Séptima que da ganador al PSOE, pero con PP y Vox con mayoría absolut",
+    "titulo": "Encuestas elecciones generales: Así es la encuesta de La Séptima que da ganador al PSOE, pero con PP y Vox con mayoría absoluta",
     "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU0ZXTkVEYUFLcHdTWnE3NEthSlZPWVQ5VTN6ZF8zUVJaZk9xaWlwLWJvTngwU3pxVDNUd3FUVnpGdG9naUtscWxZQUNBeGw1R3RKa3ZhejVrMFBnOXV2b0lHdGZvV3FnY3BURkxNaG9vQzd4V3VWVVo3bVdKc3dZWFJseHgtRW1fOVkwVlpqYnpHVWdxTjk1cDEzWUJpSW13bFl0dE13cWxVYTkwMmxj?oc=5",
     "fuente": "Demócrata",
-    "fecha": "2026-11-07T21:19:39+00:00"
+    "fecha": "2026-11-07T21:19:00+00:00"
    },
    {
     "titulo": "Apertura en Madrid y cierre en Valencia: así será la campaña de Vox para el 29N",
@@ -197,6 +198,13 @@
    }
   ],
   "Sumar": [
+   {
+    "titulo": "La exalcaldesa de Aranjuez toma el relevo de Zarzalejo para decidir otra posible sanción a Más Madrid",
+    "enlace": "https://www.abc.es/espana/madrid/exalcaldesa-aranjuez-toma-relevo-zarzalejo-decidir-posible-20261107010341-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-08T01:36:47+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/07/alcaldesa-aranjuez-RDX5WW4cltNoQfd5lywq9eO-1200x840@diario_abc.jpg"
+   },
    {
     "titulo": "Yolanda Díaz llama a movilizarse el 11N a los trabajadores «con la esperanza de mejorar sus vidas»",
     "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTjlJa2VNX0dHMncwQmRnS2UzaGxhX2FET1NLUXFOVkVlTG1NQm8xM3FGbWpkZ3BvbVowOV95bWpkR0N0VkotSDE3SXRkSmdGR1ZQOU12dkVDUnJKQWFWWjlrQU5zWFhGZlhWdVJmWUJCUHhYcXVJNW1OdE1FX0FYSXVsN1hwMy1mb3VsLUNmMFhhOFpEeDdJZ21MdTN6YTBRYkFWclhNX2wyUXlOLUhsTGREcWxxNXhoSGRuMGpzU3JTcmRKd0hLZ2wydnRfdmRHZjFyU3Vn?oc=5",
@@ -226,12 +234,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ0ZjejhGbU5mb2pJdG5HeGRveEdaVUR3Y3Bpc3B3RzNjMkZqOWRqRkFXS2p6R0tYRk9TZkJYN3FzRklib2RxRDV5d3BXTG5VakJ2TW1zcFV5ZTM0Sm1YM2JJUk1uMDBOc0prcHBwcjY3d19rZkEyWHdhR1Zuc3E5RTNUbG5VSzJJaUNjU3NpSUh2MlliekFJM3N4cjIwd1FmTE92Y3dhaFV5MF8zajdHR2s0UExnUjBHTUHSAboBQVVfeXFMTUNGY3o4Rm1OZm9qSXRuR3hkb3hHWlVEd2NwaXNwd0czYzJGajlkakZBV0tqekdLWEZPU2ZCWDdxc0ZJYm9kcUQ1eXdwV0xuVWpCdk1tc3BVeWUzNEptWDNiSVJNbjAwTnNKa3BwcHI2N3dfa2ZBMlh3YUdWbnNxOUUzVGxuVUsySWlDY1NzaUlIdjJZYnpBSTNzeHIyMHdRZkxPdmN3YWhVeTBfM2o3R0drNFBMZ1IwR01B?oc=5",
     "fuente": "La Razón",
     "fecha": "2026-11-06T18:39:38+00:00"
-   },
-   {
-    "titulo": "Yolanda Díaz reclama un sistema ferroviario \"100% público\" y se muestra partidaria de investigar todo lo necesario",
-    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbzItcnh6QUpTbm9YZG5MQlFZWU9BVXoxNTBIWEFSVTBydExiVlBKQnZzNUs3ajF4akhuVXFmMU84ekpTY1haSlZhYkJqN0RaOEZjYjFORUNXeGFlTjJMODV1V2NHVHFta1V0dnB4NjUxT2hUd3JfWmdsaGg2Zy1xSklkckduMjhKNjZrczB3M3VIb2x1b0ViTGhpNjliVEpSZFZYV1FseE1QRHIyNWVSbEZpdWJtbXdmUEI0VTRVVHhUUmVHUGtqNjdxTlFkRmFK0gHWAUFVX3lxTE03VzhpcE9QcmVENHU3WUk1SUlhTkZOZWFrTTRGVDJ2X09QMjBpdXJZaTlVWWdNcmgzbTA1Skt2M1FoaXp0amp2SGtoV19QTGg3YWkzRnRIODlrVG5NazhZcUJaWERNalF5RzIyaVhCd1hYYkhuVmM1TTR3cWhrcHU2Z2Z6cEJ6aGJUM3I2VnUxRXdITkc0UXgzTXZ0RWVXUGNhMm5ZVXlxNldkeTFOeEJGYVBNS29ua1hHak4yY1p0dTRrLThmcmJXU3R6cmhTTVhrdmZaZkE?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-06T15:52:00+00:00"
    }
   ],
   "Podemos": [
@@ -315,6 +317,12 @@
   ],
   "ERC": [
    {
+    "titulo": "Rufián, sobre el PSOE: \"Si hace dos o tres años se hubiera movido como se mueve ahora con la vivienda, seguramente Maricarmen estaría viva\"",
+    "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPQzdRN3BTNllNN1ZjRUZQVTEwbG00UWlQWldyaWd2WE9TaERxc1E1TEZGcVlIU3FWdk1HNFdyUTRGRGhZT2xIQ1NrbG42Y3NZNDl0bjQ2QjhDaE5IT2JuaHFHLTZaZWM2Q2FfTXFhak02dlhUaVdGSTR2Q1dxYjNzNV94aDdlSjl0VWZ0R3RhcUNSdVM1X1ZkTVEwREJ2aGNFcXRuNmVFWXUzN3l2WWphbHM4SHZ5SjQxNGtZSkpCc2JlOWhMbXBnTXVQelNnNUFKSkNZZEVxajZvUFVzak4tdFllZ3hVcUIwTmQ2QnUzMmNGNHM4UUcxRUwwRnZPeFNVNWNtUXJmV3RFYkpqUUZKVnVURkEzZ3VQcnfSAZoCQVVfeXFMUHpUMGdpUjJ5VWNPaGJSQmJReGtFRzdqbU1HOGVOUWpjNTZIbEZpNFA5ZmlwZHI4SENXTWxNT0MyQk8yZzhNTi1tY1VlUVpnLXVNWGxkN1pHclVkbHpuN01WaDhEZ0EzRVgtMGVBVlNZeXVSQXJxc3R2ODg0R2UwbFBQOHVDOFZXMExINGtxeXQyeWQyU1NINjFZOUdxSFNxQ2NkMUZoMlVlZmp2aldiU2VfTGs4d1FzVjhSSmV0X1lSVHBHbFNyTHA2X3ZjNnlteHd2eDVvNVRENlBzVGRFeXEzOXN2NnVnMWgzSmwwaEQ4MFV3d29pSFVHalNpcTB1TXM2N2ZBcGZIcDBJcDhWTUwxQVFtaDRVRHVB?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-11-07T21:34:37+00:00"
+   },
+   {
     "titulo": "Montero y Rufián hacen campaña antiSánchez: huelga \"contra el Gobierno\" y la corrupción de Ábalos, por ser \"cercano\" al presidente",
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOE9SV0Q4SlViaW1saFQwMjR3a21uUHkxVkJoZmhiX0UwdXBHamJ5cEpmVFRwNXI3cFFkRi1SUnJjVmlsYUx5Y016a000bGN5czhZanBPZjdhVlJZSGJtNWl0cDh6QUJkNEFDbExGNUxIUVZTVUpYeDdUQUFndk9iRnNNajhtVGJOazJUeEdPcEZQTmRyRGduLWRRSdIBmwFBVV95cUxQWW5jNE5BbEVaRzU4amRReEcyZWpOMUhJanZPSURmZ3NnYTBsNHBsRW5JdHcxdEFRRjhyUnlWRTZTNzAzN1NxRi1uSVA1RHNOZXlkMVhMcmxzMWo3QllNSkxDNDE5MEExRk5NS25CeUJNSTYxelktbzJzY21zVGkzWTg0UTZkM2pEUm1zUkxVSV9CQXdjZy1rVGE1cw?oc=5",
     "fuente": "El Mundo",
@@ -346,13 +354,6 @@
     "fuente": "infoLibre",
     "fecha": "2026-11-07T13:56:25+00:00",
     "imagen": "https://static.infolibre.es/clip/3f338612-b187-4496-835b-885f241883cf_16-9-aspect-ratio_default_0.jpg"
-   },
-   {
-    "titulo": "Rufián afirma que \"Bildu es más patriota que todos esos patriotas de pandereta que llevan la pulserita de su país\"",
-    "enlace": "https://www.elespanol.com/espana/politica/20261107/rufian-afirma-bildu-patriota-patriotas-pandereta-llevan-pulserita-pais/1003744449986_0.html",
-    "fuente": "El Español",
-    "fecha": "2026-11-07T13:56:06+00:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11396310.jpg?p=w:1706/h:960&h=R3_j7ije"
    }
   ],
   "Junts": [
@@ -518,6 +519,12 @@
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/04/FB684F5F-C611-4E49-A7A8-0212CFD05817/96.jpg?crop=4357,2451,x0,y226&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
+    "titulo": "1ºCAN-CC presenta sus candidaturas al 29N con el compromiso de defender Canarias en las Cortes",
+    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNT2xkYTRIdUJjOXdOUmZoNENVaDYzNWd1NjhmSmdBRF84eU5DTHNTV3RrV3FvZ0ZIT2dkUFNJMzE2ZFFiOTg2YkxBQVRQbW5Ca1hJR3ZrczdvQ0VQMUJYWXRQcHN5OS1MZVZpOXJsZHRoam56bGF1c2RKWUZGb0luS0xKbVc5UUh4X2dkWTFtUEs0ZGtLZkh4d3VnNnBZWDItMGFaOUtQLXAtM012eUNiZWhJcXJGWkNNNE90ZkFoZjdKUU5pRUl6S1Fn?oc=5",
+    "fuente": "El Sur Digital Gran Canaria",
+    "fecha": "2026-11-07T18:40:02+00:00"
+   },
+   {
     "titulo": "Teodoro Sosa (Primero Canarias): “Coalición Canaria es la alianza natural, pero no somos su marca blanca”",
     "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVTB1a1VPdXBtZk1JWnZ0dDdwdFZNWUN0OUFBSVBXYllxWHF5cG9lcl8tdnZQUVVSVk5ZTFFsVEQtYUhYWXpRVnhSMzZrUlNkVTdIX2o1N1JSYlpIeldEcnhZT2dINmlzSUJjSjFJcDRUUS1GMS14UDNWakxiZF9ickpQMVF2RC1nOXlfa0ZpUmM0QnpOSHpETXgxTHRhX0U2OE5aZnNEVGJiUVVyX0dvWmNaMHFWR0kwSEMzcWt5TnU5LWt0ZEFSZEU5UUh0ZGFHQldSZ9IB1AFBVV95cUxQVTB1a1VPdXBtZk1JWnZ0dDdwdFZNWUN0OUFBSVBXYllxWHF5cG9lcl8tdnZQUVVSVk5ZTFFsVEQtYUhYWXpRVnhSMzZrUlNkVTdIX2o1N1JSYlpIeldEcnhZT2dINmlzSUJjSjFJcDRUUS1GMS14UDNWakxiZF9ickpQMVF2RC1nOXlfa0ZpUmM0QnpOSHpETXgxTHRhX0U2OE5aZnNEVGJiUVVyX0dvWmNaMHFWR0kwSEMzcWt5TnU5LWt0ZEFSZEU5UUh0ZGFHQldSZw?oc=5",
     "fuente": "elDiario.es",
@@ -534,12 +541,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYmo3a3VoV3ZjZFpWSlpYSkVrR2J4NmlydDJCMVJWT3pVTU5KQ216Sy1rM3JFbXFpalBvM05KQjRJaEhDNE1jeWczY0dLZ2Z6WFZvX3pEdWt5WkRsYkpza1VwU0J4YXkzWEpYdThob0IyelRlUUtzY1JGam5IMHMzanh5dmF6dlJRLWZkLTk5eUk0ZGI3ZDhaRjd0cC1tNDBLRnBicXNDam_SAa4BQVVfeXFMTXd2ZGIyNGY1aDBRUkJlZHpxeHdxM0lINEN1THRXX3V2NnZ1Z2x4YlZrdkU2NHJZWVJvT1l0bndTOHJvZXBCY05QWE12NEhZcUtkNkVaRE1udzg3S0pEdkNlS1hHVHFLcDBIQlNwT0N2UFFUR1hGOHgxcDN0NFE5eFBxZXNpYzI1V1JqeldHZWZyUENnS3FyV2ZibHpaLU9OUjJsdXVwcTBadGJGMWVn?oc=5",
     "fuente": "La Provincia",
     "fecha": "2026-11-07T16:00:41+00:00"
-   },
-   {
-    "titulo": "Primero Canarias-CC presenta sus candidaturas",
-    "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMHBWN0ZFUTZHSTFVd1hXVnZFeEctX1lCNXJYa1pkeTJlZnBuN1ZjeVMwV1dJSFRNQTQzS0pyTFNlQ01QdlNhRW45SzRWM0FMNFhZUW9aNHlVeDQ3RUF2T091Q2U2dFVOXzl1QWZKZ19ZMVA4eW5VbmFBNTdJcnlNWl9BaDd2OXVtSGNLOV90QkNVYWRneE0zVGFTSXFyWEd2UGc?oc=5",
-    "fuente": "Canariasdiario.com",
-    "fecha": "2026-11-07T15:24:40+00:00"
    },
    {
     "titulo": "CC y Primero Canarias exhiben unidad ante las elecciones del 29N",
@@ -719,22 +720,22 @@
     "fecha": "2026-11-07T09:26:12+00:00"
    },
    {
+    "titulo": "¿Vox escoge como candidata en Murcia a una investigada por presunta falsedad documental?",
+    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdUdXT19Sd2ZyWDAwcUx6YU02bjBNSkl6dWo3eGFTeUc0ZVlJb2s0V2tiYjE3TG84ZnBlaElkUFVXbUNwaFQzcnVaa2RFMmF1MWtMTml0QWYya2pNT193WWRaRkpZSnd0bXRJUWNqNGx4S2xNMjRPa054TWpFV2xEb3MtSjhIS0xzS1Z3LVhOS2lEN2VHMlJRS3BBTHVtQldFWmZtR29tUTV6NHZiNktCZi1QVUNpeUd2c0s3Qg?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-11-07T08:17:02+00:00"
+   },
+   {
     "titulo": "¿«El proetarra que quiso atentar contra Abascal se llama Josep Sancho i Masip»?",
     "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM3F1MHRLQXhaWVk4anZ3RGVCNkl3OVk4THM2anhzel9JNWtlWm0zZ0lKTGRkc3R0SnVocDhBbTM5Mml1OXhqeGNUTy1ydlh3ODVFN3RWMlR0Y1Fjek1BTk5wbU9wQTRYb1hyLWt1N0lhaDFJWnVMNHlFVFZIanFRREpyLVBBOEo4c05RT1ZsV2pSYWoyVngtVVFXdVo4bnM3TGRSLTlkclhiWGs4?oc=5",
     "fuente": "Maldita.es",
     "fecha": "2026-11-07T06:24:57+00:00"
    },
    {
-    "titulo": "¿«Vox disfrutará de casas gratis en Andalucía gracias a su pacto con Moreno Bonilla»?",
-    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaS1XNzJoV2RsR2VYQk9peWZxbVBVWGw5QkQ2MTRUaTBSWnFKX1JUOVBvN0M4LVUwa3NORDlGa1FzcFNxNV9vRm5xa21Db0NKR0JiaTJfQzUtUmpRdi1Vc0x0d1p4XzVtdXVDRmtveWpGNmc2RnUzTXBvbWU4RFEwNlFGVGl6aVhMZGt3aUROUno3RXNnTVlKdHdLazlWLTRqaFhkT2hFWWpKc1RkelRKZ1B4UkEtUQ?oc=5",
+    "titulo": "¿«PP, Vox y Junts se alían para exigir la dimisión de Pedro Sánchez»? · La Buloteca",
+    "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzRXpndmFudXdDY0F5elJGZlRpam9qSlZ5QmhhUU1FWDBnMFFTVDViYXJfOFVqa1FMRGZLN1AxN0JTTzFHWmxKVFZGaUpDRUNweEdxOHhVUnNLTXZMLTZHdnlrWWpDMm9PSXAwTEg5ZGQ?oc=5",
     "fuente": "Maldita.es",
-    "fecha": "2026-11-07T04:22:41+00:00"
-   },
-   {
-    "titulo": "¿Vox afirma que se llega al gobierno va a \"borrar de un plumazo\" todo lo que ha aplicado la izquierda?",
-    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR0VDaXBId01RdWNzMFdDNlRNZmtxaVZYNXJtWHpydGZ3R0pMUjBBdWZJTFplVDkxaGJQQ19zcGJlelBTdElzUDN1YzFsMDdZdE5WRzlUVzJUQTNxSzJFRENMdDNuUDI3MnlrRjBJLW1hdklWZzNtUjRZbVRsQjZWWVd0TEZvRXI4X3ZfLThPUGRseHNZTDJHeHQ0VXJxN21VNmwxTV9VdWhIZGxJVnJxOFNTWXVrUlg4U2tfWUpBRzJscDUzcEJhR2NwMjg?oc=5",
-    "fuente": "Maldita.es",
-    "fecha": "2026-11-07T04:06:38+00:00"
+    "fecha": "2026-11-07T05:10:53+00:00"
    }
   ],
   "Sumar": [
@@ -784,6 +785,12 @@
    }
   ],
   "SALF": [
+   {
+    "titulo": "¿«Los bulos contra Alvise en Europa que su partido ha recopilado»?",
+    "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQjNad3ZJdm5BZk5Tb0xROGlFWVdkTTN1RGFHaTY2MzlQeDBFSHloLU8wNkhvR1VtSVozS0xvSTZTS0tYWFdvV1hEbk1tMEVXemtQTnVFRXJ4SWl5VjZhVFMyZlFuTG05Qzg3R1BFUWVlekRxWWE0aEQ3c01PcGt4VHZQY2ZZc202WWk0SkNIM2Iwb21VYXA3MWtZcVE?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-11-07T09:40:53+00:00"
+   },
    {
     "titulo": "¿«Alvise ha compartido su certificado digital de antecedentes penales y su certificado oficial de no deudas con Hacienda para desmentir bulos sobre su persona»? · La Buloteca · Maldita.es",
     "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNQ2hEcGJLclhGMVpXbm1GVEtJWlVvOWFFWkVRdEV2amZHand5bU9TSkszczlnTmhNbnQ3WmhMUGdqeVVGMW1TYjhuNFVOTkhvUW4wUUI5ZmJ4Wmt2NGx1UlcxUnNnQkFUTFpKdGcyZXpnYWNlMmpPMURqclhCY2tUTnhjbEdGOVJrcE13M1FVcE1aUEdVdjlHekRVbURxXzBaYjdGMkg5ZUsxYzJsVkJKOXZYM2lWSjV5TnYtNURvbm9kSVpmNDl6WnZUMVdjOWhBRVZiU0RMX3pmWnVVZU16MHVmN1lUalFENnVuOW53WTNiMzRHcUlKYWY0WExQSU9tY3RBNjc2dlZ5dmtnRmNsZ200d1hqR2tjZ2c?oc=5",
@@ -860,6 +867,12 @@
    "fecha": "2026-11-07T10:16:15+00:00"
   },
   {
+   "titulo": "¿«Los bulos contra Alvise en Europa que su partido ha recopilado»?",
+   "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQjNad3ZJdm5BZk5Tb0xROGlFWVdkTTN1RGFHaTY2MzlQeDBFSHloLU8wNkhvR1VtSVozS0xvSTZTS0tYWFdvV1hEbk1tMEVXemtQTnVFRXJ4SWl5VjZhVFMyZlFuTG05Qzg3R1BFUWVlekRxWWE0aEQ3c01PcGt4VHZQY2ZZc202WWk0SkNIM2Iwb21VYXA3MWtZcVE?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-11-07T09:40:53+00:00"
+  },
+  {
    "titulo": "¿«Maricarmen Abascal escribió el año pasado una carta a Pedro Sánchez pidiéndole ayuda directa para evitar su desahucio y no respondió ni tomó medidas al respecto»? · La Buloteca · Maldita.es",
    "enlace": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOVi04MVhoMnBTTEpsenkwMGNWTnRPdnl6WS1uSkp6Q2Z2Q1lCR0ZURmNHRnpkWmE5X2pHRVdHYUZjMWt6UjFlQjlSOXUzZTNielJaY3BCYUZVWV8wX18zNmxjVDlzTkoyX2pQUGtiZE1jRHZpWTAxaFdZNnhMT0N4U3NKeERoWjQ3Y0dLakZIaHJJZHRUeFBob2QydEpidHlvUXFrQWtESFhqX0ZBa2dLenlHY0d6bXdMSmhFbVlEUTNiY3VfZlJJZzFGMUE4cG1SM0x1YzF4N1AzbzVhdmotbVN2TFU4YVAyOERhZmppeWt3M0dIU1JLYWY0OXVxcDh3bzR6UVBlZVB3UFB3YkxuQjZZSGV4bk9UQkNFRmR6MA?oc=5",
    "fuente": "Maldita.es",
@@ -878,6 +891,12 @@
    "fecha": "2026-11-07T08:30:18+00:00"
   },
   {
+   "titulo": "¿Vox escoge como candidata en Murcia a una investigada por presunta falsedad documental?",
+   "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdUdXT19Sd2ZyWDAwcUx6YU02bjBNSkl6dWo3eGFTeUc0ZVlJb2s0V2tiYjE3TG84ZnBlaElkUFVXbUNwaFQzcnVaa2RFMmF1MWtMTml0QWYya2pNT193WWRaRkpZSnd0bXRJUWNqNGx4S2xNMjRPa054TWpFV2xEb3MtSjhIS0xzS1Z3LVhOS2lEN2VHMlJRS3BBTHVtQldFWmZtR29tUTV6NHZiNktCZi1QVUNpeUd2c0s3Qg?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-11-07T08:17:02+00:00"
+  },
+  {
    "titulo": "¿«Pedro Sánchez recibió el mensaje: \"Asalto por valla y mar mañana a las 20 horas\" el 29 de julio de 2026 y decidió no hacer nada»? · La Buloteca · Maldita.es",
    "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOaHpzY3dRcU94Zy0wdzNsLTBaU1c1OFZqenRpWWc0X3hoZ0xIRUtwNjNJNjFaVmZvZ214cFlxNUd3R3JrZkdSVlBMQ3QxbHJTb3dQSktsTjMtVHRoLXRzYXhjamd1T3U4WWhMME5saE1URjlySGl4dC1sTko4aEFrRmNsOUVnRV9TUDNzZlRLQk1VaDFyTEdXR2phWTl3cmpoLXpuNW93MlVncFVYdHM5NVNNOGh2YnFqcDlfTGdGZ2MxanAxUHJJZFNNSUExUjZjaDBJdXk4MDN5Mm94SUpKLWZKVEtrU29aY2NKaG5Ncw?oc=5",
    "fuente": "Maldita.es",
@@ -888,18 +907,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdG9iT1h2M1dyQzZiMGlyZWdZcFloeDkxTFJMTDhjUlZVTkNMMHZxUTdUOEx3ZFdFb1RxMW13MkZZc1BtcVRQSDBsTHg5amJvMHVEbTFNYlYyVlpNcHNsTV8zRUY4TjRzWWs5VTRUalRFeWFrdWtQbFBLQmRDNzA4RTBSNHVFby1vb01TcXNLenMtcmg2cDJ4c0ZTRmdibG1iOFhJbWwzYWQ5Q2lmd1Ftd2FhTGU?oc=5",
    "fuente": "Maldita.es",
    "fecha": "2026-11-07T08:02:56+00:00"
-  },
-  {
-   "titulo": "¿«El proetarra que quiso atentar contra Abascal se llama Josep Sancho i Masip»?",
-   "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM3F1MHRLQXhaWVk4anZ3RGVCNkl3OVk4THM2anhzel9JNWtlWm0zZ0lKTGRkc3R0SnVocDhBbTM5Mml1OXhqeGNUTy1ydlh3ODVFN3RWMlR0Y1Fjek1BTk5wbU9wQTRYb1hyLWt1N0lhaDFJWnVMNHlFVFZIanFRREpyLVBBOEo4c05RT1ZsV2pSYWoyVngtVVFXdVo4bnM3TGRSLTlkclhiWGs4?oc=5",
-   "fuente": "Maldita.es",
-   "fecha": "2026-11-07T06:24:57+00:00"
-  },
-  {
-   "titulo": "¿Esta encuesta electoral es falsa o está manipulada? Cómo identificarlas de cara al 29N",
-   "enlace": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxVlJFeFBDSzFIZkNBUzdZcUZtS3NZaHZfeGdqemZUazJfWnpMdjM4YmJQTzZ5bUMtRzRUVF9WejBHenN0MjdJZUZiSWlISkh4LWF1Ym1HY0U0aTVZdlR6eUt1RVBjVjRL?oc=5",
-   "fuente": "Newtral",
-   "fecha": "2026-11-07T05:32:49+00:00"
   }
  ],
  "polemicas": [
