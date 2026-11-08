@@ -1,19 +1,33 @@
 {
- "actualizado": "2026-11-08T14:01:38+00:00",
+ "actualizado": "2026-11-08T15:01:29+00:00",
  "generales": [
   {
-   "titulo": "Núñez advierte de que el PSOE «pagará en las urnas su nefasta gestión y su traición a España»",
-   "enlace": "https://www.abc.es/espana/castilla-la-mancha/nunez-advierte-psoe-pagara-urnas-nefasta-gestion-20261108142622-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-08T14:26:23+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/08/Nunez%20Almansa-Rf1eIRQpjlodbN3tvzTzdAP-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "Elecciones generales del 29-N, en directo | Última hora del adelanto electoral: encuestas, Pedro Sánchez, actos de PP, PSOE y Vox y voto por correo",
+   "titulo": "Elecciones generales del 29-N, en directo | Feijóo contra el escapismo de Sánchez: \"Menos mirar a Brasil y más a la nevera, menos mirar a Trump y más a los trenes\"",
    "enlace": "https://www.elespanol.com/espana/20261108/elecciones-generales-directo-ultima-hora-pedro-sanchez-adelanto-electoral-actos-pp-psoe-vox-encuestas-sondeos-voto-correo-2026-partidos-espana/1003744450272_10.html",
    "fuente": "El Español",
-   "fecha": "2026-11-08T14:24:00+01:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11396716.jpg?p=c:4003:2250:nowe:0:203/w:1706/h:960&h=KSh50mQK"
+   "fecha": "2026-11-08T15:31:00+01:00",
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11396727.jpg?p=w:1706/h:960&h=Cu0g50bN"
+  },
+  {
+   "titulo": "Vox recupera el ‘Es sentido común’ como lema para las elecciones del 29-N",
+   "enlace": "https://okdiario.com/espana/vox-recupera-sentido-comun-como-lema-elecciones-del-29-n-20725966",
+   "fuente": "OKdiario",
+   "fecha": "2026-11-08T15:13:17+01:00",
+   "imagen": "https://okdiario.com/img/2026/11/08/imagen_recortada-86.jpg"
+  },
+  {
+   "titulo": "Rufián apela al apoyo de los socialistas “decepcionados”",
+   "enlace": "https://www.lavanguardia.com/politica/20261108/11679271/rufian-apela-apoyo-socialistas-decepcionados.html",
+   "fuente": "La Vanguardia",
+   "fecha": "2026-11-08T15:10:18+01:00",
+   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/08/6af07f93d2d41.jpeg"
+  },
+  {
+   "titulo": "Sánchez pide a su militancia en el País Vasco un voto «masivo» ante el auge de EH Bildu",
+   "enlace": "https://www.abc.es/espana/pais-vasco/sanchez-apela-esperanza-concentrar-voto-psoe-ante-20261108132602-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-11-08T15:05:22+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/08/1519974443-Ra8E1Isl9o1IdQEswvnJM7I-1200x840@diario_abc.JPG"
   },
   {
    "titulo": "Qué sucede con tu sobre del voto desde que lo entregas hasta que se cuenta en el escrutinio",
@@ -21,20 +35,6 @@
    "fuente": "20minutos",
    "fecha": "2026-11-08T14:08:15+01:00",
    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/05/17/6a09e8b48fa709-30273823.jpeg"
-  },
-  {
-   "titulo": "El PSC de Illa reconoce la trayectoria de Javier Solana con el premio a los valores europeos",
-   "enlace": "https://www.lavanguardia.com/politica/20261108/11679257/psc-illa-reconoce-trayectoria-javier-solana-premio-valores-europeos.html",
-   "fuente": "La Vanguardia",
-   "fecha": "2026-11-08T14:06:49+01:00",
-   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/08/6af073d711d46.r_d.843-383-4389.jpeg"
-  },
-  {
-   "titulo": "Sánchez se olvida del accidente 11 días después y llama «triste» a Feijóo en un mitin en Bilbao sin rastro de banderas de España",
-   "enlace": "https://www.eldebate.com/espana/20261108/sanchez-olvida-accidente-11-dias-despues-llama-triste-feijoo-mitin-bilbao-rastro-banderas-espana_478637.html",
-   "fuente": "El Debate",
-   "fecha": "2026-11-08T13:47:37+01:00",
-   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/08/6af066fa58f54.r_d.1328-359-0.jpeg"
   },
   {
    "titulo": "Feijóo carga contra Sánchez: \"Menos mirar a Trump y más mirar los trenes, que este país está colapsado\"",
@@ -75,91 +75,97 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Elecciones generales del 29-N, en directo | Última hora del adelanto electoral: encuestas, Pedro Sánchez, actos de PP, PSOE y Vox y voto por correo",
+    "titulo": "Elecciones generales del 29-N, en directo | Feijóo contra el escapismo de Sánchez: \"Menos mirar a Brasil y más a la nevera, menos mirar a Trump y más a los trenes\"",
     "enlace": "https://www.elespanol.com/espana/20261108/elecciones-generales-directo-ultima-hora-pedro-sanchez-adelanto-electoral-actos-pp-psoe-vox-encuestas-sondeos-voto-correo-2026-partidos-espana/1003744450272_10.html",
     "fuente": "El Español",
-    "fecha": "2026-11-08T14:24:00+01:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11396716.jpg?p=c:4003:2250:nowe:0:203/w:1706/h:960&h=KSh50mQK"
+    "fecha": "2026-11-08T15:31:00+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11396727.jpg?p=w:1706/h:960&h=Cu0g50bN"
    },
    {
-    "titulo": "Sánchez avisa al \"sheriff del mundo\" de que \"lo que pasa en España se decide en España\" y acusa a Feijóo y Abascal de tragar \"con todo\"",
-    "enlace": "https://www.elconfidencial.com/espana/2026-11-08/sanchez-psoe-trump-eeuu-feijoo-elecciones-29-n_4461274/",
-    "fuente": "El Confidencial",
-    "fecha": "2026-11-08T14:09:00+01:00",
-    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/168/446/1684464f93716320cc541f0f0aeaac70/la-derecha-recupera-6-escanos-a-la-izquierda-por-el-castigo-al-psoe-tras-urda-y-la-dimision-de-puente.jpg?mtime=1794068938"
+    "titulo": "Feijóo plantea limitar la sanidad de los migrantes en situación irregular a prestaciones básicas y urgencias",
+    "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOY2hLWEhjMHg5WDFWTDNYbXhidktTanh2NGcxdnkwNkdweEpHQkFmdWE2ek8xUjNjSFRaS3F2dm1qc0NoYVo0Z2dlQ0dsVHlSbURKd3k1X3FjekU1aWlULU0tUEgtRnE0TE1VM0ZnVFNsMjU2NWxBRThzVXd3RDdWTHJRWUhxTWs?oc=5",
+    "fuente": "Infomigrante",
+    "fecha": "2026-11-08T14:56:00+00:00"
+   },
+   {
+    "titulo": "Feijóo estalla por las gratificaciones de Adif tras los accidentes: \"¿Les vamos a pagar por los muertos?\"",
+    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd3FZVDB0cWpKUWgxMVh4czY2UFdFQVRzQUZVS1M3T3FLN2RnZXlXOVJzTUluaXJtUGY4Ql9GOF8wZU1fV3NLLWhmbE1vY0RXWmxLUGhwMHAtSFRWUTV1OUJQRmFRZkR0Q05fRWs5eFBfS2ZxZEFnbm02WE81RjA2STlTUnVKWDZvRko3eFJ0WEFUNjF4TjYzTTVXQXg3Znh3dEI2WVpEanhxUEJUUDVKQU44NDducTNKUmdvcVR1Vl9FT2k1UEHSAcsBQVVfeXFMTWZ6eEhYUy1UZ2lGZkR4OTFoNlYtLVZhMzgweHREbXhkX3dNc1JWVXgyTVNSZm1CdEl0SmpyX3h6a3hvM2xJblg5UlBsNF91b2NEcUY0U0JCcmxHcUNqUkVqVzh4am90TVY3dENfRlNkWW55VkxMOU8xUTNWTUdGSWxZb2d5YndwRGJZRVhHYlhsM19UbEJIOWZNaVlDbUNlLWRTWC0tOFl0MUNveHFOOFRCLWcwaGhoUWtiaWlza1NOMU9GNW1kVWoxNUE?oc=5",
+    "fuente": "MUNDIARIO",
+    "fecha": "2026-11-08T14:44:31+00:00"
+   },
+   {
+    "titulo": "Feijóo pide a Sánchez \"menos mirar a Trump y más a los trenes\" y a los directivos de Adif devolver las gratificaciones que han cobrado",
+    "enlace": "https://www.20minutos.es/nacional/feijoo-pide-sanchez-menos-mirar-trump-mas-trenes-directivos-adif-devolver-gratificaciones-han-cobrado_7058678_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-11-08T14:43:31+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/08/6af0869183f9f8-89531975.webp"
+   },
+   {
+    "titulo": "Feijóo promete reforzar la lucha contra el crimen organizado y recuperar el OCON-SUR, desmantelado por Marlaska",
+    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcENRbm1oZWgwNm9LODhTSXJ2SlVaTmE0RWtWX1hVZDdKUV93NVdNZ3VncTg4RlVTbzFCQ2tSWHVzdmlITlM1ZnFyLVdiR0xTTXhRMGJ2NGtzMURrRDRVVEYtTklKZkNmcno2em8wSlNFTVRfSWJhRldiQnJmaFU2cTYwU3RHUDU5NUR3NWhjd2hrcEpBNjZzcGh6d9IBmwFBVV95cUxOVnJmdzZnQVowU1MwQ0xHSEE2WVRqR1ZkYThPMFNTZElmUFY1YXFzLVVyTUZZamMydUlZWEtsQTBwZThMSVpocWhNYlBjYmttamoxMFp6YkNUZ0hJM3BhRXNmUmZWRlhzYnduNjZHOWVzdTBYbkhSTGV4SVJPZXR0SXdreDl4Z0U1V0RLeURKY0dGVFZSTzhQaEE4SQ?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-08T14:10:52+00:00"
    },
    {
     "titulo": "Este lunes, entrevista de Feijóo en 101TV",
     "enlace": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kaEo4TU9INHpLYzB2UERiTDNZd2tmNFZiLXh5R0RMUjEzTEw4TlRSSUVFR011ZWNfZ2VzaUIxRVdEN1Q5blJuUEF1cVFuTlZVOVFHYU1COGtwbEViZXdsaHpOSUhhQVhFYTdnRXIwdkVTZFFfTnlYRQ?oc=5",
     "fuente": "101TV",
     "fecha": "2026-11-08T13:52:00+00:00"
-   },
-   {
-    "titulo": "Feijóo ve \"vomitivas\" las gratificaciones a los directivos de Adif y pide que las devuelvan",
-    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPODV4c05ZWU9Pczc5TWpRdTBlWVI1RURXWHNpWWVTTFNJeWJVVTZsZGtoNXBNUHExd3hGT1ZGZGs4MFFOQWNLU3h6cHhXX0JfaGdSMFA3dGxYQXBwaVpKYTBfRE9DNGFRcHlBc3lCbm1EUGFBNHJRbXRHcXh3cVV1cGl0XzlUUmhmemRBbzJjTEx3VFI1Q0p0UkNydHBiM0tZS2U5VWRqUnltYjA2d0pyMzYxTjRDM1dQZjNsc1U2NnlucC1mdGV6SWRDRGpneUFZMDZURU1VQdIB1wFBVV95cUxQSEIxQXhmWXFDZ2t1RTBVNUtmTkRsRkdpVmJpTXNRQVQ0NDZ4dXU2RVk4NTRkc0VPTXVhYWxIdmlOMV9nM3NrUDViUzlnNk8xZE1ZcGtKVXNPUVZ3OWktUTRNTFVjU2NUYTB6c2dqT1RaS1QxT2lGdnFRQndsZ0NWTXBzNzd6aGpreXZJRXptR01TREcyS1Nub2dMVGJ5b0IyNnJaYzJOUmROOV9wYUdZelVLajEtdElSb3RNd0NlUmlPTmwzMUduR0JidTdwczZhal9sTHl6SQ?oc=5",
-    "fuente": "Expansión",
-    "fecha": "2026-11-08T13:38:40+00:00"
-   },
-   {
-    "titulo": "Feijóo mantiene la vía del accidente ferroviario y vende gestión: “He venido a levantar España”",
-    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTXBMVTJRSldYc2t5Tml3WWRuaXFyZURrLUxDQW11NXpTLUFpTWNmUEJjbXFGaDNBRWZfLUtYSVNvQUp3LURRN3JSeEltdk9waXJyVDNRbU9oNkdON25Za0VVYzZTX2RXS1puVjRtNGNMMkFSNEJpSFNPNDRqNy1xQ3hOSW9zWXJvTTc3SXM0SU5wakF1anJhNlEyTTRseUxEcTVfUEVPWVhXa21CUEZTUTZ6Y3dIdDZNcUZxVkFyUUJlQzFKTWtjTUc0dHM3LWfSAeMBQVVfeXFMTThfWnV0YUVJajNXdTg0N292TERzOHc0OXV5ODhodU51OTJKbkRkTkFUT0w5VC1XLXpzQlBPN3UwNm9Iemg0U254Z2xCY0t1a1pzd3RubFd4YVdXZ2JnRmtFa2xBV29pQmNnd01JYjZ4OXE3b3I0T3NiT0tleXVTUHM1bjR1WFUtYnlnX0Z4UEFHSkVoYTJVdWhIT0RIM1lqeU85U3MyWTlaQnlvOVotTnE0ajJvVmNoNEZyTHZ2azU4QzFKMlZnXzZHaWVycXRJWk5mOTRnOGhSVVpuSjBLSEdlNlk?oc=5",
-    "fuente": "EL PAÍS",
-    "fecha": "2026-11-08T13:38:01+00:00"
-   },
-   {
-    "titulo": "Feijóo y Moreno llaman a movilizar el voto contra Sánchez",
-    "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNczllQkpGMk5VdVFHeUlFTU02VFV5WEZIbEF6WHVyOTNPaG9OU1lHNk1QSTIzRnBzQXhGSFA0STZzTGp0NHRnYnozazFkeEE3dnV6OXBrcDVfNTJDNzAwN0FsT3lPYi1ZTnBvUGt0Q2w1elZPbGVwT2ozZ25UeTQzZW9vVHdUSDBlRDJTazByM0JENDlDblFyYmRsZnhORXJRdmxPZ2dRVkZmTEhkdzVySkJvM2LSAboBQVVfeXFMT043cmdfUjc0UFFReE91Sk5kekItQ0N1blFIR0RzVVNFQnkyLUxScE03ajBlNVQ1UVNJNFZWZHF5UjktS0pzbXpxQUhBS3hHNnNGaHZTSlFWQVZ3NlRuSnJpbTRKRmFfT2oxRXFYX1dHQ1pGR0lzQTJEb21vWGtRTnU2T0dRZWpZOHU5NW9LcTBSZG53QUJRV2lWa05xczE2MmVtQkEyVkJ1YmlCVUZhdFdNdDNPaC1xU1d3?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-08T13:36:13+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Rodríguez Ibarra, ex presidente socialista de Extremadura, retrata al PSOE de Sánchez: «Es un partido sin sustancia y enclenque»",
-    "enlace": "https://okdiario.com/espana/rodriguez-ibarra-ex-presidente-socialista-extremadura-retrata-psoe-sanchez-partido-sin-sustancia-enclenque-20725943",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-08T14:31:14+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/08/imagen_recortada-2026-11-08t142953.020.jpg"
-   },
-   {
-    "titulo": "Sánchez avisa al \"sheriff del mundo\" de que \"lo que pasa en España se decide en España\" y acusa a Feijóo y Abascal de tragar \"con todo\"",
-    "enlace": "https://www.elconfidencial.com/espana/2026-11-08/sanchez-psoe-trump-eeuu-feijoo-elecciones-29-n_4461274/",
-    "fuente": "El Confidencial",
-    "fecha": "2026-11-08T14:09:00+01:00",
-    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/168/446/1684464f93716320cc541f0f0aeaac70/la-derecha-recupera-6-escanos-a-la-izquierda-por-el-castigo-al-psoe-tras-urda-y-la-dimision-de-puente.jpg?mtime=1794068938"
-   },
-   {
-    "titulo": "Elecciones generales 29-N, en directo: Pedro Sánchez, el lunes en La Séptima a la misma hora que Abascal en TVE",
-    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYVUzNXBJS1pCc255ajg2Yml6NDdEa0lGMVhCVlpBYnFsVXdQRUVGblBmdkRpb0UxazFnUm81eFVTT2pGZTRYSmFUT29Sa2JnNnpORXNaQy1SSHY1VjBtc01Mdy1SUWRMdTJfRW9STFZYMXVtNmR0MVprck5TTUtISjhpbEFUVFdwY2wtOTFLVjNUcnh3Uk9VUkpjUDJaa2dmcHBmV1ljSE1iM3ptQzNQWFVsZ1FrQkXSAbwBQVVfeXFMTUNBYWdDYUVGVURuZUxOX0hjb2VXNi1pSm1ZUkVBLWJacnMyNmhTMXNtMGNjYlBYd2N3OGplVW5sTTFaVS1QTy0xNGdwenBfRnRFdVIwNUpPSU10WXRNQ3psYzhjeE5pVnRVeEx3eHdmSHByY1JWQ2FCRDhzNm1sai1JbWpJeklrLS0zNGpvb244RGF0bHpuNjNfNHNpY2NDME9qZGU4dFJoenRSNE1CYWtIc2R1NU9TdFVKcHc?oc=5",
-    "fuente": "El Progreso de Lugo",
-    "fecha": "2026-11-08T13:44:58+00:00"
-   },
-   {
-    "titulo": "Tellado (PP): \"Estas elecciones no van de que el PP le gane al PSOE, sino que de España le gane",
-    "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQi1kbzlVRmhvZDBLaUtYNl9CSUdLcWRNUXd3cVVPd0s0QWNtWTI1OGxwYUg5dEtBTEJ4N1NHQ28yUFl1bnppZGhablZhN0tySWxOcGxEYlkxNE5YRzFuLUl6TkFzdjM1cV9tZXkzZkk4TF9hM1BqOUlMZnBBT3RCeHowb2xpaW9INjZHVFBtdEvSAZYBQVVfeXFMTWVDV01JM28wQWZJWUJHTFN4NHdDbnpDT1dCdDB3Z1dCNnJ3RGRHMURQcU1yWTFkaG5maksxVlRQMkcySFFIVmcxbV83aWZfNUNkc05PNUotQ18zSnlMTHI1RVg5elR4TWJMZFQxd3l3MWR5ZExaMXJkQmR3UTRvcEx2VUxaTXZrdHI4UlVvVEhBRkREMVhR?oc=5",
+    "titulo": "El PSOE acusa a Núñez de hacer una oposición basada en el «ruido y los bulos»",
+    "enlace": "https://www.abc.es/espana/castilla-la-mancha/psoe-acusa-nunez-oposicion-basada-ruido-bulos-20261108154452-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-11-08T13:36:46+00:00"
+    "fecha": "2026-11-08T15:44:52+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/08/Abengozar-RoGo7BRs7CurviFTDr9yUvO-1200x840@diario_abc.jpg"
    },
    {
-    "titulo": "Ada Colau apela al voto útil ante un PSOE al que le «tiemblan las piernas» frente a los especuladores",
-    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUlV0Q3A5dVNxekMxbG53b19jcVJucFF3NVVYNGlCME5hX1QtQ2c4WmJ4eVJwUTgwbjRTdkhfaFNzRExlS05Jc2hYX3JmeTVaam1xczlzaVFiTFAtR0hhZ2ozS3l2RzdfVHpEek9hcVRxeVRBWXlFUWlMSndCM2I3bTdFb2oyOUdWNGl2a09DZkdGRUh5VHpfQU9KV2ZGSzFNM2pjSzBwODJhOWhJTWFPa19TWC1WODF6QTlrQmpiLVhUS1RjbWJuV0FNUno5cGl0SDV4SXNXSHdyTTFSUnfSAd4BQVVfeXFMUGtCODVEQ0pSZEhKNGthRHRINlUtdlZob0d1dXNCTzlGb2hPS0FvZk00WGJzVkNBcXdheWhtLWJJTVoxcE12QXBKcHdtTHJVZTI5blQtblNBcVhORk9JdnRBZlZoQkJkZEdvTkkzQS1EUVNULWVPV0JPaW9xcnllTXJ0R1FFdUVtelZmRnRBWTJ6U0V5SDUtSlZjTDdnbERTblV0VEdwVkZ6bXNBcng5MUFZdkRiaWtVQTg2ZHFuMmNpa0oxeG1FQnBQNXZvNXk4dHJZWUVBX09DV3BQVmZn?oc=5",
-    "fuente": "Ultima Hora",
-    "fecha": "2026-11-08T13:32:44+00:00"
+    "titulo": "Nogueras acusa a ERC de hacer seguidismo del PSOE",
+    "enlace": "https://www.lavanguardia.com/politica/20261108/11679269/nogueras-acusa-erc-seguidismo-psoe-rufian-le-reprocha-pactos-pp-vox.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-11-08T15:01:47+01:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/08/6af07ef569c76.jpeg"
    },
    {
-    "titulo": "Ampliación | Ada Colau avisa de que al PSOE le faltan fuerzas para plantar cara a las élites",
-    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdDFLWE0wcGl5a1g5RS15MG1YQ2o3czQ4aUxibHJseWpMTlphN1lrZE1YRW5sTjV2bjAxalVJZ19lQmU0dW82UVZvQVZFYzhXR1p2YmNzZVFsNWhxNklic2JSa1J4cUVkdHNCeXhrQ1VBZUNCTGZOelZ3NUM2clFFY0RyOTlnemw2eFlwQVFkYk5NVG1OSlFnZWw3dXpLYU41UTdpWk0tdGlfR19IdFFobXh4ZnJ5ZjFKMnVOTkxjNU5OcUnSAcgBQVVfeXFMTkdpM1dvR09TcjROcHhYLVZ5eVBuUjRFbkNSZ0ZzWFdlU1hjbDJTdFg3UkRtaWlvWjdjekplRXFUQWZNZjhMS0tYVFkyWEZReEpzdklJTk9OVXViWFR6MzZlNXc3Wm45SENhLVUzeWtPUFBnVmo4elJSU2otU0hSbnI1d0tXZmlyRXRiZFpLeTA5aUFDTFpMUW1ZUDF5cjl1VHdlSEpfNVRTYjRvZEd3R0N6eU9xNzhKcngwdFNpdDBpWE4tZ29JQ1g?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-08T13:28:32+00:00"
+    "titulo": "Sergio Matos (PSOE) apuesta por reforzar las políticas hidráulicas en La Palma y promete pelear por el cierre del anillo insular",
+    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ3R4eU1NUE1odnR6NEZWN1doNU9fdnF4SjFEM2JwZmdYWWRXdVc3OEJRNGpScVVOOGRkVUc3WktNcnRiem1Od2FnV3ZBWm1tcF82NXRmT0tyWVVPZE1WUm45V3UwRGplQmhnSFJ0MC0xU3ZqVFc5S1RsX1g5ZUxiM3JyS2ZSTTFYa09DdkV6dlFHWWlDZHN6WXhYUWtWUXRqTi0wYTFXVi1PdVlpOU9FbzgyUVd1UHVNM0E?oc=5",
+    "fuente": "El Faro de La Palma",
+    "fecha": "2026-11-08T14:41:37+00:00"
+   },
+   {
+    "titulo": "Pensiones, SMI y aborto: las tres promesas de Sánchez para movilizar el voto progresista",
+    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcWp2Q2E3MERFSVZ5Y0pRcEhyV216OUFUdzhwcUtmWkFwMzVXU3VIbHMzUHVTU2JDbHNsTHJvWUl0LVhyM0ZxMVJPQ3NqMGYyYzEyNllYYlREZkFTYXAtZEhsR3R4N2dwSk8yZ1FJT2UwU01zeTZYcll3SnZSbzh5UWJ0LTJhdGVEQ1hXYkdJMnltb3FyOV9DeXZLSGZBMGJaZlNwLWtGS3ZHWEZ0U0pxckhha3o4TWdaVUl1UUs1WVZMUjIwd3FPelp30gHPAUFVX3lxTFBIUVExaTN3eDc3TlBuUFQ2Z210Z0kzUHJuWlJWeFJFYkZyWU5ISGpObDA0R3loSkZOeGVuQ1RuelkxQUI0TVdNSnJJQWN6Z0kxb0MxaGFCUXJ4bkxZTnE2YXFaOFpCRXBZeTZfUVRQWXRjdFdWVENDaDZBRTlvMUV4aHlsT1VDUGU4amV3Qy1oek03R1FzTFZ3eWRvRmx0TmlFSTQ1bDQwQ0djUWVUdk5JNEMxSG1iY2xrWGNVdTFMY2dLSnVFWTFTMzZsME1Dcw?oc=5",
+    "fuente": "MUNDIARIO",
+    "fecha": "2026-11-08T14:34:26+00:00"
+   },
+   {
+    "titulo": "Sánchez se compromete a proteger las pensiones y el aborto y subir el SMI cada año",
+    "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZmIxU3NrZkxnM216bVByb09TMkg0TGNIX1RiX1Z2dGJkMmlPNkxRS3VabEgwWXRIRHdpb1BSbTNPOE5IdHk4aDdNMmNYdzdlQkxKcXMzZFdIcGUyTXhYckxhSjJNMUY2NWltZkpna0ZkQUdqY3JMX2I3QzVEMDU2VmhENlduTElxS05tbnZqbE1YMFhWbERiTDU1WXd1dW9YM2JKci1RdWg5dw?oc=5",
+    "fuente": "La Región",
+    "fecha": "2026-11-08T14:02:00+00:00"
+   },
+   {
+    "titulo": "Pedro Sánchez, en Bilbao: \"España no será el patio trasero de ninguna internacional ultraderechista\"",
+    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbFhnWUlpWDRCRURSS3M3QS12bzZaQVBweTIxMHJfRGFXbGlya3lDa3BfdkpCa2RhSXBmcWtUM0MyT0lrYXdqOEVVNUlSQVhvMkozRnQ0dTZIcktFdVBSZUkxbnJSVlBHQmZDWWtwQ3lSVWVSTVYzQzhJYmlJR1k5Q3lIR1lyeGw5a1VONkFBYk9kX3ZTbm9na0Z6S2JNQdIBngFBVV95cUxOV2Y1NW5LVWVRdDdYVlAxS0drSnNsNzhGOUxFTVNZbjlmVTdiZXZXM05hYmRuaHRORFBteElmLU1hTDBORmJ5YktURldaWG9EWnE1bEl3ZUd4WVJuNHhpR0p2by1FRG1FM3ZUeEhFRE5yVTB6NVNFelAzR3BHVWZncjAxVHU2XzZoMmIwZk5zeW9wYVY1V09wb3hhYTd4Zw?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-11-08T13:53:33+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "Elecciones generales del 29-N, en directo | Última hora del adelanto electoral: encuestas, Pedro Sánchez, actos de PP, PSOE y Vox y voto por correo",
-    "enlace": "https://www.elespanol.com/espana/20261108/elecciones-generales-directo-ultima-hora-pedro-sanchez-adelanto-electoral-actos-pp-psoe-vox-encuestas-sondeos-voto-correo-2026-partidos-espana/1003744450272_10.html",
-    "fuente": "El Español",
-    "fecha": "2026-11-08T14:24:00+01:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11396716.jpg?p=c:4003:2250:nowe:0:203/w:1706/h:960&h=KSh50mQK"
+    "titulo": "Vox recupera el ‘Es sentido común’ como lema para las elecciones del 29-N",
+    "enlace": "https://okdiario.com/espana/vox-recupera-sentido-comun-como-lema-elecciones-del-29-n-20725966",
+    "fuente": "OKdiario",
+    "fecha": "2026-11-08T15:13:17+01:00",
+    "imagen": "https://okdiario.com/img/2026/11/08/imagen_recortada-86.jpg"
+   },
+   {
+    "titulo": "Delgado reclama motosierra para las élites y Mónica García sitúa a Feijóo y Abascal en el banquillo de la indignidad",
+    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQaVdId3N2WTFxVjU3bzdjTkFiaktSS2NCcGZXX3ZCZ1NQMEtSbTFiQWU5YUlEZjZqLV9OVFVYdDV1R3JzQjZPdGc2SlNXNmhVdjhSbk53Vi11dWxyZzExMXc4LTh5M2Z5RmVBcG13dThEUDR3MFo2Y1RkNl8xdnlKMXRsTXJBWFFwTS1YdVZtR1hialpsZGE5TFpPVmVNcEVlQlVVaDBkRVd1cDNkM3ZNdFVQLTlya1RVbWVucWo0NmR4Ml9lRl9kbk9yQUdjZENyVTdONjM4RnZIUTJVaDFBVm9HbGp3d9IB6wFBVV95cUxOVHItQmJmQS1mSGVlOHpBQUNoNDV4V3cxYjJBSW5ySUlzSWxmTVFkaktCWFdmaTRXQmlrSUhEMHJkTXE5Q3hqTFVtaTNiNzgyYVlKMkN4Tl95R1R5Ri1xbThIUEZ5SlNpekhMTVBfeXpCRklmWGFMY2RHb1RLU0pLbjNHYWFaZWNNZTJ1N0t5MWZWdDhIeXJiS2hRdENRY3J4SWZ0YnJDaF9UQncxUG9Rb24tSFNBdm5hN19sYlQwSzZMN0lVN0RlNFYzd3FBT2FaRHFxZEIyWVF6Y3p5Zlg3bDFXdlFwcnBxU3RV?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-08T14:56:27+00:00"
    },
    {
     "titulo": "Sánchez avisa al \"sheriff del mundo\" de que \"lo que pasa en España se decide en España\" y acusa a Feijóo y Abascal de tragar \"con todo\"",
@@ -169,10 +175,10 @@
     "imagen": "https://www.ecestaticos.com/imagestatic/clipping/168/446/1684464f93716320cc541f0f0aeaac70/la-derecha-recupera-6-escanos-a-la-izquierda-por-el-castigo-al-psoe-tras-urda-y-la-dimision-de-puente.jpg?mtime=1794068938"
    },
    {
-    "titulo": "Elecciones generales 29-N, en directo: Pedro Sánchez, el lunes en La Séptima a la misma hora que Abascal en TVE",
-    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYVUzNXBJS1pCc255ajg2Yml6NDdEa0lGMVhCVlpBYnFsVXdQRUVGblBmdkRpb0UxazFnUm81eFVTT2pGZTRYSmFUT29Sa2JnNnpORXNaQy1SSHY1VjBtc01Mdy1SUWRMdTJfRW9STFZYMXVtNmR0MVprck5TTUtISjhpbEFUVFdwY2wtOTFLVjNUcnh3Uk9VUkpjUDJaa2dmcHBmV1ljSE1iM3ptQzNQWFVsZ1FrQkXSAbwBQVVfeXFMTUNBYWdDYUVGVURuZUxOX0hjb2VXNi1pSm1ZUkVBLWJacnMyNmhTMXNtMGNjYlBYd2N3OGplVW5sTTFaVS1QTy0xNGdwenBfRnRFdVIwNUpPSU10WXRNQ3psYzhjeE5pVnRVeEx3eHdmSHByY1JWQ2FCRDhzNm1sai1JbWpJeklrLS0zNGpvb244RGF0bHpuNjNfNHNpY2NDME9qZGU4dFJoenRSNE1CYWtIc2R1NU9TdFVKcHc?oc=5",
-    "fuente": "El Progreso de Lugo",
-    "fecha": "2026-11-08T13:44:58+00:00"
+    "titulo": "Sánchez: «Feijóo no es más triste porque no quiere» y, como Abascal, «tragará» con todo",
+    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNm9GLWpoYU1PTlJTQW9KUThVVDB0ZVRvcHBXc1J2akZEOE8yVmRCRC1ZOXVUN2JZdGRvU0prLW9LTUFzTVRrcmVUU05zNUtOY1g4VVRLSjF6RWI1WHFmZFhxWWxyUlB4a3lfWUVvZDI4ckd0Q0hRWlpPckpzMlVTbFJJOG9KaWU1RkUtSE5yNnhESjBzXzl5RjNzTFc4Mkt4dlZLVlIwb1Q1Ql9FOWwwZFdIaXczV0xBZ1RjRnBxM2VZM3E1SGNvRXJVbHVUUUF3dmFNMS1B0gHWAUFVX3lxTFBEWDAwTnNXV1JxVElVeGdPd1NLZ05jTXp0bEVXUkE1VUdtd2JRUXhqajhqYm8wa0JBR25mdnZnRnMzbmREcUM1dTgtWjVWdmZGdFBtUE1UQkhnLXNkOXFqU3RpeXhfUmtuSFh6RHBFZVVNaHJSZW16ZUhyVTRpd3dsNF9EZWdJMVJYOG8tY20tcGFPN3ZzR3dROGdLYVNwS1pEN1FUS2x5cEhibmw0d184TzlBNE9rSWpYUnhPY2VqM25YaGp6NXVmYVVvOWxVR1hmcnVkeVE?oc=5",
+    "fuente": "Ultima Hora",
+    "fecha": "2026-11-08T13:09:00+00:00"
    },
    {
     "titulo": "Santiago Abascal en La Revuelta: hora y dónde ver la entrevista del líder de VOX con Broncano",
@@ -185,12 +191,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzdXJKWkZtS0syak1XSGdqdTVDT1N0NGNXY2NkVGU0LVdGR0JIVHVaQ0tLaWg3dlJGeWpERmROdmZaZzZDNF9rUDAwcDRsWVNwREFuLW1SMXpCR2h5Nmc4Sg?oc=5",
     "fuente": "EFE - Agencia de noticias",
     "fecha": "2026-11-08T12:51:46+00:00"
-   },
-   {
-    "titulo": "Encuestas elecciones generales hoy: ¿el fin del bipartidismo? PP y PSOE no llegan al 30% y Vox se dispara frente al 23J",
-    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdFFnN00wT19uc2VIZjB5RlZGOEZwSlBZYWlIVjhDU2l4dDVsb2lXVHo1aWhRYUt2d2gwLTRhaVl2QUowdUxhbjRhOTh5UXc1NHZsdUVub0ZrU3VaM1RYaVlReF9Mb0V1SHduTENPZWRMaVFzamtRWWszcHZ6My1udENsWmxhcWFvamxVUmFVSHB4QkZ6VllZQjBIeXVsOXBYbTA3OXh30gGrAUFVX3lxTFBpRDJ5S1hkc2h0WUFpUUV2YnJadE9PaWRYVnI5WHlkQkd4MDVzRDQ1a0toWmxkdWtTd0duQnM5azhmdlBsSzBOX3U1M3pJMGVUZmZNV3Noa1c2RFZkLUVzMUIxREpHQVVGY3hiWm4wUDVPcjctVHJsOHBWbU5xX0NGSzQ4aUw4a0VGZk9OTEQ1T0V3ajRVa0lKM1F6UEZrcF93X2RETHBxZnN6aw?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-08T12:29:00+00:00"
    }
   ],
   "Sumar": [
@@ -312,6 +312,26 @@
   ],
   "ERC": [
    {
+    "titulo": "Rufián apela al apoyo de los socialistas “decepcionados”",
+    "enlace": "https://www.lavanguardia.com/politica/20261108/11679271/rufian-apela-apoyo-socialistas-decepcionados.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-11-08T15:10:18+01:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/08/6af07f93d2d41.jpeg"
+   },
+   {
+    "titulo": "Rufián carga contra Junts: «Se dicen patriotas, pero votan con PP y Vox»",
+    "enlace": "https://theobjective.com/espana/politica/2026-11-08/rufian-junts-patriotas-pp-vox/",
+    "fuente": "The Objective",
+    "fecha": "2026-11-08T14:20:32+00:00",
+    "imagen": "https://theobjective.com/wp-content/uploads/2026/11/fotonoticia_20261108135324_1920-1.jpg"
+   },
+   {
+    "titulo": "Rufián defiende un partido integrador frente a «repartir carnets» de catalanidad",
+    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRW5MUmFkSmZNcElyS3M0a1ZvZm1OWWVrMEJvVlJGQnZKN3pWSlhYdEx1aHMwdkZOS3E4TVdfMV9oQUlrWE5mOHRWb0ROaVI3dXN4NlEyRFFSNm5DaXEyY3pLSnpkSjRmTTlJU3kyVDNvZ3c5dG11SjBNRnAzZmhZM2xBZVFkN3Z6UkZaV3poMmduZ3VsY1BDLVQyVUJCNnZuVUptaGkzSmN2WElJMnJjNENqQkxOdXd0YWhVaXdTT3pOX2EydXhaeHFSTVhNb2lfbUJzZm1UcTZvR2VN0gHcAUFVX3lxTFBDVThBMWVPUGlRUHJuaDhYV2NxY1lhaWlQWlVxZWF0YjNhOGpyeldBNF9qQ3hCSGJSQjNSN3E5MzBDQ2VmTGdWVVNTa0Zvb3FrZEN4S3J0cmNoMWpOTnN0em1DOEQtV2lHNHZxZFFWSzVFejV0WDRpeGdmSzNJeDZYOGt0OUVCS2JTTmZyLWt0RGhjYThCMGFJb0NwRWkwTXJEZFo0N19fZVY4bkhYWkRkN0JCY1pxTmlVNHNNZzZIQU1VVS1HcGxkWGNYUERnV2VUeWhyMm9IVm83Ylk?oc=5",
+    "fuente": "Ultima Hora",
+    "fecha": "2026-11-08T14:10:00+00:00"
+   },
+   {
     "titulo": "Rufián estalla contra Junts por votar con PP y Vox: \"Votan contra la clase trabajadora catalana\"",
     "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVDRxVVpMTk81NlNicDkyZmVtcW0zTGw3dl9pVmJFaWNQbFY5eUYzXzZEWE5BUVc2MWI5OThCZDk3bkhaWHUwWGQ4SkhZTWZoYXIxdWZYMEE2NDdaUHVIdVFuSk1NU1VhaXFPY0dWV3UwQk54RTR4eWZKMWpnczhONkNTdERzcV9hdS1IdWZHWHRhb2JuSFRRTmhRUHlIUjVlaHU3NlVTWkRmTTNrX2ZMMFAxUHJhcExsRVFoMDl4bHJFMHRRRzRyN2RYdERTNkwtV2dpdDk5d2tYNnVG?oc=5",
     "fuente": "El Nacional.cat",
@@ -329,27 +349,16 @@
     "fuente": "elDiario.es",
     "fecha": "2026-11-08T13:17:07+00:00",
     "imagen": "https://static.eldiario.es/clip/e08a41d5-626b-486e-a57e-da20ea577392_16-9-discover-aspect-ratio_default_0.jpg"
-   },
-   {
-    "titulo": "Rufián y Junqueras suben al mismo escenario para arrancar la carrera hacia el 29-N con dardos a Junts y al PSC",
-    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOekpuZkZ4S0dmcDhvbEIwaG9oWEdDeDIwOThqbkJpbzg3UGhJVEJmTHg0cEtsdG9tdHB4VDdJejFwMHpFVnYwb2JQaVFyWDEtVGgwQmpoNG9VdWEzSFpyOGk1ekdKRGtSQWp0YVdidFNpUUdDZU9IQVhKTkZ2N3N5RDVueGh1SU9FS2xqaHJta180TkFWbUoyV2pCNzJIY2xmZlNQdm1jZzNCaXVMTDh4TERnelpqZXkzeGc?oc=5",
-    "fuente": "Diari ARA",
-    "fecha": "2026-11-08T13:05:42+00:00"
-   },
-   {
-    "titulo": "Junqueras pide votos para reforzar ERC y abordar la vivienda",
-    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOXhtSzJoTzRmWl9QMS10UUQ5eVFkdWlKYzdGUkdDM0YxNTFkQ1E0SVQ4UExIRmZXMTEwa3A3ZzVDYWJCZGJZVS1uOTFKYWdFdzIzWUczMkhnUE02NzMxVjhaREx4Z2xsYjVrcUxHWXpwb3haT3lsa1cyVEVSd0s1Y0NNUnlKNWdnSEtKN1VCVU8tZjJTTEEwMTJOaHNuUC14VThFWGUtNDA2VmctWTZkMHNLeXVKa25jYzB1TGgxUXlxSkNnZFE?oc=5",
-    "fuente": "CatalunyaPress",
-    "fecha": "2026-11-08T12:50:00+00:00"
-   },
-   {
-    "titulo": "Rufián (ERC) apuesta por un partido inclusivo frente a quienes quieren repartir carnets de catalanidad",
-    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSk1XbFlzUm5RRnZWVzg2ejMzUWRubVZOMGRRdHRYS3dwOHFBZ1ZpWWhoT0REc203cnJORUl6b0d6aXZqbkVLNXhvZUNHSElIRWNIekhEclp1Z2xYMk1wSlo0dzRMWGN2eTR2dU9GVWV1RUlYZ2tpS3cxRmUySGNKN1ljMVJ6RzRNTnBKRjlvVjV4bDlHMHlnZk80d25ITV8xaFN2QVhFUHJjSDFnVGNTdG1hbTFiSFNKdXo2R3JEQ3hjeUlrUjVZOGpfbDdjNS1m0gHWAUFVX3lxTE1uWWtKaTA5cnZFLVRsRUxkdHN2eVk2aUloTldUUzRPNFdva3V3b2VLaFVvd1RCM2d3alhWN3JPenIyWW9UQ3h6a3J3dThHdUZhOVhMaGF0ZFdhdnlNQzloZjNsaG1wdTN4ZTc3QjJCaWZXdGVFcU10Y3AyQjRiaGFzX2t3eF83N2JTTGpqWVJOV0Rsdzh6Y3JYRl9VZE15UzdDWDRvYzNmN1VRY1NwVVptQ2MzenJ0NlhwbGRQanJrY3g0Vi1ROFhhQ1VDbUdNRjN6OE1waUE?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-08T12:48:26+00:00"
    }
   ],
   "Junts": [
+   {
+    "titulo": "Rufián carga contra Junts: «Se dicen patriotas, pero votan con PP y Vox»",
+    "enlace": "https://theobjective.com/espana/politica/2026-11-08/rufian-junts-patriotas-pp-vox/",
+    "fuente": "The Objective",
+    "fecha": "2026-11-08T14:20:32+00:00",
+    "imagen": "https://theobjective.com/wp-content/uploads/2026/11/fotonoticia_20261108135324_1920-1.jpg"
+   },
    {
     "titulo": "Puigdemont cada vez más cerca de cruzar la frontera",
     "enlace": "https://www.larazon.es/cataluna/puigdemont-cada-vez-mas-cerca-cruzar-frontera_202611086af072074196933d7ed57a8f.html",
@@ -358,22 +367,21 @@
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/06/799593EB-F70A-4C0C-B7E5-4812C0A8CB83/96.jpg?crop=6531,3674,x0,y518&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
-    "titulo": "Puigdemont reaparece a solo 13 kilómetros de la frontera con España tras ser amnistiado",
-    "enlace": "https://theobjective.com/espana/politica/2026-11-08/puigdemont-espana-francia-frontera-junts-amnistiado/",
-    "fuente": "The Objective",
-    "fecha": "2026-11-08T13:51:42+00:00",
-    "imagen": "https://theobjective.com/wp-content/uploads/2026/11/puigdemont-reaparece-tras-ser-amnistiado-a-13km-de-la-frontera-con-espan-a.jpg"
-   },
-   {
     "titulo": "Rufián estalla contra Junts por votar con PP y Vox: \"Votan contra la clase trabajadora catalana\"",
     "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVDRxVVpMTk81NlNicDkyZmVtcW0zTGw3dl9pVmJFaWNQbFY5eUYzXzZEWE5BUVc2MWI5OThCZDk3bkhaWHUwWGQ4SkhZTWZoYXIxdWZYMEE2NDdaUHVIdVFuSk1NU1VhaXFPY0dWV3UwQk54RTR4eWZKMWpnczhONkNTdERzcV9hdS1IdWZHWHRhb2JuSFRRTmhRUHlIUjVlaHU3NlVTWkRmTTNrX2ZMMFAxUHJhcExsRVFoMDl4bHJFMHRRRzRyN2RYdERTNkwtV2dpdDk5d2tYNnVG?oc=5",
     "fuente": "El Nacional.cat",
     "fecha": "2026-11-08T13:48:09+00:00"
    },
    {
+    "titulo": "Nogueras (Junts) replica a Illa: lo que le incomoda es que cada vez haya más gente en el centro",
+    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeVBubW5LbnVGcF9rS1ZtanRTM2dOTVk0YW5EVjYtQ2x6N1NzbWxfSU9CVHJaYmQwOG1RNjVlTHJBUXlXMzhISTlHeDNMeFJvbGpKT3htenROdG0yZW9GVzh5Y0RVWndMRlhWRUtEV0lnM0gtczBzYzNWVWYxc2xobmUzaWM4bGt2c3BzQmswQ2xIRFRNXzVBUzlZcklDajdqVTdJcXl0dmdVeGhmTzY5c01qc185bEVxVlp1Y0pZWnFVbjBrTGfSAcsBQVVfeXFMTTRGcjBUdVpiUnMwQ2xjdGhkbnBrZUFwNnhSMmp2Y1VXMWlZcTRLOU5OcHNoblMxZHR5d0RwREpuVElHQ2J0NWVkX3gzdVJVTkh1NC1WQ0JGZEdkQmRxbDBmRlJWUlF5MGQyUUlVMmR3Q1dRVFFLeGVXWC01dGZBWmM2SzBXOFZ1TVRKV2FnNGc0NVR0QlROUzFvNmxuY0NOX19xMXdjemNSRTJScHVmMlExanZldC1GMWpwVEdid09fVmF5M25QcU5YN00?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-08T12:56:45+00:00"
+   },
+   {
     "titulo": "Nogueras (Junts): Lo que le molesta a Illa es que \"los del medio cada día somos más\"",
-    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd2JLUUVtdGZyRTlvQ2ZIUWNYa3pPZUVhYm8tWVh0WGl1WllSTVU0TllaNFMzVnRQV2xjdk5jUDJsRFplei1iS1dzU2RFdXVVQ1lRdm9velprZEN3SDVzWDRZaXFhNUxWNjRvbGxLMFEyZnYtcGFXemlaUE9BMmpQLUIxSDFSbFNPNFM1MmozdEVsck53NGpuOWlnc3ZOQXY4bVZWT3kzQnN5bUNMWXhFaDJvdkxWTXhpNkhxZjNveVhvQXRNWEE?oc=5",
-    "fuente": "Ultima Hora",
+    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ3BnN3JNTWlrUFRqRjhlU0ZrS0M5T0Z2Zng0MzRDYzFsMk1WRzltaTFPZFY5UVJIYkl4aE1BclBzbUhPTUJCXzhaeW1JR0loUzc4VzhmbmtUWDU0RGVFdlFwZDY1SW5xZFRFMk1jam5vUTdHZTNMOG1uU1VGa2RsbnR3YnNObFVxUmRxekFGbUNBZW1ySVp1UFdLejNfSllvcEVJODVoRVBHZlVzMV9QUjJxVW9mZTBKRkhZNg?oc=5",
+    "fuente": "Europa Press",
     "fecha": "2026-11-08T12:54:04+00:00"
    },
    {
@@ -382,20 +390,14 @@
     "fuente": "La Vanguardia",
     "fecha": "2026-11-08T11:38:27+01:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/04/6aea6c2cd73cb.jpeg"
-   },
-   {
-    "titulo": "Junts y Toni Comín chocan sobre si sumarse a Renew o seguir como no adscrito en la Eurocámara",
-    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQM3BaMmJ2eGMzRlpoXzZtLTB3LWVyOEVSa2VBdldldmxORzRsYkMzMzBfV2VNQi00V3Z1ZjNYSG9kUHJyZi1ZNUVXUW1TcWFzTXhHNGYzTnp3VlNvQzNJTDY3NFdfN2lYQ0FUM3A3ckttaG1tbmc1aXBmRGtXZ21URVY3NmNMVUh4SXZXU045aFJRV1B3bXpxb005Y25Wcy1UMkRmNWowUHhjQlRKcURIZXlVYzlwaDBkN0FVeVpHdVVycTdFb2dMeNIBzgFBVV95cUxPOUFpd3hpT0lmVWFQS1p2ZEVwcXNXcDJWSEZzMkRWUVZLNHVWQWl6SzZaaHRZWlVkeG50cGpYQmo1WUNZSkVZdm1zdTBsOFdHOUhhZ0dQOTlKTDJsUlVWekE5Q2QyNXJCV0JhZi1aOEoyemkxd1owRHZhTzFrc2s5ak5GVEZzRUFoblQxaUtkb3ViTEVGcFhsaXZBUnN4QW93Y25NZ21Bak1SSDhGekd5aUY5R21LaWtuSUY5Xy11WVI2eHJKcGpvejU5djJfQQ?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-08T10:56:30+00:00"
    }
   ],
   "Bildu": [
    {
-    "titulo": "Sánchez pide a su militancia en el País Vasco voto «masivo» ante el auge de Bildu",
+    "titulo": "Sánchez pide a su militancia en el País Vasco un voto «masivo» ante el auge de EH Bildu",
     "enlace": "https://www.abc.es/espana/pais-vasco/sanchez-apela-esperanza-concentrar-voto-psoe-ante-20261108132602-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-11-08T14:17:20+01:00",
+    "fecha": "2026-11-08T15:05:22+01:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/08/1519974443-Ra8E1Isl9o1IdQEswvnJM7I-1200x840@diario_abc.JPG"
    },
    {
@@ -438,10 +440,10 @@
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/08/6af075dce1a8e.r_d.600-337-3741.jpeg"
    },
    {
-    "titulo": "Esteban: El PNV no irá con Vox ni a heredar pero tampoco pondrá alfombras rojas a nadie",
-    "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOemlCVDhZWWc3SHMyODRETXRkdGthREk3OExKU1ZEZXRWbktkWTFfQUdlT0tLZmFSbEFxZ05DTU5Hc3NGdUNYaTY1Qlk4UTZTTW5QMTdjVzJoN3ZLSU44c0NlY09OeDVnTXVpYnR4R2FLQ1lRSVpSbHh3cTJ0NDZIREIyaldoaUdaN096UjdQSE9RaFIxeDVwRDVrSzgyWnp5c2xGVFZQVG3SAa4BQVVfeXFMTjhlR3JaaDJPU284UUZ6YTBMZU10Rmw1SUJIcElkSWxqU2tURkNRTlh1WlZsc2cwYW5kdEgxRHhHOTR0UlFKUjlZMU5FWHF6WDNDd0ZaSWlQeHljRUY2V09ZcF9ZQ3loQ201SWpiQkJxdE9VLUpwOEVsbUJybTNKMlBpamJuV2pSTnpkZzVVWGhfLUt6bUZUNVg3QTEyQmFhcWVzU0ZPWE03cEpVRVVB?oc=5",
+    "titulo": "El PNV asegura que no irá con Vox \"ni a heredar\" pero tampoco pondrá \"alfombras rojas\" a nadie",
+    "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYk03ZXk2VDVNdGpZVTM4cnFKaGxibWxiMzBtS09uQVQzODNrdXZtbEJtWXA1cE51a0VRVXgzdnVOaWNSWFZCV1M3WC16UmhBNl9FS2k0eVhzZVZaZ1FhOE9uWkxCbGRJeUQ0a3dmaU1jeVdla25aeGNNcnIzOTJNSDJEZlZIc2YwTHlFM2VJY0ZLWUJBRjdXcVpldkFKYVQ0eG1uX3dMeTPSAa4BQVVfeXFMTW1uUVhfVXQwMEo0amN5eHJZVDF0TUJuOWstSlJFZXMzWVpyM2RKRGQzM0VHWFdJbHpiNENMa3lwWjlmMkp2cnhtTFpOY3BOQ0JTcUZhNUlRTTFkV1lhMnFSNFl0ZnNwX2pPUkRrclBCc2czbmVPdHNUWEJNVldsNE0zaEFyVDJaMTFRek1mS0czTmdKaVhveUZ2dndpZHdBbXZqeWVUUFFwbnZULWV3?oc=5",
     "fuente": "ABC",
-    "fecha": "2026-11-08T12:42:28+00:00"
+    "fecha": "2026-11-08T12:40:20+00:00"
    },
    {
     "titulo": "Esteban afirma que al PNV le toca \"mantener la antorcha\" para seguir contruyendo nación vasca sin tutelas externas",
@@ -471,6 +473,12 @@
   ],
   "BNG": [
    {
+    "titulo": "Ampliación | El BNG inicia la campaña hacia un apoyo masivo en las urnas: Cambiemos el guion que nos tienen escrito",
+    "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPaUFsdTF2dUFoZ1lUNDlTeUItajBheWJWTTVJakxZdi1lR2RDUTlUdkdBZUxiNkVzVmtBUUFhUUctRXVYblhTSzFxdFRncnlLNTNKT0oydEU5ZXBzb2Y3eExmOGdwQ2twLVNid0ZUM2Y5QWdBazR5VndIeEZpdGdWYkhDazY2bk1IbEFNVTkzLURidEh6MFZuS3BkVnljdE9CdEU3d0VWSXZYQ2pQSFFMMEp6eVVDc01pZXVJaWpoUnQwaTlyeVZBcmVaZFU1cTQ1TlU2TkpYRmM0OURXUHU1dNIB5gFBVV95cUxOY2pZbGdZVk9jQldZUW1MWlNQZklMYmkwUlZtUlVoVmZ4U1lYSXNfN0ZuQkt2aHoxVkNkbVVNbWdfUFBpdWlOeTEyVS1YZWhVRGRYMnZHWGFiU3luYkxYb2FDbDY0Z3BESVlPYlNFaGItMERPb19UZnV3Yk4xT1g5cGZyU3dKazNFTDJLSEtiTEkteC1xNmxuNHR1VlBvaTRMc01lZmZ0bDZEN1hDcGRGOXMtXzZpWWtGTlVrTkFYOWhYWkFSck4yZTl4TFl1VWhCdXJDQTV2S2dLNFo5bk94V1Y1clBGZw?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-08T14:24:38+00:00"
+   },
+   {
     "titulo": "El BNG inicia su ofensiva hacia un apoyo masivo en las urnas y llama a cambiar el guion previsto",
     "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVnNfY25yQkZTeUx6ZVdaSW1EV1cxSTRta0h3OXR2LXZNZTRZaHV5MUNYWjJmSDlkQ1hSdWdiLTItZE9hOGlKSWo2OVBRdkVkQmxuNElLNUFOYTJKN3A2WEE1a1FyRnJOaGo2alNDdGNwMXRxTmxQTS1OY3BSQ2hGTkpUZWRqSlRkU1BfdjhzTHd3Vzl3c0dYUERrQkRWemRKUG1vcW5VYkRST2RsNkx4aGc5TGdIRG5RWFhwYVZudEU4SFlabDBvR2V1Y9IB0AFBVV95cUxOUDQzRnM2T2djVXFqR2RtX2h6Ym9NaVNTc25xMWlySUcycmZ0WHhJWGtMbUZIN2R1MEJSZXd6LUNoa0FHVUNqYUlGY1NEc0F5S0ZQeHdnSUxEcUFZTHpzT0FFUXlfN1JXWUp0VnpveE9QclVLdUhUWG5lSVZuWkhucG9DNnJPdnBySk5BMkdCNlk5amllVzFCWDRRbUd5U3ZMT1JkSUZyUWpRQjFxTUVPZDZkT1BMMHBTSU9uSkJ4VVRubVd5T2JJNW5jSnhQWkM1?oc=5",
     "fuente": "Demócrata",
@@ -499,12 +507,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdzRBaE15LXZaQ3ZyYlJvLUpwU3FOUUw5YmZid1c1Uk52YlJ5V25BWldjRUxmaVh4LVdiakRsbnN5eUR0LXp6V2RwYWQ0RVRzb2lkM2NEZGlOeXVkcm42cFVwby1yaWtVaDNpSkxpMUx6cnZTZDdwNEZhengyM1o4OHlWM0dXWG5DVmZvRGF4dlNSVURPVFHSAZsBQVVfeXFMTm1UV1g1R2xFR2FYb2ViTXlJNnJ3R2M3U0FZelBCMkpRbmszRnlkZnphYzVfUDFYamhpY0xMTDVXR0ZHTUY1amdxVGN6b2VYd2Z1eXBCRlJGWnNveTc3c3o2NW1VaGpjTFo3akpUbm1aMW40aFFhck9JYk82ZFItTTlXblV2LWRULWZyR1NYaFhndDcxRXlvT19Cb0k?oc=5",
     "fuente": "El Boletín",
     "fecha": "2026-11-07T17:20:15+00:00"
-   },
-   {
-    "titulo": "El BNG presenta en Foz a sus candidatos de A Mariña al Congreso y al Senado para las elecciones del 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMldWdzhkdmkyaGVQam9BSlRQUzdlLVd0T2ZubmNWd2VxZzBjbE9lOWo1aFFfSDNHTmtWVlRVRUtmQm1mV1JDSXpFRVRxOE90NlhkTWVUbnNsRjJfWTVFeXBZUHhpQkxzMl9VTW0wblZKNktHUkVOM2Q3OGF2UUZHMG9mcnhzaFNNcmtCbEhOOEJTWklzWHEtdXNONnYtY3pYQWQtay1Lb2kweDdudlRlNUllTHlJRnZyS3NVelQxYU9PQ2RJZ01XS0N4eHJDVmNx0gHWAUFVX3lxTFBtQnVmSUtnU3MzcDVadnNTWHBhNHBGZlo0OHJvYmdmZXNnYXVWWW9kTWkzS0ZKMWhoXzVIdkI1X3FnSV9oaUJtbkZJeUtCWGhRZUJuQkU5NmxKT0tVUlgtR2Y4ZnJ5UEdHWUFMR0JicEh0TU1aRGxDUE5EN1k4MWpDS1pUbm80UW5rX01xcGtYcnRPRkx4QW03Z3JWS3Badk0xa2pOR3FSeC1VeHhpSTEwLWZRdzNlaGxmaXFtX2JNenctUHdRdWtpem9vYW5ZQ1pVZ0ZnRFE?oc=5",
-    "fuente": "AQUÍ Diario",
-    "fecha": "2026-11-07T15:55:47+00:00"
    }
   ],
   "CCa": [
@@ -587,7 +589,7 @@
   "AC": [
    {
     "titulo": "Abascal se acerca a Aliança Catalana: ve a Orriols como una “alternativa” y admite \"coincidencias\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa3BGUHRhYVpvaWdGYnlWYXdhVHdCZXZ3c204cU9JZXMxTFljT0ttOV9jNEstaFBqNzJ1aWhpZS1KWE84SmhJQkkyRUFzVkw2b2tEcjF3eGsyUmVHbDEyOUR4MWlwSm5GU1pMMm52MG04LXAwb21EcU4weWtZXzlKbVh5MDdsc0xZRlU1dGlsX3d4UUx6OUF3LUhYUFNzSkRxQ2FYZ3gteG5xcWJHaWdPakJBR1VGU1JUQmZmYkdSQ0t2Mks0NU9Xcjd0Z1JfcjBiVlHSAdIBQVVfeXFMTWtwRlB0YWFab2lnRmJ5VmF3YVR3QmV2d3NtOHFPSWVzMUxZY09LbTlfYzRLLWhQajcydWloaWUtSlhPOEpoSUJJMkVBc1ZMNm9rRHIxd3hrMlJlR2wxMjlEeDFpcEpuRlNaTDJudjBtOC1wMG9tRHFOMHlrWV85Sm1YeTA3bHNMWUZVNXRpbF93eFFMejlBdy1IWFBTc0pEcUNhWGd4LXhucXFiR2lnT2pCQUdVRlNSVEJmZmJHUkNLdjJLNDVPV3I3dGdSX3IwYlZR?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbFB5THh5TXFEV1BjOXNwLW1QREVRMkNSMUdVczVpMkFSazBDRjlxaFdhMDh4dW40Mm9TTXZWNmIxUk02a0w0LVBHQlhSRGtGZUVXdUhBdmxzU18zczdhdnBvdXVaQzIta3lxbGU0V3FxUEVIRGEzM0x5VTBKa1c4UXgyY3VuVlYybGVPVkp2cXpMWGo3SFdWSE1weDlKb0xPR0llZ0FvSldkaV84OFgtdi1zaGZ1VjBHRTRsNUNMVmJuOTJoZmpuWEZNRG7SAdIBQVVfeXFMTWtwRlB0YWFab2lnRmJ5VmF3YVR3QmV2d3NtOHFPSWVzMUxZY09LbTlfYzRLLWhQajcydWloaWUtSlhPOEpoSUJJMkVBc1ZMNm9rRHIxd3hrMlJlR2wxMjlEeDFpcEpuRlNaTDJudjBtOC1wMG9tRHFOMHlrWV85Sm1YeTA3bHNMWUZVNXRpbF93eFFMejlBdy1IWFBTc0pEcUNhWGd4LXhucXFiR2lnT2pCQUdVRlNSVEJmZmJHUkNLdjJLNDVPV3I3dGdSX3IwYlZR?oc=5",
     "fuente": "La Ciutat",
     "fecha": "2026-11-08T12:50:23+00:00"
    },
@@ -624,6 +626,12 @@
   ],
   "AA": [
    {
+    "titulo": "Adelante Andalucía presenta sus candidaturas para llevar una \"voz andaluza\" al Congreso y al Senado",
+    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPb1dieWhtaFNBQUplVVFjaFNXejhqSlYteGVudkg3M1did1hQMEdMOU5ldVJjdWNnZXhzV28xY1FDTEVycHBlS2ZtN0ExYXRCaGk1NThDS0dCVHFfWDU2U2d3cWdCMUtoc3d5RjR1OWlQd1VmSEM1NHhzaUIzZ255dTdfa2ttTVNqZlBTRXd0MTlXVmpGRmhtMXNkQ2RwRG1WWnh0MzV1RzY5QWRCQmRRWWcyei03eVhfa1pxckhzRjdWeG1jYkFla2xhNnBBM1pXR2Vna0V3QWFTNS10N3h5ei1JMTh6d9IB5gFBVV95cUxPb1dieWhtaFNBQUplVVFjaFNXejhqSlYteGVudkg3M1did1hQMEdMOU5ldVJjdWNnZXhzV28xY1FDTEVycHBlS2ZtN0ExYXRCaGk1NThDS0dCVHFfWDU2U2d3cWdCMUtoc3d5RjR1OWlQd1VmSEM1NHhzaUIzZ255dTdfa2ttTVNqZlBTRXd0MTlXVmpGRmhtMXNkQ2RwRG1WWnh0MzV1RzY5QWRCQmRRWWcyei03eVhfa1pxckhzRjdWeG1jYkFla2xhNnBBM1pXR2Vna0V3QWFTNS10N3h5ei1JMTh6dw?oc=5",
+    "fuente": "Teleprensa",
+    "fecha": "2026-11-08T13:42:20+00:00"
+   },
+   {
     "titulo": "Adelante Andalucía presenta sus candidaturas en Huelva para llevar una \"voz andaluza\" al Congreso y al Senado",
     "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQeUVBSEhSYndIOFVQOFRDRUlub0djQnZ4b00wT2FQUVdLUjFZMHVod0ZkWm1PNFRheE1FeE1nWFJJV2hmZ1hMNWt1SW5PQUZLaExDc2REMHM2X1VQM2MxZVZVNG54TURRYndhbC1IWi1pcjJDbW0yOGdZVG51YlhjWTlaTXhKQXdXNjdVN2lpZHVZaUJtOHNyanNicVVpajBxem9ZTmVXSUE1SndVWHQ5aW8zQTllME5sM0lOdGdsYkQwb2IyQzVyVzJ3RzZfSjhBWHNFTDcxLWZJcmhINEtocTBNZG5NUTQ5enhVTDdyVm9YR3c?oc=5",
     "fuente": "Europa Press",
@@ -653,12 +661,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNDRCdndqenZaMHlSVjA2TjJzdTFCWjNaa1RrZGR1UlR0RHlybG5aUTFGcU5XQURoR0RXc3ZXQWZtNFBGTmUzc3YzNDRCcjRuQ0RFLXd4UV9VSU9td1Q0Q1ZiV2ZSZHk5ellkV0hReU1EdXpBNjhKWkxhamk4Y3VfT0RtRmdiMmVIdVhtNFExenAwVkN2SjBhcVoteVhQa0RpZzk5OEtsdy1PRkxGNkc0clh3MVVpRTVOLVpUbTQ4d0ljZW4zYlgteEp1Y9IBywFBVV95cUxQNDRCdndqenZaMHlSVjA2TjJzdTFCWjNaa1RrZGR1UlR0RHlybG5aUTFGcU5XQURoR0RXc3ZXQWZtNFBGTmUzc3YzNDRCcjRuQ0RFLXd4UV9VSU9td1Q0Q1ZiV2ZSZHk5ellkV0hReU1EdXpBNjhKWkxhamk4Y3VfT0RtRmdiMmVIdVhtNFExenAwVkN2SjBhcVoteVhQa0RpZzk5OEtsdy1PRkxGNkc0clh3MVVpRTVOLVpUbTQ4d0ljZW4zYlgteEp1Yw?oc=5",
     "fuente": "Europa Sur",
     "fecha": "2026-11-06T13:17:03+00:00"
-   },
-   {
-    "titulo": "Adelante Andalucía, excluida de los debates de Canal Sur con 8 escaños: recurso ante la Junta Electoral Central",
-    "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbmdMa0xnVC1xX0R5TWlrdWZtUV91RUVpczRLS201cXR4SlZGeTNxQ000WjJKZ3Jtd3FvdlU3bWgwWTVaVXc2aXBLUmJyazZ4amI5WmtFNGpxVFg5X0lCN3g1M0ZsR0ZIOEkweU5pUTY2TXNrUGRILXJLNDBsa2lULUtTWTN5WE9BTTQ1RWNwUHVfTnJt?oc=5",
-    "fuente": "MONCLOA.COM",
-    "fecha": "2026-11-06T11:55:03+00:00"
    }
   ]
  },
@@ -920,17 +922,17 @@
  ],
  "polemicas": [
   {
+   "titulo": "Abascal mete presión a Broncano con su órdago a horas de la entrevista en 'La Revuelta': \"Veremos si nos peleamos o nos entendemos\"",
+   "enlace": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPLXZqWFdnUEFxRWNEa2xZVW5OU1A3UzR3SUpQZFA2Q3hYQlBQemlRUWNzdXlCZFVRZEZnVnpVYzVJYlRYVW8weU5BVDMzelRUR0VnZTJsZENhb1AyMDBOQ1FMNGU5M1YxS1FXUEQzTXN6LWxOdWdsUVNlMmdSN0k2bUxVazJValk2NTBmbjlhSzVFektNOW14X0dkVGNYVldWVkZpajkxX0VGT3dDZEo5c2JFNkRUNmtHcERvaE96cWNfaVUzNERENUZWX3lrMVU1QWRUbVJIRXd4dEpzMTBJLXJMVDFCUDVvVklIYW0wTEhCTmluVEZDNU9SRDhwa2I5WHBvNw?oc=5",
+   "fuente": "El Televisero",
+   "fecha": "2026-11-08T13:55:06+00:00",
+   "partido": "Vox"
+  },
+  {
    "titulo": "David Uclés carga contra Abascal por su visita a 'La Revuelta': \"Pocas agallas veo en alguien tan gallito\"",
    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcnJoZkFHdUpSSDl1TE5yNjNxbkpIOGt3N0t0Wms5dWhNY2xHdExZYmFla1pCeUNUQk0zeW0tYUVhUkZTWGZ0YnpUSXZVUUFZQnQydTkyamNXbVhWelpCRW4wNXJrRmVNTzNrVUR3TEwwSTZvZnNZamJMNkVyQXBQSERvVVpoWDlKYURyZm9pTklXVDhlYzlUM0JIR3RWVmhxVXI3WEE1VFJzWVVQd29pUmQyOFB1dnRnQVhqVEg2Tno4YWpXM3Q2NUJGVzA4UdIB0wFBVV95cUxOclU0Z0s3THI3Mk13OXFsSXBxLXpUbV94UHA0ZTY5ZWk0dmNsRDNlYVloMGxHa3pPdFJRV3lUczB0VW9zeHZsZ3dsaHJwY2FKN1hqTkdkbjRhcXY4NVZ6Nm5WUS1Vd1d6RUJMNVN6X2Z2UGkyZjV6UHBQMTEyMkZoU1VtVlNnaEN6ZkhoRkRzQV9NX0JrdHJLSU9pb3pnRklYc29sQlgwWW9aaE1WQXVBV1FfR2g3SGlCVXp1ODY0ZDl2LVVwczRGOXhfUkFyMWJfd3hn?oc=5",
    "fuente": "Noticias de Navarra",
    "fecha": "2026-11-08T09:26:17+00:00",
-   "partido": "Vox"
-  },
-  {
-   "titulo": "Javier Ruiz destapa la polémica de Abascal con el público de 'La Revuelta' antes de su entrevista con Broncano",
-   "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcjY3UUMyMnBwOFU2VWtrVWRwTmJLTEVkMnc0dklTSVBwVHdjOXBsUUEyeHB6MU43OFdXMkEwNngzS25NSkRUaG1ISlJPOEM2WTNoYW9uWW1PZE10RTRLX1lTd2JkT0tkdDNKckFWNUozTUhwWDAtWkQ1aHdEd1VvRGxXNVhZSVIzdFVybkF3SEJ3RjY3V3JmWTFtNFBHVzdVNDFYU2VPWC1oUXI1UTFJZGxYdzdCODBwVjNHb2tHeTkxak5fS3BVaW1MalNqb09sd3VjMWhaRnFBbWI4N0FnMG9tWdIB6AFBVV95cUxNd0hHMjhFZXlRU2RZUmtWNVBwXzhFZU5ybGJDVTllLWtJdXpVYS04YTNHb1ZJQzNYdkZDRmcwd2FqSkM1cEMxWHRaYWRadDhwVmJEdFJtNlpKRTNFZlBiRzdnNVppWnRGOURsamh1ZndIcGFyd0U5QS1NUno1Uld1clFtVi1VT1BIX1V3c3ZtczNrNFUxOHd1TXZhRUZ0X0tJaU5RUnhIaVduWVZYMUhCeVZhUVl1enQzRnpmbU9TSGV5ZjU1MWNoNnB0bXJuaXVya3pMZ2REOWR3dXYwMXUtaVBxUHF2RmJM?oc=5",
-   "fuente": "Noticias de Gipuzkoa",
-   "fecha": "2026-11-08T08:16:09+00:00",
    "partido": "Vox"
   },
   {
@@ -967,6 +969,20 @@
    "fuente": "Onda Cero",
    "fecha": "2026-11-06T20:05:08+00:00",
    "partido": "PP"
+  },
+  {
+   "titulo": "El choque entre Junts y ERC sube de tono: Nogueras acusa y Rufián responde",
+   "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZ0NYZ2hRUUY4MFdrTEpPQzBFdlA3dF8zUFZWQUFyVkJfaWg1bF9DdGUzWGM4c1JleFVxcDhVei1lOEZ4N1JBVVppUHFjNjJ1N3pWQmh2YWtiZWtjX283RDRRLW1senJ2azhSUjNPWl9TU1hmaV9FbWN4OXFRVENTYjRQYWtnRldKZm9HbjlSdXRVSmNhQ0F6WVRmQWFMZGduUks2dUhMZno4ZG5lME1FeFRqMW11Sm43Vld6dXhQeFQ2X0FvVS0zYTRqMkNYQ1hJaUNxX2pIVQ?oc=5",
+   "fuente": "CatalunyaPress",
+   "fecha": "2026-11-06T14:40:00+00:00",
+   "partido": "ERC"
+  },
+  {
+   "titulo": "Nogueras vuelve a mirar al PSOE tras la ruptura con Sánchez: Junts se abre a negociar tras el 29N si Cataluña está \"en el centro\"",
+   "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNTUFPSEFmS1hkMG9YUW1VbmdRYzAwaDQyTmQwcHhuV2RVWkstNXBiRElsOG9GWTBOSWhUN28tRlZBa3hCbHpDU2RPdC11dFpDRUl3ZkpNOFBFQS1UazRhZllaMG1mREM5OUNHdmhtSlNMZ3Fad1VEV1pGWlJHVU1CM0poaGZFYTU5WWE0Rk9HYjAwSEFPT24ybllxY28wYURkeTdaaWtzbnBwNm5TU2Foa3FoOXppRmp4Uzc5dWQxRTh0Y25LMkd6ZElCbng3WHhtcVdJNFpWQzk5VHFqSVZLREFUcW5rXzV3eXZHY2Zsd0pSTW44aTNkV2VxVzhnRl9Q?oc=5",
+   "fuente": "El Constitucional",
+   "fecha": "2026-11-06T11:38:09+00:00",
+   "partido": "PSOE"
   },
   {
    "titulo": "Rufián reivindica el lado humano de Óscar Puente tras su dimisión y pide a la izquierda dejar atrás sus divisiones antes del 29N: \"Vamos a ponernos a currar\"",
@@ -1032,6 +1048,13 @@
    "partido": "PNV"
   },
   {
+   "titulo": "Junts celebra la dimisión de Puente y exige el traspaso integral de los trenes a Cataluña",
+   "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLXVSaE5ENm9INXc5a1pZQ2QyUXVrNl9iOHBtWWlJZ3pia19BNmhzQUR0SGtEZzd5NktDZlFaSm9xLTc4ODYzZXBtSEU5akR0bi1ldm15R0E1ZGNEblpoUmVCZFhPZm9URFNiMndEcFF4WVV0R1I1MVpLWlpLZ0puT3poRjBDOE9McUxKX3U5RnhTcWlwSFJ2dDdkdHVDSVBw0gGmAUFVX3lxTE9KVWFxS0dfODI2QUc3ejhoZDkzNG5lVnpfRElLOWdFdUprdGFPVmEza05CWmVMcWpBbGg3WDFFeVZzTGlqcU1FZlV1dXRRNHJoTGdOUHpJaUlJczlQWVJmZF9VMUxMdDJFU2FwQnRnbF9pZFhnWUVWTy0xUW93UnhrUmotNmZKcnNEZDl5VFhJR0drVUtMUlpicDhBWW42dExMdWhhR3c?oc=5",
+   "fuente": "The Objective",
+   "fecha": "2026-11-04T08:22:53+00:00",
+   "partido": "Junts"
+  },
+  {
    "titulo": "Más Madrid: los extrabajadores que denunciaron a Tesh Sidi por acoso laboral temen \"represalias\"",
    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSUd3Z3RzaExnZ2xIZGl0bWp5OFJRUGZWWmhHMFRQcFdNU05RV3hhRk1Ba1FEeEl6Z1BCZFp1aFZqYkhuRHNvRVI0N1d2amdoUXRMSHl3YkxKYmRjMEZyc1gtbXlIOWpwZmN2MFVZYW01T1NFR00wQjFPcUNGc2lhcTYyUV9MMlh2WjI5ck9xbVhTS19haVNIRjQ3ZXcyaUlXbzljY0JFeXdBS2hnMktEZmhYLXkxQnJaOEM1cGpxSVdNYllLNklEdGVxN096SG5hdDdBQVlWdjd6QWo4YzhxLXhBa1Uyd9IB-gFBVV95cUxQdkplYzJvdDR2UEtESGlEVnhIaW5MVzlKaF9EV1lMQVUyTXNQM2dGcURRY2ZhUWlyTmsyTkpxSkJxTlpKYzZDRU90Q0t1UHlxcUxESzNRbXYxWlZIb2UyV0xhMzU4OGZObVNBVTlWN1NEcUNxWm13WW0xVnpKQXNpMlFMN1gwbl81MTkwSUtId0pOT1BTLWxEdmhSRkc3S1ZGOUd5VEVyOXV6VzdFUlEwOEswVFZQbXI0eDlMb0w2eGFwOThOakZmdXdyQ0ZnZ2lKUGY4RWp1ZUpJdmJxYXFNVVl5U0tFVGttbXJEUXBPeHBHYXRYcnlBU2lR?oc=5",
    "fuente": "La Razón",
@@ -1044,13 +1067,6 @@
    "fuente": "EAJ PNV",
    "fecha": "2026-11-03T18:38:57+00:00",
    "partido": "PNV"
-  },
-  {
-   "titulo": "El Frente Amplio y Junts presionan por la dimisión de Puente y ERC reparte culpas entre PSOE y PP",
-   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZkU0anZoM25hQk9PSTAwaEdlZFVxem5ZYVBmRXFWZV95cEMzN2FtQWw1dXJEbTFSUEJFZzk1eTdhcFA5dW9TZTNZZ3VsTGxzbEtjdWpXOW03cHlsbVItbzNubkU3YUdoTm5Cc3V4UkV1c29hankxRy1vcnRoM0JGVXFrMmkzWklsSHBoQUJjbU1QUmZ0aURxVmxKQmNsdjhad1hEUXdidWVRamh6OVB5djRFM19rSnBGYTJVY3VRTW9TcEJWVEHSAcYBQVVfeXFMUGp2bVNTYUZ1aGp1Unk4VFR5OGdVSmVrV2ZONkxNTEpFcU03Qmo3bHBfUlA4R3RIYTNFaUEzQWc4d2ZickxhRHVSUmZRZVNyN3hVby1nS3pTZjdiME9aakhvNllOTTM0OGE1V280NnBhalplWDNxRUxESlFfTVo4WWJRTDZKQmZreHNZRnRWMEk2NjAzU3Fuekk4OEtjM0Y2c3BFSFo0c3ZVRGtTQld1cDM0Z3JxRENNejRqQTNHUThhX0JlRnBn?oc=5",
-   "fuente": "El Periódico",
-   "fecha": "2026-11-02T13:19:58+00:00",
-   "partido": "Junts"
   }
  ],
  "medios": [

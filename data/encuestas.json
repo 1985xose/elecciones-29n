@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-08T14:00:59+00:00",
+ "actualizado": "2026-11-08T15:01:02+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1384478921,
+ "revision": 1384497705,
  "partidos": [
   "PP",
   "PSOE",
@@ -11611,6 +11611,7 @@
     "BNG": 0.8,
     "CCa": 0.5,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.4,
     "SALF": 2.7
    },
@@ -11626,6 +11627,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 7.0,
     "SALF": 0.0
    },
@@ -11756,6 +11758,7 @@
     "BNG": 0.8,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.5,
     "SALF": 2.9
    },
@@ -11771,6 +11774,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 7.0,
     "SALF": 1.0
    },
@@ -11798,6 +11802,7 @@
     "BNG": 0.7,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.7,
     "SALF": 2.7
    },
@@ -11813,6 +11818,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 9.0,
     "SALF": 0.0
    },
@@ -11950,6 +11956,7 @@
     "BNG": 0.8,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.7,
     "SALF": 2.6
    },
@@ -11965,6 +11972,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 9.0,
     "SALF": 0.0
    },
@@ -12106,6 +12114,7 @@
     "BNG": 0.8,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.6,
     "SALF": 2.9
    },
@@ -12121,6 +12130,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 9.0,
     "SALF": 1.0
    },
@@ -12169,6 +12179,7 @@
     "BNG": 0.7,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.7,
     "SALF": 3.5
    },
@@ -12184,6 +12195,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 9.0,
     "SALF": 1.0
    },
@@ -12363,6 +12375,7 @@
     "BNG": 0.7,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.8,
     "SALF": 3.5
    },
@@ -12378,6 +12391,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 9.0,
     "SALF": 1.0
    },
@@ -12405,6 +12419,7 @@
     "BNG": 0.7,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 5.0,
     "SALF": 3.3
    },
@@ -12420,6 +12435,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 11.0,
     "SALF": 1.0
    },
@@ -12587,6 +12603,7 @@
     "BNG": 0.8,
     "CCa": 0.5,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.6,
     "SALF": 3.5
    },
@@ -12602,6 +12619,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 9.0,
     "SALF": 1.0
    },
@@ -12699,6 +12717,7 @@
     "BNG": 0.8,
     "CCa": 0.5,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.2,
     "SALF": 2.5
    },
@@ -12714,6 +12733,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 7.0,
     "SALF": 0.0
    },
@@ -12921,6 +12941,7 @@
     "BNG": 0.8,
     "CCa": 0.5,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 3.9,
     "SALF": 2.3
    },
@@ -12936,6 +12957,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 0.0
    },
@@ -13005,6 +13027,7 @@
     "BNG": 0.8,
     "CCa": 0.5,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.0,
     "SALF": 2.4
    },
@@ -13020,6 +13043,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 6.0,
     "SALF": 0.0
    },
@@ -13117,6 +13141,7 @@
     "BNG": 0.8,
     "CCa": 0.5,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 3.8,
     "SALF": 2.4
    },
@@ -13132,6 +13157,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 0.0
    },
@@ -13222,6 +13248,7 @@
     "BNG": 0.7,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 3.7,
     "SALF": 3.3
    },
@@ -13237,6 +13264,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 1.0
    },
@@ -13355,6 +13383,7 @@
     "BNG": 0.7,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 3.6,
     "SALF": 4.6
    },
@@ -13370,6 +13399,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 2.0
    },
@@ -13425,6 +13455,7 @@
     "BNG": 0.7,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 3.5,
     "SALF": 4.7
    },
@@ -13440,6 +13471,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 3.0
    },
@@ -13600,6 +13632,7 @@
     "BNG": 0.7,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 3.7,
     "SALF": 4.6
    },
@@ -13615,6 +13648,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 2.0
    },
@@ -13684,6 +13718,7 @@
     "BNG": 0.7,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 3.8,
     "SALF": 4.5
    },
@@ -13699,6 +13734,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 2.0
    },
@@ -13831,6 +13867,7 @@
     "BNG": 0.7,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.0,
     "SALF": 4.5
    },
@@ -13846,6 +13883,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 2.0
    },
@@ -13873,6 +13911,7 @@
     "BNG": 0.8,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.1,
     "SALF": 4.7
    },
@@ -13888,6 +13927,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 3.0
    },
@@ -13936,6 +13976,7 @@
     "BNG": 0.7,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.1,
     "SALF": 4.5
    },
@@ -13951,6 +13992,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 2.0
    },
@@ -14020,6 +14062,7 @@
     "BNG": 0.7,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 3.8,
     "SALF": 4.1
    },
@@ -14035,6 +14078,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 2.0
    },
@@ -14062,6 +14106,7 @@
     "BNG": 0.8,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.0,
     "SALF": 4.1
    },
@@ -14077,6 +14122,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 1.0
    },
@@ -14214,6 +14260,7 @@
     "BNG": 0.8,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.2,
     "SALF": 3.9
    },
@@ -14229,6 +14276,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 1.0
    },
@@ -14298,6 +14346,7 @@
     "BNG": 0.7,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.1,
     "SALF": 4.0
    },
@@ -14313,6 +14362,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 1.0
    },
@@ -14361,6 +14411,7 @@
     "BNG": 0.8,
     "CCa": 0.4,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.0,
     "SALF": 4.2
    },
@@ -14376,6 +14427,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 1.0
    },
@@ -14473,6 +14525,7 @@
     "BNG": 0.7,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 3.6,
     "SALF": 4.1
    },
@@ -14488,6 +14541,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 1.0
    },
@@ -14646,6 +14700,7 @@
     "BNG": 0.7,
     "CCa": 0.1,
     "UPN": 0.1,
+    "AA": 0.1,
     "Podemos": 3.7,
     "SALF": 4.5
    },
@@ -14661,6 +14716,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 5.0,
     "SALF": 2.0
    },
@@ -14730,6 +14786,7 @@
     "BNG": 0.9,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 4.0
    },
    "escanos": {
@@ -14744,6 +14801,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 4.0
    },
    "empresa_base": "EM-Analytics",
@@ -14867,6 +14925,7 @@
     "BNG": 0.7,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 3.2
    },
    "escanos": {
@@ -14881,6 +14940,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -14967,6 +15027,7 @@
     "BNG": 0.7,
     "CCa": 0.2,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 2.9
    },
    "escanos": {
@@ -14981,6 +15042,7 @@
     "BNG": 1.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -15085,6 +15147,7 @@
     "BNG": 0.7,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.1,
     "Podemos": 2.8
    },
    "escanos": {
@@ -15099,6 +15162,7 @@
     "BNG": 1.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -15232,6 +15296,7 @@
     "BNG": 0.7,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.7
    },
    "escanos": {
@@ -15246,6 +15311,7 @@
     "BNG": 1.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -15298,6 +15364,7 @@
     "BNG": 0.7,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.6
    },
    "escanos": {
@@ -15312,6 +15379,7 @@
     "BNG": 1.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -15338,6 +15406,7 @@
     "BNG": 0.8,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.5
    },
    "escanos": {
@@ -15352,6 +15421,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -15456,6 +15526,7 @@
     "BNG": 0.9,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.9
    },
    "escanos": {
@@ -15470,6 +15541,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -15516,6 +15588,7 @@
     "BNG": 0.8,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 3.1
    },
    "escanos": {
@@ -15530,6 +15603,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -15583,6 +15657,7 @@
     "BNG": 0.8,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.9
    },
    "escanos": {
@@ -15597,6 +15672,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -15740,6 +15816,7 @@
     "BNG": 0.8,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.7
    },
    "escanos": {
@@ -15754,6 +15831,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -15882,6 +15960,7 @@
     "BNG": 0.8,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.8
    },
    "escanos": {
@@ -15896,6 +15975,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -15960,6 +16040,7 @@
     "BNG": 0.8,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.4
    },
    "escanos": {
@@ -15974,6 +16055,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -16130,6 +16212,7 @@
     "BNG": 0.8,
     "CCa": 0.3,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "escanos": {
@@ -16144,6 +16227,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
@@ -16288,6 +16372,7 @@
     "BNG": 0.9,
     "CCa": 0.2,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.1
    },
    "escanos": {
@@ -16302,6 +16387,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
@@ -16396,6 +16482,7 @@
     "BNG": 0.9,
     "CCa": 0.1,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "escanos": {
@@ -16410,6 +16497,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
@@ -16474,6 +16562,7 @@
     "BNG": 0.8,
     "CCa": 0.2,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 1.9
    },
    "escanos": {
@@ -16488,6 +16577,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
@@ -16561,6 +16651,7 @@
     "BNG": 0.8,
     "CCa": 0.2,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.1
    },
    "escanos": {
@@ -16575,6 +16666,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
@@ -16660,6 +16752,7 @@
     "BNG": 0.8,
     "CCa": 0.2,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 1.9
    },
    "escanos": {
@@ -16674,6 +16767,7 @@
     "BNG": 2.0,
     "CCa": 1.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
@@ -16719,6 +16813,7 @@
     "BNG": 0.9,
     "CCa": 0.1,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 1.9
    },
    "escanos": {
@@ -16733,6 +16828,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
@@ -16792,6 +16888,7 @@
     "BNG": 0.8,
     "CCa": 0.1,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 1.5
    },
    "escanos": {
@@ -16806,6 +16903,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
@@ -16898,6 +16996,7 @@
     "BNG": 0.9,
     "CCa": 0.1,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.4
    },
    "escanos": {
@@ -16912,6 +17011,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -17012,6 +17112,7 @@
     "BNG": 0.9,
     "CCa": 0.1,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.2
    },
    "escanos": {
@@ -17026,6 +17127,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
@@ -17130,6 +17232,7 @@
     "BNG": 0.8,
     "CCa": 0.1,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.1
    },
    "escanos": {
@@ -17144,6 +17247,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
@@ -17253,6 +17357,7 @@
     "BNG": 0.8,
     "CCa": 0.1,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.2
    },
    "escanos": {
@@ -17267,6 +17372,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 0.0
    },
    "empresa_base": "EM-Analytics",
@@ -17312,6 +17418,7 @@
     "BNG": 0.8,
     "CCa": 0.2,
     "UPN": 0.2,
+    "AA": 0.0,
     "Podemos": 2.6
    },
    "escanos": {
@@ -17326,6 +17433,7 @@
     "BNG": 2.0,
     "CCa": 0.0,
     "UPN": 1.0,
+    "AA": 0.0,
     "Podemos": 2.0
    },
    "empresa_base": "EM-Analytics",
@@ -17377,7 +17485,8 @@
     "PNV": 1.6,
     "BNG": 0.9,
     "CCa": 0.2,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.1
    },
    "escanos": {
     "PP": 146.0,
@@ -17390,7 +17499,8 @@
     "PNV": 6.0,
     "BNG": 2.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -17586,7 +17696,8 @@
     "PNV": 1.5,
     "BNG": 0.7,
     "CCa": 0.1,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.2
    },
    "escanos": {
     "PP": 148.0,
@@ -17599,7 +17710,8 @@
     "PNV": 6.0,
     "BNG": 1.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -17710,7 +17822,8 @@
     "PNV": 1.6,
     "BNG": 0.7,
     "CCa": 0.2,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.1
    },
    "escanos": {
     "PP": 145.0,
@@ -17723,7 +17836,8 @@
     "PNV": 6.0,
     "BNG": 1.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -17824,7 +17938,8 @@
     "PNV": 1.6,
     "BNG": 0.7,
     "CCa": 0.2,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.1
    },
    "escanos": {
     "PP": 147.0,
@@ -17837,7 +17952,8 @@
     "PNV": 6.0,
     "BNG": 1.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -18017,7 +18133,8 @@
     "PNV": 1.6,
     "BNG": 0.9,
     "CCa": 0.2,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 145.0,
@@ -18030,7 +18147,8 @@
     "PNV": 6.0,
     "BNG": 2.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -18124,7 +18242,8 @@
     "PNV": 1.6,
     "BNG": 0.9,
     "CCa": 0.2,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 143.0,
@@ -18137,7 +18256,8 @@
     "PNV": 6.0,
     "BNG": 2.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -18243,7 +18363,8 @@
     "PNV": 1.7,
     "BNG": 0.9,
     "CCa": 0.2,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 143.0,
@@ -18256,7 +18377,8 @@
     "PNV": 6.0,
     "BNG": 2.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -18281,7 +18403,8 @@
     "PNV": 1.6,
     "BNG": 0.8,
     "CCa": 0.1,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 141.0,
@@ -18294,7 +18417,8 @@
     "PNV": 6.0,
     "BNG": 2.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -18338,7 +18462,8 @@
     "PNV": 1.6,
     "BNG": 0.8,
     "CCa": 0.2,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 137.0,
@@ -18351,7 +18476,8 @@
     "PNV": 6.0,
     "BNG": 2.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -18493,7 +18619,8 @@
     "PNV": 1.6,
     "BNG": 0.8,
     "CCa": 0.3,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 133.0,
@@ -18506,7 +18633,8 @@
     "PNV": 6.0,
     "BNG": 2.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -18607,7 +18735,8 @@
     "PNV": 1.6,
     "BNG": 0.8,
     "CCa": 0.3,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 132.0,
@@ -18620,7 +18749,8 @@
     "PNV": 6.0,
     "BNG": 2.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -18707,7 +18837,8 @@
     "PNV": 1.5,
     "BNG": 0.8,
     "CCa": 0.3,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 134.0,
@@ -18720,7 +18851,8 @@
     "PNV": 6.0,
     "BNG": 2.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -18771,7 +18903,8 @@
     "PNV": 1.4,
     "BNG": 0.8,
     "CCa": 0.3,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 132.0,
@@ -18784,7 +18917,8 @@
     "PNV": 6.0,
     "BNG": 2.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -18860,7 +18994,8 @@
     "PNV": 1.3,
     "BNG": 0.8,
     "CCa": 0.3,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 131.0,
@@ -18873,7 +19008,8 @@
     "PNV": 5.0,
     "BNG": 2.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -18929,7 +19065,8 @@
     "PNV": 1.2,
     "BNG": 0.8,
     "CCa": 0.3,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 132.0,
@@ -18942,7 +19079,8 @@
     "PNV": 5.0,
     "BNG": 2.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -19005,7 +19143,8 @@
     "PNV": 1.2,
     "BNG": 0.7,
     "CCa": 0.3,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 133.0,
@@ -19018,7 +19157,8 @@
     "PNV": 5.0,
     "BNG": 1.0,
     "CCa": 0.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -19043,7 +19183,8 @@
     "PNV": 1.2,
     "BNG": 0.7,
     "CCa": 0.3,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 132.0,
@@ -19056,7 +19197,8 @@
     "PNV": 4.0,
     "BNG": 1.0,
     "CCa": 1.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -19100,7 +19242,8 @@
     "PNV": 1.2,
     "BNG": 0.5,
     "CCa": 0.4,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 130.0,
@@ -19113,7 +19256,8 @@
     "PNV": 5.0,
     "BNG": 0.0,
     "CCa": 1.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
@@ -19138,7 +19282,8 @@
     "PNV": 1.2,
     "BNG": 0.6,
     "CCa": 0.5,
-    "UPN": 0.2
+    "UPN": 0.2,
+    "AA": 0.0
    },
    "escanos": {
     "PP": 129.0,
@@ -19151,7 +19296,8 @@
     "PNV": 5.0,
     "BNG": 1.0,
     "CCa": 1.0,
-    "UPN": 1.0
+    "UPN": 1.0,
+    "AA": 0.0
    },
    "empresa_base": "EM-Analytics",
    "clave": "electopanel",
