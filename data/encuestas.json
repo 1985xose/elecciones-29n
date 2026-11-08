@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-08T22:01:05+00:00",
+ "actualizado": "2026-11-08T23:01:08+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1384561845,
+ "revision": 1384566806,
  "partidos": [
   "PP",
   "PSOE",
@@ -104,6 +104,46 @@
    "encargo": "Electomanía",
    "id": "electopanel-2026-11-06-1860",
    "primera_vez": "2026-11-08T13:01:06+00:00"
+  },
+  {
+   "empresa": "Sigma Dos/El Mundo",
+   "inicio": "2026-10-30",
+   "fin": "2026-11-06",
+   "muestra": 4172,
+   "participacion": null,
+   "pct": {
+    "PP": 31.0,
+    "PSOE": 25.2,
+    "Vox": 19.4,
+    "Sumar": 8.1,
+    "ERC": 2.9,
+    "Junts": 1.2,
+    "Bildu": 1.3,
+    "PNV": 0.9,
+    "BNG": 1.0,
+    "CCa": 0.4,
+    "AA": 1.6,
+    "Podemos": 1.6
+   },
+   "escanos": {
+    "PP": 134.0,
+    "PSOE": 103.5,
+    "Vox": 66.0,
+    "Sumar": 14.5,
+    "ERC": 8.5,
+    "Junts": 5.5,
+    "Bildu": 7.0,
+    "PNV": 5.0,
+    "BNG": 2.0,
+    "CCa": 0.5,
+    "AA": 3.5,
+    "Podemos": 0.0
+   },
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "encargo": "El Mundo",
+   "id": "sigmados-2026-11-06-4172",
+   "primera_vez": "2026-11-08T23:01:08+00:00"
   },
   {
    "empresa": "Ateneo del Dato/elDiario.es",
