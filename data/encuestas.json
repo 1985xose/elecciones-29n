@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-09T09:01:11+00:00",
+ "actualizado": "2026-11-09T10:01:37+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1384580585,
+ "revision": 1384650998,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,32 +21,6 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
-  {
-   "empresa": "40dB/Prisa",
-   "inicio": "2026-11-09",
-   "fin": "2026-11-09",
-   "muestra": null,
-   "participacion": null,
-   "pct": {
-    "PP": 31.9,
-    "PSOE": 29.9,
-    "Vox": 18.0,
-    "Sumar": 10.0,
-    "Podemos": 1.2
-   },
-   "escanos": {
-    "PP": 130.5,
-    "PSOE": 119.0,
-    "Vox": 61.0,
-    "Sumar": 18.0,
-    "Podemos": 0.0
-   },
-   "empresa_base": "40dB",
-   "clave": "40db",
-   "encargo": "Prisa",
-   "id": "40db-2026-11-09-0",
-   "primera_vez": "2026-11-09T00:01:06+00:00"
-  },
   {
    "empresa": "SocioMétrica/El Español",
    "inicio": "2026-09-01",
@@ -88,30 +62,6 @@
    "encargo": "El Español",
    "id": "sociometrica-2026-11-08-5460",
    "primera_vez": "2026-11-08T22:01:05+00:00"
-  },
-  {
-   "empresa": "SW Demoscopia/La Séptima",
-   "inicio": "2026-11-07",
-   "fin": "2026-11-07",
-   "muestra": null,
-   "participacion": null,
-   "pct": {
-    "PP": 28.7,
-    "PSOE": 31.0,
-    "Vox": 17.3,
-    "Sumar": 15.2
-   },
-   "escanos": {
-    "PP": 116.0,
-    "PSOE": 128.0,
-    "Vox": 62.0,
-    "Sumar": 26.0
-   },
-   "empresa_base": "SW Demoscopia",
-   "clave": "swdemoscopia",
-   "encargo": "La Séptima",
-   "id": "swdemoscopia-2026-11-07-0",
-   "primera_vez": "2026-11-09T00:01:06+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
@@ -196,30 +146,6 @@
    "primera_vez": "2026-11-08T23:01:08+00:00"
   },
   {
-   "empresa": "GAD3/ABC",
-   "inicio": "2026-11-03",
-   "fin": "2026-11-05",
-   "muestra": 1502,
-   "participacion": null,
-   "pct": {
-    "PP": 31.9,
-    "PSOE": 25.9,
-    "Vox": 18.6,
-    "Sumar": 15.0
-   },
-   "escanos": {
-    "PP": 136.0,
-    "PSOE": 103.0,
-    "Vox": 63.0,
-    "Sumar": 24.0
-   },
-   "empresa_base": "GAD3",
-   "clave": "gad3",
-   "encargo": "ABC",
-   "id": "gad3-2026-11-05-1502",
-   "primera_vez": "2026-11-09T00:51:45+00:00"
-  },
-  {
    "empresa": "Ateneo del Dato/elDiario.es",
    "inicio": "2026-11-02",
    "fin": "2026-11-05",
@@ -244,6 +170,41 @@
    "encargo": "elDiario.es",
    "id": "ateneodeldato-2026-11-05-2000",
    "primera_vez": "2026-11-08T21:01:04+00:00"
+  },
+  {
+   "empresa": "40dB/Prisa",
+   "inicio": "2026-11-02",
+   "fin": "2026-11-04",
+   "muestra": 2000,
+   "participacion": null,
+   "pct": {
+    "PP": 31.9,
+    "PSOE": 29.9,
+    "Vox": 18.0,
+    "Sumar": 5.0,
+    "Podemos": 1.2,
+    "SALF": 2.0
+   },
+   "escanos": {
+    "PP": 132.5,
+    "PSOE": 119.0,
+    "Vox": 61.0,
+    "Sumar": 9.0,
+    "ERC": 10.0,
+    "Junts": 3.0,
+    "Bildu": 7.0,
+    "PNV": 3.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 0.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "40dB",
+   "clave": "40db",
+   "encargo": "Prisa",
+   "id": "40db-2026-11-04-2000",
+   "primera_vez": "2026-11-09T10:01:37+00:00"
   },
   {
    "empresa": "Celeste-Tel/Onda Cero",
