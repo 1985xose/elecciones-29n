@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-09T00:01:06+00:00",
+ "actualizado": "2026-11-09T00:51:45+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1384577921,
+ "revision": 1384580585,
  "partidos": [
   "PP",
   "PSOE",
@@ -45,30 +45,6 @@
    "clave": "40db",
    "encargo": "Prisa",
    "id": "40db-2026-11-09-0",
-   "primera_vez": "2026-11-09T00:01:06+00:00"
-  },
-  {
-   "empresa": "GAD3/ABC",
-   "inicio": "2026-11-09",
-   "fin": "2026-11-09",
-   "muestra": null,
-   "participacion": null,
-   "pct": {
-    "PP": 31.9,
-    "PSOE": 25.9,
-    "Vox": 18.6,
-    "Sumar": 15.0
-   },
-   "escanos": {
-    "PP": 136.0,
-    "PSOE": 103.0,
-    "Vox": 63.0,
-    "Sumar": 24.0
-   },
-   "empresa_base": "GAD3",
-   "clave": "gad3",
-   "encargo": "ABC",
-   "id": "gad3-2026-11-09-0",
    "primera_vez": "2026-11-09T00:01:06+00:00"
   },
   {
@@ -218,6 +194,30 @@
    "encargo": "El Mundo",
    "id": "sigmados-2026-11-06-4172",
    "primera_vez": "2026-11-08T23:01:08+00:00"
+  },
+  {
+   "empresa": "GAD3/ABC",
+   "inicio": "2026-11-03",
+   "fin": "2026-11-05",
+   "muestra": 1502,
+   "participacion": null,
+   "pct": {
+    "PP": 31.9,
+    "PSOE": 25.9,
+    "Vox": 18.6,
+    "Sumar": 15.0
+   },
+   "escanos": {
+    "PP": 136.0,
+    "PSOE": 103.0,
+    "Vox": 63.0,
+    "Sumar": 24.0
+   },
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "encargo": "ABC",
+   "id": "gad3-2026-11-05-1502",
+   "primera_vez": "2026-11-09T00:51:45+00:00"
   },
   {
    "empresa": "Ateneo del Dato/elDiario.es",
