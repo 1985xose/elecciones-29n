@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-11-09T03:01:47+00:00",
+ "actualizado": "2026-11-09T04:01:58+00:00",
  "generales": [
+  {
+   "titulo": "Jorge Buxadé, ante el 29-N: «El delincuente es el único que corre peligro con Vox»",
+   "enlace": "https://www.eldebate.com/espana/20261109/jorge-buxade-ante-29n-delincuente-unico-corre-peligro-vox_477864.html",
+   "fuente": "El Debate",
+   "fecha": "2026-11-09T04:30:00+01:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/05/6aecdbeb6fd8e.r_d.779-370-0.jpeg"
+  },
   {
    "titulo": "El nuevo delegado del Gobierno entra en campaña y se lanza a hacer oposición a Prohens nada más acceder al cargo",
    "enlace": "https://okdiario.com/baleares/nuevo-delegado-del-gobierno-entra-campana-lanza-hacer-oposicion-prohens-nada-mas-acceder-cargo-20725401",
@@ -14,13 +21,6 @@
    "fuente": "El Español",
    "fecha": "2026-11-09T03:28:46+01:00",
    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11396849.jpg?p=c:1203:678:nowe:0:0/w:1706/h:960&h=Dh_KQbO6"
-  },
-  {
-   "titulo": "El accidente de Urda apenas altera los bloques para el 29N: la derecha suma 199 escaños",
-   "enlace": "https://www.abc.es/espana/accidente-urda-apenas-altera-bloques-29n-derecha-20261108023004-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-09T02:40:14+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/08/1200x840-RqXpEFGkynGX7zH3kBNb9wL-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Rufián augura que PP-Vox \"tocarán el modelo de pensiones\" si suman 210 diputados y Albiol le acusa de jugar a confundir",
@@ -75,11 +75,23 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "El PP gana en 7 puntos a un PSOE que cae a 100 escaños",
-    "enlace": "https://www.larazon.es/espana/gana-7-puntos-psoe-que-cae-100-escanos_202611096af1319903bbf30bb045239e.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-09T03:36:09+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/08/56637C9F-A9CB-49E4-9DA9-3A9594F46C25/encuesta-report_96.jpg?crop=1011,569,x0,y146&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Feijóo incluye en su programa que las Reales Academias elaboren los currículos de Historia para evitar que dependan del Gobierno de turno",
+    "enlace": "https://www.eldebate.com/espana/20261109/feijoo-incluye-programa-reales-academias-elaboren-curriculos-historia-evitar-dependan-gobierno-turno_478684.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-09T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2023/10/25/65394f64e987c.jpeg"
+   },
+   {
+    "titulo": "El plan anti-Pumpido de Feijóo: prohibirá que un magistrado del TC juzgue leyes en las que participó",
+    "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTTliVFRjc3VPZXh6X1FnQ0xWWlB4SkFFdURlN3NTQmtteW5MVTc0dFRtcy15N2hNTkhfV3M3RzRVaEgwLWg2UkRUWFZuNkxIRXF5TDE4NS1zbzdMb2diNlVITTJxQWVFb2FZZU1RWlg4YmVnRmpVU055U0QwTk5jVW9scGl3WTR3Y3dIdm9qbVZaU3lWTHBmTmVCTFRxQ3hlWWJGNjcwNUw2QVM3U3l2NGltdw?oc=5",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-09T04:00:00+00:00"
+   },
+   {
+    "titulo": "¿Tiene miedo Sánchez de un cara a cara con Feijóo?",
+    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV3hHZ0poc0toQVZ4RHRSdWRCQ3A2M0FnVVpMeTBHSjg5LTFDOXhJU091SEJ4WWtmMVNOOGFDMzhQaWVZaXdfMUlLR2xuRGw0QW9PSTlnYXFzdU5QVjRHZHpvdFBDMmtxdnh1VVN2UTF2V0YxNTJ4aXdFenctSWdTdXRRdDZJZXFHUHJFNDBMUU5WX29fczJ4RFdoanUyQmhvX1JIWnZlTWRlQ0FzTjA4?oc=5",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-09T04:00:00+00:00"
    },
    {
     "titulo": "Rufián augura que PP-Vox \"tocarán el modelo de pensiones\" si suman 210 diputados y Albiol le acusa de jugar a confundir",
@@ -99,26 +111,34 @@
     "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZDB2cWhMOXNZYlpQQm1RdFVWLWdoWVdTR2dDcWJ4QnlCNVR6WGVMUTRKVWlsLTJlRDNObEpteW1Pd09IZEFRZlpSdGphZGhlVm1LV2xTdVpKNzhNalJhSGxpTklIdmRfVnMtbXk4aUxlempoNFQ5djBaNjRneDBZODJzV09WMHFNeWxpVWliMUVmcUN6c3BSV0JUZVlrSmhsRWZCVkU5ZGFxMm1WYUV6YQ?oc=5",
     "fuente": "101TV",
     "fecha": "2026-11-08T23:40:00+00:00"
-   },
-   {
-    "titulo": "Feijóo, sobre la «matraca» de las pensiones: «Con el PP se garantizan»",
-    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONElOMzVhOVdOYl9uamgzdGhhbDJJRW9QclNjYTU4WENvanV4NThHYWNwU2NsZ29IWjVZMUVlR1JwRUFhTW1nWElqcHZVNWtQZFZtTXdCTWdHc3ZYM2UwMmhsTFpSck9iRy1ISHQwNmxyUHRiU18ySm5waUVnVGxFUnM2SkVWb0N3MUtETlFVSVQ0UVppX2d2QQ?oc=5",
-    "fuente": "101TV",
-    "fecha": "2026-11-08T23:28:00+00:00"
-   },
-   {
-    "titulo": "Feijóo: «Yo no quiero ser el Sánchez del centroderecha español»",
-    "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX3lKSC1rZmh3WmplMTBQbUwwYVh4VjNQQ0txWHZ6NXNRUThhQzBFemxQZ0t3ZlRyQmROVmdUNzV6LXo5dUlKM1RVWmdwRHhoaXhvdWdLVERJbjNQVkZnMDlzNzRLX2h0MFlHTEtGemhnTnE4QXcyN3k5bWdMN1A3ZEo4NmNBT2E0NGktdmJ5RkkyTzlTZ2dPOTByT2gzMUtTb3VWRU5PeTBLSWJta0JfUw?oc=5",
-    "fuente": "101TV",
-    "fecha": "2026-11-08T23:26:00+00:00"
    }
   ],
   "PSOE": [
    {
+    "titulo": "Punto Ciego | Cécile Thibaud: \"Las sensaciones son que España no funciona y Sánchez va a perder\"",
+    "enlace": "https://www.elconfidencial.com/espana/2026-11-09/punto-ciego-cecile-thibaud-sanchez-cbtrntrv_4460231/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-09T05:00:00+01:00",
+    "imagen": "https://images.ecestaticos.com/NZvw-KR0ebyG4BCgpQjipMT3Sbs=/0x330:2002x3000/1600x2133/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Ff3d%2F80b%2Ff73%2Ff3d80bf7310af24e82dd3f2353756b60.jpg"
+   },
+   {
+    "titulo": "El día después del Sánchez más imprevisible y sin «sucesor designado» ha comenzado",
+    "enlace": "https://www.eldebate.com/espana/20261109/dia-despues-sanchez-imprevisible-sucesor-designado-comenzado_478651.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-09T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2024/04/11/6617f76b80118.jpeg"
+   },
+   {
+    "titulo": "El PSOE se sume en el derrotismo, apunta a Sánchez y revive las debacles de Almunia y Rubalcaba: “La remontada es imposible”",
+    "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNWlRPUW5HZ25NQkVHZlNoYUlLUmRscHVuMVFxT2hBUGl2Mlp6RWZaSWRZdjBmT2NldXp6SHktUm1OWlFTWVFOb2pidWExTjRtX19DQVQxWWFrTEh4NTRpb0hlaC15N2pXSkxpeVB6bDhPbk9jM2c4QkdGbFV2bmZhZ00xYkNzV3YxbzhRUkVHcVk0d0ZfMmR6QjRraVVpTXdPWFllcG9QSW1nNC15ZXdVbWlEai1oOU9DLURJT1hGeXhrMXdYa0RSZjlIZXVaa2ZRcTVxZVpJcGIwM2JQYXprNFdhbnFwSklFd0Y3MjdVVkpnVnhPRkhLUjN3d9IBgAJBVV95cUxNN0FUWjJ2b2NiMzFOanI2UzZfczJvRmZOc3pJRHM4Rl81cFVWV1Y1TW5wcG5oMWpYbzRUS1JwcHVHaWJweFdNYzJQWl9ndUJpTEVCcjhabnpDcmw3ZmRnbllxVERXaFphbFdmMXpJZ2VWVXQxS19sZG9wVXFCM2dBaGczVVR0OGR0Q2RoVUNPeFNQUjFpRWpNTEo1SnFJaTczdEZQdzU5NFlacENQZmdpMEdVNnc5VGR2SEYxeE1MbXdTMFpjdTZ2MF94bHFwVEE4RlR4V0Z5aTNITi01Mk1RcVc0QVYycjVGSExvNGhneFhvd01fUS1DRVZYQUR6cmlE?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-11-09T03:45:00+00:00"
+   },
+   {
     "titulo": "El PP gana en 7 puntos a un PSOE que cae a 100 escaños",
     "enlace": "https://www.larazon.es/espana/gana-7-puntos-psoe-que-cae-100-escanos_202611096af1319903bbf30bb045239e.html",
     "fuente": "La Razón",
-    "fecha": "2026-11-09T03:36:09+01:00",
+    "fecha": "2026-11-09T02:36:09+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/08/56637C9F-A9CB-49E4-9DA9-3A9594F46C25/encuesta-report_96.jpg?crop=1011,569,x0,y146&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
@@ -132,35 +152,15 @@
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjloNHVIV2ZobTk1Rm5sSjV6RV8yZk1uaU11V0JVWll4RWhYeUQtbUNmWjVyUDRfRlJFbzlVa3VJU0czV1JKVkJ5dzN0R1h4Sk1VNFF2dy0xamVaRXBtczdTaDA3V2ZVcFpHV2ZXbm5QVU5ScUNwQnFUWmljY244QnhQUWthZEh6OVZYdXpDN1o5MG5JdEFsT2FsNNIBmwFBVV95cUxNT2NyLXp2aDh2cUlRNWp2Z01jNlJDRERZcDlyQ0E1V3hxWDE1X0lyRWRSR3VmOWJfNjNub1NYS25XWWFhb3htc1lYVVZ1cTM0SV9CNWlTSVFHeFRKQXNPZGxJak1GRzJhR29KMVZqMzNZbkhHTzdXcWV2MlMzMWJOYVVGNWU5ZzZiUDM4SVVtcVF4Smxtcm50RkhBYw?oc=5",
     "fuente": "El Mundo",
     "fecha": "2026-11-09T01:23:04+00:00"
-   },
-   {
-    "titulo": "Feijóo promete una 'ley anti Armengol' para evitar el bloque del Congreso con Pedro Sánchez",
-    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/09/6af06693e85ece24508b458c.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-08T23:06:00+00:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/08/17941445353427.jpg"
-   },
-   {
-    "titulo": "PP y Vox suman 199 diputados con un 50,4% votos y Sánchez no remonta la tragedia de los trenes",
-    "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTE1XVUZxYjlVQ3c2bnJYVm5Ea2xiUW1CRGFSbXJHbTdiWVBNWVhpalBUYWs5QmxuVXQyaWVzZEVKckZmNWx3ZjJ3YVdqa2FReWh3UmUtWllPYzBvR3pHLWRGcDhvSXB2VFdtT0Q1dVBPN21sWkt2eFZ6YjNQV214YmxkRTN0RVXSAYcBQVVfeXFMUG45amgyOTdrS01XQktZaWRmNjlGTFBhUEI5bmxpRW1EUWlxQzVuVkZXTjVFYUVjYlcwZWhDZWgyOThuVmwyUHlJRjI4WjVkLTU2N3lVS3BCRngwUlo1Q2hWSS0zTUU2bE1Fc19fRUY4T1ZhQUhkWE1BUjVsTU9oLTdHT1VjZ09B?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-08T21:43:36+00:00"
-   },
-   {
-    "titulo": "El PSOE crece tras la dimisión de Óscar Puente pero PP y Vox mantienen la mayoría absoluta",
-    "enlace": "https://www.eldiario.es/politica/psoe-crece-dimision-oscar-puente-pp-vox-mantienen-mayoria-absoluta_1_13643551.html",
-    "fuente": "elDiario.es",
-    "fecha": "2026-11-08T20:36:33+00:00",
-    "imagen": "https://static.eldiario.es/clip/7cc5c78d-fafe-4b8f-9998-b6b44eb4c9fb_16-9-discover-aspect-ratio_default_0.jpg"
    }
   ],
   "Vox": [
    {
-    "titulo": "La inmigración domina el debate catalán: PP, Vox y Junts piden dureza y la izquierda defiende la regularización",
-    "enlace": "https://www.elespanol.com/espana/politica/20261109/inmigracion-domina-debate-catalan-pp-vox-junts-piden-dureza-izquierda-defiende-regularizacion/1003744450854_0.html",
-    "fuente": "El Español",
-    "fecha": "2026-11-09T03:28:46+01:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11396849.jpg?p=c:1203:678:nowe:0:0/w:1706/h:960&h=Dh_KQbO6"
+    "titulo": "Jorge Buxadé, ante el 29-N: «El delincuente es el único que corre peligro con Vox»",
+    "enlace": "https://www.eldebate.com/espana/20261109/jorge-buxade-ante-29n-delincuente-unico-corre-peligro-vox_477864.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-09T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/05/6aecdbeb6fd8e.r_d.779-370-0.jpeg"
    },
    {
     "titulo": "Debacle de la izquierda: PP y Vox suman ya 212 escaños y el 53% de los votos",
@@ -450,12 +450,6 @@
     "fecha": "2026-11-08T15:01:18+00:00"
    },
    {
-    "titulo": "Aitor Esteban participa en acto político del PNV sobre el autogobierno",
-    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRnZCM1lPZ3RUUjVWbVhEM2dGODR5M1A4QmJsaWJrOE42WmIzSjllM3ltNXFNU29KUkQtMDVFNVhnSDJuSkFUczlScnNuZ1cxMEozLXN5TzNjWlNWZGY1M2piTDVCSHl3TGl2ZlA5SWp5enNzdGxaRlRUR0xwSmdQQVVvR0xKcElXcEgzc0ZPTmZXcWJ2SVhnM3Q4SEVSQQ?oc=5",
-    "fuente": "Espacio Diario",
-    "fecha": "2026-11-08T14:44:25+00:00"
-   },
-   {
     "titulo": "Aitor Esteban: “No vamos a Madrid a ser los siervos de nadie, sino la voz de Euskadi”",
     "enlace": "https://www.lavanguardia.com/local/paisvasco/20261108/11679263/aitor-esteban-madrid-siervos-nadie-voz-euskadi.html",
     "fuente": "La Vanguardia",
@@ -467,6 +461,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOemlCVDhZWWc3SHMyODRETXRkdGthREk3OExKU1ZEZXRWbktkWTFfQUdlT0tLZmFSbEFxZ05DTU5Hc3NGdUNYaTY1Qlk4UTZTTW5QMTdjVzJoN3ZLSU44c0NlY09OeDVnTXVpYnR4R2FLQ1lRSVpSbHh3cTJ0NDZIREIyaldoaUdaN096UjdQSE9RaFIxeDVwRDVrSzgyWnp5c2xGVFZQVG3SAa4BQVVfeXFMTjhlR3JaaDJPU284UUZ6YTBMZU10Rmw1SUJIcElkSWxqU2tURkNRTlh1WlZsc2cwYW5kdEgxRHhHOTR0UlFKUjlZMU5FWHF6WDNDd0ZaSWlQeHljRUY2V09ZcF9ZQ3loQ201SWpiQkJxdE9VLUpwOEVsbUJybTNKMlBpamJuV2pSTnpkZzVVWGhfLUt6bUZUNVg3QTEyQmFhcWVzU0ZPWE03cEpVRVVB?oc=5",
     "fuente": "ABC",
     "fecha": "2026-11-08T12:42:28+00:00"
+   },
+   {
+    "titulo": "Esteban afirma que al PNV le toca \"mantener la antorcha\" para seguir contruyendo nación vasca sin tutelas externas",
+    "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOSzFQdWtrN3NkWHMtLXlQTWhFeS1tNmlHYVJjTnhmRnhGM3RRZWtpR1hWYWwzTlZDSG9qa0FxQ3JxYkNFS0pqbm9Dc2lQaVpraUVTc0xoT2FnVF9FT3djNldnWWR1REhpbTBFT3BCSWxEcEVfQi0yeUppMm12QzF4TVlRV2c0Y0JSM0dpNXNXdFhlM1QwZXlVal9GSjV1VmRkWGp5azk1SDlVR3FHY3pEcjJfZi1mRnBTMkdnVjlWY1ljNWtOZHhMQ2NBT05NaERYbDdSR3czdFI2bldqVmhOTmlRUlJXNm81cFlRcGxnZnpyN3d6MWpN0gGSAkFVX3lxTFA0QWY2NjJzNTZtNFBzT2ZHcVU3aktXOVhaM0tWWmNFQ2xweEZRS1QxOWFpTjFWOG9nYWMyTWM1RUplVEJaNnZfcmVZcDR1ZVExV1BTMnJQVjQ2cU5MVTNONnUzb0tkVE9JcTNIT20ydXRya0lRUDJUMDFJaVR3S1V4R0U5dDdzTUhpd0xKMlp3SVpCM2RlQlZJNVVSSWMtampPSGthenhlU1NLaFJZczdaRVlLSy1GMTl5WllxV095VzJfTzdWTVVTbUZZWTYzR25ZQmFYckl5YzlNUDI4RmMyLUItaTdKYVBmaE9mbXVGUS1haEpBRHdYWHhmUFZHdS1OWG50QUFBRUt5TkxkSmJRQlE?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-11-08T12:01:00+00:00"
    }
   ],
   "BNG": [
