@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-09T15:01:09+00:00",
-  "mensaje": "535 encuestas leídas, 1 nuevas",
-  "ultima_buena": "2026-11-09T15:01:09+00:00",
+  "hora": "2026-11-09T16:01:08+00:00",
+  "mensaje": "535 encuestas leídas, 0 nuevas",
+  "ultima_buena": "2026-11-09T16:01:08+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -19,32 +19,30 @@
     "Sondaxe/La Voz de Galicia 2026-10-28"
    ],
    "corregidas": [],
-   "nuevas": [
-    "GAD3/Vocento 2026-11-05"
-   ]
+   "nuevas": []
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-09T15:01:57.928Z",
+  "hora": "2026-11-09T16:01:50.145Z",
   "mensaje": "10000 repeticiones, faltan 20 días",
-  "ultima_buena": "2026-11-09T15:01:57.928Z",
+  "ultima_buena": "2026-11-09T16:01:50.145Z",
   "detalle": {
    "partidos": 14
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-09T15:02:24+00:00",
-  "mensaje": "10 titulares del día, 87 por partido, 24 polémicas",
-  "ultima_buena": "2026-11-09T15:02:24+00:00",
+  "hora": "2026-11-09T16:02:40+00:00",
+  "mensaje": "10 titulares del día, 88 por partido, 25 polémicas",
+  "ultima_buena": "2026-11-09T16:02:40+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-09T15:02:24+00:00"
+  "hora": "2026-11-09T16:02:40+00:00"
  },
  "avisado": {},
  "fiabilidad": {
