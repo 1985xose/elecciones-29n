@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-09T14:01:12+00:00",
+ "actualizado": "2026-11-09T15:01:09+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1384657927,
+ "revision": 1384679181,
  "partidos": [
   "PP",
   "PSOE",
@@ -144,6 +144,48 @@
    "encargo": "El Mundo",
    "id": "sigmados-2026-11-06-4172",
    "primera_vez": "2026-11-08T23:01:08+00:00"
+  },
+  {
+   "empresa": "GAD3/Vocento",
+   "inicio": "2026-11-03",
+   "fin": "2026-11-05",
+   "muestra": 1502,
+   "participacion": null,
+   "pct": {
+    "PP": 31.9,
+    "PSOE": 25.9,
+    "Vox": 18.6,
+    "Sumar": 7.5,
+    "ERC": 2.7,
+    "Junts": 1.4,
+    "Bildu": 1.5,
+    "PNV": 0.9,
+    "BNG": 0.9,
+    "CCa": 0.4,
+    "AA": 1.6,
+    "Podemos": 1.4,
+    "SALF": 1.3
+   },
+   "escanos": {
+    "PP": 136.0,
+    "PSOE": 103.0,
+    "Vox": 63.0,
+    "Sumar": 12.0,
+    "ERC": 12.0,
+    "Junts": 5.0,
+    "Bildu": 8.0,
+    "PNV": 4.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 1.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "GAD3",
+   "clave": "gad3",
+   "encargo": "Vocento",
+   "id": "gad3-2026-11-05-1502",
+   "primera_vez": "2026-11-09T15:01:09+00:00"
   },
   {
    "empresa": "Ateneo del Dato/elDiario.es",
