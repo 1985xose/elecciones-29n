@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T18:54:35+00:00",
+ "actualizado": "2026-11-12T19:02:06+00:00",
  "generales": [
   {
    "titulo": "Juanma Moreno proclama que el cambio en España “comienza por Sevilla”",
@@ -16,11 +16,11 @@
    "imagen": "https://okdiario.com/img/2026/09/09/propuesta-directo-espana-gif-interior-2.gif"
   },
   {
-   "titulo": "Tachar el nombre de Óscar Puente en la papeleta del PSOE será voto nulo: la Junta Electoral rectifica a la de Valladolid",
-   "enlace": "https://www.elespanol.com/espana/politica/20261112/tachar-nombre-oscar-puente-papeleta-psoe-voto-nulo-junta-electoral-rectifica-valladolid/1003744456436_0.html",
-   "fuente": "El Español",
-   "fecha": "2026-11-12T19:43:19+01:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11400454.jpg?p=w:1706/h:960&h=2GYf1ICD"
+   "titulo": "Precampaña elecciones generales en España, en directo: última hora de Pedro Sánchez (PSOE), Feijóo (PP), Abascal (Vox), Ada Colau (Frente Amplio) y resto de candidatos hoy",
+   "enlace": "https://www.abc.es/espana/decretos-vivienda-directo-resultado-votacion-medidas-ultima-20261112085110-di.html",
+   "fuente": "ABC",
+   "fecha": "2026-11-12T19:51:57+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/12/seraesr-U20659008022x7B-U40307085924kiF-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Las diez píldoras del día de la campaña electoral",
@@ -28,6 +28,13 @@
    "fuente": "Nueva Tribuna",
    "fecha": "2026-11-12T18:55:31+01:00",
    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/11/12/2026111218550280300.jpg"
+  },
+  {
+   "titulo": "Begoña Gómez toma la palabra en el arranque de campaña del PSOE: \"Gracias por haberme dado el aliento para continuar\"",
+   "enlace": "https://www.eldiario.es/politica/begona-gomez-toma-palabra-arranque-campana-psoe-gracias-haberme-dado-aliento-continuar_1_13659951.html",
+   "fuente": "elDiario.es",
+   "fecha": "2026-11-12T18:54:47+00:00",
+   "imagen": "https://static.eldiario.es/clip/3a08f90f-746a-48ce-aeb4-c97d7896bca7_16-9-discover-aspect-ratio_default_0.jpg"
   },
   {
    "titulo": "La Junta Electoral Central avisa de que no aceptará las papeletas del PSOE por Valladolid con el nombre de Puente tachado",
@@ -42,13 +49,6 @@
    "fuente": "La Vanguardia",
    "fecha": "2026-11-12T18:15:30+01:00",
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/12/6af5f418bf841.jpeg"
-  },
-  {
-   "titulo": "El mapa del reparto de escaños y quiénes serían los nuevos diputados según el CIS",
-   "enlace": "https://www.eldiario.es/politica/mapa-reparto-escanos-serian-diputados-cis_1_13659526.html",
-   "fuente": "elDiario.es",
-   "fecha": "2026-11-12T17:32:28+00:00",
-   "imagen": "https://static.eldiario.es/clip/de569d2d-88d8-4301-ac69-e2dde3373244_16-9-discover-aspect-ratio_default_1155552.jpg"
   },
   {
    "titulo": "La UCO ve \"vinculación\" entre el PSOE y el exchófer de Sánchez detenido: \"Viene el presidente y tengo reunión con él\"",
@@ -69,7 +69,7 @@
    "enlace": "https://www.elconfidencial.com/espana/2026-11-12/cis-tezanos-elecciones-psoe_4463904/",
    "fuente": "El Confidencial",
    "fecha": "2026-11-12T17:08:00+01:00",
-   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794509536&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794510043&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
   }
  ],
  "partidos": {
@@ -78,7 +78,7 @@
     "titulo": "Precampaña elecciones generales en España, en directo: última hora de Pedro Sánchez (PSOE), Feijóo (PP), Abascal (Vox), Ada Colau (Frente Amplio) y resto de candidatos hoy",
     "enlace": "https://www.abc.es/espana/decretos-vivienda-directo-resultado-votacion-medidas-ultima-20261112085110-di.html",
     "fuente": "ABC",
-    "fecha": "2026-11-12T19:39:05+01:00",
+    "fecha": "2026-11-12T19:51:57+01:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/12/seraesr-U20659008022x7B-U40307085924kiF-1200x840@diario_abc.jpg"
    },
    {
@@ -116,58 +116,51 @@
   ],
   "PSOE": [
    {
-    "titulo": "Sánchez y la procesada Begoña se olvidan de los 69 muertos de Urda y arrancan bailando la campaña en Sevilla",
-    "enlace": "https://okdiario.com/espana/sanchez-procesada-begona-olvidan-69-muertos-urda-arrancan-bailando-campana-sevilla-20827019",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-12T19:48:11+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/12/psoe-bailando.jpg"
+    "titulo": "Precampaña elecciones generales en España, en directo: última hora de Pedro Sánchez (PSOE), Feijóo (PP), Abascal (Vox), Ada Colau (Frente Amplio) y resto de candidatos hoy",
+    "enlace": "https://www.abc.es/espana/decretos-vivienda-directo-resultado-votacion-medidas-ultima-20261112085110-di.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-12T19:51:57+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/12/seraesr-U20659008022x7B-U40307085924kiF-1200x840@diario_abc.jpg"
+   },
+   {
+    "titulo": "El CIS da la victoria al PSOE en Extremadura y pronostica que el PP perderá un diputado",
+    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUk4wcXNpQ2tCa1ZWUWNqcnNUdzA3dTJscFhwOHl1dDVIcGtydDg0YnpqVk9WQ09icWZ1V0w1SjJPckdLbVBucWNvdEVZR2dGNE83NmtoOWpBVFNVTTI5T1NjNlhJNUNlemViUWRaNV9uZWpac084NUdRT2c3ZFZ1bTZWclphWWFWTEdqUENvODdpN3dadThvV1VKMDRTTFpIbERqMFRtWnYwaGVyeVHSAbMBQVVfeXFMTmFsSnIwNUNmZUxWVTBmMERGYVduVmxvZlJmZjFlcnh2RG1zYVpwY1ZIakI0WGx5NEo0ZjJBVU5yVzg0cmQyWkFjU2VkbkY0QkRlWGJFeHo0UkFwWVJuMHpGaFdPVGpYNXNkLUZOeUJuRUNibGdyNVRJRjlkVEo4MVBsYzh4OVA5UTZrNGpzUHA5OEo1bG1uUTVOVlNaWVdqYl9KcUEtbGtoQVBTcWk5Nk1qcUk?oc=5",
+    "fuente": "El Periódico Extremadura",
+    "fecha": "2026-11-12T18:58:44+00:00"
+   },
+   {
+    "titulo": "Vídeo | Pedro Sánchez inicia la campaña en Fibes",
+    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWGpCWUF2RjU5NWRZY2dsOFlwZUlpR2NJdnVVeHNLTVE4UHZsSEVfYURMVzQ0cVhQZFp6RGlYaXZBaDgxTFVKel9OZWFFVW91a04yLTZjYzlJT3pscUY0X24xcFZnNk9wR0VWUmxEQzZCUkJPU09xZ242SnVWbExtVHJQV0c4UVBVWHctM284NlVZY3N4ekJ1RUk5eWJoVjBs?oc=5",
+    "fuente": "Diario de Sevilla",
+    "fecha": "2026-11-12T18:55:39+00:00"
+   },
+   {
+    "titulo": "Begoña Gómez toma la palabra en el arranque de campaña del PSOE: \"Gracias por haberme dado el aliento para continuar\"",
+    "enlace": "https://www.eldiario.es/politica/begona-gomez-toma-palabra-arranque-campana-psoe-gracias-haberme-dado-aliento-continuar_1_13659951.html",
+    "fuente": "elDiario.es",
+    "fecha": "2026-11-12T18:54:47+00:00",
+    "imagen": "https://static.eldiario.es/clip/3a08f90f-746a-48ce-aeb4-c97d7896bca7_16-9-discover-aspect-ratio_default_0.jpg"
+   },
+   {
+    "titulo": "El CIS sitúa al PSOE como primera fuerza en Canarias y deja a CC fuera del Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNThSX2JPdmpaT0F5dHQ3YjhvdTZSVlczc0pFZGxqdU5mLWdpMGpOdmRUUTZDX1NLU3hQZzVnLWM0OHZ1bWNlTXp3WmRCZDR1Mnk1WjMwTTJDNlhkamtpLUEzWEFwUFE2dFh3ajRONDZERnJFNHJRREw3NHJaZ1ZNX3FiUUd3Y1M0bGNOQnRZOVo?oc=5",
+    "fuente": "Radio Televisión Canaria",
+    "fecha": "2026-11-12T18:41:35+00:00"
    },
    {
     "titulo": "El CIS da la victoria al PSOE y dispara a Vox el 29N",
     "enlace": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ1FjTmQ0QU9GOGo1U3FHRkh2Tk9UekRFQXZrX2poUVNYaDB4UzJycDlKV2diUWdqRTRiaDRxdS1oRGtQWXJ3dkd1MUoySmxXNHNVbE9LZXhBLXQwdEZINml1Q1FvdXlVdkE5RDhPdmtieHhsbXZsNjZqQW9DaWVDS0d2RlVGZw?oc=5",
     "fuente": "www.elliberal.cat",
     "fecha": "2026-11-12T18:32:05+00:00"
-   },
-   {
-    "titulo": "La Junta Electoral Central avisa de que no aceptará las papeletas del PSOE por Valladolid con el nombre de Puente tachado",
-    "enlace": "https://www.20minutos.es/nacional/junta-electoral-central-avisa-que-no-aceptara-las-papeletas-psoe-por-valladolid-con-nombre-puente-tachado_7060441_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-12T18:30:34+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/04/6aeba706113d31-67925104.jpeg"
-   },
-   {
-    "titulo": "La Guardia Civil apunta que Ábalos recurrió al exchofer del PSOE en Córdoba para financiar el piso de su novia en Vallecas",
-    "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRTlEdHBQWkliSE1kclBiUGZxVGdRNVZuRUhlNkhUaGtCY3RYU3VzSUtxS1dESWFWNHVIMTYydTlpd3VRYzkzYlRidnp5UlhlYmxOdFpnZWI5b2hQQjRHdDJxMnZlUWs0cnVqd2NTQ3A4TGp6SkNhd3ZTSS1uSHNaanVlNHdwSU5xNHh0UXBoUUdudVBTb3pFNHFoYjVibEhPQkh5ek5tOUtfejZLQnpCYUVqaWVfMlUtajBKaHg2STRBbDRpbjNEcHdkWHkwNWdFdzlB0gHTAUFVX3lxTE1Sd25tLVZSSXJQNE1EUWFiSnZscUkteWtjeFJhZ2QxTFpGMlFXLVRGSVdyWWpXRmZtd3J1U2tuT1p3SXpVRk0weU9TYkJJekJqVk1va2JwUHJ0b2NCLWJraFZjUkZnay1Tek4xTFZ1UnhBLXdXZFMyRjRuY3R6RUtMMnlvOENRUjJrOWwyNGtjNEhUNzdVOHk3d1dqMl9hUU1QaW5vN3BVS19qMmtJVzNjMkdqNlhPM3BTcTNISnZUSnNvSGx1OGJ4SHFtcThDQ3lPUFE?oc=5",
-    "fuente": "El Periódico",
-    "fecha": "2026-11-12T18:26:00+00:00"
-   },
-   {
-    "titulo": "El PSOE ganaría las elecciones en C-LM con entre 8 y 9 escaños, el PP se haría con entre 6 y 7 y Vox entre 5 y 6",
-    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVU11SGlqVEY0czhuZmp5MmhoLUt3WXhQTFdBMFBySHc2OFJqTEQtUVZDeHFTUXBqdi0tSGE5MDl1QldLaHRhcHE0Wm5hTFJtdXEyYTJSUkVHYjRxT1kwck1vb0hrcV9yS3BMeVRZN3N6Y25vdjY0VkpfX1BrVDlzbjAyMTVxODh1cGdnYXl4VkxVLU5BMENiaWw0aEhwTThnYWQwaWN0RVplV2FZUkFjaEdsWldsR3NOMEZvbw?oc=5",
-    "fuente": "Europa Press",
-    "fecha": "2026-11-12T18:19:04+00:00"
-   },
-   {
-    "titulo": "La UCO señala una \"interlocución directa\" entre Sánchez y Corvillo: el exchófer le contó a Aldama una reunión de 35 minutos organizada por Óscar López",
-    "enlace": "https://www.lasexta.com/noticias/nacional/uco-senala-interlocucion-directa-sanchez-corvillo-exchofer-conto-aldama-reunion-35-minutos-presidente-organizada-oscar-lopez_202611126af5f4c89a31a65adcd9eafe.html",
-    "fuente": "laSexta",
-    "fecha": "2026-11-12T18:18:00+01:00",
-    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2026/11/06/B894ABFC-77CA-4A71-B9EC-C82872DD49A1/agentes-guardia-civil-detienen-empresario-cristian-corvillo_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    }
   ],
   "Vox": [
    {
-    "titulo": "La antigua confesión de Jordi Wild a Rufián que vuelve a ser viral: \"Un combate de boxeo con Abascal, que le tengo ganas",
-    "enlace": "https://www.larazon.es/espana/antigua-confesion-jordi-wild-rufian-que-vuelve-ser-viral-combate-boxeo-abascal-que-tengo-ganas-b50m_202611126af608979a31a65adcd9fe61.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-12T19:50:42+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/11/D31023A5-489E-4803-AE89-9877D4494CDE/jordi-wild-rompe-silencio-cancelacion-abascal-estoy-profundamente-decepcionado-vox_96.jpg?crop=1600,900,x0,y84&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Abascal pone rumbo a Canarias para buscar apoyos antes de las elecciones del 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMF9vR21JVlh6WkktZGs2MF9xWURRZnJORjA3X2E4OUZEdG0xUDNpOXlOdFZEMmJ3NnoxeXhPaGM5ZjItcVBVZWVYM1hZQS16V0pWYXFtdmROdTU2MXBNZjdWRjRvbWdZMHl1Y2VvejlMNXVjMW9YRTBQbkNOUThoSk41c3BhYWs3UVFPR29RTHJhVVdkd2FNbllidHZJbzdnMWpTZlVJZHFJOVdBX2JDeV9mc0RPb0RQ?oc=5",
-    "fuente": "CN8 Noticias Canarias",
-    "fecha": "2026-11-12T18:45:19+00:00"
+    "titulo": "Precampaña elecciones generales en España, en directo: última hora de Pedro Sánchez (PSOE), Feijóo (PP), Abascal (Vox), Ada Colau (Frente Amplio) y resto de candidatos hoy",
+    "enlace": "https://www.abc.es/espana/decretos-vivienda-directo-resultado-votacion-medidas-ultima-20261112085110-di.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-12T19:51:57+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/12/seraesr-U20659008022x7B-U40307085924kiF-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "El CIS da la victoria al PSOE y dispara a Vox el 29N",
@@ -193,9 +186,21 @@
     "fuente": "20minutos",
     "fecha": "2026-11-12T18:19:52+01:00",
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/12/6af5ed027a77a9-25464902.jpeg"
+   },
+   {
+    "titulo": "El PSOE ganaría las elecciones en C-LM con entre 8 y 9 escaños, el PP se haría con entre 6 y 7 y Vox entre 5 y 6",
+    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVU11SGlqVEY0czhuZmp5MmhoLUt3WXhQTFdBMFBySHc2OFJqTEQtUVZDeHFTUXBqdi0tSGE5MDl1QldLaHRhcHE0Wm5hTFJtdXEyYTJSUkVHYjRxT1kwck1vb0hrcV9yS3BMeVRZN3N6Y25vdjY0VkpfX1BrVDlzbjAyMTVxODh1cGdnYXl4VkxVLU5BMENiaWw0aEhwTThnYWQwaWN0RVplV2FZUkFjaEdsWldsR3NOMEZvbw?oc=5",
+    "fuente": "Europa Press",
+    "fecha": "2026-11-12T18:19:04+00:00"
    }
   ],
   "Sumar": [
+   {
+    "titulo": "Victoria García, candidata de Más Madrid Leganés, ocupa el puesto 12 de la lista de Frente Amplio al Congreso por Madrid",
+    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZHBaUGFPMU5YTjUwQ3A4UWV3SnFYYVdDdTJGYmhmLWZlV01oZUZWampXVl9JS3JPWjRuUHR3bmNWYW5pQUxza20yMmZvcjlXbmRvN2twanJpX3ZoV3NYcVdxYXI1aHhvR1lhWmE0UHR5X1RoZzh3d09TemJxT2Z4Vk04RmJTdDI5YUsxRmZNSTM3Q1RFcVNrcVVySXMzcEtPVnd6aU5TSmN4Wm1pTnpnZXZHNmJsczB2TlpDM0NHZGVmd3FuamZUQmZSclBUSkN5LWFXMkxibUYxaXc?oc=5",
+    "fuente": "Leganews Comunicación",
+    "fecha": "2026-11-12T18:55:53+00:00"
+   },
    {
     "titulo": "Uno de cada cinco votantes del PP en 2023 se inclina ahora por Vox y un volumen similar pasa de Sumar al PSOE",
     "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPT3k1QWtTUTItbmVSbktUZlRJek9lSEFTUGpDV0dDMi1LWTVpXzU1VF8tYUR2TG9sMjdzZmEwQ3pVQ19EQlZUXzAxT2pYNXBlTWp4SGNPcWVSV25WTmNrNHRIT2l0a0xfVzJ1RzdPcVU1bC1wQ2ZIaHFUTjhyUmF1Qm41VElGcFdfdjQ3TW9rOU9yY29tZ1FiMUFEOXlQZ3JFRFdqV2xaREhkOFhldVFFc1F1elRoYzRJZ1hhRW9pa1d3Q0dHMjF1ZVRpU19PN0VDaG5vUllDSHppU1p50gHiAUFVX3lxTFBOdVE3eTl1Q2JIcDlYRXVqdWl5NGllVnhDVktNdGJlM1NzeWFRWFk2M2pERXNZdDJrdV9SeUtobnc3bndjWUY0MlpxcVdmSTMzeHN2Tm9FUkRzYVNKQjU4c3lieXhOa0pUamhLUDI3WUpjOFMxY1pmblRHdWk3aE5zTV85SGYwSDFzbVU3ZkdxMWJHWU9WQnVwSXpObVQtVjdtU1MzRHIzMFo5SjVvX29scUh5SDViU2xMX1F6OGZ3ZzBfM3NBbjNSVExodXAzbHRVeHczbTdnbkx4VDU2SWh6a0E?oc=5",
@@ -225,15 +230,21 @@
     "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQa0MyWl9BY0JSZzh1c0xzR0RVV1h6NEVjNW9RZnI5RFFXLWtXOEZ3LXlIRUVZNmpkQXRIVy1rZGRmRF8wNnplRW1xV0E4M1dzOTFhbGs0YUwzNUlCOWdTWjBMSjJuOGRRUGtvMExMdnZCc3FKamZ2TzItSVlvWUQxQWRHV19iZmZjeEdGYzY1VV9mWUlEMjBiWjFTWDRjNC1RdV9WS0I0aGduQmRLUUQ0MENvNDVYWVJZODEtQmcyV2JkLVg4ZVJON0U0YS1fLUplbGhfaXVNNXFfUVdhVjd3TEFaRzNzOUllYnc?oc=5",
     "fuente": "Ultima Hora",
     "fecha": "2026-11-12T10:09:07+00:00"
-   },
-   {
-    "titulo": "Yolanda Díaz celebra como éxito la huelga general y defiende que cuando el país se detiene es para avanzar",
-    "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPX19jcG0xZVloVVotUGxQcnVWcjFqUHVhLUU2QUF6Y3I0cnlZdV9UeFZTeThaR0c0NkdEdjd1NEhtUXB2dU5xWTdGMU9fQVpIQ1VJZmJ0ZlNyeGlGUzNhem1LM0dZeXBJRThRc01nV0ZpNktGZUUyNVE3UGhRbmdCdnZZaEZON1AtZ0h6Y2tqWWc0NFNHMm1oTjQwY2tvN1J3ZzBLNjdUZnpTQklTN0xIMEtBb011NGp6VUwycW55TGJKZTJPdy1rc2dNV00tMlltMDJWQ1NTaTfSAd4BQVVfeXFMTTAwOFhId1JEbUZnTjYwbExxMmRTUGwxOFhhTm0xeWh2SWJTRXc3a1VEWUxBSUNmY3BWX254OTNHUFhZc1pUT0NJSVlMTFYyVVMtY2hVZ1VsQXJuWmNjSnl0ajN4LU92V2dqejFtT1BicWJ5eERadk85dENNU05CUHpaZGJPVkt6N1NPNmxPQWVDRzc0ZklUd0ViNi10SXlHYVcwTFpQZGJ5UF95ZTNjdkFEOVc1aHhnTExDam42dV9GSnJnZTFYNl9fY1lZbWd2bVdQaTF2c1BGTm5jb1ln?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-11T20:30:29+00:00"
    }
   ],
   "Podemos": [
+   {
+    "titulo": "Irene Montero denuncia la \"brutalidad policial\" durante la huelga general en el arranque de campaña de Podemos",
+    "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPb1RMWGJKcGxzaHFKd0tLdTN6SUFMc1YtYldFRkhMMXU4a2E3Yjg5cFlHNHlBcTYzVHVXYzFlRUtMd0o5b3MzUEVOUFB1bUl6WVVJSy1JNGl4ODNSMlFwS3h3b24xRDhZSEh2S3pQeVhFQW1fUV9xSWdYVTFmb3VydlZxSmdpX0MtdzBxRU1WMnpsVVdHYnpBZXcyQlp1RURpM25ZMUZJdDdIb2NpanFuUWRIREs3QXVTbzlyVWZFb2t3dVg0RzZudmM3b1F3UFFaTlFVaUx6eWdQbTdCemo5RdIB5gFBVV95cUxNNnFlNm9YSlE5OFpFR0kwaTdSRUd1UkRWRTZ2V0ZUWWJObkdnakl2Uy1DNlkwQVRFOVpKUXpwb2twUmNtRldzeDFWdFBvZ2hEUFByb1NzRjZydHl2Z09NZUVpSk5tRzFyNU81N3VfQktyS3dWeF91UE5zU2c0RHlkeVJaV0F2Z2VtN1FQQ1J3WlV3MGhEQjZuT2pUNXpLUUw2bV9BQ0pkZzlYUUpNc0ZnZWtVOTByWTA0bUpKWDQzWVRmcUtqZkNnQ2VuWWNCTTFVV1J5by1oWTY4dlY5YkxKc1AwUjh6QQ?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-12T18:51:25+00:00"
+   },
+   {
+    "titulo": "Podemos encara una campaña vital con el 'tirón' de Irene Montero y el tándem con Rufián como principal apuesta",
+    "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdXZDakx4WXdHWEtXMmplMTV2b1NlYjJwd2J2M2phanJCUjY5dmwyeFdUY1NMbXJZUjk4VHlkZDFsVnRQRG5iRlVtTXFLTFlRMUlTOEVOVnJ0M212ek1DMWVFMGhZNzlLOHg2LUFCaGhkdlB4TmhWYVhBakh0STk0Q1RuMWNNZGNaUGZrallTRGl5WHMyaUV4eGpEd1VPbGpaTEw3OU42cGxRQlNzdXVreVUwTldTX0Z6cTJOTlNRYUxoTWM3LXZ0YzY3Y2JubV83SWVJaDNLNHRXMFl2VU5zeWFrWEo?oc=5",
+    "fuente": "PressDigital",
+    "fecha": "2026-11-12T17:52:00+00:00"
+   },
    {
     "titulo": "Ibón Domínguez, portavoz de Jupol, responde a Ione Belarra tras sus acusaciones contra la Policía: \"Está intentando tener su minuto de gloria\"",
     "enlace": "https://www.larazon.es/espana/ibon-dominguez-portavoz-jupol-responde-ione-belarra-sus-acusaciones-policia-esta-intentando-tener-minuto-gloria_202611126af5eadd4196933d7edae029.html",
@@ -261,18 +272,6 @@
     "fuente": "La Razón",
     "fecha": "2026-11-12T15:00:21+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/07/FB758DF4-6E69-4760-9963-B3483A433DF7/96.jpg?crop=3226,1815,x0,y167&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Irene Montero reclama la destitución de Marlaska y de numerosos mandos policiales: “Tiene que caer mucha gente”",
-    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRXNKOE1xcGtOd2RlcHFwZEI4Y3lpZ2RHZ0dXY0MxT1g3c1VGTGF4ZklvQVVTcG4wVTNMZTlEX2N1c1p5ckNLRlEwVG1aaTE4Nk5aVnlpMUhmcnZPQjk0aksxMWdQa0NZaFdYWFIzbS1vZngyZ25YOWNEUGZhWjR6eklNbTFRVk44bVBrTE5WVkFjOUF4dGFkRkZVOXgwRHlKX0xWTHFMZWtYTHpJZldwRHVoQS1xM1c3cEstMWNOa1FZWGlfS1JwVW5tRzdwVXg3LTZvYmJtMm9Jb2vSAeABQVVfeXFMTVl3VFhLZXZvdGZyUWdkMnBLakdsdGlmbW5SN0FySUNVSGJ4OU5WQVVKajlEeTN5SzNNMFVfbjFQbno0SHJjcWVhWVNPWk9lMU1DWGpyNU5JS21CcjBrdEJCYVVlMzc2cjVpYVR0X29HMkEwbTFtckxiRHF4QjY1d1Z1ck1GemxWSmxGUzRBb01ldDBfbkdkMnpYaTViRDNDcGh0aEtYcEVjN2RBRzU4eUttWTl3SkN5SEFENWc3dHpzck1mX3RlbzN4a19ldThuNnpPMXJrWFdheVg5OTRnSjM?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-12T13:24:39+00:00"
-   },
-   {
-    "titulo": "Irene Montero exige que Marlaska dimita tras la huelga y que sea apartado de las listas",
-    "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOclc0LTRqSXpBMEZaejRzb0dHMjA5aDlsSjlUc2JCS3Jyd01td1lXQlcwRXN2UEVJaDk2NlJVdHJyTHQ2UE1SM3d3Ui1hWnZheHZuaTlCWmhkeVZaaTFMQlIxdDZ4TEJ5WlZ4WHlMQzBYMFRKRllMbzlIQmFqVXR3VnVpbnBORkxqY21icXJxLTI3U0U1MnlISGVlbGHSAaIBQVVfeXFMTjlyLWFuZmlvT2xBcXdyd3VuMjdlb2tJYjhKX2FnbTQyX2lmWGtBZXpPcXV4NEhKVlRoOVVyRGo3S3ZSZ3BZeTFwbE5iRjI5OHpROGpsN0dXNjVlVjdpYmNBbnpZZ3pLLW8yN0stRmJiR05XNGc4MFJVT0xrZzllMl8zSEFXV1VWaFNLemNfcGsydlJQUXFIejlGRzJWVThIVmd3?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-11-12T13:23:04+00:00"
    }
   ],
   "SALF": [
@@ -471,12 +470,6 @@
   ],
   "BNG": [
    {
-    "titulo": "El BNG presenta el cartel de campaña con el objetivo de conseguir representación de Lugo en el Congreso",
-    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZG9NRDhEZVZXUGJka0FaM2FtWFFxeTV6bUt1V1hReHA4djZZUlVfS3Jzbk11ZDdVX1hsbmhBMmp0dERVYnlJNmZSNEhuTW5rZGJ5b0lXMGZsQXZLelNnaldNRWJNT1prbHVFbS1wZjJ4R0pYblQxLU1FNDZUZDRiNFRoUU9NRnJ3aWNaRXRhdW1SelVGNWRKRTVDTmZNU2lfMUx3OTUxa3ZGZ1l4THROcW9MdXlRZXNSOFJsRjFyTEVDcnpmbFpvNGlrX0tLOXNmOWxiRg?oc=5",
-    "fuente": "LugoXa",
-    "fecha": "2026-11-12T17:23:41+00:00"
-   },
-   {
     "titulo": "Ana Pontón participará en Tomiño en un acto público del BNG de cara a las elecciones estatales",
     "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVnNZcmZuS1laaE1Pdk12amprYXpoMEVvMlFUSXdNVWZZdlgtYlM3SFRJXzN3dXJlWGJKckZKVms5UU5nZk04Z3hzZUxSZURnV2gzV3FZeHUxS0NTV1NkZ25LSU9felhLc1lqR2tGQ3VRNF9mMWFVczMta05mekQ1YVp2dG0teFlibkU2LV9VQlp2NHZaQVl4cVAwUFBlb1ByNWdDdXUtYUNCYlBVUlpyYWpTOGZ1RjJwcVRzNFY5bkVGRXh5d1FFTA?oc=5",
     "fuente": "ValmiñorTV",
@@ -506,6 +499,12 @@
     "fuente": "El Debate",
     "fecha": "2026-11-12T13:21:32+01:00",
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/06/09/6a2839358a88a.r_d.996-437-0.jpeg"
+   },
+   {
+    "titulo": "El BNG cree que no tiene sentido pedir ya Marlaska que dimita \"a 20 días de las elecciones\"",
+    "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaTNZNTFOTnVqWXk0ajByeDBHZlFLMDlNR0pyems3SXpiTmNvbWtaRUlObDBGN0dISGlYOFktNlFwd1pXcE1icVBFQmdzb1Bwd2gwNF90VEk2SW5Yc0pTc01PMUI4b3hWa1pXTkpCS0xZNi04SWxROXBMN0pvVlZvSDFpeDRJMVRZTXdKb2taY3V1Zjc1TThSeGdRclPSAZwBQVVfeXFMT2kzWTUxTk51all5NGowcngwR2ZRSzA5TUdKcnprN0l6Yk5jb21rWkVJTmwwRjdHSEhpWDhZLTZRcHdaV3BNYnFQRUJnc29QcHdoMDRfdFRJNkluWHNKU3NNTzFCOG94VmtaV05KQktMWTYtOElsUTlwTDdKb1ZWb0gxaXg0STFUWU13Sm9rWmN1dWY3NU04UnhnUXJT?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-11-12T13:16:59+00:00"
    }
   ],
   "CCa": [
@@ -536,6 +535,12 @@
   ],
   "UPN": [
    {
+    "titulo": "UPN-PP ponen en marcha la cuenta atrás contra Pedro Sánchez desde Pamplona: \"Vamos a cambiar las cosas\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ3c0QS1pc3FVVlFYcEVXTllWYnA2U0Nuc0RweFY5MFBYTVNpZlAtcXA4Qm5aZndjc3dFVVRWaHZoSU9CRHdGSUNPanI4bE1LZ1ZfQXMxRTNxUjhKc2pRNFBKaFdRZVk5LXVZeTV3ekhnZnRZNXBEeExkMFctNVdFS1VEYWZzbXIyLXRkZUVya3pHbnl2aE80UldFOG50Z01fdjlWMTFYOWIxMXFxZmFtbVJyNXpGWmo3NTlNb1FobHhyRF9hcm5YY2g0REc1bWtxeHBXNXM1NUc4WFhjaEUw0gHkAUFVX3lxTE9aeDM2SDFISVprTHdOOHh3NkpackdkbFluY0ppMkMyZHFlZGNlRlFWN3lhbThlZWRUVk1KS1B1Vnd3RmNYcnE5cThRRFIxdHNfM3JDMzVhdkJmVElOLW5TSGRhMUVIMVRMWVhIVWx0VlhxYzlQWXlFd25UNTRsUHhXVFk2cXVxRHJLcW9Hc2ZxMXJaNHAyYkZjSXdDdDBCOXRpNnkyeUlfLU5jT3hROXdMYWdFdkFnUlZNZ3ZORkVPYktfc3Q2Tng2UjF5WFY4azFSdTZDZjNuaGpvNU9sLUxhcUtvSQ?oc=5",
+    "fuente": "Navarra.com",
+    "fecha": "2026-11-12T18:50:39+00:00"
+   },
+   {
     "titulo": "El PSOE lidera la intención de voto en Navarra, con UPN-PP y EH Bildu en una pugna a tres bandas, según el CIS",
     "enlace": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPOVAtcXpwVndxTF93WEdpU2t6c1NKYmZ0Tld4cmQyM2I4bGdrbDlwbDNfVE8wcXk4a1FjVU1nRlB6enktX0NUdVJHQ3p2STc3VUlvUFBtQUE2UEJqdm56TmRzSnBIWFRUUlpFU2dPQ3ZGVmt1XzEtUXE3V2dzZE8tOG5NMTdsclBIeU1HMEZKRnRsZDhrM3NUZjItZ1E0VldkTXA0elR0Uk1NMThlY3ZNSFl4X3lkTVdGYURwa2xEUGtPQWw3X1FMZUF0U2owY2FwaEQ0Y1hpaVhRenhYOXFaZUJoX3h1Ynk1X2FEMUJodGFlMkt1N25UWGlETFlQcTZNOXRKZ1BSTGE?oc=5",
     "fuente": "Pamplona Actual",
@@ -564,12 +569,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUGMwZDZSWm5ESTlFSnpXdjgwS0tVaUpBcUMxb0F5MnF1VlNOSGJQRnlzeW9LeGZ5X1J4em9iY1hlS1dHcWFjVkR4TkdxY1hFNDBwQ3czRVZOZkRjcVdEeG9yeXQ5V3NIamJ3aUZEM3pMNW04RE91VjN3NzlRYXVxdFNOM2pmVUFDSGk4Ti1xbDhYUFZfNDJWd3Q2NG1sSDNULVJzRmVOLUJwRWZDelNES2NWOXczVWQxN1RwaWZpVXBnYm1LVlMtbDNXckgxNFBDNDhmcnBpbnVJV2NHZ2FZNWtoYTRxT19kVl9NZQ?oc=5",
     "fuente": "Pamplona Actual",
     "fecha": "2026-11-10T16:47:16+00:00"
-   },
-   {
-    "titulo": "Fotos de la presentación del lema y la campaña de UPN-PP para las elecciones del 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRnVqWURZclFsMktKVjdXY0d0cDVoVTBJcndUdXpqdzBLcENfZWxzZDFFVy1tZ252X0dnTDN1dXBQQUN1ZUtRRFBNQmVJUm14SHd1b2JhWFY2SHN0TUlrSktDb09WTVlBM1AxM1lLNXptdURVN2p0MlhuSlB2RWN4aGp6UnpOU2daV1BSZVlzRHFwSTFTMTEwRExNZVU0cE96WWZMb3FyaTZQZzZRTENNc1hTbGNJOGZi?oc=5",
-    "fuente": "Noticias de Navarra",
-    "fecha": "2026-11-10T16:04:57+00:00"
    }
   ],
   "AC": [
