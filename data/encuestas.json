@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-12T19:01:10+00:00",
+ "actualizado": "2026-11-12T20:01:06+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1385309011,
+ "revision": 1385320553,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,40 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "Sigma Dos/El Mundo",
+   "inicio": "2026-11-03",
+   "fin": "2026-11-11",
+   "muestra": 3870,
+   "participacion": 76.7,
+   "pct": {
+    "PP": 30.8,
+    "PSOE": 25.3,
+    "Vox": 19.6,
+    "Sumar": 7.3,
+    "AA": 2.0,
+    "Podemos": 1.4
+   },
+   "escanos": {
+    "PP": 129.0,
+    "PSOE": 105.5,
+    "Vox": 66.5,
+    "Sumar": 14.0,
+    "ERC": 8.5,
+    "Junts": 6.5,
+    "Bildu": 7.0,
+    "PNV": 4.5,
+    "BNG": 2.0,
+    "CCa": 0.5,
+    "AA": 3.5,
+    "Podemos": 0.0
+   },
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "encargo": "El Mundo",
+   "id": "sigmados-2026-11-11-3870",
+   "primera_vez": "2026-11-12T20:01:06+00:00"
+  },
   {
    "empresa": "SocioMétrica/El Español",
    "inicio": "2026-09-01",
