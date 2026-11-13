@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-13T22:01:11+00:00",
+ "actualizado": "2026-11-13T22:35:29+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1385545961,
+ "revision": 1385549459,
  "partidos": [
   "PP",
   "PSOE",
@@ -99,39 +99,6 @@
    "primera_vez": "2026-11-13T18:01:07+00:00"
   },
   {
-   "empresa": "Sigma Dos/El Mundo",
-   "inicio": "2026-11-03",
-   "fin": "2026-11-12",
-   "muestra": 4620,
-   "participacion": 76.9,
-   "pct": {
-    "PP": 31.0,
-    "PSOE": 25.4,
-    "Vox": 19.7,
-    "Sumar": 14.6,
-    "Podemos": 1.4
-   },
-   "escanos": {
-    "PP": 129.0,
-    "PSOE": 106.5,
-    "Vox": 65.5,
-    "Sumar": 28.0,
-    "ERC": 8.5,
-    "Junts": 6.5,
-    "Bildu": 7.0,
-    "PNV": 4.5,
-    "BNG": 2.0,
-    "CCa": 0.5,
-    "AA": 3.5,
-    "Podemos": 0.0
-   },
-   "empresa_base": "Sigma Dos",
-   "clave": "sigmados",
-   "encargo": "El Mundo",
-   "id": "sigmados-2026-11-12-4620",
-   "primera_vez": "2026-11-13T20:01:05+00:00"
-  },
-  {
    "empresa": "EM-Analytics/Electomanía",
    "inicio": "2026-11-09",
    "fin": "2026-11-11",
@@ -177,6 +144,12 @@
     "PSOE": 25.3,
     "Vox": 19.6,
     "Sumar": 7.3,
+    "ERC": 2.7,
+    "Junts": 1.4,
+    "Bildu": 1.4,
+    "PNV": 0.8,
+    "BNG": 1.1,
+    "CCa": 0.3,
     "AA": 2.0,
     "Podemos": 1.4
    },
