@@ -906,23 +906,23 @@
   "fecha": "2026-11-13",
   "escenarios": {
    "pp": 0,
-   "pp_vox": 0.8816,
-   "izq_socios": 0.079
+   "pp_vox": 0.7447,
+   "izq_socios": 0.1896
   },
-  "bloqueo": 0.0394,
+  "bloqueo": 0.0657,
   "p50": {
-   "PP": 126,
-   "PSOE": 104,
-   "Sumar": 20,
-   "Vox": 67,
+   "PP": 121,
+   "PSOE": 108,
+   "Sumar": 25,
+   "Vox": 64,
    "BNG": 2,
    "Bildu": 8,
    "ERC": 11,
-   "Junts": 5,
+   "Junts": 4,
    "PNV": 3,
    "CCa": 1,
-   "AA": 2,
    "Podemos": 0,
+   "AA": 2,
    "SALF": 0
   }
  }
