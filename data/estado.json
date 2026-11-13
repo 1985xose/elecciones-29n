@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-13T07:54:30+00:00",
-  "mensaje": "540 encuestas leídas, 1 nuevas",
-  "ultima_buena": "2026-11-13T07:54:30+00:00",
+  "hora": "2026-11-13T08:01:11+00:00",
+  "mensaje": "540 encuestas leídas, 0 nuevas",
+  "ultima_buena": "2026-11-13T08:01:11+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -19,32 +19,30 @@
     "Sondaxe/La Voz de Galicia 2026-11-04"
    ],
    "corregidas": [],
-   "nuevas": [
-    "Winston/Artículo14 2026-11-08"
-   ]
+   "nuevas": []
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-13T07:55:12.609Z",
+  "hora": "2026-11-13T08:01:57.294Z",
   "mensaje": "10000 repeticiones, faltan 16 días",
-  "ultima_buena": "2026-11-13T07:55:12.609Z",
+  "ultima_buena": "2026-11-13T08:01:57.294Z",
   "detalle": {
    "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-13T07:55:36+00:00",
+  "hora": "2026-11-13T08:02:21+00:00",
   "mensaje": "10 titulares del día, 90 por partido, 20 polémicas",
-  "ultima_buena": "2026-11-13T07:55:36+00:00",
+  "ultima_buena": "2026-11-13T08:02:21+00:00",
   "detalle": {
-   "medios": 18
+   "medios": 17
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-13T07:55:36+00:00"
+  "hora": "2026-11-13T08:02:21+00:00"
  },
  "avisado": {},
  "fiabilidad": {
