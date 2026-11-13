@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-13T17:01:10+00:00",
+ "actualizado": "2026-11-13T18:01:07+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1385465150,
+ "revision": 1385512265,
  "partidos": [
   "PP",
   "PSOE",
@@ -55,6 +55,48 @@
    "encargo": "Prisa",
    "id": "40db-2026-11-12-1000",
    "primera_vez": "2026-11-13T07:01:13+00:00"
+  },
+  {
+   "empresa": "EM-Analytics/Electomanía",
+   "inicio": "2026-11-09",
+   "fin": "2026-11-12",
+   "muestra": 1901,
+   "participacion": null,
+   "pct": {
+    "PP": 30.4,
+    "PSOE": 26.1,
+    "Vox": 19.0,
+    "Sumar": 7.8,
+    "ERC": 2.4,
+    "Junts": 1.2,
+    "Bildu": 1.5,
+    "PNV": 0.8,
+    "BNG": 1.0,
+    "CCa": 0.4,
+    "AA": 1.2,
+    "Podemos": 1.5,
+    "SALF": 2.3
+   },
+   "escanos": {
+    "PP": 125.0,
+    "PSOE": 110.0,
+    "Vox": 65.0,
+    "Sumar": 15.0,
+    "ERC": 9.0,
+    "Junts": 5.0,
+    "Bildu": 8.0,
+    "PNV": 4.0,
+    "BNG": 3.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 2.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "EM-Analytics",
+   "clave": "electopanel",
+   "encargo": "Electomanía",
+   "id": "electopanel-2026-11-12-1901",
+   "primera_vez": "2026-11-13T18:01:07+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
