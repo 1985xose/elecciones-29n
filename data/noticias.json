@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-11-13T22:36:07+00:00",
+ "actualizado": "2026-11-13T23:01:57+00:00",
  "generales": [
+  {
+   "titulo": "Primer debate electoral en campaña: PSOE y Frente Amplio prometen inversión en el tren, frente a PP y Vox que piden auditar la red",
+   "enlace": "https://www.20minutos.es/nacional/primer-debate-electoral-campana-psoe-frente-amplio-prometen-inversion-tren-pp-vox-piden-auditar-red_7061028_0.html",
+   "fuente": "20minutos",
+   "fecha": "2026-11-13T23:27:57+01:00",
+   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/13/6af78ccecc7795-52416088.jpeg"
+  },
   {
    "titulo": "Primer debate electoral: cuatro modelos, dos bloques, muchos reproches y pocas ideas nuevas",
    "enlace": "https://www.larazon.es/economia/cuatros-modelos-dos-bloques-muchos-reproches-pocas-ideas-nuevas_202611136af78eab03bbf30bb04b8a7e.html",
@@ -30,32 +37,25 @@
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/13/6af785644760f.jpeg"
   },
   {
-   "titulo": "De qué se habló en las entrevistas de Jordi Wild: Ceuta con Sánchez, Economía con Feijóo e inmigración, con Colau",
+   "titulo": "Abascal advierte a sus votantes de que su mayor enemigo es el exceso de confianza",
+   "enlace": "https://elpais.com/espana/elecciones-generales/2026-11-13/abascal-advierte-a-sus-votantes-de-que-su-mayor-enemigo-es-el-exceso-de-confianza.html",
+   "fuente": "El País",
+   "fecha": "2026-11-13T22:36:53+00:00",
+   "imagen": "https://imagenes.elpais.com/resizer/v2/M36K2PNRFZO65EHCBJVLOGEQKA.jpg?auth=10b59b281bf8aed2e5ebb47b03ed3771d83753515d1a81234268122837609c64"
+  },
+  {
+   "titulo": "De qué se habló en las entrevistas de Jordi Wild: Ceuta con Sánchez, economía con Feijóo e inmigración con Colau",
    "enlace": "https://www.eldiario.es/politica/hablo-entrevistas-jordi-wild-ceuta-sanchez-economia-feijoo-e-inmigracion-colau_1_13662907.html",
    "fuente": "elDiario.es",
    "fecha": "2026-11-13T21:53:29+00:00",
    "imagen": "https://static.eldiario.es/clip/8804a875-837d-4fb9-ba3b-75ad7545d50e_16-9-discover-aspect-ratio_default_0.jpg"
   },
   {
-   "titulo": "Rufián se burla de Abascal: \"Si no se atreve con Jordi Wild, imaginadle con Mohamed VI\"",
-   "enlace": "https://www.20minutos.es/nacional/rufian-se-burla-abascal-si-no-se-atreve-con-jordi-wild-imaginadle-con-mohamed-vi_7060999_0.html",
-   "fuente": "20minutos",
-   "fecha": "2026-11-13T20:28:02+01:00",
-   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/13/6af761f2070664-12085909.jpeg"
-  },
-  {
    "titulo": "La otra pelea de las izquierdas: dónde se puede romper el ascenso del PSOE",
    "enlace": "https://www.elconfidencial.com/espana/2026-11-13/izquierdas-psoe-pelea-voto-elecciones_4464934/",
    "fuente": "El Confidencial",
    "fecha": "2026-11-13T19:58:00+01:00",
-   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794608778&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
-  },
-  {
-   "titulo": "El cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo será el jueves 19 de noviembre",
-   "enlace": "https://elpais.com/espana/elecciones-generales/2026-11-13/el-cara-a-cara-entre-pedro-sanchez-y-alberto-nunez-feijoo-sera-el-jueves-19-de-noviembre.html",
-   "fuente": "El País",
-   "fecha": "2026-11-13T18:21:16+00:00",
-   "imagen": "https://imagenes.elpais.com/resizer/v2/ULVV6CGUJNFQVHLRB674XBW6ZU.jpg?auth=19ce8ce243619bf46e1fab7f2d46770c8dc407e135656d22ea7b5d04b5625455"
+   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794608789&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
   },
   {
    "titulo": "Bolaños se muestra partidario de la norma no escrita que lleva a la Justicia a no tomar decisiones en periodo electoral",
@@ -75,7 +75,14 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "De qué se habló en las entrevistas de Jordi Wild: Ceuta con Sánchez, Economía con Feijóo e inmigración, con Colau",
+    "titulo": "Primer debate electoral en campaña: PSOE y Frente Amplio prometen inversión en el tren, frente a PP y Vox que piden auditar la red",
+    "enlace": "https://www.20minutos.es/nacional/primer-debate-electoral-campana-psoe-frente-amplio-prometen-inversion-tren-pp-vox-piden-auditar-red_7061028_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-11-13T23:27:57+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/13/6af78ccecc7795-52416088.jpeg"
+   },
+   {
+    "titulo": "De qué se habló en las entrevistas de Jordi Wild: Ceuta con Sánchez, economía con Feijóo e inmigración con Colau",
     "enlace": "https://www.eldiario.es/politica/hablo-entrevistas-jordi-wild-ceuta-sanchez-economia-feijoo-e-inmigracion-colau_1_13662907.html",
     "fuente": "elDiario.es",
     "fecha": "2026-11-13T21:53:29+00:00",
@@ -105,16 +112,16 @@
     "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY1EzTG1QSjFaajlncml0TG50NWVLbThabzZqZEREZDZUelIwQTNNVUhJT0lTY2JjOF95dDZJejlIRTNjVmFLNWsxNGxQb1RHV09FQ2ZUUW1hSUZiR2ZWV0RkZFh2ZXlIOU9VeERkaDhicjBlOVJJVnNSR216TnFYcXVPZkdBMTltZVI2LWRKaUpudTJfUlptOEdJWTc3WGt1eHUxSmg1Ym5ENk5CQTNuVWxsV3VkRTFDdHQtbEdiaGRDQnRrYU8xcHJkZ3hlQkEwNFFIN0ZNNVNTc1FnNmFWaNIB5gFBVV95cUxNZ2RSUHRVOTlUSkd2QTJ6QmRZa0pkNjlYM1MweXZwU1dHOEs0QWQ0bml4c3dTZmxSRkxSaVIzemZtVUdUNk9jY2JVN0dlTXUyNDlhelpHcndHQmJBTlRXTWxxa0dyUkl6NmJjTlBRNFR3ZjR5OEprVjNCdFB0NnhzdzNXNVBGUklFQXVEUURVRFdremo2cDBQRk15SjNnOFl2SEJzQlR4a1VQbzBGOXlTdEJNYTlqTUJ3UmMtZDdJbk5WaDlJVURvenozcTZycmlqMFZZaUtnSVlIdUVDSGd3RzBIMC1wQQ?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-13T20:34:32+00:00"
-   },
-   {
-    "titulo": "De Madrid a Santiago: el recorrido generacional de la campaña de Feijóo, que busca una mayoría de jóvenes y \"boomers\"",
-    "enlace": "https://www.larazon.es/espana/madrid-santiago-recorrido-generacional-campana-feijoo-que-busca-mayoria-jovenes-boomers_202611136af773efd3bddc0868b0d922.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-13T20:32:47+00:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/13/2C6B2B91-D01E-45BB-BA24-70B932866088/96.jpg?crop=6005,3378,x0,y312&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    }
   ],
   "PSOE": [
+   {
+    "titulo": "Primer debate electoral en campaña: PSOE y Frente Amplio prometen inversión en el tren, frente a PP y Vox que piden auditar la red",
+    "enlace": "https://www.20minutos.es/nacional/primer-debate-electoral-campana-psoe-frente-amplio-prometen-inversion-tren-pp-vox-piden-auditar-red_7061028_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-11-13T23:27:57+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/13/6af78ccecc7795-52416088.jpeg"
+   },
    {
     "titulo": "Las mentiras de Sánchez ante Jordi Wild",
     "enlace": "https://www.larazon.es/espana/mentiras-sanchez-jordi-wild_202611136af77949d3bddc0868b0de81.html",
@@ -123,7 +130,7 @@
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/23/9249DAD5-6C67-4760-8BAB-5E606CEC6445/96.jpg?crop=1200,675,x0,y113&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
-    "titulo": "De qué se habló en las entrevistas de Jordi Wild: Ceuta con Sánchez, Economía con Feijóo e inmigración, con Colau",
+    "titulo": "De qué se habló en las entrevistas de Jordi Wild: Ceuta con Sánchez, economía con Feijóo e inmigración con Colau",
     "enlace": "https://www.eldiario.es/politica/hablo-entrevistas-jordi-wild-ceuta-sanchez-economia-feijoo-e-inmigracion-colau_1_13662907.html",
     "fuente": "elDiario.es",
     "fecha": "2026-11-13T21:53:29+00:00",
@@ -146,15 +153,16 @@
     "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTzU1MFBkMEwzTTRzME1MWThXaGxIdXJhNmduYWNJcnhraGRENFNNUHUzZEVRcWFUUFVsSmdMc0kybnBNVHN2LURERnNuc2I2cnduM1NLVUJiQy14d2s2ci1iWG5MeW9ZMTN6ZzdaeUc0R2NyVWdnOWF6Vm5NUXpoalZoRWxPeXF3VU9OLWdmbXZxd1pYQWJ4aVJXVlJlUmZIamFfZVU2YktvaDBKdDVvMzJUeVZKQ3BqdE9TTXY1Y3hlcUFiand6aWlwM2ZrbjZk0gHWAUFVX3lxTE5vZUVlRUNwUl9RRzhPaWhvd0c2R0FZMWt2LWVLSDlKbWJkTmJzOVhPa2FURnZQR0J1NUxkNFB2SGxELVBEanRjRlh6WWs2SHppTjNWU0MxSDhuamdwVnlKdFlDSXByaFBVY0RrNXF2Zzc5MXI5R0ZVb0c4bEJkcE02QUd4bVUxM01HRnVGV1VKWURtazV5TTFTcmt0SGQ2YkFMaU9IQ0RGa0FsNWY0MGpBamdfOERtR3VJYXZ2TzhNVG5Sall5c2luVjJDTGRUU2tSZVo5elE?oc=5",
     "fuente": "Elplural.com",
     "fecha": "2026-11-13T20:22:42+00:00"
-   },
-   {
-    "titulo": "Sanchez apela «al corazón de la gente» ante un público entregado en Arnedo",
-    "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbVFGQVZ2WGZzTlZyV1VnRkFuUkUtbEhsVXpyTThWZWpnWjg4X2dmR0ZsVTkxMWdPSGRPV1ppbFZ1c0xWaDlKczJ0YUl4dnd3djFjbTBESURQNERZS2N1eEFRR2FzLWlxazZWRmxVSTNqRWhQWDJaMHNGUXZFNWNFMkRHdUFrWS1rdWt2QnRiUElmcnNhZmtieUF2VjnSAaIBQVVfeXFMT04tZEkzRm9FLWxTcWZvcWRHOGIxYi1CY1Y5YUc1RTViZFhCYTFDdFV2SWZEdlZ4bzRzUVN0N0sxaGh3QU9VazdKYnBEd20xVHgtY2R2VHluVU1xT3oxUzhoc2lXNXVXWXN6bmxPVUpodk5LLXV1UkQ2YTNTZTNQWkp3ekI1bWpIQ1V0SmUyd3pPYXN1YnNPUUw4UmlhYmszejRn?oc=5",
-    "fuente": "La Rioja",
-    "fecha": "2026-11-13T20:22:19+00:00"
    }
   ],
   "Vox": [
+   {
+    "titulo": "Primer debate electoral en campaña: PSOE y Frente Amplio prometen inversión en el tren, frente a PP y Vox que piden auditar la red",
+    "enlace": "https://www.20minutos.es/nacional/primer-debate-electoral-campana-psoe-frente-amplio-prometen-inversion-tren-pp-vox-piden-auditar-red_7061028_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-11-13T23:27:57+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/13/6af78ccecc7795-52416088.jpeg"
+   },
    {
     "titulo": "Las mujeres que apoyan a Vox toman la palabra en Colón: «Mi único miedo es que siga gobernando la izquierda»",
     "enlace": "https://okdiario.com/espana/mujeres-que-apoyan-vox-toman-palabra-colon-unico-miedo-que-siga-gobernando-izquierda-20897138",
@@ -163,36 +171,29 @@
     "imagen": "https://okdiario.com/img/2026/11/13/abascal7.jpg"
    },
    {
-    "titulo": "Abascal pide un 29-N glorioso que recosa la unidad patriótica",
-    "enlace": "https://www.lavanguardia.com/politica/20261113/11683878/abascal-pide-29-n-glorioso-recosa-unidad-patriotica.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-11-13T22:52:56+01:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/13/6af785644760f.jpeg"
+    "titulo": "PP y Vox insisten en bajar impuestos y PSOE y Frente Amplio dudan de que no afecte a los servicios públicos",
+    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSDFreWFrVklMajByWlJBNXU5VGc2RGxJYnhvdmdsdzlraFhkYzJMcDRKVFUtdXhyMUZuWjNFbVNZQm1WSVotYUhhSkQwSkFHUXlYNXRhVVRPOUZ4c1dNVFBQdElZaUs2ZGg2Z0JsSVE4bnVZazVQQjMzRFdsQWhTZ2lGbkZaalpiR2FCOVl6OHl0TWt1N2paa29xSmpJWnNvcEY2VTFXMUFYU0JJZEh5X1BYZDdYMksyUVNMSTVEZ0dPNU9aUGdtb1p2WnRlaFJjOXFzNUNnVVBmQdIB3wFBVV95cUxPWmFURkYxODJZZUF2MkRRUHFWRnhlNVVrbU5KcG1KQUxLYnlWMnhwYjBXS1BGLUcwcUs3QnpZMTVYQ3RSUDNLRDN2Z0JxTUxIV0hoMXNSWXJqZVpXUWhZb1VzNlNZTXFSZDhnRmcySFVmSTRHcWUyZXFUcDFpYXhISXBiSW5TaWx5NkNMVkhJT3JSUmpvX2VpSS1yT3l6cnFOSG1KbTVVYXFzSEU4TnVIcGdPbXRKcHQzNDk0QnJfRXkzTHpkUEVBdklheWNhMTFpNVJxTDV2c2FubUtXUGpj?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-13T22:42:44+00:00"
+   },
+   {
+    "titulo": "Abascal advierte a sus votantes de que su mayor enemigo es el exceso de confianza",
+    "enlace": "https://elpais.com/espana/elecciones-generales/2026-11-13/abascal-advierte-a-sus-votantes-de-que-su-mayor-enemigo-es-el-exceso-de-confianza.html",
+    "fuente": "El País",
+    "fecha": "2026-11-13T22:36:53+00:00",
+    "imagen": "https://imagenes.elpais.com/resizer/v2/M36K2PNRFZO65EHCBJVLOGEQKA.jpg?auth=10b59b281bf8aed2e5ebb47b03ed3771d83753515d1a81234268122837609c64"
+   },
+   {
+    "titulo": "Figaredo (Vox) reivindica su prioridad nacional frente a una España que \"no funciona\" por \"una casta corrupta y una inmigración masiva\"",
+    "enlace": "https://news.google.com/rss/articles/CBMilAJBVV95cUxORHNFUXRWWHY0cE1QenlKRjRjNzBxcWpLMDRoSWx1cTczVWpOc0RMVHFvYXIxV2hORXpiZUhqSEVqUU1XUjRKMkVkX2N1ZEIyenJYX0xsckRhTFIzd29GdEhPaVZOYkZMRG5KcE9Cc3dRU21fM2ZfMl9talUwVGdkRFpNNk45c1YxS0RqZVdkTGJpeGxOeDlqZGNPZDY0U1huY2NKOWFyZkdweVZ1eDNSYkhDSm9TWENtSDRVM3BRNHNPOEdsOUJWc1ppVUtCOFBPdmQwOU90TnBWd3V6bEp1bGJBdVNLbUVFTEdZQ2kxdTduU1J4NVoyR1FUanI1ZENsYmtWdDhCc3lpNy1oSG9iazZ6WWTSAZQCQVVfeXFMUGVUMjI5cmlYZ1U3Um1Qdk8wUldPNGdQb3lEUlNaTHlxUV9tblVjRm93T0FGaER0dk5pQTloMG5NMDBlbFAzRGdTTnhVZ1pNSEpERUZDb0VIWWxGaFlEOTRyMm9uWHd5VlVRang3QkxWSU9PNFhXMmZhOWw4SHhlOGkyZERHNzZmSUMzMTFKNlpxYmRZd3FHSmtoUHZKMW96NUpvV0xFU2w3ZTJ1enQ3VTFiUFNPTEstMWpHeUx2OWI2aVNzUG8xQ0hFR1lpOVRWZW5HX2FUc1hVVlZFNTUyS0FNd2xfLVBVT3E0NTVqR3kzdEhjUmcxWHhrUkJxak1pZFNzMV81NUtEY3M3ak94NTBPRkVI?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-11-13T22:34:00+00:00"
    },
    {
     "titulo": "Abascal: Vox levanta \"una bandera unitaria\" ni de izquierdas ni de derechas",
     "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRERWS1ZSNUR6UFJtaExTQ2tPNWN4enNWVl9vN2lBeUF2NUw0MVNwOFRWUU9zU21Jdk0yWkxqNE9DZURDS0hmZVhRR3hLQ2M3djNtQ2h5ZkNnRGJreHFzZlBCUTliWXRNSkpqU1BDT2s2WjdOUXdFNVpzS1pDZlp0emFIaGtsUXJKblNRNnQwSFJyZkpjWHpqcHhjYVZOMzdoUWI3NnlfMk5YTlVVUXF1aHFIMWtBYUhSMXZR0gHAAUFVX3lxTE0waEVYTVJSd2l4bjJkQ0JIRlFwUmZQWjI0eDllbG84OHdHQmtfbUs5MWpKNDd6VEVYdUJEUUM5QWxMRlNKcFBmSUtvUW5QaWFQTFdhSTZ5RzRNLUpJOWxwQVZGWHZCNHBUVzJnSnZQMHlnVWpuTVFmVVBJdGd1aTdXLVpHY2xDNmViQlhubC1nQ2lpT0F0ZUt1SU4za0xRdWR1d1o2SmhUbDROM0ZBN0ppVWlGcmswX0ItTE5sZGxUYw?oc=5",
     "fuente": "ABC",
     "fecha": "2026-11-13T22:04:08+00:00"
-   },
-   {
-    "titulo": "Adelante Andalucía reta a Abascal a responder sin filtros ante la gente en una universidad pública",
-    "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM0lCSUlqZ2U2SHhwSlRZSU9nTWFiSzlQazNNRU9GSWVCSjM3VUpQbEdvVXlmOFN2ZkR4eUoyc1doUmhtTlQzYlB1VE01ZW5VVzdobG16aXplTE0zZmRlZEMyZktTckVHSVp3SUQ4T2FpbnVNMlBGOGpQeWpVRlBtQkNwMHFrWXd4M3M5Qy1wSVhjRjR5Z0JrMjRZUVZ1SFdnd3VzTURRYkVlREx2aTU4SnNrMURGNjFTa2ZSVm9SMDFReW9obC1KNmdPZjluWFpOT2t3?oc=5",
-    "fuente": "Cordoba Hoy",
-    "fecha": "2026-11-13T21:54:59+00:00"
-   },
-   {
-    "titulo": "Sánchez busca una movilización histórica de la izquierda contra el PP y Vox que vuelva a echar por tierra los sondeos",
-    "enlace": "https://www.eldiario.es/politica/sanchez-busca-movilizacion-historica-izquierda-pp-vox-vuelva-echar-tierra-sondeos_1_13662791.html",
-    "fuente": "elDiario.es",
-    "fecha": "2026-11-13T21:53:28+00:00",
-    "imagen": "https://static.eldiario.es/clip/637d4d37-4f3b-469b-bb5e-cd14e7226823_16-9-discover-aspect-ratio_default_0.jpg"
-   },
-   {
-    "titulo": "Abascal: “Estas elecciones son existenciales para España. Nos lo jugamos todo”",
-    "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMnJrbXhkTzlEN200U3hEUC1wWEl1M1drOXljUi1nZlNPZnl5a055cDV0THg5Z2I0UzVlVC1lRVVGTTJ0Mlo2OVp3RjgzYzFZNm1nS25IUG9YdjEtR2RWTTg3Mk5FOWFqVG5WWV9tWEE1RFhGd0xZZFRJM3dKc3Q3c2k3QURsbTh2SFNUbEl0U19Xd01PVkNaOEtmNVZOd3BUeFNmT21XVWpEVWN5R0E1U2ZR0gG3AUFVX3lxTE56VzFqdHpGYlp3Z1loMFRTM01JeFBZdjlURjcxZ2ZwUmI1RlVOMzRlVENVR08wd1c3ZFBZcklRVHFxYWJqQ01Za0NtU0N4a2FrX0ZtLUJ2a2RYUTFZS05GZVVrTE5ydXlLTnpyVlV3TGNORGgtZFI0S2VBcVFGYk5xb3BoX0U2bFJMY1pTN3NWR2wzS3BSZmZCbF9mcWI1TmROd2QwQU44TV9Vbk5wWWtRc0RxbWFQTQ?oc=5",
-    "fuente": "La Provincia",
-    "fecha": "2026-11-13T21:53:26+00:00"
    }
   ],
   "Sumar": [
@@ -362,7 +363,7 @@
    },
    {
     "titulo": "Junts pide convertir el 29-N en un correctivo para el Govern de Illa: \"Tarjeta roja, president\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUUVzdV82S1RsSXd1QlVremRfMUZBMGdrVm4temJqaUxTVWtVNHJJWjhLQTQ3MkVQdlRnenEzSk1ZYTFVOENlY2RvRXItWGd5NDBKRGV1S2hzOWxJdTdRT19RdXhXLUFTUF9sWkxIcl9PWGVsaXhFR3ZaZU5fOFF4ODRZOTJkU2x5ZVFZNTRPQmVxYnVzd2M0TVVZVEdsSVlnc3ZZaXh4ZFVjaFNPcktILWRFZXAzRHc3cWfSAboBQVVfeXFMTktFcXBDOGJ6cnlXM0h1c0xVVXo1WkpIcV85NzlHWDgzeXJYai1YQTZLU1dWRGFKTWRBbTJ3eHJpN1AzTW5iUjRxUFB3cTV0SklHYl8wSFkzM2Y0RGRqbzRKOGo1dUFsNkkyMTBHRFdNQ01rNFVoZW9jUXhtcFRvZkRkTllDOXEyZWFaRTdHMldpTGJMbXY2V3piRXpiUnE1b2VJT1BoUGh5RjdORVh4ZmllNkFFS05NTkJ3?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS0VxcEM4YnpyeVczSHVzTFVVejVaSkhxXzk3OUdYODN5clhqLVhBNktTV1ZEYUpNZEFtMnd4cmk3UDNNbmJSNHFQUHdxNXRKSUdiXzBIWTMzZjREZGpvNEo4ajV1QWw2STIxMEdEV01DTWs0VWhlb2NReG1wVG9mRGROWUM5cTJlYVpFN0cyV2lMYkxtdjZXemJFemJScTVvZUlPUGhQaHlGN05FWHhmaWU2QUVLTk1OQnfSAboBQVVfeXFMTktFcXBDOGJ6cnlXM0h1c0xVVXo1WkpIcV85NzlHWDgzeXJYai1YQTZLU1dWRGFKTWRBbTJ3eHJpN1AzTW5iUjRxUFB3cTV0SklHYl8wSFkzM2Y0RGRqbzRKOGo1dUFsNkkyMTBHRFdNQ01rNFVoZW9jUXhtcFRvZkRkTllDOXEyZWFaRTdHMldpTGJMbXY2V3piRXpiUnE1b2VJT1BoUGh5RjdORVh4ZmllNkFFS05NTkJ3?oc=5",
     "fuente": "El Periódico",
     "fecha": "2026-11-13T20:29:33+00:00"
    },
@@ -386,11 +387,10 @@
     "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945695827094.jpg"
    },
    {
-    "titulo": "Junts exige que el dinero de los catalanes se quede en Catalunya y salir de la Lofca",
-    "enlace": "https://www.lavanguardia.com/politica/20261113/11683377/junts-exige-dinero-catalanes-quede-catalunya-salir-lofca.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-11-13T12:23:05+01:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/13/6af6f2eaad492.r_d.3347-1755-697.jpeg"
+    "titulo": "Nogueras (Junts) defiende el concierto y critica la posición del PSC en el Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQlVXWE03T3U5TkN5WTFDdXJrUEw2cGYydW5DSjE4WENjNUNHb252RE5MV2hrcG12R1JURDVsXzY3ZFdJbnVydWZmbUU4VUxQSXhobXM1cFdCU0xCTzlZemV3SkFBNmJvQ1Bla21iNHp2a28yemU3TVlTYTNrc3J2ak1ydERTblU2d24yNjQwVm1LVk45N1ZwREg2T1pFZV9wMEMwQUNB0gGrAUFVX3lxTE95X3RzeWlUZ2x6ZVR5TjdvSkRYRWVvS3l5bWZCVEtMMjRzbGZSM2NwQWRkT3VIRW9XUS1lS2N0RmpiaDJyRjl2NDBjUEl1MFRBT1Y0c0pCY2NweGstSzNpM3VEOVZvZFJRU0pMYXFJSVEtcmVvSzdGb3lNWm8xM2tpQ2hJSkxzMUlXVWpNWHk4R19maS1UbVU4SXlYb0ZHRVQ0dk4wU3IxWnNyWQ?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-11-13T12:48:51+00:00"
    }
   ],
   "Bildu": [
@@ -528,9 +528,9 @@
    },
    {
     "titulo": "AM-CC quiere «recuperar la voz de Fuerteventura en Madrid» en las elecciones del 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVXdreWhQeHhaWk9LSXV3WVJnNjlDM0VrQkFmRVJfY2FTVm1JYk9jcFUzN2FkTUVlOFdpc3lDbk9yYVpGbXM4RzlhNWVDLXRJLUpPcGUwT1VUSmtkWmdZdV92OUFQSXNtMG5wV1Q0YnBMZk4zLVhDWmctaElENmJqdDBabGI3SHl2eVh5ME9WX20yWHdmR3RlMWw5eEotQWFyYTdPQlBpeVNTWDhUaDZDLVFoMWMyOTh1azBMVC1TMEE0bjNiRm8xQVF0NTFpdzJBYTJvSnFyNWtkMnPSAdsBQVVfeXFMTlV3a3loUHh4WlpPS0l1d1lSZzY5QzNFa0JBZkVSX2NhU1ZtSWJPY3BVMzdhZE1FZThXaXN5Q25PcmFaRm1zOEc5YTVlQy10SS1KT3BlME9VVEprZFpnWXVfdjlBUElzbTBucFdUNGJwTGZOMy1YQ1pnLWhJRDZianQwWmxiN0h5dnlYeTBPVl9tMlh3Zkd0ZTFsOXhKLUFhcmE3T0JQaXlTU1g4VGg2Qy1RaDFjMjk4dWswTFQtUzBBNG4zYkZvMUFRdDUxaXcyQWEyb0pxcjVrZDJz?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxON2UyZUJmYnpPdmxOcVBlR0ZnQm12VWIzM1ZqNlNvOGlPSHA4TnJFTUd4cWp1ZVRnZ0pXdzhVSWNQU2h4bTk3M1k2RnZETlZKVWVvLWxISzRvNFl1YlAyTURoXzNMXzAzeVk5MjlZa3J6N0wxV2Y5NW1hNE55ZkE2eXp4M1B1cXRldnN2N3hBdHM4MGJ1MXo1ZzVvQWp4YllyUW5tOUFkZDdwMzNGcl9qTUxEYkxXYU1pWUtzVGgwMGVtTVQxMVk5VGVuWHdFWjBLejg0dkJR0gHbAUFVX3lxTE5Vd2t5aFB4eFpaT0tJdXdZUmc2OUMzRWtCQWZFUl9jYVNWbUliT2NwVTM3YWRNRWU4V2lzeUNuT3JhWkZtczhHOWE1ZUMtdEktSk9wZTBPVVRKa2RaZ1l1X3Y5QVBJc20wbnBXVDRicExmTjMtWENaZy1oSUQ2Ymp0MFpsYjdIeXZ5WHkwT1ZfbTJYd2ZHdGUxbDl4Si1BYXJhN09CUGl5U1NYOFRoNkMtUWgxYzI5OHVrMExULVMwQTRuM2JGbzFBUXQ1MWl3MkFhMm9KcXI1a2Qycw?oc=5",
     "fuente": "Fuerteventura Digital",
-    "fecha": "2026-11-13T10:33:54+00:00"
+    "fecha": "2026-11-13T10:33:47+00:00"
    },
    {
     "titulo": "29-N | Coalición Canaria abre la puerta a apoyar un Gobierno del PP con Vox tras rechazarlo durante la precampaña",
@@ -838,19 +838,26 @@
    "fecha": "2026-11-13T14:43:37+00:00"
   },
   {
+   "titulo": "¿«El Gobierno incluyó a CCOO y UGT en un plan de subvenciones de 31 millones de euros un día antes de la huelga general»? · La Buloteca · Maldita.es",
+   "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMm9uYlRsMG1HMUVfMDY2UWFjT0c5Y1JPUmxGQTV1RDhub1NLOWhMMmdTcFhISmp1R0I2ekVGUzRhYTU2ajIycGpCek9fcVN5Y0lJcllIeUxFRF94X0ljSERSN3llV0ZBNUx0WTktalotbTJaeWlHbjlXTlpxdzdQYnRtUnR1OW1BX0pmQXhnZmd0d0F2TkE4TlkxRk04LWNUeUtWVE5JVHJhT0ZwY1FKOGVjbnROenZ6WnU2RTFBa0pOQVVSTG9RSVZvSGNxcEZ0VGZtMjRpelgyWlVjRkM2RWxrcDZIdw?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-11-13T12:38:32+00:00"
+  },
+  {
    "titulo": "La JEC aclara que tachar el nombre de Puente en las papeletas del PSOE por Valladolid se considerará voto nulo",
    "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtVXBvZnEyS05JZlZmOTV6Zm5CNVNzTkk1UTllUkYxeXc0ekxmblQ1cllkaFFYLXdmYUNVOXJGQVBKRURYaTFZWVpnY1JaOEF0UEF2ZzFaWDVtdHNSYVNzUDZ1TjZ0NU9GWlg4YQ?oc=5",
    "fuente": "Newtral",
    "fecha": "2026-11-13T11:59:12+00:00"
-  },
-  {
-   "titulo": "El CIS no ha publicado esta “encuesta flash sin cocinar” que da al PSOE 60 escaños en las elecciones del 29N",
-   "enlace": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBObDRNa2ZITWVtSFpldTdzYTAzLVFBeTItUWdrb2RVODJZaVlCeDlfZGdSSFRKXzg0eHhxaS1SNnJzZWZVTDJCZjRiY3BxR09UVm0xSm42OU5ycERkWGg1Sk90aWJpUQ?oc=5",
-   "fuente": "Newtral",
-   "fecha": "2026-11-13T11:56:03+00:00"
   }
  ],
  "polemicas": [
+  {
+   "titulo": "PP y Vox insisten en bajar impuestos y PSOE y Frente Amplio dudan de que no afecte a los servicios públicos",
+   "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSDFreWFrVklMajByWlJBNXU5VGc2RGxJYnhvdmdsdzlraFhkYzJMcDRKVFUtdXhyMUZuWjNFbVNZQm1WSVotYUhhSkQwSkFHUXlYNXRhVVRPOUZ4c1dNVFBQdElZaUs2ZGg2Z0JsSVE4bnVZazVQQjMzRFdsQWhTZ2lGbkZaalpiR2FCOVl6OHl0TWt1N2paa29xSmpJWnNvcEY2VTFXMUFYU0JJZEh5X1BYZDdYMksyUVNMSTVEZ0dPNU9aUGdtb1p2WnRlaFJjOXFzNUNnVVBmQdIB3wFBVV95cUxPWmFURkYxODJZZUF2MkRRUHFWRnhlNVVrbU5KcG1KQUxLYnlWMnhwYjBXS1BGLUcwcUs3QnpZMTVYQ3RSUDNLRDN2Z0JxTUxIV0hoMXNSWXJqZVpXUWhZb1VzNlNZTXFSZDhnRmcySFVmSTRHcWUyZXFUcDFpYXhISXBiSW5TaWx5NkNMVkhJT3JSUmpvX2VpSS1yT3l6cnFOSG1KbTVVYXFzSEU4TnVIcGdPbXRKcHQzNDk0QnJfRXkzTHpkUEVBdklheWNhMTFpNVJxTDV2c2FubUtXUGpj?oc=5",
+   "fuente": "Demócrata",
+   "fecha": "2026-11-13T22:42:44+00:00",
+   "partido": "Vox"
+  },
   {
    "titulo": "Abascal esquiva la polémica de Jordi Wild: el silencio del líder de Vox marca el rumbo de la campaña",
    "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTDAwZ3dZQ0laQmp6TXZ6Sl9KdEdtdGtoUVRYc29ONU9Xb0NJSWdvM2tXN1FEdVliM00yVEZGMzFnWFR6WlRXeUJvNXkwLUlwajNmRjIzSVRGX3VnTTBQZVBGOERlMnVGQVZPWC15dVY4M3JZTUMxWVNaVk5QTVBjNmI1QmJBVk50anlXd1dTa0RLQV9xSTJGSkNZM1lUVG9YeWR3RENGSE42LWI1SDNsa0xMNW1JWVZKX3JXUkJYRms2OXZiVnNpcm1qUXlQVGo4V2VxSEVGcHcxTE9PZ0FhQWQ2dW9CVzI10gH8AUFVX3lxTE8xQ25pSEFpSXNhb2RTeVNxY3FvdVRJVi1oa1R1VFBIcHd3ekZRTWNsR1FkcFNkd0w1enlEaU03Q0p3UG5Zc1dGQ09jaEd2M2NJTTZCSW5QVHM1SlNNYllYZDNmbnZWandfV0Z4UHhKV3RBX0t5OE1ISEJXNnkyeExnRGFCY0lqX09qQU5YNzVsVVBjU0Q2S1VVd1h1LW1WNk50clYxclZCMkJRaEJzMm9maHdVcE9KeDdXU3dVbXFHeDdVeEMyUHdxX1B6WEREMXZiSktCZkxYYmFhMWh4M3IxWVBCM25XZE9DV3I1di1yRGozcHVOMmY3RHFsUg?oc=5",
@@ -859,11 +866,12 @@
    "partido": "Vox"
   },
   {
-   "titulo": "Choque de Bustinduy (Frente Amplio) y Figaredo (Vox) por la migración: \"No voy a debatir con alguien que llamó a cazar migrantes\"",
-   "enlace": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTUc0cEVmWndpdFlPeWphMW5MZUhYb1RqRURudWZ3bjlOSTAwOXJpd01CemVra0NNVlQ4ZjRfXzVUSHNxUkgyc1YyMTRfYlR2U3RMaEJnSVQ2cTdQMjhMaUdGVXdMUkw0a2FXVElMT2V0U0hzTjBhM2FiSXRZM0JWMWRHS2dlaE82eFltUXZ0Tzg2RVdZUmhGY3VQTU5WaXotY0J0bHVjbnMyYTlhQ2w4bGY3dld6SE9JTmM0SWNmQXpQWUpfQmxEczlMcjVnVGdhYXV6RFJMRXdIUXRfUF9XdHluUmFaMlN5eTY5Yk93RkJTMnFCOFhRbzlOdzVQaklYLWhxN2FsZTjSAYgCQVVfeXFMUGx1cThVTFpVRkhHOGI0bnRqNTlFbm5MRUlGcVRUUGRDYjdWN0Rma2dKeDB5dnhYMlVUVUs0UUhjRXdsTzhKMGlKeVBSb2xUSm9zWUUzazB0OWRLY0pGR2w5NUJ3MG9DSVgzZ0QwWmdJSVV0N1EwV19tX2tGTDFfOWM3eGdiaEpCNG5iNEwtWmVpY21rS2RrajV5bVVqcmhzbjV3Y0tOLVFHYzJmSTFVTDdIT1F1NkhaZGd0OW9NRUJaMndNSS1JY1ppUl8zcGZuV0J0NkJkVk9KWnc5WHJCeG1ZZ0VVY2psYTUtUS1HTDZ6VXFkeFZsX1JpZXJUZkUzOTRvRS0xbU1r?oc=5",
-   "fuente": "LaSexta",
-   "fecha": "2026-11-13T21:08:12+00:00",
-   "partido": "Vox"
+   "titulo": "El PSOE de Sánchez pide a la Fiscalía de Sánchez que investigue al PP, a su abogado y a Inda sobre la base ...",
+   "enlace": "https://okdiario.com/espana/psoe-sanchez-pide-fiscalia-sanchez-que-investigue-pp-abogado-inda-sobre-base-bulos-koldo-20896678",
+   "fuente": "OkDiario",
+   "fecha": "2026-11-13T20:18:07+00:00",
+   "partido": "PP",
+   "imagen": "https://okdiario.com/img/2026/11/13/sanchez-koldo-inda-pp-interior.jpg"
   },
   {
    "titulo": "Pedro Sánchez, sobre la polémica entrevista de Santiago Abascal en 'La Revuelta': \"Parece que el problema lo ha tenido David Broncano\"",
