@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-13T20:30:28+00:00",
+ "actualizado": "2026-11-13T21:01:11+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1385535029,
+ "revision": 1385539985,
  "partidos": [
   "PP",
   "PSOE",
@@ -130,39 +130,6 @@
    "encargo": "El Mundo",
    "id": "sigmados-2026-11-12-4620",
    "primera_vez": "2026-11-13T20:01:05+00:00"
-  },
-  {
-   "empresa": "SW Demoscopia/La Séptima",
-   "inicio": "2026-10-26",
-   "fin": "2026-11-12",
-   "muestra": 7500,
-   "participacion": null,
-   "pct": {
-    "PP": 28.7,
-    "PSOE": 31.6,
-    "Vox": 17.1,
-    "Sumar": 14.6
-   },
-   "escanos": {
-    "PP": 117.0,
-    "PSOE": 131.0,
-    "Vox": 58.5,
-    "Sumar": 23.0,
-    "ERC": 12.0,
-    "Junts": 4.5,
-    "Bildu": 7.0,
-    "PNV": 3.0,
-    "BNG": 2.0,
-    "CCa": 1.0,
-    "AA": 3.0,
-    "Podemos": 0.0,
-    "SALF": 0.0
-   },
-   "empresa_base": "SW Demoscopia",
-   "clave": "swdemoscopia",
-   "encargo": "La Séptima",
-   "id": "swdemoscopia-2026-11-12-7500",
-   "primera_vez": "2026-11-13T20:30:28+00:00"
   },
   {
    "empresa": "Sigma Dos/El Mundo",
