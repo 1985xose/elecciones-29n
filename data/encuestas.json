@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-13T21:01:11+00:00",
+ "actualizado": "2026-11-13T22:01:11+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1385539985,
+ "revision": 1385545961,
  "partidos": [
   "PP",
   "PSOE",
@@ -132,6 +132,41 @@
    "primera_vez": "2026-11-13T20:01:05+00:00"
   },
   {
+   "empresa": "EM-Analytics/Electomanía",
+   "inicio": "2026-11-09",
+   "fin": "2026-11-11",
+   "muestra": 1475,
+   "participacion": null,
+   "pct": {
+    "PP": 30.2,
+    "PSOE": 26.2,
+    "Vox": 19.2,
+    "Sumar": 7.7,
+    "Podemos": 1.6,
+    "SALF": 2.1
+   },
+   "escanos": {
+    "PP": 125.0,
+    "PSOE": 111.0,
+    "Vox": 65.0,
+    "Sumar": 14.0,
+    "ERC": 10.0,
+    "Junts": 5.0,
+    "Bildu": 7.0,
+    "PNV": 4.0,
+    "BNG": 3.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 2.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "EM-Analytics",
+   "clave": "electopanel",
+   "encargo": "Electomanía",
+   "id": "electopanel-2026-11-11-1475",
+   "primera_vez": "2026-11-13T22:01:11+00:00"
+  },
+  {
    "empresa": "Sigma Dos/El Mundo",
    "inicio": "2026-11-03",
    "fin": "2026-11-11",
@@ -164,6 +199,38 @@
    "encargo": "El Mundo",
    "id": "sigmados-2026-11-11-3870",
    "primera_vez": "2026-11-12T20:01:06+00:00"
+  },
+  {
+   "empresa": "EM-Analytics/Electomanía",
+   "inicio": "2026-11-01",
+   "fin": "2026-11-08",
+   "muestra": 2531,
+   "participacion": null,
+   "pct": {
+    "PP": 30.5,
+    "PSOE": 25.9,
+    "Vox": 19.0,
+    "Sumar": 7.7,
+    "Podemos": 1.7,
+    "SALF": 2.0
+   },
+   "escanos": {
+    "PP": 127.0,
+    "PSOE": 110.0,
+    "Vox": 65.0,
+    "Sumar": 14.0,
+    "ERC": 9.0,
+    "Junts": 5.0,
+    "Bildu": 8.0,
+    "PNV": 4.0,
+    "Podemos": 2.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "EM-Analytics",
+   "clave": "electopanel",
+   "encargo": "Electomanía",
+   "id": "electopanel-2026-11-08-2531",
+   "primera_vez": "2026-11-13T22:01:11+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",

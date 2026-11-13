@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-13T21:01:11+00:00",
-  "mensaje": "541 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-11-13T21:01:11+00:00",
+  "hora": "2026-11-13T22:01:11+00:00",
+  "mensaje": "543 encuestas leídas, 2 nuevas",
+  "ultima_buena": "2026-11-13T22:01:11+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -19,30 +19,33 @@
     "NC Report/La Razón 2026-11-05"
    ],
    "corregidas": [],
-   "nuevas": []
+   "nuevas": [
+    "EM-Analytics/Electomanía 2026-11-11",
+    "EM-Analytics/Electomanía 2026-11-08"
+   ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-13T21:01:56.950Z",
+  "hora": "2026-11-13T22:01:50.574Z",
   "mensaje": "10000 repeticiones, faltan 16 días",
-  "ultima_buena": "2026-11-13T21:01:56.950Z",
+  "ultima_buena": "2026-11-13T22:01:50.574Z",
   "detalle": {
    "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-13T21:02:22+00:00",
-  "mensaje": "10 titulares del día, 90 por partido, 18 polémicas",
-  "ultima_buena": "2026-11-13T21:02:22+00:00",
+  "hora": "2026-11-13T22:02:13+00:00",
+  "mensaje": "10 titulares del día, 90 por partido, 19 polémicas",
+  "ultima_buena": "2026-11-13T22:02:13+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-13T21:02:22+00:00"
+  "hora": "2026-11-13T22:02:13+00:00"
  },
  "avisado": {},
  "fiabilidad": {
