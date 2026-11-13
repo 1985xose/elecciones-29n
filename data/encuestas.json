@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-13T11:01:08+00:00",
+ "actualizado": "2026-11-13T12:01:38+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1385452622,
+ "revision": 1385465150,
  "partidos": [
   "PP",
   "PSOE",
@@ -89,41 +89,6 @@
    "encargo": "El Mundo",
    "id": "sigmados-2026-11-11-3870",
    "primera_vez": "2026-11-12T20:01:06+00:00"
-  },
-  {
-   "empresa": "Winston/Artículo14",
-   "inicio": "2026-11-05",
-   "fin": "2026-11-08",
-   "muestra": 1501,
-   "participacion": null,
-   "pct": {
-    "PP": 31.1,
-    "PSOE": 26.4,
-    "Vox": 18.7,
-    "Sumar": 16.8,
-    "Podemos": 1.6,
-    "SALF": 2.5
-   },
-   "escanos": {
-    "PP": 134.0,
-    "PSOE": 109.0,
-    "Vox": 64.0,
-    "Sumar": 34.0,
-    "ERC": 8.0,
-    "Junts": 3.0,
-    "Bildu": 5.0,
-    "PNV": 3.0,
-    "BNG": 2.0,
-    "CCa": 0.0,
-    "AA": 5.0,
-    "Podemos": 0.0,
-    "SALF": 0.0
-   },
-   "empresa_base": "Winston",
-   "clave": "winston",
-   "encargo": "Artículo14",
-   "id": "winston-2026-11-08-1501",
-   "primera_vez": "2026-11-13T07:54:30+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -742,13 +707,13 @@
     "PP": 29.4,
     "PSOE": 27.1,
     "Vox": 19.2,
-    "Sumar": 5.6
+    "Sumar": 11.2
    },
    "escanos": {
     "PP": 122.0,
     "PSOE": 115.0,
     "Vox": 69.0,
-    "Sumar": 12.0,
+    "Sumar": 24.0,
     "ERC": 11.0,
     "Junts": 4.0,
     "Bildu": 7.0,
