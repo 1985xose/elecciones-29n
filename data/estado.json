@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-14T17:03:55+00:00",
-  "mensaje": "544 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-11-14T17:03:55+00:00",
+  "hora": "2026-11-14T18:01:05+00:00",
+  "mensaje": "545 encuestas leídas, 1 nuevas",
+  "ultima_buena": "2026-11-14T18:01:05+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -19,30 +19,32 @@
     "SW Demoscopia/La Séptima 2026-11-06"
    ],
    "corregidas": [],
-   "nuevas": []
+   "nuevas": [
+    "EM-Analytics/Electomanía 2026-11-04"
+   ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-14T17:04:41.162Z",
+  "hora": "2026-11-14T18:01:33.312Z",
   "mensaje": "10000 repeticiones, faltan 15 días",
-  "ultima_buena": "2026-11-14T17:04:41.162Z",
+  "ultima_buena": "2026-11-14T18:01:33.312Z",
   "detalle": {
    "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-14T17:05:02+00:00",
+  "hora": "2026-11-14T18:01:57+00:00",
   "mensaje": "10 titulares del día, 90 por partido, 22 polémicas",
-  "ultima_buena": "2026-11-14T17:05:02+00:00",
+  "ultima_buena": "2026-11-14T18:01:57+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-14T17:05:02+00:00"
+  "hora": "2026-11-14T18:01:57+00:00"
  },
  "avisado": {},
  "fiabilidad": {
