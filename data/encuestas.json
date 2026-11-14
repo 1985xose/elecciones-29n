@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-14T21:01:04+00:00",
+ "actualizado": "2026-11-14T21:27:38+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1385676813,
+ "revision": 1385707688,
  "partidos": [
   "PP",
   "PSOE",
@@ -637,6 +637,34 @@
    "encargo": "Onda Cero",
    "id": "celestetel-2026-11-03-1100",
    "primera_vez": "2026-11-06T15:00:05+00:00"
+  },
+  {
+   "empresa": "YouGov/Ara",
+   "inicio": "2026-10-26",
+   "fin": "2026-11-02",
+   "muestra": 1221,
+   "participacion": null,
+   "pct": {
+    "PP": 29.6,
+    "PSOE": 25.9,
+    "Vox": 20.0
+   },
+   "escanos": {
+    "PP": 121.0,
+    "PSOE": 104.5,
+    "Vox": 72.0,
+    "Sumar": 37.0,
+    "ERC": 12.5,
+    "Junts": 4.5,
+    "Bildu": 7.0,
+    "PNV": 3.5,
+    "AA": 3.0
+   },
+   "empresa_base": "YouGov",
+   "clave": "yougov",
+   "encargo": "Ara",
+   "id": "yougov-2026-11-02-1221",
+   "primera_vez": "2026-11-14T21:27:38+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
