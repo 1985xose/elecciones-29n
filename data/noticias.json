@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T17:01:47+00:00",
+ "actualizado": "2026-11-14T17:04:41+00:00",
  "generales": [
   {
    "titulo": "Vox reivindica medidas para facilitar el acceso a la vivienda a los jóvenes y proteger el campo mallorquín",
@@ -16,7 +16,7 @@
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/14/WhatsApp%20Image%202026-11-14%20at%2017.39.39-R6TLuAqoKWOWAfF47UuTVII-1200x840@diario_abc.jpg"
   },
   {
-   "titulo": "El PSOE exige desmantelar el campamento del Puerto en su primer acto de campaña en Ceuta y pide cautela con Rabat",
+   "titulo": "El PSOE inicia su campaña electoral en Ceuta en el desmantelado campamento del Puerto y pide cautela con Rabat",
    "enlace": "https://www.elespanol.com/espana/20261114/psoe-exige-desmantelar-campamento-puerto-primer-acto-campana-ceuta-pide-cautela-rabat/1003744458415_0.html",
    "fuente": "El Español",
    "fecha": "2026-11-14T17:40:56+01:00",
@@ -116,7 +116,7 @@
   ],
   "PSOE": [
    {
-    "titulo": "El PSOE exige desmantelar el campamento del Puerto en su primer acto de campaña en Ceuta y pide cautela con Rabat",
+    "titulo": "El PSOE inicia su campaña electoral en Ceuta en el desmantelado campamento del Puerto y pide cautela con Rabat",
     "enlace": "https://www.elespanol.com/espana/20261114/psoe-exige-desmantelar-campamento-puerto-primer-acto-campana-ceuta-pide-cautela-rabat/1003744458415_0.html",
     "fuente": "El Español",
     "fecha": "2026-11-14T17:40:56+01:00",
@@ -489,6 +489,12 @@
     "fecha": "2026-11-14T16:06:00+00:00"
    },
    {
+    "titulo": "Un vídeo electoral del BNG de Lugo grabado en Ames provoca el reproche del alcalde: \"¡Lo que son las cosas!\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNN05FQjEwT2VJUEhrblZERWx2ZGRJUTFxM0MwckdRd21kUkMxeXZzR1dpX0hZdU1USE12V0VzWGFMdDBGbnhUcmJEUVdqZUxfc2JZRUl2UDZpYjBiWGhpejJEWjBLR0V1VVdMcGZzeHVHVTBKdTU2TW9BbjNrb19zMVBRd1VQZzZQbmZiTVMxSUlRbXpzZksxeVI0T2FpMHdmNzhrZU02Slg1NXJYeUVWSGRlZFNna1JETGVVNUswSTlzY2xGTkZRbjVDN2dpYlpjVVlZNHB5ZDRVWXJpU1Q3R9IB4AFBVV95cUxNN05FQjEwT2VJUEhrblZERWx2ZGRJUTFxM0MwckdRd21kUkMxeXZzR1dpX0hZdU1USE12V0VzWGFMdDBGbnhUcmJEUVdqZUxfc2JZRUl2UDZpYjBiWGhpejJEWjBLR0V1VVdMcGZzeHVHVTBKdTU2TW9BbjNrb19zMVBRd1VQZzZQbmZiTVMxSUlRbXpzZksxeVI0T2FpMHdmNzhrZU02Slg1NXJYeUVWSGRlZFNna1JETGVVNUswSTlzY2xGTkZRbjVDN2dpYlpjVVlZNHB5ZDRVWXJpU1Q3Rw?oc=5",
+    "fuente": "El Español",
+    "fecha": "2026-11-14T15:15:08+00:00"
+   },
+   {
     "titulo": "El BNG denuncia las \"amenazas\" medioambientales que afectan a Vigo",
     "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaDQyOHJMX1hYbnBNZzNWYV80ZFJETm5JUVpQRUdGb2NNeTUwVVNvR0YydzhtdGtGanhrMVJqaF9QVzVJdVZ3Mmt4Y2doQy0wZXJPV2N2SjAwVEUwNnViVkFldjM4cHRuYjF3Qldvbi1ZZ1Q5R1BZRFpjNWl6d2hIYjgyUFZ1WWZzTzlGcVU3UHB2S1JtX25oRFFMVTktR2dD0gGmAUFVX3lxTE1TZ0lEamc3d0JIQ1F1d2x4WFNseXF6NEtpNG1FMFJ3YmdjRTNnWmMzNDlFNTVpeWxJLUpza1hGakVTNVVweFo0UzFfcE5lenNVM1BKb2VjLWZUdEsxR2JlVnZzVnpwRUhuc0NuNHJCbzU4SzI0QkZfal9ySVFtN2pvakF1T3kwOGdWUEpuQTdxUk9oeGtFRzlEZnFqcmNzdGk1NElrTlE?oc=5",
     "fuente": "Metropolitano.gal",
@@ -499,12 +505,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ3RYMjlKZG9WQ2Y1aWFpalUyQmM5QVlNdFNXWlRMQXQ1bDlUVktUQUE5QUxRaDBsbTRlUjA4QlpHZm9HTTNMVEkzNVJvTEFuN3VFd042NXRSQzRqYmthblltaG4tVUFxWnU1UGFLODNPTzJaamdrUk9lU0pyZnNqT2VOclU1QWNwbXFYX0txS2pxWEpnd0lEQU4xM3pVTEtxOGpPRUgwSElyUdIBrwFBVV95cUxPNDhfeWdENURoRWlfdkJlLXh6TllEazFJS0Jtc1FlYXI1TzQyTk5DY29RazBXTmh5LUlJYWhQQ2p4c0xXX01zUm9GcDJVNjA0dm1VU0RVcWZFVXIxc0JKcnhKUkNuSWRwRDIzejdTaDVVQ2ZOWEZPdTN2ZndkNW5pXzNaTkJIZkwxaDZCT0VBRFplcTZBSjAxRENUdkpmd1Y4Mnh2QUpiMG83U3RvdGhV?oc=5",
     "fuente": "Faro de Vigo",
     "fecha": "2026-11-13T21:01:23+00:00"
-   },
-   {
-    "titulo": "El BNG asegura que dará la sorpresa el 29N y logrará el primer escaño por Ourense en el Congreso",
-    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNmxxZkJTcTNKMmc3dHl4YUtFbG84YkxFRDVrZWJud2RuaGp4ckIydUJybE1uLTNFVXRELVN1MllOYWhxbVQ1U0tzdjUtejA0ekFMNkJISi1QZF9zSmZ6N1lvMGI1ZnNPbzVMWm1fcnpsTEhrQ0gzT3lScTRuYjJoMS0xU3Rmb1IwbEJ5Q0dTUUl0RXlnMEhVVWVlUGlRSzFtNlRuREpBS2JuRjZkMUhDMnB0SEpYdFJ4OHFXdVk4NVdyd1dkT3hRQlJ6dE90Wnc?oc=5",
-    "fuente": "OurenseXa",
-    "fecha": "2026-11-13T15:53:54+00:00"
    }
   ],
   "CCa": [
