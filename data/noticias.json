@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T03:01:58+00:00",
+ "actualizado": "2026-11-14T03:12:37+00:00",
  "generales": [
   {
    "titulo": "Una campaña sobre la figura de Moreno y el compromiso de Feijóo",
@@ -55,7 +55,7 @@
    "enlace": "https://www.elconfidencial.com/espana/2026-11-13/izquierdas-psoe-pelea-voto-elecciones_4464934/",
    "fuente": "El Confidencial",
    "fecha": "2026-11-13T19:58:00+01:00",
-   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794624741&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794624949&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
   },
   {
    "titulo": "Bolaños se muestra partidario de la norma no escrita que lleva a la Justicia a no tomar decisiones en periodo electoral",
@@ -123,11 +123,24 @@
     "imagen": "https://okdiario.com/img/2026/11/13/la-desfachatez-de-los-separatistas-de-mes-en-palma-interior.jpg"
    },
    {
+    "titulo": "\"A mi PSOE que no me lo toquen\"",
+    "enlace": "https://www.larazon.es/espana/psoe-que-toquen_202611146af6d59d4196933d7edbb512.html",
+    "fuente": "La Razón",
+    "fecha": "2026-11-14T02:30:05+00:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/04/07/7DCEBB99-6084-4403-A1EB-60C52BA6D688/obra-guernica-pablo-picasso-museo-nacional-centro-arte-reina-sofia_96.jpg?crop=4836,2720,x0,y178&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
     "titulo": "Encuestas elecciones generales 29N en Asturias: resultados de PSOE, PP y Vox y ganador según los sondeos",
     "enlace": "https://www.abc.es/espana/asturias/encuestas-elecciones-generales-29n-asturias-resultados-psoe-20261114051500-nt.html",
     "fuente": "ABC",
     "fecha": "2026-11-14T01:54:02+00:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/14/elecciones-asturias-kmwH-U40328357763GO-1200x840@diario_abc.jpg"
+   },
+   {
+    "titulo": "El PSOE pide no politizar las elecciones generales",
+    "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSnQ1aF8zY1ZHV1lCYk9WdzZHU3RLdFpyLUVtbF9HX1VVbHZ1SnBIVEY1OHhKMjE4TDBoY3RsYjlUcGZ5ZTdhOVhGbWhJcURBbEduYVpWNFk4T0o5dXZXTGtzQW5jRFBremJtXzFwcWhiOWZ5T0lZWXRsRVlUMVFxNXpUMlNMQ2MyUU1HejdPaUtpZw?oc=5",
+    "fuente": "El Mundo Today",
+    "fecha": "2026-11-14T01:33:28+00:00"
    },
    {
     "titulo": "Carlos Cuerpo (PSOE): \"En las elecciones está en riesgo todo lo que hemos construido\"",
@@ -141,19 +154,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1VaNjlwU1BaaTBmQVlmWVUxUHo0UjFReVA4dHRxSW1NY3U3V2ZiRlNxX3JNakI5NXpNRmdEYWpPMC0xbHg2LWhlN1FSVDY1RnlGbmVuSVNkbkZFRVVIQVowdmpqcUU0U2tQeFE5NXBJdDBIX3RhSUt4TVZtX0lMMnVSeVZhdnA4?oc=5",
     "fuente": "EFE - Agencia de noticias",
     "fecha": "2026-11-13T23:37:30+00:00"
-   },
-   {
-    "titulo": "Primer debate electoral en campaña: PSOE y Frente Amplio prometen inversión en el tren, frente a PP y Vox que piden auditar la red",
-    "enlace": "https://www.20minutos.es/nacional/primer-debate-electoral-campana-psoe-frente-amplio-prometen-inversion-tren-pp-vox-piden-auditar-red_7061028_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-13T23:27:57+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/13/6af78ccecc7795-52416088.jpeg"
-   },
-   {
-    "titulo": "Elecciones 29-N: Estas son las propuestas de PP, PSOE, Vox y Teruel Existe para gobernar España",
-    "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVFSREMzYkM0MEN5TVFLQjJYMTB1U2RqVkgzUDZYYkNjYmJsQW41MmQwcjBDcm1tVjZNRXFxWFhaMmVfa1ZCWVhCNTRkWGRFaW9MRGZraU00OFl3NzRDZ0JndG5hbUpUeG1ETWV4Ny1nTG53aUdNclRVRy1Ybl9XRzE2UFFxdl94Q1NlejJ5XzdTQkRUZU5KNm9Ya1ExUTYyM3VXb3Q4V3lVYnRVbHRHZTVB0gG3AUFVX3lxTFBoSklvazVTcmpBeWxwY2xhbHBsLVhNYk5jR0xoSVVkRHJTeE1ZTFp2cmhmczd3aGV4RlQzWFcxYW9KVGgyS0ZYWF9wOXJ5M19GTzlDcHZiVjZWUGNsZk42ZjhjaFIzZmtDYTlRTS0tcGJiNDdOSTVtNnlsdlZiN3JKM0J4WEJMbUYzY3VPWUNvNWVHTVhNMEd4aU5VbU5lX0ZIc3pEZHB3Z2FuQTktTWcwektldjBZTQ?oc=5",
-    "fuente": "La Comarca",
-    "fecha": "2026-11-13T23:21:09+00:00"
    }
   ],
   "Vox": [
@@ -252,16 +252,16 @@
     "imagen": "https://theobjective.com/wp-content/uploads/2026/11/irene-montero-reivindicativa-y-cruel-con-los-malos.jpg"
    },
    {
+    "titulo": "Irene Montero y Rufián defienden en Palma ser \"implacables y despiadados con los de arriba y la derecha que los defiende\"",
+    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZGhmZ0VNX2RIX29SRHRJMTlmSDM0bDFOb2R2eFdmejJma3Vmai1DUmV5d0NUalVhTWltQ194a00xNVRWRV9hNjlEcHB1WEZFMTVYbTZfeWhGUmJ4VmhQQ0o5d0xOMFV1bnpXOGZqcDkyODhMdDlSVVV2WDNMX240dlJfWGJ6eFpMN1RrVlk4QnhKNTZKU2VVTERPZ9IBmwFBVV95cUxNZGhmZ0VNX2RIX29SRHRJMTlmSDM0bDFOb2R2eFdmejJma3Vmai1DUmV5d0NUalVhTWltQ194a00xNVRWRV9hNjlEcHB1WEZFMTVYbTZfeWhGUmJ4VmhQQ0o5d0xOMFV1bnpXOGZqcDkyODhMdDlSVVV2WDNMX240dlJfWGJ6eFpMN1RrVlk4QnhKNTZKU2VVTERPZw?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-11-13T19:57:12+00:00"
+   },
+   {
     "titulo": "Irene Montero, la última trinchera de Podemos",
     "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQTFHQWxsOW54bWJId1FhTUVVRWFYRG93VWptYldSY2c1a1VpakZUd1ZHV1VoQkswdExvbWVfQmxCcHJmVjczTWFmSUxveXY5WVBVSk45N1VTMEk5V0ROcnhmUGswS1Bxek1xTkhhcngyUWcxZnQxYm5xRjVfZ052SGtrekZJX1pyZkFiaGhSV0lJRXZxRElyOThDUkl0NDVLdFHSAacBQVVfeXFMTlQ1RUM1UngxMjhEOG9mQ1FtdDhzZXJRUndmc0V2NG5VNjR3M1h3NkZUZk8wTU1CMUVyanlybG5JWk1Ua1BhcTRaY19qZEVhTVBjSDMtczNxdzVFYm1yZHl5REEzRGNQZDRJRnA3SFF3MEkydDhnZHcwa2w4Si1sQXIzZTVKZllVTG1kTURvRGFQR2ZVOWZfN2ZvQmdjdXlHM0k5aGdOcms?oc=5",
     "fuente": "Noticias de Navarra",
     "fecha": "2026-11-13T19:42:18+00:00"
-   },
-   {
-    "titulo": "Irene Montero y Rufián defienden en Palma ser \"implacables y despiadados con los de arriba y la derecha que los defiende\"",
-    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYTdNMnNTaUFGVEVDOXhwTVBqYXAtOXJzVnZzRkV4VnlJVDl5ekV1cjdvMEUxSDVjcjJPVGE4aFpPaVhMNkRyNy1FNkxRQzNhVnJvbFpFbm5BZjVFNHBXeEVYT0s5R0ZGMXZpMTRIcTdXQUlSWnVTWTdnNEdRTlRoNk5BTUNRcVVYYXVIZlRWSTVyU3ZrVHJONEpvMUs2M182TXFfWEpB0gGrAUFVX3lxTFB1OTZ4MHRKdHhVN2I1TU5IVHJ2SmlzMzRXQ2w3cUZ6RHRobWxrWnhkWGNoTlNuXy1nR3cyNkgzRGNBLUU3VzNhT0Z5a0x4TmNMV3FSMWdRM1JURkNUQ0VCRGlnRmltcnlieXJ5VktUcnVHaGxwNFVvMUtWNlRnNkQtYU9hMEs4Q1c4dnRDaE1PaERWUXo3R2VIN004S0gwLVM4M0U4T0xDZFNEdw?oc=5",
-    "fuente": "Diario de Mallorca",
-    "fecha": "2026-11-13T19:22:23+00:00"
    },
    {
     "titulo": "El primer acto de campaña de Podemos en Aragón, en fotos",
@@ -338,22 +338,22 @@
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/13/6af76053ac952.jpeg"
    },
    {
+    "titulo": "Irene Montero y Rufián defienden en Palma ser \"implacables y despiadados con los de arriba y la derecha que los defiende\"",
+    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZGhmZ0VNX2RIX29SRHRJMTlmSDM0bDFOb2R2eFdmejJma3Vmai1DUmV5d0NUalVhTWltQ194a00xNVRWRV9hNjlEcHB1WEZFMTVYbTZfeWhGUmJ4VmhQQ0o5d0xOMFV1bnpXOGZqcDkyODhMdDlSVVV2WDNMX240dlJfWGJ6eFpMN1RrVlk4QnhKNTZKU2VVTERPZ9IBmwFBVV95cUxNZGhmZ0VNX2RIX29SRHRJMTlmSDM0bDFOb2R2eFdmejJma3Vmai1DUmV5d0NUalVhTWltQ194a00xNVRWRV9hNjlEcHB1WEZFMTVYbTZfeWhGUmJ4VmhQQ0o5d0xOMFV1bnpXOGZqcDkyODhMdDlSVVV2WDNMX240dlJfWGJ6eFpMN1RrVlk4QnhKNTZKU2VVTERPZw?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-11-13T19:57:12+00:00"
+   },
+   {
     "titulo": "Rufián, el soberanista catalán que intentó unir a la izquierda",
-    "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdFgyVXU5RDI5WEgza1JCVks5WEpDdjNaWlFlVUl0OXhuWklVR01vTFNfeVFSME9maEhDMjI4RnJ4TVFNaEZaVk52SGRxLW44WjJaX3JhT3VCVkFRbVppZFczWU9vVVVZcXdxREZIbDN1MlhjR254RDZsWnNibUZtRjROYm5EcGpJTUlMa2M5cDVHSjNUeExoV0dHSFZYM01qZDhSbjNfVjhITXc2Wk9vR09B0gG3AUFVX3lxTE15YUxDRlNKcDVGMUNGTDRNUE1IS2Jla3V4RGNIMUlYVHdac04tY1VRNUROT0xWSVVtdXRZdEc3Z3RlcWdwaU9GclQ5T0RrNEwtODVFRGpqd2pmRy1LQXVKNWRYUkxyeGdYR1lKcXY0YThEQXpoamc1SC1yNGhYZDVWRlR0RnhieU14aWNDb2tjMXJNQ2ZiUjVqMl8zZVo5aXFCbWV2UDVDOWZHUkZmYXlMN083MGY1UQ?oc=5",
-    "fuente": "Diario de Noticias de Álava",
-    "fecha": "2026-11-13T19:48:20+00:00"
+    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2N4MHphemdjdGF3cjFyTHJOVTN6bDBGOHNrcThkREl0Tm9oekg1cW5zSmlxV0tHVU44cXg5d21qNUZuRmZCdXlkcldOVHhqWmJucXVCZGp4RnFadlVTaTdEYVptdjhvUEhoMWZEUUk4RWdEQ0dkQW96UTNRQm01MXdhVko1QzctMVZ5Wm10dGd6VlNrNEtWc3R3TUltUzZjQ2Q5SVd4N2FRTFZBUktOY2hRc3BrZ9IBuwFBVV95cUxOcy1vM0dveE5QZmNjSk5qVFdCTjlVZXFGZV9ReXhZQW5JcEVzMWs4cmxMa0pXY3VXZVY5NHpTMGV5TE9MZl9lbVVjbE1GUzJNTkxTdS0wM1pqX0h2am1qZjJTLTJUMDNxSzMtLTJwenpmVEdwc204bXpGWllNMEFWSWlpeC0yWE0yb0NEWnpadVlEWTJRM29pRWFTMVNqRlhHNGtYQnJLLWUxVnRycWM3TnVWY1dyVlYxdGpv?oc=5",
+    "fuente": "Noticias de Gipuzkoa",
+    "fecha": "2026-11-13T19:48:21+00:00"
    },
    {
     "titulo": "Montero y Rufián presumen de alianza y piden ser \"implacables con los de arriba\"",
     "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbUlNZWlLMXNGdi1FeDZXOUtaOGRGOGxXSTdWVnhqWWtHaDBOMldJQm1MdW9OQXhtZURXRVg4Y0pxQUJtVnBsVF9GWVpzVGZYTXdEdDRKUFNQcHBqWFJYUEtFVmRyOGNDX0RiYWFTN3pPWmw2WmlqTUJWakJNdnMyR18yUzF1ajl1alFpaHdxSENQTEV2N1psRm1GRnFsM3hDeTgxbXFDOXZtSGc?oc=5",
     "fuente": "RTVE.es",
     "fecha": "2026-11-13T19:31:49+00:00"
-   },
-   {
-    "titulo": "Irene Montero y Rufián defienden en Palma ser \"implacables y despiadados con los de arriba y la derecha que los defiende\"",
-    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYTdNMnNTaUFGVEVDOXhwTVBqYXAtOXJzVnZzRkV4VnlJVDl5ekV1cjdvMEUxSDVjcjJPVGE4aFpPaVhMNkRyNy1FNkxRQzNhVnJvbFpFbm5BZjVFNHBXeEVYT0s5R0ZGMXZpMTRIcTdXQUlSWnVTWTdnNEdRTlRoNk5BTUNRcVVYYXVIZlRWSTVyU3ZrVHJONEpvMUs2M182TXFfWEpB0gGrAUFVX3lxTFB1OTZ4MHRKdHhVN2I1TU5IVHJ2SmlzMzRXQ2w3cUZ6RHRobWxrWnhkWGNoTlNuXy1nR3cyNkgzRGNBLUU3VzNhT0Z5a0x4TmNMV3FSMWdRM1JURkNUQ0VCRGlnRmltcnlieXJ5VktUcnVHaGxwNFVvMUtWNlRnNkQtYU9hMEs4Q1c4dnRDaE1PaERWUXo3R2VIN004S0gwLVM4M0U4T0xDZFNEdw?oc=5",
-    "fuente": "Diario de Mallorca",
-    "fecha": "2026-11-13T19:22:23+00:00"
    }
   ],
   "Junts": [
@@ -473,6 +473,12 @@
   ],
   "BNG": [
    {
+    "titulo": "El BNG denuncia las \"amenazas\" medioambientales que afectan a Vigo",
+    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaDQyOHJMX1hYbnBNZzNWYV80ZFJETm5JUVpQRUdGb2NNeTUwVVNvR0YydzhtdGtGanhrMVJqaF9QVzVJdVZ3Mmt4Y2doQy0wZXJPV2N2SjAwVEUwNnViVkFldjM4cHRuYjF3Qldvbi1ZZ1Q5R1BZRFpjNWl6d2hIYjgyUFZ1WWZzTzlGcVU3UHB2S1JtX25oRFFMVTktR2dD0gGmAUFVX3lxTE1TZ0lEamc3d0JIQ1F1d2x4WFNseXF6NEtpNG1FMFJ3YmdjRTNnWmMzNDlFNTVpeWxJLUpza1hGakVTNVVweFo0UzFfcE5lenNVM1BKb2VjLWZUdEsxR2JlVnZzVnpwRUhuc0NuNHJCbzU4SzI0QkZfal9ySVFtN2pvakF1T3kwOGdWUEpuQTdxUk9oeGtFRzlEZnFqcmNzdGk1NElrTlE?oc=5",
+    "fuente": "Metropolitano.gal",
+    "fecha": "2026-11-14T01:37:09+00:00"
+   },
+   {
     "titulo": "Pontón defiende que Galicia conseguirá más inversiones si el BNG logra más representación",
     "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ3RYMjlKZG9WQ2Y1aWFpalUyQmM5QVlNdFNXWlRMQXQ1bDlUVktUQUE5QUxRaDBsbTRlUjA4QlpHZm9HTTNMVEkzNVJvTEFuN3VFd042NXRSQzRqYmthblltaG4tVUFxWnU1UGFLODNPTzJaamdrUk9lU0pyZnNqT2VOclU1QWNwbXFYX0txS2pxWEpnd0lEQU4xM3pVTEtxOGpPRUgwSElyUdIBrwFBVV95cUxPNDhfeWdENURoRWlfdkJlLXh6TllEazFJS0Jtc1FlYXI1TzQyTk5DY29RazBXTmh5LUlJYWhQQ2p4c0xXX01zUm9GcDJVNjA0dm1VU0RVcWZFVXIxc0JKcnhKUkNuSWRwRDIzejdTaDVVQ2ZOWEZPdTN2ZndkNW5pXzNaTkJIZkwxaDZCT0VBRFplcTZBSjAxRENUdkpmd1Y4Mnh2QUpiMG83U3RvdGhV?oc=5",
     "fuente": "Faro de Vigo",
@@ -501,12 +507,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLW5zbldiaXJ5NXdZRFZtSTJWRWV1QWtSdzRhOXN6TEhOR1RJTXRTWkI2MExtRU16cEUteUFUWUtaR0x4c2dTYnk5Yk5LNXE2MFQ0bUpOeDVsZ3R3MW4wZHdfLWI4ZTBaS3pTejFuUWN5X2REdlEtakpCUVR4SjAyOHZnbjVvZFlsUXhLSDdQQnNoVnNLMlZ4OFRMa2tHLTAtcXExeDFwUVNjN1dBcWkyYg?oc=5",
     "fuente": "ValmiñorTV",
     "fecha": "2026-11-13T14:16:14+00:00"
-   },
-   {
-    "titulo": "Ana Pontón: \"Lo que dicen las encuestas es que el BNG es una fuerza en ascenso\"",
-    "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX2pjNmRCZlgxeGdTUVU2YXc5UzAzTlg1OVNOOGRzcUo4WG1iT2xPRUFtVk5qXy1KYUZLb0hrM1dRb2pqY2JPUDZEWVItVk1jSlNOWDV3dk5IS3o3YnJTNVZuVVN3NUxjNjRjaFBRb2hlNkdtTnJyYzJPbWE5ZEpBQjlkb3UtRnpvU1pvVnpNWmNkSUJjTHRHNmFaLVlkZDJ6TDhmSE1JaV83aFZW0gGyAUFVX3lxTE9fVGVFakdXb2FFc1NEelY5NGtuaE5tV2hKOVEwU0lOS1hBcU9JYUotVzRIX2RHMkk5UWk0ajg2XzhQVlN0TjhDb1pEUEg4WHlzSHRoaGtBRjFlZDAwTUk5b0d1UWRqVWoyNGVaRWdRcF82Nmp4Y3UydGt3Uk51LS01ZzAzREVnWmYzY0swcThqa3ZTajAzeWhkby1LdFctdWpPT0FiSEpMSUdzT1hMVHl1UFE?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-11-13T13:06:38+00:00"
    }
   ],
   "CCa": [
