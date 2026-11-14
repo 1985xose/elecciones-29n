@@ -1,6 +1,20 @@
 {
- "actualizado": "2026-11-14T03:12:37+00:00",
+ "actualizado": "2026-11-14T04:01:50+00:00",
  "generales": [
+  {
+   "titulo": "La incógnita de Adelante Andalucía: ¿Compite con la izquierda, roba votos a PP y PSOE o ambas?",
+   "enlace": "https://www.elconfidencial.com/espana/andalucia/2026-11-14/la-incognita-de-adelante-andalucia-compite-con-la-izquierda-roba-votos-a-pp-y-psoe-o-ambas_4464337/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-11-14T05:00:00+01:00",
+   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/04e/e76/04ee7683825d11ad91eb4ef4236f36eb/la-batalla-en-la-provincia-que-pierde-escanos-el-29-n-un-pp-en-apuros-el-recuerdo-de-marlaska-y-el-empuje-de-adelante-andalucia.jpg?mtime=1791539363"
+  },
+  {
+   "titulo": "¿Qué dicen y cómo inician los partidos políticos de Castilla-La Mancha la carrera electoral del 29-N?",
+   "enlace": "https://www.eldebate.com/espana/castilla-la-mancha/20261114/dicen-como-inician-partidos-politicos-castilla-mancha-carrera-electoral-29n_480584.html",
+   "fuente": "El Debate",
+   "fecha": "2026-11-14T04:30:00+01:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/13/6af6df050421d.r_d.343-200-0.png"
+  },
   {
    "titulo": "Una campaña sobre la figura de Moreno y el compromiso de Feijóo",
    "enlace": "https://www.larazon.es/andalucia/campana-figura-moreno-compromiso-feijoo_202611146af7c0b09a31a65adcdba4a3.html",
@@ -14,13 +28,6 @@
    "fuente": "ABC",
    "fecha": "2026-11-14T02:54:02+01:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/14/elecciones-asturias-kmwH-U40328357763GO-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "La Rinconada pone a prueba la fidelidad de Sevilla al PSOE: \"No hay que tenerle miedo a los cambios; en cuatro años volvemos a votar\"",
-   "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/14/6aeb0a42e9cf4a88038b4574.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-11-14T00:00:38+01:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945953047580.jpg"
   },
   {
    "titulo": "Primer debate electoral en campaña: PSOE y Frente Amplio prometen inversión en el tren, frente a PP y Vox que piden auditar la red",
@@ -51,13 +58,6 @@
    "imagen": "https://static.eldiario.es/clip/8804a875-837d-4fb9-ba3b-75ad7545d50e_16-9-discover-aspect-ratio_default_0.jpg"
   },
   {
-   "titulo": "La otra pelea de las izquierdas: dónde se puede romper el ascenso del PSOE",
-   "enlace": "https://www.elconfidencial.com/espana/2026-11-13/izquierdas-psoe-pelea-voto-elecciones_4464934/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-11-13T19:58:00+01:00",
-   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794624949&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
-  },
-  {
    "titulo": "Bolaños se muestra partidario de la norma no escrita que lleva a la Justicia a no tomar decisiones en periodo electoral",
    "enlace": "https://www.europapress.es/nacional/noticia-bolanos-muestra-partidario-norma-no-escrita-lleva-justicia-no-tomar-decisiones-periodo-electoral-20261113145813.html",
    "fuente": "Europa Press",
@@ -75,24 +75,30 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Una campaña sobre la figura de Moreno y el compromiso de Feijóo",
-    "enlace": "https://www.larazon.es/andalucia/campana-figura-moreno-compromiso-feijoo_202611146af7c0b09a31a65adcdba4a3.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-14T03:00:16+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/13/6E0159AA-8BC1-4605-80D4-B881E431F8D1/96.jpg?crop=5811,3269,x0,y312&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "La incógnita de Adelante Andalucía: ¿Compite con la izquierda, roba votos a PP y PSOE o ambas?",
+    "enlace": "https://www.elconfidencial.com/espana/andalucia/2026-11-14/la-incognita-de-adelante-andalucia-compite-con-la-izquierda-roba-votos-a-pp-y-psoe-o-ambas_4464337/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-14T05:00:00+01:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/04e/e76/04ee7683825d11ad91eb4ef4236f36eb/la-batalla-en-la-provincia-que-pierde-escanos-el-29-n-un-pp-en-apuros-el-recuerdo-de-marlaska-y-el-empuje-de-adelante-andalucia.jpg?mtime=1791539363"
+   },
+   {
+    "titulo": "El PP deja en blanco ocho medidas de su programa, que desvelará en campaña: «Permanezca atento»",
+    "enlace": "https://www.eldebate.com/espana/20261114/pp-deja-blanco-ocho-medidas-programa-desvelara-campana-permanezca-atento_479385.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-14T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/10/6af34f2eeb2e6.r_d.1286-397-0.jpeg"
+   },
+   {
+    "titulo": "Programa completo del PP para las elecciones generales de 2026",
+    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUXY4cU1pNFFFYXBOSHhqQkREOXk1dFl1WXNBNUZKSDBrVWQ1MTUyUUQ4UHgxNU1yU3ItcjU3NXZscGJKUGxkd3BrdzdWaURDMmtPbW5DdmgxdlM3S3J1ZWo1T3Bia1JvYTdDNTM3UUhaUE52TE5oR2N6RkdEUTlXWm1jZVdZZ1JlOUR1bUEyMVo2SmY1M1lLVEZha2hIMTM2TnZzeHdxanVmOUM5dC1nZC1KRDV4bWFyRk0zcmoxek01Y29k0gHEAUFVX3lxTE1NWGVMdXMySWQzNEpfaHQ5dzV3MTFLeC1JcGRMeXlfV0Rrcm5qNHJ6WDFqeVNVSG5ZYjF2MVM2R3ctYk9pa3dRTENwLWVwZG1zR1doUlk1TVF1SGNMOVRkLTFXU2hvMzlNYkw1cDNwTXV6OHBXWkJtT1IzOW5SNTE4N3MzSlNzWktWWERoU0FueXp2REtERFZJb0E5VFFHVlVWTlE0UUtFOV9lWXhiWHNRd1RHbzQ1bEQyZ09SaENVcWZBN0Y?oc=5",
+    "fuente": "Ultima Hora",
+    "fecha": "2026-11-14T02:59:00+00:00"
    },
    {
     "titulo": "Los barones celebran el \"momento dulce\" de Feijóo y su giro \"gestor\": \"Nos diferencia de Vox\"",
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeDcwV2ItSGJJMWo0ODVDTEItQ0xCdGRYeXNlSGNwekRrdjNTU3dhNnZtR2h5YXk0eVBjVDVFRnRWbXZWREpfbkdnb1hIdUx0dW5lSERObGwzdEItcVYzQm1sY0ZGcU9nM2V2eHdlQzFuM21fX1g2ODVRWWZ1R21PS1RFZk9ITUNTWUhJS2NIQnRZdVNUOWVlNHJCSdIBmwFBVV95cUxOLUIwRGE0RGRucjVnMFRnbTItRS1uWV81NXktRmF4VlRaRDJiR2pxMVVMU05UTlVIaTRWdkFlUG02U3F0T3d6X2tCYWtWXy1iY0VUX2dhVVkwN0o4MzFEUmlNaEZHLWFVX0o0RVJBbEJOUzBqbUlqdEIxUDRKTUt6YVZMZ0pOV01haGxTVU42dWZOMmIzOUdWS0dTQQ?oc=5",
     "fuente": "El Mundo",
     "fecha": "2026-11-14T00:11:05+00:00"
-   },
-   {
-    "titulo": "Primer debate electoral en campaña: PSOE y Frente Amplio prometen inversión en el tren, frente a PP y Vox que piden auditar la red",
-    "enlace": "https://www.20minutos.es/nacional/primer-debate-electoral-campana-psoe-frente-amplio-prometen-inversion-tren-pp-vox-piden-auditar-red_7061028_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-13T23:27:57+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/13/6af78ccecc7795-52416088.jpeg"
    },
    {
     "titulo": "De qué se habló en las entrevistas de Jordi Wild: Ceuta con Sánchez, economía con Feijóo e inmigración con Colau",
@@ -106,21 +112,22 @@
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMy1qWTU3dzZhNGZKMWYzUF9UM2dTZy0zcExma3ExbWtIUWYyWHB1bkZBLWFjUHpWTmZLWUdsS24wQmVENVVMWWMzZV9BNFRZVzRMU21xWEc4a0llSGpCNFpQalRYRThmbmlCTDAxcjc2SlVGc2wzalBRS2ljNGExbEJwc0Z6T2pCU1ZuX2dRMHJJMnlka1dwbVo5QdIBmwFBVV95cUxOWVg4ano1ZmFpLVZtbDNpSm1BTUxWV0ZxdjhHWVNmaWgtdU1rOENqQ2lqR3ZOd0QyYWNCSzh4V2EtUUxaeUVJeWJZYWJlTTBCQlhuQUlucUNZaVdlXzNheEhodkRtNkpIYkRRWlFTcXFuREpQaDk2Zk9iZ2lCd3oxQU02SmNCU29yMGVJRDluMko0R2pteTlEVlFUVQ?oc=5",
     "fuente": "El Mundo",
     "fecha": "2026-11-13T21:43:48+00:00"
-   },
-   {
-    "titulo": "El otro Alberto Feijóo no sabe a quién votar: \"Lo decidiré a última hora\"",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZWY5NVIxZ0YzY2ZGQjhLVFRqNFI3T2ozSzBlSXpxNTJrNFFTMzhXX1FmZk00eERwNWY1d3hVdXFkM3NPYmF5Wm93bzBMbGxpSUg4MTVfU0FxT29nOWtQU25LbWxMaEp1ZURqTEd0QnNGcERQOVNzWjFLdWY2a1RxZkxnVllqWjU1QUlaNWpUSVg3ZWw3eWxWeG9YY9IBmwFBVV95cUxOUWtRcnRSd0NndXh6Q3BlazRiQ1BTOU0xR2t6NlpwcC1wSGdpOHlpY1g5Z3RiU3RUUmhJNGlnaHVfTGR0WjdPYVRrUmtXV25POEpORjhDWllNR3U1VXBLbGdaeS1EWnRIVDh3a0gtU1JKS200VGdCX0NzX2wxQUROdjJ6cmdIT3FmQTJoUDc0N1BzTmdseF82VENrZw?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-13T21:43:37+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "La desfachatez de los separatistas de Més en Palma: dan dos meses al alcalde y a Sánchez para desbloquear 831 VPO de Son Busquets tras gobernar con el PSOE 8 años",
-    "enlace": "https://okdiario.com/baleares/desfachatez-separatistas-mes-palma-dan-dos-meses-alcalde-sanchez-desbloquear-831-vpo-son-busquets-gobernar-psoe-8-anos-20825989",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-14T04:00:01+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/13/la-desfachatez-de-los-separatistas-de-mes-en-palma-interior.jpg"
+    "titulo": "La incógnita de Adelante Andalucía: ¿Compite con la izquierda, roba votos a PP y PSOE o ambas?",
+    "enlace": "https://www.elconfidencial.com/espana/andalucia/2026-11-14/la-incognita-de-adelante-andalucia-compite-con-la-izquierda-roba-votos-a-pp-y-psoe-o-ambas_4464337/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-14T05:00:00+01:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/04e/e76/04ee7683825d11ad91eb4ef4236f36eb/la-batalla-en-la-provincia-que-pierde-escanos-el-29-n-un-pp-en-apuros-el-recuerdo-de-marlaska-y-el-empuje-de-adelante-andalucia.jpg?mtime=1791539363"
+   },
+   {
+    "titulo": "Sánchez anuncia una 'operación remontada': ¿es posible? ¿qué dicen los números?",
+    "enlace": "https://www.eldebate.com/espana/20261114/sanchez-anuncia-operacion-remontada-posible-dicen-numeros_480657.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-14T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/13/6af75df58b992.jpeg"
    },
    {
     "titulo": "\"A mi PSOE que no me lo toquen\"",
@@ -148,20 +155,27 @@
     "fuente": "La Razón",
     "fecha": "2026-11-13T23:47:48+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/10/21/2E307D99-4CEE-4ED0-8B2D-AAC070C21EDB/96.jpg?crop=6714,3777,x0,y350&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Sánchez anima a la participación: un 75 por ciento para una mayoría absoluta progresista",
-    "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1VaNjlwU1BaaTBmQVlmWVUxUHo0UjFReVA4dHRxSW1NY3U3V2ZiRlNxX3JNakI5NXpNRmdEYWpPMC0xbHg2LWhlN1FSVDY1RnlGbmVuSVNkbkZFRVVIQVowdmpqcUU0U2tQeFE5NXBJdDBIX3RhSUt4TVZtX0lMMnVSeVZhdnA4?oc=5",
-    "fuente": "EFE - Agencia de noticias",
-    "fecha": "2026-11-13T23:37:30+00:00"
    }
   ],
   "Vox": [
    {
+    "titulo": "Preocupación en Zamora por el aumento de la delincuencia: Vox denuncia falta de policías y guardias civiles",
+    "enlace": "https://www.eldebate.com/espana/castilla-y-leon/20261114/preocupacion-zamora-aumento-delincuencia-vox-denuncia-falta-policias-guardias-civiles_480427.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-14T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/02/25/699f05b90b069.jpeg"
+   },
+   {
+    "titulo": "Abascal ve en el exceso de confianza el principal obstáculo de Vox para las elecciones del 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYUxQLW9mckxha1pXV3ZhXzZPMTZISENFRWxBbTFSU0dESWcxSTE1aFUxa0J1dk5ZZTE3WGFLczBmaHY5aEFMSHJuTDltQm5UUElaMHpvcHdwcWtZV1p0d2dtSFZvS3FkOU5Xek9scG45MDR4VWxiQTF4cmdNRVFqTWdvSjJSZ29aRWZ6akg3cm00LW1lUU1YYWhGRGNLcmp1M3J4UGY3YVdvdVVDbmZUcFRuOW5wbWw2VDZpQnlYdDZnVEpTQVpv0gHMAUFVX3lxTE5lU1prWUZfa0xJc3JBTHNocGV6aGxzdk41eGROYnd0MlZuT0dRTVVlWFJxejFsNTZ1SlJndTgzUjVhbFlkOUVORDVHaC1TMlh1b0dvWjJESlQxc3NoRGtBR2sxd3J0Q0d4NTliNWZETDZjeU84clBzZ0hTZHhWYVBBa2lSM1VtVjlJX2xSbzd1Z0NRMXhXWnM1Q2h1Z2tDOUNPb0ZVUUREWEE4XzJZcnExdWJGOWNTanNFbDdBbjRIc0owRlJKeHNDSzVIdQ?oc=5",
+    "fuente": "MUNDIARIO",
+    "fecha": "2026-11-14T03:27:15+00:00"
+   },
+   {
     "titulo": "Encuestas elecciones generales 29N en Asturias: resultados de PSOE, PP y Vox y ganador según los sondeos",
     "enlace": "https://www.abc.es/espana/asturias/encuestas-elecciones-generales-29n-asturias-resultados-psoe-20261114051500-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-11-14T02:54:02+01:00",
+    "fecha": "2026-11-14T01:54:02+00:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/14/elecciones-asturias-kmwH-U40328357763GO-1200x840@diario_abc.jpg"
    },
    {
@@ -182,19 +196,6 @@
     "fuente": "La Razón",
     "fecha": "2026-11-13T23:39:14+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/09/24/D1B2CE42-4150-4284-BED0-B36F01BBE6FB/96.jpg?crop=1920,1080,x0,y229&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Vox inicia este viernes la campaña electoral en Peñaranda con la tradicional pegada de carteles",
-    "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWmVhcG1RbzdlREhLTkVROTgyRWxhY0VhR0VJU2VFZjJUNzZscEhLUjV6WGtZYkwwRDdoN0c2cFY0b1h0bDJBWHMzb3dGdVFGcXROTk5KV2VlejJFRHB2dFdQUEVKeWg1ZE5tN1Z1S09kVkpzSWRva3kzQ2NvdzVCbC1ObDJpeHJnR2E4akJBQ3M5ZVpPMFkyVlBHaUFxR2tWZm96bTlCMGk0WExtUDdGVnBTMTFwa09fYVNLM2xyaUdrZThMUEtDMGxiczd6OC1CSWhXenRrNHh4Z3JqVVEzMjZDZ2Y?oc=5",
-    "fuente": "SALAMANCArtv AL DÍA",
-    "fecha": "2026-11-13T23:30:00+00:00"
-   },
-   {
-    "titulo": "Primer debate electoral en campaña: PSOE y Frente Amplio prometen inversión en el tren, frente a PP y Vox que piden auditar la red",
-    "enlace": "https://www.20minutos.es/nacional/primer-debate-electoral-campana-psoe-frente-amplio-prometen-inversion-tren-pp-vox-piden-auditar-red_7061028_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-13T23:27:57+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/13/6af78ccecc7795-52416088.jpeg"
    }
   ],
   "Sumar": [
@@ -404,9 +405,9 @@
    },
    {
     "titulo": "Oskar Matute, el candidato de EH Bildu para reforzar su presencia en el Congreso",
-    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeTdCYVhiOWQwdmtKYS1iV00zOEZfYkhQUFc1VTFxejZuVGxWbmF4OWJIRTd3V01SdjNxZ2JXT054Y2JkOE1vbmNYUDcwMVIwM2hRQXZ1dVlfUmlnd0pidDNwaEt0amVHWXdhWThLWkNpUno3bjkwdG9sOVNodDJGTVdja2F0Q1dQX1VHajQ2QXVpcmJlWUNVUHRqY09UMnEyeGdRLVJ0M080OU1NTTVwY2lwVUVZX1ZX0gG-AUFVX3lxTE5xUkEwNmJBMHFGUy1LbmlCbXNpQmt5OTNqMGNYdUlncVpVcmh4dWtRSFktNDFLVVJRWWMxc3JIcS1KMUVLZ0FRcEpzUFdaUWp5TjlmTjRoWjFHSU4xMTFEaTlkVnpLRlNQallZd0t5VlVuNkJlcWNBa0Fyc0xOTld6QXpiaEtrdm5OalR0alQ0eHN2ZnJDVlM2ZEM3NDVUSjFsNkQ0ZmNPaWRSbTlyVS1LSGJyeXFiODNQVHhlWFE?oc=5",
-    "fuente": "Noticias de Gipuzkoa",
-    "fecha": "2026-11-13T19:56:45+00:00"
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLUpVNWdRNWNpSER5Y3ZESmpWNWJlaXFVOXV6eEp2TkVEc1l0VE9xM3JITlR0Ynl6TGViaC1idmxFVGxTNnlEckFaLTFlN2F2OUJTSWZaX0VQc2wwMGJlODdLQVNkYWxXZGFMZDROSEt1cjVrOWdMVHMzbHctNTRtNTZRX0lYSmtxeFhucXNSUVJJSF8ybUNhZTRQZXBpMHBWTHl2QU130gGrAUFVX3lxTE1XWlh1c1drM1dKVHM3eWdKMDNVZGlfS25xR2djN1NmUXFKV21aUlVKSENoNzVwRnNNcnlwd09sZTk0d256aU9BNVlzSFpOTWZCbE5pTVl1aXVrRXZ4ZE5aUktNR1l4b3dLU2p4TFVmN3djaEdGelNWRFBmVkNwY1BRaHNYeGgwMF9zaE10TVBnMHZhOGcxNzNiVjlGV053UXV3NGVIM0VYNV8tVQ?oc=5",
+    "fuente": "Deia",
+    "fecha": "2026-11-13T19:56:44+00:00"
    },
    {
     "titulo": "Zigor Goikoetxea Retegi encabezará la lista de EH Bildu a la alcaldía de Oiartzun",
@@ -434,6 +435,13 @@
    }
   ],
   "PNV": [
+   {
+    "titulo": "El PNV se enfrenta a la encerrona final de Sánchez en su peor momento",
+    "enlace": "https://www.eldebate.com/espana/20261114/pnv-enfrenta-encerrona-final-sanchez-peor-momento_479710.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-14T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/06/17/6a32810c0bd0b.r_d.2698-1224-0.jpeg"
+   },
    {
     "titulo": "Ataque al PNV en Bilbao cubre de pintura su camión el primer día de campaña",
     "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONThhNVJMQjBIR1VJU0NjZXNfeEh3dy1qUVdnLXJuOWJtWGNHbDJGLUd3SGFHT1pNeFk4Mm8xQS1xa3NjeTFkWTF0ZHEwRmpQZjlPZF85SS14YUFGVkstaWdwX1RqR2NVWWdVaGgwbURtSUZRMGV2LU9mVWZUN2t2ak5QSXJrN0E1WTBPMVlPM3c?oc=5",
@@ -463,12 +471,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS2xnYkdPNWNzb0lYd1RKRDBDYzNEcXpTS2lGQXNzWXpxVXljR1MtOS0wQ2l2RkpjYmp5Zmo0T3Qxdmd3dHBGX3BJRlE5eDI3bjBQNmlHcGo4Zkk2eHFwSzVzbGs2R3o5dEEwVk9ZYkE1ZEJhQjgycnlSdlpGVno1bUdfX3I2TjFzLWpTYzBmREFsbm5MbS00V3dKMl_SAaIBQVVfeXFMTUVOdnhEVTFPbk1vdnA1Y29ETFE1QWUzTmxZSTN1Zm9PM2NLbGQ0ZkNYTFFqQjk2MHY3NVgyQm11UDhNSHM5ZF9oTXAyZ0xOdDVaeXZQOU5iVEJNcWpKMVNsRkVqV09nSE10b29QUWNFYmZQUUs2RUJIaEI1VXN4eVFKak42RXpRWFhBMHpNRjZNTkhoZm1qeFREbkNGMFBCeWJB?oc=5",
     "fuente": "Diario de Noticias de Álava",
     "fecha": "2026-11-13T16:00:05+00:00"
-   },
-   {
-    "titulo": "El CIS revela la intención de voto en las elecciones generales del 29-N en el País Vasco y confirma el 'sorpasso' de EH Bildu al PNV",
-    "enlace": "https://news.google.com/rss/articles/CBMioAJBVV95cUxObF9TYnMxNFRQaVJwZEJjQmlCc1NJV0lpOFA2MGZOU0NlYmVDV1FzeEF3RmIwS0wyTTFMdU5TeWFYNVZ0MmxJcHdsUGV1cDZ5YVpqSlBVNGhaWVE5UVJQTXhneW5ROUVTVGVfVWdYZ2tlcl9tWnZqOUNGMDQ4aE1LTUlWV2FvNzJpNzB5M3VxV2xuOUJhQnBRZHlvbzdwWFVZZHhhNHBvNndkZ0htc2Q3WjF5QktmZlI0UHdtNHg3SnJTaXVQVTh1aGtRZE1UTTlWdnN6Rk0tREdvbDhtYlY5MjAzeFAzX2NHdGxmSmU4SlhfWnNIdGU5TjVYbXMtT0pNNi1BOWZnd1VZX2tjNC1hTU1ZS3FTRW5FN0FScUk2Nk8?oc=5",
-    "fuente": "El Economista",
-    "fecha": "2026-11-13T12:53:28+00:00"
    }
   ],
   "BNG": [
@@ -625,6 +627,13 @@
   ],
   "AA": [
    {
+    "titulo": "La incógnita de Adelante Andalucía: ¿Compite con la izquierda, roba votos a PP y PSOE o ambas?",
+    "enlace": "https://www.elconfidencial.com/espana/andalucia/2026-11-14/la-incognita-de-adelante-andalucia-compite-con-la-izquierda-roba-votos-a-pp-y-psoe-o-ambas_4464337/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-14T05:00:00+01:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/04e/e76/04ee7683825d11ad91eb4ef4236f36eb/la-batalla-en-la-provincia-que-pierde-escanos-el-29-n-un-pp-en-apuros-el-recuerdo-de-marlaska-y-el-empuje-de-adelante-andalucia.jpg?mtime=1791539363"
+   },
+   {
     "titulo": "Adelante Andalucía reta a Abascal a responder sin filtros ante la gente en una universidad pública",
     "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM0lCSUlqZ2U2SHhwSlRZSU9nTWFiSzlQazNNRU9GSWVCSjM3VUpQbEdvVXlmOFN2ZkR4eUoyc1doUmhtTlQzYlB1VE01ZW5VVzdobG16aXplTE0zZmRlZEMyZktTckVHSVp3SUQ4T2FpbnVNMlBGOGpQeWpVRlBtQkNwMHFrWXd4M3M5Qy1wSVhjRjR5Z0JrMjRZUVZ1SFdnd3VzTURRYkVlREx2aTU4SnNrMURGNjFTa2ZSVm9SMDFReW9obC1KNmdPZjluWFpOT2t30gHYAUFVX3lxTE9fV1RqMHAtNUVJRF8zR3IwOUhWaWp1M2NYcl84RXd2Vjd0NnptUUhBbzEtQ3dvVERCTHFxOXhVNDRkTTZEVWQyX1lIY0tsc2JYSTZJYzFXWUN6bG41Z1hReGRLdTlnenJsRWxOS1RHMFVXYUdIYnF5by01SDlURXdzaWVvUkhyZjRCaG42RWhLUDRXbGxzbFUwQ2xjSmc1WEp3X1hPb1pLOVVTanE4X09TLVkxUFQ3anJQTzZOdnZMYk9YcTJvZzU5Q01tZVk0eGlSUWcwaW9QdA?oc=5",
     "fuente": "Cordoba Hoy",
@@ -653,12 +662,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcjRMV2htaS04aWlRTHQ4RnNObkUyYzBIcnZCMHU1clN6Z01Ja0NOZVYydmg2b3pyRWxpOTdNS3N3ODBkdmlSODNHSWY1SmlKQ3dWNmlfVS01ODNDdmRYUmw1SFAtYzE1eW1FQ3gwVUF3bHVDRjltUzJiTlJPUC03YUFtLTBWQWcySUVFMERJQWZQZmExUGx2RWduRkVNVWdnUlMyOUFPN3NTVUlhYnV5MUoxR1FxLVlfQXN6YnIySjluekp6N1lfOW5tbnU1R2JMQWZOeHhLcWoySFNUdkNjaGpEbEcyc2tOMU1Ib9IB8gFBVV95cUxQSnZaUjFPUEFhZmY2bTgtOFZFUm02M2RnWl9nQmN5ZC14YUthdlIwX1dLdWQ5OVRIV09SLTdEWXlTbEZpQjVTWU1aa09UVGNBOTAwMkZRRTczazZ2a2RwRFNqRnVnRmlvcDg0Vjl6RlFTTWNqUFJ4b0FsRGtZbU5YVWpDYS0tWmNpNW9LcmZtanBGY1JydHJJVGJfWU1fd0tDU3NtZ3c0c2hMYm8wQV9HRDhyejZDemRaWldyaF9PTzRYWWZxQUdrczI5NXhSSWUtRi1aZ2VqZkNwZkpZYjZzejBSajdiTlllRVNabU1iSHhmUQ?oc=5",
     "fuente": "Andalucía Información",
     "fecha": "2026-11-13T12:47:17+00:00"
-   },
-   {
-    "titulo": "Quién es Carmen Sánchez, la historiadora y guía turística de Córdoba que quiere hacer historia con Adelante Andalucía el 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQS2huRy1KcXdOTE1WdzMyNlhKYnVZTVlobU1qV0U1WHBLaW01X0t2eHo4X3doX0tVZjVJaEY3NklyQkVBb01BYVBycjVIY29fd0xHa0x1YWhhb0NSaGJocVlUY0JNUWVtUVRES0l2N1hjUFZOQUl6NHJZam1abzFYeW5Obm1YbkU4TTMybFRqYjFzX1VnbkZWRW1qaTV5QUJTRFc3N214MDFmWjFzMzNpZXM0ZWc3UWRTQ2k1R2VMUXpqZ3dVWkhCMGNtREVETDNpYW5oNkUxZDBSSUHSAeABQVVfeXFMTXRrTmZ3YXA0VGxnd2tjM2lpMi1Yb0J2SzhTUkE1R29udjV0bGE4THI3LXhScDhUcDlIbC12Y0xXTEVBUjFXVGMwbzFLb1RZb0FWRjVZT0dhVzVTQm53aldPTGJsQzdfaGFiSDVEZHlfcm5lWUhSV2NXdnhsLUJoNUIwalBHWW9NXzZCZW9FZWJOR0cyMHdaV29TdGFDcWozM3ZoT3hyRkFTSGRaaFNYc0NMcUFCbWtOcWJrS1ktd2lTbTV2QlMya3BSeFRPUVZ4clNHZGM3elgwX0JHb01JYTQ?oc=5",
-    "fuente": "Diario Córdoba",
-    "fecha": "2026-11-13T12:00:27+00:00"
    }
   ]
  },
@@ -697,6 +700,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjZWc19PMUFQcEtlazlabTJub3RvekpUVTFLaVQ0Qml5SjU2U1FwdlFpY2dWWW1kS2E0ZERtRVFNTVhVMTV0bHVib0gyQmxNU29uLWwzaWdhOHhZRjlxV0djYlRXdWRDZXAyNWNiWGp0MTI3R3FaNnVuTWlFOFZqcW1OWWc?oc=5",
     "fuente": "Newtral",
     "fecha": "2026-11-14T00:03:46+00:00"
+   },
+   {
+    "titulo": "¿«Esta imagen muestra a Iván Sánchez, portavoz de Vox en las Cortes de Castilla-La Mancha, con una pegatina del emblema de Núcleo Nacional en su portátil»? · La Buloteca · Maldita.es",
+    "enlace": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOVURLR0w0dTBHV3p4QlRtSHRtWjVtUldvVDVCWlZCdzJWOTRRNnZfSVdOY2Jhem41a2Y3NlNsTFpNdUpWbFRCUlY1bE02MG1qajZuZTdJQmdCdTMzNnJTRUFVZFpkMU5tQi1vbEs4X2FOVGpLeVhnOEJvcVBpUFpsTUZzVVdya0g3LWJnQnY4ZFhkT1dUVl8tMkthemVJTVI2NXFza2dCRE5VUTAyN2R6Vnl1amJzdnhZLVN5VWMxTFlFYzRSa094X2ltVjc1Q0o4UG5GVXZEb2xlLV9PM2dfTzBXbndmdFFSUzF2cmU1SUhyX2lXampEX3Z1ZHB6LXY0a3J4bW5mc21kQTFkR0ZCNA?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-11-13T10:41:59+00:00"
    }
   ],
   "Sumar": [
@@ -908,18 +917,18 @@
    "partido": "PSOE"
   },
   {
-   "titulo": "El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
-   "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVjdlMzZIR1AyZzVEN1lFQnh0c0FuNGhyNktxdWpCWVpMc2JJSk5UTzNyRGdOSV9BRUgtV1ZOd0Y2VzFUdUtCWWFjcmhibHJuM2NlLUlJcnpJc1YwMV8xZ2V3ZE4yS24tM1R2MjAxQUZjYURjNTRLdU5lOFhmZ3p0WFZYUktwTlpPc09yQjYtVVM0Sm5oTV9MWFItNnBGZEYwTElpblFHUFdIQdIBrwFBVV95cUxPQlBRdUNMdWdvRnhsUkU1cjc2SkRuUTRJaG1OLTBzaTVaTlNBRnh0TWw0aXNEblJFVVpkNURBUThyN24yOHMxZy1TZkwzTTBaOXVhY1pXYXp1QkFVQ1pWbEpEdFlTb2FuRE9fOXhJRkVELW1EVHVVVGpBU0RmV05mWEFON29ia255TjRsV2ZsMGYxRXZVa2Mxa3NaeEYtVjhmeXNLWWhxVXh5bnNyM3dB?oc=5",
-   "fuente": "El Correo",
-   "fecha": "2026-11-13T11:22:56+00:00",
-   "partido": "PP"
-  },
-  {
    "titulo": "Irene Montero, tras la polémica por las pulseras antimaltrato: \"Ninguna mujer ha sido asesinada mientras llevaban ese dispositivo\"",
    "enlace": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQZHVId2FGRHNWNmdRYU9TMTdMRVVwWVYtYVYyd04xNjIydzc0VEFCMHZrVGh6UmdEcVVrQWNULVl5OGNEV29Pd0ZwUzA4eXU2M0huMlAzZmw1dzBCRVpIRmxxNS1KMWJEbEI5ZHEwek80UFVvODdrSUtEN0dUMEw5Vm16MER5X3Q5NC1iei13MWxDRzZ3WU85OEY0a2xQcVlISVgwS2x5YXBmYjV2SGpfX2FiSUtGQXZINlVJTGNZQTlHbFNQRmQzTUgzYVNxYXZkRUgzdC1jZnpEQ0N0TFRJbnZpSmgyb0w0NXdYdUd0amdrRXNMRTM1WjNzeTloUC1kdXB3NzBsR2dKRjctTU42YXlCRdIBkwJBVV95cUxOREI2Q2dOTmc0dUl6UXpKM3A0dDlJVlduSVd6VHlyR1BWeGpmcWxfNFF2ZlZDd2ZjWXZoTkRvVzd1TmVlWG01NmJFTXVUUVVLNnpTZVB0V3U0OWJtZnZrcUZLU0R0YVhQcDl6TmxNang1bzlqWVBGaXZkZmlMZ1VvUGcyZWNOYmstVjQ5ZG5mTndnREc4b3AydXZiYXRwbjM4ZlM3aUx6MXpMSWg3dVNzQ3ViYmhGVHYtSmZMT29zd2tRODlnUkNWMnBYc0JsaWpYUUltMmhGTmJXT0RDTDdCT3Z3YUNmLU5SclVmMG1objJWdUNmc29pVGJTU3RUanVEbGdhU0xuSnNCZ3lhN3JMVU1GUQ?oc=5",
    "fuente": "Antena 3 Noticias",
    "fecha": "2026-11-13T10:57:07+00:00",
    "partido": "Podemos"
+  },
+  {
+   "titulo": "Feijóo explica a Jordi Wild su polémica imagen con un narco gallego: «No tengo fotos con prostitutas»",
+   "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSHR0S1NlUEtodV9Bb0c4dXlnYXNOdllncDBoRnFCeGttalN3UlJzMTZRZlJKOUYxZlZPcnMtWThuV0wyT0FKWlc5RVd1Y05wSzR2dUk3M3p0NmFpdm1QS2I5YUd1eFZoX3FFNmpGXy05ckVJMHoyMTY5RGlhWXkyR3lKbXE4R21MNTRBeGxOMGJZV2JGY1NpdnZNNzhJVmFocWZYQm1PbHh0Z28tWF85YtIBtgFBVV95cUxQcEc1bUdfYnhmQ05xNlAxUnNkYk9HN3QxZHpXVVJNdnV6V3c5a05oUGtMOEdBSkFSS2NNdTFWRWIycTZkUUgyQ2RrM1VwQUhDRFdQWEhObXhMaFhoNDk0SzZkSUVod3Q1cE1rNV9iTXg1OFRtdTJNd3RJS012Z2h1UVIwM09TYjllb3ZSOUhjdU0xeUl4RzhGajNaUGRoZXhodnpiOHlSRzJsdHppZDlvYmpraTExQQ?oc=5",
+   "fuente": "Las Provincias",
+   "fecha": "2026-11-13T10:54:15+00:00",
+   "partido": "PP"
   },
   {
    "titulo": "Manu Sánchez ironiza con Pedro Sánchez sobre la polémica del público en TVE: “Son exactamente los mismos”",
