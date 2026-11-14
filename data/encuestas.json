@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-14T21:27:38+00:00",
+ "actualizado": "2026-11-14T22:01:04+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1385707688,
+ "revision": 1385713321,
  "partidos": [
   "PP",
   "PSOE",
@@ -97,6 +97,30 @@
    "encargo": "Electomanía",
    "id": "electopanel-2026-11-13-2348",
    "primera_vez": "2026-11-14T17:01:08+00:00"
+  },
+  {
+   "empresa": "SW Demoscopia/La Séptima",
+   "inicio": "2026-10-26",
+   "fin": "2026-11-13",
+   "muestra": 8000,
+   "participacion": null,
+   "pct": {
+    "PP": 28.5,
+    "PSOE": 31.7,
+    "Vox": 17.1,
+    "Sumar": 14.6
+   },
+   "escanos": {
+    "PP": 115.0,
+    "PSOE": 133.0,
+    "Vox": 60.0,
+    "Sumar": 20.0
+   },
+   "empresa_base": "SW Demoscopia",
+   "clave": "swdemoscopia",
+   "encargo": "La Séptima",
+   "id": "swdemoscopia-2026-11-13-8000",
+   "primera_vez": "2026-11-14T22:01:04+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -658,7 +682,10 @@
     "Junts": 4.5,
     "Bildu": 7.0,
     "PNV": 3.5,
-    "AA": 3.0
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 0.5
    },
    "empresa_base": "YouGov",
    "clave": "yougov",

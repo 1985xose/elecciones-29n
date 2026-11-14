@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-14T21:27:38+00:00",
-  "mensaje": "546 encuestas leídas, 1 nuevas",
-  "ultima_buena": "2026-11-14T21:27:38+00:00",
+  "hora": "2026-11-14T22:01:04+00:00",
+  "mensaje": "547 encuestas leídas, 1 nuevas",
+  "ultima_buena": "2026-11-14T22:01:04+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -20,31 +20,31 @@
    ],
    "corregidas": [],
    "nuevas": [
-    "YouGov/Ara 2026-11-02"
+    "SW Demoscopia/La Séptima 2026-11-13"
    ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-14T21:28:16.829Z",
+  "hora": "2026-11-14T22:01:41.335Z",
   "mensaje": "10000 repeticiones, faltan 15 días",
-  "ultima_buena": "2026-11-14T21:28:16.829Z",
+  "ultima_buena": "2026-11-14T22:01:41.335Z",
   "detalle": {
    "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-14T21:28:36+00:00",
+  "hora": "2026-11-14T22:02:03+00:00",
   "mensaje": "10 titulares del día, 89 por partido, 22 polémicas",
-  "ultima_buena": "2026-11-14T21:28:36+00:00",
+  "ultima_buena": "2026-11-14T22:02:03+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-14T21:28:36+00:00"
+  "hora": "2026-11-14T22:02:03+00:00"
  },
  "avisado": {},
  "fiabilidad": {
