@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-15T19:01:04+00:00",
-  "mensaje": "549 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-11-15T19:01:04+00:00",
+  "hora": "2026-11-15T20:01:04+00:00",
+  "mensaje": "550 encuestas leídas, 1 nuevas",
+  "ultima_buena": "2026-11-15T20:01:04+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -19,30 +19,32 @@
     "IMOP/El Confidencial 2026-11-06"
    ],
    "corregidas": [],
-   "nuevas": []
+   "nuevas": [
+    "SocioMétrica/El Español 2026-11-15"
+   ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-15T19:01:51.487Z",
+  "hora": "2026-11-15T20:01:35.014Z",
   "mensaje": "10000 repeticiones, faltan 14 días",
-  "ultima_buena": "2026-11-15T19:01:51.487Z",
+  "ultima_buena": "2026-11-15T20:01:35.014Z",
   "detalle": {
    "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-15T19:02:13+00:00",
-  "mensaje": "10 titulares del día, 90 por partido, 23 polémicas",
-  "ultima_buena": "2026-11-15T19:02:13+00:00",
+  "hora": "2026-11-15T20:01:57+00:00",
+  "mensaje": "10 titulares del día, 90 por partido, 22 polémicas",
+  "ultima_buena": "2026-11-15T20:01:57+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-15T19:02:13+00:00"
+  "hora": "2026-11-15T20:01:57+00:00"
  },
  "avisado": {},
  "fiabilidad": {
