@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-11-15T08:01:07.781Z",
+ "actualizado": "2026-11-15T09:01:06.663Z",
  "media_bruta": {
-  "PP": 31.28125167999813,
-  "PSOE": 27.191932532172007,
-  "Vox": 19.001895483843782,
-  "Sumar": 7.350056541917067,
-  "Podemos": 1.4172023445852548,
-  "SALF": 1.8713013438830213,
+  "PP": 31.34174440509786,
+  "PSOE": 27.36999905735016,
+  "Vox": 18.924718192851692,
+  "Sumar": 8.552232638217252,
+  "Podemos": 1.4081386429404623,
   "ERC": 2.5153977898410655,
   "Junts": 1.3054178275936008,
   "Bildu": 1.4844001397566808,
   "PNV": 0.8096757446603599,
   "BNG": 1.0216890658679305,
   "CCa": 0.42735076387229587,
-  "AA": 1.6188952769151186
+  "AA": 1.6188952769151186,
+  "SALF": 1.9716537773908343
  },
  "principales": [
   "PP",
@@ -25,23 +25,23 @@
  "sesgos": {
   "40db": {
    "empresa": "40dB",
-   "n": 16,
+   "n": 17,
    "sesgo": {
-    "PP": -0.88,
-    "PSOE": 1.62,
-    "Vox": -0.4,
-    "Sumar": -1.14
+    "PP": -0.84,
+    "PSOE": 1.71,
+    "Vox": -0.43,
+    "Sumar": -0.97
    },
-   "sd": 1.01
+   "sd": 1.08
   },
   "electopanel": {
    "empresa": "EM-Analytics",
    "n": 65,
    "sesgo": {
     "PP": -0.39,
-    "PSOE": 0.54,
+    "PSOE": 0.53,
     "Vox": 0.85,
-    "Sumar": -0.94,
+    "Sumar": -0.96,
     "ERC": -0.13
    },
    "sd": 0.64
@@ -51,9 +51,9 @@
    "n": 19,
    "sesgo": {
     "PP": 0.19,
-    "PSOE": -0.8,
+    "PSOE": -0.81,
     "Vox": -0.43,
-    "Sumar": 0.67,
+    "Sumar": 0.65,
     "ERC": 0.21
    },
    "sd": 0.84
@@ -63,9 +63,9 @@
    "n": 16,
    "sesgo": {
     "PP": 0.93,
-    "PSOE": -0.46,
+    "PSOE": -0.47,
     "Vox": -0.7,
-    "Sumar": -0.86,
+    "Sumar": -0.88,
     "ERC": 0.07
    },
    "sd": 0.8
@@ -75,9 +75,9 @@
    "n": 9,
    "sesgo": {
     "PP": 2.19,
-    "PSOE": 0.6,
+    "PSOE": 0.59,
     "Vox": -1.57,
-    "Sumar": -1.36
+    "Sumar": -1.38
    },
    "sd": 1.01
   },
@@ -86,9 +86,9 @@
    "n": 4,
    "sesgo": {
     "PP": -0.38,
-    "PSOE": -0.24,
+    "PSOE": -0.25,
     "Vox": -0.34,
-    "Sumar": -0.03,
+    "Sumar": -0.05,
     "ERC": 0.28
    },
    "sd": 0.62
@@ -98,9 +98,9 @@
    "n": 5,
    "sesgo": {
     "PP": -0.58,
-    "PSOE": 1.16,
+    "PSOE": 1.15,
     "Vox": 0.53,
-    "Sumar": 2.14
+    "Sumar": 2.12
    },
    "sd": 1.59
   },
@@ -109,9 +109,9 @@
    "n": 10,
    "sesgo": {
     "PP": -1.12,
-    "PSOE": -0.54,
+    "PSOE": -0.55,
     "Vox": 0.61,
-    "Sumar": 0.55
+    "Sumar": 0.53
    },
    "sd": 0.97
   },
@@ -120,9 +120,9 @@
    "n": 13,
    "sesgo": {
     "PP": -8.51,
-    "PSOE": 6.08,
+    "PSOE": 6.07,
     "Vox": -1.21,
-    "Sumar": -0.05,
+    "Sumar": -0.07,
     "ERC": 0.54
    },
    "sd": 1.34
@@ -132,9 +132,9 @@
    "n": 4,
    "sesgo": {
     "PP": -2.49,
-    "PSOE": 0.35,
+    "PSOE": 0.34,
     "Vox": 0.69,
-    "Sumar": 2.63
+    "Sumar": 2.61
    },
    "sd": 1.73
   },
@@ -143,9 +143,9 @@
    "n": 4,
    "sesgo": {
     "PP": -3.1,
-    "PSOE": 0.02,
+    "PSOE": 0.01,
     "Vox": 0.08,
-    "Sumar": 1.45,
+    "Sumar": 1.43,
     "ERC": 0.25
    },
    "sd": 0.5
@@ -155,9 +155,9 @@
    "n": 4,
    "sesgo": {
     "PP": 1.62,
-    "PSOE": -1.05,
+    "PSOE": -1.06,
     "Vox": 0.79,
-    "Sumar": -0.82,
+    "Sumar": -0.84,
     "ERC": -0.23
    },
    "sd": 0.5
@@ -167,9 +167,9 @@
    "n": 7,
    "sesgo": {
     "PP": 0.99,
-    "PSOE": 0.72,
+    "PSOE": 0.71,
     "Vox": -0.03,
-    "Sumar": -0.87,
+    "Sumar": -0.89,
     "ERC": -0.2
    },
    "sd": 0.5
@@ -179,9 +179,9 @@
    "n": 10,
    "sesgo": {
     "PP": 1.72,
-    "PSOE": -1.25,
+    "PSOE": -1.26,
     "Vox": -0.37,
-    "Sumar": -0.79,
+    "Sumar": -0.81,
     "ERC": -0.1
    },
    "sd": 0.5
@@ -191,9 +191,9 @@
    "n": 3,
    "sesgo": {
     "PP": 0.99,
-    "PSOE": -0.53,
+    "PSOE": -0.54,
     "Vox": 0.52,
-    "Sumar": -0.6,
+    "Sumar": -0.62,
     "ERC": -0.12
    },
    "sd": 0.6
@@ -203,9 +203,9 @@
    "n": 4,
    "sesgo": {
     "PP": 0.26,
-    "PSOE": -0.14,
+    "PSOE": -0.15,
     "Vox": -0.23,
-    "Sumar": 0.04,
+    "Sumar": 0.02,
     "ERC": -0.03
    },
    "sd": 0.5
@@ -215,14 +215,14 @@
   {
    "clave": "40db",
    "empresa": "40dB",
-   "encuestas": 38,
+   "encuestas": 39,
    "letra": "A",
    "texto": "error medio de 1,1 puntos en 3 elecciones",
    "sesgo": {
-    "PP": -0.88,
-    "PSOE": 1.62,
-    "Vox": -0.4,
-    "Sumar": -1.14
+    "PP": -0.84,
+    "PSOE": 1.71,
+    "Vox": -0.43,
+    "Sumar": -0.97
    }
   },
   {
@@ -233,9 +233,9 @@
    "texto": "error medio de 1,1 puntos en 3 elecciones",
    "sesgo": {
     "PP": 0.93,
-    "PSOE": -0.46,
+    "PSOE": -0.47,
     "Vox": -0.7,
-    "Sumar": -0.86,
+    "Sumar": -0.88,
     "ERC": 0.07
    }
   },
@@ -247,9 +247,9 @@
    "texto": "error medio de 1,2 puntos en 3 elecciones",
    "sesgo": {
     "PP": -0.39,
-    "PSOE": 0.54,
+    "PSOE": 0.53,
     "Vox": 0.85,
-    "Sumar": -0.94,
+    "Sumar": -0.96,
     "ERC": -0.13
    }
   },
@@ -261,9 +261,9 @@
    "texto": "error medio de 1,8 puntos en 4 elecciones",
    "sesgo": {
     "PP": 0.19,
-    "PSOE": -0.8,
+    "PSOE": -0.81,
     "Vox": -0.43,
-    "Sumar": 0.67,
+    "Sumar": 0.65,
     "ERC": 0.21
    }
   },
@@ -275,9 +275,9 @@
    "texto": "error medio de 1,4 puntos en 3 elecciones",
    "sesgo": {
     "PP": 0.26,
-    "PSOE": -0.14,
+    "PSOE": -0.15,
     "Vox": -0.23,
-    "Sumar": 0.04,
+    "Sumar": 0.02,
     "ERC": -0.03
    }
   },
@@ -289,9 +289,9 @@
    "texto": "error medio de 1,8 puntos en 4 elecciones",
    "sesgo": {
     "PP": 2.19,
-    "PSOE": 0.6,
+    "PSOE": 0.59,
     "Vox": -1.57,
-    "Sumar": -1.36
+    "Sumar": -1.38
    }
   },
   {
@@ -350,9 +350,9 @@
    "texto": "error medio de 2,4 puntos en 4 elecciones",
    "sesgo": {
     "PP": -8.51,
-    "PSOE": 6.08,
+    "PSOE": 6.07,
     "Vox": -1.21,
-    "Sumar": -0.05,
+    "Sumar": -0.07,
     "ERC": 0.54
    }
   },
@@ -364,9 +364,9 @@
    "texto": "error medio de 2,1 puntos en 4 elecciones",
    "sesgo": {
     "PP": 1.72,
-    "PSOE": -1.25,
+    "PSOE": -1.26,
     "Vox": -0.37,
-    "Sumar": -0.79,
+    "Sumar": -0.81,
     "ERC": -0.1
    }
   },
@@ -378,9 +378,9 @@
    "texto": "error medio de 2,2 puntos en 4 elecciones",
    "sesgo": {
     "PP": 1.62,
-    "PSOE": -1.05,
+    "PSOE": -1.06,
     "Vox": 0.79,
-    "Sumar": -0.82,
+    "Sumar": -0.84,
     "ERC": -0.23
    }
   },
@@ -392,9 +392,9 @@
    "texto": "error medio de 2,1 puntos en 4 elecciones",
    "sesgo": {
     "PP": 0.99,
-    "PSOE": 0.72,
+    "PSOE": 0.71,
     "Vox": -0.03,
-    "Sumar": -0.87,
+    "Sumar": -0.89,
     "ERC": -0.2
    }
   },
@@ -414,9 +414,9 @@
    "texto": "error medio de 1,9 puntos en 4 elecciones",
    "sesgo": {
     "PP": -0.38,
-    "PSOE": -0.24,
+    "PSOE": -0.25,
     "Vox": -0.34,
-    "Sumar": -0.03,
+    "Sumar": -0.05,
     "ERC": 0.28
    }
   },
@@ -428,9 +428,9 @@
    "texto": "error medio de 2,0 puntos en 4 elecciones",
    "sesgo": {
     "PP": -3.1,
-    "PSOE": 0.02,
+    "PSOE": 0.01,
     "Vox": 0.08,
-    "Sumar": 1.45,
+    "Sumar": 1.43,
     "ERC": 0.25
    }
   },
@@ -442,9 +442,9 @@
    "texto": "error medio de 1,9 puntos en una elección",
    "sesgo": {
     "PP": 0.99,
-    "PSOE": -0.53,
+    "PSOE": -0.54,
     "Vox": 0.52,
-    "Sumar": -0.6,
+    "Sumar": -0.62,
     "ERC": -0.12
    }
   },
@@ -464,9 +464,9 @@
    "texto": "error medio de 3,1 puntos en 2 elecciones",
    "sesgo": {
     "PP": -1.12,
-    "PSOE": -0.54,
+    "PSOE": -0.55,
     "Vox": 0.61,
-    "Sumar": 0.55
+    "Sumar": 0.53
    }
   },
   {
@@ -477,9 +477,9 @@
    "texto": "sin historial en elecciones anteriores",
    "sesgo": {
     "PP": -0.58,
-    "PSOE": 1.16,
+    "PSOE": 1.15,
     "Vox": 0.53,
-    "Sumar": 2.14
+    "Sumar": 2.12
    }
   },
   {
@@ -490,9 +490,9 @@
    "texto": "sin historial en elecciones anteriores",
    "sesgo": {
     "PP": -2.49,
-    "PSOE": 0.35,
+    "PSOE": 0.34,
     "Vox": 0.69,
-    "Sumar": 2.63
+    "Sumar": 2.61
    }
   },
   {
@@ -538,12 +538,48 @@
  ],
  "ultimas": [
   {
+   "id": "40db-2026-11-14-2000",
+   "empresa": "40dB",
+   "encargo": "Prisa",
+   "fin": "2026-11-14",
+   "veredicto": "movimiento",
+   "texto": "Movimiento real: Sumar sale 3.3 puntos por encima de lo que cabía esperar de esta empresa.",
+   "nota": "A",
+   "margen": 2.2,
+   "detalle": [
+    {
+     "partido": "PP",
+     "dado": 31.4,
+     "esperado": 30.5,
+     "diferencia": 0.9
+    },
+    {
+     "partido": "PSOE",
+     "dado": 29.9,
+     "esperado": 28.3,
+     "diferencia": 1.6
+    },
+    {
+     "partido": "Vox",
+     "dado": 18.3,
+     "esperado": 18.7,
+     "diferencia": -0.4
+    },
+    {
+     "partido": "Sumar",
+     "dado": 10.8,
+     "esperado": 7.5,
+     "diferencia": 3.3
+    }
+   ]
+  },
+  {
    "id": "40db-2026-11-13-1500",
    "empresa": "40dB",
    "encargo": "Prisa",
    "fin": "2026-11-13",
    "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: Sumar baja 2.1 puntos respecto a lo esperado de esta empresa.",
+   "texto": "Algo fuera de lo habitual: Sumar baja 2.3 puntos respecto a lo esperado de esta empresa.",
    "nota": "A",
    "margen": 2.5,
    "detalle": [
@@ -568,8 +604,8 @@
     {
      "partido": "Sumar",
      "dado": 5.2,
-     "esperado": 7.3,
-     "diferencia": -2.1
+     "esperado": 7.5,
+     "diferencia": -2.3
     }
    ]
   },
@@ -663,7 +699,7 @@
    "encargo": "Prisa",
    "fin": "2026-11-12",
    "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: Sumar baja 2.4 puntos respecto a lo esperado de esta empresa.",
+   "texto": "Algo fuera de lo habitual: Sumar baja 2.5 puntos respecto a lo esperado de esta empresa.",
    "nota": "A",
    "margen": 3.1,
    "detalle": [
@@ -676,8 +712,8 @@
     {
      "partido": "PSOE",
      "dado": 29.4,
-     "esperado": 28.2,
-     "diferencia": 1.2
+     "esperado": 28.3,
+     "diferencia": 1.1
     },
     {
      "partido": "Vox",
@@ -688,8 +724,8 @@
     {
      "partido": "Sumar",
      "dado": 5.1,
-     "esperado": 7.5,
-     "diferencia": -2.4
+     "esperado": 7.6,
+     "diferencia": -2.5
     }
    ]
   },
@@ -766,8 +802,8 @@
     {
      "partido": "Sumar",
      "dado": 7.7,
-     "esperado": 7.5,
-     "diferencia": 0.2
+     "esperado": 7.4,
+     "diferencia": 0.3
     },
     {
      "partido": "ERC",
@@ -850,8 +886,8 @@
     {
      "partido": "Sumar",
      "dado": 7.7,
-     "esperado": 7.7,
-     "diferencia": 0
+     "esperado": 7.6,
+     "diferencia": 0.1
     },
     {
      "partido": "ERC",
@@ -909,7 +945,7 @@
    "encargo": "Henneo",
    "fin": "2026-11-06",
    "veredicto": "movimiento",
-   "texto": "Movimiento real: Sumar sale 4.0 puntos por encima de lo que cabía esperar de esta empresa.",
+   "texto": "Movimiento real: Sumar sale 4.1 puntos por encima de lo que cabía esperar de esta empresa.",
    "nota": "B",
    "margen": 3.1,
    "detalle": [
@@ -934,8 +970,8 @@
     {
      "partido": "Sumar",
      "dado": 11.2,
-     "esperado": 7.2,
-     "diferencia": 4
+     "esperado": 7.1,
+     "diferencia": 4.1
     }
    ]
   },
@@ -978,48 +1014,6 @@
      "dado": 2.2,
      "esperado": 2.4,
      "diferencia": -0.2
-    }
-   ]
-  },
-  {
-   "id": "sigmados-2026-11-06-4172",
-   "empresa": "Sigma Dos",
-   "encargo": "El Mundo",
-   "fin": "2026-11-06",
-   "veredicto": "leve",
-   "texto": "Algo fuera de lo habitual: Sumar baja 1.4 puntos respecto a lo esperado de esta empresa.",
-   "nota": "B",
-   "margen": 1.5,
-   "detalle": [
-    {
-     "partido": "PP",
-     "dado": 31,
-     "esperado": 31.9,
-     "diferencia": -0.9
-    },
-    {
-     "partido": "PSOE",
-     "dado": 25.2,
-     "esperado": 26.2,
-     "diferencia": -1
-    },
-    {
-     "partido": "Vox",
-     "dado": 19.4,
-     "esperado": 18.5,
-     "diferencia": 0.9
-    },
-    {
-     "partido": "Sumar",
-     "dado": 8.1,
-     "esperado": 9.5,
-     "diferencia": -1.4
-    },
-    {
-     "partido": "ERC",
-     "dado": 2.9,
-     "esperado": 2.6,
-     "diferencia": 0.3
     }
    ]
   }
