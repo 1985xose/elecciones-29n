@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-15T17:06:53+00:00",
+ "actualizado": "2026-11-15T18:01:06+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1385852242,
+ "revision": 1385863483,
  "partidos": [
   "PP",
   "PSOE",
@@ -55,6 +55,48 @@
    "encargo": "Prisa",
    "id": "40db-2026-11-14-2000",
    "primera_vez": "2026-11-15T09:01:05+00:00"
+  },
+  {
+   "empresa": "EM-Analytics/Electomanía",
+   "inicio": "2026-11-09",
+   "fin": "2026-11-14",
+   "muestra": 2617,
+   "participacion": null,
+   "pct": {
+    "PP": 30.7,
+    "PSOE": 26.7,
+    "Vox": 19.0,
+    "Sumar": 7.6,
+    "ERC": 2.5,
+    "Junts": 1.2,
+    "Bildu": 1.5,
+    "PNV": 0.8,
+    "BNG": 0.9,
+    "CCa": 0.4,
+    "AA": 1.4,
+    "Podemos": 1.4,
+    "SALF": 2.1
+   },
+   "escanos": {
+    "PP": 126.0,
+    "PSOE": 109.0,
+    "Vox": 65.0,
+    "Sumar": 15.0,
+    "ERC": 10.0,
+    "Junts": 5.0,
+    "Bildu": 8.0,
+    "PNV": 4.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 2.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "EM-Analytics",
+   "clave": "electopanel",
+   "encargo": "Electomanía",
+   "id": "electopanel-2026-11-14-2617",
+   "primera_vez": "2026-11-15T18:01:06+00:00"
   },
   {
    "empresa": "40dB/Prisa",
