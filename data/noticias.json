@@ -1,6 +1,20 @@
 {
- "actualizado": "2026-11-15T03:01:29+00:00",
+ "actualizado": "2026-11-15T04:02:11+00:00",
  "generales": [
+  {
+   "titulo": "Un juicio por malversación complica el futuro político del alcalde del PP más votado en las municipales",
+   "enlace": "https://www.elconfidencial.com/espana/andalucia/2026-11-15/juicio-malversacion-complica-futuro-politico-alcalde-mas-votado-pp-municipales_4464911/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-11-15T05:00:00+01:00",
+   "imagen": "https://images.ecestaticos.com/rHa7MZf6lwlrbf36X0kp5FUzKQE=/58x176:2204x2246/1338x1290/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F2f9%2F94d%2F3b4%2F2f994d3b4af539bf88c4439171b38a4c.jpg"
+  },
+  {
+   "titulo": "David García, candidato de Vox por Alicante para el 29N: «En España no cabe nadie más»",
+   "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261115/david-garcia-candidato-vox-alicante-29n-espana-no-cabe-nadie_479210.html",
+   "fuente": "El Debate",
+   "fecha": "2026-11-15T04:30:00+01:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/11/6af486548e6b3.r_d.895-451-0.jpeg"
+  },
   {
    "titulo": "Sánchez lo fía todo a una simulación electoral y recupera su campaña del amor",
    "enlace": "https://www.larazon.es/espana/sanchez-fia-todo-simulacion-electoral-recupera-campana-amor_202611156af91b8bea8d897997862fff.html",
@@ -14,13 +28,6 @@
    "fuente": "ABC",
    "fecha": "2026-11-15T02:01:19+01:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/15/1520190564-Ryo9YRkbdViw8HCboam3RbN-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "Cáceres y el diputado que baila: \"Se lo llevará el que gane en votos, aunque sea por uno\"",
-   "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/15/6af89bc9fc6c83a60b8b45a3.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-11-15T00:00:03+01:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946782818301.jpg"
   },
   {
    "titulo": "Gabriel Rufián desvela el contenido de una dedicatoria que una seguidora no podía descifrar: \"Letra de zurdo cerrado... perdón\"",
@@ -58,13 +65,6 @@
    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261114194841_120.jpg"
   },
   {
-   "titulo": "Tellado bautiza a Sánchez y a Begoña Gómez como \"los Kirchner de España\": \"Les falta la pulsera del arresto domiciliario\"",
-   "enlace": "https://www.elconfidencial.com/espana/2026-11-14/tellado-sanchez-begona-gomez-kirchner-pulsera-arresto-domiciliario_4465155/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-11-14T16:16:00+01:00",
-   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/de2/634/de2634e977457ca1eabf06849771046f/sanchez-saca-la-carta-de-begona-gomez-en-busca-del-voto-femenino-se-ha-acabado-el-tiempo-de-ser-senoras-de.jpg?mtime=1794511221"
-  },
-  {
    "titulo": "Abascal defiende la prioridad nacional: “Nos presentamos a las elecciones para hacer legal lo que hoy nos dicen que es ilegal”",
    "enlace": "https://elpais.com/espana/elecciones-generales/2026-11-14/abascal-defiende-la-prioridad-nacional-nos-presentamos-a-las-elecciones-para-hacer-legal-lo-que-hoy-nos-dicen-que-es-ilegal.html",
    "fuente": "El País",
@@ -75,17 +75,24 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Feijóo: \"Pido a los españoles un apoyo amplio para derogar lo más rápido posible el sanchismo\"",
-    "enlace": "https://www.larazon.es/espana/feijoo-pido-espanoles-apoyo-amplio-derogar-mas-rapido-posible-sanchismo_202611156af91aaa9a31a65adcdcc4ed.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-15T03:36:26+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/14/42F6CB23-C9B0-47DA-B39E-8875E08852FD/entrevista-alberto-nunez-feijoo_96.jpg?crop=5679,3194,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Un juicio por malversación complica el futuro político del alcalde del PP más votado en las municipales",
+    "enlace": "https://www.elconfidencial.com/espana/andalucia/2026-11-15/juicio-malversacion-complica-futuro-politico-alcalde-mas-votado-pp-municipales_4464911/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-15T05:00:00+01:00",
+    "imagen": "https://images.ecestaticos.com/rHa7MZf6lwlrbf36X0kp5FUzKQE=/58x176:2204x2246/1338x1290/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F2f9%2F94d%2F3b4%2F2f994d3b4af539bf88c4439171b38a4c.jpg"
+   },
+   {
+    "titulo": "Novillo, el fichaje de Feijóo para las emergencias: «La gestión de Sánchez ha sido un riesgo para la vida»",
+    "enlace": "https://www.eldebate.com/espana/madrid/20261115/novillo-fichaje-feijoo-emergencias-gestion-sanchez-sido-riesgo-vida_480692.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-15T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/13/6af7328fb46ad.r_d.994-216-0.jpeg"
    },
    {
     "titulo": "Alberto Núñez Feijóo: «Si no se puede crecer más, hay que crecer en valor y calidad»",
     "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPLWduLUNJVU4wcjVSNWRJUGg3SmdPalRKVTJTRUI3OU4xNFdlSDJwWU1mdG9VcFcyN2tHZXEwd0NUbWpTT0ZVemU3aGxPXy1vcDNMNWJPSkYxYzNISldqRm5Ia0l1MzNlMGdYRDFheTlNeW94T21pNVFQbWFPWGxaYU1kOGlEZzVTbDdIM3NnZ3k2Z3Z6R29aQ1FNQ2dQQVJ2UWYtWGpHcEs1dHBaTlBWZzh3RVVkLTR5SWFYVkFFTTg2ak9fR1hrOXZ3VXpacnVyeVE?oc=5",
     "fuente": "Ultima Hora",
-    "fecha": "2026-11-15T02:57:19+00:00"
+    "fecha": "2026-11-15T02:59:00+00:00"
    },
    {
     "titulo": "El cara a cara con Feijóo, la bala de plata de Sánchez: \"No ganas las elecciones, pero si te sale mal puedes perderlas\"",
@@ -104,21 +111,15 @@
     "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNmxnWVBWM0s4d3BkX1FyUU91N0lucTJJVTh6M2padjBCT0VJemxkajUyLVJDdldHQzZoQnpUWTVFVnJZX1RvSzBpdzJQS0FGa1QyVVQxLTN6bTYyTnRfellIVTM5SFVTOVhnZ2dSbjBvcVF0cEwtaC11Tmk2SGNZOWdtd0FFRjdJTjQ1NjNubmhnUlZILU5sOUU3UExERmpKOG8yUWJWVlp0QzJ5dXFpeU1uWXdFV2Jrdi1NYlc4dlNoVlnSAcgBQVVfeXFMTnNXZkZOM2ttcEZtelI2cWViRWpjcjNRUE1Ma0xmR3ZoTkk2WGxHbW5WY2dWOVF0R2hCRDhlNjhqYi1Gb2R1Z3pKSGdOX2d1MHdWeGlKc3A3dzhrQWxhWDZWb3E2WmJWWDhlSmJ0bmYtMGREVExlRjNrcjQyeDdWMm1peTFLTE1qekk5YVNMYWpIcGdTT2FKa1RiN0hPcEZxMlFLX0FFVUNOZGQ5ajFINVJ0dmxTMU02OWNWQjktQ1J5WHhIYTFkUU8?oc=5",
     "fuente": "Las Provincias",
     "fecha": "2026-11-14T23:18:37+00:00"
-   },
-   {
-    "titulo": "Feijóo condena a la agresión a su candidato guipuzcoano: «No vamos a callar»",
-    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSG5wM25VZk1tVEsteVc3OE80TUVrTUl5cHlXU3FKSFI0NnR3dHNmT2FuaF9zcUd6UUJoQ3ByRnh6QTQ5OFhXR2tMNmZxOWxiWEN0LUFWWS1GdFhyZ0dyUGQzMGIxVUF0Q0xuaHNMRzhQVEtodWFtQVJSdmFCZDBfcGlMdG5YTk9Cc3FCTDRxWVowOGpqTjdoamVkcEY1VFB6VllQV3NXNzRlbmVsdkstbnFPQjM2OENPLTBrMG1tOWsxOWRycllxQtIBzgFBVV95cUxPN2VhT3h5aDd2SHRNTzNWRHZDYzlfd0ZEOGtPZkZYamdvdm9EMXVuQk9mb3FaM3ZMdlJPWGZ2VkVCZVVaQ3BQakczTFBoanBKZWtaS1IwQzFpWG1HRUlLRVAtRWtOTnVYaDhrZmlBQXVGMmowVUMzMU5NaVdCZ1M4ZXFvSU5TbWFlNTQydG9UX0hudTViNHFlMnp5cTZYT1V4SUdkZzUtRFcyWWxXU2xfUTlMZEhGT0VpNGptQ3FiVTJKNjNaaW9lRENkYVo5UQ?oc=5",
-    "fuente": "El Correo",
-    "fecha": "2026-11-14T23:02:44+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "El cinismo sin límites del PSOE: exige al alcalde Martínez blindar la gratuidad de la EMT de Palma, cuyo coste Sánchez se niega a pagar",
-    "enlace": "https://okdiario.com/baleares/cinismo-sin-limites-del-psoe-exige-alcalde-martinez-blindar-gratuidad-emt-palma-cuyo-coste-sanchez-niega-pagar-20898773",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-15T04:00:53+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/14/el-cinismo-sin-limites-del-psoe-exige-al-alcalde-martinez-blindar-la-gratuidad-de-la-emt-interior-1.jpg"
+    "titulo": "El voto útil de la extrema izquierda a Sánchez tiene efectos adversos y mal remedio",
+    "enlace": "https://www.eldebate.com/espana/20261115/voto-util-extrema-izquierda-sanchez-tiene-efectos-adversos-mal-remedio_480527.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-15T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/13/6af6fd733eedf.r_d.2261-961-0.jpeg"
    },
    {
     "titulo": "¿Puede Sánchez darle la vuelta a las elecciones? La clave que mantiene en alerta a Feijóo",
@@ -154,10 +155,24 @@
   ],
   "Vox": [
    {
+    "titulo": "El Consejo de Estado cuestiona la \"prioridad nacional\" de Valencia y augura un pulso legal si PP y Vox la aplican tras el 29-N",
+    "enlace": "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-11-15/consejo-estado-prioridad-nacional-valencia-pulso-pp-vox_4464966/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-15T05:00:00+01:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/27d/9a5/27d9a53082e092ad24b19f116a4ec952/sanchez-asegura-que-espana-volvera-a-hacer-historia-en-las-urnas-frenando-la-involucion-de-feijoo-y-abascal.jpg?mtime=1794656268"
+   },
+   {
+    "titulo": "David García, candidato de Vox por Alicante para el 29N: «En España no cabe nadie más»",
+    "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261115/david-garcia-candidato-vox-alicante-29n-espana-no-cabe-nadie_479210.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-15T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/11/6af486548e6b3.r_d.895-451-0.jpeg"
+   },
+   {
     "titulo": "Programa completo de Vox para las elecciones generales de 2026",
     "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaktoWVI5YVVlVGZUSktJZ3BITXo0SVYyMXFfa3JRc292TjRjZ3ZjWEtabzZ2RXpYOVh6QUVBLUhUTVJHRzlhX2U2dEc3bXBsUzhhY0liRk1lSXQtdnpFWGlDMFpBejhlU3Q3cFd6R2hVVUNJWEZONEFzRXFJaXBtVlRORlhfMzYzVmN2NVJNNXBDcjNKSlV5eXZ6SEFxY3lPTklLSE5vY3hfN2VEVjBOS3dTdmY5TUdMLWVjeVM1eVZtVEFT?oc=5",
     "fuente": "Ultima Hora",
-    "fecha": "2026-11-15T02:57:20+00:00"
+    "fecha": "2026-11-15T02:59:00+00:00"
    },
    {
     "titulo": "Vox tiene la llave",
@@ -176,19 +191,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNY2dobGdqejUzUllVVGZKWkh0QWVsNmlvS2d1Q3hyUlFCbjJ6QWdpRWRvbUZFV3UyU3kzT1IwSnNlY0hrX1hGRnVvWV9TOUhJSERIXzh0WDVVS0M0UFRVWllFeE8wUEhrU19vUEJ4YTFqUDJvMTdaa2dxNjZGamZKaWZwRmJvdjdhN2pGbTR1T2dyX3AtZ0VmWktYZzdBOUZaVFJSWVNmZnBQejhNRHlMbzJPYTZzSkhGYUlCMi1fb2FEcnRmc0hiT1dnN3ZsXzZZX0FTVHJCalJ1ZHdmV3ZlZGtGLVVuUm1JeldrV0prVHVxUm12YVpzOEtydFZEQTBn0gGGAkFVX3lxTFB1SE5WTlJEb29Xbk5YVGVPd0hoY1AyNWpKMGgyMU5IWWctYUxnaldtTzJ4aTdoRm9vVWdNT0V3Z251YWdGWkVzRUpWbWp2NUZuekZFeDV0a1BlZFFfRlR0VjRmalNQcmExX2dFZTFLUVk2VXZnWC0zekIyUXozQVkyMTBaWDJadU5URHRwYnFyUXE3SXhldy1kTUdEQlJ5MnlCQV9nZmxQVGp1OTJXZXhfa2M1U2pPbGhUSnpBNWdlVDdkdVM0UjlWZFJTZGpicVU1UjAzTjNxVEFiUWswRnRtWi1LNlUtY0Jlc1JBQnZHMDNNMndUbVpJOE8zblZsdGNjOXhuSFE?oc=5",
     "fuente": "La Comarca de Puertollano",
     "fecha": "2026-11-15T00:01:44+00:00"
-   },
-   {
-    "titulo": "Abascal acusa al Gobierno de tener \"las manos manchadas de sangre\" y sitúa el 29N como una elección entre \"España o la mafia\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPb3NVQ1RzTDZUbWpPNXVaUkZaYTZsYjBRYjBIc3kyRWdzNXlkTVVHeWZ4cFI1WkJScWJlTHpfXzVMV3otZzJ0TXhyMjhRZXMxWHgxc19Bc2V3VWdudHRIQUdRMno0Z2NkTzhVa1M5RXZ0VTNzbjJmaUg3c0lUS3FNUmRtcUdmZUFjUE01MmxsYlF2cGNJR1g5YThQZDRNTGZrb2RzOG4waEF5ZW03R0Y4aDBOZlg4MFY0RTZLeWVzaUhCVW1iTENrVVZObTNIeHM5XzNoOXNmU215b0Zvck8wd3VmdG5MdXo1ZEF3UUpBbHl5Zw?oc=5",
-    "fuente": "murciaeconomia.com",
-    "fecha": "2026-11-14T23:53:27+00:00"
-   },
-   {
-    "titulo": "Abascal carga contra Sánchez: «El líder de la mafia lo tiene cada vez más difícil, pero tiene otras herramientas»",
-    "enlace": "https://www.eldebate.com/espana/20261114/abascal-carga-contra-sanchez-lider-mafia-tiene-cada-vez-dificil-tiene-otras-herramientas_480988.html",
-    "fuente": "El Debate",
-    "fecha": "2026-11-14T22:23:44+01:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/14/6af8d01c60a1b.r_d.1355-475-0.jpeg"
    }
   ],
   "Sumar": [
@@ -295,16 +297,16 @@
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/05/6aed03ae376df.jpeg"
    },
    {
+    "titulo": "Alvise Pérez pagará 20.000 euros por atribuir explosivos sin pruebas a un hombre",
+    "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVGhsa09jajMyQXpROXJEdmxUdHFlR2xxZVprNGtHNHdwdmpUOTZidXN2Nm1NOGp2N19kZHFodjBwRDNhalZzMHZidUpqRjd4NmxKNm1TR3FmQjdxb2p2VThUT09GT2FvUjJiS1A4LXBiZWJNYTJBWHJjUUxzMmF6TEdwaFRRZzFFbWVudjBGVVVkbTcwemRHdw?oc=5",
+    "fuente": "BilbaoHiria",
+    "fecha": "2026-11-13T15:54:00+00:00"
+   },
+   {
     "titulo": "Condenan a Alvise por asegurar sin pruebas en su Telegram que un hombre llevaba explosivos",
     "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQTlOcFBHSGx1cTVuRzJYM3ZiRnRRQXFaLTg0YVI4andVMEFMS1NueF9LQlo5Yl9SRWg5cFVaa3JqcmpXNDV1SWNuRDhocENnbFVmTmJPYl96QmVrM1R1Tmk1MmhrYmxyY2l4WHMzMTFNT1d0UUN4SllUbFd3LUJBWEFPOHlHOGo3N2lZY2lNY21WQVhOSmVoVDhmMElUNmJkT1Bpc3d6MlR0c0NpUjBvVGowRmZxT3FkX1dMUFdidndpZw?oc=5",
     "fuente": "RTVE.es",
     "fecha": "2026-11-13T12:19:37+00:00"
-   },
-   {
-    "titulo": "Encuestas electorales para el 29N: ¿Se puede votar a Alvise, Iustitia Europea o Democracia 21 en Valencia y qué dicen los sondeos?",
-    "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPWWd3Qnp1eDFNaUtZMTdWaHphSXhrd0RtVWpaUEc0aGJpUWpNcTEwWDhEajUyamtCQTgxUlhhcEtYd3Z3SUlMN1RiaFZ5a1paUFIxZUljOG1sOTFaRUJPLWx1SWpXUDdTbkxRYmRaWDk0ektHMUkxVzBoWmRNTTZ0NG9maHNsVzhZc21ZNTlkcU5YSGlVUUptTG92Y3ZSUGJoRjB2eHYzeHNua05lX0dmTEp1MlRYd1hIa0V2eFZYYjJMZnFOdElzdlBnc1hqZDkyTWZTZEJLRlAzb0lNMW9lUDdXNDYwWDJkX1JnMVl0NDBCM1hqMWlMcTgzNjIxdmpnanfSAYcCQVVfeXFMT2NXRE5jXzMxY1BlcURGbFphdl82X0cxc0Vnbmk3Ri0wYVBDd1BZN3NIcFpBcnZmVlJVRlNFQjJUMzh3UWQyVlJlYVVNanRDNENpWi1oMkVRSHhlSXdTS2I5Q05ESzJjamxrRElhcGRzUmR2NzdSWVdZNjV0WGcwblBxN0s1bHJWUzAwNUZGbVFpaHh6QklPX3J1aEt3ODBiMThVcERua1R3OUNSdUNrYmQ0LUJ5QnhWYUh3TUlHMmFESjZQX2dmUldna0g4Z0MtQ0w4M0JPaW45Y01FVWRZcUJ1cm1VQTNYQlgteWNoVk9feGh4VmhwWEt4VnFLai0weUxnM1dCTU0?oc=5",
-    "fuente": "El Debate",
-    "fecha": "2026-11-13T11:26:25+00:00"
    }
   ],
   "ERC": [
@@ -349,6 +351,13 @@
   ],
   "Junts": [
    {
+    "titulo": "Sánchez usa a Tezanos para vengarse de Junts y el CIS lo deja a las puertas de ser extraparlamentario",
+    "enlace": "https://www.eldebate.com/espana/cataluna/20261115/sanchez-usa-tezanos-vengarse-junts-cis-deja-puertas-extraparlamentario_480711.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-15T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/14/6af89af190874.r_d.3000-1748-0.jpeg"
+   },
+   {
     "titulo": "Nogueras (Junts) saca pecho de la ley de multirreincidencia: \"Quién la hace, la paga\"",
     "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZnotZGE0dUtLeG52WDNMU3ZjYUF3UVVwdFNnVTcxTHNOektuQ1BXVW5MSFV3WVRNNzNBNklpYVNBbDZTWDVFYWxGQnpNU010V2cycDZ4RjBfWnRQNXdoa2lya29qZUpwdXZPWjR6a0swQXdabEtnUEdKemlXTk9VLWFqVmlvNm9IaXBnQVFnREdfaWZNT2h2ODVXNXRmSWdiMlFnctIBqgFBVV95cUxQZFlxS1lvYzJNbmhYaWZkQTFEaTlLanRwTFo3ZkZXQXYyaEpLaFpyZEFZQTI4SEg0a0ZhX19tcncwYm1TWEZnS1ZfWmVZS2UtaXppMDU1Wmx0aS04Z3BXWWZWZDJpbDJFZEdmcGhQZGQ0YWY1dFFGa3BVNFgtcWE0UG8yaFBpSWY0bUpCY0JvU2hvM2w5djFKS1Mxd29CZHZScnBtNVYtUzVadw?oc=5",
     "fuente": "ABC",
@@ -379,12 +388,6 @@
     "fuente": "El Mundo",
     "fecha": "2026-11-14T13:55:37+01:00",
     "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946608934053.jpg"
-   },
-   {
-    "titulo": "Junqueras dice que Junts quiere \"condenar Catalunya al purgatorio\" y le afea la corrupción",
-    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOODBsekZpWU1ybG1NOXcxRUt2TmlTS05zSDVNLW9OT2dZeFpjd0NSakJ2a0JTMW1xaVktTExMOUgtVjVaSUZTYjRSVi0tWXRpOHc1NjRiZHZNbXRTQUpGd3I2ejBpQWlXVWtuY3prTUlyUWN0ckdFblgtQnlTUmNEeEFIblBhakJ5T2QwcE95YzIxaDBDV05aMzlBUXhvYXJrbWctbnVsSW9mN01uOC1EbUlqb1JiLUXSAbcBQVVfeXFMTWY0VDJpNWZiYXNla0ZKYlljWlZiUmx4b1kxeEsyejJHVjdFTl9HMjhwY1VLdmpMc24tNmJ5WFZrNHB5bTNUQ0pyc0U3TmFxZXZuWmtUNS03TTFzc2FMdVFWQTNES3MwZkt1ZnFtTENac21fWlYwVmJpblQ3bmp0bU9YWVotV3drV1FrVFZzRTFrcW02UUNwLUQwczN4NWtfdUVuT1hBYjRpbTdNaVhPdHdxWXlBYWZn?oc=5",
-    "fuente": "El Periódico",
-    "fecha": "2026-11-14T13:35:35+00:00"
    }
   ],
   "Bildu": [
@@ -555,12 +558,6 @@
     "fecha": "2026-11-14T09:36:36+00:00"
    },
    {
-    "titulo": "UPN y PP, ante la cita de Feijóo en Navarra: \"Aquí comenzaron a conocerse episodios de corrupción que salpican al PSOE\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQYVV6M0l4TkFpYVdhUDVNN2JXanhhTDh2d09ReWVOU09WN2UtS3NnaDljNFBsa2pXUjJKVXdfdHFmeUtieFJBbThVQWpISExTRERLU1VNeklNMzI1REdxYkVCc2Ewd1M1VXQxQmRrZVc5TlpzQnJhS181WXdwS05ZYWFmekp1RzZEeWZrWjZ1VThEUmZZRUg1YkxlU19sX2xYazFJWHE1TWpaN2w5dzExMTJ1NzZNdUpBZ0Y0S0N6cmp5VXpPSGVfR2dsb0h3YVdQaldLd2VPelVtbHpDRnl0bmVTcW9jazg3ZmdVdDJBZWpxazZ6SXU5ZWNzWdIB-wFBVV95cUxQYVV6M0l4TkFpYVdhUDVNN2JXanhhTDh2d09ReWVOU09WN2UtS3NnaDljNFBsa2pXUjJKVXdfdHFmeUtieFJBbThVQWpISExTRERLU1VNeklNMzI1REdxYkVCc2Ewd1M1VXQxQmRrZVc5TlpzQnJhS181WXdwS05ZYWFmekp1RzZEeWZrWjZ1VThEUmZZRUg1YkxlU19sX2xYazFJWHE1TWpaN2w5dzExMTJ1NzZNdUpBZ0Y0S0N6cmp5VXpPSGVfR2dsb0h3YVdQaldLd2VPelVtbHpDRnl0bmVTcW9jazg3ZmdVdDJBZWpxazZ6SXU5ZWNzWQ?oc=5",
-    "fuente": "Navarra.com",
-    "fecha": "2026-11-14T06:53:39+00:00"
-   },
-   {
     "titulo": "Feijóo acudirá a Pamplona el lunes para respaldar la candidatura de UPN-PP en las elecciones del 29-N",
     "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOczlBQk43S05TNF82MFIzSURKd1I3c21ST1BtVzFoNjlNNmVnNHhfQnJnbUlCekZqVG1yd3hHWTVwZzVGWl9JbVVabmc3Q0EycEU1NDA2Mm4wcFZnQmgtTVJSaVZ4Zmd1c0wtRG5yNHdzdmpiWFpseURzanhnWUJYU3g5TXVybVpIckJQNXdaYUc3cVNOOU1scEpiQmtGWngyN2JXVE9zalF5bVBsUmhLTk4xT003cV9JUDhrdkswbGhWQU0zcG9vVWlaTkxIbkE3d0xUOUpYd1ExQmF0?oc=5",
     "fuente": "Pamplona Actual",
@@ -577,6 +574,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbkhSOXpzMWJGQWNqVnlKSnhiTVE4b211YjB3VktKcXhSX0pWOVRUc2E3RE1Sb1QzQk9xS3REUmJHNnZxSGZpZDBHalZ2Q25RX2hBa3JTRWtJNjNpajFnUXlpdzEtejVoNHZKRGhiT21qOGN2cHp6eWpfY2QyTGNXaTJPUFJXaEd4NmlqdU5MUmk2c2pDaFcxVm14ZG9wQmptbzl6bWNxU0RLbmtjQWFVbTljY3doTWwyU0s1WnNvZ0I5Ti1hVjF5bW8xV0F6eVR2a0NMTg?oc=5",
     "fuente": "Diario de Navarra",
     "fecha": "2026-11-13T04:00:00+00:00"
+   },
+   {
+    "titulo": "UPN y PP dan pistoletazo a la campaña con un llamamiento a «votar con responsabilidad» para «acabar con el sanchismo",
+    "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPMjloLUFTeGlSTjBwXzYwRWtIMHpJa195T2s0NTZSU3BtWTJ0ZU1WalBsNEd5X045ZWJjbVJOVkhLS2p1VHJ0T2VNSzBtT20waTBRU3kzZC1yOXk1VkJFbk5qUE5peUEya2U4UzlvOHYtcm5paHZJNUlRMWMzZTlwaW96RC1ld3dZQ0pTZkVkMmhTR0hib1lKem95Nno3NEZ4RlJ2Z1FQQkNOdHQ3OGhOcUhiazBiVjN4WjRlVm82MTlXb0lhcTBjNE5lRXl5NUsyc3JQOTdpOW9jMHFpeGxGRkF3S3IxdUQ2Y21acDN3MG9nMDZfM2xscXQtNmI4ZkRHN2c?oc=5",
+    "fuente": "Pamplona Actual",
+    "fecha": "2026-11-12T22:16:07+00:00"
    }
   ],
   "AC": [
@@ -625,6 +628,12 @@
     "fecha": "2026-11-14T23:25:11+00:00"
    },
    {
+    "titulo": "Adelante Andalucía propone retirar las ayudas públicas a la tauromaquia y limitar el acceso de menores",
+    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbnNpRktoM0p0R0M0XzJaMWUtZFMwUTl4dGFpZFloOUpBdU14SUpMTmY2U0JMY2NxVVBGU09rcnZETEJWaHp3VGFCVGVpNWdyY054VHV5bDFpcjhyN0dnb2tfb3hGWUFSbWljZ3M4VXhaSmRkQzF2LUtYb1JraWk0SWVNbnc2YUJGcThMUk9tRWVNdGRYaGxUQV9mSURYWDBob1RmWF9INHA1bmc1N3ZicGxjT1psQ25FcEY0M2NBVFhGTmZUaVE?oc=5",
+    "fuente": "101tv Sevilla",
+    "fecha": "2026-11-14T21:08:26+00:00"
+   },
+   {
     "titulo": "Toros y 29-N en los programas electorales (I): Adelante Andalucía los prohibiría",
     "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOHd5SE5GN25NcEF0aEJMUFBFVlVZd1V2VXRWYzQ3MjBySlh2TUV1eU9oYWszVWliaENMU3dxbFc2bm0xT2QtY19aWlJ2TE4yYkZWOVFHME5QSzlFbWx2MXF6Rk5lcTNQd0pacXJKRm13djc2TDRXbTc2emszaXdkaEprcWFrZndCNW1YaHFzRE9DODRGbURqVlNvYzBUMV85UEJHcy1hZ3Q0TmR6V2lMVDQwbDdHc1NiZFFv?oc=5",
     "fuente": "mundotoro.com",
@@ -647,12 +656,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaEJEbHR1YVk5LTVyYkcyUVNaVHlOektMQ2J0aGpkNkZvQTNNQ2YxOWJRMEZ0TjE4eEtJSVR6N1FrRHUwelQwM1ZqSm9HYWJKTFl5Nnp2b1Q5WVB3UzhZZEJpZkJVM3FvcEZ6aFRhNy05RzdKck1sbjN6SjZmckdtNXEzWGh5Y1ZmREcxcS10d1N3U21FYkVUbmJTYXRma2tidzY4S3BGc05zM1BDeWhxZm1PYUREcFRVckN6OTBYMDJsZmhkTjRHampiVDlzcWd4dlg3WnpqTnExYnpGZndGSVhjZHlRSHFzaGxkVjQteGlaZ9IBhgJBVV95cUxPdmkzSFJSUmdweXVpbzc1d0p5RE5tTE9BNmdiMlFEMGhZSkJUUmY4Y3lLMFg3U19HMGlZc2g3aTlyODBYQ2RYTmNYQXhiWHZTM240UTZUT0lPOXVoY2ZxeUdYVHF2R1A4VDRXcHRwazJpU1oxOGJpZG1tcVZwSUdoOGUySk84V050RVNLaDhEdEFjR0FrbzNscjl6WU9jS2FkNWxkSWtrbTFiSW5xNDJRRzRTcDFFUFJRNUY2TnE4ZmNSb2hsa3hlc0VmQjI4clFLQldBd2dpdS04RHh2M0kySDFBSE5FMFBHMGxaVXR6NEI4Mll1WkpoV2lJN0tvNEthWlcwRU5n?oc=5",
     "fuente": "Cadena SER",
     "fecha": "2026-11-14T17:32:42+00:00"
-   },
-   {
-    "titulo": "Adelante Andalucía arranca su campaña del 29N en Los Barrios reclamando \"voz propia\" en Madrid",
-    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZVQ0d1BOSHhGRlBNU2htV2czbDl6ZmQzUlN3VXVzQ3Q5NG1FemcxYU45YmRxaWZDQUdtSHIwbWh0eHBLVk9ndVNqeERMQVJ0VC1QWXdhdGh3aXp0NnhaNi16czBmWFFlaXJWVGcxN0swdi1hNUkwbUpEeDE1cVFiQ0ZTdUE2U2JVQUtLTnJvRHE3eEI0b0hhOXIwMFgxem5WUDBaUVcyUFRvelduZVV6bklIS3dPLWU2M0c0cnVUQ0xNMzJ5Ymc?oc=5",
-    "fuente": "Noticias de la Villa",
-    "fecha": "2026-11-14T15:43:32+00:00"
    }
   ]
  },
@@ -669,6 +672,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQR3VQTkxPcjhMRmJoNHNoV3ktWTZzTW5sZ3VacW9YcUVPb25ZQTg5OXJJbHVxYkJwNXBtY3psX18zRzVweGJjcmxNVkRJWlVTRzE1cktRUlFLWnU3Q1NKWkdYV1lSaXFmV0pCWEM2TjZDbGNVbTJ4X1kzQVJLWnlRS2VlSGVqd041UU5xNTdycHE5OXpFSDZ5SjM0a1BQSlUwMG56cHBXWXBBbDJGNzk1WG5uanQ1b1Z5YjQ5dHY1NzVpb0VhdHVNeW9vd0FLYTFOSm90NTdBeU1HTXYzdklpbmFkU0hzUE9jWFlHUDRhQlZ0RkNlUmFEVzJlalFDUk9yMFVGaWFjTmhZZklZb01jQ1hpZGRSMWF3RG5mVUFZMnpwb3BzS3Y0YlhBSjlUR0JPUi1FMHJ1UQ?oc=5",
     "fuente": "Maldita.es",
     "fecha": "2026-11-13T08:45:17+00:00"
+   },
+   {
+    "titulo": "Las versiones del PP sobre las reuniones de su abogado con Koldo: de negarlas a reconocer que “existieron”",
+    "enlace": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CLUVQU09kTml5Zl9sWVNYVTNFMkc1ZzhPTHppcFBLRXRQaXVzcnJrOG8yQ0RKRS1GaGxPUy10R2Z3NWl4dE1xZ3B6MG1IRk5CNXRBUGNIOEh1TURYWEdiUmhB?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-11-12T14:56:19+00:00"
    }
   ],
   "PSOE": [
@@ -774,6 +783,12 @@
  },
  "verificaciones_generales": [
   {
+   "titulo": "Este vídeo de Lula da Silva con Pedro Sánchez no es actual: el líder brasileño aún no ha llegado a España",
+   "enlace": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TRTNNUWxWNVlxaVFNeGI4TGhmWXBiRGJkMmNtUXdOOXNfRm9WQlE3VzJNdTk4dDc4alRxdHQ1Q0N6OWN3cXpmOV9RMjhIaDhoQmE3eFJnN21FbXNWdjVGRTd3?oc=5",
+   "fuente": "Newtral",
+   "fecha": "2026-11-14T11:58:13+00:00"
+  },
+  {
    "titulo": "Cuidado con la encuesta falsa atribuida a IMOP de cara al 29N",
    "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMWhLajhIMWlmUzc5bWxtRDBrTEcwT1FjRXcxbzJYbjZvaFFqb3R6dzFmZVBFZFpBaUFWcmthdWxiTkpnU0tMcUg4SEJ5d2lmR2V0Vk9nM05xQ2htTHB2STJXTUdmZno3MlM1d28zSnJsYS1CYzJPSVJjdncwZjBYbk5YU3lPVHBuNkl0eVVPbkc0aWNo?oc=5",
    "fuente": "Newtral",
@@ -796,12 +811,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa21ZTE44VUxmT1NLOUlkcktaSDBBTHp3SzA1OVpGdXNZNVk3U3VZbzFQdklFWkxlc19XVHdPSWhYRXBhZUttakpyUDhmMmpRMnpjT0VvUjVkN0dJUHZOVDZTdm5NMlFIaF92aVIyRjZaVFNXYU1PdXIwZU42c1VKekhBQVFqOU9sbTNaZy1RWQ?oc=5",
    "fuente": "Newtral",
    "fecha": "2026-11-13T18:03:59+00:00"
-  },
-  {
-   "titulo": "Bulo sobre colegios electorales de Alcorcón para el 29N",
-   "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15UEJ2OUdRUl9vTXVQbTBGRlQ3QWlVOXZ0VUJFcFYzeU15bF9aZldkS0Z1YVdTYXgybV8yamU2T1FxLXdiOXItZzYwU0dDV2E2eGpZenNPZFVsU1BXUmR6R1NXeUV3SkNXRHM0?oc=5",
-   "fuente": "Newtral",
-   "fecha": "2026-11-13T15:56:04+00:00"
   },
   {
    "titulo": "Qué sabemos de que el Gobierno haya tramitado “de urgencia” 642.000 euros para reparar un colegio en Marruecos: es un colegio español",
