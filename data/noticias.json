@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-11-15T09:01:52+00:00",
+ "actualizado": "2026-11-15T09:21:44+00:00",
  "generales": [
+  {
+   "titulo": "Feijóo se compromete a mantener al lobo fuera de la lista de especies protegidas",
+   "enlace": "https://www.larazon.es/espana/feijoo-compromete-mantener-lobo-fuera-lista-especies-protegidas_202611156af97906d3bddc0868b26f95.html",
+   "fuente": "La Razón",
+   "fecha": "2026-11-15T10:19:02+01:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/13/D3251953-832C-4ECA-B0A2-D25007637742/alberto-nunez-feijoo-juanma-moreno-malaga_96.jpg?crop=3840,2160,x0,y207&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
   {
    "titulo": "Última hora sobre las elecciones generales y la actualidad política, en directo",
    "enlace": "https://www.eldiario.es/politica/ultima-hora-elecciones-generales-actualidad-politica-directo_6_13665108.html",
@@ -44,13 +51,6 @@
    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/14/6af8a4b3b23e5.jpeg"
   },
   {
-   "titulo": "Encuestas electorales para el 29N: último escaño en disputa de PP, PSOE, Vox y Compromís en Valencia, Alicante y Castellón",
-   "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261115/encuestas-electorales-29n-ultimo-escano-disputa-pp-psoe-vox-compromis-valencia-alicante-castellon_480956.html",
-   "fuente": "El Debate",
-   "fecha": "2026-11-15T06:00:00+01:00",
-   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/14/6af8a0e7a1f6b.r_d.1153-820-0.jpeg"
-  },
-  {
    "titulo": "Un juicio por malversación complica el futuro político del alcalde del PP más votado en las municipales",
    "enlace": "https://www.elconfidencial.com/espana/andalucia/2026-11-15/juicio-malversacion-complica-futuro-politico-alcalde-mas-votado-pp-municipales_4464911/",
    "fuente": "El Confidencial",
@@ -75,6 +75,13 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "Feijóo se compromete a mantener al lobo fuera de la lista de especies protegidas",
+    "enlace": "https://www.larazon.es/espana/feijoo-compromete-mantener-lobo-fuera-lista-especies-protegidas_202611156af97906d3bddc0868b26f95.html",
+    "fuente": "La Razón",
+    "fecha": "2026-11-15T10:19:02+01:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/13/D3251953-832C-4ECA-B0A2-D25007637742/alberto-nunez-feijoo-juanma-moreno-malaga_96.jpg?crop=3840,2160,x0,y207&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
     "titulo": "Elecciones generales del 29-N, en directo: Sánchez, Feijóo, Abascal, Ada Colau, Irene Montero y Rufián protagonizan los mítines de campaña de este domingo",
     "enlace": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNeXJoMDFnTWMxUFFtQ1ZkWjhXSm00NlhydTBKeDNqbnItbkpBbnFKMGxPU01rTUFaaWNqbnhDSEdkbDFxMkdHMWcxaGVPV1AwTjJJMXNPaVpJY0ZpU0htS01zT0E4UXB1UG9WVkc3bGNGdnE2clNvNlZuYTNob1dxcUdORldqYzN0RFZNV1c2aE1xeDBlbThELUdJMXY0LXBjeTRyT25wVnRadElycjJXUlJOcDdaNE9fU01GcTMtTlUySHhmcERTN2M3YU9fMl9zeVFNOF9ld3ZsamJ3bjdqWU45a1FOeFpreWpuN2M5bm5FWVNCUUNHeDZpX2ViTGx2czFIRGJqNkJaaEw1Y1h6Y2RBY1_SAZoCQVVfeXFMUG1ORE9zcFpzb2M1NkpubGpzNkxmalItTFlQNzlGSy1zSnpVWXM2OHA4NzNIRS03MUNHQkVBY3UxUlloc2xCeUlPOXhfa3A1ellJSmVNSTh4YXBFLTU5cXNGNFpOeG5vUlJXUWpZSWRqMF9IT0ozMHJhTFpYdnQxTDJwUHB0Q200bU03MDE1ektiM1FyT0JmOTlON3RUQ2I0R28wYWJDNG9Velhpam9YTFFXODdwcDgxQWhIaTVpNzhuRWExUkRMWWI2NmctYTU2MTF3Z1lNWEF5RnJoblV2ai12OGVRdzdmM3pCSHI4Sm50LXcyNnY3b21MeS1PUDVDZ1hGNUlKRHRVTzEzclo0TVVRVmh0SE1PTFN3?oc=5",
     "fuente": "Vozpopuli",
@@ -87,29 +94,22 @@
     "fecha": "2026-11-15T08:47:12+00:00"
    },
    {
+    "titulo": "Feijóo promete mantener al lobo fuera del LESPRE y reforzar las infraestructuras de Cantabria",
+    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd1NrTGNGclRPem0wOXJsdVFsUm9JdkpDSzRYU1VMYVZ2aGMyT0tYcWJMU3dMdHZqMlBQaWZ6dEZHZ2VJcFZONXdYLWJOS2l6M0dkc19vbkFZbXZzUFZlYnBXSElwSFhHaG1ubUNzcy0yNjljQ3lQa2RNX25yRWdHQ0FhdW91VVZ5UEVoTXhibWdnY1ZmX1RrQmR4NnQ4WF9tRzBmMmxvd0VkSHF4bC0zb254Y1ZlWWVab3pqWDZKb1ZtaWY2Q2tr0gHMAUFVX3lxTE9MYUlTZ1pTb2pRYnBKOEJOMnI0VHViUnRnSkl5eVYwQTZEQWFkUXpGaElkWVl6TF9FbFNQUUlSS1FHSGxwdUxFUUxfdG9jOE1oUTlZUHJxck1lV0dMTGdVc1FQWV9nVjlhV2o3YzJUeHFHLUJ4M0pFcFdZZ2xGUlhBazI2NkhjSUNBRHV5djMtbGMzRmxxVlFPbmkybHdsWjA0RzZzWHEwckpWaW9GVUlDZmJwWGpzeTNTcFRmckYxQTFFbndBNndxUjlWdg?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-15T08:40:28+00:00"
+   },
+   {
+    "titulo": "Alberto Núñez Feijóo | Candidato del PP a la Presidencia del Gobierno: «León siempre estará en el primer plano de mis decisiones por muchos motivos»",
+    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUnZlZi1nUHNKWTNUTnlGUHNjc2UzSlNHcnBrYzZMZWp5ZkNkNXNUZzdtVGlhZ19LaXgwcnlVRUpTNFE5UW5FMkVpQjd0VUdNUWZ2eFozZFJxNGxPVV9VamlrUDhjTFEwczJ0LUVxM0Ftc3JtSFZqSGt1bnJ5UWhLMFQ2WldsMGZXbFE3MDVxbnE4UURzQldoN0V3VDNlWVg1Q1dsNGFVWnk2RGwyUEZKdmpwUV93MzDSAbwBQVVfeXFMUEZXQ0NjVmZuTEdVMC13aVZsTFZMUUdndGxabF85MGNKUWRQdkRjdjZCS1p6LTFuSHZMTVY2Ti1XeVI5ampva3hic0tZNU83M2ZYSmdxYWxGMjF5eUVhRFJ6bTBCcklJeUotRmtsRTE5b09BSUdjb0ZQNUh6Z29VU3p5Qmtodzh6NjRGdkRVbXQzS3hNeVhKUlNXLU81aWR1UTZ2cFNYUWJJV3VFdGdUVnc5cFREbUNVb3NuSm0?oc=5",
+    "fuente": "Leonoticias",
+    "fecha": "2026-11-15T08:28:01+00:00"
+   },
+   {
     "titulo": "Abascal emplaza a Feijóo a descartar cualquier pacto con “los restos del PSOE” tras las elecciones",
     "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYjdrVmhuT01YbEdVZGl2ZDVpbENLWUZOUmQ1TFp5YTg2MEtIa1A2ZzgwaW55SURHdXQwYlAxVGZmWHhvSUZ1bjJ6ZVlJTFNJRXViTkdIc2pSWTM2U1A4VHlwbzk2RmJiXzVuRko4UmRpRUU0SDkySmtaOVUxejlKUFA3b0c0TkJ0YjV4QnJ4RWRueHI0a2Eybl9CWnpGenJDLTJkWWRRR0VkWlRNM29Eb0pXVXBQVmN4MHljQTBPZURYcXZfeGRueWpkMUxvajh4VF8yeWgtUG5nNkxqRkYxMUZEdUFCSi03eW9yVThQREPSAYQCQVVfeXFMTWJYQWpHeHlNS3pfTlFjTGMyWG9weHRPb01OWnVjMlp6SGFkcS1yQTBsRVd5VFQtV0IyS2Izc3d2MmJkQW9IWEhtREdLNjRaeG1SNzA5eFdNNjR0WHk3ajRQUzR3Rmg2azFDTXVCejJyZDF5Wmlaa1lZNmVUeV80US1EQ3NuQU10aGZZTlZKeXN6ZVI5aUVDZmoydXpGZjllMGxoOWExckdvQkFVdFV4Z0lMdEJESHMxME5hRmRMU0hhbGVrN1pNaUgxanlhVXN6TVRZTUJhSWlhN1VieGFZZWc3X0pVZy1ORHQyU3did2xzREdoTjR0WWZabDRpU21CV0RtSXU?oc=5",
     "fuente": "EL PAÍS",
     "fecha": "2026-11-15T08:13:17+00:00"
-   },
-   {
-    "titulo": "Sánchez supera a Feijóo con Jordi Wild: quién gana en audiencia y cómo se compara con la TV",
-    "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkhwYWpMLW84ZXdUWmladHVnZGZib0hPaEp4TWgzSUp5Sl82TlpTNHZZWGxmXzgweGRXcG9BREowV0c0TG1tNWpnY3Q1VUM0Vzcydk82dDg3VWpEX0xaZ3JfcWU1TnRXRE1VZ3pwRWdnUE8tV2RjUGJlbWc2T1BtTTBONFFtVGR3QVZFblRzZ2FRVHgydlRHbXpXREE1TkdmcEpJbDFWS3h6UUFIcG15NtIBtgFBVV95cUxQZHUyQ3NKNjkwTW9jTFRjZVN2aVl3bVRKbTJrRHd3YWRqc0xLWEFGdG9kZzNEUVV1RHVrTnl1QWt1SDFLWkVFcGNpZVZ4b0JVZXlIdnM1VUl1RmpmdlVjRnBZTjRqOUdGSndYN1VuQnBUNlI2SUM1U3BPVGlTbS1rVFQ3S0VrZ1o5M0JFamdUeXhlVUl4SmVrTDVZSzNnamszZm1ldnJWeWlOWl9wbThtc1h1cnVFQQ?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-15T07:56:45+00:00"
-   },
-   {
-    "titulo": "Alberto Núñez Feijóo: «Si técnicamente se puede, retomaremos el soterramiento en Valladolid»",
-    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbmJZRFJaZUY5aWZEc0NadG5wVEpySk5kSU8xTFR5enpadWNNeHpNTk52ZHZ2YTVVLVpJMjJhTEl2cU9ib3FDWDF0b01BZDNsVWIyZ201UWJ5aGc3VVItRlZKYktYekswWWtwYnd5Vm1HQm1La1JpMXpBZ0FiemE4NUtzc2tkUVJEWmJnczNYSFJydFNBMGJHSzVGT2RFV2pxT3plZ2d1TE5fTHYzanNfMEo4NUFfTnh0TXJiT1NSR3A4ZFFieEljQW5sMTY2Um5iTTJaUlhCekt5QdIB3wFBVV95cUxONmVXX05kcHgtUnBKSDNvOC03RDBKQVVYbFpGeGpPSncxNHFQYjA4TnUyMEdsekFod1FRMThFbG4zU3JCYVVTRHlMeHhWY3NSRVFfSk1vNWtQaVRaTnh3RnNhRTVxNkdLaWR6Xy1SYjRYWmhLazI5N1ltSV8tYWRQTDZHQ2VtSHJqZDVBNWpBV0dldXpNV2hrTUN6WHl1REtlZDBNNjBJOFRrcGp2MTBYZHM2TUh3VEJKYTR2RkdKUVlUYkhzTkxyd1FRUWxNX3ZMbGt6QUZLeEstYlQyOHlV?oc=5",
-    "fuente": "El Norte de Castilla",
-    "fecha": "2026-11-15T07:28:26+00:00"
-   },
-   {
-    "titulo": "Elecciones generales del 29-N, en directo | Última hora de la campaña electoral de PSOE, PP y Vox, mítines y Pedro Sánchez",
-    "enlace": "https://www.elespanol.com/espana/20261115/elecciones-generales-directo-ultima-hora-campana-electoral-pedro-sanchez-encuestas-sondeos-psoe-pp-vox-voto-correo-espana-partidos-2026/1003744458767_10.html",
-    "fuente": "El Español",
-    "fecha": "2026-11-15T07:09:12+01:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11402026.jpg?p=c:1920:1081:nowe:0:46/w:1706/h:960&h=E6G6skou"
    }
   ],
   "PSOE": [
@@ -154,6 +154,13 @@
   ],
   "Vox": [
    {
+    "titulo": "Abascal: \"El líder de la mafia lo tiene cada vez más difícil, pero tiene otras herramientas\"",
+    "enlace": "https://www.larazon.es/espana/abascal-lider-mafia-tiene-cada-vez-mas-dificil-pero-tiene-otras-herramientas_202611156af975589a31a65adcdcf003.html",
+    "fuente": "La Razón",
+    "fecha": "2026-11-15T10:03:20+01:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/13/E6FAD490-0483-495E-B9BA-7F4FB6C684D8/96.jpg?crop=6000,3375,x0,y313&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
     "titulo": "Elecciones generales del 29-N, en directo: Sánchez, Feijóo, Abascal, Ada Colau, Irene Montero y Rufián protagonizan los mítines de campaña de este domingo",
     "enlace": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNeXJoMDFnTWMxUFFtQ1ZkWjhXSm00NlhydTBKeDNqbnItbkpBbnFKMGxPU01rTUFaaWNqbnhDSEdkbDFxMkdHMWcxaGVPV1AwTjJJMXNPaVpJY0ZpU0htS01zT0E4UXB1UG9WVkc3bGNGdnE2clNvNlZuYTNob1dxcUdORldqYzN0RFZNV1c2aE1xeDBlbThELUdJMXY0LXBjeTRyT25wVnRadElycjJXUlJOcDdaNE9fU01GcTMtTlUySHhmcERTN2M3YU9fMl9zeVFNOF9ld3ZsamJ3bjdqWU45a1FOeFpreWpuN2M5bm5FWVNCUUNHeDZpX2ViTGx2czFIRGJqNkJaaEw1Y1h6Y2RBY1_SAZoCQVVfeXFMUG1ORE9zcFpzb2M1NkpubGpzNkxmalItTFlQNzlGSy1zSnpVWXM2OHA4NzNIRS03MUNHQkVBY3UxUlloc2xCeUlPOXhfa3A1ellJSmVNSTh4YXBFLTU5cXNGNFpOeG5vUlJXUWpZSWRqMF9IT0ozMHJhTFpYdnQxTDJwUHB0Q200bU03MDE1ektiM1FyT0JmOTlON3RUQ2I0R28wYWJDNG9Velhpam9YTFFXODdwcDgxQWhIaTVpNzhuRWExUkRMWWI2NmctYTU2MTF3Z1lNWEF5RnJoblV2ai12OGVRdzdmM3pCSHI4Sm50LXcyNnY3b21MeS1PUDVDZ1hGNUlKRHRVTzEzclo0TVVRVmh0SE1PTFN3?oc=5",
     "fuente": "Vozpopuli",
@@ -183,12 +190,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNXVLMk9nZU1uZnBCbk51T1Q2bTNUUDMtNzJCZnJZNV9meVF0U09uZFA5Z1NuYU9kSVJ0Y2tqLTJ3WlhOc2JaRl80ZDdVTFFGTWltaEVvY29zdDZnbVplNng4anV6bmVUT2JTV1NqazJqbTk0dHlCbTJPY0l5THZ3c1hCTzlLVmszNVd2c2JRSnVIUUtNTm9ENE8teWFqOVZHUFVWbFE0V1RmazJxTW05QkFDa1A4SmZaRF9qckhKb3ZxMGYxaG9rZW93VlFUeWh2?oc=5",
     "fuente": "El Nacional.cat",
     "fecha": "2026-11-15T07:45:10+00:00"
-   },
-   {
-    "titulo": "A quién vota la clase trabajadora: qué dice el CIS sobre PSOE, PP y Vox",
-    "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdVBHemlacEphM3A3TDBneXpUTFA0TWFSVk5yTmJXZldoVDhraERrUXVvbzQ4RnFyeHl2ZVI3QUlBTlBXeVdhbzZJYkRjR184V0FpSTlXNkZMOTQ4Y2prdXdoSzRodUVXZVUxMjdnQlpWWGgyMWJXU0NuODFWbFQyQVJzYjB0bzdES2VRSUZxUkJZVWszVVh4eTc0d2xfZkhPUkNEbDMxTlJHb3U2Q04tV1Zn0gG3AUFVX3lxTFBtUTgzaEp5UUVFQ1A5Tnhrd3lJY1lDSjg1dnFPVzZJemotMHZON1IySUxtMmMzUVdxRS1tYkxLTDA3RXd0NUMzWjdDdkhTNHBwd1pDXzdvYm12UEVXNjRaX3BtcHltdV9GbFVCQ3p0ZDQyOWdFZ3VnaWtvMm5xUENiS3E4OWpPOFNWMlZPTzlyMjZ4RmlKM1hJTFNkWmRHSi14ZEw0SlRyVVY0Z24zdHV5NE15NGZHdw?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-15T07:30:40+00:00"
    }
   ],
   "Sumar": [
@@ -203,6 +204,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOei1nWEd4a3dHUmNndUJqV0N5U3hraEdVaWhZRlh2b2kyOXc1VDkxc2RCNnpkMG9KOUxMeU5vSktJZ1otYmlVQkxxaVl5dzFCUTZhRTBBVXZ0WktGLU1Cd0c1bk02c0hleHVEZncwb0pYX1N4S1NZSkxaLXVLOGhXOWVMbTVHRWVaOWFjRXpEQ3BkZ1haeHVseUFLVmdnamswU1lsaVFzWWlYb1NhM0VSVW1PQWYxZ9IBuwFBVV95cUxPdXVpY0tfbDJtY05iZE9WN3BTaXRtRVRnalRsRmxKelNQRFBJc1FuSEdyMHFhTm8wYkYxWDlnZ0N2b2tTcWtIMDBOWHp3TERlN1BadTdEQ1dHb04zczFFejJrTkFhdlhYYllMQ3VoMTZIUjRCbHczVGE3NjhDX29zcDJBdk9TUUFhdVFpeTY0Vmp1VVBQN0p0OWNtQjgyMWljdVVxdVNSVnpWM1JlQkJxQ2RTMG44TWNDNU13?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-15T08:34:38+00:00"
+   },
+   {
+    "titulo": "Yolanda Díaz trata de arrebatar este lunes el liderazgo de la OIT a Houngbo: “El continuismo no es una opción”",
+    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaFUwZmdWOXlGUWExR0hDQk5VZ2w4NzIyT0l0WjdzemE2bGlFcWxiMVVKZGV5U052N21oanlaYTByWWlHTWJ3dmpITkV2T1ZBdGJ6WFBwVC1nVG0zTlU2WkVZSi1GTG5DQkxpZmhSbkNtTmlyV010X1VuMDF4MTNsYnJGaHhNeS12V1FGR2ZEMVpfb1NLVC0zS3VWZ09fVjhMazZIdDAxeFpoSVpOSFlLaGh0VlJLRUxqdEpVRF9nVXd3UXc1cnFNTEFlYUItbUpILWc?oc=5",
+    "fuente": "Servimedia",
+    "fecha": "2026-11-15T08:11:00+00:00"
    },
    {
     "titulo": "Más Madrid exige a la Comunidad un rechazo institucional al aumento del gasto militar",
@@ -221,12 +228,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZUItY2dzQV83dzBKQWM4MjRNVERsQU9Ybi1vQjhGNlZVcWs4NHRmUmlmanVhUGx5TGlHU1YtaHhKX2Y0YS1YS1ItemNDd2tMTkh2RHk4dWlfcVk2Z0hXQUNfT3pVVkxwNjhlMXZudFlXc1lqN0lLcTN6bjEtQkd4Zk5qa2JKcmI0OUFVd0tWTzEzcUw2ZnBrRUJqYlhZSFc2RjRjUW5jRXNpZ9IBqgFBVV95cUxOZUItY2dzQV83dzBKQWM4MjRNVERsQU9Ybi1vQjhGNlZVcWs4NHRmUmlmanVhUGx5TGlHU1YtaHhKX2Y0YS1YS1ItemNDd2tMTkh2RHk4dWlfcVk2Z0hXQUNfT3pVVkxwNjhlMXZudFlXc1lqN0lLcTN6bjEtQkd4Zk5qa2JKcmI0OUFVd0tWTzEzcUw2ZnBrRUJqYlhZSFc2RjRjUW5jRXNpZw?oc=5",
     "fuente": "El Periódico",
     "fecha": "2026-11-14T07:00:16+00:00"
-   },
-   {
-    "titulo": "Yolanda Díaz apura la campaña para \"recuperar\" la OIT de la crisis actual: \"Vamos a ganar\"",
-    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZGJzUkg1UmNCMXA0SFg0MDA2cjdzY2s3VTlrSVNLckRuQWFqOEozWHdJZ1VvZ0RXOG1rMHExVkNyaFp3bGJhNHRyaHdvaDA0N3phMXNYbmt3S3lRX3M5bkY5SG1ZbDhKbTRDbGxsbDVtWmVuUGRINW9KeVdvYVZKb2pBZGFTN21JUGYxUDRCZWhSMGZWV0dQRG1ndUliX05RaVJTajlISldLQTgyT0HSAbMBQVVfeXFMTnJUS2t5R2E0Znl0aC04aXY1OC10elFxNURqTXRWVDFvemtJTEVpVnpsczhGdzJXWl9aZkdDaGFvYWlkQUxFZEpaZ2U3MWRVNW9kcTlpMWpKQlBmeXRvQl9hUlhGSVRDS1RkLTloSTFXVkNXYjVzTVFfTTN0VDVWZWZsVElfbGVsLTI1aHREQW5zaC11SHY4VHlOVFhWNGRuY1V3VVpoV1FPX2p5STVFNjFCWUk?oc=5",
-    "fuente": "elDiario.es",
-    "fecha": "2026-11-13T15:45:56+00:00"
    }
   ],
   "Podemos": [
