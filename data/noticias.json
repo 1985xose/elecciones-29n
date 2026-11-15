@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-11-15T07:02:05+00:00",
+ "actualizado": "2026-11-15T08:01:46+00:00",
  "generales": [
+  {
+   "titulo": "Sánchez, amado líder",
+   "enlace": "https://www.20minutos.es/nacional/sanchez-amado-lider-opinion-joaquim-coll_7061194_3.html",
+   "fuente": "20minutos",
+   "fecha": "2026-11-15T08:12:01+01:00",
+   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/14/6af859b36b2e68-34509429.jpeg"
+  },
   {
    "titulo": "Pilar Miranda : «Le fui franca a mi partido, si acepto ir a Madrid es para reivindicar por mi tierra»",
    "enlace": "https://www.abc.es/espana/andalucia/huelva/pilar-miranda-franca-partido-acepto-madrid-reivindicar-20261115073003-nts.html",
@@ -13,7 +20,7 @@
    "enlace": "https://www.elespanol.com/espana/20261115/elecciones-generales-directo-ultima-hora-campana-electoral-pedro-sanchez-encuestas-sondeos-psoe-pp-vox-voto-correo-espana-partidos-2026/1003744458767_10.html",
    "fuente": "El Español",
    "fecha": "2026-11-15T07:09:12+01:00",
-   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11401591.jpg?p=c:1728:974:nowe:68:114/w:1706/h:960&h=A4JtwLt2"
+   "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11402003.jpg?p=c:1920:1081:nowe:0:170/w:1706/h:960&h=vpXfsXK5"
   },
   {
    "titulo": "Del éxito del 11N a ganar el 29N",
@@ -58,13 +65,6 @@
    "imagen": "https://www.elsaltodiario.com/uploads/fotos/h300/6c947133/DFS_4696copia.jpg?v=63961653806"
   },
   {
-   "titulo": "Gabriel Rufián desvela el contenido de una dedicatoria que una seguidora no podía descifrar: \"Letra de zurdo cerrado... perdón\"",
-   "enlace": "https://www.20minutos.es/nacional/gabriel-rufian-desvela-contenido-dedicatoria-seguidora-no-podia-descifrar-letra-zurdo-cerrado-perdon_7061206_0.html",
-   "fuente": "20minutos",
-   "fecha": "2026-11-14T22:58:43+01:00",
-   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/09/03/6a993ee627c2e6-54239412.jpeg"
-  },
-  {
    "titulo": "El PSOE cancela el acto de Sánchez y Lula da Silva en Madrid por una afonía del presidente brasileño",
    "enlace": "https://www.europapress.es/nacional/noticia-psoe-cancela-acto-sanchez-lula-da-silva-madrid-afonia-presidente-brasileno-20261114194841.html",
    "fuente": "Europa Press",
@@ -75,11 +75,29 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "Sánchez supera a Feijóo con Jordi Wild: quién gana en audiencia y cómo se compara con la TV",
+    "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkhwYWpMLW84ZXdUWmladHVnZGZib0hPaEp4TWgzSUp5Sl82TlpTNHZZWGxmXzgweGRXcG9BREowV0c0TG1tNWpnY3Q1VUM0Vzcydk82dDg3VWpEX0xaZ3JfcWU1TnRXRE1VZ3pwRWdnUE8tV2RjUGJlbWc2T1BtTTBONFFtVGR3QVZFblRzZ2FRVHgydlRHbXpXREE1TkdmcEpJbDFWS3h6UUFIcG15NtIBtgFBVV95cUxQZHUyQ3NKNjkwTW9jTFRjZVN2aVl3bVRKbTJrRHd3YWRqc0xLWEFGdG9kZzNEUVV1RHVrTnl1QWt1SDFLWkVFcGNpZVZ4b0JVZXlIdnM1VUl1RmpmdlVjRnBZTjRqOUdGSndYN1VuQnBUNlI2SUM1U3BPVGlTbS1rVFQ3S0VrZ1o5M0JFamdUeXhlVUl4SmVrTDVZSzNnamszZm1ldnJWeWlOWl9wbThtc1h1cnVFQQ?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-15T07:56:45+00:00"
+   },
+   {
+    "titulo": "Alberto Núñez Feijóo: «Si técnicamente se puede, retomaremos el soterramiento en Valladolid»",
+    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbmJZRFJaZUY5aWZEc0NadG5wVEpySk5kSU8xTFR5enpadWNNeHpNTk52ZHZ2YTVVLVpJMjJhTEl2cU9ib3FDWDF0b01BZDNsVWIyZ201UWJ5aGc3VVItRlZKYktYekswWWtwYnd5Vm1HQm1La1JpMXpBZ0FiemE4NUtzc2tkUVJEWmJnczNYSFJydFNBMGJHSzVGT2RFV2pxT3plZ2d1TE5fTHYzanNfMEo4NUFfTnh0TXJiT1NSR3A4ZFFieEljQW5sMTY2Um5iTTJaUlhCekt5QdIB3wFBVV95cUxONmVXX05kcHgtUnBKSDNvOC03RDBKQVVYbFpGeGpPSncxNHFQYjA4TnUyMEdsekFod1FRMThFbG4zU3JCYVVTRHlMeHhWY3NSRVFfSk1vNWtQaVRaTnh3RnNhRTVxNkdLaWR6Xy1SYjRYWmhLazI5N1ltSV8tYWRQTDZHQ2VtSHJqZDVBNWpBV0dldXpNV2hrTUN6WHl1REtlZDBNNjBJOFRrcGp2MTBYZHM2TUh3VEJKYTR2RkdKUVlUYkhzTkxyd1FRUWxNX3ZMbGt6QUZLeEstYlQyOHlV?oc=5",
+    "fuente": "El Norte de Castilla",
+    "fecha": "2026-11-15T07:28:26+00:00"
+   },
+   {
     "titulo": "Elecciones generales del 29-N, en directo | Última hora de la campaña electoral y Pedro Sánchez, encuestas, sondeos de PSOE, PP y Vox y voto por correo",
     "enlace": "https://www.elespanol.com/espana/20261115/elecciones-generales-directo-ultima-hora-campana-electoral-pedro-sanchez-encuestas-sondeos-psoe-pp-vox-voto-correo-espana-partidos-2026/1003744458767_10.html",
     "fuente": "El Español",
     "fecha": "2026-11-15T07:09:12+01:00",
-    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11401591.jpg?p=c:1728:974:nowe:68:114/w:1706/h:960&h=A4JtwLt2"
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11402003.jpg?p=c:1920:1081:nowe:0:170/w:1706/h:960&h=vpXfsXK5"
+   },
+   {
+    "titulo": "Feijóo es el preferido para ser presidente y Rufián el líder mejor valorado en España",
+    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNEdmNDJuUHBFR3p2ZFMyOUl1X3JkWUNOWGxydE5XZFdJc1E4cWJJTzdsSG96dWxNTXd5dXVGaFlZNUt3Z1VPTXVybEJzSXEzSTRraEd2NnVNODBLSjBGQkJUaUNjTXVFQ285LThJVkxBS2M5Vi0xRmRfbDA5Uk5xZjQ1TnhGS1BidzFQaFp3TVZXUjFqcjU1RkFnNVB4R05UQ0ZJZzhEbkZDMF9fdHJtTE55dFFva3J0dzhDRXc2WTdiMnlY?oc=5",
+    "fuente": "Diari ARA",
+    "fecha": "2026-11-15T07:07:16+00:00"
    },
    {
     "titulo": "PSOE y PP se amenazan mutuamente con el escándalo en las elecciones, pero aún pactan en Europa",
@@ -92,34 +110,34 @@
     "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWd2bHR1SUNiaFhLWVIzWk9HcjhFMGRHS1hzMVJkdlNxUU5KRmJZeGZzQ2JYM0hYUExtMGtsMDFxcFZUUmVkMy1fRmcybjdENE5SV0pHNmd1c2s5ZkdVT0xaTGRlNlVWVXcwS2xTSExFZzV1QWJHV0lnSVdGZmtMT2hidy1jS0tRaW1tcm1rb0JsZ9IBlwFBVV95cUxOeEt1MURxR3BNdmxiNm54b1p3Y3dZVnRRQmw4N3M2WWI3OEtpcko5dUhIMU9GUzMzT25mVEhhc1o2Vk1WTVUzSVdtMUM4Y0VIakExUUZOODlYZk9PVUVQRUlKaFQwd2U3SXUtcno2dXQ3Y25TR1h2X1NNUUIwTjlSTUpPak5kbEUxc3R1aFVHUzgxSVhIVnVv?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-15T06:29:29+00:00"
-   },
-   {
-    "titulo": "Feijóo condena la agresión a su candidato guipuzcoano: «No vamos a callar»",
-    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSG5wM25VZk1tVEsteVc3OE80TUVrTUl5cHlXU3FKSFI0NnR3dHNmT2FuaF9zcUd6UUJoQ3ByRnh6QTQ5OFhXR2tMNmZxOWxiWEN0LUFWWS1GdFhyZ0dyUGQzMGIxVUF0Q0xuaHNMRzhQVEtodWFtQVJSdmFCZDBfcGlMdG5YTk9Cc3FCTDRxWVowOGpqTjdoamVkcEY1VFB6VllQV3NXNzRlbmVsdkstbnFPQjM2OENPLTBrMG1tOWsxOWRycllxQtIBzgFBVV95cUxPN2VhT3h5aDd2SHRNTzNWRHZDYzlfd0ZEOGtPZkZYamdvdm9EMXVuQk9mb3FaM3ZMdlJPWGZ2VkVCZVVaQ3BQakczTFBoanBKZWtaS1IwQzFpWG1HRUlLRVAtRWtOTnVYaDhrZmlBQXVGMmowVUMzMU5NaVdCZ1M4ZXFvSU5TbWFlNTQydG9UX0hudTViNHFlMnp5cTZYT1V4SUdkZzUtRFcyWWxXU2xfUTlMZEhGT0VpNGptQ3FiVTJKNjNaaW9lRENkYVo5UQ?oc=5",
-    "fuente": "El Correo",
-    "fecha": "2026-11-15T06:21:50+00:00"
-   },
-   {
-    "titulo": "PSOE y PP se amenazan mutuamente con el escándalo, pero aún pactan en Europa",
-    "enlace": "https://www.lavanguardia.com/politica/20261115/11684467/boton-rojo-boton-azul.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-11-15T06:00:00+01:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/14/6af8d44a1897c.r_d.2832-1607-820.jpeg"
-   },
-   {
-    "titulo": "La mejor iluminación para los futuros actos de Sánchez o Feijóo: Presidencia quiere dejar contratado este servicio por 286.000 euros",
-    "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQRTVndHlKemVKX3ZzdWktQ3hIenlnTnZ1OFNwTW1BWTFUMC1uOGpvaUJmTXpWX2E0dTcxRnlSbVJJS3Ewd09UeVdwRXFjeGk5VUU0Y2dMVzZQRHRXRWhvZzFPRlJ6emRJSVFDLVc3ZTkzU0J3RWtBZFVobmxOOTFxOFlnV2UxNXJ6czBOSzRrVFFjZkg5bENRUVB4QnRibDBIODc0dDhNYnJoYzN0cUJxMVNEZnNlSHg3VmZ5eUtzNERiTndYdHJNN1RKTlNMRUMtNkdIZGdDSVlLdERGU0RqeDVaWFZPbzVyX29maTVTcHY0U0R0ckVPZWpYYW5ud0FBci1Z0gGeAkFVX3lxTFB5N0JjXzVjbjJkRi1feHhjT1ZBTHUwZEV3dTJRSC1RbkdWU3I3bXlOVDFRY05mTDhqNVBLRXdYbEh5S0tudDRoUzVsVWdyTzNkRGxqOTlIalRHdnpJY0ZnNm9IWnpyR0V6NjVQSlNOVkZQbXRCbzdCQ0xIemFmS1NVbFIwUDRDZG5FZkN6UkFoM0d5UVprY2FlZUNoRExsSk4tLUNaMllKdkdPcnlqNGNNXzF4Xy03b0R5Y2JkT19JS1Etb2JQdWd0VFhUN2RqVV9POGZrMGh0cE9NaVRpVWdLd2VCLWJWMUVVUVpwWTVreTFmRnQ3Zm95MWxqNTFXUUNUY0hSbVpkNHM0QU1PYlZmZVdLbmF5ckRwNFR0aUE?oc=5",
-    "fuente": "Infobae",
-    "fecha": "2026-11-15T06:00:00+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "La UCO registra la legislatura de Sánchez en busca de las obras públicas amañadas, las 'mordidas' y la presunta financiación irregular",
-    "enlace": "https://www.eldebate.com/espana/20261115/uco-registra-legislatura-sanchez-busca-obras-publicas-amanadas-mordidas-presunta-financiacion-irregular_481000.html",
-    "fuente": "El Debate",
-    "fecha": "2026-11-15T07:34:13+01:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/13/6af75bd56110f.r_d.909-672-0.jpeg"
+    "titulo": "Por qué hay que botar a Sánchez, quedan 14 días: su fiscal general condenado y camino del indulto",
+    "enlace": "https://okdiario.com/espana/que-hay-que-botar-sanchez-quedan-14-dias-fiscal-general-condenado-camino-del-indulto-20789553",
+    "fuente": "OKdiario",
+    "fecha": "2026-11-15T08:58:46+01:00",
+    "imagen": "https://okdiario.com/img/2025/11/12/alvaro-garcia-ortiz-juicio-declara.jpg"
+   },
+   {
+    "titulo": "Sánchez, amado líder",
+    "enlace": "https://www.20minutos.es/nacional/sanchez-amado-lider-opinion-joaquim-coll_7061194_3.html",
+    "fuente": "20minutos",
+    "fecha": "2026-11-15T08:12:01+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/14/6af859b36b2e68-34509429.jpeg"
+   },
+   {
+    "titulo": "A quién vota la clase trabajadora: qué dice el CIS sobre PSOE, PP y Vox",
+    "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdVBHemlacEphM3A3TDBneXpUTFA0TWFSVk5yTmJXZldoVDhraERrUXVvbzQ4RnFyeHl2ZVI3QUlBTlBXeVdhbzZJYkRjR184V0FpSTlXNkZMOTQ4Y2prdXdoSzRodUVXZVUxMjdnQlpWWGgyMWJXU0NuODFWbFQyQVJzYjB0bzdES2VRSUZxUkJZVWszVVh4eTc0d2xfZkhPUkNEbDMxTlJHb3U2Q04tV1Zn0gG3AUFVX3lxTFBtUTgzaEp5UUVFQ1A5Tnhrd3lJY1lDSjg1dnFPVzZJemotMHZON1IySUxtMmMzUVdxRS1tYkxLTDA3RXd0NUMzWjdDdkhTNHBwd1pDXzdvYm12UEVXNjRaX3BtcHltdV9GbFVCQ3p0ZDQyOWdFZ3VnaWtvMm5xUENiS3E4OWpPOFNWMlZPTzlyMjZ4RmlKM1hJTFNkWmRHSi14ZEw0SlRyVVY0Z24zdHV5NE15NGZHdw?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-15T07:30:40+00:00"
+   },
+   {
+    "titulo": "Santos Cerdán trasladó a Koldo García su enfrentamiento con el exchófer del PSOE detenido por la UCO: “Que tenga cuidado con lo que habla de mí”",
+    "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSklTRWVnbUpOU2g0RmRaSWZETzR3TVQwMHg0RG92a1J0S2hEb3AybHNZTkozY21ZVS1tVkxqWURXeEk1cW94eVFfS1dOcWRtVEFJQjdTeGFXMXRCcUlhR3MzNGFVYWU0bWpnRzdKT09MaUpEQVlfcC1zYjNEQS1vVktkMGpETDVpenQ5WWZxUXo3eU02UGpjYV9n0gGaAUFVX3lxTE1USHJ5OTBYdk1yM1JyMUNZLUNpUWVsM3VtWHY4NXlVM1QwT0xYcnBHcEVXRW02RFk5cjcxeGppVGNfN01rUVFDRDBpbTVXeWI2bENxbXRRdHZEdllCY3UzRGF4WGNSNjRwQjBFNlYybFlQTnp0aE85SUVSSVRfczR1c2pvX2FXd3J3RFhsa0tvUk42dWdUV2NlZ2c?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-11-15T07:00:31+00:00"
    },
    {
     "titulo": "PSOE y PP se amenazan mutuamente con el escándalo en las elecciones, pero aún pactan en Europa",
@@ -132,34 +150,34 @@
     "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQU2Q5ZXJvejl4enlubFAyODQyOGhsVXN3LWtfdjNRRnppblN2eWVSbkVZUjBGVWJhbEk4OTl4T0NfbURmSU1HdHZrQlZnSjlCcVhya0YtT3BJamRjdmMzdG03eEpJRmEwSl90TUhVWVk0NnVScktzQks1alVOUHFrOUFOUzk4d09aVXZvVENEZE1KYUhIZFlKN0ZXTGJtX1M4ZkpwV0l0blktdTFZRkRIRmNzck15R0wzdVB4VmlfUVAtV0oxUk9HWVc5RlY2LUN3SE9vWHRrSjBKVHJkUlBjeFJVLUVnNG83b2fSAe8BQVVfeXFMT29YUUlncTdFRVpxNzNlNHRoWVRRYm9tZUJSdFZVZ3JlQzQ4TVRqY1liaXNPQ1FLSGJ0cEc3UjlRaC1mTFB4MHd1VW5BMThTZmE1LV9LbG9zX05qNWloa3RoVmtraXAtcDZaN2ZkOC01TEhpZEVybmxCR0ZFV2VzVVFPMzZZVEU0OHE2bmRKZVdISl9wX09uMzVaQjRmWmZzWldCUVo5R3RZZ19MdUtxREZKZEhfUUdxUlRxaDg4QW1UU3JCdWhqYVg3SkMzYjZacUY0ZTNyRjM0VGExUUVVcU9NWDFNTVRkWmVHOUF3a3M?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-15T06:21:55+00:00"
-   },
-   {
-    "titulo": "PSOE y PP se amenazan mutuamente con el escándalo, pero aún pactan en Europa",
-    "enlace": "https://www.lavanguardia.com/politica/20261115/11684467/boton-rojo-boton-azul.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-11-15T06:00:00+01:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/14/6af8d44a1897c.r_d.2832-1607-820.jpeg"
-   },
-   {
-    "titulo": "PP y PSOE libran la batalla por el primer puesto a dos semanas de las elecciones",
-    "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMGNfS2kydjdHVW9HS0JuRlBJcndULVVkVlozVFhTOEdxYm1pVWVWN2o0T1BSUmlEbkl0TlNXZEZTMzdLRllyZFJtdmdTT3FiVHFxb3FaSnk0Mlh5dkYyUUhFOHVMdzh6bWFobnJ1ZHJNemx1YVVsRldOOWJwSFFEei13bktSbVM3UDFLcEpvVnBVdE13MXRid3pVb28wYkhQeW5YV3k4cUI0TE0zT01HQnllUW5QYlJ2R2FIN1YxMA?oc=5",
-    "fuente": "EL PAÍS",
-    "fecha": "2026-11-15T05:55:00+00:00"
-   },
-   {
-    "titulo": "Encuesta 40dB: el PSOE se queda a 1,3 puntos del PP a 14 días del 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkeEZOTHQ4bUlXdEEyMlRqYnY0bFhlaVVqaWcxbUVRSGQ5SGtGM0dlamtvYVV2OEtqWS03Z3pKQUh3SUx0RHZWZjFJRHpYZWdzQVpjc0R2aWgxYzB4cVczYkhJWnpXM1RBT1FiSno1VkNlazdGRmpMWkJR?oc=5",
-    "fuente": "Enpapel - Tu periódico en Majadahonda",
-    "fecha": "2026-11-15T05:51:55+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "El pequeño refugio de Santiago Abascal en pleno valle vasco: una iglesia del siglo XII, pintxos tradicionales y a media hora de Bilbao",
-    "enlace": "https://okdiario.com/pais-vasco/pequeno-refugio-santiago-abascal-pleno-valle-vasco-iglesia-del-siglo-xii-pintxos-tradicionales-media-hora-bilbao-20825260",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-15T07:15:12+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/12/el-pequeno-refugio-de-santiago-abascal-en-pleno-valle-vasco-una-iglesia-del-siglo-xii-pintxos-tradicionales-y-a-media-hora-de-bilbao.jpg"
+    "titulo": "Carlos H. Quero (Vox): \"La primera compra de una vivienda de los jóvenes españoles no puede tener impuestos\"",
+    "enlace": "https://www.20minutos.es/nacional/carlos-h-quero-vox-primera-compra-una-vivienda-los-jovenes-espanoles-no-puede-tener-impuestos_7057316_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-11-15T07:58:31+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/11/04/6aeb258e0b92a3-69439773.r_d.951-318.jpeg"
+   },
+   {
+    "titulo": "Vox desangra al PP y el batacazo del Frente Amplio se convierte en la gran incógnita de las encuestas",
+    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNXVLMk9nZU1uZnBCbk51T1Q2bTNUUDMtNzJCZnJZNV9meVF0U09uZFA5Z1NuYU9kSVJ0Y2tqLTJ3WlhOc2JaRl80ZDdVTFFGTWltaEVvY29zdDZnbVplNng4anV6bmVUT2JTV1NqazJqbTk0dHlCbTJPY0l5THZ3c1hCTzlLVmszNVd2c2JRSnVIUUtNTm9ENE8teWFqOVZHUFVWbFE0V1RmazJxTW05QkFDa1A4SmZaRF9qckhKb3ZxMGYxaG9rZW93VlFUeWh2?oc=5",
+    "fuente": "El Nacional.cat",
+    "fecha": "2026-11-15T07:45:10+00:00"
+   },
+   {
+    "titulo": "A quién vota la clase trabajadora: qué dice el CIS sobre PSOE, PP y Vox",
+    "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdVBHemlacEphM3A3TDBneXpUTFA0TWFSVk5yTmJXZldoVDhraERrUXVvbzQ4RnFyeHl2ZVI3QUlBTlBXeVdhbzZJYkRjR184V0FpSTlXNkZMOTQ4Y2prdXdoSzRodUVXZVUxMjdnQlpWWGgyMWJXU0NuODFWbFQyQVJzYjB0bzdES2VRSUZxUkJZVWszVVh4eTc0d2xfZkhPUkNEbDMxTlJHb3U2Q04tV1Zn0gG3AUFVX3lxTFBtUTgzaEp5UUVFQ1A5Tnhrd3lJY1lDSjg1dnFPVzZJemotMHZON1IySUxtMmMzUVdxRS1tYkxLTDA3RXd0NUMzWjdDdkhTNHBwd1pDXzdvYm12UEVXNjRaX3BtcHltdV9GbFVCQ3p0ZDQyOWdFZ3VnaWtvMm5xUENiS3E4OWpPOFNWMlZPTzlyMjZ4RmlKM1hJTFNkWmRHSi14ZEw0SlRyVVY0Z24zdHV5NE15NGZHdw?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-15T07:30:40+00:00"
+   },
+   {
+    "titulo": "Elecciones generales del 29-N, en directo | Última hora de la campaña electoral y Pedro Sánchez, encuestas, sondeos de PSOE, PP y Vox y voto por correo",
+    "enlace": "https://www.elespanol.com/espana/20261115/elecciones-generales-directo-ultima-hora-campana-electoral-pedro-sanchez-encuestas-sondeos-psoe-pp-vox-voto-correo-espana-partidos-2026/1003744458767_10.html",
+    "fuente": "El Español",
+    "fecha": "2026-11-15T07:09:12+01:00",
+    "imagen": "https://s3.elespanol.com/k/imgp/cms/elespanol/11402003.jpg?p=c:1920:1081:nowe:0:170/w:1706/h:960&h=vpXfsXK5"
    },
    {
     "titulo": "Feijóo amplía su ventaja sobre Sánchez y suma 192 escaños con Vox, según el tracking de hoy de 40dB",
@@ -172,26 +190,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOeVlmTVFhVmhuQjZxdHBhZ1lveEpDNEF1RHVlM1RSaGpNTTZ3MkJ2VjNKWlRrVXg2YXdaQnN2MmVYejl2SktCazVoWGxEWllmNVpOMVNuNDhLbUJWZGlLMnVULWFkUnN1NkVVaG1MSVNYRXBRQ3l4TG1YbnptbU5pUE1pZDJyelVCMU1yTVo3MExqcDZDX0VUcVZpRGxIVU5wcHNrV1RQQ2NBY0NDTGx0MGs4a2lDaDF2a3k5Ni1sRy1ZLTk0dW9IZzhZZmtaQ21iMEZhVmg0NVJULVJ6NHVIemhzdkdNZklJVmc5Qmw5TGUxWHBVeHlPallDOE1oUE5OUEpsc0VBd3U1T25lZmNCU1hNWFUtanJLanE00gG2AkFVX3lxTFBTSmpoSmRhOEV3TGJVVHp6c0JvNEJxWk1HeTczWEpqRGhaamZSYVhMVS1Pb29GWDF5WGh3NDRRMFQtSE9yWUV0SXVKdE1jY2JTVHZGZk8yc2VsUEp0dFVaMEtFYVhGMWFLTjVXczJ6V21OMHB5eVBUemc0QXV3eGxtVE5OUHNDdkRjSjZLUzltaXlwa2FuNHNIMEIyVHVpZnZlU2VfVi1aOXRkYkZDbEFnSHg1NjhuRVphQXA1TTZidDd1bE9uYTlvRmEzaEhZdzYtRUF4VWpodmIwaVhFckZreGdiMllWQjhuajNDMllybVRMUEJjdlRhMGRHdzd4NzVndEd6WG53M0s3QkN6X2pYaVVSM2Q0M1BPSmlBWDBKZmxZNFpXcngxdzFZdWlhQ1pIVm55Y3c?oc=5",
     "fuente": "Infobae",
     "fecha": "2026-11-15T06:00:00+00:00"
-   },
-   {
-    "titulo": "El resultado de las elecciones del 29N en España si solo votasen los estudiantes: porcentajes de PP, PSOE, Vox y el resto de partidos",
-    "enlace": "https://www.abc.es/espana/resultado-elecciones-29n-espana-solo-votasen-estudiantes-20261115063000-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-15T05:30:01+00:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/15/1467491350-k2TC-U40345386370dhE-1200x840@diario_abc.jpg"
-   },
-   {
-    "titulo": "“Remigración” y prioridad nacional: hasta dónde está dispuesto a llegar Feijóo para pactar con Abascal",
-    "enlace": "https://www.infolibre.es/economia-y-sociedad/remigracion-prioridad-nacional-dispuesto-llegar-feijoo-pactar-abascal_1_2240119.html",
-    "fuente": "infoLibre",
-    "fecha": "2026-11-15T05:01:18+00:00",
-    "imagen": "https://static.infolibre.es/clip/0aca9a55-528d-4a84-ba8b-bc4e4c31080b_16-9-aspect-ratio_default_0.jpg"
-   },
-   {
-    "titulo": "El miedo a Vox que agita Sánchez pierde su efecto electoral",
-    "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMDViMWE4X2xKRGRabUZlbnFfX3IteGJRVFZWRThFdENVQXZoQTJwMW1sajJ2amNsR1U4akJPUEJnZDZrX1ROSmFGbWY4WDg3TThTS003S3pwYlFaN2o4b1ZxMXMwMkQ5TGY4U29IRUh0OXFrbTVTTVhXMHJQWlQzdFFhZFVlaFJQTENDZzNpS095c2xS0gGUAUFVX3lxTFBDQjVtdXp0aW83YmtzVWg1eFVxYWt1WC1EQWg0SF81NnhCMHhYcjRqaUlkNm03VDY3d2s3Unlyd2Vvc0Q2UGVRXzhTdXo2X1UyUkN1blMyQkVNcTlOZ2xGRlV5QVVPX3lnX2xrQk9XWmJPV0dza1RoNHBKMll3VTBMNTNDOTB5SlNud3RqX3lsUFAzbXE?oc=5",
-    "fuente": "El Periódico",
-    "fecha": "2026-11-15T05:00:40+00:00"
    }
   ],
   "Sumar": [
@@ -313,6 +311,12 @@
   ],
   "ERC": [
    {
+    "titulo": "Feijóo es el preferido para ser presidente y Rufián el líder mejor valorado en España",
+    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNEdmNDJuUHBFR3p2ZFMyOUl1X3JkWUNOWGxydE5XZFdJc1E4cWJJTzdsSG96dWxNTXd5dXVGaFlZNUt3Z1VPTXVybEJzSXEzSTRraEd2NnVNODBLSjBGQkJUaUNjTXVFQ285LThJVkxBS2M5Vi0xRmRfbDA5Uk5xZjQ1TnhGS1BidzFQaFp3TVZXUjFqcjU1RkFnNVB4R05UQ0ZJZzhEbkZDMF9fdHJtTE55dFFva3J0dzhDRXc2WTdiMnlY?oc=5",
+    "fuente": "Diari ARA",
+    "fecha": "2026-11-15T07:07:16+00:00"
+   },
+   {
     "titulo": "Rufián superará a Colau gracias al pacto con Podemos pero Montero se quedará sin escaño",
     "enlace": "https://theobjective.com/espana/politica/2026-11-15/rufian-supera-colau-podemos-desaparece/",
     "fuente": "The Objective",
@@ -344,12 +348,6 @@
     "fuente": "La Vanguardia",
     "fecha": "2026-11-14T14:10:53+01:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/14/6af85d303c203.r_d.2200-1550-1051.jpeg"
-   },
-   {
-    "titulo": "Junts, a los dirigentes de ERC: \"Si Macià se levanta, coge el ejército que dejó y los mata\"",
-    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcl9CWVdBNHBrM0ZoekVRTTJzZWlmOENYRnpqUk0tNWFzeElWOElKNXlDMWZ2N1ZjdGlNTEU4a2d4SmF0ZWluYUZTNE45TFBCcmx6RkdTSTJiMWRhOF85b3duX0RyRjhqallzbGU3OHppWmN4OUJUMkVveWR3UE9xSzVZWUtrdnBMWVdiZEktWk1UUC1FYnRXeEplcTZQMkZ40gGgAUFVX3lxTE9yX0JZV0E0cGszRmh6RVFNMnNlaWY4Q1hGempSTS01YXN4SVY4SUo1eUMxZnY3VmN0aU1MRThrZ3hKYXRlaW5hRlM0TjlMUEJybHpGR1NJMmIxZGE4Xzlvd25fRHJGOGpqWXNsZTc4emlaY3g5QlQyRW95ZHdQT3FLNVlZS2t2cExZV2JkSS1aTVRQLUVidFd4SmVxNlAyRng?oc=5",
-    "fuente": "El Periódico",
-    "fecha": "2026-11-14T14:06:29+00:00"
    }
   ],
   "Junts": [
@@ -513,6 +511,12 @@
   ],
   "CCa": [
    {
+    "titulo": "Coalición Canaria y Primero Canarias culminan la colocación de carteles electorales en Agüimes",
+    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVG0zS1RVeXVleUl1Umk5bk9ZR1FIQ0Z0dXF1OEZWcDZuZzM2QkR4ZUZScjlNeHVfS2FlMDdxeUN4TklyaDYxX25yYTFseXotNnJZZ3c4NWtZMGpaMldQSmxWTlpnbmlCa3poeDB6Z0tTck9sWUJFaXJUSXlpdXRlbktiTGgzNlVVVTZlVUJpR2hWQlRscGtqdFpvOW0xcExYREFYMVNnM1d4MWlGbVRTUXZMS3BZSE0?oc=5",
+    "fuente": "RETURCAN",
+    "fecha": "2026-11-15T07:46:07+00:00"
+   },
+   {
     "titulo": "Coalición Canaria ofrece sus votos a Sánchez o Feijóo si se comprometen con las islas",
     "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdGRKMldWNGtJX0MxTjliaThUa2txd1U0RXhTUF9BZTRpRVAyMUg3TUVhUGtnYXhHSzRMOU1ER2NrYTI4NlBvSnZGb1FpanpjdldLeG5SV3VHTi1RcG03QzlRRWpNUTJQZDdjY0RoV05CUnJYT011XzhOWTg2V0hGSy1xY0YtdEUyVDZZeUpTMzZxWUV6c3FtN1VWVEJ6OVBsYzNKY255VXp6TlJ0Y29Md3dxblJtUUw2ck9HX0wwUl9WS00tUkZHT0pDRTlGY0VrcjdkclZ6b0lIenJGS1lv0gHqAUFVX3lxTE16NTFtbUJ1Wk9iMG4tajU5ZTZPRE9aWnJ5ZnJ1QW5ZSmszSFN1S1lZTy0zQ244SjZhVktjRWczc1RoUTRPWVlzR2VJMGtYZGVLUkZZSUVMU0hRZmVlc014dnNrSE4ybUhUYi0tYVFEdUt2LVpZMFZsZG1UaVRBNEZrZ25ac3Z1S1o4OEZsWTIzNHZXRElBNGxja28wczBMcWJreVBiU0RMVXhCQ2ZjYmFYVGc2WXA5Z3h6OWdLcF9DRWJNYXBkVXVQMmdHby1HSzNFS1lTdERRYnFTbXZaWFFjeUZEelIzSVc1QQ?oc=5",
     "fuente": "Libertad Digital",
@@ -541,12 +545,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxON2UyZUJmYnpPdmxOcVBlR0ZnQm12VWIzM1ZqNlNvOGlPSHA4TnJFTUd4cWp1ZVRnZ0pXdzhVSWNQU2h4bTk3M1k2RnZETlZKVWVvLWxISzRvNFl1YlAyTURoXzNMXzAzeVk5MjlZa3J6N0wxV2Y5NW1hNE55ZkE2eXp4M1B1cXRldnN2N3hBdHM4MGJ1MXo1ZzVvQWp4YllyUW5tOUFkZDdwMzNGcl9qTUxEYkxXYU1pWUtzVGgwMGVtTVQxMVk5VGVuWHdFWjBLejg0dkJR0gHbAUFVX3lxTE5Vd2t5aFB4eFpaT0tJdXdZUmc2OUMzRWtCQWZFUl9jYVNWbUliT2NwVTM3YWRNRWU4V2lzeUNuT3JhWkZtczhHOWE1ZUMtdEktSk9wZTBPVVRKa2RaZ1l1X3Y5QVBJc20wbnBXVDRicExmTjMtWENaZy1oSUQ2Ymp0MFpsYjdIeXZ5WHkwT1ZfbTJYd2ZHdGUxbDl4Si1BYXJhN09CUGl5U1NYOFRoNkMtUWgxYzI5OHVrMExULVMwQTRuM2JGbzFBUXQ1MWl3MkFhMm9KcXI1a2Qycw?oc=5",
     "fuente": "Fuerteventura Digital",
     "fecha": "2026-11-13T10:33:47+00:00"
-   },
-   {
-    "titulo": "29-N | Coalición Canaria abre la puerta a apoyar un Gobierno del PP con Vox tras rechazarlo durante la precampaña",
-    "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ySUpjREtvZ3p6WDUtS0lGcGhfUXgwbU5Kc0xPc3k5NWN0bFBrR0wzRmhWTnBCOVMteXY1a21BX29qa1pGYjhJNHNVUFNpRXdOejE5akxvNDhXYWFOSDhycE1RbVBIbUE?oc=5",
-    "fuente": "Canarias en Pleno",
-    "fecha": "2026-11-13T09:48:29+00:00"
    }
   ],
   "UPN": [
@@ -915,11 +913,12 @@
    "partido": "PP"
   },
   {
-   "titulo": "El PSOE denuncia al PP ante la Fiscalía por los supuestos pagos y ofrecimientos a Koldo García",
-   "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa2RnV01reXBCNk9ZSXdQVmM5XzBhd3l4bGVGblZFMjNkWWRnUHlOTm14YVRzQkxCMklBMWM2WDhLYmhwcUdBMDlaTkhFR0tzb1d5TkV5eHlqMXJWaXJEWDhEbTIxZ1RYVXFFNU13VUdWWmZCdnBFSUxQa0VmM1NSQjNwR3psUXl6S3ByZWZXSk9HMG5MLU1HRnpNM0Z2SEtnSE5vbmJ1M0hpZlHSAbABQVVfeXFMTW5hNzV4dG1SRmcwRmRLa2xrZEtDZ0Q0T2hUZF9RVTVnb00tWENGMV9QUHROcGliLUFBemtKSUN4LXd2X3REQXZoQmNOWnQxb2FtZ2o2ZXl2S3ZHcEpFejNmQTZ5NkpRTUxsM1J2MjJDQlhiT2xET1dYSXkzcmVhZVVvRThvRGhYRFBGb2xLUTBPakRYTEZhal9vWVlDOHNoTW90Q0NqZmI0Rzd3Q1dGUzY?oc=5",
-   "fuente": "Diario de Noticias de Álava",
-   "fecha": "2026-11-13T14:21:13+00:00",
-   "partido": "PP"
+   "titulo": "El PSOE denuncia al PP a la Fiscalía por los pagos a la defensa de Koldo García",
+   "enlace": "https://www.lavanguardia.com/politica/20261113/11683633/psoe-denuncia-pp-pagos-defensa-koldo-garcia.html",
+   "fuente": "La Vanguardia",
+   "fecha": "2026-11-13T14:56:56+00:00",
+   "partido": "PP",
+   "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/05/6aecd9a4381fd.jpeg"
   },
   {
    "titulo": "Feijóo: \"Ahora resulta que la Fiscalía Europea cree que las pulseras antimaltrato son corrupción. Este gobierno es un peligro para las mujeres\"",
