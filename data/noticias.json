@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-11-15T17:01:56+00:00",
+ "actualizado": "2026-11-15T17:07:43+00:00",
  "generales": [
+  {
+   "titulo": "Plan Sonríe: qué es la ayuda de hasta 200 euros para ir al dentista que promete el PSOE en su programa electoral",
+   "enlace": "https://www.elconfidencial.com/espana/2026-11-15/plan-sonrie-ayuda-200-euros-dentista-psoe_4465465/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-11-15T18:04:00+01:00",
+   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/2cb/24e/2cb24e9a0550924c7ba70247a7d85498/500-medidas-para-remontar-las-encuestas-que-propone-sanchez-en-vivienda-impuestos-pensiones-y-union-de-amistad.jpg?mtime=1794754689"
+  },
   {
    "titulo": "Sánchez se abraza a Cuerpo y a la bandera de España para ampliar su base electoral",
    "enlace": "https://www.abc.es/espana/sanchez-abraza-cuerpo-bandera-espana-ampliar-base-20261115142021-nt.html",
    "fuente": "ABC",
    "fecha": "2026-11-15T17:43:21+01:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/15/1520312583-RAPWJgZc8yO496YEW9P5CBN-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "Sánchez quiere llevar la amistad al Código Civil: así sería la 'unión de amistad' que propone el PSOE",
-   "enlace": "https://www.elconfidencial.com/espana/2026-11-15/que-es-union-de-amistad-psoe-codigo-civil_4465452/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-11-15T17:37:00+01:00",
-   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/2cb/24e/2cb24e9a0550924c7ba70247a7d85498/500-medidas-para-remontar-las-encuestas-que-propone-sanchez-en-vivienda-impuestos-pensiones-y-union-de-amistad.jpg?mtime=1794754689"
   },
   {
    "titulo": "Encuestas electorales para el 29N: Vox iguala al PSOE en escaños y el PP gana en votos y diputados en Valencia",
@@ -82,6 +82,12 @@
     "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/15/6af9881422f0f.jpeg"
    },
    {
+    "titulo": "Feijóo abre la puerta a recuperar el soterramiento de Valladolid si llega a La Moncloa: \"Si técnicamente se puede, lo retomaremos\"",
+    "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNd0d4bWlVRjVBSlpVTWN4X3FfeVJzWnU3cXNhRUpSU2x1QXZXbnhmSFkzYXF2VHBQMjAtdUg5TEJIc1N6MWtfR1FNMUZvY1lON1hSdC1Ud3Zub2xObHJxM1RxWkNWTW5ndzcxQ1BoNlVuZTl3NmZJNXF2a0xwXy1hb2VKY0JoTkpjaVlqdlBnbUtGRHU0cjcwV1RZcy1RRkl5aERXdlVJXzE5YW1fZjNIQjh6TUY3SUtaTm5pN3ltSmhteUQ2QjI3RHVHdVh1elZWT2tldnh2YVh5dDJCZXFtNXJONDU4bm9HNDVyLVQ4ZnU5dlFHckFyNDJoRnJNLUVjU2RSUzBUbw?oc=5",
+    "fuente": "Tribuna de Valladolid.",
+    "fecha": "2026-11-15T17:03:47+00:00"
+   },
+   {
     "titulo": "Horario y dónde ver el debate electoral entre Pedro Sánchez y Alberto Núñez Feijóo del 19 de noviembre",
     "enlace": "https://www.20minutos.es/nacional/horario-donde-ver-debate-electoral-entre-pedro-sanchez-alberto-nunez-feijoo-19-noviembre_7061066_0.html",
     "fuente": "20minutos",
@@ -105,28 +111,22 @@
     "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQXy1Jak5PRDN2TFZKaE4xV0tWM2tHejdCYXNWQkFXeDBZaS1MM3lDcHB2eUVfSmxCUjlKN2NVcmM3NE5vZnRCMGp0ZXBlc2U1bEtXdjZBOVhEYmxTT3BSOVRRMW9lVlotckRmRFU2dTBYbDNXYXYwWENTS1FpS3BEOGY4TC1TUU1CVXVTNTd0MUJ6cVJIUzJR?oc=5",
     "fuente": "Servimedia",
     "fecha": "2026-11-15T16:11:00+00:00"
-   },
-   {
-    "titulo": "El patrimonio de Alberto Núñez Feijóo: tres viviendas, 770.000 euros en inversiones en Inditex, Telefónica y Abanca",
-    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSUU2akJHMURtN282azBHbXNKZl9vXzZodU5IVjkydlJhMG16NlJBZWRHbU9vSW5teXgxYzVvU2hSam9kTVNUY0l6Y0pFdmFNZ1lKVDNhUGhJYkU3b3RQeWJkRXVOYmM0NThtZmdvWnBuWDNubjJSV2VOeFJGV19YV2l0dmx6MEJTRmYzZHRZb0RVbEp5X2VQZFZyeS1DQlBjTWdSRURORjVJenZCd2NLeUVfYm5RYzBOSUVIbnBIVkY4ZmpTOGFYQU1sV3Buc2twRXN3cDRZRFZyTnZ5YnJ4VzFISVF4TnPSAewBQVVfeXFMTjhjdnB2VUhuWXhXclJuaUJZN08xeEtUYmc2bGQybWJtZ0tmTWRLYUk5OUM3Vm9rY2JaTnNWa0lCVjh4ZlBDQmdHdjZZeGJsd3RRVGhsTVBUQjE5R09ycHRGazdCUVZKRld0RlF2V0FkSlBkWmNmR0tQSHFPVkw1bDBTc2EwRmlwSHNwUG56R3kwT3d0QUVtU2V4dktFTnBGVEtZMkJhY3VkOGQtZk8xam5NaFV3eVk2XzNheHk0OG5kLVFqSWdJQlgyUUhYdVZXV2otS09XWHNhQnlxcWNJTlJUU2xobVI4MHhhRkM?oc=5",
-    "fuente": "Vozpopuli",
-    "fecha": "2026-11-15T16:00:00+00:00"
    }
   ],
   "PSOE": [
+   {
+    "titulo": "Plan Sonríe: qué es la ayuda de hasta 200 euros para ir al dentista que promete el PSOE en su programa electoral",
+    "enlace": "https://www.elconfidencial.com/espana/2026-11-15/plan-sonrie-ayuda-200-euros-dentista-psoe_4465465/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-15T18:04:00+01:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/2cb/24e/2cb24e9a0550924c7ba70247a7d85498/500-medidas-para-remontar-las-encuestas-que-propone-sanchez-en-vivienda-impuestos-pensiones-y-union-de-amistad.jpg?mtime=1794754689"
+   },
    {
     "titulo": "Sánchez se abraza a Cuerpo y a la bandera de España para ampliar su base electoral",
     "enlace": "https://www.abc.es/espana/sanchez-abraza-cuerpo-bandera-espana-ampliar-base-20261115142021-nt.html",
     "fuente": "ABC",
     "fecha": "2026-11-15T17:43:21+01:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/15/1520312583-RAPWJgZc8yO496YEW9P5CBN-1200x840@diario_abc.jpg"
-   },
-   {
-    "titulo": "Sánchez quiere llevar la amistad al Código Civil: así sería la 'unión de amistad' que propone el PSOE",
-    "enlace": "https://www.elconfidencial.com/espana/2026-11-15/que-es-union-de-amistad-psoe-codigo-civil_4465452/",
-    "fuente": "El Confidencial",
-    "fecha": "2026-11-15T17:37:00+01:00",
-    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/2cb/24e/2cb24e9a0550924c7ba70247a7d85498/500-medidas-para-remontar-las-encuestas-que-propone-sanchez-en-vivienda-impuestos-pensiones-y-union-de-amistad.jpg?mtime=1794754689"
    },
    {
     "titulo": "Guitarte acusa a PSOE y PP de usar la A-68 como promesa electoral vacía elección tras elección",
@@ -363,8 +363,8 @@
     "fecha": "2026-11-15T13:46:35+00:00"
    },
    {
-    "titulo": "Junts exige la delegación de las competencias en inmigración para impulsar una política migratoria \"seria\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRFZObzZpMEJNU0JtODROTC11RmdIUE9Camx3X2R5aUt3bDE3NHM4V3g4bDZnMkY2bEtiemhaOUpUbERSS251bUk0Z1VLMTNnRXBOb3RoRXloLVhOTkZnLUxEdVQ5UWdTeWs3R213czRVMnFwakwxSFdieVplTkFkMlJ4MGluSDB1bDQtaWFPMGZxVjZERC1uaWU1WnpQb1RFQTJpU21iTUhtMl9UQS1Dc090bS1nUXpfNWJV0gG7AUFVX3lxTE1Xc0ViS0tELTE1XzN3V3JseGRvdExmX0tfSE5JVGhoRXR6Z3M5cDYycVViVGRaR2doQWtoMUhTMWlUWDdfZFN1RzJiblNqTW9pMVdXUFliNFo3Z3J1eGdLSlFBd1JwN3RXQnJ4bUVvZDk2Y2lHV0lpZUJ6RmFxd0JHczFQNGlfZl9ENHJ1YXhsMUxBXzJTM1hSQzFYTm9ZZHAyVllNNXNfWXpwU3Z2LXhBeVJqNm4xN2xma2M?oc=5",
+    "titulo": "Junts exige la delegación de las competencias en inmigración : \"Es innegociable\"",
+    "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1zRUJEVlhkN0kya1BTSmxPNGQyTHJPQjdRWXNjeXVlc0pRTzhCSzFWaFJ3Si1YRDZFSEtFalYxOTNXRmJUcGdaU1ZyNHoxeWNwdktobWNzOEU3X19Ob1h4RTk3OHczcmFXWFlWdzRtcGNPNDBKZDFINjJ6bFpMZ9IBfkFVX3lxTE1zRUJEVlhkN0kya1BTSmxPNGQyTHJPQjdRWXNjeXVlc0pRTzhCSzFWaFJ3Si1YRDZFSEtFalYxOTNXRmJUcGdaU1ZyNHoxeWNwdktobWNzOEU3X19Ob1h4RTk3OHczcmFXWFlWdzRtcGNPNDBKZDFINjJ6bFpMZw?oc=5",
     "fuente": "El Periódico",
     "fecha": "2026-11-15T12:34:52+00:00"
    },
@@ -397,6 +397,12 @@
     "fecha": "2026-11-15T15:34:43+00:00"
    },
    {
+    "titulo": "EH Bildu asegura que \"Euskal Herria volverá a hacer historia, ganándole la batalla al bloque reaccionario\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUHBhV1hYQS1TSklDaFA1MDdjV2RnM0t1MW9UR0dkaDdtSUgyMjFjR2xGaXp6Z1FaWjFRS3c4QTZvMGhKeTM4QkNLU0RLTEpXV1BZTng3TlRhYmVuSU5lY3h4eUlENGxHc21kd1JGamNGYXAyY2Zvc3huS1JySkFQV0RDVHpQS1VNaGpPVWw5dnh5enNpdklGNnNZNlZ2bWJnQ0F6SVNpY1QwejJ1MEhDaURoOER1eTFtQ3NRdE8xcE5RX0RJbjFKMU9xaEdiNndMeFFzQk9JamtLb0FKLTlr0gHfAUFVX3lxTFBQcGFXWFhBLVNKSUNoUDUwN2NXZGczS3Uxb1RHR2RoN21JSDIyMWNHbEZpenpnUVpaMVFLdzhBNm8waEp5MzhCQ0tTREtMSldXUFlOeDdOVGFiZW5JTmVjeHh5SUQ0bEdzbWR3UkZqY0ZhcDJjZm9zeG5LUnJKQVBXRENUelBLVU1oak9VbDl2eHl6c2l2SUY2c1k2VnZtYmdDQXpJU2ljVDB6MnUwSENpRGg4RHV5MW1Dc1F0TzFwTlFfREluMUoxT3FoR2I2d0x4UXNCT0lqa0tvQUotOWs?oc=5",
+    "fuente": "Noticias de Gipuzkoa",
+    "fecha": "2026-11-15T14:50:23+00:00"
+   },
+   {
     "titulo": "Feijóo visitará Guipúzcoa tras la agresión a su candidato y pide a Sánchez que diga a sus socios de Bildu que \"no violenten la campaña\"",
     "enlace": "https://www.20minutos.es/nacional/feijoo-visitara-guipuzcoa-tras-agresion-candidato-pide-sanchez-diga-socios-bildu-no-violenten-campana_7061296_0.html",
     "fuente": "20minutos",
@@ -421,12 +427,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTDU5NWxMT2FhOEVZWWVqVHBlZUd5R0lWVGRhWEtCMVFPRFE1V00wenFaYkdnZDA2YVk0TTducmkxaVBqMFNtLVdTd21MWDBkcGl0Q3MxMFRxOURjVGRmV2MtNk1oVjZDSGQxUVVpMGdZT2FYdzRLRFU2el9FQ0dWZWVSd2ZBdWcxRUU5OUttSEpybldGbkVVM1JR?oc=5",
     "fuente": "Diario de Sevilla",
     "fecha": "2026-11-15T13:12:03+00:00"
-   },
-   {
-    "titulo": "EH Bildu llama a sumar fuerzas en Navarra como antídoto contra el \"bloque reaccionario\"",
-    "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb0J6V1IwSnpfcS1pWTNqSlZaTWdncEFjVlp5Q3RVYjMyQ004UzlJd2ZEQ0g1VTAyOGxidFJIenBxRkltd0RiM2pNR1RmWVhYRnFuQWtSMmdvUXBRdDZ1cEtoS1l0NlRUd0trTk1yTjZZOE9FSEI1ZkNuanRnLU9GZ3N3eEZ1TWxUVkU5S1hRb2NIQdIBlwFBVV95cUxNOW9mRlNTc2dVRFVPYWdsWUZDSTFTWlB1Vm8yQ0hFZ09lN0YwSTkxeUsxcWxHN2ZlaUlwTzJVdHRxVWNiMVUtaDZyVG9YNWJJajQ2UTNuSEg0aE8xOG85dG56a01ZVFFSa1d2YUQyMGRXWTFzcFp2MzQ1VFZIQjRxQWJzcllva05XQTFacHlFMW4xMDY0YWdz?oc=5",
-    "fuente": "Noticias de Navarra",
-    "fecha": "2026-11-15T13:04:04+00:00"
    }
   ],
   "PNV": [
@@ -514,7 +514,7 @@
     "enlace": "https://www.elconfidencial.com/espana/2026-11-15/salvamento-maritimo-migrantes-tenerife-embarcaciones-irregulares-1tna-1tps_4465328/",
     "fuente": "El Confidencial",
     "fecha": "2026-11-15T16:56:00+01:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794762043&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794762361&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
    },
    {
     "titulo": "Clavijo exige \"acelerar\" la ayuda a El Hierro y una \"respuesta inmediata\" del Estado ante el repunte histórico en la llegada de migrantes",
