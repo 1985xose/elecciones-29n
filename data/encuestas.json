@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-15T14:01:04+00:00",
+ "actualizado": "2026-11-15T15:01:11+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1385836769,
+ "revision": 1385843998,
  "partidos": [
   "PP",
   "PSOE",
@@ -90,6 +90,39 @@
    "encargo": "Prisa",
    "id": "40db-2026-11-13-1500",
    "primera_vez": "2026-11-14T09:01:10+00:00"
+  },
+  {
+   "empresa": "Sondaxe/La Voz de Galicia",
+   "inicio": "2026-11-09",
+   "fin": "2026-11-13",
+   "muestra": 1000,
+   "participacion": null,
+   "pct": {
+    "PP": 30.8,
+    "PSOE": 26.4,
+    "Vox": 18.2,
+    "Sumar": 12.8
+   },
+   "escanos": {
+    "PP": 130.0,
+    "PSOE": 106.0,
+    "Vox": 65.0,
+    "Sumar": 24.0,
+    "ERC": 9.0,
+    "Junts": 6.0,
+    "Bildu": 9.0,
+    "PNV": 5.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 2.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "Sondaxe",
+   "clave": "sondaxe",
+   "encargo": "La Voz de Galicia",
+   "id": "sondaxe-2026-11-13-1000",
+   "primera_vez": "2026-11-15T15:01:11+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",

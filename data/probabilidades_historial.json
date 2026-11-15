@@ -954,17 +954,17 @@
   "fecha": "2026-11-15",
   "escenarios": {
    "pp": 0,
-   "pp_vox": 0.915,
-   "izq_socios": 0.0454
+   "pp_vox": 0.9034,
+   "izq_socios": 0.0531
   },
-  "bloqueo": 0.0396,
+  "bloqueo": 0.0435,
   "p50": {
-   "PP": 128,
-   "PSOE": 107,
+   "PP": 127,
+   "PSOE": 106,
    "BNG": 2,
-   "Vox": 68,
+   "Vox": 67,
    "Bildu": 8,
-   "Sumar": 13,
+   "Sumar": 15,
    "ERC": 11,
    "Junts": 5,
    "PNV": 3,
