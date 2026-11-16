@@ -997,5 +997,29 @@
    "Podemos": 0,
    "SALF": 0
   }
+ },
+ {
+  "fecha": "2026-11-17",
+  "escenarios": {
+   "pp": 0,
+   "pp_vox": 0.8929,
+   "izq_socios": 0.0586
+  },
+  "bloqueo": 0.0485,
+  "p50": {
+   "PP": 126,
+   "PSOE": 108,
+   "Vox": 66,
+   "BNG": 2,
+   "Bildu": 8,
+   "Sumar": 15,
+   "ERC": 12,
+   "Junts": 4,
+   "PNV": 3,
+   "AA": 2,
+   "CCa": 1,
+   "Podemos": 0,
+   "SALF": 0
+  }
  }
 ]
