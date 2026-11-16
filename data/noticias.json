@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-11-16T15:54:48+00:00",
+ "actualizado": "2026-11-16T16:02:05+00:00",
  "generales": [
+  {
+   "titulo": "29N: Pollán asegura que Vox frenará la ocupación: Desalojo en 24 horas y endurecimiento del Código Penal",
+   "enlace": "https://www.larazon.es/castilla-y-leon/29n-pollan-asegura-que-vox-frenara-ocupacion-desalojo-24-horas-endurecimiento-codigo-penal_202611166afb23b59a31a65adcdde802.html",
+   "fuente": "La Razón",
+   "fecha": "2026-11-16T17:00:21+01:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/16/048AD5C1-EE4E-4C6D-A18F-ECA4F304FFBD/pollan-saluda-vecinos-arroyo-encomienda-visita-este-municipio-alfoz-valladolid_96.jpg?crop=4875,2742,x0,y391&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
+  {
+   "titulo": "El PP exige por carta a Marlaska garantizar la seguridad de la caravana de Jon Echeverría, que irá a Éibar con Feijóo",
+   "enlace": "https://okdiario.com/espana/pp-exige-carta-marlaska-garantizar-seguridad-caravana-jon-echeverria-que-ira-eibar-feijoo-20970949",
+   "fuente": "OKdiario",
+   "fecha": "2026-11-16T16:58:35+01:00",
+   "imagen": "https://okdiario.com/img/2026/11/16/marlaska-carta-pp.jpg"
+  },
+  {
+   "titulo": "Renfe y Adif prevén que la huelga de este martes paralice el tren y recomiendan a sus pasajeros buscar alternativas",
+   "enlace": "https://www.20minutos.es/nacional/renfe-adif-preven-que-huelga-este-martes-paralice-tren-recomiendan-sus-pasajeros-buscar-alternativas_7061626_0.html",
+   "fuente": "20minutos",
+   "fecha": "2026-11-16T16:53:41+01:00",
+   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/16/6afaef7b9a7543-71698107.jpeg"
+  },
   {
    "titulo": "Frente Amplio propone rebajar la edad de voto a los 16 años y un referéndum para resolver «la cuestión territorial»",
    "enlace": "https://www.abc.es/espana/frente-amplio-plantea-limitar-herencias-rebajar-anos-20261116122400-nt.html",
@@ -9,32 +30,11 @@
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/1520312425-ResQNUvvyABk1ghGMcgz7EL-1200x840@diario_abc.jpg"
   },
   {
-   "titulo": "El PSC y Vox abren la batalla electoral por el cinturón rojo de Barcelona",
-   "enlace": "https://www.larazon.es/cataluna/psc-vox-abren-batalla-electoral-cinturon-rojo-barcelona_202611166afb23679a31a65adcdde7d0.html",
-   "fuente": "La Razón",
-   "fecha": "2026-11-16T16:38:31+01:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/15/229A85D2-EA41-46E8-AA60-0F6C48B4E368/96.jpg?crop=1600,900,x0,y83&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
    "titulo": "La campaña que Sánchez no quería: de las dimisiones y Urda a un Lula sin voz para la remontada",
    "enlace": "https://www.elconfidencial.com/espana/2026-11-16/campana-sanchez-dimisiones-urda-lula-remontada_4466042/",
    "fuente": "El Confidencial",
    "fecha": "2026-11-16T16:34:00+01:00",
    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/3a6/aa2/3a6aa2f08c2fe44ffb0ea33c97b7add2/el-feminismo-de-sanchez-mujeres-a-dar-la-cara-hombres-a-decidir.jpg?mtime=1794518861"
-  },
-  {
-   "titulo": "Última hora en directo de la actualidad política en España: elecciones generales del 29-N y campaña electoral hoy en vivo",
-   "enlace": "https://okdiario.com/espana/ultima-hora-directo-actualidad-politica-espana-elecciones-generales-del-29-n-campana-electoral-hoy-vivo-20905843",
-   "fuente": "OKdiario",
-   "fecha": "2026-11-16T16:00:26+01:00",
-   "imagen": "https://okdiario.com/img/2026/09/09/propuesta-directo-espana-gif-interior-2.gif"
-  },
-  {
-   "titulo": "Sánchez se reinventa en el Sánchez candidato de 2015: así fue el otro acto de hace once años con Begoña y una bandera gigante de España",
-   "enlace": "https://www.20minutos.es/nacional/sanchez-se-reinventa-sanchez-candidato-2015-asi-fue-otro-acto-hace-once-anos-con-begona-una-bandera-gigante-espana_7061663_0.html",
-   "fuente": "20minutos",
-   "fecha": "2026-11-16T15:29:06+01:00",
-   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/16/6afb14dbf0d985-16980273.png"
   },
   {
    "titulo": "Elecciones generales 29-N: última hora de la campaña electoral del PP, PSOE, Vox, Frente Amplio y resto de partidos, en directo",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Catalá traslada a los empresarios que con Feijóo volverá la «profesionalidad y la seriedad» al Gobierno",
-    "enlace": "https://www.eldebate.com/espana/comunidad-valenciana/20261116/catala-traslada-empresarios-feijoo-volvera-profesionalidad-seriedad-gobierno_481596.html",
-    "fuente": "El Debate",
-    "fecha": "2026-11-16T16:44:59+01:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/16/6afb24d19ab92.jpeg"
+    "titulo": "El PP exige por carta a Marlaska garantizar la seguridad de la caravana de Jon Echeverría, que irá a Éibar con Feijóo",
+    "enlace": "https://okdiario.com/espana/pp-exige-carta-marlaska-garantizar-seguridad-caravana-jon-echeverria-que-ira-eibar-feijoo-20970949",
+    "fuente": "OKdiario",
+    "fecha": "2026-11-16T16:58:35+01:00",
+    "imagen": "https://okdiario.com/img/2026/11/16/marlaska-carta-pp.jpg"
    },
    {
     "titulo": "Las medidas del PP contra la okupación: así beneficiaría a los propietarios con viviendas afectadas",
@@ -115,18 +115,18 @@
   ],
   "PSOE": [
    {
+    "titulo": "El PP exige explicaciones a Sánchez tras la investigación de Anticorrupción sobre 6.000 millones de Defensa",
+    "enlace": "https://www.eldebate.com/espana/20261116/pp-exige-explicaciones-sanchez-investigacion-anticorrupcion-sobre-6000-millones-defensa_481585.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-16T16:54:11+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/09/03/6a99545555c1f.r_d.2692-1188-0.jpeg"
+   },
+   {
     "titulo": "La campaña que Sánchez no quería: de las dimisiones y Urda a un Lula sin voz para la remontada",
     "enlace": "https://www.elconfidencial.com/espana/2026-11-16/campana-sanchez-dimisiones-urda-lula-remontada_4466042/",
     "fuente": "El Confidencial",
     "fecha": "2026-11-16T16:34:00+01:00",
     "imagen": "https://www.ecestaticos.com/imagestatic/clipping/3a6/aa2/3a6aa2f08c2fe44ffb0ea33c97b7add2/el-feminismo-de-sanchez-mujeres-a-dar-la-cara-hombres-a-decidir.jpg?mtime=1794518861"
-   },
-   {
-    "titulo": "Sánchez explota su foto electoral con Lula",
-    "enlace": "https://www.abc.es/espana/sanchez-explota-foto-electoral-lula-20261116150740-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-16T16:13:58+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/1520357773-RHCLtTgVXQqXyYmQEMn67cL-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Qué es la \"unión de amistad\" que propone el PSOE: cómo funcionaría y qué derechos reconocería",
@@ -147,19 +147,19 @@
     "fecha": "2026-11-16T15:39:57+00:00"
    },
    {
-    "titulo": "Lula aterriza en la campaña del PSOE como ejemplo de que una victoria es posible",
-    "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWGtVSkdwM1VtM0pHaURIWkk3dTIzalRvNFpfbWk5Zm44LXFBaWU0RGp2ckIzbTZCVkhqemY4T1NLc19Ia3prWXlQYk9MSjgwTWNfN0syTjlrRVBnMklFV0I3Mmtwb0JWc3ZCRktEZU5Za2ZxeDNDMndSVjQ4bFJjYlNkWmhBaHRNSzJfeDFqYzhLRS03UkhEeEM0dEExTy1TQVFsaGktRk54bWhKNU1nNEhiUjF6WGZleFk5dDJqa2NPSjlrZ2JkTkVXbGg3TGRIMEJPQQ?oc=5",
-    "fuente": "Ultima Hora",
-    "fecha": "2026-11-16T15:07:10+00:00"
+    "titulo": "Tolón afirma que el PSOE aspira a ganar y valora la importancia de un gobierno progresista",
+    "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaS1SaFA1NThnc2JGVDVYZFVTZTdrYkZEUU9YUGFVY0RQNHpUMWJrOUxKTUVqQ19iWGc4eWxJOVBPS1owNW95VkxGMXlxR183YTNiWElYT19rUkV4SDJWZWRtR1Fqb09kMDBqSzVma1l6OFpOZDl3RE5aTEMyV1hxQVJEODUySTZlV2RvdHZDR24xSGs?oc=5",
+    "fuente": "EFE - Agencia de noticias",
+    "fecha": "2026-11-16T15:38:21+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "El PSC y Vox abren la batalla electoral por el cinturón rojo de Barcelona",
-    "enlace": "https://www.larazon.es/cataluna/psc-vox-abren-batalla-electoral-cinturon-rojo-barcelona_202611166afb23679a31a65adcdde7d0.html",
+    "titulo": "29N: Pollán asegura que Vox frenará la ocupación: Desalojo en 24 horas y endurecimiento del Código Penal",
+    "enlace": "https://www.larazon.es/castilla-y-leon/29n-pollan-asegura-que-vox-frenara-ocupacion-desalojo-24-horas-endurecimiento-codigo-penal_202611166afb23b59a31a65adcdde802.html",
     "fuente": "La Razón",
-    "fecha": "2026-11-16T16:38:31+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/15/229A85D2-EA41-46E8-AA60-0F6C48B4E368/96.jpg?crop=1600,900,x0,y83&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "fecha": "2026-11-16T17:00:21+01:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/16/048AD5C1-EE4E-4C6D-A18F-ECA4F304FFBD/pollan-saluda-vecinos-arroyo-encomienda-visita-este-municipio-alfoz-valladolid_96.jpg?crop=4875,2742,x0,y391&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "El PSC combate el auge de Vox en el cinturón rojo: “Están de paso”",
@@ -196,7 +196,7 @@
   "Sumar": [
    {
     "titulo": "El elevado sueldo al que ha renunciado Yolanda Díaz tras retirar su candidatura a la OIT y su plan para cuando deje la política",
-    "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNczRLRHE3M2dQelBxX1NkVzBkSUpBYUhxbkl2bDZ5V181MXc4YU1OZThQeHBuQUNyOGFBdk9kelBndXJRWEs4ZXIySFF6NDN4SndaQjhoSzNMVDdHeWlqRFhoN19GNVo5b3lka2JYWlNzU0JKbmx5WWtIMlI5U2xpck1FNW1CaFoxaU9MNDkzOGRuNGR0LWMyYXUtTG8zU2RvWFRHNDdScDE3SnFOd1ZxWjM2ekdKTGhmZE1VdDlUWTdWdjlJVU1HaWVsc2lONUljQ1d6MnZQYWVxUFFpZlN2ak1RYzZXRG5kYzlMZW9Vdm1MR0tZbXhpbDlubHfSAYICQVVfeXFMUFQzVHFOYVRzTkFlWF83bUpFWld3TTdVaWowVVRCSTFheklyaGRmVkIxQTVtcUw4Vzc2cU1xOXVTa3NDbVJJaFlPVDV1aGc1SmRwM3ZLQXc3S2k2SXhrNnlDTXBLQ3hWTDIwRTBKTGJkMTVRbU9QVWQzTU5BTFdqMFlPeGkxNzFqdDZaQ0VJa2dTUWJQRTdVVXJtOFlwcGh2Z2dHNVBReXc2aGsxZHV3NmpjM3RqekVfNjR1c3JGTVJteHBCMUxKUVFvb3JHWWpFZTJQdkdpV3lBZzd6enRSNFJMb05WMjNCR2htUWRZMndtUzlIeU1wTGxYRmV2ZmFVbjRn?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQVDNUcU5hVHNOQWVYXzdtSkVaV3dNN1VpajBVVEJJMWF6SXJoZGZWQjFBNW1xTDhXNzZxTXE5dVNrc0NtUkloWU9UNXVoZzVKZHAzdktBdzdLaTZJeGs2eUNNcEtDeFZMMjBFMEpMYmQxNVFtT1BVZDNNTkFMV2owWU94aTE3MWp0NlpDRUlrZ1NRYlBFN1VVcm04WXBwaHZnZ0c1UFF5dzZoazFkdXc2amMzdGp6RV82NHVzckZNUm14cEIxTEpRUW9vckdZakVlMlB2R2lXeUFnN3p6dFI0UkxvTlYyM0JHaG1RZFkyd21TOUh5TXBMbFhGZXZmYVVuNGfSAYICQVVfeXFMUFQzVHFOYVRzTkFlWF83bUpFWld3TTdVaWowVVRCSTFheklyaGRmVkIxQTVtcUw4Vzc2cU1xOXVTa3NDbVJJaFlPVDV1aGc1SmRwM3ZLQXc3S2k2SXhrNnlDTXBLQ3hWTDIwRTBKTGJkMTVRbU9QVWQzTU5BTFdqMFlPeGkxNzFqdDZaQ0VJa2dTUWJQRTdVVXJtOFlwcGh2Z2dHNVBReXc2aGsxZHV3NmpjM3RqekVfNjR1c3JGTVJteHBCMUxKUVFvb3JHWWpFZTJQdkdpV3lBZzd6enRSNFJMb05WMjNCR2htUWRZMndtUzlIeU1wTGxYRmV2ZmFVbjRn?oc=5",
     "fuente": "Vozpopuli",
     "fecha": "2026-11-16T14:47:26+00:00"
    },
@@ -516,7 +516,7 @@
     "fecha": "2026-11-16T11:03:00+00:00"
    },
    {
-    "titulo": "Entrevista electoral: Cristina Valido, candidata de Coalición Canaria",
+    "titulo": "Entrevista electoral: Cristina Valido, Coalición Canaria",
     "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX2plakkwbFY2bi1lT215ZGlXZnZycVh6bk9kZDUxeTZkNURaUGFOaTdueTlRZ2k4a3RnaExITEd1UDYtbVFJUzlLVGhEWm91UTM0aEEwcDc5OTVsWW45aHhDUVY2SnRycGxETktzWG1YU1ZRQ2h2RGd3YkNqZUVPbVN3OWNnVDZobmtNRFc2a05ubl9iQnZ1eDYxYzhNNllCTlFvNXVvTFJYSHlULTNYeUV1SUdhX2ptOENQSGlNV19haTA?oc=5",
     "fuente": "RTVE.es",
     "fecha": "2026-11-16T08:21:57+00:00"
@@ -627,20 +627,13 @@
   ]
  },
  "verificaciones": {
-  "PP": [
-   {
-    "titulo": "¿«El programa electoral de Feijóo propone reformar la Constitución para recentralizar el Estado, aplicar una nueva Ley Mordaza y recortar pensiones y sueldos públicos»? · La Buloteca · Maldita.es",
-    "enlace": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNaHpWVm51dWE2LXBESmZBZGx2MnRvN2JxSHp6VW03Q3J4QVJBWnc1NEJCVlVZNlc3OW44NnVUbTk4QWJqdTRLdlozZE9aaG9nTnNJT3lUTk81d0dkMk1FV3BMX296SkVqSnJ5NHBfNnRPTHBZcVVsdkJwT2V0RnhzSXFaQWJEdVdsYTBmbV9saVpWdnI4dDBPZ3ZSOTBvRW5SeWlPa1oxeWtnQ1B4ZTBzMWRITHFkMUpJWFJoakNIYXFmMmhKU25QeGtpX28zNk56MThzMjI2SXEzTkQ5WG9oU0o3YzkzNDFGODlQbl9HTjJ6V0QxbVJWTHJ5N3hiNDA3eVpLc2c3VjkyUkNCbWlOR3B3YnR3amxnU3N3Q1gwN2Ryc0E?oc=5",
-    "fuente": "Maldita.es",
-    "fecha": "2026-11-16T14:57:54+00:00"
-   }
-  ],
+  "PP": [],
   "PSOE": [
    {
-    "titulo": "¿«Un audio de marzo de 2015 atribuye a José Antonio Sánchez, director de El Confidencial, una frase sobre agredir a la doctora Elisa Pinto, relacionada con el caso Villarejo»? · La Buloteca · Maldita.es",
-    "enlace": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPWk5hNFp3YUFPa09LbDJlRW1OTUhoel96ZFlMeno4RWkwUUs5bE43cjZyMGx2b01oWE9VT0xhYlBLS2t0QmFQUjh1cFBkWXl5N2dGNW41emw1QXhWa19CaFA0NnpaNTdWYng1QzQ2eXFBUG5CNXgxTnpGd1ItbjlwR3k0bVpWYnJvZ19PejRJaW9BV1dLbEpJZDdYU3pkYWpCNnNDM1JWakdQeENXSGNtQnJTM3RyejkzUUUxZ2YtdUhKVklESkdmWV9kNjhCdFpZTUxNMHRKRC1lelB3Z3pTckdzY0NRVmhvOE0yTnhjSGh5RHhEU0VqNXRRdUozYzM5eFNBelpsckM2d3N2S2JwYTd2M2x5am5ybFkxVWxHMmtyUTgwcXBWajdn?oc=5",
+    "titulo": "¿El Tribunal Supremo ha condenado a 3 años de cárcel a Pedro Antonio Sánchez, expresidente de Murcia?",
+    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVlZfX2hDQmNKS09MOUQwc2dGWFZldU41cUNLWGpKLXdZc0VXbVhYeHZrVU5FM0lTU29rZ3hHNG9weGdFdFBLeWdaSTZxZnE3V3lKdnZ1ajdmbmUyX0RSbS0xNWd0M1pES0pyWklMN0Rhd215LXpzcmpOT0ptbzRDSzN5TG83YmJnVWtwUFJrWmxKM18yXy1EVzBRSFlMZjE3enkxXzh4UWNXSHBmRmlBQ0dnVTlSVExhZFZwdmpaNHFFbmVTMHFPcGRScDE?oc=5",
     "fuente": "Maldita.es",
-    "fecha": "2026-11-16T15:40:09+00:00"
+    "fecha": "2026-11-16T15:56:16+00:00"
    }
   ],
   "Vox": [
@@ -756,6 +749,12 @@
  },
  "verificaciones_generales": [
   {
+   "titulo": "¿El Tribunal Supremo ha condenado a 3 años de cárcel a Pedro Antonio Sánchez, expresidente de Murcia?",
+   "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVlZfX2hDQmNKS09MOUQwc2dGWFZldU41cUNLWGpKLXdZc0VXbVhYeHZrVU5FM0lTU29rZ3hHNG9weGdFdFBLeWdaSTZxZnE3V3lKdnZ1ajdmbmUyX0RSbS0xNWd0M1pES0pyWklMN0Rhd215LXpzcmpOT0ptbzRDSzN5TG83YmJnVWtwUFJrWmxKM18yXy1EVzBRSFlMZjE3enkxXzh4UWNXSHBmRmlBQ0dnVTlSVExhZFZwdmpaNHFFbmVTMHFPcGRScDE?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-11-16T15:56:16+00:00"
+  },
+  {
    "titulo": "Canales prorrusos acusan a España de glorificar el nazismo antes del 29N",
    "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZkJ3ZFVGbWctSFVfaUxYNHByNXE0SmY1VDhuMXdETkN4VVpnUFhKa0pvbGU5c3pjYWJNM0tTRzI5VWJiSFFYN1RvVXBpbUlUemQyMVp3R1ZrQ2NHa3JOaW9fOC1HRmswNkZORmtiMkpMd2M2a1kzOS1MSjZMb2NCT3RVemhCbWc?oc=5",
    "fuente": "Newtral",
@@ -772,12 +771,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQT1p5OUoxMlNPVzN1YjIxMmlPZHY2OEFOdEx2YnRCN2JEM2FEWnJuV0Y3M0RzSDcwZDJfWE4wd0FXWG1tQjV0MWxyNHFNVXpkZ0tuemNJVGRWZU00TW9YQ20xU3JQUkJxMi1TWDkyMTFnMmlJNDVtUTRTY0FqaW1FQWZWUQ?oc=5",
    "fuente": "Maldita.es",
    "fecha": "2026-11-16T15:40:10+00:00"
-  },
-  {
-   "titulo": "¿«Un audio de marzo de 2015 atribuye a José Antonio Sánchez, director de El Confidencial, una frase sobre agredir a la doctora Elisa Pinto, relacionada con el caso Villarejo»? · La Buloteca · Maldita.es",
-   "enlace": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPWk5hNFp3YUFPa09LbDJlRW1OTUhoel96ZFlMeno4RWkwUUs5bE43cjZyMGx2b01oWE9VT0xhYlBLS2t0QmFQUjh1cFBkWXl5N2dGNW41emw1QXhWa19CaFA0NnpaNTdWYng1QzQ2eXFBUG5CNXgxTnpGd1ItbjlwR3k0bVpWYnJvZ19PejRJaW9BV1dLbEpJZDdYU3pkYWpCNnNDM1JWakdQeENXSGNtQnJTM3RyejkzUUUxZ2YtdUhKVklESkdmWV9kNjhCdFpZTUxNMHRKRC1lelB3Z3pTckdzY0NRVmhvOE0yTnhjSGh5RHhEU0VqNXRRdUozYzM5eFNBelpsckM2d3N2S2JwYTd2M2x5am5ybFkxVWxHMmtyUTgwcXBWajdn?oc=5",
-   "fuente": "Maldita.es",
-   "fecha": "2026-11-16T15:40:09+00:00"
   },
   {
    "titulo": "¿«El programa electoral de Feijóo propone reformar la Constitución para recentralizar el Estado, aplicar una nueva Ley Mordaza y recortar pensiones y sueldos públicos»? · La Buloteca · Maldita.es",
