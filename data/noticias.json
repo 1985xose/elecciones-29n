@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T23:01:52+00:00",
+ "actualizado": "2026-11-16T00:01:53+00:00",
  "generales": [
   {
    "titulo": "29: Mañueco pide al PP una marcha más para convencer a los indecisos",
@@ -37,13 +37,6 @@
    "imagen": "https://imagenes.elpais.com/resizer/v2/55NSY5TQGFE5BO5IW5OUBLVM2Y.jpg?auth=f18f55479353141deb858df1586b3d4f759fa1b122a698551f1f1449e88acdae"
   },
   {
-   "titulo": "Sánchez reivindica a Carlos Cuerpo frente al \"equipo contrario\" de Feijóo y Abascal: \"Vamos a ganar las elecciones\"",
-   "enlace": "https://www.europapress.es/nacional/noticia-sanchez-reivindica-carlos-cuerpo-frente-equipo-contrario-feijoo-abascal-vamos-ganar-elecciones-20261115203237.html",
-   "fuente": "Europa Press",
-   "fecha": "2026-11-15T19:32:37+00:00",
-   "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261115203237_120.jpg"
-  },
-  {
    "titulo": "Las diez píldoras del día de la campaña electoral",
    "enlace": "https://www.nuevatribuna.es/actualidad/elecciones-podemos-frente-amplio-psoe-diez-pildoras-dia-campana-electoral/20261115185225256429.html",
    "fuente": "Nueva Tribuna",
@@ -56,6 +49,13 @@
    "fuente": "El Confidencial",
    "fecha": "2026-11-15T18:04:00+01:00",
    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/2cb/24e/2cb24e9a0550924c7ba70247a7d85498/500-medidas-para-remontar-las-encuestas-que-propone-sanchez-en-vivienda-impuestos-pensiones-y-union-de-amistad.jpg?mtime=1794754689"
+  },
+  {
+   "titulo": "El PSOE incluye en el programa electoral la semana laboral de 37 horas y media y empezar a negociar bajarla a 35",
+   "enlace": "https://www.europapress.es/nacional/noticia-psoe-incluye-programa-electoral-semana-laboral-37-horas-media-empezar-negociar-bajarla-35-20261115180445.html",
+   "fuente": "Europa Press",
+   "fecha": "2026-11-15T17:04:45+00:00",
+   "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261115180445_120.jpg"
   },
   {
    "titulo": "Horario y dónde ver el debate electoral entre Pedro Sánchez y Alberto Núñez Feijóo del 19 de noviembre",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "29: Mañueco pide al PP una marcha más para convencer a los indecisos",
-    "enlace": "https://www.larazon.es/castilla-y-leon/29-manueco-pide-marcha-mas-convencer-indecisos_202611156afa0b24d3bddc0868b2bc3c.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-15T22:00:13+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/15/4A5072E8-40EE-4569-A740-6791D84E6837/manueco-saluda-asistentes-acto-salamanca-junto-garcia-carbayo-carmen-seguin-miguel-tellado_96.jpg?crop=5673,3191,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "María José Catalá: \"Feijóo está ante el reto de su vida y le costará sangre, sudor y lágrimas\"",
+    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/16/6af9e07ee9cf4a2f498b457f.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-16T00:10:53+01:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947597552651.jpg"
    },
    {
     "titulo": "El PP agita el discurso de la inseguridad pese a los bajos niveles de criminalidad y azuza el miedo a la inmigración",
@@ -108,13 +108,25 @@
    },
    {
     "titulo": "Sánchez reivindica a Carlos Cuerpo frente al \"equipo contrario\" de Feijóo y Abascal: \"Vamos a ganar las elecciones\"",
-    "enlace": "https://www.europapress.es/nacional/noticia-sanchez-reivindica-carlos-cuerpo-frente-equipo-contrario-feijoo-abascal-vamos-ganar-elecciones-20261115203237.html",
+    "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcmVNbTJtb3pYZXFpN0EzeGowTC12bzlaV2FNY2c1TTIxQUVScU81OE1ZeW5wcVN2ZVVMbk9jMlY5QWg1ZnFOaHZPVU9SRlRSRnpEZU9TbTAwZkxvN21kN3c1OG5KckhpcGVjY0YycjlsQkd6XzBONERfZWFsci1ZbDJzNkdJZ2NISWx1aWI3SUdUUmNzdmNkTE4xdTNQcjZKVHZFMTJZbXVEU2xqV1JiWlFvQ09LQ2V2alpHdEJPYkRrbkZHa3BSdWdiejhyRVBfSjZXMkdXS2phMUR3QVBHSmNZcHhLY2JyTWl0dGZvTQ?oc=5",
     "fuente": "Europa Press",
-    "fecha": "2026-11-15T19:32:37+00:00",
-    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261115203237_120.jpg"
+    "fecha": "2026-11-15T19:32:37+00:00"
    }
   ],
   "PSOE": [
+   {
+    "titulo": "Sánchez se vuelca con Madrid para dar munición al PSOE frente a Ayuso ante \"la increíble fuga\" de voto del PP a Vox",
+    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/16/6afa00f4e4d4d88a2b8b457e.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-16T00:10:52+01:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947693549718.jpg"
+   },
+   {
+    "titulo": "Más intervención a la vivienda, impuestos y gasto social: el programa económico del PSOE para seguir gobernando tras el 29-N",
+    "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVXJNNTJCaENDdzVaSF9ZUlFtSTZUMzdRZHgzSjZsWVl5T1FxN2Y0ODVDdzFCY2NEUDlJLWNuOGtISnVhV3IzUURkLU9VQmVHYktxNUJ0aGlaaDAzNjNZMXJPeVhSQ0RlcFJNbmNlc3F2TC1VLXpXLXFySU5vSlBlU05ITjhhbnRIOUMxVE9sdEJ2ZlVNYXpLZnhMMGpzYkV6ZVVUMVc3VnhyUllEUW94VjI1RjR0LTJUVjU1Ym5hLUozXzdPLThzTGxNcktKWGU2NFNXNjZnZUZ4M3N1bWNTbklwU0lKc2c3Mmdwekd0bk9keF9MWDVlNtIB-AFBVV95cUxOYndrZEd6dGw2bmtFMGVqTWVHUU5wYVN3UllQakk5dVh1dUNSWWgwVUJyNExZYTg4V1JKczlpR2lraHUtaGJGQkYwbTJrYXlTWk92cDVTd182c1lXa2xlOEY2czBXTWZSTHQzOUNyTWdkNW02YVdIMjNYY081UEJBWUNtampnekUzUk5XWUZ5MEdJZVRKWjN5ZHhrTXpZREdadUFmTjN3ZWtYakQzTnc3QkU0NmNMTWl2NUM0T1VHVkJaTzJ5ZXNuOVdoQVB6dlBMS0x3QlJTU2Q3ZVN6blRZSWc3WXY2LXFqMVZIU0RVTmlkdTVxRFdCUA?oc=5",
+    "fuente": "Expansión",
+    "fecha": "2026-11-15T23:02:00+00:00"
+   },
    {
     "titulo": "El PSOE despacha en su programa electoral la lucha contra la corrupción con tres medidas genéricas: \"Hemos conseguido una democracia más limpia\"",
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQVRvZFZBSDRwZFFiQ3F5eVBPMDhYWUcwaTRSdU9wZ19BclhUNk9NV0dhVHhDM203OXJsbnRoRjhrV0dLdEV6NjlzMTM1ZjRSaGRLOERIOXFrTGRKRW9NaTMzSEJBX2ljUzhYZmUtV2M3cklnNGR5bk0xYVpiWnFrUXBkSHZUTDBKLVZlOS1Dc21fR0lJNDdVLWhfRdIBmwFBVV95cUxOd0ltMkczV1ROaWQ0S0RwQUZaT29pSEVPRURCaDhVQW9SaVVqQU50eW1Gd21sVEVGa2JOQV9ENnotNXAxbzloUEVqeGhBQmR6Qi1oNHFtT0ZnUnprYzZfRWc1N0RmMmcwOUp3Z0tpdk1WSGUzNXJsTjM3RHgwOGJpa05FbXotRERIVXYzWExZNFZfbU15RHZ4NVk2bw?oc=5",
@@ -129,13 +141,6 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/13/6af772029926a5-49663525.jpeg"
    },
    {
-    "titulo": "Sánchez agitando la bandera",
-    "enlace": "https://www.abc.es/espana/juan-soto-ivars-sanchez-agitando-bandera-20261115210031-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-15T21:36:04+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/15/sanchez-bandera-k7zC-U403642595960jG-1200x840@diario_abc.jpg"
-   },
-   {
     "titulo": "Pedro Casares afirma que el PSOE aprobó 10.000 millones de euros en ayudas extraordinarias al sector primario",
     "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOY2x2Y1NPRXV2QmlKMlAwSGZrSXdST2RMUXVaaGMwNFRXODB5TEFYRTVOSnFpOFQtSmQ2SVJ0X1ZPbU9oM1VtU0dMaXV0OFQzeFo5QlA1WDBXOWdjTmgtcjV3SmpVUDdGanktcHhoR1hOdHVPS0hkMU5UTmRXWHpSbkp6WWFvRDNhZEpfbV8xTHRDQWxmRUVmTjhpbHZiNjZvb2NDZHJQWVRCZXZoQ2xjdTZkbnBTcXZoWUhRcWt6TnBMYjNfWTlGeFREQUVkQXNkOW1ILWdwRXJhbGFiQTRKVTdnd3JPQnBnNG5uWWxB?oc=5",
     "fuente": "PressDigital",
@@ -146,15 +151,22 @@
     "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxObWs4Z0F4NEh4eXBRN3FQb01xaFNSeTVoSFMwYUJpMFBnYklEU1RJeC1zLXpyZThmendYTExIelYweWNHUk5UcDRPaXZVOFVEVWFGU3lxMGU1MGRGN3VONkE4NnFtMEpnZGdPcmJPa3o3VWpEcEIwaS1BQjBsbzZhZC0xNnBSdXpDYjh3Vi1ESHVNTWFPcFItdmdkZzVKcUhsRnRMRWtWN011X0U0VmpSTWxiMlk3NDFhZk02QnVlLTdjWTlyNmVXTnEta3d4SHFwd0tObG1rOTh3SG5GOEpvNFFVdnREbUs2TGlBeV92MEtfREplTnfSAfYBQVVfeXFMTjYwNHUyaG9CUHEydlh5c0Nzdjk2cnBuWTFGbjlWUUJEWFNKS2F4NHhJUDNNYWsyRXk4ZnZUUlhEV1BrR3A3bGVaSEhPUy1YbXlGcGtwM2J4Z2EyR2h1ajd5dzJzNW9iTXljRWhkSGNlUzhkemVCbGh4RGJVMVJLclNOUTBVb1g4bUJ4Rk1lZnRZeUh0UXNUOW9rREJ2cVdxY3p2dnFhZEN5MUw5TEVwejhBeGZsS1hkbXA0UHNaUm0wTV9EMGVOQkpMRjVhRlBKb1R3N25Td0loUjV2cGxNNFJZZ3N4QnBBT0prZkJfMnZZRjZ1VjhR?oc=5",
     "fuente": "LaSexta",
     "fecha": "2026-11-15T21:03:32+00:00"
-   },
-   {
-    "titulo": "Con la voz al límite y su asesor fetiche, Lula compartirá con Sánchez la fórmula para revertir una elección perdida",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbUpVX1AxcjA1MzMtclc4dE5EeGlJSzBIZVVRV28wYzFsSDV2RGEzSTFPQjVGM0RXMXJhbnItNG96alhnLVVoNE5XMHFESXZOU1BCRWIzODA1VWF2LWk0OVhvTU9EV1EwWHFRbjJtd2lrOENOZUpxeHhKVmNud1NWSU5RQTNIc05tbDh6NDNXOEdVOVlQLUdLVUlBb9IBmwFBVV95cUxOZjNFWEota0xpWGttZGpzZmZMMjI3SE9jcVN6QWcwdDBtUUxrTE9OT3UxMFk0azBKOHVhVXFQMlNPNGNhX2NZQmoySUFDNmo2c0MtMnphTXdEalZzbm5lNXJpN21KNXFBSWFrVGZCQURsNy1MekpjZHlybU1kM1llLVFlOEo0MGFpaWRPR051V2I3QW9SWm5mNDE0UQ?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-15T20:50:47+00:00"
    }
   ],
   "Vox": [
+   {
+    "titulo": "Sánchez se vuelca con Madrid para dar munición al PSOE frente a Ayuso ante \"la increíble fuga\" de voto del PP a Vox",
+    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/16/6afa00f4e4d4d88a2b8b457e.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-16T00:10:52+01:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947693549718.jpg"
+   },
+   {
+    "titulo": "Sánchez, sobre Abascal: «Es racista pero tiene genes árabes, se le ve en la cara»",
+    "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbzZpamZPX3RROEpXRnVXbDdIam1RNTlVYnpQOW9mSTZLeE5LV1N6NTFOaktyOXhZVjNuMFdXWFIybnR2YmpZUUc1cHUzZGJoQ25uY0ZlOFc4RkFoTmlCUzRONVZMVWE3aGJxZ1VYekk4aGZZdXp1cjZQcHNIaXM1ZE9BMVJKWWhWMmdyZENXYy1CcFJMTGdvYXdYT2xPc051MEQyb0lma2s?oc=5",
+    "fuente": "101TV",
+    "fecha": "2026-11-15T23:31:00+00:00"
+   },
    {
     "titulo": "Abascal apela a la “reconquista de la identidad” en Cornellà",
     "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbHdrYXhmMkFfY2RyaGgxSVVJWk9jWWsyX3ZIejM2VzJscWxBX2dhZlV1U0pMVUhERGZKaXF5cXJ3M01xZVhOT3RDT0Y2ZllNS1hwVERRSlZSeWhKWmxIellOR1F3cVlMNG9CS3dXQ3FDbGFsLWE5Y2JKd2wwbkN2ZVl5RnNSLTlWS2oyWTdjc00wc2lJRWhDSi15ZWpmODhNdkN5WVpacElCZV93TlhMQnBjNVFQUVBBLTg2cmpyQUJQemh3ek5pc0JpN201S1Nl0gHWAUFVX3lxTE9YaGhLY0Rmd2lHVmRVTG9iNUhWX2tEOHhRbnhxZ0dMR0JxcU93VWd4LTVrTDF1NkU4Ykd2NUgtdVB1eUNiRUM0XzhUVEFVVlU0cEZtdVpZc05uU0M5Y2k0SlktNmtoMjFqMzV3NzlBWHQxcnpKRGJVMjMtZndSMmw0QXhwX19EcFFqYmhfLTRLZkc2OFRvWVR3bGxoNDRrVXhCaWFQQll4eHEtTGdkYzgwck03ZHNub3NaN1RXcUpXb0dkeTdOdmdoODFiRWZCWFA0Q1ZJMXc?oc=5",
@@ -169,29 +181,17 @@
     "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/15/6afa1ba18ab188-39827305.jpeg"
    },
    {
-    "titulo": "Los conservadores europeos se vuelcan con Abascal: Meloni, Le Pen, Weidel y Salvini, entre otros le dan su apoyo",
-    "enlace": "https://okdiario.com/espana/conservadores-europeos-vuelcan-abascal-meloni-pen-weidel-salvini-otros-dan-apoyo-20903949",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-15T21:52:56+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/15/frame-apoyos-vox.jpg"
-   },
-   {
     "titulo": "Vox roza un hito con dos escaños en Galicia y dispara a la derecha en Cataluña",
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQkl6dVRnN1N4UlBmSVFmNVd4ZEgxMWlPTUVFQlpJQzI2UXBheHZqeWVSa194Tk5iVnFfeDFFcUpxXzJNTVYwNDNtc1Y0NUVfcnR6S1NNYmdNc2k0MUdCWFdGNGxmc2FDN2otMEdoYVJNVW1LMjBoU1BYNXVQWUpXc0h6VnlRY3VlSGRpeXltODlNS3pJOGFEWER3a9IBmwFBVV95cUxQaGVBcDJYM3FNdUcyNzA2SWtTbTFhR0t0R3NWMlFpdlUyRVctdUpORmZiX2hDTjcwdFZuTjU2NVFkNFZfVVJuMGwyWTFSWG1ub0M3UUNsbkd3YzdHTWpRQTdoMmluRjJmSWJjdmxla0N3RU1MMWw4cTVIbkc3Q0NGUDB4RmJPSW9TZ1BWQ3c0bW5UOHRyYzk4eWxsZw?oc=5",
     "fuente": "El Mundo",
     "fecha": "2026-11-15T21:42:42+00:00"
    },
    {
-    "titulo": "El ala izquierda de Vox",
-    "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU2NMeEpHZUNkZUlLZHdoVWlTUmZVanluZFVWOWR0eFpNcmk1eXBVVklpbVRkZW5CQ1FjRlR2WTJUc3RLem1CZDYyd2FfSnNiRzVjOW5KaG9wQnF5aF9rRlFTM3pZZWJvR2I3UEpOOF9HcW8tOUxfS0ZldnZOOFdfSXZjcndmZmY3d2E0ZE9yYXJWZHJxS1dzWURRNmt4NlN6OGtwZmduWEhIbHJDczZTMzZzb9IBvgFBVV95cUxQV3pESG13T1gwNHBIV05ib3BTalFkeVBzX3F0NHNMN2hZX19zeGpraWE5REVWSERYRHFvbGxlNU5GMHd6VlNSTlgtU2tOOHpQMXpuQWdVZ2M3c0FSOXNNRkJadDdQM2kwbUpDZVFIYU9LYjYxUVczYnRpanU4R3VQRldJTXBNdmc5cjZpTVdNcmpFVXBtNzJMSTE5UTRZc1dibVI3cE9UWFlKR0gwbFNfU0kzLTU0MGNRcUFhVTR3?oc=5",
-    "fuente": "Libertad Digital",
-    "fecha": "2026-11-15T20:51:44+00:00"
-   },
-   {
-    "titulo": "Encuesta elecciones generales: Sánchez mantiene 133 escaños y Feijóo no alcanza la mayoría con Vox, según SW Demoscopia",
-    "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQNE5EbzhxNkxiQUVGT01aRE51ejJzWnBZWG9FclVucEFpMmoxR0xLeEJPNGgwSzNFdEppYi1oak1tbjZHVXRXcUdrMjU2UkF1dXIyRFltNlBqLWstcHdGZGItNkkyY1BWaHhFX2puUzg0aEpfd05hQkFpTzR1Zkx6MF96V20xOFNOMWtaTUFNMnU3NDFoTmlNS0NYV2xNOGV2UFU2dllmdE9mT0czNGduQXNQUmpTaWxYWEI1anVLSHpEaE5ZdndScjlzdExKRlE0TzZET0lRTHRvQUhDOHpoNWdBSWZmTklHVENtLU4wODNWXzZacEFIX283WWFmUdIBgwJBVV95cUxPc1BZZDVBQ3lIVFlyLV94ZVJpOXlSQVI2emIwOENXOEN3X2tsNkF3Vk5vWXNIRTFGZG9VTUl3eVF4VjBVVks5ajRCaHJVWEVsOERwTWJ2N21CTEdkdG5wSWhVeGU0SkJRZFpTSnRlNllqTFRfb3IxVFFzSVlOSlRhUTF5M3R3dkFOYUhzUXBrWWpXVGthRE12MlhhdHpELTVRVFBDVlI4U19kOUVjejlvOS1XNlBIR2NFVmhzWFlmUVlCVFRLY2VhTUtrWnh5TVkxUlNvUldnVndpaGRDdFIxRGxpVS15WEh1bFc0c09iM3kwMnVUdWE4ZXFhM2RMN1hYQnZz?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-15T20:37:27+00:00"
+    "titulo": "Los conservadores europeos se vuelcan con Abascal: Meloni, Le Pen, Weidel y Salvini, entre otros le dan su ...",
+    "enlace": "https://okdiario.com/espana/conservadores-europeos-vuelcan-abascal-meloni-pen-weidel-salvini-otros-dan-apoyo-20903949",
+    "fuente": "OkDiario",
+    "fecha": "2026-11-15T20:52:56+00:00",
+    "imagen": "https://okdiario.com/img/2026/11/15/frame-apoyos-vox.jpg"
    }
   ],
   "Sumar": [
@@ -475,6 +475,12 @@
   ],
   "BNG": [
    {
+    "titulo": "Acto público del BNG sobre las elecciones generales en A Guarda",
+    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGpiY2pnTS00OEVrZWx5Y0hkVEw0bU5fM0NkczYxYWVqejNCWXJ4eU16dU5SeDlmQmtxZmU4OVFmTW9aXy1Da3paVXExT1N0ckRKenZVZHRTam1vaFJoVHp0RmxkQU42aG5fdVZDQWNYNEVPd2M0S3k2SmVPMndsNDB5WUxMeGp6NHcyN1hoLXlLTE5wVTVMekFBdmNVOEE?oc=5",
+    "fuente": "ValmiñorTV",
+    "fecha": "2026-11-15T23:06:16+00:00"
+   },
+   {
     "titulo": "El BNG celebra un acto electoral en A Guarda el miércoles 18 de noviembre con Carme da Silva",
     "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObXNGb25VdDVDTW01QnpvcktLMGxyWW1oRC1kdTNZRVA2YVZQZHJDVHFXY0xxM1o3UUQxaEFfSDlHS3hFU3VaRDhHcXNNcVB2dlc0V1dud1lJMTJpSDluTkNzTVBYVnl2bVM2M3JMRHhPMDRxWGhFOFZ1OWlSYkZEVW0zSWR4NHRoVEduNFJnZkxHMklqYmFoQ1JYVGhBcS15U0RrdG5ZbVdJRFBYLWxXOXl0VEtqcDZpWG45aVp1dWhLUm54cl94VQ?oc=5",
     "fuente": "Infomiño",
@@ -505,12 +511,6 @@
     "fuente": "ABC",
     "fecha": "2026-11-15T21:03:29+01:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/15/Foto%20mitin%20Naron%206-RfVQv2XiimrIkGdQIdHXi8K-1200x840@diario_abc.jpg"
-   },
-   {
-    "titulo": "Pontón pide concentrar el voto en el BNG para frenar a Feijóo",
-    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU1h0ZVBIaUpoNE9MbVktQkllYzl1ZTZfNFpZVE1ZMmsxRmo0UWRfcDByaHU2eDNxeFlFUFVrRFcyRmpCdEcyTXozNC1vbnBKTTFsTXR4Q092dHh6a1JKcDhaZFpnRE56ckdoSFZ0Q09ZSS1xZFpaM2M1SlVWVlh4NzczVElUTllQbjJORjRuYlZXbVpWZUxLZ1VEQkxhSnlPYWZQcVRXLUxrNVpMcnRaTG52N3NDMG5PV2c?oc=5",
-    "fuente": "GaliciaPress",
-    "fecha": "2026-11-15T14:26:00+00:00"
    }
   ],
   "CCa": [
@@ -519,7 +519,7 @@
     "enlace": "https://www.elconfidencial.com/espana/2026-11-15/salvamento-maritimo-migrantes-tenerife-embarcaciones-irregulares-1tna-1tps_4465328/",
     "fuente": "El Confidencial",
     "fecha": "2026-11-15T22:01:00+01:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794783615&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794787045&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
    },
    {
     "titulo": "Clavijo exige \"acelerar\" la ayuda a El Hierro y una \"respuesta inmediata\" del Estado ante el repunte histórico en la llegada de migrantes",
