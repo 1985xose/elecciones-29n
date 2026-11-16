@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-11-16T00:01:53+00:00",
+ "actualizado": "2026-11-16T01:02:00+00:00",
  "generales": [
+  {
+   "titulo": "El PP mantiene su mayoría absoluta en el Senado, pero no llega a los tres quintos con Vox",
+   "enlace": "https://www.abc.es/espana/pp-mantiene-mayoria-absoluta-senado-llega-tres-20261116010020-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-11-16T01:36:58+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/senado-kykF-U40358169693FuG-1200x840@diario_abc.jpg"
+  },
   {
    "titulo": "29: Mañueco pide al PP una marcha más para convencer a los indecisos",
    "enlace": "https://www.larazon.es/castilla-y-leon/29-manueco-pide-marcha-mas-convencer-indecisos_202611156afa0b24d3bddc0868b2bc3c.html",
@@ -14,13 +21,6 @@
    "fuente": "OKdiario",
    "fecha": "2026-11-15T21:52:56+01:00",
    "imagen": "https://okdiario.com/img/2026/11/15/frame-apoyos-vox.jpg"
-  },
-  {
-   "titulo": "Sánchez agitando la bandera",
-   "enlace": "https://www.abc.es/espana/juan-soto-ivars-sanchez-agitando-bandera-20261115210031-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-15T21:36:04+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/15/sanchez-bandera-k7zC-U403642595960jG-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Las claves del voto exterior del 29N: cómo se apartarán las papeletas de los 'nietos' en los consulados y en el escrutinio",
@@ -75,10 +75,17 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "El PP mantiene su mayoría absoluta en el Senado, pero no llega a los tres quintos con Vox",
+    "enlace": "https://www.abc.es/espana/pp-mantiene-mayoria-absoluta-senado-llega-tres-20261116010020-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-16T01:36:58+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/senado-kykF-U40358169693FuG-1200x840@diario_abc.jpg"
+   },
+   {
     "titulo": "María José Catalá: \"Feijóo está ante el reto de su vida y le costará sangre, sudor y lágrimas\"",
     "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/16/6af9e07ee9cf4a2f498b457f.html",
     "fuente": "El Mundo",
-    "fecha": "2026-11-16T00:10:53+01:00",
+    "fecha": "2026-11-15T23:10:00+00:00",
     "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947597552651.jpg"
    },
    {
@@ -105,20 +112,21 @@
     "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlItLXNKTW02UVFIbmhPZ0pJd2FvYllvWFdkYTBCWF9uVWY0Z3dHSXVHclVfQTdlM2kwMmF4ZXhkSV84VDU2aW9xLU5TdUpIWlp4dW05cE1oNmNmSTFpLTZVUjBHeWpWVmJvbTJybXE5X0F0aXBTQV9aZGl5YmQzNVJYOEN2ejhLX3dBQmE0T0E2emo4anVaU25jTk5PdXhBUXZpNjdXUmxvX3JzZU9Zc2FB?oc=5",
     "fuente": "PressDigital",
     "fecha": "2026-11-15T19:41:00+00:00"
-   },
-   {
-    "titulo": "Sánchez reivindica a Carlos Cuerpo frente al \"equipo contrario\" de Feijóo y Abascal: \"Vamos a ganar las elecciones\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcmVNbTJtb3pYZXFpN0EzeGowTC12bzlaV2FNY2c1TTIxQUVScU81OE1ZeW5wcVN2ZVVMbk9jMlY5QWg1ZnFOaHZPVU9SRlRSRnpEZU9TbTAwZkxvN21kN3c1OG5KckhpcGVjY0YycjlsQkd6XzBONERfZWFsci1ZbDJzNkdJZ2NISWx1aWI3SUdUUmNzdmNkTE4xdTNQcjZKVHZFMTJZbXVEU2xqV1JiWlFvQ09LQ2V2alpHdEJPYkRrbkZHa3BSdWdiejhyRVBfSjZXMkdXS2phMUR3QVBHSmNZcHhLY2JyTWl0dGZvTQ?oc=5",
-    "fuente": "Europa Press",
-    "fecha": "2026-11-15T19:32:37+00:00"
    }
   ],
   "PSOE": [
    {
+    "titulo": "Causa de la financiación irregular del PSOE: las explicaciones de los técnicos del Tribunal de Cuentas no convencen a la UCO",
+    "enlace": "https://www.elmundo.es/espana/2026/11/16/6afa0cf3fc6c83a70f8b456e.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-16T01:01:29+01:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947723473144.jpg"
+   },
+   {
     "titulo": "Sánchez se vuelca con Madrid para dar munición al PSOE frente a Ayuso ante \"la increíble fuga\" de voto del PP a Vox",
     "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/16/6afa00f4e4d4d88a2b8b457e.html",
     "fuente": "El Mundo",
-    "fecha": "2026-11-16T00:10:52+01:00",
+    "fecha": "2026-11-15T23:10:00+00:00",
     "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947693549718.jpg"
    },
    {
@@ -145,27 +153,28 @@
     "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOY2x2Y1NPRXV2QmlKMlAwSGZrSXdST2RMUXVaaGMwNFRXODB5TEFYRTVOSnFpOFQtSmQ2SVJ0X1ZPbU9oM1VtU0dMaXV0OFQzeFo5QlA1WDBXOWdjTmgtcjV3SmpVUDdGanktcHhoR1hOdHVPS0hkMU5UTmRXWHpSbkp6WWFvRDNhZEpfbV8xTHRDQWxmRUVmTjhpbHZiNjZvb2NDZHJQWVRCZXZoQ2xjdTZkbnBTcXZoWUhRcWt6TnBMYjNfWTlGeFREQUVkQXNkOW1ILWdwRXJhbGFiQTRKVTdnd3JPQnBnNG5uWWxB?oc=5",
     "fuente": "PressDigital",
     "fecha": "2026-11-15T21:23:00+00:00"
-   },
-   {
-    "titulo": "De más impuestos \"a los de arriba\" a \"la unión de amistad\": las promesas de Pedro Sánchez en su programa electoral para el 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxObWs4Z0F4NEh4eXBRN3FQb01xaFNSeTVoSFMwYUJpMFBnYklEU1RJeC1zLXpyZThmendYTExIelYweWNHUk5UcDRPaXZVOFVEVWFGU3lxMGU1MGRGN3VONkE4NnFtMEpnZGdPcmJPa3o3VWpEcEIwaS1BQjBsbzZhZC0xNnBSdXpDYjh3Vi1ESHVNTWFPcFItdmdkZzVKcUhsRnRMRWtWN011X0U0VmpSTWxiMlk3NDFhZk02QnVlLTdjWTlyNmVXTnEta3d4SHFwd0tObG1rOTh3SG5GOEpvNFFVdnREbUs2TGlBeV92MEtfREplTnfSAfYBQVVfeXFMTjYwNHUyaG9CUHEydlh5c0Nzdjk2cnBuWTFGbjlWUUJEWFNKS2F4NHhJUDNNYWsyRXk4ZnZUUlhEV1BrR3A3bGVaSEhPUy1YbXlGcGtwM2J4Z2EyR2h1ajd5dzJzNW9iTXljRWhkSGNlUzhkemVCbGh4RGJVMVJLclNOUTBVb1g4bUJ4Rk1lZnRZeUh0UXNUOW9rREJ2cVdxY3p2dnFhZEN5MUw5TEVwejhBeGZsS1hkbXA0UHNaUm0wTV9EMGVOQkpMRjVhRlBKb1R3N25Td0loUjV2cGxNNFJZZ3N4QnBBT0prZkJfMnZZRjZ1VjhR?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-11-15T21:03:32+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "Sánchez se vuelca con Madrid para dar munición al PSOE frente a Ayuso ante \"la increíble fuga\" de voto del PP a Vox",
-    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/16/6afa00f4e4d4d88a2b8b457e.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-16T00:10:52+01:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947693549718.jpg"
+    "titulo": "El PP mantiene su mayoría absoluta en el Senado, pero no llega a los tres quintos con Vox",
+    "enlace": "https://www.abc.es/espana/pp-mantiene-mayoria-absoluta-senado-llega-tres-20261116010020-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-16T01:36:58+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/senado-kykF-U40358169693FuG-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Sánchez, sobre Abascal: «Es racista pero tiene genes árabes, se le ve en la cara»",
     "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbzZpamZPX3RROEpXRnVXbDdIam1RNTlVYnpQOW9mSTZLeE5LV1N6NTFOaktyOXhZVjNuMFdXWFIybnR2YmpZUUc1cHUzZGJoQ25uY0ZlOFc4RkFoTmlCUzRONVZMVWE3aGJxZ1VYekk4aGZZdXp1cjZQcHNIaXM1ZE9BMVJKWWhWMmdyZENXYy1CcFJMTGdvYXdYT2xPc051MEQyb0lma2s?oc=5",
     "fuente": "101TV",
     "fecha": "2026-11-15T23:31:00+00:00"
+   },
+   {
+    "titulo": "Sánchez se vuelca con Madrid para dar munición al PSOE frente a Ayuso ante \"la increíble fuga\" de voto del PP a Vox",
+    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/16/6afa00f4e4d4d88a2b8b457e.html",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-15T23:10:00+00:00",
+    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947693549718.jpg"
    },
    {
     "titulo": "Abascal apela a la “reconquista de la identidad” en Cornellà",
@@ -185,23 +194,9 @@
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQkl6dVRnN1N4UlBmSVFmNVd4ZEgxMWlPTUVFQlpJQzI2UXBheHZqeWVSa194Tk5iVnFfeDFFcUpxXzJNTVYwNDNtc1Y0NUVfcnR6S1NNYmdNc2k0MUdCWFdGNGxmc2FDN2otMEdoYVJNVW1LMjBoU1BYNXVQWUpXc0h6VnlRY3VlSGRpeXltODlNS3pJOGFEWER3a9IBmwFBVV95cUxQaGVBcDJYM3FNdUcyNzA2SWtTbTFhR0t0R3NWMlFpdlUyRVctdUpORmZiX2hDTjcwdFZuTjU2NVFkNFZfVVJuMGwyWTFSWG1ub0M3UUNsbkd3YzdHTWpRQTdoMmluRjJmSWJjdmxla0N3RU1MMWw4cTVIbkc3Q0NGUDB4RmJPSW9TZ1BWQ3c0bW5UOHRyYzk4eWxsZw?oc=5",
     "fuente": "El Mundo",
     "fecha": "2026-11-15T21:42:42+00:00"
-   },
-   {
-    "titulo": "Los conservadores europeos se vuelcan con Abascal: Meloni, Le Pen, Weidel y Salvini, entre otros le dan su ...",
-    "enlace": "https://okdiario.com/espana/conservadores-europeos-vuelcan-abascal-meloni-pen-weidel-salvini-otros-dan-apoyo-20903949",
-    "fuente": "OkDiario",
-    "fecha": "2026-11-15T20:52:56+00:00",
-    "imagen": "https://okdiario.com/img/2026/11/15/frame-apoyos-vox.jpg"
    }
   ],
   "Sumar": [
-   {
-    "titulo": "Besteiro pide a los votantes del BNG y Sumar que no «tiren su voto a la basura»",
-    "enlace": "https://www.abc.es/espana/galicia/besteiro-pide-votantes-bng-sumar-tiren-voto-20261115194609-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-15T19:46:09+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/15/Foto_Besteiro_OBaerco-RBkhIKJVlLTPDdKlHpoDojN-1200x840@diario_abc.jpg"
-   },
    {
     "titulo": "La aspiración política de Yolanda Díaz : sería la primera mujer y española",
     "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPblFXUllsY3MybnlNaUVjWTl2eEhvR01PRTlCY2lpOTBsVUJ4MDRFV1ZwT0R1TXVWa0N2VWRJVjB0dEVaM2xKN2ZFYmpGMkFFd0M4UTI1d1laVHV1RTZRS00tSkhlaGRKcHg1M0lydTl4cGV2QmR4RFU4ZjJUTjlscEtBdktFUGFtcFQ3cHFONzdqVEVka2I2bGFhNWVEWEZ5d1JjaEsxZ1JVUkpIdXfSAcIBQVVfeXFMUHM5OVdwajk5NVZNNUhSQUVTUzU1QVZlTWFpY3VNcHNUMVFYSWtqc000U1NoOVhlN3lXSklLeFVHWjd2cG53aDF0aEd0NTFoWVYxM0ZrQkZOS1E1eXVEbzZ6VTlKeDY0bDZISlZ2d3JMcHdHZmUzLWw1TENYNVZHU0RWdDNiZFFpdVhJdkVwNjlqQ2doNEZMLWZLZjlWLTBsOEtwakdhZ1ctWGtpa3RqOXdtcWkyQjdkMkl2R1RwdnlNeVE?oc=5",
@@ -231,6 +226,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQV9TamdMZFA1SDhzTGU2bDlFemtiREpKSXJmUFRYWmVqTV9hYmhaQ2dRNGNwa3hRd05GY1hVaHFway1HazVwT3pKb0p6bFd6NUlNOUJuWVBpNjlaek5JRHBHZ2Z0d3RxRUdZZTBJb1h2VGM2WEhfMlQ5TDdKVzhGdHBxdHZkejhfRmkyVUF1UnpkekU5cjZqWVdVQl9LMkttT0FCWDVSNE82MGNRbWwyMS1EZnZ3Yzc1QW1F0gHAAUFVX3lxTE1EMGVaQXlOYVVzZTdHWVpiSjdJbHBGRTBxVGhoVEhtWmRGY0RrQ242aXVpWUNGTkpBSmswMkJweHhDdlJOVVFUQ01DdHRTajVHd1QwQk1pR2VYQk84d0h0U3licW5lYlhlUUN0WXBXWDBPWFNRU3BEWnZ2dmtKMHE5ZVNlb05MRG1BQXAwWWF4ZlNjWnpYZ1ZuWERUTWtyQlRDc0FrTGVwSWE4Ym1hbDltdF9OXzRNOTFnM1lMTXp2RA?oc=5",
     "fuente": "El Correo",
     "fecha": "2026-11-15T16:26:32+00:00"
+   },
+   {
+    "titulo": "Yolanda Díaz se juega la dirección de la OIT: quién vota, cuándo se decide y qué poder tiene el cargo",
+    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPS0lBd2dpckFraWtPN0NyWkU2OHpVbFJJbzlYbmdiOXY2Q0wtOGJFNWxVMndDSjIwd1VVajM5eGpiTGtLajYxbHEtNEl0Wlh5ZGgxV01kdVh4UDNsQVBkd2NSWmtiZDhrcjZ1NFBSNlhxcUs5b24teTUxWkJ1dlZyM3RodENkbl91T2E5MlU2ZjN3bXBqb3FUYjN5NHFnYjNMRFlDT1A1VjJ6U1hpOXFjTDJoZHJQdUXSAbwBQVVfeXFMUFhseGxhY2FhN0ZrcTY3d0dZY2NXM0N2MjR6YVYwMTBwTlRnWEx6VTNSQWxOTUNXckVHZVVKRF9uUlhiRjNhdHlKOW8zX2NWVzVfUU5mbFc1UWNoQkNBUURIYUpzNXNhQVhjQ1RUTDhtTE5pSkc1TVZBYk1JdkdHZFlKQ2IySG9qcTdpVmJ4cHlkS1hVYlJzcHc5M3I5M1JoTDVsQTNab0dyVkowS0JYNS02UUxuendJU2VYU3E?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-15T10:27:35+00:00"
    }
   ],
   "Podemos": [
@@ -519,7 +520,7 @@
     "enlace": "https://www.elconfidencial.com/espana/2026-11-15/salvamento-maritimo-migrantes-tenerife-embarcaciones-irregulares-1tna-1tps_4465328/",
     "fuente": "El Confidencial",
     "fecha": "2026-11-15T22:01:00+01:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794787045&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794790542&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
    },
    {
     "titulo": "Clavijo exige \"acelerar\" la ayuda a El Hierro y una \"respuesta inmediata\" del Estado ante el repunte histórico en la llegada de migrantes",
@@ -616,12 +617,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbVp3aXVDUWZHUUNoSHdydXRnb2ZkUm9rc3pxNVhEaDctTEtoZlE1Z1ltMFlZRkc5YjRnRWE3TkZWN1Y1TUswTkJtUHlDZGl3VlJ4SXFpeEVjWGtjYjhmTGZrUWk2bkZMUm8xSkFMdUxwRXNJWFh4RHNZanVRc2duaW1TcGN3cVVlXzhqM0NnYU83aGg4TFFneHNzMUQtVlJRSGRQeTNSSU1WdUVadVg3QWx5OGFGX0lmMEFFYW51eGpURWJUeW1vVE1BTGs0M0J4Yms2Z2dwNFItUV9yZ0hLVVUyMHBieDdZVGNqRmluUHPSAfABQVVfeXFMT21ad2l1Q1FmR1FDaEh3cnV0Z29mZFJva3N6cTVYRGg3LUxLaGZRNWdZbTBZWUZHOWI0Z0VhN05GVjdWNU1LME5CbVB5Q2Rpd1ZSeElxaXhFY1hrY2I4Zkxma1FpNm5GTFJvMUpBTHVMcEVzSVhYeERzWWp1UXNnbmltU3Bjd3FVZV84ajNDZ2FPN2hoOExRZ3hzczFELVZSUUhkUHkzUklNVnVFWnVYN0FseThhRl9JZjBBRWFudXhqVEViVHltb1RNQUxrNDNCeGJrNmdncDRSLVFfcmdIS1VVMjBwYng3WVRjakZpblBz?oc=5",
     "fuente": "Elplural.com",
     "fecha": "2026-11-13T12:04:00+00:00"
-   },
-   {
-    "titulo": "Orriols, solo para los abonados del Elche",
-    "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOHNZVFpWcDdVbzhraWdDY0Q5ejN4VmYtREdXX2hGTmZIU0lQam1KRTI4TF91Z0Y3OVh2ZlZDekhjSkhMbU15NENPQUtDZG9hcXE0dlQ0SEYwUzZxam5kTlV0c0RocHpUUWV5azNGRklDRVd1NlQteHR6Z0llYmFjV2dYbm93WEdf0gGcAUFVX3lxTE52ZHhIYkppR1V5dTgyMU9UMVJuek9adlB4Y0ZaYU14endfVTVMcUtXSjBnNk1xTlVzUlNHQmJIR1VLc0s0SkgzYlhIQlJLdUpHSkVTeGtlOTJYWEVYY0FDRS11ZFk4X2lmQWNjZ3NLbmNxdWhUWFlnaHgtQUJrc2tORVpYVHVPcUN1REJRVmZrXzZncTdZTHpmdnNpaw?oc=5",
-    "fuente": "Diario AS",
-    "fecha": "2026-11-13T11:30:53+00:00"
    }
   ],
   "AA": [
@@ -838,11 +833,10 @@
  "polemicas": [
   {
    "titulo": "Nueva protesta contra Vox en Galicia: la Guardia Civil separa a los manifestantes de José María Figaredo en Cee",
-   "enlace": "https://www.abc.es/espana/galicia/nueva-protesta-vox-galicia-guardia-civil-separa-20261115193451-nt.html",
+   "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYlA3bXRMbDBRTlo1bm8xS05CeTBlV0lEVW9xTzZrSGdlTXBaZ284MldXdjlROE1MalRSNXRlS3FyZVloM2EtTHJYd1dGOFNzUWdfa0pkVjdPOE9tTmZ4emRMdGF0WWgwNk4wampPMnRzR0ZjbGZva3VtYjNKM28ydzFCTEtsQl9SOU5Za1o3Z0ZJYkZiT25GNmZtYnRMUEJ4V3Fud2g3SdIBrAFBVV95cUxQUnF4endHOHFUMXJsMkRQYU4tT1o5VEdSazZNaHVTOEY2NWp2NEVtMHdNc3lHTlgyVG44Y2JjX3VibUFGd1NucE5iSW9mbkhXRnVraFpQYWx6dERSOXg1ZmRyNjJnTXRMOWQyUmxxcHBXbXhucHZERWZIQ0dxSVdQS05VR1hnZjZBQnd0VWVsbm1zQndQemplT0tSRl92MWJ6SlJCZkFMMU4wQ1hG?oc=5",
    "fuente": "ABC",
    "fecha": "2026-11-15T18:34:52+00:00",
-   "partido": "Vox",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/15/1520168647-RsfRLgdwSbWIJPZotWogYvJ-1200x840@diario_abc.jpg"
+   "partido": "Vox"
   },
   {
    "titulo": "Claves en la investigación de la gestión de Irene Montero en Igualdad: Sospecha de presunto fraude con fondos europeos",
