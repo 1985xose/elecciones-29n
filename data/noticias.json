@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-11-16T20:01:58+00:00",
+ "actualizado": "2026-11-16T20:27:05+00:00",
  "generales": [
   {
-   "titulo": "El PPr de Segovia inicia en Sanchonuño una serie de encuentros electorales con alcaldes de la provincia",
-   "enlace": "https://www.larazon.es/castilla-y-leon/ppr-segovia-inicia-sanchonuno-serie-encuentros-electorales-alcaldes-provincia_202611166afb5d499a31a65adcde0b86.html",
-   "fuente": "La Razón",
-   "fecha": "2026-11-16T20:45:13+01:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/16/E6930858-7CA2-48D0-A942-D36B3C9D30B9/representantes-segovia-acto-celebrado-sanchonuno_96.jpg?crop=1600,900,x0,y36&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   "titulo": "Juanma Moreno alerta de que Almería puede decidir un diputado entre el PP y el PSOE: «Esta provincia es estratégica»",
+   "enlace": "https://www.abc.es/espana/andalucia/almeria/juanma-moreno-alerta-almeria-puede-decidir-diputado-20261116205250-nts.html",
+   "fuente": "ABC",
+   "fecha": "2026-11-16T21:08:21+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/moreno-mitin-roquetas-almeria-RCznb9eDvBmXJzaweGIhboM-1200x840@diario_abc.jpeg"
   },
   {
-   "titulo": "El mitin de Pedro Sánchez en el Centro de Ferias de Córdoba cambia de fecha y pasa al lunes, 23 de noviembre",
-   "enlace": "https://www.abc.es/espana/andalucia/cordoba/campana-electoral-toma-velocidad-cordoba-pedro-sanchez-20261115211302-nts.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-16T20:40:21+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/15/sanchez-mitin-cordoba-kJAF-U40365038979VgC-1200x840@diario_abc.jpg"
+   "titulo": "Lula a Sánchez: «Eres la persona indicada para defender la democracia en Europa»",
+   "enlace": "https://www.larazon.es/espana/lula-sanchez-eres-persona-indicada-defender-democracia-europa_202611166afb617e9a31a65adcde0e1d.html",
+   "fuente": "La Razón",
+   "fecha": "2026-11-16T21:03:10+01:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/16/A5CED6B3-990E-49EF-B412-EF2E9E5D9462/96.jpg?crop=4261,2397,x0,y222&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
    "titulo": "Los proetarras de Bildu en Éibar llaman a reventar el acto de Feijóo y Jon Echeverría con carteles amenazantes: «No sois bienvenidos»",
@@ -75,11 +75,18 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Feijóo promete saldar la deuda con los exiliados por ETA por «dignidad» y «memoria»",
-    "enlace": "https://www.eldebate.com/espana/20261116/feijoo-promete-saldar-deuda-exiliados-eta-dignidad-memoria_481715.html",
-    "fuente": "El Debate",
-    "fecha": "2026-11-16T20:47:47+01:00",
-    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/16/6afb5da7a3c1d.r_d.1784-529-0.jpeg"
+    "titulo": "Juanma Moreno alerta de que Almería puede decidir un diputado entre el PP y el PSOE: «Esta provincia es estratégica»",
+    "enlace": "https://www.abc.es/espana/andalucia/almeria/juanma-moreno-alerta-almeria-puede-decidir-diputado-20261116205250-nts.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-16T21:08:21+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/moreno-mitin-roquetas-almeria-RCznb9eDvBmXJzaweGIhboM-1200x840@diario_abc.jpeg"
+   },
+   {
+    "titulo": "Feijóo cambiará la ley para que los “expulsados” por ETA puedan votar en sus municipios: “Quiero saldar una deuda”",
+    "enlace": "https://www.lavanguardia.com/politica/20261116/11685898/feijoo-cambiara-ley-expulsados-eta-puedan-votar-municipios-quiero-saldar-deuda.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-11-16T20:53:06+01:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/16/6afb5d097cb2d.jpeg"
    },
    {
     "titulo": "Chema Crespo asegura que Ayuso \"lo va a pasar mal a corto o medio plazo\" tanto si Feijóo llega a la Moncloa, como si no",
@@ -105,21 +112,33 @@
     "enlace": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS3RybmFPb3BnR2ZCR3owZE9qamxKYkpnbkdlY3dQRTU3bzBRWkZLM0wtQ0dOOEJhUVJXbXEybEJhaWFRT2xIengwQmFvVHY1eGxHTWZVNjZ1Q0d0YmlyQWl4V3BTb3laMEJpOV9HbkVHMmtCV3kwU2hSczBWZUZBRDVqQnJkSmJhU1c00gGQAUFVX3lxTE5DVWkxTm1WTUI1UEVHVGdnaTRndmV5cVFsUm5yQjI0QzN5bEk5cnNQT2l4ejFtc3loN0xJbWIzSkVQY2tLMVNSeWJKbzNhTTF5VG5IQmRsSGtOMnctQUhiWS05NVpZdXpnaUdGV0ZMMnA4aElfd0J3SU85REsxczZVTmMwM3dvR3UxQ05wNFJ6cg?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-16T19:28:00+00:00"
-   },
-   {
-    "titulo": "Feijóo gana a Sánchez en el barómetro de laSexta: el 51,2% le elegiría como presidente del Gobierno",
-    "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOUTc4bWp6eW1Hc0pfcnpWZlRYbzQxTndMSGRtcUZRamdnclRyb0NFNG52Y2VqczNQWU11TmIxcmVpcUE3QkVsb29KbEZmc1VVZThHX2ZNNmlBLUlGdmJBZ0tZZUVTa2lfQTNOTUtXWHdPOUZROVpxQV9lOElxQjBjNkVqXzJldXJudTc3Y3h1N25QMXdqZVpfdmNIUzIzaE5ZaWpWVGlISk5wWGNTQVFDNGhYZVhDbDh0WjctMnJrYzRwdUt3SlcwR25LZ21oZURMeWFCLWVKV1NhaHhMU3F4dUdqV3ZUTExTV2V4amRDQdIB7wFBVV95cUxPQWVKcHUteXRQbUNwU3A3VTQ5Y1FVUmx3YUJZLTJZVGdycTdHaUs3UDVyODZqcUJ5cDBZQTlOWk41MFlvckFFeGtlcGl5Z2szZ0tKUmhYbmhJXzcyZXhRSjBzUm84NlctbnlBUVhrVWt5cWRqdmY4dnBMbTVmaTRIS1JBX1ltc0FDRndVSzFYSUIySElDbG1CSGpTN2thUndKVndIX09GYzQxaGtoT0dyOW5SaF9DNXhNbV9OdUZOS2VxVk9peGJ5ekJIY2puRzlaOVdkbThPV21mN2tkbzBtZVdZcmR0bHVraGFUa0kwRQ?oc=5",
-    "fuente": "LaSexta",
-    "fecha": "2026-11-16T19:20:36+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "El mitin de Pedro Sánchez en el Centro de Ferias de Córdoba cambia de fecha y pasa al lunes, 23 de noviembre",
-    "enlace": "https://www.abc.es/espana/andalucia/cordoba/campana-electoral-toma-velocidad-cordoba-pedro-sanchez-20261115211302-nts.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-16T20:40:21+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/15/sanchez-mitin-cordoba-kJAF-U40365038979VgC-1200x840@diario_abc.jpg"
+    "titulo": "Ester Muñoz: \"El PSOE está dispuesto a todo con tal de permanecer en el poder\"",
+    "enlace": "https://www.larazon.es/castilla-y-leon/ester-munoz-psoe-esta-dispuesto-todo-tal-permanecer-poder_202611166afb645103bbf30bb04e1cfa.html",
+    "fuente": "La Razón",
+    "fecha": "2026-11-16T21:15:13+01:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/16/1F8F679C-7699-4360-BD3F-4003EF9E7F14/acto-avila-presencia-ester-munoz-carlos-garcia-hector-palencia_96.jpg?crop=7990,4494,x0,y342&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Elecciones en España: Lula defiende que Sánchez \"es la persona indicada para defender la democracia en Europa\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPX3YwR296WTF5c0Q5WXNGZnZoY19fMUVMNjk3aTR6S3lDMlZhSnMyOWNYTUgwU2dVVFkyQlZjbU9CZlE3SDBxX2xfUzZydkZIYmFGa011YTlrV3dZRTdiRkVzQkttdTdiUDhrczUwZHdDRGpPSzZVRUY5RFp1QUtIYTU3dUpidk1MU1Raai1qbk1yeTNuM1hKaGR4WTc1NFlkeXpMWkJjUk1od1I2Mm9zZ0pjQWdKaTVTVFNGaUlHV1ZnSUQxRDhkd0xWLUhCVGh2aHpwUDNRRU9yYUxVZGJhTFRrNXlnMjZYS2h3dmFCSl9TaTA?oc=5",
+    "fuente": "France 24",
+    "fecha": "2026-11-16T20:10:48+00:00"
+   },
+   {
+    "titulo": "El PSOE lleva este martes a sus candidatos al corazón comercial de Telde",
+    "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQkZGUFNURW9PY2w0ZlVFUFRvUDZjYlUtdXJGR2hjWlMtNVY0WEJRVXhlSlRUX1daQnhUUURuV0VLSDlYb3JBYTVTM01BOFd6bDlfNm0zMlFlSG43S1ZKVi13R2hUYXFYUEg0bTZFbjZDYUhjSnp3Y0FYLW9oemNaQlk2N0FTQ205c08wTTdvNXFFMGRMSDFsWWpn?oc=5",
+    "fuente": "Telde Actualidad",
+    "fecha": "2026-11-16T20:02:17+00:00"
+   },
+   {
+    "titulo": "Ester Muñoz, en Ávila: «El PSOE está dispuesto a todo con tal de permanecer en el poder»",
+    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUmdlOGVBQjVuRDhsUXF6bTFjZXlod0NQM3dIUnVUaXRwVWRFNDY1cldLOE13dFVYM3NhbG9KTF94ckZoY2tqWXZiaXJXZ2xZenh1SEFpWG5Kc2o4bXd1U0JRR2dEcjRzVVkzanJQWExESjZjVTYzZ2lBRjNWYXlucUpMT2hBaHNNOVNKS1pqU1NWZkZsNzJwa2xSbHlicVJoUXY3Z2c4TnFlaGh6dmlDdzRKU2RrUkJndEI0c2l4MlVTUDIt0gHKAUFVX3lxTE42VHFma25LdmFjaHRicHZvMm5ScnBSYmR0cmlXUFB2WTJxWjIwRFdkbG5QUzJHOEExS21vRDlydzkzcXZ3QVA0aEVCVTB3cW9Ja3pyeDE1UHhPSGtXRFdvVVJnSEFoMmlTTzdRTHNiQksxYXpIa2Q5MnFYbTUtb2o4RnhoVXljSUlzS21pUzI3YjVlenN1ZEVuWVRfYk9pQ0Z1V1JmbnFMNGtVTC1hMEtIT0liVjhHaFdfbVR3VDVQS1pRSnc2ajB6OHc?oc=5",
+    "fuente": "El Norte de Castilla",
+    "fecha": "2026-11-16T19:50:51+00:00"
    },
    {
     "titulo": "Bustinduy afirma que el PSOE ha copiado \"unas cuantas medidas\" de Frente Amplio y le insta a aprobarlas \"ya\": \"No vale solo para la campaña\"",
@@ -132,34 +151,33 @@
     "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZm1GOUVIbW45RWR3UFRtS1dnd29wbVBUMFhYS0VjYU1CRW9kb0drTkRlTWlxNmlPV0RNNDYtZzltY2JsYkgya2ppdUtzd3hham9PVW5fTFBfYUgtTnkzNjc0dGRucmlkN3NvSks5b1JoMFZWd29jb3lqTXhNOUFSUTFGOWdCT1RLT0ZKOEdqRmVmUThnUFA0cUUxUDhPbXBDMkZuWGZXQTVJYVNWSTlVWERHNNIBxwFBVV95cUxNbHUxVzlnQnlPZDJCUUFZckhsYXBoc0F6ZzN2ZWpsWUY0V0lXU04wNVJ2V0hiYjh0RzhoTEZhWGRXcTAzQ01WZ3hQdXNkYm4zSmdGSjk3UmtTUjNFQ2luRXlnZDBLYUZWR3ZEOTVMNEtwdFNjQjd0a0ZSbkJDSUNJZzBLeGRUX1RKQzNVb0hibHd4WHUydXJUTFhELTRxOFNRX1dGQk1ISmJXOTFjaFJJc25CZllOQmw5Wm1sX0wxZnotM0swRXJN?oc=5",
     "fuente": "El HuffPost",
     "fecha": "2026-11-16T19:47:18+00:00"
-   },
-   {
-    "titulo": "Redondo pide ir a votar al PSOE en Valladolid «sin bolígrafo» y meter la papeleta al Congreso «sin tachar»",
-    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdnk2UmRManRYX0tFTjNaQ2VscWNFMm5ZQ2hXemtaTk0zT3VpV2xtQ3h4ZGI5YzI4SlpGY0F2cUdveHlDTDl3UF9CcllsWVdQQjYxVVJSTjA1Vk9PQk4wbjBaVmVES0RDUXpGdy1keC1MRnNrSVBSZUZrUFA2WUdVbWRpV3VSSjdFbXBnTjlqb1pQZUxIRVVoWUd6d2twRFFUb2JGT3Z2aV9qejR4S1F0YUVreWNmcm5ySVhNN3RHWmhDc3ZxeVHSAcsBQVVfeXFMTmdCNjE5ZGlWNFdOSWZpX3hzNUNhcjBwZW9rLS1yNTRDcTlnS08xazA5Y0hCVDJXZXowUWVBN1NteTV3Ry11MWthaTUzakZSUU9uM2Fqanl5RkFNUUwyZ2ZzdVR3V0o1VjdmSmg3d2hReGJBWmp6UkZZMjh0ZlJCdVZKdEJBemVPanJucHdyc1ExNl9pR3ZSSW5TbTlWQ2lhRVZORU54NWJXOUN1TzlQVlFFbkxneF9XOEdjR3M0eVFMOElyWFRuVGVrYUk?oc=5",
-    "fuente": "El Norte de Castilla",
-    "fecha": "2026-11-16T19:45:41+00:00"
-   },
-   {
-    "titulo": "\"Es muy importante, Pedro, que tú ganes las elecciones en España\": Lula da Silva respalda su apoyo a Sánchez para el 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOVTYxdktuWmREd2FFRTZCRHhmVDlvZnJ5Uy1VQ1lGeG1OVUVoMm9PbmlVSGp2Yi0tUVNjdjVTS3JCU040TTJ2UnBpcG5EYXpKdmp0TzlQMFdmck9hOGF4c3lsYnZnc1V0WTdLXzBzR1ZabUs2MEs5Mld1MV83ZTEtNGtyZGZKa291NHdNMXR0U3hIa3ZNNEl3bVpNRkRrbFYtay1JbVcxb01oUUE4ZVR2TS1QVUpEcWlmUmUyR0ZxMUszVHRobkozYzNFQ1J5ZVp3Tll2TU9HazJOOGZlOWRycTlJQl93VlpUcUpLLS16blA1MUNJbGtRbGZsZF93Qm1TQlFxZ2ZHVUt1VWhmRjF4SNIBpAJBVV95cUxNOFJ1Z2lETkhnbWFCV1FqTnJ3ejg2eGdSNmhHcjJEWURXRUl2a3djNmsyT1l6TlcxSHhEVGpvYjl4Vmk1YkpKaHV4QlIxRTllSzQ0U3ZtSEdsM1NuRXl3QW5OaHg5b3JfTkdrb3VTRlVIU1FpQmY5SU5ZRGZCX25SQkt5VUstaWUwQjFFd3FZZGtKbzZVcHZvVkFiNVJidDljb1oxaEhyY2lYampTa3hFZWdtN18xTXhmMU1RSThnRkpRVXhSLXlDSHI5U3A4S1piX2RvU3BZTG5HMFJqblk1YjZUcnZ1bndjY2N6TjZpWG9va3FQaHNjX3lRaUJyTXJRVlpVeU9RX05neTY4WFE4ci1fbFBHTWVhSk91MXVwV1p6dHRv?oc=5",
-    "fuente": "Cadena SER",
-    "fecha": "2026-11-16T19:28:33+00:00"
-   },
-   {
-    "titulo": "Lula respalda a Sánchez en Madrid: “Es muy importante que ganes las elecciones para frenar a la extrema derecha”",
-    "enlace": "https://www.eldiario.es/politica/lula-respalda-sanchez-madrid-importante-ganes-elecciones-frenar-extrema-derecha_1_13669134.html",
-    "fuente": "elDiario.es",
-    "fecha": "2026-11-16T19:13:14+00:00",
-    "imagen": "https://static.eldiario.es/clip/58cb0371-556e-46b9-a58f-a25b97d10d25_16-9-discover-aspect-ratio_default_0_x1625y295.jpg"
    }
   ],
   "Vox": [
    {
-    "titulo": "Campaña electoral 29N, en directo: última hora de los mítines de Feijóo, Sánchez, Vox y el Frente Amplio hoy",
-    "enlace": "https://www.abc.es/espana/campana-elecciones-generales-espana-29n-directo-sanchez-feijoo-abascal-20261113162908-di.html",
+    "titulo": "El PP mantiene su mayoría absoluta en el Senado, pero no llega a los tres quintos con Vox",
+    "enlace": "https://www.abc.es/espana/pp-mantiene-mayoria-absoluta-senado-llega-tres-20261116010020-nt.html",
     "fuente": "ABC",
-    "fecha": "2026-11-16T20:22:18+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/13/sanchez-mitin-U20720839045LY-U40317192860hCG-1200x838@diario_abc.jpg"
+    "fecha": "2026-11-16T21:08:09+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/senado-kykF-U40358169693FuG-1200x840@diario_abc.jpg"
+   },
+   {
+    "titulo": "Abascal endurece su discurso migratorio",
+    "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNT0JUUGVoNzh4UjA5ZEtQbFZEeHZDazZyXzIyOXNqZmNfdFdpTk54NWlpaHJvY3hJZ2Jmb2dYNGt3dm9iUmVHeXdEbXhmektWa1ZxdUxVbTRvQXVNZktzQlp1OGEzZHp2RU9DMWN1S2R0bHZGNHVlRWRpeGdteWM1WWlMTHFnQlNxTkZwRFZfNzBhMnoyYVJhR2VrRW4wTktra1BjQ0xBSnZDdXBIeTg0b2NDN1NDbURJVTlPX0FSRmJ3b01kdzRxMGJHMUtHQ2dHdEJ3M0FDWll3a0RVS2xqRWg1Q05OWi1meGc?oc=5",
+    "fuente": "RTVE.es",
+    "fecha": "2026-11-16T20:15:27+00:00"
+   },
+   {
+    "titulo": "Abascal en Tenerife: \"Canarias para los canarios, ¡basta ya de invasión migratoria!\"",
+    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSThhZ0w3a1Q5VFFxM2tyYUxqblV2YnJvaUU5cWJDTGhaMUtlUGJJOTFzUmR5U1dSSzFLbUNSa1pVbW1QekpjT29vWVBMbjV1cmg3Wkx2V25md3lmX2pLOXQtMUVHaUg4cE1iaGJyVWV2MV9DWE5nNmpnbGNpVkNBeFlpaU5RRGJLdXFwb2hKMENzTlNyOUV0RmVLbTA4RGdM0gGgAUFVX3lxTE9fNkhfUE5tZDFRQ3VDdXpaMk1nVlhOUkJWUnF5REtYSURlQW9DN3VpNG1SVVFUN0ZWT2RRcnF2TS02SklJOWNGWkV6UXhUdU1pU0xJMWthR3k4VW9rZlB2RFlUOFJtbUhVaWh3dmREaTEyekU3a2pXSGRwbXhQX2h1WkJHYy1DYzVRdm5DR3VJRW95dWFkMWhUcjVKelJfZUM?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-11-16T20:02:11+00:00"
+   },
+   {
+    "titulo": "Hereu exhibe en Santa Coloma el PSC de barrio frente a Vox y Rufián, “el metropolitano fugaz”",
+    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0JoRW1odWJzZkxiY1JESEdxRHlzUG5TUXVDSG5EMW9SU0M2V3FyUlJ2UkI1b25FVnc1U1pwOUJWSzFhTnRESGo5WWMzYS1EX2swckFHMlhXVzlRLUhpTDU5VnRSLWMxSmk0VFRKVU5hdDM2NUNTR3kyTFE0bGxIdnNuS1p6aUxUV2hjZ0Z1YlA4VElIV0hDUktraUoxdmQyWW1GdlBoV1lnM2xJM1JpQTJUckJPZkFfMGxBS0lPTDcyMHfSAcgBQVVfeXFMTjRRVDhzekZ4Z1RkSXZvY0JoejdjTWhDOFhKZGp5OE1wa2tjelNESko2RHRTWHdCMFl0UmlXX3FaeHZuazVCQi1qZVA4MURvVUYyeWc3RVZrMkdZeHlZNnNXUmdvYWhtcVZvY1lFMGFYOXlNWEZ0UXdPS1R3Z1phTzNQZUhXc1JZbS1XSC11YktYX1BsUDUxSGUxY1RhbjZTRVhZYS0zLVVjRXdRc1FPQ1A3Ny1WU3MwdnlfRV9aYUQwZzFGempJX3c?oc=5",
+    "fuente": "Demócrata",
+    "fecha": "2026-11-16T19:58:41+00:00"
    },
    {
     "titulo": "Barbón llama a unificar el voto de izquierdas en el PSOE para frenar el segundo escaño de Vox en Asturias",
@@ -168,30 +186,10 @@
     "fecha": "2026-11-16T19:54:40+00:00"
    },
    {
-    "titulo": "Vox clama contra la inmigración en Canarias: \"Canarias para los canarios y España para los españoles\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSFZnU1Bab0tsUm5lbHpCeldwMVYzUHVPSDhIeW1wVkVXdjZ6bU95QS10Q1dTdDRpRjQ4SFM1dVVDRUxMbmQ5LWtvS1V4NmNUa2h2Vk45cWdXbzBlRGdZZllWWS1kRmFiNk5Lc0g3cms5djBXS0JoOWphaHgyTWFJT2tVWEZyNkxWZXBuZzlSOGxfNjAxbTNPeTFGXzlxRWRwaFc5NlEwQzlveHUyQmEzWUs2OFk3Mks1SjdGTElPejJkYlRCT3Z1SdIBzgFBVV95cUxQZnlRSkE0LU1UdFVsMVVJbFhaMHVhcG1nZWtnZnd3ZFlQSmF3V0xIb3BtYU5zRVlmYWl3VlF6OW1LcUpaTFRhdHBpLVVxTXcwSXluM2pmVlhzSzVGZ3RvUEZZS0RMdVphZkZFLWxfOFBPWDFfd2FIamVOYWxyWXpuRXRjSWxtSDlFdGc2MHNJRERQTjNZNGRrdF9hQ1lqMFVvVmNObHBaRmdiWXhuRlEwSFNXZ1p2dHRwY1VNSU5OWG05RUk5V1gyZWE4cWhBQQ?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-16T19:37:00+00:00"
-   },
-   {
-    "titulo": "Elecciones del 29-N: qué proponen PP, Vox, PSOE y Frente Amplio para comprar la primera vivienda y cuánto plantean limitar el alquiler",
-    "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZnJudkZSX0tmR2o2MUstZHdRbkNORDdOY3RnQmhyRVRkT0VhbzJxMGJVRjZwR1FoZV93eXllYjJCRDBYdUNRZ05jdVpiTXpuQnNaQUxGZ1o1dTMtSmdVTkJlLTl6ai1IM1Z6WkE3dEVqZHpscnNrRUlKRDlpUVhSbEFlc2VGZG5nV3FSYWZDT29BbWhwSldzV2hfZGR0MmJEQ0VFQU5Jc1hNSnNfMDZ6cncyLWhaRTRSSnpBYTJhbEx1Q3gwZnRPVkItZERxdEd5b1RjZDJpU2UzZGhzemhEa0JMcGRQeGp0LUI2RlRkaDlxel9LN3pSVmJEQ3BBd2JnN3huSGVxVdIBogJBVV95cUxOazlNWlpDbWROSE8yTE10dkE4QWM2M1ZXbVRyZ3lfdnR0NkNNSlpnZWRNYjdCd3B3RmV4ei1fVHRCQTFyaExzLW01R1JnN2Fsa2ZUcmkxblhEaEx4UmNiZm82cW82STZWV21ZSmtDWUNOUmExUGRLMWZlQXcxaUZiMEEwNWZYY3Y5WmtvM3VBS0tISTdROG1sNlhacmw2ZVR3eC1Ka0VmMkxTNVg1NGlUaXl2OUhSRkRadGZmZ2JLeWVQUW9WaUExYllpLXNpRnl1bmhiVWJUQjBuNEpxVzEyMXhMdzhPUEtGbmotQzNKNUVxZmJqMnFscndCTVFtX1FWb2k3UXh2SUcyZjYxaF9XeTc1LTFqbGxRakYzWGlxTlZkZw?oc=5",
-    "fuente": "El Cronista",
-    "fecha": "2026-11-16T19:13:14+00:00"
-   },
-   {
-    "titulo": "La pareja de Abascal cobra el bono social de calefacción para familias vulnerables",
-    "enlace": "https://www.infolibre.es/politica/pareja-abascal-cobra-bono-social-calefaccion-familias-vulnerables_1_2240283.html",
-    "fuente": "infoLibre",
-    "fecha": "2026-11-16T19:05:31+00:00",
-    "imagen": "https://static.infolibre.es/clip/d42b2695-fa6b-4b56-9f3c-c8497d34b184_16-9-aspect-ratio_default_0.jpg"
-   },
-   {
-    "titulo": "La frontera entre PP y Vox: qué separa a sus votantes y en qué coinciden",
-    "enlace": "https://www.larazon.es/espana/frontera-vox-que-separa-sus-votantes-que-coinciden_202611166afb118d4196933d7edee580.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-16T19:00:23+00:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2025/10/13/6E346FD4-7554-4A80-B0BA-FFD333D423A5/lider-vox-santiago-abascal-presidente-partido-popular-alberto-nunez-feijoo_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "El PSC se arremanga en los feudos metropolitanos para frenar el ascenso de Vox: \"Quieren dividir a los barrios\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcWVnU2lINEhtQVJsblA5NHpSZjI0T3pXRlNvVFhxc1ZoZ1dzaFR1cjRhQXhsUk85NUFpOG9id25VUWRHUW1CREdDVW9uTE4xV2k5LVpoMG1mbmtZM3hWSlRvR3RkWGZYcVE2TUFWWU5SUVNiZUlCcFJFLTNPeFFLakVIUEFGZk40MjEwOVZpd1ZaLXpfeGpmY2w5dHRaejJOdkY5ZVFwTXhEV0ZTbnZtZGM2TFV1QUVKdXlZamNBc2NYVVJhUm16LWhBM2tBVjZiZzdDWlgwa2bSAdgBQVVfeXFMUEZ3MUxVUXg2R2piX3MxQVdtLXBRdnh3d0Z6ZHZ5aWpNd3RNRkgtMGhJZUNQYmY4NHNRcG9BWGNnakhUV0hmNTFiSmZyZzZwR1R2Y295ZjJveUl0ZzBFSEhZTC1YeEtMbzNGRTZFZ1Z4RE1wTEJtRk41RlpaVWEyRWQwR3dfRllRWS13M3BZU2RmaUpMR2M5LWJadXVLLWRpQUpoSkdFUkJhYW5ZRVdaN05xWXlidnVZV0RvNmJXZTM1UERYRWljY01OZzRDbm1PcG1kYURkNi1o?oc=5",
+    "fuente": "El Periódico",
+    "fecha": "2026-11-16T19:52:02+00:00"
    }
   ],
   "Sumar": [
@@ -234,6 +232,12 @@
   ],
   "Podemos": [
    {
+    "titulo": "Irene Montero defiende intervenir el mercado de la vivienda para \"bajar\" precios",
+    "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSlpnc3NCQ1FiUG9UOHFKb2xGNEZQRlJzckpCaDdjVTdROElJNGhMb1lndFlVeW93TkFGblVDU0p1X3FVbVNtM2E3MHBES05iNkdZSFVqTXUzVjF1UDZIdThmSThNNURnRUNRdUZyMTlTR05naTdxTHZfMUlWZzFTUjVDcWFTS05pcThQbHkzSGZjZkE0Q2FKTmhXdmJMMXBEQUcyRW5tY3PSAa4BQVVfeXFMTUZnOFlwVU9mc2ROZjJEUHQ3UnZZM2ZIcGtVRnRCMWFLTFFmWEFyNWRmWHZ6VFdxNFpvT09ad0h0RlpUdFU0TnZGNURKNmdFQ3hVOU9HZkUza1JsOUtJcTFrUmVzb1FDMzBCSktrdXcxajFsWVRaM3EzWjZUREJycG5nOGQtZkV1dXI2bWNVd04zazFRbzRFeEhhMmZuekpMVHppSWx6dzdIeGpkaUtR?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-11-16T20:18:50+00:00"
+   },
+   {
     "titulo": "Podemos llama a votar \"con valentía\" ante un sistema que \"no da más de sí\" en su 'spot' de campaña",
     "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWVhmTXRHNUE2UXBXRU9XRkRlNTM5UWtTSllGY3YxbkFuZXVQS0VNdXNQZkJIV1cwRGR1NlVJMEhWR3BVVU5XUFpLMUhzRUpOUFg4d0dUcHVTUjZKUjE0V2o5QUpxRHdEUlZmWGk3Wk9yeXo0YWt3dWJycGNIdkJlV1N2dFR5OG9BaFdPRzMydWpwcFQ4MFVnOGlDUjRNb0xERDRERjZ3bFVPZl82aU50RDVqTXpEemROMG00S1lLZnJpT1U?oc=5",
     "fuente": "PressDigital",
@@ -244,6 +248,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUGFMekZpcTg2bFBYbFFVLUZjVEhFYk0zSTNlZDJIY1BUcWpXdDJfMENrVGhTeG1hRFZPdDUxT1VaRjNTZVpYb3BZZVZBd1p0ZDh2d3VJbVE1OVFBTlJnRUo5TThSWkRONGx6alRiME9XS3N3T293UzBuTm5MWnA2aWdWMTV5STFUOW4zRzlVSXFaNWdXV0QtaTBtMjRkZ3J3dG80SC1DTGx2cUYtT3ZjbUFzZnpDdVhsWjRJTUZpOXd6M2lPYVE5UDZIbFN0UdIB0wFBVV95cUxOS2YzMEh3LWw1WVZ3aUlwRVFMdnlqclJUZ0FWZG5iWmNySktpcEc2elZWeEZkVk1zUngzSlZybjNaaEdXNXlsWE0yRmVXWjllb0xydktzaGZCVUJaRzNuZHBxY3drT21ydEZIR21mZEJmS1VyS05wTEtDSElLbnNLTTgyNVVhTTVpWjFLYUZhZS1uWDM1N3Rsb2l4SW9XVHFJLWZuZ29CNFZZalhOUTJfOVJORjZXdFl6LXNDdFRrdC1PNVVQQUwzOEJmaVh2S2MxUVNV?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-16T17:58:29+00:00"
+   },
+   {
+    "titulo": "Irene Montero (38 años), política y líder de Podemos, sobre su infancia: “Yo era muy fiestera. Siempre he sido doña perfecta en los estudios: me gustaba sacar buenas notas y no faltar a las tareas”",
+    "enlace": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOX2FnQ2kzZUpqUWtEZ2UxWHhrY0tZeU5pbTFMWlVGcHF0QTd2T2xLbjVVTl9yQWhmcjh4MVh1MVRUczQzeUdJNTlmUXZwS29xd1p6VjhZR2dQZTZycFk5bFZ1OTFSSjNFTlZsWTZuUDhvZHJmcE45UXJGdUNYSHZnSjlwaXFXb3hCYXcyaHFibWs5elFDM040dDFkaXhiNHNrZUxpaFlXWTdaQWd2Rm5vUzVzRkZmbVZDaE1CTXQ1NmZkZDJFV055OHRyZVhzQnMtUTdfck1WSFNWSF8xVFRIRHZKTVVHV3MtQVNfcEZ0SUE4a0NNX1FWLVp4M2NyUVFlbFptOC1VSTNVYXhxelFYUEdiSjlmMHo2Yk55enZsLVVGZjM2NjRoX3UyTUF3Q0NXLXJuM19RcHItVUdGOWlBZnJ5OFNOYXJ1eG9nTEJ30gHTAkFVX3lxTE1rbXVGeFloTThZOEwwVTZrT2pGUE1RbmExQ3liUi1ZSXRHX29TWUJGNjVZS3RLZl9nUzJZb0ZGYll2OVJLdXlGMWx6NHpBRy03dGZKYTNfVEd5SlpqMXRYaVJUcndJUFN5eWFhMnlMTFB0c1VwVWUxNXEzYlUxZDUta093Vk0tcGtuTk5iZDJNWnRlY3QzLUlRc1F5VWxSRkZhNURLb0xtXzRfRmhtUkw2d2k0aGFma21oNHRMaWVia0NITXlfTTlXWGh4YWNmR3E3SHdTaW9HcVlJWTZvN1J1bTBOQmhOYmRTZzRFcVhaSldRZ2VTSmgzVGJBdzlPWEdaVmlFX0NESW9sN1cya1A1Rmp3dkVrNHluVEZld3lIQ0h1aVlDT000Um1CdkV4aDh1eGRUVmxxUm5nbjQ0Njh1NzNfY2VyZHFicFpPaG91VmhTNA?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-11-16T16:20:00+00:00"
    },
    {
     "titulo": "Irene Montero exige cuadruplicar el impuesto a los pisos vacíos: «Los negocios se hacen con vino o con relojes, no con las viviendas»",
@@ -257,18 +267,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTFBTN1liSkRIUHZZUEFFVlNzenVZeFBFeFRYUXp2WGVDc185c1pwNVNHdHFZTDBaQ195VmxfMHd1clViazE4OGM2ZWNJSGNLb0xlOXU5Q3JKMFBsNFJJMVh4SGpYV3VZN1c1M1haOW5mckxLMktKbjFQVm1iaFI5elI4X3E5RzVMNkQ0QWlHZ0dxLTc1N3Q4YTVFOUhHSGM2M0pCdVJzQlNmejRsN0xWRVVmMUpSaG9TM3dwakJKVEJWa1HSAcgBQVVfeXFMTmpGcUJKS2U5dWx0MDY3emRHbi02MVRabnZNcmxldkdzS2lTU2RDcC1xZHdLbkpYRG9WM1NKbzhWWWx0MVJJWF9WbTRVcTVBUVVqbEF6WHpYUWtxQmowQzFxbHVPdUZhWUpfeFFMVVdUOU9oQThiQ013dUdaM0xmTXFkT0E5S3l1STZqUVZBVS11VFVzY29NeGd5SS1wOFl6RWpNaVdjLXRZSXhlNC1KNE5MLVVrWFhzVlBZVUtDbnl3SGM5RjR5Y1c?oc=5",
     "fuente": "El Correo",
     "fecha": "2026-11-16T15:27:40+00:00"
-   },
-   {
-    "titulo": "Irene Montero apuesta por intervenir la vivienda para bajar los precios y apela a la Constitución",
-    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbUhKal9qLUs0LUUwSnRpOWNYMzNGYlRvSVRHakw4cko2Q2N6ZV9SeWZPX3h6NWVhSFlNOTBtYzJ1UEF1Ul9Rc1dnVjR3U0EySFNhd1Q3c3lEZEVuNFBUTUV3RHA4Y3lnS3NZM2hybW15REVuTXptNWRpWUJ3aWRkeXp4LW0xbnZuWXZRSzB4dUtmVGhPM1l0N1NuLUhfUmRkLTc2cTdIZjNiX0JfbWxpZExzM3Q1bnNnVnQwSzFnMDJCN0xkX2hXRHREQWXSAdIBQVVfeXFMUGt2aE9jQ2FmM0pXLUducGFrX1oyQmJCTEtFM1g0SS10M1ZHdTRwSlN1aF9jZ0VDajVMZFYyWDltbHA2YXNCZ0RFaUo2aUlRRklaeGZ2dUczdEZoa1RONVBHalhabzJqUk5JSmhLUGgtUGRmQkNZZHBuLWwwUG5GR1VXa0JpVFlmb2lvbU1lNjY5RU1XTGlueUJYQVF5ZDRvRnFhQklSVndTdmpaN0lKZmJPQl9jUmVkYXlZSnIzdlAzaENMTHZBRUFVdEtaTFRnbmJ3?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-16T13:40:40+00:00"
-   },
-   {
-    "titulo": "Irene Montero defiende intervenir el mercado de la vivienda para \"bajar\" precios: \"Nos habilita la Constitución\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNR01ZNmxIUEhMLUpPdS0wVGdNSEFMVVJIc3JXYUJkWkVqUVB3ZlFGR1BjMmRaY3BEbWhiTklOV2JPLVdXWU8zYmxoUlBlXzJJLWxZbjBCNGFXa1haR0lMSUh2aWdkMVNyX0ptNU83NjhWZlN3Zjl0SU5NSDhoT29rUFpSY3ZGN2hwdFR5RHhWYkpqUXh2TGw1WFd1Wm5nYklERkdaMmltRDJKZUhPb1BVRGZHT09ZbFJHTXBvV2txNlBWWjdENTJEM1l6S1BSSFVsSGd6WkFIQ3h3cjNyWmw3TVc5MWFwXzNMaTNuaWVGYnVrUXdQZ3RaVU9n?oc=5",
-    "fuente": "Europa Press",
-    "fecha": "2026-11-16T13:27:40+00:00"
    }
   ],
   "SALF": [
@@ -277,27 +275,33 @@
     "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRHhHZ0huZ192U1ZLNjNScVVZTnZrUzZvRHhqX0R2NllFT3VkZS1CYU5wZHZfS1BsSFpnWGJBTllETTNCTExmRzZ5Zm00bWpnblVMOWtJUklnRGFVTXpOMWpHampGanQ3MGNGMHk3ZXY3cnZiMjhDV1NMX2lqVC1oc1ZnVmF6Rm9ZRUN0Yi0yZVBpSVpCODN2aFNRdTd6VWt3VWU5NWJ4TFdDX2gwczJFanhVRmxGNlNSTkx6b2VGcUlhWDdZd21EZEJwZFcxd003ZTN0YXVJR2tfeE5HLWIw?oc=5",
     "fuente": "Voces de Cuenca",
     "fecha": "2026-11-16T08:14:26+00:00"
-   },
-   {
-    "titulo": "Conoce el programa básico del partido de Alvise Pérez para las #Elecciones2026",
-    "enlace": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yRVZ5SnRCTS1KU0k2ekFWaG9KbkdLM01qWUwyVmh1SjVvdW5qTUowTER0R1F5YTFIYk9VT1NnN1RLT3A5LWNGQS05aG1Qa2tQM1RjcjUzcjVwb2ZSdGwyQ3o4MW5fVm9ndDE4LTlsZ1U2UQ?oc=5",
-    "fuente": "Noticias Ciudadanas",
-    "fecha": "2026-11-15T18:06:50+00:00"
    }
   ],
   "ERC": [
+   {
+    "titulo": "ERC se lanza a por el voto socialista y Rufián pide un cara a cara a Hereu: “Esto va del PSC o nosotros”",
+    "enlace": "https://www.lavanguardia.com/politica/elecciones/20261116/11685886/erc-lanza-voto-socialista-rufian-pide-cara-cara-hereu-esto-psc.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-11-16T20:47:40+01:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/16/6afb5daecca1a.r_d.4651-2565-0.jpeg"
+   },
+   {
+    "titulo": "Hereu carga desde Santa Coloma contra Vox y contra Rufián: \"El metropolitano fugaz, visto y no visto\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcG80RmNTUHdEQ1VGbzJxb3A1WVFWankySzNuX0dwcVBNaG5ZeGVOVVNhWmxXeUhTSkN3UTZsSVFSQURjNDhYRDE0U1BBT1Uyb2dNWEd4cGtzSGhDcG4wRXo0TzdYUTRRajdjbWxLNndGRmxZUENvQk9SN2ctN1ZaT3d1TGxkZElqRTdMMWk5YXFBRDNlbVhocWNmbUVYbW5mdnVjQXJYcUk3SHpnSlVRY2xSeFd6QkswTkFmUnpCcjRnV09xeVF0cWlJOXVkUDFEZDdDeHc2WQ?oc=5",
+    "fuente": "El Nacional.cat",
+    "fecha": "2026-11-16T19:59:09+00:00"
+   },
+   {
+    "titulo": "Rufián hace doblete en territorio socialista y reclama un cara a cara con Hereu: \"Es PSC o nosotros\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeUNkR1N6QlFEZjZFX3UwMmxaUXVyemZNbWhiZkJkUkE3c25jc0NVWlhpRVhKN2RtU1k0dXpUNDQxUHM4bm8xZ0d1UnJSSWhOZUgzdDR1MFJQSDNIMjRXOXNhNmJ1UFFFM1hjcDhUN2F6TUZkN2t3ZG5feGwtVTduLV82Z0huV3dYZ0N1bnZ1Vk1Hdk9yVUhFRzNONXl1SW9GWHl5aVlDQjlxUWp0ZG9VUVF4bjh1d0hnMkw3Yk9VMzFVQjdNQUpTUkhIZjFTNEVreDU0TnRscnd6SzRPRkR6VFJrWQ?oc=5",
+    "fuente": "El Nacional.cat",
+    "fecha": "2026-11-16T19:58:00+00:00"
+   },
    {
     "titulo": "Nogueras (Junts) reprocha a Rufián (ERC) sus lecciones de catalanidad: “No es inclusivo”",
     "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYnZzcFU2WGo2OW5QWEZKNGVHNm43c3NPS0VqaVhZSzUxY193TGJmN3EwMkdnUGx0aWRGQVFaZWZ0WV9Ba2ZwV0dnOHF1SHpjc0tsYVJOUTh4Qi1WU0dzVGZPOUdMY2c3bVhEV2pTRHZmNm9VV3lWQzJETE5kYUEydEpySU9RUk9wSkZLV3pOaDJIOE1vRktXNFZCYXdIMFM4NkhSbkVZcGRMZ1NSeWZMSExNNzk3dmvSAbwBQVVfeXFMT3p3b0JTUVVocXVuMFJuTVpxUUtVX2NmVTY3LTY2RGZKcHo1bmZHWWZuUnNKNTlycnZlZ0pnT0prcnRoZnJJXy1wWTN2VFlGb3JjYVNkY2NUZGEtcXdsakdLTTM1b3hUNHVHQjRHNy0tUVJmRjlQUVNWOWNXc2czOVJKNmcxenBRa1ZuMThZY0F4Q25JR0dBa0dka0ktR3IwVGJpNW1VMFVfaHBqd0ZCOGZKUlI4dHcxMU82SWM?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-16T19:50:46+00:00"
-   },
-   {
-    "titulo": "A Nogueras se le bajan los pantalones, Rufián es Michael Douglas",
-    "enlace": "https://www.lavanguardia.com/politica/20261116/11685834/nogueras-bajan-pantalones-rufian-michael-douglas.html",
-    "fuente": "La Vanguardia",
-    "fecha": "2026-11-16T18:37:48+01:00",
-    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2017/05/15/5fa3cbcc37a56.r_d.555-290-0.jpeg"
    },
    {
     "titulo": "Figo se enzarza de nuevo con Rufián a dos semanas de las elecciones: «Ya no vendes ni humo»",
@@ -310,18 +314,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPcnZqVjVFTGV5aFF5dTM0XzRjSDZlTHBoV0w4ZVRtT3JBOHFOTldvdlIyVjU4NWt0UV9kcDg1dUwwUUgzanJZY05fWE5Yd1AxT0NCQnlTVGprb0ZKclBXem8tSnNfdG85WDhLZFNCMWVKTGNOV21JeWRKN0kyNlV5aXlnYXJaOFdXbmVXQ2E2Q2tZQUVPbTN6SDBGanBGMlBpeHhqaU1taVNnbXpVN3lxazM2ZzY4NGhMc2NBS3IwRjJRdnZJSWx1Zzl2WU5jMkViWldOMXdxNU5KOEVnVmJtaWh2NXBaeW1KZV9jaURfTHBGTlVTcXVpM1E0UzNzVFNSal9xSHYyWjdvaWJsTmRjci1LYVhtUXoxNjZWRW53aU9nQV9sU1BMN2EyWVBYUE3SAbwCQVVfeXFMUENwZnJadXRVX1F5Q0lrNV9BNDhad3piTWJvbDdoN1Z4TUVQa2F3QXVYd3BCalctdWhmS2pZdzdXelc5OHY0MkZVSXc0cGNibEVNMjJYSmJVcURhdkpaSHFGdGc1QTFOZ1kxUTRQeExqR25fdG5NejhYRE0yNHZUM3ZOTjUzUWMzTVE0d1RVa25zZy1mdzRpelREbTB4WEUwNi1lNDFHMUF6UHoxcm5nWGZzSW1RYVhoN2k1ejJwUDdPU01pMWhkNEJjT3V4aWNvYktYcFNYcWVUV0FvM1g3VnAzdHNXcHUyZWRmOXJmYzZ5R1ZneFprTFFuNVJOX21aNnNkNHJwdVpOWEdDVTRUY1UtTFdyc2pnc3BPTlFCd3RNaFNUODJnYnBGQzhIZ2Izc3N3V2pmM3UtQ3YtSg?oc=5",
     "fuente": "Mundo Deportivo",
     "fecha": "2026-11-16T18:01:09+00:00"
-   },
-   {
-    "titulo": "El rey lidera la conversación en redes sociales y Rufián se sitúa tercero entre los cabezas de cartel del 29N",
-    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOV9WRlVobnJ2UEEyM1BoN29jczJmdW96dDVmbFFidDhFVGlUTVFPMGtLaUlOOUpPTGFfWWxGNUh6M2UzSk9vbzVib3RDTElpUC1yTVhLc18wRnBUUHpWUFQxNjdlbTZfemQ0RVFUdnhJaXRPS2J2MlotZDJFczJQOGs0ZTM4T191ZVp2dWV3LVdPMDVERXBNS0lKT0c1akhNRjFhRXdKSTJHMUF3aGlxYUNGajNfVmlndjUxRUwzeFI5S09lOUhZLXJR0gHPAUFVX3lxTE1aUFBaMEl2MEVLZVJpRUo0V1NmeEIyckdCendFejRTOUswMkExUmhFSkFpc1ptdnNESF9lVU5sLXFNUmhUZTlNRWhrVEZWLUtueUw1VTlDcDJmWDdaSVlMY3Iwbk9DTHNwdmtZM18xRzduX3Z5MThqdEh3cGhOWFhoYXlYcGRPbjRJUXlVd1hvVTBuckw1MF9KdkJQTlBTTnROU0EtQW1sWVpKWmUtZk1pQWhuRmFQSUtGcHFQdzBkZVhyQUNOQlhxaWFZaS1jOA?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-16T15:21:27+00:00"
-   },
-   {
-    "titulo": "Gabriel Rufián reta a Jordi Hereu a un cara a cara sobre vivienda e impuestos",
-    "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdFZPXzN5WUJ1cmROUHVNWHVOMXNMSUFnRGlEQ2FrVXdlNTBxSTgwdDB1Q2oyLUx6cERTbjBNdk03TlRlX1NKbjlJR2hkdWkwbFJuY2NfeUljMWFMWFZFTkFnOWdJWWM5Y1BqTjc5SGRaaDN6SVRZOEs4dUpycmJ2VXFSa1RhVVdseUpSZjFHRENpLW1maU04MHpWQ1NIN3daRGFLRHVyWDR4TjEyeDBJRDBBUGYxQklrNmZNamNBd0dlNVNDa1Bpa3gxOFExSE92TXExVEVkdVdWVnNDLUZtNE5RT1RxZGtZYWfSAf4BQVVfeXFMTUVqQzRaZzZRM3dja1JWWHF0VFhtLXFVaGVvRkV4UjctdndCSy1WWmJaVHNxcDhsZTFyZzVYYlg5N3FncnRkMTNqWTFWcFROUW9VWmVCSm82TnZhSzdoZGdUNm5jci04NjhMRWFnRGUwRWhOS2Q2VzNSRkJyRDZBeGxVa3N5NDk1R3V0SG40WFlDdzVEc1UwUV92bzYzSEpoZ2RLTDU0SEFManIwUDBNUlNlOVI1VlNLZ1FWVDZYU0QtQ2RYQ1o5Tlh5MmhEdDVFcVFnZ0lJN3dGamhUcE9jV1FydFdFTTZQcEx0OUMwbFM4QWtJZWVfODJZdFQ3Vmc?oc=5",
-    "fuente": "EL PAÍS",
-    "fecha": "2026-11-16T15:11:44+00:00"
    }
   ],
   "Junts": [
@@ -579,6 +571,12 @@
   ],
   "AA": [
    {
+    "titulo": "Adelante Andalucía ha reunido a más de 500 personas en el patio del colegio Carlos III, en un acto central de campaña en Cádiz",
+    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVUtzNlRYODAxenNyZFREVi1aMXU3V3dJd0Z0R0Uxam5fNzYya05BU01KcDgtZHFEMVFSOHdzRFVaaV8ya2FJbV91b3RjNEhXZUdIM1BxVmsxU0lwbWplbEcwbXNncnUycFdvRkxFWm5TSWJ4bVFiREU2RUtYZTJsQ0lqQlJrSGlkVEVSaUlid2hXTERtNk1KQldLXzNiTGtET1pTRGRTSGhhSDd1UTZHbWszTjdWNzB2Vnc?oc=5",
+    "fuente": "Onda Cádiz",
+    "fecha": "2026-11-16T20:01:00+00:00"
+   },
+   {
     "titulo": "Adelante Andalucía propone subir el salario mínimo a 1.600 euros en 14 pagas y actualizarlo por ley con el IPC",
     "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4SnVaZ1doeHpmaWRjamlHSWJDWTdWZktTN2swSUotdF9fN3JESWVDRzltQUdGSm9ybzZ6WkV5M1pPbGhIQ2ZGSlhjZEtuSUpOT1VXMm1UNW4wcGZmZVJoUHQzMDdpVDM1QWQwVlJHSEVxSUE3NWJBNHZtbTE4WlE?oc=5",
     "fuente": "Crónica de Andalucía",
@@ -607,12 +605,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUXZnLUlFcl9GRlFycHVGZnM4dFNiU2d2cUR6RUNrRUc0aGFtTDZ4STR2MHo0OXg4ak9VYmVWVmhkSWp6eUhuS2JOUzNRQW9EUFZPdTh4aVlBWjdEQ0FEVjk0QjlkdXN2Ykk5UE00OTlPRnhDWWgza2NLQk1BNFg2bHlZZDBpWmhLUnRNUTdDM3dITzNxUExuWWdmTTFZMWFaTFVSNzZ5OUxJUlc2N1Nmdk9ZMDdUanNUNUhFT1dGYjhvMVRCaDJsT1poc1VHa0trUnhIcGJrdExESm1TQ1RsUm12SdIB4wFBVV95cUxOUXZnLUlFcl9GRlFycHVGZnM4dFNiU2d2cUR6RUNrRUc0aGFtTDZ4STR2MHo0OXg4ak9VYmVWVmhkSWp6eUhuS2JOUzNRQW9EUFZPdTh4aVlBWjdEQ0FEVjk0QjlkdXN2Ykk5UE00OTlPRnhDWWgza2NLQk1BNFg2bHlZZDBpWmhLUnRNUTdDM3dITzNxUExuWWdmTTFZMWFaTFVSNzZ5OUxJUlc2N1Nmdk9ZMDdUanNUNUhFT1dGYjhvMVRCaDJsT1poc1VHa0trUnhIcGJrdExESm1TQ1RsUm12SQ?oc=5",
     "fuente": "Cadena SER",
     "fecha": "2026-11-16T12:51:57+00:00"
-   },
-   {
-    "titulo": "Adelante Andalucía reclama un plan de reindustrialización para el Campo de Gibraltar y una red ferroviaria de cercanías",
-    "enlace": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOWmxhNkNKVmVBSmRyTFoweC1seUV6N2x1QkRlYXluNGVDVjkyc2sxSzJfM205QnRiczVBallIQ3ZJU2d1QVhqRmc1N3dnQ09ZOVlReFpXT2RXTFlJazZqckFBdXJ4ME9YM0tEX2lzNUpGeVBEbHpyUDRENV9fYUFuNHFFNV9ic2lqcUJFenJDZVJpRmFOWWlhYkFSWDJKeDJKTFkyN0NINk53d2VWWjZiM2xJZ0VSUWlWRVluZ1ZnOXljREZGblpvcWFISHBockVjQVBES2xlclA0algyTkpCakVaLUNjeTRHZngydmlsR3lyanJjLXJXYWFYZVpJOUNHQXpDcm1iTm52UDZCUXozOWxGN2ZlRTlOZGlYaEZoUdIBnwJBVV95cUxOWmxhNkNKVmVBSmRyTFoweC1seUV6N2x1QkRlYXluNGVDVjkyc2sxSzJfM205QnRiczVBallIQ3ZJU2d1QVhqRmc1N3dnQ09ZOVlReFpXT2RXTFlJazZqckFBdXJ4ME9YM0tEX2lzNUpGeVBEbHpyUDRENV9fYUFuNHFFNV9ic2lqcUJFenJDZVJpRmFOWWlhYkFSWDJKeDJKTFkyN0NINk53d2VWWjZiM2xJZ0VSUWlWRVluZ1ZnOXljREZGblpvcWFISHBockVjQVBES2xlclA0algyTkpCakVaLUNjeTRHZngydmlsR3lyanJjLXJXYWFYZVpJOUNHQXpDcm1iTm52UDZCUXozOWxGN2ZlRTlOZGlYaEZoUQ?oc=5",
-    "fuente": "Cadena SER",
-    "fecha": "2026-11-16T12:28:39+00:00"
    }
   ]
  },
@@ -796,11 +788,25 @@
    "partido": "PSOE"
   },
   {
+   "titulo": "Un detenido por lanzar una silla a un policía nacional tras el mitin de Abascal en Maó",
+   "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPR0hid05BWUdIMnhnRHVXaThmZ28xdTQ2YTRSbUJMbEpITXlaRXcyRWo0QmJRN3RpZzJFUzhOX1U5WUxzeVk2d0Y0T0Z2aUZoRHNCdGdiQlc4WXNuNklrbmZqZnNwQk9Bb01zTGljR1QtMEExamllbEZYRGM5OU9uSklLUmRaOU1ZdG9xSFhPZi1oVjZWR3dFN0xKanRQMV9HY21Nd0JtSFlOZjlqUHJUYWtfV1Z1MWU4UHhNalcwWVVBUdIBwgFBVV95cUxNWG1DdUFlNVBBYjgzTlZUbXQzdlhjMUUyV201XzJ5Z3k0dURMRjJER1BWNGZHNFdrRm9lekI2VFhzMXJZZUotcERMQms3NjVuOGRLNmpnZHVVQzdYZG9fMzhsWm1lYkhUUFA3TEpPdkxOUmEwLWxIa29KeGdMUFdBb1VBRlhMTjJNckh1aGFGLU9fcGN4eU0zSFpzWXgxVUNERllBdlV5WU51VmpfOGxoYnRIc1VQUm5WLUVfRmJnam0ydw?oc=5",
+   "fuente": "Menorca - Es diari",
+   "fecha": "2026-11-16T13:03:00+00:00",
+   "partido": "Vox"
+  },
+  {
    "titulo": "La I Maratón oficial de Toledo resulta no ser oficial: PSOE habla de 3.500 corredores \"estafados\" y pone a Vox y PP en el centro de la polémica",
    "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSG8zblNFcXVoOEE0aXdxdGdpdzBKMmdXNmg1bllMeUhuSXo2ekdGQkp5Ukh4OGRRcjE0M3VaTXA3MG4zc3dlM2dPa3dKbG51MkRSc0dlaFdKT1o3eGMyU1NDOTRxemxtTlVjdXVvSi05TnhrcVQyUThvMkFHbkg2T3JRanpRTWJwSjJWYXZGd1ZWbnRrYjBMVl9qeXNsaG9UM3JGSTlBQUxnX1ppNFBUVlo4TjJmNlN0MTkzTEUtbURCWEZ0MnBVTWpFbWZQMDYtWFRfakVFSHLSAd4BQVVfeXFMTm1xZUVEdFhjSndScnFuMGduMzZHekhJOEdiUXc0ZFN6SUw4NmxyTGNmVEJpNHJmRTVBUEM2UTdRTVVwbktYTS1lRGs4LUxwM0NtWE9yTUlDOU9WMUdpNEcwOGJ0VkdCWVRWNG9QbjdpZy00NG5DcVFnUFVqcFlYWlB4c25XdmVNWURUNDcyQk9oQ2lIWjRoWlp3akV5UjZsX2JZalU1M0tKZWZfdTUwMDRfRzJaVk4wbkhhaDJKY3FELWxXTzA0aHUxYThfU2Q1clh6eUg0YVB1T3hiQVBB?oc=5",
    "fuente": "Xataka",
    "fecha": "2026-11-16T10:00:00+00:00",
    "partido": "Vox"
+  },
+  {
+   "titulo": "Nueva bronca en redes entre Luis Figo y Gabriel Rufián: «No todos nos vendemos»",
+   "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRUV6bFhkWF95d21vQUdGNTBEc1ptelBKRnpxVzVHSWFoYllmdHBtTVhiZV9uNWl6NktoaGp0N2YyM255c1pUZi1HTUdrbm5FU3dveG9fTC1HUmxqMmZLQkhaR2ZXOGdlV1J6eFFyYTZ6ajRPVTJSUDZNZnhyeDRvMmctcVNtWml2VVVQVmhYT1lqSVc5MlVublhqamhpUFdYYm9KVWFBeDBsQTTSAbABQVVfeXFMT2FfYUs2RHY0UzJQRVBWdzd5NGVVTEF6cmRXSS01TEdnSXRFdUdmQlAtLVpLdkRwcnNfQ0VLT2Jqa2NRd2VHUHliYy1BMG9aWkQxLVdRUGNKZ3pZSEJyN1NIVUlxeDY4ZGlzd09iUzVuZDNRbmk0a0JaS1pidk5JaXdHSVBRNHRPaF9feEY4NGJZZFNIS0FtcnhaVi1FaURmUGJEN0RxMmNLMFU4VEhXZEw?oc=5",
+   "fuente": "El Correo",
+   "fecha": "2026-11-16T08:31:45+00:00",
+   "partido": "ERC"
   },
   {
    "titulo": "Sánchez regresa a La Séptima con polémica al calificar a Abascal de \"racista\" y señalar su herencia árabe: \"Se refleja en su rostro\"",
@@ -829,13 +835,6 @@
    "fuente": "La Vanguardia",
    "fecha": "2026-11-15T05:00:00+00:00",
    "partido": "PSOE"
-  },
-  {
-   "titulo": "PP y Vox rechazan reparar económicamente a las víctimas del escándalo de los cribados del cáncer de mama y expulsan del Parlamento a una mujer andaluza que perdió un pecho por ello",
-   "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVHhJc2I0RnFaZTlXb1RNY2htZGxtS3VvYUhSWE56eEdUczNIdWpxWE9GbTRlMmVMcWFRSFUzVlN1U1V1azR4ZHdfRFB6TWJ1M0NmbDVDY0J4THlMS29kNTZhWWVYU0tKc0oxR1B6czdTVjZmRzhEWk9DTmJhMGJLYlVDOUpHQnRNemwzaGs0N245Q3Vhdk9MUFRRNGhLT3FXTURYRTNDeER3eVJoMnJid3FiY3ZpM1lnbDdBYTgwUWN6RGRxZGtIWWswalZQbXhIaEVv?oc=5",
-   "fuente": "espacio andaluz",
-   "fecha": "2026-11-14T17:42:26+00:00",
-   "partido": "Vox"
   },
   {
    "titulo": "Ayuso atribuye a la «manipulación» del PSOE la investigación del ático en el Tribunal de Cuentas",
@@ -888,6 +887,13 @@
    "partido": "Bildu"
   },
   {
+   "titulo": "Rufián se \"cansa\" de Junts y amenaza con llevar su enfrentamiento hasta el \"ostracismo político\": \"No me escondo\"",
+   "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNM1FqWU9mdDlCYzA2dTNETEhJLW1KWWUyNVdNSXh0VEZsa0sweFpzaTVCb2IxSXRYcjdrVWo0MVFWVHdvR1k4RWttZmsyUVk1ZVFxc3REVmVHSVJwakVMaEp1T19KNWdvSGJaaXdfekFnVkJTX0xaWVBQa2cwQjUzY3J4WEFYeURoclBVS2c5TzVibnU1clFsVm5PbXZMbk01dVhGSktJU0tjOGd4bENrTG1Id1ZFSWY0RHRlVERRb014YzE0M09oRFVJdVNxOHpDRXpBV3JMbkIwXzBH0gHwAUFVX3lxTE5OZk9YMUxqLUdWWTlGRmNoUG9MZUp3bHpYNWNmQnRvRVNpMUI5WGNic3g1LWR4SVFzSXRkZnUwYlJHUGtwSlVLZE1wUlNSMU5BZ05odmJNbUNfRFBSdnYzbXh1X1F4TWtYVFhTTHotYXN2MFBTaklSeWFfam1BbWh0QzNUWU1WbmVZQ2hxTlQyMlZfcWZPQjR6WDY4Zkh3WmtQUklxdHJGd3lHRVZ0S1RhenBvN3Jrb1dndnlwUnNjZG42SnRZLVdQZW11QnVJeFhDV0F1RzVvbUlxYWktSDY2RnF5U3lsdk1uNndVU1NPVA?oc=5",
+   "fuente": "La Razón",
+   "fecha": "2026-11-13T12:30:16+00:00",
+   "partido": "ERC"
+  },
+  {
    "titulo": "El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
    "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVjdlMzZIR1AyZzVEN1lFQnh0c0FuNGhyNktxdWpCWVpMc2JJSk5UTzNyRGdOSV9BRUgtV1ZOd0Y2VzFUdUtCWWFjcmhibHJuM2NlLUlJcnpJc1YwMV8xZ2V3ZE4yS24tM1R2MjAxQUZjYURjNTRLdU5lOFhmZ3p0WFZYUktwTlpPc09yQjYtVVM0Sm5oTV9MWFItNnBGZEYwTElpblFHUFdIQdIBrwFBVV95cUxPQlBRdUNMdWdvRnhsUkU1cjc2SkRuUTRJaG1OLTBzaTVaTlNBRnh0TWw0aXNEblJFVVpkNURBUThyN24yOHMxZy1TZkwzTTBaOXVhY1pXYXp1QkFVQ1pWbEpEdFlTb2FuRE9fOXhJRkVELW1EVHVVVGpBU0RmV05mWEFON29ia255TjRsV2ZsMGYxRXZVa2Mxa3NaeEYtVjhmeXNLWWhxVXh5bnNyM3dB?oc=5",
    "fuente": "El Correo",
@@ -906,7 +912,7 @@
    "enlace": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdGRaZjJkWm9HclNWQnk3a25mMkpsNWx4YlhiazVFMEk1d2l0OWlET3BjZ0I4VHRnaEx6WFRydk11UDhKVkJPSU85TWVYQ0VpbnZlMnU0YTNxcjVzZktVZ2tXNWpQeDZ2bWxiamFxXzkzZzV4cElhRDdCZUpPU0M2R1BOcG1yRDh6ZVE?oc=5",
    "fuente": "El Liberal.cat",
    "fecha": "2026-11-12T19:50:44+00:00",
-   "partido": "Junts"
+   "partido": "ERC"
   },
   {
    "titulo": "PSOE y Frente Amplio vetan la participación de Podemos en el debate electoral de la Academia de la TV y la condicionan a que participe Alvise",
@@ -914,6 +920,13 @@
    "fuente": "Diario Red",
    "fecha": "2026-11-12T11:45:30+00:00",
    "partido": "SALF"
+  },
+  {
+   "titulo": "David Broncano pide perdón en 'La revuelta' por aceptar el veto de Abascal a su público y decepcionar a la izquierda \"más que Rufián\": \"No estuve a la altura\"",
+   "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQR29iRUs2alZEb255anR0eDZoZFV6QzZjQURJdnlLQXE0S1pDWm5kRnRVZjB5Y2dfVG80NExTckRxRlNEZ0ZPa3NTc2FwbGhZUnFzT09JdDFYZGd3SWZIOFhxaGx0U2pQSnhyWjl3ZXBCT3dUNEtKSUdSMjF0UWVhN25wc0lDemJyb3Q5cTBGZE40cnlNYk14MFd5cE5Bb1BsWUYtbld2dVVlTzhDZDY3YzUwUmxRdlJYUTVJNk5jV2QtSWRxRUpxbkU2SXNXZi00RmRPT0FhYkduMGxESUVCdmRfQ21EbzlBTXloVtIB7AFBVV95cUxOblF6QWlTdVl1RFVrRkNSN2NndUJZZE1MUE9KVG1wREZ0bzV5RDRnMXJQYXhmOXljb2MtcW13enR2OU9oaEZ1VjRuTzRPZmFkVWRyVnVJSVcwZ29xb19nd3IwU3dmV3FXc2xZRVMwbHBQQmZvV1RwSmM3TC1uZGZvY21BMjY5Vkd5WlBOTHdJdFAzOTJ4Um5ESUVZNHppcTdhVThQUTdWb0xVMl9JZ28tVTdkRWpvRkxNOFZQNFEzUTkwLUdFUUItdS0tbDVFZXJoMVBRYUVNd1h0RV9KdUlRMkdDWV9ydXg0ZXNHMQ?oc=5",
+   "fuente": "El Periódico",
+   "fecha": "2026-11-10T21:52:20+00:00",
+   "partido": "ERC"
   }
  ],
  "medios": [
