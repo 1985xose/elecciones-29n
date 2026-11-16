@@ -1,6 +1,20 @@
 {
- "actualizado": "2026-11-16T03:01:53+00:00",
+ "actualizado": "2026-11-16T04:02:00+00:00",
  "generales": [
+  {
+   "titulo": "El PSOE renuncia a competir con PP y Vox por los grandes mítines en Valencia pese a la bolsa de escaños en juego",
+   "enlace": "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-11-16/psoe-renuncia-pulso-pp-vox-grandes-mitines_4464852/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-11-16T05:00:00+01:00",
+   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/7a5/046/7a5046dd82fe17bcd79654084b9dc630/vox-reserva-la-plaza-de-toros-de-valencia-para-cerrar-la-campana-en-un-pulso-de-movilizacion-con-el-pp.jpg?mtime=1793965938"
+  },
+  {
+   "titulo": "Las claves del voto indeciso: la movilización de la izquierda beneficia al PSOE a dos semanas del 29-N",
+   "enlace": "https://www.eldebate.com/espana/20261116/claves-voto-indeciso-movilizacion-izquierda-beneficia-psoe-dos-semanas-29n_478212.html",
+   "fuente": "El Debate",
+   "fecha": "2026-11-16T04:39:48+01:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/09/6af232d747633.r_d.1074-492-0.jpeg"
+  },
   {
    "titulo": "Feijóo se lanza a por el voto de los baleares de cara al 29N: «Necesitan un Gobierno que se ocupe de la vivienda y la inmigración»",
    "enlace": "https://okdiario.com/baleares/feijoo-lanza-voto-baleares-cara-29n-necesitan-gobierno-que-ocupe-vivienda-inmigracion-20902008",
@@ -14,13 +28,6 @@
    "fuente": "La Razón",
    "fecha": "2026-11-16T03:24:36+01:00",
    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/15/1489BAC8-56A0-425B-8535-C6705655FB58/encuesta-valoracion-lideres_96.jpg?crop=1897,1067,x6,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "El PP mantiene su mayoría absoluta en el Senado, pero no llega a los tres quintos con Vox",
-   "enlace": "https://www.abc.es/espana/pp-mantiene-mayoria-absoluta-senado-llega-tres-20261116010020-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-16T01:36:58+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/senado-kykF-U40358169693FuG-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Las claves del voto exterior del 29N: cómo se apartarán las papeletas de los 'nietos' en los consulados y en el escrutinio",
@@ -42,13 +49,6 @@
    "fuente": "Nueva Tribuna",
    "fecha": "2026-11-15T18:52:25+01:00",
    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/11/15/2026111518464461392.jpg"
-  },
-  {
-   "titulo": "Plan Sonríe: qué es la ayuda de hasta 200 euros para ir al dentista que promete el PSOE en su programa electoral",
-   "enlace": "https://www.elconfidencial.com/espana/2026-11-15/plan-sonrie-ayuda-200-euros-dentista-psoe_4465465/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-11-15T18:04:00+01:00",
-   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/2cb/24e/2cb24e9a0550924c7ba70247a7d85498/500-medidas-para-remontar-las-encuestas-que-propone-sanchez-en-vivienda-impuestos-pensiones-y-union-de-amistad.jpg?mtime=1794754689"
   },
   {
    "titulo": "El PSOE incluye en el programa electoral la semana laboral de 37 horas y media y empezar a negociar bajarla a 35",
@@ -75,10 +75,24 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "Feijóo se lanza a por el voto de los baleares de cara al 29N: «Necesitan un Gobierno que se ocupe de la vivienda y la inmigración»",
+    "titulo": "El PSOE renuncia a competir con PP y Vox por los grandes mítines en Valencia pese a la bolsa de escaños en juego",
+    "enlace": "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-11-16/psoe-renuncia-pulso-pp-vox-grandes-mitines_4464852/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-16T05:00:00+01:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/7a5/046/7a5046dd82fe17bcd79654084b9dc630/vox-reserva-la-plaza-de-toros-de-valencia-para-cerrar-la-campana-en-un-pulso-de-movilizacion-con-el-pp.jpg?mtime=1793965938"
+   },
+   {
+    "titulo": "El PSOE activa a medio millón de votantes y recorta pero no pone en riesgo la mayoría absoluta del PP y Vox",
+    "enlace": "https://www.eldebate.com/espana/20261116/psoe-activa-medio-millon-votantes-recorta-no-pone-riesgo-mayoria-absoluta-pp-vox_480764.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-16T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/13/6af74c0dc69ec.jpeg"
+   },
+   {
+    "titulo": "Feijóo se lanza a por el voto de los baleares de cara al 29N: «Necesitan un Gobierno que se ocupe de la viv...",
     "enlace": "https://okdiario.com/baleares/feijoo-lanza-voto-baleares-cara-29n-necesitan-gobierno-que-ocupe-vivienda-inmigracion-20902008",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-16T04:00:34+01:00",
+    "fuente": "OkDiario",
+    "fecha": "2026-11-16T03:00:34+00:00",
     "imagen": "https://okdiario.com/img/2026/11/15/frame-feijoo-balears.jpg"
    },
    {
@@ -98,28 +112,22 @@
     "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNa3g4WDk5cXNWX3dvVkJ1MHphY09BajA5YUo1UGpPZUFXQ1V4Zkd0RUc5R05aN0hUa2ZPdVEwMmwtQVJZdHVUSlhkckVmNHgwU05Nakk1aEh0SndkbkdwbFlvcFNiYVpIcEJYOEoxdjdKdzh6Tk9Db1dtaVh1Qy1GTzVfLXppODR6aElZZVUtWFVsbkF2MWo1dmwwdUQ1dF9iWnZ3cXdxRVc1cEN2Y3g5eDh1aFlPX0gzVk1zYWpScGtCV244WlZidVNFNnZnRmpC?oc=5",
     "fuente": "Europa Press",
     "fecha": "2026-11-16T01:02:26+00:00"
-   },
-   {
-    "titulo": "María José Catalá: \"Feijóo está ante el reto de su vida y le costará sangre, sudor y lágrimas\"",
-    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/16/6af9e07ee9cf4a2f498b457f.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-15T23:10:00+00:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947597552651.jpg"
-   },
-   {
-    "titulo": "Rueda pide un \"voto masivo\" en Galicia para hacer a Feijóo presidente",
-    "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNb05uQXdRZ0J3c19FNk5oeHo3ZGg5bnJYSzZkMi1tMjRmcHYtZ0JYbUhCRWs0VjFCRUxzQWlLM0RZXzJiWWI4ampXS1MxMk1sWjI0dk90cU9NWUgwUnFiek11eHJLMThRVGlxcHFTN1F4Q3RaM3lIX1NuOVBDM1hwT24ycENpMDBGUzZ4ZjNIeXd2V0Y3M3ZDalpVenFkSFJveDVPRThPdlh1MDcyUksyclJHdlRBdGh5TVBXV0kwMW5tWVRxSzBqa3RsSjY5MnlVSVZCc0VwWnRCMGJDN3BYZkp5NNIB6AFBVV95cUxOb1E2MWstU01WNE9YMVM3Z2NqRkVKSE9SNDU3eHN6VU9fWWV4X2dUdmtCU0g3d0xZSEtOVzhoS3o3OW44VnJ1X1RvSnRZQzhNS2N6MUxrTDRRSDJjWHRfQ3lKRzRIcURRLU55TzFLQjBpc2xuSU5NNDUxamZBTXE3dlYzTTdQRy1DQWtLcS0yYVhPR0l4MkZscnFuT1NKSC1VczRWWnR4QURtUE9zekx1NTk4LUVvbVQ3Z3VYTGFfWjhkUUU3djJRdUVVejh3enRWZUxrYzd3N0E3dTZtSUY3TEZZMU1tdkJW?oc=5",
-    "fuente": "Diario de Pontevedra",
-    "fecha": "2026-11-15T22:42:06+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "Feijóo obtiene un 4,3 y Sánchez y Abascal empatan en el suspenso",
-    "enlace": "https://www.larazon.es/espana/feijoo-obtiene-43-sanchez-abascal-empatan-suspenso_202611166afa69644196933d7ede77ed.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-16T03:24:36+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/15/1489BAC8-56A0-425B-8535-C6705655FB58/encuesta-valoracion-lideres_96.jpg?crop=1897,1067,x6,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "El PSOE renuncia a competir con PP y Vox por los grandes mítines en Valencia pese a la bolsa de escaños en juego",
+    "enlace": "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-11-16/psoe-renuncia-pulso-pp-vox-grandes-mitines_4464852/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-16T05:00:00+01:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/7a5/046/7a5046dd82fe17bcd79654084b9dc630/vox-reserva-la-plaza-de-toros-de-valencia-para-cerrar-la-campana-en-un-pulso-de-movilizacion-con-el-pp.jpg?mtime=1793965938"
+   },
+   {
+    "titulo": "Las claves del voto indeciso: la movilización de la izquierda beneficia al PSOE a dos semanas del 29-N",
+    "enlace": "https://www.eldebate.com/espana/20261116/claves-voto-indeciso-movilizacion-izquierda-beneficia-psoe-dos-semanas-29n_478212.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-16T04:39:48+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/09/6af232d747633.r_d.1074-492-0.jpeg"
    },
    {
     "titulo": "El PSOE defiende la Ley de Memoria Democrática frente \"a quienes intentan\" derogarla",
@@ -145,20 +153,28 @@
     "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVXJNNTJCaENDdzVaSF9ZUlFtSTZUMzdRZHgzSjZsWVl5T1FxN2Y0ODVDdzFCY2NEUDlJLWNuOGtISnVhV3IzUURkLU9VQmVHYktxNUJ0aGlaaDAzNjNZMXJPeVhSQ0RlcFJNbmNlc3F2TC1VLXpXLXFySU5vSlBlU05ITjhhbnRIOUMxVE9sdEJ2ZlVNYXpLZnhMMGpzYkV6ZVVUMVc3VnhyUllEUW94VjI1RjR0LTJUVjU1Ym5hLUozXzdPLThzTGxNcktKWGU2NFNXNjZnZUZ4M3N1bWNTbklwU0lKc2c3Mmdwekd0bk9keF9MWDVlNtIB-AFBVV95cUxOYndrZEd6dGw2bmtFMGVqTWVHUU5wYVN3UllQakk5dVh1dUNSWWgwVUJyNExZYTg4V1JKczlpR2lraHUtaGJGQkYwbTJrYXlTWk92cDVTd182c1lXa2xlOEY2czBXTWZSTHQzOUNyTWdkNW02YVdIMjNYY081UEJBWUNtampnekUzUk5XWUZ5MEdJZVRKWjN5ZHhrTXpZREdadUFmTjN3ZWtYakQzTnc3QkU0NmNMTWl2NUM0T1VHVkJaTzJ5ZXNuOVdoQVB6dlBMS0x3QlJTU2Q3ZVN6blRZSWc3WXY2LXFqMVZIU0RVTmlkdTVxRFdCUA?oc=5",
     "fuente": "Expansión",
     "fecha": "2026-11-15T23:02:00+00:00"
-   },
-   {
-    "titulo": "El PSOE despacha en su programa electoral la lucha contra la corrupción con tres medidas genéricas: \"Hemos conseguido una democracia más limpia\"",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQVRvZFZBSDRwZFFiQ3F5eVBPMDhYWUcwaTRSdU9wZ19BclhUNk9NV0dhVHhDM203OXJsbnRoRjhrV0dLdEV6NjlzMTM1ZjRSaGRLOERIOXFrTGRKRW9NaTMzSEJBX2ljUzhYZmUtV2M3cklnNGR5bk0xYVpiWnFrUXBkSHZUTDBKLVZlOS1Dc21fR0lJNDdVLWhfRdIBmwFBVV95cUxOd0ltMkczV1ROaWQ0S0RwQUZaT29pSEVPRURCaDhVQW9SaVVqQU50eW1Gd21sVEVGa2JOQV9ENnotNXAxbzloUEVqeGhBQmR6Qi1oNHFtT0ZnUnprYzZfRWc1N0RmMmcwOUp3Z0tpdk1WSGUzNXJsTjM3RHgwOGJpa05FbXotRERIVXYzWExZNFZfbU15RHZ4NVk2bw?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-15T22:24:21+00:00"
    }
   ],
   "Vox": [
    {
+    "titulo": "El PSOE renuncia a competir con PP y Vox por los grandes mítines en Valencia pese a la bolsa de escaños en juego",
+    "enlace": "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-11-16/psoe-renuncia-pulso-pp-vox-grandes-mitines_4464852/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-16T05:00:00+01:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/7a5/046/7a5046dd82fe17bcd79654084b9dc630/vox-reserva-la-plaza-de-toros-de-valencia-para-cerrar-la-campana-en-un-pulso-de-movilizacion-con-el-pp.jpg?mtime=1793965938"
+   },
+   {
+    "titulo": "El PSOE activa a medio millón de votantes y recorta pero no pone en riesgo la mayoría absoluta del PP y Vox",
+    "enlace": "https://www.eldebate.com/espana/20261116/psoe-activa-medio-millon-votantes-recorta-no-pone-riesgo-mayoria-absoluta-pp-vox_480764.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-16T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/13/6af74c0dc69ec.jpeg"
+   },
+   {
     "titulo": "Feijóo obtiene un 4,3 y Sánchez y Abascal empatan en el suspenso",
     "enlace": "https://www.larazon.es/espana/feijoo-obtiene-43-sanchez-abascal-empatan-suspenso_202611166afa69644196933d7ede77ed.html",
     "fuente": "La Razón",
-    "fecha": "2026-11-16T03:24:36+01:00",
+    "fecha": "2026-11-16T02:24:36+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/15/1489BAC8-56A0-425B-8535-C6705655FB58/encuesta-valoracion-lideres_96.jpg?crop=1897,1067,x6,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
@@ -179,19 +195,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbHdrYXhmMkFfY2RyaGgxSVVJWk9jWWsyX3ZIejM2VzJscWxBX2dhZlV1U0pMVUhERGZKaXF5cXJ3M01xZVhOT3RDT0Y2ZllNS1hwVERRSlZSeWhKWmxIellOR1F3cVlMNG9CS3dXQ3FDbGFsLWE5Y2JKd2wwbkN2ZVl5RnNSLTlWS2oyWTdjc00wc2lJRWhDSi15ZWpmODhNdkN5WVpacElCZV93TlhMQnBjNVFQUVBBLTg2cmpyQUJQemh3ek5pc0JpN201S1Nl0gHWAUFVX3lxTE9YaGhLY0Rmd2lHVmRVTG9iNUhWX2tEOHhRbnhxZ0dMR0JxcU93VWd4LTVrTDF1NkU4Ykd2NUgtdVB1eUNiRUM0XzhUVEFVVlU0cEZtdVpZc05uU0M5Y2k0SlktNmtoMjFqMzV3NzlBWHQxcnpKRGJVMjMtZndSMmw0QXhwX19EcFFqYmhfLTRLZkc2OFRvWVR3bGxoNDRrVXhCaWFQQll4eHEtTGdkYzgwck03ZHNub3NaN1RXcUpXb0dkeTdOdmdoODFiRWZCWFA0Q1ZJMXc?oc=5",
     "fuente": "MUNDIARIO",
     "fecha": "2026-11-15T22:24:56+00:00"
-   },
-   {
-    "titulo": "Figaredo insiste en que Vox y BNG pelean un escaño por A Coruña y bromea con que no hay protestas por ser domingo",
-    "enlace": "https://www.20minutos.es/nacional/figaredo-insiste-vox-bng-pelean-escano-coruna_7061380_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-15T21:59:18+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/15/6afa1ba18ab188-39827305.jpeg"
-   },
-   {
-    "titulo": "Vox roza un hito con dos escaños en Galicia y dispara a la derecha en Cataluña",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQkl6dVRnN1N4UlBmSVFmNVd4ZEgxMWlPTUVFQlpJQzI2UXBheHZqeWVSa194Tk5iVnFfeDFFcUpxXzJNTVYwNDNtc1Y0NUVfcnR6S1NNYmdNc2k0MUdCWFdGNGxmc2FDN2otMEdoYVJNVW1LMjBoU1BYNXVQWUpXc0h6VnlRY3VlSGRpeXltODlNS3pJOGFEWER3a9IBmwFBVV95cUxQaGVBcDJYM3FNdUcyNzA2SWtTbTFhR0t0R3NWMlFpdlUyRVctdUpORmZiX2hDTjcwdFZuTjU2NVFkNFZfVVJuMGwyWTFSWG1ub0M3UUNsbkd3YzdHTWpRQTdoMmluRjJmSWJjdmxla0N3RU1MMWw4cTVIbkc3Q0NGUDB4RmJPSW9TZ1BWQ3c0bW5UOHRyYzk4eWxsZw?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-15T21:42:42+00:00"
    }
   ],
   "Sumar": [
@@ -496,7 +499,7 @@
     "titulo": "El BNG centra su mitin en Tomiño en la defensa del Miño, la vivienda y las conexiones con Portugal",
     "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNb0gySmZLV1NOdWlicU91U3ZWOEtnRlRxREp6NG9xelJuNGFzekNWYXB6enh6VzVIVVhCck9kV1dzMVdKaHUtNk01SHc3OHJFRlBHRWRGampuTHJoaXBiZkVmQzE2UTBCVUJaR29JNmZHUjdfdDJ0SFdUNkdsVHFyZ19Pdk5vMG1QTm1sRkc5OGpHX0dQU3N1T0d3NWMwRm93OUxUMWprb21IMU00N3NjTzB2dFZneW5Ca29PWVhQZzFsb2d0bjlELU5fTzZiQ2M?oc=5",
     "fuente": "Infomiño",
-    "fecha": "2026-11-15T21:49:44+00:00"
+    "fecha": "2026-11-15T21:51:04+00:00"
    },
    {
     "titulo": "Pontón tilda de \"milonga\" la imagen como buen gestor de Feijóo ante la cita del 29N",
@@ -513,13 +516,6 @@
    }
   ],
   "CCa": [
-   {
-    "titulo": "Canarias bate su récord de llegadas en un día con 1.580 inmigrantes y Clavijo avisa: \"El Hierro no puede esperar\"",
-    "enlace": "https://www.elconfidencial.com/espana/2026-11-15/salvamento-maritimo-migrantes-tenerife-embarcaciones-irregulares-1tna-1tps_4465328/",
-    "fuente": "El Confidencial",
-    "fecha": "2026-11-15T22:01:00+01:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794797466&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
-   },
    {
     "titulo": "Clavijo exige \"acelerar\" la ayuda a El Hierro y una \"respuesta inmediata\" del Estado ante el repunte histórico en la llegada de migrantes",
     "enlace": "https://www.elmundo.es/espana/2026/11/15/6af97162fdddff6c338b4599.html",
@@ -548,9 +544,15 @@
    },
    {
     "titulo": "¿CC modula el tablero del 29N y frena el avance de Vox?",
-    "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTV96cXl2OVhnT3diZy00dUszNzhoN2ZHMzlBWlBxOEhqM2NlTlNIdnQxdEJPckNfYXV4VjNZRVk3VmxfOFFqVFByeEJxbTNZVmw1RXRpcFNSazFpNC1MbGRDbGk3NGhsWVdBLWI2eV9ZcFk3bkx1QXFvQ3l3YWRMZUZKVXM1LXNNSi1FdGdjeDdvUlhtdE90RW9sck5QWWVN0gGmAUFVX3lxTE1BdDY1LTdzaWEzWDg3c01laHg0d0ZYaGJlSTNURjdkaGxCMjVNNlduM1RpM1pBV2xnNE1UanhmR0JiZ3NRWnZjaFIwdmJ3d2dUU0JmQ1ZtSGtOdWczc3FnZENKWXgwMkcxa2ppWXQ5dlEzdlBndHotXzNZcUwzcUFfYWJkTHMwTnBxb19mVXhQUll3dUdncVhwRW9zODAza3pJMXZMVlE?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQXQ2NS03c2lhM1g4N3NNZWh4NHdGWGhiZUkzVEY3ZGhsQjI1TTZXbjNUaTNaQVdsZzRNVGp4ZkdCYmdzUVp2Y2hSMHZid3dnVFNCZkNWbUhrTnVnM3NxZ2RDSll4MDJHMWtqaVl0OXZRM3ZQZ3R6LV8zWXFMM3FBX2FiZExzME5wcW9fZlV4UFJZd3VHZ3FYcEVvczgwM2t6STF2TFZR0gGmAUFVX3lxTE1BdDY1LTdzaWEzWDg3c01laHg0d0ZYaGJlSTNURjdkaGxCMjVNNlduM1RpM1pBV2xnNE1UanhmR0JiZ3NRWnZjaFIwdmJ3d2dUU0JmQ1ZtSGtOdWczc3FnZENKWXgwMkcxa2ppWXQ5dlEzdlBndHotXzNZcUwzcUFfYWJkTHMwTnBxb19mVXhQUll3dUdncVhwRW9zODAza3pJMXZMVlE?oc=5",
     "fuente": "Diario de Avisos",
-    "fecha": "2026-11-15T01:02:27+00:00"
+    "fecha": "2026-11-15T01:21:33+00:00"
+   },
+   {
+    "titulo": "Coalición Canaria ofrece sus votos a Sánchez o Feijóo si se comprometen con las islas",
+    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdGRKMldWNGtJX0MxTjliaThUa2txd1U0RXhTUF9BZTRpRVAyMUg3TUVhUGtnYXhHSzRMOU1ER2NrYTI4NlBvSnZGb1FpanpjdldLeG5SV3VHTi1RcG03QzlRRWpNUTJQZDdjY0RoV05CUnJYT011XzhOWTg2V0hGSy1xY0YtdEUyVDZZeUpTMzZxWUV6c3FtN1VWVEJ6OVBsYzNKY255VXp6TlJ0Y29Md3dxblJtUUw2ck9HX0wwUl9WS00tUkZHT0pDRTlGY0VrcjdkclZ6b0lIenJGS1lv0gHqAUFVX3lxTE16NTFtbUJ1Wk9iMG4tajU5ZTZPRE9aWnJ5ZnJ1QW5ZSmszSFN1S1lZTy0zQ244SjZhVktjRWczc1RoUTRPWVlzR2VJMGtYZGVLUkZZSUVMU0hRZmVlc014dnNrSE4ybUhUYi0tYVFEdUt2LVpZMFZsZG1UaVRBNEZrZ25ac3Z1S1o4OEZsWTIzNHZXRElBNGxja28wczBMcWJreVBiU0RMVXhCQ2ZjYmFYVGc2WXA5Z3h6OWdLcF9DRWJNYXBkVXVQMmdHby1HSzNFS1lTdERRYnFTbXZaWFFjeUZEelIzSVc1QQ?oc=5",
+    "fuente": "Libertad Digital",
+    "fecha": "2026-11-14T10:04:05+00:00"
    }
   ],
   "UPN": [

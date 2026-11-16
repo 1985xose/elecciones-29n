@@ -323,13 +323,13 @@
    }
   },
   {
-   "id": "demoscopiaservicios-2019-04-22-0",
+   "id": "demoscopiaservicios-2019-04-22-950",
    "empresa": "Demoscopia Servicios/Okdiario",
    "empresa_base": "Demoscopia Servicios",
    "clave": "demoscopiaservicios",
    "inicio": "2019-04-17",
    "fin": "2019-04-22",
-   "muestra": null,
+   "muestra": 950,
    "pct": {
     "PP": 21.8,
     "PSOE": 28.1,
