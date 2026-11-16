@@ -1,26 +1,26 @@
 {
- "actualizado": "2026-11-16T02:03:27+00:00",
+ "actualizado": "2026-11-16T03:01:53+00:00",
  "generales": [
+  {
+   "titulo": "Feijóo se lanza a por el voto de los baleares de cara al 29N: «Necesitan un Gobierno que se ocupe de la vivienda y la inmigración»",
+   "enlace": "https://okdiario.com/baleares/feijoo-lanza-voto-baleares-cara-29n-necesitan-gobierno-que-ocupe-vivienda-inmigracion-20902008",
+   "fuente": "OKdiario",
+   "fecha": "2026-11-16T04:00:34+01:00",
+   "imagen": "https://okdiario.com/img/2026/11/15/frame-feijoo-balears.jpg"
+  },
+  {
+   "titulo": "Feijóo obtiene un 4,3 y Sánchez y Abascal empatan en el suspenso",
+   "enlace": "https://www.larazon.es/espana/feijoo-obtiene-43-sanchez-abascal-empatan-suspenso_202611166afa69644196933d7ede77ed.html",
+   "fuente": "La Razón",
+   "fecha": "2026-11-16T03:24:36+01:00",
+   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/15/1489BAC8-56A0-425B-8535-C6705655FB58/encuesta-valoracion-lideres_96.jpg?crop=1897,1067,x6,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+  },
   {
    "titulo": "El PP mantiene su mayoría absoluta en el Senado, pero no llega a los tres quintos con Vox",
    "enlace": "https://www.abc.es/espana/pp-mantiene-mayoria-absoluta-senado-llega-tres-20261116010020-nt.html",
    "fuente": "ABC",
    "fecha": "2026-11-16T01:36:58+01:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/senado-kykF-U40358169693FuG-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "29: Mañueco pide al PP una marcha más para convencer a los indecisos",
-   "enlace": "https://www.larazon.es/castilla-y-leon/29-manueco-pide-marcha-mas-convencer-indecisos_202611156afa0b24d3bddc0868b2bc3c.html",
-   "fuente": "La Razón",
-   "fecha": "2026-11-15T22:00:13+01:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/15/4A5072E8-40EE-4569-A740-6791D84E6837/manueco-saluda-asistentes-acto-salamanca-junto-garcia-carbayo-carmen-seguin-miguel-tellado_96.jpg?crop=5673,3191,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "Los conservadores europeos se vuelcan con Abascal: Meloni, Le Pen, Weidel y Salvini, entre otros le dan su apoyo",
-   "enlace": "https://okdiario.com/espana/conservadores-europeos-vuelcan-abascal-meloni-pen-weidel-salvini-otros-dan-apoyo-20903949",
-   "fuente": "OKdiario",
-   "fecha": "2026-11-15T21:52:56+01:00",
-   "imagen": "https://okdiario.com/img/2026/11/15/frame-apoyos-vox.jpg"
   },
   {
    "titulo": "Las claves del voto exterior del 29N: cómo se apartarán las papeletas de los 'nietos' en los consulados y en el escrutinio",
@@ -75,11 +75,11 @@
  "partidos": {
   "PP": [
    {
-    "titulo": "El PP mantiene su mayoría absoluta en el Senado, pero no llega a los tres quintos con Vox",
-    "enlace": "https://www.abc.es/espana/pp-mantiene-mayoria-absoluta-senado-llega-tres-20261116010020-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-16T01:36:58+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/senado-kykF-U40358169693FuG-1200x840@diario_abc.jpg"
+    "titulo": "Feijóo se lanza a por el voto de los baleares de cara al 29N: «Necesitan un Gobierno que se ocupe de la vivienda y la inmigración»",
+    "enlace": "https://okdiario.com/baleares/feijoo-lanza-voto-baleares-cara-29n-necesitan-gobierno-que-ocupe-vivienda-inmigracion-20902008",
+    "fuente": "OKdiario",
+    "fecha": "2026-11-16T04:00:34+01:00",
+    "imagen": "https://okdiario.com/img/2026/11/15/frame-feijoo-balears.jpg"
    },
    {
     "titulo": "¿Saldrá Pedro Sánchez?: la derecha del PP lidera las encuestas de las elecciones del 29 de noviembre",
@@ -115,17 +115,23 @@
   ],
   "PSOE": [
    {
+    "titulo": "Feijóo obtiene un 4,3 y Sánchez y Abascal empatan en el suspenso",
+    "enlace": "https://www.larazon.es/espana/feijoo-obtiene-43-sanchez-abascal-empatan-suspenso_202611166afa69644196933d7ede77ed.html",
+    "fuente": "La Razón",
+    "fecha": "2026-11-16T03:24:36+01:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/15/1489BAC8-56A0-425B-8535-C6705655FB58/encuesta-valoracion-lideres_96.jpg?crop=1897,1067,x6,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "El PSOE defiende la Ley de Memoria Democrática frente \"a quienes intentan\" derogarla",
+    "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNWnllcjBsYzNqcXdaSGdTVVZUTUZNZ1VQM3lvaTBzMWdiMlN5d0U2TzVUZWpzRWZSelhwREFsUHNOaHZpcUkwVHpjUmgwZFpVWDBoU1VNN0U3RF9GNDA1NGlyZjRIanFKSy1MZEVHTmRsa1Q3SjFQQ2QtVkRBeXdfWHMtS29GRWZsTnd0a1FzTFQ3bkhwQXlWVTlDbnVxakJBdUxCRXJSZ3VrcnNCdlVpTm40WENqVm5FY09JenZ4b3dBUVRnWURGZVM5S2hTTnJWWnA5Yk5iWlhFemV4anJSbUpqU1lKNUR1THkxRmhJc3RWSG1oY2fSAfYBQVVfeXFMTWFqcTZOQU1WREY5RnVnRVg5RFVnS1AtcHVaQkIzeFJGeDEwMWM5VlREQktId1ZxSVdIRkFqc2E2LUd4bXdZeU5OWW1mUEFQTHo5Qk9ZTXBKbG5TLU92QjNsdklaQ1VMUmhGYmNxejdyNnRjNHBRR21La2c0Q0RmdGtSUVdtOUhuMkkyU003VW12Snh3Um1pY0JUV0Q0MGtHQ3pobUxTNVJCeUdXNGFWOXRHN2F5dmhNbW02WWFRSUNEeXRQRGRuWjlNOEJGR2xPYmMtM1E3SDliWGNJZkg3dUE1WDRCSk9UY1BhSDgwZWFSQlpiZkVR?oc=5",
+    "fuente": "Onda Cero",
+    "fecha": "2026-11-16T02:46:08+00:00"
+   },
+   {
     "titulo": "¿Saldrá Pedro Sánchez?: la derecha del PP lidera las encuestas de las elecciones del 29 de noviembre",
     "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQS3IyalhoX0lsZ1FiTnpSd2tsT3VEck5qcktkUzdLdlhqY0c5TWtySGVubThfSjdrY3VXOVlJbzNqbzdFTHpCSHpLeGRYcTdsM2VLQjg0eWhQWGdHMXZVaUY1YldQQTlXRmFFdHhCUVoxVkJNQWgwaFgwYS1LeWJzeWwwWGc5ekYxYXYyRDFyUndsdlZYcjQtVFVlZ2E5RDQtYjVQRElQWktSamEtVWZZalJsbVNneW9KZUFEaS1qNXJoSjVpai1JeTlEUHRLMlBXZnFxXzI2b3F4YUpxaVVaUDhWWWpaZw?oc=5",
     "fuente": "France 24",
     "fecha": "2026-11-16T01:27:42+00:00"
-   },
-   {
-    "titulo": "Causa de la financiación irregular del PSOE: las explicaciones de los técnicos del Tribunal de Cuentas no convencen a la UCO",
-    "enlace": "https://www.elmundo.es/espana/2026/11/16/6afa0cf3fc6c83a70f8b456e.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-16T01:01:29+01:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947723473144.jpg"
    },
    {
     "titulo": "Sánchez se vuelca con Madrid para dar munición al PSOE frente a Ayuso ante \"la increíble fuga\" de voto del PP a Vox",
@@ -145,22 +151,15 @@
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQVRvZFZBSDRwZFFiQ3F5eVBPMDhYWUcwaTRSdU9wZ19BclhUNk9NV0dhVHhDM203OXJsbnRoRjhrV0dLdEV6NjlzMTM1ZjRSaGRLOERIOXFrTGRKRW9NaTMzSEJBX2ljUzhYZmUtV2M3cklnNGR5bk0xYVpiWnFrUXBkSHZUTDBKLVZlOS1Dc21fR0lJNDdVLWhfRdIBmwFBVV95cUxOd0ltMkczV1ROaWQ0S0RwQUZaT29pSEVPRURCaDhVQW9SaVVqQU50eW1Gd21sVEVGa2JOQV9ENnotNXAxbzloUEVqeGhBQmR6Qi1oNHFtT0ZnUnprYzZfRWc1N0RmMmcwOUp3Z0tpdk1WSGUzNXJsTjM3RHgwOGJpa05FbXotRERIVXYzWExZNFZfbU15RHZ4NVk2bw?oc=5",
     "fuente": "El Mundo",
     "fecha": "2026-11-15T22:24:21+00:00"
-   },
-   {
-    "titulo": "Tellado pide a votantes socialistas que \"se queden en casa\" para \"no ser cómplices\" de PSOE y su corrupción",
-    "enlace": "https://www.20minutos.es/nacional/tellado-pide-votantes-socialistas-queden-casa-no-complices-corrupcion-psoe_7061384_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-15T22:18:08+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/13/6af772029926a5-49663525.jpeg"
    }
   ],
   "Vox": [
    {
-    "titulo": "El PP mantiene su mayoría absoluta en el Senado, pero no llega a los tres quintos con Vox",
-    "enlace": "https://www.abc.es/espana/pp-mantiene-mayoria-absoluta-senado-llega-tres-20261116010020-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-16T01:36:58+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/16/senado-kykF-U40358169693FuG-1200x840@diario_abc.jpg"
+    "titulo": "Feijóo obtiene un 4,3 y Sánchez y Abascal empatan en el suspenso",
+    "enlace": "https://www.larazon.es/espana/feijoo-obtiene-43-sanchez-abascal-empatan-suspenso_202611166afa69644196933d7ede77ed.html",
+    "fuente": "La Razón",
+    "fecha": "2026-11-16T03:24:36+01:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/15/1489BAC8-56A0-425B-8535-C6705655FB58/encuesta-valoracion-lideres_96.jpg?crop=1897,1067,x6,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "Sánchez, sobre Abascal: «Es racista pero tiene genes árabes, se le ve en la cara»",
@@ -519,7 +518,7 @@
     "enlace": "https://www.elconfidencial.com/espana/2026-11-15/salvamento-maritimo-migrantes-tenerife-embarcaciones-irregulares-1tna-1tps_4465328/",
     "fuente": "El Confidencial",
     "fecha": "2026-11-15T22:01:00+01:00",
-    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794794001&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+    "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794797466&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
    },
    {
     "titulo": "Clavijo exige \"acelerar\" la ayuda a El Hierro y una \"respuesta inmediata\" del Estado ante el repunte histórico en la llegada de migrantes",
