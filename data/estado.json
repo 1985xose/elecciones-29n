@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-16T10:01:08+00:00",
-  "mensaje": "553 encuestas leídas, 0 nuevas",
-  "ultima_buena": "2026-11-16T10:01:08+00:00",
+  "hora": "2026-11-16T11:01:11+00:00",
+  "mensaje": "554 encuestas leídas, 1 nuevas",
+  "ultima_buena": "2026-11-16T11:01:11+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [
@@ -19,30 +19,32 @@
     "SW Demoscopia/La Séptima 2026-11-09"
    ],
    "corregidas": [],
-   "nuevas": []
+   "nuevas": [
+    "InvyMark/laSexta 2026-11-13"
+   ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-16T10:01:46.299Z",
+  "hora": "2026-11-16T11:01:45.525Z",
   "mensaje": "10000 repeticiones, faltan 13 días",
-  "ultima_buena": "2026-11-16T10:01:46.299Z",
+  "ultima_buena": "2026-11-16T11:01:45.525Z",
   "detalle": {
    "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-16T10:02:12+00:00",
-  "mensaje": "10 titulares del día, 87 por partido, 21 polémicas",
-  "ultima_buena": "2026-11-16T10:02:12+00:00",
+  "hora": "2026-11-16T11:02:12+00:00",
+  "mensaje": "10 titulares del día, 89 por partido, 21 polémicas",
+  "ultima_buena": "2026-11-16T11:02:12+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-16T10:02:12+00:00"
+  "hora": "2026-11-16T11:02:13+00:00"
  },
  "avisado": {},
  "fiabilidad": {

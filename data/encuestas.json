@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-16T10:01:08+00:00",
+ "actualizado": "2026-11-16T11:01:11+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1386000039,
+ "revision": 1386012427,
  "partidos": [
   "PP",
   "PSOE",
@@ -251,6 +251,25 @@
    "primera_vez": "2026-11-14T09:01:10+00:00"
   },
   {
+   "empresa": "InvyMark/laSexta",
+   "inicio": "2026-11-09",
+   "fin": "2026-11-13",
+   "muestra": null,
+   "participacion": null,
+   "pct": {
+    "PP": 32.2,
+    "PSOE": 28.2,
+    "Vox": 19.1,
+    "Sumar": 12.8
+   },
+   "escanos": {},
+   "empresa_base": "InvyMark",
+   "clave": "invymark",
+   "encargo": "laSexta",
+   "id": "invymark-2026-11-13-0",
+   "primera_vez": "2026-11-16T11:01:11+00:00"
+  },
+  {
    "empresa": "Sondaxe/La Voz de Galicia",
    "inicio": "2026-11-09",
    "fin": "2026-11-13",
@@ -369,7 +388,7 @@
    "inicio": "2026-11-12",
    "fin": "2026-11-12",
    "muestra": 1013,
-   "participacion": null,
+   "participacion": 73.1,
    "pct": {
     "PP": 30.6,
     "PSOE": 27.0,
@@ -383,6 +402,13 @@
     "PSOE": 112.0,
     "Vox": 66.0,
     "Sumar": 22.0,
+    "ERC": 13.5,
+    "Junts": 3.5,
+    "Bildu": 7.5,
+    "PNV": 3.0,
+    "BNG": 2.5,
+    "CCa": 0.5,
+    "AA": 3.5,
     "Podemos": 0.5,
     "SALF": 0.0
    },
@@ -1019,7 +1045,7 @@
    "inicio": "2026-10-28",
    "fin": "2026-10-30",
    "muestra": 1024,
-   "participacion": null,
+   "participacion": 71.9,
    "pct": {
     "PP": 31.8,
     "PSOE": 25.5,
@@ -1533,6 +1559,8 @@
     "Bildu": 7.0,
     "PNV": 5.5,
     "BNG": 2.5,
+    "CCa": 1.0,
+    "UPN": 1.0,
     "AA": 2.0,
     "Podemos": 2.0,
     "SALF": 0.0
