@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-11-18T00:01:57+00:00",
+ "actualizado": "2026-11-18T01:01:55+00:00",
  "generales": [
   {
-   "titulo": "Teletienda electoral",
-   "enlace": "https://www.abc.es/espana/juan-soto-ivars-teletienda-electoral-20261117192650-nt.html",
+   "titulo": "Sánchez busca retener al más de medio millón de votantes que se va al PP",
+   "enlace": "https://www.abc.es/espana/sanchez-busca-retener-medio-millon-votantes-pp-20261117013708-nt.html",
    "fuente": "ABC",
-   "fecha": "2026-11-18T00:39:52+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/17/yolanda-diaz-uno-kNwC-U404000724296VB-1200x840@diario_abc.jpg"
+   "fecha": "2026-11-18T01:37:21+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/17/1520410626-RizN4zww6wGJKhNNsuZKQvO-1200x840@diario_abc.jpg"
   },
   {
-   "titulo": "Un magrebí increpa e intenta boicotear al equipo de Vox en Toledo mientras denuncian la inseguridad en Fuensalida",
-   "enlace": "https://okdiario.com/espana/magrebi-increpa-intenta-boicotear-equipo-vox-toledo-mientras-denuncian-inseguridad-fuensalida-21043706",
+   "titulo": "Azcón se mofa de la campaña del PSOE con «camisetas olvidadas»: «La fuerza de los paradores, de las saunas, de los bildus…»",
+   "enlace": "https://okdiario.com/espana/azcon-mofa-campana-del-psoe-camisetas-olvidadas-fuerza-paradores-saunas-bildus-21043951",
    "fuente": "OKdiario",
-   "fecha": "2026-11-17T23:30:17+01:00",
-   "imagen": "https://okdiario.com/img/2026/11/17/magrebi-2-ok.jpg"
+   "fecha": "2026-11-18T01:07:00+01:00",
+   "imagen": "https://okdiario.com/img/2026/11/17/azon-ok.jpg"
   },
   {
    "titulo": "Elecciones generales 29N, en directo: última hora de la campaña electoral de PSOE, PP, Vox y Frente Amplio",
@@ -58,34 +58,34 @@
    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/11/17/2026111719040382888.jpg"
   },
   {
+   "titulo": "El TS da dos días a Interior para acreditar la seguridad de los 61.693 dispositivos contratados para votar con el DNI digital",
+   "enlace": "https://www.elconfidencial.com/espana/2026-11-17/supremo-interior-acreditar-61-693-dispositivos-dni-digital_4467040/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-11-17T17:24:00+01:00",
+   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/94a/659/94a65901c5ae1aa5f286aaf10b8e8d61/interior-paga-de-emergencia-7-millones-para-alquilar-61-603-aparatos-que-verifiquen-el-dni-digital.jpg?mtime=1793861086"
+  },
+  {
    "titulo": "Te invitamos al concierto de piano de Chano Domínguez en el Ateneo de Madrid",
    "enlace": "https://www.infolibre.es/club-infolibre/invitamos-concierto-piano-chano-dominguez-ateneo-madrid_1_2239544.html",
    "fuente": "infoLibre",
    "fecha": "2026-11-17T16:40:20+00:00",
    "imagen": "https://static.infolibre.es/clip/02d9956d-3cb1-46de-abef-b700ef1aa70f_16-9-aspect-ratio_default_0.jpg"
-  },
-  {
-   "titulo": "¿Qué dicen las encuestas sobre el 29-N? La carrera hacia la mayoría absoluta, en seis gráficos",
-   "enlace": "https://www.elconfidencial.com/espana/2026-11-10/encuestas-elecciones-generales-29n-mayoria-absoluta-graficos-cbtr_4460274/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-11-17T09:00:00+01:00",
-   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1794960024&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
   }
  ],
  "partidos": {
   "PP": [
    {
+    "titulo": "Sánchez busca retener al más de medio millón de votantes que se va al PP",
+    "enlace": "https://www.abc.es/espana/sanchez-busca-retener-medio-millon-votantes-pp-20261117013708-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-18T01:37:21+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/17/1520410626-RizN4zww6wGJKhNNsuZKQvO-1200x840@diario_abc.jpg"
+   },
+   {
     "titulo": "Feijóo se lanza también a conquistar el algoritmo",
     "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVDRrZzBuOGRNVklxX0JMNHNMTWRLQ2dFVWl6RHlKc0t5LUdLTlNURnlodVRPaDIxMFdpbEU0a1lrQlh6NXZpS2RMVEpSSjNUbjJ2eVR0VWRJM3MtaVhlWnFXOHFWaG9RNERrMF96a0MtNGV2V0NGZ09lZkU1aTlkR09zdVpacU9yNHFwN21TalBRMU5HVTgwb1BlaXNDMWdvQ1dRRmt4Z9IBrAFBVV95cUxPTElRRXMwMW92MzlOMG9QWUxJMEZMcVNWZV96LVlBaDV2Zm5wdHExUEJLc2dzbVlpUXFiYV83eEh0eFhaREtOc2hRWHViRXdiRmQ2QUw4SzBCeDRqSklpb2swQkNCYWtldnllbmMta25CVjdLQlUwRXBWR1lwbmhBNDBtYXVYWXg5akk4Y0tzZHVGd1pDMTFubURKdWo2Ym5Rbm5TUkN0akh0Zm52?oc=5",
     "fuente": "El Correo",
     "fecha": "2026-11-17T23:02:09+00:00"
-   },
-   {
-    "titulo": "Alberto Núñez Feijóo, sobre el sanchismo: «Se ha cargado a España y al Partido Socialista»",
-    "enlace": "https://www.abc.es/espana/alberto-nunez-feijoo-sobre-sanchismo-cargado-espana-20261117215250-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-17T22:23:01+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/17/1520427050-RWqPVMpFmAci1G4M6M4y8uM-1200x840@diario_abc.jpg"
    },
    {
     "titulo": "Azcón: “Si alguien defiende Aragón y Teruel en las próximas elecciones es el Partido Popular”",
@@ -114,6 +114,13 @@
   ],
   "PSOE": [
    {
+    "titulo": "El PSOE no menciona ni una vez a Marruecos en 114 páginas de programa",
+    "enlace": "https://www.larazon.es/espana/psoe-menciona-vez-marruecos-114-paginas-programa_202611186afc9c42103a0e0a474df8e7.html",
+    "fuente": "La Razón",
+    "fecha": "2026-11-18T02:00:13+01:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2022/03/26/B367426A-01EC-4B34-B49D-7559AE096F7C/96.jpg?crop=3800,2138,x0,y273&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
     "titulo": "Sánchez resalta el blindaje del poder adquisitivo a 15 millones de personas",
     "enlace": "https://www.lavanguardia.com/politica/20261117/11686876/sanchez-resalta-blindaje-adquisitivo-15-millones-personas.html",
     "fuente": "La Vanguardia",
@@ -139,26 +146,19 @@
     "fecha": "2026-11-17T22:56:18+00:00"
    },
    {
-    "titulo": "Por qué el PSOE no puede bajar en votos",
-    "enlace": "https://www.elmundo.es/espana/2026/11/17/6afca97521efa01c438b45ba.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-17T22:50:54+01:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/17/17949437455630.jpg"
-   },
-   {
-    "titulo": "Alfonso Guerra pide en Utrera el voto para el PSOE para evitar “los recortes en educación, sanidad y otros servicios que tiene previsto el PP”",
-    "enlace": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNQkN1cGVUdjBiRjk4Nl9wcmQzNml3T2thM19nUmtTZTE5YmFWNHB4R1lCejJqOXV1WFJLUHB6WVhNQzYxcnVERzh3X3FMaTNwN2V2NG8wRnNFSERZYjNwdS1iSFZWS0V5aDZlV1pBNjUzM0daQVZuakFmcDBFZ2t2Y1cza0xXVEZDLTZ0MWJ6azVtRXI4ZmtDY0lOdWhkaE9aa09lZUZHTkVLbkxjLWlybmRObFBOUEtEZnZIemRfQXNjQUFoQklKaFZRQVF5UGkybWl0UUk2V2RfZkVNdDJPMjAtelpGZ1VPMEQtOENyQlVzQWlreXZIcU94emdBQU5xMGxwSjVWMW9rYTRMNXZXOHZrZVZJN0RDVWVxS2ZLUks3OFhhcG82YzJFQ3VhRW5JN3dLa1Zucm5sdw?oc=5",
-    "fuente": "www.utreraweb.com",
-    "fecha": "2026-11-17T22:04:14+00:00"
+    "titulo": "Pedro Sánchez reivindica en Albacete sus medidas sociales y llama a una movilización histórica para ganar las elecciones",
+    "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN3cyQjJYT0FCOXY2U0hVenhSVDEyVTYzRjdPVjNiSzcxa1l6N1JPMm0ySnlDOUpUTDQtZHg4aHZYQ0w0WmlrcktkSHQ5RDVQbkxyS01ydDlSNWUwTW85d1lkRWRWNjhhamhqaVhtR3FHOEN1ZDYyNm9aX0hDM0VtanlTYnpQRTJHN25TbU1tMnZmYlRKcFZfWGZIc2hUWU5UVlRSSnZwa0JRZ25ESDdJUlBacnRfVTg0bmRTNXZtUERjWXlsbW02Wg?oc=5",
+    "fuente": "LaCerca.com",
+    "fecha": "2026-11-17T22:09:00+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "Un magrebí increpa e intenta boicotear al equipo de Vox en Toledo mientras denuncian la inseguridad en Fuensalida",
-    "enlace": "https://okdiario.com/espana/magrebi-increpa-intenta-boicotear-equipo-vox-toledo-mientras-denuncian-inseguridad-fuensalida-21043706",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-17T23:30:17+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/17/magrebi-2-ok.jpg"
+    "titulo": "Abascal se vuelca en Canarias, consciente de que su discurso cala ante el caos migratorio",
+    "enlace": "https://www.abc.es/espana/discurso-abascal-sobre-inmigracion-impulsa-plena-crisis-20261117013409-nt.html",
+    "fuente": "ABC",
+    "fecha": "2026-11-18T01:34:33+01:00",
+    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/17/1520380150-RoxHoroHtHdbjfwFi7G4p0J-1200x840@diario_abc.JPG"
    },
    {
     "titulo": "Vox golpea a CC con la migración tras haber apoyado a Sánchez: «Traidores»",
@@ -411,6 +411,18 @@
   ],
   "PNV": [
    {
+    "titulo": "Muñoz (PSOE) recuerda que el Gobierno hizo que las pensiones se revaloricen con el IPC y Díez (PNV) apunta que ellos ya se lo \"arrancaron\" antes a Rajoy",
+    "enlace": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQVjZjb2JMR2VDc0FnLXVkY1MzZVY4RTdYM1hBdWVtVFZzOExoODBhZ0U4OHRaQ1l3Y3hjNWY0Nk9DOEVteEhMTVdYVl9vVDdzelNsNVZVdHljaGhZcFNLY3ZUeWRGcFFXQjFXM2N0aXlfSlZOeXlnSnE3d0RJekFObjRJLWMtY1VZbmwxWXhzZU9ELXJLOE1sczFFMzllamN1OG9tTHJ2d25oeUNXSW5iVHh5c3BlNDd0dGtUY2RZQy1ubm5PdFQ1Q1Q3Y3QtSTkzQXU0WW5EaTVUczFVSy1rNWxMOUU4NUFDRlZuVHd1elpWQURGMzhNNlQtSnh3TnI1VGhEampmOENCSVZ3UXlLNlVycGlyaEctdUNuNXRueDJuTFBhU0HSAaYCQVVfeXFMT3lJbF9NY1hPRFBYd1NBOUxSU1FrcnFrOERxaHBKNnFmV0d0RG81azhSTXAwZDE1bTQxd2MzWU52TmkyRmJCREdWbk4wZGRhVVV3ZEE2WTNUcktWREhoazVJMHVIb0FsTFZyYkxRc0FlSjE1bFMzVzFBM19aMDJ5Q2N3RzNPWTBfeFAyQmxUVTloUjI5bXJBeHA1RFU1Z2pyLU5rQlU3NmhNMGp5Q2RQdnVLSFRodzVmNHhpLVhMQUNuMk9jTElyWUhnbkFKMjBRZGxIbDQxb3lRTUVzUUFLYkVCVGtwQXJGbkNtQVRvaUZycjBoempyallVM2tFMm8yZGo3Y25Vb2ZHQmtSOGtsNFBtdWh3LVVINS1tWjVPWjV4SFhmM0Rn?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-11-18T00:17:13+00:00"
+   },
+   {
+    "titulo": "Joseba Díez (PNV) dice que \"la migración es uno de los mayores fracasos de Sánchez\": \"Tiene que ser ordenada, regular y segura\"",
+    "enlace": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQa1hFNXczNjREeXdRRXYzSmJJRjBnMzNlZWV3d3NzNzRnSG5Wd0xBalYtZS14TnlGQm9KcGwxbkhndFBfSWF2X3FvVGVDMHhrYjhyellOT3FGYzdLRFMxSW14UEJwSTYtcTBScFlIaTVtZjh0TDhTdGhCOTlZbzloWTRPNkxESW9nX0J5VldUdGoxY0c2RkZ2U2o4bXQtN3RndXFISmlBbzNpeDdPMWtnWk9SUXVyTWl6TG9GZk5VOEZHd2NDMC0tY2JYOG0xai0yYnJqTXM5dWNRV1lnVDk4TVo1c3VmN3lFcGplb2RIcDAyb0Z3b2IzOEt0UzVPcmxGeVZ1NVlCcS1VVHZTNVNDYnl30gGSAkFVX3lxTFB0SGF2V0pMLWxtY2hrNWprOVl5Z0c5YWV1Q3BNMTdNOFBxMTQxZmJpcE1VR1RjNHE5NDZlUEdiTHVvLUlrc2sxT0ZfM01hczlOUHlTVEtvUDlNNjQtckVOVTF3dWg2cHFIMmNkQVJZSnpfbzQ1OFZKd0NfSTJIZmFLUjloa2N5czRvVnVHcTRneUJ4X1IyME5BSDZEUlpoVFZJd20xSkFDX1pidjVka3kxWlFCdXgtdU9lbVhDWFcxMHo0dldrSTFlY0EwckJrYnJnTjFaZTN4ajdhQTNBNy1zODE0NmNaQnNFTGRaQXV5a2M5MkRpMUl4UGtvVko1OHZGcWtSMkhrN0xZVkFnemRDc1E?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-11-17T23:50:05+00:00"
+   },
+   {
     "titulo": "PNV: \"En el pecado político, lleva la penitencia\"",
     "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWTJSWU1WZDItaFpINTZweTF2QW9pYTBpTFg3TFJqaFpnRXFzVHh6X0czQ3B1WlhNUk1WY2RtcmFkNHZpRmNzd05WVk5zRnRqVXFVcmc1TThQRFByNmYwU0FGckU2UGV5dlg2VU5VaUI3bnFVam9DQkM3T1ZLNHBmSktLTmxBRW45TGNEUUdZcmdtb1Q4SnEwR0w4MVBrTVhZYm1Ia2d6MFHSAbwBQVVfeXFMTnpldHAwX0x6aGw1WWNXTWdJdXN1YnZwZ05JQmhScXM3UThTbnRRN3lIQ2xueG5OQldwTHpRVXFib2dLdlBPR2FpU3pTT1pqZzNxNjNfaXNjY2Zkbmh2aWlYR2lxMUEwUDB5TTNFeDZySVQ3VFV5YkJPTDlWYy03ZW9zZm5kMlpVaExkZTlGdXZjbUVLS2lwbVNWbzc4NkVpRnI1U0VQVno3LTRJdjQ2eU04aGlYcGpzSDNWWkg?oc=5",
     "fuente": "La Razón",
@@ -418,7 +430,7 @@
    },
    {
     "titulo": "Joseba Díez (PNV) llama a proteger a los \"pequeños propietarios\": \"No son un fondo buitre\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTWk3TUk3LTFrUFdhcHo5QnBmYlFTeXNENUhXTkRTdDdYYXFWQXRFQzhyd1FvRDJ5TW1sS3Z5MC16UUtkNzByVzFaMEtjd2FGNjF0ZEQ4QmlhcS00cWJuOUFEZXpsakM1VXhld1M2TndGYWF2d1lrdm1sODdiUEJjN3M3bzhseEp6YjlPcnhqdU96dVU2NXBLV3M1dklxcE5pMUdRUmJiQ2JuTG5DSDRjQjFkMVVmZEhVcmctNmRJc0VFRmlCWUlwQTc4bWN1NjVWUlhiakVrMlQzOElsQ1dSY2FyUlM3UDjSAecBQVVfeXFMT1oyVVFUOFNWei1DaG9tQ3JFcHR2NlNGczFuZkZpc1JjWXZ0cmtDNEl5b3drakFWYTNlZVdmbHhsY1JEMGoxb2piY2NYRTM3d0pjbXdUU0ljeXBjNHM1YTVTeTJqNlhSajRfRUxkYlZ5alZEajdnWkVQSTVqd0VpZWtZUDFtcUdDbnRfZ3c5Vmo1WEo0WUVaV1U1OVVrNEUwWDZ6Zk9TTEI3QzRiS0JyUV91YWZIaEd5RE5IS0RnZzUyYlRJMmpaM25qdEdWRzRTMHVoc1E4Q05jdWNXX2JZX1pRWFFUcWRR?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWjJVUVQ4U1Z6LUNob21DckVwdHY2U0ZzMW5mRmlzUmNZdnRya0M0SXlvd2tqQVZhM2VlV2ZseGxjUkQwajFvamJjY1hFMzd3SmNtd1RTSWN5cGM0czVhNVN5Mmo2WFJqNF9FTGRiVnlqVkRqN2daRVBJNWp3RWlla1lQMW1xR0NudF9ndzlWajVYSjRZRVpXVTU5VWs0RTBYNnpmT1NMQjdDNGJLQnJRX3VhZkhoR3lETkhLRGdnNTJiVEkyalozbmp0R1ZHNFMwdWhzUThDTmN1Y1dfYllfWlFYUVRxZFHSAecBQVVfeXFMT1oyVVFUOFNWei1DaG9tQ3JFcHR2NlNGczFuZkZpc1JjWXZ0cmtDNEl5b3drakFWYTNlZVdmbHhsY1JEMGoxb2piY2NYRTM3d0pjbXdUU0ljeXBjNHM1YTVTeTJqNlhSajRfRUxkYlZ5alZEajdnWkVQSTVqd0VpZWtZUDFtcUdDbnRfZ3c5Vmo1WEo0WUVaV1U1OVVrNEUwWDZ6Zk9TTEI3QzRiS0JyUV91YWZIaEd5RE5IS0RnZzUyYlRJMmpaM25qdEdWRzRTMHVoc1E4Q05jdWNXX2JZX1pRWFFUcWRR?oc=5",
     "fuente": "LaSexta",
     "fecha": "2026-11-17T22:24:29+00:00"
    },
@@ -433,21 +445,15 @@
     "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY0laVGtEUHBMWUMyc1JHd25yVEVlVzI0Y2UzYnNWaDI4QWljT2xCSDhyTVkxT1ZSU29LQzM2d2ptRnY1ek9WMkNiS2tLMHZub2xfeVFNanRaamRPZjZ0RWlYWHNmVDBtLVVkT3ptTjJwMFRydkZwRjNRQTVsaENiYXd1N2tCUW1JeUVEdVZRcVA5MXc0V00xaGh2YlRjMkhNa00yb282dEFETWlT?oc=5",
     "fuente": "Hoy Aragón",
     "fecha": "2026-11-17T16:25:41+00:00"
-   },
-   {
-    "titulo": "Feijóo hace un llamamiento a los desencantados del PNV y del Partido Socialista de Euskadi",
-    "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPd3VJRUZzTEZQR2FvTHJiM2NHREdLbEFpRFlsV1dlWVY1MTFGTlFNX1RhazNqU1UtTm40cVVJckZuNGtIV2x4dFpvUHFZdEdRVm1zUjBGZUl5cGlPek5sOXItVmVhSUVpZFIwNkR6VjFmZ1VNT2V3NzJRM3h2VUtacUY2eVlQdldiVE9QYmZTZlFrOHRvb25pZkVSWWJ5U0VjOTU5cjNKLXFZOFFLVllTbFdVa2Iyc0l0eDJpb9IBvAFBVV95cUxPd3VJRUZzTEZQR2FvTHJiM2NHREdLbEFpRFlsV1dlWVY1MTFGTlFNX1RhazNqU1UtTm40cVVJckZuNGtIV2x4dFpvUHFZdEdRVm1zUjBGZUl5cGlPek5sOXItVmVhSUVpZFIwNkR6VjFmZ1VNT2V3NzJRM3h2VUtacUY2eVlQdldiVE9QYmZTZlFrOHRvb25pZkVSWWJ5U0VjOTU5cjNKLXFZOFFLVllTbFdVa2Iyc0l0eDJpbw?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-11-17T14:21:53+00:00"
-   },
-   {
-    "titulo": "Urtaran avisa: \"Si depende del PNV, el macrocentro de Gasteiz no abrirá\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR0xqNFA0OWVCYTVRRnpOWlVWd1dzSnRtWlBoaHRVWkVLa254ekdzVWdRS29jU3dZT21HSVlBSG54cWVDakhZcWRUaHl6b1VaM1BPWjFuaFJveU5zX25QcUpPZFc1VmQ4VzJvQU1JRkpuWVZHT0lyak1MeXFDOHJpbnRWWlA1dUR0czFwemh0VjVYcGZoU0preFI2MG8yOTlxQWJ0QS04S0ZSUdIBrwFBVV95cUxNX1V5a096TWx4UmRoVjhyR3lvVWxrVW1lNHIzUkNkbVpMa2d5X3YzTlUzYUhXVld5VDFYc2NGcnM3eVF5OXVORVpWTUFEb1hfNEhETU5oZFdVWWppZklxQmhaU0RjemM3OU9nY0tob0xZdkpydDZaMFkxejVDaEVfaEgxT1BpemFFU1kxcXpTTjdNOXdlQmowSmpiRTZDdXY3TVREZmF1YXVTTHpEWS1z?oc=5",
-    "fuente": "Noticias de Gipuzkoa",
-    "fecha": "2026-11-17T14:06:36+00:00"
    }
   ],
   "BNG": [
+   {
+    "titulo": "Rodil (BNG) critica que la UE asuma la agenda migratoria de la extrema derecha: \"Los centros de deportación son agujeros negros de derechos humanos\"",
+    "enlace": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNUEExaHY1dW03d1RhVC1tUmV0Z2FHQkl6NkdEMDBYcDdFd2Vfb2FGWHhDVTVKUzlDdTBBN0NnN3NzUnpyNlFhR3p5d25ZU3p1cENCSVJTNGVhWWdlYk5ZaFJKdUlUVUk5YUxqVGNnMW9MVzNqdEswWHJRM3Vld2pyYk9Yd0FhZlhNenVlMTBJcFBEZTdrU1IzWnF1SFM5Q3I1NGtLVWFwQ3ZTY0hvaEZGQXZ2X0N5cldlUFFSbjNybFc0NU9KbTI1ZnU1MnVpZGhpdEF2NlZMN0g4Z3hQNU14Tmp6dEpzTU15SDFrYURCS3o3VmpvUlpMY3JkTEVYX1JUa1FHVG5fRV9CR1pacWUtMTBIM0tXNFgxYUZiaXhJMExrSXBodnRaStIBqAJBVV95cUxPWERPTW1na0xxMkRXd0lfaDdKOEJqa3lmYUdIMVVMak1qajNIRzNfem5tUEdLNVd0dWg1ajhfbnhQLXZNNElGT20xdjM0RHJvMG5SZVdkdlZIeGtxdTU3X082azV4Wlk0RExxZjhHdS1zaEZnYnhWSHlMMjBzdVkwbkdmaFVyVVF3MnYzUWlQQjE5QWZRUWVqR3dSSEQtNTBmNFY3emRmaEloNWRER3doT1NjSHlEN0V3Unlia0lRdk5xSEg1SHdWZUQ5NzRmaHdQY1VzRlozTktobXlteGpqSVl1RGJwUzJUNFlneGcwYjBLTXZSM0M5OXJBTmUtZzJxMmVBcXZCbVR4Z3FCMGN6SjJXRmRhcnZkZlowTlR2WnQ5ZW54QVlvQQ?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-11-18T00:13:05+00:00"
+   },
    {
     "titulo": "Olalla Rodil (BNG) defiende la sostenibilidad de las pensiones: \"Lo que quiere el PP y parte de la derecha es recortar\"",
     "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPaWFNNFJ6WjJFOVFYTS15MWl3VHJvbHNUNk1pZkhoa3lxcF9IamYtNXI3NUR0TkRENmIwSWVBRElwTWlNSS1xZVFjam9hYkZqbUp2YUlKZGxwRUxOanpvZzNvQmdJTGxyTFROYnE0UWRwOFhWajdkb1ZycUQwblIxWGs0aENaUWI1QXc2Qy1VOFQ3Mno0UTBYQl9YX1hSMmRPQUo2QUhIMjFrSEJlWjVma1YtVVZtelJkMGNXN19PaWhqMW50Tmg4bDZMLUxZQ0l2WU8zXzFJMDNYa29BY1pQMWRocXFCSWhaXzllWVBnSm9QLWVPSUR2bEJDSdIB-wFBVV95cUxNakZxYWtiOUZfRFAxYkttcWtFYVNvQTdKSGRCOHRwS1BBakdCRERlNHdDNjJXMkFCaFZWcDZ1dy1YY21tNWp6czlOcUVJeTZQWDFjWTNaemNwRVE1MWNmNElrRjZMMzNlX3hQYjNiay12NjFINmlZMERXWEVWZGRsc2JmX2dySlg2eG1vZ2MxWklkeGR3VHFSXzg5NFpSRFh6MFp0ZUpCeVRPXy11czFkUXhxUGRzb1R5LXJRNHdFdGptbW9ET3VkV19WS0lNemF3ZDBKMDVLdERJNno1QjBveXE1QWpXNFQxUUxOdmVzS1FJLXh4ZF9EbzZ2VQ?oc=5",
@@ -468,22 +474,15 @@
    },
    {
     "titulo": "Pontón llama a concentrar el voto en el BNG para frenar la especulación con la vivienda",
-    "enlace": "https://www.abc.es/espana/galicia/ponton-llama-concentrar-voto-bng-frenar-especulacion-20261117155838-nt.html",
+    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNekJ3al96eGhlZmZQVkpXZFlnVWJyOTFWbXJWUjhMdHdjM1BnOW9zVDlna19tUkg3RTRYUUVkQmhBX1NCYmduQW8wdFhiY3h5TWllQnhwTHltZFpRdi1ONnpZdF9KcHVub3BiVjhjZ0MyNGZ1N3I3bWJiSElWWjNDSDNTR2xDNXlaSFBqVzlKbVFPUXI0X3NEalZTZkpqbi1lOUt5endmZGptVUN1NkHSAbMBQVVfeXFMTWVqRWtBVmw3WDQ0R2h1Qlp1MkU5eF83OEpRUW5GZTMyRC0tN2xvMWYtYk8weWdkQUdIMXVLNUVMWlNpb1FMZENib3QtenpuRkNMVW5fclVaZkYtVm04VkpZY2ZIM1U3bVFEcXJyY003NGFmUUNVVWZCX3o5Qks3dDdwX09Fd2NkVFExWWw0eDdjWXdORGQwWUwwZkVJNDRXS3Z6TkdJS2ZHOHNMVVhLRVNYMnM?oc=5",
     "fuente": "ABC",
-    "fecha": "2026-11-17T20:17:38+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/17/WhatsApp%20Image%202026-11-17%20at%2013.53.47_20261117201615--758x531.jpeg"
+    "fecha": "2026-11-17T19:17:38+00:00"
    },
    {
     "titulo": "El BNG denuncia un escándalo mayúsculo en la ley territorial para proteger a Altri",
     "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb0hrWUZkOHZ1NEF0enFOaXRIZzlDR01HSHR2UHoycF8ycUMtbm1Gd0s4bUJURUNOaFpFQjBnOE5MSkdrYW5wNVNub0VRYWNCZENrTFlKcEpPTEk1RlFKbkU1ZG9mUFEzVjVTQ3VTRWRJYThYUTNWQjF6LWxxUFQ2dFk2MFZ6SngwMTRLYmM3V1hkc3M1ZkJ2M3Etb1hEX25sU0NfMFNDaHhkYnpRVWZwRGtHT2dHdjjSAbwBQVVfeXFMT0ZUeXExU0lnMVVfbFladC1pNzJTNnU4dnRrV051cXNSSmxzZS1jZHMwdWR2cEF2NlltNTFfX0UtdWJKeWZWcU5BbFNKbFhMTjlGc3NXTjFnZnFpU09ZOExma1kwU044X3hTeHZIc1I1ZExrY3BFZ0JSMmFQS0pURkpCZG9sbHU2MEdkSk1LRVJzVnltNVRBcUw1RGhqSzhFTXNVcC03UW1HaXJtY1VBOVlWd19jS0VWTFQ5UHY?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-17T17:30:25+00:00"
-   },
-   {
-    "titulo": "Pontón y Da Silva llevan la vivienda a Privada Moderna y señalan a la Sareb y a Feijóo",
-    "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWGRIMWNFdkQycjBKbm42bDdSQ2JpTzV2bDQ1VWUwTVAyM3hwLUxnNHdyOThoR2xad0UxVy1rTjhNWWxKYndfR3RxajkyLUdXWmpJbEVtRmRwRmtQVDNjQjZRY1hJMjB3Q01pdzAyZ281M3A2NUQzS25ZNTVrUUtRX1Y2MjY4a09EN2RXd0dScXg0aWFGTEtVbFBtcDVWbEVicTdNMHQ0cF9qX1haLW9lcDktOV8wRzNqSDNpUFJ6U2VTM0NURERtOXVWRUpySHRMNktsZmJHZzE?oc=5",
-    "fuente": "GaliciaPress",
-    "fecha": "2026-11-17T16:14:00+00:00"
    }
   ],
   "CCa": [
@@ -491,7 +490,7 @@
     "titulo": "La propuesta de Coalición Canaria y Primero Canarias para mantener las guaguas y el tranvía gratis en Tenerife: qué cambiaría y a quién afectaría",
     "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb19tMzd1UEk0clFXSTJ3WERqMndMZFNDZDVyMUlWLXVDS3RNUzhxUTdGRXFDcHJWZXJEZ1B6RHdTSmdncWdRTUZuV3pmRHNwMDJMaVlEd2I5UGdObWVIaWJDdmlLWWNvT19Kbk1pcDVtMjdYODIwT3RhcGVkQTJydDhoVDdsakgxSFMzQVd5S1d1YURnN2lLZTdEX2RRaVZ2RUNR0gGoAUFVX3lxTE5FLUdxTU1NOS1FTk81aGRrNUpRYXBUVHRQc05UNVBGeWNpdXJ3dXhlZ2JGTW1oYi04bEg0enZWNTRQYU8weG0xandETjlSN2xFYTJjQzI0YXFBRkNTN3daRXlFTUpRaVFVbEtvMHhZZExmRWtqQk51YjBSbWMwODU0VElMeGdaZTdpbXpvS2FENElTN1N5Wk9pc2IxVlZlZlRvTmtXU3VjSw?oc=5",
     "fuente": "Eldía",
-    "fecha": "2026-11-17T20:00:58+00:00"
+    "fecha": "2026-11-17T21:05:43+00:00"
    },
    {
     "titulo": "Coalición Canaria y Primero Canarias proponen limitar la compra de viviendas por extranjeros en Tenerife: a quién afectaría y qué cambiaría",
@@ -519,8 +518,8 @@
    },
    {
     "titulo": "CC pide el voto para una representación canaria en las Cortes \"sin dependencia de Madrid\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdllxejRPQmxfQW9XYVp0cHJ5a2JIeXhQOG1FQ3diNmFBNldVeFUySTZlanN6ZzFoQ1ZPcUJQS2RoZXQ1SFU4cXNIVkdMUnhYUjVBUk9RSFBFWDJ5dFRJT3p6anBXX2p6TWtjNEN0amVRc1FIemFVNHllcmo2YkhINm9ScWQwZDh1ZTJ0YVdYYnBoRjdvbnRXNGhwZXVtNDlNM3FR0gGjAUFVX3lxTE92WXF6NE9CbF9Bb1dhWnRwcnlrYkh5eFA4bUVDd2I2YUE2V1V4VTJJNmVqc3pnMWhDVk9xQlBLZGhldDVIVThxc0hWR0xSeFhSNUFST1FIUEVYMnl0VElPenpqcFdfanpNa2M0Q3RqZVFzUUh6YVU0eWVyajZiSEg2b1JxZDBkOHVlMnRhV1hicGhGN29udFc0aHBldW00OU0zcVE?oc=5",
-    "fuente": "La Provincia",
+    "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMzhUQXRRX2J3R29YS18xTkd2V0luTFRuZ25JX0NQbWZxS3JsT0Nlc3FlcFVHSjllcmIzS0llVUNjY3lzMHhrTllJWDN0LTh5cWlEekE5RlN2Z3llNWFZMVBkUk5tcTQ1enJLT2lhbGJiM2E5dVFrZ3BTU3p6YlNDcUk2U3pSZ21tWUt4Q2RRbjlYU05vZVHSAZsBQVVfeXFMT1dDZU42TG5wOTBhVFlsemx1MUl0WjZtN1FRcGhVbzgtb1VoZDVwTDl5TkVxNFprX3NlRnVVRHEtV3lRMm5FVDUxa0t1ZGtmVXE4YXJJRTBCV3ZzVi1QbFB0LTN4dVZ0UFd0aW8tV1U2TUFyQzJ3cjdfYVVNLTlSM2w3WFE1SG5NVkJnLWNKU3pZWkl0N2pxY3Z0b0k?oc=5",
+    "fuente": "Eldía",
     "fecha": "2026-11-16T12:26:33+00:00"
    }
   ],
@@ -752,6 +751,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNQ2hEcGJLclhGMVpXbm1GVEtJWlVvOWFFWkVRdEV2amZHand5bU9TSkszczlnTmhNbnQ3WmhMUGdqeVVGMW1TYjhuNFVOTkhvUW4wUUI5ZmJ4Wmt2NGx1UlcxUnNnQkFUTFpKdGcyZXpnYWNlMmpPMURqclhCY2tUTnhjbEdGOVJrcE13M1FVcE1aUEdVdjlHekRVbURxXzBaYjdGMkg5ZUsxYzJsVkJKOXZYM2lWSjV5TnYtNURvbm9kSVpmNDl6WnZUMVdjOWhBRVZiU0RMX3pmWnVVZU16MHVmN1lUalFENnVuOW53WTNiMzRHcUlKYWY0WExQSU9tY3RBNjc2dlZ5dmtnRmNsZ200d1hqR2tjZ2c?oc=5",
     "fuente": "Maldita.es",
     "fecha": "2026-11-04T10:06:40+00:00"
+   },
+   {
+    "titulo": "Alvise, el \"sabotaje de trenes\" y por qué no hay ninguna prueba, a 29 de octubre, de que los accidentes de Adamuz y Toledo hayan sido provocados",
+    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZ0pSWXZfellmcHF6c0FWTm1kelc2NWV3emZYODVkam9GMUd2UVhCOWlMUnZ2QUxGSmVpS3VIVjBUMWZQYlRJVzlleG11WXlOeGNDUVVTTzhDVi1nY0stcXRITy1RZEMwYnBCN2NfaUJLOGVKUEpFbE9YOGlOTDM5RWdlcHFyTVNUSnhvbXdZMExLQWhidUs2bTJtX3BvdkszaXp6TF9zZVliY1VRSlE2dmpic3loZlhPSmZPcl9DcHNDZlk3dG5QY2dnYWkyNG9hejRnN0lWSENDWHlFZTBkaWNyMHVzbzMxV3FPQ1JYSUc0UDg?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-10-29T07:00:00+00:00"
    }
   ],
   "ERC": [
