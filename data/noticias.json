@@ -1,6 +1,20 @@
 {
- "actualizado": "2026-11-19T03:24:07+00:00",
+ "actualizado": "2026-11-19T04:01:44+00:00",
  "generales": [
+  {
+   "titulo": "Miriam González, candidata al 29-N: \"No soy equidistante entre PP y PSOE, soy distante de los dos; sus gobiernos han sido desastrosos\"",
+   "enlace": "https://www.elconfidencial.com/espana/2026-11-19/entrevista-contraluz-miriam-gonzalez-democracia21-cbtrntrv_4467030/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-11-19T05:00:00+01:00",
+   "imagen": "https://images.ecestaticos.com/eAdLiCvo2HlE_XyY3t7g8-nGkaQ=/0x1:1999x2666/2000x2666/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F4ad%2F48c%2Fb2b%2F4ad48cb2b2468f0530a3994b3b67b149.jpg"
+  },
+  {
+   "titulo": "El Gobierno quiere poner en las mesas del 29-N 61.603 móviles de máxima potencia y con control remoto",
+   "enlace": "https://www.eldebate.com/espana/20261119/gobierno-quiere-poner-mesas-29n-61603-moviles-maxima-potencia-control-remoto_482458.html",
+   "fuente": "El Debate",
+   "fecha": "2026-11-19T04:30:00+01:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/18/6afdb58e97dab.webp"
+  },
   {
    "titulo": "El traslado de inmigrantes enciende la campaña electoral",
    "enlace": "https://www.larazon.es/andalucia/traslado-inmigrantes-enciende-campana-electoral_202611196afe60b7103a0e0a474fba23.html",
@@ -14,13 +28,6 @@
    "fuente": "ABC",
    "fecha": "2026-11-19T02:34:12+01:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/17/agregador-encuestas-1200x672.jpg"
-  },
-  {
-   "titulo": "Sánchez sobre el indulto a García Ortiz tras el 29-N que adelantó OKDIARIO: «Ya veremos cuándo lo hacemos»",
-   "enlace": "https://okdiario.com/espana/sanchez-sobre-indulto-garcia-ortiz-29-n-que-adelanto-okdiario-ya-veremos-cuando-lo-hacemos-21118915",
-   "fuente": "OKdiario",
-   "fecha": "2026-11-19T01:54:35+01:00",
-   "imagen": "https://okdiario.com/img/2026/11/18/susanna-griso-y-pedro-sanchez.jpg"
   },
   {
    "titulo": "Irene Montero culpa a la inacción del Gobierno del alza de la derecha y que vea la Moncloa como \"guinda del pastel\"",
@@ -63,23 +70,29 @@
    "fuente": "El País",
    "fecha": "2026-11-18T17:10:51+00:00",
    "imagen": "https://imagenes.elpais.com/resizer/v2/KLZLFRN34RKW7AH45GTANSWHDA.jpg?auth=8ffb6a324f3241c71809c565bd1f7ed73a2331cf39c4e019669d9a69929b3172"
-  },
-  {
-   "titulo": "Intelectuales y expolíticos de PSOE, PP, Cs, UPyD y el catalanismo moderado piden la regeneración de España desde Cataluña",
-   "enlace": "https://www.elconfidencial.com/espana/2026-11-18/intelectuales-y-ex-politicos-de-psoe-pp-cs-upyd-y-el-catalanismo-moderado-piden-la-regeneracion-de-espana-desde-cataluna_4467725/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-11-18T16:17:00+01:00",
-   "imagen": "https://images.ecestaticos.com/UQgbhiE_ofPSE1efssqP6r-5AoY=/240x0:1682x1082/2272x1704/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fa30%2Ff00%2F245%2Fa30f00245c354a08675cc52665784628.jpg"
   }
  ],
  "partidos": {
   "PP": [
    {
-    "titulo": "La desfachatez de la portavoz socialista en Mallorca: exige al PP recurrir el pago millonario por el rescate ilegal que el PSOE realizó del túnel de Sóller",
-    "enlace": "https://okdiario.com/baleares/desfachatez-portavoz-socialista-mallorca-exige-pp-recurrir-pago-millonario-rescate-ilegal-que-psoe-realizo-del-tunel-soller-21116778",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-19T04:00:49+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/18/la-desfachatez-de-la-portavoz-socialista-interior.jpg"
+    "titulo": "Miriam González, candidata al 29-N: \"No soy equidistante entre PP y PSOE, soy distante de los dos; sus gobiernos han sido desastrosos\"",
+    "enlace": "https://www.elconfidencial.com/espana/2026-11-19/entrevista-contraluz-miriam-gonzalez-democracia21-cbtrntrv_4467030/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-19T05:00:00+01:00",
+    "imagen": "https://images.ecestaticos.com/eAdLiCvo2HlE_XyY3t7g8-nGkaQ=/0x1:1999x2666/2000x2666/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F4ad%2F48c%2Fb2b%2F4ad48cb2b2468f0530a3994b3b67b149.jpg"
+   },
+   {
+    "titulo": "La «izquierda abertzale andaluza» gana terreno a Frente Amplio entre los avisos del PP por sus lazos con Bildu",
+    "enlace": "https://www.eldebate.com/espana/andalucia/20261119/izquierda-abertzale-andaluza-gana-terreno-frente-amplio-entre-avisos-pp-lazos-bildu_482537.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-19T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/18/6afddbb77ab32.jpeg"
+   },
+   {
+    "titulo": "Saltan las alarmas en el PSOE a diez días de las elecciones: el rechazo a Sánchez genera una fuga de 800.000 votos al PP",
+    "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPYzhPV0NZM2xLaHZRREdPdHFLWFBRbnR1OW9sQlJUR29oUkF1VDJrZ3Z4c0Y3dEh3SzkyZnVBTEZPNkVkU3p2aXhILV9PUGZMbTcwQy00R1lmRmZBSF9FbmFxN1FocUw3dzNGOHJrY0lfYUR5LUVkVlVPS3k3eTc0ODl0dnRmbG02cXg3SGQ1b3hyUmdrSk1RemZkdVQ0M1Q4aldOQ3VhYVZsUVU0YTcxWHY0cW1ra1FGcGRSSUlLMTJ4QmNMbVozbzM3cXBEMDV1Wm9rMDdwSXFNanFUVkkyZkdoY05Ed3BTSXZ0R1A2SG5jTzZ5Z3RGSdIB_gFBVV95cUxQOFFxelN1R3V3M0x1QmtlZjU0SlBWZ0JwaGtxOV9XT2tpVmJpNklKUktxYkwxdzdNdXVNS25Vb3VSRWpYU19MSUg4RzJydExSbUZBSFFjcVFORHpXN3ZVTWFKQU5HR1U1ZTF1RE83Z3lIWFJES0FWbm9zOG5OQmJSWHV2alVOeXlEa25tbTJfeXNYajhTaEp5Y3czMll3VWNVWTNlOXNEeXZ1SG51NTFUWGdoRDZHQVBOZ2FUay0wSExrWDZZem1GQ1lqbHB0bU4tMVQ0RlprNlQxWkxwMU9jWXR5bDQ5S0RiU1dRZkMtUmR2bENRN0JaTVIyQVg5UQ?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-11-19T03:45:00+00:00"
    },
    {
     "titulo": "Las políticas de Ayuso que Feijóo quiere llevarse a La Moncloa",
@@ -100,27 +113,28 @@
     "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOellnZmpVbjdmbXFpSnZzUG1tOTVVaVJrUEtpMTFUcW0yOTI2VGRZZjhtc2FUbFlfNm5HSS1vVXlxRWM0VzNFNU04OUNBcjE2a1Rkb052VEk3dTduVkdZaXBZbkdNd2lvUzAzeGVrbHZMX2FlMkI1cjg2TklnU3NoSVcxTHpubUtza0h1VE5TOEtXYXFVUTBndjRFc2ZxeXpoUlVB?oc=5",
     "fuente": "Cadiznoticias",
     "fecha": "2026-11-19T02:11:16+00:00"
-   },
-   {
-    "titulo": "Cara a cara entre Pedro Sánchez y Feijóo hoy por las elecciones generales del 29N: a qué hora es y dónde ver gratis en televisión y online",
-    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFVPYmJhbXQzYm84SF94aU85SXU0T2JrOEt3bWcyb0dXZ0ktUUtVYUN5emNnZnQ0UUNlQ2cyZGNsRm9NTmZiWEJhZmE2VVdPYUxRMzE0Ulk5NDF0UUszYm1HZlhJMGtkR2Frc2sybjRQSHcxeGwxWFVIY19zTkxaU1hXandaMGE0eUVKbnBmLWJmU2NLUFgzUzR0QjJJcUNhZll1bmV5SHJRNUxVTGxQR2prU3Y2T3B0TmNIZGRYR0Zua0pXeFHSAcsBQVVfeXFMTVRabjJwcHVDNUdwbUtNSGhVWTdabXBUY09iblN3U0p4cFF3S0VFYzJXMzVwRUlaY1QxQVpBVFdyeEJiYjh2MjBPS1MycTNDOW9DeUh4TDlHQkY1cEc3Ni03WGtKYnF3UkprZGktMmEwVjcxQnkwdWd5dDlaa0N1ZlVRNDBGQ1lKdVo1M0hJeUlTSFh4eW5BLThiMUFPQ0dWT3REUUpCS3hGSnp1OVNmVVk4WmlNclV2NkN4R2Jyb2xZZVh0LVdCT2dicnc?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-11-19T00:12:23+00:00"
-   },
-   {
-    "titulo": "Sánchez y Feijóo debatirán sentados y sin dispositivos",
-    "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSlJqVXN2RWx2VHJQTlRsNGY3MmVkelY5M1NnbWkzcGRTb3VJT0tvWjlNNjE4bW5VV2xqeFhIaTVobEw3c1dvQjdoSThrWklzM0RIdUdmTFNoSnU4M1haVXBDZUstR0dJSnN1S2xaaHhyY2lLcm1XVTluemUyVkxQOWZaMEFudnVtdzJaLTVsYV9valJEa1YzVXlaSFNTRmZDSU5R?oc=5",
-    "fuente": "La Región",
-    "fecha": "2026-11-19T00:00:00+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "La desfachatez de la portavoz socialista en Mallorca: exige al PP recurrir el pago millonario por el rescate ilegal que el PSOE realizó del túnel de Sóller",
-    "enlace": "https://okdiario.com/baleares/desfachatez-portavoz-socialista-mallorca-exige-pp-recurrir-pago-millonario-rescate-ilegal-que-psoe-realizo-del-tunel-soller-21116778",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-19T04:00:49+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/18/la-desfachatez-de-la-portavoz-socialista-interior.jpg"
+    "titulo": "Miriam González, candidata al 29-N: \"No soy equidistante entre PP y PSOE, soy distante de los dos; sus gobiernos han sido desastrosos\"",
+    "enlace": "https://www.elconfidencial.com/espana/2026-11-19/entrevista-contraluz-miriam-gonzalez-democracia21-cbtrntrv_4467030/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-19T05:00:00+01:00",
+    "imagen": "https://images.ecestaticos.com/eAdLiCvo2HlE_XyY3t7g8-nGkaQ=/0x1:1999x2666/2000x2666/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F4ad%2F48c%2Fb2b%2F4ad48cb2b2468f0530a3994b3b67b149.jpg"
+   },
+   {
+    "titulo": "Dormitorio acristalado, chimenea y jardín iluminado: así es el chalet para turistas que explota la pareja de Rosario Sánchez",
+    "enlace": "https://www.eldebate.com/espana/baleares/20261119/dormitorio-acristalado-chimenea-jardin-iluminado-asi-chalet-turistas-explota-pareja-rosario-sanchez_482501.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-19T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/18/6afdbee1b1e1e.jpeg"
+   },
+   {
+    "titulo": "Saltan las alarmas en el PSOE a diez días de las elecciones: el rechazo a Sánchez genera una fuga de 800.000 votos al PP",
+    "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPYzhPV0NZM2xLaHZRREdPdHFLWFBRbnR1OW9sQlJUR29oUkF1VDJrZ3Z4c0Y3dEh3SzkyZnVBTEZPNkVkU3p2aXhILV9PUGZMbTcwQy00R1lmRmZBSF9FbmFxN1FocUw3dzNGOHJrY0lfYUR5LUVkVlVPS3k3eTc0ODl0dnRmbG02cXg3SGQ1b3hyUmdrSk1RemZkdVQ0M1Q4aldOQ3VhYVZsUVU0YTcxWHY0cW1ra1FGcGRSSUlLMTJ4QmNMbVozbzM3cXBEMDV1Wm9rMDdwSXFNanFUVkkyZkdoY05Ed3BTSXZ0R1A2SG5jTzZ5Z3RGSdIB_gFBVV95cUxQOFFxelN1R3V3M0x1QmtlZjU0SlBWZ0JwaGtxOV9XT2tpVmJpNklKUktxYkwxdzdNdXVNS25Vb3VSRWpYU19MSUg4RzJydExSbUZBSFFjcVFORHpXN3ZVTWFKQU5HR1U1ZTF1RE83Z3lIWFJES0FWbm9zOG5OQmJSWHV2alVOeXlEa25tbTJfeXNYajhTaEp5Y3czMll3VWNVWTNlOXNEeXZ1SG51NTFUWGdoRDZHQVBOZ2FUay0wSExrWDZZem1GQ1lqbHB0bU4tMVQ0RlprNlQxWkxwMU9jWXR5bDQ5S0RiU1dRZkMtUmR2bENRN0JaTVIyQVg5UQ?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-11-19T03:45:00+00:00"
    },
    {
     "titulo": "García-Page maniobra para impulsar a los críticos con Pedro Sánchez",
@@ -140,34 +154,28 @@
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVzJSUkJPTXcwcHlyaWpKakdvemtNRlVFV056TXVBYjVaSWRWXzk5UXlaUnlpejJXYjlMcmZiZXFMYnRNVDlQOEZPX3NURnRxUXJCcVE2bmVMTWo0X0tqUGVtU0xHRnVVS3ZHbDlOOFRiUUdoS20wWXhhZlMwTWp4empPaTRqV2VycmJqdkhucGlWeG40RWUtbnJsd9IBmwFBVV95cUxQOTByMXNCQmVNOS1Fb2E3MlF2OW1wOF9KZF9jR2dYVDNneHFlYzVENXV3ZzY5YVptLWdpWGVNZlo3ZVl6WUo2ZTZ6azhpOUhnSzRpRkhLeDRzWUlRUjlhSVdBdWZPRjE1UnFfLWJDWXJHRjU1T1c2OVhjX0FNMVIxQjRuQmJ3ZElQSE93a3RETlpDX0htc1QweTRpcw?oc=5",
     "fuente": "El Mundo",
     "fecha": "2026-11-19T00:11:17+00:00"
-   },
-   {
-    "titulo": "Sánchez busca impulso para remontar y Feijóo consolidar su ventaja en el único cara a cara antes de las elecciones",
-    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObUxXWUIzMDNybng1UXAxQnQyTU9QSUdYTnBRclJBMURRU3dEZGVCRHU4eTgxYVpMSFdSZ0VmSjdvQVAyaUQ0cjlVLUlhZWR4bTA5SkNub1E0QXBBdFNvdzRIYkFId2FUOUNDaHMxTkNQOHZwVFhJZHlzTVJ3U0xsaUxYQU11a1pWSmxuRGFGQlpVSmRmcTRGTUxNRk5PMkpHb3gzSzYtMjlkR05QZVRoQWVSTFZFaTNxUlpTR1JodEthRUQ1LVHSAcsBQVVfeXFMT0o1d3M4d1h5WTRBRllJY2N4T01OcGZCRmtqZWxkai1GV21mTDFud0I2TTdfcHJDejhwX2p6cmhNYnRRcl91eFRjSlptNVJyRnN4clRjVHlQTVBIWnA4R3MtSXNWTVltejlXajZnREotYW1RS2ZUYmxyTkZzRldmNm9GV25ydVFadEllVG02NERPdmxCLWViTEdxSjRMcE9wdG55VjlwNl9DM3QwRHp2aS1FUURIeUg2YXBaZ0V0WWhDU3NsWXRCVnFXSXM?oc=5",
-    "fuente": "El Correo",
-    "fecha": "2026-11-18T23:05:38+00:00"
-   },
-   {
-    "titulo": "Sánchez asegura que ha \"asumido\" responsabilidades por la corrupción y Feijóo le replica que él \"no ha pagado\"",
-    "enlace": "https://www.20minutos.es/nacional/sanchez-asegura-que-ha-asumido-responsabilidades-por-corrupcion-feijoo-le-replica-que-no-ha-pagado_7062880_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-18T21:39:11+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/17/6afc4ae0e791e7-27448002.jpeg"
    }
   ],
   "Vox": [
    {
-    "titulo": "«¿Por qué su sensibilidad solo llega cuando hay elecciones?»: Vox replica a la convalidación de los siete decretos del Gobierno",
+    "titulo": "Vox denuncia a Correos ante la Junta Electoral por usar recursos públicos para instalar propaganda del PSOE",
+    "enlace": "https://www.eldebate.com/espana/20261119/vox-denuncia-correos-ante-junta-electoral-usar-recursos-publicos-instalar-propaganda-psoe_482606.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-19T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/18/6afdea4da4d9a.jpeg"
+   },
+   {
+    "titulo": "\"¿Por qué su sensibilidad solo llega cuando hay elecciones?\": Vox replica a la convalidación de los siete decretos del Gobierno",
     "enlace": "https://www.larazon.es/espana/que-sensibilidad-solo-llega-cuando-hay-elecciones-vox-replica-convalidacion-siete-decretos-gobierno_202611196afe11dc18c34d33acce3fb0.html",
     "fuente": "La Razón",
-    "fecha": "2026-11-19T03:35:54+01:00",
+    "fecha": "2026-11-19T02:35:54+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/18/C4D01F55-DABA-49F6-AAC8-D1007BDBC6EF/96.jpg?crop=4000,2250,x0,y210&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
     "titulo": "Vox propone prioridad nacional en vivienda y ayudas en Cádiz para las elecciones del 29N",
     "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam1OamkyVkU5ZmZjcFh3dGhCN0s0V2RnTHRRUzJKSGowbDV1dnAyLWN0a09NMnVDWnNxVGtrb1RqTnozN0RJaktrTHVPaFR2WncwcVI3LWhiOFd2Q3hTb0FHamxCNW52ZURXcmRPOUk4YzBNemE0UHYzQ090ai1DOGZOU1JOc0dIZ3RFZjB5WXFDSmJ5WFczLTRaOVcyV0IzRS1EUmVzY3N5djl2WVhsVHNUSDc?oc=5",
     "fuente": "Cadiznoticias",
-    "fecha": "2026-11-19T00:46:44+00:00"
+    "fecha": "2026-11-19T00:48:37+00:00"
    },
    {
     "titulo": "Feijóo marca terreno a Vox: ni menos aborto ni homofobia",
@@ -187,13 +195,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZ2lUbFVRN1ZjemE5MEVuUzh6Y3NnRjc2TEJVZkRfWmlHQl9Wby1kTWcwVVZEZ2w4eXRFWW9DQ3UwT2RIYzJGM0JENjFibElLd1Bpenl0enpNTzdUV0JBN2RtUGxYeVlnSDhWYktUWkd1NENXbGdCdHZEbHJ1OXUwY24wN1Z5X2QyMkxYaTdvOTZzaTJQcVZZSm4zMWZPdFR3eU8wekdKMEpWS0pYdDZsTkZCY212dXhnRVJ0M1ViTC0zSHJKUXlWRHRfQjRtZjJkY3ZFU0ZtbWNDVVpnUVBLbHJFZnRsMWxhOUHSAe8BQVVfeXFMTlpQcUMtQ0VyczhSemNVVUNXdEZjSEZzNXpuQXNweE1vR0FZWWRSZXRPdVF1NGw3aEdscy0waHMtWFNPV2hvSHJDbGRIeWRxWUVWRnV5blh1V0toVTByY3JhRi1zUUZGZTFSZEJYZnNGYkZIVGxWNWRPMWxVbGctYjgtM0tFdkt0Wk5NdmhsYm5zOWdDVVBkSGx4OUxlU2dRRmlDeUhtd1ZZQ1ZSdThGcGQ3aFhlanhZZUg5eU10VlZXYWkzR2RWdUZYb2QwenByN1MyTHQ4VFdlNXUyUjhtR2laZjFSRzFwMy1nYlhBTTA?oc=5",
     "fuente": "El Independiente",
     "fecha": "2026-11-18T22:20:56+00:00"
-   },
-   {
-    "titulo": "Vox busca su primer diputado gallego desde la ciudad de Tellado y Yolanda Díaz: \"Es la única alternativa\"",
-    "enlace": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/18/6afdef92fc6c83e8358b4592.html",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-18T21:51:48+00:00",
-    "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950276989798.jpg"
    }
   ],
   "Sumar": [
@@ -281,6 +282,18 @@
     "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQZER1dVhQcXgtaFBvSjAyN2RaQ2lEaUt1Z1VSblhxZWRMeHlNNmgzZ2stbko4TGRvU2tSdTZVQm5JWlVjY1A5eHZwUnYwZ2tRNl9IbEhlODFOOURhNlFISDF5Mm10QlJ6bm9RX1Z4dXVKUEYzOFJBazAxb2RTdU55Q3ZMTFczZEJJSDJ3UVRaLU8telNvX19qNWRmOGctdFB2eHFkaXlvLWlONGRVVkNrX0YxQWZPQXJkWmJ3YVhvZmlwODNxdm1ZRnNuSjR2dVQzN0tpLU9XaFVaWXREelZQQk9sRTRhTERrbWdYejZmakNNYWp6WXdFUzdySFVpdE40dkHSAYICQVVfeXFMUFVQVWxiUE1sdTRSeGtSblVFRVJxNmlwcjNTbG9saHlvY0Y4MlBWemxTczkzRXZrU2oyTzJJbW93ZmpCNEJfUF9FNndfUF9vSXN4bjlYcVFkQjJoSWRQdDZ4elNxZUhIT0N2OHlVWXlWeTl1eFRfY0dTR1pIc251b2RfQ0xaWTFlb2lpNW8xLW1LdGc3VVVIRWhHWXdMNEtJM042dTEyU2NUTGZPck0xUjRCaHJBUVJ1S2YydGtTNnQ5aXMyZUFEc3FYeXpsTDVabFl3LUZmalp2TDhYSjVQNm04Z0ZTSzV1a0lfR18xYks1NjV2MXl4b29fWUR6eDBHZGJB?oc=5",
     "fuente": "Onda Cero",
     "fecha": "2026-11-18T19:22:07+00:00"
+   },
+   {
+    "titulo": "SALF comparte mensaje de Alvise Pérez contra el maltrato animal",
+    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWWc0Q0czYm10YWV1dWk3RDJscWFPMHF0T09nRlhYRFJWUnphVnlPcXZ0bnRfeWZEaGhoTm1LY2w5UXJIZ1VLZjRDb1FDMzZVenJlNWJOMGxzTS1WZjNEM3FGejEzSmUwdlRMaDJ1TXV3dkUwRmpfS2ZodmNkemhHNGNuRU0wY2ViNUc3UVphZ3BIOFhTT1k1UHBPNzk2Y0k?oc=5",
+    "fuente": "El Periódico de Ceuta",
+    "fecha": "2026-11-18T14:34:27+00:00"
+   },
+   {
+    "titulo": "Eladio Barrado (SALF) propone reducir a la mitad los ministerios y eliminar impuestos para la compra de la primera vivienda",
+    "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNWXlldXVfTV8wQWxWTndBQXg3ejh6MzhtLXRDUFhXRjk3YklfUTUtck9MQjZQZ05aT1VFQnVvRTdKbmxsUzJ3QmNtMjk5bllyekdLQVR0ZlhScVgwamFtWjdyWjVKSFpDcXY1WUtwOHRKaHVIWWY1a1hTODM0STQtY1BRaDFsSVVBZGQySmt5S09hQ2t2bGNPeHFHSGFFcjZLX2VQQUNpbTZKMThORGU4S2EzX3JoT1RWZkhMcTA2WTl4azcwRFJsR09uOW5oNEpycEVxV0RUS1RUWTZlbzcySUxmeVU1Mlc1X210TUFMRE5zc3U4ZmJuUS1oOXFHLW1m0gGAAkFVX3lxTE1ZeWV1dV9NXzBBbFZOd0FBeDd6OHozOG0tdENQWFdGOTdiSV9RNS1yT0xCNlBnTlpPVUVCdW9FN0pubGxTMndCY20yOTluWXJ6R0tBVHRmWFJxWDBqYW1aN3JaNUpIWkNxdjVZS3A4dEpodUhZZjVrWFM4MzRJNC1jUFFoMWxJVUFkZDJKa3lLT2FDa3ZsY094cUdIYUVyNktfZVBBQ2ltNkoxOE5EZThLYTNfcmhPVFZmSExxMDZZOXhrNzBEUmxHT245bmg0SnJwRXFXRFRLVFRZNmVvNzJJTGZ5VTUyVzVfbXRNQUxETnNzdThmYm5RLWg5cUctbWY?oc=5",
+    "fuente": "Andalucía Información",
+    "fecha": "2026-11-18T11:32:46+00:00"
    }
   ],
   "ERC": [
@@ -364,6 +377,13 @@
   ],
   "Bildu": [
    {
+    "titulo": "La «izquierda abertzale andaluza» gana terreno a Frente Amplio entre los avisos del PP por sus lazos con Bildu",
+    "enlace": "https://www.eldebate.com/espana/andalucia/20261119/izquierda-abertzale-andaluza-gana-terreno-frente-amplio-entre-avisos-pp-lazos-bildu_482537.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-19T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/18/6afddbb77ab32.jpeg"
+   },
+   {
     "titulo": "La Ertzaintza identificó a 50 cachorros de Bildu en el apedreamiento a Echeverría",
     "enlace": "https://www.abc.es/espana/pais-vasco/cincuenta-cachorros-bildu-perfectamente-organizados-concentraron-hernani-20261119020059-nt.html",
     "fuente": "ABC",
@@ -375,13 +395,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPM1MtLUZxeVhYUVZ6Mm9zdUtIei1Nb0d5NU1ocW9rd0FyNmtxaDFhX081dVI4TFJjTXVhcmp5ODhFT0RZR0dib2hYM1dzeG0zMXZJVXZhNWMzNW1zYjdQWUVFTVlrUmxMLVByandPS09YMEhnQ1FPRFpGeW0zUEkxa0J4TGpvY0cxRU1hRUlhTExZelJWMGlOY2FoRkxsV1ZHcDNqWlM4X2hDVWxIQ29SNVVFdi1MSHNjYTY1M0FFMFZDcFAydWg0YlZKeDVTM2F6U282eTl6MUZ6MkJmckNHZWpn?oc=5",
     "fuente": "Pamplona Actual",
     "fecha": "2026-11-18T19:25:12+00:00"
-   },
-   {
-    "titulo": "Jon Echeverría denuncia que Bildu «no ha condenado» todavía los ataques sufridos por radicales en Hernani",
-    "enlace": "https://theobjective.com/videos/espana/politica/2026-11-18/jon-echeverria-bildu-no-ha-condenado-ataques-sufridos-hernani/",
-    "fuente": "The Objective",
-    "fecha": "2026-11-18T18:37:58+00:00",
-    "imagen": "https://theobjective.com/wp-content/uploads/2026/11/jon-echeverria-rincon-espe.jpg"
    },
    {
     "titulo": "EH Bildu supera a ERC y PNV en el pulso nacionalista del 29N según Sociometro.com",
@@ -404,11 +417,11 @@
   ],
   "PNV": [
    {
-    "titulo": "Maribel Vaquero (PNV) señala a PP y Vox: «Son el voto contra el País Vasco»",
-    "enlace": "https://theobjective.com/espana/politica/2026-11-18/maribel-vaquero-pnv-pp-vox-voto-contra-euskadi/",
-    "fuente": "The Objective",
-    "fecha": "2026-11-18T19:58:05+00:00",
-    "imagen": "https://theobjective.com/wp-content/uploads/2026/11/vaquero-pnv-pp-vox.jpg"
+    "titulo": "Bildu se olvida de Treviño en su programa electoral pero el PNV insiste en anexionarlo al País Vasco",
+    "enlace": "https://www.eldebate.com/espana/castilla-y-leon/20261119/bildu-olvida-trevino-programa-electoral-pnv-insiste-anexionarlo-pais-vasco_481776.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-19T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/17/6afc1a9044764.r_d.1249-411-0.jpeg"
    },
    {
     "titulo": "PNV reivindica su defensa de los intereses vascos frente a un PP y Vox que representan \"el voto contra Euskadi\"",
