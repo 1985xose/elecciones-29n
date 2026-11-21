@@ -1,26 +1,27 @@
 {
- "actualizado": "2026-11-21T22:01:05.696Z",
+ "actualizado": "2026-11-21T23:01:08.283Z",
  "media_bruta": {
-  "PP": 31.324569526704757,
-  "PSOE": 27.626675024434782,
-  "Vox": 18.799979707481757,
-  "Sumar": 7.659404012368472,
-  "Podemos": 1.3429281984882862,
-  "SALF": 1.9767022341823715,
-  "ERC": 2.5324829312742145,
-  "Junts": 1.2898992133647662,
-  "Bildu": 1.5091139431664706,
-  "PNV": 0.8262676856937305,
-  "BNG": 0.9559544605105763,
-  "CCa": 0.40218215945285873,
-  "AA": 1.6436352885604235
+  "PP": 31.313732038068512,
+  "PSOE": 27.685753518560684,
+  "Vox": 18.77611026359919,
+  "Sumar": 7.458324922902562,
+  "Podemos": 1.3135474269438383,
+  "SALF": 2.0019098706623075,
+  "ERC": 2.529545425679502,
+  "Junts": 1.284617841698859,
+  "Bildu": 1.5114374086662488,
+  "PNV": 0.8243536714818515,
+  "BNG": 0.9540941606424543,
+  "CCa": 0.40118453869343523,
+  "AA": 1.6434957291798309
  },
  "principales": [
   "PP",
   "PSOE",
   "Vox",
   "Sumar",
-  "ERC"
+  "ERC",
+  "SALF"
  ],
  "sesgos": {
   "40db": {
@@ -30,9 +31,10 @@
     "PP": -0.77,
     "PSOE": 1.77,
     "Vox": -0.43,
-    "Sumar": -1.54
+    "Sumar": -1.54,
+    "SALF": 0.17
    },
-   "sd": 1.12
+   "sd": 1
   },
   "electopanel": {
    "empresa": "EM-Analytics",
@@ -42,9 +44,10 @@
     "PSOE": 0.49,
     "Vox": 0.83,
     "Sumar": -1.02,
-    "ERC": -0.13
+    "ERC": -0.13,
+    "SALF": 0.08
    },
-   "sd": 0.64
+   "sd": 0.59
   },
   "sociometrica": {
    "empresa": "SocioMétrica",
@@ -54,9 +57,10 @@
     "PSOE": -0.42,
     "Vox": -0.64,
     "Sumar": -1.04,
-    "ERC": 0.06
+    "ERC": 0.06,
+    "SALF": 0.58
    },
-   "sd": 0.83
+   "sd": 0.76
   },
   "invymark": {
    "empresa": "InvyMark",
@@ -66,9 +70,10 @@
     "PSOE": 0.77,
     "Vox": 0,
     "Sumar": -0.18,
-    "ERC": -0.2
+    "ERC": -0.2,
+    "SALF": -0.06
    },
-   "sd": 0.94
+   "sd": 0.87
   },
   "sigmados": {
    "empresa": "Sigma Dos",
@@ -78,9 +83,10 @@
     "PSOE": -0.82,
     "Vox": -0.42,
     "Sumar": 0.59,
-    "ERC": 0.21
+    "ERC": 0.21,
+    "SALF": -0.37
    },
-   "sd": 0.86
+   "sd": 0.84
   },
   "targetpoint": {
    "empresa": "Target Point",
@@ -89,9 +95,10 @@
     "PP": -1.1,
     "PSOE": -0.5,
     "Vox": 0.52,
-    "Sumar": 1.02
+    "Sumar": 1.02,
+    "SALF": 0.46
    },
-   "sd": 1.25
+   "sd": 1.13
   },
   "dym": {
    "empresa": "DYM",
@@ -100,9 +107,10 @@
     "PP": 2.18,
     "PSOE": 0.58,
     "Vox": -1.56,
-    "Sumar": -1.41
+    "Sumar": -1.41,
+    "SALF": -1.01
    },
-   "sd": 1.01
+   "sd": 0.92
   },
   "gad3": {
    "empresa": "GAD3",
@@ -112,9 +120,10 @@
     "PSOE": -0.26,
     "Vox": -0.33,
     "Sumar": -0.08,
-    "ERC": 0.28
+    "ERC": 0.28,
+    "SALF": -0.3
    },
-   "sd": 0.62
+   "sd": 0.58
   },
   "ateneodeldato": {
    "empresa": "Ateneo del Dato",
@@ -135,9 +144,10 @@
     "PSOE": 6.06,
     "Vox": -1.2,
     "Sumar": -0.1,
-    "ERC": 0.54
+    "ERC": 0.54,
+    "SALF": 0.15
    },
-   "sd": 1.34
+   "sd": 1.24
   },
   "moreincommon": {
    "empresa": "More in Common",
@@ -146,9 +156,10 @@
     "PP": -2.5,
     "PSOE": 0.33,
     "Vox": 0.7,
-    "Sumar": 2.58
+    "Sumar": 2.58,
+    "SALF": 0.35
    },
-   "sd": 1.73
+   "sd": 1.55
   },
   "gesop": {
    "empresa": "GESOP",
@@ -158,7 +169,8 @@
     "PSOE": 0,
     "Vox": 0.09,
     "Sumar": 1.4,
-    "ERC": 0.25
+    "ERC": 0.25,
+    "SALF": 0.25
    },
    "sd": 0.5
   },
@@ -170,7 +182,8 @@
     "PSOE": -1.07,
     "Vox": 0.8,
     "Sumar": -0.87,
-    "ERC": -0.23
+    "ERC": -0.23,
+    "SALF": -0.05
    },
    "sd": 0.5
   },
@@ -206,7 +219,8 @@
     "PSOE": -0.16,
     "Vox": -0.22,
     "Sumar": -0.01,
-    "ERC": -0.03
+    "ERC": -0.03,
+    "SALF": -0.05
    },
    "sd": 0.5
   }
@@ -222,7 +236,8 @@
     "PP": -0.77,
     "PSOE": 1.77,
     "Vox": -0.43,
-    "Sumar": -1.54
+    "Sumar": -1.54,
+    "SALF": 0.17
    }
   },
   {
@@ -236,7 +251,8 @@
     "PSOE": -0.42,
     "Vox": -0.64,
     "Sumar": -1.04,
-    "ERC": 0.06
+    "ERC": 0.06,
+    "SALF": 0.58
    }
   },
   {
@@ -250,7 +266,8 @@
     "PSOE": 0.49,
     "Vox": 0.83,
     "Sumar": -1.02,
-    "ERC": -0.13
+    "ERC": -0.13,
+    "SALF": 0.08
    }
   },
   {
@@ -264,7 +281,8 @@
     "PSOE": -0.82,
     "Vox": -0.42,
     "Sumar": 0.59,
-    "ERC": 0.21
+    "ERC": 0.21,
+    "SALF": -0.37
    }
   },
   {
@@ -278,7 +296,8 @@
     "PSOE": -0.16,
     "Vox": -0.22,
     "Sumar": -0.01,
-    "ERC": -0.03
+    "ERC": -0.03,
+    "SALF": -0.05
    }
   },
   {
@@ -291,7 +310,8 @@
     "PP": 2.18,
     "PSOE": 0.58,
     "Vox": -1.56,
-    "Sumar": -1.41
+    "Sumar": -1.41,
+    "SALF": -1.01
    }
   },
   {
@@ -353,7 +373,8 @@
     "PSOE": 6.06,
     "Vox": -1.2,
     "Sumar": -0.1,
-    "ERC": 0.54
+    "ERC": 0.54,
+    "SALF": 0.15
    }
   },
   {
@@ -381,7 +402,8 @@
     "PSOE": -1.07,
     "Vox": 0.8,
     "Sumar": -0.87,
-    "ERC": -0.23
+    "ERC": -0.23,
+    "SALF": -0.05
    }
   },
   {
@@ -395,7 +417,8 @@
     "PSOE": 0.77,
     "Vox": 0,
     "Sumar": -0.18,
-    "ERC": -0.2
+    "ERC": -0.2,
+    "SALF": -0.06
    }
   },
   {
@@ -417,7 +440,8 @@
     "PSOE": -0.26,
     "Vox": -0.33,
     "Sumar": -0.08,
-    "ERC": 0.28
+    "ERC": 0.28,
+    "SALF": -0.3
    }
   },
   {
@@ -431,7 +455,8 @@
     "PSOE": 0,
     "Vox": 0.09,
     "Sumar": 1.4,
-    "ERC": 0.25
+    "ERC": 0.25,
+    "SALF": 0.25
    }
   },
   {
@@ -466,7 +491,8 @@
     "PP": -1.1,
     "PSOE": -0.5,
     "Vox": 0.52,
-    "Sumar": 1.02
+    "Sumar": 1.02,
+    "SALF": 0.46
    }
   },
   {
@@ -492,7 +518,8 @@
     "PP": -2.5,
     "PSOE": 0.33,
     "Vox": 0.7,
-    "Sumar": 2.58
+    "Sumar": 2.58,
+    "SALF": 0.35
    }
   },
   {
@@ -570,6 +597,12 @@
      "dado": 5.4,
      "esperado": 7.3,
      "diferencia": -1.9
+    },
+    {
+     "partido": "SALF",
+     "dado": 1.7,
+     "esperado": 2.1,
+     "diferencia": -0.4
     }
    ]
   },
@@ -612,6 +645,12 @@
      "dado": 2.4,
      "esperado": 2.4,
      "diferencia": 0
+    },
+    {
+     "partido": "SALF",
+     "dado": 2.2,
+     "esperado": 1.9,
+     "diferencia": 0.3
     }
    ]
   },
@@ -654,6 +693,12 @@
      "dado": 2.5,
      "esperado": 2.6,
      "diferencia": -0.1
+    },
+    {
+     "partido": "SALF",
+     "dado": 2.2,
+     "esperado": 2.4,
+     "diferencia": -0.2
     }
    ]
   },
@@ -732,6 +777,12 @@
      "dado": 5.4,
      "esperado": 7.6,
      "diferencia": -2.2
+    },
+    {
+     "partido": "SALF",
+     "dado": 1.8,
+     "esperado": 2,
+     "diferencia": -0.2
     }
    ]
   },
@@ -774,6 +825,12 @@
      "dado": 2.5,
      "esperado": 2.4,
      "diferencia": 0.1
+    },
+    {
+     "partido": "SALF",
+     "dado": 2.1,
+     "esperado": 1.9,
+     "diferencia": 0.2
     }
    ]
   },
@@ -810,6 +867,12 @@
      "dado": 5.2,
      "esperado": 7.5,
      "diferencia": -2.3
+    },
+    {
+     "partido": "SALF",
+     "dado": 1.6,
+     "esperado": 2,
+     "diferencia": -0.4
     }
    ]
   },
@@ -924,6 +987,12 @@
      "dado": 2.4,
      "esperado": 2.4,
      "diferencia": 0
+    },
+    {
+     "partido": "SALF",
+     "dado": 2.2,
+     "esperado": 1.8,
+     "diferencia": 0.4
     }
    ]
   },
@@ -1002,6 +1071,12 @@
      "dado": 14.6,
      "esperado": 9.1,
      "diferencia": 5.5
+    },
+    {
+     "partido": "SALF",
+     "dado": 2.1,
+     "esperado": 2.3,
+     "diferencia": -0.2
     }
    ]
   }

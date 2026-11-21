@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T22:01:40+00:00",
+ "actualizado": "2026-11-21T23:01:51+00:00",
  "generales": [
   {
    "titulo": "Abascal se da un baño de masas en San Vicente (Alicante) y advierte que «las encuestas no llenan urnas»",
@@ -9,18 +9,18 @@
    "imagen": "https://okdiario.com/img/2026/11/21/imagen_recortada-7-1.jpg"
   },
   {
+   "titulo": "Vox se querellará contra Albares y los cónsules por la urna alternativa para la ley de nietos",
+   "enlace": "https://theobjective.com/espana/politica/2026-11-21/vox-querellara-albares-consules-ley-de-nietos/",
+   "fuente": "The Objective",
+   "fecha": "2026-11-21T22:17:57+00:00",
+   "imagen": "https://theobjective.com/wp-content/uploads/2026/11/el-presidente-de-vox-y-candidato-a-la-presidencia-del-gobierno-santiago-abascal.jpg"
+  },
+  {
    "titulo": "Bono a Felipe González: «No hagas el tonto. El PSOE te debe mucho, pero tú más al PSOE»",
    "enlace": "https://www.abc.es/espana/castilla-la-mancha/bono-felipe-gonzalez-hagas-tonto-psoe-debe-20261121221143-nt.html",
    "fuente": "ABC",
    "fecha": "2026-11-21T22:11:44+01:00",
    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/21/fotonoticia_20261121214157_1920-R3mnAz69Osy43fXFJKZn3EK-1200x840@diario_abc.jpg"
-  },
-  {
-   "titulo": "29-N: Mañueco afirma que Feijóo (PP) velará por los intereses del medio rural",
-   "enlace": "https://www.larazon.es/castilla-y-leon/29n-manueco-afirma-que-feijoo-velara-intereses-medio-rural_202611216b020660c0d5c85b96c41aaa.html",
-   "fuente": "La Razón",
-   "fecha": "2026-11-21T22:00:16+01:00",
-   "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/21/E576128F-24EB-491D-8159-FCBFB27F6E38/presidente-ppcyl-alfonso-fernandez-manueco-clausura-trabazos-acto-campana-junto-presidente-provincial-zamora-cabeza-lista-senado-jose-maria-barrios-nu_96.jpg?crop=6000,3375,x0,y267&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
   },
   {
    "titulo": "Impuestos a los más ricos y más vivienda pública: con qué medidas podría seducir la izquierda a los votantes de derecha",
@@ -116,6 +116,18 @@
   ],
   "PSOE": [
    {
+    "titulo": "El PSOE se estanca en Granada y no recupera su tercer diputado",
+    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT2U0RlR3XzNJS2hRQUF5UjR4NHZ3MmNMaUlNanFJMmxPNjZMYllDay02S2JOcGU5WjdPbmd1ZkpNQVhHdjFoR0pVWWpKWi1WZ1BrcklVdk0tWDZOOXljME42ZzBFWkdOMjI1YUVHZ0NOalBRazJRdUZJVnhxR2RpVVV5cmxrVHlvaGN3TmxBYlMxNHNPaFVya0tYVVFGR1VYQ0tpTGNueXlLSDVSLUo2bFJqcjliMmVHbGc?oc=5",
+    "fuente": "Ideal",
+    "fecha": "2026-11-21T22:47:11+00:00"
+   },
+   {
+    "titulo": "Así votó Montilla en las elecciones generales de 2023: el PSOE resistió con el PP a 472 votos",
+    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSkZfYnQ4VkhfT01nQjFobVNsa0tkSUpDcUw0ZlFPNl9SYUlKVjJuRWRuVFgwVFo1clZWUTBJaU5Ld3I2SExoTEtzS0RSREZEejJGc2p0X3Zra2k1b0hwandIOXJJRC1iTkZMTS1fZ09EamFYU0tkRzQ0U1NZdlRSYThBRkFuLWxsQWU4NkpVRi13bUx5YV9sYU54d2Z0UdIBowFBVV95cUxNdEpjME01cEo0STI1NjNYVl9fM1NEaTMySVZxM1RZTzlKci1aWFhTNUNNRXk1cF9hWDBzVkIxVkozbXJUVVZ5TXlLZnRpeFFHczhUU01CaDFrXzh5ejRJaXh0RVRiNHI0b2R3MGcyZ1JrTVpLU0VKTUhzRUU1T1hLTUZwNGtLTWtHNFUzTjg2WlVBOUlrWnBYTDhqOWs5dEhvR3Fn?oc=5",
+    "fuente": "El Día de Córdoba",
+    "fecha": "2026-11-21T22:45:15+00:00"
+   },
+   {
     "titulo": "Bono a Felipe González: «No hagas el tonto. El PSOE te debe mucho, pero tú más al PSOE»",
     "enlace": "https://www.abc.es/espana/castilla-la-mancha/bono-felipe-gonzalez-hagas-tonto-psoe-debe-20261121221143-nt.html",
     "fuente": "ABC",
@@ -140,27 +152,21 @@
     "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTGMzYXg1UW1SRWlYZmhmNmo3YmtkY2ZQbnE4eXlMSlhtMkhIYUVIM3BEMVJQZDh6QndIZkdabHkxNG5FNTZvZDFJcmhKMW5ub1V1OU5ncWd1OFRCc2pxZEZ6aW9RUUQ5RGZscS15TWdScE95QmljdHZXejRoSThJeVQ2Z0lCZnlZSnEwWmRtRUFmUHNGYVpPTXNVNjJEY1hCOGQxSmNyUTNpSVJsRTFtb2lTSErSAboBQVVfeXFMTUJaVWxGLU5ma1VIbW52V2dac3NaYS1BWHBtczNKRUU2U05mbUdYUTJLVnRiQnJVcFhGSDVCX09mSFhDWmZLb3NPNEdMSE1odEcxUnZIREg0ekQtNVRqX0tycGRBRVBacjYwd1JXMGwxaDR4ZzdtdDF2NGxlZ3EzQWhiTjdJNzBHdkdkenJiaFZPcnB4ZzlMb0NDTGVRc3BJTGNZencwMWstUUJTeGctc3UtM2hLMmhZVUVn?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-21T20:14:00+00:00"
-   },
-   {
-    "titulo": "Salvador Illa: “Si Cataluña se moviliza Pedro Sánchez gobernará”",
-    "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUjQ2RWZCc3lVUGVaVldLc0I0bjFoLXhEWWRXRzZBbl9WbG42MHR3UFlKQ1JtS0RkS1Z6Tk9oV2hDc0xqOGs5MGF4OWpsN3BmLW52a3BMNF9veV9TOFlvRS1mZVNuY1V6MHJPS2tlcWpCSGdLeGhqQUVxejl2cnktLWR3S25XM1JtSTJ5TE96MUh4U19OMnQ3RkNnUDgyVmlQTHp4S2p0aEJIa0U?oc=5",
-    "fuente": "Diari ARA",
-    "fecha": "2026-11-21T20:06:48+00:00"
-   },
-   {
-    "titulo": "Gran Canaria recibe a Pedro Sánchez en un mitin clave para el PSOE ante la crisis migratoria de El Hierro",
-    "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT0dZdnlKaXZEZURkYXJnQjc0SGg0OVEwVGxTVE1TZUozajFvcXNScFlOOEtsWkI4N1pRMlVYaENvcGVVOG1UX1I1MXI3MWRmU3hHSlZOT1BtOEhZV3JDVkhOcXhmQ1VZS2hIOWVKUXpGcDgtZC1oOThqLW0xWlM4dTBiYVBCbkdSeFp1OUN6LWdUQTBGSlQxMkVUYWVldHdJc3ZUUVNyMUE4bFdFRkdRbWxMX1LSAboBQVVfeXFMUHAyemxjYXJ1OHVIcWM0eTAzTzU1MHNtSldrNlVsRWZ2R0xzcUp6LXk3bXRQTE5yRGhVZE5IaEZqRmdOY043a3UyQjRYREJZckR2blZiR011cG05eGFHVm9EbktlTXBoQU5kczlCTTdvRU8zbGk1TGZILUdJRm9xUlViWWliVl92aV9BT3A4c0pnQ2FabnF1Tm9ocklQZm5GMXhtaGVXWE42bUVldGotS2I2ODRUaVFRVDFn?oc=5",
-    "fuente": "Canarias7",
-    "fecha": "2026-11-21T20:02:21+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "Abascal se da un baño de masas en San Vicente (Alicante) y advierte que «las encuestas no llenan urnas»",
-    "enlace": "https://okdiario.com/comunidad-valenciana/abascal-da-bano-masas-san-vicente-alicante-advierte-que-encuestas-no-llenan-urnas-21239425",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-21T22:24:57+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/21/imagen_recortada-7-1.jpg"
+    "titulo": "Vox llama a la movilización desde Barcelona para acabar con la multirreincidencia",
+    "enlace": "https://www.larazon.es/cataluna/vox-llama-movilizacion-barcelona-acabar-multirreincidencia_202611216b021bb0f6da642efef7a18c.html",
+    "fuente": "La Razón",
+    "fecha": "2026-11-21T23:31:13+01:00",
+    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2025/06/25/652353AC-13DD-4FC4-AFE8-AE607931911B/96.jpg?crop=3840,2160,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Santiago Abascal tiende la mano a los votantes que se sienten de izquierdas \"frente a unos dirigentes que les han traicionado\"",
+    "enlace": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOUmlmX19QcEFIVzkta2EzT2dqeC0tRC03M3NhM3FZakdJRXVMampvLVBoTnJ4ZEt6eFF6a1FuLVZtNW9NY0NJWlpfOTBKRmg0R19Oekw0ejBvWmUzdzUzblByNHRkemE1dERULVp1bjVxNnlJQmNndHVuVU85R1gzeW0tLUZWcV9BN1pqWlIyTnVaaVl3QlNzUzlNV3JsVGtPcm84c091RGpHMEpwUVpGVW5xY1JERDd0UkJydEs5QnRyWmttd180cTZ2bl9rVFVoSVZtNlZfNjVkOThpZ21zUzl5Y0JaN2V5eHBLcGxVN19yS2Z5VFVmVmJKdy01OWNOdHMxOFozYU8yd1gwVnlrRGRyNnk2czV3RUhWZUlNb9IBswJBVV95cUxOZDY2NVZWUGpSY242bHI4b0ZIcjFySmVCUXJEOXZ0VE5OWUhyOHlCVVNyb2hjVjZKaE9QQzh6Y2ZYVjJYdDZVaUNHWlVkRURWU19xcjlVUW9zUlRmWVRBc0FGRThwSGxRaTBueldZT2F2QVhhQ1loZDh4ZlpQX0ctMW5WNlpqNTBINkc4UVhzZFphZzY2U3h5M1ZTTmJSc2NBaTQwdW1zS1FNMWI3TnFnNXBfdXdLNU0xVVpEWU9oWkNGSTQ0bGpQMUxFZFJNX0htOUE4Wjk4QV9ra1dwSVBLVFNOZUU5d3JHLUd5WDNWN1JiXzZRMlVZai1KTmp2cEdGRHZYZHltUVVuQUR5UHdZUHZsX2xfWnQ1dEIxc0RUYW00YXBHOXhTVldrVDV5U3I5TnpV?oc=5",
+    "fuente": "Cadena SER",
+    "fecha": "2026-11-21T22:14:22+00:00"
    },
    {
     "titulo": "Vox irrumpe en el feudo socialista de García-Page en Castilla-La Mancha: \"En el campo estamos hartos de tantas trabas\"",
@@ -169,32 +175,33 @@
     "fecha": "2026-11-21T21:34:52+00:00"
    },
    {
+    "titulo": "Abascal se da un baño de masas en San Vicente (Alicante) y advierte que «las encuestas no llenan urnas»",
+    "enlace": "https://okdiario.com/comunidad-valenciana/abascal-da-bano-masas-san-vicente-alicante-advierte-que-encuestas-no-llenan-urnas-21239425",
+    "fuente": "OkDiario",
+    "fecha": "2026-11-21T21:24:57+00:00",
+    "imagen": "https://okdiario.com/img/2026/11/21/imagen_recortada-7-1.jpg"
+   },
+   {
+    "titulo": "Abascal afea al PP su \"estratagema\" del voto útil: \"El crecimiento de Vox es lo único que asegura la alternativa\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQbGpkWHJkUGFiYlJZTU5TMHI4d0dJcmNoQ0otZW5TWHRyMjlReXk4SDNIYXZFTURsazAxVVc2TVk0aEhTZmRWdWxEQXlFQmZMYlliT05XanIwMWdlYUhxY1hjZU9Td29UTXdpZTZVdk1ydU9Fb280aXNUSDBoVGdGX1VxMHBrNzRFOXdyVG1iX0w5RVN4bENwWG13WWhCZ29CNnQ3NHJRNk9zSk80TDBrbjVDSVU1RmxDdWc4N1VVNmRTdjM3d1c1amVESG9tVGVRWkhHZnExVFh4aXZqckdfT0ctUzE5NVA5NlJ1RU8wdHpaUdIBjAJBVV95cUxNSm5iSFJkYUI3bE9ZNGoyZ1kwU0hzWUtZY2xaOWhYYWFuZWRrWXJSWEtkWXhuYk9PN29UWnpOdFJuRlBrVHBkQU9GZ21uTkxFeWJXSHkzLUZuUTVHeDhkeGpFMkJBOVNPb0hkak84TlozSmxSUVlQRW9VNXlGc0VfSWFub1NrckZlNER5MUtTSEw3LWNicUY4bThUTDg4enl1SGpUckE3d3RqT0UwQThyZ2NTZ3hETnpKYmEzUTZoTndEUURYei03UkJobVRkTzFELXpoZ0FFRWVvWDRRVDBXS0dnd1NhbkxaOGN6U2xtck5hSHRlMHU0MWM3eW5HTWk2QjVHUTNVdVltcGEy?oc=5",
+    "fuente": "Infobae",
+    "fecha": "2026-11-21T21:16:00+00:00"
+   },
+   {
     "titulo": "Abascal defiende en Alicante la 'remigración': \"Me suena a música celestial\"",
     "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWVFMYTdIVkNJalZid1NaNlh6QVBlcXlWN3pjNHJadzNZb0FsZUluTkJXZUlEZ21vb0ZGRjhuaG9yQlAwRHBfVzB5T25RNzhiVExVemRDb0puVnJwYnNpQ1Y1eExWc2R3dUg5R01HQU1aVVF2VWpPSnBINk1udDYyUURLRXN5c3dQUW1PRFBiYjVSZE5mZGN6TVdnRXM5bEFuZ2kycF8tbmtWczBtT01SeWg4ONIBuAFBVV95cUxQWV9yLXNGdFZUT29QMTRSN19xaS1WSWlDeFZXQnR0YkVvWmk2T3Q0djJOUm53TnBZM3poa0ZVOXJLa1FPV2dYQmRCS1RSVV9lZVBTc3FvVldPbUhnM3U5ME1MM0lfS3J6MzB3ZDM3aTloNTBUR2lMX0NpckNySjlsTFF3TTVCa2lyaHk2V01PNHFXckVuamNmQXdzeGtjWlRRMzd5czVRNTVKT0tyUk45U0NPcnVRcEdN?oc=5",
     "fuente": "ABC",
     "fecha": "2026-11-21T21:06:36+00:00"
-   },
-   {
-    "titulo": "Abascal, en Alicante: “La remigración me suena a música celestial”",
-    "enlace": "https://elpais.com/espana/elecciones-generales/2026-11-21/abascal-en-alicante-la-remigracion-me-suena-a-musica-celestial.html",
-    "fuente": "El País",
-    "fecha": "2026-11-21T21:00:00+00:00",
-    "imagen": "https://imagenes.elpais.com/resizer/v2/VBHOMVW55JMMXMZXQY2ON4CLPI.jpg?auth=3cc5916c597522be294ce66447dfff954093ca4003a79a3707a9b4e56f8d156d"
-   },
-   {
-    "titulo": "Abascal: solo el crecimiento de Vox asegura la alternativa",
-    "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNko1Zm9rcEYtMG13c1NLV2lGMGdiTDFaYkZGZzg4MTc3b2VseVpQaDF6VVhDdUNQMFg1ek9DRlJjRXFvMnczdkZIdkxvOWs0VlNJdTF4Z05BaWJvNEVGS0FZd2tfRUlRX3pnU29rMVp1bVFDQnEwMGdMbkFWeGlXS3ktdHJmSXVJVnFvWWdWUklnTGxEMlZFYTlyNmVMUkNxSXdJRWxhVjBpbmpxUG0tdzl1Zw?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-11-21T20:52:00+00:00"
-   },
-   {
-    "titulo": "Abascal apela en Alicante al votante de izquierdas tras clamar contra la “mafia criminal” del Gobierno de Sánchez",
-    "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPclAxVmRHaGZ3WXhuWE9sVWEtajlYNEktd0lnSkM2RGJ0OGZ2eDRYVGtKMDQ1NXVaWlQ0SGFKZGJXbGRnVC1NQWd4R0JlN1pHSG40RUhzaFh2Q21DWWg1Wm5VSVB2eUUwY0lNdU9xakRKOW54UVJSaTNxY3JXZ1l3ZVR6cy1LTHg4T3pMV0hMSU50WU1EV1NQSlVpYWF0QjA5V0E?oc=5",
-    "fuente": "El Periódico",
-    "fecha": "2026-11-21T20:48:18+00:00"
    }
   ],
   "Sumar": [
+   {
+    "titulo": "Rufián responde a Yolanda Díaz que aprobar la reforma laboral con Ciudadanos \"rompió muchos puentes\"",
+    "enlace": "https://www.20minutos.es/nacional/rufian-responde-yolanda-diaz-aprobar-reforma-laboral-ciudadanos-rompio-muchos-puentes_7064150_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-11-21T22:44:47+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/21/6b020f92ca1cc0-95451035.jpeg"
+   },
    {
     "titulo": "Rufián reprocha a Yolanda Díaz no haber negociado la reforma laboral con ERC y Bildu, priorizando a Garamendi y Ciudadanos",
     "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGYyVlNNMVJ1WlR6WGYxNV9Md2NoQmx6eTQ0Q3BOT1V0NUo4ZkkzWnNfR0dBSkhHNmZQZThILUJ2U1Zub2plb01EaGx5QVpfa3pGTFo3eC1uOWtBTUVxNmc3Ym9hb3B3alNWUmJzY2xYN3NGM2l5RERzUHJBWFBlWUt4THRXWEdyYnVVampsaFBLZXdvZ3czTERGd2dPSTBtajBKbXhQTFXSAagBQVVfeXFMTmt6M0VjVERabDN5WjlIZHdWdU5iNmhtWnk2eWttbFI2WEZ5aVlqVnI4WlpzVERPcW03bmhFV0NPOGl0Ykp5SkQ2NW9RZFBJdU1qMVJnbDRtSS1fdDViSWZJRW81ZHBwS3p6ZHk3bVZEbTl4MHA3UVg2RFlWbU02cC1TcUVPRTFZekY5WEVMUnBSNWtLeUtQaF91Rnl2aFpkUWdvMDVDdEh5?oc=5",
@@ -224,12 +231,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOWFwUC1ZcHJVUTEyTXE2Rm1vMFZDMHVfOGh1SUNpSXdGVFFoa0NBLUhsQUFrT2Z2cFREbDRJYmRnM2xWeFU3c3hzR240S25qOWREenBxc3JTY1RDc2haa2huQkc5MWh2VFRhN3ZDRVUyVmpET1RmMVJZNkRiYWtPNnlmajJYUGdFOG5YbVgyTmdQRFBQRkNRVy0wdmhObjV3REcxLWNVMDRLYkNmb2NUT2tEejZObFAzaG1vWVQ2N25kek9XWnVLRTFWM0RsWGNw?oc=5",
     "fuente": "El Nacional.cat",
     "fecha": "2026-11-21T15:38:00+00:00"
-   },
-   {
-    "titulo": "Yolanda Díaz señala al PSOE por \"equivocarse\" en su estrategia electoral para el 29-N",
-    "enlace": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM3RZb0hPZS05QTdpYUhzN2wyZnhJRHZsakh6cmMyZFFHc0g1a2h3Y3lfc3hTQWlydFhYZkpUSFVrS2Fzay1CVGtJbTlNQkltTDNPV0pSdTVCN0dTMjZ5R295bEJibS03NDYzVWdBbkt2SUV0cmZuMXVibkdYcFVqRWxR0gGCAUFVX3lxTE8zdFlvSE9lLTlBN2lhSHM3bDJmeElEdmxqSHpyYzJkUUdzSDVraHdjeV9zeFNBaXJ0WFhmSlRIVWtLYXNrLUJUa0ltOU1CSW1MM09XSlJ1NUI3R1MyNnlHb3lsQmJtLTc0NjNVZ0FuS3ZJRXRyZm4xdWJuR1hwVWpFbFE?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-21T15:15:27+00:00"
    }
   ],
   "Podemos": [
@@ -288,6 +289,13 @@
   ],
   "ERC": [
    {
+    "titulo": "Rufián responde a Yolanda Díaz que aprobar la reforma laboral con Ciudadanos \"rompió muchos puentes\"",
+    "enlace": "https://www.20minutos.es/nacional/rufian-responde-yolanda-diaz-aprobar-reforma-laboral-ciudadanos-rompio-muchos-puentes_7064150_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-11-21T22:44:47+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/21/6b020f92ca1cc0-95451035.jpeg"
+   },
+   {
     "titulo": "Rufián reprocha a Díaz no haber negociado con ERC la reforma laboral, pero sí con la CEOE y Arrimadas",
     "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcnFSWGhnUGNURW4wLVd6YXNmLXJsWFFhOTV3NEJ5bmNZQUdlOFR3WjF1U3VpTFY5QS1OSFB5bWZBMF83V2NCUXduMS1CN0s0cUxJdWVDcFE5el9VUVJhblFLOGt0cWZVYW40c3lHQWJxMVJoZHEyNjU4b0NHZm9uaHJwbFowZU1MX1d3MUoxSXh0QXZ6dFkxR0F0bXRJMldtMUU1UmJLS0hETV9ycmo1WHBQTU9lSGhSZ3A3b3N6b3R5Y09Sb21uNFNJQjlxUFlWLUxhTFFHWFhVd09GMjJyOXp3?oc=5",
     "fuente": "El Nacional.cat",
@@ -316,12 +324,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQa0JDNXhiQWhHTkhJbkRLVHVsSkFFWXZDVWhaR0R4dE5uTmZMa3NFdTh6YkQwZHhvenVsUURlc0QzRWplSUlRcUxudHhGWkpfTml4UVlYRHFENFMxZjJ5UFoxdFVVdHhHZUY5ajVaU1RxY1BQWXJBb2FYN0V5dXRNOG5ydVQ5VlVSeE55eU5WTWRuWnRCSm9fRm5fRExBTFFsRDJnM2V2aDU0YnFrcU1ISkJMSndFemNYWEZsY3h6U01kNTJmMXNGM29aUy1NZXR0SWxtSC1kUUszOXEtM3lVajZiQm5rNXFrNkdjZHk0NkJRdHo0bUdJYzM2LVbSAfwBQVVfeXFMUC1LMDF1SXYzSW84RDY5bkZadHp4cWQ2d1RHdHVkV2gyRVQ5S2dNRVBYSno5c1YzRVlDMGpDVHUzTExiNDBPSG00ZldHNzBCMWR4NEhIOFg1Ukx4X01YYmpDUjRkNTdJODc5ZFF4ckJsRU41Q080QUx0eFhDNVVOcnFMa1VHallHSG5uU2ZpZ3J6V1BLVmgtZHZSVzAzZ1dnaEZpWnFaa1RIdkg4aTBoZUN3bUxoMENPeUpRWnI4Tm9fZlVjVWFXdXRfZmpPTDlYVVN2dUhmc0p1c25sZktOaTU1NDB3d1FsOVlLcDJpTTFHaUdHWmxobGpzaGJ2?oc=5",
     "fuente": "MARCA",
     "fecha": "2026-11-21T18:58:27+00:00"
-   },
-   {
-    "titulo": "El PSC, Junts y el Frente Amplio sitúan a Rufián en el centro de la campaña",
-    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWUpybTZ3SzYtQ3NTOTRFM1BuMHQ5bjl1MlE0MlRYbnhBaXVab1dSTVJJSzZJbkZCMENlSUtfZUsyVFJSX0J3YmM4WnBDQjNEdDFZU2JrT09EbDQ4Y2REaWd5YzlRdTBjcTczVXhQbk40TGRPbzVvNTQ0UXlsSm1pR3dWcWNyQjJ1aWszMmcyZUR0YlpEUTU2ODdyZXoyZw?oc=5",
-    "fuente": "Diari ARA",
-    "fecha": "2026-11-21T18:09:08+00:00"
    }
   ],
   "Junts": [
@@ -403,6 +405,12 @@
   ],
   "PNV": [
    {
+    "titulo": "Esteban (PNV): ¡Ya está bien de las peleas por el poder de Sánchez y Feijóo!",
+    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY0swdFREdnV3MWM1bWFTLUh4R3lTVDdBY0FvanMtaWw5R0FwSGM3U3VOaEN6VDJRSGJfZl9CbkNPRTVjd2NsZ1U0RER2NDVRSVZKOWVGMnFpNHNHMDFYOE52cXpwT0hWTXpnUklMX3l5N1o3RHY0UGtzMmtCNkxFbExWdGNDcU1iVzkzb2d6UjEyTVloMTBQb3JTVDc4d9IBowFBVV95cUxPbk04Q25ZZkhVeXdaY2hQOWVmTDRST3JTR3Z0Z0FMTXdnV3lTTzZQSndON3VJanFnbUQyQ0FhcGU3SkVxaVdnRGplbGNwcjEwc2dFcDNTM011QVF6TkJtSzlITVFCNVJRbzFOZmlPWlE3bVhLTi1zS3FQVjZLS3RObHgtZUlCalZkWWFZc1drQUNDSmVXVXNoQmFwb1dXOEQtSEtV?oc=5",
+    "fuente": "ABC",
+    "fecha": "2026-11-21T20:12:25+00:00"
+   },
+   {
     "titulo": "El PNV insiste en reivindicar el tercer espacio más allá de Sánchez y Feijóo",
     "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOW13R3JwbVdibmVUazlVRjRkWUtEY1JubE10bmotQUt0NWxyX3RYemdvV1NkNHRRTW5qUTBrWjFZN3V2ZkhXOG4wTVFjX2t0clcyNnVFeDJZcmRYMW9vcWttcGlYeUI5em5DZFVTVGdsbEpvb0xhVjE2TURlcHVqMHlBbVU0Q2JlazBCR1FyQU9QVkpqNjc1WUFvSXhuR0dWb3JTUk81Sm1Wd9IBrwFBVV95cUxQVXBCVTNqcGhvaDdLTlVrWEp2cWFEa3ZIaVZqUmwydE9ZS3p2aWQxbUU3QlRFVHQ1M2N3eGNmbVhOV2pBWDJhdVAzbC1SbEx1NzBDcGczOFFoM0pYekRCUlQ1NEpOeG9LWFZFUXdjSWE3VktaZjRldTRlUnBHeVBfM2M1TlRIQ3Vlc3Rvak43aWtUc2cyNDZSbkc2MGV5UmhzbE5XZnozOWliR0tFSjBB?oc=5",
     "fuente": "Noticias de Navarra",
@@ -431,12 +439,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVDItaUZLTGJoZWNYRFQtNFhocktoY1BTWlAzY3VtbDdXb0lPNjluTnpCVmRUYUhQZmlxaTRJN3p4c3QwSk1NMkdwT1VKVllUUVVkTE1QcjhQVkY5ME02bkFRYmlQRWFfZXBRWEE3bDlfZV9sVURxd3BPMWFjc2lOUVp1NmRONmJRcW1leFFFS082MkFsMW5LbmZyZk1IR3c5NUpXaWU3WFdMWWR5MkVWVE1pQW1kemNidGRHQWt4Z0RyQ0tEd1BySldjR040aHhsZUZrR1V2TDVCWHVhalNieGhpdmhIOVNMNzlEZtIBgAJBVV95cUxNVHlVcjB0Ymp6Ym0tbjBnRkphLXJYZmMyWGN2VjRqaTkxYU1WZFFwYllZbzhiX0otQlpyR20wdWVKemVMWTZxOFd1VHh3RnZPT0JUUzdWRUFFTFFsSlZKMWJZMjlka3VOQkRMeE5rUzVHdTB4bks2UEVjb0RfWEhnaDQzbkRIVlhzSldVMDZBdkhfejExMnpmUGhGMkxTUHJFX2ZEV1BnTmo5cE9YUG8tYmRMT1RTNXVyaDMwN0dudXhyZE5kOC0zNWJibkRvWUlBT1VMOG96c1ZQTnl6RWpBN1BJUEVfMTVzLXpoM25EcHhMMlU4SjFfODBxQ3Z2LTAt?oc=5",
     "fuente": "Cadena SER",
     "fecha": "2026-11-20T22:21:38+00:00"
-   },
-   {
-    "titulo": "El PNV afronta las elecciones generales del 29-N con sondeos adversos y perfil propio frente a Sánchez",
-    "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NWGI2akwzMFNMM2w0UXoyMUxraGxhcmd1a1lUSFlyY2d0R3ctUE1pWTMtZld3M3E0d3RwdkxkUFZId1huY2xZbXF3RTYxeHhfbEZjT1I1bzFmT1c2NGY0QkhwdzZJY2xTaEVOQ0wyNTk2MEl6UjFSdzhMVkhqdw?oc=5",
-    "fuente": "MONCLOA.COM",
-    "fecha": "2026-11-20T20:22:57+00:00"
    }
   ],
   "BNG": [
@@ -472,10 +474,10 @@
     "fecha": "2026-11-21T18:09:44+00:00"
    },
    {
-    "titulo": "Pontón pide a la juventud gallega que repita su apoyo al BNG",
-    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ25ZSmtNWEs4bDFTTVlyT0VJRms0TGFOYjBGYkNGQzZUTDVkZ3JnVGFIOC1SbFVFTnBoTnpXeERBVlJ4RTFXX00wSG5WSVVNNnI4a1JoYzFvLWRobnB0WDBvLWxlZkFLd2VVYUV3dmVNckJFZGZFdnhvYllYMmJzNGFsNXNhSnN4UUo4TG9YRGd0RE8zNUs3VUtYVGZ4Y0tKeXFCXzg0MHpUMm9BYzl5Z1l5M083anJNN0E?oc=5",
-    "fuente": "GaliciaPress",
-    "fecha": "2026-11-21T16:15:00+00:00"
+    "titulo": "ERC, Bildu y el BNG ganan impulso ante el 29-N mientras Junts y el PNV retroceden y la llave sigue lejos",
+    "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNQWpnVVdYLXBTenpZRDhyUERPcml2TUV4b2h2OTVOTUh4dUhKOHIzNXZKMGVpZDRWWXdWX1FDQUVoRW9qM0tHZGpJeU1yV0x5Q1ZNdjRic0hZV0VreUxqeXJFNmk5aWpFbnhBOXRjLWVoRzZlX24ybWQ3TFJBaVduVW1wU1pHbS1QZ252NFdrRlBmWnJDT01XcU4yZWVQNmpxX3d5QXROcGdYQVRVVzBDY1lZUGlGS18yODlTU29EcTk4MFRWay1keUIxb0hicEo2U3pUem9DQlkwZXlfcURtMWJnY2lxck5GXzR2eU93THlDNWRh?oc=5",
+    "fuente": "El Constitucional",
+    "fecha": "2026-11-21T17:41:16+00:00"
    }
   ],
   "CCa": [
@@ -524,10 +526,10 @@
     "fecha": "2026-11-21T19:20:54+00:00"
    },
    {
-    "titulo": "UPN recupera en campaña el debate sobre la vía constitucional para la entrada de Navarra a la comunidad vasca",
-    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONmJNWjZHTVJEblZraGUtY3NWQmRhTDEwUWxoRTE3QWFBNzlhSExFU3loUlFsdW1EaDQ2bE8xNWRzX3l0MmZ1ODRSTXZLaTlPNGg1T1pBRkFGcXRrNVJPczdfcldSU2lwS1N0VmxCeVl1ZDhxaXRIc05mS29MVm5ISzdrcFFCUklHRVp5NFZVak9qMGE3ODZPSi1TbzNqWmYwajkzWTlxZlZqdDRQYTlBcjc4ak9JOUo4TTBKak16SDRUeWg30gHKAUFVX3lxTFB5WjNBdi01S3JmU0xfeXhna1d1Sy1uVUtYUk9OekRyMUt4ZGxMWlRkbVg1am1WRlB3VEJMNGdMRnM5OGhFWVRtM052TC1SckFmS2xxNE9QMURzQUItNjd1S0gzUy1OQlhpS0RWXzNBTnktdTB2MU1rUGJKX0R5czJWRmlIU19qaXhfUGRyN1dNbkpuU2N4MXl1RXlTM3BPcE1ZSjdKZkRqSHQ2T2dKQ04xYlFRd2ZVbVJDX2xaTjY5NzI3RzVGZEVQS1E?oc=5",
-    "fuente": "elDiario.es",
-    "fecha": "2026-11-21T14:43:53+00:00"
+    "titulo": "UPN-PP lleva a la campaña su ofensiva contra la Transitoria Cuarta y la capacidad de decidir de la ciudadanía navarra",
+    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd3BUMzNCbDhNc2FYcUJUM0JsSEY1WVU0VFBVekhFMEV1M1JlTUtTN0g2bDVBd1BnOWt2QVJrbHhzM05oV3BVdmRYTHpKMWVxXzVqR3lKYllFcE5LY2ZiRnItbHZ2dzQ4SllwT1dvY0lERTVYMVVGeWNVZnNIUFA2Njk2NVlzaGJLZVE0SHpubHBtSTlDc0xGb1lpSDFQUdIBowFBVV95cUxPVzZkLU03YkJlVEVWYWhpT29VZ1plZHNuUEJGTXdBSlBYM3dDb2ZVaUVoX2U5bkY2MElOM2FwazljZ1dYeEd6NzI2QVZibkdoU2EySmFOQ1RwR3R1eXBFeFJIQlhqUDN5SDVuX0ZQUzhQMlJZV0ZFUTlqMzBkM0hlREo1cGxlM2JQZHJJMWxYemtNRnYxX1dzbW9wblB5YjlScWJV?oc=5",
+    "fuente": "Noticias de Navarra",
+    "fecha": "2026-11-21T11:33:55+00:00"
    },
    {
     "titulo": "UPN denuncia favoritismo en un contrato de casi 144.000 euros de Asiron anulado por el TAN y exige responsabilidades",
@@ -603,10 +605,9 @@
    },
    {
     "titulo": "Adelante Andalucía propone prohibir el turno laboral partido, apoyar la escritura en 'andalûh' y un Imserso universal",
-    "enlace": "https://www.abc.es/espana/andalucia/adelante-andalucia-propone-prohibir-turno-laboral-partido-20261121180444-nts.html",
+    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY3JQZW9mRG01OEQzVFVNaDhQV0pMRzNqR0xpWU9manF3VVRQSnJXa085cmw3b2xpRmpIVlI5ZGlQbU1lczZzN0dYZFBjVF9nclVVaF9zb3ZTUUo2TEx6d3RMTU4taGFUaDY4bVh4MzlnU0ttQUEtZ3dOWEpsak9zRkNZenZESV9nS3Q0S2ZNMndPNmZxdHNHQmJKQVlTNXZaakMyOFpCX01sZnlNT0lCQk9acTNFZWNp0gG-AUFVX3lxTE14WjhUQVJEY1hKZ2hNVGRMU2JGWVhWdHVUWUdNX3VkZVlzUnRNMVd2WWxfUlFQS1BhZU03R1hkaUU0d1ppZlhaYlFnVG9OTzhqNkVBZmNuSXNIUXowV2hpT2Z5RWdlVjdlN1dLTndpd2twUlBXY2F6S2RqOVJaZWtuVk9pX3QwdHpjc0VKQ0VrcDVjNzdudWZfaUpXalNZeVZCX2pvaENQNHdYYTZIZl9teGZ3X3RMYXlFdXdUWkE?oc=5",
     "fuente": "ABC",
-    "fecha": "2026-11-21T18:28:41+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/21/adelantes-RH6s9kXcKMEPFKyQi5FkkEJ-1200x840@diario_abc.jpeg"
+    "fecha": "2026-11-21T17:04:45+00:00"
    },
    {
     "titulo": "García afirma que Ayuso ilustra “perfectamente” por qué apoyar a Adelante Andalucía",
