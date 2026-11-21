@@ -1,6 +1,13 @@
 {
- "actualizado": "2026-11-21T23:01:51+00:00",
+ "actualizado": "2026-11-21T23:13:32+00:00",
  "generales": [
+  {
+   "titulo": "Abascal defiende en Alicante la 'remigración': \"Me suena a música celestial\"",
+   "enlace": "https://www.20minutos.es/nacional/abascal-defiende-alicante-remigracion-suena-musica-celestial_7064159_0.html",
+   "fuente": "20minutos",
+   "fecha": "2026-11-21T23:36:15+01:00",
+   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/21/6b021c871afb26-20359779.jpeg"
+  },
   {
    "titulo": "Abascal se da un baño de masas en San Vicente (Alicante) y advierte que «las encuestas no llenan urnas»",
    "enlace": "https://okdiario.com/comunidad-valenciana/abascal-da-bano-masas-san-vicente-alicante-advierte-que-encuestas-no-llenan-urnas-21239425",
@@ -30,25 +37,18 @@
    "imagen": "https://static.eldiario.es/clip/a949b9ea-cdd4-4f26-a049-d2c85ed77019_16-9-discover-aspect-ratio_default_0.jpg"
   },
   {
-   "titulo": "Abascal, en Alicante: “La remigración me suena a música celestial”",
-   "enlace": "https://elpais.com/espana/elecciones-generales/2026-11-21/abascal-en-alicante-la-remigracion-me-suena-a-musica-celestial.html",
-   "fuente": "El País",
-   "fecha": "2026-11-21T21:00:00+00:00",
-   "imagen": "https://imagenes.elpais.com/resizer/v2/VBHOMVW55JMMXMZXQY2ON4CLPI.jpg?auth=3cc5916c597522be294ce66447dfff954093ca4003a79a3707a9b4e56f8d156d"
-  },
-  {
-   "titulo": "Sánchez pide votar \"por la memoria del exilio republicano\" ante \"la involución\" de PP-Vox",
-   "enlace": "https://www.20minutos.es/nacional/sanchez-pide-votar-por-memoria-exilio-republicano-ante-involucion-pp-vox_7064139_0.html",
-   "fuente": "20minutos",
-   "fecha": "2026-11-21T20:41:41+01:00",
-   "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/21/6b01f3994f2f45-16937302.jpeg"
-  },
-  {
    "titulo": "Las diez píldoras del día de la campaña electoral",
    "enlace": "https://www.nuevatribuna.es/actualidad/diez-pildoras-dia-campana-electoral/20261121191732256637.html",
    "fuente": "Nueva Tribuna",
    "fecha": "2026-11-21T19:17:32+01:00",
    "imagen": "https://www.nuevatribuna.es/media/nuevatribuna/images/2026/11/21/2026112119114696211.jpg"
+  },
+  {
+   "titulo": "La distancia entre el PP y el PSOE se estrecha al mínimo pese a la victoria de Feijóo en el debate",
+   "enlace": "https://elpais.com/espana/elecciones-generales/2026-11-20/la-distancia-entre-el-pp-y-el-psoe-se-estrecha-al-minimo-pese-a-la-victoria-de-feijoo-en-el-debate.html",
+   "fuente": "El País",
+   "fecha": "2026-11-21T18:27:48+00:00",
+   "imagen": "https://imagenes.elpais.com/resizer/v2/6GMU23HZJJA33E6TJ3UUJ52ESI.png?auth=5dcc05206d778f70bbdb639799a4356ced0fc847bb286311db5ba586c14fad3a"
   },
   {
    "titulo": "El PP pide que Morant rectifique unas palabras en las que hablaba de 'abofetear' a Feijóo",
@@ -75,6 +75,13 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "La derecha suma mayoría absoluta mientras el PSOE se acerca al PP",
+    "enlace": "https://www.lavanguardia.com/politica/20261122/11689982/derecha-suma-mayoria-absoluta-psoe-acerca-pp.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-11-22T00:00:00+01:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/21/6b01df62b0b6f.jpeg"
+   },
+   {
     "titulo": "29-N: Mañueco afirma que Feijóo (PP) velará por los intereses del medio rural",
     "enlace": "https://www.larazon.es/castilla-y-leon/29n-manueco-afirma-que-feijoo-velara-intereses-medio-rural_202611216b020660c0d5c85b96c41aaa.html",
     "fuente": "La Razón",
@@ -95,13 +102,6 @@
     "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/11/21/F99B809B-01D9-4A96-BBE3-74412989162B/tres-obras-canceladas_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
    },
    {
-    "titulo": "Sánchez pide votar \"por la memoria del exilio republicano\" ante \"la involución\" de PP-Vox",
-    "enlace": "https://www.20minutos.es/nacional/sanchez-pide-votar-por-memoria-exilio-republicano-ante-involucion-pp-vox_7064139_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-21T20:41:41+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/21/6b01f3994f2f45-16937302.jpeg"
-   },
-   {
     "titulo": "PSOE y PP llaman a la movilización mientras Vox cuestiona el voto útil y Frente Amplio critica la estrategia de Sánchez",
     "enlace": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQMTRKVkRKZnhxbTNMUGRSWVhnQWNDSWpFOTBsWmMzQnJVWkdQT0FSbWpiMzlfQmJzQUVUalU4Ul8tQjlIR2xXWF9SZ1lhaUg5VDRCaEdTcWhFUEJPT05Rang3UDEyQ05FYVhBX1MyWEhoSElzNW05YmdDLXVxY3U1a1pUNTN4VmJBaThYLUxseHJMLXZ0Z3FYalZXNDFKb192S0l0UW5EYzFYLU1iWjc0NTVpcHB3c0hYV1Q5ck12M3VMcGxJdlc3N0JVS1FyUFlWUnI2VjRmRHBQZk1CYjZBT1Q4RF9EQ0FVT3FUa2ktVFBnVHVCd2U1LTZ2aW05SDlqTGZvTGJhVFhWTC1rRVVtZ05Db1NBT2NTNzRz0gGbAkFVX3lxTE1VX3U3aFpXUDE4am1PS1FOa1VWZm1PMGRaZmkyV0FKZ0U3N1ZzNnRKelNZSl9WVkZ3YXhaWWc1MW1RQU1yclYyeXhvMERhY1d3R0tlLU1paGJ0YmpoQUtwZDBlaUxkUTBfMU1QNkNVSDE2ZDdiajY5clpSd3FZcndoMW1aejVIV05wa2lUbVN1X1hGTVMyNzc2b2tlOVhMRXRzLUwyc1hURXU3alBjcjhlWUJDSkZUSVUyOGo4WU52Zzh1WEtST0lZOXhxMWhFX1pXMnc2R1Y3aWl3RjJjZVlhaEUyVmhpSUhLeGtOelhfMXo2ZUZaMFNodWJUcGVqVHNRejFQdHNScTJYbm9naTBMMEhPM3RHU0hEMVU?oc=5",
     "fuente": "Antena 3 Noticias",
@@ -115,6 +115,13 @@
    }
   ],
   "PSOE": [
+   {
+    "titulo": "La derecha suma mayoría absoluta mientras el PSOE se acerca al PP",
+    "enlace": "https://www.lavanguardia.com/politica/20261122/11689982/derecha-suma-mayoria-absoluta-psoe-acerca-pp.html",
+    "fuente": "La Vanguardia",
+    "fecha": "2026-11-22T00:00:00+01:00",
+    "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/21/6b01df62b0b6f.jpeg"
+   },
    {
     "titulo": "El PSOE se estanca en Granada y no recupera su tercer diputado",
     "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT2U0RlR3XzNJS2hRQUF5UjR4NHZ3MmNMaUlNanFJMmxPNjZMYllDay02S2JOcGU5WjdPbmd1ZkpNQVhHdjFoR0pVWWpKWi1WZ1BrcklVdk0tWDZOOXljME42ZzBFWkdOMjI1YUVHZ0NOalBRazJRdUZJVnhxR2RpVVV5cmxrVHlvaGN3TmxBYlMxNHNPaFVya0tYVVFGR1VYQ0tpTGNueXlLSDVSLUo2bFJqcjliMmVHbGc?oc=5",
@@ -135,26 +142,26 @@
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/21/fotonoticia_20261121214157_1920-R3mnAz69Osy43fXFJKZn3EK-1200x840@diario_abc.jpg"
    },
    {
-    "titulo": "Sánchez pide votar \"por la memoria del exilio republicano\" ante \"la involución\" de PP-Vox",
-    "enlace": "https://www.20minutos.es/nacional/sanchez-pide-votar-por-memoria-exilio-republicano-ante-involucion-pp-vox_7064139_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-21T20:41:41+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/21/6b01f3994f2f45-16937302.jpeg"
+    "titulo": "PP y PSOE ganan apoyos y la derecha ancla su ventaja a una semana de votar",
+    "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQXzdmUnJRcE9RUndkVUFEaEVDTjR6THA3RlNoV3ZqU2FSYlAyVWZaNG8xSHU4VE9DbmNnemYxWW9QVXE0WDZNOVpWMU5BQWxDbGJHdFJzV2FaVlZsZHQzQ2hRODZ4WFZjdEIxNHpTNWNUVzlpQ1VZaXl0OGp1WG9vZURPLXR0MGvSAYcBQVVfeXFMTzY2QTgyRXY4dFV4OE90VlJ2bGd2bnlIS3VaOUZyQWMzcERET210Z0FJQ18weFRDcjVpSVFrTm9OV0Y4cEVUOGxnc0w1d1dub1BtNkdIVWdTb0Jnd1JJeWVjdEtmUURiVWhNQ3hkVnpKR21za2tYeVJQQ3JKdW52RE80eDR6dDE0?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-21T21:55:11+00:00"
    },
    {
-    "titulo": "PSOE y PP llaman a la movilización mientras Vox cuestiona el voto útil y Frente Amplio critica la estrategia de Sánchez",
-    "enlace": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQMTRKVkRKZnhxbTNMUGRSWVhnQWNDSWpFOTBsWmMzQnJVWkdQT0FSbWpiMzlfQmJzQUVUalU4Ul8tQjlIR2xXWF9SZ1lhaUg5VDRCaEdTcWhFUEJPT05Rang3UDEyQ05FYVhBX1MyWEhoSElzNW05YmdDLXVxY3U1a1pUNTN4VmJBaThYLUxseHJMLXZ0Z3FYalZXNDFKb192S0l0UW5EYzFYLU1iWjc0NTVpcHB3c0hYV1Q5ck12M3VMcGxJdlc3N0JVS1FyUFlWUnI2VjRmRHBQZk1CYjZBT1Q4RF9EQ0FVT3FUa2ktVFBnVHVCd2U1LTZ2aW05SDlqTGZvTGJhVFhWTC1rRVVtZ05Db1NBT2NTNzRz0gGbAkFVX3lxTE1VX3U3aFpXUDE4am1PS1FOa1VWZm1PMGRaZmkyV0FKZ0U3N1ZzNnRKelNZSl9WVkZ3YXhaWWc1MW1RQU1yclYyeXhvMERhY1d3R0tlLU1paGJ0YmpoQUtwZDBlaUxkUTBfMU1QNkNVSDE2ZDdiajY5clpSd3FZcndoMW1aejVIV05wa2lUbVN1X1hGTVMyNzc2b2tlOVhMRXRzLUwyc1hURXU3alBjcjhlWUJDSkZUSVUyOGo4WU52Zzh1WEtST0lZOXhxMWhFX1pXMnc2R1Y3aWl3RjJjZVlhaEUyVmhpSUhLeGtOelhfMXo2ZUZaMFNodWJUcGVqVHNRejFQdHNScTJYbm9naTBMMEhPM3RHU0hEMVU?oc=5",
-    "fuente": "Antena 3 Noticias",
-    "fecha": "2026-11-21T20:30:20+00:00"
-   },
-   {
-    "titulo": "Encuesta elecciones generales: Sánchez lidera y Feijóo gana terreno, pero PP y Vox siguen sin mayoría, según SW Demoscopia",
-    "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTGMzYXg1UW1SRWlYZmhmNmo3YmtkY2ZQbnE4eXlMSlhtMkhIYUVIM3BEMVJQZDh6QndIZkdabHkxNG5FNTZvZDFJcmhKMW5ub1V1OU5ncWd1OFRCc2pxZEZ6aW9RUUQ5RGZscS15TWdScE95QmljdHZXejRoSThJeVQ2Z0lCZnlZSnEwWmRtRUFmUHNGYVpPTXNVNjJEY1hCOGQxSmNyUTNpSVJsRTFtb2lTSErSAboBQVVfeXFMTUJaVWxGLU5ma1VIbW52V2dac3NaYS1BWHBtczNKRUU2U05mbUdYUTJLVnRiQnJVcFhGSDVCX09mSFhDWmZLb3NPNEdMSE1odEcxUnZIREg0ekQtNVRqX0tycGRBRVBacjYwd1JXMGwxaDR4ZzdtdDF2NGxlZ3EzQWhiTjdJNzBHdkdkenJiaFZPcnB4ZzlMb0NDTGVRc3BJTGNZencwMWstUUJTeGctc3UtM2hLMmhZVUVn?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-21T20:14:00+00:00"
+    "titulo": "El PSOE se perfila como ganador de las elecciones en Canarias, con un fuerte crecimiento de Vox",
+    "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSlQ0b2lPY2Vya0ZjOThHYXFpSXN2REx1cHBOTV9NendXZGFOWWtQMlFXc0t0RmVVTkZmdXBTelppT0xmTGtUa0E2X1dvMGJrYnd2Sjg1UXFNSnFLWWRBUmV2LWdTajg3SzI4c2ZGN2xGb05TRFNkeTh3V19zVTNLZ2FKVUpSZ0FiNmJyQmtOcGhndVdhamdYNFRVbkJxUWN1RTZRbzhRYW02eUNfZzhRR0JRSkNVcGZyYUNuSkxtTkdCSkgw0gHKAUFVX3lxTFBQbWw3anBBZkpSOXZia003WUt0eDJuNHV0RFdnZi1kdnhYQjd3R1lEYTZDUjZKTGw2N1EzQlZabFJ2S0NBYUh0VDFqWUZEUVQzRUYyZkgyVGpTVEE5Vmd2Y2dTVm9iblNaLUNiV2ZTU2UySGtkd09fSTVJeUxmTjRUck5QeTRCQVVwT0Q0aGRzVHpSakZwVWtzVmVJZjE2OGdsenB2cmVfMmVCVU5DU2RDb2RvLXpzblRwVVlLcDhLMXZocF9MNnNIVGc?oc=5",
+    "fuente": "elDiario.es",
+    "fecha": "2026-11-21T21:10:47+00:00"
    }
   ],
   "Vox": [
+   {
+    "titulo": "Abascal defiende en Alicante la 'remigración': \"Me suena a música celestial\"",
+    "enlace": "https://www.20minutos.es/nacional/abascal-defiende-alicante-remigracion-suena-musica-celestial_7064159_0.html",
+    "fuente": "20minutos",
+    "fecha": "2026-11-21T23:36:15+01:00",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/21/6b021c871afb26-20359779.jpeg"
+   },
    {
     "titulo": "Vox llama a la movilización desde Barcelona para acabar con la multirreincidencia",
     "enlace": "https://www.larazon.es/cataluna/vox-llama-movilizacion-barcelona-acabar-multirreincidencia_202611216b021bb0f6da642efef7a18c.html",
@@ -186,12 +193,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQbGpkWHJkUGFiYlJZTU5TMHI4d0dJcmNoQ0otZW5TWHRyMjlReXk4SDNIYXZFTURsazAxVVc2TVk0aEhTZmRWdWxEQXlFQmZMYlliT05XanIwMWdlYUhxY1hjZU9Td29UTXdpZTZVdk1ydU9Fb280aXNUSDBoVGdGX1VxMHBrNzRFOXdyVG1iX0w5RVN4bENwWG13WWhCZ29CNnQ3NHJRNk9zSk80TDBrbjVDSVU1RmxDdWc4N1VVNmRTdjM3d1c1amVESG9tVGVRWkhHZnExVFh4aXZqckdfT0ctUzE5NVA5NlJ1RU8wdHpaUdIBjAJBVV95cUxNSm5iSFJkYUI3bE9ZNGoyZ1kwU0hzWUtZY2xaOWhYYWFuZWRrWXJSWEtkWXhuYk9PN29UWnpOdFJuRlBrVHBkQU9GZ21uTkxFeWJXSHkzLUZuUTVHeDhkeGpFMkJBOVNPb0hkak84TlozSmxSUVlQRW9VNXlGc0VfSWFub1NrckZlNER5MUtTSEw3LWNicUY4bThUTDg4enl1SGpUckE3d3RqT0UwQThyZ2NTZ3hETnpKYmEzUTZoTndEUURYei03UkJobVRkTzFELXpoZ0FFRWVvWDRRVDBXS0dnd1NhbkxaOGN6U2xtck5hSHRlMHU0MWM3eW5HTWk2QjVHUTNVdVltcGEy?oc=5",
     "fuente": "Infobae",
     "fecha": "2026-11-21T21:16:00+00:00"
-   },
-   {
-    "titulo": "Abascal defiende en Alicante la 'remigración': \"Me suena a música celestial\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWVFMYTdIVkNJalZid1NaNlh6QVBlcXlWN3pjNHJadzNZb0FsZUluTkJXZUlEZ21vb0ZGRjhuaG9yQlAwRHBfVzB5T25RNzhiVExVemRDb0puVnJwYnNpQ1Y1eExWc2R3dUg5R01HQU1aVVF2VWpPSnBINk1udDYyUURLRXN5c3dQUW1PRFBiYjVSZE5mZGN6TVdnRXM5bEFuZ2kycF8tbmtWczBtT01SeWg4ONIBuAFBVV95cUxQWV9yLXNGdFZUT29QMTRSN19xaS1WSWlDeFZXQnR0YkVvWmk2T3Q0djJOUm53TnBZM3poa0ZVOXJLa1FPV2dYQmRCS1RSVV9lZVBTc3FvVldPbUhnM3U5ME1MM0lfS3J6MzB3ZDM3aTloNTBUR2lMX0NpckNySjlsTFF3TTVCa2lyaHk2V01PNHFXckVuamNmQXdzeGtjWlRRMzd5czVRNTVKT0tyUk45U0NPcnVRcEdN?oc=5",
-    "fuente": "ABC",
-    "fecha": "2026-11-21T21:06:36+00:00"
    }
   ],
   "Sumar": [
@@ -260,17 +261,16 @@
     "imagen": "https://theobjective.com/wp-content/uploads/2026/11/ione-belarra-durante-el-mitin-de-podemos-en-san-basilio-mitin-murcia.jpg"
    },
    {
-    "titulo": "Belarra acusa al PSOE de \"rendirse\" ante la derecha y descarta volver a gobernar con PSOE",
-    "enlace": "https://www.20minutos.es/nacional/belarra-acusa-psoe-rendirse-ante-derecha-descarta-volver-gobernar-con-psoe_7064044_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-21T13:47:57+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/21/6b019234585305-46609048.jpeg"
-   },
-   {
     "titulo": "Ione Belarra acusa al PSOE de \"rendirse\" ante la derecha",
     "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQjlpQkN6N1lBWk1aa0gycktjVFAwNlA2Qjd2bHpKcWhRdVJTcFp0ell6RkVDOFlKVXo2dk9KMWQxSWlzTTRaUmdvc0NFR0NzNWdaS25SdFpic0lZNF9NRmdCTmM4Tkg0LVdtcm1NdlhneXJReDB0YlFKeXU5NjZZVnlpR3NCamFVY0owVk1LNWRoSkpjc1RHVzZLcGpORmJ4NHloYVE1WFZIdXpJ0gGyAUFVX3lxTE9hNzNoaXlvS2g1WnlBdjhDaGJfREpyZUJEeklEaFVkbnJvVGRJaHN2dmpoTDVNaERCNTFWWDNOY0ppNW1yNEg3OGdpaDlVV0dZWjkyQlNvUFVOSE9neTYwdmdmb3BXSkJ6OUg2V2JtVXBfcVNkVS1yQTV0Vmd4U1YwQnpfNndzWnVEX1VqNFBpSFA5YWU4Y1AybFdOTkFmUU41QXJFNHNCbk0xRjdDUmR5LVE?oc=5",
     "fuente": "ABC",
     "fecha": "2026-11-21T13:36:25+00:00"
+   },
+   {
+    "titulo": "Podemos pide concentrar voto a la \"izquierda valiente\" en Murcia para \"echar a un fascista\" del Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9FUkVoa0dLRFJ5NXJuMmgwU2owZFFMM1RIZGJrX2J3Ykd3Z0FjR0o0VnQ4bUwxQnk3cXdZMENpN2NtV1I3X3llZ1Q5UzFIWUNGZXkyS0pOTGs0UzlRNXJSR2FWWjBrSDB4UzFpOFNweEZRYWtkVi1CYldB0gF6QVVfeXFMT0VSRWhrR0tEUnk1cm4yaDBTajBkUUwzVEhkYmtfYndiR3dnQWNHSjRWdDhtTDFCeTdxd1kwQ2k3Y21XUjdfeWVnVDlTMUhZQ0ZleTJLSk5MazRTOVE1clJHYVZaMGtIMHhTMWk4U3B4RlFha2RWLUJiV0E?oc=5",
+    "fuente": "El Mundo",
+    "fecha": "2026-11-21T12:37:25+00:00"
    }
   ],
   "SALF": [
@@ -474,10 +474,10 @@
     "fecha": "2026-11-21T18:09:44+00:00"
    },
    {
-    "titulo": "ERC, Bildu y el BNG ganan impulso ante el 29-N mientras Junts y el PNV retroceden y la llave sigue lejos",
-    "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNQWpnVVdYLXBTenpZRDhyUERPcml2TUV4b2h2OTVOTUh4dUhKOHIzNXZKMGVpZDRWWXdWX1FDQUVoRW9qM0tHZGpJeU1yV0x5Q1ZNdjRic0hZV0VreUxqeXJFNmk5aWpFbnhBOXRjLWVoRzZlX24ybWQ3TFJBaVduVW1wU1pHbS1QZ252NFdrRlBmWnJDT01XcU4yZWVQNmpxX3d5QXROcGdYQVRVVzBDY1lZUGlGS18yODlTU29EcTk4MFRWay1keUIxb0hicEo2U3pUem9DQlkwZXlfcURtMWJnY2lxck5GXzR2eU93THlDNWRh?oc=5",
-    "fuente": "El Constitucional",
-    "fecha": "2026-11-21T17:41:16+00:00"
+    "titulo": "Pontón pide a la juventud gallega que repita su apoyo al BNG",
+    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ25ZSmtNWEs4bDFTTVlyT0VJRms0TGFOYjBGYkNGQzZUTDVkZ3JnVGFIOC1SbFVFTnBoTnpXeERBVlJ4RTFXX00wSG5WSVVNNnI4a1JoYzFvLWRobnB0WDBvLWxlZkFLd2VVYUV3dmVNckJFZGZFdnhvYllYMmJzNGFsNXNhSnN4UUo4TG9YRGd0RE8zNUs3VUtYVGZ4Y0tKeXFCXzg0MHpUMm9BYzl5Z1l5M083anJNN0E?oc=5",
+    "fuente": "GaliciaPress",
+    "fecha": "2026-11-21T16:15:00+00:00"
    }
   ],
   "CCa": [
@@ -489,7 +489,7 @@
    },
    {
     "titulo": "Francisco Linares (Coalición Canaria) carga contra el candidato de Vox al Senado por Tenerife: \"Vete a tomar por saco\"",
-    "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcFJZVHByX0ZzUkl1bFA5NW1zSnlleDlFMnU4bmdzUVg1UHN4VURyTHFXM2J1SlNUazVZeWhhQ3pndU9wckVUbVpaNEFNYVFlcGFwcUFBc2pUMEE4QTdxLUM3MC1hbFpDRTl4T1BISnVtaVJrNV92RExBSUt4eHhwOVFJNFVCaHVWb2Y0YWQ3NThMX1VGcVVwUUhGb3h6QdIBowFBVV95cUxPX2JOZXU5YzRCeWlvaGxHUGhfZ0xpSXJKcGk2RlRhY1lGR05rN0QzbFpIcGUwMXdQUEU1R3VXckNvd3FzWHBuSWhLZXhVR20wNDVlY3BWUzRPa1doTGN6Zi1oaXd4LUFvRmNHMzY1UFJydWFOMzdzdVpCM3F1bTRvTEVBdWxoVG91LVFtcUNzNkZOX20yZVBBeXYyRnhUb2VhemZv?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX2JOZXU5YzRCeWlvaGxHUGhfZ0xpSXJKcGk2RlRhY1lGR05rN0QzbFpIcGUwMXdQUEU1R3VXckNvd3FzWHBuSWhLZXhVR20wNDVlY3BWUzRPa1doTGN6Zi1oaXd4LUFvRmNHMzY1UFJydWFOMzdzdVpCM3F1bTRvTEVBdWxoVG91LVFtcUNzNkZOX20yZVBBeXYyRnhUb2VhemZv0gGjAUFVX3lxTE9fYk5ldTljNEJ5aW9obEdQaF9nTGlJckpwaTZGVGFjWUZHTms3RDNsWkhwZTAxd1BQRTVHdVdyQ293cXNYcG5JaEtleFVHbTA0NWVjcFZTNE9rV2hMY3pmLWhpd3gtQW9GY0czNjVQUnJ1YU4zN3N1WkIzcXVtNG9MRUF1bGhUb3UtUW1xQ3M2Rk5fbTJlUEF5djJGeFRvZWF6Zm8?oc=5",
     "fuente": "Eldía",
     "fecha": "2026-11-21T17:07:20+00:00"
    },
@@ -510,12 +510,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS3JVWDY3MFR1bjZLaEFreHJlNGRZdUdUYlpSNlVhRWRFTlFzSlZOQnEzdU8wdUJieHN4ZW1DZEE1MVpjZWhUQ0RYNXYwaWhTM29qLUtPY1BHbl9scXRjQThlMjhIMkFaRENYb2ZPcnA3SjNPYWZsdmtxcEJ6WEdOLTdRaGFSN1dWbWQzMWhpTEFXQS01dlJTQjB1alFNTHctLWM0VGlMVEpQN0loUVdKUEZ4bkItRjMzS2xEMWFVTFA2SWVDVFRkajY2a0TSAcwBQVVfeXFMTUtyVVg2NzBUdW42S2hBa3hyZTRkWXVHVGJaUjZVYUVkRU5Rc0pWTkJxM3VPMHVCYnhzeGVtQ2RBNTFaY2VoVENEWDV2MGloUzNvai1LT2NQR25fbHF0Y0E4ZTI4SDJBWkRDWG9mT3JwN0ozT2FmbHZrcXBCelhHTi03UWhhUjdXVm1kMzFoaUxBV0EtNXZSU0IwdWpRTUx3LS1jNFRpTFRKUDdJaFFXSlBGeG5CLUYzM0tsRDFhVUxQNkllQ1RUZGo2NmtE?oc=5",
     "fuente": "Canarias7",
     "fecha": "2026-11-21T11:07:48+00:00"
-   },
-   {
-    "titulo": "Luis Campos: “Primero Canarias no quería una renovación, quería echarse en brazos de Coalición Canaria”",
-    "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWURQYVdESjVyZzJ2c25WWlNWTU16WnZZeTk0QXNlSkdDZzlScDREcS1BMVp0SGRMSzlsTmI1LU05cks0QjhsaU5HNjdteG1OLW9RSHNmMnI4aW15MzNFRDhINURrVWNFVEx3d1l5MzBkOTRSbXpUS1Vxb1JtbEZ1S3hhOGhrRGdaUmotRFpoWXJORzI4b2drTmtkZlNjWnQ3LTF2X0E0ZFB6TEYxZVB3TmJMT3lDV1BvcHVXMHoyNEFKcWR5dERzeU9QUjllSFFXYU40ZklLNklOSENPZG9MMUdlUDhpN1Axb0E?oc=5",
-    "fuente": "Atlántico Hoy",
-    "fecha": "2026-11-20T03:00:00+00:00"
    }
   ],
   "UPN": [
