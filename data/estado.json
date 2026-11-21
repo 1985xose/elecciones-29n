@@ -1,7 +1,7 @@
 {
  "encuestas": {
   "ok": false,
-  "hora": "2026-11-21T05:01:05+00:00",
+  "hora": "2026-11-21T06:01:05+00:00",
   "mensaje": "No se ha publicado la lectura. han desaparecido encuestas, antes 555 y ahora 390; 34 encuestas con porcentajes que no cuadran, p. ej. Sigma Dos/El Mundo 2026-11-19 {'PP': 31.2, 'PSOE': 27.6, 'Vox': 18.9, 'Sumar': 14.2, 'ERC': 2.5, 'Junts': 1.3, 'Bildu': 1.6, 'PNV': 1.0, 'BNG': 1.1, 'CCa': 0.4, 'AA': 1.7, 'Podemos': 0.8}",
   "ultima_buena": "2026-11-16T19:01:04+00:00",
   "detalle": {
@@ -10,25 +10,25 @@
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-21T05:01:48.899Z",
+  "hora": "2026-11-21T06:01:48.659Z",
   "mensaje": "10000 repeticiones, faltan 8 días",
-  "ultima_buena": "2026-11-21T05:01:48.899Z",
+  "ultima_buena": "2026-11-21T06:01:48.659Z",
   "detalle": {
    "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-21T05:02:17+00:00",
-  "mensaje": "10 titulares del día, 87 por partido, 20 polémicas",
-  "ultima_buena": "2026-11-21T05:02:17+00:00",
+  "hora": "2026-11-21T06:02:40+00:00",
+  "mensaje": "10 titulares del día, 84 por partido, 20 polémicas",
+  "ultima_buena": "2026-11-21T06:02:40+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-21T05:02:17+00:00"
+  "hora": "2026-11-21T06:02:41+00:00"
  },
  "avisado": {
   "encuestas": {
