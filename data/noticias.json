@@ -1,6 +1,20 @@
 {
- "actualizado": "2026-11-22T03:10:04+00:00",
+ "actualizado": "2026-11-22T04:02:04+00:00",
  "generales": [
+  {
+   "titulo": "La insólita unanimidad del 29-N: por qué los partidos políticos coinciden en prometer educación gratuita de 0 a 3 años",
+   "enlace": "https://www.elconfidencial.com/espana/2026-11-22/insolita-unanimidad-29n-educacion-0-3-anos-gratis-todos-partidos-coinciden_4468179/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-11-22T05:00:00+01:00",
+   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1795320073&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+  },
+  {
+   "titulo": "La campaña a vida o muerte de Sánchez acumula cinco vías de agua",
+   "enlace": "https://www.eldebate.com/espana/20261122/campana-vida-muerte-sanchez-acumula-cinco-vias-agua_483174.html",
+   "fuente": "El Debate",
+   "fecha": "2026-11-22T04:30:00+01:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/20/6aff90dac4bf4.r_d.1768-521-0.jpeg"
+  },
   {
    "titulo": "El descaro del PSOE balear: exige al Parlament respaldar el pucherazo electoral de la Ley de Nietos y critica que el Supremo no lo haya permitido",
    "enlace": "https://okdiario.com/baleares/descaro-del-psoe-balear-exige-parlament-respaldar-pucherazo-electoral-ley-nietos-critican-que-supremo-no-lo-permita-21239033",
@@ -14,13 +28,6 @@
    "fuente": "La Razón",
    "fecha": "2026-11-22T03:10:59+01:00",
    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/20/A635C8EF-F26D-404F-9802-09F879FE42AC/96.jpg?crop=3200,1800,x0,y154&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "Abascal supera a Sánchez en valoración y se queda solo por detrás de Feijóo",
-   "enlace": "https://www.abc.es/espana/abascal-supera-sanchez-valoracion-queda-solo-detras-20261122023235-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-22T02:57:12+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/22/gad3-nov-lideres-1200x840-RwVAsXmryPp00FGYAsqPxkI-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Abascal defiende en Alicante la 'remigración': \"Me suena a música celestial\"",
@@ -63,23 +70,16 @@
    "fuente": "Europa Press",
    "fecha": "2026-11-21T16:17:51+00:00",
    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20261121171751_120.jpg"
-  },
-  {
-   "titulo": "Feijóo se da un baño en Valencia, pero advierte del exceso de euforia: \"No está nada hecho, no os fieis de las encuestas\"",
-   "enlace": "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-11-21/feijoo-bano-valencia-mitin-euforia-encuestas_4469772/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-11-21T13:38:00+01:00",
-   "imagen": "https://www.ecestaticos.com/imagestatic/clipping/36b/85f/36b85fa3e152a362a9839a1bc9617e1e/el-pp-confia-en-un-reventon-de-la-plaza-de-toros-de-valencia-para-apuntalar-la-imagen-de-ganador-de-feijoo.jpg?mtime=1795173862"
   }
  ],
  "partidos": {
   "PP": [
    {
-    "titulo": "Borja Sémper: «En estos tiempos, lo que representa Alberto Núñez Feijóo es revolucionario»",
-    "enlace": "https://www.larazon.es/espana/borja-semper-estos-tiempos-que-representa-alberto-nunez-feijoo-revolucionario_202611226b01d0daf6da642efef77955.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-22T03:00:18+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/19/C67D7250-765C-4200-B3B6-62A168278EE7/96.jpg?crop=6720,3780,x0,y350&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Un 39,2 % de españoles cree que Feijóo ganó el cara a cara, frente al 13,8 % que ve victorioso a Sánchez",
+    "enlace": "https://www.eldebate.com/espana/20261122/392-espanoles-cree-feijoo-gano-cara-cara-frente-138-ve-victorioso-sanchez_483674.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-22T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/20/6afff23190a5b.r_d.3036-1579-0.jpeg"
    },
    {
     "titulo": "La última oportunidad de Feijóo",
@@ -107,20 +107,26 @@
     "fecha": "2026-11-21T22:21:14+00:00"
    },
    {
-    "titulo": "El Ayuntamiento del PP en Pinto suspende cinco obras de Lorca: una de las compañías denuncia \"motivación ideológica\"",
-    "enlace": "https://www.lasexta.com/noticias/cultura/ayuntamiento-pinto-suspende-cinco-obras-lorca-companias-denuncia-motivacion-ideologica_202611216b01f49ac0d5c85b96c410b7.html",
-    "fuente": "laSexta",
-    "fecha": "2026-11-21T20:44:26+01:00",
-    "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/11/21/F99B809B-01D9-4A96-BBE3-74412989162B/tres-obras-canceladas_96.jpg?crop=1920,1080,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "Sémper dice que Feijóo sería capaz de unir a los españoles",
+    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcG5rS0RyandBbGpTazJfSWxSZmszM2hVLUN2VEdDYmNyZ1E1LURSb1pKZ3AzQTRCdjVLSzdXNmlBRXg4OWdmVmhORFRfQTd0aldVX3hPVEhPVlBpYzlud09sSS14SGoyNDJpb1pUR1B5d2JLallETTVSMnE2ZUFiV01aWnVVR3J6dngzSTVoSU1teVBrQWozSDZPQWFuN2pJaXJJUG1BU2dFT0xaX2hF?oc=5",
+    "fuente": "PressDigital",
+    "fecha": "2026-11-21T21:41:00+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "El descaro del PSOE balear: exige al Parlament respaldar el pucherazo electoral de la Ley de Nietos y critica que el Supremo no lo haya permitido",
-    "enlace": "https://okdiario.com/baleares/descaro-del-psoe-balear-exige-parlament-respaldar-pucherazo-electoral-ley-nietos-critican-que-supremo-no-lo-permita-21239033",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-22T04:00:28+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/21/el-descaro-del-psoe-balear-interior.jpg"
+    "titulo": "Junts buscó evitar su hundimiento con la entrevista de Puigdemont en la que retrataba a Sánchez",
+    "enlace": "https://www.eldebate.com/espana/cataluna/20261122/junts-busco-evitar-hundimiento-entrevista-puigdemont-retrataba-sanchez_483235.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-22T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2025/11/10/6911bdf8a87a5.r_d.1087-364-0.jpeg"
+   },
+   {
+    "titulo": "¿Una participación alta beneficia a la izquierda? Sánchez dice que con más del 75 % ganan las elecciones",
+    "enlace": "https://www.eldebate.com/espana/20261122/participacion-alta-beneficia-izquierda-sanchez-dice-75-ganan-elecciones_482850.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-22T03:30:00+00:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/19/6afee9262e7c8.gif"
    },
    {
     "titulo": "Pedro Sánchez: “El 29N votemos por la democracia, por la cultura y votemos en contra de la censura. PP y Vox, ¡a casa!”",
@@ -146,21 +152,33 @@
     "fuente": "La Vanguardia",
     "fecha": "2026-11-22T00:00:00+01:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/21/6b01df62b0b6f.jpeg"
-   },
-   {
-    "titulo": "El PSOE repunta pero sin llegar a superar al PP y con la suma de la derecha en 194 escaños",
-    "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOU5NR3BMN1FmdVBuZ2lHX19LZFJRTWhQb0I2dWlqOUE5TThzcll1VUpHQ24tWU9PRS1waHpFYmdNZnVQRk5rNC00V2hWWEVfZEJ1R3JGQk9uOXBhT1Y3VktRamRnTDllZkFlVzBHY0s3UnlvVS1LMDhKdDVFRE1aQzNaQkszU2xjNHNnY0N5V3BYTXF3QV9SdDhNMHd6SGt0RDFnbXYzd1J3d2hoRjBfcC1sUjI?oc=5",
-    "fuente": "El Correo",
-    "fecha": "2026-11-21T23:01:40+00:00"
    }
   ],
   "Vox": [
    {
-    "titulo": "En la trastienda de Bambú: así prepara Vox su potencial llegada al Gobierno",
-    "enlace": "https://www.larazon.es/espana/trastienda-bambu-asi-prepara-vox-potencial-llegada-gobierno_202611226b019710c0d5c85b96c3da73.html",
-    "fuente": "La Razón",
-    "fecha": "2026-11-22T03:14:31+01:00",
-    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/04/08/88FAEA81-C8FC-4C90-8CD0-410D2F240FB3/santiago-abascal-pleno-congreso_96.jpg?crop=3537,1990,x0,y0&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+    "titulo": "El 33,3 % de españoles quiere votar para echar a Sánchez y un 29 %, para evitar un Gobierno PP-Vox",
+    "enlace": "https://www.eldebate.com/espana/20261122/333-espanoles-quiere-votar-echar-sanchez-29-evitar-gobierno-ppvox_483675.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-22T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/10/27/6ae0d00d6e1f8.jpeg"
+   },
+   {
+    "titulo": "Encuesta Elecciones: Vox supera por primera vez el 20% en intención de voto",
+    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa3hteTFVSUlMdk0tdUczZkdrcVNIcTlQRzllRmJxNVNZQmtsejdLNU9XWWo1ejN2OUtJMTVOMllJVHVRN3ZVcW43VDR1YXFsWXI3Y3pEMTZXdkloSTRzSW8tRHN2M3JObzNsYVBaT09TNzA4N2RfZWNrVHlDV0RxelRSOElsWGZyS2VublI5SThYTkFVUW5qQ0tTZGY1VlhndFVrX09YWFM1LW9zNGpHREdNOFBTUdIBuwFBVV95cUxPQ1ZOZzJ6ZTVXVmhBYTJZaDNDSHVVME1wVHE0dUdaSW1Bay10Tkg1RzhpZkFGOHlLVUttWk1mQkJNTDB2dFMxRHZVWTZWOXdNSkVKTzAxNEpZM1BlZ09DeG1WOFhMbFhuZk5WSkJWbWVBSDRSMU5xRkotaFpnSDZsbGN2MGZVVk5JR1p6ZG9LcUtQS0I5bXNRUzVSR3hITEw5QUVkRGRUVmJHdnJWZXBNclhSUTN4eHVnVzJN?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-11-22T03:45:00+00:00"
+   },
+   {
+    "titulo": "Vox supera el 20% de votos por primera vez y alcanza los 80 escaños",
+    "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObktia05Ua0lhd29ETFNPb25OX1dqcERteGItamQ3TklhWi1jcjlfQjZyX3lHSXRwdHZnU3hQMmhDUjNRMkZBVTVOSVNqYjFxMUo3MHVXV2Jfc1Zfay1Ncl9taHpWTmlCZFE0YmthZjZjdmlKSVFTckcybmdId1RxV1VYMkdxcWdkQjlQUFF2RWhOQm9JTXY5TW5WNGV3WTNSMU4wM2xJVdIBrAFBVV95cUxQLWVsSi15MUswVXFEUjBMZzV4VXhaYmpreVhCNUZFb2J4clBWRHVpNk0tWFltSkpHZlJsbVZjUGlyaGxyNGVwTmtPWFJkTWpXWjU2NkthV0JzMnAybnZqUzB4NFZiRU9nLUhFU3gzendWVl9feWUxNTI4MVJJZ0VCOWc4eWJOYUdDUnNqbi1CaUlaV3Nid3E1dXJzblNzLUFwUlFvV2lxcDlZY3Ra?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-11-22T03:44:00+00:00"
+   },
+   {
+    "titulo": "PP y Vox se disparan a 210 escaños y frenan en seco el \"espíritu de remontada\" del PSOE",
+    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZko0N0IybDR2ek5Id0RYWFY2ZVZ2RmlCUEQxRDB2VWZjaHV1NEVtVjJHbmoyTV9CUlpOamd0eWVicFlkUEFKNDRMc1JIZDJPcVVCT2FwTGVmYVFfenFwTlJQc255ekFNTjVidGp2NWFzbG1LTzFlVFVTVUI2LWw1dERuTHF0SWRUTENRUUp5MFVhbU9FVEd2Vmx2LWtoOUlSS3dnWFJBcW14RGtTVEk2WURFUE5CRlpYN3liWlBuZ1NPNzBNQXhJNkx4SjHSAdIBQVVfeXFMUDVBZDBNdHNjNnRtWjl2STBxdFIzT3YzN2UwMzZ0cGpSajRrQVlFXzY3ck1VSHRuby1iVUZsQUFNVk0wVktPQTRXY0FXZlp1c1ZYTVQ3SWV4ZTZ0TkFsSWdRNVJfcUlWMHczazBMNS1FMWRkTGs5UWo2N0QtN1VmbHJ4dUJBSzNQOEtUVTB3YUgzWkh4MU4zcHBsUzNhWnRwQ0hYMHRKZ2lLU0ZXNmtMZTN1SGhhOU02TnFlaXYyRTZEdTloaWlTd0RSajFNNHp0OVRn?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-11-22T03:44:00+00:00"
    },
    {
     "titulo": "Maribel Vaquero (PNV): \"¿PP? Con quien dice que su apoyo es Vox difícilmente se puede hablar\"",
@@ -173,25 +191,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT09kYUVBZV84U2lNbTVRY1pGQ2tvY2VLclVDMEI1OTBULUNxWnB1aDZkUGh3N3hSUWtoRC1nUTRVZ2JBX2h4MmR3MGwwMUFEVlpvMnB4NTgwVzBOYzd2YXV2Zy1HVVJvRmxLZlBweFlpMWZid2pQTXZuYWNRVlpMVzVBQXhzeDZDeFFNNXpYd3RLZURKUXMxcERFMNIBmwFBVV95cUxNVC1obTVCZVJtT2ZiWGlhMnpFYVlSaS1VOFVNY1VXejRfTVRKaS02MklTRVhqMDJ1d0NsRnJzWUNyQWFQeVF6dzNqYXJDSGJmUDZzVzloWUlUMVpVUHZlcU50MGtuQ1NhZk1YOEdJek1RZnVqMlhGckZqVGxxUVJ6Nk5HNnFGOE51ZDZhVHJTcHZfd0psbXlMM3d0VQ?oc=5",
     "fuente": "El Mundo",
     "fecha": "2026-11-22T00:13:54+00:00"
-   },
-   {
-    "titulo": "Abascal defiende en Alicante la 'remigración': \"Me suena a música celestial\"",
-    "enlace": "https://www.20minutos.es/nacional/abascal-defiende-alicante-remigracion-suena-musica-celestial_7064159_0.html",
-    "fuente": "20minutos",
-    "fecha": "2026-11-21T23:36:15+01:00",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/21/6b021c871afb26-20359779.jpeg"
-   },
-   {
-    "titulo": "Santiago Abascal tiende la mano a los votantes que se sienten de izquierdas \"frente a unos dirigentes que les han traicionado\"",
-    "enlace": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOUmlmX19QcEFIVzkta2EzT2dqeC0tRC03M3NhM3FZakdJRXVMampvLVBoTnJ4ZEt6eFF6a1FuLVZtNW9NY0NJWlpfOTBKRmg0R19Oekw0ejBvWmUzdzUzblByNHRkemE1dERULVp1bjVxNnlJQmNndHVuVU85R1gzeW0tLUZWcV9BN1pqWlIyTnVaaVl3QlNzUzlNV3JsVGtPcm84c091RGpHMEpwUVpGVW5xY1JERDd0UkJydEs5QnRyWmttd180cTZ2bl9rVFVoSVZtNlZfNjVkOThpZ21zUzl5Y0JaN2V5eHBLcGxVN19yS2Z5VFVmVmJKdy01OWNOdHMxOFozYU8yd1gwVnlrRGRyNnk2czV3RUhWZUlNb9IBswJBVV95cUxOZDY2NVZWUGpSY242bHI4b0ZIcjFySmVCUXJEOXZ0VE5OWUhyOHlCVVNyb2hjVjZKaE9QQzh6Y2ZYVjJYdDZVaUNHWlVkRURWU19xcjlVUW9zUlRmWVRBc0FGRThwSGxRaTBueldZT2F2QVhhQ1loZDh4ZlpQX0ctMW5WNlpqNTBINkc4UVhzZFphZzY2U3h5M1ZTTmJSc2NBaTQwdW1zS1FNMWI3TnFnNXBfdXdLNU0xVVpEWU9oWkNGSTQ0bGpQMUxFZFJNX0htOUE4Wjk4QV9ra1dwSVBLVFNOZUU5d3JHLUd5WDNWN1JiXzZRMlVZai1KTmp2cEdGRHZYZHltUVVuQUR5UHdZUHZsX2xfWnQ1dEIxc0RUYW00YXBHOXhTVldrVDV5U3I5TnpV?oc=5",
-    "fuente": "Cadena SER",
-    "fecha": "2026-11-21T22:14:22+00:00"
-   },
-   {
-    "titulo": "Vox irrumpe en el feudo socialista de García-Page en Castilla-La Mancha: \"En el campo estamos hartos de tantas trabas\"",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcEFQQlhCNFZ5emtPNUJwRTlxVlJnMXo0NDNXcGJsU1Yxd1JreFRwNjJxdnlHUkVFUlFOWV9vNTcwR29rU1A0NGJRWlo1cjdjNlpQbjNhQmlyaUllSjNTVmVYVW04OVZQWjhvSVg0c3MtNm1rZUxnaTNhMDAzbFZkRmR6NVRPZjBRWE9UbXQtdktwVVk5LW9NUU52RdIBmwFBVV95cUxNV2pWVmhHdktKRE5YSzk2U0l5SmExcm9ueDEwaFpuVnZBazN0YlNuMm9lM3JDY2UtZUFCS1c4amlkSG5lQzFLV19jeGpuUFdlemNGTDBUWklXbnZBZmxzc2l3NFVDd1VKcmVIWHp5R3R6aVN5QUplQUtXSE5lR2xNWXRCeXR6cGRaeEw0RmpSaE1HWmJXV3dva1Jtaw?oc=5",
-    "fuente": "El Mundo",
-    "fecha": "2026-11-21T21:51:45+00:00"
    }
   ],
   "Sumar": [
@@ -278,12 +277,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZzh0bmJfUmctRV9CTC1sXzdiRDBSa2VVRk5kczZib29mamw1RDRWdWg0dVhham1sdVIxSVpLZFhETnk2RTJxR1lGWEtxMnhDQTFlakhzNWRRSXJYYzZUZnZwa0ZndFc0OEMwSE45azdTcmt2eTJwSEtuVVpZSWhDeGtnaXhoWGVOZ3pTdlE2dXk3YTJCeTN2TVRqUmh6QkNLOTZkMjZNSnlibHN2Vlhic3pCSkkxYkVQMi1yUTZybmFMVmNuREVVczY1M2dUUEZqVlVmTVNR?oc=5",
     "fuente": "La Bandera",
     "fecha": "2026-11-21T10:33:00+00:00"
-   },
-   {
-    "titulo": "Los votos a Alvise podrían dejar a PP y Vox sin el último escaño en cuatro circunscripciones",
-    "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdVRQa0QtX2xTMEJRMG1fMGNOOVFmQ1VNWHRSU0VRZzBrZTl5OHFUUG1SQllFaDZVbUFwVGZZeXFoQThjXzVPcFJrazFTWGl4OWcyV1VYUmdxWk00cV9XTGVQREFYMjVMTzFFLWZLRkJWMkl2eXA4UFp1RV9nS2pJY0NEYXh0a1FlckRZTw?oc=5",
-    "fuente": "The Objective",
-    "fecha": "2026-11-21T04:25:00+00:00"
    }
   ],
   "ERC": [
@@ -327,6 +320,13 @@
   ],
   "Junts": [
    {
+    "titulo": "Junts buscó evitar su hundimiento con la entrevista de Puigdemont en la que retrataba a Sánchez",
+    "enlace": "https://www.eldebate.com/espana/cataluna/20261122/junts-busco-evitar-hundimiento-entrevista-puigdemont-retrataba-sanchez_483235.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-22T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2025/11/10/6911bdf8a87a5.r_d.1087-364-0.jpeg"
+   },
+   {
     "titulo": "El PSC, Junts y el Frente Amplio sitúan a Rufián en el centro de la campaña",
     "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWUpybTZ3SzYtQ3NTOTRFM1BuMHQ5bjl1MlE0MlRYbnhBaXVab1dSTVJJSzZJbkZCMENlSUtfZUsyVFJSX0J3YmM4WnBDQjNEdDFZU2JrT09EbDQ4Y2REaWd5YzlRdTBjcTczVXhQbk40TGRPbzVvNTQ0UXlsSm1pR3dWcWNyQjJ1aWszMmcyZUR0YlpEUTU2ODdyZXoyZw?oc=5",
     "fuente": "Diari ARA",
@@ -356,15 +356,15 @@
     "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQekF1RVRnUWczR3lCVkRNLVJBTlpXbWRJajRFNkhOTWROSDBCN0lncXBEZkI3SzJ5OUwxZ25nczl6eElCQThhYm1vU1Ruam5hRTN0ZmxHQXJVMEhlSXgzSzBKbXlrcDZERVMzTWxvTWV1aGIwZnFmZWpFZm5Mb0FDQktRYlFqUTQ5UlJ4MUxPYnlWRG5FZlFsN0R1amtJVkY5ZkdtS3cyeFRGR01PdFEzSTZraUdBR1IzZ0VV0gG7AUFVX3lxTFB6QXVFVGdRZzNHeUJWRE0tUkFOWldtZElqNEU2SE5NZE5IMEI3SWdxcERmQjdLMnk5TDFnbmdzOXp4SUJBOGFibW9TVG5qbmFFM3RmbEdBclUwSGVJeDNLMEpteWtwNkRFUzNNbG9NZXVoYjBmcWZlakVmbkxvQUNCS1FiUWpRNDlSUngxTE9ieVZEbkVmUWw3RHVqa0lWRjlmR21LdzJ4VEZHTU90UTNJNmtpR0FHUjNnRVU?oc=5",
     "fuente": "El Periódico",
     "fecha": "2026-11-21T15:00:04+00:00"
-   },
-   {
-    "titulo": "Sánchez defiende los pactos con Puigdemont: \"Voy a buscar votos debajo de las piedras\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZjdiUFpRdUVkcER1T2Nkd3IxLVV5cjFHcDlyMzNYY2JENWZwdU5sYm9EemFTSmxXZW1vaGJ5UTFsUklESEw1VElBSkFDU2JoUzM4VEY1aWt5dnhMV0IxTS1TTVpJaDlvXzZzNmZhWHVRNVhlczh1cUhsSW5NSE5XY0dPOUJCaHYyejd2aEZ5bVFyZWVYMjNRb2hLUFd5di1Pd0VnU1c2cFVSel85NXo1eW9laThFOGtKNllwZENURmk?oc=5",
-    "fuente": "Canal Sur",
-    "fecha": "2026-11-21T14:02:00+00:00"
    }
   ],
   "Bildu": [
+   {
+    "titulo": "Bildu fulmina al PNV y le condena a una debacle en las próximas elecciones vascas",
+    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWHBCUzMyWmRHR2M2MnYzYk9IdHZfcWhFWUZDUFlJc0NTOERnbml3b3ZXNE9ELWVZMWxOSHJXMTVJdnpvd0RNM19ady0zQUt4SzBKWlFFV3JPZnNDVFZQWGhXSUhha1N2OXF1em1wRGtnQ0F4Mlp2TzFEblpIZUVsMXNpTWlpSmJ6SC1nQUVUWDlEUnNpam00V2Vnck91bnhFeTZjRF9Xam9tcWt2UGl5X2duQUJNRmFFelo0Tll2Mk1ZYlhVekNqVjdn0gHPAUFVX3lxTE5HRXNicThqUmxNLVM4bkRqZXVnUzJKWkJsOWxxU19rZWVTaFZuU3FQbUlGM3lKNGpuMHBDWm04Ym9uem9KX1A4dFJSckZWRHlNWXB2RzJENm1SZnhwVW1zYlh5VmltWjNTUG9oU1J1Z2pBdlI2OXM0TFZoRE5ZaXhUOHQ2eHdMdTJka3lQQnVyVXVpbXJXbEs4T1dVc3ppWERmWVBlZjM1ckxra2Z4ZjdYZTM1SVdHdm0zQk1GaS05bGt1R25JOGoyMm1GYXd4Yw?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-11-22T03:44:00+00:00"
+   },
    {
     "titulo": "EH Bildu y PSE empatarían en Euskadi con seis escaños y el PNV caería a cuatro",
     "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUXluUElrS1JLdlFYMTZOTHhjWGdfYTl3YXZ0aGtZYjNEb1d6TjJ1UVh2RjUtdnZKcEJPcUYyTlpvYVFlSUFvQWJQdWhKVl9oWnNTbGI2QzJBZ3NvLVJ0VjAxeDdUUmNrQ25GSldOb2d0WkhPYXRDRlBNakNyS1Q0bkpwNF9oQjRpUFZZMTlpUnJ2QkhuaF84Zzc5QXlDNDVMLV92bkR5MGHSAa4BQVVfeXFMTmNzb1hRcHNMOGNnVUZ3VENEamp6V0hsbHZUMkFtZE4yY290Zng2UzlRaFJvOGFONFBBTVliMV9fTFBlYW8taFd3RWtkeW5TenVhdDRDZ3VTMmNoZnVhYVoyV3FZSGYxMFR3cmFwYkxUaGhpcWRPN19GZjVIckx4bUxZX2p5VDJwSG9XWnA1U2tlemJjeEh3OHN3dFV5WnR1RFBma2tZLUItLUFpUmR3?oc=5",
@@ -394,16 +394,15 @@
     "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOENHUXRCT05ibGRSaGMyWHJUU2Ffclo5a21fbkVKaV9NZ2M2X1NDd0JQMmlKVFlkaEVtOE1weHprMk9JdkdvSjNrcmd1c0ZVOWk2RUx2TUVTa292UFNGNUpCcllFSUdaT1YtdjBfcG9Sa1ZLRnhVM0x3WmFOWVg5SFdQZzFIMER2aTEtQkNKNDBWQlBKVVlFblVHdWlYTUc3d0NOajZJVWR6emJ5NmRlSnRBbm9PelgtUEpndnNhREZXRWVVQ1g2RV9n?oc=5",
     "fuente": "Pamplona Actual",
     "fecha": "2026-11-21T16:04:20+00:00"
-   },
-   {
-    "titulo": "Bildu pide dar «una paliza antológica» a los «reaccionarios» en tierras vascas el 29-N",
-    "enlace": "https://theobjective.com/espana/politica/2026-11-21/bildu-voto-paliza-democratica-reaccionarios-derecha/",
-    "fuente": "The Objective",
-    "fecha": "2026-11-21T15:51:07+00:00",
-    "imagen": "https://theobjective.com/wp-content/uploads/2026/11/otxandiano-en-el-acto-poli-tico-de-campan-a-electoral-en-vitoria.jpg"
    }
   ],
   "PNV": [
+   {
+    "titulo": "Bildu fulmina al PNV y le condena a una debacle en las próximas elecciones vascas",
+    "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWHBCUzMyWmRHR2M2MnYzYk9IdHZfcWhFWUZDUFlJc0NTOERnbml3b3ZXNE9ELWVZMWxOSHJXMTVJdnpvd0RNM19ady0zQUt4SzBKWlFFV3JPZnNDVFZQWGhXSUhha1N2OXF1em1wRGtnQ0F4Mlp2TzFEblpIZUVsMXNpTWlpSmJ6SC1nQUVUWDlEUnNpam00V2Vnck91bnhFeTZjRF9Xam9tcWt2UGl5X2duQUJNRmFFelo0Tll2Mk1ZYlhVekNqVjdn0gHPAUFVX3lxTE5HRXNicThqUmxNLVM4bkRqZXVnUzJKWkJsOWxxU19rZWVTaFZuU3FQbUlGM3lKNGpuMHBDWm04Ym9uem9KX1A4dFJSckZWRHlNWXB2RzJENm1SZnhwVW1zYlh5VmltWjNTUG9oU1J1Z2pBdlI2OXM0TFZoRE5ZaXhUOHQ2eHdMdTJka3lQQnVyVXVpbXJXbEs4T1dVc3ppWERmWVBlZjM1ckxra2Z4ZjdYZTM1SVdHdm0zQk1GaS05bGt1R25JOGoyMm1GYXd4Yw?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-11-22T03:44:00+00:00"
+   },
    {
     "titulo": "Maribel Vaquero (PNV): \"¿PP? Con quien dice que su apoyo es Vox difícilmente se puede hablar\"",
     "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbkJFbFRSUzAtMDFiNjlqamkzT2Q1R25zUEFfT1VNVWVzeDA0Z0NHdTAzRmxxYU1tbTZTaGdfUFpLSFZfdDgyQlRiNWpyQnNuOVJoZEhRc1hQZTlPdzZEV3JGak1iZ1Z6eWxmblo5SUl3bmFUbmJTR2FTQ1A1d0VlX3NHdDZzZXJxT1ZUTnhseDJaQUhkWWMzNWV2UdIBmwFBVV95cUxOa01WYmd1cHU3SlV4XzN0Z0xXSVFac0NmckhoMXpPNktRdkhIcHJkaXZvblR6ZWV4aEt0NmhmR05LUXp2bnVtT0lfWkJSZ1YtTXFMRW1HZjloUmhZTldaM004S0ExV1FCNHFwalRHMU9WQzk1RGJjaXJuLUhackNFZlE5Zm1HTmRXUEk5LVc4Q2Jzd0ZzQ3c0NjZHMA?oc=5",
@@ -433,12 +432,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xV1JXMG1GcUs2Q2FHcENyeVUxR0hMOV8zMmhsMkxZNVd0UlNiTE1tdlg2aTNBWHpIME9sSXdSMmhpU2dvdVNack42TW1FLXhGSm00TWhmNjlXem1Zb3VVOHB6V2FJUTlxZTJj?oc=5",
     "fuente": "Qué.es",
     "fecha": "2026-11-21T14:12:38+00:00"
-   },
-   {
-    "titulo": "El PNV afirma que Urtaran será la voz de Álava en Madrid",
-    "enlace": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWGZfMVhNaS1sbUE0ZlA5cTRqX0VfOF84MlF3ZU10ZUlPNVBpcF9pTTNLNWw5RXFVZENudHV3dGdNblpLbFNyUFp5dDBJcjgzODNwR1NHV1FCa2M1aVF5SUkwVDlQUHo0TWFZMjllWUxONFJBdmtKeHktbTRtU1FzRW1rMVZ2bDVHX01N?oc=5",
-    "fuente": "Espacio Diario",
-    "fecha": "2026-11-21T13:14:14+00:00"
    }
   ],
   "BNG": [
