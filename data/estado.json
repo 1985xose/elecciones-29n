@@ -1,41 +1,62 @@
 {
  "encuestas": {
-  "ok": false,
-  "hora": "2026-11-22T20:01:07+00:00",
-  "mensaje": "No se ha publicado la lectura. han desaparecido encuestas, antes 555 y ahora 405; 30 encuestas con porcentajes que no cuadran, p. ej. SW Demoscopia/La Séptima 2026-11-18 {'PP': 29.4, 'PSOE': 31.8, 'Vox': 16.4, 'Sumar': 14.6, 'ERC': 2.8, 'Junts': 1.3, 'Bildu': 1.3, 'PNV': 0.7, 'BNG': 1.0, 'CCa': 0.4, 'AA': 1.6, 'Podemos': 1.6, 'SALF': 2.0}",
-  "ultima_buena": "2026-11-16T19:01:04+00:00",
+  "ok": true,
+  "hora": "2026-11-22T20:52:42+00:00",
+  "mensaje": "628 encuestas leídas, 73 nuevas",
+  "ultima_buena": "2026-11-22T20:52:42+00:00",
   "detalle": {
-   "ignoradas": []
+   "ignoradas": [],
+   "apartadas": [],
+   "corregidas": [],
+   "conservadas": 222,
+   "desdobladas": [
+    "InvyMark/laSexta 2026-11-13",
+    "Target Point/El Debate 2026-11-12",
+    "DYM/Henneo 2026-11-06",
+    "Ateneo del Dato/elDiario.es 2026-11-05",
+    "Target Point/El Debate 2026-10-30",
+    "Vox/The Objective 2026-10-27",
+    "More in Common 2026-10-25",
+    "Winston/Artículo14 2026-10-23",
+    "Ateneo del Dato/elDiario.es 2026-10-22"
+   ],
+   "nuevas": [
+    "SocioMétrica/El Español 2026-11-22",
+    "Data10/Okdiario 2026-11-21",
+    "Sondaxe/La Voz de Galicia 2026-11-21",
+    "40dB/Prisa 2026-11-21",
+    "EM-Analytics/Electomanía 2026-11-21",
+    "SW Demoscopia/La Séptima 2026-11-21",
+    "SocioMétrica/El Español 2026-11-21",
+    "Data10/Okdiario 2026-11-20",
+    "Sondaxe/La Voz de Galicia 2026-11-20",
+    "40dB/Prisa 2026-11-20"
+   ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-22T20:01:32.550Z",
+  "hora": "2026-11-22T20:53:26.597Z",
   "mensaje": "10000 repeticiones, faltan 7 días",
-  "ultima_buena": "2026-11-22T20:01:32.550Z",
+  "ultima_buena": "2026-11-22T20:53:26.597Z",
   "detalle": {
    "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-22T20:01:57+00:00",
+  "hora": "2026-11-22T20:53:48+00:00",
   "mensaje": "10 titulares del día, 83 por partido, 17 polémicas",
-  "ultima_buena": "2026-11-22T20:01:57+00:00",
+  "ultima_buena": "2026-11-22T20:53:48+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-22T20:01:57+00:00"
+  "hora": "2026-11-22T20:53:49+00:00"
  },
- "avisado": {
-  "encuestas": {
-   "desde": "2026-11-16T20:03:50+00:00",
-   "ultimo": "2026-11-22T19:02:28+00:00"
-  }
- },
+ "avisado": {},
  "fiabilidad": {
   "ok": true,
   "hora": "2026-11-22T04:01:17+00:00",
