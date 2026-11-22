@@ -140,7 +140,9 @@ def celda_texto(c):
 def tablas_estimacion(sopa, seccion="Voting_intention_estimates"):
     """Tablas de estimación de voto con el año de su bloque. La estimación está partida en una tabla
     por año (títulos '2026', '2025'...) y las fechas de esas tablas no llevan año. Se para en el
-    siguiente apartado de nivel 2 (intención directa, escenarios...), que no debe mezclarse."""
+    siguiente apartado de nivel 2 (intención directa, escenarios...), que no debe mezclarse.
+    Desde el 16-11-2026 Wikipedia cuelga los años un nivel más abajo (h5) y parte 2026 en dos bloques,
+    «2026 (Oct–Nov)» y «2026 (Jan–Oct)». Un título de varios años («2023–2024») deja el año sin fijar."""
     es_encuestas = lambda t: t.find("tr") is not None and "Polling firm" in t.find("tr").get_text(" ")
     ancla = sopa.find(id=seccion)
     if ancla is None:
@@ -151,13 +153,18 @@ def tablas_estimacion(sopa, seccion="Voting_intention_estimates"):
         for x in h.find_all(class_="mw-editsection"):
             x.decompose()
         return h.get_text(" ", strip=True)
-    for el in ancla.find_all_next(["h2", "h3", "h4", "table"]):
-        if el.name in ("h2", "h3", "h4"):
+    for el in ancla.find_all_next(["h2", "h3", "h4", "h5", "h6", "table"]):
+        if el.name in ("h2", "h3", "h4", "h5", "h6"):
             if el is ancla or ancla in el.parents:
                 continue
-            m = re.fullmatch(r"(\d{4})", titulo(el))
+            t = titulo(el)
+            m = re.fullmatch(r"(\d{4})(?:\s*\([^)]*\))?", t)
             if m:
                 anio = int(m.group(1))
+            elif re.fullmatch(r"\d{4}\s*[-\u2013\u2014]\s*\d{4}", t):
+                anio = None
+            elif el.name in ("h5", "h6"):
+                continue  # un subtítulo que no es un año no corta la lectura
             elif salida or el.name == "h2":
                 break  # siguiente apartado (intención directa, escenarios...)
         elif "wikitable" in (el.get("class") or []) and es_encuestas(el) and el.find_parent("table") is None:
@@ -174,6 +181,8 @@ def parsear_tablas(html, anio_defecto=None):
     print(f"Tablas usadas: {origen}")
     anio_corrido, ultima = anio_defecto, None
     for tabla, anio_tabla in tablas:
+        if anio_tabla:
+            anio_corrido = anio_tabla  # si después viene una tabla sin año, se sigue deduciendo desde este
         filas = rejilla(tabla)
         # filas de cabecera = filas iniciales solo con th
         n_cab = 0
@@ -232,9 +241,15 @@ def parsear_tablas(html, anio_defecto=None):
             if idx["participacion"] is not None and idx["participacion"] < len(f):
                 n = numeros(celda_texto(f[idx["participacion"]]))
                 reg["participacion"] = float(n[0]) if n else None
+            contadas = set()
             for i, p in partidos.items():
                 if i >= len(f):
                     continue
+                # Una celda que ocupa dos columnas de la misma clave (el dato conjunto de FA y FV que dan algunas empresas)
+                # sale repetida en la rejilla. Se cuenta una sola vez, si no el mismo número se sumaba consigo mismo.
+                if (id(f[i]), p) in contadas:
+                    continue
+                contadas.add((id(f[i]), p))
                 pct, esc = pct_y_escanos(celda_texto(f[i]))
                 # Dos columnas con la misma clave (FA y FV en Sumar) se suman: es el mismo espacio de la base de 2023
                 if pct is not None:

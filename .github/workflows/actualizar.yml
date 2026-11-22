@@ -20,9 +20,8 @@ jobs:
     concurrency:
       group: panel-2
       cancel-in-progress: false
-    environment:
-      name: github-pages
-      url: ${{ steps.despliegue.outputs.page_url }}
+    outputs:
+      encuestas: ${{ steps.encuestas.outcome }}
     steps:
       # Siempre desde lo último de main. Si esta ejecución ha estado esperando a que acabara otra, así parte ya con los
       # datos que subió la anterior en vez de con los del momento en que se lanzó.
@@ -98,11 +97,24 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
+
+  # La publicación va en un job aparte. Desde el 21-11-2026 GitHub tarda en listar el paquete recién subido y, en el
+  # mismo job, deploy-pages lo buscaba antes de tiempo y daba "Found 0 artifact(s)". Es como lo hace la plantilla de GitHub.
+  publicar:
+    needs: actualizar
+    runs-on: ubuntu-latest
+    concurrency:
+      group: publicar-2
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
       - id: despliegue
         uses: actions/deploy-pages@v4
 
       - name: Marcar en rojo si las encuestas no pasaron la validación
-        if: steps.encuestas.outcome == 'failure'
+        if: needs.actualizar.outputs.encuestas == 'failure'
         run: |
           echo "La lectura de encuestas falló la validación. La web sigue publicada con los datos anteriores. Revisa el paso Encuestas."
           exit 1

@@ -75,9 +75,19 @@ def main():
     for e in encuestas:
         if e["id"] not in vistos:
             vistos.add(e["id"]); unicas.append(e)
+    # Las encuestas más antiguas que todo lo que trae ahora la página se conservan de la lectura anterior. El 16-11-2026
+    # Wikipedia pasó las de 2023 y 2024 a un artículo aparte y aquí solo quedan las de 2025 en adelante. Son encuestas
+    # cerradas que ya no cambian, y la app las usa para la gráfica de toda la legislatura.
+    conservadas = []
+    if unicas and previo.get("encuestas"):
+        mas_antigua = min(e["fin"] for e in unicas)
+        conservadas = [e for e in previo["encuestas"] if e["fin"] < mas_antigua and e["id"] not in vistos]
+        unicas += conservadas
     unicas.sort(key=lambda e: e["fin"], reverse=True)
 
     print(f"Página: {titulo} (rev {revid})")
+    if conservadas:
+        print(f"Encuestas anteriores a {mas_antigua} que ya no están en la página y se conservan de la lectura anterior: {len(conservadas)}")
     print(f"Partidos detectados en cabecera: {partidos}")
     print(f"Encuestas leídas: {len(unicas)}  nuevas: {len(nuevas)}")
     if unicas:
@@ -113,18 +123,27 @@ def main():
     corte = (hoy - timedelta(days=60)).isoformat()
     antes_por_id = {e["id"]: e for e in previo.get("encuestas", [])}
     # 1. Un partido conocido que desaparece de encuestas que ya estaban leídas: le han cambiado el nombre a su columna.
-    perdidas, movidas = Counter(), []
+    perdidas, movidas, desdobladas = Counter(), [], []
     for e in unicas:
         a = antes_por_id.get(e["id"])
         if not a:
             continue
+        saltos = []
         for k, v in (a.get("pct") or {}).items():
             if k not in conocidos:
                 continue
             if k not in e["pct"]:
                 perdidas[k] += 1
             elif abs(e["pct"][k] - v) >= 3:
-                movidas.append(e); break
+                saltos.append((v, e["pct"][k]))
+        # Hasta el 22-11-2026 el dato conjunto de FA y FV que dan algunas empresas en una sola celda se contaba dos veces
+        # y Sumar quedaba guardado al doble. Un número que pasa justo a su mitad es esa corrección y no columnas movidas.
+        if saltos and all(abs(antes - 2 * ahora) <= 0.11 for antes, ahora in saltos):
+            desdobladas.append(e)
+        elif saltos:
+            movidas.append(e)
+    if desdobladas:
+        print("Encuestas ya leídas que tenían un dato contado dos veces y quedan corregidas: " + ", ".join(f"{e['empresa']} {e['fin']}" for e in desdobladas))
     for k, n in perdidas.items():
         if n >= 5:
             problemas.append(f"{k} ha desaparecido de {n} encuestas que ya estaban leídas, puede que Wikipedia le haya cambiado el nombre a su columna")
@@ -188,6 +207,8 @@ def main():
                    {"ignoradas": sorted(limpia(k) for k in ignoradas),
                     "apartadas": [f"{e['empresa']} {e['fin']}" for e in sospechosas + futuras][:10],
                     "corregidas": [f"{e['empresa']} {e['fin']}" for e in movidas][:10],
+                    "conservadas": len(conservadas),
+                    "desdobladas": [f"{e['empresa']} {e['fin']}" for e in desdobladas][:10],
                     "nuevas": [f"{e['empresa']} {e['fin']}" for e in nuevas][:10]})
 
     for e in nuevas[:5]:
