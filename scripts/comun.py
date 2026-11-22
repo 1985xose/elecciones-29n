@@ -86,6 +86,40 @@ def apuntar_estado(paso, ok, mensaje="", detalle=None):
     escribir("estado.json", est)
 
 
+def en_veda(ahora=None):
+    """Veda electoral: desde las 00:00 de Madrid de config.eleccion.veda_desde hasta el cierre de las urnas. Es la misma
+    regla que enVeda() en assets/media.js. Mientras dura, el robot no lee ni publica encuestas ni probabilidades."""
+    e = (leer("config.json", {}) or {}).get("eleccion") or {}
+    if not e.get("veda_desde") or not e.get("cierre_urnas"):
+        return False
+    ahora = ahora or datetime.now(timezone.utc)
+    try:
+        from zoneinfo import ZoneInfo
+        dia = ahora.astimezone(ZoneInfo("Europe/Madrid")).date().isoformat()
+    except Exception:
+        dia = ahora.date().isoformat()
+    cierre = datetime.fromisoformat(e["cierre_urnas"].replace("Z", "+00:00"))
+    return dia >= e["veda_desde"] and ahora < cierre
+
+
+VEDA_MENSAJE = "Veda electoral, no se leen ni se publican encuestas hasta el cierre de las urnas"
+
+# Titulares que hablan de encuestas. En veda no se recogen, para no reproducir en la app lo que publique otro.
+# Es la misma lista que TITULAR_SONDEO en assets/app.js.
+TITULAR_SONDEO = re.compile("|".join([
+    r"encuest", r"sondeo", r"bar[oó]metro", r"\bcis\b", r"tezanos", r"demosc[oó]p", r"intenci[oó]n de voto", r"estimaci[oó]n de voto", r"pie de urna", r"israelita",
+    r"esca[ñn]os?", r"asientos", r"\d+\s+diputados", r"mayor[ií]a absoluta", r"tracking", r"pron[oó]stic", r"proyecci[oó]n", r"predicci[oó]n", r"\d\s+puntos?\b",
+    r"\bpuntos? (?:de ventaja|por (?:encima|debajo|delante|detr[aá]s))", r"\d\s?%", r"por ciento",
+    r"ganar[ií]an?", r"perder[ií]an?", r"sumar[ií]an", r"obtendr[ií]an?", r"lograr[ií]an?", r"sacar[ií]an?", r"subir[ií]an?", r"bajar[ií]an?", r"empatar[ií]an?", r"quedar[ií]an?", r"gobernar[ií]an?",
+    r"sorpasso", r"empate t[eé]cnico", r"se dispara", r"se desploma", r"se hunde",
+    r"gad3", r"40db", r"sigma dos", r"sociom[eé]trica", r"nc report", r"electoman[ií]a", r"electopanel", r"sondaxe", r"target point", r"\bdym\b", r"simple l[oó]gica", r"hamalgama", r"metroscopia",
+    r"invymark", r"ipsos", r"yougov", r"keydata", r"celeste-?tel", r"data10", r"\bimop\b", r"gesop", r"cluster17", r"more in common", r"ateneo del dato", r"sw demoscopia"]), re.I)
+
+
+def sin_sondeos(lista):
+    return [n for n in (lista or []) if not TITULAR_SONDEO.search(str(n.get("titulo") or ""))]
+
+
 def con_parte(paso, funcion):
     """Ejecuta un paso entero y, si revienta por algo que el propio paso no ha previsto (sin red, un formato que cambia,
     un fallo de programa), lo deja apuntado antes de salir. Lo que el paso sí prevé lo apunta él mismo."""

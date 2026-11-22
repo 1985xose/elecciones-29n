@@ -1,8 +1,13 @@
 """Resumen de la mañana por Telegram con las probabilidades del día. Se ejecuta a las 7:00 UTC."""
 from datetime import date
-from comun import leer, telegram_enviar
+from comun import leer, telegram_enviar, en_veda
 
 def main():
+    if en_veda():
+        texto = "Buenos días. Veda electoral. La app no enseña encuestas ni probabilidades y el robot no las lee ni las rehace. Vuelven solas el domingo a las 20:00."
+        print(texto)
+        telegram_enviar(texto)
+        return
     p = leer("probabilidades.json"); cfg = leer("config.json"); h = leer("probabilidades_historial.json", []); an = leer("analisis.json", {})
     if not p:
         print("Sin probabilidades"); return

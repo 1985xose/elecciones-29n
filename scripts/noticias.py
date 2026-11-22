@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from urllib.parse import quote
-from comun import leer, escribir, ahora_iso, get, S, apuntar_estado, con_parte
+from comun import leer, escribir, ahora_iso, get, S, apuntar_estado, con_parte, en_veda, sin_sondeos
 
 RSS = "https://news.google.com/rss/search?q={q}&hl=es&gl=ES&ceid=ES:es"
 
@@ -423,6 +423,16 @@ def main():
     total = sum(len(v) for v in res["partidos"].values())
     fotos = sum(1 for x in res["generales"] if x.get("imagen")), sum(1 for v in res["partidos"].values() for x in v if x.get("imagen")), sum(1 for x in res["polemicas"] if x.get("imagen"))
     print(f"Con foto: {fotos[0]} titulares del día, {fotos[1]} por partido, {fotos[2]} polémicas")
+    if en_veda():
+        # En veda no se recoge ningún titular que hable de encuestas, sondeos o asientos
+        antes = len(res["generales"]) + total + len(res["polemicas"]) + len(res["verificaciones_generales"]) + sum(len(v) for v in res["verificaciones"].values())
+        for campo in ("generales", "polemicas", "verificaciones_generales"):
+            res[campo] = sin_sondeos(res[campo])
+        for campo in ("partidos", "verificaciones"):
+            res[campo] = {k: sin_sondeos(v) for k, v in res[campo].items()}
+        total = sum(len(v) for v in res["partidos"].values())
+        ahora_hay = len(res["generales"]) + total + len(res["polemicas"]) + len(res["verificaciones_generales"]) + sum(len(v) for v in res["verificaciones"].values())
+        print(f"Veda electoral: se quitan {antes - ahora_hay} titulares que hablan de encuestas")
     print(f"Titulares generales {len(res['generales'])}, por partido {total}, verificaciones {sum(len(v) for v in res['verificaciones'].values())}, polémicas {len(res['polemicas'])}")
     escribir("noticias.json", res)
     if ha_leido:

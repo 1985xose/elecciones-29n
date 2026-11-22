@@ -204,7 +204,8 @@ function activarPestana(id) {
   // «#no-contar» no es una pestaña: es la forma de pedir que este dispositivo no se cuente en las visitas
   if (id === "no-contar") { try { localStorage.setItem("skipgc", "t"); alert("Hecho. Este dispositivo ya no se cuenta en las visitas."); } catch { alert("Este navegador no deja guardarlo, así que no se ha podido."); } history.replaceState(null, "", location.pathname + location.search); id = "hoy"; }
   const ids = ["hoy", "mapa", "encuestas", "senado", "simulador", "noticias", "el29n", "metodologia"];
-  if (!ids.includes(id)) id = "hoy";
+  // En veda solo existen las pestañas que no enseñan encuestas. Un enlace viejo a cualquiera de las otras lleva a Hoy.
+  if (!(D.veda ? PESTANAS_VEDA : ids).includes(id)) id = "hoy";
   for (const i of ids) document.getElementById(i).hidden = i !== id;
   if (id !== pestanaActual) { const sec = document.getElementById(id); sec.classList.remove("entra"); void sec.offsetWidth; sec.classList.add("entra"); }
   pestanaActual = id;
@@ -213,7 +214,7 @@ function activarPestana(id) {
   // Si la pestaña elegida vive dentro de «Más», se marca ese botón para que se sepa dónde se está. Y la hoja se cierra.
   $(".mas-boton")?.classList.toggle("activa", !!document.querySelector(`.mas-hoja a[data-tab="${id}"]`));
   cerrarMas();
-  $("#foco-tira").hidden = id === "el29n" || id === "metodologia"; // ahí no hay nada propio de un partido
+  $("#foco-tira").hidden = !!D.veda || id === "el29n" || id === "metodologia"; // ahí no hay nada propio de un partido
   carrilVivo?.();
   window.scrollTo({ top: 0 });
   if (id === "encuestas" && !graficoTendencia && D.listo) pintarTendencia();
@@ -500,6 +501,11 @@ function pintarHoy(m, m7, proy) {
   pintarPortadaNoticias();
 
   // 6. Fechas
+  pintarFechas(dias);
+}
+/* La pestaña 29N: la cuenta atrás, el camino y la frase de lo siguiente. No depende de las encuestas, así que la usan
+   igual el modo normal y el modo veda. */
+function pintarFechas(dias) {
   /* Lo siguiente es el hito más cercano que aún no ha pasado: algo que empieza o, en los plazos que lo tienen apuntado
      (fin_titulo), su último día. Antes se cogía el primer plazo abierto y se quedaba semanas clavado en el mismo. */
   const ag = D.agenda || [], h0 = hoy();
@@ -2071,12 +2077,7 @@ function pintarMetodo(m) {
     $("#met-resumen").textContent = `Ahora mismo hay cargadas ${fmt0.format(E.length)} encuestas de ${empresas} empresas, todas las publicadas desde las elecciones de julio de 2023. La más reciente terminó de preguntar el ${fFecha.format(fechaD(ult))}. La media de hoy sale de ${m.usadas.length} de ellas.`;
     if (D.encuestas.fuente) $("#met-wiki").href = D.encuestas.fuente;
   }
-  // Los periódicos que de verdad han respondido en la última actualización, por grupos
-  const medios = D.noticias?.medios?.length ? D.noticias.medios : [], G = D.config.grupos_medios || {};
-  if (medios.length) {
-    const porGrupo = Object.keys(G).map((g) => [G[g], medios.filter((x) => x.grupo === g).map((x) => x.nombre)]).filter(([, v]) => v.length);
-    $("#met-medios").textContent = `${medios.length} periódicos y medios, repartidos en ${porGrupo.length} grupos según su línea editorial más habitual. ${porGrupo.map(([n, v]) => `${cap(n)}, ${lista(v)}`).join(". ")}`;
-  }
+  pintarMedios();
   $("#met-ventana").textContent = m.fase === "precampaña" ? `Ahora cuentan las de los últimos ${m.ventana} días. En campaña serán 28 y la última semana 20, para que los cambios se noten antes.` : `Ahora, en ${m.fase}, cuentan las de los últimos ${m.ventana} días.`;
   $("#met-mitad").textContent = `ahora una de hace unos ${Math.round(m.mitad)} días pesa la mitad que una de hoy`;
   const cal = P?.calibracion;
@@ -2090,6 +2091,72 @@ function pintarMetodo(m) {
   }
   $("#met-media-hoy").innerHTML = $("#media-hoy").innerHTML;
   $("#met-backtest").innerHTML = $("#backtest").innerHTML || "<p>La prueba con las elecciones de 2023 se calcula en la próxima actualización.</p>";
+}
+
+// Los periódicos que de verdad han respondido en la última actualización, por grupos
+function pintarMedios() {
+  const medios = D.noticias?.medios?.length ? D.noticias.medios : [], G = D.config.grupos_medios || {};
+  if (!medios.length) return;
+  const porGrupo = Object.keys(G).map((g) => [G[g], medios.filter((x) => x.grupo === g).map((x) => x.nombre)]).filter(([, v]) => v.length);
+  $("#met-medios").textContent = `${medios.length} periódicos y medios, repartidos en ${porGrupo.length} grupos según su línea editorial más habitual. ${porGrupo.map(([n, v]) => `${cap(n)}, ${lista(v)}`).join(". ")}`;
+}
+
+/* ---------- Modo veda ----------
+   Del martes 24 a las 00:00 al domingo 29 a las 20:00 (Media.enVeda) la app no descarga ni enseña nada que salga de una
+   encuesta: ni medias, ni asientos, ni probabilidades, ni las encuestas una a una. Quedan cuatro pestañas, Hoy con el
+   aviso y los titulares, Noticias, 29N y Metodología sin cifras. Los titulares que hablan de encuestas se quitan, para
+   no reproducir aquí lo que publique otro. Al entrar y al salir de la veda la página se recarga sola (refrescar). */
+const PESTANAS_VEDA = ["hoy", "noticias", "el29n", "metodologia"];
+const NOMBRES_VEDA = ["noticias", "agenda"];
+const TITULAR_SONDEO = new RegExp(["encuest", "sondeo", "bar[oó]metro", "\\bcis\\b", "tezanos", "demosc[oó]p", "intenci[oó]n de voto", "estimaci[oó]n de voto", "pie de urna", "israelita",
+  "esca[ñn]os?", "asientos", "\\d+\\s+diputados", "mayor[ií]a absoluta", "tracking", "pron[oó]stic", "proyecci[oó]n", "predicci[oó]n", "\\d\\s+puntos?\\b", "\\bpuntos? (?:de ventaja|por (?:encima|debajo|delante|detr[aá]s))", "\\d\\s?%", "por ciento",
+  "ganar[ií]an?", "perder[ií]an?", "sumar[ií]an", "obtendr[ií]an?", "lograr[ií]an?", "sacar[ií]an?", "subir[ií]an?", "bajar[ií]an?", "empatar[ií]an?", "quedar[ií]an?", "gobernar[ií]an?",
+  "sorpasso", "empate t[eé]cnico", "se dispara", "se desploma", "se hunde",
+  "gad3", "40db", "sigma dos", "sociom[eé]trica", "nc report", "electoman[ií]a", "electopanel", "sondaxe", "target point", "\\bdym\\b", "simple l[oó]gica", "hamalgama", "metroscopia",
+  "invymark", "ipsos", "yougov", "keydata", "celeste-?tel", "data10", "\\bimop\\b", "gesop", "cluster17", "more in common", "ateneo del dato", "sw demoscopia"].join("|"), "i");
+const hablaDeSondeos = (n) => TITULAR_SONDEO.test(String(n?.titulo || ""));
+function sinSondeos(N) {
+  if (!N) return N;
+  const limpia = (arr) => (arr || []).filter((n) => !hablaDeSondeos(n));
+  const porClave = (o) => Object.fromEntries(Object.entries(o || {}).map(([k, v]) => [k, limpia(v)]));
+  return { ...N, generales: limpia(N.generales), polemicas: limpia(N.polemicas), verificaciones_generales: limpia(N.verificaciones_generales), partidos: porClave(N.partidos), verificaciones: porClave(N.verificaciones) };
+}
+// Las tres horas siguientes al cierre de las urnas
+function vedaRecienAcabada() {
+  const e = D.config?.eleccion, fin = e?.veda_desde && e.cierre_urnas ? new Date(e.cierre_urnas).getTime() : NaN;
+  return Date.now() >= fin && Date.now() < fin + 3 * 3600000;
+}
+const fDiaSem = new Intl.DateTimeFormat("es-ES", { weekday: "short", timeZone: "UTC" });
+function pintarVeda() {
+  document.documentElement.classList.add("veda");
+  diaPintado = diaMadrid();
+  const e = D.config.eleccion, h0 = hoy(), voto = fechaD(e.fecha), dias = Math.round((voto - h0) / DIA);
+  const cierre = new Date(e.cierre_urnas), horaCierre = fHoraMadrid.format(cierre);
+  // Hoy: el aviso, los días de la veda de un vistazo y dónde sí hay cosas que ver
+  const tira = [];
+  for (let t = fechaD(e.veda_desde); t < voto; t = new Date(+t + DIA)) tira.push(el("li", { class: +t < +h0 ? "pasado" : +t === +h0 ? "hoy" : "" }, el("b", {}, fDiaSem.format(t).replace(".", "")), el("span", {}, String(t.getUTCDate())), el("small", {}, "sin encuestas")));
+  tira.push(el("li", { class: `vuelve${dias === 0 ? " hoy" : ""}` }, el("b", {}, fDiaSem.format(voto).replace(".", "")), el("span", {}, String(voto.getUTCDate())), el("small", {}, `${horaCierre} vuelve todo`)));
+  const cuenta = el("div", { class: "cuenta-num" }, el("b", { class: "num-sube" }, dias > 0 ? String(dias) : D.esperando ? "29N" : "Hoy"), el("span", {}, dias > 1 ? "días para el 29N" : dias === 1 ? "día, se vota mañana" : D.esperando ? "urnas cerradas" : "se vota, de 9:00 a 20:00"));
+  const caja = $("#veda-hoy");
+  caja.hidden = false;
+  poner(caja, el("div", { class: "veda-cab" }, cuenta, el("div", { class: "veda-txt" }, el("p", { class: "veda-eti" }, "Veda electoral"),
+      el("h2", {}, D.esperando ? "Los colegios han cerrado" : "Estos días no hay encuestas"),
+      el("p", {}, D.esperando ? "La veda ha terminado. Los datos vuelven en unos minutos, sin que tengas que hacer nada." : `La ley prohíbe publicar encuestas los cinco días antes de votar. Hasta el domingo a las ${horaCierre} aquí no verás medias, asientos ni probabilidades.`))),
+    el("ol", { class: "veda-dias", "aria-label": "Días sin encuestas" }, ...tira),
+    el("div", { class: "veda-atajos" }, el("a", { class: "boton", href: "#el29n" }, "Qué te toca hacer"), el("a", { class: "boton", href: "#noticias" }, "Noticias de hoy"), el("a", { class: "boton", href: "#metodologia" }, "Cómo se hace esta app")),
+    D.esperando ? null : el("p", { class: "fuente" }, `El domingo a las ${horaCierre}, al cerrar los colegios, vuelve todo solo.`));
+  $("#titulares").replaceChildren(...(D.noticias?.generales || []).slice(0, 4).map((n) => noticia(n, { grande: true })), ...(D.noticias?.polemicas || []).slice(0, 2).map((n) => noticia(n)));
+  pintarPortadaNoticias();
+  // 29N: el camino y las tareas, igual que siempre
+  pintarFechas(dias);
+  pintarTareas();
+  // Metodología: el texto se queda, las cifras del día y las listas de encuestas no
+  pintarMedios();
+  $("#veda-metodo").hidden = false;
+  $("#met-wiki")?.removeAttribute("href");
+  $("#met-ventana").textContent = "Según lo cerca que esté la votación, cuentan las de los últimos 60, 28 o 20 días.";
+  $("#met-mitad").textContent = "cuanto más cerca está la votación, antes pierde peso una encuesta vieja";
+  document.querySelectorAll(".met-paso:not(.sin-veda) .met-num").forEach((s, i) => { s.textContent = String(i + 1); });
 }
 
 /* Arriba a la derecha, en todas las pestañas: los días que faltan y la hora de la última actualización de datos.
@@ -2118,7 +2185,21 @@ function pintarCabecera() {
 
 const NOMBRES = ["config", "base2023", "encuestas", "fiabilidad", "noticias", "porra", "agenda", "probabilidades", "analisis", "probabilidades_historial", "mapa", "europeas2024"];
 async function cargarDatos() {
-  const datos = await Promise.all(NOMBRES.map(cargar));
+  // Primero la configuración, que dice si estamos en veda. En veda no se pide ningún fichero de encuestas.
+  const cfg = await cargar("config");
+  if (cfg != null || D.config == null) D.config = cfg;
+  D.veda = Media.enVeda(D.config);
+  let datos = D.veda ? null : await Promise.all(NOMBRES.map((n) => n === "config" ? D.config : cargar(n)));
+  /* Recién cerradas las urnas la web puede seguir publicada unos minutos sin los ficheros de encuestas, hasta que el
+     robot hace su siguiente pasada y los repone. Mientras no estén se sigue con la pantalla de la veda, en vez de
+     enseñar el resultado de 2023 como si fuera lo de hoy. refrescar() mira cada minuto si ya han vuelto. */
+  D.esperando = !D.veda && datos[NOMBRES.indexOf("encuestas")] == null && D.encuestas == null && vedaRecienAcabada();
+  if (D.esperando) D.veda = true;
+  if (D.veda) {
+    datos = await Promise.all(NOMBRES_VEDA.map(cargar));
+    NOMBRES_VEDA.forEach((n, i) => { if (datos[i] != null || D[n] == null) D[n] = n === "noticias" ? sinSondeos(datos[i]) : datos[i]; });
+    return;
+  }
   // Si falla la red en un refresco se conserva lo que ya había
   NOMBRES.forEach((n, i) => { const k = n === "base2023" ? "base" : n === "probabilidades" ? "prob" : n === "probabilidades_historial" ? "historial" : n; if (datos[i] != null || D[k] == null) D[k] = datos[i]; });
   if (D.europeas2024 && D.base) D.base.europeas = D.europeas2024;
@@ -2133,9 +2214,9 @@ let firmaDatos = null, ultimaComprobacion = 0;
 async function hayDatosNuevos() {
   ultimaComprobacion = Date.now();
   try {
-    const rs = await Promise.all(["encuestas", "noticias"].map((n) => fetch(`data/${n}.json`, { method: "HEAD", cache: "no-store" })));
+    const rs = await Promise.all((D.veda ? ["noticias"] : ["encuestas", "noticias"]).map((n) => fetch(`data/${n}.json`, { method: "HEAD", cache: "no-store" })));
     const firma = rs.map((r) => r.ok ? (r.headers.get("etag") || r.headers.get("last-modified") || "") : "").join("|");
-    if (firma === "|") return false;
+    if (!firma.replace(/\|/g, "")) return false;
     const cambio = firmaDatos != null && firma !== firmaDatos;
     firmaDatos = firma;
     return cambio;
@@ -2143,24 +2224,31 @@ async function hayDatosNuevos() {
 }
 async function refrescar() {
   if (document.hidden || !D.listo) return;
+  // Al empezar la veda (martes 24 a las 00:00) y al acabar (domingo 29 a las 20:00) la página se recarga sola
+  if (D.esperando) { const r = await fetch("data/encuestas.json", { method: "HEAD", cache: "no-store" }).catch(() => null); if (r?.ok) { location.reload(); return; } }
+  else if (Media.enVeda(D.config) !== D.veda) { location.reload(); return; }
   contarPersona();
-  if (Date.now() - ultimaComprobacion > 4.5 * 60000 && await hayDatosNuevos()) { await cargarDatos(); pintarTodo({ conservarSim: true }); }
-  else if (diaMadrid() !== diaPintado) pintarTodo({ conservarSim: true });
+  const repintar = () => D.veda ? pintarVeda() : pintarTodo({ conservarSim: true });
+  if (Date.now() - ultimaComprobacion > 4.5 * 60000 && await hayDatosNuevos()) { await cargarDatos(); repintar(); }
+  else if (diaMadrid() !== diaPintado) repintar();
   pintarCabecera();
 }
 
 (async function iniciar() {
   await cargarDatos();
-  if (!D.config || !D.base) { $("#r-ganando").textContent = "No se han podido cargar los datos base."; return; }
-  try { mapa.sel = localStorage.getItem("mi-provincia") || null; } catch {}
-  leerEnlace();
-  $("#compartir").addEventListener("click", compartir);
-  pintarTodo();
+  if (!D.config || (!D.veda && !D.base)) { $("#r-ganando").textContent = "No se han podido cargar los datos base."; $("#portada-titulo").textContent = "No se han podido cargar los datos."; return; }
+  if (D.veda) pintarVeda();
+  else {
+    try { mapa.sel = localStorage.getItem("mi-provincia") || null; } catch {}
+    leerEnlace();
+    $("#compartir").addEventListener("click", compartir);
+    pintarTodo();
+  }
   D.listo = true;
   pintarCabecera();
   animarNumeros(document.getElementById(pestanaActual));
   // Quien llega con el enlace de una provincia y sin pestaña va directo a su ficha
-  activarPestana(location.hash.slice(1) || (enlace.provincia ? "mapa" : ""));
+  activarPestana(location.hash.slice(1) || (!D.veda && enlace.provincia ? "mapa" : ""));
   if (enlace.provincia && pestanaActual === "mapa") requestAnimationFrame(() => $("#ficha-provincia").scrollIntoView({ block: "center" }));
   hayDatosNuevos();
   setInterval(refrescar, 60000);

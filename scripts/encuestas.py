@@ -2,7 +2,7 @@
 import re, sys
 from collections import Counter
 from datetime import date, timedelta
-from comun import leer, escribir, ahora_iso, clave_empresa, telegram_enviar, apuntar_estado, con_parte, hoy_madrid
+from comun import leer, escribir, ahora_iso, clave_empresa, telegram_enviar, apuntar_estado, con_parte, hoy_madrid, en_veda, VEDA_MENSAJE
 from wikitabla import html_pagina, parsear_tablas
 
 PAGINA = "Opinion polling for the next Spanish general election"
@@ -43,6 +43,11 @@ def tabla_empresas(encuestas, hoy=None):
 
 
 def main():
+    if en_veda():
+        # Ni se descarga la página: en veda no se lee, no se guarda y no se avisa de ninguna encuesta.
+        print(VEDA_MENSAJE)
+        apuntar_estado("encuestas", True, VEDA_MENSAJE)
+        return
     titulo, revid, html = html_pagina(PAGINA)
     filas, partidos = parsear_tablas(html, anio_defecto=hoy_madrid().year)
     previo = leer("encuestas.json", {}) or {}

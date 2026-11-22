@@ -93,6 +93,17 @@ jobs:
           fi
           git push
 
+      # En veda (del 24 a las 00:00 al 29 a las 20:00) la web se publica sin los ficheros de encuestas. Siguen guardados
+      # en el repo, que es de donde los vuelve a coger el robot al acabar, pero no van en la web publicada.
+      - name: En veda, la web se publica sin los ficheros de encuestas
+        run: |
+          if python -c "import sys; sys.path.insert(0, 'scripts'); from comun import en_veda; sys.exit(0 if en_veda() else 1)"; then
+            rm -f data/encuestas.json data/probabilidades.json data/probabilidades_historial.json data/analisis.json data/fiabilidad.json data/porra.json
+            echo "Veda electoral: la web se publica sin los ficheros de encuestas"
+          else
+            echo "Fuera de veda, la web se publica entera"
+          fi
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

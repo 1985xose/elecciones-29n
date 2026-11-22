@@ -1166,3 +1166,39 @@ h2.con-logo::before { display: none; }
 .ley-serie.apagada { opacity: .4; text-decoration: line-through; }
 .ley-serie .punto { width: 12px; height: 12px; }
 #caja-tendencia .lienzo { height: 350px; }
+
+/* ---------- Modo veda (del martes 24 a las 00:00 al domingo 29 a las 20:00) ----------
+   La clase la pone app.js (pintarVeda). Fuera todo lo que sale de una encuesta, y las cuatro pestañas que quedan van
+   en la fila principal, sin el botón «Más». */
+html.veda #foco-tira, html.veda #foco-hoy, html.veda #portada, html.veda #tarjetas-hoy, html.veda #desde, html.veda #gobernar-bloque,
+html.veda #ganando-bloque, html.veda #semana-bloque, html.veda .sin-veda { display: none !important; }
+html.veda .pestanas a[data-tab="mapa"], html.veda .pestanas a[data-tab="encuestas"], html.veda .pestanas a[data-tab="simulador"],
+html.veda .pestanas a[data-tab="senado"], html.veda .pestanas .mas-boton { display: none; }
+html.veda .pestanas .mas-hoja { display: contents; }
+@media (max-width: 759px) {
+  html.veda .pestanas .mas-hoja a { flex: 1 1 0; flex-direction: column; justify-content: center; gap: 2px; font-size: .68rem; font-stretch: 80%; letter-spacing: -.01em; padding: 6px 0 4px; }
+  html.veda .pestanas .mas-hoja .largo { display: none; } html.veda .pestanas .mas-hoja .corto { display: inline; }
+}
+.veda-caja { border-top: 6px solid var(--mal); margin-top: 0; }
+.veda-cab { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.veda-cab .cuenta-num { background: var(--mal); }
+.veda-cab .cuenta-num span { color: #fff; }
+.veda-txt { flex: 1 1 260px; min-width: 0; }
+.veda-eti { margin: 0 0 2px; font-size: .78rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--mal); }
+.veda-txt h2 { margin: 0 0 6px; font-size: 1.9rem; }
+.veda-txt p { margin: 0; max-width: 60ch; }
+.veda-dias { list-style: none; margin: 16px 0 12px; padding: 0; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 6px; }
+.veda-dias li { display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 8px 2px 7px; border-radius: 12px; background: color-mix(in srgb, var(--mal) 9%, var(--superficie)); border: 2px solid transparent; text-align: center; min-width: 0; }
+.veda-dias li b { font-size: .72rem; font-weight: 750; text-transform: uppercase; letter-spacing: .04em; color: var(--gris); }
+.veda-dias li span { font-size: 1.5rem; font-weight: 850; line-height: 1.05; }
+.veda-dias li small { font-size: .66rem; color: var(--gris); line-height: 1.15; }
+.veda-dias li.pasado { opacity: .5; }
+.veda-dias li.hoy { border-color: var(--mal); background: var(--superficie); }
+.veda-dias li.vuelve { background: var(--acento-suave); }
+.veda-dias li.vuelve small { color: var(--tinta); font-weight: 700; }
+.veda-dias li.vuelve.hoy { border-color: var(--acento); }
+.veda-atajos { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 2px; }
+.veda-atajos .boton { text-decoration: none; }
+.veda-nota { background: color-mix(in srgb, var(--mal) 10%, var(--superficie)); border-left: 5px solid var(--mal); margin-top: 14px; }
+@media (max-width: 480px) { .veda-txt h2 { font-size: 1.55rem; } .veda-dias { gap: 4px; } .veda-dias li { padding: 8px 1px 7px; } .veda-dias li span { font-size: 1.25rem; } .veda-dias li small { font-size: .56rem; letter-spacing: -.01em; } }
+@media (min-width: 1000px) { html.veda #hoy > .veda-caja, html.veda #hoy > .bloque-titulares { grid-column: 1 / -1; grid-row: auto; } html.veda #hoy > .veda-caja { margin-top: 14px; } .veda-dias { max-width: 760px; } }

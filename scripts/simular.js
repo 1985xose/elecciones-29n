@@ -413,6 +413,12 @@ function apuntarEstado(ok, mensaje, detalle) {
   est.simulacion = { ok: !!ok, hora: ahora, mensaje: String(mensaje || "").slice(0, 600), ultima_buena: ok ? ahora : antes.ultima_buena || null, detalle: detalle || {} };
   escribir("estado.json", est);
 }
+if (Me.enVeda(leer("config.json", {}))) {
+  // En veda no se rehace nada: ni media, ni probabilidades, ni análisis de encuestas. Los ficheros se quedan como estaban.
+  console.log("Veda electoral, no se simula ni se publica nada hasta el cierre de las urnas");
+  apuntarEstado(true, "Veda electoral, no se rehacen las probabilidades hasta el cierre de las urnas");
+  process.exit(0);
+}
 try {
   const antes = (leer("probabilidades.json", {}) || {}).actualizado;
   main();

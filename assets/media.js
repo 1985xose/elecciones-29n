@@ -92,6 +92,17 @@
     return { media, usadas: usadas.map((e) => ({ ...e, peso_pct: e.peso / total })).sort((a, b) => b.peso - a.peso), ventana, caida };
   }
 
-  const api = { calcMedia, ventanaAdaptativa, factorAcierto, esDePartido, esCIS, PRECAMPANA, fechaD, DIA };
+  /* Veda electoral. La ley (LOREG, artículo 69.7) prohíbe publicar, difundir o reproducir encuestas los cinco días
+     anteriores al de la votación. Va desde las 00:00 de Madrid de config.eleccion.veda_desde hasta el cierre de las urnas.
+     Mientras dura, la app no descarga ni enseña encuestas, medias, asientos ni probabilidades, y el robot no las lee ni
+     las rehace. La misma regla está en scripts/comun.py (en_veda). */
+  const fDiaVeda = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Madrid", year: "numeric", month: "2-digit", day: "2-digit" });
+  function enVeda(config, ahora = Date.now()) {
+    const e = config && config.eleccion;
+    if (!e || !e.veda_desde || !e.cierre_urnas) return false;
+    return fDiaVeda.format(new Date(ahora)) >= e.veda_desde && +ahora < new Date(e.cierre_urnas).getTime();
+  }
+
+  const api = { calcMedia, ventanaAdaptativa, factorAcierto, esDePartido, esCIS, enVeda, PRECAMPANA, fechaD, DIA };
   if (typeof module !== "undefined" && module.exports) module.exports = api; else root.Media = api;
 })(typeof window !== "undefined" ? window : globalThis);
