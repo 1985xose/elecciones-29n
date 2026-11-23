@@ -1147,19 +1147,19 @@
   "escenarios": {
    "pp": 0,
    "pp_vox": 0.8799,
-   "izq_socios": 0.0603
+   "izq_socios": 0.0589
   },
-  "bloqueo": 0.0598,
+  "bloqueo": 0.0612,
   "p50": {
    "PP": 127,
    "PSOE": 114,
-   "Vox": 64,
    "BNG": 2,
+   "Vox": 64,
    "Bildu": 8,
-   "PNV": 3,
    "ERC": 12,
-   "Sumar": 10,
    "Junts": 5,
+   "Sumar": 10,
+   "PNV": 3,
    "AA": 3,
    "CCa": 1,
    "Podemos": 0,
