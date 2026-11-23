@@ -1,42 +1,39 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-23T15:01:07+00:00",
-  "mensaje": "643 encuestas leídas, 2 nuevas",
-  "ultima_buena": "2026-11-23T15:01:07+00:00",
+  "hora": "2026-11-23T16:01:05+00:00",
+  "mensaje": "643 encuestas leídas, 0 nuevas",
+  "ultima_buena": "2026-11-23T16:01:05+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [],
    "corregidas": [],
    "conservadas": 222,
    "desdobladas": [],
-   "nuevas": [
-    "EM-Analytics/Electomanía 2026-11-23",
-    "Data10/Okdiario 2026-11-20"
-   ]
+   "nuevas": []
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-23T15:01:51.770Z",
+  "hora": "2026-11-23T16:01:35.055Z",
   "mensaje": "10000 repeticiones, faltan 6 días",
-  "ultima_buena": "2026-11-23T15:01:51.770Z",
+  "ultima_buena": "2026-11-23T16:01:35.055Z",
   "detalle": {
    "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-23T15:02:27+00:00",
-  "mensaje": "10 titulares del día, 87 por partido, 19 polémicas",
-  "ultima_buena": "2026-11-23T15:02:27+00:00",
+  "hora": "2026-11-23T16:02:36+00:00",
+  "mensaje": "10 titulares del día, 83 por partido, 17 polémicas",
+  "ultima_buena": "2026-11-23T16:02:36+00:00",
   "detalle": {
-   "medios": 18
+   "medios": 17
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-23T15:02:27+00:00"
+  "hora": "2026-11-23T16:02:36+00:00"
  },
  "avisado": {},
  "fiabilidad": {

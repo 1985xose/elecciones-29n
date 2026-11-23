@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-11-23T15:01:08.464Z",
+ "actualizado": "2026-11-23T16:01:05.679Z",
  "media_bruta": {
   "PP": 31.28498859261709,
   "PSOE": 29.218440123712128,
   "Vox": 17.868498592010994,
-  "Sumar": 6.681407383832954,
-  "ERC": 2.631102643541661,
-  "Junts": 1.3058783756016275,
-  "Bildu": 1.4593180514560555,
-  "PNV": 0.8356328093944299,
+  "Sumar": 6.669540588072691,
+  "ERC": 2.7080886553285453,
+  "Junts": 1.314217736322978,
+  "Bildu": 1.472225046429522,
+  "PNV": 0.8323636444695446,
   "BNG": 0.9489040516771557,
   "CCa": 0.38535545118427195,
   "AA": 1.7601762432109986,
@@ -55,7 +55,7 @@
     "PSOE": -0.68,
     "Vox": -0.4,
     "Sumar": -0.35,
-    "ERC": 0.05
+    "ERC": 0.04
    },
    "sd": 0.54
   },
@@ -89,7 +89,7 @@
     "PSOE": -0.16,
     "Vox": 0.04,
     "Sumar": 1.28,
-    "ERC": 0.18
+    "ERC": 0.16
    },
    "sd": 1.01
   },
@@ -101,7 +101,7 @@
     "PSOE": -0.68,
     "Vox": 0.04,
     "Sumar": 0.54,
-    "ERC": 0.1
+    "ERC": 0.09
    },
    "sd": 0.56
   },
@@ -136,7 +136,7 @@
     "PSOE": 4.31,
     "Vox": -2.13,
     "Sumar": 0.39,
-    "ERC": 0.19
+    "ERC": 0.18
    },
    "sd": 0.5
   },
@@ -318,7 +318,7 @@
     "PSOE": -0.68,
     "Vox": -0.4,
     "Sumar": -0.35,
-    "ERC": 0.05
+    "ERC": 0.04
    }
   },
   {
@@ -332,7 +332,7 @@
     "PSOE": 4.31,
     "Vox": -2.13,
     "Sumar": 0.39,
-    "ERC": 0.19
+    "ERC": 0.18
    }
   },
   {
@@ -409,7 +409,7 @@
     "PSOE": -0.68,
     "Vox": 0.04,
     "Sumar": 0.54,
-    "ERC": 0.1
+    "ERC": 0.09
    }
   },
   {
@@ -570,7 +570,7 @@
     "PSOE": -0.16,
     "Vox": 0.04,
     "Sumar": 1.28,
-    "ERC": 0.18
+    "ERC": 0.16
    }
   },
   {
@@ -736,8 +736,8 @@
     {
      "partido": "ERC",
      "dado": 2.7,
-     "esperado": 2.5,
-     "diferencia": 0.2
+     "esperado": 2.6,
+     "diferencia": 0.1
     }
    ]
   },
@@ -814,8 +814,8 @@
     {
      "partido": "ERC",
      "dado": 2.5,
-     "esperado": 2.7,
-     "diferencia": -0.2
+     "esperado": 2.8,
+     "diferencia": -0.3
     }
    ]
   },
@@ -850,8 +850,8 @@
     {
      "partido": "Sumar",
      "dado": 7.3,
-     "esperado": 7,
-     "diferencia": 0.3
+     "esperado": 6.9,
+     "diferencia": 0.4
     }
    ]
   },
@@ -928,8 +928,8 @@
     {
      "partido": "ERC",
      "dado": 2.5,
-     "esperado": 2.8,
-     "diferencia": -0.3
+     "esperado": 2.9,
+     "diferencia": -0.4
     }
    ]
   },
@@ -1006,8 +1006,8 @@
     {
      "partido": "ERC",
      "dado": 2.7,
-     "esperado": 2.7,
-     "diferencia": 0
+     "esperado": 2.8,
+     "diferencia": -0.1
     }
    ]
   },
@@ -1084,8 +1084,8 @@
     {
      "partido": "ERC",
      "dado": 2.8,
-     "esperado": 2.7,
-     "diferencia": 0.1
+     "esperado": 2.8,
+     "diferencia": 0
     }
    ]
   },
@@ -1116,6 +1116,18 @@
      "dado": 17.4,
      "esperado": 18.2,
      "diferencia": -0.8
+    },
+    {
+     "partido": "Sumar",
+     "dado": 6.5,
+     "esperado": 6.7,
+     "diferencia": -0.2
+    },
+    {
+     "partido": "ERC",
+     "dado": 3.5,
+     "esperado": 2.6,
+     "diferencia": 0.9
     }
    ]
   },
