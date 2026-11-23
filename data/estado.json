@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-23T07:01:05+00:00",
-  "mensaje": "633 encuestas leídas, 4 nuevas",
-  "ultima_buena": "2026-11-23T07:01:05+00:00",
+  "hora": "2026-11-23T08:01:06+00:00",
+  "mensaje": "636 encuestas leídas, 3 nuevas",
+  "ultima_buena": "2026-11-23T08:01:06+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [],
@@ -11,34 +11,33 @@
    "conservadas": 222,
    "desdobladas": [],
    "nuevas": [
-    "Cluster17/Agenda Pública 2026-11-21",
-    "GESOP/Prensa Ibérica 2026-11-21",
-    "40dB/Prisa 2026-11-21",
-    "NC Report/La Razón 2026-11-20"
+    "Data10/Okdiario 2026-11-22",
+    "Target Point/El Debate 2026-11-21",
+    "IMOP/El Confidencial 2026-11-19"
    ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-23T07:01:52.468Z",
+  "hora": "2026-11-23T08:01:52.463Z",
   "mensaje": "10000 repeticiones, faltan 6 días",
-  "ultima_buena": "2026-11-23T07:01:52.468Z",
+  "ultima_buena": "2026-11-23T08:01:52.463Z",
   "detalle": {
    "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-23T07:02:22+00:00",
-  "mensaje": "10 titulares del día, 84 por partido, 16 polémicas",
-  "ultima_buena": "2026-11-23T07:02:22+00:00",
+  "hora": "2026-11-23T08:02:19+00:00",
+  "mensaje": "10 titulares del día, 83 por partido, 16 polémicas",
+  "ultima_buena": "2026-11-23T08:02:19+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-23T07:02:23+00:00"
+  "hora": "2026-11-23T08:02:19+00:00"
  },
  "avisado": {},
  "fiabilidad": {
