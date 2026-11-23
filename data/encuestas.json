@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-23T06:01:03+00:00",
+ "actualizado": "2026-11-23T07:01:05+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1387189440,
+ "revision": 1387273998,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,40 +21,6 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
-  {
-   "empresa": "40dB/Prisa",
-   "inicio": "2026-11-18",
-   "fin": "2026-11-22",
-   "muestra": 2000,
-   "participacion": 75.0,
-   "pct": {
-    "PP": 31.8,
-    "PSOE": 30.9,
-    "Vox": 17.3,
-    "Sumar": 5.7,
-    "Podemos": 1.1
-   },
-   "escanos": {
-    "PP": 131.5,
-    "PSOE": 121.5,
-    "Vox": 56.0,
-    "Sumar": 9.5,
-    "ERC": 10.0,
-    "Junts": 4.0,
-    "Bildu": 7.0,
-    "PNV": 3.0,
-    "BNG": 2.0,
-    "CCa": 1.0,
-    "AA": 3.0,
-    "Podemos": 0.5,
-    "SALF": 0.0
-   },
-   "empresa_base": "40dB",
-   "clave": "40db",
-   "encargo": "Prisa",
-   "id": "40db-2026-11-22-2000",
-   "primera_vez": "2026-11-23T00:01:06+00:00"
-  },
   {
    "empresa": "SocioMétrica/El Español",
    "inicio": "2026-09-01",
@@ -96,6 +62,66 @@
    "encargo": "El Español",
    "id": "sociometrica-2026-11-22-7266",
    "primera_vez": "2026-11-22T20:52:42+00:00"
+  },
+  {
+   "empresa": "Cluster17/Agenda Pública",
+   "inicio": "2026-11-19",
+   "fin": "2026-11-21",
+   "muestra": 1358,
+   "participacion": null,
+   "pct": {
+    "PP": 30.2,
+    "PSOE": 32.6,
+    "Vox": 16.9,
+    "Sumar": 5.2,
+    "Podemos": 1.0,
+    "SALF": 1.4
+   },
+   "escanos": {
+    "PP": 123.0,
+    "PSOE": 133.0,
+    "Vox": 57.0,
+    "Sumar": 7.0,
+    "Podemos": 0.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "Cluster17",
+   "clave": "cluster17",
+   "encargo": "Agenda Pública",
+   "id": "cluster17-2026-11-21-1358",
+   "primera_vez": "2026-11-23T07:01:05+00:00"
+  },
+  {
+   "empresa": "GESOP/Prensa Ibérica",
+   "inicio": "2026-11-18",
+   "fin": "2026-11-21",
+   "muestra": 905,
+   "participacion": null,
+   "pct": {
+    "PP": 32.9,
+    "PSOE": 29.0,
+    "Vox": 17.5,
+    "Sumar": 6.7,
+    "ERC": 2.5,
+    "Junts": 1.1,
+    "Podemos": 0.7,
+    "SALF": 1.3
+   },
+   "escanos": {
+    "PP": 133.5,
+    "PSOE": 113.0,
+    "Vox": 59.5,
+    "Sumar": 8.5,
+    "ERC": 10.5,
+    "Junts": 4.0,
+    "Podemos": 0.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "GESOP",
+   "clave": "gesop",
+   "encargo": "Prensa Ibérica",
+   "id": "gesop-2026-11-21-905",
+   "primera_vez": "2026-11-23T07:01:05+00:00"
   },
   {
    "empresa": "Data10/Okdiario",
@@ -232,6 +258,41 @@
    "primera_vez": "2026-11-23T00:01:06+00:00"
   },
   {
+   "empresa": "40dB/Prisa",
+   "inicio": "2026-11-10",
+   "fin": "2026-11-21",
+   "muestra": 7500,
+   "participacion": null,
+   "pct": {
+    "PP": 31.8,
+    "PSOE": 30.9,
+    "Vox": 17.3,
+    "Sumar": 5.7,
+    "Podemos": 1.1,
+    "SALF": 1.3
+   },
+   "escanos": {
+    "PP": 131.5,
+    "PSOE": 121.5,
+    "Vox": 56.0,
+    "Sumar": 9.5,
+    "ERC": 10.0,
+    "Junts": 4.0,
+    "Bildu": 7.0,
+    "PNV": 3.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 0.5,
+    "SALF": 0.0
+   },
+   "empresa_base": "40dB",
+   "clave": "40db",
+   "encargo": "Prisa",
+   "id": "40db-2026-11-21-7500",
+   "primera_vez": "2026-11-23T07:01:05+00:00"
+  },
+  {
    "empresa": "EM-Analytics/Electomanía",
    "inicio": "2026-11-09",
    "fin": "2026-11-21",
@@ -362,6 +423,45 @@
    "encargo": "Okdiario",
    "id": "data10-2026-11-20-3000",
    "primera_vez": "2026-11-22T20:52:42+00:00"
+  },
+  {
+   "empresa": "NC Report/La Razón",
+   "inicio": "2026-11-16",
+   "fin": "2026-11-20",
+   "muestra": 1000,
+   "participacion": 69.5,
+   "pct": {
+    "PP": 32.3,
+    "PSOE": 27.2,
+    "Vox": 19.0,
+    "Sumar": 7.3,
+    "ERC": 2.4,
+    "Junts": 1.4,
+    "Bildu": 1.5,
+    "PNV": 0.8,
+    "BNG": 0.9,
+    "CCa": 0.4,
+    "AA": 1.7
+   },
+   "escanos": {
+    "PP": 133.5,
+    "PSOE": 109.5,
+    "Vox": 65.0,
+    "Sumar": 12.5,
+    "ERC": 9.5,
+    "Junts": 6.5,
+    "Bildu": 7.5,
+    "PNV": 3.5,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.5,
+    "Podemos": 0.0
+   },
+   "empresa_base": "NC Report",
+   "clave": "ncreport",
+   "encargo": "La Razón",
+   "id": "ncreport-2026-11-20-1000",
+   "primera_vez": "2026-11-23T07:01:05+00:00"
   },
   {
    "empresa": "Sondaxe/La Voz de Galicia",
