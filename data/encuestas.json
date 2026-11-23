@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-23T14:01:06+00:00",
+ "actualizado": "2026-11-23T15:01:07+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1387334238,
+ "revision": 1387347424,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,48 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "EM-Analytics/Electomanía",
+   "inicio": "2026-11-09",
+   "fin": "2026-11-23",
+   "muestra": 9456,
+   "participacion": 74.4,
+   "pct": {
+    "PP": 31.5,
+    "PSOE": 28.9,
+    "Vox": 17.9,
+    "Sumar": 7.7,
+    "ERC": 2.7,
+    "Junts": 1.2,
+    "Bildu": 1.5,
+    "PNV": 0.8,
+    "BNG": 0.9,
+    "CCa": 0.3,
+    "AA": 1.7,
+    "Podemos": 0.9,
+    "SALF": 2.2
+   },
+   "escanos": {
+    "PP": 130.0,
+    "PSOE": 122.0,
+    "Vox": 55.0,
+    "Sumar": 12.0,
+    "ERC": 9.0,
+    "Junts": 4.0,
+    "Bildu": 7.0,
+    "PNV": 3.0,
+    "BNG": 2.0,
+    "CCa": 0.0,
+    "AA": 4.0,
+    "Podemos": 2.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "EM-Analytics",
+   "clave": "electopanel",
+   "encargo": "Electomanía",
+   "id": "electopanel-2026-11-23-9456",
+   "primera_vez": "2026-11-23T15:01:07+00:00"
+  },
   {
    "empresa": "Data10/Okdiario",
    "inicio": "2026-11-19",
@@ -444,13 +486,31 @@
     "PP": 29.9,
     "PSOE": 32.5,
     "Vox": 15.8,
-    "Sumar": 6.8
+    "Sumar": 6.8,
+    "ERC": 2.7,
+    "Junts": 1.3,
+    "Bildu": 1.3,
+    "PNV": 0.8,
+    "BNG": 1.0,
+    "CCa": 0.4,
+    "AA": 1.6,
+    "Podemos": 1.6,
+    "SALF": 2.1
    },
    "escanos": {
-    "PP": 125.0,
+    "PP": 124.0,
     "PSOE": 134.0,
-    "Vox": 50.0,
-    "Sumar": 10.0
+    "Vox": 50.5,
+    "Sumar": 10.0,
+    "ERC": 11.0,
+    "Junts": 3.5,
+    "Bildu": 6.5,
+    "PNV": 3.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 0.5,
+    "SALF": 0.0
    },
    "empresa_base": "SW Demoscopia",
    "clave": "swdemoscopia",
@@ -499,6 +559,30 @@
    "encargo": "El Español",
    "id": "sociometrica-2026-11-21-6842",
    "primera_vez": "2026-11-22T20:52:42+00:00"
+  },
+  {
+   "empresa": "Data10/Okdiario",
+   "inicio": "2026-11-19",
+   "fin": "2026-11-20",
+   "muestra": 750,
+   "participacion": null,
+   "pct": {
+    "PP": 32.5,
+    "PSOE": 26.5,
+    "Vox": 18.8,
+    "Sumar": 6.8
+   },
+   "escanos": {
+    "PP": 137.0,
+    "PSOE": 106.0,
+    "Vox": 62.0,
+    "Sumar": 12.0
+   },
+   "empresa_base": "Data10",
+   "clave": "data10",
+   "encargo": "Okdiario",
+   "id": "data10-2026-11-20-750",
+   "primera_vez": "2026-11-23T15:01:07+00:00"
   },
   {
    "empresa": "Data10/Okdiario",
@@ -873,7 +957,16 @@
     "PP": 29.9,
     "PSOE": 32.5,
     "Vox": 15.9,
-    "Sumar": 6.8
+    "Sumar": 6.8,
+    "ERC": 2.7,
+    "Junts": 1.3,
+    "Bildu": 1.3,
+    "PNV": 0.8,
+    "BNG": 1.0,
+    "CCa": 0.4,
+    "AA": 1.6,
+    "Podemos": 1.6,
+    "SALF": 2.0
    },
    "escanos": {
     "PP": 124.0,
@@ -886,7 +979,9 @@
     "PNV": 3.0,
     "BNG": 2.0,
     "CCa": 1.0,
-    "AA": 3.0
+    "AA": 3.0,
+    "Podemos": 0.5,
+    "SALF": 0.0
    },
    "empresa_base": "SW Demoscopia",
    "clave": "swdemoscopia",
@@ -1280,13 +1375,31 @@
     "PP": 29.6,
     "PSOE": 32.1,
     "Vox": 16.3,
-    "Sumar": 6.9
+    "Sumar": 6.9,
+    "ERC": 2.7,
+    "Junts": 1.3,
+    "Bildu": 1.3,
+    "PNV": 0.8,
+    "BNG": 1.1,
+    "CCa": 0.4,
+    "AA": 1.6,
+    "Podemos": 1.6,
+    "SALF": 2.0
    },
    "escanos": {
     "PP": 122.5,
     "PSOE": 132.0,
     "Vox": 54.0,
-    "Sumar": 10.5
+    "Sumar": 10.5,
+    "ERC": 11.5,
+    "Junts": 4.0,
+    "Bildu": 7.0,
+    "PNV": 3.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 0.5,
+    "SALF": 0.0
    },
    "empresa_base": "SW Demoscopia",
    "clave": "swdemoscopia",
