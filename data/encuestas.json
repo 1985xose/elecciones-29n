@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-23T11:01:07+00:00",
+ "actualizado": "2026-11-23T12:01:08+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1387315801,
+ "revision": 1387323175,
  "partidos": [
   "PP",
   "PSOE",
@@ -324,6 +324,38 @@
    "encargo": "El Mundo",
    "id": "sigmados-2026-11-21-4616",
    "primera_vez": "2026-11-23T00:01:06+00:00"
+  },
+  {
+   "empresa": "Convergent Opinion",
+   "inicio": "2026-11-14",
+   "fin": "2026-11-21",
+   "muestra": 6848,
+   "participacion": null,
+   "pct": {
+    "PP": 31.5,
+    "PSOE": 29.3,
+    "Vox": 17.4
+   },
+   "escanos": {
+    "PP": 126.0,
+    "PSOE": 119.0,
+    "Vox": 60.0,
+    "Sumar": 11.0,
+    "ERC": 12.0,
+    "Junts": 5.0,
+    "Bildu": 7.0,
+    "PNV": 4.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 2.0,
+    "Podemos": 0.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "Convergent Opinion",
+   "clave": "convergentopinion",
+   "encargo": "",
+   "id": "convergentopinion-2026-11-21-6848",
+   "primera_vez": "2026-11-23T12:01:08+00:00"
   },
   {
    "empresa": "40dB/Prisa",
@@ -837,7 +869,8 @@
     "BNG": 1.2,
     "CCa": 0.5,
     "AA": 2.0,
-    "Podemos": 0.7
+    "Podemos": 0.7,
+    "SALF": 1.9
    },
    "escanos": {
     "PP": 131.0,
