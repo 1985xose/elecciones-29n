@@ -1146,10 +1146,10 @@
   "fecha": "2026-11-23",
   "escenarios": {
    "pp": 0,
-   "pp_vox": 0.8732,
-   "izq_socios": 0.0629
+   "pp_vox": 0.8719,
+   "izq_socios": 0.0625
   },
-  "bloqueo": 0.0639,
+  "bloqueo": 0.0656,
   "p50": {
    "PP": 128,
    "PSOE": 115,
@@ -1159,7 +1159,7 @@
    "PNV": 3,
    "ERC": 12,
    "Sumar": 9,
-   "Junts": 4,
+   "Junts": 5,
    "AA": 3,
    "CCa": 1,
    "Podemos": 0,

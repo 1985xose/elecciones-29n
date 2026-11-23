@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-23T08:01:06+00:00",
+ "actualizado": "2026-11-23T08:59:46+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1387281483,
+ "revision": 1387291868,
  "partidos": [
   "PP",
   "PSOE",
@@ -857,6 +857,13 @@
     "PSOE": 28.2,
     "Vox": 17.7,
     "Sumar": 6.4,
+    "ERC": 2.7,
+    "Junts": 1.4,
+    "Bildu": 1.3,
+    "PNV": 0.9,
+    "BNG": 0.9,
+    "CCa": 0.3,
+    "AA": 2.4,
     "Podemos": 1.6,
     "SALF": 2.6
    },
@@ -865,6 +872,13 @@
     "PSOE": 116.0,
     "Vox": 61.0,
     "Sumar": 9.0,
+    "ERC": 11.0,
+    "Junts": 5.0,
+    "Bildu": 6.0,
+    "PNV": 3.0,
+    "BNG": 2.0,
+    "CCa": 1.0,
+    "AA": 6.0,
     "Podemos": 0.0,
     "SALF": 0.0
    },
@@ -885,14 +899,16 @@
     "PSOE": 28.0,
     "Vox": 18.0,
     "Sumar": 6.9,
-    "Podemos": 1.3
+    "Podemos": 1.3,
+    "SALF": 1.0
    },
    "escanos": {
     "PP": 135.5,
     "PSOE": 110.5,
     "Vox": 61.0,
     "Sumar": 10.5,
-    "Podemos": 0.0
+    "Podemos": 0.0,
+    "SALF": 0.0
    },
    "empresa_base": "DYM",
    "clave": "dym",
