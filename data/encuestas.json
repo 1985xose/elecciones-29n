@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-23T19:01:07+00:00",
+ "actualizado": "2026-11-23T20:01:02+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1387356328,
+ "revision": 1387397982,
  "partidos": [
   "PP",
   "PSOE",
@@ -21,6 +21,46 @@
  ],
  "columnas_ignoradas": [],
  "encuestas": [
+  {
+   "empresa": "Sigma Dos/El Mundo",
+   "inicio": "2026-11-16",
+   "fin": "2026-11-23",
+   "muestra": 5252,
+   "participacion": 76.9,
+   "pct": {
+    "PP": 31.9,
+    "PSOE": 28.6,
+    "Vox": 17.8,
+    "Sumar": 7.1,
+    "ERC": 2.7,
+    "Junts": 1.4,
+    "Bildu": 1.6,
+    "PNV": 0.9,
+    "BNG": 1.1,
+    "CCa": 0.4,
+    "AA": 1.8,
+    "Podemos": 0.6
+   },
+   "escanos": {
+    "PP": 127.0,
+    "PSOE": 117.0,
+    "Vox": 60.5,
+    "Sumar": 12.5,
+    "ERC": 11.0,
+    "Junts": 3.5,
+    "Bildu": 6.5,
+    "PNV": 3.5,
+    "BNG": 2.5,
+    "CCa": 0.5,
+    "AA": 4.5,
+    "Podemos": 0.0
+   },
+   "empresa_base": "Sigma Dos",
+   "clave": "sigmados",
+   "encargo": "El Mundo",
+   "id": "sigmados-2026-11-23-5252",
+   "primera_vez": "2026-11-23T20:01:02+00:00"
+  },
   {
    "empresa": "EM-Analytics/Electomanía",
    "inicio": "2026-11-09",
@@ -86,6 +126,39 @@
    "encargo": "Okdiario",
    "id": "data10-2026-11-22-3000",
    "primera_vez": "2026-11-23T08:01:06+00:00"
+  },
+  {
+   "empresa": "Sondaxe/La Voz de Galicia",
+   "inicio": "2026-11-18",
+   "fin": "2026-11-22",
+   "muestra": 1000,
+   "participacion": 72.2,
+   "pct": {
+    "PP": 31.8,
+    "PSOE": 27.8,
+    "Vox": 16.4,
+    "Sumar": 8.9
+   },
+   "escanos": {
+    "PP": 131.0,
+    "PSOE": 113.0,
+    "Vox": 55.0,
+    "Sumar": 17.0,
+    "ERC": 9.0,
+    "Junts": 8.0,
+    "Bildu": 7.0,
+    "PNV": 3.0,
+    "BNG": 3.0,
+    "CCa": 1.0,
+    "AA": 3.0,
+    "Podemos": 0.0,
+    "SALF": 0.0
+   },
+   "empresa_base": "Sondaxe",
+   "clave": "sondaxe",
+   "encargo": "La Voz de Galicia",
+   "id": "sondaxe-2026-11-22-1000",
+   "primera_vez": "2026-11-23T20:01:02+00:00"
   },
   {
    "empresa": "SocioMétrica/El Español",
@@ -691,7 +764,8 @@
     "PNV": 0.8,
     "BNG": 0.9,
     "CCa": 0.4,
-    "AA": 1.7
+    "AA": 1.7,
+    "Podemos": 0.8
    },
    "escanos": {
     "PP": 133.5,
