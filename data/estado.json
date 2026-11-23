@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-23T12:01:08+00:00",
-  "mensaje": "638 encuestas leídas, 1 nuevas",
-  "ultima_buena": "2026-11-23T12:01:08+00:00",
+  "hora": "2026-11-23T13:01:05+00:00",
+  "mensaje": "640 encuestas leídas, 2 nuevas",
+  "ultima_buena": "2026-11-23T13:01:05+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [],
@@ -11,31 +11,32 @@
    "conservadas": 222,
    "desdobladas": [],
    "nuevas": [
-    "Convergent Opinion 2026-11-21"
+    "InvyMark/laSexta 2026-11-20",
+    "Cluster17/El Grand Continent 2026-10-31"
    ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-23T12:01:53.753Z",
+  "hora": "2026-11-23T13:01:42.620Z",
   "mensaje": "10000 repeticiones, faltan 6 días",
-  "ultima_buena": "2026-11-23T12:01:53.753Z",
+  "ultima_buena": "2026-11-23T13:01:42.620Z",
   "detalle": {
    "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-23T12:02:34+00:00",
-  "mensaje": "10 titulares del día, 84 por partido, 19 polémicas",
-  "ultima_buena": "2026-11-23T12:02:34+00:00",
+  "hora": "2026-11-23T13:02:44+00:00",
+  "mensaje": "10 titulares del día, 86 por partido, 18 polémicas",
+  "ultima_buena": "2026-11-23T13:02:44+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-23T12:02:34+00:00"
+  "hora": "2026-11-23T13:02:45+00:00"
  },
  "avisado": {},
  "fiabilidad": {
