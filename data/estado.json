@@ -1,9 +1,9 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-23T13:01:05+00:00",
-  "mensaje": "640 encuestas leídas, 2 nuevas",
-  "ultima_buena": "2026-11-23T13:01:05+00:00",
+  "hora": "2026-11-23T14:01:06+00:00",
+  "mensaje": "641 encuestas leídas, 1 nuevas",
+  "ultima_buena": "2026-11-23T14:01:06+00:00",
   "detalle": {
    "ignoradas": [],
    "apartadas": [],
@@ -11,32 +11,31 @@
    "conservadas": 222,
    "desdobladas": [],
    "nuevas": [
-    "InvyMark/laSexta 2026-11-20",
-    "Cluster17/El Grand Continent 2026-10-31"
+    "Celeste-Tel/Onda Cero 2026-11-20"
    ]
   }
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-23T13:01:42.620Z",
+  "hora": "2026-11-23T14:01:52.949Z",
   "mensaje": "10000 repeticiones, faltan 6 días",
-  "ultima_buena": "2026-11-23T13:01:42.620Z",
+  "ultima_buena": "2026-11-23T14:01:52.949Z",
   "detalle": {
    "partidos": 13
   }
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-23T13:02:44+00:00",
-  "mensaje": "10 titulares del día, 86 por partido, 18 polémicas",
-  "ultima_buena": "2026-11-23T13:02:44+00:00",
+  "hora": "2026-11-23T14:02:23+00:00",
+  "mensaje": "10 titulares del día, 88 por partido, 16 polémicas",
+  "ultima_buena": "2026-11-23T14:02:23+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-23T13:02:45+00:00"
+  "hora": "2026-11-23T14:02:23+00:00"
  },
  "avisado": {},
  "fiabilidad": {

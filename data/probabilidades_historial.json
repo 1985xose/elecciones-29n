@@ -1146,12 +1146,12 @@
   "fecha": "2026-11-23",
   "escenarios": {
    "pp": 0,
-   "pp_vox": 0.865,
-   "izq_socios": 0.065
+   "pp_vox": 0.8684,
+   "izq_socios": 0.0628
   },
-  "bloqueo": 0.07,
+  "bloqueo": 0.0688,
   "p50": {
-   "PP": 127,
+   "PP": 128,
    "PSOE": 115,
    "BNG": 2,
    "Vox": 63,
