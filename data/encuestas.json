@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-23T10:01:03+00:00",
+ "actualizado": "2026-11-23T11:01:07+00:00",
  "fuente": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election",
- "revision": 1387303010,
+ "revision": 1387315801,
  "partidos": [
   "PP",
   "PSOE",
@@ -1592,6 +1592,34 @@
    "encargo": "El Mundo",
    "id": "sigmados-2026-11-17-4511",
    "primera_vez": "2026-11-22T20:52:42+00:00"
+  },
+  {
+   "empresa": "CIS",
+   "inicio": "2026-11-10",
+   "fin": "2026-11-17",
+   "muestra": 8034,
+   "participacion": null,
+   "pct": {
+    "PP": 24.7,
+    "PSOE": 34.4,
+    "Vox": 15.6,
+    "Sumar": 8.2,
+    "ERC": 2.7,
+    "Junts": 1.0,
+    "Bildu": 1.8,
+    "PNV": 0.7,
+    "BNG": 1.1,
+    "CCa": 0.3,
+    "AA": 1.7,
+    "Podemos": 0.8,
+    "SALF": 1.8
+   },
+   "escanos": {},
+   "empresa_base": "CIS",
+   "clave": "cis",
+   "encargo": "",
+   "id": "cis-2026-11-17-8034",
+   "primera_vez": "2026-11-23T11:01:07+00:00"
   },
   {
    "empresa": "EM-Analytics/Electomanía",
