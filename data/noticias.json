@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T02:01:19+00:00",
+ "actualizado": "2026-11-25T02:23:16+00:00",
  "generales": [
   {
    "titulo": "Aluvión de decretos electorales del Gobierno sin garantía de ejecutarse",
@@ -7,13 +7,6 @@
    "fuente": "La Razón",
    "fecha": "2026-11-25T03:00:15+01:00",
    "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/24/4CB0DE1F-C804-4999-A62D-DBAAA4F4CD04/96.jpg?crop=4200,2363,x0,y219&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-  },
-  {
-   "titulo": "Sánchez supera los 30.000 millones de euros en 18 decretos leyes desde la convocatoria electoral",
-   "enlace": "https://www.abc.es/espana/sanchez-supera-30000-millones-euros-decretos-leyes-20261125023029-nt.html",
-   "fuente": "ABC",
-   "fecha": "2026-11-25T02:30:55+01:00",
-   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/25/1520747191-RmbuDe4uwKBWTrxXqp7sNXJ-1200x840@diario_abc.jpg"
   },
   {
    "titulo": "Un sólido Albiol reprocha a Colau su activismo okupa: «No quiero para España lo que vi en la Barcelona de su alcaldía»",
@@ -62,7 +55,7 @@
    "enlace": "https://www.elconfidencial.com/espana/2026-11-24/loles-leon-baila-mitin-sanchez-barcelona_4471922/",
    "fuente": "El Confidencial",
    "fecha": "2026-11-24T20:26:00+01:00",
-   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1795571940&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
+   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1795571889&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
   },
   {
    "titulo": "Pedro Sánchez: \"Estamos tocando una mayoría progresista con los dedos, por eso apelo a una movilización inteligente\"",
@@ -266,7 +259,14 @@
     "fecha": "2026-11-24T15:57:36+00:00"
    }
   ],
-  "SALF": [],
+  "SALF": [
+   {
+    "titulo": "De ‘autoinvitarse’ al programa de Jordi Wild a ir siempre de amarillo: la lucha por atraer atención de SALF y Democracia 21",
+    "enlace": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOSVJtQ1NTcEloQW1jaENtVE95M01GbUk3ZjUxeVNLWWxYZkNFc25tNTRjT1lJaDg1NVg2ZzViTFZpQlpRX242ckxkWW94R3V3SnRqVzVQeUpDRGV4MlREQzhteDd0Y2xNWC1sNk16SW40bW9pMjB2RFNxNmVPVUlCNkNFZnJkbUlUZEt4aHBqNklMSk1la2ZWNFowSEh1UkFQcWowdXNtandPNnlMQUg3YXpXNDFPUi1qNHpPV0RibmZDQTh4Zl9ZeDZCckRheW5Ca0VZSnhMbll6RVVJMEp1ZV9iX2tkbTlxaTVWYWpBWFRuNkZub0JYUWlKLUZ3MVdudzZCVnFzckpLOUZ3VlotbUlmZmtvd9IBqgJBVV95cUxNTk5ER193UTh0cmlISFN0RVlMZ1RqSVhYZUdXTEhhYlZMVEFNdjFfemVjMVg5OGZIbTBBT1l1cGtqc2J3LWt3TXBSblZJNGxmODI1QlgyazdmZWszdDZVVVRaV0pDbklTNFdwdG9vZTR3bkpkb2Z5V1FXNmszNXByaGpVcHluX2JJaE5XQVp4ZzNPZmRfbHhlYTBVWUxLLVVGU0NBQmgtcUM3QjhnUWNLVWw1c2NCbHVwbTJUM3BKemVBamxSNzhHRDUwWlU1MzY3WGF0eHB6T0hGVW1JTDBHX0xvTlo1b3BicGlLcEo1S05OT09Tb3hVRnZPdmY0UlJydklNNWNDVkRGdFFybTZFeHZZMmkzQ3lwUHNhY0dTbWtlSEwwSGxKQVRB?oc=5",
+    "fuente": "EL PAÍS",
+    "fecha": "2026-11-24T04:30:01+00:00"
+   }
+  ],
   "ERC": [
    {
     "titulo": "Junqueras incluye a “mucha gente de Junts” en el modelo de “ruina y miseria que representan” el PP, Vox y AC",
@@ -277,7 +277,7 @@
    },
    {
     "titulo": "Rufián usa el video de Llorente dando caviar a su hija para pedir más impuestos a los ricos",
-    "enlace": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wM3c1QmhiZ1RPSUhqN1czcXhfQWZCUk02RnpBemJ0dDFGRkZ5aWhCTGh5ajlTMHgydnRsTTlDN1V4TlBtcFNlZUVYbmhZNW8wUFRza0J4RlRwS3VBbDRXLVhOUXVwdm1teWVvLVdqc0FNQlE?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHMUFsUHRNemZobFhPZnhrYml3RzhObG81S1dXT1NnYk9Sd3pMclh3c3FydUk0LUQyWFFXdHZEOG1BSXRYTmY4UUxFVm1SR205cnVYOUUxQVJqRjRLMmFiN2NzcHV6TllpRUF2UEhSa2E?oc=5",
     "fuente": "Diario Ahora",
     "fecha": "2026-11-24T20:20:36+00:00"
    },
@@ -308,17 +308,17 @@
   ],
   "Junts": [
    {
+    "titulo": "Puigdemont: punto final",
+    "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc19LMHJCeHluNVZNQ0lzNzVTZlRwdDlha3dLbzJ1c25OQi1ZLUhVbW9vcEhfV3ExalhDM2huenVLNnFkNmF2dWN0dk9FdXB3aXRMNmFBTjFOd2l1WGt0UzZtREF6UGpVbVpsc1ZXSlpLUTUySmVudElfLURxYUgtTmtzU3BDUmg3MU1nYklSZWpSTlE?oc=5",
+    "fuente": "Diario de Sevilla",
+    "fecha": "2026-11-25T02:06:29+00:00"
+   },
+   {
     "titulo": "Junts replica a Sánchez que no se pasa página con la amnistía: “Os habéis equivocado de gente”",
     "enlace": "https://www.lavanguardia.com/politica/20261124/11692562/junts-replica-sanchez-pasa-pagina-amnistia-habeis-equivocado-gente.html",
     "fuente": "La Vanguardia",
     "fecha": "2026-11-24T21:16:08+01:00",
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/24/6b05f06c5a7c8.r_d.2136-1424-1051.jpeg"
-   },
-   {
-    "titulo": "Junts reivindica la \"victoria\" de la amnistía a Puigdemont: \"No se cierra ningún círculo\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTnRyRXM4UGpEV1lhcEFxa25Oa2pxSUZDel9DclBFeE5xR25zNXdnQzFTTm9WazRabGxGbFVxclpmZHUzUDV3RnFraTVTUWpMZ2E4MU94a19GMjZDVGNnSExwblN1UzBqOW15RHV6d2Z6UFBqYWFMRkZoN09pWkMxQjJWMVBhVUFUSEFmU0V6QTEtZGNhNC1UZFJIMFdjc0JDc1RJX0VnMzJWUnN4cWctMkk3N3FaYnBVd0d3RnVQNVhhZHMwQk5hMkxzY1otdDZpeUHSAewBQVVfeXFMUERONm1JZ2dsQW5uVEdBOUxRME9BYWxTaXBGS0VQdU1sZ0F4WXlqRGVKcHg2MjhkOGJWdFg1bk1VVmtsMUdscThSTWd4MnJYRy1hUkFkbFp1SmFDZ1Z6d1VwRXRhX3BUMXY3eGcyaXF4S0lyVVlfTV9WdEVMOUl6NFUyNU5RbGJXaHhmRHBieW02SDI2VV84X2NEeVMxQUxBVGtYWWxKTFVYUFQxX1VlYjExbDVmSXFudFhhWDNHTXUybHJrVGRSYTZSeFJ3X2xsb2FtVEhvcVFTa2lvRU9ZT3hNbVBkbjNsYmxxZGI?oc=5",
-    "fuente": "Infobae",
-    "fecha": "2026-11-24T21:16:00+00:00"
    },
    {
     "titulo": "Nogueras celebra la victoria que supone la amnistía a Puigdemont: «¡Es libre, ha ganado!»",
@@ -334,16 +334,16 @@
     "fecha": "2026-11-24T21:05:17+00:00"
    },
    {
-    "titulo": "Puigdemont, a las puertas de su regreso a Cataluña: \"Ahora saben que podemos ganar\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRUhFZkRudWQwVFV6UkloUVhsZ3pOckVpZ1o2dFlOQUJ1QmhaWTFYU3JyN2l0STk0dEdybmd1SFNTMXVtUUJXX2Y3Mm51OWVuRzFPcEMweTRYaTU3UzVPVW1kYlY0SjlpT3VRMnR5dTZueEYtV2pNWXIybXNOUG90bDhRS1BCT3R4d3ozTjZqeVRtS1FwX3V2N19Pb01rRGV2SkdVVGNpT3BuTDVNR2h1WF8wVdIBswFBVV95cUxPRUhFZkRudWQwVFV6UkloUVhsZ3pOckVpZ1o2dFlOQUJ1QmhaWTFYU3JyN2l0STk0dEdybmd1SFNTMXVtUUJXX2Y3Mm51OWVuRzFPcEMweTRYaTU3UzVPVW1kYlY0SjlpT3VRMnR5dTZueEYtV2pNWXIybXNOUG90bDhRS1BCT3R4d3ozTjZqeVRtS1FwX3V2N19Pb01rRGV2SkdVVGNpT3BuTDVNR2h1WF8wVQ?oc=5",
-    "fuente": "La Opinión de Murcia",
-    "fecha": "2026-11-24T20:58:18+00:00"
-   },
-   {
     "titulo": "Puigdemont vuelve a la campaña de Junts después de la amnistía: “Pronto nos volveremos a encontrar”",
     "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOemFCa0NMdHQxYTZrcnZyZkIwMmJKOF9UVmUwVXMzWUs1Q2dHTFhSbmxFczF3eHBqMlRPcUh0ZXQ1MFNLVlAtUXpUY0R3WVlCaVoteXI1TnpZZFlBZDBYRkxObEYtdE9LdG1NY2J3dlVzQTRBSzd1RFoyQjNyclNoRmNsUGphY2M0MTdodTRld3owUDg2REJMT0NydDZtMDdrWTlpdU16UG9Rcm8tUFloNXlCdVA0M0JNdnZWbFNjU0JMVlI5cmwzcGJyLXNoYjVvRTczVHp0WQ?oc=5",
     "fuente": "Diari ARA",
     "fecha": "2026-11-24T20:51:21+00:00"
+   },
+   {
+    "titulo": "Puigdemont apela a los indecisos y define a Junts como \"el voto refugio del independentismo\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUXQ1X292S0g2SE5VbUJvbE5XRkxvQUxONW1HZDJPaVZtaW9WdjdMVE81MmM1VG9NN3dmb3c5QS03U1pvYmYydnZXbldaTHRmd3J6em5HaWNvWDl1Q3hpTnN6WWRsb3R1MDRuNlBuUFNrNWpjanRqNXRjeTVZVUVzSGIzcGhNSVcwbW8xX01rYzFSUDUyWU1HdUJLNVh2MFlWWDVfbFhLZDRyblliZEU0c1pJLTVKejJtX2xqeklrR0pEeHI3czJqZmIweGxVMTFTemgzeG5aU28wTDZ1TDVEczVZVzdpR3fSAewBQVVfeXFMTlo5bG1MYkphTEhiU3ZLTTRER0RCTmNiX2Q5dzZ3TzNnMUpWUHdFeTZmZ3d1R1FXMm5KZ29oUEZwZzRNYkpTN2tGeDRuZFFLLXZXb1hRYzQwa1JaMk9fWHJfQ2JhODNJalAzTll1N3dNQk9vcVAwbENrOUdsSFNLTzdzc2pCbTE0djJXQTk0TXdYaFNNLTRJMldpY0JQUHh1bWZ6Z2pQMzMxYXFmOUxMRHVXN3hBaWZ4TE53d3Q3M2JReS1PbUo1Y3NlQzZNWEM0dTRvZjZjdkhIQUFXLUlxSjBqMm1Td2dTMUdLTVI?oc=5",
+    "fuente": "Heraldo de Aragón",
+    "fecha": "2026-11-24T20:48:58+00:00"
    }
   ],
   "Bildu": [
@@ -388,6 +388,12 @@
   ],
   "PNV": [
    {
+    "titulo": "El PNV promete defender Gasteiz, Araba y Euskadi en el Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObGNvTG1wdU1EM1dfRmktUjJWZUxVdm9pZWIwZVhaWXZkNmNmZkdST2I5VFBJd1d5bVVrVFE3dElyQll2SmhLeThFOEp0OW5lckFhay1Rc2hPR0t6cnk1OWdNOTREMjl6Z0MwUTFBRGRQOWgzT1RVU0toa2FKNjRiN3pxM0ZTeFdDZmNNOENFd3JWQ1k?oc=5",
+    "fuente": "Espacio Diario",
+    "fecha": "2026-11-24T19:13:38+00:00"
+   },
+   {
     "titulo": "¿Qué harán los otros partidos de derechas si son la llave de un Gobierno del PP y Vox? ¿Votarán a favor PNV, Junts, UPN y CC?",
     "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPckticzItZ1VqNEZpaFNwcUtldk1fNmFkcWRuUGYtTXBUb2lWQ2toWjVTUkdsWjhfcU5wcVRkZzdwQ3h4T09MNXV0RTdMWTY5UnVLWmVtb0JoOTVRbUE4cGVFc0F4TnJ2X1VfRHVRTm52WFI4REhlLTk3WXc5V1VxUF9BbndLOUVvY1M4UXBFUTBWMDFVVFk4Y3hxUENST24zcDd3TF96dkxyU0NRTVNEbHpFWm90TjlIaGw2a3JvcGcyYWhWZ2NLRkpjV3ptYWktZkNRbG90VUZ6Szl5eHVmNjdB0gH2AUFVX3lxTFBDTm1STS16Qm9ZY3djU2Ntay16VkZxaXR4SVV6QkZLZnVILXpGaGt3UjNjOEFMWEE3U2ZXYW5iazRGUzF5ZEhRQm9XUDdsZWZJcDFROEwxQ0E0d3JkYTNvRUU2RFdKbWJVRzBPeUQ3WnU1RE5tMVk4RmlqUjVqM0tDc29KZEhvZDItR1oxNEVoNUdzWG1NVTJhbl94dUZIYU9jenRqR0xaOXp1MVBxQWVKa0VJaWo2MjY0WDNISEFWTmlCdjBXRmJVa0ZMNnVxaFhnNFRRU0pvdlhwaTJ3VXdrWmdVMEl2QTYzSHBjcXBXSEVqQXd0Zw?oc=5",
     "fuente": "El HuffPost",
@@ -410,21 +416,9 @@
     "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMnh6RzZGcUZiVEJfNVBPYXU0ZnNMc0VNTkxYSy1pX1Izci1XeUVfTkRveDFPaUhZTUxDbDlVVE9wLVJvMWRxWGdrSlNTaXZCZDRUNWFOd2RrZGxyYTd2VkVsTlNidTE2STV3XzUydGdGT0t2dEgzMTFkd054UXVRMDZHRnZMVkFwS2wycWh5ZGJBeFhNSVJ5WmExdGZ1RE04ckHSAacBQVVfeXFMTTlDZlVucGhWR1UyMW55c0xyVF9WYkFyczd0RnIycDdCUm9XTzBNRkpVOVhabXdEOWhSMmlTWE9CcDF1V29EV2hMbEFQeklxMHNiczY2RC1tRVBvMmh6ZEJOajFYVWpsM2FSTUx5MTN6elBEMGlFWVZmUVk0bTFqUE9wd2tjdFhnbUxJYnFoM1Vad0F6WFpha2ZQUHc1Mk9KR0laSXNSNWc?oc=5",
     "fuente": "Noticias de Navarra",
     "fecha": "2026-11-24T10:31:09+00:00"
-   },
-   {
-    "titulo": "Esteban afirma que el PNV sabrá hacer frente a un gobierno PP-Vox con firmeza y de manera inteligente",
-    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU1ZlVVVGOHljZmRReUo5aTY3eW9MUThlMjRkeVB5MWUwdUx6VC1IRy02bGMybkJkd2lTejhCLWdibWRrOXFTUEdSemdpRTVCaWpNaHBqZXlmNHlZODA5aV9FdWdPaDUyVzNPQXFnZjRPRXlsYm1BSmpiOTk4MW5vVlRPd1VQcE5SSzhKY0tzOE1ZUE4tblJtYlU1ckZla1RlRnNabUdlclh1eXdoOE0yS3hweWFzQkpPdkVHUHJDa0ZWQVhMQU93T1lVeDFfX1ViQXfSAdcBQVVfeXFMUGZLaEpTQ25xQjFYM2hfYUtySEJhVnptdzg5ZjV5OGVIU290N2FKX09nVV84aG9ndXZseUdxdVgza3MtN3FlZ0JUckN1NWlrcGdsVW00bWZJcm9aYVlwLVk5YzFOSGlReTdTRlFLWTJONHZOMFpoUk5lU0JhRGFlZ1ZIeHgtcnNaT3NmWW5aUmhqWDF3R0V4QUtvOU5OcmgwT2hqRlNxUUFJTUZGYUFsX1ZGTDlwWTBwbnFKTWdJcjJvcTFKWXZZMmRzb3JOQjU1M183ZVB4OWs?oc=5",
-    "fuente": "Demócrata",
-    "fecha": "2026-11-24T10:29:16+00:00"
    }
   ],
   "BNG": [
-   {
-    "titulo": "Pontón llama a votar «con orgullo de país» frente a un bipartidismo que solo se acuerda de Galicia en campaña",
-    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLUZTSU1GUGFCQXVMQWdpWUg2YUlqRWx5OWFwWkJqTW5UZkc5RVh0Z3FSVGhSMnU4VzRLSEs0MGlfZGlNTlZQVnFZWldQUlkzaGpIaG84YkFVMnBSRXozTDBMWUpIdHlmM3Z2YzRubFJiSUlIdTBFV0tCUFhxcWtwS0FFRVVzazlmeHpOcWxtdEYteFlfeTdmNmhxb9IBmwFBVV95cUxQLUZTSU1GUGFCQXVMQWdpWUg2YUlqRWx5OWFwWkJqTW5UZkc5RVh0Z3FSVGhSMnU4VzRLSEs0MGlfZGlNTlZQVnFZWldQUlkzaGpIaG84YkFVMnBSRXozTDBMWUpIdHlmM3Z2YzRubFJiSUlIdTBFV0tCUFhxcWtwS0FFRVVzazlmeHpOcWxtdEYteFlfeTdmNmhxbw?oc=5",
-    "fuente": "Faro de Vigo",
-    "fecha": "2026-11-24T20:34:06+00:00"
-   },
    {
     "titulo": "El BNG de Moaña trasladó a todas las parroquias la necesidad de tener voz en Madrid",
     "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZkY3a1RLVlVBLWdPWVlGQnBUbkRZZUg4aDZZWGZBMk5HQWJ5QzFMS2dibWRTcnVkMzZadktSaWR1TEtVZEpHVTBqZVJRZEk4VjJocmF3UXllaFd2VWFCb09YVUVMVTNoOXRjZDg5MDA2SFMwcGplcXNNS2xQVW9iNlRpNFA2V0RvdDR5TXNUbHkxWVhmRWVXLXRmaGZ4ZWFYV2Zv0gGoAUFVX3lxTE5ZYUhkVlc1S3N3X01fdGRZV3RuZS1feF9UVFVBRUdsR3BsNXk4NU5Wc1p5bi04MGUyQVdJcUYtdWFaYTZHZG1pWVVaQ2ZpYnZxQnU4NE1KNUJfVkMwSjU5cEJEdGhiMVdPVTJSMWROQTB4VE5GMTYyaXVSLU5DbGdtQms5a0NTOXdYMXJQUS1KU1JwMEZDZUlianoxNFR5OVlneTJOMlF1SA?oc=5",
@@ -454,6 +448,12 @@
     "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVG41SkhXOFBzWkNaMUdhM29sNzhHVjlLNjlyUUNHbm1pdGZ4RUswcDl2TlNqX0NWMWpEUXZUM0ZkNjJOMGhobG9DbF9vMHNRbUVBMTZ6NHExek1XWmhVaExxZWRMWTd0cVhGX0RBNWt2V0dlSTdiOFYxTTNjcC1STHFCUWhqcUwxR0lfdzBQbXUyUUUwNHEtY0lwZ1o5TjRBWnlkWERlQmtiZVh3RzBDOTNQSHdpX3FNOWI1YkdjeGExV29PMzNBR0RBUktDWmQtUlQxZlZxMWPSAd4BQVVfeXFMUGFkRERrUkh4emNvNnRRajh5YjhWWmxieHpQcS14NXRIdkxZSlNtQTROVEUzbmFqMVNPSkxjS25jaUxEcWticXF2UWhzcFhOVFVjVllpcnZUYVNkU1lJTXhwS3A1VnZ6Y1NfeFJOdkx5SnYyZFNvOFFMemhVM051azE2dkNWT2dIMEtrc0p5aElBZGlhVzlabnhpT0xxVVEyM2llcWczdy1SYWlzTEEtNlUwVmFMaVF0N040YlVmQS03YXk0Mm5McU1nTm95VW93SFZheC1JUWNEeEp2M3pn?oc=5",
     "fuente": "Demócrata",
     "fecha": "2026-11-24T13:59:09+00:00"
+   },
+   {
+    "titulo": "Pontón insta a votar al BNG para priorizar el gasto social",
+    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV29MTklWTHFBeXNrU0NNNl9rMU1RVVUtdGY2UUExRTRBZTBUWTllcW91Q0VNQ0RRaFRwd2dUbWtPQlMxUURISm9pZGNkTEJmU1ZBS3lSU3ZxeEtnMjNRbzNxS2dsRFltdjJMTFIwbXBaa0YwOThUYTFVN2t2cjNrMUprYjRXdE5aZVhNclhYS2Y1NGdDb215aHg0M0tLZUVqdUxUcWJFTjEwai1SbEFDa1hGdlNvUmxZ?oc=5",
+    "fuente": "GaliciaPress",
+    "fecha": "2026-11-24T13:56:00+00:00"
    }
   ],
   "CCa": [
@@ -466,7 +466,7 @@
    },
    {
     "titulo": "¿Qué harán los otros partidos de derechas si son la llave de un Gobierno del PP y Vox? ¿Votarán a favor PNV, Junts, UPN y CC?",
-    "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPckticzItZ1VqNEZpaFNwcUtldk1fNmFkcWRuUGYtTXBUb2lWQ2toWjVTUkdsWjhfcU5wcVRkZzdwQ3h4T09MNXV0RTdMWTY5UnVLWmVtb0JoOTVRbUE4cGVFc0F4TnJ2X1VfRHVRTm52WFI4REhlLTk3WXc5V1VxUF9BbndLOUVvY1M4UXBFUTBWMDFVVFk4Y3hxUENST24zcDd3TF96dkxyU0NRTVNEbHpFWm90TjlIaGw2a3JvcGcyYWhWZ2NLRkpjV3ptYWktZkNRbG90VUZ6Szl5eHVmNjdB0gH2AUFVX3lxTFBDTm1STS16Qm9ZY3djU2Ntay16VkZxaXR4SVV6QkZLZnVILXpGaGt3UjNjOEFMWEE3U2ZXYW5iazRGUzF5ZEhRQm9XUDdsZWZJcDFROEwxQ0E0d3JkYTNvRUU2RFdKbWJVRzBPeUQ3WnU1RE5tMVk4RmlqUjVqM0tDc29KZEhvZDItR1oxNEVoNUdzWG1NVTJhbl94dUZIYU9jenRqR0xaOXp1MVBxQWVKa0VJaWo2MjY0WDNISEFWTmlCdjBXRmJVa0ZMNnVxaFhnNFRRU0pvdlhwaTJ3VXdrWmdVMEl2QTYzSHBjcXBXSEVqQXd0Zw?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQ05tUk0tekJvWWN3Y1NjbWstelZGcWl0eElVekJGS2Z1SC16Rmhrd1IzYzhBTFhBN1NmV2FuYms0RlMxeWRIUUJvV1A3bGVmSXAxUThMMUNBNHdyZGEzb0VFNkRXSm1iVUcwT3lEN1p1NURObTFZOEZpalI1ajNLQ3NvSmRIb2QyLUdaMTRFaDVHc1htTVUyYW5feHVGSGFPY3p0akdMWjl6dTFQcUFlSmtFSWlqNjI2NFgzSEhBVk5pQnYwV0ZiVWtGTDZ1cWhYZzRUUVNKb3ZYcGkyd1V3a1pnVTBJdkE2M0hwY3FwV0hFakF3dGfSAfYBQVVfeXFMUENObVJNLXpCb1ljd2NTY21rLXpWRnFpdHhJVXpCRktmdUgtekZoa3dSM2M4QUxYQTdTZldhbmJrNEZTMXlkSFFCb1dQN2xlZklwMVE4TDFDQTR3cmRhM29FRTZEV0ptYlVHME95RDdadTVETm0xWThGaWpSNWozS0Nzb0pkSG9kMi1HWjE0RWg1R3NYbU1VMmFuX3h1RkhhT2N6dGpHTFo5enUxUHFBZUprRUlpajYyNjRYM0hIQVZOaUJ2MFdGYlVrRkw2dXFoWGc0VFFTSm92WHBpMndVd2taZ1UwSXZBNjNIcGNxcFdIRWpBd3Rn?oc=5",
     "fuente": "El HuffPost",
     "fecha": "2026-11-24T18:02:39+00:00"
    },
@@ -484,6 +484,12 @@
    }
   ],
   "UPN": [
+   {
+    "titulo": "Por interés te quiere Andrés, y por España se unen UPN y PP",
+    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdHVKc2E1QjdNekp2T21hZXlDbG12QThnZUV0VkJYaUdWWjhYZ082ZzFySnZLYVdxV05nZWIxZURMVzd6ajFERTU2Nlh4V1BYZHJTV0paZVR5Sk5mRlRVTm80U2xMMGtqX0lkVkp1WGpSZkIyVlozYUxHakVLd2JkQTNfUEJhU1BmUTZKcHdHanpPbk1GUy0yQ181TWRmUkpyNlBzMk9rX3dGRmtVeVdoeE5CZzVCTk9CRnVrWGE1SEVHcXpRZW0xMHZXd2l0U1ljSnNSZThlMUVUd9IB2gFBVV95cUxNdHVKc2E1QjdNekp2T21hZXlDbG12QThnZUV0VkJYaUdWWjhYZ082ZzFySnZLYVdxV05nZWIxZURMVzd6ajFERTU2Nlh4V1BYZHJTV0paZVR5Sk5mRlRVTm80U2xMMGtqX0lkVkp1WGpSZkIyVlozYUxHakVLd2JkQTNfUEJhU1BmUTZKcHdHanpPbk1GUy0yQ181TWRmUkpyNlBzMk9rX3dGRmtVeVdoeE5CZzVCTk9CRnVrWGE1SEVHcXpRZW0xMHZXd2l0U1ljSnNSZThlMUVUdw?oc=5",
+    "fuente": "naiz:",
+    "fecha": "2026-11-24T23:00:00+00:00"
+   },
    {
     "titulo": "Saiz pone en valor los avances sociales frente a la \"involución en derechos\" de UPN, PP y Vox",
     "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUlk4QVJqdVg0Z1NNOG9KZm9zWF91Y3VySEN3WnFmd2lDdUFJSGtQSHYyYWhJZUxvLTZ3WTRvZEN2bVRscExvWHhkNzB1dFBNelpFRUFFcmMyeFFuM09uZ1Q2N3pZWjg1NzVaMm5uTTdIYWtGRm1DS1BnMnRqc0VyUTh0UTRTM04wNURHZlFjczd1bzBDZ1VjTHBuWDRxdXRvYjFr0gGoAUFVX3lxTE9wQ0xrRld3cC1BWXljUTNCQUFmR25LaHJiZ0R3bGI2UmluSTBVc2g2cU5zLXM1NEdKck1CNGJKakplOUhhR2FFWDh0Y2J1ZnBTa3lFb1JoSWZZM0R6QlhNSXNtYnU1UjJyVTdaQTdreDU3REVMdjgyWDBhTUVzV1J2T1VPc0RBNTJGc20zMlJJUURRM1V1Q0JUdHdmdzRKR2RlallvWlM5aQ?oc=5",
@@ -503,22 +509,16 @@
     "fecha": "2026-11-24T18:02:39+00:00"
    },
    {
+    "titulo": "UPN y PP culpan al PSOE del \"retroceso\" de la Educación en Navarra",
+    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbjc3czBxdG1BM2t6QUFMRUM3OU41NGtWaUdzTkhDWXZPdEFvdmNEUUNHRllmaEpwWUIzd0ZsanBSbzBLbzdsVnh0ZWdNYmVRZ2xxTG1XREUyNzg4LTAydzJLN3lkU2g5RlJoTzZHdXVPeE9jZkozYk5GSDJubHNYTk41ZktZRi1PMXNMNFdrUzhKS0JPNTdiQWU2RHNidzTSAZ8BQVVfeXFMT243N3MwcXRtQTNrekFBTEVDNzlONTRrVmlHc05IQ1l2T3RBb3ZjRFFDR0ZZZmhKcFlCM3dGbGpwUm8wS283bFZ4dGVnTWJlUWdscUxtV0RFMjc4OC0wMncySzd5ZFNoOUZSaE82R3V1T3hPY2ZKM2JORkgybmxzWE5ONWZLWUYtTzFzTDRXa1M4SktCTzU3YkFlNkRzYnc0?oc=5",
+    "fuente": "elDiario.es",
+    "fecha": "2026-11-24T17:08:19+00:00"
+   },
+   {
     "titulo": "Leticia San Martín, candidata de UPN-PP: «El Partido Socialista es capaz de mercadear con absolutamente todo para mantenerse en el poder»",
     "enlace": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQbGMxYzdhdHhSYVp0aGNLd0NPVGE2UV9EbmxiRGh5TkJyQk1ZY2xna0pCSGkwWTdaaVREdDJyb1F5b1pSczVEcERmaTJJUGYzZ1R1TzJrNzdTWnlQblY5cVRGTklMaGxCTFNqUE1nVXo5TG1PMVFrU1JWSnBoU3EyQXBYT2Rhc2ZhWnVGWWVMTloxakVTLUpPQVp2cjYxcGdfT3JxQk1kQm1QejRWVGdZYVlWenFRNGgzNm9rWHNQYTVvdEdweW13NDFxZG9yTE52UEs1b3ZzbDl5Z2NBOFlnZDhObWZINEhJbkdaTUtORlBqWERTOWRvZU03ektrQm9NRWlIMDBGRE41WHh3WXfSAZMCQVVfeXFMT2prMnRWSEJkQWhMNmxsLWEtZzRFQl8zVzcyN29LRlJZODF1eXAwVmRxOHFRUTJTRmV2WXJwbEpBTTNDUlVyX3BZbDV5MXlaOUNxbjdDcVBONzNnRU94c3U3YWtmcVV6bFNDZkRWUWVhOTkzdmU0b0pfbTFPT0Z1YXRhQm92WF9MeXpxQ2VQQzNNMkRQdG9GbG1oRHJfR2pFWHVXQTh5ekRoQnk3MWVwNHl4MF9CZFRzWTJCTGFONl9DS0tDbHpYUV9FZ0MzRElzZmNvYnJoTTNPT0s2MlZCVWRrMFRHM3pNVFQydlF6aG5aN3B0MHp2ZWcyRGRlZG1EQnd2TS1lUk5vdDl0TXp5MTV5V00?oc=5",
     "fuente": "Navarra.com",
     "fecha": "2026-11-24T16:20:38+00:00"
-   },
-   {
-    "titulo": "¿Podría el voto de UPN servir para volver a hacer a Sánchez presidente en caso de empate?",
-    "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd09ESUVlTDUxa2M0MktPNmhaWkxsRG1OOGxOalI1a1JqNXZaTHF6LTFmR1VqNkZ1UUk3UjdyNk9zYmc3bWw4aEljRTg5Y2lFcU1raHJ3LVFHa3IyTVBrN1YyeE8waWprVVhkenU2cWsxeHJhNEFEU3FtZW1VY1pFS0twTlh3NC1aSXpQU2F1ZFU3czFRNmVaSnlTd2FYMUFGbGFhcTVzUFFzYmZFYUdibFgyREZSRllZbU5MMGI2RXdlMGtzSmFzaUwyXzQ?oc=5",
-    "fuente": "Navarra Confidencial",
-    "fecha": "2026-11-24T16:05:47+00:00"
-   },
-   {
-    "titulo": "García Malo (UPN-PP) alerta de que casi cuatro de cada diez alumnos navarros de 15 años no alcanzan el nivel básico de lectura",
-    "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQSEs0NFRvcDNLWEZoU1hseWNTSGdtWFo1NmlUZXFlSUwwLU5nQkY3ZWYzd25rVmNlejhZMmMzNVhsbVZ0UFhMTDQ2Qm1iZEN1N3hzcTlnM1llUEc1dE1aUzYtVUZyYzJncHo4NE9xNC1sNFVCdTFScENLajRWVEdsTXB3d3Y5RGhZdWp5TXJFZkdKOWtLS0JDTG9aRmdZV0RRN3p4Z2c2YkJIUkZrMHhHTXBYTmhSaFg4eEthVVJ1TExrY2xndWxPa21Zalo2YU1mdUhTZ3I5YkRibV90V2VKaGw0Vm0ybWg2X1JDOTB4N1JBYWZwTFBWNmtkTQ?oc=5",
-    "fuente": "Pamplona Actual",
-    "fecha": "2026-11-24T11:55:59+00:00"
    }
   ],
   "AC": [
@@ -603,16 +603,16 @@
   ],
   "PSOE": [
    {
-    "titulo": "¿«En una verificación del debate cara a cara, Alberto Núñez Feijoo dijo 6 afirmaciones ciertas entre 29 comprobadas y Sánchez dijo 19 afirmaciones ciertas entre 37 comprobadas»? · La Buloteca · Maldita.es",
-    "enlace": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNaEV5dXdBQlNMTUo0NGlDOU5mUU1GMzBlT3Z1QkgwX3UxaGt1c3BXTnBpQk1DX0RzNkt0LUI3a1RJemNzWjRRWHdFcFNFQXNFc1RtdUFNVHJ2ZzI1UDBzaXl4WkNwcm5BNmxhaDQtVVd2azV4Qk82ZXFYbzF1ZHlFbkNRU25wdWhNVjRzQ1o5cDJVZFNuWUxidmRGWkV1UjYxN0FndVltRHI0d3V3Q0NTWlNLZGc1WFRER3VHa2gxT2JfZEZIa1hYeTNxTEZZS2lNUjhXVnluV184eC10a1VIWEYyTFlMNjhLcUt3Yml0RzMwTk5TV2tYdWVxX1BMTTZjVlRRZDRUazFQSE1HU1Rrd1pfa2pzRFo4cEo0akE3aVFqc3ZjaU1KVkcyZlpyNjg?oc=5",
-    "fuente": "Maldita.es",
-    "fecha": "2026-11-25T00:59:15+00:00"
-   },
-   {
     "titulo": "Sánchez incluye a ministros absueltos en su conteo de “los 15 imputados y condenados de Aznar y Rajoy”",
     "enlace": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UV09wV0V3bEU0enZJTzBFbTRWOVJqazYwWFpBLW83cV9DZDlnQU91T1QtVHhpRERJLUhpX29LekdQR3BfdkxPbkJwTVAtODh3eDlzVVgxdUtTY1RJQnBuWHAyWUh4ZnhyMk8yelZ2YkRCdw?oc=5",
     "fuente": "Newtral",
     "fecha": "2026-11-24T17:28:36+00:00"
+   },
+   {
+    "titulo": "FACT-CHECK: Esquerra no ha apoyado todas las iniciativas del PSOE en el Congreso pese a lo que dice Nogueras",
+    "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLS00eWlQOWVIYkhWZXpsVDh3UlV0M0lxbkdMNVJyYWlvUlhacFlMVkwyaEFxRGVrNjFuU2dwVmppTm5lMV9oZXdHaHdjajJPVzdQZ1ZjVThpc3hOY0RWOFBWT1h6THZ4eXN3RllwNzlRdXNkeGdGMXVOOVgxeEZBTUFMTWZOSHFKdmxLeFhsYjdOTE9BYWtz?oc=5",
+    "fuente": "Newtral",
+    "fecha": "2026-11-24T16:26:55+00:00"
    },
    {
     "titulo": "¿Sánchez borra del mapa de carreteras del Estado el acceso a la frontera del Tarajal desde Ceuta?",
@@ -627,7 +627,14 @@
     "fecha": "2026-11-24T14:52:55+00:00"
    }
   ],
-  "Vox": [],
+  "Vox": [
+   {
+    "titulo": "¿«La Asociación de víctimas de Adamuz pide un Pacto de Estado para mejorar la seguridad ferroviaria, la atención a las víctimas y la agilidad de los procesos judiciales y el PP y Vox no lo firman»? · La Buloteca · Maldita.es",
+    "enlace": "https://news.google.com/rss/articles/CBMipgJBVV95cUxONzJZMFc2ZHM5Z1dVdFhOREUtV1JDNldQOVQ2MUtBQ0hFMWI2ZUNSTVU2cDFCLWFZVEZNeWpkUC16RHR5VDhYTEY2VFhKbjFySU5FUlJjNk9nWU9FajVkVXN4LXc2Nkh0N3Jnc0xKcWFDeHlyaGtxQ3BDUnlRenFJMGxrb3cxQU9OR1VIQ1BXZjBjUklZeDd6dURkMU5QSGxhR0hnZGJOb1VxYWlRX0hHMTRrMW1pRnFfaDFQRGpaYlhheC01b0FfdHJUa3JjUjVhejdoX0RkLXNSdi0xa0NCUkNkUnpRTkZnNkhBRGNYM3JSaEZaQXVEMjdMQXBmdjB5LWNvOTIyTnRPNUkzMTJRZTdXZGxKdHBoY0trRldVQnJQQnYtQ2c?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-11-24T15:11:01+00:00"
+   }
+  ],
   "Sumar": [
    {
     "titulo": "¿Yolanda Díaz gastó 8 millones públicos para regar su candidatura a la OIT a la que renunció para evitar la derrota?",
@@ -744,8 +751,8 @@
    "fecha": "2026-11-24T16:46:56+00:00"
   },
   {
-   "titulo": "El Gobierno amplía el permiso por nacimiento a 20 semanas para cada progenitor",
-   "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YdUpwNFNVMWpWRjg4YUdhMC02dmpPdjhxUkhqVmtZZ3BUUlRVdWpyZEo2bV9UaFFLOTRmcWhGZmNLcGx1dUt0eTZ0MzE2NUJVci14U1JHQ2tJWU4yNUVhMkxlWVBTS3NTX0JuQVo0Yw?oc=5",
+   "titulo": "FACT-CHECK: Esquerra no ha apoyado todas las iniciativas del PSOE en el Congreso pese a lo que dice Nogueras",
+   "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLS00eWlQOWVIYkhWZXpsVDh3UlV0M0lxbkdMNVJyYWlvUlhacFlMVkwyaEFxRGVrNjFuU2dwVmppTm5lMV9oZXdHaHdjajJPVzdQZ1ZjVThpc3hOY0RWOFBWT1h6THZ4eXN3RllwNzlRdXNkeGdGMXVOOVgxeEZBTUFMTWZOSHFKdmxLeFhsYjdOTE9BYWtz?oc=5",
    "fuente": "Newtral",
    "fecha": "2026-11-24T16:26:55+00:00"
   }
