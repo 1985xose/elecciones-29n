@@ -1,30 +1,30 @@
 {
  "encuestas": {
   "ok": true,
-  "hora": "2026-11-26T01:01:06+00:00",
+  "hora": "2026-11-26T02:01:01+00:00",
   "mensaje": "Veda electoral, no se leen ni se publican encuestas hasta el cierre de las urnas",
-  "ultima_buena": "2026-11-26T01:01:06+00:00",
+  "ultima_buena": "2026-11-26T02:01:01+00:00",
   "detalle": {}
  },
  "simulacion": {
   "ok": true,
-  "hora": "2026-11-26T01:01:07.407Z",
+  "hora": "2026-11-26T02:01:02.555Z",
   "mensaje": "Veda electoral, no se rehacen las probabilidades hasta el cierre de las urnas",
-  "ultima_buena": "2026-11-26T01:01:07.407Z",
+  "ultima_buena": "2026-11-26T02:01:02.555Z",
   "detalle": {}
  },
  "noticias": {
   "ok": true,
-  "hora": "2026-11-26T01:01:32+00:00",
-  "mensaje": "10 titulares del día, 80 por partido, 17 polémicas",
-  "ultima_buena": "2026-11-26T01:01:32+00:00",
+  "hora": "2026-11-26T02:01:53+00:00",
+  "mensaje": "10 titulares del día, 80 por partido, 21 polémicas",
+  "ultima_buena": "2026-11-26T02:01:53+00:00",
   "detalle": {
    "medios": 18
   }
  },
  "telegram": {
   "activo": true,
-  "hora": "2026-11-26T01:01:33+00:00"
+  "hora": "2026-11-26T02:01:53+00:00"
  },
  "avisado": {},
  "fiabilidad": {
