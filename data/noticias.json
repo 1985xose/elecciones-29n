@@ -1,12 +1,26 @@
 {
- "actualizado": "2026-11-28T03:01:08+00:00",
+ "actualizado": "2026-11-28T04:01:11+00:00",
  "generales": [
   {
-   "titulo": "La angustia demográfica allana el final de la década perdida del PP en Canarias",
-   "enlace": "https://www.elmundo.es/espana/2026/11/28/6b0984f6fc6c8389188b4579.html",
-   "fuente": "El Mundo",
-   "fecha": "2026-11-28T00:04:29+01:00",
-   "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957869627634.jpg"
+   "titulo": "Migala vuelve a Madrid: el indie bizarro que ardió en los noventa reaparece una vez más sobre las tablas",
+   "enlace": "https://www.elconfidencial.com/espana/madrid/2026-11-28/migala-madrid-indie-bizarro-noventa-tablas_4474381/",
+   "fuente": "El Confidencial",
+   "fecha": "2026-11-28T05:00:00+01:00",
+   "imagen": "https://images.ecestaticos.com/IAWaE-FJnE8srRUFRXSOcxAQ6c8=/82x0:1208x1126/2000x2000/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fc16%2F5f9%2Fc3d%2Fc165f9c3d07c323ccec08635e6c427a3.jpg"
+  },
+  {
+   "titulo": "Cuando el mapa se tiñó de azul: así votaron los madrileños en las últimas elecciones generales",
+   "enlace": "https://www.eldebate.com/espana/madrid/20261128/cuando-mapa-tino-azul-asi-votaron-madrilenos-ultimas-elecciones-generales_485905.html",
+   "fuente": "El Debate",
+   "fecha": "2026-11-28T04:30:00+01:00",
+   "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/uploads/2026/11/27/6b096b9c2cd1a.jpeg"
+  },
+  {
+   "titulo": "Un sistema electoral con muchos votos perdidos: así se deciden las elecciones generales",
+   "enlace": "https://www.abc.es/espana/sistema-electoral-votos-perdidos-deciden-elecciones-generales-20261128023848-nt.html",
+   "fuente": "ABC",
+   "fecha": "2026-11-28T04:12:53+01:00",
+   "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/28/sistema-parlamentario-1200x672.jpg"
   },
   {
    "titulo": "Sánchez cierra su campaña en Madrid con la mayor movilización socialista desde 1982",
@@ -21,13 +35,6 @@
    "fuente": "20minutos",
    "fecha": "2026-11-27T21:43:34+01:00",
    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/27/6b09e8ec45c2c8-47933382.jpeg"
-  },
-  {
-   "titulo": "Sánchez se encomienda a las mujeres para ganar las elecciones en un mitin-espectáculo sin recuerdo a las víctimas de Urda",
-   "enlace": "https://www.elconfidencial.com/espana/2026-11-27/pedro-sanchez-cierre-campana_4474571/",
-   "fuente": "El Confidencial",
-   "fecha": "2026-11-27T21:31:00+01:00",
-   "imagen": "https://sb.scorecardresearch.com/b?c1=2&c2=7215267&ns__t=1795834824&ns_c=UTF-8&c8=Espa%C3%B1a&c7=https%3A%2F%2Frss.elconfidencial.com%2Fespana%2F&c9=https%3A%2F%2Fwww.elconfidencial.com%2F"
   },
   {
    "titulo": "Frente Amplio evoca el espíritu de 2023 para “volver a ganar” las generales",
@@ -54,38 +61,59 @@
  "partidos": {
   "PP": [
    {
+    "titulo": "Feijóo y Abascal fueron a Andalucía en vuelo comercial o furgoneta frente al jet del «multimillonario» Sánchez",
+    "enlace": "https://www.eldebate.com/espana/andalucia/20261128/feijoo-abascal-fueron-andalucia-vuelo-comercial-furgoneta-frente-jet-multimillonario-sanchez_485793.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-28T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2024/06/10/6666e276414f5.r_d.635-499-0.jpeg"
+   },
+   {
+    "titulo": "Illa se prepara para ir al choque con Feijóo si este gana las elecciones: «El autogobierno catalán no se toca»",
+    "enlace": "https://www.eldebate.com/espana/cataluna/20261128/illa-prepara-choque-feijoo-este-gana-elecciones-autogobierno-catalan-no-toca_486005.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-28T03:30:00+00:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/27/6b09a6f82fd72.r_d.809-530-0.jpeg"
+   },
+   {
+    "titulo": "Elecciones en España: PSOE, PP y Vox cierran sus campañas con actos multitudinarios",
+    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQM0x1T1NsRW9UQkZ4ZDFfaElMX2picFV2RE5DcVoyX0l4eTluZlBRZTBKbU1jRDcyeWZUMWZMS29WSW1OYkJTMTI5Qm1YbjNjUW1lSkpiV25hNEpfT1FDVFdSdkNIWjZoc1ZlNHk4UW1aNjhqVzl4U1gyOWFQS2lHWlNyUHJBOUIzWlliLW5mN2VIOG5VUGowY194anREY3BtY0tQblpsUjJGZFNzX3BUd0FWanBNeTFZamhYVGhzX3VoYVFwNEgyWjAyS2FJYTA?oc=5",
+    "fuente": "France 24",
+    "fecha": "2026-11-28T02:23:22+00:00"
+   },
+   {
     "titulo": "¿Quién ganó el debate a cuatro entre Sánchez, Feijóo, Abascal y Ada Colau? Este es el resultado, según los lectores de ABC",
     "enlace": "https://www.abc.es/espana/gano-debate-cuatro-sanchez-feijoo-abascal-ada-20261127184143-nt.html",
     "fuente": "ABC",
     "fecha": "2026-11-28T00:41:54+00:00",
     "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/27/sanchez-feijoo-colau-abascal-kmJ-U40584766312vaB-1200x840@diario_abc.jpg"
-   },
-   {
-    "titulo": "Feijóo pide a la izquierda apoyo al PP para cambiar el país",
-    "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNejRiTDdNTE9pWGxuZDVVajRuWWZiOHhMYjdBdXlmekZDQzdVRld6UERnRWJmczhKR0ZhMzBNdW0wMHZYVnFJbkJkNUs3ZWpJQlpxbXlBaTVWWmFUbGwzbzliWFplOHJVTkRBeEx6akRsRjZEMFBxT3ZoMV92akJkVkRDNEFwbXhHeldYUEVaQ21sZGNuQkpPSHdVaVRzMWtkUXA2OHlLLXk0dlhp?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-11-27T23:06:00+00:00"
-   },
-   {
-    "titulo": "El PP cierra en la Cartuja su campaña nacional con Feijóo y Moreno",
-    "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdlZkLWcySHlwZnRpZ1FIbXNTdHJUeWtmVHg3cGVKalY2UG43OHR0NmRFMkVIMUhtUnEza3cyWGFZRWdjR2FiWlJDSVhnZ1o2RXRMWlNnNW9hdEtrejdVTWNtZmE5c0pvN1luRUJSaDlQajdMN09KZnhLUlZRYjZydE1yWVRiaWF5NVRWQkZPVkptbXQ3R1E?oc=5",
-    "fuente": "101tv Sevilla",
-    "fecha": "2026-11-27T22:19:01+00:00"
    }
   ],
   "PSOE": [
    {
-    "titulo": "El Gobierno de Sánchez advierte que ningún gobierno autonómico puede rechazar acoger en sus puertos el buque siniestrado de Ibiza que llegará a Cartagena",
-    "enlace": "https://okdiario.com/baleares/gobierno-sanchez-advierte-que-ningun-gobierno-autonomico-puede-rechazar-acoger-sus-puertos-buque-siniestrado-ibiza-que-llegara-cartagena-lunes-21291130",
-    "fuente": "OKdiario",
-    "fecha": "2026-11-28T04:00:27+01:00",
-    "imagen": "https://okdiario.com/img/2026/11/27/imagen_recortada-76.jpg"
+    "titulo": "Dos millones para la cafetería de Moncloa y el 'office' de Sánchez: un café y cinco churros por 2,1 euros",
+    "enlace": "https://www.elconfidencial.com/espana/2026-11-28/gastos-gobierno-sanchez-dos-millones-cafeteria_4472560/",
+    "fuente": "El Confidencial",
+    "fecha": "2026-11-28T05:00:00+01:00",
+    "imagen": "https://www.ecestaticos.com/imagestatic/clipping/7c1/1a5/7c11a5e9faa15eb93feb4586d6dfe339/moncloa-dispara-los-gastos-en-comunicacion-para-sanchez-y-gasta-un-presupuesto-record-98-millones-al-ano.jpg?mtime=1795538706"
+   },
+   {
+    "titulo": "Feijóo y Abascal fueron a Andalucía en vuelo comercial o furgoneta frente al jet del «multimillonario» Sánchez",
+    "enlace": "https://www.eldebate.com/espana/andalucia/20261128/feijoo-abascal-fueron-andalucia-vuelo-comercial-furgoneta-frente-jet-multimillonario-sanchez_485793.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-28T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2024/06/10/6666e276414f5.r_d.635-499-0.jpeg"
+   },
+   {
+    "titulo": "Cómo han cambiado los carteles electorales de PP y PSOE desde 1977",
+    "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVXc1U21tLU13aXllenQ1ZTJoOC1VRjJnUHdPWFdBcDJsVm11UjZBaG9Ybk9lcTVmRjBrU0JyTXFBQUFaYlU2cVlGclBQb0VQa1h0X1IwNkQ5NUl2UW9JODBTT3VZS0R0Z0NCSGVHWDNOb0gwSlpEeDhZQjB4U000UEVybjlnOFNFU2l6LW9kV05lUUJnaS1VRExLX0Z3TDEwQXktRExsX013YVF5ZGZKQ9IBtgFBVV95cUxOQ1JMcTh1SElXQVdpX0c1OG9yQlRaNHlWdmxMWmJ2N3RERXFEY2wyZlc4d3loUHJnbS0tb0Y4blpPUUF5bDd1MmNoaHEwdG5tZW9TWE5tR2dtbkliVzA3WmdkSTduQUpYLVpvY3llcVU0WE9IYXdyRS11bTN6b1o0SHNmNDZBallpQ0FSVlVSNHJGNkw2SGFlNndZdmUxbGRXaXk5U0k0b1lWTzVLODR3N0M4OHA4QQ?oc=5",
+    "fuente": "El Debate",
+    "fecha": "2026-11-28T03:30:00+00:00"
    },
    {
     "titulo": "Elecciones en España: PSOE, PP y Vox cierran sus campañas con actos multitudinarios",
-    "enlace": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMy00ZjJSSlU5RGtoaHZtWDVzcllwaGYwd3NrWXZ5cDRYSTRfZ0pTMkxvam1aMmF0bWxlUmlwLWFGcVJEYVR5NXpTQy1UXy0xWFowSVdPb0FrOE9jXzRZRm1BNzcxNnM0bTljYlIzMkc4VGg1SkJHRk15UjVMU0YydU9wY1pPNE1lNmc?oc=5",
-    "fuente": "Yahoo",
-    "fecha": "2026-11-28T02:44:00+00:00"
+    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQM0x1T1NsRW9UQkZ4ZDFfaElMX2picFV2RE5DcVoyX0l4eTluZlBRZTBKbU1jRDcyeWZUMWZMS29WSW1OYkJTMTI5Qm1YbjNjUW1lSkpiV25hNEpfT1FDVFdSdkNIWjZoc1ZlNHk4UW1aNjhqVzl4U1gyOWFQS2lHWlNyUHJBOUIzWlliLW5mN2VIOG5VUGowY194anREY3BtY0tQblpsUjJGZFNzX3BUd0FWanBNeTFZamhYVGhzX3VoYVFwNEgyWjAyS2FJYTA?oc=5",
+    "fuente": "France 24",
+    "fecha": "2026-11-28T02:23:22+00:00"
    },
    {
     "titulo": "Pedro Sánchez fía su última batalla electoral a la épica del 23J",
@@ -93,26 +121,27 @@
     "fuente": "La Razón",
     "fecha": "2026-11-28T02:00:13+00:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/27/D7EA591C-677F-485B-8991-6E1489BD8AA9/96.jpg?crop=4000,2250,x0,y208&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
-   },
-   {
-    "titulo": "Santiago Abascal a Pedro Sánchez: \"El gran buitre de España es el presidente del Gobierno\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcjlFb3haOU1DNnlvT2dvei1WR2J2QzhjcTQ2WXRzMmhUX0FJNlBydEs5R04wNlhJRWc2U0Nfdkl2QnphQ1FLYmlEdGx0NWEwN0JDbFJhQnQ4QXlOYWRBS1Yxb3RydkZNVG5hUm1FOTdZeHJSMlUzUWgzQ19xZGtBVHA5SU9qNGNJT0Q4UGU3WmNqN0lLNVlELTR6TWE0Z1ZHdHc0WW5hVjNMLXZXU3c1czlsdTh2SjN0M1VNNHhDa2ppTEs2b1locllpVdIB0AFBVV95cUxPTlRvNTRzdnBLY0tVdE9obGRHMlYzLXFXZ2hHS2N4a2dyYkxianA4bDQ1dnZwcmlMSGxsYkRPY2pRQ0szeWNHRGJ5VjIxYnRsS3p0eWpPU0hjai1rbHc5My1sSEJmNzdoSXo1TGI1V0FnUk9XZGttU1ZEanFkZnFacmk0bmxGS01FTDZ4dWhMbDVCcnNoTjRLMXVlVWV6TWlLZTNxdFRQQ0M3VVhDeUJkcWY1eWd1LXZGckhsY3RDREZQQUdlQXBRQnJBSm80QlNX?oc=5",
-    "fuente": "Diario Las Américas",
-    "fecha": "2026-11-27T23:43:00+00:00"
    }
   ],
   "Vox": [
+   {
+    "titulo": "Feijóo y Abascal fueron a Andalucía en vuelo comercial o furgoneta frente al jet del «multimillonario» Sánchez",
+    "enlace": "https://www.eldebate.com/espana/andalucia/20261128/feijoo-abascal-fueron-andalucia-vuelo-comercial-furgoneta-frente-jet-multimillonario-sanchez_485793.html",
+    "fuente": "El Debate",
+    "fecha": "2026-11-28T04:30:00+01:00",
+    "imagen": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2024/06/10/6666e276414f5.r_d.635-499-0.jpeg"
+   },
+   {
+    "titulo": "35 provincias y comparecencias récord: la 'tourné' de Abascal para intentar conseguir un resultado histórico para Vox",
+    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSDY3c1I3N1hxUl81MjNaLVR1a24yU2tKRkVEZS1hOEoyXzBXZldoYTYtbkpWVnp0MkprdlQtZU5iOGNVMGFkOVJvYlBCY2RhM3BQSGc5YjhYZUlWdXE1NHlKTW55Um1WQ0d4alhKUzVubDlQVm5PYkhyWUJwS0RiY1lyYTUzMWZwaTh0UkhTRk8ydkI4RFpESzlERldHLWhocnF3U2VCUUxVRS1ObkYzcmhMNjkwdGVxX2ZmRE90dVp5UmRkUHFTeFllWlkyUC1zUEJiSFk3RFJrS0xQcGxWa0RkODlpa2vSAewBQVVfeXFMTmUyamtVWjdOYnVkZWg0c0U4TFFkdW12Y3NCS1Rfc2FaN0xoWmdsQVVkcmNmRzR3NUY0SmhZSHVVdktmOEt0Nmo1M3M1UHo0LWtlSTNxMW90Vmt5Y2JwZ1p4d0xDbzRNTS1sbE11VE9WbEVZTDA4V0J4ZEI2dnNVME1XaHVIRnRYcy1tcWR0Y1I2cEZ3NnlBRTNIYlZVSEZnTG1GdkZYc0FxTXZwRU5lVUlxLTQ2cDdvd19scHRET2JNUHVnVDdXZjFfYV8zU1YzcWRKMkkxZ3dIdnRhN3ZUSjIzZUZ5d3h2T0IxVHg?oc=5",
+    "fuente": "Vozpopuli",
+    "fecha": "2026-11-28T03:45:00+00:00"
+   },
    {
     "titulo": "Maribel Cerezo, de investigar el mar a encabezar la lista de Vox por Baleares",
     "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaFdqYnhTUDF1a3lBN2FpZVdENnBGMXhXRW5ENE15VklnNUFPWTFibVd4Zm9lOWNJQ3BrTnVyVzdsckF0LUtyRW9rdjZaOUVhMWdmWERJTkk4WG55M2ZidHNDekRQYXp0SVpsaERPMV8tMGNLS1Z5MjVhaTJLNGJsQkc3bi0yS2x0WU10WjZERDIwOGZFVi05WGxuSHM1MWd3LVNyclpsY3J0MXUwaDN0MEZoWTJOa19QbFVuVjZTXzEweGNTUFFqTVF6TzFvREVNSUE?oc=5",
     "fuente": "Ultima Hora",
     "fecha": "2026-11-28T02:57:30+00:00"
-   },
-   {
-    "titulo": "Elecciones en España: PSOE, PP y Vox cierran sus campañas con actos multitudinarios",
-    "enlace": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMy00ZjJSSlU5RGtoaHZtWDVzcllwaGYwd3NrWXZ5cDRYSTRfZ0pTMkxvam1aMmF0bWxlUmlwLWFGcVJEYVR5NXpTQy1UXy0xWFowSVdPb0FrOE9jXzRZRm1BNzcxNnM0bTljYlIzMkc4VGg1SkJHRk15UjVMU0YydU9wY1pPNE1lNmc?oc=5",
-    "fuente": "Yahoo",
-    "fecha": "2026-11-28T02:44:00+00:00"
    },
    {
     "titulo": "\"Firmes por España”: De La Espriella respalda a Santiago Abascal",
@@ -121,17 +150,10 @@
     "fecha": "2026-11-28T02:33:55+00:00"
    },
    {
-    "titulo": "Abelardo de la Espriella expresó su respaldo a Santiago Abascal en las elecciones generales de España: “Un hombre defensor de los principios”",
-    "enlace": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPUUNuVEoycnRxT3BLSGpSUGgxWVFIOTdOUE5CUXE0V3B1T0NXMEtFRGE1U2RvZW52RWM2WVJ2X3YzR3VEdlFkeE9DTmJ4VGhKSFRWZGdEWXREbG9Qb0tJWGk0MkxuZXFaTE5zam1CMUZoVmFRb0k4RFdRNVZHVVczZ2IzclFtZEJhZlFqV09XdHBpbkFKTTdtVVl1UHNfV040eE83NWY2TFV3VVoxc1FpcGdFNEtTbEJQaE5DYndrZlpJUk4tRHEwalE0eEo5ak9NbHZ3Z05ONk0taXpZcm5fU2dPWW5ST1ZrWUlWY1hlS09VMmZNb05RR2Q2dS1KT19XZ25XRW9rbWRyd2k5RG15c9IBqwJBVV95cUxPZFVjVE12aUZoQXVDOVkzYW1HUWhnOVJtRDNzamxmM0ZGT2hwel92WUhJUDB5ZFlETENSb1BzSjFnZjdGNE9BODJJbERMVnpUdFVndXRZRmt2M3pMc0VpLThRVjVtdTJ6RTFrUVVVVFl5VzU3bDItNjBWSUdxX2FCWW56c05haTNGRW5JQnF0aEd2ZHBYNXl0M0xEelFfdWFtLUdoSjhZcF9FdllZRVlESWF6MHdGQVNlVWt0blh4UkV3cHZScWxCQU0yVDR2OUk1ZEZzX2VrZUFqSUJlX2Y2aVVKTEFFcUNJMEwwcmVKLV9XOEk3eDRyRUM1UDFra2Z6bjRrOExyVjVpU3VpUkZjTmgtZ1MzX3VSM1BDWWZFa3ZhWnp0RmhObHRfbw?oc=5",
-    "fuente": "Infobae",
-    "fecha": "2026-11-28T02:10:00+00:00"
-   },
-   {
-    "titulo": "¿Quién ganó el debate a cuatro entre Sánchez, Feijóo, Abascal y Ada Colau? Este es el resultado, según los lectores de ABC",
-    "enlace": "https://www.abc.es/espana/gano-debate-cuatro-sanchez-feijoo-abascal-ada-20261127184143-nt.html",
-    "fuente": "ABC",
-    "fecha": "2026-11-28T01:41:54+01:00",
-    "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/27/sanchez-feijoo-colau-abascal-kmJ-U40584766312vaB-1200x840@diario_abc.jpg"
+    "titulo": "Elecciones en España: PSOE, PP y Vox cierran sus campañas con actos multitudinarios",
+    "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQM0x1T1NsRW9UQkZ4ZDFfaElMX2picFV2RE5DcVoyX0l4eTluZlBRZTBKbU1jRDcyeWZUMWZMS29WSW1OYkJTMTI5Qm1YbjNjUW1lSkpiV25hNEpfT1FDVFdSdkNIWjZoc1ZlNHk4UW1aNjhqVzl4U1gyOWFQS2lHWlNyUHJBOUIzWlliLW5mN2VIOG5VUGowY194anREY3BtY0tQblpsUjJGZFNzX3BUd0FWanBNeTFZamhYVGhzX3VoYVFwNEgyWjAyS2FJYTA?oc=5",
+    "fuente": "France 24",
+    "fecha": "2026-11-28T02:23:22+00:00"
    }
   ],
   "Sumar": [
@@ -141,6 +163,18 @@
     "fuente": "La Razón",
     "fecha": "2026-11-27T21:10:18+01:00",
     "imagen": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/09/13/CCBDA409-B39E-43E3-9446-D4FB723CE668/96.jpg?crop=1920,1080,x0,y100&amp;width=1200&amp;height=675&amp;optimize=low&amp;format=webply"
+   },
+   {
+    "titulo": "Sánchez llena la \"Caja Roja\" en su cierre de campaña, Feijóo opta por Moreno en Sevilla y Yolanda Díaz acompaña a Ada Colau",
+    "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOR2pIZENuR2JiemREeUpXTVFKOTJGejRyVkk1MFJGQ0lFSVQxc1Fub1FEWWROTzRIUjBOQk9oV1psYmlraVB5THMxWHRsQXhUWmVMUncwUGN5dE1KS01UWVlnX3dKQ0lybEk3bHg1c2JoODAtcW9wNzV2dnI4ZEJhX0tkdHIyM0ZGYloyRm1ESkZta0lIU1dKQThqUXp3UTRtT3ZheTFCMVNsc3g5NnU1LXpKcG05STM2ZElCRWdHTGZDelNkOE5sOHl3QmVubkRRT21BNHdLOHpiclpTdnJhaElJeEpWRDM3QUYya2lEcTZ2LWloZU9jZUZ6OE1lOG54am9uRHdydmtSM0820gGMAkFVX3lxTE9OcjhGRlVSakxCTWZHczJCdlFsTUo2TUxsTUwwU3I3NExMaU5vcWsyRkowYVFYemhwSWR2UHl0cnBBZzlMRVZKeE9JemhMVWVrbXgwZzVlV0sxTGdvWnktTzRQeDdrR21GSmdxcWkwY2FZanBtWFNxMEp2WGV4WWd5aVgzSXNOWHRoT1gzQkRqam1oa3Y4NGxVdTI0M2NPOS1hRkFidHZIcnlCVkhmUjAzRDlEVzhDb1NOU1FWLUJ1UXplaWoydnhXT0RETkEyY2lRZm1DT1JNZVozZmlodXdZbGZ2bk85RDdES1A4dXFxbVJ0YUVjSm5DYTJQNjZHR2ljSTZpZDJwS1Q2d2o?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-11-27T20:38:59+00:00"
+   },
+   {
+    "titulo": "Maíllo confía en la movilización ante unas elecciones \"cruciales\": \"Nuestro modelo de valores puede desaparecer\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUE5xVi1ZZlVVanRYdnEyemxmYVhQMWw3QUVNejBQMm1hVzJ3bXRxVTJyQjRxdkVORWpXMHhoTTlKLWxEcFlnTmxYZFlpaXRZVktxYlptX3RmbHFqcE0ycjBwSGJZMFpRYlVVc1RxN1lteUlpVWhUSFVtOVVGVmJsNXR2aWF4Qnp4dWhwQ0xuOVltZUcwN0tOY2RmRks4U05GR3RORVN6RzdfTnVOZ0VmS2Fuc2hpY3hZTnJycjFZUFljM0xGdUhVX1EwS3hCblJSWlVybjJ0czd4TUp2a2VFUHJ6SG5hZzNPcndQbFlwampIZndpZGc?oc=5",
+    "fuente": "PressDigital",
+    "fecha": "2026-11-27T20:26:00+00:00"
    },
    {
     "titulo": "Los ministros de Sumar se ensañan con Feijóó en el cierre de campaña del Frente Amplio",
@@ -159,18 +193,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMlZIcHJWT1ZJdmotMm1jNEJzOG5vakJKT3RuaXdJcHZUQVAzR2sxMTFDRXp5ZWtTTU9xaWE0NjN6aTM4Yk95N3VKajdCV1ZhZFotWGtiMjY0TFRiSTBsUm5MRHFVTWtKUG9tajllaVFWUHlITFhHM3VtNThzTFFibWc1N05qT3RwR2s0UmNMV0FtdTdOYmNoeWZORE5yZF9lWVRMOHJUOXQxQjRod1NpcW53UkNXUDY1d0V0aS16WDU4bjg2WTExb9IBzgFBVV95cUxQVTJHMjNPdkFZZGRlbDNuSUJOYm8zdmFpanhIZW5FNXdEMndwSThzQWFQOVBaSy1ZOExMV1JJTHc3ang2eVV3RTNYX0RYNmozQmgybklMRmktZDBmSFVaSGRpd1lMV1RDWVNNNWpYOFJpU3RwX1JkMTNQU25MS2FDdnB5Y2RhbU54M2otc1IwMDBhTC1lS1pjZlRRdUpKbE1pSXJ3ZWl0eWg5U2tfQnJDbk83SFJmTS1sWWRQOHdFNFE3N1ZrSUplTmlZaHZOZw?oc=5",
     "fuente": "El Español",
     "fecha": "2026-11-27T16:12:04+00:00"
-   },
-   {
-    "titulo": "Cierre de campaña del Frente Amplio y Podemos en Madrid: dónde y a qué hora intervienen Yolanda Díaz y Pablo Iglesias",
-    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOT2JnbFlOYWI0UTQyYllhQm1HdkEweGRvNWN6OHVldlZzSTAxQXhxNUh2YjFiR0JzdE1tSjJRQWVIN0luMGFhd0l1NVRKYnpHT2ZFLUNYZWpvZl8xNUctY3JwVXhNVVptRXRHTFd4OWFtWUFoLW16TzFyTUh1TkNiT2dHV1lqNzJkLWZkbm9BTXo3M1kxTWdNc0Y3OU1HdENFYUkyR0hsb2QzS3ZHWk1PQURRNEgwb3F6OUxVYTQtWGJfbDBTc01vd2lhUVlIeHUyOUhTdkFoc3Zpd9IB3wFBVV95cUxOUWM0SDdMMW55ZElDc2NmemU1Rlk4cjJTQjlFdVAwdnFwQVg4ZWE0QWNudk8xaDc2MXVqMDFXV0tuVU5pSm1feWt2NmRrQnkzMEVEX193aE9zMjN0WVRQZkc3UnpvbDhDZUlhamd1eVQ1NW1JODBFRXJGOEhYcUw2NDFDWEd5R3ZKMWNYcDdRdEVfS1ZDb2xqM19FeDk3YmFXdHB4cGRFTWtMM2l5Zm1nUFNXcnFxVVlqMUhTNlMyV0VnVDJydzYtRWIwV2F0V25TdThQb0dWSkVXeTBHN2RB?oc=5",
-    "fuente": "El Diario de Madrid",
-    "fecha": "2026-11-27T08:49:38+00:00"
-   },
-   {
-    "titulo": "Yolanda Díaz se suma al elenco de ministros que arroparán a Colau en el cierre de campaña de Frente Amplio",
-    "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVG5YOFlTQVhhbnZ3Uk5VYlFLVE5TTWx5dHdBeGppaG1acWVBaVlYdHVoc0VVSE9QcjdKNTV4QWRCbmwyazhiaklha2UtZmxOc29tOHM2UGU5bmRJM0ZxS1ZPbHdBemZ6VWppSTRlVGpiN0hRcWduN0tYbldwWkJfSXl2eHNsZzZYUjVTWG8wYzM0RUhYTS11NDkybmFhckFNcExIVUd1YjJNMF9BdFJKN1pSMkkwYnA4Y3dCd1Q1UHhzNUJjZkFJY0ZWQ1FMaFdGWGJDMXpUY1hrbzIw?oc=5",
-    "fuente": "PressDigital",
-    "fecha": "2026-11-26T20:59:00+00:00"
    }
   ],
   "Podemos": [
@@ -190,7 +212,7 @@
    },
    {
     "titulo": "Irene Montero augura \"tiempos difíciles\" y llama a llenar las calles de \"millones de personas\"",
-    "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkZXYmZZTkNLaW5TdTNQVFRDUXlQZGR3RHhiamdraEgzQmhRSWRSME1uYTM1X2tpVVhKblBtczVmYVBKRzRaaGtvNVVMb3hjY3YwZlBEcGxDOS1UMGhQSUc3eTI4ckFqaklKT1lPd2puRFVWdUhrbFBGR05VWTd3UHQ0c0Q3Sl9raUFnbVNxWThPNEVDX3Y3NXl1Ri1KVU5ST1HSAacBQVVfeXFMTWNrbERfU1ZXRl9tUXA0MDM0Y25MTEFGTGx4Tm1fWWNSZjVSS2trRHhYSFVsV1ZsSzY2cXdYanoxdkRPN184QnJQRUFYSmtzNURpZXZZWjQyN1E5ZGxaTHJhOWdqWG1KeXg1TkdTdTdHX0JfdDByaFpsSzZOelpiZnkwX2ExeExHVnF3Y1pSejBSWDQwR01RZTJyLWZBMnB3c3l1MjdzZms?oc=5",
+    "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY2tsRF9TVldGX21RcDQwMzRjbkxMQUZMbHhObV9ZY1JmNVJLa2tEeFhIVWxXVmxLNjZxd1hqejF2RE83XzhCclBFQVhKa3M1RGlldllaNDI3UTlkbFpMcmE5Z2pYbUp5eDVOR1N1N0dfQl90MHJoWmxLNk56WmJmeTBfYTF4TEdWcXdjWlJ6MFJYNDBHTVFlMnItZkEycHdzeXUyN3Nma9IBpwFBVV95cUxNY2tsRF9TVldGX21RcDQwMzRjbkxMQUZMbHhObV9ZY1JmNVJLa2tEeFhIVWxXVmxLNjZxd1hqejF2RE83XzhCclBFQVhKa3M1RGlldllaNDI3UTlkbFpMcmE5Z2pYbUp5eDVOR1N1N0dfQl90MHJoWmxLNk56WmJmeTBfYTF4TEdWcXdjWlJ6MFJYNDBHTVFlMnItZkEycHdzeXUyN3Nmaw?oc=5",
     "fuente": "ABC",
     "fecha": "2026-11-27T20:48:37+00:00"
    },
@@ -296,10 +318,10 @@
     "fecha": "2026-11-27T21:28:54+00:00"
    },
    {
-    "titulo": "Junts pide concentrar el voto independentista para mantener su influencia en el Congreso: \"Esto va de parar a España\"",
-    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOEw2b2lGVUR3LW1CVDFla2FzdkF5Yi1FYzFidUFXdVUyQ0YyTDhfMnJTLWdxSjJmUlQtYnU3SnFMZDVqYTRyN1JmV0NCdG9ZSVZXU0p3N3Zpd19nWkxfT18wOVFQVVQzNjI5dkcyQ242SmtpRTQzY1NpS1ZoUUNTMGRadF9ia0xrYUp4UXlGUUhuXzQ3azF3QUxZQ3pHN0JhbXMxejNwZUdCUXhpVVNuWUx3QjhPc2YzOEs1OUZzUG9heWJweUFTWGFMdURSalg00gHQAUFVX3lxTE13MFI1cjlaV1pwMjQyNXhBdEkwai1fWlRQWFBDTFhXRmFtdHZvZTdSbFRGRUlWU1Awd20yUnVKMnVlbDNvT24xazBtWWVnajlZd3VDeUU4bVJ3WkMwMlJGb1BNN0FzWDhFSUFHd2FSczNidGhlQlR1M3lUWTNVQS11cEkwaWlCc09FVzZQOG1mMjFCejN4ME1VUXRzdnBHLWhxYUl6YkVBcURRS3NMUFU3d3FtcXFvWHQzTWxjSVduay04RElLN2ZTVjRjd2QtZEI?oc=5",
-    "fuente": "El Periódico",
-    "fecha": "2026-11-27T20:54:19+00:00"
+    "titulo": "La reflexión de María Llapart sobre las mayorías tras el 29-N: \"La pregunta es: ¿Junts va a querer pactar con Vox?\"",
+    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObjZlRXVVSzlHZ3hCbWZWVkI5UE5zeHI5ZU9mV3VxU0VOMnJkb3hBYXQ4Zk9XaHFjYzhlVWZ3M1F0UTFEOUR2S05uZTFKaDRwb25hM1Y4Y0xLR1I4bHZrdkJBaHNRbTY5dk9OMjROZ3JobFlFNVcwcjFoN19zd09BYmpPTkhuRVFXVW5oNXlfRHl2aG5jRkV3YkY0S09pM1J3LU9PTkxETFRKckxFSlRyQW5HNC1qUGU0dHVUeEdyVzVFazBCeDVNY21IbkFwVDhLMWNEU2hKNzgzazZJTFFOVkhXbUR5STDSAecBQVVfeXFMTm42ZUV1VUs5R2d4Qm1mVlZCOVBOc3hyOWVPZld1cVNFTjJyZG94QWF0OGZPV2hxY2M4ZVVmdzNRdFExRDlEdktObmUxSmg0cG9uYTNWOGNMS0dSOGx2a3ZCQWhzUW02OXZPTjI0TmdyaGxZRTVXMHIxaDdfc3dPQWJqT05IbkVRV1VuaDV5X0R5dmhuY0ZFd2JGNEtPaTNSdy1PT05MRExUSnJMRUpUckFuRzQtalBlNHR1VHhHclc1RWswQng1TWNtSG5BcFQ4SzFjRFNoSjc4M2s2SUxRTlZIV21EeUkw?oc=5",
+    "fuente": "LaSexta",
+    "fecha": "2026-11-27T21:22:47+00:00"
    }
   ],
   "Bildu": [
@@ -382,6 +404,12 @@
   ],
   "BNG": [
    {
+    "titulo": "El BNG pide un resultado histórico el 29N para reforzar la voz de Lugo y Galicia en el Congreso",
+    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbmJtM1pjbXBCOWFqbEZxNXNkdk9aUVNoLWpsVGF0Q09QVnVVVjJNVnJLd3hlU3psUlRvZXJtdWoyblFiV3lyMkppZjJzQi1FRkszTXFFbWJnM1JrVEc4eG52WTVicWExVFpENVROLUt1akdSQ0lGSC1LNm5sTFFOV2pycU5zTm5zbFI1STNJb3FjNkVPazd5Q3k2Vl9YLVhyOF85eDlDT2pNdFNSbEpiSFotQjR6Q2NYdmQ1U1pISXp2RmlTOHl3RUkzWklYdw?oc=5",
+    "fuente": "GaliciaXa",
+    "fecha": "2026-11-27T21:36:36+00:00"
+   },
+   {
     "titulo": "El PP acusa a PSOE y BNG de «blanquear» al expresidente de la Diputación de Lugo, investigado por acoso sexual",
     "enlace": "https://www.eldebate.com/espana/galicia/20261127/pp-acusa-psoe-bng-blanquear-expresidente-diputacion-lugo-investigado-acoso-sexual_486086.html",
     "fuente": "El Debate",
@@ -407,16 +435,10 @@
     "fecha": "2026-11-27T17:05:33+00:00"
    },
    {
-    "titulo": "Fin de campaña: del fortín del PPdeG ante Vox al alza del BNG",
-    "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcEZ0WUN5MWlGcVA1ZUhrbE1Tam9jMjZsOVpwc19aeC03Y0c2VkhZRm5Ya0c5YVpvVW9ZdzVNMDl5eWdPTkN4QS15YnZYc0ZYY3dqUEZzbklvYnVZU1RUa2I5b3ZOdDlXM0V2TGRDQ0JnRF9yVEJKa1l5by1md1FBQVNCRm44R3NUSXV1czhuNk8zV0JGc054aEJWVjJ1YWNya0JhQ2taeURpOW_SAasBQVVfeXFMT25qT0o3WGhLSGJTcmJGdkVXTUNucWFFaXl3ZVNPZjhyYlBESlF4NTBtaDJnMGRsN2xIdThEWVVNZmM5UzV5SHRFX002U2VaVzBPZG5INXczS3NGTU50WWpRMVA1NjJEYXJmbWR2MTVoLXFidHJfWG56QjFnWVgtN0dTOFVnRVNFSkhiQ3BULU5GSzlwaGNVY1NnWXo5WXZzVUFCcEZXUXFUNmxR?oc=5",
-    "fuente": "Expansión",
-    "fecha": "2026-11-27T15:52:49+00:00"
-   },
-   {
-    "titulo": "Tren, vivienda y el futuro de Navantia: PP, PSOE y BNG responden a temas claves para Ferrol y que dependen del Gobierno central",
-    "enlace": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQN3M4ZUY4Ql9rRlpndEtOVG1rVEZDWVQ0QlNES185VUc3UHNYbEpPdWpTSGs4Tng4dU4xeTY1UFNLdnIxZkxMLTNSV2owODAxTlFGYjlhRHJOek9SRWxWVDZHV1A2Ylh0UVNDNWZfaHFpV28xQjlvak9RLUdYVXVJUzlRWE9SUEV5emtQVENHYlE0Vi1zZWk4dkhxdTVfVDNtUENEWUFNYVBvSWRONEZtVjhkeDhqd1dOLW5YaElnRkVPY3Vpbkd4M3U5T2pJQVBUc2tScHg5WUx1bl9EanRLTHZHckpaTjNNS1RkeUh1alNlNC1zaFl0NkNpX29uaGg3cDFlcHhJNWZlb0XSAZ8CQVVfeXFMTlo3NEczY3JaSzN2azZoa1pvbHdUdm1DaWxFYW9zdzE5eFlRdkY1RWsyNDdzYVlWLW96dUVRV1lzTTlIQW1za2tidGR2MHhPeHpEZHFoajVESDdYd1dPUGpWb3AyQTliVnp2OE5fQjVhUDRrWUJFT1RpUHhCLTlSLUVsZ3REZkl4b3FqNEItXzRuMl96bGctQ2N3WHdSVy1fQmc1ZElnUEhHU3NQUXVqVERaOHVIOHhpaWExYmRCX3VDVFdiOC1IVmJPWTRzTjg2dktxUWt3XzRQRkt1Yi0weGRWVzJfaXJ3SVdFTFRCWUg0MFNaRTNpdkVVNndFdFdSVGQ4Umx3bDBnaTBEeHFzNVU5OUVkNVdMZ0dDc0ktcWs?oc=5",
-    "fuente": "Cadena SER",
-    "fecha": "2026-11-27T14:10:14+00:00"
+    "titulo": "El Concello de Ourense aprueba 5,5 millones para la piscina de Covadonga, rampas y ascensores con el apoyo del BNG",
+    "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMWwyLWlpZ0JGV1ZrODlVV0xkSFlGNmZKNkg1MTNMSDFTYkM5dVhmVXFUWkU3ekZrcU5HSTdEQW9HN3lwWWdDMTRlUVRIOTlRdTk3cTZkQzFma04yXzJFc295d2RpU1M0ZzgtNk9UQlhmY0pzZTg5VGtPRHY1ZFE4UVkzd3NVRi1rWXJHMkJWMGhBZ9IBlwFBVV95cUxNdHhqVGY3OG9DTkpuYUdFcXl6Z2NnRDZNeFBxZjIwdnB6UWdTSlA5UWV1TnhrTHhib0d0aENiLUhMNTF3OTRIOVRtT3RiVElwT2VMXzlSS3hlOHdDZDA0LXRsR0FLSklYMjc1S1ZZSUxnRS1hT3RpblNjd1l6TTB1ZFNDNjViQ1ZFWnRuaW92dmNVYUxiRGFj?oc=5",
+    "fuente": "Faro de Vigo",
+    "fecha": "2026-11-27T16:08:12+00:00"
    }
   ],
   "CCa": [
@@ -424,7 +446,7 @@
     "titulo": "Coalición Canaria propone limitar la compra de vivienda por extranjeros en Madrid",
     "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYlRWc3Q1QlBJdGFxZ3N2SVUxWWU0OTRSMG1zREFTMTJONGFacnpyUDBwYjEydTRtU0ZMLU84S1RWMEdFYTV1U1I5SzVTUmRjc0FNZkMyT3hrNE9BUmNsakdZVDVCWWxYcFQ1Z1JmLUhHX2lVNm9zeTlnY2lnY0M1MUVTNWJvNnZkVUVCWVNZbTJxaHVvaExVYmV5TGxSejBrSkVoeVR1MzFKZmxi?oc=5",
     "fuente": "Espacio Diario",
-    "fecha": "2026-11-27T23:15:00+00:00"
+    "fecha": "2026-11-27T23:30:47+00:00"
    },
    {
     "titulo": "1º CAN-CC pide a los canarios llenar las urnas para que Canarias «vuelva a pintar» en el Estado",
@@ -506,6 +528,12 @@
   ],
   "AA": [
    {
+    "titulo": "El programa electoral de Adelante Andalucía multiplica las propuestas para el Campo de Gibraltar frente a los grandes partidos",
+    "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPU0RaNmoyYnlHS1JOdURFRXFqSlEtTElib2p4TEhTNlFxOTlOTTZwYUt1ckxaYjBXYWNjOWtSNVdPRk4tSTluRGF3YUlPUXJxWUdFU2Z6MU4tU3picTFWRERDX1cySVJRNGE3WnFYOEFBcjhJbXZCQ1N2cGhWM0ZqQ0VvZTUzczFFODZRa2hWMTdMeEhzUlhUS29UN09YdkpEaG1vN1FDejR1WTNyems3R09PYUZaU2U2MnF2TWwxRy15N0pWamFGOW13bHk0RWgyR2RGM3ZGVVdkSFlJU3B3cmxEcEFFcWItc25PczV3dUFjWW1LWmh5a9IB_gFBVV95cUxNdF80T1BfSjZNTGcweTBuUVd0WndhWE9fTExGTFFXeUN1MUpzY2x4YUpWb0lVOEVnOElfYmEzcEh5bDJIZnUxX1pOYTNNb1J0eGU0Z0VJS0JKUHFIQ0hxTzFHODM4WktIaDEzUDVNRkJnUFM3bnpyTUVLX1kxWDdRYjNPQ0lNSlk5U1JVQVhueXJtUl8yNndoYVFVOTBCVnNiNjZHc2dlcHBvZzBWQjNzUjMtTVdSSjJJNjZOMXJVclFCaWdCRVM5SUdJQ2txUzUwckk4VFg2RGlqVzZTRDVzTk4yRmlzT2pqUDFUcnZuTlZmc3IzMzVtZEU5M2d3QQ?oc=5",
+    "fuente": "Europa Sur",
+    "fecha": "2026-11-28T03:01:22+00:00"
+   },
+   {
     "titulo": "Adelante Andalucía sitúa la vivienda en el cierre de campaña y llama a votar el 29-N en Cádiz",
     "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWWV3aEk2UXIwLWxnODU4Ty1USkZXYUtqNjFINkpzajc3Ni1CbzFfV242TFozMmJwa2QyYXMwZzdwZ3JTVi1MYzJGbVh6RVlNc3hHdzVTNG9NM0pnVnlwZ1RxSDdFVEEtMG1HcnFKNU9HeWtDZFNqdnpTaDc0YnQzaktBOXd0bWNXMTh6WkNrbFd3WmN3V3pfXzA4QjNlYVdHRzhtOE9aTTBKTkZmeTFKSXRzZzVQMEZaSmln?oc=5",
     "fuente": "Cadiznoticias",
@@ -534,12 +562,6 @@
     "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTnVaYXhvdFphTWkxZHJtUXpheHlDWjlxM3diUkJxcXhKY0xsRkJmZkZ5VTJSNHdYX1dGUkJndjh1aVNLUFk1MDc5SmhPRDFRT1o3enlYRHgteVpHTTNUWi10Mkw4Wlp1Smt1WmZnaWgzMzhQWTl2bFcwaC1Fd2w0cjdjbW9CUnB0d0lOUW93dngzVTEyTUJCVDkyaGd4YW0yQ0NzdmJlVk1fdXFJVmJwdEtR0gG3AUFVX3lxTFBHYlNJaXZqcW90NnVCekRqV1RNV1REbUo0VVhyYzJLUGYwLTZGZkpqVWJXblJxekJYTnByMnBTX1l1SFFnREdmT0Vwc2wzTkttYU91eGtZVnNPMVZBemJ0b3ZKWXBCTDB3R180cWxXY0dUdDFRYkdfQUlBV2ZoakowZ2pGTEdhQnhKQTFtYzNXZFJVQjlYS1hNc0d4VXNnVzZNdVl4QVg3MThEeThrZlYzTjh3UDNOZw?oc=5",
     "fuente": "El Correo de Andalucía",
     "fecha": "2026-11-27T20:11:00+00:00"
-   },
-   {
-    "titulo": "Adelante Andalucía se ve haciendo historia este domingo: \"Sí, sí, sí, nos vamos a Madrid\" y \"aquí estamos los garrapateros\"",
-    "enlace": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPMEYwM2oybDJhQ1NTcnd5cXhkdkFEMEYzS3VDcjkxSzFpNUpSOEN2WHJJS3FXSE1jY3B3dnY5MUVySVVqbDV4TTBuSXE4a0NmNTNfbm14S0hzMVRxUzVDLV9nWnd0bHpFSmNGd2I1MGdDdTJwa0lhR1kycDM5NVNLZWxYX0FJaVB1RE9ZWk5BdXJaRU43NFBzQWRjd1loRnpHT2YzM01vaEVsYWd4NXJfMmpUdDg4UXE0N0pPLVZTUzR3cUFvV2dlZmdnZGlKc05pTU15bDB0Wk5EWmhiQ195emc4T09fVjJoQlE4ZzhqTktkbkR3bW9nMlVKMmk1MmZTRnNoaEpvTDdCdTdSbTJrS3VQNkFQTWs?oc=5",
-    "fuente": "lavozdelsur.es",
-    "fecha": "2026-11-27T20:04:18+00:00"
    }
   ]
  },
@@ -580,22 +602,16 @@
   ],
   "Vox": [
    {
-    "titulo": "Abascal y el número de casas, médicos, policías y profesores",
-    "enlace": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FTFEzb1c1QWY1bFUzb2ExYmpUVmtkcDZhQWtQLXFoR0NjYkRFU200bDlOQWRtMnJwRGhoQi14X1JpdTJLV01MM3AtMUFBS3FEbzNLVWZNdDBFNjhpaDAxS2wtMFdzUHQ4aXNKVF9Jb2Z4VjA?oc=5",
-    "fuente": "Newtral",
-    "fecha": "2026-11-27T15:19:10+00:00"
-   },
-   {
-    "titulo": "Amnistía Internacional no está “mantenida con el dinero público” de los españoles como asegura Abascal",
-    "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RXzdFQmdXeDNoQXJUTGtjRENHdUh4N2NMX016WERLcHZYbW02NFdYcnh6WURXS2xOUXpjU25YMkk3VldQZkNXVzB4SFNoZUk1dnNuN2IxNFpLVjdPRF9XX2ZkNGhQbGw1UFNnOC00S2VmblNIdVptSW95ZFdMVk0?oc=5",
-    "fuente": "Newtral",
-    "fecha": "2026-11-27T13:20:46+00:00"
-   },
-   {
     "titulo": "Las denuncias por agresiones sexuales han aumentado desde 2018 pero no en la medida que cita Abascal",
     "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PTE01TkR6c2YyZ1JWRzVaOUNFMGNVRlJuSEZEb2gwT3ZFNUxRVFduYjU3NkUwYWV1akJwdTk4NVJqVUItOFRnaFRhaGR5Q2hUNXVNWFJwNVh3RldsbWxreUlHeHZUZzlURklJLXB1b25nWWFlSEdTZDNn?oc=5",
     "fuente": "Newtral",
     "fecha": "2026-11-27T11:44:05+00:00"
+   },
+   {
+    "titulo": "¿José Miguel Tasende (Vox): “VOX es el único partido que está absolutamente en todos los barrios”?",
+    "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR3JWa0NzMjZsWHV4dHZVNUFUalozSENhSGdtY3d6SHNtVzd6b01TZnhUdHFReFhOOTFfSUpMRHFtcnVuQnQ3a0hieWZueFhHYXJMWWp0WjFTeGg2XzNYZFB2bnR3ZFdHX3FyTDl1dk1NZjRldWNvdGpGd0Z3RV9TRUJPX0N3SmJGR1ZoczBmUXNLVEc5Q0dxTXM3VDZPVndEbXNlRXFFcmFidjFmNVRzajhMWHlrdHpQM2dDclgxRmJkeGs?oc=5",
+    "fuente": "Maldita.es",
+    "fecha": "2026-11-27T11:09:51+00:00"
    }
   ],
   "Sumar": [],
@@ -707,16 +723,16 @@
    "fecha": "2026-11-27T16:11:03+00:00"
   },
   {
-   "titulo": "Feijóo no corrigió su promesa de construir un millón de viviendas: fue un error de transcripción en una entrevista",
-   "enlace": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jX2l5cF9UU1JlUy1yNTdxcjZOMUpaNG5ERWNUQ2xiSWdVWXM4SlhMM0hubVN6RERaWi13aEM3dG14bFo2ZmROeHR3Tl9vVEg4NjRKTUNTSk9lckhVaXJUQ2JxQUlnYzV6LVpiTkxyWXdDZFRf?oc=5",
-   "fuente": "Newtral",
-   "fecha": "2026-11-27T16:06:38+00:00"
-  },
-  {
    "titulo": "¿El Tribunal Supremo considera \"gravísimo\" un posible indulto del Gobierno a Álvaro García Ortiz?",
    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaGpZMy1uTlBaT2laMkZWMVpzVGlNZmRsdVlzcHZtTlV4Y2lTT09fOVE0b3B1dk5RX3F4RnJHNXAwN2lUeGdKR0xoUlNFOXQyTS11Mkc4RmNOTzFYS29hSHhQYVhmeW0tbFpnUW9mUk1BN1VUQTVMVzI5T3JWQmQ1emtsYmVXWEVLUmNscDNrRGlZWXdkVUxXbUZLT1pFM3pjd0tyVnlZY2EzMWFCUXAteTYzcmIyY1laUFpHcmt3NlNVSnQxcXc?oc=5",
    "fuente": "Maldita.es",
    "fecha": "2026-11-27T16:00:59+00:00"
+  },
+  {
+   "titulo": "La red de desinformación política rentable: 200 páginas de Facebook creadas en periodo electoral embarran el 29N",
+   "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUlRTZ3VYZkpnQTRtM3FDakR6QS1nQU8zOGxvbHZ4RFc1SEswME1CRG15QWFYb3pkcEJadEs2ckFNUWRBR0ZSSVZyN0hBT0o2ZUJWc01rTU5PTlJVWU5QMHp0bGhRUFRBbDlSQk50ZTRUdG02eWpSc0E2Wk5XVEM1LU03cUYwbDRaSGNZUlN0TGF0ZVhyLVB3UDJR?oc=5",
+   "fuente": "Maldita.es",
+   "fecha": "2026-11-27T15:42:20+00:00"
   }
  ],
  "polemicas": [
@@ -726,13 +742,6 @@
    "fuente": "Libertad Digital",
    "fecha": "2026-11-27T19:49:34+00:00",
    "partido": "PSOE"
-  },
-  {
-   "titulo": "Choque de bloques en el último debate electoral en España: Sánchez y Colau frente a Feijóo y Abascal",
-   "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVzZISWJXNW1LWjMteVZxNU83YXA1OVpnRENTQ2tZcWVhUHlCQ1p6Y2ZROGRjMGp3amFnbVhYMjVVWlhoQUhnMzRjZUJvWUY2TEhmVXZRYXJtT1Y1NGlycExCMlY4SHI5VXFvb3FIQ213bmtrTWRkNTlFRXZLaU05RVdUa2ZQck1vd0J0T2VJTlN5dE1BYnlxS0tuOGpuNlJSZVFrTnVteU81MmNTSWVHVFZKQW94MzFOLU5Ca0pHamxYUlBHNzhfaVhELVNDRnBaNDl4T3dpVFRRWHM?oc=5",
-   "fuente": "El Diario de Sonora",
-   "fecha": "2026-11-27T19:03:26+00:00",
-   "partido": "Vox"
   },
   {
    "titulo": "El comentario machista de Feijóo contra Ada Colau que desató la polémica en España",
@@ -774,6 +783,13 @@
    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPT2FnRE1FeGRrNHZLWkxRTmplc19iUzZoeDdaSWR1Uzk2VlMzOF9lS1Y1VVFNdmRlblh2cE82UjZuczRkemxscGgxUnJKbzktSEtMUUp5RUNOM1B4Z1JJeXVBY0tDekxudElwbDVjRFZPZGxhWDdYb0RWd3ZObkF3Q0pGaTNJdUZxTVM4YjdCMDA3eTdVY05pWmJZR0xpMW5FXzZEekd5SW95bmdkVjZ2Vmc5d3RXT2FCeXgyQzAwRzdmNzViWnhITno4MFpTdi1qa3R6VmlpTUViaTFHSmt0YWxqT3dwZzQ?oc=5",
    "fuente": "Europa Press",
    "fecha": "2026-11-27T12:31:30+00:00",
+   "partido": "Vox"
+  },
+  {
+   "titulo": "PP y Vox reprueban a Tolón en Toledo por el uso de su VPO y piden su dimisión: \"No ha vivido en ella y la ha alquilado\"",
+   "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOU3huR3BjVEt4bXhJaHZxWFoxN1E2ZG9YaC02b1JTbWFYYldPR2JfRlVXaW81NDBjMjZsd2VIS0NiYUJDcnlOUmtvUkNBdGduOFFkOUt5ejBWYUs5WlBrcElFTmdOM3B3NjNmQ1NmSWRLbjl4QVlucnZmUFA4WmRVWUhidWRoVVRRd0lPaEhIVEpKbi1ob2FkZ004RmFlak5oakZUN0lkdzlBQzZkbTdJZW12VnZPeFJCS2VSMV9obmdQczNfLURPSWdRWGFfSXJfSW5qWU51X2VYaVhJNXBZQjF6NGR0WXZSTVE?oc=5",
+   "fuente": "ENCLM | Las noticias de Castilla-La Mancha",
+   "fecha": "2026-11-27T11:34:00+00:00",
    "partido": "Vox"
   },
   {
